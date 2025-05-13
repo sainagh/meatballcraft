@@ -4,6 +4,12 @@ import mods.thaumcraft.Infusion;
 import mods.appliedenergistics2.Inscriber;
 
 
+recipes.addShaped(<aoa3:rune_shrine>,
+[[<ore:ingotSilver>, <aoa3:unpowered_rune>, <ore:ingotSilver>],
+[<aoa3:unpowered_rune>, <aoa3:ancient_rock>, <aoa3:unpowered_rune>],
+[<ore:ingotSilver>, <aoa3:unpowered_rune>, <ore:ingotSilver>]]);
+
+
 mods.thaumcraft.Infusion.registerRecipe("infusefractalstone", "", 
 <contenttweaker:fractal_stone>, 10,
 [<aspect:caeles>*1000, <aspect:cognitio>*1000, <aspect:desiderium>*1000, <aspect:imperium>*1000, <aspect:mythus>*1000, <aspect:praecantatio>*1000, <aspect:permutatio>*1000, <aspect:fabrico>*1000, <aspect:victus>*1000, <aspect:instrumentum>*1000], 
@@ -150,7 +156,7 @@ mythmeltactualizingfluid6.build();
 
 
 val divinecombineralltheshells = RecipeBuilder.newBuilder("divinecombineralltheshells","divine_combiner",2);
-divinecombineralltheshells.addEnergyPerTickInput(60000);
+divinecombineralltheshells.addFluidInput(<fluid:recursive_life_essence>*1000);
 divinecombineralltheshells.addItemInput(<contenttweaker:eden_star>);
 divinecombineralltheshells.addItemInput(<contenttweaker:eden_core>);
 divinecombineralltheshells.addItemInput(<contenttweaker:wildwood_star>);
@@ -200,13 +206,13 @@ mith30.addItemOutput(<contenttweaker:unbound_recursium_fragment>*64);
 mith30.setChance(0.5);
 mith30.addItemOutput(<contenttweaker:light_of_shadesmar>*10);
 mith30.setChance(0.1);
-mith30.addItemOutput(<contenttweaker:white_hole>*20);
+mith30.addItemOutput(<contenttweaker:white_hole>*50);
+mith30.setChance(0.6);
+mith30.addItemOutput(<contenttweaker:cosmic_pot>*4);
+mith30.setChance(0.8);
+mith30.addItemOutput(<contenttweaker:stormlight_stone>*64);
 mith30.setChance(0.1);
-mith30.addItemOutput(<contenttweaker:cosmic_pot>);
-mith30.setChance(0.1);
-mith30.addItemOutput(<contenttweaker:stormlight_stone>*8);
-mith30.setChance(0.1);
-mith30.addItemOutput(<contenttweaker:soul_of_kashan>*12);
+mith30.addItemOutput(<contenttweaker:soul_of_kashan>*32);
 mith30.setChance(0.1);
 mith30.addItemOutput(<contenttweaker:tier30_token>);
 mith30.build();
@@ -215,6 +221,11 @@ recipes.addShaped(<contenttweaker:stone_of_shadesmar>*8,
 [[<contenttweaker:stormlight_stone>, <contenttweaker:stormlight_stone>, <contenttweaker:stormlight_stone>],
 [<contenttweaker:stormlight_stone>, <contenttweaker:freedomsteel_ingot>, <contenttweaker:stormlight_stone>],
 [<contenttweaker:stormlight_stone>, <contenttweaker:stormlight_stone>, <contenttweaker:stormlight_stone>]]);
+
+recipes.addShaped(<contenttweaker:stone_of_the_resurrected_shard>*2,
+[[<contenttweaker:meteoric_draconic_stone>, <contenttweaker:meteoric_draconic_stone>, <contenttweaker:meteoric_draconic_stone>],
+[<contenttweaker:stone_of_shadesmar>, <contenttweaker:warren_shard>, <contenttweaker:stone_of_shadesmar>],
+[<contenttweaker:meteoric_draconic_stone>, <contenttweaker:meteoric_draconic_stone>, <contenttweaker:meteoric_draconic_stone>]]);
 
 
 recipes.addShaped(<contenttweaker:pure_twilight_matter>*1,
@@ -1102,8 +1113,8 @@ creatverdith6.addFluidInput(<fluid:myrmitite>*102400);
 creatverdith6.addFluidInput(<fluid:rhenium>*102400);
 creatverdith6.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§MMode 6§r"]}}));
 creatverdith6.setChance(0.0);
-creatverdith6.addItemInput(<contenttweaker:sacred_cinders_fruit>*256);
-creatverdith6.addItemInput(<tconstruct:materials:16>*256);
+creatverdith6.addItemInput(<contenttweaker:sacred_cinders_fruit>*1024);
+creatverdith6.addItemInput(<tconstruct:materials:16>*1024);
 creatverdith6.addFluidOutput(<fluid:whisper_of_verdith_anath>*100000);
 creatverdith6.build();
 

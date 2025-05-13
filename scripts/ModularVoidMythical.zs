@@ -420,6 +420,7 @@ recipes.addShapeless(<contenttweaker:better_hellfire>, [<aoa3:hellfire>]);
 mods.thermalexpansion.InductionSmelter.addRecipe(<materialpart:dreadite:ingot>*2, 
 <abyssalcraft:dreadiumingot>, <nuclearcraft:ingot_oxide:1>, 
 5000);
+mods.nuclearcraft.alloy_furnace.addRecipe([<abyssalcraft:dreadiumingot>, <nuclearcraft:ingot_oxide:1>, <materialpart:dreadite:ingot>*2]);
 
 val dreadcruc = RecipeBuilder.newBuilder("dreaditecrucible","dragonfire_crucible",100);
 dreadcruc.addFluidInput(<fluid:eternal_dragon_fire>*400);

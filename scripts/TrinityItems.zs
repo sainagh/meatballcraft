@@ -24,16 +24,19 @@ import crafttweaker.block.IBlockState;
 
 
 
-function getBlockMatchAtPosition(blockTargetName as string, playerPos as crafttweaker.util.Position3f, blockLocation as int [], world as crafttweaker.world.IWorld) as int{
+function getBlockMatchAtPosition(blockTargetID as string, playerPos as crafttweaker.util.Position3f, blockLocation as int [], world as crafttweaker.world.IWorld) as int{
     // 1 if block matches, 0 if not
     var match = 0 as int;
     // get block position from relative to world coordinates
     var checkPos as crafttweaker.util.Position3f;
     checkPos = crafttweaker.util.Position3f.create(playerPos.x + blockLocation[0], playerPos.y + blockLocation[1], playerPos.z + blockLocation[2]);
-    // get block name at coordinates
-	var blockName = world.getBlock(checkPos).definition.displayName as string;
-    // check if block name matches
-    if (blockName == blockTargetName){
+    // get block id at coordinates
+    val state = world.getBlock(checkPos);
+    val blockID = state.definition.id as string;
+    val blockMeta = state.meta;
+    val fullBlockID = blockMeta == 0 ? blockID : blockID + ":" + blockMeta; 
+    // check if block id matches
+    if (fullBlockID == blockTargetID){
         match = 1;
     }
     return match;
@@ -75,356 +78,356 @@ calltomission.itemRightClick = function(stack, world, player, hand) {
 
     // go through all blocks in the momument
 
-    if (getBlockMatchAtPosition("Sooty Marble", playerPos, [0,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockblackmarble", playerPos, [0,0,0], world) == 0) {
         player.sendChat("Missing Sooty Marble: [0,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sooty Marble", playerPos, [1,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockblackmarble", playerPos, [1,0,0], world) == 0) {
         player.sendChat("Missing Sooty Marble: [1,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sooty Marble", playerPos, [0,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockblackmarble", playerPos, [0,0,1], world) == 0) {
         player.sendChat("Missing Sooty Marble: [0,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sooty Marble", playerPos, [1,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockblackmarble", playerPos, [1,0,1], world) == 0) {
         player.sendChat("Missing Sooty Marble: [1,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sooty Marble", playerPos, [-1,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockblackmarble", playerPos, [-1,0,0], world) == 0) {
         player.sendChat("Missing Sooty Marble: [-1,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sooty Marble", playerPos, [0,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockblackmarble", playerPos, [0,0,-1], world) == 0) {
         player.sendChat("Missing Sooty Marble: [0,0,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sooty Marble", playerPos, [-1,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockblackmarble", playerPos, [-1,0,-1], world) == 0) {
         player.sendChat("Missing Sooty Marble: [-1,0,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sooty Marble", playerPos, [1,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockblackmarble", playerPos, [1,0,-1], world) == 0) {
         player.sendChat("Missing Sooty Marble: [1,0,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sooty Marble", playerPos, [-1,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockblackmarble", playerPos, [-1,0,1], world) == 0) {
         player.sendChat("Missing Sooty Marble: [-1,0,1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcanium Block", playerPos, [0,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("divinerpg:arcanium_block", playerPos, [0,0,2], world) == 0) {
         player.sendChat("Missing Arcanium Block: [0,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcanium Block", playerPos, [1,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("divinerpg:arcanium_block", playerPos, [1,0,2], world) == 0) {
         player.sendChat("Missing Arcanium Block: [1,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcanium Block", playerPos, [-1,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("divinerpg:arcanium_block", playerPos, [-1,0,2], world) == 0) {
         player.sendChat("Missing Arcanium Block: [-1,0,2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcanium Block", playerPos, [0,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("divinerpg:arcanium_block", playerPos, [0,0,-2], world) == 0) {
         player.sendChat("Missing Arcanium Block: [0,0,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcanium Block", playerPos, [1,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("divinerpg:arcanium_block", playerPos, [1,0,-2], world) == 0) {
         player.sendChat("Missing Arcanium Block: [1,0,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcanium Block", playerPos, [-1,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("divinerpg:arcanium_block", playerPos, [-1,0,-2], world) == 0) {
         player.sendChat("Missing Arcanium Block: [-1,0,-2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcanium Block", playerPos, [2,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("divinerpg:arcanium_block", playerPos, [2,0,0], world) == 0) {
         player.sendChat("Missing Arcanium Block: [2,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcanium Block", playerPos, [2,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("divinerpg:arcanium_block", playerPos, [2,0,1], world) == 0) {
         player.sendChat("Missing Arcanium Block: [2,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcanium Block", playerPos, [2,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("divinerpg:arcanium_block", playerPos, [2,0,-1], world) == 0) {
         player.sendChat("Missing Arcanium Block: [2,0,-1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcanium Block", playerPos, [-2,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("divinerpg:arcanium_block", playerPos, [-2,0,0], world) == 0) {
         player.sendChat("Missing Arcanium Block: [-2,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcanium Block", playerPos, [-2,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("divinerpg:arcanium_block", playerPos, [-2,0,1], world) == 0) {
         player.sendChat("Missing Arcanium Block: [-2,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcanium Block", playerPos, [-2,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("divinerpg:arcanium_block", playerPos, [-2,0,-1], world) == 0) {
         player.sendChat("Missing Arcanium Block: [-2,0,-1]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [0,0,3], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [0,0,3], world) == 0) {
         player.sendChat("Missing Marble Bricks: [0,0,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [1,0,3], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [1,0,3], world) == 0) {
         player.sendChat("Missing Marble Bricks: [1,0,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-1,0,3], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [-1,0,3], world) == 0) {
         player.sendChat("Missing Marble Bricks: [-1,0,3]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [0,0,-3], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [0,0,-3], world) == 0) {
         player.sendChat("Missing Marble Bricks: [0,0,-3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [1,0,-3], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [1,0,-3], world) == 0) {
         player.sendChat("Missing Marble Bricks: [1,0,-3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-1,0,-3], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [-1,0,-3], world) == 0) {
         player.sendChat("Missing Marble Bricks: [-1,0,-3]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [3,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [3,0,0], world) == 0) {
         player.sendChat("Missing Marble Bricks: [3,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [3,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [3,0,1], world) == 0) {
         player.sendChat("Missing Marble Bricks: [3,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [3,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [3,0,-1], world) == 0) {
         player.sendChat("Missing Marble Bricks: [3,0,-1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [-3,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [-3,0,0], world) == 0) {
         player.sendChat("Missing Marble Bricks: [-3,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-3,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [-3,0,1], world) == 0) {
         player.sendChat("Missing Marble Bricks: [-3,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-3,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [-3,0,-1], world) == 0) {
         player.sendChat("Missing Marble Bricks: [-3,0,-1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [2,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [2,0,2], world) == 0) {
         player.sendChat("Missing Marble Bricks: [2,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [2,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [2,0,-2], world) == 0) {
         player.sendChat("Missing Marble Bricks: [2,0,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-2,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [-2,0,2], world) == 0) {
         player.sendChat("Missing Marble Bricks: [-2,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-2,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:1", playerPos, [-2,0,-2], world) == 0) {
         player.sendChat("Missing Marble Bricks: [-2,0,-2]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [0,0,4], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [0,0,4], world) == 0) {
         player.sendChat("Missing Runed Marble: [0,0,4]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [1,0,4], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [1,0,4], world) == 0) {
         player.sendChat("Missing Runed Marble: [1,0,4]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-1,0,4], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [-1,0,4], world) == 0) {
         player.sendChat("Missing Runed Marble: [-1,0,4]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [0,0,-4], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [0,0,-4], world) == 0) {
         player.sendChat("Missing Runed Marble: [0,0,-4]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [1,0,-4], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [1,0,-4], world) == 0) {
         player.sendChat("Missing Runed Marble: [1,0,-4]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-1,0,-4], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [-1,0,-4], world) == 0) {
         player.sendChat("Missing Runed Marble: [-1,0,-4]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [-4,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [-4,0,0], world) == 0) {
         player.sendChat("Missing Runed Marble: [-4,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-4,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [-4,0,1], world) == 0) {
         player.sendChat("Missing Runed Marble: [-4,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-4,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [-4,0,-1], world) == 0) {
         player.sendChat("Missing Runed Marble: [-4,0,-1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [4,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [4,0,0], world) == 0) {
         player.sendChat("Missing Runed Marble: [4,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [4,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [4,0,1], world) == 0) {
         player.sendChat("Missing Runed Marble: [4,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [4,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [4,0,-1], world) == 0) {
         player.sendChat("Missing Runed Marble: [4,0,-1]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [3,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [3,0,2], world) == 0) {
         player.sendChat("Missing Runed Marble: [3,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [3,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [3,0,-2], world) == 0) {
         player.sendChat("Missing Runed Marble: [3,0,-2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [-3,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [-3,0,2], world) == 0) {
         player.sendChat("Missing Runed Marble: [-3,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-3,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [-3,0,-2], world) == 0) {
         player.sendChat("Missing Runed Marble: [-3,0,-2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [2,0,3], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [2,0,3], world) == 0) {
         player.sendChat("Missing Runed Marble: [2,0,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-2,0,3], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [-2,0,3], world) == 0) {
         player.sendChat("Missing Runed Marble: [-2,0,3]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [2,0,-3], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [2,0,-3], world) == 0) {
         player.sendChat("Missing Runed Marble: [2,0,-3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-2,0,-3], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:6", playerPos, [-2,0,-3], world) == 0) {
         player.sendChat("Missing Runed Marble: [-2,0,-3]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [3,1,0], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [3,1,0], world) == 0) {
         player.sendChat("Missing Marble Pillar: [3,1,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-3,1,0], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [-3,1,0], world) == 0) {
         player.sendChat("Missing Marble Pillar: [-3,1,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [0,1,3], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [0,1,3], world) == 0) {
         player.sendChat("Missing Marble Pillar: [0,1,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [0,1,-3], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [0,1,-3], world) == 0) {
         player.sendChat("Missing Marble Pillar: [0,1,-3]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [2,1,2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [2,1,2], world) == 0) {
         player.sendChat("Missing Marble Pillar: [2,1,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-2,1,2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [-2,1,2], world) == 0) {
         player.sendChat("Missing Marble Pillar: [-2,1,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [2,1,-2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [2,1,-2], world) == 0) {
         player.sendChat("Missing Marble Pillar: [2,1,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-2,1,-2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [-2,1,-2], world) == 0) {
         player.sendChat("Missing Marble Pillar: [-2,1,-2]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [3,2,0], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [3,2,0], world) == 0) {
         player.sendChat("Missing Marble Pillar: [3,2,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-3,2,0], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [-3,2,0], world) == 0) {
         player.sendChat("Missing Marble Pillar: [-3,2,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [0,2,3], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [0,2,3], world) == 0) {
         player.sendChat("Missing Marble Pillar: [0,2,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [0,2,-3], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [0,2,-3], world) == 0) {
         player.sendChat("Missing Marble Pillar: [0,2,-3]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Marble", playerPos, [2,2,2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [2,2,2], world) == 0) {
         player.sendChat("Missing Marble Pillar: [2,2,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-2,2,2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [-2,2,2], world) == 0) {
         player.sendChat("Missing Marble Pillar: [-2,2,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [2,2,-2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [2,2,-2], world) == 0) {
         player.sendChat("Missing Marble Pillar: [2,2,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Marble", playerPos, [-2,2,-2], world) == 0) {
+    if (getBlockMatchAtPosition("astralsorcery:blockmarble:2", playerPos, [-2,2,-2], world) == 0) {
         player.sendChat("Missing Marble Pillar: [-2,2,-2]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Cuendillar Seal", playerPos, [3,3,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:cuendillar_seal", playerPos, [3,3,0], world) == 0) {
         player.sendChat("Missing Cuendillar Seal: [3,3,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Cuendillar Seal", playerPos, [-3,3,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:cuendillar_seal", playerPos, [-3,3,0], world) == 0) {
         player.sendChat("Missing Cuendillar Seal: [-3,3,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Cuendillar Seal", playerPos, [0,3,3], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:cuendillar_seal", playerPos, [0,3,3], world) == 0) {
         player.sendChat("Missing Cuendillar Seal: [0,3,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Cuendillar Seal", playerPos, [0,3,-3], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:cuendillar_seal", playerPos, [0,3,-3], world) == 0) {
         player.sendChat("Missing Cuendillar Seal: [0,3,-3]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Cuendillar Seal", playerPos, [2,3,2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:cuendillar_seal", playerPos, [2,3,2], world) == 0) {
         player.sendChat("Missing Cuendillar Seal: [2,3,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Cuendillar Seal", playerPos, [-2,3,2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:cuendillar_seal", playerPos, [-2,3,2], world) == 0) {
         player.sendChat("Missing Cuendillar Seal: [-2,3,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Cuendillar Seal", playerPos, [2,3,-2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:cuendillar_seal", playerPos, [2,3,-2], world) == 0) {
         player.sendChat("Missing Cuendillar Seal: [2,3,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Cuendillar Seal", playerPos, [-2,3,-2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:cuendillar_seal", playerPos, [-2,3,-2], world) == 0) {
         player.sendChat("Missing Cuendillar Seal: [-2,3,-2]");
         return "FAIL";
     }
@@ -502,7 +505,7 @@ prayertrinitylove.itemRightClick = function(stack, world, player, hand) {
     playerPos.y = playerPos.y - 1;
     playerPos.z = playerPos.z;
 
-    if (getBlockMatchAtPosition("Fractallite Stone of Love", playerPos, [0,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:fractallite_stone_of_love", playerPos, [0,0,0], world) == 0) {
         player.sendChat("Stand in the center of the Trinitas Callstone Structure");
         return "FAIL";
     }
@@ -548,249 +551,249 @@ keyofrestoredbalance.itemRightClick = function(stack, world, player, hand) {
 
     // go through all blocks in the momument
 
-    if (getBlockMatchAtPosition("tile.avaritia:block_resource.name", playerPos, [0,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("avaritia:block_resource:1", playerPos, [0,0,0], world) == 0) {
         player.sendChat("Missing Infinity Block: [0,0,0]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [1,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [1,0,0], world) == 0) {
         player.sendChat("Missing Celtic Sky stone Brick: [1,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [-1,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [-1,0,0], world) == 0) {
         player.sendChat("Missing Celtic Sky stone Brick: [-1,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [0,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [0,0,1], world) == 0) {
         player.sendChat("Missing Celtic Sky stone Brick: [0,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [0,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [0,0,-1], world) == 0) {
         player.sendChat("Missing Celtic Sky stone Brick: [0,0,-1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [1,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [1,0,1], world) == 0) {
         player.sendChat("Missing Celtic Sky stone Brick: [1,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [1,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [1,0,-1], world) == 0) {
         player.sendChat("Missing Celtic Sky stone Brick: [1,0,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [-1,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [-1,0,1], world) == 0) {
         player.sendChat("Missing Celtic Sky stone Brick: [-1,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [-1,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [-1,0,-1], world) == 0) {
         player.sendChat("Missing Celtic Sky stone Brick: [-1,0,-1]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Fluix Block", playerPos, [2,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("appliedenergistics2:fluix_block", playerPos, [2,0,0], world) == 0) {
         player.sendChat("Missing Fluix Block: [2,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Fluix Block", playerPos, [2,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("appliedenergistics2:fluix_block", playerPos, [2,0,1], world) == 0) {
         player.sendChat("Missing Fluix Block: [2,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Fluix Block", playerPos, [2,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("appliedenergistics2:fluix_block", playerPos, [2,0,-1], world) == 0) {
         player.sendChat("Missing Fluix Block: [2,0,-1]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Fluix Block", playerPos, [-2,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("appliedenergistics2:fluix_block", playerPos, [-2,0,0], world) == 0) {
         player.sendChat("Missing Fluix Block: [-2,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Fluix Block", playerPos, [-2,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("appliedenergistics2:fluix_block", playerPos, [-2,0,1], world) == 0) {
         player.sendChat("Missing Fluix Block: [-2,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Fluix Block", playerPos, [-2,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("appliedenergistics2:fluix_block", playerPos, [-2,0,-1], world) == 0) {
         player.sendChat("Missing Fluix Block: [-2,0,-1]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Fluix Block", playerPos, [0,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("appliedenergistics2:fluix_block", playerPos, [0,0,2], world) == 0) {
         player.sendChat("Missing Fluix Block: [0,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Fluix Block", playerPos, [1,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("appliedenergistics2:fluix_block", playerPos, [1,0,2], world) == 0) {
         player.sendChat("Missing Fluix Block: [1,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Fluix Block", playerPos, [-1,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("appliedenergistics2:fluix_block", playerPos, [-1,0,2], world) == 0) {
         player.sendChat("Missing Fluix Block: [-1,0,2]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Fluix Block", playerPos, [0,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("appliedenergistics2:fluix_block", playerPos, [0,0,-2], world) == 0) {
         player.sendChat("Missing Fluix Block: [0,0,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Fluix Block", playerPos, [1,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("appliedenergistics2:fluix_block", playerPos, [1,0,-2], world) == 0) {
         player.sendChat("Missing Fluix Block: [1,0,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Fluix Block", playerPos, [-1,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("appliedenergistics2:fluix_block", playerPos, [-1,0,-2], world) == 0) {
         player.sendChat("Missing Fluix Block: [-1,0,-2]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [0,0,3], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [0,0,3], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [0,0,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [1,0,3], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [1,0,3], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [1,0,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [-1,0,3], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [-1,0,3], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [-1,0,3]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [0,0,-3], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [0,0,-3], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [0,0,-3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [1,0,-3], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [1,0,-3], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [1,0,-3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [-1,0,-3], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [-1,0,-3], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [-1,0,-3]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [3,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [3,0,0], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [3,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [3,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [3,0,1], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [3,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [3,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [3,0,-1], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [3,0,-1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [-3,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [-3,0,0], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [-3,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [-3,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [-3,0,1], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [-3,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [-3,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [-3,0,-1], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [-3,0,-1]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [2,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [2,0,2], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [2,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [2,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [2,0,-2], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [2,0,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [-2,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [-2,0,2], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [-2,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [-2,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [-2,0,-2], world) == 0) {
         player.sendChat("Missing Tiles Sky stone Brick: [-2,0,-2]");
         return "FAIL";
     }
 
 
 
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [2,1,2], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [2,1,2], world) == 0) {
         player.sendChat("Missing Pillar Sky stone Brick: [2,1,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [2,1,-2], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [2,1,-2], world) == 0) {
         player.sendChat("Missing Pillar Sky stone Brick: [2,1,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [-2,1,2], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [-2,1,2], world) == 0) {
         player.sendChat("Missing Pillar Sky stone Brick: [-2,1,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [-2,1,-2], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [-2,1,-2], world) == 0) {
         player.sendChat("Missing Pillar Sky stone Brick: [-2,1,-2]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [0,1,3], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [0,1,3], world) == 0) {
         player.sendChat("Missing Pillar Sky stone Brick: [0,1,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [0,1,-3], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [0,1,-3], world) == 0) {
         player.sendChat("Missing Pillar Sky stone Brick: [0,1,-3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [3,1,0], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [3,1,0], world) == 0) {
         player.sendChat("Missing Pillar Sky stone Brick: [3,1,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.tile.appliedenergistics2:sky_stone_brick.name", playerPos, [-3,1,0], world) == 0) {
+    if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [-3,1,0], world) == 0) {
         player.sendChat("Missing Pillar Sky stone Brick: [-3,1,0]");
         return "FAIL";
     }
 
 
     
-    if (getBlockMatchAtPosition("Seal of the Arbiter: Defender", playerPos, [2,2,2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:seal_of_the_arbiter_defender", playerPos, [2,2,2], world) == 0) {
         player.sendChat("Missing Seal of the Arbiter: Defender: [2,2,2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Seal of the Arbiter: Blacksmith", playerPos, [2,2,-2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:seal_of_the_arbiter_blacksmith", playerPos, [2,2,-2], world) == 0) {
         player.sendChat("Missing Seal of the Arbiter: Blacksmith: [2,2,-2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Seal of the Arbiter: Historian", playerPos, [-2,2,2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:seal_of_the_arbiter_historian", playerPos, [-2,2,2], world) == 0) {
         player.sendChat("Missing Seal of the Arbiter: Historian: [-2,2,2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Seal of the Arbiter: Theorist", playerPos, [-2,2,-2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:seal_of_the_arbiter_theorist", playerPos, [-2,2,-2], world) == 0) {
         player.sendChat("Missing Seal of the Arbiter: Theorist: [-2,2,-2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Seal of the Arbiter: Gemcutter", playerPos, [-3,2,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:seal_of_the_arbiter_gemcutter", playerPos, [-3,2,0], world) == 0) {
         player.sendChat("Missing Seal of the Arbiter: Gemcutter: [-3,2,0]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Seal of the Arbiter: Experimentalist", playerPos, [3,2,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:seal_of_the_arbiter_experimentalist", playerPos, [3,2,0], world) == 0) {
         player.sendChat("Missing Seal of the Arbiter: Experimentalist: [3,2,0]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Seal of the Arbiter: Engineer", playerPos, [0,2,3], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:seal_of_the_arbiter_engineer", playerPos, [0,2,3], world) == 0) {
         player.sendChat("Missing Seal of the Arbiter: Engineer: [0,2,3]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Seal of Freedom", playerPos, [0,2,-3], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:seal_of_freedom", playerPos, [0,2,-3], world) == 0) {
         player.sendChat("Missing Seal of Freedom: [0,2,-3]");
         return "FAIL";
     }
@@ -835,47 +838,47 @@ brokenichoriumjewel.itemRightClick = function(stack, world, player, hand) {
 
     // go through all blocks in the momument
 
-    if (getBlockMatchAtPosition("Ichorium Void Stone", playerPos, [0,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:ichorium_void_stone", playerPos, [0,0,0], world) == 0) {
         player.sendChat("Structure is incomplete, or you are not standing in the center of the totem monument");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Twilight Totem", playerPos, [3,3,0], world) == 0) {
+    if (getBlockMatchAtPosition("thaumadditions:twilight_totem", playerPos, [3,3,0], world) == 0) {
         player.sendChat("Structure is incomplete, or you are not standing in the center of the totem monument");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Twilight Totem", playerPos, [-3,3,0], world) == 0) {
+    if (getBlockMatchAtPosition("thaumadditions:twilight_totem", playerPos, [-3,3,0], world) == 0) {
         player.sendChat("Structure is incomplete, or you are not standing in the center of the totem monument");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Twilight Totem", playerPos, [0,3,3], world) == 0) {
+    if (getBlockMatchAtPosition("thaumadditions:twilight_totem", playerPos, [0,3,3], world) == 0) {
         player.sendChat("Structure is incomplete, or you are not standing in the center of the totem monument");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Twilight Totem", playerPos, [0,3,-3], world) == 0) {
+    if (getBlockMatchAtPosition("thaumadditions:twilight_totem", playerPos, [0,3,-3], world) == 0) {
         player.sendChat("Structure is incomplete, or you are not standing in the center of the totem monument");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Twilight Totem", playerPos, [2,3,2], world) == 0) {
+    if (getBlockMatchAtPosition("thaumadditions:twilight_totem", playerPos, [2,3,2], world) == 0) {
         player.sendChat("Structure is incomplete, or you are not standing in the center of the totem monument");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Twilight Totem", playerPos, [-2,3,2], world) == 0) {
+    if (getBlockMatchAtPosition("thaumadditions:twilight_totem", playerPos, [-2,3,2], world) == 0) {
         player.sendChat("Structure is incomplete, or you are not standing in the center of the totem monument");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Twilight Totem", playerPos, [2,3,-2], world) == 0) {
+    if (getBlockMatchAtPosition("thaumadditions:twilight_totem", playerPos, [2,3,-2], world) == 0) {
         player.sendChat("Structure is incomplete, or you are not standing in the center of the totem monument");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Twilight Totem", playerPos, [-2,3,-2], world) == 0) {
+    if (getBlockMatchAtPosition("thaumadditions:twilight_totem", playerPos, [-2,3,-2], world) == 0) {
         player.sendChat("Structure is incomplete, or you are not standing in the center of the totem monument");
         return "FAIL";
     }
@@ -932,356 +935,356 @@ voidichoriumrift.itemRightClick = function(stack, world, player, hand) {
 
     // go through all blocks in the momument
 
-    if (getBlockMatchAtPosition("tile.thaumicaugmentation.starfield_glass.name", playerPos, [0,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass", playerPos, [0,0,0], world) == 0) {
         player.sendChat("Missing Starfield Glass: [0,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.thaumicaugmentation.starfield_glass.name", playerPos, [1,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass", playerPos, [1,0,0], world) == 0) {
         player.sendChat("Missing Starfield Glass: [1,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.thaumicaugmentation.starfield_glass.name", playerPos, [0,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass", playerPos, [0,0,1], world) == 0) {
         player.sendChat("Missing Starfield Glass: [0,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.thaumicaugmentation.starfield_glass.name", playerPos, [1,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass", playerPos, [1,0,1], world) == 0) {
         player.sendChat("Missing Starfield Glass: [1,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.thaumicaugmentation.starfield_glass.name", playerPos, [-1,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass", playerPos, [-1,0,0], world) == 0) {
         player.sendChat("Missing Starfield Glass: [-1,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.thaumicaugmentation.starfield_glass.name", playerPos, [0,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass", playerPos, [0,0,-1], world) == 0) {
         player.sendChat("Missing Starfield Glass: [0,0,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.thaumicaugmentation.starfield_glass.name", playerPos, [-1,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass", playerPos, [-1,0,-1], world) == 0) {
         player.sendChat("Missing Starfield Glass: [-1,0,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.thaumicaugmentation.starfield_glass.name", playerPos, [1,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass", playerPos, [1,0,-1], world) == 0) {
         player.sendChat("Missing Starfield Glass: [1,0,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("tile.thaumicaugmentation.starfield_glass.name", playerPos, [-1,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass", playerPos, [-1,0,1], world) == 0) {
         player.sendChat("Missing Starfield Glass: [-1,0,1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Void Metal Block", playerPos, [0,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:metal_void", playerPos, [0,0,2], world) == 0) {
         player.sendChat("Missing Void Metal Block: [0,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Void Metal Block", playerPos, [1,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:metal_void", playerPos, [1,0,2], world) == 0) {
         player.sendChat("Missing Void Metal Block: [1,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Void Metal Block", playerPos, [-1,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:metal_void", playerPos, [-1,0,2], world) == 0) {
         player.sendChat("Missing Void Metal Block: [-1,0,2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Void Metal Block", playerPos, [0,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:metal_void", playerPos, [0,0,-2], world) == 0) {
         player.sendChat("Missing Void Metal Block: [0,0,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Void Metal Block", playerPos, [1,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:metal_void", playerPos, [1,0,-2], world) == 0) {
         player.sendChat("Missing Void Metal Block: [1,0,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Void Metal Block", playerPos, [-1,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:metal_void", playerPos, [-1,0,-2], world) == 0) {
         player.sendChat("Missing Void Metal Block: [-1,0,-2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Void Metal Block", playerPos, [2,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:metal_void", playerPos, [2,0,0], world) == 0) {
         player.sendChat("Missing Void Metal Block: [2,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Void Metal Block", playerPos, [2,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:metal_void", playerPos, [2,0,1], world) == 0) {
         player.sendChat("Missing Void Metal Block: [2,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Void Metal Block", playerPos, [2,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:metal_void", playerPos, [2,0,-1], world) == 0) {
         player.sendChat("Missing Void Metal Block: [2,0,-1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Void Metal Block", playerPos, [-2,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:metal_void", playerPos, [-2,0,0], world) == 0) {
         player.sendChat("Missing Void Metal Block: [-2,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Void Metal Block", playerPos, [-2,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:metal_void", playerPos, [-2,0,1], world) == 0) {
         player.sendChat("Missing Void Metal Block: [-2,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Void Metal Block", playerPos, [-2,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:metal_void", playerPos, [-2,0,-1], world) == 0) {
         player.sendChat("Missing Void Metal Block: [-2,0,-1]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [0,0,3], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [0,0,3], world) == 0) {
         player.sendChat("Missing Arcane Stone: [0,0,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [1,0,3], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [1,0,3], world) == 0) {
         player.sendChat("Missing Arcane Stone: [1,0,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-1,0,3], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [-1,0,3], world) == 0) {
         player.sendChat("Missing Arcane Stone: [-1,0,3]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [0,0,-3], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [0,0,-3], world) == 0) {
         player.sendChat("Missing Arcane Stone: [0,0,-3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [1,0,-3], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [1,0,-3], world) == 0) {
         player.sendChat("Missing Arcane Stone: [1,0,-3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-1,0,-3], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [-1,0,-3], world) == 0) {
         player.sendChat("Missing Arcane Stone: [-1,0,-3]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [3,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [3,0,0], world) == 0) {
         player.sendChat("Missing Arcane Stone: [3,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [3,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [3,0,1], world) == 0) {
         player.sendChat("Missing Arcane Stone: [3,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [3,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [3,0,-1], world) == 0) {
         player.sendChat("Missing Arcane Stone: [3,0,-1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-3,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [-3,0,0], world) == 0) {
         player.sendChat("Missing Arcane Stone: [-3,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-3,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [-3,0,1], world) == 0) {
         player.sendChat("Missing Arcane Stone: [-3,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-3,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [-3,0,-1], world) == 0) {
         player.sendChat("Missing Arcane Stone: [-3,0,-1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [2,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [2,0,2], world) == 0) {
         player.sendChat("Missing Arcane Stone: [2,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [2,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [2,0,-2], world) == 0) {
         player.sendChat("Missing Arcane Stone: [2,0,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-2,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [-2,0,2], world) == 0) {
         player.sendChat("Missing Arcane Stone: [-2,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-2,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("thaumcraft:stone_arcane", playerPos, [-2,0,-2], world) == 0) {
         player.sendChat("Missing Arcane Stone: [-2,0,-2]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [0,0,4], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [0,0,4], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [0,0,4]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [1,0,4], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [1,0,4], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [1,0,4]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-1,0,4], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [-1,0,4], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [-1,0,4]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [0,0,-4], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [0,0,-4], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [0,0,-4]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [1,0,-4], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [1,0,-4], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [1,0,-4]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-1,0,-4], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [-1,0,-4], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [-1,0,-4]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-4,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [-4,0,0], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [-4,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-4,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [-4,0,1], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [-4,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-4,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [-4,0,-1], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [-4,0,-1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [4,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [4,0,0], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [4,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [4,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [4,0,1], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [4,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [4,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [4,0,-1], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [4,0,-1]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [3,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [3,0,2], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [3,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [3,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [3,0,-2], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [3,0,-2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-3,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [-3,0,2], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [-3,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-3,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [-3,0,-2], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [-3,0,-2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [2,0,3], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [2,0,3], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [2,0,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-2,0,3], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [-2,0,3], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [-2,0,3]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [2,0,-3], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [2,0,-3], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [2,0,-3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-2,0,-3], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:7", playerPos, [-2,0,-3], world) == 0) {
         player.sendChat("Missing Arcane Stone (Celtic): [-2,0,-3]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [3,1,0], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [3,1,0], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [3,1,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-3,1,0], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [-3,1,0], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [-3,1,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [0,1,3], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [0,1,3], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [0,1,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [0,1,-3], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [0,1,-3], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [0,1,-3]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [2,1,2], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [2,1,2], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [2,1,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-2,1,2], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [-2,1,2], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [-2,1,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [2,1,-2], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [2,1,-2], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [2,1,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-2,1,-2], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [-2,1,-2], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [-2,1,-2]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [3,2,0], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [3,2,0], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [3,2,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-3,2,0], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [-3,2,0], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [-3,2,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [0,2,3], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [0,2,3], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [0,2,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [0,2,-3], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [0,2,-3], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [0,2,-3]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [2,2,2], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [2,2,2], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [2,2,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-2,2,2], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [-2,2,2], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [-2,2,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [2,2,-2], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [2,2,-2], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [2,2,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Arcane Stone", playerPos, [-2,2,-2], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:arcane_stone1:13", playerPos, [-2,2,-2], world) == 0) {
         player.sendChat("Missing Arcane Stone (Pillar): [-2,2,-2]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Void Ichorium Rift Cap", playerPos, [3,3,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:void_ichorium_rift_cap", playerPos, [3,3,0], world) == 0) {
         player.sendChat("Missing Void Ichorium Rift Cap: [3,3,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Void Ichorium Rift Cap", playerPos, [-3,3,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:void_ichorium_rift_cap", playerPos, [-3,3,0], world) == 0) {
         player.sendChat("Missing Void Ichorium Rift Cap: [-3,3,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Void Ichorium Rift Cap", playerPos, [0,3,3], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:void_ichorium_rift_cap", playerPos, [0,3,3], world) == 0) {
         player.sendChat("Missing Void Ichorium Rift Cap: [0,3,3]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Void Ichorium Rift Cap", playerPos, [0,3,-3], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:void_ichorium_rift_cap", playerPos, [0,3,-3], world) == 0) {
         player.sendChat("Missing Void Ichorium Rift Cap: [0,3,-3]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Void Ichorium Rift Cap", playerPos, [2,3,2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:void_ichorium_rift_cap", playerPos, [2,3,2], world) == 0) {
         player.sendChat("Missing Void Ichorium Rift Cap: [2,3,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Void Ichorium Rift Cap", playerPos, [-2,3,2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:void_ichorium_rift_cap", playerPos, [-2,3,2], world) == 0) {
         player.sendChat("Missing Void Ichorium Rift Cap: [-2,3,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Void Ichorium Rift Cap", playerPos, [2,3,-2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:void_ichorium_rift_cap", playerPos, [2,3,-2], world) == 0) {
         player.sendChat("Missing Void Ichorium Rift Cap: [2,3,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Void Ichorium Rift Cap", playerPos, [-2,3,-2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:void_ichorium_rift_cap", playerPos, [-2,3,-2], world) == 0) {
         player.sendChat("Missing Void Ichorium Rift Cap: [-2,3,-2]");
         return "FAIL";
     }
@@ -1326,127 +1329,127 @@ summonstothemeatballman.itemRightClick = function(stack, world, player, hand) {
 
     // go through all blocks in the momument
 
-    if (getBlockMatchAtPosition("Sentient Meatball", playerPos, [0,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball", playerPos, [0,0,0], world) == 0) {
         player.sendChat("Missing Sentient Meatball: [0,0,0]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [1,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [1,0,0], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [1,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-1,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-1,0,0], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-1,0,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [0,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [0,0,1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [0,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [0,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [0,0,-1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [0,0,-1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Chaotic Sentient Meatball", playerPos, [-1,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:chaotic_sentient_meatball", playerPos, [-1,0,-1], world) == 0) {
         player.sendChat("Missing Chaotic Sentient Meatball: [-1,0,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Chaotic Sentient Meatball", playerPos, [1,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:chaotic_sentient_meatball", playerPos, [1,0,-1], world) == 0) {
         player.sendChat("Missing Chaotic Sentient Meatball: [1,0,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Chaotic Sentient Meatball", playerPos, [-1,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:chaotic_sentient_meatball", playerPos, [-1,0,1], world) == 0) {
         player.sendChat("Missing Chaotic Sentient Meatball: [-1,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Chaotic Sentient Meatball", playerPos, [1,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:chaotic_sentient_meatball", playerPos, [1,0,1], world) == 0) {
         player.sendChat("Missing Chaotic Sentient Meatball: [1,0,1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [2,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [2,0,-1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [2,0,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [2,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [2,0,1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [2,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [2,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [2,0,0], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [2,0,0]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-2,0,-1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-2,0,-1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-2,0,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-2,0,1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-2,0,1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-2,0,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-2,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-2,0,0], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-2,0,0]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-1,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-1,0,2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-1,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [1,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [1,0,2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [1,0,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [0,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [0,0,2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [0,0,2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-1,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-1,0,-2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-1,0,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [1,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [1,0,-2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [1,0,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [0,0,-2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [0,0,-2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [0,0,-2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [0,1,2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [0,1,2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [0,1,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [0,1,-2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [0,1,-2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [0,1,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [2,1,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [2,1,0], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [2,1,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-2,1,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-2,1,0], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-2,1,0]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [0,2,2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [0,2,2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [0,2,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [0,2,-2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [0,2,-2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [0,2,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [2,2,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [2,2,0], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [2,2,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-2,2,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-2,2,0], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-2,2,0]");
         return "FAIL";
     }
@@ -1456,111 +1459,111 @@ summonstothemeatballman.itemRightClick = function(stack, world, player, hand) {
 
 
 
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [2,3,-1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [2,3,-1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [2,3,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [2,3,1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [2,3,1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [2,3,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [2,3,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [2,3,0], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [2,3,0]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-2,3,-1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-2,3,-1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-2,3,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-2,3,1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-2,3,1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-2,3,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-2,3,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-2,3,0], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-2,3,0]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-1,3,2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-1,3,2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-1,3,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [1,3,2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [1,3,2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [1,3,2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [0,3,2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [0,3,2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [0,3,2]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-1,3,-2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-1,3,-2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-1,3,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [1,3,-2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [1,3,-2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [1,3,-2]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [0,3,-2], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [0,3,-2], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [0,3,-2]");
         return "FAIL";
     }
 
 
-    if (getBlockMatchAtPosition("Chaotic Sentient Meatball", playerPos, [-1,3,-1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:chaotic_sentient_meatball", playerPos, [-1,3,-1], world) == 0) {
         player.sendChat("Missing Chaotic Sentient Meatball: [-1,3,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Chaotic Sentient Meatball", playerPos, [1,3,-1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:chaotic_sentient_meatball", playerPos, [1,3,-1], world) == 0) {
         player.sendChat("Missing Chaotic Sentient Meatball: [1,3,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Chaotic Sentient Meatball", playerPos, [-1,3,1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:chaotic_sentient_meatball", playerPos, [-1,3,1], world) == 0) {
         player.sendChat("Missing Chaotic Sentient Meatball: [-1,3,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Chaotic Sentient Meatball", playerPos, [1,3,1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:chaotic_sentient_meatball", playerPos, [1,3,1], world) == 0) {
         player.sendChat("Missing Chaotic Sentient Meatball: [1,3,1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [0,4,-1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [0,4,-1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [0,4,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [0,4,1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [0,4,1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [0,4,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [1,4,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [1,4,0], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [1,4,0]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-1,4,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-1,4,0], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-1,4,0]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [1,4,1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [1,4,1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [1,4,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-1,4,1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-1,4,1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-1,4,1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [1,4,-1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [1,4,-1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [1,4,-1]");
         return "FAIL";
     }
-    if (getBlockMatchAtPosition("Sentient Meatball Flesh", playerPos, [-1,4,-1], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball_flesh", playerPos, [-1,4,-1], world) == 0) {
         player.sendChat("Missing Sentient Meatball Flesh: [-1,4,-1]");
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Sentient Meatball", playerPos, [0,5,0], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:sentient_meatball", playerPos, [0,5,0], world) == 0) {
         player.sendChat("Missing Sentient Meatball: [0,5,0]");
         return "FAIL";
     }
@@ -1602,27 +1605,27 @@ vowtodeath.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("Ancient Tile Shrine", playerPos, [0,0,0], world) == 0) {
+    if (getBlockMatchAtPosition("aoa3:ancient_tile_shrine", playerPos, [0,0,0], world) == 0) {
         player.sendChat("Stand in the center of the Shrine to Death from the Mission of Undeath Callstone");
         return "FAIL";
     }
 
-    var matchNorth = getBlockMatchAtPosition("Block of Cobalt", playerPos, [0,0,-5], world) as int;
-    var matchSouth = getBlockMatchAtPosition("Block of Platinum", playerPos, [0,0,5], world) as int;
-    var matchEast = getBlockMatchAtPosition("Block of Electrum", playerPos, [5,0,0], world) as int;
-    var matchWest = getBlockMatchAtPosition("Block of Bronze", playerPos, [-5,0,0], world) as int;
+    var matchNorth = getBlockMatchAtPosition("chisel:blockcobalt:3", playerPos, [0,0,-5], world) as int;
+    var matchSouth = getBlockMatchAtPosition("chisel:blockplatinum:3", playerPos, [0,0,5], world) as int;
+    var matchEast = getBlockMatchAtPosition("chisel:blockelectrum:3", playerPos, [5,0,0], world) as int;
+    var matchWest = getBlockMatchAtPosition("chisel:blockbronze:3", playerPos, [-5,0,0], world) as int;
 
-    var matchNNE = getBlockMatchAtPosition("Zyth", playerPos, [1,0,-3], world) as int;
-    var matchNNW = getBlockMatchAtPosition("Zyth", playerPos, [-1,0,-3], world) as int;
+    var matchNNE = getBlockMatchAtPosition("xtones:zyth:10", playerPos, [1,0,-3], world) as int;
+    var matchNNW = getBlockMatchAtPosition("xtones:zyth:6", playerPos, [-1,0,-3], world) as int;
     
-    var matchSSE = getBlockMatchAtPosition("Zome", playerPos, [1,0,3], world) as int;
-    var matchSSW = getBlockMatchAtPosition("Zome", playerPos, [-1,0,3], world) as int;
+    var matchSSE = getBlockMatchAtPosition("xtones:zome:4", playerPos, [1,0,3], world) as int;
+    var matchSSW = getBlockMatchAtPosition("xtones:zome:11", playerPos, [-1,0,3], world) as int;
     
-    var matchENE = getBlockMatchAtPosition("Zone", playerPos, [3,0,-1], world) as int;
-    var matchESE = getBlockMatchAtPosition("Zone", playerPos, [3,0,1], world) as int;
+    var matchENE = getBlockMatchAtPosition("xtones:zone:1", playerPos, [3,0,-1], world) as int;
+    var matchESE = getBlockMatchAtPosition("xtones:zone:14", playerPos, [3,0,1], world) as int;
     
-    var matchWNW = getBlockMatchAtPosition("Zech", playerPos, [-3,0,-1], world) as int;
-    var matchWSW = getBlockMatchAtPosition("Zech", playerPos, [-3,0,1], world) as int;
+    var matchWNW = getBlockMatchAtPosition("xtones:zech:2", playerPos, [-3,0,-1], world) as int;
+    var matchWSW = getBlockMatchAtPosition("xtones:zech:15", playerPos, [-3,0,1], world) as int;
 
     if (matchNorth + matchSouth + matchEast + matchWest + matchNNE + matchNNW + matchSSE + matchSSW + matchENE + matchESE + matchWNW + matchWSW == 12) {
         player.sendChat("Death accepts your Vow");

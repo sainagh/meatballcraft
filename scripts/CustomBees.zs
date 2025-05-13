@@ -1513,4 +1513,7 @@ recipes.addShapeless(<gendustry:honey_comb:14010>*4,
 recipes.addShapeless(<gendustry:honey_comb:14010>*4,
 [<contenttweaker:nomnomnomicon>.reuse(),
 <abyssalcraft:abyssalnomicon>]);
+recipes.addShapeless(<gendustry:honey_comb:14010>*4,
+[<contenttweaker:nomnomnomicon>.reuse(),
+<abyssalcraft:necronomicon_omt>]);
 

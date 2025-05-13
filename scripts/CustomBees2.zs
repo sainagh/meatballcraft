@@ -190,3 +190,10 @@ recipes.addShaped(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidhel
 [<ore:ingotTin>, <gendustry:honey_comb:14028>, <ore:ingotTin>],
 [null, <ore:ingotTin>, null]]);
 
+
+
+recipes.addShaped(<contenttweaker:lively_tree_callstone>,
+[[<gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.rf"}), <tardis:gallifreyan_stone>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.rf"})],
+[<tardis:gallifreyan_stone>, <contenttweaker:everburning_seed>, <tardis:gallifreyan_stone>],
+[<gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.rf"}), <tardis:gallifreyan_stone>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.rf"})]]);
+

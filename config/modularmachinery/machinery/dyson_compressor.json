@@ -2,6 +2,36 @@
     "registryname": "dyson_compressor",
     "localizedname": "Dyson Compressor",
 	"color": "590b7a",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:miniature_quasar",
+            "x": 0,
+            "y": 0,
+            "z": 17,
+            "description": "Multiplies output by 4",
+            "modifiers": [
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            }]
+        },
+        {
+            "elements": "contenttweaker:directed_miniature_quasar",
+            "x": 0,
+            "y": 0,
+            "z": 17,
+            "description": "Multiplies output by 16",
+            "modifiers": [
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            }]
+        }
+    ],
     "parts": [
         {
             "x": 5,

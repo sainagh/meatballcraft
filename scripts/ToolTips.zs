@@ -1528,6 +1528,15 @@
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Broomey2 (solo)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("The2ThatR1 (solo)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("mewmaister (solo)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("BaneOfTrapazoids (solo)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("brobot6565 (solo)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("legoman187 (solo)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("Origami10004, _TheOrangeJuice_, Blocktronix, _DeOrangeJuice_ (team)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("JustObsidian, canredback (team)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("shiraori_gd (solo)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("Sbmhawk (solo)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("amberacid (solo)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("BoxZen, ray_ray, obscure_man, TheLMiffy111 (team)"));
 
 <contenttweaker:terrestrial_animator_0>.addTooltip(format.red("Can be used in a mechanical user"));
 <contenttweaker:terrestrial_animator_1>.addTooltip(format.red("Can be used in a mechanical user"));
@@ -1716,7 +1725,7 @@
 <contenttweaker:fiery_unguent_bottle>.addTooltip(format.red("Thanks to Foucs for the Bewitchment Bottle textures!"));
 <contenttweaker:stone_ichor_bottle>.addTooltip(format.red("Thanks to Foucs for the Bewitchment Bottle textures!"));
 
-<contenttweaker:abomination_of_true_power>.addTooltip(format.red("Craft a Minted Fluix Crystal with a Touch of the Arbiter, Aeldunari, Abominable Egg, and the right (5) Mob Souls from Animus"));
+<contenttweaker:abomination_of_true_power>.addTooltip(format.red("Craft a Minted Fluix Crystal with a Touch of the Arbiter, Heart of the Dark Dragon, Abominable Egg, and the right (5) Mob Souls from Animus"));
 <contenttweaker:abomination_of_true_power>.addTooltip(format.red("Spiders in Diamerisma? Why? In a tree stump?"));
 
 
@@ -1789,7 +1798,10 @@
 <contenttweaker:adamantium_reinforced_petrified_wood>.addTooltip(format.red("Multiblock Upgrade, Cold Iron Forge: 20X speed"));
 <contenttweaker:defined_block>.addTooltip(format.red("Multiblock Upgrade, Definer: 2X output"));
 <contenttweaker:core_of_halite_definition>.addTooltip(format.red("Multiblock Upgrade, Definer: 8X output"));
-<bloodmagic:blood_rune:8>.addTooltip(format.red("Multiblock Upgrade, Dimensional Stabilizer: 50x speed"));
+<contenttweaker:freedom_definer>.addTooltip(format.red("Multiblock Upgrade, Definer: 16X output"));
+<contenttweaker:wishful_definer>.addTooltip(format.red("Multiblock Upgrade, Definer: 64X output"));
+<contenttweaker:quasar_charged_core_of_definition>.addTooltip(format.red("Multiblock Upgrade, Definer: 256X output"));
+<contenttweaker:fabric_of_the_orb>.addTooltip(format.red("Multiblock Upgrade, Dimensional Stabilizer: 50x speed"));
 <thaumadditions:adaminite_block>.addTooltip(format.red("Multiblock Upgrade, Dragonfire Crucible: 6X speed"));
 <thaumadditions:mithminite_smelter>.addTooltip(format.red("Multiblock Upgrade, Dragonfire Forge: 8X output"));
 <contenttweaker:plated_photonium>.addTooltip(format.red("Multiblock Upgrade, Enchanted Greenhouse: 10X speed"));
@@ -1801,7 +1813,7 @@
 <contenttweaker:omothol_containment_stone>.addTooltip(format.red("Multiblock Upgrade, LP Harvester: 5X output"));
 <avaritia:block_resource:0>.addTooltip(format.red("Multiblock Upgrade, Mythic Excavation Reactor: 5X speed"));
 <contenttweaker:mythic_coil_t2>.addTooltip(format.red("Multiblock Upgrade, Mythic Processors: parallelization"));
-<contenttweaker:omothol_containment_stone>.addTooltip(format.red("Multiblock Upgrade, Mythic PE Sterilizer: 5X output"));
+<contenttweaker:omothol_containment_stone>.addTooltip(format.red("Multiblock Upgrade, PE Sterilizer: 5X output"));
 <contenttweaker:nightmare_block>.addTooltip(format.red("Multiblock Upgrade, Plasmatic Controller: 400X output"));
 <divinerpg:eden_planks>.addTooltip(format.red("Multiblock Upgrade, Plated Carpenter: 10X speed"));
 <divinerpg:eden_planks>.addTooltip(format.red("Multiblock Upgrade, Plated Thermofabricator: 10X speed"));
@@ -1827,6 +1839,12 @@
 <contenttweaker:trinity_neutronium_casing>.addTooltip(format.red("Multiblock Upgrade, Neutronium Cannon & Bombarder: 20X speed"));
 <contenttweaker:quark_cosmic_module>.addTooltip(format.red("Multiblock Upgrade, Quark Decomposer & High Impulse Accelerator: 20X speed"));
 <contenttweaker:naquadah_casing>.addTooltip(format.red("Multiblock Upgrade, the CUBE: 20X speed"));
+<contenttweaker:miniature_quasar>.addTooltip(format.red("Multiblock Upgrade, Dyson Compressor: 4X output"));
+<contenttweaker:directed_miniature_quasar>.addTooltip(format.red("Multiblock Upgrade, Dyson Compressor: 16X output"));
+
+<contenttweaker:hypergrowth_actualizer>.addTooltip(format.red("Multiblock Upgrade, the Hypergrowth Insolator: 4X output"));
+<contenttweaker:trinity_hypergrowth_component>.addTooltip(format.red("Multiblock Upgrade, the Hypergrowth Insolator: 16X output"));
+<contenttweaker:cosmic_hypergrowth_component>.addTooltip(format.red("Multiblock Upgrade, the Hypergrowth Insolator: 64X output"));
 
 
 <thebetweenlands:lurker_skin_pouch>.addTooltip(format.red("This will let you bring your items into Vethea (yippee)"));
@@ -2255,8 +2273,7 @@
 
 <tconstruct:large_sword_blade>.withTag({Material: "dragonsteel_lightning"}).addTooltip(format.red("AshThaMoth mourns the loss of Construct's Armory"));
 
-<opeq:stabilization_tape>.addTooltip(format.red("Craft with select items to prevent them being burned by the Transmutation Table"));
-<opeq:stabilization_tape>.addTooltip(format.red("NOTE: if too many items are stabilized, it may cause lag"));
+<opeq:stabilization_tape>.addTooltip(format.red("Craft with select EMC items to prevent them being burned by the Transmutation Table"));
 <opeq:stabilization_tape>.addTooltip(format.red("Use the scissors to de-stabilize items"));
 
 <contenttweaker:mythic_coil_t1>.addTooltip(format.red("For Mythic Processors, ME Machinery Output Buses are the fastest way to export items"));
@@ -2273,7 +2290,7 @@
 <contenttweaker:hypercharged_wool>.addTooltip(format.red("Right click a Fading Wool on a special Sheep"));
 <contenttweaker:hypercharged_wool>.addTooltip(format.red("Masters of Spellcraft may know which one..."));
 
-<modularmachinery:blockmefluidoutputbus>.addTooltip(format.red("Use Capacity Cards to inclease its output buffer, this may be required for some machines"));
+<modularmachinery:blockmefluidoutputbus>.addTooltip(format.red("Thanks to Alecsio for helping fixing these"));
 
 <contenttweaker:white_hole_core>.addTooltip(format.red("Stand on top of a sednanite stabilizer"));
 
@@ -2379,6 +2396,20 @@
 <contenttweaker:call_to_mission>.addTooltip(format.red("Close the pack, and do a backup of your world"));
 <contenttweaker:call_to_mission>.addTooltip(format.red("Copy the 'plantDefs.xml' file from config > advRocketry into saves > worldname > advRocketry"));
 <contenttweaker:call_to_mission>.addTooltip(format.red("Start the pack, and use this item again"));
+
+<contenttweaker:void_ichorium_rift>.addTooltip(format.red("Warper"));
+<contenttweaker:void_ichorium_rift>.addTooltip(format.red("Stand in the middle of the structure shown in JEI to activate it"));
+<contenttweaker:void_ichorium_rift>.addTooltip(format.red("WARNING: For worlds created before pre-0.18, you may have to manually generate the dimension"));
+<contenttweaker:void_ichorium_rift>.addTooltip(format.red("Close the pack, and do a backup of your world"));
+<contenttweaker:void_ichorium_rift>.addTooltip(format.red("Copy the 'plantDefs.xml' file from config > advRocketry into saves > worldname > advRocketry"));
+<contenttweaker:void_ichorium_rift>.addTooltip(format.red("Start the pack, and use this item again"));
+
+<contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("Warper"));
+<contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("Stand in the middle of the structure shown in JEI to activate it"));
+<contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("WARNING: For worlds created before pre-0.18, you may have to manually generate the dimension"));
+<contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("Close the pack, and do a backup of your world"));
+<contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("Copy the 'plantDefs.xml' file from config > advRocketry into saves > worldname > advRocketry"));
+<contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("Start the pack, and use this item again"));
 
 <modularmachinery:cryolattice_tbu_controller>.addTooltip(format.red("This will work well with a bunch of other fuels!"));
 
@@ -2486,6 +2517,180 @@
 <tardis:key>.addTooltip(format.red("Obtained from a fully grown TARDIS Coral"));
 
 <contenttweaker:nineteen_blocks>.addTooltip(format.red("The preview only shows 4 blocks, but there are 19"));
+
+<contenttweaker:sacred_cinders_apiary>.addTooltip(format.red("NOTE: The multiblock uses a bunch of different soils, flowers, and floating flowers, but the preview will show only some defaults"));
+<contenttweaker:sacred_cinders_apiary>.addTooltip(format.red("Place your desired floating flower manually"));
+
+
+<supersoundmuffler:sound_muffler>.addTooltip(format.red("NOTE: this can get laggy, and will likely be removed from the pack"));
+<supersoundmuffler:sound_muffler>.addTooltip(format.red("You can use the 'Muffler' button in your inventory to mute sounds you don't like"));
+
+<supersoundmuffler:sound_muffler_bauble>.addTooltip(format.red("NOTE: this can get laggy, and will likely be removed from the pack"));
+<supersoundmuffler:sound_muffler_bauble>.addTooltip(format.red("You can use the 'Muffler' button in your inventory to mute sounds you don't like"));
+
+<appliedenergistics2:part:261>.addTooltip(format.red("Thanks to Alecsio for his help on ME fluid handling!"));
+
+<contenttweaker:salt_of_knowledge>.addTooltip(format.red("For masters of spellcraft!"));
+<contenttweaker:salt_of_knowledge>.addTooltip(format.red("Thanks to osto for making the Experience Bath possible!"));
+
+<contenttweaker:absolutely_autentic_rainbowgen>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+<contenttweaker:ascended_fluix_etcher>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+<contenttweaker:stormlight_stone>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+<contenttweaker:stone_of_worthiness>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+<contenttweaker:catalyst_of_the_warrens>.addTooltip(format.red("Thanks to NerdySpider for all the multiblock upgrade textures!"));
+<contenttweaker:hyperfocused_plasma_collider>.addTooltip(format.red("Thanks to NerdySpider for all the multiblock upgrade textures!"));
+<contenttweaker:quark_cosmic_module>.addTooltip(format.red("Thanks to NerdySpider for all the multiblock upgrade textures!"));
+<contenttweaker:naquadah_casing>.addTooltip(format.red("Thanks to NerdySpider for all the multiblock upgrade textures!"));
+
+<contenttweaker:hyperuranion_actualizer_naquadah>.addTooltip(format.red("Thanks to NerdySpider for all the Hyperuranion Actualizer textures!"));
+
+<contenttweaker:recurring_nightmare_block>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+<contenttweaker:seal_of_the_arbiter_gemcutter>.addTooltip(format.red("Thanks to NerdySpider for all the Seal textures!"));
+<contenttweaker:seal_of_the_arbiter_historian>.addTooltip(format.red("Thanks to NerdySpider for all the Seal textures!"));
+
+<contenttweaker:seal_of_freedom>.addTooltip(format.red("Thanks to NerdySpider for all the Seal textures!"));
+
+<avaritiaitem:bedrock_blaster>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+
+<avaritiaitem:cosmic_fractal_catalyzer>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+<avaritiaitem:cosmic_fractal_harmonizer>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+
+<avaritiaitem:cosmic_halite_cluster>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+<avaritiaitem:univocal_halite_cluster>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+
+<contenttweaker:taint_gun>.addTooltip(format.red("WARNING: do not click on the laser gun in the center of the recipe"));
+<contenttweaker:taint_gun>.addTooltip(format.red("It will cause a crash"));
+<contenttweaker:taint_gun>.addTooltip(format.red("A fix is in the works"));
+
+<contenttweaker:actualization_of_balance>.addTooltip(format.red("Thanks to NerdySpider for all Actualization textures!"));
+
+<contenttweaker:actualized_starlight_sphere>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+
+<contenttweaker:alchemical_deep_rock>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+
+<contenttweaker:apothecary_fissile_dust>.addTooltip(format.red("Thanks to NerdySpider the textures in this fission chain!"));
+
+<contenttweaker:astral_insight_10>.addTooltip(format.red("Thanks to NerdySpider the Astral Insight textures!"));
+<contenttweaker:astral_insight_100>.addTooltip(format.red("Thanks to NerdySpider the Astral Insight textures!"));
+
+<contenttweaker:black_hole_alloy_clump>.addTooltip(format.red("Thanks to NerdySpider the Black Hole Halloy chain textures!"));
+<contenttweaker:black_hole_alloy_ingot>.addTooltip(format.red("Thanks to NerdySpider the Black Hole Halloy chain textures!"));
+
+<contenttweaker:bullet_of_the_gun_devil>.addTooltip(format.red("Thanks to NerdySpider the Gun Devil textures!"));
+
+<contenttweaker:call_of_the_love>.addTooltip(format.red("Thanks to NerdySpider the Trinity textures!"));
+
+<contenttweaker:embodiment_of_balance>.addTooltip(format.red("Thanks to NerdySpider the Embodiment textures!"));
+
+<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+
+<contenttweaker:cosmic_pot>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+
+<contenttweaker:defined_bar>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+
+<contenttweaker:dust_of_infinite_wishes>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+
+<contenttweaker:eleint_stone>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+
+<contenttweaker:fractallite_quantum>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+
+<contenttweaker:gem_of_dimensional_ascension>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+
+
+<contenttweaker:spren_summoner_arrogance>.addTooltip(format.red("Thanks to NerdySpider the Spren Summoner textures!"));
+
+<contenttweaker:recursion_of_gluttony>.addTooltip(format.red("Thanks to NerdySpider the Travixte textures!"));
+<contenttweaker:respect_of_death>.addTooltip(format.red("Thanks to NerdySpider the Travixte textures!"));
+
+<contenttweaker:recursion_of_taint>.addTooltip(format.red("Thanks to NerdySpider the Fuhai textures!"));
+<contenttweaker:tainted_prison_key>.addTooltip(format.red("Thanks to NerdySpider the Fuhai textures!"));
+
+<contenttweaker:recursion_of_the_love>.addTooltip(format.red("Thanks to NerdySpider the Trinitas textures!"));
+
+<contenttweaker:quasar_charged_dust>.addTooltip(format.red("Thanks to NerdySpider revamping some dust textures!"));
+<contenttweaker:hypercharged_redstone>.addTooltip(format.red("Thanks to NerdySpider revamping some dust textures!"));
+
+<contenttweaker:spooder_glasses>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+<contenttweaker:horrible_unedited_fanfiction>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+
+<contenttweaker:gem_of_dimensional_ascension>.addTooltip(format.red("Thanks to NerdySpider the texture!"));
+
+<contenttweaker:star_core>.addTooltip(format.red("Thanks to NerdySpider the Core texture revamp!"));
+
+<contenttweaker:abyssite_crystal>.addTooltip(format.red("Thanks to NerdySpider the Crystal texture revamp!"));
+<contenttweaker:dynatos_crystal>.addTooltip(format.red("Thanks to NerdySpider the Crystal texture revamp!"));
+
+<contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("Thanks to ZY for the help with this script!"));
+<contenttweaker:void_ichorium_rift>.addTooltip(format.red("Thanks to ZY for the help with this script!"));
+<contenttweaker:vow_to_death>.addTooltip(format.red("Thanks to ZY for the help with this script!"));
+<contenttweaker:stone_of_dimensional_ascension>.addTooltip(format.red("Thanks to ZY for the help with this script!"));
+
+
+
+<contenttweaker:luna_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock"));
+
+<contenttweaker:osiris_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:ptah_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:hator_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:europa_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:oi_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:falacer_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:orcus_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:haumea_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:sedna_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:rhenia_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:myrmex_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:pixonia_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:proximabelt_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:nero_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:zoi_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:akathartos_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:pauram_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+<contenttweaker:alkemia_warper>.addTooltip(format.red("Place inside the Bee Stargate Multiblock, in a Space Station"));
+
+<contenttweaker:apichisi_warper>.addTooltip(format.red("Place inside the Wormhole Field Generator Multiblock"));
+<contenttweaker:taerrapiatta_warper>.addTooltip(format.red("Place inside the Wormhole Field Generator Multiblock"));
+<contenttweaker:diamerisma_warper>.addTooltip(format.red("Place inside the Wormhole Field Generator Multiblock"));
+<contenttweaker:furatto_warper>.addTooltip(format.red("Place inside the Wormhole Field Generator Multiblock"));
+<contenttweaker:finem_warper>.addTooltip(format.red("Place inside the Wormhole Field Generator Multiblock"));
+<contenttweaker:gallifrey_warper>.addTooltip(format.red("Place inside the Wormhole Field Generator Multiblock"));
+
+
+<contenttweaker:vibe_warper>.addTooltip(format.red("Stand in the center of the structure shown in the multiblock preview"));
+<contenttweaker:vibe_warper>.addTooltip(format.red("Right click this item to enter the dimension"));
+
+<contenttweaker:flint_and_furnace>.addTooltip(format.red("Stand in the center of the structure shown in the multiblock preview"));
+<contenttweaker:flint_and_furnace>.addTooltip(format.red("Right click this item to enter the dimension"));
+
+<thaumcraft:stone_porous>.addTooltip(format.red("Obtained from clearing out taint"));
+
+<contenttweaker:wormhole_field_module>.addTooltip(format.red("Thanks to osto for making portal multiblocks possible!"));
+<contenttweaker:stargate_controller>.addTooltip(format.red("Thanks to osto for making portal multiblocks possible!"));
+<contenttweaker:stargate_hieroglyphs>.addTooltip(format.red("Thanks to osto for making portal multiblocks possible!"));
+
+
+<contenttweaker:flesh_world_callstone>.addTooltip(format.red("Flesh World Ichor is found in the Lost Cities"));
+
+<contenttweaker:order_wood>.addTooltip(format.red("Initially obtained from the Sacred Sapling, the Bee is from the Lively Tree Callstone"));
+<contenttweaker:chaos_wood>.addTooltip(format.red("Initially obtained from the Sacred Sapling, the Bee is from the Lively Tree Callstone"));
+
+
+<appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("NOTE: if you updated the pack, the questbook may not update automatically, use this command to update it manually"));
+<appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("/bq_admin default load"));
+
+
+<modularmachinery:hypergrowth_insolator_factory_controller>.addTooltip(format.red("WARNING: this will be removed in a future update, and be replaced by a normal multiblock upgrade"));
+<modularmachinery:infinity_furnace_factory_controller>.addTooltip(format.red("WARNING: this will be removed in a future update, and be replaced by a normal multiblock upgrade"));
+<modularmachinery:shadow_fracturer_factory_controller>.addTooltip(format.red("WARNING: this will be removed in a future update, and be replaced by a normal multiblock upgrade"));
+<modularmachinery:enchanted_greenhouse_factory_controller>.addTooltip(format.red("WARNING: this will be removed in a future update, and be replaced by a normal multiblock upgrade"));
+<modularmachinery:sacred_cinders_apiary_factory_controller>.addTooltip(format.red("WARNING: this will be removed in a future update, and be replaced by a normal multiblock upgrade"));
+<modularmachinery:mechanized_coop_factory_controller>.addTooltip(format.red("WARNING: this will be removed in a future update, and be replaced by a normal multiblock upgrade"));
+
 
 
 

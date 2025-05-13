@@ -330,7 +330,7 @@ mods.nuclearcraft.electrolyser.addRecipe([<fluid:rutherfordium_chloride>*50, <fl
 
 // making dubnium
 
-mods.nuclearcraft.fusion.addRecipe([<fluid:americium_243>*10, <fluid:neon>*10, <fluid:dubnium>*100, <fluid:neutron>*100, null, null, 200.0, 200.0, 14555.0, 0.1]);
+mods.nuclearcraft.fusion.addRecipe([<fluid:americium_243>*10, <fluid:neon>*10, <fluid:dubnium>*100, <fluid:neutron>*10, null, null, 200.0, 200.0, 14555.0, 0.1]);
 
 // making bohrium
 

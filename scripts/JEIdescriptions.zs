@@ -1744,6 +1744,20 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_orcus>,
     "All swords are found in orcus."
 ]);
 
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_dimensionalascension>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "I don't think you are ready...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Wouldn't you like to know?!? Well, too bad..."
+]);
+
+
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_furnacedim>,
 [
     "Come on! At least try to solve the puzzle!",
@@ -2454,9 +2468,9 @@ mods.jei.JEI.addDescription(<contenttweaker:farming_unattuned_celestial_crystals
     "",
     "This process can be automated in two ways: ",
     "",
-    "1. [Slightly more laggy, but easier] By using an Auto-Placer to keep a block space with an attuned celestial crystal full of Starlight. A properly-filtered Vacuum Chest can collect the unattuned crystals that will result from the splitting, while leaving the attuned crystal to endlessly replicate more unattuned ones.",
+    "1. [Slightly more laggy, but easier] By using an Fluid Placer to keep a block space with an attuned celestial crystal full of Starlight. A properly-filtered Vacuum Chest can collect the unattuned crystals that will result from the splitting, while leaving the attuned crystal to endlessly replicate more unattuned ones.",
     "",
-    "2. By using an Auto-Placer to keep a block space full of Starlight and using an Entity Detector from Cyclic to send a redstone signal to a collector when two entities (aka two crystals) are present in the designated block space. The system can be set up to pick up only one of the two crystals, or to pick up both, and drop one of them back into the Starlight."
+    "2. By using an Fluid Placer to keep a block space full of Starlight and using an Entity Detector from Cyclic to send a redstone signal to a collector when two entities (aka two crystals) are present in the designated block space. The system can be set up to pick up only one of the two crystals, or to pick up both, and drop one of them back into the Starlight."
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:levelling_up_crystals>,
@@ -2558,7 +2572,8 @@ mods.jei.JEI.addDescription([<contenttweaker:dimension_ids>],
     "RFTools Dimensions: 900 (and consecutive numbers)",
     "Kashan: 190",
     "Trinitas: 191",
-    "Fuhai: 192"
+    "Fuhai: 192",
+    "Travixte: 193"
 ]);
 
 
@@ -3718,7 +3733,7 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_truepowerabomination
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the Minted Fluix Crystal, the Touch of The Arbiter, the Aeldunari, and the Abominable Egg with the following Mob Souls from Animus: Jungle Spider, Hell Spider, Soul Spider, Ender Spider, Sea Spider."
+    "Craft the Minted Fluix Crystal, the Touch of The Arbiter, the Heart of the Dark Dragon, and the Abominable Egg with the following Mob Souls from Animus: Jungle Spider, Hell Spider, Soul Spider, Ender Spider, Sea Spider."
 ]);
 
 
@@ -4664,18 +4679,22 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_vowtodeath>,
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Replace the Dark Ethaxium with the following blocks (marked by direction):",
-    "N: Block of Cobalt ()",
+    "N: Block of Cobalt (OneTeuFiv)",
+    "S: Block of Platinum (OneTeuFiv)",
+    "E: Block of Electrum (OneTeuFiv)",
+    "W: Block of Bronze (OneTeuFiv)",
     "",
+    "NNE: Zyth 11",
+    "NNW: Zyth 7",
     "",
+    "SSE: Zome 5",
+    "SSW: Zome 12",
     "",
+    "ENE: Zone 2",
+    "ESE: Zone 15",
     "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "WNW: Zech 3",
+    "WSW: Zech 16"
 ]);
 
 
@@ -4778,4 +4797,6 @@ mods.jei.JEI.addDescription([
     "",
     "By exploiting this principle, it is possible to build contraptions that automatically swap the inputs to these types of multiblocks, so that you can process multiple recipes without having to build multiple machines."
 ]);
+
+
 

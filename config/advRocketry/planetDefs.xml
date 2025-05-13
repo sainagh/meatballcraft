@@ -125,13 +125,14 @@
             </planet>
 			<planet name="Oi" DIMID="152" customIcon="moon">
                 <isKnown>true</isKnown>
+                <hasOxygen>true</hasOxygen>
                 <fogColor>1.0,0.8,0.0</fogColor>
                 <skyColor>1.0,0.8,0.0</skyColor>
-                <gravitationalMultiplier>130</gravitationalMultiplier>
-                <orbitalDistance>5</orbitalDistance>
+                <gravitationalMultiplier>100</gravitationalMultiplier>
+                <orbitalDistance>15</orbitalDistance>
                 <orbitalPhi>0</orbitalPhi>
                 <rotationalPeriod>72000</rotationalPeriod>
-                <atmosphereDensity>120</atmosphereDensity>
+                <atmosphereDensity>100</atmosphereDensity>
 				<OreGen>
 					<ore block="nuclearcraft:ore" meta="4" minHeight="10" maxHeight="80" clumpSize="32" chancePerChunk="25" />
 				</OreGen>

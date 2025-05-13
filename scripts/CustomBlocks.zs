@@ -2669,3 +2669,94 @@ twentyblocks.setToolClass("pickaxe");
 twentyblocks.setBeaconBase(true);
 twentyblocks.setToolLevel(3);
 twentyblocks.register();
+
+
+var wormholefieldmodule = VanillaFactory.createBlock("wormhole_field_module", <blockmaterial:iron>);
+wormholefieldmodule.setBlockHardness(1.0);
+wormholefieldmodule.setBlockResistance(2.5);
+wormholefieldmodule.setToolClass("pickaxe");
+wormholefieldmodule.setBeaconBase(true);
+wormholefieldmodule.setToolLevel(3);
+wormholefieldmodule.register();
+
+
+var fabricoftheorb = VanillaFactory.createBlock("fabric_of_the_orb", <blockmaterial:iron>);
+fabricoftheorb.setBlockHardness(1.0);
+fabricoftheorb.setBlockResistance(2.5);
+fabricoftheorb.setToolClass("pickaxe");
+fabricoftheorb.setBeaconBase(true);
+fabricoftheorb.setToolLevel(3);
+fabricoftheorb.register();
+
+
+var hypergrowthactualizer = VanillaFactory.createBlock("hypergrowth_actualizer", <blockmaterial:iron>);
+hypergrowthactualizer.setBlockHardness(1.0);
+hypergrowthactualizer.setBlockResistance(2.5);
+hypergrowthactualizer.setToolClass("pickaxe");
+hypergrowthactualizer.setBeaconBase(true);
+hypergrowthactualizer.setToolLevel(3);
+hypergrowthactualizer.register();
+
+
+var trinityhypergrowthcomponent = VanillaFactory.createBlock("trinity_hypergrowth_component", <blockmaterial:iron>);
+trinityhypergrowthcomponent.setBlockHardness(1.0);
+trinityhypergrowthcomponent.setBlockResistance(2.5);
+trinityhypergrowthcomponent.setToolClass("pickaxe");
+trinityhypergrowthcomponent.setBeaconBase(true);
+trinityhypergrowthcomponent.setToolLevel(3);
+trinityhypergrowthcomponent.register();
+
+var cosmichypergrowthcomponent = VanillaFactory.createBlock("cosmic_hypergrowth_component", <blockmaterial:iron>);
+cosmichypergrowthcomponent.setBlockHardness(1.0);
+cosmichypergrowthcomponent.setBlockResistance(2.5);
+cosmichypergrowthcomponent.setToolClass("pickaxe");
+cosmichypergrowthcomponent.setBeaconBase(true);
+cosmichypergrowthcomponent.setToolLevel(3);
+cosmichypergrowthcomponent.register();
+
+
+var definitionoffreedom = VanillaFactory.createBlock("freedom_definer", <blockmaterial:iron>);
+definitionoffreedom.setBlockHardness(1.0);
+definitionoffreedom.setBlockResistance(2.5);
+definitionoffreedom.setToolClass("pickaxe");
+definitionoffreedom.setToolLevel(3);
+definitionoffreedom.register();
+
+var definitionofwishes = VanillaFactory.createBlock("wishful_definer", <blockmaterial:iron>);
+definitionofwishes.setBlockHardness(1.0);
+definitionofwishes.setBlockResistance(2.5);
+definitionofwishes.setToolClass("pickaxe");
+definitionofwishes.setToolLevel(3);
+definitionofwishes.register();
+
+
+var quasarchargeddefinerdef = VanillaFactory.createBlock("quasar_charged_core_of_definition", <blockmaterial:iron>);
+quasarchargeddefinerdef.setBlockHardness(1.0);
+quasarchargeddefinerdef.setBlockResistance(2.5);
+quasarchargeddefinerdef.setToolClass("pickaxe");
+quasarchargeddefinerdef.setToolLevel(3);
+quasarchargeddefinerdef.register();
+
+var containedquasarmodule = VanillaFactory.createBlock("directed_miniature_quasar", <blockmaterial:iron>);
+containedquasarmodule.setBlockHardness(1.0);
+containedquasarmodule.setBlockResistance(2.5);
+containedquasarmodule.setToolClass("pickaxe");
+containedquasarmodule.setToolLevel(3);
+containedquasarmodule.register();
+
+var quasarburstdirector = VanillaFactory.createBlock("quasar_burst_director", <blockmaterial:iron>);
+quasarburstdirector.setBlockHardness(1.0);
+quasarburstdirector.setBlockResistance(2.5);
+quasarburstdirector.setToolClass("pickaxe");
+quasarburstdirector.setToolLevel(3);
+quasarburstdirector.register();
+
+
+
+var stoneoftheresurrectedshard = VanillaFactory.createBlock("stone_of_the_resurrected_shard", <blockmaterial:iron>);
+stoneoftheresurrectedshard.setBlockHardness(1.0);
+stoneoftheresurrectedshard.setBlockResistance(2.5);
+stoneoftheresurrectedshard.setToolClass("pickaxe");
+stoneoftheresurrectedshard.setToolLevel(3);
+stoneoftheresurrectedshard.register();
+

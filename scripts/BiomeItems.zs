@@ -694,7 +694,7 @@ sprensummonerfaith.itemRightClick = function(stack, world, player, hand) {
 	} 
 
     if((OceanMatches) == 1) {
-		Commands.call("summon ebwizardry:spectral_golem ~ ~2 ~ {CustomName:\"Corrupted Spren of Faith\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_restored_faith\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		Commands.call("summon divinerpg:skythern_golem ~ ~2 ~ {CustomName:\"Corrupted Spren of Faith\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_restored_faith\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
@@ -1148,7 +1148,7 @@ sprensummonergluttony.itemRightClick = function(stack, world, player, hand) {
 	} 
 
     if((OceanMatches) == 1) {
-		Commands.call("summon mod_lavacow:soulworm ~ ~2 ~ {CustomName:\"Spren of Gluttony\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_individual_freedom\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:10000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		Commands.call("summon mod_lavacow:soulworm ~ ~2 ~ {CustomName:\"Spren of Gluttony\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_controlled_gluttony\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:10000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 
@@ -1193,7 +1193,7 @@ sprensummonerarrogance.itemRightClick = function(stack, world, player, hand) {
 	} 
 
     if((OceanMatches) == 1) {
-		Commands.call("summon divinerpg:rainbour ~ ~2 ~ {CustomName:\"Spren of Arrogance\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_individual_freedom\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:10000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
+		Commands.call("summon divinerpg:rainbour ~ ~2 ~ {CustomName:\"Spren of Arrogance\",HandItems:[{Count:1,id:\"contenttweaker:shard_of_humble_education\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:10000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}}}", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
 	} 

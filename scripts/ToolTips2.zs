@@ -110,15 +110,10 @@ import crafttweaker.item.IItemCondition;
 
 <thermalfoundation:ore:8>.addTooltip(format.red("Found in the Elemental Chamber in the Nether"));
 
-<contenttweaker:apichisi_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
 
-<contenttweaker:vibe_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
 
-<contenttweaker:furatto_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
 
-<contenttweaker:taerrapiatta_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
 
-<contenttweaker:diamerisma_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
 
 <contenttweaker:pixonia_infusion_key>.addTooltip(format.red("Found in the swamp tower on Pixonia"));
 
@@ -1418,13 +1413,13 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:dimensional_ingot>.addTooltip(format.red("Found in the Deep Dark"));
 
-<techreborn:rebattery>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, put on passive if needed"));
+<techreborn:rebattery>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, use the Better version"));
 
-<techreborn:energycrystal>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, put on passive if needed"));
+<techreborn:energycrystal>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, use the Better version"));
 
-<techreborn:lapotroncrystal>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, put on passive if needed"));
+<techreborn:lapotroncrystal>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, use the Better version"));
 
-<techreborn:lapotronicorb>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, put on passive if needed"));
+<techreborn:lapotronicorb>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, use the Better version"));
 
 <contenttweaker:skeletal_callstone>.addTooltip(format.red("Your first callstone! Right click to summon a dungeon!"));
 
@@ -2066,6 +2061,7 @@ import crafttweaker.item.IItemCondition;
 
 <betterbuilderswands:wandunbreakable>.addTooltip(format.red("Use Z to change mode, shift + Z to change fluid mode"));
 <betterbuilderswands:wandunbreakable>.addTooltip(format.red("Use /wandOops to undo last step"));
+<betterbuilderswands:wandunbreakable>.addTooltip(format.red("WARNING: do not use on blocks with inventories and other tile entities"));
 
 <contenttweaker:bubbell_banner>.addTooltip(format.red("Obtained from the orbital callstone"));
 <contenttweaker:bubbell_banner>.addTooltip(format.red("Thanks to Reclipse for the texture!"));
@@ -2280,7 +2276,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:dream_projector_gem>.addTooltip(format.red("Combine the right tinker's parts (4) with a projector gem - Vethea recipes will guide you!"));
 
-<contenttweaker:dream_projector_gem>.addTooltip(format.red("The recursive life essence is from the hidden power callstone!"));
+<contenttweaker:dream_projector_gem>.addTooltip(format.red("The Living recursive Essence is from the Hidden Power Callstone"));
 
 <contenttweaker:tainted_heart>.addTooltip(format.red("Found in Vibe"));
 
@@ -2987,7 +2983,7 @@ import crafttweaker.item.IItemCondition;
 <thermaldynamics:duct_0:5>.addTooltip(format.red("WARNING: do not connect to radiation scrubbers, it may corrupt your world"));
 <enderio:item_endergy_conduit:11>.addTooltip(format.red("WARNING: do not connect to radiation scrubbers, it may corrupt your world"));
 
-<aether_legacy:life_shard>.addTooltip(format.red("Adds 20 HP, found as chest loot in the Aether (more common in bronze dungeons)"));
+<aether_legacy:life_shard>.addTooltip(format.red("Adds 2 HP, found as chest loot in the Aether (more common in gold dungeons)"));
 
 
 <contenttweaker:crown_of_the_energy_queen>.addTooltip(format.red("Thank you NerdySpider for the texture!"));

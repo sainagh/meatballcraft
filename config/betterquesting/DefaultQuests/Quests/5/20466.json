@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oStone and nether essences can be used to create ores with Mythic properties.\n\nOne mineral makes one ore...\n\nOne ore makes multiple minerals, especially if you use an industrial grinder!\n\nThis process can be looped for exponential yield (granted that you have enough essence).\n\nWorks with Rupee, Arlemite, Realmite, Rosite, Limonite, Netherite, Bloodgem, Emberstone.",
+      "desc:8": "§7§oStone and nether essences can be used to create ores with Mythic properties.\n\nOne mineral makes one ore...\n\nOne ore makes multiple minerals, especially if you use an industrial grinder!\n\nThis process can be looped for exponential yield (granted that you have enough essence).\n\nWorks with Rupee, Arlemite, Realmite, Rosite, Limonite, Netherite, Bloodgem, Emberstone, Runium, Ascended Jade, Ascended Sapphire,, Ascended Amethyst.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "mysticalagriculture:stone_essence"

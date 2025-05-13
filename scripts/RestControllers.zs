@@ -547,3 +547,12 @@ recipes.addShapeless(<modularmachinery:dyson_abater_controller>,
 
 recipes.addShapeless(<modularmachinery:black_hole_juicer_controller>, 
 [<modularmachinery:black_hole_juicer_controller>]);
+
+recipes.addShapeless(<modularmachinery:xp_assimilator_controller>, 
+[<modularmachinery:xp_assimilator_controller>]);
+
+recipes.addShapeless(<modularmachinery:bee_stargate_controller>, 
+[<modularmachinery:bee_stargate_controller>]);
+
+recipes.addShapeless(<modularmachinery:wormhole_field_generator_controller>, 
+[<modularmachinery:wormhole_field_generator_controller>]);

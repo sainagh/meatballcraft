@@ -608,7 +608,7 @@ mythallo82.build();
 val mythallo83 = RecipeBuilder.newBuilder("mythallo83","mythic_processor_alloy_furnace",2);
 mythallo83.addEnergyPerTickInput(80000);
 mythallo83.addItemInput(<contenttweaker:technetium_remains>);
-mythallo83.addItemInput(<ore:dustSulfur>);
+mythallo83.addItemInput(<ore:dustSulfur>*2);
 mythallo83.addItemOutput(<contenttweaker:technetium_disulfide>);
 mythallo83.build();
 
@@ -630,7 +630,7 @@ val mythallo86 = RecipeBuilder.newBuilder("mythallo86","mythic_processor_alloy_f
 mythallo86.addEnergyPerTickInput(80000);
 mythallo86.addItemInput(<ore:enderpearl>);
 mythallo86.addItemInput(<ore:ingotArlemite>);
-mythallo86.addItemOutput(<ore:ingotPulsatingIron>*3);
+mythallo86.addItemOutput(<enderio:item_alloy_ingot:5>*3);
 mythallo86.build();
 
 val mythallo87 = RecipeBuilder.newBuilder("mythallo87","mythic_processor_alloy_furnace",2);
@@ -893,7 +893,7 @@ val mythallo122 = RecipeBuilder.newBuilder("mythallo122","mythic_processor_alloy
 mythallo122.addEnergyPerTickInput(80000);
 mythallo122.addItemInput(<ore:dustRedstone>*10);
 mythallo122.addItemInput(<ore:gemDiamond>*2);
-mythallo122.addItemOutput(<redstonearsenal:material:160>);
+mythallo122.addItemOutput(<redstonearsenal:material:160>*2);
 mythallo122.build();
 
 val mythallo123 = RecipeBuilder.newBuilder("mythallo123","mythic_processor_alloy_furnace",2);
@@ -955,3 +955,5 @@ mythallo130.addItemInput(<extrabees:misc:15>*4);
 mythallo130.addItemInput(<extrabees:misc:9>*4);
 mythallo130.addItemOutput(<contenttweaker:fractal_metal_clump>);
 mythallo130.build();
+
+

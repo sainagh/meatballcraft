@@ -477,36 +477,6 @@
       "damage": "*"
     }
   ],
-  "423": [
-    {
-      "item": "xreliquary:rod_of_lyssa",
-      "damage": "*"
-    },
-    {
-      "item": "abyssalcraft:scroll",
-      "damage": "*"
-    },
-    {
-      "item": "abyssalcraft:unique_scroll",
-      "damage": "*"
-    },
-    {
-      "item": "rftools:storage_scanner",
-      "damage": "*"
-    },
-    {
-      "item": "rftoolsdim:dimension_builder",
-      "damage": "*"
-    },
-    {
-      "item": "rftoolsdim:dimension_enscriber",
-      "damage": "*"
-    },
-    {
-      "item": "rftoolsdim:dimlet_workbench",
-      "damage": "*"
-    }
-  ],
   "170": [
     {
       "item": "xreliquary:rod_of_lyssa",
@@ -791,6 +761,14 @@
     {
       "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
     }
   ],
   "1": [
@@ -798,6 +776,126 @@
       "item": "xreliquary:rod_of_lyssa",
       "damage": "*"
     },
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
+    }
+  ],
+  "420": [
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
+    }
+  ],
+  "421": [
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
+    }
+  ],
+  "422": [
+    {
+      "item": "abyssalcraft:scroll",
+      "damage": "*"
+    },
+    {
+      "item": "abyssalcraft:unique_scroll",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_builder",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimension_enscriber",
+      "damage": "*"
+    },
+    {
+      "item": "rftoolsdim:dimlet_workbench",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
+    }
+  ],
+  "423": [
     {
       "item": "abyssalcraft:scroll",
       "damage": "*"
@@ -1375,6 +1473,14 @@
     {
       "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_1",
+      "damage": "*"
+    },
+    {
+      "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
     }
   ],
   "813": [
@@ -1594,6 +1700,36 @@
     },
     {
       "item": "twilightforest:charm_of_life_2",
+      "damage": "*"
+    }
+  ],
+  "427": [
+    {
+      "item": "appliedenergistics2:wireless_terminal",
+      "damage": "*"
+    },
+    {
+      "item": "appliedenergistics2:wireless_crafting_terminal",
+      "damage": "*"
+    },
+    {
+      "item": "appliedenergistics2:wireless_fluid_terminal",
+      "damage": "*"
+    },
+    {
+      "item": "ae2exttable:wireless_basic_crafting_terminal",
+      "damage": "*"
+    },
+    {
+      "item": "ae2exttable:wireless_advanced_crafting_terminal",
+      "damage": "*"
+    },
+    {
+      "item": "ae2exttable:wireless_elite_crafting_terminal",
+      "damage": "*"
+    },
+    {
+      "item": "ae2exttable:wireless_ultimate_crafting_terminal",
       "damage": "*"
     }
   ]

@@ -3,6 +3,48 @@
     "localizedname": "Hypergrowth Insolator",
 	"color": "790091",
     "has-factory": true,
+    "modifiers": [
+        {
+            "elements": "contenttweaker:hypergrowth_actualizer",
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "description": "4X Output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            }
+        },
+        {
+            "elements": "contenttweaker:trinity_hypergrowth_component",
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "description": "16X Output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            }
+        },
+        {
+            "elements": "contenttweaker:cosmic_hypergrowth_component",
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "description": "64X Output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64
+            }
+        }
+    ],
+
     "parts": [
         {
             "x": -1,

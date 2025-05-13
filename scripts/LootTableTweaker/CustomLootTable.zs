@@ -116,6 +116,8 @@ mods.ltt.LootTable.removeTable("railcraft:chests/village_workshop");
 mods.ltt.LootTable.removeGlobalItem("iceandfire:copper_ingot");
 mods.ltt.LootTable.removeGlobalItem("iceandfire:copper_nugget");
 
+mods.ltt.LootTable.removeGlobalItem("iceandfire:weezer_blue_album");
+
 mods.ltt.LootTable.removeGlobalItem("immersiveengineering:shader_bag");
 
 mods.ltt.LootTable.removeItem("champions:champion_loot", "tier#1", "minecraft:book");

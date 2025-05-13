@@ -28,6 +28,45 @@
                 "operation": 1,
                 "multiplier": 8.0
             }
+        },
+        {
+            "elements": "contenttweaker:freedom_definer",
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "description": "Replace unidentified body for 64x output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16.0
+            }
+        },
+        {
+            "elements": "contenttweaker:wishful_definer",
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "description": "Replace unidentified body for 256x output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64.0
+            }
+        },
+        {
+            "elements": "contenttweaker:quasar_charged_core_of_definition",
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "description": "Replace unidentified body for 256x output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 256.0
+            }
         }
     ],
     "parts": [

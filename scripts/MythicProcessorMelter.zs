@@ -723,3 +723,9 @@ mythmelt656.addFluidOutput(<fluid:molten_zirconium> * 144);
 mythmelt656.build();
 
 
+
+val mythmelt657 = RecipeBuilder.newBuilder("mythmelt657","mythic_processor_melter",2);
+mythmelt657.addEnergyPerTickInput(60000);
+mythmelt657.addItemInput(<contenttweaker:stone_of_the_resurrected_shard>);
+mythmelt657.addFluidOutput(<fluid:stormlight> * 1000000);
+mythmelt657.build();

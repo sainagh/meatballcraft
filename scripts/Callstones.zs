@@ -5230,3 +5230,24 @@ strangestonecallstone.itemRightClick = function(stack, world, player, hand) {
 
 };
 strangestonecallstone.register();
+
+
+
+var livelytreecallstone = VanillaFactory.createItem("lively_tree_callstone");
+livelytreecallstone.maxStackSize = 1;
+livelytreecallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("You gotta be in the Overworld");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn bee_treeoflife_callstone", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+livelytreecallstone.register();

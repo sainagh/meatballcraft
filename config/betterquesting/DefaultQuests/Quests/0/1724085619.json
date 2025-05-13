@@ -13,6 +13,60 @@
     }
   },
   "questID:3": 1724085619,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildinggadgets:template",
+          "tag:10": {
+            "TemplateName:8": "Directed Quasar",
+            "UUID:8": "aff6f6b2-a1d6-4c0f-ab25-e0e7024c553a",
+            "copycounter:3": 2,
+            "endPos:10": {
+              "X:3": -86,
+              "Y:3": 98,
+              "Z:3": 37
+            },
+            "itemcountmap:9": {
+              "0:10": {
+                "count:3": 60,
+                "item:3": 22470,
+                "meta:3": 0
+              },
+              "1:10": {
+                "count:3": 2,
+                "item:3": 1,
+                "meta:3": 1
+              },
+              "2:10": {
+                "count:3": 1,
+                "item:3": 22473,
+                "meta:3": 0
+              },
+              "3:10": {
+                "count:3": 24,
+                "item:3": 22625,
+                "meta:3": 0
+              },
+              "4:10": {
+                "count:3": 16,
+                "item:3": 23033,
+                "meta:3": 0
+              }
+            },
+            "startPos:10": {
+              "X:3": -98,
+              "Y:3": 106,
+              "Z:3": 25
+            }
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

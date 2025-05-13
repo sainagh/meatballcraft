@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSome materials will have mining level requirement than obsidian, netherite has the highest mining level.",
+      "desc:8": "§7§oSome materials will have mining level requirements higher than obsidian, netherite has the highest mining level.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:pick_head",

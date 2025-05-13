@@ -44,19 +44,6 @@
           "Count:3": 1,
           "id:8": "minecraft:written_book",
           "tag:10": {
-            "author:8": "meatballcraft",
-            "pages:9": {
-              "0:8": "{\"text\":\"To optimize the game and its performance across multiple hardware platforms, some in-game animations (like fire) have been disabled by default.\\n\\nSEE NEXT PAGE\"}",
-              "1:8": "{\"text\":\"I know some players care about having pretty-looking things.\\n\\nTo re-enable animations, paste the loliasm.cfg file from AlternativeConfigs into the config folder.\\n\\nSEE NEXT PAGE\"}",
-              "2:8": "{\"text\":\"WARNING: doing this may lower performance, or even make the pack unplayable.\"}"
-            },
-            "title:8": "No Animations"
-          }
-        },
-        "3:10": {
-          "Count:3": 1,
-          "id:8": "minecraft:written_book",
-          "tag:10": {
             "author:8": "Meatballcraft",
             "pages:9": {
               "0:8": "{\"text\":\"Why do items look weird when I mouse over??\\n\\nThe modpack uses the Epic Tooltip mod. We understand if this is not for everyone.\\n\\nIf you want to change back to Vanilla presets, check the AlternativeConfig folder.\"}"

@@ -15,7 +15,7 @@ val forJEIepicdisplay = (goodDiamondSword | anythingatall);
 
 recipes.addShapeless(
     "makestuffepiiiic",<contenttweaker:epic_tool_tipper>,
-    [(anythingatall.marked("mark").transformNew(function(item) { return item.withTag(item.tag); })).noReturn(), 
+    [(anythingatall.marked("mark").transformNew(function(item) { return item.withAmount(1).withTag(item.tag); })).noReturn(), 
     <contenttweaker:epic_tool_tipper>.reuse(),
     <divinerpg:corrupted_stone>],
     function(out,ins,cInfo){
