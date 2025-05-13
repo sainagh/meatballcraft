@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Drop in the nether!\n\nI still don\u0027t know much about the politics of this world, but from what I\u0027ve heard, an officer from one of the factions involved in this conflict decided to desert and to attempt to take over regions of the nether world.\nI may be doing someone else a favor by fighting this self-proclaimed king, but his presence is not good for the inhabitants of this planet.",
+      "desc:8": "§7§o在下界扔出！\n\n§f我对这个世界的势力格局仍知之甚少，但据传闻，某参战阵营的军官叛逃后试图割据下界。\n剿灭这个自封的王者或许正中他人下怀，但他的存在对本土居民终是祸患。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:explosive_idol"
       },
-      "name:8": "Deserters"
+      "name:8": "叛离者"
     }
   },
   "questID:3": 127,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIf you do not want to go out and explore, you can craft Unstable DImensional Doors.\n\nThis could take you to a variety of places. Some can be dangerous.",
+      "desc:8": "§7§o如果不想出去探索，也可以自己制作不稳定维度门。\n\n这扇门能把你带到许多地方。有些 可能会很危险。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "dimdoors:unstable_dimensional_door"
       },
-      "name:8": "My Own Adventures"
+      "name:8": "我自己的冒险"
     }
   },
   "questID:3": 2297,

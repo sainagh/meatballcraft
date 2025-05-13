@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 430\nMining Level: Iron\nMining Speed: 5.5\nAttack: 6.2\nJagged\nAquadynamic\n\nHandle\nModifier: 0.6\nDurability: -150\nAguadynamic\n\nExtra\nDurability: 100\nAquadynamic\n\nBows\nDrawspeed: 5\nRange Multiplier: 0.4\nBonus Damage: -1\nAquadynamic",
+      "desc:8": "顶端\n耐久：430\n挖掘等级：铁\n挖掘速度：5.5\n攻击力：6.2\n锯齿\n喜水\n\n手柄\n手柄系数：0.6\n耐久：-150\nAguadynamic\n\n其它部件\n耐久：100\n喜水\n\n弓\n拉弓速度：5\n范围系数：0.4\n附加伤害：-1\n喜水",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "prismarine"
         }
       },
-      "name:8": "Prismarine"
+      "name:8": "海晶石"
     }
   },
   "questID:3": 201032,

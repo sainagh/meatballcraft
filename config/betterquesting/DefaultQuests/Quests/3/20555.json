@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Turns solids into fluids!!",
+      "desc:8": "将物质物质熔化为流体！！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "cyclicmagic:melter"
       },
-      "name:8": "Melter"
+      "name:8": "熔化炉（已禁用）"
     }
   },
   "questID:3": 20555,

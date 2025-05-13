@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlaces blocks automatically in a radius around it. Mana will increase this radius.\n\nTo place blocks with specific patters, place a specific filter block under the flower (right under the soil). Supplied blocks will only be placed above the filter block.\n\n",
+      "desc:8": "§7§在范围内自动放置方块。提供魔力可增加工作范围。\n\n要指定方块放置位置，在花所种植的方块下方放置一个过滤用方块，如此便只会在该种方块上放置提供的方块。\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "rannuncarpus"
         }
       },
-      "name:8": "Rannucarpus "
+      "name:8": "手掌花 "
     }
   },
   "questID:3": 1299,

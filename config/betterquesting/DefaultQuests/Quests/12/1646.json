@@ -9,12 +9,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Prevents electrocution, but you\u0027re probably not going to need this!",
+      "desc:8": "免受触电伤害，但你可能不需要这个！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "immersiveengineering:faraday_suit_chest"
       },
-      "name:8": "Faraday"
+      "name:8": "法拉第"
     }
   },
   "questID:3": 1646,

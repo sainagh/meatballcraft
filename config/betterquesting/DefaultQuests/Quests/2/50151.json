@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Radioactive blocks placed next to this generator will yield RF until they are fully decayed.",
+      "desc:8": "通过相邻放置的放射性方块产出RF，直至完全衰变。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:decay_generator"
       },
-      "name:8": "Decay Generator (OK)"
+      "name:8": "衰变产能器（一般）"
     }
   },
   "questID:3": 50151,

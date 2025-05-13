@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Compact power flowers?! Yes please!\nSimilarly to the various tiers of EMC matter, there seem to be multiple tiers of these, and they appear to be tied to mythic powers...",
+      "desc:8": "紧凑型力量花？！正合我意！\n与各阶EMC物质相似，这些力量花也存在位阶之分，其形态变化似乎与神话能量直接相关……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectex:power_flower"
       },
-      "name:8": "My new favorite bonsai"
+      "name:8": "我最喜欢的盆景"
     }
   },
   "questID:3": 160,

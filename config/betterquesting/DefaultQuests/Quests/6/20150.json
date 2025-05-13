@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRight click while in the Abyssal Wasteland to open a portal to the Dreadlands.",
+      "desc:8": "§7§o在深渊荒原右击以打开通往恐惧之地的传送门。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:gatewaykeydl"
       },
-      "name:8": "Asorah\u0027s Dreaded Gateway Key"
+      "name:8": "阿索拉的恐惧之门钥匙"
     }
   },
   "questID:3": 20150,

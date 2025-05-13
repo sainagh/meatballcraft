@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Despite the relative lack of concrete uses in golemancy (given other, better options), seals have use in higher arts (you\u0027ll see when you get there.)",
+      "desc:8": "尽管在傀儡学中缺乏具体用途（因为有其他更好选项），但印记在更高阶魔法中仍有用处（到时候自会知道的）。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:seal"
       },
-      "name:8": "Blank Seal"
+      "name:8": "空白印记"
     }
   },
   "questID:3": 20220,

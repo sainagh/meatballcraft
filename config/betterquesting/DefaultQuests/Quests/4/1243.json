@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oQuartz fiber lets you connect me cables without transferring channels.\n\nQuartz fiber only moves energy!",
+      "desc:8": "§7§o石英纤维可在不传输频道的情况下，将ME线缆相连。\n\n石英纤维仅传输能量！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 140,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "Quartz Fiber"
+      "name:8": "石英纤维"
     }
   },
   "questID:3": 1243,

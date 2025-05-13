@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This reactor uses the fusion between gases to produce A TON of RF.\nIt is built with a controller in the middle. Out of each of the four \u0027arms\u0027 of the controller, at least one fusion connector should be placed.\nStarting from the ends of the connectors, electromagnets (preferrably of the transparent variety) are placed in a square toroid (leaving the middle empty).\nIn order to properly function, the electromagnets require power (provided by RF) and cooling (using active fluid coolers).\nIn a fusion reactor, central symmetry around the controller should be mantained for optimal results!",
+      "desc:8": "这种反应堆通过气体间的聚变反应来产生海量能量。\n其结构以控制器为中心，控制器的4个“臂”末端各需安装至少一个聚变连接器。\n从连接器末端开始，需将电磁体（推荐使用透明型）排列成空心方形环体结构。\n为保障正常运行，电磁体需持续供能，并进行冷却（使用液冷器）。\n建造聚变反应堆时，建议保持围绕控制器的中心对称布局以获得最佳运行效果！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:fusion_core"
       },
-      "name:8": "Magnetic Confinement Fusion Reactor (Great)"
+      "name:8": "磁约束聚变反应堆（优异）"
     }
   },
   "questID:3": 50249,

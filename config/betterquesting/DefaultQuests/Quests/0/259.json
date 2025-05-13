@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the skies around the thornlands.\n\n§fSomeone tried to fight back, to stop the spread of the mythological transformation. Deep in the caves, hidden massive giant boulders, I found the Lamp of Cinders. This artifact is somehow capable of breaking through the properties of the powder by burning it. The unfortunate side effect? Burning things does have a tendency to kill them, or at least hurt them. \nWhatever the plan to use this artifact may have been, it is safe to assume it did not succeed. It\u0027s range is quite limited, and it does require manual operation, so could it be that the powder spread fast enough that in that time only one lamp was built? \nOr was it something else completely? I was only able to find this because the soil felt \u0027different\u0027 there. It does feel strange that all other \u0027prisons\u0027 in this world have a recognizable landmark on the surface, while this one does not. \nThe Crimson Cult dominates the skies now, is it possible that this lamp was hidden from them? Was the Crimson Cult around back then?\nAnd yes, I am definitely feeling more mythical! Giants bearing my image now roam the land. I am not sure what to make of it.",
+      "desc:8": "§7§o发现于荆棘之地周边的天空中。\n\n§f曾有人试图反击，阻止神话转变的蔓延。在洞穴深处的巨石里，我找到了余烬之灯。这件神器能通过焚烧突破那种粉末的特性。不幸的副作用？烈火确实擅长终结生命，或至少带来伤痛。\n无论当初启用此物的计划如何，显然都未能成功。它的作用范围相当有限，且需人工操作，难道粉末扩散之快让他们仅来得及铸造一盏？\n抑或另有隐情？我能发现它全因此处泥土不同寻常。地表其他“监牢”都有醒目的地标，唯独此处毫无标识，着实奇怪。\n如今血腥教团称霸天际，此灯是否曾被刻意隐藏以避其耳目？难道血腥教团当时就已存在？\n至于我？我确实感觉愈发接近神话！如今大地游荡着以我为原型的巨人，真不知道该作何感想。。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "twilightforest:giant_pickaxe"
       },
-      "name:8": "Giant Stuff"
+      "name:8": "庞然之物"
     }
   },
   "questID:3": 259,
@@ -34,7 +34,7 @@
               "Damage:2": 0,
               "id:8": "twilightforest:giant_pickaxe"
             },
-            "TrophyName:8": "Giant Me Slayer",
+            "TrophyName:8": "超大的我屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

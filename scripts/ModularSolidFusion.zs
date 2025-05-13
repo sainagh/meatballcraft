@@ -18,6 +18,29 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:plasma_collider>,
 [null, <contenttweaker:draconic_machine_frame>, null, null, null, <contenttweaker:draconic_machine_frame>, null], 
 [<contenttweaker:meatball_attuned_crystal>, null, null, <enderio:item_capacitor_stellar>, null, null, <contenttweaker:meatball_attuned_crystal>]]);  
 
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:focused_plasma_collider>, 
+[[<contenttweaker:shungite_casing>, <contenttweaker:shungite_casing>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:shungite_casing>, <contenttweaker:shungite_casing>], 
+[<contenttweaker:shungite_casing>, <ore:ingotFractalliteHalite>, <contenttweaker:mythic_excavation_reactor>, <ore:ingotFractalliteHalite>, <contenttweaker:shungite_casing>], 
+[<avaritiaitem:self_actualizing_stone>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:plasma_collider>, <contenttweaker:mythic_excavation_reactor>, <avaritiaitem:self_actualizing_stone>], 
+[<contenttweaker:shungite_casing>, <ore:ingotFractalliteHalite>, <contenttweaker:mythic_excavation_reactor>, <ore:ingotFractalliteHalite>, <contenttweaker:shungite_casing>], 
+[<contenttweaker:shungite_casing>, <contenttweaker:shungite_casing>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:shungite_casing>, <contenttweaker:shungite_casing>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:superfocused_plasma_collider>, 
+[[<environmentaltech:modifier_strength>, <environmentaltech:modifier_strength>, <contenttweaker:freedomsteel_ingot>, <environmentaltech:modifier_strength>, <environmentaltech:modifier_strength>], 
+[<environmentaltech:modifier_strength>, <contenttweaker:stone_of_universal_balance>, <contenttweaker:hyperuranion_conduit>, <contenttweaker:stone_of_universal_balance>, <environmentaltech:modifier_strength>], 
+[<contenttweaker:freedomsteel_ingot>, <contenttweaker:hyperuranion_conduit>, <contenttweaker:focused_plasma_collider>, <contenttweaker:hyperuranion_conduit>, <contenttweaker:freedomsteel_ingot>], 
+[<environmentaltech:modifier_strength>, <contenttweaker:stone_of_universal_balance>, <contenttweaker:hyperuranion_conduit>, <contenttweaker:stone_of_universal_balance>, <environmentaltech:modifier_strength>], 
+[<environmentaltech:modifier_strength>, <environmentaltech:modifier_strength>, <contenttweaker:freedomsteel_ingot>, <environmentaltech:modifier_strength>, <environmentaltech:modifier_strength>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hyperfocused_plasma_collider>, 
+[[<contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:hyperuranon_actualizing_fabrial>, <forge:bucketfilled>.withTag({FluidName: "recursive_computing_matter", Amount: 1000}), <contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:hyperuranon_actualizing_fabrial>], 
+[<contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:ascended_spatial_chassis>, <contenttweaker:hungering_machine_case>, <contenttweaker:ascended_spatial_chassis>, <contenttweaker:hyperuranon_actualizing_fabrial>], 
+[<forge:bucketfilled>.withTag({FluidName: "recursive_computing_matter", Amount: 1000}), <contenttweaker:hungering_machine_case>, <contenttweaker:superfocused_plasma_collider>, <contenttweaker:hungering_machine_case>, <forge:bucketfilled>.withTag({FluidName: "recursive_computing_matter", Amount: 1000})], 
+[<contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:ascended_spatial_chassis>, <contenttweaker:hungering_machine_case>, <contenttweaker:ascended_spatial_chassis>, <contenttweaker:hyperuranon_actualizing_fabrial>], 
+[<contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:hyperuranon_actualizing_fabrial>, <forge:bucketfilled>.withTag({FluidName: "recursive_computing_matter", Amount: 1000}), <contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:hyperuranon_actualizing_fabrial>]]);  
+
+
 val betterfluidfusion1 = RecipeBuilder.newBuilder("betterfluidfusion1","linear_fusion_accelerator",10);
 betterfluidfusion1.addEnergyPerTickInput(1000000);
 betterfluidfusion1.addFluidInput(<fluid:hydrogen>*1000);

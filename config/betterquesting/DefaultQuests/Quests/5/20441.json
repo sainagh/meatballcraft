@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Some stygian iron...and essence is now easy!",
+      "desc:8": "地狱铁让精华获取更容易了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:concentrated_essence"
       },
-      "name:8": "Dense Solidified Experience"
+      "name:8": "致密固化经验"
     }
   },
   "questID:3": 20441,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oClears curses (sometimes).",
+      "desc:8": "§7§o（中等概率）移除诅咒。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 10,
         "id:8": "extrautils2:ingredients"
       },
-      "name:8": "Rite of the Lesser Curse Cleansing"
+      "name:8": "次级诅咒净化仪式"
     }
   },
   "questID:3": 1845,

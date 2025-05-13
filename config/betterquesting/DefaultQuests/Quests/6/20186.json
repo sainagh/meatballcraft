@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe ability to see essentia is the main feature of these goggles, which should be worn at all times to ensure nothing bad happens.",
+      "desc:8": "§7§o可观察神秘时代设备的源质含量，确保一直戴着！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:goggles"
       },
-      "name:8": "Goggles of Revealing"
+      "name:8": "揭示之护目镜"
     }
   },
   "questID:3": 20186,

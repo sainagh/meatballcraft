@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound near Bedrock.\nHolding a Resonating Wand will illuminate regions above Rock Crystal ores, and even highlight them through walls!",
+      "desc:8": "§7§o发现于基岩层附近。\n手持共振星杖时，有水晶石矿石的地方会发出白色光点，甚至能穿墙显示！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:itemrockcrystalsimple",
@@ -20,7 +20,7 @@
           }
         }
       },
-      "name:8": "Rock Crystal"
+      "name:8": "水晶石"
     }
   },
   "questID:3": 70116,

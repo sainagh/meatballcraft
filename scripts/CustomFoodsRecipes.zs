@@ -147,7 +147,7 @@ recipes.addShapeless(<contenttweaker:bento_xxl>,
 recipes.addShapeless(<contenttweaker:bento_xxxl>,
 [<contenttweaker:bento_xxl>, <aoa3:raw_violet_skipper>, <aoa3:raw_dark_hatchetfish>, <aoa3:raw_sapphire_strider>, <actuallyadditions:item_misc:9>]);
 
-furnace.addRecipe(<contenttweaker:dragon_egg_omelette>,<iceandfire:dragonegg_sapphire>);
+furnace.addRecipe(<contenttweaker:dragon_egg_omelette>,<contenttweaker:cursed_dragon_egg>);
 
 recipes.addShaped(<iceandfire:dragonegg_sapphire>,
 [[<minecraft:dragon_egg>, <draconicevolution:chaos_shard:3>, <minecraft:dragon_egg>],

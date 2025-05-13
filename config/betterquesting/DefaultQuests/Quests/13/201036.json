@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 550\nMining Level: Stone\nMining Speed: 6\nAttack: 5.5\nAutosmelt\n\nHandle\nModifier: 1\nDurability: -200\nAutosmelt\n\nExtra\nDurability: 150\nAutosmelt\n\nBows\nDrawspeed: 1\nRange Multiplier: 1\nBonus Damage: 0\nAutosmelt",
+      "desc:8": "顶端\n耐久：550\n挖掘等级：石头\n挖掘速度：6\n攻击力：5.5\n自动冶炼\n\n手柄\n手柄系数：1\n耐久：-200\n自动冶炼\n\n其它部件\n耐久：150\n自动冶炼\n\n弓\n拉弓速度：1\n范围系数：1\n附加伤害：0\n自动冶炼",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "firewood"
         }
       },
-      "name:8": "Firewood"
+      "name:8": "烈焰木"
     }
   },
   "questID:3": 201036,

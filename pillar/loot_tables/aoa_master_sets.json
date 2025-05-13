@@ -995,6 +995,319 @@
           "min": 1.0,
           "max": 1.0
         }
+      },
+      {
+        "name": "rollupgrades",
+        "entries": [
+          {
+            "entryName": "aoa3:abyssal_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:abyssal_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:ancient_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:ancient_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:apoco_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:apoco_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:clown_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:clown_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:darkly_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:darkly_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:floro_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:floro_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:golden_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:golden_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:haunted_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:haunted_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:lelyetian_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:lelyetian_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:light_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:light_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:lunar_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:lunar_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:nether_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:nether_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:precasian_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:precasian_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:predator_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:predator_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:rocky_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:rocky_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:runic_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:runic_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:seaside_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:seaside_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:smiley_upgrade_kit",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:smiley_upgrade_kit"
+          },
+          {
+            "entryName": "aoa3:weapon_parts",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "aoa3:weapon_parts"
+          }
+        ],
+        "rolls": {
+          "min": 1.0,
+          "max": 1.0
+        }
       }
     ]
   }

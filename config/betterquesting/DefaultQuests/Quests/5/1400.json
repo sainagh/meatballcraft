@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following are good drops to farm with woot!\n\nWhen you unlock ultimate mob farms, thy can be used for those too!",
+      "desc:8": "§7§o以下掉落物非常适合用Woot获得！\n\n解锁终极生物农场后，也可用它来产出！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "woot:shard"
       },
-      "name:8": "Let\u0027s Woot!"
+      "name:8": "用Woot！"
     }
   },
   "questID:3": 1400,

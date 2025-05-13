@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEditing the genes of each bee will allow you to make powerful bees to suit all your needs!\n\nStart working on this after you understand the basics of bees!",
+      "desc:8": "§7§o编辑蜜蜂的基因可制作出满足你所有需求的强力蜜蜂！\n\n你应该在充分理解了蜜蜂的基础理论后再进行该板块任务！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 15,
         "id:8": "extrabees:honey_comb"
       },
-      "name:8": "Genetic Editing (Advanced)"
+      "name:8": "基因编辑（进阶）"
     }
   },
   "questID:3": 1007,

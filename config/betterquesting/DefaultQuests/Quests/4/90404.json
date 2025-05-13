@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAllows to send and receive items from the player\u0027s inventory.",
+      "desc:8": "§7§o可与玩家物品栏进行物品交互。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 13,
@@ -14,7 +14,7 @@
           "ModuleFilter:9": {}
         }
       },
-      "name:8": "Player Module"
+      "name:8": "玩家背包模块"
     }
   },
   "questID:3": 90404,

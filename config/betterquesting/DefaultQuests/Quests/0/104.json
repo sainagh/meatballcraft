@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse the item to spawn a boss.\n\n§fAnimals are animals, no matter how powerful.\nThe primary instinct of life is to spread, but what if this puts an entire planet under control?! Such is the power of some of these creatures...\nThey seem to be organized in some way, and the Testificates call them the Twilight Horde.\nIt seems like the Ancient Entity is powerful amongst them, if I eliminate it, some of its weaker followers could give up...",
+      "desc:8": "§7§o使用此物品召唤Boss。\n\n§f无论多么强大，动物终究是动物。\n生命的第一本能是繁衍，但如果这种本能将整个星球置于掌控之下呢？！这些生物中的某些存在便拥有这样的力量……\n它们似乎存在某种组织性，泰斯提斐人称其为暮光部落。\n看起来远古实体在其中拥有强大影响力，如果我消灭它，部分较弱的追随者可能会放弃抵抗……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:mysterious_clock"
       },
-      "name:8": "The Twilight Horde"
+      "name:8": "暮光部落"
     }
   },
   "questID:3": 104,

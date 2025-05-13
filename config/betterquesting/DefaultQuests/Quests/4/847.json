@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oA multiblock that can replace arrays of interfaces and molecular assembler setups! ",
+      "desc:8": "§7§o用于代替分子装配室和ME接口的多方块接口！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "threng:big_assembler"
       },
-      "name:8": "Mass Assembler"
+      "name:8": "大型分子装配室"
     }
   },
   "questID:3": 847,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace above a woot farm.\n\nPlace a tank on top of the master ritual stone.\n\nThe tank will fill with life essence!",
+      "desc:8": "§7§o放置在Woot刷怪场上方。\n\n在主仪式石上放置储罐。\n\n储罐会填满生命源质！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Sanguine Urn"
+      "name:8": "猩红之瓮"
     }
   },
   "questID:3": 848,

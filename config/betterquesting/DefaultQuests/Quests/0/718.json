@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "That\u0027s what I needed! A secret order of bees!\nSomething I found very puzzling about bee society was the apparent lack of cooperation between the many societies inhabiting the Sol system planets. As I should\u0027ve guessed, there actually is some type of cooperation, just not the type I imagined.\nSimilarly to the testificates of Terra, bee society likes to hold secrets through a secret network of individuals in charge of both government and keeping a written history. After seeing this happen in two different societies, one starts to wonder. Is this how government is run once magic enters the equation? Are open, outspoken leaders too easy to manipulate? Are secret societies the way to go in a universe at war?\nI was able to encounter one of said secret society members on Luna who, being extremely nice as always, told me about a secret mark that is being shared all around the Sol system, they call themselves the Bubbell Alliance. The bees are coming together!\nThe gravity bees of Sedna, having attuned to the strange properties of their home world, have control over powerful gravitational magic (magic? science? I don\u0027t really know how bees work), and they seem to be sitting at the top of the Sol system hierarchy. They have been making political moves, and have sent signals to the other bees.\nThey are coming together, they are coming together for me.\nWhy me? Is this a prophecy story? Am I their version of the Messiah? Are they just being nice because they are always nice to everyone?",
+      "desc:8": "终于让我发现了！蜜蜂的隐秘秩序！\n长久以来，蜜蜂社会的运作模式始终令我困惑——明明遍布索尔星系各行星，族群间却鲜见合作迹象。如今看来，它们的协同方式远超我的想象。\n与泰拉上的泰斯提斐人类似，蜜蜂通过秘密网络维系着统治体系：那些身兼执政者与史官双重身份的个体，将真相封存在重重帷幕之后。目睹两个迥异文明不约而同选择这种治理模式，不禁引人深思：当魔法介入权力游戏，是否唯有阴影中的深层政府才能抵御操控？在这战火纷飞的宇宙，秘密结社是否才是存续之道？\n在月球偶遇的秘密结社成员（依然保持着蜜蜂标志性的友善）向我透露了气泡铃联盟的存在——这个以特殊标志为信标的组织，正悄然串联整个索尔星系的蜜蜂！\n塞德娜星上的引力蜜蜂已完全适应母星的异常引力场，掌控着堪比神迹的引力操纵魔法（魔法？科技？我实在搞不懂蜜蜂的运作原理），俨然成为索尔星系蜜蜂社会的顶层存在。如今它们正通过政治行动向同类传递集结信号。\n它们在汇聚，它们在为我而汇聚。\n但为何是我？这是什么预言故事吗？我难道是异界版的弥赛亚？抑或这不过是蜜蜂一贯的善意使然？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:sedna_spinel"
       },
-      "name:8": "Secrets of Sedna"
+      "name:8": "塞德娜的秘密"
     }
   },
   "questID:3": 718,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:sedna_spinel"
             },
-            "TrophyName:8": "Steward of Gravity",
+            "TrophyName:8": "引力使",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

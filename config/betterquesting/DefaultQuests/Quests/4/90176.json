@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe crafting terminal has a crafting table that lets you access your entire storage system with JEI + sign compatibility!\n\nYou can import recipes from JEI. If an item shows as blue in the JEI recipe preview, you can middle click on it to automatically autocraft it!\n\n",
+      "desc:8": "§7§o合成终端中包含一个可通过JEI配方右下角的“+”按钮访问整个存储网络内容的合成台！\n\n可使用JEI来转移配方。若JEI配方预览中的物品显示为蓝色，则可使用中键点击该物品对其进行自动合成！\n\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 360,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "ME Crafting Terminal"
+      "name:8": "ME合成终端"
     }
   },
   "questID:3": 90176,

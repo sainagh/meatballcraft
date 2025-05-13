@@ -9,7 +9,7 @@
         "id:8": "botania:cosmetic"
       },
       "ismain:1": 1,
-      "name:8": "Welcome to Chapter 2"
+      "name:8": "欢迎来到第2章"
     }
   },
   "questID:3": 20318,
@@ -30,7 +30,7 @@
               "Damage:2": 12,
               "id:8": "appliedenergistics2:material"
             },
-            "TrophyName:8": "Welcome to Chapter 2",
+            "TrophyName:8": "欢迎来到第2章",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "gold"
           }

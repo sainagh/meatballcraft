@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Petal Apothecary needs water to work. It can be piped in using the everful urn or a mechanical user with evertide amulet.\n\nThe ingredients shown in JEI recipes are dropped into the apthecary.\n\nSeeds are dropped into the Apothecary after adding all ingredients to complete the recipe.",
+      "desc:8": "§7§o花药台需要水才能工作。可使用无尽之瓮、使用潮汐护符的使用者，或者活石桶为其补充水。\n\n将JEI中显示的原料丢入花药台中。\n\n丢入所有原料后，再丢入种子以完成配方。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:altar"
       },
-      "name:8": "Petal Apothecary"
+      "name:8": "花药台"
     }
   },
   "questID:3": 20154,

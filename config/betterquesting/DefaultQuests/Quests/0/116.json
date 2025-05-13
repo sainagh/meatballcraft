@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Just a few weeks here, and I already surpassed human tech!\nBy exploiting the power of dimensional doors, I can now make my own wormholes in a controlled environment!\nPhysics is so much easier with so many resources available.",
+      "desc:8": "才短短数周，我便超越了人类科技！\n通过驾驭维度门的力量，我如今已能在可控环境中自主生成虫洞！\n在资源如此充沛的世界里，物理研究简直如同搭积木般轻松。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftools:matter_transmitter"
       },
-      "name:8": "Better than planes!"
+      "name:8": "比飞机更好！"
     }
   },
   "questID:3": 116,

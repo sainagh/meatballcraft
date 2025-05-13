@@ -343,3 +343,31 @@ masterspellaversio.register();
 
 
 
+var masterspellinfernum = VanillaFactory.createItem("master_spell_infernum");
+masterspellinfernum.maxStackSize = 1;
+masterspellinfernum.glowing = true;
+masterspellinfernum.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:cursed_dragon_egg\",Count:1b}}", player, world, false, true);
+	return "Pass";
+};
+masterspellinfernum.register();
+
+
+var masterspellsonus = VanillaFactory.createItem("master_spell_sonus");
+masterspellsonus.maxStackSize = 1;
+masterspellsonus.glowing = true;
+masterspellsonus.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("/summon mowziesmobs:naga ~ ~3 ~ {HandItems:[{Count:1,id:\"iceandfire:weezer_blue_album\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"录音师飞龙\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:10,permshields:10}},Attributes:[{Name:generic.maxHealth, Base:5000.0},{Name:generic.attackDamage, Base:100.0}],Health:5000f}", player, world, false, true);
+	return "Pass";
+};
+masterspellsonus.register();
+
+
+var masterspellcognitio = VanillaFactory.createItem("master_spell_cognitio");
+masterspellcognitio.maxStackSize = 1;
+masterspellcognitio.glowing = true;
+masterspellcognitio.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("/summon thaumcraft:giantbrainyzombie ~ ~3 ~ {HandItems:[{Count:10,id:\"contenttweaker:salt_of_knowledge\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"红眼僵尸巨人\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:40,permshields:40}},Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:100.0}],Health:2000f}", player, world, false, true);
+	return "Pass";
+};
+masterspellcognitio.register();

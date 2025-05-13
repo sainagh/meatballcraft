@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Endergenic generators receive \u0027endergenic\u0027 pearls from a Pearl Injector, or an adjacent generator.\nReceiving a pearl produces a burst of energy, but keeping a pearl consumes energy, so timing is everything!\nEach generator will pass the endergenic hot potato to the next in line when receiving a redstone pulse.\nWith the right redstone timing and the right generator train, a lot of RF can be made.\nor you can be boring and go on youtube and look up a tutorial...",
+      "desc:8": "末影能发电机从末影珍珠填充器或相邻的末影能发电机中接收“末影能”珍珠。\n接收珍珠时会产出能量，但保留珍珠会消耗能量，所以时机很重要！\n接收到红石脉冲时，发电机会把这块烫手“末影能”山芋传递给下一个发电机。\n使用正确的红石和发电机序列，能产出相当客观的RF。\n要是懒得研究，也可以直接去B站搜教程……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftools:endergenic"
       },
-      "name:8": "Endergenic Generator (Good - Laggy)"
+      "name:8": "末影能发电机（良好 - 会有卡顿）"
     }
   },
   "questID:3": 50206,

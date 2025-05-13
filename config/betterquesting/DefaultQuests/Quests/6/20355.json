@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCollector crystals are used in a variety of applications.\n\nThey can be linked to an altar to boost starlight levels.\n\nThey can be linked to a ritual using the same attunement to boost the effect of the altar.\n\nBy building a structure around the crystal (see preview) it can be used to increase its boosting effect further.",
+      "desc:8": "§7§o聚能水晶有多种用途。\n\n可与祭坛链接以增加星能水平。\n\n可与祭坛链接，以增加与共鸣星座相同的仪式效果。\n\n通过在聚能水晶周围建造多方块结构（查看预览），增幅效果还可进一步提升。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:blockcelestialcollectorcrystal",
@@ -22,7 +22,7 @@
           }
         }
       },
-      "name:8": "Floating Crystal"
+      "name:8": "浮动水晶"
     }
   },
   "questID:3": 20355,

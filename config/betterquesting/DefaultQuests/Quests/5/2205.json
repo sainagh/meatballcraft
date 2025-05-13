@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following trees will be used at some point in progression.",
+      "desc:8": "§7§o以下树木会在流程中起到重要作用。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:thaumic_citrus"
       },
-      "name:8": "Notable Trees"
+      "name:8": "重点树木"
     }
   },
   "questID:3": 2205,

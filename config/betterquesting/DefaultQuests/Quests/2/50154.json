@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The magmatic dynamo produces RF using lava.\nA pump in the nether can be a good way to get lots of lava, but there are also ways of creating endless amounts of it (better longterm).",
+      "desc:8": "热力能源炉通过消耗熔岩产出RF。\n在下界使用泵抽取熔岩湖是获得熔岩的不错方法，但还有其他很多能制造无限熔岩的手段（更适合长期使用）。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
@@ -16,7 +16,7 @@
           "RSControl:1": 0
         }
       },
-      "name:8": "Magmatic Dynamo (Great)"
+      "name:8": "热力能源炉（优异）"
     }
   },
   "questID:3": 50154,

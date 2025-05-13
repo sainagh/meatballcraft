@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Diamatine\n\nHead\nDurability: 1,700\nMining Level: Cobalt\nMining Speed: 8\nAttack: 6.3\nMorgan Le Fay\n\nHandle\nModifier: 1.2\nDurability: 10\nMorgan Le Fay\n\nExtra\nDurability: 88\nMorgan Le Fay\n\nBows\nDrawspeed: 1.43\nRange Multiplier: 2\nBonus Damage: 11\nMorgan Le Fay",
+      "desc:8": "顶端\n耐久：1,700\n挖掘等级：钴\n挖掘速度：8\n攻击力：6.3\n摩根勒菲\n\n手柄\n手柄系数：1.2\n耐久：10\n摩根勒菲\n\n其它部件\n耐久：88\n摩根勒菲\n\n弓\n拉弓速度：1.43\n范围系数：2\n附加伤害：11\n摩根勒菲",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "diamatine_actadd_plustic"
         }
       },
-      "name:8": "Diamatine"
+      "name:8": "钻石水晶"
     }
   },
   "questID:3": 201171,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAutomatically collects fluids and places them in its internal buffer.",
+      "desc:8": "§7§o自动收集流体，并将其存入内部缓存。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_fluid_collector"
       },
-      "name:8": "Fluid Collector"
+      "name:8": "流体吸收器"
     }
   },
   "questID:3": 90211,

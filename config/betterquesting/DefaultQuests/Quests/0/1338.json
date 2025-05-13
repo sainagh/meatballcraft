@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis pack has hidden recipes that can be figured out through clues hidden in various worldgen structures! \n\nHere is your first puzzle! It won\u0027t be useful till later, but it\u0027ll help you get an idea on what puzzles consist of!\n\n§fThe testificates hold some secrets, that\u0027s undeniable. They seem to appreciate intelligence, and they are willing to appreciate effort to uncover said secrets. Something good will come out of this, I can feel it!",
+      "desc:8": "§7§o本整合包内含隐藏的合成配方，可通过散布在世界的自然生成结构中隐藏的线索破解！\n\n这是你的第一个谜题！虽然现在用不上，但它能帮助你了解谜题的构成形式！\n\n§f泰斯提斐人掌握着某些秘密，这点毋庸置疑。他们似乎欣赏智慧，也愿意嘉奖那些努力揭开这些秘密的人。我能感觉到，破解谜题后定会有丰厚的回报！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:alchemical_mushroom"
       },
-      "name:8": "Puzzling!"
+      "name:8": "谜题！"
     }
   },
   "questID:3": 1338,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYour first fission fuel! TSLEU-235 is also a thing! Same output, better power!\n\n§fThe uranium found on Terra seems to behave the same as Earth, time to split some isotopes!",
+      "desc:8": "§7§o第一种裂变燃料！当然也可以是热力低密度铀-235燃料！产热相同，但产能更多！\n\n§f泰拉上发现的铀似乎与地球上的一样，是时候分离一些同位素了！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "nuclearcraft:fuel_uranium"
       },
-      "name:8": "LEU-235 Fuel"
+      "name:8": "低密度铀-235燃料"
     }
   },
   "questID:3": 50217,

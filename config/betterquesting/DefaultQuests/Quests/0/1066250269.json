@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1843441452
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:void_ichorium_gem"
+      },
+      "name:8": "Tainted Artifacts"
+    }
+  },
+  "questID:3": 1066250269,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:void_ichorium_gem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:void_chains"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:tainted_claw"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

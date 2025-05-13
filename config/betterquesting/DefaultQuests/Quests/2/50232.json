@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "And here\u0027s the other fissible plutonium isotope!",
+      "desc:8": "这是另一种可裂变的钚同位素！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "nuclearcraft:depleted_fuel_uranium"
       },
-      "name:8": "Depleted HEU-233 Fuel"
+      "name:8": "枯竭高密度铀-233燃料"
     }
   },
   "questID:3": 50232,

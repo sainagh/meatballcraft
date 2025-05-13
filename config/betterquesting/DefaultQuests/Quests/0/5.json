@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlayer upgrades are available in the Personal Augmentation tab! More quest pages will unlock as you keep going!\n\n§rOk, I used some wood to build a basic worktable, and I\u0027ve been able to put together some basic tools.",
+      "desc:8": "§7§o玩家升级相关可查看个人强化标签页！更多任务页面会随进度逐渐解锁！\n\n§r好了，我用一些木头做了个基础的工作台，能用它来组合些基础工具。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:crafting_table"
       },
-      "name:8": "Fabrication"
+      "name:8": "制作加工"
     }
   },
   "questID:3": 5,

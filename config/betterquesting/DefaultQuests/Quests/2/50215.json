@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oModerators increase the efficiency of cells (more power, less fuel), but they also increase heat. They need to be placed next to cells.",
+      "desc:8": "§7§o减速剂可提高单元效率（更多能量，燃料消耗更少），但会提高产热。需要与反应堆单元相邻放置。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 8,
         "id:8": "nuclearcraft:ingot_block"
       },
-      "name:8": "Moderators"
+      "name:8": "减速剂"
     }
   },
   "questID:3": 50215,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Thorium is not the best for energy throughput, but accelerating its decay should yield good isotopes to be further bred into more fuels!",
+      "desc:8": "钍不是产能的最佳选择，但加速其衰变会产生优质的同位素，进而生成更多可用燃料！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:depleted_fuel_thorium"
       },
-      "name:8": "Depleted TBU Fuel"
+      "name:8": "枯竭TBU燃料"
     }
   },
   "questID:3": 50220,

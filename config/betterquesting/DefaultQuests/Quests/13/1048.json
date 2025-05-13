@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFor metals, tool parts cannot be made in the part builder, you need the casting table.\n\nPlace seared faucets on top of the seared drains, and put casting tables underneath.\n\nTo make a part, you will need a cast, see next quest for info on how to make casts!",
+      "desc:8": "§7§o金属材料对应的工具部件无法在部件加工台中制作，你需要浇铸台。\n\n在焦黑排液口侧面放置焦黑浇注口，将浇铸台放置在浇注口下方。\n\n制作部件需要铸模，查看后续任务以了解如何制作铸模！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:casting"
       },
-      "name:8": "Basic Casting"
+      "name:8": "基础浇铸"
     }
   },
   "questID:3": 1048,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis altar is part of a multiblock structure.\n\nRight click with a sextant to see a multiblock preview!\n\nHolding a constellation paper in off-hand while looking at a fully built attunement structure will produce particle effects on specific blocks.\n\nPlace spectral relays to for the constellation shape on the spots indicated by the particles. New visuals will show up if the relays are placed properly, and if the constellation is in the sky.\n\nThe attunement altar can attune players (you stand in it) or crystals (put them on the altar).\n\nEach attuned crystal can produce an effect if used in a ritual altar.\n\nThe following quests give effects for each crystal.\n\nThe notable ones are marked as (USEFUL).",
+      "desc:8": "§7§o该祭坛是多方块结构的一部分。\n\n使用六分仪右击祭坛以查看多方块预览！\n\n副手手持星图看向建造完成的共鸣祭坛结构，特定的方块上会有粒子效果。\n\n在粒子效果指示的方块上放置星辉转继器来构成星座形状。若转继器放置正确且对应的星座在天空中，会出现新的视觉效果。\n\n共鸣祭坛可使玩家（站在中心）或水晶石（放入祭坛）与星座共鸣。\n\n将共鸣水晶石放入仪式祭坛会产生不同效果。\n\n值得注意的仪式效果用（实用）标记。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:blockattunementaltar"
       },
-      "name:8": "Attunement Altar"
+      "name:8": "共鸣祭坛"
     }
   },
   "questID:3": 20123,

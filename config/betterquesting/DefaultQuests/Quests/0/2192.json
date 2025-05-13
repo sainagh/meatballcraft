@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Blood God of Orcus told me of this. One of the demons imprisoned in Haumea, Baku, holds they key for a useful blood ritual. Life essence should be a bit more convenient now!\nEldritch beings come in all sorts of shapes and sizes, but why an elephant? I don\u0027t get it.",
+      "desc:8": "奥伽斯血神向我透露了这个秘密。哈乌美亚囚禁的其中一只恶魔，貘，掌握着某个高阶血魔法仪式的关键钥匙。今后获取生命精华应该能事半功倍！\n不过这些怪异存在明明有万千形态可选，为何偏偏化身为象？实在费解。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:demon_stone"
       },
-      "name:8": "For the Blood God"
+      "name:8": "为了血神"
     }
   },
   "questID:3": 2192,

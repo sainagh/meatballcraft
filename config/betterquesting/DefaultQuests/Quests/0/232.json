@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAssemble the gaia arena and click the beacon with terrasteel.\n\n§fI am missing something, I can feel it. Everything about flower magic points towards a different world. Some traces of it led me to Arcana, but that\u0027s not it. The symbolism surrounding the portal I opened points to Alfheim, the home of the elves in Norse lore.\nAnd yet, no elves, just a magic portal that leads nowhere, and it transforms things. I know this portal should have opened, the way I put it together, the call that resounds in my mind when I get nearby tells me so. But no, something is wrong.\nTo confirm my theory that a world indeed exists on the other side, I tried to send a signal, a message, past its veil.\nSomeone did come, but it was not what I expected. The symbolism, again, points towards Norse mythology; the mother of nature, the goddess of fertility. But the creature I met was definitely not motherly. While I clearly perceived something holy about the enemy I fought, it was clear it has long gone.",
+      "desc:8": "§7§o建造盖亚祭坛，使用泰拉钢锭右击信标。\n\n§f我始终觉得缺失了关键线索。所有关于花卉魔法的线索都指向另一个世界。部分痕迹将我引向秘界，但那并非正解。环绕着我开启的传送门的象征符号，分明指向北欧传说中的精灵国度，艾尔夫海姆。\n然而这里没有精灵，唯有一座通往虚无，却能转化万物的魔法传送门。我确信传送门本应开启：组装方式无误，每当靠近时脑海中回响的召唤之音就是明证。可事实并非如此，一定有哪里出错了。\n为验证异界真实存在的猜想，我尝试穿透帷幕发送信号。\n确实有人应召而来，但不是我期望的那样。象征符号再次指向北欧神话；自然之母，生育女神。可与我相遇的生物却毫无母性光辉。虽然在与这位敌人交战时能感受到神性残留，但显然其本源早已湮灭。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "botania:manaresource"
       },
-      "name:8": "Gaia Guardian"
+      "name:8": "盖亚守护者"
     }
   },
   "questID:3": 232,
@@ -31,7 +31,7 @@
               "Damage:2": 5,
               "id:8": "botania:manaresource"
             },
-            "TrophyName:8": "Tier 1 Guardian Slayer",
+            "TrophyName:8": "守护者屠戮者・T1",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

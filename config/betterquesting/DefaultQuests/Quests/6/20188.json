@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o§7§oThe flux condenser is a fast but unreliable way or removing flux.\n\nA set of lattices should be placed above the flux condenser. Lattices have a chance of clogging, if that happens you should break and replace them.\n\nThis block consumes herba to function, and it produces vitium. You should have essentia pipes to input and output the two.\n",
+      "desc:8": "§7§o§7§o咒波凝结器可快速移除咒波，但是不够稳定。\n\n咒波凝结器上应放置格栅。格栅有概率堵塞，若格栅堵塞，需要破坏并重新放置。\n\n该方块需消耗Herba源质才能工作，并且会产出Vitium源质。使用源质管道来输入输出这两种源质。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:condenser"
       },
-      "name:8": "Flux Condenser"
+      "name:8": "咒波凝结器"
     }
   },
   "questID:3": 20188,

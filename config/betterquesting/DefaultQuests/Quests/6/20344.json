@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oChalk is used to draw rituals to produce special effects, summon mobs, or obtain items.\n\nRituals require an active altar nearby to function.\n\nRight click the ground with chalk to draw runes.\n\nIf a ritual requires items, right click them on the center rune!\n\nThere are three tiers of rituals, corresponding to the three colors of chalk! \n\nThe middle chalk is always yellow! Right click it to start the ritual!\n\nThe following quests list all rituals and what they do! JEI will list how to draw them!\n\nThe notable ones are marked as (USEFUL).\n\n\n\n",
+      "desc:8": "§7§o粉笔用于绘制仪式，来造成特殊效果、召唤生物或获得物品。\n\n仪式需要附近有激活的祭坛以运行。\n\n使用粉笔对地面右击来绘制符文。\n\n若仪式需要物品，使用所需物品对中心符文右击！\n\n总共有三种等级的仪式，对应三种颜色的粉笔！\n\n所有仪式的核心符文均为黄色！右击中心符文来启动仪式！\n\n以下任务列出了所有仪式及其效果！可查看JEI了解如何绘制仪式！\n\n值得注意的仪式会用（实用）标记。\n\n\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:ritual_chalk"
       },
-      "name:8": "Rituals"
+      "name:8": "仪式"
     }
   },
   "questID:3": 20344,

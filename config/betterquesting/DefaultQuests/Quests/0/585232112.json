@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    608217835
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:oath_of_the_seven_undead_lords"
+      },
+      "name:8": "The Seven"
+    }
+  },
+  "questID:3": 585232112,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:oath_of_the_seven_undead_lords"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:oath_of_the_lord_of_gluttony"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:respect_of_the_lord_of_envy"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:respect_of_the_lord_of_sloth"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:respect_of_the_lord_of_wrath"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:respect_of_the_lord_of_greed"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:respect_of_the_lord_of_pride"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:respect_of_the_lord_of_lust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

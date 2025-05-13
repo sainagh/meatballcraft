@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 10\nMining Level: 1\nMining Speed:4.2\nAttack: 35\nEnergy Eater\nMana Eater\nPurify\nLaced\n\nHandle\nModifier: 5\nDurability: 10\nEnergy Eater\nMana Eater\nPurify\nLaced\n\nExtra\nDurability: 10\nEnergy Eater\nMana Eater\nPurify\nLaced\n\n",
+      "desc:8": "顶端\n耐久：10\n挖掘等级：1\n挖掘速度：4.2\n攻击力：35\n电老虎\n魔力吞噬\n净化\n掺和\n\n手柄\n手柄系数：5\n耐久：10\n电老虎\n魔力吞噬\n净化\n掺和\n\n其它部件\n耐久：10\n电老虎\n魔力吞噬\n净化\n掺和\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "abyssal_flesh"
         }
       },
-      "name:8": "Abyssal Flesh"
+      "name:8": "深渊血肉"
     }
   },
   "questID:3": 2079,

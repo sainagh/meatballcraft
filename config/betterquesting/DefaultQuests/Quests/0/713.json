@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The alliance of bees with Blood God of Orcus is a strange one. Once a Testificate, this being got corrupted by powerful blood magic, and their form was morphed, as it often happens.\nWhat came out, though, was unexpected. A firendly form, some may even say adorable. This master of blood is not an enemy, rather, an unfortunate victim of fate (aren\u0027t we all). As long as the Blood God receives sacrifices, their destructive powers are kept in check, and they maintain a clear and level head, even capable of friendly conversation. Because of this, the bees decided to help out, and formed an entire civilization devoted to performing sacrifices, so that this being could maintain their humanity.\nI spoke with the Blood God, I was challeged by them. They wanted to know if I was worthy. Very happy I was, now they are willing to help me.",
+      "desc:8": "蜜蜂和奥伽斯血神的联盟很是奇特。这位神明本是泰斯提斐人，却在强大血魔法的腐蚀下发生了异变，这本不稀奇。\n但最终结果却出人意料：祂竟保持着友善的外表，甚至称得上惹人怜爱。这位鲜血主宰并非天生的恶徒，更像是被命运捉弄的可怜人（谁又不是呢）。只要定期获得献祭，祂就能抑制毁灭冲动，保持清醒理智，甚至能与人亲切交谈。为此，蜜蜂构筑起一整个献祭文明，以维系这位神明残存的人性。\n我直面了血神的试炼。祂要确认我是否有资格同行。所幸我通过了考验，如今联盟已愿为我助力。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:orcus_spinel"
       },
-      "name:8": "Secrets of Orcus"
+      "name:8": "奥伽斯的秘密"
     }
   },
   "questID:3": 713,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:orcus_spinel"
             },
-            "TrophyName:8": "For the Blood God",
+            "TrophyName:8": "为了血神",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests will guide you through bee breeding.\n\nBees can get complex, but they are also quite powerful.\n\nIf you are getting started with bees, make sure to follow these quests!\n\n§fbees are cool\nbees are cool!\nbees are cool!!!",
+      "desc:8": "§7§o后续任务用于指导养蜂。\n\n蜜蜂有点复杂，但是也很强力！\n\n如果想开始养蜂，一定要跟随这些任务！\n\n§f蜜蜂很酷\n蜜蜂很酷！\n蜜蜂很酷！！！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Apian Genetics"
+      "name:8": "蜜蜂遗传学"
     }
   },
   "questID:3": 20417,

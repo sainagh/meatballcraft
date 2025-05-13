@@ -272,3 +272,7 @@ mods.tconstruct.Casting.addTableRecipe(<contenttweaker:hihi_irokane>, <tconstruc
 
 mods.tconstruct.Melting.addRecipe(<liquid:orichalcum> * 144,<contenttweaker:orichalcum>);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:orichalcum>, <tconstruct:cast_custom:0>, <liquid:orichalcum>, 144, false, 80);
+
+
+mods.tconstruct.Melting.addRecipe(<liquid:trinity_ingot> * 144,<contenttweaker:trinity_ingot>);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:trinity_ingot>, <tconstruct:cast_custom:0>, <liquid:trinity_ingot>, 144, false, 80);

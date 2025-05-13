@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWorks like a limited item filter.",
+      "desc:8": "§7§o与限制物品过滤器类似。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "modularrouters:augment"
       },
-      "name:8": "Regulator Augment"
+      "name:8": "调节拓展"
     }
   },
   "questID:3": 90432,

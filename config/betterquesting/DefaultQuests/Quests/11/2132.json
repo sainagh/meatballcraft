@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDefeat the Dread Queen.",
+      "desc:8": "§7§o击败悚怖女皇。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrabotany:firstfractal",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Plaguesword"
+            "Name:8": "瘟疫之剑"
           },
           "ench:9": {
             "0:10": {
@@ -35,7 +35,7 @@
           "soulbindUUID:8": "8c381e15-592d-4003-ae11-6367e203127b"
         }
       },
-      "name:8": "Plaguesword"
+      "name:8": "瘟疫之剑"
     }
   },
   "questID:3": 2132,
@@ -49,9 +49,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oPlaguesword§r"
+              "Name:8": "§6§o瘟疫之剑§r"
             },
             "ench:9": {
               "0:10": {

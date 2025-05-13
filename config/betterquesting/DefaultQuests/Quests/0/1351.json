@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "As I was exploring the testificate villages, I stumbled into a very singular piece of text. The ramblings of a crazed person obsessed with furnaces? The hidden secret behind a great power?\nWell, I may have been corrupted by this craziness, but I thing there may be something more to this, and I am determined to find out!\nIf there is such a thing as a furnace dimension, I will find out!",
+      "desc:8": "在探索泰斯提斐人村庄时，我偶然发现了一段非常奇特的文字。难道是一个沉迷熔炉的疯子的胡言乱语？还是某个强大势力背后的隐秘秘密？\n好吧，或许我也被这种疯狂感染了，但我认为这其中或许隐藏着更深层的秘密，我决心要揭开谜底！\n如果真有所谓的熔炉维度存在，我定会找到它！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:furnace"
       },
-      "name:8": "The what??"
+      "name:8": "啥？？"
     }
   },
   "questID:3": 1351,

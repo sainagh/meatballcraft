@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1000\nMining Level: 10\nMining Speed: 12.0\nAttack: 310\nCritikill\nPayback\nUnholy Touch\nHoly\n\nHandle\nModifier: 1\nDurability: 1000\nCritikill\nPayback\nUnholy Touch\nHoly\n\nExtra\nDurability: 100\nCritikill\nPayback\nUnholy Touch\nHoly\n\n",
+      "desc:8": "顶端\n耐久：1000\n挖掘等级：10\n挖掘速度：12.0\n攻击力：310\n暴击伤害\n以牙还牙\n不洁之触\n神圣\n\n手柄\n手柄系数：1\n耐久：1000\n暴击伤害\n以牙还牙\n不洁之触\n神圣\n\n其它部件\n耐久：100\n暴击伤害\n以牙还牙\n不洁之触\n神圣\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "berserk_steel"
         }
       },
-      "name:8": "Berserker Steel"
+      "name:8": "狂战钢"
     }
   },
   "questID:3": 2124,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "As I am becoming more well-versed in thaumaturgy, things are starting to make more sense...\nWell, they make less sense, but I can \u0027feel\u0027 more...\nAnd I now feel like crabs are part of something bigger...\nThey are not from this world, well, not originally, they come from somewhere else, many generations ago, and they eventually evolved here on Terra to adapt to the current environment.\nThe crimson cult, the unfriendly order of thaumaturgists that I have encountered, are also not natives of Terra. Indeed, they are capable of opening wormholes.",
+      "desc:8": "随着对神秘学的日渐精进，某些事物开始显现出逻辑……\n或者说它们更不合理了，但我能“感知”到更多……\n此刻我意识到，螃蟹似乎属于某个更宏大的存在……\n它们并非本世界原生物种，确切地说，许多代之前来自异界，最终在泰拉适应演化。\n血腥教团，那群不友善的神秘使，同样非泰拉原住民。对，他们掌握着开启虫洞的能力。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:fluix_lens"
       },
-      "name:8": "Eternal Dusk"
+      "name:8": "永恒暮色"
     }
   },
   "questID:3": 202,

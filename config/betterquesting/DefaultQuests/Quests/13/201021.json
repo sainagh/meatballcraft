@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 400\nMining Level: 5\nMining Speed: 8.25\nAttack: 5\nEnderference\nAlien\n\nHandle\nModifier: 0.9\nDurability: 50\nUnnatural\n\nExtra\nDurability: 150\nUnnatural\n\nBows\nDrawspeed: 3.33\nRange Multiplier: 2.5\nBonus Damage: 9\nUnnatural",
+      "desc:8": "顶端\n耐久：400\n挖掘等级：5\n挖掘速度：8.25\n攻击力：5\n抑影\n异形\n\n手柄\n手柄系数：0.9\n耐久：50\n超自然\n\n其它部件\n耐久：150\n超自然\n\n弓\n拉弓速度：3.33\n范围系数：2.5\n附加伤害：9\n超自然",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "end_steel"
         }
       },
-      "name:8": "End Steel"
+      "name:8": "末影钢"
     }
   },
   "questID:3": 201021,

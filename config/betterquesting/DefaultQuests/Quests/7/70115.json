@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSpawns from Y\u003d0 to Y\u003d127\n",
+      "desc:8": "§7§o生成于Y\u003d0与Y\u003d127之间。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:coal"
       },
-      "name:8": "Coal"
+      "name:8": "煤炭"
     }
   },
   "questID:3": 70115,

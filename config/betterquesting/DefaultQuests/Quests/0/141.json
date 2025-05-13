@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Greed is truly a constant in the universe. It seems like the war on Terra is about resources, but why try to get so many? \nMy theory that Dimensional Shards are only useful in large amouts may have some credence, but that\u0027s not the full picture.\nKardashev politics are a thing, and whatever the main objective these invaders have includes keeping Terra in une place. I have seen the type of fire power some of these creatures have, and I could see war escalate to planetary destruction.\nBut instead, they show restraint. This almost feels like what happened during the cold war on Earth. If the weapons can do enough damage, escalation of conflict becomes less desirable.\nI wonder what the Kardashev equivalent of nukes are...",
+      "desc:8": "贪婪果然是宇宙永恒的主题。泰拉战争看似资源争夺，但何必如此贪得无厌？\n维度碎片需大量聚集方显价值的猜想或许成立，但这绝非全部真相。\n卡尔达舍夫文明也存在政治博弈，不管这些入侵者的主要目的是什么，其中都不包括毁灭泰拉。我见过其中一些生物的火力，若是投入使用，战争将直接升级为行星毁灭。\n但他们却选择冷战般的对峙策略。当武器破坏力超越阈值，战争反而失去意义。\n不知他们的“核威慑”会是何等存在……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:nethengeic_bone"
       },
-      "name:8": "This is Big!"
+      "name:8": "好大！"
     }
   },
   "questID:3": 141,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:nethengeic_bone"
             },
-            "TrophyName:8": "Better Wither Slayer",
+            "TrophyName:8": "更强大的凋灵屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

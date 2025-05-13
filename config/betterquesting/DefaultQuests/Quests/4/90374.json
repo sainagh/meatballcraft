@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis display will let you see what colors are active in a bundled line.",
+      "desc:8": "§7§o可显示集束线缆中启用的颜色频道。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 32,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Segment Display Gate"
+      "name:8": "分段显示门"
     }
   },
   "questID:3": 90374,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMoves mana wirelessly. Use the position reader to bind to an output manapool.",
+      "desc:8": "§7§o无线传输魔力。使用存有坐标的坐标读取器绑定到目标魔力池。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "manalinkium"
         }
       },
-      "name:8": "Manalinkium"
+      "name:8": "魔链星"
     }
   },
   "questID:3": 1313,

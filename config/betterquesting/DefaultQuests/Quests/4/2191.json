@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Beam Former allows to connect two sections of ME cables at a short distance (32 blocks in a straight line).\n\nA beam will form between Formers if a path is available between them. The beam can pass through transparent blocks, including other ME cables.",
+      "desc:8": "§7§o光束成型器可无线连接较小范围内（直线距离32格）两段ME线缆。\n\n当两个光束成型器间存在可行通路时，光束就会成型。光束可穿过透明方块，包括其他ME线缆。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nae2:part"
       },
-      "name:8": "Beam Former"
+      "name:8": "光束成型器"
     }
   },
   "questID:3": 2191,

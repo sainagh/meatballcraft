@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Consumes LP to cut down trees in a 10x10x30 area.",
+      "desc:8": "消耗LP砍伐10x10x30范围内的树。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Crash of the Timberman"
+      "name:8": "伐林仪式"
     }
   },
   "questID:3": 835,

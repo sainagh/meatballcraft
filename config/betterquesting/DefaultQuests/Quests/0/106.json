@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Maybe start with quarries, these are expensive\n\nThe alchemical powers of equivalency can be used to recreate the generation of minerals and plants, which means that I don\u0027t even need a quarry to excavate!",
+      "desc:8": "§7§o也许应该先从采石场开始，这东西可不便宜\n\n§f炼金术的等价能力可以用来重新生成矿物和植物，这意味着我甚至不需要采石场来挖掘！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "environmentaltech:structure_frame_1"
       },
-      "name:8": "Digital Minerals"
+      "name:8": "数字化矿物"
     }
   },
   "questID:3": 106,

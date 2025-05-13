@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAssemble the gaia arena and click the beacon with a gaia spirit ingot",
+      "desc:8": "§7§o建造盖亚祭坛，使用盖亚魂锭右击信标",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 14,
         "id:8": "botania:manaresource"
       },
-      "name:8": "Tier 2 Gaia Guardian"
+      "name:8": "盖亚守护者 II"
     }
   },
   "questID:3": 752,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 500\nMining Level: 10.0\nMining Speed: 100.0\nAttack: 250.0\nRunic\nInferno\nMorgan Le Fay\nBaron\n\nHandle\nModifier: 1\nDurability: 500\nRunic\nInferno\nMorgan Le Fay\nBaron\n\nExtra\nDurability: 500\nRunic\nInferno\nMorgan Le Fay\nBaron\n\n",
+      "desc:8": "顶端\n耐久：500\n挖掘等级：10.0\n挖掘速度：100.0\n攻击力：250.0\n符文\n炽火\n摩根勒菲\n爵士\n\n手柄\n手柄系数：1\n耐久：500\n符文\n炽火\n摩根勒菲\n爵士\n\n其它部件\n耐久：500\n符文\n炽火\n摩根勒菲\n爵士\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "brightsteel_alloy"
         }
       },
-      "name:8": "Brightsteel Alloy"
+      "name:8": "星钢合金"
     }
   },
   "questID:3": 2153,

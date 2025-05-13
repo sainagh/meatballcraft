@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Tier 2, this is where things get interesting...",
+      "desc:8": "二级，事情开始有趣起来了……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "draconicevolution:crafting_injector"
       },
-      "name:8": "Wyvern Fusion Crafting Injector"
+      "name:8": "飞龙注入合成装置"
     }
   },
   "questID:3": 20703,

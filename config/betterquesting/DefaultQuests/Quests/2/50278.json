@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Dyson Discharger uses Charged Dyson Capacitors to produce RF.\nA single Dyson Sphere can charge Dyson Capacitors very quickly, so a really large number of Dischargers can be used from a single sphere.\nThis is essentially a creative generator with extra steps.",
+      "desc:8": "戴森释能器使用充能戴森电容来产出能量。\n戴森球能以极快速度充能戴森电容，因此单个戴森球可供应极多数量的释能器。\n基本上算是有额外处理步骤的创造模式发电机了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:lilith_altar"
         }
       },
-      "name:8": "Dyson Sphere (Great)"
+      "name:8": "戴森球（优异）"
     }
   },
   "questID:3": 50278,

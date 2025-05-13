@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCrystals corresponding to the various types of Wizardry can be obtained in a variety of ways. \nHere are all of them.",
+      "desc:8": "§7§o元素水晶有很多种获得途径。\n此处列出了所有种类的元素水晶。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ebwizardry:grand_crystal"
       },
-      "name:8": "Elemental Crystals"
+      "name:8": "元素水晶"
     }
   },
   "questID:3": 2294,

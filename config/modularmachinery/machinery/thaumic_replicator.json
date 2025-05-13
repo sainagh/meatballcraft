@@ -2,6 +2,34 @@
     "registryname": "thaumic_replicator",
     "localizedname": "Thaumic Replicator",
 	"color": "ffffff",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:halite_bejewelled_ichorium_catalyst",
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "description": "流体输出x2",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 2
+            }]
+        },
+        {
+            "elements": "contenttweaker:catalyst_of_the_warrens",
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "description": "流体输出x10",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 10
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -1,

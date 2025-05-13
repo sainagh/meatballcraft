@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMakes it rain (now dance).",
+      "desc:8": "§7§o引发倾盆大雨。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:water_bucket"
       },
-      "name:8": "Ritual of Deluge"
+      "name:8": "天倾倒灌仪式"
     }
   },
   "questID:3": 1163,

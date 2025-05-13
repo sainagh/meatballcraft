@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oLenses can be used to prolongue the range of collector crystals, or to boost rituals (see corresponding quest).",
+      "desc:8": "§7§o透镜可延长聚能水晶的范围，或增强仪式（查看对应任务）。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:blocklens",
@@ -20,7 +20,7 @@
           }
         }
       },
-      "name:8": "Lens"
+      "name:8": "透镜"
     }
   },
   "questID:3": 20251,

@@ -5,14 +5,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBotania is a magic (technology) mod focused on mana and flowers.\n\nIt has its own magic energy system called mana, and it provides lots of quality-of-life, materials, and boss fights. \n\nThese quests will walk you through the progression for this mod, and for its addon ExtraBotany.\n\nThe mod is almost fully automatable by itself, and the pack adds a custom multiblock to supply what\u0027s missing in the base mod.",
+      "desc:8": "§7§o植物魔法是一个专注于魔力和鲜花的（科技）魔法模组。\n\n其独特的魔法能量系统被称为魔力（Mana），提供了丰富的便利功能、材料资源以及Boss战斗内容。\n\n本任务线将引导你逐步探索该模组及其扩展模组额外植物学的完整内容。\n\n虽然模组本身就能自动化大部分内容，但本整合包还特别加入了自定义的多方块结构，以补足基础模组中剩余无法自动化的内容。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Botania"
+      "name:8": "植物魔法"
     }
   },
   "questID:3": 20202,

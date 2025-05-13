@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWhile for most situations essentia transfusers are better, for some of the multiblock automations you may want to use essentia pipes.\n\nEssentia tubes only transport one essentia at a time, but multiple essentias can be in the same line.\n\nThe valve can be used to switch lines on and off.\n\nThe restricted tube can be used to make an output lower priority.\n\nThe directional tube only works one-way.\n\nThe filter can be used to allow passage of only one essentia. Right click with a phial of the desired type to set its whitelist.\n\nThe buffer can be used for intermediate storage of up to 8 essentias. This way multiple types can run through the same line.\n\n\n\n",
+      "desc:8": "§7§o虽然大多数情况下源质析出/注入装置更为高效，但在某些多方块结构自动化场景中，仍可能需要使用源质管道。\n\n源质管道一次只能传输一种源质，但其中可以存在多种源质。\n\n源质阀门可开启/关闭管道。\n\n限定源质管道可用于降低输出端优先级。\n\n定向源质管道只能单向运输。\n\n过滤源质管道可用于仅允许指定要素通过。使用要素安瓿右击进行白名单标记。\n\n源质缓存器可临时存储最多10单位的源质，实现多种源质在同一管线中的异步传输。\n\n\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:tube"
       },
-      "name:8": "Essentia Piping"
+      "name:8": "源质管道"
     }
   },
   "questID:3": 20393,

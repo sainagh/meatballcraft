@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe bees in the following quests are going to be useful.\n\nSome will be required, some are just good to have around!\n\nThe quests will be completed by breeding bees using their default genes.",
+      "desc:8": "§7§o以下任务中的蜜蜂很有用。\n\n有些是流程必须得，另一些则能极大改善游戏体验！\n\n可通过使用默认基因培育对应蜜蜂来完成任务。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:power_staff"
       },
-      "name:8": "Notable Bees"
+      "name:8": "重点蜜蜂"
     }
   },
   "questID:3": 1253,

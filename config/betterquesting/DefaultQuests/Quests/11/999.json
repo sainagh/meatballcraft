@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis pack contains some special recipes! \n\nThese allow you to obtain high level enchantments that you cannot obtain otherwise.\n\nThis quest tab lists all of the super-enchanted recipes available in each chapter, and it highlights the best ones at each tier.\n\nJEI can also be used to find these recipe, just type \u0027super-enchanted\u0027!\n\nAll high level enchants can be stripped off and they can be applied to other pieces of gear (with some limitations). This can be done using the enchantment applicator and extractor from industrial foregoing, or using the enchanter from botania.\n\n§fIt seems objects can be recursive too! But with some key differences. These recursive objects need to be imprinted on another object that is similar-ish to it. This is typically done using a method that is a bit like enchanting but with much more physical matter. (There are exceptions to this.)\n\nOnce the base object is imprinted, it takes on the exact properties and appearance of the object the moment it became recursive.\n\nA strange thing I\u0027ve noticed is that when I first pick up the recursive item, I receive a... memory? vision? echo? of the item\u0027s creation and use throughout history. The more times an object is imprinted, the fuzzier this echo becomes. There is not much practical use for this, but it sure is neat!",
+      "desc:8": "§7§o本整合包有一些特殊配方！\n\n可通过这些配方获取常规手段无法获得的高等级魔咒。\n\n本任务标签页中列出了每个章节中的所有超限附魔配方，并高亮显示每个等级中的最佳配方。\n\n也可在JEI中查询这些配方，搜索“超限附魔”即可！\n\n所有高等级魔咒都可被剥离，并附到其他装备上（可能有一些限制）。可使用工业先锋模组的魔咒施加机和提取机，或植物魔法模组的魔力附魔台进行该操作。\n\n§f物品似乎也具备递归性！但存在一些关键差异。这些递归物品需要被刻印在另一个与之相似的物品上，这一过程通常通过一种类似附魔的方法实现，但需要消耗更多实体物质（当然也有例外）。\n\n一旦基础物品刻印完成，它将完全继承源物品在递归时的所有属性和外观。\n\n我还发现一个奇怪的现象：初次拾取递归物品时，我会接收到一段关于该物品的……记忆？幻象？还是某种回响？其中记录了它历史中的创造与使用痕迹。物体被刻印的次数越多，这种回响就愈发模糊。没什么实用性，但确实很酷！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumadditions:mithminite_hood",
@@ -22,7 +22,7 @@
           }
         }
       },
-      "name:8": "Super-Enchanting"
+      "name:8": "超限附魔"
     }
   },
   "questID:3": 999,

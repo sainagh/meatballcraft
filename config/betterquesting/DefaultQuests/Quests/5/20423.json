@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests list methods used to automate mining resources!\n\n§fSo many minerals...\nIf only there was a way to prevent mining trips every few hours...",
+      "desc:8": "§7§o后续任务展示了自动挖掘资源的各种方式！\n\n§f如此多的矿物……\n要是有法子能避免每隔几小时就得跑一趟采矿之旅就好了……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "We go diggin\u0027"
+      "name:8": "开挖吧！"
     }
   },
   "questID:3": 20423,

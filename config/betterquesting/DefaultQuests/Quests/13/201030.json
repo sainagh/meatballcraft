@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 200\nMining Level: Iron\nMining Speed: 5.09\nAttack: 2.5\nSplintering\n\nHandle\nModifier: 1.1\nDurability: 50\nFractured\n\nExtra\nDurability: 65\nFractured\n\nBows\nDrawspeed: 1.05\nRange Multiplier: 1.15\nBonus Damage: 0\nFractured",
+      "desc:8": "顶端\n耐久：200\n挖掘等级：铁\n挖掘速度：5.09\n攻击力：2.5\n碎裂\n\n手柄\n手柄系数：1.1\n耐久：50\n碎骨\n\n其它部件\n耐久：65\n碎骨\n\n弓\n拉弓速度：1.05\n范围系数：1.15\n附加伤害：0\n碎骨",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "bone"
         }
       },
-      "name:8": "Bone"
+      "name:8": "骨头"
     }
   },
   "questID:3": 201030,

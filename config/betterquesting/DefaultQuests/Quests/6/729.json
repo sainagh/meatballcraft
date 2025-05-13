@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSpells of the matching type receive a 30% buff!",
+      "desc:8": "§7§o对应种类的法术获得30%增幅！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ebwizardry:apprentice_ice_wand"
       },
-      "name:8": "Apprentice Ice Mage"
+      "name:8": "冰术师学徒"
     }
   },
   "questID:3": 729,

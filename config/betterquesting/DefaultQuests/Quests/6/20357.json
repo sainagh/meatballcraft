@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis table requires a different multiblock structure! ",
+      "desc:8": "§7§o需要不同的多方块结构！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "astralsorcery:blockaltar"
       },
-      "name:8": "Celestial Altar"
+      "name:8": "天辉祭坛"
     }
   },
   "questID:3": 20357,

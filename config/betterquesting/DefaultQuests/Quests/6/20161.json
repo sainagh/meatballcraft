@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHigher throughput.",
+      "desc:8": "§7§o更高的传输速度。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "botania:spreader"
       },
-      "name:8": "Elven Mana Spreader"
+      "name:8": "精灵魔力发射器"
     }
   },
   "questID:3": 20161,

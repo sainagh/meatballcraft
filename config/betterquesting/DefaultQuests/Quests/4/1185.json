@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEnder tanks are used to transfer items wirelessly!\n\nEach tank has a channel that is determined by the colors of the three spots on top of the tank. You can right click these spots with dyes to change their color!\n\nTwo tanks that have the same color combination will share the same inventory!\n\nRight click the wheel on the tank to change between input (blue) and output (orange) mode.\n\nFOR SERVERS: To make a tank private to you, right click the wheel in front of the tank with a diamond.",
+      "desc:8": "§7§o末影蓄水槽可用于无线传输流体。\n\n末影蓄水槽的频道由箱子顶部的三个颜色标记槽决定。可使用染料右击标记槽来改变其颜色！\n\n拥有相同颜色组合的蓄水槽会共享流体缓存！\n\n右击水槽上的转盘可以切换输入（蓝色）/输出（橙色）模式。\n\n服务器须知：可使用钻石右击箱子将其标记为私有水槽。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "enderstorage:ender_storage"
       },
-      "name:8": "Ender Tank"
+      "name:8": "末影蓄水槽"
     }
   },
   "questID:3": 1185,

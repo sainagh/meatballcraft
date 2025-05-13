@@ -9,12 +9,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCan also be used as a bauble.\n\nThey allow you to see essentia and other thaumcraft mechanics.",
+      "desc:8": "§7§o也可作为饰品穿戴。\n\n可查看源质和其他神秘时代信息。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:goggles"
       },
-      "name:8": "Goggles of Revealing"
+      "name:8": "揭示之护目镜"
     }
   },
   "questID:3": 1807,

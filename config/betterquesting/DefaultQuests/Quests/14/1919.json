@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe destruction catalyst, but bigger.\n\nYes, bigger.",
+      "desc:8": "§7§o与毁灭燧石类似，但范围更深。\n\n对，更深。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_catalitic_lens",
         "tag:10": {}
       },
-      "name:8": "Catalytic Lens"
+      "name:8": "催化水晶"
     }
   },
   "questID:3": 1919,

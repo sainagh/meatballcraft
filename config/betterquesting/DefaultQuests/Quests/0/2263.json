@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe §cLogistics and Organization §7§oquest tab has a list of all available energy storage options.\n\nHeads up, the draconic energy orb is craftable in chapter 2 :)\n\n§fEnergy storage has been, and still is, a long-standing problem for humanity. If only we had dragons on Earth!\nWhatever entropy magic dragons on the end islands use, it makes energy storage very effective!",
+      "desc:8": "§7§o§c物流与管理§7§o任务标签页中列出了所有可用的能量存储选项。\n\n注意，神龙能量核心在第2章就可制作  :)\n\n§f能源存储长久以来始终是人类社会的顽疾。若地球上也有龙该多好！\n末地岛屿的龙所掌控的熵魔法，其储能效率之高实在惊人！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:energy_storage_core"
       },
-      "name:8": "Massive"
+      "name:8": "大规模储能"
     }
   },
   "questID:3": 2263,

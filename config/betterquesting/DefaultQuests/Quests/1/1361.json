@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Note: some of these are currently uncraftable, but they will be obtainable in the future",
+      "desc:8": "注意：部分强化部件当前无法合成，但后续流程中可以获得",
       "icon:10": {
         "Count:3": 1,
         "id:8": "environmentaltech:modifier_luck"
       },
-      "name:8": "Available Buffs"
+      "name:8": "可用强化"
     }
   },
   "questID:3": 1361,

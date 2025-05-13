@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe part builder lets you build parts from basic materials! \n\nTo build a part, you need a pattern of the corresponding shape!\n\nMetal parts cannot be made in the part bulder, you will need a smeltery instead! See next quests for more info!",
+      "desc:8": "§7§o部件加工台可使用基础材料制作部件！\n\n部件需要对应类型的模具才能制作！\n\n金属部件无法通过部件加工台制作，你需要冶炼炉！查看后续任务以获得更多信息！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
@@ -17,7 +17,7 @@
           }
         }
       },
-      "name:8": "Making Parts!"
+      "name:8": "制作部件！"
     }
   },
   "questID:3": 1034,

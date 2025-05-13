@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate lets you time redstone pulses and signals.\n\nThe gate has a clock input, a reset input, a running output, and an end output.\n\nThe clock for the state cell can be changed by right clicking.\n\nWhen signal enters the clock input, the running output will produce a redstone signal for the amount of seconds specified in the clock. \n\nAt the end of the specified time, the end output will pulse.\n\nThe state cell can be reset with a signal from the reset side.\n\nThe reset input is the side with the clock hand.\n\nThe clock input is the side with a redstone line that\u0027s next to the clock hand.\n\nThe running output is the side with a redstone line that\u0027s opposite to the clock hand.\n\nThe end output is the side with a redstone torch.\n\n",
+      "desc:8": "§7§o该门电路可控制红石脉冲和信号的计时。\n\n该门电路包含：时钟输入端、重置输入端、运行输出端和结束输出端。\n\n右击可以更改状态单元的时钟设置。\n\n当信号进入时钟输入端时，运行输出端会根据设置的时长持续输出红石信号。\n\n在设定时间结束时，结束输出端会发出脉冲信号。\n\n通过重置端的信号可以重置状态单元。\n\n有计时指针的一侧为重置输入端。\n\n与计时指针相邻的、有红石线的一侧为时钟输入端。\n\n与计时指针相对的、有红石线的一侧为运行输出端。\n\n有红石火把的一侧为结束输出端。\n\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 20,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "State Cell"
+      "name:8": "状态单元"
     }
   },
   "questID:3": 90372,

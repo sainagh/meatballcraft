@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oObtain the legendary Flint and Furnace!",
+      "desc:8": "§7§o获得传奇的熔炉打火石",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tardis:telos_sand"
       },
-      "name:8": "Telos, the Furnace Dimension"
+      "name:8": "泰洛斯，熔炉维度"
     }
   },
   "questID:3": 1350,
@@ -18,8 +18,18 @@
       "dimension:3": 623,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Telos, the Furnace Dimension",
+      "name:8": "泰洛斯，熔炉维度",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tardis:telos_sand"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

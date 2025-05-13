@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHarvesting pixons with a bowl and using infusion stones at the infusion tables allows you to produce better enchantments. There are better ways.\n\n§fThis type of magic is not exclusive to me, and many other creatures here have it.\nSome, but not all. This means that, again, there must be a rule for having access to this magic.\nIn the meantime, I will bowl some sparks and harvest their energy! Maybe something will come out of it!",
+      "desc:8": "§7§o用碗收集光，以及在注魔台上使用注魔石可制作更高等级的魔咒，当然，除此之外也有更好的方法。\n\n§f这种魔法并非我所独有，这里的诸多生物都能驾驭。\n但并非所有生物。这意味着必然存在某种魔法准入法则。\n我当下准备用碗收集一些光的能量！或许能从中发现些什么！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:gleaming_infusion_stone"
       },
-      "name:8": "Infusion Skill"
+      "name:8": "技能：注魔"
     }
   },
   "questID:3": 21,

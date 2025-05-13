@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oComplete the Fluix Historian Puzzle.",
+      "desc:8": "§7§o完成福鲁伊克斯史学家谜题。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bloodmagic:bound_sword",
@@ -17,7 +17,7 @@
           "RepairCost:3": 1,
           "activated:1": 0,
           "display:10": {
-            "Name:8": "War"
+            "Name:8": "战争"
           },
           "ench:9": {
             "0:10": {
@@ -31,7 +31,7 @@
           }
         }
       },
-      "name:8": "War"
+      "name:8": "战争"
     }
   },
   "questID:3": 2172,
@@ -46,9 +46,9 @@
             "activated:1": 0,
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oWar§r"
+              "Name:8": "§6§o战争§r"
             },
             "ench:9": {
               "0:10": {

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oConsumes leaves, grass, and flowers in a 48 block radius to produce LP for a blood altar located within 10 blocks.",
+      "desc:8": "§7§o消耗48格半径内的树叶、草方块和鲜花为10格半径内的血之祭坛提供LP。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Nature\u0027s Leech"
+      "name:8": "自然汲取"
     }
   },
   "questID:3": 806,

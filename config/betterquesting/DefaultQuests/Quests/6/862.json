@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace a tartaric gem of any type into the crucible. This will suck will out of the gem, and put it into the chunk.\n\nPlace a demon crystallizer into the same chunk. A will crystal will eventaully grow. Break it to obtain a raw will crystal!\n\nThe will aura gauge will show how much will of each type is present in a chunk.",
+      "desc:8": "§7§o在恶魔坩埚中放置任意种类的地狱魂石。它会吸收魂石中的恶魔意志，将其释放到所在区块。\n\n在同一区块中放置恶魔结晶坛。最终，其中会生长出意志水晶。将其破坏来获得原生意志晶体！\n\n灵域测量仪可显示区块中每种意志的含量。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bloodmagic:item_demon_crystal"
       },
-      "name:8": "Raw Will"
+      "name:8": "原生意志"
     }
   },
   "questID:3": 862,

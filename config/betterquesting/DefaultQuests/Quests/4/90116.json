@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWireless routers and antennas can be used instead of multiple routers being connected by routing cables, if you want to connect Xnet setups, and share channels, wirelessly.\n\nThey work like regular routers, but they need energy.\n\nThe antenna base is placed on top of the wireless router.\n\nRegular antennas can be placed on top of the antenna base for short distance connections.\n\nAntenna dishes are used for large distance connections instead of antennas.",
+      "desc:8": "§7§o无线路由器和天线可代替路由线缆，无线连接多个路由器。\n\n与普通路由器类似，但是需要能量。\n\n天线基座需放置在无线路由器上方。\n\n天线需放置在天线基座上，以提供短距离无线路由连接。\n\n天线盘可代替天线，提供的范围更大。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "xnet:wireless_router"
       },
-      "name:8": "Wireless Router"
+      "name:8": "无线路由器"
     }
   },
   "questID:3": 90116,

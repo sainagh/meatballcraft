@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe more logs you harvest, the better stuff they may drop!\n\n§fSo, these new magic phenomena not only relate to my own vitality, but they have to do with the interactions between different lives, and this includes trees.\nThis energy (is it even the right word?) is a force of creation, and it can produce matter \u0027ex nihilo\u0027, from nothing. ",
+      "desc:8": "§7§o砍得木头越多，掉落的物品越好！\n\n§f这些新发现的魔法现象不仅与我的生命本源相关，更涉及不同生命间的互动——树木亦在此列。\n这种能量（这词用的合适吗？）是一种创造之力，能达成“无中生有”的物质转化。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:emberstone_axe"
       },
-      "name:8": "Logging Skill"
+      "name:8": "技能：砍伐"
     }
   },
   "questID:3": 19,

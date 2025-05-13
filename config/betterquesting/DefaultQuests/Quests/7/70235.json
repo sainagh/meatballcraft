@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Barathos Dimension from Advent of Ascension.\nSpawns between Y\u003d24 and Y\u003d64.\n",
+      "desc:8": "§7§o发现于虚无世界模组的爵士维度。\n生成于Y\u003d24与Y\u003d64之间。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:varsium_ingot"
       },
-      "name:8": "Varsium Ingot"
+      "name:8": "超金锭"
     }
   },
   "questID:3": 70235,

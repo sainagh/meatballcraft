@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThere are many energy transfer systems. All options are shown here!\n\nFluxducts are easy to make, and good for lag!\n\nEnderIO conduits are the most versatile, and share blockpace with other conduits!\n\nDraconic evolution lasers are good for performance in late game bases!\n\nFlux points and plugs are used for wireless energy! You should use these to manage your power network!\n\n",
+      "desc:8": "§7§o能量传输系统有很多。此处列出了所有可选方案！\n\n热力模组的能量管道制作简单，而且优化很好！\n\n末影接口模组的能量导管泛用性最强，并且能和其他类型导管共用方块空间！\n\n龙之进化模组的激光性能很强，适用于游戏后期。\n\n通量接出点和接入点可用于无线传输能量！你应当用它们来管理能量网络！\n\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Energy Management"
+      "name:8": "能量管理"
     }
   },
   "questID:3": 90300,
@@ -33,7 +33,7 @@
                   "id:8": "actuallyadditions:block_laser_relay",
                   "tag:10": {
                     "display:10": {
-                      "Name:8": "Performance: Good"
+                      "Name:8": "性能：良好"
                     }
                   }
                 },
@@ -44,7 +44,7 @@
                   "id:8": "thermaldynamics:duct_0",
                   "tag:10": {
                     "display:10": {
-                      "Name:8": "Performance: Good"
+                      "Name:8": "性能：良好"
                     }
                   }
                 },
@@ -54,8 +54,9 @@
                   "Slot:1": 2,
                   "id:8": "enderio:item_power_conduit",
                   "tag:10": {
+                    "RepairCost:3": 0,
                     "display:10": {
-                      "Name:8": "Performance: OK"
+                      "Name:8": "性能：良好"
                     }
                   }
                 },
@@ -66,7 +67,7 @@
                   "id:8": "draconicevolution:energy_crystal",
                   "tag:10": {
                     "display:10": {
-                      "Name:8": "Performance: Great"
+                      "Name:8": "性能：优异"
                     }
                   }
                 },
@@ -77,7 +78,7 @@
                   "id:8": "techreborn:cable",
                   "tag:10": {
                     "display:10": {
-                      "Name:8": "Performance: OK"
+                      "Name:8": "性能：一般"
                     }
                   }
                 },
@@ -88,40 +89,40 @@
                   "id:8": "immersiveengineering:connector",
                   "tag:10": {
                     "display:10": {
-                      "Name:8": "Performance: OK"
+                      "Name:8": "性能：一般"
                     }
                   }
                 },
                 "6:10": {
-                  "Count:3": 1,
-                  "Damage:2": 5,
-                  "Slot:1": 6,
-                  "id:8": "thermaldynamics:duct_0",
-                  "tag:10": {
-                    "display:10": {
-                      "Name:8": "Performance: Good"
-                    }
-                  }
-                },
-                "7:10": {
                   "Count:3": 1,
                   "Damage:2": 0,
                   "Slot:1": 7,
                   "id:8": "fluxnetworks:fluxpoint",
                   "tag:10": {
                     "display:10": {
-                      "Name:8": "Performance: Great"
+                      "Name:8": "性能：优异"
                     }
                   }
                 },
-                "8:10": {
+                "7:10": {
                   "Count:3": 1,
                   "Damage:2": 11,
                   "Slot:1": 20,
                   "id:8": "enderio:item_endergy_conduit",
                   "tag:10": {
                     "display:10": {
-                      "Name:8": "Performance: Good"
+                      "Name:8": "性能：良好"
+                    }
+                  }
+                },
+                "8:10": {
+                  "Count:3": 1,
+                  "Damage:2": 5,
+                  "Slot:1": 21,
+                  "id:8": "thermaldynamics:duct_0",
+                  "tag:10": {
+                    "display:10": {
+                      "Name:8": "性能：良好"
                     }
                   }
                 },
@@ -132,7 +133,7 @@
                   "id:8": "techreborn:cable",
                   "tag:10": {
                     "display:10": {
-                      "Name:8": "Performance: OK"
+                      "Name:8": "性能：一般"
                     }
                   }
                 }

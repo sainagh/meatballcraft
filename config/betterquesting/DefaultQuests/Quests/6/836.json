@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oInfinite water source above master ritual stone at the cost of LP.",
+      "desc:8": "§7§o消耗LP在主仪式石上方生成无限水源。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Full Spring"
+      "name:8": "涌泉仪式"
     }
   },
   "questID:3": 836,

@@ -1,26 +1,26 @@
 [
   {
     "id": "overworldian",
-    "displayName": "Overworldian",
+    "displayName": "主世界",
     "displayColor": "green",
     "xpValue": 1
   },
   {
     "id": "hellish",
-    "displayName": "Hellish",
+    "displayName": "地狱",
     "displayColor": "red",
     "xpValue": 1
   },
   {
     "id": "extraterrestrial",
-    "displayName": "Extraterrestrial",
+    "displayName": "地外",
     "displayColor": "light_purple",
     "xpValue": 1
   },
   {
     "id": "twilight",
     "mod": "twilightforest",
-    "displayName": "Twilight",
+    "displayName": "暮色",
     "displayColor": "blue",
     "xpValue": 1
   }

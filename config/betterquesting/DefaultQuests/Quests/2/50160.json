@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Generates RF by burning Peat\nA dry peat bog placed in water can be tuned into peat fuel.",
+      "desc:8": "燃烧泥炭产出RF\n将干燥的泥炭田放置在水旁可将其转化为泥炭燃料。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "cyclicmagic:peat_generator"
       },
-      "name:8": "Peat-fired Generator (OK)"
+      "name:8": "泥炭发电机（一般）"
     }
   },
   "questID:3": 50160,

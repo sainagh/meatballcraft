@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCave dwelling, obtained from rocky drones!",
+      "desc:8": "§7§o穴居性，通过石头雄蜂获得！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_drone_ge",
@@ -152,7 +152,7 @@
           "MaxH:3": 30
         }
       },
-      "name:8": "Works Underground"
+      "name:8": "地下工作"
     }
   },
   "questID:3": 1214,

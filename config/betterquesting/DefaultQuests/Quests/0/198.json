@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is the start of Bewitchment, see more in §cMagical Mastery§7§o.\n\n§fSome testificates, I found, also practice magic. Their religion seems to be based around some sort of demonic pantheon, and by using herbs and minerals, the powers of these beings is brought into this world.\nTime for me to start experimenting with Witchery.",
+      "desc:8": "§7§o这是巫师之路模组的开端，更多信息请查看§c魔法精通§7§o。\n\n§f我发现，某些泰斯提斐人也会使用魔法。他们的宗教似乎围绕着某种恶魔众神体系，通过草药和矿物的运用，这些存在体的力量可被带入现世。\n现在该我开始尝试巫术了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:scorned_brick_witches_altar"
       },
-      "name:8": "Sons of Witches"
+      "name:8": "女巫之子"
     }
   },
   "questID:3": 198,

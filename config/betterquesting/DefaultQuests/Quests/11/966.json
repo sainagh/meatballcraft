@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGet your hands on some materials from the third mythic shell.",
+      "desc:8": "§7§o搞些第三神话叠壳的材料。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "arcane_essentials:master_nature_sword",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Earth Flamberg"
+            "Name:8": "自然焰形剑"
           },
           "ench:9": {
             "0:10": {
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Nature Flamberg"
+      "name:8": "自然焰形剑"
     }
   },
   "questID:3": 966,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oNature Flamberg§r"
+              "Name:8": "§6§o自然焰形剑§r"
             },
             "ench:9": {
               "0:10": {

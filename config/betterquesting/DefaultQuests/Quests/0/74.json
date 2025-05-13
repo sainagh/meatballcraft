@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWelcome to chapter 3!\n\n§fCorallus, the ruler of the seas, was also a scientist.\nIt seems like the shyre empire used him to perfect their wormhole technology.\nI stopped him just in time...his last experiments appeared to be focused on opening a portal that would allow for the entire military might of the empire to enter Terra at once.\nThis type of science is way beyond my understanding, yet, I may be able to use its basic applications to open my own wormholes...",
+      "desc:8": "§7§o欢迎来到第3章！\n\n§f身为海洋之主的珊瑚守卫者，同时也是一名科学家。\n塞尔瑞帝国似乎在利用他完善虫洞科技。\n千钧一发之际，我成功阻止了他……最后的实验数据显示，他试图开启的传送门足以让帝国整支军团瞬间降临泰拉。\n这等尖端科技虽超出我的认知边界，但仅是基础的应用，或许也能打开我自己的虫洞……",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:wormhole_catalyst"
       },
       "ismain:1": 1,
-      "name:8": "Wormhole Experiments"
+      "name:8": "虫洞实验"
     }
   },
   "questID:3": 74,

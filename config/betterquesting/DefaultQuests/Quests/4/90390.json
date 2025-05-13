@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate lets you convert vanilla redstone signals (not red alloy) into bundled colors, depending on the strength of the signal coming in.\n\n0 \u003d white\n1 \u003d orange\n2 \u003d magenta\n3 \u003d light blue\n4 \u003d yellow\n5 \u003d lime\n6 \u003d pink\n7 \u003d gray\n8 \u003d light gray\n9 \u003d cyan\n10 \u003d purple \n11 \u003d blue\n12 \u003d brown\n13 \u003d green\n14 \u003d red\n15 \u003d black",
+      "desc:8": "§7§o该门电路可将原版红石信号（非红色合金丝）转换为集束线缆的颜色信号，转换结果取决于输入信号强度。\n\n0 \u003d 白色\n1 \u003d 橙色\n2 \u003d 品红色\n3 \u003d 淡蓝色\n4 \u003d 黄色\n5 \u003d 黄绿色\n6 \u003d 粉红色\n7 \u003d 灰色\n8 \u003d 淡灰色\n9 \u003d 青色\n10 \u003d 紫色\n11 \u003d 蓝色\n12 \u003d 棕色\n13 \u003d 绿色\n14 \u003d 红色\n15 \u003d 黑色",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 29,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Bus Converter"
+      "name:8": "总线转换器"
     }
   },
   "questID:3": 90390,

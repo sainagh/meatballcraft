@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSpells of the matching type receive a 60% buff!",
+      "desc:8": "§7§o对应种类的法术获得60%增幅！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ebwizardry:master_fire_wand",
         "tag:10": {}
       },
-      "name:8": "Master Pyromancer"
+      "name:8": "烈焰大术士"
     }
   },
   "questID:3": 747,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis is a multiblock version of the infusion setup, to be used for automation!",
+      "desc:8": "§7§o多方块版本的注魔装置，用于自动化！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:arcane_autoinfuser"
         }
       },
-      "name:8": "Arcane Autoinfuser"
+      "name:8": "自动奥术注魔器"
     }
   },
   "questID:3": 20237,

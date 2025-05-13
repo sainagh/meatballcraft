@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 870\nMining Level: Cobalt\nMining Speed: 5.2\nAttack: 3.9\nEvil Pressure\n\nHandle\nModifier: 1\nDurability: 300\nEvil Pressure\n\nExtra\nDurability: 250\nEvil Pressure\n\nBows\nDrawspeed: 1.82\nRange Multiplier: 1.5\nBonus Damage: 3.8\nEvil Pressure",
+      "desc:8": "顶端\n耐久：870\n挖掘等级：钴\n挖掘速度：5.2\n攻击力：3.9\n邪恶的压力\n\n手柄\n手柄系数：1\n耐久：300\n邪恶的压力\n\n其它部件\n耐久：250\n邪恶的压力\n\n弓\n拉弓速度：1.82\n范围系数：1.5\n附加伤害：3.8\n邪恶的压力",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "varsium"
         }
       },
-      "name:8": "Varsium"
+      "name:8": "超金"
     }
   },
   "questID:3": 201071,

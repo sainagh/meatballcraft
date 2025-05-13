@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCrafted in the Abyssal Wasteland.",
+      "desc:8": "§7§o在深渊荒原制作。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:necronomicon_cor",
@@ -12,7 +12,7 @@
           "PotEnergy:5": 0.0
         }
       },
-      "name:8": "Abyssal Wasteland Necronomicon"
+      "name:8": "深渊荒原死灵之书"
     }
   },
   "questID:3": 20118,

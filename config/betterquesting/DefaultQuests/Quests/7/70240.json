@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Deeplands Dimension from Advent of Ascension.\nCan be found between Y\u003d70 and Y\u003d114 wherever there is Deep Rock.\n",
+      "desc:8": "§7§o发现于虚无世界模组的深层维度。\n发现于Y\u003d70与Y\u003d114之间，存在深层岩石的地方。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:charged_runium_chunk"
       },
-      "name:8": "Charged Runium Chunks"
+      "name:8": "充能符文块"
     }
   },
   "questID:3": 70240,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHere you can find a lot of useful goodies that will help you getting a better foothold!\n\nMore will show up the more you progress, so make sure to come back here!\n\nThe bauble case can be used to store your baubles when you are not using them!",
+      "desc:8": "§7§o此处汇集了诸多实用物品，能帮助你站稳脚跟！\n\n随流程推进，更多物品会逐渐显示，记得常回来看看！\n\n饰品盒子可存放未佩戴的饰品！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Things Could be Better"
+      "name:8": "更上层楼"
     }
   },
   "questID:3": 50054,

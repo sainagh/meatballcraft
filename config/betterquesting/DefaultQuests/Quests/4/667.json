@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe advanced memory card is used to link p2p buses in an organized matter!\n\nYou should use this if you are using p2p!",
+      "desc:8": "§7§o高级内存卡可高效连接P2P通道！\n\n使用P2P时一定记得要用这个！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "betterp2p:advanced_memory_card",
@@ -12,7 +12,7 @@
           "selectedIndex:3": -1
         }
       },
-      "name:8": "Advanced Memory Card"
+      "name:8": "高级内存卡"
     }
   },
   "questID:3": 667,

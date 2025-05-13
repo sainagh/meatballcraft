@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEach of the lamps on this gate works like a lever, that can activate and deactivate different colors from within a bundled cable.",
+      "desc:8": "§7§o该门电路上的每盏都可看作是拉杆，可开关集束线缆中对应颜色信号的传输。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 30,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Bus input Panel"
+      "name:8": "总线输入板"
     }
   },
   "questID:3": 90376,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo upgrade your void miners, you will need special drops from each tier.\n\nThe crystal lens increases the drop rate of these resources, making it easier to upgrade your miners as you level them up.\n\nIt is a good idea to invest into one of these!",
+      "desc:8": "§7§o虚空采掘机的升级需要不同等级的特定材料。\n\n水晶透镜能提高这类资源的生成概率，从而让升级更加简单。\n\n专注才是王道！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "environmentaltech:laser_lens_crystal"
       },
-      "name:8": "More Upgrades"
+      "name:8": "更多升级"
     }
   },
   "questID:3": 1399,

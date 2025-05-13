@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Passive RF from the sun!",
+      "desc:8": "通过太阳被动产出RF！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:block_solar_panel"
       },
-      "name:8": "Simple Photovoltaic Cell (OK)"
+      "name:8": "简易光伏电池（一般）"
     }
   },
   "questID:3": 50185,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Infuses souls from soul vials into items!",
+      "desc:8": "使用灵魂瓶将灵魂注入物品！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:block_soul_binder"
       },
-      "name:8": "Soul Binder"
+      "name:8": "灵魂绑定器"
     }
   },
   "questID:3": 20582,

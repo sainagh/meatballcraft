@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oT-shape of soul sand, with three wither skulls on top, but you already knew it...\n\n§fNobody has a fully clean record, not even the Testificates.\nAt some point during their history, experiments on undeath and living matter led to the unleash of the Withers, a species of artificial skeletons.\nSome of them ended up evolving into really powerful creatures. One of their organs, I was told, holds a lot of power; this should serve me for a variety of purposes.",
+      "desc:8": "§7§o将灵魂沙摆成T形，在顶部放置3个凋灵骷髅头颅，不过你应该早就知道了……\n\n§f没有人是完全清白的，泰斯提斐人也不例外。\n在他们历史的某个阶段，关于不死生物与生命物质的研究最终释放了人造骷髅物种——凋灵。\n其中一些凋灵进化成了极其强大的存在。据说它们体内某个器官蕴含着巨大能量，这应该能为我的研究提供多种用途。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "minecraft:skull"
       },
-      "name:8": "A true native!"
+      "name:8": "真正的原住民！"
     }
   },
   "questID:3": 118,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "More slots! Less blocks!",
+      "desc:8": "更多输出槽！更小占用空间！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectex:compressed_refined_link"
       },
-      "name:8": "Compact Condensation"
+      "name:8": "压缩凝聚"
     }
   },
   "questID:3": 171,

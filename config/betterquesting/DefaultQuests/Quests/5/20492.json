@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "At the cost of DNA and Protein, I can even make new bees from scratch, including hard-to-get princesses!",
+      "desc:8": "通过消耗液态基因和蛋白质，我甚至能从零开始创造新蜜蜂，包括那些难以获得的公主蜂！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "gendustry:liquifier"
       },
-      "name:8": "Protein Liquifier"
+      "name:8": "蛋白质液化机"
     }
   },
   "questID:3": 20492,

@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSome materials will have mining level requirement than obsidian, netherite has the highest mining level.",
+      "desc:8": "§7§o部分材料所需的挖掘等级要高于黑曜石级别，炎岩可提供最高级的挖掘等级。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:pick_head",
@@ -13,7 +13,7 @@
           "Material:8": "netherite"
         }
       },
-      "name:8": "Netherite Pickaxe"
+      "name:8": "炎岩镐"
     }
   },
   "questID:3": 1888,

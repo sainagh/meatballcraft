@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 420\nMining Level: Obsidian\nMining Speed: 3.23\nAttack: 3.23\nAlien\n\nHandle\nModifier: 0.85\nDurability: 0\nEnderference\n\nExtra\nDurability: 42\nEnderference\n\nBows\nDrawspeed: 5\nRange Multiplier: 0.4\nBonus Damage: -1\nEnderference",
+      "desc:8": "顶端\n耐久：420\n挖掘等级：黑曜石\n挖掘速度：3.23\n攻击力：3.23\n异形\n\n手柄\n手柄系数：0.85\n耐久：0\n抑影\n\n其它部件\n耐久：42\n抑影\n\n弓\n拉弓速度：5\n范围系数：0.4\n附加伤害：-1\n抑影",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "endstone"
         }
       },
-      "name:8": "End Stone"
+      "name:8": "末地石"
     }
   },
   "questID:3": 201033,

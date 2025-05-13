@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis section describes how you can use some of the forestry addons for better bees!\n\nYou should get into this after understanding the bee breeding and production basics!",
+      "desc:8": "§7§o该板块描述了如何使用林业的附属模组来获得更好的蜜蜂！\n\n你应该在充分理解了蜜蜂繁殖和生产理论基础后再进行该板块任务！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "forestry:bee_combs"
       },
-      "name:8": "Bee upgrades (Advanced)"
+      "name:8": "蜜蜂升级（进阶）"
     }
   },
   "questID:3": 1006,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "A large power producing beast of a multiblock, \nTakes Biodiesel or other types of combustible fuels.\nHas a high output but a high fuel usage, so think big when making a farm for this.\nProduces around 4096 Rf/t so pretty beefy early game \n",
+      "desc:8": "一台巨型多方块产能野兽。\n消耗生物柴油或其他燃料。\n高产出，但同时高燃料消耗，记得把农场建得大一些。\n产出大约4096RF/t，在游戏初期足够强劲\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "immersiveengineering:metal_decoration0"
       },
-      "name:8": "Diesel Generator (Great)"
+      "name:8": "柴油发电机（良好）"
     }
   },
   "questID:3": 50163,

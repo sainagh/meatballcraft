@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oImmunity for a second every five seconds. Good for some boss fights if you are using XP a bit too much.",
+      "desc:8": "§7§o每五秒免疫一整秒的伤害。在经验消耗过快的Boss战中很有用。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "tombstone:scroll_buff"
       },
-      "name:8": "Unstable Intangibility"
+      "name:8": "不稳定混沌"
     }
   },
   "questID:3": 2302,

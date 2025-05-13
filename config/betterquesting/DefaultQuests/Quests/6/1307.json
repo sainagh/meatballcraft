@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oConsumes mana to turn nearby sand into clay. \n\nI know, soooo overpowered.",
+      "desc:8": "§7§o消耗魔力将附近的沙子变为粘土块。\n\n我懂，这太OP了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "clayconia"
         }
       },
-      "name:8": "Clayconia"
+      "name:8": "粘土花"
     }
   },
   "questID:3": 1307,

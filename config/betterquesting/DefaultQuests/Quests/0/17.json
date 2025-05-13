@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMobs marked by swords are hunter mobs. if the swords are red, your level is too low, if they\u0027re green you can use them to level up. Savannahs are a good place to start!\n\n§fHere\u0027s a possible hint, violence is directly bound to this magic. Almost as if someone or something wanted us to fight each other till someone \u0027wins\u0027. This definitely does not feel like a law of nature, meaning that it may be mythic in origin.\nStill, I will need more information to say for sure.",
+      "desc:8": "§7§o狩猎生物会带有剑形标记。如果剑为红色，说明你的狩猎等级不足以伤害对方，如果剑为绿色，说明可以攻击对方以获得狩猎经验。推荐从热带群系开始练级！\n\n§f一个可能的线索：这种魔法与暴力直接绑定。几乎像是某人或某物希望我们互相争斗直至有“胜者”出现。这显然不符合自然法则的特征，其或许具有神话起源。\n不过，我还需要更多的信息来确定。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "twilightforest:ender_bow"
       },
-      "name:8": "Hunter Skill"
+      "name:8": "技能：狩猎"
     }
   },
   "questID:3": 17,
@@ -26,7 +26,7 @@
               "id:8": "aoa3:rammerhead"
             },
             "display:10": {
-              "Name:8": "Duplicate me to farm Hunter Points"
+              "Name:8": "复制该生物以刷取狩猎经验"
             }
           }
         },

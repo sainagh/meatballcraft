@@ -1,0 +1,704 @@
+import mods.modularmachinery.RecipeBuilder;
+import mods.thaumcraft.Crucible;
+import mods.thaumcraft.Infusion;
+import mods.appliedenergistics2.Inscriber;
+import crafttweaker.data.IData;
+import scripts.enchantwrapper.EnchantUtil.EnchantMap;
+import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
+import crafttweaker.enchantments.IEnchantmentDefinition;
+
+
+mods.thaumcraft.Infusion.registerRecipe("infrecursiondimascension", "", 
+<contenttweaker:recursion_of_dimensional_ascension>, 10,
+[<aspect:aer>*10000, <aspect:ignis>*10000, <aspect:aqua>*10000, <aspect:terra>*10000, <aspect:ordo>*10000, <aspect:perditio>*10000, <aspect:vitium>*10000], 
+<contenttweaker:gem_of_dimensional_ascension>, 
+[<contenttweaker:ingot_of_infinite_wishes>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"}), 
+<avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:fractallite_quantum>, 
+<contenttweaker:ingot_of_infinite_wishes>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"}), 
+<avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:fractallite_quantum>, 
+<contenttweaker:ingot_of_infinite_wishes>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"}), 
+<avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:fractallite_quantum>,
+<contenttweaker:ingot_of_infinite_wishes>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "careerbees.energy"}), 
+<avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:fractallite_quantum>]);
+
+
+mods.thaumcraft.Infusion.registerRecipe("infgreatnighmareblock", "", 
+<contenttweaker:recurring_nightmare_block>, 10,
+[<aspect:gelum>*10000, <aspect:vacuos>*10000, <aspect:permutatio>*10000, <aspect:mortuus>*10000, <aspect:ventus>*10000, <aspect:fluctus>*10000], 
+<contenttweaker:nightmare_block>, 
+[<contenttweaker:echo_warren_alloy>, <contenttweaker:nightmare_of_annoyance>, 
+<contenttweaker:echo_warren_alloy>, <contenttweaker:nightmare_of_annoyance>, 
+<contenttweaker:echo_warren_alloy>, <contenttweaker:nightmare_of_annoyance>, 
+<contenttweaker:echo_warren_alloy>, <contenttweaker:nightmare_of_annoyance>]);
+
+
+
+mods.thaumcraft.Infusion.registerRecipe("infechowarrenstone", "", 
+<contenttweaker:echo_warren_stone>, 10,
+[<aspect:alienis>*10000, <aspect:praecantatio>*10000, <aspect:caeles>*10000, <aspect:mythus>*10000], 
+<contenttweaker:fractal_stone>, 
+[<contenttweaker:echo_warren_alloy>, <contenttweaker:light_of_shadesmar>, 
+<contenttweaker:echo_warren_alloy>, <contenttweaker:light_of_shadesmar>, 
+<contenttweaker:echo_warren_alloy>, <contenttweaker:light_of_shadesmar>, 
+<contenttweaker:echo_warren_alloy>, <contenttweaker:light_of_shadesmar>]);
+
+mods.thaumcraft.Infusion.registerRecipe("infstoneworthiness", "", 
+<contenttweaker:stone_of_worthiness>, 10,
+[<aspect:caeles>*2000, <aspect:mythus>*2000], 
+<contenttweaker:fractal_stone>, 
+[<contenttweaker:essence_of_worthiness>, <contenttweaker:light_of_shadesmar>, 
+<contenttweaker:freedomsteel_ingot>, <contenttweaker:light_of_shadesmar>, 
+<contenttweaker:essence_of_worthiness>, <contenttweaker:light_of_shadesmar>, 
+<contenttweaker:freedomsteel_ingot>, <contenttweaker:light_of_shadesmar>]);
+
+
+val catalystbalance0 = RecipeBuilder.newBuilder("catalystbalance0","catalyst_of_balance",20);
+catalystbalance0.addEnergyPerTickInput(2000000000);
+catalystbalance0.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
+catalystbalance0.addItemInput(<contenttweaker:ascended_fluix_crystal>);
+catalystbalance0.addItemInput(<contenttweaker:hungering_flesh_ingot>);
+catalystbalance0.addItemOutput(<contenttweaker:recursion_of_dimensional_ascension>*4);
+catalystbalance0.build();
+
+
+
+val catalystbalance1 = RecipeBuilder.newBuilder("catalystbalance1","catalyst_of_balance",20);
+catalystbalance1.addEnergyPerTickInput(2000000000);
+catalystbalance1.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
+catalystbalance1.addItemInput(<aoa3:abyss_tokens>*4);
+catalystbalance1.addItemInput(<aoa3:lelyetia_tokens>*4);
+catalystbalance1.addItemInput(<aoa3:precasian_tokens>*4);
+catalystbalance1.addItemInput(<aoa3:baron_tokens>*4);
+catalystbalance1.addItemInput(<aoa3:creeponia_tokens>*4);
+catalystbalance1.addItemInput(<aoa3:deeplands_tokens>*4);
+catalystbalance1.addItemOutput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 I§r"]}}));
+catalystbalance1.build();
+
+
+val catalystbalance2 = RecipeBuilder.newBuilder("catalystbalance2","catalyst_of_balance",20);
+catalystbalance2.addEnergyPerTickInput(2000000000);
+catalystbalance2.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 I§r"]}}));
+catalystbalance2.addItemInput(<aoa3:vox_ponds_tokens>*4);
+catalystbalance2.addItemInput(<aoa3:mysterium_tokens>*4);
+catalystbalance2.addItemInput(<aoa3:candyland_tokens>*4);
+catalystbalance2.addItemInput(<aoa3:haven_tokens>*4);
+catalystbalance2.addItemInput(<aoa3:iromine_tokens>*4);
+catalystbalance2.addItemInput(<aoa3:celeve_tokens>*4);
+catalystbalance2.addItemInput(<aoa3:gardencia_tokens>*4);
+catalystbalance2.addItemInput(<aoa3:crystevia_tokens>*4);
+catalystbalance2.addItemOutput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 II§r"]}}));
+catalystbalance2.build();
+
+
+val catalystbalance3 = RecipeBuilder.newBuilder("catalystbalance3","catalyst_of_balance",20);
+catalystbalance3.addEnergyPerTickInput(2000000000);
+catalystbalance3.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 II§r"]}}));
+catalystbalance3.addItemInput(<aoa3:runandor_tokens>*4);
+catalystbalance3.addItemInput(<aoa3:lunar_tokens>*4);
+catalystbalance3.addItemInput(<aoa3:borean_tokens>*4);
+catalystbalance3.addItemOutput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 III§r"]}}));
+catalystbalance3.build();
+
+val catalystbalance4 = RecipeBuilder.newBuilder("catalystbalance4","catalyst_of_balance",20);
+catalystbalance4.addEnergyPerTickInput(2000000000);
+catalystbalance4.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 III§r"]}}));
+catalystbalance4.addItemInput(<aoa3:dungeon_tokens>*4);
+catalystbalance4.addItemInput(<aoa3:dustopia_tokens>*4);
+catalystbalance4.addItemInput(<aoa3:greckon_tokens>*4);
+catalystbalance4.addItemOutput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 IV§r"]}}));
+catalystbalance4.build();
+
+val catalystbalance5 = RecipeBuilder.newBuilder("catalystbalance5","catalyst_of_balance",20);
+catalystbalance5.addEnergyPerTickInput(2000000000);
+catalystbalance5.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 IV§r"]}}));
+catalystbalance5.addItemInput(<aoa3:shyrelands_tokens>*4);
+catalystbalance5.addItemOutput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 V§r"]}}));
+catalystbalance5.build();
+
+
+val inffurnechowarrenalloy = RecipeBuilder.newBuilder("inffurnechowarrenalloy","infinity_furnace",5);
+inffurnechowarrenalloy.addFluidInput(<fluid:recursive_computing_matter>*1000);
+inffurnechowarrenalloy.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
+inffurnechowarrenalloy.addItemInput(<ore:ingotFractalliteHalite>);
+inffurnechowarrenalloy.addItemInput(<avaritia:resource:6>*2);
+inffurnechowarrenalloy.addItemInput(<contenttweaker:warren_shard>);
+inffurnechowarrenalloy.addItemOutput(<contenttweaker:echo_warren_alloy>*3);
+inffurnechowarrenalloy.build();
+
+val inffurnfinalwarrenalloy = RecipeBuilder.newBuilder("inffurnfinalwarrenalloy","infinity_furnace",5);
+inffurnfinalwarrenalloy.addFluidInput(<fluid:recursive_computing_matter>*5000000);
+inffurnfinalwarrenalloy.addItemInput(<contenttweaker:echo_warren_alloy>);
+inffurnfinalwarrenalloy.addItemInput(<contenttweaker:eleint_stone>);
+inffurnfinalwarrenalloy.addItemInput(<contenttweaker:ingot_of_infinite_wishes>);
+inffurnfinalwarrenalloy.addItemInput(<contenttweaker:cleansed_brightsteel_alloy_plate>);
+inffurnfinalwarrenalloy.addItemInput(<ore:ingotFractalliteHalite>*8);
+inffurnfinalwarrenalloy.addItemOutput(<contenttweaker:actualized_warren_alloy>);
+inffurnfinalwarrenalloy.build();
+
+
+val inffurnallthedraconium = RecipeBuilder.newBuilder("inffurnallthedraconium","infinity_furnace",20);
+inffurnallthedraconium.addFluidInput(<fluid:starmetal_alloy>*100);
+inffurnallthedraconium.addItemInput(<contenttweaker:ascended_draconic_alloy>);
+inffurnallthedraconium.addItemInput(<contenttweaker:meteoric_draconic_stone>*8);
+inffurnallthedraconium.addItemInput(<contenttweaker:energetic_draconium_ingot>*12);
+inffurnallthedraconium.addItemInput(<draconicevolution:chaos_shard:0>);
+inffurnallthedraconium.addItemInput(<draconicevolution:awakened_core>);
+inffurnallthedraconium.addItemOutput(<contenttweaker:fiery_recursion_fragment>);
+inffurnallthedraconium.build();
+
+
+
+val arcautinfdracshades = RecipeBuilder.newBuilder("arcautinfdracshades","arcane_autoinfuser",60);
+arcautinfdracshades.addEnergyPerTickInput(1000000000);
+arcautinfdracshades.addItemInput(<contenttweaker:lux_vis_condensate>);
+arcautinfdracshades.addItemInput(<contenttweaker:draco_vis_condensate>);
+arcautinfdracshades.addItemInput(<contenttweaker:alienis_vis_condensate>);
+arcautinfdracshades.addItemInput(<contenttweaker:ignis_vis_condensate>);
+arcautinfdracshades.addItemInput(<contenttweaker:fiery_recursion_fragment>*4);
+arcautinfdracshades.addItemInput(<contenttweaker:light_of_shadesmar>*2);
+arcautinfdracshades.addItemInput(<avaritia:block_resource:1>*2);
+arcautinfdracshades.addItemInput(<contenttweaker:everburning_dust>*4);
+arcautinfdracshades.addItemOutput(<contenttweaker:everburning_recursion_fragment>*4);
+arcautinfdracshades.build();
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:space_time_beam>*12, 
+[[<contenttweaker:infinite_tainted_plate>, <contenttweaker:phasing_alloy_plate>, <tconstruct:tough_tool_rod>.withTag({Material: "adamantium"}), <contenttweaker:phasing_alloy_plate>, <contenttweaker:infinite_tainted_plate>], 
+[<contenttweaker:phasing_alloy_plate>, <contenttweaker:exotic_dyson_conduit>, <contenttweaker:balanced_machine_casing>, <contenttweaker:exotic_dyson_conduit>, <contenttweaker:phasing_alloy_plate>], 
+[<tconstruct:tough_tool_rod>.withTag({Material: "vibranium_alloy"}), <contenttweaker:balanced_machine_casing>, <contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 V§r"]}}), <contenttweaker:balanced_machine_casing>, <tconstruct:tough_tool_rod>.withTag({Material: "vibranium_alloy"})], 
+[<contenttweaker:phasing_alloy_plate>, <contenttweaker:exotic_dyson_conduit>, <contenttweaker:balanced_machine_casing>, <contenttweaker:exotic_dyson_conduit>, <contenttweaker:phasing_alloy_plate>], 
+[<contenttweaker:infinite_tainted_plate>, <contenttweaker:phasing_alloy_plate>, <tconstruct:tough_tool_rod>.withTag({Material: "adamantium"}), <contenttweaker:phasing_alloy_plate>, <contenttweaker:infinite_tainted_plate>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:quasar_stabilizer>*4, 
+[[<contenttweaker:horizon_sustainer>, <contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:defined_plate>, <contenttweaker:everburning_plating>, <contenttweaker:defined_plate>, <contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:horizon_sustainer>], 
+[<contenttweaker:perfected_gallifreyan_plate>, <avaritiaitem:self_actualizing_stone>, <glassential:glass_light>, <contenttweaker:balanced_machine_casing>, <glassential:glass_light>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:perfected_gallifreyan_plate>], 
+[<contenttweaker:defined_plate>, <glassential:glass_light>, <contenttweaker:shard_of_the_cosmos>, <glassential:glass_redstone>, <contenttweaker:shard_of_the_cosmos>, <glassential:glass_light>, <contenttweaker:defined_plate>], 
+[<contenttweaker:everburning_plating>, <contenttweaker:balanced_machine_casing>, <glassential:glass_redstone>, <contenttweaker:hypercapacitor_discharger_x1024>, <glassential:glass_redstone>, <contenttweaker:balanced_machine_casing>, <contenttweaker:everburning_plating>], 
+[<contenttweaker:defined_plate>, <glassential:glass_light>, <contenttweaker:shard_of_the_cosmos>, <glassential:glass_redstone>, <contenttweaker:shard_of_the_cosmos>, <glassential:glass_light>, <contenttweaker:defined_plate>], 
+[<contenttweaker:perfected_gallifreyan_plate>, <avaritiaitem:self_actualizing_stone>, <glassential:glass_light>, <contenttweaker:balanced_machine_casing>, <glassential:glass_light>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:perfected_gallifreyan_plate>], 
+[<contenttweaker:horizon_sustainer>, <contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:defined_plate>, <contenttweaker:everburning_plating>, <contenttweaker:defined_plate>, <contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:horizon_sustainer>]]);  
+
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:quasar_charged_gem>, <fluid:pure_recursion>*100, <fluid:doped_recursion>*100]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<glassential:glass_ethereal_reverse>*12, 
+[[<contenttweaker:hyperuranion_casing>, <contenttweaker:brightsteel_conduit>, <contenttweaker:unidentified_plate>, <contenttweaker:trinity_ingot>, <contenttweaker:unidentified_plate>, <contenttweaker:brightsteel_conduit>, <contenttweaker:hyperuranion_casing>], 
+[<contenttweaker:brightsteel_conduit>, <contenttweaker:unidentified_plate>, <contenttweaker:unidentified_plate>, <glassential:glass_ghostly>, <contenttweaker:unidentified_plate>, <contenttweaker:unidentified_plate>, <contenttweaker:brightsteel_conduit>], 
+[<contenttweaker:unidentified_plate>, <contenttweaker:unidentified_plate>, <glassential:glass_ghostly>, <ore:ingotFractalliteHalite>, <glassential:glass_ghostly>, <contenttweaker:unidentified_plate>, <contenttweaker:unidentified_plate>], 
+[<contenttweaker:trinity_ingot>, <glassential:glass_ghostly>, <ore:ingotFractalliteHalite>, <contenttweaker:balanced_machine_casing>, <ore:ingotFractalliteHalite>, <glassential:glass_ghostly>, <contenttweaker:trinity_ingot>], 
+[<contenttweaker:unidentified_plate>, <contenttweaker:unidentified_plate>, <glassential:glass_ghostly>, <ore:ingotFractalliteHalite>, <glassential:glass_ghostly>, <contenttweaker:unidentified_plate>, <contenttweaker:unidentified_plate>], 
+[<contenttweaker:brightsteel_conduit>, <contenttweaker:unidentified_plate>, <contenttweaker:unidentified_plate>, <glassential:glass_ghostly>, <contenttweaker:unidentified_plate>, <contenttweaker:unidentified_plate>, <contenttweaker:brightsteel_conduit>], 
+[<contenttweaker:hyperuranion_casing>, <contenttweaker:brightsteel_conduit>, <contenttweaker:unidentified_plate>, <contenttweaker:trinity_ingot>, <contenttweaker:unidentified_plate>, <contenttweaker:brightsteel_conduit>, <contenttweaker:hyperuranion_casing>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:galaxy_conduit>*12, 
+[[<contenttweaker:infinity_dyson_conduit>, <contenttweaker:irradiator_casing>, <contenttweaker:irradiator_casing>, <contenttweaker:infinity_dyson_conduit>, <contenttweaker:irradiator_casing>, <contenttweaker:irradiator_casing>, <contenttweaker:infinity_dyson_conduit>], 
+[<contenttweaker:irradiator_casing>, <contenttweaker:entropy_director_element>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:entropy_director_element>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:entropy_director_element>, <contenttweaker:irradiator_casing>], 
+[<contenttweaker:irradiator_casing>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:quantum_shard>, <contenttweaker:everburning_plating>, <contenttweaker:quantum_shard>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:irradiator_casing>], 
+[<contenttweaker:infinity_dyson_conduit>, <contenttweaker:entropy_director_element>, <contenttweaker:everburning_plating>, <contenttweaker:balanced_machine_casing>, <contenttweaker:everburning_plating>, <contenttweaker:entropy_director_element>, <contenttweaker:infinity_dyson_conduit>], 
+[<contenttweaker:irradiator_casing>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:quantum_shard>, <contenttweaker:everburning_plating>, <contenttweaker:quantum_shard>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:irradiator_casing>], 
+[<contenttweaker:irradiator_casing>, <contenttweaker:entropy_director_element>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:entropy_director_element>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:entropy_director_element>, <contenttweaker:irradiator_casing>], 
+[<contenttweaker:infinity_dyson_conduit>, <contenttweaker:irradiator_casing>, <contenttweaker:irradiator_casing>, <contenttweaker:infinity_dyson_conduit>, <contenttweaker:irradiator_casing>, <contenttweaker:irradiator_casing>, <contenttweaker:infinity_dyson_conduit>]]);  
+
+
+
+mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:quasar_screen>, 
+[[<contenttweaker:balanced_machine_casing>, <contenttweaker:hypercubic_energy_orb>, <contenttweaker:balanced_machine_casing>], 
+[<contenttweaker:hypercubic_energy_orb>, <contenttweaker:pulsar_screen>, <contenttweaker:hypercubic_energy_orb>], 
+[<contenttweaker:balanced_machine_casing>, <contenttweaker:hypercubic_energy_orb>, <contenttweaker:balanced_machine_casing>]],
+10);  
+
+
+recipes.addShaped(<contenttweaker:ascended_fluix_etcher>,
+[[<contenttweaker:opalescent_matter>, <plustic:laser_medium>.withTag({Material: "fluixcrystal_plustic"}), <contenttweaker:opalescent_matter>],
+[<avaritiaitem:spatial_processor>, <contenttweaker:fluix_etcher>, <avaritiaitem:spatial_processor>],
+[<contenttweaker:opalescent_matter>, <plustic:laser_medium>.withTag({Material: "starmetal"}), <contenttweaker:opalescent_matter>]]);
+
+recipes.addShaped(<contenttweaker:naquadah_casing>,
+[[<contenttweaker:opalescent_matter>, <contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:opalescent_matter>],
+[<contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:naquadah_catalyst>, <contenttweaker:hyperuranon_actualizing_fabrial>],
+[<contenttweaker:opalescent_matter>, <contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:opalescent_matter>]]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:galaxy_accelerator>*8, 
+[[<contenttweaker:plasma_accelerator_tube>, <contenttweaker:mirroring_mithminite_prism>, <contenttweaker:defined_servo>, <contenttweaker:mirroring_mithminite_prism>, <contenttweaker:plasma_accelerator_tube>], 
+[<contenttweaker:mirroring_mithminite_prism>, <contenttweaker:mythic_coil_t3>, <contenttweaker:defined_servo>, <contenttweaker:mythic_coil_t3>, <contenttweaker:mirroring_mithminite_prism>], 
+[<contenttweaker:defined_servo>, <contenttweaker:defined_servo>, <contenttweaker:naquadah_casing>, <contenttweaker:defined_servo>, <contenttweaker:defined_servo>], 
+[<contenttweaker:mirroring_mithminite_prism>, <contenttweaker:mythic_coil_t3>, <contenttweaker:defined_servo>, <contenttweaker:mythic_coil_t3>, <contenttweaker:mirroring_mithminite_prism>], 
+[<contenttweaker:plasma_accelerator_tube>, <contenttweaker:mirroring_mithminite_prism>, <contenttweaker:defined_servo>, <contenttweaker:mirroring_mithminite_prism>, <contenttweaker:plasma_accelerator_tube>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dark_matter_scattering_element>, 
+[[<contenttweaker:alchemically_hyperactive_crystal>, <contenttweaker:fluctuatite_stabilizer>, <contenttweaker:stable_orbiting_device>, <contenttweaker:fluctuatite_stabilizer>, <contenttweaker:alchemically_hyperactive_crystal>], 
+[<contenttweaker:fluctuatite_stabilizer>, <contenttweaker:trinity_ingot>, <openblocks:tank>.withTag({tank: {FluidName: "fluctuatite", Amount: 16000}}), <contenttweaker:trinity_ingot>, <contenttweaker:fluctuatite_stabilizer>], 
+[<contenttweaker:stable_orbiting_device>, <extendedcrafting:singularity_custom:630>, <contenttweaker:definer_casing>, <extendedcrafting:singularity_custom:630>, <contenttweaker:stable_orbiting_device>], 
+[<contenttweaker:fluctuatite_stabilizer>, <contenttweaker:trinity_ingot>, <openblocks:tank>.withTag({tank: {FluidName: "fluctuatite", Amount: 16000}}), <contenttweaker:trinity_ingot>, <contenttweaker:fluctuatite_stabilizer>], 
+[<contenttweaker:alchemically_hyperactive_crystal>, <contenttweaker:fluctuatite_stabilizer>, <contenttweaker:stable_orbiting_device>, <contenttweaker:fluctuatite_stabilizer>, <contenttweaker:alchemically_hyperactive_crystal>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dark_matter_node>, 
+[[<contenttweaker:balanced_machine_casing>, <contenttweaker:fractallite_quantum>, <contenttweaker:dark_matter_scattering_element>, <contenttweaker:fractallite_quantum>, <contenttweaker:balanced_machine_casing>], 
+[<contenttweaker:fractallite_quantum>, <contenttweaker:empowered_gravitite>, <contenttweaker:nightmare_block>, <contenttweaker:empowered_gravitite>, <contenttweaker:fractallite_quantum>], 
+[<contenttweaker:dark_matter_scattering_element>, <contenttweaker:nightmare_block>, <contenttweaker:naquadah_casing>, <contenttweaker:nightmare_block>, <contenttweaker:dark_matter_scattering_element>], 
+[<contenttweaker:fractallite_quantum>, <contenttweaker:empowered_gravitite>, <contenttweaker:nightmare_block>, <contenttweaker:empowered_gravitite>, <contenttweaker:fractallite_quantum>], 
+[<contenttweaker:balanced_machine_casing>, <contenttweaker:fractallite_quantum>, <contenttweaker:dark_matter_scattering_element>, <contenttweaker:fractallite_quantum>, <contenttweaker:balanced_machine_casing>]]);  
+
+recipes.addShaped(<contenttweaker:fractal_metal_plate>,
+[[<forestry:bee_combs:2>, <mod_lavacow:moltenhammer>.reuse(), <extrabees:honey_comb:12>],
+[<extrabees:honey_drop:5>, <contenttweaker:fractal_metal_clump>, <extrabees:honey_drop:5>],
+[<extrabees:honey_comb:30>, <extrabees:honey_drop:5>, <extrabees:honey_comb:27>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:cosmic_balance_coil>*8, 
+[[<contenttweaker:trinity_ingot>, <contenttweaker:fractal_metal_plate>, <contenttweaker:mythic_coil_t3>, <contenttweaker:fractal_metal_plate>, <contenttweaker:trinity_ingot>], 
+[<contenttweaker:fractal_metal_plate>, <contenttweaker:trinity_ingot>, <contenttweaker:balanced_machine_casing>, <contenttweaker:trinity_ingot>, <contenttweaker:fractal_metal_plate>], 
+[<contenttweaker:mythic_coil_t3>, <contenttweaker:balanced_machine_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:mythic_coil_t3>], 
+[<contenttweaker:fractal_metal_plate>, <contenttweaker:trinity_ingot>, <contenttweaker:balanced_machine_casing>, <contenttweaker:trinity_ingot>, <contenttweaker:fractal_metal_plate>], 
+[<contenttweaker:trinity_ingot>, <contenttweaker:fractal_metal_plate>, <contenttweaker:mythic_coil_t3>, <contenttweaker:fractal_metal_plate>, <contenttweaker:trinity_ingot>]]);  
+
+
+var mapDargnipur as IData = {};
+val enchlistDragnipur as IEnchantmentDefinition[] = [<enchantment:draconicevolution:enchant_reaper>, <enchantment:soulshardsrespawn:soul_stealer>, <enchantment:mod_lavacow:lifesteal>, <enchantment:enderio:witherweapon>, <enchantment:minecraft:sweeping>];
+mapDargnipur += enchlistDragnipur[0].makeEnchantment(20000).makeTag();
+mapDargnipur += enchlistDragnipur[1].makeEnchantment(20000).makeTag();
+mapDargnipur += enchlistDragnipur[2].makeEnchantment(20000).makeTag();
+mapDargnipur += enchlistDragnipur[3].makeEnchantment(20000).makeTag();
+mapDargnipur += enchlistDragnipur[4].makeEnchantment(20000).makeTag();
+
+recipes.addShapeless(<contenttweaker:echo_warren_bar>,
+[<aoa3:shadow_sword>.withTag(mapDargnipur).reuse(),
+<contenttweaker:echo_warren_alloy>]);
+
+recipes.addShapeless(<contenttweaker:defined_bar>,
+[<aoa3:shadow_sword>.withTag(mapDargnipur).reuse(),
+<contenttweaker:defined_ingot>]);
+
+recipes.addShapeless(<contenttweaker:sashimi_of_the_gate_of_darkness>,
+[<aoa3:shadow_sword>.withTag(mapDargnipur).reuse(),
+<minecraft:fish:1>]);
+
+
+val dysondynamizer = RecipeBuilder.newBuilder("dysondynamizer","dyson_dynamizer",100);
+dysondynamizer.addFluidInput(<fluid:pre_baryonic_plasma>*1000);
+dysondynamizer.addFluidInput(<fluid:strings>*400);
+dysondynamizer.addFluidInput(<fluid:gravitrons>*400);
+dysondynamizer.addFluidInput(<fluid:unbalanced_negative_matter>*400);
+dysondynamizer.addFluidInput(<fluid:plasma>*1000);
+dysondynamizer.addFluidOutput(<fluid:low_grade_space_time_fuel>*1000);
+dysondynamizer.addFluidOutput(<fluid:neutron>*2000);
+dysondynamizer.addItemInput(<contenttweaker:time_crystal>*4);
+dysondynamizer.addItemInput(<contenttweaker:gem_of_recursion>*4);
+dysondynamizer.addItemOutput(<contenttweaker:gravitational_time_crystal>*4);
+dysondynamizer.addItemOutput(<contenttweaker:quasar_charged_gem>*4);
+dysondynamizer.build();
+
+
+val dysonscatterer1 = RecipeBuilder.newBuilder("dysonscatterer1","dyson_scatterer",100);
+dysonscatterer1.addEnergyPerTickInput(1000000000);
+dysonscatterer1.addFluidInput(<fluid:strange_matter>*400);
+dysonscatterer1.addFluidInput(<fluid:gluons>*400);
+dysonscatterer1.addFluidOutput(<fluid:strange_quark_gluon_plasma>*800);
+dysonscatterer1.build();
+
+val dysonscatterer2 = RecipeBuilder.newBuilder("dysonscatterer2","dyson_scatterer",100);
+dysonscatterer2.addEnergyPerTickInput(1000000000);
+dysonscatterer2.addFluidInput(<fluid:neutron>*400);
+dysonscatterer2.addFluidInput(<fluid:muons>*400);
+dysonscatterer2.addFluidOutput(<fluid:cosmic_ray_particle_mix>*800);
+dysonscatterer2.build();
+
+val dysonscatterer3 = RecipeBuilder.newBuilder("dysonscatterer3","dyson_scatterer",100);
+dysonscatterer3.addEnergyPerTickInput(1000000000);
+dysonscatterer3.addFluidInput(<fluid:low_grade_space_time_fuel>*400);
+dysonscatterer3.addFluidInput(<fluid:cosmic_ray_particle_mix>*400);
+dysonscatterer3.addFluidOutput(<fluid:medium_grade_space_time_fuel>*800);
+dysonscatterer3.build();
+
+val dysonscatterer4 = RecipeBuilder.newBuilder("dysonscatterer4","dyson_scatterer",100);
+dysonscatterer4.addEnergyPerTickInput(1000000000);
+dysonscatterer4.addFluidInput(<fluid:medium_grade_space_time_fuel>*400);
+dysonscatterer4.addFluidInput(<fluid:strange_quark_gluon_plasma>*400);
+dysonscatterer4.addFluidOutput(<fluid:high_grade_space_time_fuel>*800);
+dysonscatterer4.build();
+
+
+
+val fracfurnspacetimef1 = RecipeBuilder.newBuilder("fracfurnspacetimef1","fractallite_furnace",10);
+fracfurnspacetimef1.addFluidInput(<fluid:low_grade_space_time_fuel>*100);
+fracfurnspacetimef1.addItemInput(<avaritia:block_resource:2>);
+fracfurnspacetimef1.addItemInput(<contenttweaker:superconducting_mithril>*4);
+fracfurnspacetimef1.addItemInput(<contenttweaker:essence_of_creation>);
+fracfurnspacetimef1.addItemOutput(<contenttweaker:galaxy_superconductor>*1);
+fracfurnspacetimef1.build();
+
+val fracfurnspacetimef2 = RecipeBuilder.newBuilder("fracfurnspacetimef2","fractallite_furnace",10);
+fracfurnspacetimef2.addFluidInput(<fluid:medium_grade_space_time_fuel>*100);
+fracfurnspacetimef2.addItemInput(<avaritia:block_resource:2>);
+fracfurnspacetimef2.addItemInput(<contenttweaker:superconducting_mithril>*4);
+fracfurnspacetimef2.addItemInput(<contenttweaker:essence_of_creation>);
+fracfurnspacetimef2.addItemOutput(<contenttweaker:galaxy_superconductor>*4);
+fracfurnspacetimef2.build();
+
+val fracfurnspacetimef3 = RecipeBuilder.newBuilder("fracfurnspacetimef3","fractallite_furnace",10);
+fracfurnspacetimef3.addFluidInput(<fluid:high_grade_space_time_fuel>*100);
+fracfurnspacetimef3.addItemInput(<avaritia:block_resource:2>);
+fracfurnspacetimef3.addItemInput(<contenttweaker:superconducting_mithril>*4);
+fracfurnspacetimef3.addItemInput(<contenttweaker:essence_of_creation>);
+fracfurnspacetimef3.addItemOutput(<contenttweaker:galaxy_superconductor>*16);
+fracfurnspacetimef3.build();
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:toroid_galaxy_tube>*8, 
+[[<contenttweaker:spatial_anomaly>, <appliedenergistics2:spatial_pylon>, <appliedenergistics2:spatial_pylon>, <appliedenergistics2:spatial_pylon>, <appliedenergistics2:spatial_pylon>, <appliedenergistics2:spatial_pylon>, <contenttweaker:spatial_anomaly>], 
+[<appliedenergistics2:spatial_pylon>, <contenttweaker:actualizing_casing>, <contenttweaker:fluid_matrix_conduit>, <contenttweaker:hyperuranion_conduit>, <contenttweaker:fluid_matrix_conduit>, <contenttweaker:actualizing_casing>, <appliedenergistics2:spatial_pylon>], 
+[<appliedenergistics2:spatial_pylon>, <contenttweaker:fluid_matrix_conduit>, <contenttweaker:galaxy_accelerator>, <contenttweaker:galaxy_superconductor>, <contenttweaker:galaxy_accelerator>, <contenttweaker:fluid_matrix_conduit>, <appliedenergistics2:spatial_pylon>], 
+[<appliedenergistics2:spatial_pylon>, <contenttweaker:hyperuranion_conduit>, <contenttweaker:galaxy_superconductor>, <contenttweaker:naquadah_casing>, <contenttweaker:galaxy_superconductor>, <contenttweaker:hyperuranion_conduit>, <appliedenergistics2:spatial_pylon>], 
+[<appliedenergistics2:spatial_pylon>, <contenttweaker:fluid_matrix_conduit>, <contenttweaker:galaxy_accelerator>, <contenttweaker:galaxy_superconductor>, <contenttweaker:galaxy_accelerator>, <contenttweaker:fluid_matrix_conduit>, <appliedenergistics2:spatial_pylon>], 
+[<appliedenergistics2:spatial_pylon>, <contenttweaker:actualizing_casing>, <contenttweaker:fluid_matrix_conduit>, <contenttweaker:hyperuranion_conduit>, <contenttweaker:fluid_matrix_conduit>, <contenttweaker:actualizing_casing>, <appliedenergistics2:spatial_pylon>], 
+[<contenttweaker:spatial_anomaly>, <appliedenergistics2:spatial_pylon>, <appliedenergistics2:spatial_pylon>, <appliedenergistics2:spatial_pylon>, <appliedenergistics2:spatial_pylon>, <appliedenergistics2:spatial_pylon>, <contenttweaker:spatial_anomaly>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:ghost_of_annoyance_callstone>, 
+[[<industrialforegoing:black_hole_tank>.withTag({FluidName: "tritium", Amount: 2147483647}), <contenttweaker:perfected_gallifreyan_plate>, null, <contenttweaker:infinity_plate>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "hydrogen", Amount: 2147483647}), <contenttweaker:infinity_plate>, null, <contenttweaker:perfected_gallifreyan_plate>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "deuterium", Amount: 2147483647})], 
+[<contenttweaker:perfected_gallifreyan_plate>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "oxygen", Amount: 2147483647}), <contenttweaker:perfected_gallifreyan_plate>, null, <contenttweaker:infinity_plate>, null, <contenttweaker:perfected_gallifreyan_plate>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "oxygen", Amount: 2147483647}), <contenttweaker:perfected_gallifreyan_plate>], 
+[null, <contenttweaker:perfected_gallifreyan_plate>, null, null, null, null, null, <contenttweaker:perfected_gallifreyan_plate>, null], 
+[<contenttweaker:infinity_plate>, null, null, null, <contenttweaker:nightmare_block>, null, null, null, <contenttweaker:infinity_plate>], 
+[<industrialforegoing:black_hole_tank>.withTag({FluidName: "hydrogen", Amount: 2147483647}), <contenttweaker:infinity_plate>, null, <contenttweaker:nightmare_block>, <contenttweaker:dream_cluster>, <contenttweaker:nightmare_block>, null, <contenttweaker:infinity_plate>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "hydrogen", Amount: 2147483647})], 
+[<contenttweaker:infinity_plate>, null, null, null, <contenttweaker:nightmare_block>, null, null, null, <contenttweaker:infinity_plate>], 
+[null, <contenttweaker:perfected_gallifreyan_plate>, null, null, null, null, null, <contenttweaker:perfected_gallifreyan_plate>, null], 
+[<contenttweaker:perfected_gallifreyan_plate>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "oxygen", Amount: 2147483647}), <contenttweaker:perfected_gallifreyan_plate>, null, <contenttweaker:infinity_plate>, null, <contenttweaker:perfected_gallifreyan_plate>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "oxygen", Amount: 2147483647}), <contenttweaker:perfected_gallifreyan_plate>], 
+[<industrialforegoing:black_hole_tank>.withTag({FluidName: "deuterium", Amount: 2147483647}), <contenttweaker:perfected_gallifreyan_plate>, null, <contenttweaker:infinity_plate>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "hydrogen", Amount: 2147483647}), <contenttweaker:infinity_plate>, null, <contenttweaker:perfected_gallifreyan_plate>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "tritium", Amount: 2147483647})]]);  
+
+
+
+val dysonrevolver = RecipeBuilder.newBuilder("dysonrevolver","dyson_revolver",100);
+dysonrevolver.addEnergyPerTickInput(4000000000);
+dysonrevolver.addFluidInput(<fluid:hydrogen>*10000000);
+dysonrevolver.addFluidInput(<fluid:helium>*10000000);
+dysonrevolver.addFluidInput(<fluid:oxygen>*10000000);
+dysonrevolver.addFluidInput(<fluid:high_grade_space_time_fuel>*400);
+dysonrevolver.addFluidOutput(<fluid:galactic_plasma>*7500000);
+dysonrevolver.addFluidOutput(<fluid:galactic_plasma>*7500000);
+dysonrevolver.addFluidOutput(<fluid:galactic_plasma>*7500000);
+dysonrevolver.addFluidOutput(<fluid:galactic_plasma>*7500000);
+dysonrevolver.addItemInput(<contenttweaker:time_crystal_lattice>);
+dysonrevolver.addItemInput(<extendedcrafting:singularity_custom:2030>);
+dysonrevolver.addItemOutput(<contenttweaker:cosmic_string_primer>);
+dysonrevolver.addItemOutput(<avaritia:block_resource:0>*64);
+dysonrevolver.build();
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:trinity_neutronium_casing>, 
+100000000, <contenttweaker:gallifreyan_neutronium_casing>, 
+[<contenttweaker:trinity_ingot>, <contenttweaker:cuendillar_plate>,
+<contenttweaker:trinity_ingot>, <contenttweaker:cuendillar_plate>,
+<contenttweaker:trinity_ingot>, <contenttweaker:cuendillar_plate>,
+<contenttweaker:trinity_ingot>, <contenttweaker:cuendillar_plate>,
+<contenttweaker:trinity_ingot>, <contenttweaker:cuendillar_plate>,
+<contenttweaker:trinity_ingot>, <contenttweaker:cuendillar_plate>,
+<contenttweaker:trinity_ingot>, <contenttweaker:cuendillar_plate>,
+<contenttweaker:trinity_ingot>, <contenttweaker:cuendillar_plate>]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:quark_cosmic_module>, 
+[[<contenttweaker:light_of_shadesmar>, <contenttweaker:cuendillar_plate>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:cuendillar_plate>, <contenttweaker:light_of_shadesmar>], 
+[<contenttweaker:cuendillar_plate>, <contenttweaker:shard_of_the_cosmos>, <minecraft:bedrock>, <contenttweaker:shard_of_the_cosmos>, <contenttweaker:cuendillar_plate>], 
+[<avaritiaitem:self_actualizing_stone>, <minecraft:bedrock>, <contenttweaker:quark_neutronium_module>, <minecraft:bedrock>, <avaritiaitem:self_actualizing_stone>], 
+[<contenttweaker:cuendillar_plate>, <contenttweaker:shard_of_the_cosmos>, <minecraft:bedrock>, <contenttweaker:shard_of_the_cosmos>, <contenttweaker:cuendillar_plate>], 
+[<contenttweaker:light_of_shadesmar>, <contenttweaker:cuendillar_plate>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:cuendillar_plate>, <contenttweaker:light_of_shadesmar>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:cosmic_string_module>*8, 
+[[<contenttweaker:echo_warren_bar>, <glassential:glass_ethereal_reverse>, <avaritia:block_resource:1>, <glassential:glass_ethereal_reverse>, <contenttweaker:echo_warren_bar>], 
+[<glassential:glass_ethereal_reverse>, <contenttweaker:shard_of_the_cosmos>, <contenttweaker:everburning_plating>, <contenttweaker:shard_of_the_cosmos>, <glassential:glass_ethereal_reverse>], 
+[<contenttweaker:white_hole>, <contenttweaker:everburning_plating>, <contenttweaker:naquadah_casing>, <contenttweaker:everburning_plating>, <contenttweaker:white_hole>], 
+[<glassential:glass_ethereal_reverse>, <contenttweaker:shard_of_the_cosmos>, <contenttweaker:everburning_plating>, <contenttweaker:shard_of_the_cosmos>, <glassential:glass_ethereal_reverse>], 
+[<contenttweaker:echo_warren_bar>, <glassential:glass_ethereal_reverse>, <avaritia:block_resource:1>, <glassential:glass_ethereal_reverse>, <contenttweaker:echo_warren_bar>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mixed_metal_shard>*8, 
+[[<tconstruct:shard>.withTag({Material: "phasing_alloy"}), <tconstruct:shard>.withTag({Material: "bloodmaster"}), <tconstruct:shard>.withTag({Material: "manyullyn"}), 
+<tconstruct:shard>.withTag({Material: "barathosynium"}), <tconstruct:shard>.withTag({Material: "ascended_draconic_alloy"}), <tconstruct:shard>.withTag({Material: "barathosynium"}), 
+<tconstruct:shard>.withTag({Material: "manyullyn"}), <tconstruct:shard>.withTag({Material: "bloodmaster"}), <tconstruct:shard>.withTag({Material: "phasing_alloy"})], 
+
+[<tconstruct:shard>.withTag({Material: "xu_enchanted_metal"}), <tconstruct:shard>.withTag({Material: "psi"}), <tconstruct:shard>.withTag({Material: "rosidian"}), 
+<tconstruct:shard>.withTag({Material: "starmetal"}), <tconstruct:shard>.withTag({Material: "blood_infused_glitch"}), <tconstruct:shard>.withTag({Material: "starmetal"}), 
+<tconstruct:shard>.withTag({Material: "rosidian"}), <tconstruct:shard>.withTag({Material: "psi"}), <tconstruct:shard>.withTag({Material: "xu_enchanted_metal"})], 
+
+[<tconstruct:shard>.withTag({Material: "xu_demonic_metal"}), <tconstruct:shard>.withTag({Material: "xu_evil_metal"}), <tconstruct:shard>.withTag({Material: "ma.soulium"}), 
+<tconstruct:shard>.withTag({Material: "adamantium"}), <tconstruct:shard>.withTag({Material: "wrought_iron"}), <tconstruct:shard>.withTag({Material: "adamantium"}), 
+<tconstruct:shard>.withTag({Material: "ma.soulium"}), <tconstruct:shard>.withTag({Material: "xu_evil_metal"}), <tconstruct:shard>.withTag({Material: "xu_demonic_metal"})], 
+
+[<tconstruct:shard>.withTag({Material: "terrasteel"}), <tconstruct:shard>.withTag({Material: "mirion"}), <tconstruct:shard>.withTag({Material: "blutonium"}), 
+<tconstruct:shard>.withTag({Material: "vibranium_alloy"}), <tconstruct:shard>.withTag({Material: "ichorium"}), <tconstruct:shard>.withTag({Material: "vibranium_alloy"}), 
+<tconstruct:shard>.withTag({Material: "blutonium"}), <tconstruct:shard>.withTag({Material: "mirion"}), <tconstruct:shard>.withTag({Material: "terrasteel"})], 
+
+[<tconstruct:shard>.withTag({Material: "elecanium"}), <tconstruct:shard>.withTag({Material: "brightsteel_alloy"}), <tconstruct:shard>.withTag({Material: "berserk_steel"}), 
+<tconstruct:shard>.withTag({Material: "parafrosynium"}), <tconstruct:shard>.withTag({Material: "infinity_avaritia_plustic"}), <tconstruct:shard>.withTag({Material: "hihi_irokane"}), 
+<tconstruct:shard>.withTag({Material: "berserk_steel"}), <tconstruct:shard>.withTag({Material: "brightsteel_alloy"}), <tconstruct:shard>.withTag({Material: "elecanium"})], 
+
+[<tconstruct:shard>.withTag({Material: "terrasteel"}), <tconstruct:shard>.withTag({Material: "mirion"}), <tconstruct:shard>.withTag({Material: "blutonium"}), 
+<tconstruct:shard>.withTag({Material: "vibranium_alloy"}), <tconstruct:shard>.withTag({Material: "orichalcum"}), <tconstruct:shard>.withTag({Material: "vibranium_alloy"}), 
+<tconstruct:shard>.withTag({Material: "blutonium"}), <tconstruct:shard>.withTag({Material: "mirion"}), <tconstruct:shard>.withTag({Material: "terrasteel"})], 
+
+[<tconstruct:shard>.withTag({Material: "xu_demonic_metal"}), <tconstruct:shard>.withTag({Material: "xu_evil_metal"}), <tconstruct:shard>.withTag({Material: "ma.soulium"}), 
+<tconstruct:shard>.withTag({Material: "adamantium"}), <tconstruct:shard>.withTag({Material: "wrought_iron"}), <tconstruct:shard>.withTag({Material: "adamantium"}), 
+<tconstruct:shard>.withTag({Material: "ma.soulium"}), <tconstruct:shard>.withTag({Material: "xu_evil_metal"}), <tconstruct:shard>.withTag({Material: "xu_demonic_metal"})], 
+
+[<tconstruct:shard>.withTag({Material: "xu_enchanted_metal"}), <tconstruct:shard>.withTag({Material: "psi"}), <tconstruct:shard>.withTag({Material: "rosidian"}), 
+<tconstruct:shard>.withTag({Material: "starmetal"}), <tconstruct:shard>.withTag({Material: "blood_infused_glitch"}), <tconstruct:shard>.withTag({Material: "starmetal"}), 
+<tconstruct:shard>.withTag({Material: "rosidian"}), <tconstruct:shard>.withTag({Material: "psi"}), <tconstruct:shard>.withTag({Material: "xu_enchanted_metal"})], 
+
+[<tconstruct:shard>.withTag({Material: "phasing_alloy"}), <tconstruct:shard>.withTag({Material: "bloodmaster"}), <tconstruct:shard>.withTag({Material: "manyullyn"}), 
+<tconstruct:shard>.withTag({Material: "barathosynium"}), <tconstruct:shard>.withTag({Material: "ascended_draconic_alloy"}), <tconstruct:shard>.withTag({Material: "barathosynium"}), 
+<tconstruct:shard>.withTag({Material: "manyullyn"}), <tconstruct:shard>.withTag({Material: "bloodmaster"}), <tconstruct:shard>.withTag({Material: "phasing_alloy"})]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mixed_metal_shard>*32, 
+[[<tconstruct:shard>.withTag({Material: "phasing_alloy"}), <tconstruct:shard>.withTag({Material: "bloodmaster"}), <tconstruct:shard>.withTag({Material: "manyullyn"}), 
+<tconstruct:shard>.withTag({Material: "barathosynium"}), <tconstruct:shard>.withTag({Material: "ascended_draconic_alloy"}), <tconstruct:shard>.withTag({Material: "barathosynium"}), 
+<tconstruct:shard>.withTag({Material: "manyullyn"}), <tconstruct:shard>.withTag({Material: "bloodmaster"}), <tconstruct:shard>.withTag({Material: "phasing_alloy"})], 
+
+[<tconstruct:shard>.withTag({Material: "xu_enchanted_metal"}), <tconstruct:shard>.withTag({Material: "psi"}), <tconstruct:shard>.withTag({Material: "rosidian"}), 
+<tconstruct:shard>.withTag({Material: "starmetal"}), <tconstruct:shard>.withTag({Material: "blood_infused_glitch"}), <tconstruct:shard>.withTag({Material: "starmetal"}), 
+<tconstruct:shard>.withTag({Material: "rosidian"}), <tconstruct:shard>.withTag({Material: "psi"}), <tconstruct:shard>.withTag({Material: "xu_enchanted_metal"})], 
+
+[<tconstruct:shard>.withTag({Material: "xu_demonic_metal"}), <tconstruct:shard>.withTag({Material: "xu_evil_metal"}), <tconstruct:shard>.withTag({Material: "ma.soulium"}), 
+<tconstruct:shard>.withTag({Material: "adamantium"}), <tconstruct:shard>.withTag({Material: "wrought_iron"}), <tconstruct:shard>.withTag({Material: "adamantium"}), 
+<tconstruct:shard>.withTag({Material: "ma.soulium"}), <tconstruct:shard>.withTag({Material: "xu_evil_metal"}), <tconstruct:shard>.withTag({Material: "xu_demonic_metal"})], 
+
+[<tconstruct:shard>.withTag({Material: "terrasteel"}), <tconstruct:shard>.withTag({Material: "mirion"}), <tconstruct:shard>.withTag({Material: "blutonium"}), 
+<tconstruct:shard>.withTag({Material: "vibranium_alloy"}), <tconstruct:shard>.withTag({Material: "ichorium"}), <tconstruct:shard>.withTag({Material: "vibranium_alloy"}), 
+<tconstruct:shard>.withTag({Material: "blutonium"}), <tconstruct:shard>.withTag({Material: "mirion"}), <tconstruct:shard>.withTag({Material: "terrasteel"})], 
+
+[<tconstruct:shard>.withTag({Material: "elecanium"}), <tconstruct:shard>.withTag({Material: "brightsteel_alloy"}), <tconstruct:shard>.withTag({Material: "berserk_steel"}), 
+<tconstruct:shard>.withTag({Material: "parafrosynium"}), <tconstruct:shard>.withTag({Material: "trinity"}), <tconstruct:shard>.withTag({Material: "hihi_irokane"}), 
+<tconstruct:shard>.withTag({Material: "berserk_steel"}), <tconstruct:shard>.withTag({Material: "brightsteel_alloy"}), <tconstruct:shard>.withTag({Material: "elecanium"})], 
+
+[<tconstruct:shard>.withTag({Material: "terrasteel"}), <tconstruct:shard>.withTag({Material: "mirion"}), <tconstruct:shard>.withTag({Material: "blutonium"}), 
+<tconstruct:shard>.withTag({Material: "vibranium_alloy"}), <tconstruct:shard>.withTag({Material: "orichalcum"}), <tconstruct:shard>.withTag({Material: "vibranium_alloy"}), 
+<tconstruct:shard>.withTag({Material: "blutonium"}), <tconstruct:shard>.withTag({Material: "mirion"}), <tconstruct:shard>.withTag({Material: "terrasteel"})], 
+
+[<tconstruct:shard>.withTag({Material: "xu_demonic_metal"}), <tconstruct:shard>.withTag({Material: "xu_evil_metal"}), <tconstruct:shard>.withTag({Material: "ma.soulium"}), 
+<tconstruct:shard>.withTag({Material: "adamantium"}), <tconstruct:shard>.withTag({Material: "wrought_iron"}), <tconstruct:shard>.withTag({Material: "adamantium"}), 
+<tconstruct:shard>.withTag({Material: "ma.soulium"}), <tconstruct:shard>.withTag({Material: "xu_evil_metal"}), <tconstruct:shard>.withTag({Material: "xu_demonic_metal"})], 
+
+[<tconstruct:shard>.withTag({Material: "xu_enchanted_metal"}), <tconstruct:shard>.withTag({Material: "psi"}), <tconstruct:shard>.withTag({Material: "rosidian"}), 
+<tconstruct:shard>.withTag({Material: "starmetal"}), <tconstruct:shard>.withTag({Material: "blood_infused_glitch"}), <tconstruct:shard>.withTag({Material: "starmetal"}), 
+<tconstruct:shard>.withTag({Material: "rosidian"}), <tconstruct:shard>.withTag({Material: "psi"}), <tconstruct:shard>.withTag({Material: "xu_enchanted_metal"})], 
+
+[<tconstruct:shard>.withTag({Material: "phasing_alloy"}), <tconstruct:shard>.withTag({Material: "bloodmaster"}), <tconstruct:shard>.withTag({Material: "manyullyn"}), 
+<tconstruct:shard>.withTag({Material: "barathosynium"}), <tconstruct:shard>.withTag({Material: "ascended_draconic_alloy"}), <tconstruct:shard>.withTag({Material: "barathosynium"}), 
+<tconstruct:shard>.withTag({Material: "manyullyn"}), <tconstruct:shard>.withTag({Material: "bloodmaster"}), <tconstruct:shard>.withTag({Material: "phasing_alloy"})]]);  
+
+
+
+val dysoncompressorshard = RecipeBuilder.newBuilder("dysoncompressorshard","dyson_compressor",2);
+dysoncompressorshard.addEnergyPerTickInput(1000000000);
+dysoncompressorshard.addItemInput(<contenttweaker:mixed_metal_shard>*32);
+dysoncompressorshard.addItemOutput(<contenttweaker:black_hole_alloy_clump>);
+dysoncompressorshard.build();
+
+val nukeinfiniteunholy = RecipeBuilder.newBuilder("nukeinfiniteunholy","safe_nuke_environment",2);
+nukeinfiniteunholy.addItemInput(<techreborn:nuke>);
+nukeinfiniteunholy.addFluidInput(<fluid:infinitely_unholy_radioactive_mix>*1);
+nukeinfiniteunholy.addFluidOutput(<fluid:cold_plasma>*1000);
+nukeinfiniteunholy.build();
+
+
+val irradiationrainbowtopblack = RecipeBuilder.newBuilder("irradiationrainbowtopblack","dyson_irradiator_top",2);
+irradiationrainbowtopblack.addFluidInput(<fluid:fluidmercury>*100000);
+irradiationrainbowtopblack.addItemInput(<contenttweaker:black_hole_alloy_clump>);
+irradiationrainbowtopblack.addItemInput(<contenttweaker:fractal_metal_clump>);
+irradiationrainbowtopblack.addItemInput(<contenttweaker:fractallite_quantum>);
+irradiationrainbowtopblack.addItemInput(<contenttweaker:meteoric_draconic_stone>*16);
+irradiationrainbowtopblack.addItemOutput(<contenttweaker:softened_black_hole_alloy_clump>);
+irradiationrainbowtopblack.addItemOutput(<contenttweaker:neutronium_pearl>);
+irradiationrainbowtopblack.build();
+
+
+
+val irradiationblackhole = RecipeBuilder.newBuilder("irradiationblackhole","dyson_irradiator",2);
+irradiationblackhole.addEnergyPerTickInput(500000000);
+irradiationblackhole.addFluidInput(<fluid:magnatar_stabilizer>*20000);
+irradiationblackhole.addFluidInput(<fluid:helium3>*100000);
+irradiationblackhole.addFluidInput(<fluid:tritium>*100000);
+irradiationblackhole.addItemInput(<contenttweaker:softened_black_hole_alloy_clump>);
+irradiationblackhole.addItemInput(<extendedcrafting:singularity_custom:2042>);
+irradiationblackhole.addItemOutput(<contenttweaker:drawn_black_hole_alloy_clump>);
+irradiationblackhole.build();
+
+val irradiatioblackholebot = RecipeBuilder.newBuilder("irradiatioblackholebot","dyson_irradiator_bottom",2);
+irradiatioblackholebot.addFluidInput(<fluid:cold_plasma>*1000);
+irradiatioblackholebot.addItemInput(<contenttweaker:drawn_black_hole_alloy_clump>);
+irradiatioblackholebot.addItemInput(<contenttweaker:fine_mineral_dust>*8);
+irradiatioblackholebot.addItemInput(<extrabees:honey_drop:1>*12);
+irradiatioblackholebot.addItemInput(<enderio:block_infinity_fog:0>*8);
+irradiatioblackholebot.addItemOutput(<contenttweaker:quenched_black_hole_alloy_clump>);
+irradiatioblackholebot.addItemOutput(<enderio:item_material:20>*8);
+irradiatioblackholebot.build();
+
+
+val dysonabater = RecipeBuilder.newBuilder("dysonabater","dyson_abater",100);
+dysonabater.addItemInput(<contenttweaker:charged_dyson_capacitor>*64);
+dysonabater.addItemInput(<contenttweaker:charged_dyson_capacitor>*64);
+dysonabater.addItemOutput(<contenttweaker:dyson_capacitor>*64);
+dysonabater.addItemOutput(<contenttweaker:dyson_capacitor>*64);
+dysonabater.addFluidInput(<fluid:galactic_plasma>*5000000);
+dysonabater.addFluidInput(<fluid:galactic_plasma>*5000000);
+dysonabater.addFluidInput(<fluid:galactic_plasma>*5000000);
+dysonabater.addFluidInput(<fluid:neutron>*500000);
+dysonabater.addFluidInput(<fluid:neutron>*500000);
+dysonabater.addFluidInput(<fluid:iron>*500000);
+dysonabater.addFluidInput(<fluid:nickel>*500000);
+dysonabater.addFluidInput(<fluid:lead>*500000);
+dysonabater.addItemInput(<contenttweaker:cosmic_string_primer>);
+dysonabater.addItemInput(<contenttweaker:quenched_black_hole_alloy_clump>);
+dysonabater.addItemInput(<contenttweaker:actualized_warren_alloy>);
+dysonabater.addItemInput(<contenttweaker:ascended_fluix_crystal>);
+dysonabater.addItemInput(<contenttweaker:hungering_flesh_ingot>);
+dysonabater.addItemOutput(<contenttweaker:black_hole_alloy_ingot>);
+dysonabater.addItemOutput(<contenttweaker:cosmic_string>);
+dysonabater.build();
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:galactic_power_unit>, 
+[[<contenttweaker:black_hole_alloy_ingot>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:black_hole_alloy_ingot>], 
+[<contenttweaker:balanced_machine_casing>, <glassential:glass_ethereal_reverse>, <glassential:glass_ethereal_reverse>, <glassential:glass_ethereal_reverse>, <contenttweaker:balanced_machine_casing>], 
+[<contenttweaker:balanced_machine_casing>, <glassential:glass_ethereal_reverse>, <contenttweaker:galactic_core>, <glassential:glass_ethereal_reverse>, <contenttweaker:balanced_machine_casing>], 
+[<contenttweaker:balanced_machine_casing>, <glassential:glass_ethereal_reverse>, <glassential:glass_ethereal_reverse>, <glassential:glass_ethereal_reverse>, <contenttweaker:balanced_machine_casing>], 
+[<contenttweaker:black_hole_alloy_ingot>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:black_hole_alloy_ingot>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_casing>, 
+[[<contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>], 
+[<contenttweaker:balanced_machine_casing>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:balanced_machine_casing>], 
+[<contenttweaker:naquadah_casing>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:cosmic_string_conduit>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:naquadah_casing>], 
+[<contenttweaker:naquadah_casing>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:galactic_power_unit>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:naquadah_casing>], 
+[<contenttweaker:naquadah_casing>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:cosmic_string_conduit>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:naquadah_casing>], 
+[<contenttweaker:balanced_machine_casing>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:balanced_machine_casing>], 
+[<contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_stem>, 
+
+[[<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
+
+[<contenttweaker:adamantium_reinforced_petrified_wood>, <avaritiaitem:cosmic_balance>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:actualized_warren_alloy>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <avaritiaitem:cosmic_balance>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
+
+[<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:everburning_seed>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
+
+[<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:everburning_seed>, <contenttweaker:tardis_casing>, <contenttweaker:everburning_seed>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
+
+[<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:coralos_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:infinite_processor>, <contenttweaker:tardis_casing>, <contenttweaker:infinite_processor>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:coralos_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
+
+[<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:everburning_seed>, <contenttweaker:tardis_casing>, <contenttweaker:everburning_seed>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
+
+[<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:everburning_seed>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
+
+[<contenttweaker:adamantium_reinforced_petrified_wood>, <avaritiaitem:cosmic_balance>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:actualized_warren_alloy>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <avaritiaitem:cosmic_balance>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
+
+[<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>]]);  
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_branch>, 
+[[<contenttweaker:self_actualizing_warren_rift>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:self_actualizing_warren_rift>], 
+[<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:herba_vis_condensate>, <contenttweaker:tardis_casing>, <contenttweaker:herba_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
+[<contenttweaker:black_hole_alloy_ingot>, <contenttweaker:tardis_casing>, <contenttweaker:tardis_stem>, <contenttweaker:tardis_casing>, <contenttweaker:black_hole_alloy_ingot>], 
+[<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:herba_vis_condensate>, <contenttweaker:tardis_casing>, <contenttweaker:herba_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
+[<contenttweaker:self_actualizing_warren_rift>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:self_actualizing_warren_rift>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_polyp>, 
+[[<contenttweaker:cosmic_string_module>, <contenttweaker:singular_fractal>, <contenttweaker:eye_of_gallifrey>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:eye_of_gallifrey>, <contenttweaker:singular_fractal>, <contenttweaker:cosmic_string_module>], 
+[<contenttweaker:singular_fractal>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:singular_fractal>], 
+[<contenttweaker:eye_of_gallifrey>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:tardis_branch>, <contenttweaker:balanced_machine_casing>, <contenttweaker:tardis_branch>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:eye_of_gallifrey>], 
+[<contenttweaker:black_hole_alloy_ingot>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:balanced_machine_casing>, <contenttweaker:tardis_branch>, <contenttweaker:balanced_machine_casing>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:black_hole_alloy_ingot>], 
+[<contenttweaker:eye_of_gallifrey>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:tardis_branch>, <contenttweaker:balanced_machine_casing>, <contenttweaker:tardis_branch>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:eye_of_gallifrey>], 
+[<contenttweaker:singular_fractal>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:singular_fractal>], 
+[<contenttweaker:cosmic_string_module>, <contenttweaker:singular_fractal>, <contenttweaker:eye_of_gallifrey>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:eye_of_gallifrey>, <contenttweaker:singular_fractal>, <contenttweaker:cosmic_string_module>]]);  
+
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:eye_of_harmony_power_unit>, 
+
+[[null, null, null, 
+<contenttweaker:quasar_stabilizer>, <contenttweaker:quasar_stabilizer>, <contenttweaker:quasar_stabilizer>, 
+null, null, null], 
+
+[null, <contenttweaker:quasar_stabilizer>, <contenttweaker:quasar_stabilizer>, 
+<contenttweaker:tardis_casing>, <contenttweaker:dark_matter_node>, <contenttweaker:tardis_casing>, 
+<contenttweaker:quasar_stabilizer>, <contenttweaker:quasar_stabilizer>, null], 
+
+[null, <contenttweaker:quasar_stabilizer>, <contenttweaker:tardis_casing>, 
+<contenttweaker:tardis_casing>, <contenttweaker:dark_matter_node>, <contenttweaker:tardis_casing>, 
+<contenttweaker:tardis_casing>, <contenttweaker:quasar_stabilizer>, null], 
+
+[<contenttweaker:quasar_stabilizer>, <contenttweaker:tardis_casing>, <contenttweaker:tardis_casing>, 
+<contenttweaker:astral_insight_100>, <contenttweaker:dark_matter_node>, <contenttweaker:astral_insight_100>, 
+<contenttweaker:tardis_casing>, <contenttweaker:tardis_casing>, <contenttweaker:quasar_stabilizer>], 
+
+[<contenttweaker:quasar_stabilizer>, <contenttweaker:dark_matter_node>, <contenttweaker:dark_matter_node>, 
+<contenttweaker:dark_matter_node>, <contenttweaker:quasar_core>, <contenttweaker:dark_matter_node>, 
+<contenttweaker:dark_matter_node>, <contenttweaker:dark_matter_node>, <contenttweaker:quasar_stabilizer>], 
+
+[<contenttweaker:quasar_stabilizer>, <contenttweaker:tardis_casing>, <contenttweaker:tardis_casing>, 
+<contenttweaker:astral_insight_100>, <contenttweaker:dark_matter_node>, <contenttweaker:astral_insight_100>, 
+<contenttweaker:tardis_casing>, <contenttweaker:tardis_casing>, <contenttweaker:quasar_stabilizer>], 
+
+[null, <contenttweaker:quasar_stabilizer>, <contenttweaker:tardis_casing>, 
+<contenttweaker:tardis_casing>, <contenttweaker:dark_matter_node>, <contenttweaker:tardis_casing>, 
+<contenttweaker:tardis_casing>, <contenttweaker:quasar_stabilizer>, null], 
+
+[null, <contenttweaker:quasar_stabilizer>, <contenttweaker:quasar_stabilizer>, 
+<contenttweaker:tardis_casing>, <contenttweaker:dark_matter_node>, <contenttweaker:tardis_casing>, 
+<contenttweaker:quasar_stabilizer>, <contenttweaker:quasar_stabilizer>, null], 
+
+[null, null, null, 
+<contenttweaker:quasar_stabilizer>, <contenttweaker:quasar_stabilizer>, <contenttweaker:quasar_stabilizer>, 
+null, null, null]]);  
+
+
+
+
+
+recipes.remove(<tardis:key>);
+recipes.removeShaped(<tardis:tardis_coral>);
+
+
+
+val blackholejuice = RecipeBuilder.newBuilder("blackholejuice","black_hole_juicer",2);
+blackholejuice.addEnergyPerTickInput(4000000000);
+blackholejuice.addItemInput(<contenttweaker:black_hole_alloy_ingot>);
+blackholejuice.addItemInput(<contenttweaker:cosmic_string>);
+blackholejuice.addFluidOutput(<fluid:black_hole_juice>*10);
+blackholejuice.build();
+
+
+mods.nuclearcraft.infuser.addRecipe([<minecraft:bucket>, <fluid:black_hole_juice>*500, <contenttweaker:black_hole_juice>, 1.0, 1.0, 1.0]);

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oVoids items, careful about this one.",
+      "desc:8": "§7§o销毁物品，小心使用。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 15,
@@ -14,7 +14,7 @@
           "ModuleFilter:9": {}
         }
       },
-      "name:8": "Void Module"
+      "name:8": "销毁模块"
     }
   },
   "questID:3": 90416,

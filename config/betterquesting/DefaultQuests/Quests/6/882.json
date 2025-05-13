@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe preview on the tier 6 blood altar is bugged, the block that should be used for tier 6 is the purple crystal cluster.",
+      "desc:8": "§7§o6级血之祭坛的多方块预览有点bug，应当使用紫色的晶簇块。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:demonic_crystal_cluster"
       },
-      "name:8": "Demonic Powers"
+      "name:8": "恶魔之力"
     }
   },
   "questID:3": 882,

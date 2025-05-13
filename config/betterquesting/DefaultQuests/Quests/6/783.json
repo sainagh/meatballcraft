@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oConsumes flowers that are man-made to make mana, the more variety, the higher the output.",
+      "desc:8": "§7§o消耗人工合成的植魔花产生魔力，花的种类越丰富，产魔越高。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "rafflowsia"
         }
       },
-      "name:8": "Rafflowsia (Good)"
+      "name:8": "噬草花（良好）"
     }
   },
   "questID:3": 783,

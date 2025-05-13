@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Used to make rocket fuel!\nUse holo projector to see multiblock preview.",
+      "desc:8": "用于制作火箭燃料！\n使用全息投影器查看多方块预览。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "advancedrocketry:chemicalreactor"
       },
-      "name:8": "Chemical Reactor"
+      "name:8": "化学反应器"
     }
   },
   "questID:3": 20729,

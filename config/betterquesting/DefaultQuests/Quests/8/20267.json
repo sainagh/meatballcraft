@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse a voidseer caster gauntlet upgraded with an impetus conductor and charged with rifts on a fracture (find using a fracture locator). The nether roof is a good place to go look!\n\n§fNot sure on what the origin for such an occurrence could be, but in the past a great amount of thaumic energy has been unleashed, opening permanent rifts connecting Terra with a strange realm dominated by taint.\nLikely, this realm had been created (or taken over) by a might thaumaturgist trying to dominate taint. Needless to say, they failed, and now this land is purely dominated by corruption.",
+      "desc:8": "§7§o对裂缝（使用裂缝定位器寻找）使用安装有元动能量电池的满充能神秘或虚空预言者法师护手，护手需靠近咒波裂隙吸收其能量来充能。下界天花板是寻找裂缝的好地方！\n\n§f关于这一异变的起源始终成谜，但可以确定的是，远古时期曾有巨量神秘能量在此爆发，开启了连接泰拉与某个被腐化侵蚀的异界的永驻性维度裂隙。\n该领域很可能是某位试图驾驭腐化本源的强大神秘使所创造（或占据）的试验场。毋庸赘言，显然他们失败了，如今这片土地已完全沦为腐化之力的疆域。",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1,
+        "Damage:2": 2,
         "id:8": "thaumicaugmentation:stone"
       },
-      "name:8": "The Emptiness"
+      "name:8": "虚域"
     }
   },
   "questID:3": 20267,
@@ -19,8 +19,19 @@
       "dimension:3": 14676,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "The Emptiness",
+      "name:8": "虚域",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "thaumicaugmentation:stone"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

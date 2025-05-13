@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDo this ASAP, you\u0027ll thank me later... - NOTE: this will consume power even if it\u0027s not enough! OTHER NOTE: you need a total of 31 output slots!\n\n§fCombining litherite with some of the \u0027mythically charged\u0027 minerals, I was able do build a machine able to generate matter from Shyre creatures.\nAnd apparently, a few extra goodies...\nMythic powers are tricky, they seem to permeate many of the creatures from the Twilight Horde and from the Shyre Empire, yet they also appear naturally.\nWonder if they are maybe used to \u0027create\u0027 beings the same way I create stuff in my Mythical Void Resource Miner.",
+      "desc:8": "§7§o尽早做出来，你之后会感谢我的…… - 注意：就算输入的能量不足，也会直接消耗！还有：总共需要31个输出槽位！\n\n§f通过将莱泽尔水晶与某些“神话充能”矿物结合，我成功打造出一台能从塞尔瑞生物体内提取物质的装置。\n甚至还收获了些意外之喜……\n神话力量真是玄妙莫测，它们不仅被灌注于暮光部落和塞尔瑞帝国的众多生物体内，似乎还会自然存在。\n这不禁让我猜想，或许他们正是用类似我在神话虚空资源矿机中造物的方式，“创造”出了这些生命体？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier1"
         }
       },
-      "name:8": "Terra Mythical Resources"
+      "name:8": "泰拉神话资源"
     }
   },
   "questID:3": 170,

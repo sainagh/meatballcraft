@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Redstone+Lava\u003dProfit",
+      "desc:8": "红石+熔岩\u003d能量",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:machine",
@@ -12,7 +12,7 @@
           "Type:8": "extrautils2:generator_redstone"
         }
       },
-      "name:8": "Heated Redstone Generator (OK)"
+      "name:8": "高热红石发电机（一般）"
     }
   },
   "questID:3": 50259,

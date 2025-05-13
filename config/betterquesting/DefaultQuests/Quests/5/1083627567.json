@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWith regards to LordRaine\n\n§fWho knew grinding balls were musical instruments in bee culture! The melodic bee is a maestro and artisan of the highest caliber: don\u0027t tell the bees we\u0027re using their musical instruments to kill gods. Or maybe do, they might enjoy that.",
+      "desc:8": "§7§o灵感来自LordRaine\n\n§f谁知道磨珠竟然是蜜蜂文化中的乐器呢！旋律蜜蜂是顶级的大音乐家和大艺术家：别让它们知道我们在用它们的乐器弑神。或许也可以，它们可能会挺高兴的。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_queen_ge",
@@ -153,7 +153,7 @@
           "MaxH:3": 30
         }
       },
-      "name:8": "Serenating Bee"
+      "name:8": "小夜曲蜜蜂"
     }
   },
   "questID:3": 1083627567,

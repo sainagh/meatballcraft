@@ -17,7 +17,7 @@
           "HideFlags:1": 2,
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Spicy Air Gun"
+            "Name:8": "辣气枪"
           },
           "ench:9": {
             "0:10": {
@@ -35,7 +35,7 @@
           }
         }
       },
-      "name:8": "Spicy Air Gun"
+      "name:8": "辣气枪"
     }
   },
   "questID:3": 1970,
@@ -50,9 +50,9 @@
             "HideFlags:1": 2,
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oSpicy Air Gun§r"
+              "Name:8": "§6§o辣气枪§r"
             },
             "ench:9": {
               "0:10": {

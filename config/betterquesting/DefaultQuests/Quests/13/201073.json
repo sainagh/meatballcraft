@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 234\nMining Level: Iron\nMining Speed: 5\nAttack: 3.6\nLiving\n\nHandle\nModifier: 1.4\nDurability: 32\nLiving\n\nExtra\nDurability: 28\nLiving",
+      "desc:8": "顶端\n耐久：234\n挖掘等级：铁\n挖掘速度：5\n攻击力：3.6\n反哺\n\n手柄\n手柄系数：1.4\n耐久：32\n反哺\n\n其它部件\n耐久：28\n反哺",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "blood_infused_wood"
         }
       },
-      "name:8": "Blood Infused Wood"
+      "name:8": "注血原木"
     }
   },
   "questID:3": 201073,

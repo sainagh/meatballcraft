@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe fluid interface lets you encode processing recipes with fluid inputs and outputs!\n\nPlace a pattern into the interface to add the recipe to they network.\n\nWith some machines, you may need to use conduits or other pipes to extract and insert!",
+      "desc:8": "§7§o流体接口可处理输入输出为纯流体的样板！\n\n将样板放入流体接口，即可将该配方添加至网络中。\n\n对于部分机器，可能需要使用流体导管或其他管道进行流体传输！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:fluid_interface"
       },
-      "name:8": "ME Fluid Interface"
+      "name:8": "ME流体接口"
     }
   },
   "questID:3": 90152,

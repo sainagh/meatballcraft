@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oConstruct a 3x3 portal of livingwood (no corners), with the gateway core at the middle of the bottom, and the glimmering livingwood in the middle of the other three sides.\n\nPlace two mana pools with pylons on top within three blocks of the gateway core, at the same y level. There will be the mana buffer for the gateway. If the pools don\u0027t have enough mana, the portal will close!\n\nTo start the gateway, right click the core with the wand of the forest. You will need a lot of mana to open the portal.\n\nThrow items into the portal to craft. This will consume a small amount of mana.\n\nBe careful, throwing other items that do not have recipes will delete them!",
+      "desc:8": "§7§o使用活木建造一个5x5的传送门框架（不包括四角），其中底部中心为精灵门核心，其他三边中心为微光活木。\n\n在精灵门核心三格范围内，水平放置两个魔力池，其上放置自然水晶。这两个魔力池即为精灵门的魔力缓存。若魔力池中没有足够魔力，精灵门将关闭！\n\n使用森林法杖右击核心来激活精灵门。开启精灵门需要消耗巨量魔力。\n\n向精灵门丢出物品进行合成。会消耗少量魔力。\n\n小心，没有配方的物品将会被直接删除！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:alfheimportal"
       },
-      "name:8": "Elven Gateway"
+      "name:8": "精灵门"
     }
   },
   "questID:3": 20166,

@@ -50,6 +50,22 @@
               }
             ],
             "name": "contenttweaker:crimson_doctrine_tome"
+          },
+          {
+            "entryName": "twilightforest:glass_sword",
+            "weight": 2,
+            "quality": 1,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "twilightforest:glass_sword"
           }
         ],
         "rolls": {

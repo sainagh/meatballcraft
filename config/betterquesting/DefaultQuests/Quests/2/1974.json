@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUsed to transport NaK fluids. If the reactor design is correct, the reactor will output hot NaK fluids, to be used in heat exchangers.",
+      "desc:8": "§7§o用于传输钠钾流体。若反应堆设计正确，会输出可用于热交换器的热钠钾流体。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:salt_fission_heater"
       },
-      "name:8": "Coolant Heater"
+      "name:8": "冷却剂加热器"
     }
   },
   "questID:3": 1974,

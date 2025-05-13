@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe network visualization tool lets you see the layout of your AE2 network, organized by color! ",
+      "desc:8": "§7§o高级网络可视化工具可用于查看AE2网络构造，用不同颜色区分各种网络设备！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aenetvistool:net_visualizer"
       },
-      "name:8": "Network Visualization Tool"
+      "name:8": "高级网络可视化工具"
     }
   },
   "questID:3": 668,

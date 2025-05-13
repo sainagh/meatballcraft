@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 2,800\nMining Level: Diamond\nMining Speed: 8\nAttack: 6.5\nSlimey\nDense\n\nHandle\nModifier: 2.5\nDurability: 1,000\nSlimey\nUnnatural\n\nExtra\nDurability: 200\nSlimey\nUnnatural\n\nBows\nDrawspeed: 2.86\nRange Multiplier: 2.5\nBonus Damage: 6",
+      "desc:8": "顶端\n耐久：2,800\n挖掘等级：钻石\n挖掘速度：8\n攻击力：6.5\n黏滑\n致密\n\n手柄\n手柄系数：2.5\n耐久：1,000\n黏滑\n超自然\n\n其它部件\n耐久：200\n黏滑\n超自然\n\n弓\n拉弓速度：2.86\n范围系数：2.5\n附加伤害：6",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "integrationforegoing.reinforced_pink_slime"
         }
       },
-      "name:8": "Reinforced Pink Slime"
+      "name:8": "强化粉红史莱姆"
     }
   },
   "questID:3": 201117,

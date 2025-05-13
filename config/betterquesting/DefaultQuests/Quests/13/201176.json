@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 700\nMining Level: Obsidian\nMining Speed: 7.7\nAttack: 6\nStonebound\n\nHandle\nModifier: 0.9\nDurability: -5\nCrude II\nPetramor\n\nExtra\nDurability: 111\nCrude II\nPetramor\n\nBows\nDrawspeed: 5\nRange Multiplier: 0.4\nBonus Damage: -1\nCrude II\nPetramor",
+      "desc:8": "顶端\n耐久：700\n挖掘等级：黑曜石\n挖掘速度：7.7\n攻击力：6\n石缚\n\n手柄\n手柄系数：0.9\n耐久：-5\n粗暴 II\n爱石\n\n其它部件\n耐久：111\n粗暴 II\n爱石\n\n弓\n拉弓速度：5\n范围系数：0.4\n附加伤害：-1\n粗暴 II\n爱石",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "litherite"
         }
       },
-      "name:8": "Litherite"
+      "name:8": "莱泽尔"
     }
   },
   "questID:3": 201176,

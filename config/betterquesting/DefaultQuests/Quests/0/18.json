@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBlank runes can be used on rune shrines to produce their respective counterparts. There are better ways of getting runes.\n\n§fRunes! I can make runes! \nAs a man of science, I do feel quite embarassed about the way I looked at the civilizations of the past. The middle ages were definitely not a time of darkness, and some great knowledge was dicovered them.\nAre these the same runes vikings used to make? No, I don\u0027t think so. But at least I have a lead on some possible greatness our history forgot.\nUnfortunately, we decided to go for industrialization, and we shunned runes. Shame.",
+      "desc:8": "§7§o空白符文可用于在符文圣坛生成对应符文。有其他比这更好的符文获取方法。\n\n§f符文！我竟能制造符文！\n作为科学工作者，我对自己曾经轻视古代文明的态度感到惭愧。中世纪绝非黑暗时代，诸多伟大知识于此诞生。\n这些符文与维京人所用相同？不，并非如此。但至少我触及了历史长河遗忘的某种伟大遗产。\n遗憾的是，我们选择了工业化道路，将符文之术弃如敝屣。可叹。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:distortion_rune"
       },
-      "name:8": "Runation Skill"
+      "name:8": "技能：魔力"
     }
   },
   "questID:3": 18,

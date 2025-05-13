@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse a snow globe from divinerpg on a frame made out of snow blocks\n\n§fThe frozen planet of Iceika is a testament to what the powers of wizardry can achieve in their most extreme version.\nIt seems hard to believe, but the state of this land was caused by a single individual, having unleashed enough power to cause effects comparable to the fall of a large meteor.\nA single spell was able to fully change its climate, turning it into a desolate, icy, land.",
+      "desc:8": "§7§o对雪构成的传送门使用神圣RPG模组的雪花球\n\n§f冰封星球冰晶雪原正是巫术威能在极致状态下具现化的实证。\n难以置信的是，这片永冻疆域的成因竟源于某个个体，其释放出的力量足以比拟大型陨石坠落的灭世威能。\n仅凭一道法术便彻底颠覆了整个星球的气候系统，将其化为荒芜的永冻废土。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:frozen_grass"
       },
-      "name:8": "Iceika Hills"
+      "name:8": "冰晶雪原"
     }
   },
   "questID:3": 20275,
@@ -18,8 +18,18 @@
       "dimension:3": 425,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Iceika Hills",
+      "name:8": "冰晶雪原",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:frozen_grass"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

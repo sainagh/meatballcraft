@@ -1,41 +1,42 @@
 import mods.modularmachinery.RecipeBuilder;
 
-recipes.addShaped(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT1§r"]}}),
+recipes.addShaped(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o1级§r"]}}),
 [[<aoa3:rune_box>, <aoa3:rune_box>, <aoa3:rune_box>],
 [<aoa3:rune_box>, <contenttweaker:deep_dark_matter>, <aoa3:rune_box>],
 [<aoa3:rune_box>, <aoa3:rune_box>, <aoa3:rune_box>]]);
 
 mods.chisel.Carving.addGroup("tokenconfig");
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT1§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT2§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT3§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT4§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT5§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT6§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT7§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT8§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT9§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT10§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT11§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT12§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT13§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT14§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT15§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT16§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT17§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT18§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT19§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT20§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT21§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT22§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT23§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT24§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT25§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT26§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT27§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT28§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT29§r"]}}));
-mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT30§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o1级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o2级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o3级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o4级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o5级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o6级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o7级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o8级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o9级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o10级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o11级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o12级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o13级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o14级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o15级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o16级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o17级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o18级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o19级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o20级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o21级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o22级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o23级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o24级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o25级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o26级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o27级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o28级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o29级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o30级§r"]}}));
+mods.chisel.Carving.addVariation("tokenconfig", <contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oF级§r"]}}));
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:master_rune_box>, 
@@ -231,14 +232,14 @@ tokengen38.addEnergyPerTickOutput(250000);
 tokengen38.build();
 
 val tokentiered1 = RecipeBuilder.newBuilder("tokentiered1","token_totem",800);
-tokentiered1.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT1§r"]}}));
+tokentiered1.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o1级§r"]}}));
 tokentiered1.setChance(0.0);
 tokentiered1.addItemInput(<contenttweaker:tier1_token>);
 tokentiered1.addEnergyPerTickOutput(10);
 tokentiered1.build();
 
 val tokentiered2 = RecipeBuilder.newBuilder("tokentiered2","token_totem",800);
-tokentiered2.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT2§r"]}}));
+tokentiered2.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o2级§r"]}}));
 tokentiered2.setChance(0.0);
 tokentiered2.addItemInput(<contenttweaker:tier1_token>);
 tokentiered2.addItemInput(<contenttweaker:tier2_token>);
@@ -246,7 +247,7 @@ tokentiered2.addEnergyPerTickOutput(100);
 tokentiered2.build();
 
 val tokentiered3 = RecipeBuilder.newBuilder("tokentiered3","token_totem",800);
-tokentiered3.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT3§r"]}}));
+tokentiered3.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o3级§r"]}}));
 tokentiered3.setChance(0.0);
 tokentiered3.addItemInput(<contenttweaker:tier1_token>);
 tokentiered3.addItemInput(<contenttweaker:tier2_token>);
@@ -255,7 +256,7 @@ tokentiered3.addEnergyPerTickOutput(500);
 tokentiered3.build();
 
 val tokentiered4 = RecipeBuilder.newBuilder("tokentiered4","token_totem",800);
-tokentiered4.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT4§r"]}}));
+tokentiered4.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o4级§r"]}}));
 tokentiered4.setChance(0.0);
 tokentiered4.addItemInput(<contenttweaker:tier1_token>);
 tokentiered4.addItemInput(<contenttweaker:tier2_token>);
@@ -265,7 +266,7 @@ tokentiered4.addEnergyPerTickOutput(1000);
 tokentiered4.build();
 
 val tokentiered5 = RecipeBuilder.newBuilder("tokentiered5","token_totem",800);
-tokentiered5.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT5§r"]}}));
+tokentiered5.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o5级§r"]}}));
 tokentiered5.setChance(0.0);
 tokentiered5.addItemInput(<contenttweaker:tier1_token>);
 tokentiered5.addItemInput(<contenttweaker:tier2_token>);
@@ -276,7 +277,7 @@ tokentiered5.addEnergyPerTickOutput(5000);
 tokentiered5.build();
 
 val tokentiered6 = RecipeBuilder.newBuilder("tokentiered6","token_totem",800);
-tokentiered6.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT6§r"]}}));
+tokentiered6.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o6级§r"]}}));
 tokentiered6.setChance(0.0);
 tokentiered6.addItemInput(<contenttweaker:tier1_token>);
 tokentiered6.addItemInput(<contenttweaker:tier2_token>);
@@ -288,7 +289,7 @@ tokentiered6.addEnergyPerTickOutput(10000);
 tokentiered6.build();
 
 val tokentiered7 = RecipeBuilder.newBuilder("tokentiered7","token_totem",800);
-tokentiered7.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT7§r"]}}));
+tokentiered7.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o7级§r"]}}));
 tokentiered7.setChance(0.0);
 tokentiered7.addItemInput(<contenttweaker:tier1_token>);
 tokentiered7.addItemInput(<contenttweaker:tier2_token>);
@@ -301,7 +302,7 @@ tokentiered7.addEnergyPerTickOutput(20000);
 tokentiered7.build();
 
 val tokentiered8 = RecipeBuilder.newBuilder("tokentiered8","token_totem",800);
-tokentiered8.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT8§r"]}}));
+tokentiered8.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o8级§r"]}}));
 tokentiered8.setChance(0.0);
 tokentiered8.addItemInput(<contenttweaker:tier1_token>);
 tokentiered8.addItemInput(<contenttweaker:tier2_token>);
@@ -315,7 +316,7 @@ tokentiered8.addEnergyPerTickOutput(30000);
 tokentiered8.build();
 
 val tokentiered9 = RecipeBuilder.newBuilder("tokentiered9","token_totem",800);
-tokentiered9.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT9§r"]}}));
+tokentiered9.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o9级§r"]}}));
 tokentiered9.setChance(0.0);
 tokentiered9.addItemInput(<contenttweaker:tier1_token>);
 tokentiered9.addItemInput(<contenttweaker:tier2_token>);
@@ -330,7 +331,7 @@ tokentiered9.addEnergyPerTickOutput(50000);
 tokentiered9.build();
 
 val tokentiered10 = RecipeBuilder.newBuilder("tokentiered10","token_totem",800);
-tokentiered10.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT10§r"]}}));
+tokentiered10.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o10级§r"]}}));
 tokentiered10.setChance(0.0);
 tokentiered10.addItemInput(<contenttweaker:tier1_token>);
 tokentiered10.addItemInput(<contenttweaker:tier2_token>);
@@ -346,7 +347,7 @@ tokentiered10.addEnergyPerTickOutput(100000);
 tokentiered10.build();
 
 val tokentiered11 = RecipeBuilder.newBuilder("tokentiered11","token_totem",800);
-tokentiered11.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT11§r"]}}));
+tokentiered11.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o11级§r"]}}));
 tokentiered11.setChance(0.0);
 tokentiered11.addItemInput(<contenttweaker:tier1_token>);
 tokentiered11.addItemInput(<contenttweaker:tier2_token>);
@@ -363,7 +364,7 @@ tokentiered11.addEnergyPerTickOutput(200000);
 tokentiered11.build();
 
 val tokentiered12 = RecipeBuilder.newBuilder("tokentiered12","token_totem",800);
-tokentiered12.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT12§r"]}}));
+tokentiered12.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o12级§r"]}}));
 tokentiered12.setChance(0.0);
 tokentiered12.addItemInput(<contenttweaker:tier1_token>);
 tokentiered12.addItemInput(<contenttweaker:tier2_token>);
@@ -381,7 +382,7 @@ tokentiered12.addEnergyPerTickOutput(500000);
 tokentiered12.build();
 
 val tokentiered13 = RecipeBuilder.newBuilder("tokentiered13","token_totem",800);
-tokentiered13.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT13§r"]}}));
+tokentiered13.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o13级§r"]}}));
 tokentiered13.setChance(0.0);
 tokentiered13.addItemInput(<contenttweaker:tier1_token>);
 tokentiered13.addItemInput(<contenttweaker:tier2_token>);
@@ -400,7 +401,7 @@ tokentiered13.addEnergyPerTickOutput(800000);
 tokentiered13.build();
 
 val tokentiered14 = RecipeBuilder.newBuilder("tokentiered14","token_totem",800);
-tokentiered14.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT14§r"]}}));
+tokentiered14.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o14级§r"]}}));
 tokentiered14.setChance(0.0);
 tokentiered14.addItemInput(<contenttweaker:tier1_token>);
 tokentiered14.addItemInput(<contenttweaker:tier2_token>);
@@ -420,7 +421,7 @@ tokentiered14.addEnergyPerTickOutput(900000);
 tokentiered14.build();
 
 val tokentiered15 = RecipeBuilder.newBuilder("tokentiered15","token_totem",800);
-tokentiered15.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT15§r"]}}));
+tokentiered15.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o15级§r"]}}));
 tokentiered15.setChance(0.0);
 tokentiered15.addItemInput(<contenttweaker:tier1_token>);
 tokentiered15.addItemInput(<contenttweaker:tier2_token>);
@@ -441,7 +442,7 @@ tokentiered15.addEnergyPerTickOutput(1000000);
 tokentiered15.build();
 
 val tokentiered16 = RecipeBuilder.newBuilder("tokentiered16","token_totem",800);
-tokentiered16.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT16§r"]}}));
+tokentiered16.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o16级§r"]}}));
 tokentiered16.setChance(0.0);
 tokentiered16.addItemInput(<contenttweaker:tier1_token>);
 tokentiered16.addItemInput(<contenttweaker:tier2_token>);
@@ -463,7 +464,7 @@ tokentiered16.addEnergyPerTickOutput(1200000);
 tokentiered16.build();
 
 val tokentiered17 = RecipeBuilder.newBuilder("tokentiered17","token_totem",800);
-tokentiered17.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT17§r"]}}));
+tokentiered17.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o17级§r"]}}));
 tokentiered17.setChance(0.0);
 tokentiered17.addItemInput(<contenttweaker:tier1_token>);
 tokentiered17.addItemInput(<contenttweaker:tier2_token>);
@@ -486,7 +487,7 @@ tokentiered17.addEnergyPerTickOutput(1400000);
 tokentiered17.build();
 
 val tokentiered18 = RecipeBuilder.newBuilder("tokentiered18","token_totem",800);
-tokentiered18.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT18§r"]}}));
+tokentiered18.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o18级§r"]}}));
 tokentiered18.setChance(0.0);
 tokentiered18.addItemInput(<contenttweaker:tier1_token>);
 tokentiered18.addItemInput(<contenttweaker:tier2_token>);
@@ -510,7 +511,7 @@ tokentiered18.addEnergyPerTickOutput(1600000);
 tokentiered18.build();
 
 val tokentiered19 = RecipeBuilder.newBuilder("tokentiered19","token_totem",800);
-tokentiered19.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT19§r"]}}));
+tokentiered19.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o19级§r"]}}));
 tokentiered19.setChance(0.0);
 tokentiered19.addItemInput(<contenttweaker:tier1_token>);
 tokentiered19.addItemInput(<contenttweaker:tier2_token>);
@@ -535,7 +536,7 @@ tokentiered19.addEnergyPerTickOutput(1800000);
 tokentiered19.build();
 
 val tokentiered20 = RecipeBuilder.newBuilder("tokentiered20","token_totem",800);
-tokentiered20.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT20§r"]}}));
+tokentiered20.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o20级§r"]}}));
 tokentiered20.setChance(0.0);
 tokentiered20.addItemInput(<contenttweaker:tier1_token>);
 tokentiered20.addItemInput(<contenttweaker:tier2_token>);
@@ -561,7 +562,7 @@ tokentiered20.addEnergyPerTickOutput(2000000);
 tokentiered20.build();
 
 val tokentiered21 = RecipeBuilder.newBuilder("tokentiered21","token_totem",800);
-tokentiered21.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT21§r"]}}));
+tokentiered21.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o21级§r"]}}));
 tokentiered21.setChance(0.0);
 tokentiered21.addItemInput(<contenttweaker:tier1_token>);
 tokentiered21.addItemInput(<contenttweaker:tier2_token>);
@@ -588,7 +589,7 @@ tokentiered21.addEnergyPerTickOutput(5000000);
 tokentiered21.build();
 
 val tokentiered22 = RecipeBuilder.newBuilder("tokentiered22","token_totem",800);
-tokentiered22.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT22§r"]}}));
+tokentiered22.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o22级§r"]}}));
 tokentiered22.setChance(0.0);
 tokentiered22.addItemInput(<contenttweaker:tier1_token>);
 tokentiered22.addItemInput(<contenttweaker:tier2_token>);
@@ -616,7 +617,7 @@ tokentiered22.addEnergyPerTickOutput(10000000);
 tokentiered22.build();
 
 val tokentiered23 = RecipeBuilder.newBuilder("tokentiered23","token_totem",800);
-tokentiered23.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT23§r"]}}));
+tokentiered23.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o23级§r"]}}));
 tokentiered23.setChance(0.0);
 tokentiered23.addItemInput(<contenttweaker:tier1_token>);
 tokentiered23.addItemInput(<contenttweaker:tier2_token>);
@@ -645,7 +646,7 @@ tokentiered23.addEnergyPerTickOutput(20000000);
 tokentiered23.build();
 
 val tokentiered24 = RecipeBuilder.newBuilder("tokentiered24","token_totem",800);
-tokentiered24.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT24§r"]}}));
+tokentiered24.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o24级§r"]}}));
 tokentiered24.setChance(0.0);
 tokentiered24.addItemInput(<contenttweaker:tier1_token>);
 tokentiered24.addItemInput(<contenttweaker:tier2_token>);
@@ -675,7 +676,7 @@ tokentiered24.addEnergyPerTickOutput(30000000);
 tokentiered24.build();
 
 val tokentiered25 = RecipeBuilder.newBuilder("tokentiered25","token_totem",800);
-tokentiered25.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT25§r"]}}));
+tokentiered25.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o25级§r"]}}));
 tokentiered25.setChance(0.0);
 tokentiered25.addItemInput(<contenttweaker:tier1_token>);
 tokentiered25.addItemInput(<contenttweaker:tier2_token>);
@@ -706,7 +707,7 @@ tokentiered25.addEnergyPerTickOutput(40000000);
 tokentiered25.build();
 
 val tokentiered26 = RecipeBuilder.newBuilder("tokentiered26","token_totem",800);
-tokentiered26.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT26§r"]}}));
+tokentiered26.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o26级§r"]}}));
 tokentiered26.setChance(0.0);
 tokentiered26.addItemInput(<contenttweaker:tier1_token>);
 tokentiered26.addItemInput(<contenttweaker:tier2_token>);
@@ -738,7 +739,7 @@ tokentiered26.addEnergyPerTickOutput(50000000);
 tokentiered26.build();
 
 val tokentiered27 = RecipeBuilder.newBuilder("tokentiered27","token_totem",800);
-tokentiered27.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT27§r"]}}));
+tokentiered27.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o27级§r"]}}));
 tokentiered27.setChance(0.0);
 tokentiered27.addItemInput(<contenttweaker:tier1_token>);
 tokentiered27.addItemInput(<contenttweaker:tier2_token>);
@@ -771,7 +772,7 @@ tokentiered27.addEnergyPerTickOutput(60000000);
 tokentiered27.build();
 
 val tokentiered28 = RecipeBuilder.newBuilder("tokentiered28","token_totem",800);
-tokentiered28.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT28§r"]}}));
+tokentiered28.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o28级§r"]}}));
 tokentiered28.setChance(0.0);
 tokentiered28.addItemInput(<contenttweaker:tier1_token>);
 tokentiered28.addItemInput(<contenttweaker:tier2_token>);
@@ -805,7 +806,7 @@ tokentiered28.addEnergyPerTickOutput(80000000);
 tokentiered28.build();
 
 val tokentiered29 = RecipeBuilder.newBuilder("tokentiered29","token_totem",800);
-tokentiered29.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oT29§r"]}}));
+tokentiered29.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o29级§r"]}}));
 tokentiered29.setChance(0.0);
 tokentiered29.addItemInput(<contenttweaker:tier1_token>);
 tokentiered29.addItemInput(<contenttweaker:tier2_token>);
@@ -838,3 +839,78 @@ tokentiered29.addItemInput(<contenttweaker:tier28_token>);
 tokentiered29.addItemInput(<contenttweaker:tier29_token>);
 tokentiered29.addEnergyPerTickOutput(100000000);
 tokentiered29.build();
+
+
+val tokentiered30 = RecipeBuilder.newBuilder("tokentiered30","token_totem",800);
+tokentiered30.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§o30级§r"]}}));
+tokentiered30.setChance(0.0);
+tokentiered30.addItemInput(<contenttweaker:tier1_token>);
+tokentiered30.addItemInput(<contenttweaker:tier2_token>);
+tokentiered30.addItemInput(<contenttweaker:tier3_token>);
+tokentiered30.addItemInput(<contenttweaker:tier4_token>);
+tokentiered30.addItemInput(<contenttweaker:tier5_token>);
+tokentiered30.addItemInput(<contenttweaker:tier6_token>);
+tokentiered30.addItemInput(<contenttweaker:tier7_token>);
+tokentiered30.addItemInput(<contenttweaker:tier8_token>);
+tokentiered30.addItemInput(<contenttweaker:tier9_token>);
+tokentiered30.addItemInput(<contenttweaker:tier10_token>);
+tokentiered30.addItemInput(<contenttweaker:tier11_token>);
+tokentiered30.addItemInput(<contenttweaker:tier12_token>);
+tokentiered30.addItemInput(<contenttweaker:tier13_token>);
+tokentiered30.addItemInput(<contenttweaker:tier14_token>);
+tokentiered30.addItemInput(<contenttweaker:tier15_token>);
+tokentiered30.addItemInput(<contenttweaker:tier16_token>);
+tokentiered30.addItemInput(<contenttweaker:tier17_token>);
+tokentiered30.addItemInput(<contenttweaker:tier18_token>);
+tokentiered30.addItemInput(<contenttweaker:tier19_token>);
+tokentiered30.addItemInput(<contenttweaker:tier20_token>);
+tokentiered30.addItemInput(<contenttweaker:tier21_token>);
+tokentiered30.addItemInput(<contenttweaker:tier22_token>);
+tokentiered30.addItemInput(<contenttweaker:tier23_token>);
+tokentiered30.addItemInput(<contenttweaker:tier24_token>);
+tokentiered30.addItemInput(<contenttweaker:tier25_token>);
+tokentiered30.addItemInput(<contenttweaker:tier26_token>);
+tokentiered30.addItemInput(<contenttweaker:tier27_token>);
+tokentiered30.addItemInput(<contenttweaker:tier28_token>);
+tokentiered30.addItemInput(<contenttweaker:tier29_token>);
+tokentiered30.addItemInput(<contenttweaker:tier30_token>);
+tokentiered30.addEnergyPerTickOutput(10000000000);
+tokentiered30.build();
+
+
+
+val tokentiered30a = RecipeBuilder.newBuilder("tokentiered30a","token_totem",800);
+tokentiered30a.addItemInput(<contenttweaker:token_configurator>.withTag({display: {Lore: ["§d§oF级§r"]}}));
+tokentiered30a.setChance(0.0);
+tokentiered30a.addItemInput(<contenttweaker:tier1_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier2_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier3_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier4_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier5_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier6_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier7_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier8_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier9_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier10_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier11_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier12_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier13_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier14_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier15_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier16_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier17_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier18_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier19_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier20_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier21_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier22_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier23_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier24_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier25_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier26_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier27_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier28_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier29_token>);
+tokentiered30a.addItemInput(<contenttweaker:tier30_token>);
+tokentiered30a.addFluidOutput(<fluid:pure_recursion>*100);
+tokentiered30a.build();

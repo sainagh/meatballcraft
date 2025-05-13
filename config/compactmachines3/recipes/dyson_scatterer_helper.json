@@ -1,0 +1,117 @@
+{
+    "name": "compactmachines3:dyson_scatterer_helper",
+    "target-item": "modularmachinery:dyson_scatterer_controller",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+  
+
+
+
+    "input-types": {
+      "a": {
+        "id": "modularmachinery:dyson_dynamizer_controller",
+        "meta": 0
+      },
+      "b": {
+        "id": "contenttweaker:galaxy_conduit",
+        "meta": 0
+      },
+      "c": {
+        "id": "minecraft:wool",
+        "meta": 0
+      },
+      "d": {
+        "id": "minecraft:wool",
+        "meta": 15
+      },
+      "e": {
+        "id": "contenttweaker:dark_matter_node",
+        "meta": 0
+      },
+      "f": {
+        "id": "contenttweaker:cosmic_balance_coil",
+        "meta": 0
+      },
+      "g": {
+        "id": "contenttweaker:toroid_galaxy_tube",
+        "meta": 0
+      },
+      "h": {
+        "id": "modularmachinery:dyson_scatterer_controller",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "_"
+        ],
+        [
+          "b"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "h"
+        ]
+      ],
+      [
+        [
+          "a"
+        ],
+        [
+          "c"
+        ],
+        [
+          "d"
+        ],
+        [
+          "c"
+        ],
+        [
+          "d"
+        ],
+        [
+          "e"
+        ],
+        [
+          "e"
+        ],
+        [
+          "f"
+        ],
+        [
+          "g"
+        ],
+        [
+          "f"
+        ]
+      ]
+    ]
+    
+}

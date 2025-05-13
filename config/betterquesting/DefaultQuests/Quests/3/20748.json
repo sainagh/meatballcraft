@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Weird solutes make for weird crystals...",
+      "desc:8": "奇特的溶质，造就奇异的晶体...",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:crystallizer_idle"
       },
-      "name:8": "Crystallizer"
+      "name:8": "结晶器"
     }
   },
   "questID:3": 20748,

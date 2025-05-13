@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 120\nMining Level: Stone\nMining Speed: 2.5\nAttack: 1.5\nShocking\n\nHandle\nModifier: 1\nDurability: -5\nWritable\n\nExtra\nDurability: 150\nCrude\n\nBows\nDrawspeed: 0.4\nRange Multiplier: 0.4\nBonus Damage: 0\nCrude",
+      "desc:8": "顶端\n耐久：120\n挖掘等级：石头\n挖掘速度：2.5\n攻击力：1.5\n震击\n\n手柄\n手柄系数：1\n耐久：-5\n铭刻\n\n其它部件\n耐久：150\n粗暴\n\n弓\n拉弓速度：0.4\n范围系数：0.4\n附加伤害：0\n粗暴",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "redstone_alloy"
         }
       },
-      "name:8": "Redstone Alloy"
+      "name:8": "红石合金"
     }
   },
   "questID:3": 201016,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSpeeds up the day/night cycle.",
+      "desc:8": "§7§o加速日夜循环。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:sand"
       },
-      "name:8": "Ritual of the Sands of Time"
+      "name:8": "时之沙仪式"
     }
   },
   "questID:3": 1164,

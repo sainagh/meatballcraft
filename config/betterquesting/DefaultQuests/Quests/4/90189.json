@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe network tool lets you see how many components are connected to your AE2 network, and how much power it needs to run!\n\nRight click an ME controller!",
+      "desc:8": "§7§o网络工具能查看网络中连接的设备数量，以及能量消耗！\n\n右击ME控制器以查看！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:network_tool"
       },
-      "name:8": "Network Tool"
+      "name:8": "网络工具"
     }
   },
   "questID:3": 90189,

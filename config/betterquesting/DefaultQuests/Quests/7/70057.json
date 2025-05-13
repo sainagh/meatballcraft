@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound between y\u003d20 and y\u003d96",
+      "desc:8": "§7§o发现于Y\u003d20与Y\u003d96之间",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 129,
         "id:8": "thermalfoundation:material"
       },
-      "name:8": "Tin Ingot"
+      "name:8": "锡锭"
     }
   },
   "questID:3": 70057,

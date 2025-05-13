@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGenerates mana from forestry drones tossed nearby",
+      "desc:8": "§7§o通过附近掉落的林业蜜蜂产生魔力",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "beegonia"
         }
       },
-      "name:8": "Beegonia (Good)"
+      "name:8": "食蜂海棠（良好）"
     }
   },
   "questID:3": 799,

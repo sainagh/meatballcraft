@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No smeltery multiblock needed!",
+      "desc:8": "不再需要多方块冶炼炉了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:melter_idle"
       },
-      "name:8": "Melter"
+      "name:8": "金属熔化机"
     }
   },
   "questID:3": 20724,

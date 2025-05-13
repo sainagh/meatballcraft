@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the temple in the deep dark.\n\n§fBlood magic is quite amazing, but, I won\u0027t lie, it is scary. The act of performing any blood magic, I now know, leaves a permanent mark on you, one that cannot be cleansed nor removed.\nThis curse is everpresent from the first moment the magic is performed, and it does not ever leave the user. In extreme cases, it can even lead to transformations, such as the one I have encountered in the deep dark caves.\nThis probably emans that any sufficiently powerful blood master will end up looking like a body horror. While I definitely appreciate the upsides of this powerful magic, I do not intend to turn into a deformed mass of blood and flesh. No thank you! ",
+      "desc:8": "§7§o发现于漆黑世界的神庙中。\n\n§f血魔法固然强大，但平心而论着实令人畏惧。如今我才知晓，施展血魔法会在施术者身上留下永恒的印记，既无法净化也无法消除。\n这种诅咒自首次施法起就如影随形，终生萦绕施术者。极端情况下，甚至会导致躯体异变，正如我在漆黑洞穴中遭遇的可怖存在。\n这意味着任何造诣高深的血法师最终都会沦为血肉畸变体。虽然我欣赏这种强大魔法的优势，但绝不愿将自己变成一团扭曲的血肉聚合物。敬谢不敏！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:cursed_rock"
       },
-      "name:8": "Cursed Rock"
+      "name:8": "诅咒岩块"
     }
   },
   "questID:3": 231,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:cursed_rock"
             },
-            "TrophyName:8": "Cursed Anemia Slayer",
+            "TrophyName:8": "诅咒渴血兽屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

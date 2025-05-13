@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "More compactness!",
+      "desc:8": "更加紧凑！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "techreborn:solar_panel"
       },
-      "name:8": "EV Solar Array (Good)"
+      "name:8": "极限压太阳能阵列（良好）"
     }
   },
   "questID:3": 50198,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEgg-shaped islands with golden oak trees. Follow the scanner. §o§7§oBreak blocks after finishing dungeon.\n\nDue to the fight\u0027s cumbersome nature, the Hidden Errors Callstone can be used instead.\n\n§fOnly one male warrior seems to remain in these sky islands. In a last attempt at saving his companions from the bloodthirsty valkiries, he unleashed too much power.\nHis attunement, instead of aiding him, transformed him into a fiery warrior, that killed his companions, and made him immortal.\nHe has now lost all will to live, but he was willing to fight me. Is he trying to die? Is the same fate awaiting me?\n",
+      "desc:8": "§7§o有金琥珀树的蛋状岛屿。跟随扫描器的指引。§o§7§o通关地牢后方可破坏方块。\n\n由于过于坐牢的战斗机制，可使用隐藏错误召唤石替代挑战。\n\n§f这片空岛似乎仅存最后一名男性战士。为从嗜血的瓦尔基里手中拯救同伴，他不慎释放了过多力量。\n这种共鸣非但未能助他，反而将其化作焚尽同伴的烈焰战士，并赋予其不朽之躯。\n如今他已失去所有生存意志，却仍愿与我一战。这是试图寻死吗？难道相同的命运也在等待着我？\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "aether_legacy:dungeon_block"
       },
-      "name:8": "Master of the lower sky"
+      "name:8": "低空主宰"
     }
   },
   "questID:3": 242,
@@ -31,7 +31,7 @@
               "Damage:2": 4,
               "id:8": "aether_legacy:dungeon_block"
             },
-            "TrophyName:8": "Gold Dungeon Explorer",
+            "TrophyName:8": "黄金地牢探索者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

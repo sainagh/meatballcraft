@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSlay the ayeracos, and farm ender dragons with deep mob learning.\n\n§fA legendary sword forged by the finest blacksmiths of the end and wielded by Lucard, the first commander of Terra\u0027s united army. The original was made during peacetime as a symbol of Terra\u0027s pride. It was recursed to be used by Terran commanders as a ceremonial sword.\nIt is infused with the essence of native end dragons and enchanted with soul-binding magic.\n",
+      "desc:8": "§7§o击杀空影兽，并用深度怪物学习获得末影龙物质。\n\n§f此剑由末地最顶尖的工匠铸造，曾作为泰拉联合军初代指挥官卢卡德的佩剑。其原版诞生于和平年代，作为泰拉荣耀的象征，后成为历代指挥官传承的仪式之刃。\n剑身熔铸了末影龙的精髓，并附有灵魂绑定魔咒。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:black_ender_sword",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Blade of Terra"
+            "Name:8": "泰拉之刃"
           },
           "ench:9": {
             "0:10": {
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Blade of Terra"
+      "name:8": "泰拉之刃"
     }
   },
   "questID:3": 991,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oBlade of Terra§r"
+              "Name:8": "§6§o泰拉之刃§r"
             },
             "ench:9": {
               "0:10": {

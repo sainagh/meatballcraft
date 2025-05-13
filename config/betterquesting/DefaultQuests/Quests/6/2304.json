@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFeather Falling",
+      "desc:8": "§7§o羽落效果",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "tombstone:scroll_buff"
       },
-      "name:8": "Feather Falling"
+      "name:8": "飘落"
     }
   },
   "questID:3": 2304,

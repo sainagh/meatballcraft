@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 540\nMining Level: Obsidian\nMining Speed: 7\nAttack: 6\nSharp\n\nHandle\nModifier: 0.9\nDurability: 150\nStiff\n\nExtra\nDurability: 25\nStiff\n\nBows\nDrawspeed: 2.5\nRange Multiplier: 2\nBonus Damage: 9\nStiff",
+      "desc:8": "顶端\n耐久：540\n挖掘等级：黑曜石\n挖掘速度：7\n攻击力：6\n锐利\n\n手柄\n手柄系数：0.9\n耐久：150\n坚忍\n\n其它部件\n耐久：25\n坚忍\n\n弓\n拉弓速度：2.5\n范围系数：2\n附加伤害：9\n坚忍",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "steel"
         }
       },
-      "name:8": "Steel"
+      "name:8": "钢"
     }
   },
   "questID:3": 201052,

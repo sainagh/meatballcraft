@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSlay king bambambam.",
+      "desc:8": "§7§o击杀Bambambam之王。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:vulcammer_maul",
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Vulcammer Maul"
+      "name:8": "浊流槌"
     }
   },
   "questID:3": 967,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oVulcammer Maul§r"
+              "Name:8": "§6§o浊流槌§r"
             },
             "ench:9": {
               "0:10": {

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in The Overworld between Y\u003d20 and Y\u003d40",
+      "desc:8": "§7§o发现于主世界Y\u003d20与Y\u003d40之间。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 18,
         "id:8": "techreborn:ingot"
       },
-      "name:8": "Zinc Ingot"
+      "name:8": "锌锭"
     }
   },
   "questID:3": 70105,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "My experiments paid off!\nI was able to make seeds that work like chickens and bees; I should be able to use them to create minerals from scratch.",
+      "desc:8": "实验成功了！\n我成功研制出了具有鸡和蜜蜂相似特性的种子；我应该可以用它们来凭空创造矿物。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 16,
         "id:8": "mysticalagriculture:crafting"
       },
-      "name:8": "Life finds a way..."
+      "name:8": "生命自会找到出路……"
     }
   },
   "questID:3": 105,

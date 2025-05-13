@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound on the bottom level of the mazes in swamp biomes. The maze map may help you at finding it.\n\n§fThe surface of the Twilight Forest, as I previously noted, exhibits the signs of a once-prosperous society fallen to ruin. Well, the underground of this world may give a bit more insight. I was able to locate the entries to many underground mazes (again, what\u0027s with these people and building mazes), and they are more well-preserved than the surface structures.\nWell-preserved, and well-inhabited. Minotaurs, actual minotaurs inhabit these mazes, how fitting! Oh and giant bugs too!\nAre they related to the ones from the Erebus world? Maybe? It feels safe to assume that the crabs of Terra somehow stunbled into portals to escape the twilight forest, so I would not exclude the same happening for ending up into this strangely melancholic world.\nMy gut tells me that\u0027s not the case, though. The maze is clearly built with a purpose, to hide, and to imprison, and if I were a maze builder I would definitely want to keep those bugs as entrapped as possible. Although it is still possible that these bugs are just part of colonies formed by a few that initially stumbled there by accident.\nRegardless, the maze was built to imprison the mushroomy beast found in its core. What came first, I wonder, the monster, or the labyrinth?",
+      "desc:8": "§7§o发现于沼泽迷宫底层，迷宫地图可助定位。\n\n§f正如我之前提到的那样，暮色森林的地表满是文明衰退毁灭的痕迹。与地表废墟不同，地下迷宫或许能揭示更多真相。我成功定位到诸多地下迷宫的入口（他们怎么这么爱修迷宫），其保存状态比地表建筑好得多。\n这些迷宫不仅结构完整，其中还栖息着米诺陶，米诺陶！这和迷宫可太配了！哦，还有巨型昆虫！\n它们和混沌之地的虫子有关系吗？也许有？看起来泰拉上的螃蟹正是不知怎么通过传送门逃离暮色森林的，因此不能排除同样的事情发生在混沌之地上的可能性。\n但我的直觉告诉我情况并非如此。迷宫的建造显然是有目的的，藏匿或监禁，如果我是迷宫建造者，我肯定会尽可能地困住这些虫子。尽管这些它们只是最初偶然误入此处的少数个体所形成的群体。\n无论如何，迷宫显然是为囚禁核心处的蘑菇野兽而建。究竟是先有怪物还是先有迷宫？",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 6,
         "id:8": "twilightforest:trophy"
       },
-      "name:8": "Into the Maze?"
+      "name:8": "深入迷宫？"
     }
   },
   "questID:3": 251,
@@ -31,7 +31,7 @@
               "Damage:2": 0,
               "id:8": "twilightforest:minotaur_axe"
             },
-            "TrophyName:8": "Minoshroom Slayer",
+            "TrophyName:8": "米诺菇屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

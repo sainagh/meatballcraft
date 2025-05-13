@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe automation upgrade automatically combines a princess and a drone after the queen is done. This means you can automate combs passively!\n\nYou should do this to automate rocky and dripping combs, as well as others later in progression!\n\n§fTired of moving princesses, well you don\u0027t have to!",
+      "desc:8": "§7§o自动化升级可在蜂后死亡后，自动将公主蜂和雄蜂结合。这意味这种你可以自动化生产蜂窝！\n\n你应当用该方法自动化石头和滴水蜂窝，以及后续流程的一些其他蜂窝！\n\n§f烦透了一遍遍转移公主蜂，现在可以不这么麻烦了！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 14,
         "id:8": "gendustry:apiary.upgrade"
       },
-      "name:8": "Automation Upgrade"
+      "name:8": "自动化升级"
     }
   },
   "questID:3": 20482,

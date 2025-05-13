@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe energy acceptor is used to input energy into a basic (8 channels) AE2 network. \nFor larger numbers of channels, the ME controller should be used.",
+      "desc:8": "§7§o能源接收器可将能量接入基础的AE网络（8个频道）。\n更多频道需要使用ME控制器提供。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:energy_acceptor"
       },
-      "name:8": "Energy Acceptor"
+      "name:8": "能源接收器"
     }
   },
   "questID:3": 90129,

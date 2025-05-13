@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Cursed earth, coming from withers, in absence of light, creates monsters at incredibly fast rates.\nA grinder kills monsters making essence as a byproduct, and its range can be upgraded using addons, depending on the size of the cursed earth parch.\nThis is a technique earth scientist developed after global warming almost wiped out humanity.\nEssence is essentially undifferentiated stem cellular matter, produced from decaying corpses.\nStem cells can be made into anything... Well, almost anything...",
+      "desc:8": "在无光环境下，由凋灵骷髅掉落的邪恶点滴制作的诅咒之土，能以惊人的速度生成怪物。\n生物粉碎机在击杀怪物时，会产出精华，其作用范围能通过升级插件扩大，具体可视诅咒之土的面积调整。\n这是全球变暖几乎将人类推向灭绝后，地球科学家们研发出的技术。\n精华本质上是未分化的干细胞物质，由腐败的尸体生成。\n这些干细胞能转化为任何东西……嗯，几乎任何东西……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:mob_relocator"
       },
-      "name:8": "Your First Mob Farm"
+      "name:8": "第一个刷怪场"
     }
   },
   "questID:3": 20429,

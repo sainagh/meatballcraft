@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oActive fluid coolers can be filled with fluids for better cooling. Ports are used to move fluids into the reactors. Pipes can be used inside the reactor.",
+      "desc:8": "§7§o液冷器可装填流体以实现更好的冷却效果。使用裂变堆端口向反应堆内部输入流体。可在反应堆内部使用管道。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:active_cooler"
       },
-      "name:8": "Active Fluid Cooler"
+      "name:8": "液冷器"
     }
   },
   "questID:3": 50213,

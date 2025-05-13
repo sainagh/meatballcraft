@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 300\nMining Level: 3\nMining Speed: 2.2\nAttack: 85\nSharp\nJaded\nNature\u0027s Wrath\n\nHandle\nModifier: 1\nDurability: 200\nSharp\nJaded\nNature\u0027s Wrath\n\nExtra\nDurability: 300\nSharp\nJaded\nNature\u0027s Wrath\n\n",
+      "desc:8": "顶端\n耐久：300\n挖掘等级：3\n挖掘速度：2.2\n攻击力：85\n锐利\n筋疲力尽\n自然之怒\n\n手柄\n手柄系数：1\n耐久：200\n锐利\n筋疲力尽\n自然之怒\n\n其它部件\n耐久：300\n锐利\n筋疲力尽\n自然之怒\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "rosidian"
         }
       },
-      "name:8": "Rosidian"
+      "name:8": "伊恩"
     }
   },
   "questID:3": 1801,

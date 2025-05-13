@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate is used to transmit one input to three outputs in a directional manner, so that signals cannot be sent backwards.\n\nRight click with a screwdriver to change what outputs are active.",
+      "desc:8": "§7§o该逻辑门用于将一个输入信号定向传输到其他三个输出端，这样信号不会被回传。\n\n是有螺丝刀右击以改变输出端。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 7,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Buffer Gate"
+      "name:8": "缓冲器"
     }
   },
   "questID:3": 90379,

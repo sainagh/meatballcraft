@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oLooking for something in particular? more info in §cpersonal augmentation!",
+      "desc:8": "§7§o在找特定物品？更多信息查看§c个人强化§7§o！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "scannable:scanner"
       },
-      "name:8": "Scanner"
+      "name:8": "扫描器"
     }
   },
   "questID:3": 87,
@@ -27,7 +27,7 @@
           "id:8": "iceandfire:goldpile",
           "tag:10": {
             "display:10": {
-              "Name:8": "To search for underground dragons"
+              "Name:8": "用于寻找地下的龙"
             }
           }
         },
@@ -37,7 +37,7 @@
           "tag:10": {
             "RepairCost:3": 0,
             "display:10": {
-              "Name:8": "To search for underground dragons"
+              "Name:8": "用于寻找地下的龙"
             }
           }
         },
@@ -46,7 +46,7 @@
           "id:8": "iceandfire:copperpile",
           "tag:10": {
             "display:10": {
-              "Name:8": "To search for undergroud dragons"
+              "Name:8": "用于寻找地下的龙"
             }
           }
         }

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGives jump boost and prevents fall damage.",
+      "desc:8": "§7§o给予跳跃提升效果，并免疫摔落伤害。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "High Jump"
+      "name:8": "高跳仪式"
     }
   },
   "questID:3": 809,

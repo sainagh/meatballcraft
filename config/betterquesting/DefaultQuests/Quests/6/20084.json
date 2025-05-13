@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can upgrade a maxed-out advanced wand to master with this tome!",
+      "desc:8": "§7§o可使用该宝典将熟练度到达所需值的进阶级魔杖升级为大师级！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "ebwizardry:arcane_tome"
       },
-      "name:8": "Master"
+      "name:8": "大师"
     }
   },
   "questID:3": 20084,

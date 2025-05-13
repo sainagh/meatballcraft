@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Now that I can make alloys, I can finally produce and use electricity, this should allow me to improve my manufacturing capabilities!",
+      "desc:8": "既然能制作合金了，那我终于可以生产和利用电力了，这会极大提升我的制造效能！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "immersiveengineering:metal_decoration0"
       },
-      "name:8": "Engineering Time!"
+      "name:8": "工程时间！"
     }
   },
   "questID:3": 46,

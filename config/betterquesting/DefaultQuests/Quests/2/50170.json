@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The dynamo can be upgraded to include cooling, thus highly increasing energy output, depending on coolant.\nIn order to accept cooling, upgraded compression dynamos have to be adjacent to the thermal mediator.",
+      "desc:8": "这项升级包含冷却装置，因此能基于制冷剂大幅增加能量输出。\n能源炉必须与外置散热器相邻放置以接受冷却。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 656,
         "id:8": "thermalexpansion:augment"
       },
-      "name:8": "Augment: Isentropic Reservoir"
+      "name:8": "升级：熵增抑制容器"
     }
   },
   "questID:3": 50170,

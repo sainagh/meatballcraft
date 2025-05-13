@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "It holds EMC, but for what?, the higher the tier, the more it can hold.\nThanks to Tomato_Is_Life for the text!",
+      "desc:8": "能储存EMC，但有什么用呢？等级越高，能储存的EMC就越多。\n感谢Tomato_Is_Life撰写的文本！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_klein_star",
         "tag:10": {}
       },
-      "name:8": "Klein Star Ein"
+      "name:8": "一级卡莱恩能量之星"
     }
   },
   "questID:3": 50123,

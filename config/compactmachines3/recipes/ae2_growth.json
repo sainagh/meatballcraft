@@ -1,0 +1,170 @@
+{
+    "name": "compactmachines3:ae2_growth",
+    "target-item": "appliedenergistics2:quartz_growth_accelerator",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+  
+
+
+    "input-types": {
+      "a": {
+        "id": "appliedenergistics2:cable_bus",
+        "meta": 0
+      },
+      "b": {
+        "id": "appliedenergistics2:energy_acceptor",
+        "meta": 0
+      },
+      "c": {
+        "id": "appliedenergistics2:quartz_growth_accelerator",
+        "meta": 0
+      },
+      "d": {
+        "id": "minecraft:water",
+        "meta": 0
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{id:\"appliedenergistics2:blockcablebus\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},hasRedstone:2,\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:16s},\"extra:6\":{part:{p:0,k:-1L,g:8819L},usedChannels:0}}"
+      },
+      "b:A": {
+        "nbt": "{id:\"appliedenergistics2:energy_acceptor\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},forward:\"NORTH\",up:\"UP\",internalCurrentPower:0.0d,proxy:{p:0,k:-1L,g:8819L}}"
+      },
+      "c:A": {
+        "nbt": "{id:\"appliedenergistics2:quartz_growth_accelerator\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},forward:\"UP\",up:\"NORTH\",proxy:{p:0,k:-1L,g:8819L}}"
+      },
+      "c:B": {
+        "nbt": "{id:\"appliedenergistics2:quartz_growth_accelerator\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},forward:\"UP\",up:\"EAST\",proxy:{p:0,k:-1L,g:8819L}}"
+      },
+      "c:C": {
+        "nbt": "{id:\"appliedenergistics2:quartz_growth_accelerator\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},forward:\"UP\",up:\"WEST\",proxy:{p:0,k:-1L,g:8819L}}"
+      },
+      "c:D": {
+        "nbt": "{id:\"appliedenergistics2:quartz_growth_accelerator\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},forward:\"SOUTH\",up:\"UP\",proxy:{p:0,k:-1L,g:8819L}}"
+      },
+      "c:E": {
+        "nbt": "{id:\"appliedenergistics2:quartz_growth_accelerator\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},forward:\"UP\",up:\"SOUTH\",proxy:{p:0,k:-1L,g:8819L}}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "_",
+          "c:A",
+          "_",
+          "a:A"
+        ],
+        [
+          "a:A",
+          "c:C",
+          "d",
+          "c:B",
+          "a:A"
+        ],
+        [
+          "_",
+          "_",
+          "c:E",
+          "_",
+          "a:A"
+        ],
+        [
+          "_",
+          "_",
+          "a:A",
+          "a:A",
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "b:A",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "c:D",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "a:A",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "a:A",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "a:A",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ]
+      ]
+    ]
+   
+}

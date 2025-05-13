@@ -333,3 +333,32 @@ val puzzleruneslib = JEI.createJeiRecipe("meatball_puzzle");
 puzzleruneslib.addInput(<contenttweaker:memory_restoration_ritual>);
 puzzleruneslib.setOutputs([<contenttweaker:runes_of_liberation>]);
 puzzleruneslib.build();
+
+val puzzlecherubim1 = JEI.createJeiRecipe("meatball_puzzle");
+puzzlecherubim1.addInput(<contenttweaker:summons_of_the_realmshifter_cherubim>);
+puzzlecherubim1.setOutputs([<contenttweaker:call_of_the_love>]);
+puzzlecherubim1.build();
+
+val puzzlecherubim2 = JEI.createJeiRecipe("meatball_puzzle");
+puzzlecherubim2.addInput(<contenttweaker:summons_of_the_realmshifter_cherubim>);
+puzzlecherubim2.setOutputs([<contenttweaker:call_of_the_loved>]);
+puzzlecherubim2.build();
+
+val puzzlecherubim3 = JEI.createJeiRecipe("meatball_puzzle");
+puzzlecherubim3.addInput(<contenttweaker:summons_of_the_realmshifter_cherubim>);
+puzzlecherubim3.setOutputs([<contenttweaker:call_of_the_lover>]);
+puzzlecherubim3.build();
+
+val shieldtothearbiter = JEI.createJeiRecipe("meatball_puzzle");
+shieldtothearbiter.addInput(<contenttweaker:lyndenwyrm_warper>);
+shieldtothearbiter.setOutputs([<contenttweaker:shield_of_the_arbiter>]);
+shieldtothearbiter.build();
+
+val undeadsoil = JEI.createJeiRecipe("meatball_puzzle");
+undeadsoil.addInput(<contenttweaker:summons_to_the_meatball_man>);
+undeadsoil.setOutputs([<contenttweaker:undead_soil>]);
+undeadsoil.build();
+
+
+
+

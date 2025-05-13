@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGenerates mana during the day.\n\nWill decay eventually.",
+      "desc:8": "§7§o在白天产生魔力。\n\n会自然枯萎。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "sunbless"
         }
       },
-      "name:8": "Sunshine Lily (OK)"
+      "name:8": "日耀百合（一般）"
     }
   },
   "questID:3": 798,

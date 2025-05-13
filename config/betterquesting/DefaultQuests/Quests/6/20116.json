@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe lightwell produces liquid starlight passively if it has sky access. This is very slow.\n\nItems can be placed in the lightwell to increase the production rate. JEI will show them!\n\nThe dark star crystal is the best for making starlight!\n\n",
+      "desc:8": "§7§o露天环境下，聚星缸可被动产出星能液。该方法速度非常慢。\n\n在聚星缸中放入特定物品可增加星能液产出速度。使用JEI查看可用物品！\n\n暗星水晶是制作星能液的最佳物品！\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:blockwell"
       },
-      "name:8": "Lightwell"
+      "name:8": "聚星缸"
     }
   },
   "questID:3": 20116,

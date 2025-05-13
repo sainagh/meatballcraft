@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oLarge gold-colred tamples floating on clouds. Follow the scanner. §o§7§oBreak blocks after finishing dungeon.\n\n§fI was not expecting this! Out of the many creations that the banished testificates of the past left, there are organic beings.\nFrom what I was able to collect, the banished society (if we can call it that) that formed on the aether islands was dominated by male testificates, who believed that they had greater mastery over magic than the females. \nIn an act of rebellion, a group of powerful female sorcerers decided to unleash their destructive powers. Something, though, went wrong. The power they had unleashed was too much for them, and consumed them. \nThey gained a type of immortality similar to mine, but completely lost their own will, turning into bloodthirsty warriors that only seek more enemies. \nIt seems like the power of each individual has a certain limit that should not be crossed. \nIs this limit chosen by nature? Or can it be pushed further?",
+      "desc:8": "§7§o云端之上的巨大金色神庙。跟随扫描器的指引。§o§7§o通关地牢后方可破坏方块。\n\n§f我没想到会这样！在过去被流放的泰斯提斐人留下的众多造物中，竟然存在有机生命体。\n根据我收集到的信息，在天境岛屿形成的流放社会（如果我们可以这么称呼的话）由男性泰斯提斐人主导，他们认为自己比女性更精通魔法。\n为了反抗，一群强大的女法师决定释放她们的毁灭性力量。但事情而出了差错，她们释放的力量过于强大，最终反噬了自身。\n她们获得了与我类似的永生形态，但完全丧失了自我意志，变成了只知寻找更多敌人的嗜血战士。\n看来每个人的力量都存在不应跨越的界限。\n这个界限是天生的吗？还是可以进一步突破？",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "aether_legacy:dungeon_block"
       },
-      "name:8": "Corrupt Greatness"
+      "name:8": "崇高腐化"
     }
   },
   "questID:3": 227,
@@ -31,7 +31,7 @@
               "Damage:2": 2,
               "id:8": "aether_legacy:dungeon_block"
             },
-            "TrophyName:8": "Silver Dungeon Explorer",
+            "TrophyName:8": "白银地牢探索者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

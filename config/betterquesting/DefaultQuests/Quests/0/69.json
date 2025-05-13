@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou do not need pure fluix to craft the accelerator and energy acceptor. Using them is highly recommended.\n\n§fThe manufacturing ability I\u0027ve recently discovered has allowed me to produce Fluix, which makes it possible to easily transition between matter and energy, this should be very useful for storage and item management.\nThe knowledge of this science is hidden in asteroids, which were once part of the belt around Terra.\nIt seems like they were used to hide information about fluix in a place unreachable by most, no matter how powerful.\nFortunately for me, some of those asteroids made it back down.",
+      "desc:8": "§7§o制作催生器和能源接收器无需高纯福鲁伊克斯，强烈推荐使用。\n\n§f最近发现的制造能力让我得以制造出福鲁伊克斯，它能轻松实现物质与能量之间的转换，这对物品存储与管理应该大有用处。\n相关的科学知识被藏匿在小行星中，它们曾是环绕泰拉的环带的一部分。\n看来无论力量多么强大的人，都无法到达那个保存福鲁伊克斯信息的秘密所在。\n但幸运的是，其中一些承载着秘密的小行星已经坠落回了地面。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 12,
         "id:8": "appliedenergistics2:material"
       },
-      "name:8": "Digital Matter"
+      "name:8": "数字物质"
     }
   },
   "questID:3": 69,

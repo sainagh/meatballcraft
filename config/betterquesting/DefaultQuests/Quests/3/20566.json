@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Turns fluids into solids!\nNo way!",
+      "desc:8": "将流体转化为固体！\n这怎么可能！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "cyclicmagic:solidifier"
       },
-      "name:8": "Solidifier"
+      "name:8": "冷凝炉"
     }
   },
   "questID:3": 20566,

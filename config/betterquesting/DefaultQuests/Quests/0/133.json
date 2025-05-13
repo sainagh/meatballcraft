@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Despite their relatively low presence on Terra, sky dragons, including the very annoying chaotic ones, hold some serious power!\nWhen it comes to the Twilight Horde and the Shyre Empire, I\u0027m starting to believe I\u0027m dealing with quite literal deities...\nIt is interesting, though, how this ties in with the distinctions of magic types I have encountered. As a wandering kid, trying to imagine what alien civilizations may look like, I always thought technology would be the way. But I now have evidence that magic, of the \u0027mythic\u0027 type, can be enough to support a galactic rule.\nWell, to be fair, this magic may just be technology I do not understand yet.\nAnyhow, I keep having direct interactions with it, so there may be a way to directly use this powers to actively fight back.\nIf mythic magic is enough to conquer galaxies, it should be enough to protect Terra, right?",
+      "desc:8": "尽管在泰拉没什么存在感，但天龙，特别是恼人的混沌变种，着实有着恐怖的力量！\n面对暮光部落与夏尔帝国，我开始确信自己正与神祇般的存在博弈……\n有趣的是，这与我遇到的不同魔法类型特征存在关联。年少幻想外星文明形态时，总认为科技是唯一出路。但现在有证据表明，这种“神话”魔法足以支撑银河级别的统治。\n公平地说，这种魔法或许只是我尚未理解的科技形式。\n无论如何，既然我能与之直接交互，或许能找到运用这种力量主动反击的方法。\n既然神话魔法足以征服星系，那守护泰拉也应该绰绰有余吧？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tinymobfarm:ultimate_farm"
       },
-      "name:8": "Embracing Entropy"
+      "name:8": "拥抱熵变"
     }
   },
   "questID:3": 133,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "draconicevolution:chaos_shard"
             },
-            "TrophyName:8": "Chaotic Warrior",
+            "TrophyName:8": "混沌勇士",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

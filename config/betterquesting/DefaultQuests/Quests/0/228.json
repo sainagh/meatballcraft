@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDropped by crimson portals, or by the bosses spawned by the pedestals found in teh world.",
+      "desc:8": "§7§o由血腥传送门，或世界中自然生成的基座召唤的Boss掉落。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:primordial_pearl"
       },
-      "name:8": "Primordial Powers"
+      "name:8": "元始之力"
     }
   },
   "questID:3": 228,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "thaumcraft:primordial_pearl"
             },
-            "TrophyName:8": "Meeting the Crimson Cult",
+            "TrophyName:8": "初遇血腥邪教",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

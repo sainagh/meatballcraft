@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Sludge, which is a byproduct of the Plant Gatherer, can be reprocessed in this machine to produce various terrous materials, includeing mycelium and some other goodies...",
+      "desc:8": "作为植物收割机的副产物，污泥可经过该机器处理为多种泥土类材料，包括菌丝和其他一些好东西……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:sludge_refiner"
       },
-      "name:8": "Sludge Refiner"
+      "name:8": "污泥精炼机"
     }
   },
   "questID:3": 20575,

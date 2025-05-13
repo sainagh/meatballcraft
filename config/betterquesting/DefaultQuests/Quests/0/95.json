@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "At this point, I can fully automate mining and quarrying, and I love it! A sigle machine to create a very large hole is all I ever wanted.",
+      "desc:8": "我现在可以完全自动化挖掘和采矿了，我爱死这个了！一个可以挖出巨大无比的洞的机器，我太想要这个了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftools:builder"
       },
-      "name:8": "Quarries"
+      "name:8": "采石场"
     }
   },
   "questID:3": 95,

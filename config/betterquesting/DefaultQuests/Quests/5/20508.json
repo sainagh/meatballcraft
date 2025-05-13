@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Red Matter \u003e Dark Matter",
+      "desc:8": "红物质 \u003e 暗物质",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:collector_mk3"
       },
-      "name:8": "MK3 Power Flower"
+      "name:8": "力量花MK3"
     }
   },
   "questID:3": 20508,

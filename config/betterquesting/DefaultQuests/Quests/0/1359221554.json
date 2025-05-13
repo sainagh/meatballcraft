@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1660051088
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:seal_of_the_arbiter_experimentalist"
+      },
+      "name:8": "Experimentalist"
+    }
+  },
+  "questID:3": 1359221554,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:seal_of_the_arbiter_experimentalist"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

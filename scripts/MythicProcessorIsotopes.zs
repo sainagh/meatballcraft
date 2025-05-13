@@ -116,14 +116,14 @@ val mythisotop17 = RecipeBuilder.newBuilder("mythisotop17","mythic_processor_iso
 mythisotop17.addEnergyPerTickInput(80000);
 mythisotop17.addItemInput(<ore:dustLithium> * 1);
 mythisotop17.addItemOutput(<nuclearcraft:lithium:2>);
-mythisotop17.addItemOutput(<nuclearcraft:lithium:1>);
+mythisotop17.addItemOutput(<nuclearcraft:lithium:1>*3);
 mythisotop17.build();
 
 val mythisotop18 = RecipeBuilder.newBuilder("mythisotop18","mythic_processor_isotope_separator",2);
 mythisotop18.addEnergyPerTickInput(80000);
 mythisotop18.addItemInput(<ore:ingotLithium> * 1);
 mythisotop18.addItemOutput(<nuclearcraft:lithium:2>);
-mythisotop18.addItemOutput(<nuclearcraft:lithium:1>);
+mythisotop18.addItemOutput(<nuclearcraft:lithium:1>*3);
 mythisotop18.build();
 
 val mythisotop19 = RecipeBuilder.newBuilder("mythisotop19","mythic_processor_isotope_separator",2);

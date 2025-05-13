@@ -13,7 +13,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou can complete this quest with any material!\n\nWorks like a sword, it makes more damage, but it is slow. Mobs have a higher chance of dropping their head!",
+      "desc:8": "§7§o使用任意材料制作均可完成本任务！\n\n与剑类似，伤害更高，但攻击速度更慢。杀死的生物有更高概率掉落头颅！",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -92,7 +92,7 @@
           }
         }
       },
-      "name:8": "Cleaver"
+      "name:8": "劈刀"
     }
   },
   "questID:3": 1091,

@@ -129,3 +129,23 @@ recipes.addShaped(<contenttweaker:inert_crystal>,
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:inert_crystal>, <fluid:muons>*100, <contenttweaker:muon_crystal>]);
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:inert_crystal>, <fluid:strings>*100, <contenttweaker:strings_crystal>]);
+
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:gallifreyan_neutronium_casing>, 
+1000000000, 
+<contenttweaker:neutronium_casing>, 
+[<contenttweaker:eye_of_gallifrey>, <ore:ingotChaos>,
+<contenttweaker:eye_of_gallifrey>, <ore:ingotChaos>,
+<contenttweaker:eye_of_gallifrey>, <ore:ingotChaos>,
+<contenttweaker:eye_of_gallifrey>, <ore:ingotChaos>,
+<contenttweaker:eye_of_gallifrey>, <ore:ingotChaos>,
+<contenttweaker:eye_of_gallifrey>, <ore:ingotChaos>]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:quark_neutronium_module>, 
+[[<contenttweaker:stone_of_the_shyre_warden>, null, <contenttweaker:mortum_star>, null, <contenttweaker:stone_of_the_shyre_warden>], 
+[null, <contenttweaker:arbiterite_crystal>, <contenttweaker:gallifreyan_neutronium_casing>, <contenttweaker:arbiterite_crystal>, null], 
+[<contenttweaker:mortum_star>, <contenttweaker:gallifreyan_neutronium_casing>, <contenttweaker:defined_machine_case>, <contenttweaker:gallifreyan_neutronium_casing>, <contenttweaker:mortum_star>], 
+[null, <contenttweaker:arbiterite_crystal>, <contenttweaker:gallifreyan_neutronium_casing>, <contenttweaker:arbiterite_crystal>, null], 
+[<contenttweaker:stone_of_the_shyre_warden>, null, <contenttweaker:mortum_star>, null, <contenttweaker:stone_of_the_shyre_warden>]]);  

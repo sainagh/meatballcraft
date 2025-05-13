@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound at every height.",
+      "desc:8": "§7§o所有高度均可发现。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "actuallyadditions:item_misc"
       },
-      "name:8": "Black Quartz"
+      "name:8": "焦黑石英"
     }
   },
   "questID:3": 70067,

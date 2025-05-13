@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace on top of an arcane autoworkbench to increase its aura range to 3x3 chunks!",
+      "desc:8": "§7§o放置在奥术工作台上方，使其灵气使用范围扩展至周边3x3区块！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:arcane_workbench_charger"
       },
-      "name:8": "More Aura"
+      "name:8": "更多灵气"
     }
   },
   "questID:3": 1746,

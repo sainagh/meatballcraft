@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIncreases growth rate of animals.\n\nIncreases breeding consuming vengeful will.\n\nAuto-feeds consuming steadfast will.\n\nDestructive will makes mobs explode ;)",
+      "desc:8": "§7§o提高动物的成长速度。\n\n消耗复仇意志繁殖动物。\n\n消耗坚毅意志自动喂养动物。\n\n破坏意志会让生物爆炸  ;)",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Shepherd"
+      "name:8": "牧养仪式"
     }
   },
   "questID:3": 859,

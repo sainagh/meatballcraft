@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWorks like a personal EMC link, but it can output 9 items at the same time!",
+      "desc:8": "§7§o与个人EMC接口类似，但是同时可输出9种物品！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectex:refined_link"
       },
-      "name:8": "Refined EMC Link"
+      "name:8": "精致EMC接口"
     }
   },
   "questID:3": 20510,

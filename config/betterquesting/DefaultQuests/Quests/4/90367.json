@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate lets you delay a redstone signal by 2, 4, 6, 8, 16, 32, 64, 128, 256 ticks, and it resets red alloy levels to 255.\n\nRight click the repeater to change the delay.",
+      "desc:8": "§7§o该逻辑门可以将红石信号延迟2、4、6、8、16、32、64、128、256 tick，并且会将红色合金丝的信号强度重置为255。\n\n右击中继器改变延迟。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 10,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Repeater"
+      "name:8": "中继器"
     }
   },
   "questID:3": 90367,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou only need to run this for a little bit, then you can use the same design for lymph of pixonia production.",
+      "desc:8": "§7§o只需短暂运行此配方，之后便可沿用相同设计进行光精界淋巴液的生产。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "whispering_starlight"
         }
       },
-      "name:8": "Whispering Starlight"
+      "name:8": "低语星能液"
     }
   },
   "questID:3": 1977,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate lets you control the ability to transmit a signal based on another signal.\n\nThe data cell has two input-output paths, that work in both directions, a top path and a bottom path.\n\nThe top path is a one-input-one-output redstone connection.\n\nThe bottom path only transmits redstone if the top path has redstone.\n\nIf the top path is tuned off before the bottom path, the bottom output will produre a signal until the top path is turned back on.",
+      "desc:8": "§7§o该门电路能够根据一个信号控制另一个信号的传输能力。\n\n数据单元包含两条可双向工作的输入输出路径，分别为顶部与底部传输路径。\n\n顶部路径为单入单出的红石连接。\n\n底部路径仅在顶部路径存在红石信号时才会传输信号。\n\n若顶部路径信号先于底部路径关闭，底部输出端会持续发出信号，直到顶部路径信号重新激活。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Data Cell"
+      "name:8": "数据单元"
     }
   },
   "questID:3": 90371,

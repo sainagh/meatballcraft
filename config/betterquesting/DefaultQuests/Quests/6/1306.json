@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oConsumes mana to clear water within a 12 block radius.\n\nAnd lets you resurrect the most POWERful being in the universe.",
+      "desc:8": "§7§o消耗魔力清除12格范围内的水。\n\n还能让你复活宇宙中最强大的存在。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "bubbell"
         }
       },
-      "name:8": "Bubbell"
+      "name:8": "气泡铃"
     }
   },
   "questID:3": 1306,

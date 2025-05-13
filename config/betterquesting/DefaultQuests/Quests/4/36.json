@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo store unstackable items!",
+      "desc:8": "§7§o用于存储不可堆叠物品！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "storagecabinet:storagecabinet"
       },
-      "name:8": "Storage Cabinet"
+      "name:8": "储物柜"
     }
   },
   "questID:3": 36,

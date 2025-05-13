@@ -90,6 +90,14 @@ val polarursa = LootTweaker.getTable("aoa3:entities/mobs/overworld/polar_ursa");
 val polarursaroll = polarursa.addPool("polarursaroll", 1, 1, 0, 0);
 polarursaroll.addItemEntry(<aoa3:rosite_ingot>, 5);
 
+val deepcase = LootTweaker.getTable("aoa3:blocks/deep_case");
+val deepcasemain = deepcase.getPool("main");
+deepcasemain.addItemEntry(<contenttweaker:alchemical_deep_rock>*4, 20);
+deepcasemain.addItemEntry(<projecte:item.pe_fuel:2>*64, 20);
+deepcasemain.addItemEntry(<contenttweaker:botanic_alchemic_catalyst>*16, 20);
+deepcasemain.addItemEntry(<extrabees:honey_comb:11>*64, 30);
+
+
 val dimdoordungeon = LootTweaker.getTable("dimdoors:dungeon_chest");
 val dimdoorsdungeonroll = dimdoordungeon.addPool("dimdoorsdungeonroll", 1, 1, 0, 0);
 dimdoorsdungeonroll.addItemEntry(<ebwizardry:grand_crystal>, 5);
@@ -564,6 +572,20 @@ fishinglootextrafeesh.addItemEntry(<aoa3:raw_sapphire_strider>, 15);
 fishinglootextrafeesh.addItemEntry(<aoa3:raw_dark_hatchetfish>, 15);
 fishinglootextrafeesh.addItemEntry(<aoa3:raw_sapphire_strider>, 15);
 fishinglootextrafeesh.addItemEntry(<aoa3:raw_fingerfish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_candlefish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_crimson_skipper>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_crimson_stripefish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_fingerfish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_golden_gullfish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_ironback>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_limefish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_pearl_stripefish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_rainbowfish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_razorfish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_rocketfish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_sailback>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_turquoise_stripefish>, 15);
+fishinglootextrafeesh.addItemEntry(<aoa3:raw_violet_skipper>, 15);
 
 
 val hellspot = LootTweaker.getTable("aoa3:entities/mobs/nether/hellspot");
@@ -581,6 +603,7 @@ magicbeanslootingots.addItemEntry(<techreborn:ingot:15>, 3);
 magicbeanslootingots.addItemEntry(<techreborn:ingot:3>, 3);
 magicbeanslootingots.addItemEntry(<thermalfoundation:material:135>, 3);
 magicbeanslootingots.addItemEntry(<thermalfoundation:material:134>, 3);
+magicbeanslootingots.addItemEntry(<thermalfoundation:material:134>, 3);
 
 val pinkslime = LootTweaker.getTable("industrialforegoing:entities/pink_slime");
 val pinkslimeextraroll = pinkslime.addPool("pinkslimeextraroll", 1, 1, 0, 0);
@@ -593,4 +616,3 @@ endertripletshard.addItemEntry(<thaumictinkerer:kamiresource:0>, 5);
 val lostcitiesloot = LootTweaker.getTable("lostcities:chests/lostcitychest");
 val lostcitieslootmeatball = lostcitiesloot.addPool("lostcitieslootmeatball", 2, 3, 0, 0);
 lostcitieslootmeatball.addItemEntry(<contenttweaker:sentient_meatball>, 5);
-

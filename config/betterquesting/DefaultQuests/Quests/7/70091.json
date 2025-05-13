@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oOnly spawns above Y\u003d60.\n\n- Written by Bluecat",
+      "desc:8": "§7§o仅生成于Y\u003d60以上。\n\n- Bluecat撰写",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:apatite"
       },
-      "name:8": "Apatite"
+      "name:8": "磷灰石"
     }
   },
   "questID:3": 70091,

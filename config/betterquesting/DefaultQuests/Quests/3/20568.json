@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "A crafting table with extra steps!",
+      "desc:8": "有额外处理步骤的工作台！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:carpenter"
       },
-      "name:8": "Carpenter"
+      "name:8": "木工机"
     }
   },
   "questID:3": 20568,

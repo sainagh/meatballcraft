@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound below Y\u003d50 on Osiris.",
+      "desc:8": "§7§o发现于奥西里斯Y\u003d50以下。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:serpentine"
       },
-      "name:8": "Serpentine"
+      "name:8": "蛇纹石"
     }
   },
   "questID:3": 70140,

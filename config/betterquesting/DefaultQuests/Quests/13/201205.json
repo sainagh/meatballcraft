@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,400\nMining Level: Cobalt\nMining Speed: 5.24\nAttack: 11.04\nDuritae\nDarkness\n\nHandle\nModifier: 2.19\nDurability: 400\nDuritae\nDarkness\n\nExtra\nDurability: 340\nDuritae\nDarkness\n\nBows\nDrawspeed: 9.09\nRange Multiplier: 0.43\nBonus Damage: 12\nDuritae\nDarkness",
+      "desc:8": "顶端\n耐久：1,400\n挖掘等级：钴\n挖掘速度：5.24\n攻击力：11.04\n持久\n黑暗\n\n手柄\n手柄系数：2.19\n耐久：400\n持久\n黑暗\n\n其它部件\n耐久：340\n持久\n黑暗\n\n弓\n拉弓速度：9.09\n范围系数：0.43\n附加伤害：12\n持久\n黑暗",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "refinedobsidian"
         }
       },
-      "name:8": "Refined Obsidian (WIP)"
+      "name:8": "强化黑曜石（未完成）"
     }
   },
   "questID:3": 201205,

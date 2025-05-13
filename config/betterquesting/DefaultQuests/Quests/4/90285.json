@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFluxducts have good performance, and are good for lag!",
+      "desc:8": "§7§o热力能量管道的性能不错，而且优化很好！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermaldynamics:duct_0"
       },
-      "name:8": "Leadstone Fluxduct"
+      "name:8": "铅石能量管道"
     }
   },
   "questID:3": 90285,

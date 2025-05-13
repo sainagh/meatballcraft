@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe package crafters for each extended crafting table are placed around an unpackager, and they work like molecular assemblers for extended recipes.\n\nYou can place multiple package crafters around an unpackager (up to six) to parallelize recipes and faster processing.\n\nSince each packager/unpckager pair holds up to 20 recipes, you can have setups that handle 20 recipes for each table.\n",
+      "desc:8": "§7§o各级工作台的封包合成器需放置在解包机旁，工作机制类似分子装配室。\n\n可环绕解包机放置多个封包合成器（最多6个）以并行处理配方，提高处理速度！\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "packagedexcrafting:basic_crafter"
       },
-      "name:8": "Package Crafter"
+      "name:8": "封包合成器"
     }
   },
   "questID:3": 90139,

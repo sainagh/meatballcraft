@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,600\nMining Level: Cobalt\nMining Speed: 11.6\nAttack: 10.5\nStop Being Selfish\n\nHandle\nModifier: 0.9\nDurability: -5\nStop Being Selfish\n\nExtra\nDurability: 198\nStop Being Selfish\n\nBows\nDrawspeed: 2.04\nRange Multiplier: 2.2\nBonus Damage: 6.5\nStop Being Selfish",
+      "desc:8": "顶端\n耐久：1,600\n挖掘等级：钴\n挖掘速度：11.6\n攻击力：10.5\n勿要自私\n\n手柄\n手柄系数：0.9\n耐久：-5\n勿要自私\n\n其它部件\n耐久：198\n勿要自私\n\n弓\n拉弓速度：2.04\n范围系数：2.2\n附加伤害：6.5\n勿要自私",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "pladium"
         }
       },
-      "name:8": "Pladium"
+      "name:8": "普雷蒂"
     }
   },
   "questID:3": 201179,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 2,200\nMining Level: 6\nMining Speed: 14.2\nAttack: 13.5\nMusic of the Spheres\n\nHandle\nModifier: 0.9\nDurability: -5\nMusic of the Spheres\n\nExtra\nDurability: 227\nMusic of the Spheres\n\nBows\nDrawspeed: 2.63\nRange Multiplier: 3\nBonus Damage: 12\nMusic of the Spheres",
+      "desc:8": "顶端\n耐久：2,200\n挖掘等级：6\n挖掘速度：14.2\n攻击力：13.5\n球体音乐\n\n手柄\n手柄系数：0.9\n耐久：-5\n球体音乐\n\n其它部件\n耐久：227\n球体音乐\n\n弓\n拉弓速度：2.63\n范围系数：3\n附加伤害：12\n球体音乐",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "aethium"
         }
       },
-      "name:8": "Aethium"
+      "name:8": "以太"
     }
   },
   "questID:3": 201181,

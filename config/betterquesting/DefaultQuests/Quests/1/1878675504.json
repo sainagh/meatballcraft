@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace on an item frame, and use Time in a Bottle to speed up the day/night cycle.",
+      "desc:8": "§7§o放在物品展示框中，使用时间之瓶来加速日夜循环。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "randomthings:eclipsedclock"
       },
-      "name:8": "Eclipsed Clock"
+      "name:8": "月蚀计"
     }
   },
   "questID:3": 1878675504,

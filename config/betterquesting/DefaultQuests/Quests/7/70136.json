@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCan drop when using Holystone tools.\nThe ore spawns in the Aether.",
+      "desc:8": "§7§o使用圣石工具时会掉落。\n该矿物生成于天境。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aether_legacy:ambrosium_shard"
       },
-      "name:8": "Ambrosium Shard"
+      "name:8": "神能晶片"
     }
   },
   "questID:3": 70136,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Catalyzation Chamber is a 3x3x3 multiblock, see the JEI preview for the structure.\n\nRight click the structure with Salis Mundus to form it.\n\nTo make the multiblock function function, place a Stone from Thaumic Wonders in the machine gui.\n\nEach stone has a different functionality:\nAlienist: makes eldritch clusters\nTransmuter: turns ores into other ores and back\nAlchemist: purifies ores\n\nStones have durability, but they can be enchanted with high levels of unbreaking to become nearly infinite.\n\nThe ore inputs are dropped in from the top, and the machine will drop outputs from the front.",
+      "desc:8": "§7§o催化室是一个3x3x3的多方块结构，在JEI中查看结构预览。\n\n使用世界盐右击结构来使结构成型。\n\n要使多方块正常工作，需在机器GUI中放入神秘奇境模组的催化石。\n\n每种催化石有不同效果：\n异形之石：将矿石转换成奇异矿簇\n转化之石：转化矿石的种类\n炼金术士之石：纯化矿物\n\n催化石有耐久度，但可以附上高等级的耐久魔咒，来变的几乎不会损坏。\n\n从顶部丢入矿物进行输入，机器会将产物从前方丢出。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicwonders:catalyzation_chamber"
       },
-      "name:8": "Catalyzation Chamber"
+      "name:8": "催化室"
     }
   },
   "questID:3": 2145,

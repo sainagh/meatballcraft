@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTravel using a warp core on a space station",
+      "desc:8": "§7§o在空间站使用跃迁核心",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "minecraft:sand"
       },
-      "name:8": "Hator"
+      "name:8": "哈托尔"
     }
   },
   "questID:3": 20280,
@@ -19,8 +19,19 @@
       "dimension:3": 150,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Hator",
+      "name:8": "哈托尔",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "minecraft:sand"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

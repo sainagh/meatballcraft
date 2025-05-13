@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The key behind understanding unknown phenomena is to nderstand the patterns that define them.\nMagical properties follow some sort of conservation law, where the vital energy I possess, what on Earth we call essence, can be transferred to inanimate objects too.\nSome of these connections appear to be strong, while others aren\u0027t, and some are straight up inconsequential.\nBy being able to move these enchantments between objects, I can find good ways to combine them.",
+      "desc:8": "理解未知现象的关键，在于理解定义这些现象的模式。\n魔法遵循某种守恒定律，我所拥有的生命能量——也就是我们在地球上所说的精华——可以传递给无生命的物体。\n这些联系有些坚如磐石，有的则形同虚设。\n通过在物体间转移这些魔咒，我可以找到将它们结合起来的好方法。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:diss_enchanter"
       },
-      "name:8": "Disenchanting"
+      "name:8": "祛魔"
     }
   },
   "questID:3": 707,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oA magma block is required underneath the anvil to provide enough heat.\n\nSpecific casts can be used for multiple outcomes, so an anvil for each cast is recommended.\n\nRecipe items can be dropped or dispensed directly on the anvil.\n\nSome sort of user can be used to hit the anvil with a Ya Hammer.",
+      "desc:8": "§7§o需要在其下放置岩浆块以通过热源。\n\n不同多方块部件需要不同模具，因此推荐每种模具配一个铁砧。\n\n原料需要丢在铁砧上。\n\n使用者之类的机器可使用YA锤子右击铁砧。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "woot:anvil"
       },
-      "name:8": "Stygian Iron Anvil"
+      "name:8": "地狱铁砧"
     }
   },
   "questID:3": 20685,

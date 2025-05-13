@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Makes alloys accepting up to three materials.\nAnd smelts things too!",
+      "desc:8": "使用最多三种材料制作合金。\n也能烧炼物品！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:block_alloy_smelter"
       },
-      "name:8": "Alloy Smelter"
+      "name:8": "合金炉"
     }
   },
   "questID:3": 20556,

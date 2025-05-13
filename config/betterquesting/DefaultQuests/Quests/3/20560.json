@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Smelting.\nWith.\nElectricity.",
+      "desc:8": "使用。\n电力。\n烧炼。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermalexpansion:machine",
@@ -23,7 +23,7 @@
           ]
         }
       },
-      "name:8": "Redstone Furnace"
+      "name:8": "红石炉"
     }
   },
   "questID:3": 20560,

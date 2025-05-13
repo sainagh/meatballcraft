@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "It appears I can contain one of the isotopes generated when reprocessing this new fuel, into a single block that will produce me 400 rf/t. Although it is a small amount, It seems to make a decent portable battery of sorts for small machines.",
+      "desc:8": "看起来，我可以将这种新燃料再处理过程中产生的一种同位素单独封装进一个方块中，使其以400 RF/t的速率产能。虽然产量不高，但对于小型机器来说似乎可以作为一种不错的便携电池使用。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "nuclearcraft:californium"
       },
-      "name:8": "Portable Battery"
+      "name:8": "便携电池"
     }
   },
   "questID:3": 50246,

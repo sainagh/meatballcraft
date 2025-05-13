@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate lets you add red alloy wire levels.\n\nThe side with a torch is the output, and the three inputs are summed.",
+      "desc:8": "§7§o与原版比较器类似，使用螺丝刀Shift右击调整模式。\n\n有火把的一侧为输出端。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 26,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Comparator"
+      "name:8": "比较器"
     }
   },
   "questID:3": 90366,

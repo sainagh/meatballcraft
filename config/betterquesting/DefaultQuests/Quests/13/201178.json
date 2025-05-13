@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,300\nMining Level: Cobalt\nMining Speed: 10.3\nAttack: 9\nFruit Salad\n\nHandle\nModifier: 0.9\nDurability: -5\nNature\u0027s Blessing\n\nExtra\nDurability: 169\nNature\u0027s Blessing\n\nBows\nDrawspeed: 1.67\nRange Multiplier: 1.6\nBonus Damage: 5\nNature\u0027s Blessing",
+      "desc:8": "顶端\n耐久：1,300\n挖掘等级：钴\n挖掘速度：10.3\n攻击力：9\n水果沙拉\n\n手柄\n手柄系数：0.9\n耐久：-5\n自然祝福\n\n其它部件\n耐久：169\n自然祝福\n\n弓\n拉弓速度：1.67\n范围系数：1.6\n附加伤害：5\n自然祝福",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "kyronite"
         }
       },
-      "name:8": "Kyronite"
+      "name:8": "凯罗尼"
     }
   },
   "questID:3": 201178,

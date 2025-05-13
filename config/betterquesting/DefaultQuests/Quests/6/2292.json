@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTablets are one use items that perform a given action once.\n\nAfter crafting, tablets need to be enchanted by right clicking it on a charged tombstone.",
+      "desc:8": "§7§o石板是可实现指定功能的一次性物品。\n\n制作后，需要对有灵魂的墓碑右击为其附魔。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "tombstone:crafting_ingredient"
       },
-      "name:8": "Tablets"
+      "name:8": "石板"
     }
   },
   "questID:3": 2292,

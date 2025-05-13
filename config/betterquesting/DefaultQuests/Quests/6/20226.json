@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo stabilize thaumcraft infusions, you should place stabilizing blocks around the infusion matrix.\n\nAll stabilizing blocks should be placed following central symmetry with respect to the center pedestal!\n\nThe more variety of stabilizing blocks, the better! Different colors count as different blocks!\n\nIn addition, Stabilizers from Thaumcraft can be used to prevent some bad effects. Redstone Inlays should be used to connect the stabilizers to each pedestal. These should still follow central symmetry.\n\nThe following stabilizing blocks are listed in order of stability power (you should have at most 6 of each):\nCandelabra,\nCandles,\nMob heads",
+      "desc:8": "§7§o可通过在符文矩阵周围放置特定方块来增加注魔稳定性。\n\n所有稳定物都应相对于中心祭坛中心对称！\n\n稳定物种类越多，效果越好！颜色不同会被视为不同方块！\n\n此外，神秘时代的稳定器还可用来防止某些负面效果。使用红石镶嵌将稳定器与每个基座相连接。也应遵守中心对称规则。\n\n使用以下列出的稳定物来增加稳定性（每种最多可使用6个）：\n烛台，\n蜡烛，\n怪物头颅",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:candle_white"
       },
-      "name:8": "Passive Stabilizers"
+      "name:8": "被动稳定器"
     }
   },
   "questID:3": 20226,

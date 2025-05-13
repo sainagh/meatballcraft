@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Many of the creatures I\u0027ve encountered possess the power of decay.\nI\u0027ve yet to fully understand it, but this power allows them to \u0027poison\u0027 other beings by accelerating their decay and decomposition. Nasty stuff...\nThis rose, though, appears to counteract the effects of withering.",
+      "desc:8": "我所遭遇的多数生灵都具有腐烂之力。\n虽未能完全理解，但这种力量可通过加速腐朽和分解，来“毒害”其他存在。真是恶心……\n然而，这种玫瑰似乎能中和凋零效果。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "xreliquary:witherless_rose"
       },
-      "name:8": "Witherless Rose"
+      "name:8": "不凋玫瑰"
     }
   },
   "questID:3": 50111,

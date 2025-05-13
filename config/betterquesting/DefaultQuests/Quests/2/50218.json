@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMany thanks to Dr Zoidberg for adding the fuel quests\n\n§fUhhh, and thorium generates naturally as well, this planet is truly amazing!",
+      "desc:8": "§7§o非常感谢Dr Zoidberg添加的这些燃料任务\n\n§f呃，钍也一样吗，这个星球真是太神奇了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:fuel_thorium"
       },
-      "name:8": "TBU Fuel"
+      "name:8": "TBU燃料"
     }
   },
   "questID:3": 50218,

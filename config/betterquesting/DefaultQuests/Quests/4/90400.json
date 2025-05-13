@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIncreases the speed of the vacuum module.",
+      "desc:8": "§7§o提高虚空模块的拾取速度。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularrouters:augment"
       },
-      "name:8": "Fast Pickup Augment"
+      "name:8": "快速拾取拓展"
     }
   },
   "questID:3": 90400,

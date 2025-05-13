@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The sky islands in outer Terra have wonderful fauna; wonderful indeed...\nThere be dragons, but not of the same species as the ones on the surface. These ones are capable of actual magic, to an extent, and can produce shields against some types of attacks.\nApparently the testificates decided they did not want to deal with said dragons, and they let them be. \nWell, I did not; their magic is very peculiar, and I will try to do as much as possible to investigate it.\nEver since I came here, I am finding myself obsessing more over things like this. I am a curious person, I have always been, but this may be a bit too much. There is so much new stuff to learn though, and I really need some answers.",
+      "desc:8": "泰拉外层空间的浮岛上栖息着奇妙生物群……\n此处盘踞的龙种与地表迥异，它们能施展真正的魔法，甚至生成抵御特定攻击的护盾。\n显然泰斯提斐人选择避其锋芒，任其逍遥。\n但我偏要反其道而行；它们的魔法体系极为特殊，我将穷尽手段解析其奥秘。\n自抵达此地以来，我对这类事物的痴迷与日俱增。虽说求知欲本是我的天性，但眼下这般执著或许已超出常理。然而新知浩如烟海，而我渴求的答案正藏于其中。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:dragon_heart"
       },
-      "name:8": "Agents of Chaos"
+      "name:8": "混沌使徒"
     }
   },
   "questID:3": 125,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "draconicevolution:dragon_heart"
             },
-            "TrophyName:8": "Ender Dragon Slayer",
+            "TrophyName:8": "屠龙者・末影",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound on top of the large fortress on top of the ice wall.\n\n§fThe architecture built by the people of the Twilight Forest is truly amazing, even when in ruin, and taken over by monsters. Their fate is truly sad. They were powerful, knowledgeable, and most importantly, curious. \nThe line between genuine inquisitiveness and greed is a fine one, and who knows wether or not the interests of the scholars of this land belonged to the former or the latter.\nWith regards to wanting to manipulate organic matter, there likely must have been a higher goal, a concrete objective, a mission.\nI wanted to be famous, to receive the Nobel prize. I know I was greedy with my pursuits, but the beauty of the unknown was still there to guide me, and what a beauty!",
+      "desc:8": "§7§o发现于暮色冰川之上的巨型宫殿。\n\n§f暮色森林先民建造的建筑令人叹为观止，即便如今已成废墟，沦为魔物巢穴。他们的命运着实可悲。曾几何时，他们强大睿智，更重要的是求知若渴。\nT纯粹求知欲与贪婪的界限向来模糊，谁又能断言这片土地的学者究属前者抑或后者？\n至于试图操控有机物质的初衷，想必应有更高远的目标、更具体的愿景、更宏大的使命。\n我曾渴望名利，期盼斩获诺贝尔奖。虽知这份执念暗藏贪欲，但未知之美的指引始终未离，那是何等动人心魄的绝景！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "twilightforest:trophy"
       },
-      "name:8": "A fortress of solitude"
+      "name:8": "孤寂要塞"
     }
   },
   "questID:3": 258,
@@ -31,7 +31,7 @@
               "Damage:2": 0,
               "id:8": "twilightforest:aurora_block"
             },
-            "TrophyName:8": "Ice Queen Slayer",
+            "TrophyName:8": "冰雪女王屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

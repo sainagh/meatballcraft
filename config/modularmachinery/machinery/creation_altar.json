@@ -472,7 +472,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "generalized_output_item"
+                "both_item_fluid_output"
             ]
         },
         {

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTurbines are used to make energy from high pressure steam (no need to bother with other inputs), and to make exhaust steam.\n\nSee the multiblock preview for a preview of the exterior design of a turbine.\n\nThe end faces are used for turbine bearing setups, with a bearing surrounded by coils and inlet/outlet setup. \n\nOne face should have inlets, the other should have outlets.\n\nCoils have to be placed following proximity rules, similarly to how coolers work in fission reactors.\n\nThere are multiblock previews for good turbine bearing setups.\n\nThe two turbine bearings are connected by a turbine rotor, consisting of a shaft surrounded by blades and stators. \n\nBoth blades and stators have to be placed in a planar configuration around the shaft.\n\nThe higher the efficiecy of a blade, the higher the expansion coefficient (which is bad). Stators decrease the expansion coefficient. Optimal designs have near 100% expansion coefficient.",
+      "desc:8": "§7§o涡轮机可通过高压蒸汽产出能量（无需其他输入），同时生成废蒸汽。\n\n通过多方块预览可查看涡轮机的外部设计。\n\n两端面用于放置涡轮轴承设计，轴承需被线圈及输入/输出口环绕。\n\n一端设为输入端，另一端设为输出端。\n\n线圈需遵循邻近规则放置，类似于裂变反应堆中冷却器的工作方式。\n\n多方块预览中包含推荐的涡轮轴承设计方案。\n\n两个涡轮轴承通过涡轮转子连接，转子由转子轴及环绕的叶片与定子构成。\n\n叶片与定子需沿轴向平面排布。\n\n叶片效率倍数越高，膨胀系数（负面影响）越大。定子可降低膨胀系数。最优设计应使膨胀系数接近100%。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:turbine_controller"
       },
-      "name:8": "Turbines"
+      "name:8": "涡轮机"
     }
   },
   "questID:3": 457,

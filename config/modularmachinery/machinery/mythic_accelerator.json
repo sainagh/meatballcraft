@@ -2,6 +2,34 @@
     "registryname": "mythic_accelerator",
     "localizedname": "Mythic Accelerator",
 	"color": "382e2d",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:plasma_accelerator_tube",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "速度x5",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.2
+            }]
+        },
+        {
+            "elements": "contenttweaker:dyson_extruder",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "速度x20",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.05
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -1,

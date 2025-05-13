@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAdaminite: 2000 (cannot store vitium)",
+      "desc:8": "§7§o精金源质罐子：2000（无法存储Vitium）",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumadditions:jar_adaminite"
       },
-      "name:8": "Adaminite Foritified Jar"
+      "name:8": "精金源质罐子"
     }
   },
   "questID:3": 20406,

@@ -375,7 +375,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Have a cookie",
+      "desc:8": "吃个饼干吧",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
@@ -383,7 +383,7 @@
         "id:8": "botania:cosmetic"
       },
       "ismain:1": 1,
-      "name:8": "Material Master Trophy"
+      "name:8": "材料大师奖杯"
     }
   },
   "questID:3": 201197,
@@ -398,7 +398,7 @@
           "id:8": "actuallyadditions:item_food",
           "tag:10": {
             "display:10": {
-              "Name:8": "Chocolate Chip Cookie"
+              "Name:8": "巧克力曲奇"
             }
           }
         }

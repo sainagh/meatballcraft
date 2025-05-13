@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEvery time a Dimensional Door disappears, it leaves a rift in its place.\n\nThese rifts will slowly grow, and eventually will become massive.\n\nThey are fairly harmless, but they can get laggy so it is good to remove them with the Rift Remover. If you hold one nearby a rift, it will highlight a location where the item can be used to remove a given rift.\n\nIf you want to keep one for decorative purposes, the Rift Stabilizer can be used. ",
+      "desc:8": "§7§o每次维度门消失后，会在原地留下一道裂痕。\n\n裂痕会缓慢增长，最后会变得很大。\n\n危害不是很大，但是会造成卡顿，所以最好用裂痕移除器将其移除。在裂痕附近手持裂痕移除器，会高亮显示可使用清除器的地点。\n\n如果想保留裂痕作为装饰，可使用裂痕稳定器。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "dimdoors:rift_remover"
       },
-      "name:8": "What is this and how do I get rid of it #2"
+      "name:8": "这是什么我该怎么摆脱它 #2"
     }
   },
   "questID:3": 2293,

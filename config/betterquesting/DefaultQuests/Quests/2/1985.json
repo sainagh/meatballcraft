@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIt\u0027s very slow.",
+      "desc:8": "§7§o速度非常慢。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "unholy_radioactive_mix"
         }
       },
-      "name:8": "Simplest One-Fits-All Salt Reactor"
+      "name:8": "最简单的多功能一体熔盐反应堆"
     }
   },
   "questID:3": 1985,

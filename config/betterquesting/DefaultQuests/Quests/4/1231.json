@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo perform any autocrafting tasks, you need a crafting processing unit.\n\nThe crafting processing unit is a cuboid multiblock that can be made out of crafting storage and co-processing units.\n\nA crafting processing unit lets you fulfill one autocrafting request.\n\nYou should have multiple crafting processing units to request multiple things at once!",
+      "desc:8": "§7§o自动合成任务需要合成处理单元才能进行。\n\n合成处理单元是由合成存储器和并行处理单元构成的多方块立方体结构。\n\n一个合成处理单元可响应一个自动合成请求。\n\n应建造多个自动处理单元以同时进行多个自动合成任务！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 9,
         "id:8": "genetics:misc"
       },
-      "name:8": "Crafting Processing Unit"
+      "name:8": "合成处理单元"
     }
   },
   "questID:3": 1231,

@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§o§7§oSlay the watcher, and defeat mobs in iceika.",
+      "desc:8": "§o§7§o击杀监视者，并击败冰晶雪原的怪物。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:crabclaw_maul",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Crabsmasher Maul"
+            "Name:8": "碎蟹锤"
           },
           "ench:9": {
             "0:10": {
@@ -42,7 +42,7 @@
           }
         }
       },
-      "name:8": "Crabsmasher Maul"
+      "name:8": "碎蟹锤"
     }
   },
   "questID:3": 993,
@@ -56,9 +56,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oCrabsmasher Maul§r"
+              "Name:8": "§6§o碎蟹锤§r"
             },
             "ench:9": {
               "0:10": {

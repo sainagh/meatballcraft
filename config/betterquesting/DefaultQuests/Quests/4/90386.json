@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate works like an AND gate, but it can also mantain one of the input signals.\n\nThe output is the side with the taller torch.\n\nThe strong input is the side with the shorter torch.\n\nThe top line connects the other two sides.\n\nThe top line can act as a redstone line, transmitting signals to the other side.\n\nIf both the strong input, and either side of the strong line are on, the output will be on.",
+      "desc:8": "§7§o该门电路和与门类似，但其中一个输入端信号可保持持续状态。\n\n有较高火把的一侧为输出端。\n\n有较短火把的一侧为强信号输入端。\n\n顶部线路连接另外两侧。\n\n顶部线路与红石线类似，可将一侧信号传输到另一侧。\n\n当强信号输入端，和强信号线路（即顶部线路）的任意一侧，均有信号时，输出端输出信号。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 27,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "AND Cell"
+      "name:8": "与单元"
     }
   },
   "questID:3": 90386,

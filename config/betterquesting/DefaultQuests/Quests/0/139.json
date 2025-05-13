@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I guess I may have just interrupted an espionage mission.\nNice, I made someone who I don\u0027t know angry at me!\nI did gain a bit of insight into the Twilight Horde\u0027s modus operandi, though. While the bulk of their forces are quite animalistic in their behavior, there seems to be a more intelligent core of operations to assume some specific tasks.\nWhoever the higher-ups in this more strategic chain of command may be, now they know of me.",
+      "desc:8": "我似乎破坏了某个谍报行动。\n妙啊，又多了个素未谋面的仇敌！\n但也窥见了暮色部落的运转机制：主力部队虽保留兽性本能，核心层却具备战略智能。\n不论那指挥链顶端是何等存在，他们现在知道我了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:watcher_eye"
       },
-      "name:8": "Now they know!!"
+      "name:8": "他们知道了！！"
     }
   },
   "questID:3": 139,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:watcher_eye"
             },
-            "TrophyName:8": "Watcher Slayer",
+            "TrophyName:8": "监视者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

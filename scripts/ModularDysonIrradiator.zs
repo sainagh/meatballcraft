@@ -40,7 +40,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_conduit>*4,
 
 mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:irradiated_filler>, <extracells:fluidfiller>, 1000);
 
-val creationray = RecipeBuilder.newBuilder("creationray","creation_altar",1600);
+val creationray = RecipeBuilder.newBuilder("creationray","creation_altar",100);
 creationray.addEnergyPerTickInput(400000);
 creationray.addFluidInput(<fluid:lifeessence>*10);
 creationray.addFluidInput(<fluid:astralsorcery.liquidstarlight>*10);
@@ -163,7 +163,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:irradiator_casing>
 [<contenttweaker:high_refraction_alloy_ingot>, <contenttweaker:infinity_plate>, <contenttweaker:radiation_crafter>, <contenttweaker:infinity_plate>, <contenttweaker:high_refraction_alloy_ingot>]]);  
 
 
-val hyperdenseplasmacent = RecipeBuilder.newBuilder("hyperdenseplasmacent","iron_centrifuge",200);
+val hyperdenseplasmacent = RecipeBuilder.newBuilder("hyperdenseplasmacent","iron_centrifuge",2);
 hyperdenseplasmacent.addEnergyPerTickInput(1000000);
 hyperdenseplasmacent.addFluidInput(<fluid:chaotic_matter>*50);
 hyperdenseplasmacent.addFluidInput(<fluid:nightmarish_matter>*50);
@@ -208,6 +208,16 @@ irradiationultimatechicktop.addItemOutput(<avaritia:resource:6>*12);
 irradiationultimatechicktop.addItemOutput(<extendedcrafting:singularity_ultimate>);
 irradiationultimatechicktop.build();
 
+val irradiationultimatekashtop = RecipeBuilder.newBuilder("irradiationultimatekashtop","dyson_irradiator_top",200);
+irradiationultimatekashtop.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationultimatekashtop.addItemInput(<contenttweaker:defined_ingot>);
+irradiationultimatekashtop.addItemInput(<contenttweaker:infinity_egg>);
+irradiationultimatekashtop.addItemInput(<contenttweaker:infinity_stone>);
+irradiationultimatekashtop.addItemInput(<avaritiaitem:self_actualizing_stone>);
+irradiationultimatekashtop.addItemOutput(<avaritia:resource:6>*27);
+irradiationultimatekashtop.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationultimatekashtop.build();
+
 val irradiationultimatechickbot = RecipeBuilder.newBuilder("irradiationultimatechickbot","dyson_irradiator_bottom",200);
 irradiationultimatechickbot.addFluidInput(<fluid:hyperdense_plasma>*100);
 irradiationultimatechickbot.addItemInput(<contenttweaker:defined_ingot>);
@@ -217,6 +227,16 @@ irradiationultimatechickbot.addItemInput(<appliedenergistics2:material:47>);
 irradiationultimatechickbot.addItemOutput(<avaritia:resource:6>*12);
 irradiationultimatechickbot.addItemOutput(<extendedcrafting:singularity_ultimate>);
 irradiationultimatechickbot.build();
+
+val irradiationultimatekashbot = RecipeBuilder.newBuilder("irradiationultimatekashbot","dyson_irradiator_bottom",200);
+irradiationultimatekashbot.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationultimatekashbot.addItemInput(<contenttweaker:defined_ingot>);
+irradiationultimatekashbot.addItemInput(<contenttweaker:infinity_egg>);
+irradiationultimatekashbot.addItemInput(<contenttweaker:infinity_stone>);
+irradiationultimatekashbot.addItemInput(<avaritiaitem:self_actualizing_stone>);
+irradiationultimatekashbot.addItemOutput(<avaritia:resource:6>*27);
+irradiationultimatekashbot.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationultimatekashbot.build();
 
 val irradiationrainbowtop = RecipeBuilder.newBuilder("irradiationrainbowtop","dyson_irradiator_top",200);
 irradiationrainbowtop.addFluidInput(<fluid:chaos>*1440);
@@ -601,3 +621,4 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:pulsar_screen>*2,
 [<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <contenttweaker:atomic_mirror>, <contenttweaker:atomic_mirror>, <contenttweaker:atomic_mirror>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
 [<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
 [<contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>]]);  
+

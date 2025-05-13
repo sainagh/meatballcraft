@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    262948337
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "whisper_of_kurald_thyrllan"
+        }
+      },
+      "name:8": "来自库拉德・泰尔兰的明信片"
+    }
+  },
+  "questID:3": 1455291383,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forge:bucketfilled",
+          "tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "whisper_of_kurald_thyrllan"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

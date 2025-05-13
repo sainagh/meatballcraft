@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 760\nMining Level: 6\nMining Speed: 3.65\nAttack: 4.3\nToxic\n\nHandle\nModifier: 1.05\nDurability: 105\nLaced\n\nExtra\nDurability: 80\nLaced\n\nBows\nDrawspeed: 1.54\nRange Multiplier: 1.4\nBonus Damage: 3\nLaced",
+      "desc:8": "顶端\n耐久：760\n挖掘等级：6\n挖掘速度：3.65\n攻击力：4.3\nToxic\n\n手柄\n手柄系数：1.05\n耐久：105\n掺和\n\n其它部件\n耐久：80\n掺和\n\n弓\n拉弓速度：1.54\n范围系数：1.4\n附加伤害：3\n掺和",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "mystite"
         }
       },
-      "name:8": "Mystite"
+      "name:8": "神秘"
     }
   },
   "questID:3": 201067,

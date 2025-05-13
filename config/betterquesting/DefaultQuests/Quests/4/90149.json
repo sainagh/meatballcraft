@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oNormally, when working with patterns for \u0027normal\u0027 recipes, you just need one interface.\nTo encode these recipes, you need two blocks! \n\nThe packager is the first! You should put your first package recipe holder in a packager.\n\nThese can be placed anywhere in your AE2 network, but for organization it\u0027s a good idea to put them close to their respective unpackager.",
+      "desc:8": "§7§o通常情况下，处理“常规”样板时，只需要一个接口。\n但要处理这些封包样板，需要两个装置！\n\n首先是封包机！将第一个封包配方存储器放入封包机中。\n\n封包机可位于AE网络的任意位置，但为了方便管理，建议放置在对应的解包机附近。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "packagedauto:encoder"
       },
-      "name:8": "Packager"
+      "name:8": "封包机"
     }
   },
   "questID:3": 90149,

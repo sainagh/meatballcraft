@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDefeat Oblivionaire.",
+      "desc:8": "§7§o击败遗忘者。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aether_legacy:valkyrie_lance",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Dauthdaert"
+            "Name:8": "达司忒"
           },
           "ench:9": {
             "0:10": {
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Dauthdaert"
+      "name:8": "达司忒"
     }
   },
   "questID:3": 2160,
@@ -48,9 +48,9 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oDauthdaert§r"
+              "Name:8": "§6§o达司忒§r"
             },
             "ench:9": {
               "0:10": {

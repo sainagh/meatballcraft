@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe pack uses custom \u0027info boxes\u0027 items to explain mechanics and suggest strategies.\n\nYou can pin them in JEI if you need to keep track of things!",
+      "desc:8": "§7§o本整合包使用自定义的“信息框”物品来阐述机制与建议。\n\n如果需要，你可以把它们固定在JEI标签中！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "immersiveengineering:metal_device1"
       },
-      "name:8": "Energy!"
+      "name:8": "能量！"
     }
   },
   "questID:3": 1138,

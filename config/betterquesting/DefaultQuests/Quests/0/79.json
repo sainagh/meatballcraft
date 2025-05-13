@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Even though I now know that negative gravity and mass are possible, the strange properties of divine stars still do not make sense.\nThat said, I think I know what to try next.\nTaking a distance from this planet has allowed me to observe phenomena impossible to see from its surface.\nWhat if more stuff would become more evident after taking a distance from this solar system.\nAlso, while I generally believe to be quite far away from the milky way, I can try to get an idea on where the hell I might be relative to Earth.\nTime to get speedy with dilithium!!",
+      "desc:8": "尽管我现在知道了负引力和负质量存在的可能性，但神圣之星的奇特性质仍让我一头雾水。\n即便如此，我至少知道接下来该做些什么尝试了。\n在太空中，我得以观测到星球表面无法发现的奇异现象。\n这是否意味着，如果能在深空中观测该恒星系，是不是会有更多事物显露而出？\n此外，虽然确信自己离银河系相当遥远，但或许可以尝试定位自己相对于地球的位置。\n是时候用二锂提提速了！！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "libvulpes:productdust"
       },
-      "name:8": "Warp Speed"
+      "name:8": "跃迁极速"
     }
   },
   "questID:3": 79,

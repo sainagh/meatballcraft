@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUsed to craft machines from Forestry and Gendustry (see §c§oManufacturing and Fabrication§7§o)\n\n§rFor some reason, the local vegetation seems to have an affinity for bronze, so I ideated a machine casing that should work very well at handling vegetation and farming.",
+      "desc:8": "§7§o用于制作林业和基因工业模组的机器（可前往§c§o制作与加工§o§r§o§7§o查看）\n\n§r出于某种原因，当地的植被似乎对青铜有亲和性，因此我设计了一种机器外壳，可以很好地处理植被和耕作。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:sturdy_machine"
       },
-      "name:8": "Forestry"
+      "name:8": "林业"
     }
   },
   "questID:3": 50,

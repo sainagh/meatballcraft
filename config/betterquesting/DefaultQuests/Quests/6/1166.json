@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMakes it day.",
+      "desc:8": "§7§o时间变为白天。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:double_plant"
       },
-      "name:8": "Rite of Solar Glory"
+      "name:8": "悼日荣光仪式"
     }
   },
   "questID:3": 1166,

@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBuilding made even easier! (according to Jørge)\n\nPress Z to change mode, and sift + Z to change the way it interacts with fluids.\n\nType /wandOops in chat to undo the latest step!",
+      "desc:8": "§7§o让建筑变得更简单！（Jørge是这么说的）\n\n按Z键切换模式，Shift+Z键切换与流体的交互方式。\n\n在聊天栏中输入/wandOops可撤销最后一步操作！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "betterbuilderswands:wandunbreakable"
       },
-      "name:8": "New Quest"
+      "name:8": "不毁手杖"
     }
   },
   "questID:3": 1939,

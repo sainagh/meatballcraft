@@ -9,12 +9,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMediocre night vision.",
+      "desc:8": "§7§o提供夜视效果。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:night_vision_goggles"
       },
-      "name:8": "Night Vision Goggles"
+      "name:8": "夜视镜"
     }
   },
   "questID:3": 2018,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 50\nMining Level: Iron\nMining Speed: 5.1\nAttack: 2.8\nBotanical II\nEcological\n\nHandle\nModifier: 1.15\nDurability: 20\nBotanical\nEcological\n\nExtra\nDurability: 20\nBotanical\nEcological\n\nBows\nDrawspeed: 0.91\nRange Multiplier: 1.1\nBonus Damage: 1.8\nBotanical\nEcological",
+      "desc:8": "顶端\n耐久：50\n挖掘等级：铁\n挖掘速度：5.1\n攻击力：2.8\n植物学 II\n生态\n\n手柄\n手柄系数：1.15\n耐久：20\n植物学\n生态\n\n其它部件\n耐久：20\n植物学\n生态\n\n弓\n拉弓速度：0.91\n范围系数：1.1\n附加伤害：1.8\n植物学\n生态",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "livingwood_plustic"
         }
       },
-      "name:8": "Livingwood"
+      "name:8": "活木"
     }
   },
   "questID:3": 201186,

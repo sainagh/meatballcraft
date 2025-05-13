@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Using a tome of arcana, emerald can be converted into experience bottles, this is awesome!",
+      "desc:8": "使用奥法宝典可将绿宝石转化为附魔之瓶，太棒了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:experience_bottle"
       },
-      "name:8": "Emeralds to XP"
+      "name:8": "绿宝石经验转化"
     }
   },
   "questID:3": 20498,

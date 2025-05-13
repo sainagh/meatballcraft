@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe chat detectors can be configured to send a redstone signal whenever the specified message is sent in chat.\n\nGlobal chat detector will activate if the message is sent by any player.\n\nThe base chat detector is player bound.",
+      "desc:8": "§7§o通过配置，聊天检测器可检测特定聊天消息从而发出红石信号。\n\n全局聊天检测器会检测所有玩家发出的消息。\n\n基础版本的检测器则只检测绑定玩家。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "randomthings:globalchatdetector"
       },
-      "name:8": "Chat Control"
+      "name:8": "聊天控制"
     }
   },
   "questID:3": 1958,

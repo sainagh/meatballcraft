@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Rudimentary snares are used to inflict mobs with a debuff that allows them to drop fragments of their will.",
+      "desc:8": "原始投网可对生物造成令其能掉落恶魔意志的负面状态效果。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bloodmagic:soul_snare"
       },
-      "name:8": "Rudimentary Snare"
+      "name:8": "原始投网"
     }
   },
   "questID:3": 20087,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 996\nMining Level: Obsidian\nMining Speed: 11\nAttack: 5\nLightweight\nSharp\n\nHandle\nModifier: 1\nDurability: 311\nLightweight\n\nExtra\nDurability: 46\nLightweight\n\nBows\nDrawspeed: 2\nRange Multiplier: 2\nBonus Damage: 5\nLightweight\nSharp",
+      "desc:8": "顶端\n耐久：996\n挖掘等级：黑曜石\n挖掘速度：11\n攻击力：5\n轻便\n锐利\n\n手柄\n手柄系数：1\n耐久：311\n轻便\n\n其它部件\n耐久：46\n轻便\n\n弓\n拉弓速度：2\n范围系数：2\n附加伤害：5\n轻便\n锐利",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "hard_carbon"
         }
       },
-      "name:8": "Hard Carbon"
+      "name:8": "硬碳"
     }
   },
   "questID:3": 201109,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRenmant spawners can be found in the Overworld, and they drop various types of spectral dusts.\n\nThese can be used as a resource to craft the various elemental crystals in imbuement altars, which are also found in the Overworld.",
+      "desc:8": "§7§o主世界可找到遗灵刷怪箱，其会掉落不同种类的灵尘。\n\n灵尘可用在注灵祭坛中合成不同的元素水晶，祭坛也可在主世界找到。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 7,
         "id:8": "ebwizardry:spectral_dust"
       },
-      "name:8": "Spectral Dusts"
+      "name:8": "灵尘"
     }
   },
   "questID:3": 2295,

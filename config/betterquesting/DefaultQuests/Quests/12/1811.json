@@ -9,12 +9,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSee in the dark.",
+      "desc:8": "§7§o可在黑暗中视物。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "erebus:rein_compound_goggles"
       },
-      "name:8": "Compound Goggles"
+      "name:8": "复眼护目镜"
     }
   },
   "questID:3": 1811,

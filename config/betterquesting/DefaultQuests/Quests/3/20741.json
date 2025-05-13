@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Chemistry is fun OK!\nOK!?!\nGood to have on autocraft, I will need a decent amount of these.",
+      "desc:8": "化学很有意思对吧！\n对吧！？！\n最好做成被动产线，需求量会很大。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:chemical_reactor_idle"
       },
-      "name:8": "Chemical Reactor"
+      "name:8": "化学反应器"
     }
   },
   "questID:3": 20741,

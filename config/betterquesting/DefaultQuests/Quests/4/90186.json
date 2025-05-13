@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWireless connectors are a lower-scale version of the quantum bridge. \n\nThey have a very high energy cost, growing quadratically with distance. They will not work across dimensions.\n\nOnly one network requires power for both to function.\n\nUse the setup kit to link two connectors together.\n\n§7§oThanks to Fox and StaffiX for the help!",
+      "desc:8": "§7§o无线接入器相当于简易版的量子网桥。\n\n其能耗非常高，随距离以二次方形式增长。无法跨维度工作。\n\n仅需一端存在能量供应便可工作。\n\n使用无线设置工具连接两个无线接入器。\n\n感谢Fox和Staffix的帮助！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ae2stuff:wireless"
       },
-      "name:8": "Wireless Connector"
+      "name:8": "无线接入器"
     }
   },
   "questID:3": 90186,

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    164351010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:fractallite_taint"
+      },
+      "name:8": "I Feel the Taint"
+    }
+  },
+  "questID:3": 1167022541,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:fractallite_taint"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

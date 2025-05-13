@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Better Relays, better Collectors, better EMC!",
+      "desc:8": "更好的继电器，更好的收集器，更快的EMC产出！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:collector_mk2"
       },
-      "name:8": "MK2 Power Flower"
+      "name:8": "力量花MK2"
     }
   },
   "questID:3": 20504,

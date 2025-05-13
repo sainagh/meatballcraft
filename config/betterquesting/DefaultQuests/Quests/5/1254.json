@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFrom the skeletal callstone!",
+      "desc:8": "§7§o通过骷髅召唤石获得！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_queen_ge",
@@ -152,7 +152,7 @@
           "MaxH:3": 20
         }
       },
-      "name:8": "Spring Water Bee"
+      "name:8": "泉水蜜蜂"
     }
   },
   "questID:3": 1254,

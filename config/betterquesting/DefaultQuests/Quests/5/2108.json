@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oComplete the Apothecary Prison Key puzzle.",
+      "desc:8": "§7§o完成药师监狱钥匙谜题。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_queen_ge",
@@ -153,7 +153,7 @@
           "MaxH:3": 50
         }
       },
-      "name:8": "Apothecary Bee"
+      "name:8": "药师蜜蜂"
     }
   },
   "questID:3": 2108,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe digital mob agonizer is a very effective way to produce essence for a blood altar.\n\nPlace one next to a blood altar, and use the altar linker to bind it.\n\nThe digital mob agonizer needs a data model, and a steady supply of matter, and it will automatically add life essence to the altar.\n\nMultiple agonizers can be connected to the same altar!\n\n§fSmaller digital factories, more life essence!",
+      "desc:8": "§7§o数字化苦难之井是产出生命源质的高效手段。\n\n在血之祭坛旁放置数字化苦难之井，使用祭坛连接器将二者绑定。\n\n数字化苦难之井需要数据模型和稳定的物质供应来自动为祭坛产出生命源质！\n\n多个数字化苦难之井可绑定至同一祭坛！\n\n§f更小的数字化工厂，但生命源质产出更多！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "deepmoblearningbm:digital_agonizer"
       },
-      "name:8": "Digital Mob Agonizer"
+      "name:8": "数字化苦难之井"
     }
   },
   "questID:3": 20443,

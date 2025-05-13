@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The alternators provide power to the crafter.\nThe more alternators in a 7x7 area around the machine, the better!",
+      "desc:8": "使用末影发电机为末影工作台功能。\n工作台周围7x7范围内发电机越多，合成速度越快！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extendedcrafting:ender_crafter"
       },
-      "name:8": "Ender Crafter"
+      "name:8": "末影工作台"
     }
   },
   "questID:3": 20696,

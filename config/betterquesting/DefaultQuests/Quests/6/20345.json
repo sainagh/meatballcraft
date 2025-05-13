@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe codex infernalis unlocks the demonic rituals!",
+      "desc:8": "§7§o地狱古籍能解锁恶魔仪式！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "patchouli:guide_book",
@@ -12,7 +12,7 @@
           "patchouli:book:8": "bewitchment:codex_infernalis"
         }
       },
-      "name:8": "Codex Infernalis"
+      "name:8": "地狱古籍"
     }
   },
   "questID:3": 20345,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oConsumes a dropped black lotus and a lot of mana to turn grass into enchanted soil.",
+      "desc:8": "§7§o消耗丢出的黑莲花和大量魔力，将草方块转化为蕴魔土。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "enchantedorchid"
         }
       },
-      "name:8": "Enchanted Orchid (Useful)"
+      "name:8": "蕴魔槿（实用）"
     }
   },
   "questID:3": 1317,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis flower is gated to later on in progression. It has a custom loot table with unique drops.\n\nAt the cost of mana, this flower converts nearby stone into ores.\n\n",
+      "desc:8": "§7§o这朵花在后续进度中才能合成。可生产的矿物列表已经过修改。\n\n通过消耗魔力，这朵花能将附近的石头转化为矿物。\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "orechid"
         }
       },
-      "name:8": "Orechid (Useful)"
+      "name:8": "凝矿兰（实用）"
     }
   },
   "questID:3": 1318,

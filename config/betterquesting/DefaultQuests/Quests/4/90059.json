@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe compacting drawer allows for multiple compacted version of an item (nuggets ingots blocks) to be extracted.",
+      "desc:8": "§7§o通过压缩抽屉，可直接提取某物品的多种压缩形式（粒、锭、块）。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "storagedrawers:compdrawers"
       },
-      "name:8": "Compacting Drawer"
+      "name:8": "压缩抽屉"
     }
   },
   "questID:3": 90059,

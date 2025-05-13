@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 35\nMining Level: Stone\nMining Speed: 2\nAttack: 2\nMagically Modifiable\nMagically Brittle\n\nHandle\nModifier: 1\nDurability: 25\nMagically Modifiable\nMagically Brittle\n\nExtra\nDurability: 15\nMagically Modifiable\nMagically Brittle\n\nBows\nDrawspeed: 1\nRange Multiplier: 1\nBonus Damage: 0\nMagically Modifiable\nMagically Brittle",
+      "desc:8": "顶端\n耐久：35\n挖掘等级：石头\n挖掘速度：2\n攻击力：2\n魔法强化\n魔法易碎\n\n手柄\n手柄系数：1\n耐久：25\n魔法强化\n魔法易碎\n\n其它部件\n耐久：15\n魔法强化\n魔法易碎\n\n弓\n拉弓速度：1\n范围系数：1\n附加伤害：0\n魔法强化\n魔法易碎",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "xu_magical_wood"
         }
       },
-      "name:8": "Magical Wood"
+      "name:8": "魔法木"
     }
   },
   "questID:3": 201086,

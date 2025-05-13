@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The quest for knowledge is not an easy one. As a practitioner of science, I have had many confirmations of this. Answers lead to more questions, which lead to more answers, which lead to more questions.\nThis answer, though, I am happy with! The bees are helping the Testificates! And I am all about helping the testificates!\nAs I was told in Furatto, there are still few, faithful to the Arbiter, that are pushing a campaign against the invaders of Terra. The rest of testificate society deemed them crazy, and thought them dead.\nApparently, they are still fighting, and their main ally are the bees! The massive facilities to forge armor and imbue potions on Osiris and Ptah serve the war effort in the buffer worlds of the Shyre empire.\nAfter seeing how nice bees are, I\u0027m not surprised they want to help, but if it were that simple, why keep it a secret? Why not say it openly like the bee societies of Hator and Orcus?",
+      "desc:8": "追寻真理的道路从来都不轻松。作为一名科学实践者，我对此深有体会。答案总是通向更多疑问，而疑问又会催生新的答案，继而引发更深层的追问。\n但眼前这个发现真令人欣喜！蜜蜂们正在帮助泰斯提斐人！而我向来以帮助泰斯提斐人为己任！\n正如我在地盘界所听闻的，仍有少数忠诚于理序主的战士，在泰拉世界持续抵抗入侵者。其他泰斯提斐人视他们为疯子，甚至以为他们早已阵亡。\n显然，这些战士仍在坚持战斗，而他们的主要盟友正是蜜蜂！奥西里斯与普塔中那些锻造盔甲、灌注药水的巨型设施，都在为塞尔瑞帝国缓冲世界的战事服务。\n目睹了蜜蜂的友善本性后，它们愿意伸出援手并不意外。但若事情如此简单，为何要保密呢？为何不像哈托尔与奥伽斯的蜜蜂那样公之于众？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:osiris_spinel"
       },
-      "name:8": "Secrets of Osiris"
+      "name:8": "奥西里斯的秘密"
     }
   },
   "questID:3": 717,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:osiris_spinel"
             },
-            "TrophyName:8": "The Great Forge Planet",
+            "TrophyName:8": "伟大铸造行星",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

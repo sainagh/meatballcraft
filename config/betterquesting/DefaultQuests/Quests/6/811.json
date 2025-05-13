@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPushes mobs away!",
+      "desc:8": "§7§o推开生物！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Interdiction"
+      "name:8": "制止仪式"
     }
   },
   "questID:3": 811,

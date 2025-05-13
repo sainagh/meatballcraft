@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRitual Effect: passive animals will produce drops spontaneously without dying\n\nAlcara Corrupted Effect: kills animals instantly with looting\n\nClick the pedestal to see a preview of the ritual multiblock.",
+      "desc:8": "§7§o仪式效果：被动型动物会自然产出对应的掉落物\n\n振变座效果：使用抢夺效果瞬间击杀动物\n\n使用六分仪右击基座以查看仪式多方块预览。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:itemtunedcelestialcrystal",
@@ -21,7 +21,7 @@
           }
         }
       },
-      "name:8": "Bootes (Useful)"
+      "name:8": "牧夫座（实用）"
     }
   },
   "questID:3": 870,

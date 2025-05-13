@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPrevents other players from using your router.",
+      "desc:8": "§7§o阻止其他玩家使用路由器。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "modularrouters:upgrade"
       },
-      "name:8": "Security Upgrade"
+      "name:8": "安全升级"
     }
   },
   "questID:3": 90409,

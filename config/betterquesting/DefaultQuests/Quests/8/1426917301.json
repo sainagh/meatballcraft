@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oLeft click bedrock at the bottom of the overworld using an Awakened Kamium Pickaxe",
+      "desc:8": "§7§o使用觉醒神灵素镐左键点击主世界底部的基岩",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumictinkerer:ichor_block"
       },
-      "name:8": "Bedrock Dimension"
+      "name:8": "基岩维度"
     }
   },
   "questID:3": 1426917301,
@@ -17,8 +17,18 @@
     "0:10": {
       "dimension:3": 19,
       "index:3": 0,
-      "name:8": "Bedrock Dimension",
+      "name:8": "基岩维度",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumictinkerer:ichor_block"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPrevents fluids from being placed within a 10 block radius.",
+      "desc:8": "§7§o消除10格半径内的流体。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Suppression"
+      "name:8": "抑液仪式"
     }
   },
   "questID:3": 805,

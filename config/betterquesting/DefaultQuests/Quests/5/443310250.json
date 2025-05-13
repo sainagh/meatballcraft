@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo reduce the building requirements for having valid flowers.\n\nFlower Rocks is obtained from the rocky bee. Any stone and cobblestone oredictionary blocks will work.\n\nFlower Wood is obtained from the gorgon bee. Any wood log will work.",
+      "desc:8": "§7§o用于降低对有效鲜花的建造需求。\n\n鲜花：岩石，通过石头蜜蜂获得。所有具有stone和cobblestone矿物词典的方块均可。\n\n鲜花：原木，通过蛇发女妖蜜蜂获得。所有原木均可。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_drone_ge",
@@ -152,7 +152,7 @@
           "MaxH:3": 20
         }
       },
-      "name:8": "For Versatile Bee Rooms"
+      "name:8": "用于多用途蜂房"
     }
   },
   "questID:3": 443310250,

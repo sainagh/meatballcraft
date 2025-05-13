@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAllows to transfer full stacks.",
+      "desc:8": "§7§o可整组传输。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularrouters:upgrade"
       },
-      "name:8": "Stack Upgrade"
+      "name:8": "堆叠升级"
     }
   },
   "questID:3": 90395,

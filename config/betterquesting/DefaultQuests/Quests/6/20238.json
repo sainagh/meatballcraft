@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oStabilizers can be used to prevent some bad effects if infusions go unstable.\n\nRedstone Inlays should be used to connect the stabilizers to each pedestal. Redstone inlays behave like redstone, with a maximum range of 15 blocks.\n\nThese should still follow central symmetry.",
+      "desc:8": "§7§o稳定器可在注魔不稳定时防止某些负面效果。\n\n使用红石镶嵌将稳定器与每个基座相连接。红石镶嵌与红石类似，最大范围为15格。\n\n应遵守中心对称规则。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:stabilizer"
       },
-      "name:8": "Stabilizers"
+      "name:8": "稳定器"
     }
   },
   "questID:3": 20238,

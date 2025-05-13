@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Everyone loves manually drying things!",
+      "desc:8": "谁不喜欢手动烘干呢！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "integrateddynamics:drying_basin"
       },
-      "name:8": "Drying Basin"
+      "name:8": "烘干池"
     }
   },
   "questID:3": 20694,

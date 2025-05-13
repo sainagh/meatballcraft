@@ -289,17 +289,17 @@ mods.avaritia.ExtremeCrafting.addShaped("maketheultimatestewdire",
 <contenttweaker:just_jambalaya>, <contenttweaker:sausage_sandwich>, <contenttweaker:just_jambalaya>,
 <contenttweaker:bento_xxxl>, <contenttweaker:monolithic_meal>, <contenttweaker:cube_jello_cubes>],
 
-[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
+[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
 <contenttweaker:dragon_egg_omelette>, <contenttweaker:strange_meatball>, <contenttweaker:dragon_egg_omelette>,
-<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"})],
+<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"})],
 
 [<contenttweaker:dried_vishroom>, <contenttweaker:really_golden_steak>, <contenttweaker:chocolate_cherry_truffle>, 
 <contenttweaker:hearty_meatball>, <xreliquary:apothecary_cauldron>, <contenttweaker:hearty_meatball>,
 <contenttweaker:chocolate_cherry_truffle>, <contenttweaker:really_golden_steak>, <contenttweaker:dried_vishroom>],
 
-[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
+[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
 <contenttweaker:dragon_egg_omelette>, <contenttweaker:strange_meatball>, <contenttweaker:dragon_egg_omelette>,
-<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"})],
+<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"})],
 
 [<contenttweaker:cube_jello_cubes>, <contenttweaker:monolithic_meal>, <contenttweaker:bento_xxxl>, 
 <contenttweaker:just_jambalaya>, <contenttweaker:sausage_sandwich>, <contenttweaker:just_jambalaya>,
@@ -312,4 +312,267 @@ mods.avaritia.ExtremeCrafting.addShaped("maketheultimatestewdire",
 [<contenttweaker:intense_meatball_pasta>, <contenttweaker:burned_enchanted_feather>, <contenttweaker:nice_clean_salad>, 
 <contenttweaker:lovely_latke>, <contenttweaker:feast_of_hell>, <contenttweaker:lovely_latke>,
 <contenttweaker:nice_clean_salad>, <contenttweaker:burned_enchanted_feather>, <contenttweaker:intense_meatball_pasta>]]);
+
+
+
+
+mods.avaritia.ExtremeCrafting.addShaped("maketheultimatestewdire2",
+<avaritia:ultimate_stew>*16, 
+[[<contenttweaker:intense_meatball_pasta>, <contenttweaker:burned_enchanted_feather>, <contenttweaker:nice_clean_salad>, 
+<contenttweaker:lovely_latke>, <contenttweaker:feast_of_hell>, <contenttweaker:lovely_latke>,
+<contenttweaker:nice_clean_salad>, <contenttweaker:burned_enchanted_feather>, <contenttweaker:intense_meatball_pasta>],
+
+[<contenttweaker:addiction_cookie>, <contenttweaker:aglio_olio_peperoncino_pasta>, <contenttweaker:tasty_eye_delight>, 
+<contenttweaker:big_boy_steak>, <contenttweaker:yummy_concrete>, <contenttweaker:big_boy_steak>,
+<contenttweaker:tasty_eye_delight>, <contenttweaker:aglio_olio_peperoncino_pasta>, <contenttweaker:addiction_cookie>],
+
+[<contenttweaker:cube_jello_cubes>, <contenttweaker:monolithic_meal>, <contenttweaker:bento_xxxl>, 
+<contenttweaker:just_jambalaya>, <contenttweaker:sausage_sandwich>, <contenttweaker:just_jambalaya>,
+<contenttweaker:bento_xxxl>, <contenttweaker:monolithic_meal>, <contenttweaker:cube_jello_cubes>],
+
+[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
+<contenttweaker:dragon_egg_omelette>, <contenttweaker:strange_meatball>, <contenttweaker:dragon_egg_omelette>,
+<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"})],
+
+[<contenttweaker:dried_vishroom>, <contenttweaker:really_golden_steak>, <contenttweaker:chocolate_cherry_truffle>, 
+<contenttweaker:hearty_meatball>, <contenttweaker:cosmic_pot>, <contenttweaker:hearty_meatball>,
+<contenttweaker:chocolate_cherry_truffle>, <contenttweaker:really_golden_steak>, <contenttweaker:dried_vishroom>],
+
+[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
+<contenttweaker:dragon_egg_omelette>, <contenttweaker:strange_meatball>, <contenttweaker:dragon_egg_omelette>,
+<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"})],
+
+[<contenttweaker:cube_jello_cubes>, <contenttweaker:monolithic_meal>, <contenttweaker:bento_xxxl>, 
+<contenttweaker:just_jambalaya>, <contenttweaker:sausage_sandwich>, <contenttweaker:just_jambalaya>,
+<contenttweaker:bento_xxxl>, <contenttweaker:monolithic_meal>, <contenttweaker:cube_jello_cubes>],
+
+[<contenttweaker:addiction_cookie>, <contenttweaker:aglio_olio_peperoncino_pasta>, <contenttweaker:tasty_eye_delight>, 
+<contenttweaker:big_boy_steak>, <contenttweaker:yummy_concrete>, <contenttweaker:big_boy_steak>,
+<contenttweaker:tasty_eye_delight>, <contenttweaker:aglio_olio_peperoncino_pasta>, <contenttweaker:addiction_cookie>],
+
+[<contenttweaker:intense_meatball_pasta>, <contenttweaker:burned_enchanted_feather>, <contenttweaker:nice_clean_salad>, 
+<contenttweaker:lovely_latke>, <contenttweaker:feast_of_hell>, <contenttweaker:lovely_latke>,
+<contenttweaker:nice_clean_salad>, <contenttweaker:burned_enchanted_feather>, <contenttweaker:intense_meatball_pasta>]]);
+
+
+val dragoncrucwishful = RecipeBuilder.newBuilder("dragoncrucwishful","dragonfire_crucible",100);
+dragoncrucwishful.addFluidInput(<fluid:eternal_dragon_fire>*1000000);
+dragoncrucwishful.addItemInput(<contenttweaker:wish_of_infinity>);
+dragoncrucwishful.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
+dragoncrucwishful.addItemInput(<contenttweaker:shard_of_the_cosmos>);
+dragoncrucwishful.addItemOutput(<contenttweaker:ingot_of_infinite_wishes>);
+dragoncrucwishful.build();
+
+
+
+mods.avaritia.ExtremeCrafting.addShaped("makehoegreenearh",
+<avaritia:infinity_hoe>, 
+
+[[null, null, null, 
+null, <avaritia:resource:6>, <avaritia:resource:6>,
+<avaritia:resource:6>, <avaritia:resource:6>, null],
+
+[null, null, null, 
+<avaritia:resource:6>, <contenttweaker:seal_of_freedom>, <avaritia:resource:6>,
+<avaritia:resource:6>, <avaritia:resource:6>, <ore:ingotFractalliteHalite>],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, <ore:ingotFractalliteHalite>, <ore:ingotFractalliteHalite>],
+
+[null, <bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "emerald", Amount: 65336000}}), null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null],
+
+[null, <bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "diamond", Amount: 65336000}}), null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null]]);
+
+
+
+
+
+mods.avaritia.ExtremeCrafting.addShaped("makeaxenatureruin",
+<avaritia:infinity_axe>, 
+
+[[<bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "tungsten", Amount: 65336000}}), null, null, 
+null, null, null,
+null, <avaritia:resource:6>, <ore:ingotFractalliteHalite>],
+
+[null, null, null, 
+null, <avaritia:resource:6>, <avaritia:resource:6>,
+<avaritia:resource:6>, <avaritia:resource:6>, <ore:ingotFractalliteHalite>],
+
+[<avaritia:matter_cluster>, <avaritia:resource:6>, <avaritia:resource:6>, 
+<avaritia:resource:6>, <contenttweaker:seal_of_freedom>, <avaritia:resource:6>,
+<avaritia:resource:6>, <avaritia:resource:6>, <ore:ingotFractalliteHalite>],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, <avaritia:resource:6>,
+<avaritia:resource:6>, <avaritia:resource:6>, <ore:ingotFractalliteHalite>],
+
+[<bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "titanium", Amount: 65336000}}), null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, <avaritia:resource:6>, <ore:ingotFractalliteHalite>],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, <ore:ingotFractalliteHalite>],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null]]);
+
+
+
+
+mods.avaritia.ExtremeCrafting.addShaped("makeshovelplaneteater",
+<avaritia:infinity_shovel>, 
+
+[[null, null, null, 
+<ore:ingotFractalliteHalite>, <ore:ingotFractalliteHalite>, <ore:ingotFractalliteHalite>,
+null, null, null],
+
+[null, null, <ore:ingotFractalliteHalite>, 
+<avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>,
+<ore:ingotFractalliteHalite>, null, null],
+
+[null, <ore:ingotFractalliteHalite>, <avaritia:resource:6>, 
+<avaritia:resource:6>, <contenttweaker:seal_of_freedom>, <avaritia:resource:6>,
+<avaritia:resource:6>, <ore:ingotFractalliteHalite>, null],
+
+[null, <ore:ingotFractalliteHalite>, <avaritia:resource:6>, 
+<avaritia:resource:6>, <contenttweaker:ingot_of_infinite_wishes>, <avaritia:resource:6>,
+<avaritia:resource:6>, <ore:ingotFractalliteHalite>, null],
+
+[null, <ore:ingotFractalliteHalite>, <avaritia:resource:6>, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+<avaritia:resource:6>, <ore:ingotFractalliteHalite>, null],
+
+[null, <ore:ingotFractalliteHalite>, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, <ore:ingotFractalliteHalite>, null],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null],
+
+[null, <bloodmagic:blood_tank:13>.withTag({Fluid: {FluidName: "constantan", Amount: 131072000}}), null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, <bloodmagic:blood_tank:13>.withTag({Fluid: {FluidName: "invar", Amount: 131072000}}), null],
+
+[null, <avaritia:matter_cluster>, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, <avaritia:matter_cluster>, null]]);
+
+
+
+
+
+mods.avaritia.ExtremeCrafting.addShaped("makepickworldeater",
+<avaritia:infinity_pickaxe>, 
+
+[[null, <avaritia:block_resource:1>, <avaritia:block_resource:1>, 
+<avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>,
+<avaritia:block_resource:1>, <avaritia:block_resource:1>, null],
+
+[<ore:ingotFractalliteHalite>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, 
+<avaritia:block_resource:1>, <contenttweaker:seal_of_freedom>, <avaritia:block_resource:1>,
+<avaritia:block_resource:1>, <avaritia:block_resource:1>, <ore:ingotFractalliteHalite>],
+
+[<ore:ingotFractalliteHalite>, <ore:ingotFractalliteHalite>, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, <ore:ingotFractalliteHalite>, <ore:ingotFractalliteHalite>],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null],
+
+[null, <bloodmagic:blood_tank:13>.withTag({Fluid: {FluidName: "enderium", Amount: 131072000}}), null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, <bloodmagic:blood_tank:13>.withTag({Fluid: {FluidName: "lumium", Amount: 131072000}}), null],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null],
+
+[null, null, null, 
+null, <contenttweaker:ingot_of_infinite_wishes>, null,
+null, null, null]]);
+
+
+
+mods.avaritia.ExtremeCrafting.addShaped("makeswordcosmos",
+<avaritia:infinity_sword>, 
+
+[[null, null, null, 
+null, null, null,
+null, <avaritia:block_resource:1>, <avaritia:block_resource:1>],
+
+[null, null, null, 
+null, null, null,
+<avaritia:block_resource:1>, <avaritia:matter_cluster>.withTag({clusteritems: {total: 4096, items: [{item: {id: "aoa3:yellow_shyre_bricks", Count: 1, Damage: 0 as short}, count: 4096}]}}), <avaritia:block_resource:1>],
+
+[null, <bloodmagic:blood_tank:15>.withTag({Fluid: {FluidName: "myrmitite", Amount: 524288000}}), null, 
+null, null, <avaritia:block_resource:1>,
+<avaritia:matter_cluster>.withTag({clusteritems: {total: 4096, items: [{item: {id: "botania:livingrock", Count: 1, Damage: 0 as short}, count: 4096}]}}), <avaritia:block_resource:1>, null],
+
+[null, <contenttweaker:core_of_halite_definition>, null, 
+null, <avaritia:block_resource:1>, <avaritia:matter_cluster>.withTag({clusteritems: {total: 4096, items: [{item: {id: "abyssalcraft:stone", Count: 1, Damage: 5 as short}, count: 4096}]}}),
+<avaritia:block_resource:1>, null, null],
+
+[null, <contenttweaker:core_of_halite_definition>, null, 
+<avaritia:block_resource:1>, <avaritia:matter_cluster>.withTag({clusteritems: {total: 4096, items: [{item: {id: "botania:biomestonea", Count: 1, Damage: 13 as short}, count: 4096}]}}), <avaritia:block_resource:1>,
+null, null, null],
+
+[null, null, <contenttweaker:self_actualizing_warren_rift>, 
+<avaritia:block_resource:1>, <avaritia:block_resource:1>, null,
+null, null, null],
+
+[null, null, <avaritiaitem:cosmic_balance>, 
+<contenttweaker:self_actualizing_warren_rift>, null, null,
+null, null, null],
+
+[null, <contenttweaker:ingot_of_infinite_wishes>, null, 
+null, <contenttweaker:core_of_halite_definition>, <contenttweaker:core_of_halite_definition>,
+<bloodmagic:blood_tank:15>.withTag({Fluid: {FluidName: "sednanite", Amount: 524288000}}), null, null],
+
+[<minecraft:bedrock>, null, null, 
+null, null, null,
+null, null, null]]);
+
+
+
 

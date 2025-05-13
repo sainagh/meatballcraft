@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHurt mobs sometimes drop items that heals you, the more you do it, the better the healing.\n\nThis skill is levelled by using heart stones, found in battle towers!\n\n§fEssence is something I know, so I am trying to compare my discoveries to it. While some of the mechanics are similar, this magic is very much different in its origin.",
+      "desc:8": "§7§o攻击生物有时会掉落能治愈玩家的物品，治疗效果随技能等级提升。\n\n战斗高塔中发现的心石也可提升该技能等级！\n\n§f我自然而然地将这种魔法与我早已知道的精华相对比。尽管有些机制上有相似之处，但其本源上却大相径庭。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "mod_lavacow:acidicheart"
       },
-      "name:8": "Innervation Skill"
+      "name:8": "技能：支配"
     }
   },
   "questID:3": 20,

@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Alchemical coal can be obtained using equivalence conversion with a Philosopher Stone, or by infusing glowstone using a collector.",
+      "desc:8": "炼金煤炭可通过使用贤者之石，或用能量收集器转化荧石粉获得。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_fuel"
       },
-      "name:8": "Alchemical Coal",
+      "name:8": "炼金煤炭",
       "questlogic:8": "OR"
     }
   },

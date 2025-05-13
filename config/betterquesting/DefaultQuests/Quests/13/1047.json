@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe casting basin is used to make blocks out of the melted materials made in the smeltery.\n\nPlace seared faucets on the seared drains, and put casting basins underneath.\n\nRight click the faucet to put molten metal into the basin.",
+      "desc:8": "§7§o铸造盆用于将冶炼炉中的熔融材料铸造为块。\n\n将焦黑浇注口放置在焦黑排液口上，铸造盆放置在浇注口下方。\n\n右击浇注口，便可将熔融金属导入铸造盆中。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "tconstruct:casting"
       },
-      "name:8": "Bloccs"
+      "name:8": "块块"
     }
   },
   "questID:3": 1047,

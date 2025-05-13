@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Guess what? I made berkelium, and didn\u0027t have to blow up an entire arcipelago! The process is safe, and doesn\u0027t give birth to talking sponges!\nTurns out that the Bikini Atoll experiments, thanks to some terran cooling, are not the only way of breeding this element!\n",
+      "desc:8": "你猜怎么着？我造出了锫元素，而且不用炸毁整片群岛！整个过程安全无害，更不会诞生会说话的海绵！\n事实证明，得益于泰拉特殊冷却的技术，比基尼环礁式的核爆试验并非增殖该元素的唯一途径！\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "nuclearcraft:berkelium"
       },
-      "name:8": "Berkelium-248"
+      "name:8": "锫-248"
     }
   },
   "questID:3": 50240,

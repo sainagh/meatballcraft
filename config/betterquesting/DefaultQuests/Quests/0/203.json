@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "It is weird, but after encountering ice wizardry, I became aware of a calling from the cold...\nSomeone has used this type of magic to open a wormhole, and I want to know who it is!\n\n",
+      "desc:8": "诡异的是，在接触冰霜巫术后，我能感知到极寒深处的召唤……\n有人正借助这类法术开启虫洞，我必须查明是谁！\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:snow_globe"
       },
-      "name:8": "To the Icy Realm!"
+      "name:8": "前往冰雪领域！"
     }
   },
   "questID:3": 203,

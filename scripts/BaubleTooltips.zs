@@ -188,8 +188,8 @@
 <extrabotany:wallrunning>.addTooltip(format.red("可以像蜘蛛一样爬墙"));
 <extrabotany:walljumping>.addTooltip(format.red("落地前最多可在贴墙跳5次"));
 <extrabotany:parkour>.addTooltip(format.red("墙行指环和墙跳指环的结合"));
-<extrabotany:allforone>.addTooltip(format.red("使饰品盒内的前3个饰品起效。对绝大部分饰品无效"));
-<extrabotany:elvenking>.addTooltip(format.red("使饰品盒内的所有饰品均能起效。对绝大部分饰品无效"));
+<extrabotany:elvenking>.addTooltip(format.red("使饰品盒子内的前3个饰品起效。对绝大部分饰品无效"));
+<extrabotany:allforone>.addTooltip(format.red("使饰品盒子内的所有饰品均能起效。对绝大部分饰品无效"));
 <extrabotany:foxear>.addTooltip(format.red("装饰性饰品"));
 <extrabotany:bottledflame>.addTooltip(format.red("亮度低于7时，自动在脚下放置火把"));
 <extrabotany:cosmetic>.addTooltip(format.red("装饰性饰品"));
@@ -257,8 +257,8 @@
 <thaumicwonders:night_vision_goggles>.addTooltip(format.red("拥有揭示之护目镜的所有效果，并且有夜视效果"));
 <thaumicwonders:cleansing_charm>.addTooltip(format.red("将扭曲转变为咒波，消耗魔力"));
 <theoneprobe:probe_goggles>.addTooltip(format.red("根据配置启用检测器"));
-<twilightforest:charm_of_life_1>.addTooltip(format.red("取消死亡，恢复4颗心，获得5秒的生命恢复 I效果"));
-<twilightforest:charm_of_life_2>.addTooltip(format.red("取消死亡，恢复10颗心，获得30秒的抗性提升、生命恢复 IV和防火效果"));
+<twilightforest:charm_of_life_1>.addTooltip(format.red("阻止死亡，恢复4颗心，获得5秒的生命恢复 I效果"));
+<twilightforest:charm_of_life_2>.addTooltip(format.red("阻止死亡，恢复10颗心，获得30秒的抗性提升、生命恢复 IV和防火效果"));
 <twilightforest:charm_of_keeping_1>.addTooltip(format.red("死亡时保留身上的盔甲和手持物品"));
 <twilightforest:charm_of_keeping_2>.addTooltip(format.red("死亡时保留身上的盔甲和快捷栏物品"));
 <twilightforest:charm_of_keeping_3>.addTooltip(format.red("死亡时保留所有物品"));

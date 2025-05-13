@@ -2,6 +2,9 @@ import scripts.enchantwrapper.EnchantUtil.EnchantMap;
 import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
 import mods.thaumcraft.Infusion;
 import mods.astralsorcery.Utils;
+import mods.modularmachinery.RecipeBuilder;
+import crafttweaker.data.IData;
+import crafttweaker.enchantments.IEnchantmentDefinition;
 
 
 //	New Super-Enchant Page: Reorganized Edition
@@ -365,6 +368,11 @@ import mods.astralsorcery.Utils;
 
 //	Elder Spooder String
 {
+	recipes.addShaped(<contenttweaker:heart_of_the_elder_one>,
+		[[<abyssalcraft:antispidereye>, <contenttweaker:tainted_sentient_meatball>, <abyssalcraft:antispidereye>],
+		[<contenttweaker:tainted_sentient_meatball>, <contenttweaker:heart_of_the_elder_one>.reuse(), <contenttweaker:tainted_sentient_meatball>],
+		[<abyssalcraft:antispidereye>, <contenttweaker:tainted_sentient_meatball>, <abyssalcraft:antispidereye>]]);
+
 	recipes.addShaped(<contenttweaker:elder_spooder_string>,
 		[[<bloodarsenal:blood_burned_string>, <bloodarsenal:blood_burned_string>, <bloodarsenal:blood_burned_string>],
 		[<bloodarsenal:blood_burned_string>, <contenttweaker:heart_of_the_elder_one>.reuse(), <bloodarsenal:blood_burned_string>],
@@ -472,7 +480,7 @@ import mods.astralsorcery.Utils;
 		]);
 }
 
-//	Dragnipur
+//	Nightblood
 {
 	// var mapWarrenSword as IData = {
 	// 	RepairCost: 1,
@@ -491,7 +499,7 @@ import mods.astralsorcery.Utils;
 	.add("mod_lavacow:lifesteal",50);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<thaumicwonders:primal_destroyer>.withTag({display: {Name:"§6§o噬灵者§r",Lore:["§d§o超限附魔§r"]}}), enchlistWarrenSwordWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<thaumicwonders:primal_destroyer>.withTag({display: {Name:"§6§o夜血§r",Lore:["§d§o超限附魔§r"]}}), enchlistWarrenSwordWrapped).getItem(), 
 		[[<contenttweaker:first_order_mythic_fractal>, <iceandfire:dragonsteel_lightning_block>, <iceandfire:dragonsteel_lightning_block>, <iceandfire:dragonsteel_lightning_block>, <iceandfire:dragonsteel_lightning_block>, <iceandfire:dragonsteel_lightning_block>, <contenttweaker:first_order_mythic_fractal>], 
 		[<iceandfire:dragonsteel_lightning_block>, <ore:ingotStellarAlloy>, <contenttweaker:warren_shard>, <contenttweaker:warren_shard>, <contenttweaker:warren_shard>, <ore:ingotStellarAlloy>, <iceandfire:dragonsteel_lightning_block>], 
 		[<iceandfire:dragonsteel_lightning_block>, <contenttweaker:warren_shard>, <contenttweaker:heart_of_darkness>, <contenttweaker:wormhole_catalyst>, <contenttweaker:heart_of_darkness>, <contenttweaker:warren_shard>, <iceandfire:dragonsteel_lightning_block>], 
@@ -827,6 +835,71 @@ import mods.astralsorcery.Utils;
 	// mapOathbringer += enchlistOathbringer[0].makeEnchantment(150).makeTag();
 	// mapOathbringer += enchlistOathbringer[1].makeEnchantment(25).makeTag();
 
+	var mapshieldofthearbiter as IData = {
+		display: {Lore:["§d§o理序主之盾§r"]}
+	};
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard1", <chisel:factory1:1>.withTag(mapshieldofthearbiter)*8,
+		[[<chisel:factory1:1>, <chisel:factory1:1>, <chisel:factory1:1>],
+		[<chisel:factory1:1>, <contenttweaker:spooder_glasses>, <chisel:factory1:1>],
+		[<chisel:factory1:1>, <chisel:factory1:1>, <chisel:factory1:1>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard2", <draconicevolution:draconic_block>.withTag(mapshieldofthearbiter)*8,
+		[[<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:draconic_block>],
+		[<draconicevolution:draconic_block>, <contenttweaker:massive_boomboom>, <draconicevolution:draconic_block>],
+		[<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:draconic_block>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard3", <railcraft:abyssal:1>.withTag(mapshieldofthearbiter)*8,
+		[[<railcraft:abyssal:1>, <railcraft:abyssal:1>, <railcraft:abyssal:1>],
+		[<railcraft:abyssal:1>, <contenttweaker:emc_crown>, <railcraft:abyssal:1>],
+		[<railcraft:abyssal:1>, <railcraft:abyssal:1>, <railcraft:abyssal:1>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard4", <appliedenergistics2:smooth_sky_stone_block>.withTag(mapshieldofthearbiter)*8,
+		[[<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>],
+		[<appliedenergistics2:smooth_sky_stone_block>, <contenttweaker:atomic_glasses>, <appliedenergistics2:smooth_sky_stone_block>],
+		[<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard5", <chisel:concrete_purple:4>.withTag(mapshieldofthearbiter)*8,
+		[[<chisel:concrete_purple:4>, <chisel:concrete_purple:4>, <chisel:concrete_purple:4>],
+		[<chisel:concrete_purple:4>, <contenttweaker:cool_walking_stick>, <chisel:concrete_purple:4>],
+		[<chisel:concrete_purple:4>, <chisel:concrete_purple:4>, <chisel:concrete_purple:4>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard6", <chisel:bookshelf_spruce:6>.withTag(mapshieldofthearbiter)*8,
+		[[<chisel:bookshelf_spruce:6>, <chisel:bookshelf_spruce:6>, <chisel:bookshelf_spruce:6>],
+		[<chisel:bookshelf_spruce:6>, <contenttweaker:horrible_unedited_fanfiction>, <chisel:bookshelf_spruce:6>],
+		[<chisel:bookshelf_spruce:6>, <chisel:bookshelf_spruce:6>, <chisel:bookshelf_spruce:6>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard7", <minecraft:sandstone:2>.withTag(mapshieldofthearbiter)*8,
+		[[<minecraft:sandstone:2>, <minecraft:sandstone:2>, <minecraft:sandstone:2>],
+		[<minecraft:sandstone:2>, <contenttweaker:null_pointer>, <minecraft:sandstone:2>],
+		[<minecraft:sandstone:2>, <minecraft:sandstone:2>, <minecraft:sandstone:2>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard8", <integrateddynamics:menril_planks>.withTag(mapshieldofthearbiter)*8,
+		[[<integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>],
+		[<integrateddynamics:menril_planks>, <contenttweaker:p0rtals_redish_white_hat>, <integrateddynamics:menril_planks>],
+		[<integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>]]);
+
+	scripts.PuzzleUtil.addPuzzleShaped("arbiterguard9", <chisel:laboratory:8>.withTag(mapshieldofthearbiter)*8,
+		[[<chisel:laboratory:8>, <chisel:laboratory:8>, <chisel:laboratory:8>],
+		[<chisel:laboratory:8>, <contenttweaker:collar_bells>, <chisel:laboratory:8>],
+		[<chisel:laboratory:8>, <chisel:laboratory:8>, <chisel:laboratory:8>]]);
+
+	val shieldarbiterdragcruc1 = RecipeBuilder.newBuilder("shieldarbiterdragcruc1","dragonfire_crucible",3000);
+	shieldarbiterdragcruc1.addFluidInput(<fluid:eternal_dragon_fire>*72000);
+	shieldarbiterdragcruc1.addItemInput(<chisel:laboratory:8>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<integrateddynamics:menril_planks>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<minecraft:sandstone:2>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<chisel:bookshelf_spruce:6>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<chisel:concrete_purple:4>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<appliedenergistics2:smooth_sky_stone_block>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<railcraft:abyssal:1>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<draconicevolution:draconic_block>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemInput(<chisel:factory1:1>.withTag(mapshieldofthearbiter));
+	shieldarbiterdragcruc1.addItemOutput(<contenttweaker:shield_of_the_arbiter>);
+	shieldarbiterdragcruc1.build();
+
+	
+
 	val enchlistOathbringerWrapped as EnchantMap = EnchantMap()
 	.add("minecraft:sharpness",150)
 	.add("cofhcore:vorpal",25);
@@ -839,8 +912,8 @@ import mods.astralsorcery.Utils;
 		[null, <bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "enderium", Amount: 65336000}}), null, null, null, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, null], 
 		[null, <draconicevolution:chaos_shard:0>, null, null, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, null, null], 
 		[null, <draconicevolution:chaos_shard:0>, null, <contenttweaker:draconian_metal_ingot>, <contenttweaker:third_order_mythic_fractal>, <contenttweaker:draconian_metal_ingot>, null, null, null], 
-		[null, null, <draconicevolution:chaos_shard:0>, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, null, null, null, null], 
-		[null, null, <contenttweaker:chaotic_poppet>, <draconicevolution:chaos_shard:0>, null, null, null, null, null], 
+		[null, null, <contenttweaker:shield_of_the_arbiter>, <contenttweaker:draconian_metal_ingot>, <contenttweaker:draconian_metal_ingot>, null, null, null, null], 
+		[null, null, <contenttweaker:chaotic_poppet>, <contenttweaker:shield_of_the_arbiter>, null, null, null, null, null], 
 		[null, <mod_lavacow:bonesword>, null, null, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "molten_awakened", Amount: 65336000}}), null, null], 
 		[<contenttweaker:light_of_shadesmar>, null, null, null, null, null, null, null, null]]);  
 }
@@ -1294,4 +1367,158 @@ import mods.astralsorcery.Utils;
 }
 
 
+//	Callandor
+{
 
+	val enchlistCallandorWrapped as EnchantMap = EnchantMap()
+	.add("cofhcore:vorpal",20000)
+	.add("minecraft:sharpness",20000);
+	
+
+
+	//	Recipe
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<twilightforest:glass_sword>.withTag({Unbreakable: 1 as byte, display: {Name:"§6§o凯兰铎§r",Lore:["§d§o超限附魔§r"]}}), enchlistCallandorWrapped).getItem(), 
+		[[<careerbees:ingredients:11>, null, <contenttweaker:ingot_of_infinite_wishes>, null, <contenttweaker:spiritus_vis_condensate>, null, <contenttweaker:ingot_of_infinite_wishes>, null, <careerbees:ingredients:11>], 
+		[null, <bloodmagic:blood_tank:15>.withTag({Fluid: {FluidName: "soularium", Amount: 524288000}}), null, null, <contenttweaker:cuendillar_plate>, null, null, <bloodmagic:blood_tank:15>.withTag({Fluid: {FluidName: "tough", Amount: 524288000}}), null], 
+		[<contenttweaker:ingot_of_infinite_wishes>, null, null, <contenttweaker:cuendillar_plate>, <avaritiaitem:cosmic_balance>, <contenttweaker:cuendillar_plate>, null, null, <contenttweaker:ingot_of_infinite_wishes>], 
+		[null, null, <contenttweaker:cuendillar_plate>, null, <contenttweaker:cuendillar_plate>, null, <contenttweaker:cuendillar_plate>, null, null], 
+		[<contenttweaker:aer_vis_condensate>, <contenttweaker:cuendillar_plate>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:cuendillar_plate>, <twilightforest:glass_sword>, <contenttweaker:cuendillar_plate>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:cuendillar_plate>, <contenttweaker:aqua_vis_condensate>], 
+		[null, null, <contenttweaker:cuendillar_plate>, null, <contenttweaker:cuendillar_plate>, null, <contenttweaker:cuendillar_plate>, null, null], 
+		[<contenttweaker:ingot_of_infinite_wishes>, null, null, <contenttweaker:cuendillar_plate>, <contenttweaker:astral_insight_100>, <contenttweaker:cuendillar_plate>, null, null, <contenttweaker:ingot_of_infinite_wishes>], 
+		[null, <bloodmagic:blood_tank:15>.withTag({Fluid: {FluidName: "signalum", Amount: 524288000}}), null, null, <contenttweaker:cuendillar_plate>, null, null, <bloodmagic:blood_tank:15>.withTag({Fluid: {FluidName: "pulsating_iron", Amount: 524288000}}), null], 
+		[<contenttweaker:ignis_vis_condensate>, null, <contenttweaker:ingot_of_infinite_wishes>, null, <careerbees:ingredients:12>, null, <contenttweaker:ingot_of_infinite_wishes>, null, <contenttweaker:terra_vis_condensate>]]);
+}
+
+
+//	Choedan Kal
+{
+
+	val enchlistChoedanKal as EnchantMap = EnchantMap()
+	.add("thaumictinkerer:finalstrike",20000)
+	.add("thaumictinkerer:valiance",20000);
+	
+
+
+	//	Recipe
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<mod_lavacow:sludge_wand>.withTag({Unbreakable: 1 as byte, display: {Name:"§6§o男性珂丹卡§r",Lore:["§d§o超限附魔§r"]}}), enchlistChoedanKal).getItem(), 
+		[[null, null, null, <contenttweaker:eleint_stone>, <bewitchment:stone_leonard_statue>, <contenttweaker:eleint_stone>, null, null, null], 
+		[null, <contenttweaker:seal_of_freedom>, null, <contenttweaker:eleint_stone>, <mod_lavacow:sludge_wand>, <contenttweaker:eleint_stone>, null, <contenttweaker:seal_of_freedom>, null], 
+		[null, null, null, null, <contenttweaker:eleint_stone>, null, null, null, null], 
+		[null, null, null, <contenttweaker:everburning_dust>, <minecraft:bedrock>, <contenttweaker:everburning_dust>, null, null, null], 
+		[null, null, null, <contenttweaker:everburning_dust>, <minecraft:bedrock>, <contenttweaker:everburning_dust>, null, null, null], 
+		[null, null, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <minecraft:bedrock>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, null, null], 
+		[null, null, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <minecraft:bedrock>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, null, null], 
+		[null, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <minecraft:bedrock>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, null], 
+		[<contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <minecraft:bedrock>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>]]);
+
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<mod_lavacow:scarab_wand>.withTag({Unbreakable: 1 as byte, display: {Name:"§6§o女性珂丹卡§r",Lore:["§d§o超限附魔§r"]}}), enchlistChoedanKal).getItem(), 
+		[[null, null, null, <contenttweaker:eleint_stone>, <bewitchment:stone_lilith_statue>, <contenttweaker:eleint_stone>, null, null, null], 
+		[null, <contenttweaker:seal_of_freedom>, null, <contenttweaker:eleint_stone>, <mod_lavacow:scarab_wand>, <contenttweaker:eleint_stone>, null, <contenttweaker:seal_of_freedom>, null], 
+		[null, null, null, null, <contenttweaker:eleint_stone>, null, null, null, null], 
+		[null, null, null, <contenttweaker:everburning_dust>, <minecraft:bedrock>, <contenttweaker:everburning_dust>, null, null, null], 
+		[null, null, null, <contenttweaker:everburning_dust>, <minecraft:bedrock>, <contenttweaker:everburning_dust>, null, null, null], 
+		[null, null, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <minecraft:bedrock>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, null, null], 
+		[null, null, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <minecraft:bedrock>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, null, null], 
+		[null, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <minecraft:bedrock>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, null], 
+		[<contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <minecraft:bedrock>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>]]);
+
+}
+
+
+
+//	Dragnipur
+{
+
+	val enchlistDragnipur as EnchantMap = EnchantMap()
+	.add("draconicevolution:enchant_reaper",20000)
+	.add("soulshardsrespawn:soul_stealer",20000)
+	.add("mod_lavacow:lifesteal",20000)
+	.add("enderio:witherweapon",20000)
+	.add("minecraft:sweeping",20000);
+	
+
+
+
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:shadow_sword>.withTag({Unbreakable: 1 as byte, display: {Name:"§6§o噬灵者§r",Lore:["§d§o超限附魔§r"]}}), enchlistDragnipur).getItem(), 
+		[[<contenttweaker:eleint_stone>, null, <contenttweaker:eleint_stone>, null, <contenttweaker:eleint_stone>, null, <contenttweaker:eleint_stone>, null, <contenttweaker:eleint_stone>], 
+		[null, <contenttweaker:echo_warren_alloy>, null, <contenttweaker:echo_warren_alloy>, null, <contenttweaker:echo_warren_alloy>, null, <contenttweaker:echo_warren_alloy>, null], 
+		[<contenttweaker:eleint_stone>, null, <contenttweaker:self_actualizing_warren_rift>, null, null, null, <contenttweaker:self_actualizing_warren_rift>, null, <contenttweaker:eleint_stone>], 
+		[null, <contenttweaker:echo_warren_alloy>, null, <contenttweaker:warren_shard>, <bloodmagic:blood_tank:5>.withTag({Fluid: {FluidName: "actualizing_fluid", Amount: 512000}}), <contenttweaker:warren_shard>, null, <contenttweaker:echo_warren_alloy>, null], 
+		[<contenttweaker:eleint_stone>, null, null, <bloodmagic:blood_tank:5>.withTag({Fluid: {FluidName: "actualizing_fluid", Amount: 512000}}), <aoa3:shadow_sword>, <bloodmagic:blood_tank:5>.withTag({Fluid: {FluidName: "actualizing_fluid", Amount: 512000}}), null, null, <contenttweaker:eleint_stone>], 
+		[null, <contenttweaker:echo_warren_alloy>, null, <contenttweaker:warren_shard>, <bloodmagic:blood_tank:5>.withTag({Fluid: {FluidName: "actualizing_fluid", Amount: 512000}}), <contenttweaker:warren_shard>, null, <contenttweaker:echo_warren_alloy>, null], 
+		[<contenttweaker:eleint_stone>, null, <contenttweaker:self_actualizing_warren_rift>, null, null, null, <contenttweaker:self_actualizing_warren_rift>, null, <contenttweaker:eleint_stone>], 
+		[null, <contenttweaker:echo_warren_alloy>, null, <contenttweaker:echo_warren_alloy>, null, <contenttweaker:echo_warren_alloy>, null, <contenttweaker:echo_warren_alloy>, null], 
+		[<contenttweaker:eleint_stone>, null, <contenttweaker:eleint_stone>, null, <contenttweaker:eleint_stone>, null, <contenttweaker:eleint_stone>, null, <contenttweaker:eleint_stone>]]);
+
+}
+
+
+//	Anduril
+{
+
+	val enchlistAnduril as EnchantMap = EnchantMap()
+	.add("thaumictinkerer:valiance",30)
+	.add("minecraft:smite",100);
+	
+
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:runic_sword>.withTag({display: {Name:"§6§o安督利尔§r",Lore:["§d§o超限附魔§r"]}}), enchlistAnduril).getItem(), 
+		[[null, <avaritia:resource:0>, <extrabotany:elvenking>, <avaritia:resource:0>, null], 
+		[<avaritia:resource:0>, null, <contenttweaker:second_order_mythic_fractal>, null, <avaritia:resource:0>], 
+		[<extrabotany:elvenking>, <contenttweaker:second_order_mythic_fractal>, <aoa3:runic_sword>, <contenttweaker:second_order_mythic_fractal>, <extrabotany:elvenking>], 
+		[<avaritia:resource:0>, null, <contenttweaker:second_order_mythic_fractal>, null, <avaritia:resource:0>], 
+		[null, <avaritia:resource:0>, <extrabotany:elvenking>, <avaritia:resource:0>, null]]); 
+
+}
+
+
+
+//	Scarlet
+{
+
+	val enchlistScarlet as EnchantMap = EnchantMap()
+	.add("thaumictinkerer:valiance",20);
+	
+
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<thaumcraft:crimson_blade>.withTag({display: {Name:"§6§o猩红§r",Lore:["§d§o超限附魔§r"]}}), enchlistScarlet).getItem(), 
+		[[null, <contenttweaker:jeweled_runium>, <contenttweaker:pure_warp>, <ore:ingotVibranium>, null], 
+		[<ore:ingotVibranium>, null, <contenttweaker:evanescent_sednanite_dust>, null, <contenttweaker:jeweled_runium>], 
+		[<contenttweaker:pure_warp>, <contenttweaker:evanescent_sednanite_dust>, <thaumcraft:crimson_blade>, <contenttweaker:evanescent_sednanite_dust>, <contenttweaker:pure_warp>], 
+		[<contenttweaker:jeweled_runium>, null, <contenttweaker:evanescent_sednanite_dust>, null, <ore:ingotVibranium>], 
+		[null, <ore:ingotVibranium>, <contenttweaker:pure_warp>, <contenttweaker:jeweled_runium>, null]]); 
+
+}
+
+//	Cross
+{
+
+	val enchlistCross as EnchantMap = EnchantMap()
+	.add("abyssalcraft:light_pierce",100);
+	
+
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<xreliquary:mercy_cross>.withTag({display: {Name:"§6§o光明使者§r",Lore:["§d§o超限附魔§r"]}}), enchlistCross).getItem(), 
+		[[<contenttweaker:deeply_etched_adamantium>, <contenttweaker:starlight_sphere>, null, <contenttweaker:stormlight_sphere>, <contenttweaker:deeply_etched_adamantium>], 
+		[<contenttweaker:stormlight_sphere>, null, <contenttweaker:first_order_mythic_fractal>, null, <contenttweaker:starlight_sphere>], 
+		[null, <contenttweaker:first_order_mythic_fractal>, <xreliquary:mercy_cross>, <contenttweaker:first_order_mythic_fractal>, null], 
+		[<contenttweaker:starlight_sphere>, null, <contenttweaker:first_order_mythic_fractal>, null, <contenttweaker:stormlight_sphere>], 
+		[<contenttweaker:deeply_etched_adamantium>, <contenttweaker:stormlight_sphere>, null, <contenttweaker:starlight_sphere>, <contenttweaker:deeply_etched_adamantium>]]); 
+
+}
+
+//	Blade of the First King
+{
+
+	val enchlistFirstKing as EnchantMap = EnchantMap()
+	.add("thaumictinkerer:finalstrike",20);
+	
+
+
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:karos_rockmaul>.withTag({display: {Name:"§6§o初王之刃§r",Lore:["§d§o超限附魔§r"]}}), enchlistFirstKing).getItem(), 
+		[[<contenttweaker:fifth_order_mythic_fractal>, null, null, <contenttweaker:eye_of_limbo>, null, null, <contenttweaker:fifth_order_mythic_fractal>], 
+		[null, <contenttweaker:prophetic_paper>, null, <contenttweaker:prophetic_paper>, null, <contenttweaker:prophetic_paper>, null], 
+		[null, null, <projectex:matter:11>, null, <projectex:matter:11>, null, null], 
+		[<contenttweaker:eye_of_limbo>, <contenttweaker:prophetic_paper>, null, <divinerpg:karos_rockmaul>, null, <contenttweaker:prophetic_paper>, <contenttweaker:eye_of_limbo>], 
+		[null, null, <projectex:matter:11>, null, <projectex:matter:11>, null, null], 
+		[null, <contenttweaker:prophetic_paper>, null, <contenttweaker:prophetic_paper>, null, <contenttweaker:prophetic_paper>, null], 
+		[<contenttweaker:fifth_order_mythic_fractal>, null, null, <extrabotany:camera>, null, null, <contenttweaker:fifth_order_mythic_fractal>]]);  
+
+}

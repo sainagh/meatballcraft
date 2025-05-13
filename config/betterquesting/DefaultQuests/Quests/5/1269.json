@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound on a warper plane! But which one?",
+      "desc:8": "§7§o发现于某个跃迁器位面！但是是哪个呢？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_queen_ge",
@@ -152,7 +152,7 @@
           "MaxH:3": 20
         }
       },
-      "name:8": "Mysterious Bee"
+      "name:8": "奥秘蜜蜂"
     }
   },
   "questID:3": 1269,

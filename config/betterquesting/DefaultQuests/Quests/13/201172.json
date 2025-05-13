@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 7,000\nMining Level: 10\nMining Speed: 18\nAttack: 40\nGlobal Traveler\nBrown Magic\nApocalypse\n\nHandle\nModifier: 2\nDurability: 0\nGlobal Traveler\nBrown Magic\nApocalypse\n\nExtra\nDurability: 1,400\nGlobal Traveler\nBrown Magic\n\nBows\nDrawspeed: 0.5\nRange Multiplier: 2.8\nBonus Damage: 16\nGlobal Traveler\nBrown Magic\nApocalypse",
+      "desc:8": "顶端\n耐久：7,000\n挖掘等级：10\n挖掘速度：18\n攻击力：40\n环球旅行者\n布朗魔术\n启示录\n\n手柄\n手柄系数：2\n耐久：0\n环球旅行者\n布朗魔术\n启示录\n\n其它部件\n耐久：1,400\n环球旅行者\n布朗魔术\n\n弓\n拉弓速度：0.5\n范围系数：2.8\n附加伤害：16\n环球旅行者\n布朗魔术\n启示录",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "infinity_avaritia_plustic"
         }
       },
-      "name:8": "Infinity"
+      "name:8": "无尽"
     }
   },
   "questID:3": 201172,

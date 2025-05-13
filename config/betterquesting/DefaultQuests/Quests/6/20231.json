@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo enter the dungeon you need to use a fully charged thaumium or voidseer casting gauntlet augmented with the impetus conductor on the gateway block.\n\nDefeat the final boss!",
+      "desc:8": "§7§o要进入邪术旋塔，需要使用安装有元动能量电池的满充能神秘或虚空预言者法师护手右击邪术锁孔。\n\n击败最终Boss！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicaugmentation:research_notes"
       },
-      "name:8": "Tattered Scrolls"
+      "name:8": "破旧卷轴"
     }
   },
   "questID:3": 20231,

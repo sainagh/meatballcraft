@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCheck uses for these items for the ritual preview.\n\nThis will summon a druden! ",
+      "desc:8": "§7§o检查材料的用途以查看仪式预览。\n\n会召唤杜尔登！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:ectoplasm"
       },
-      "name:8": "Rite of the Spiritual Rift (Useful)"
+      "name:8": "灵魂缝隙仪式（实用）"
     }
   },
   "questID:3": 1142,

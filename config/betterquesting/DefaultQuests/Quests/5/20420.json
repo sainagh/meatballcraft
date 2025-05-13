@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests show the available options for mob farming, as well as woot and deep mob learning!\n\nMob farms can be extremely powerful in this pack if used effectively, be sure to start early!",
+      "desc:8": "§7§o下列任务展示了刷怪的可选方法，当然还有Woot和深度怪物学习！\n\n若使用得当，刷怪场在本整合包中十分强力，一定要早点开始建造！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Spawning Szn"
+      "name:8": "刷怪"
     }
   },
   "questID:3": 20420,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou should use a packager/unpackager pair. Place the combination package crafter adjacent to the unpackager.\n\nTo perform recipes, the package combination crafters needs marked pedestals around it, one for each individual item!",
+      "desc:8": "§7§o需要一对封包机/解包机。将组合封包合成器与解包机相邻放置。\n\n组合封包合成器周围需放置标记基座以执行配方，每个外环输入物都需要一个基座！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "packagedexcrafting:combination_crafter"
       },
-      "name:8": "Combination Package Crafter"
+      "name:8": "组合封包合成器"
     }
   },
   "questID:3": 90150,

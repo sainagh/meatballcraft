@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFrost resistance.",
+      "desc:8": "§7§o冰霜抗性。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 7,
         "id:8": "tombstone:scroll_buff"
       },
-      "name:8": "Frost Resistance"
+      "name:8": "冰霜抗性"
     }
   },
   "questID:3": 2305,

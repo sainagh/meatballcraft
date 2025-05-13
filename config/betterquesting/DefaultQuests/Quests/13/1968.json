@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 3000\nMining Level: Stone\nMining Speed: 0.2\nAttack: 46.5\nHail Hydra\nHe who must not be named\nSharp\n\nHandle\nModifier: 1\nDurability: 3000\nHail Hydra\nHe who must not be named\nSharp\n\nExtra\nDurability: 3000\nHail Hydra\nHe who must not be named\nSharp\n",
+      "desc:8": "顶端\n耐久：3000\n挖掘等级：石头\n挖掘速度：0.2\n攻击力：46.5\n九头蛇万岁\n佚名\n锐利\n\n手柄\n手柄系数：1\n耐久：3000\n九头蛇万岁\n佚名\n锐利\n\n其它部件\n耐久：3000\n九头蛇万岁\n佚名\n锐利\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "wrought_iron"
         }
       },
-      "name:8": "Wrought Iron"
+      "name:8": "锻铁"
     }
   },
   "questID:3": 1968,

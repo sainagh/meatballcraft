@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTech reborn cables are not the most performant, but they are cheap!",
+      "desc:8": "§7§o科技复兴模组的导线性能不是最好的，但十分便宜！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 6,
         "id:8": "techreborn:cable"
       },
-      "name:8": "Insulated Gold Cable"
+      "name:8": "绝缘金质导线"
     }
   },
   "questID:3": 90292,

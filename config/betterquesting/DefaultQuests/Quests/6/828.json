@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou should use the ritual of culling instead, it\u0027s less laggy.\n\nPlace the ritual below a blood altar.\n\nAny mobs present below the ritual will be damaged to fill the blood altar.",
+      "desc:8": "§7§o应当使用剔除仪式，相比起来更不会造成卡顿。\n\n放置在血之祭坛下方。\n\n仪式下方的所有生物都将收到伤害，为祭坛填充LP。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_the_wizard"
       },
-      "name:8": "Well of Suffering (Ritual of Culling Better)"
+      "name:8": "苦难之井（剔除仪式更佳）"
     }
   },
   "questID:3": 828,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oEnergy condensers can be used to replicate items with EMC value using the equivalence provided by Relays and Collectors.\n\nMore info in §cbook of creation§7§o to see how to make fast EMC farms using condensers!",
+      "desc:8": "§7§o能量凝聚器可使用相邻继电器和收集器提供的EMC复制物品。\n\n查看§c创造之书§7§o以了解如何使用凝聚器快速刷取EMC！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:condenser_mk1"
       },
-      "name:8": "Energy Condenser"
+      "name:8": "能量凝聚器"
     }
   },
   "questID:3": 20206,

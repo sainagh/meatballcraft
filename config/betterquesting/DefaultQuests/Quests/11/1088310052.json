@@ -17,9 +17,9 @@
           "damage:3": 3000,
           "display:10": {
             "Lore:9": {
-              "0:8": "§d§oSuper-Enchanted§r"
+              "0:8": "§d§o超限附魔§r"
             },
-            "Name:8": "§6§oTater Smasher§r"
+            "Name:8": "§6§o土豆粉碎锤§r"
           },
           "ench:9": {
             "0:10": {
@@ -30,7 +30,7 @@
           "repair:3": 17000
         }
       },
-      "name:8": "Tater Smasher"
+      "name:8": "土豆粉碎锤"
     }
   },
   "questID:3": 1088310052,
@@ -45,9 +45,9 @@
             "damage:3": 3000,
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oTater Smasher§r"
+              "Name:8": "§6§o土豆粉碎锤§r"
             },
             "ench:9": {
               "0:10": {

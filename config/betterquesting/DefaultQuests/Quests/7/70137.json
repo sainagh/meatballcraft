@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCreated by combining a Liveroot, an Iron Ingot, and a Gold Nugget.\n\nCan be found in chests in the Twilight Forest.\n\n- Written by Bluecat",
+      "desc:8": "§7§o由活根、金粒和铁锭合成获得。\n\n可于暮色森林的箱子内发现。\n\n- Bluecat撰写",
       "icon:10": {
         "Count:3": 1,
         "id:8": "twilightforest:ironwood_ingot"
       },
-      "name:8": "Ironwood Ingot"
+      "name:8": "铁树锭"
     }
   },
   "questID:3": 70137,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Slices and Splices organic and inorganic things together consuming the durability of an axe and shears.\nDurability is not consumed if the tools are unbreakable!",
+      "desc:8": "将有机与无机材料切片并拼接，同时消耗斧和剪刀的耐久。\n具有无法破坏属性的工具耐久不会被消耗！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:block_slice_and_splice"
       },
-      "name:8": "Slice\u0027N\u0027Splice"
+      "name:8": "头颅装配机"
     }
   },
   "questID:3": 20581,

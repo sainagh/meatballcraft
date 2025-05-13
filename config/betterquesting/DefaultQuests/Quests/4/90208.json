@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBind to an inventory to allow fliod I/O at a distance.",
+      "desc:8": "§7§o与容器绑定以允许流体远程交互。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_phantom_liquiface"
       },
-      "name:8": "Phantom Liquiface"
+      "name:8": "幻灵流体接口"
     }
   },
   "questID:3": 90208,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This was unexpected!\nSeems like mythic powers have some connection to alchemy.\nInterfacing with my own EMC pool should get easier...",
+      "desc:8": "真是出乎意料！\n如此看来，神话力量似乎与炼金术存在某种关联。\n照此推断，与我的EMC池对接应该会更顺畅……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectex:personal_link"
       },
-      "name:8": "Mythic \u003d Alchemy?"
+      "name:8": "神话炼金术？"
     }
   },
   "questID:3": 168,

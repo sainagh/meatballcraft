@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,410\nMining Level: Obsidian\nMining Speed: 9.47\nAttack: 7.39\nDense\n\nHandle\nModifier: 0.78\nDurability: 600\nDense\n\nExtra\nDurability: 120\nDense\n\nBows\nDrawspeed: 1.49\nRange Multiplier: 0.6\nBonus Damage: 3\nDense",
+      "desc:8": "顶端\n耐久：1,410\n挖掘等级：黑曜石\n挖掘速度：9.47\n攻击力：7.39\n致密\n\n手柄\n手柄系数：0.78\n耐久：600\n致密\n\n其它部件\n耐久：120\n致密\n\n弓\n拉弓速度：1.49\n范围系数：0.6\n附加伤害：3\n致密",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "platinum"
         }
       },
-      "name:8": "Platinum"
+      "name:8": "铂"
     }
   },
   "questID:3": 201118,

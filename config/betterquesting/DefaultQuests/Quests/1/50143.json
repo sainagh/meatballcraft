@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "At the cost of sounding like a broken record, better!",
+      "desc:8": "尽管已经重复了无数遍，但还是要说：更好！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "thermalexpansion:reservoir",
         "tag:10": {}
       },
-      "name:8": "Reservoir (Reinforced)"
+      "name:8": "贮液器 (强化)"
     }
   },
   "questID:3": 50143,

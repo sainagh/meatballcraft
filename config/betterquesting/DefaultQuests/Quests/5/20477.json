@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Better virtual minerals, better yield!",
+      "desc:8": "更好的虚拟矿物，更大的范围！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "environmentaltech:void_ore_miner_cont_3"
       },
-      "name:8": "Void Ore Miner Tier 3"
+      "name:8": "三级虚空矿物采掘机"
     }
   },
   "questID:3": 20477,

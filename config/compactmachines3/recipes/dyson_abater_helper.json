@@ -1,0 +1,117 @@
+{
+    "name": "compactmachines3:dyson_abater_helper",
+    "target-item": "modularmachinery:dyson_abater_controller",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "modularmachinery:dyson_revolver_controller",
+        "meta": 0
+      },
+      "b": {
+        "id": "contenttweaker:galaxy_conduit",
+        "meta": 0
+      },
+      "c": {
+        "id": "contenttweaker:nineteen_blocks",
+        "meta": 0
+      },
+      "d": {
+        "id": "minecraft:wool",
+        "meta": 0
+      },
+      "e": {
+        "id": "modularmachinery:dyson_abater_controller",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "_"
+        ],
+        [
+          "b"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ]
+      ],
+      [
+        [
+          "a"
+        ],
+        [
+          "d"
+        ],
+        [
+          "c"
+        ],
+        [
+          "c"
+        ],
+        [
+          "c"
+        ],
+        [
+          "c"
+        ],
+        [
+          "b"
+        ],
+        [
+          "e"
+        ]
+      ],
+      [
+        [
+          "_"
+        ],
+        [
+          "b"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ],
+        [
+          "_"
+        ]
+      ]
+    ]
+       
+}

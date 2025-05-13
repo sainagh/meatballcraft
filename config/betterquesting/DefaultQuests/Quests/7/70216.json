@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the Apalachia dimension from DivineRPG.\nCan be crafted from Apalachia souls from Apalachia\u0027s native mobs.\n\n",
+      "desc:8": "§7§o发现于神圣RPG模组的附魔山脉维度。\n可使用附魔山脉本土怪物掉落的附魔山脉之魂制作。\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:apalachia_fragments"
       },
-      "name:8": "Apalachia Fragments"
+      "name:8": "附魔山脉碎片"
     }
   },
   "questID:3": 70216,

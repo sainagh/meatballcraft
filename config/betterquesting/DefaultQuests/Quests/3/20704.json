@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAn upgraded version of the inscriber! It can accept full stacks as inputs!\n\nFor large crafting setups, spamming these is a bad idea for lag! \nYou should use the processor clean room instead!",
+      "desc:8": "§7§o升级版本的压印器！可接收整组输入原料！\n\n不推荐使用大量高级压印器进行批量合成，会造成卡顿！\n推荐是使用超净间加工机！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ae2stuff:inscriber"
       },
-      "name:8": "Advanced Inscriber"
+      "name:8": "高级压印器"
     }
   },
   "questID:3": 20704,

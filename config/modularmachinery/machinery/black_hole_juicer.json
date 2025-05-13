@@ -1,0 +1,3878 @@
+{
+    "registryname": "black_hole_juicer",
+    "localizedname": "Black Hole Juicer",
+	"color": "ffffff",
+    "parts": [
+        {
+            "x": 5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:miniature_black_hole@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:tardis_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "generalized_output_fluid"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:tardis_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:tardis_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:tardis_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:miniature_black_hole@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:miniature_black_hole@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:miniature_black_hole@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "contenttweaker:miniature_black_hole@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:tardis_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:miniature_black_hole@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:galaxy_conduit@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:miniature_black_hole@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:miniature_black_hole@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_time_beam@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "glassential:glass_ethereal_reverse@0"
+            ]
+        }
+    ]}

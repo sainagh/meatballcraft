@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHolds 32 buckets.",
+      "desc:8": "§7§o可存储32桶流体。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
@@ -18,7 +18,7 @@
           }
         }
       },
-      "name:8": "Pressurized Fluid Tank"
+      "name:8": "加压流体储罐"
     }
   },
   "questID:3": 90092,

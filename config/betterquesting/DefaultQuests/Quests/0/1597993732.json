@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oA space station and the warp multiblocks are used to travel to the various planets (see quests below).\n\nAdvanced Rocketry can be a bit annoying to deal with, so alternative warper recipes are available. These have to be used in a space station, so you will have to still put one into orbit. ",
+      "desc:8": "§7§o空间站和跃迁引擎多方块结构用于航行至多个不同星球（查看上方任务）。\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:infused_sol_stone"
       },
-      "name:8": "Adventures in the Sol Syatem"
+      "name:8": "索尔星系历险记"
     }
   },
   "questID:3": 1597993732,
@@ -23,16 +23,6 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "index:3": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "id:8": "contenttweaker:bee_stargate"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

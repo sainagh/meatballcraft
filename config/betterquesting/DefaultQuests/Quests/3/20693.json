@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This machine reprocesses radioactive fuels.\nGood to have on autocraft, I will need a decent amount of these.",
+      "desc:8": "可对放射性燃料进行再处理。\n最好做成被动产线，需求量会很大。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:isotope_separator_idle"
       },
-      "name:8": "Isotope Separator"
+      "name:8": "同位素分离器"
     }
   },
   "questID:3": 20693,

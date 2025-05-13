@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oServos, filters, and retrievers are what allows to move items using itemducts and fluiducts!\n\nAll have whitelist/blacklist to only move specific items, and they have different redstone modes. \n\nRight click the connection between a conduit and an inventory to place these items.\nUse a crescent hammer to remove them from ducts!\n\nServos are used to extract from an inventory and push into other inventories.\n\nFilters are used to select or prevent specific items from entering an inventory.\n\nRetrievers are used to pull items from other inventories.",
+      "desc:8": "§7§o伺服器、过滤器和检索器可用于在物品管道和流体管道中转移物品和流体！\n\n全部都带有白名单/黑名单来只移动特定物品，还能设置不同的红石模式。\n\n对管道与容器的连接端右击来安装它们。\n使用新月锤来移除！\n\n伺服器可以从容器中提取物品或流体并传输到其他容器。\n\n过滤器可选择特定物品或流体，允许/阻止其进入容器。\n\n检索器可从其他容器中抽取物品或流体。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermaldynamics:servo"
       },
-      "name:8": "Moving Stuffs"
+      "name:8": "转移物品"
     }
   },
   "questID:3": 90249,

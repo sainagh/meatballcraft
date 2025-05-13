@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe destruction catalyst is one of the mining tools in the pack. You can increase its range through a keybind. \n\nBE CAREFUL, this could destroy your base!\n\nIt consumes furnace fuels to run, but in the future klein stars will act as batteries!\n\n§fAlchemical energy provided by fuels such as coal and redstone can also be converted to explosive power.\nThis catalyst should make mining very easy!",
+      "desc:8": "§7§o毁灭燧石是本整合包提供的其中一种挖掘工具。可使用绑定按键扩大挖掘范围。\n\n警告：可以摧毁你的基地！\n\n使用时消耗熔炉燃料，但之后可以使用卡莱恩能量之星供能！\n\n§f煤炭、红石等燃料提供的炼金能量，可被转化为爆炸之力。\n这种催化剂能为开矿提供极大便利！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_destruction_catalyst",
         "tag:10": {}
       },
-      "name:8": "This is awesome!"
+      "name:8": "太棒了！"
     }
   },
   "questID:3": 62,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 800\nMining Level: Obsidian\nMining Speed: 11.54\nAttack: 7.42\nSuperheat\n\nHandle\nModifier: 0.82\nDurability: 120\nAutosmelt\n\nExtra\nDurability: 95\nAutosmelt\n\nBows\nDrawspeed: 0.6\nRange Multiplier: 2.41\nBonus Damage: 7\nAutosmelt",
+      "desc:8": "顶端\n耐久：800\n挖掘等级：黑曜石\n挖掘速度：11.54\n攻击力：7.42\n过热\n\n手柄\n手柄系数：0.82\n耐久：120\n自动冶炼\n\n其它部件\n耐久：95\n自动冶炼\n\n弓\n拉弓速度：0.6\n范围系数：2.41\n附加伤害：7\n自动冶炼",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "yellowgarnet"
         }
       },
-      "name:8": "Yellow Garnet"
+      "name:8": "黄石榴石"
     }
   },
   "questID:3": 201153,

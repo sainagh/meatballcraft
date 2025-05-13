@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,919\nMining Level: 5\nMining Speed: 9\nAttack: 9\nMirabile Visu\nMana\n\nHandle\nModifier: 1.1\nDurability: 40\nMana\n\nExtra\nDurability: 90\nMana\n\nBows\nDrawspeed: 0.74\nRange Multiplier: 1.5\nBonus Damage: 5.5\nMana",
+      "desc:8": "顶端\n耐久：1,919\n挖掘等级：5\n挖掘速度：9\n攻击力：9\n光怪陆离\n魔力\n\n手柄\n手柄系数：1.1\n耐久：40\n魔力\n\n其它部件\n耐久：90\n魔力\n\n弓\n拉弓速度：0.74\n范围系数：1.5\n附加伤害：5.5\n魔力",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "mirion"
         }
       },
-      "name:8": "Mirion"
+      "name:8": "蕴魔结晶"
     }
   },
   "questID:3": 201185,

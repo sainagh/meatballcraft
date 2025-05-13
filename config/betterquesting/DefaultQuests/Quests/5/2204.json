@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFor trees, a sapling works the same as bee princesses, and pollen works the same as bee drones.\n\nPollen and saplings of different types can be bred together to produce new species. This can be done in the mutatron!",
+      "desc:8": "§7§o对树来说，树木类似与蜜蜂的公主蜂，而花粉则类似雄蜂。\n\n不同品种的花粉和树苗杂交产出新品种。可在诱变机中实现此过程！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "gendustry:mutatron_advanced"
       },
-      "name:8": "Tree Breeding"
+      "name:8": "树木培育"
     }
   },
   "questID:3": 2204,

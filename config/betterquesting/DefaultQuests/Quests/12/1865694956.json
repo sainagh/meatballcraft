@@ -9,12 +9,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oVery high luck",
+      "desc:8": "§7§o极高幸运",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tombstone:christmas_hat"
       },
-      "name:8": "Strange Christmas Hat"
+      "name:8": "奇怪的圣诞帽"
     }
   },
   "questID:3": 1865694956,

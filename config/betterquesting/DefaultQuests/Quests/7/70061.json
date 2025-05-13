@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound between y\u003d1 and y\u003d28",
+      "desc:8": "§7§o发现于Y\u003d1与Y\u003d28之间",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "minecraft:dye"
       },
-      "name:8": "Lapis Lazuli"
+      "name:8": "青金石"
     }
   },
   "questID:3": 70061,

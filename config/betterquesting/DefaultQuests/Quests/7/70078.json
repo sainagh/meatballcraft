@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound between Y\u003d10 and Y\u003d120.",
+      "desc:8": "§7§o发现于Y\u003d10与Y\u003d120之间。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:salt"
       },
-      "name:8": "Salt"
+      "name:8": "盐"
     }
   },
   "questID:3": 70078,

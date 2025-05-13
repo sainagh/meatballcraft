@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oApplied Energistics is a high-capability logistics mod.\n\nAlone, it can manage a large part of your base, including item storage, autocrafting, and managing passive automations externally.\n\nExpect to build a massive AE2 network, and likely a ton of small ones too!\n\nThe following quests show all tools available in this complex but powerful mod!",
+      "desc:8": "§7§o应用能源是是一款高性能的物流模组。\n\n仅凭该模组本身，即可管理基地的绝大部分事务，包括物品存储、自动合成以及对外部被动产线的管理。\n\n流程中需要搭建巨大的AE2网络，可能还有众多小型网络！\n\n以下任务将展示这个复杂的强力模组中所有的可用工具！、",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic",
         "tag:10": {}
       },
-      "name:8": "Base Management"
+      "name:8": "基地管理"
     }
   },
   "questID:3": 90130,

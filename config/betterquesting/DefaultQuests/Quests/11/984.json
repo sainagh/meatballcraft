@@ -9,14 +9,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSlay the ancient entity, and obtain the manastone in the deep dark.",
+      "desc:8": "§7§o击杀远古实体，并在漆黑世界获得魔石。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:bedrock_leggings",
         "tag:10": {
           "RepairCost:3": 1,
           "display:10": {
-            "Name:8": "Thorns of Villany"
+            "Name:8": "罪恶荆棘"
           },
           "ench:9": {
             "0:10": {
@@ -34,7 +34,7 @@
           }
         }
       },
-      "name:8": "Thorns of Villany"
+      "name:8": "罪恶荆棘"
     }
   },
   "questID:3": 984,
@@ -48,7 +48,7 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
               "Name:8": "§6§oThorns of Villainy§r"
             },

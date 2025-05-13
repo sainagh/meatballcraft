@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 1,900\nMining Level: 5\nMining Speed: 12.9\nAttack: 12\nChad Thunder****\n\nHandle\nModifier: 0.9\nDurability: -5\nIlluminati\n\nExtra\nDurability: 227\nIlluminati\n\nBows\nDrawspeed: 2.63\nRange Multiplier: 3\nBonus Damage: 8\nIlluminati",
+      "desc:8": "顶端\n耐久：1,900\n挖掘等级：5\n挖掘速度：12.9\n攻击力：12\n现充**\n\n手柄\n手柄系数：0.9\n耐久：-5\n光照派\n\n其它部件\n耐久：227\n光照派\n\n弓\n拉弓速度：2.63\n范围系数：3\n附加伤害：8\n光照派",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "ionite"
         }
       },
-      "name:8": "Ionite"
+      "name:8": "艾恩尼"
     }
   },
   "questID:3": 201180,

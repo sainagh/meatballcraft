@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe everfull urn automatically refills crucibles nearby.\n\nThis also works with bewitchment crucibles.",
+      "desc:8": "§7§o无尽之瓮可自动为附近的坩埚补充水。\n\n同样可用于巫师之路模组的坩埚。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:everfull_urn"
       },
-      "name:8": "Auto-Refill"
+      "name:8": "自动补水"
     }
   },
   "questID:3": 20379,

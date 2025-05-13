@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGenerates mana from stone and ores, the rarer the ore, the more mana",
+      "desc:8": "§7§o消耗石头和矿物产生魔力，矿物越稀有，产魔越多",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "stonesia"
         }
       },
-      "name:8": "Stonesia (OK)"
+      "name:8": "石中姬（一般）"
     }
   },
   "questID:3": 767,

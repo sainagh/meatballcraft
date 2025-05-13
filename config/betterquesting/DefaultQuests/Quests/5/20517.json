@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe sludge refiner uses sludge to create various earthy materials, including some quite useful stuff!\nConductive powder is a very interesting byproduct...",
+      "desc:8": "§7§o污泥精炼机消耗污泥产出多种泥土相关材料，其中有些十分有用！\n导热粉这种副产物十分有趣……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:sludge_refiner"
       },
-      "name:8": "Sludge Refiner"
+      "name:8": "污泥精炼机"
     }
   },
   "questID:3": 20517,

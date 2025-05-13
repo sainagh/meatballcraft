@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe ME pattern terminal lets you encode recipes into patterns for autocrafting.\n\nPatterns have two modes: \u0027Crafting Pattern\u0027 works for molecular assembler recipes, \u0027Processing Pattern\u0027 mode works for any interface-machine interaction!\n\nPress R on an item in JEI to add it as a recipe. Click and drag items in JEI to add them as recipes manually!",
+      "desc:8": "§7§oME样板终端可以编码样板来进行自动合成。\n\n样板有两种模式：“合成样板”，可用于分子装配室；“处理样板”，可用于和接口相连的机器交互！\n\n在JEI中对物品按R键将其作为配方添加。从JEI中点击并拖拽物品将其手动添加到配方中！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 340,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "ME Pattern Terminal"
+      "name:8": "ME样板终端"
     }
   },
   "questID:3": 90184,

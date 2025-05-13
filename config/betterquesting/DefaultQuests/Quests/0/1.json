@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oI don\u0027t want to overload you with knowledge, so important info will become available through checkbox quests and subtitles when it\u0027s needed. If you feel like something is wrong, let me know on discord!\n\n§rThere it is, I found a way to use these higher dimensions to produce \u0027rifts\u0027 (spherical in shape) that allow to travel through space. Who knows what great advancements such a discovery would cause?!\nToday is the day! I will be the first human to open a wormhole!",
+      "desc:8": "§7§o我不想用一大堆知识过载你的脑子，所以重要信息会在需要时出现在复选框任务和子标题中。如果感觉哪里写错了，请到Discord频道提交问题！\n\n§r就是这样，我找到了一个利用更高维度来产生“裂隙”（虽然形状是球形的），从而进行空间旅行的方法。谁知道如此的发现会带来何等巨大的进步呢？！\n就在今天！我将成为第一个打开虫洞的人类！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:grass"
       },
-      "name:8": "A Rift",
+      "name:8": "一道裂隙",
       "visibility:8": "ALWAYS"
     }
   },

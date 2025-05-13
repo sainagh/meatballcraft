@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDimensional Doors is a mod about outlandish worlds and strange geometries, and it provides some convenience tools which will be explained here.\n\nTo get started, explore, and enter the doors that can be found scattered around many of the worlds you will explore!",
+      "desc:8": "§7§o维度门是一款以光怪陆离的异世界与奇异的几何结构为主题的模组，同时提供部分便利工具（下文将进行说明）。\n\n四处探索，进入散落在各个世界中的门户中来开始本模组！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Dimensional Doors"
+      "name:8": "维度门"
     }
   },
   "questID:3": 2296,

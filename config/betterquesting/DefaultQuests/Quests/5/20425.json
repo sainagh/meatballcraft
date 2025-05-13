@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oNesting pens can be used to automate chickens in a straightforward matter! And there is a chance for a few special drops!\n\nThe net can be used to put chickens in the nesting pens.\n\n§fA nesting pen can increase the eggification of chickens. Not the best, but it\u0027ll do for a bit.",
+      "desc:8": "§7§o组合鸡舍可以轻松实现养鸡的自动化！并且还有概率获得一些特殊的掉落物！\n\n可以用网兜将鸡放入组合鸡舍。\n\n§f组合鸡舍可提高鸡的产卵效率。不是最好的，但多少有些提升。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "hatchery:pen"
       },
-      "name:8": "Nesting Pen"
+      "name:8": "组合鸡舍"
     }
   },
   "questID:3": 20425,

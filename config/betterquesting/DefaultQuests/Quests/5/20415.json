@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHere you can find explanations and tutorials on all of the ways of making infinite resources!\n\n§fIt is clear that, in order to achieve my goals, I need to CREATE!\nLuckily, there are a lot of ways of generating matter using science, magic, and a combination of both.\nI will keep track of the various methods to generate matter \u0027ex nihilo\u0027 in this chapter.",
+      "desc:8": "§7§o这里提供了所有产出无限资源的解释和教程！\n\n§f很明显，为了实现我的目标，我必须要“创造”！\n幸运的是，利用科学、魔法以及两者的结合。有很多方法可以用来产生物质。\n我会在该章节中记录“无中生有”创造物质的思路。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "I need more! A lot More!"
+      "name:8": "还要更多！更多得多！"
     }
   },
   "questID:3": 20415,

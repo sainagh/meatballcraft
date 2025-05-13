@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oObtained from the Mysterium Dimension.\nCan be found when opening a Shiny Box.\nCan be found below Y\u003d100.\n",
+      "desc:8": "§7§o可通过秘境维度获得。\n可通过打开闪亮的盒子获得。\n可发现于Y\u003d100以下。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:mystite_ingot"
       },
-      "name:8": "Mystite Ingot"
+      "name:8": "神秘锭"
     }
   },
   "questID:3": 70253,

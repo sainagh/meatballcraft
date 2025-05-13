@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The interest these invaders have for dimensional shards is truly staggering.\nThe nether caves of Terra contain lots of them, and yet nobody was able to tell me a use for these gems.\n\u0027King\u0027 BamBamBam wanted to cut out some sort of supply chain that came from the nether caves.\nI guess greed guides us all, and yet, not even BamBamBam seemed to know what to do with these shards, he just wanted to hold on to them...\nAren\u0027t they just shiny rocks? I really don\u0027t get the excitement. I guess they are rare, but shouldn\u0027t they also be useful to cause entire galaxies to try and do war here?\n",
+      "desc:8": "入侵者对维度碎片的狂热令人震惊。\n泰拉的下界洞窟富含这类矿物，却无人能道明其用途。\nBamBamBam之“王”企图切断来自下界洞窟的某种供应链。\n贪婪虽驱使众生，但即便是BamBamBam，似乎也只知道囤积这些碎片而不知其用。\n难道不只是漂亮石头？我实在不理解其价值。或许因为稀有？但这怎么会引得诸多星系势力为此鏖战？\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:king_bambambam_pelvis"
       },
-      "name:8": "Violence incites violence..."
+      "name:8": "暴戾循环……"
     }
   },
   "questID:3": 128,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:king_bambambam_pelvis"
             },
-            "TrophyName:8": "BamBamBummer",
+            "TrophyName:8": "BamBam灾星",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

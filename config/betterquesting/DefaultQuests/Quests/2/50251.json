@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The extreme pressure turbine is part of the promethium loop. Once you have made enough promethium, you can infinitely loop it through the turbine and a solid state reactor by inversting silver and neutron fluid.\n\nThe bigger your solid-state fusion reactor, the higher the energy output of this loop!",
+      "desc:8": "超高压涡轮机是钷循环的一部分。一旦有了足够的钷，即可通过持续投入银与中子流体，将其在超高压涡轮机与固态聚变反应堆之间无限循环。\n\n固态聚变反应堆的规模越大，该循环的能量输出就越高！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:mythical_resource_miner_tier5"
         }
       },
-      "name:8": "Extreme Pressure Turbine (Great)"
+      "name:8": "超高压涡轮机（优异）"
     }
   },
   "questID:3": 50251,

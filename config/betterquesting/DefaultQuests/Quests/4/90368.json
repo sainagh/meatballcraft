@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis gate has two outputs, a setting input, and a lock input.\n\nThe outputs have the taller torches.\n\nThe setting input has the shorter torch.\n\nThe lock input has just redstone.\n\nWhen the lock input receives a redstone signal, the output replicates what the setting input indefintely, even after it changes.\n\nIf the setting is on, pulsing the lock turns the output on.\n\nIf the setting is off, pulsing the lock turns the output off.\n\n",
+      "desc:8": "§7§o该逻辑门有两个输出端，一个设定输入端和一个锁定输入端。This gate has two outputs, a setting input, and a lock input.\n\n有较高火把的两侧为输出端。\n\n有较短火把的一侧为设定输入端。\n\n只有红石线的一侧为锁定输入端。\n\n锁定输入端收到一个红石信号后，输出端会无限期地复制设定输入端的状态，即使之后设定输入端的信号发生变化。\n\n若设定输入端为高电平，对锁定输入端发送脉冲信号会使输出端变为高电平。\n\n若设定输入端为低电平，对锁定输入端发送脉冲信号会使输出端变为低电平。\n\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 14,
         "id:8": "projectred-integration:gate"
       },
-      "name:8": "Transparent Latch"
+      "name:8": "透明锁存器"
     }
   },
   "questID:3": 90368,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Reprocessing this New fuel gives me even more Isotopes, I wonder if I can combine them somehow.",
+      "desc:8": "再处理这种新燃料生成了更多同位素，我想知道能不能把他们结合起来。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 12,
         "id:8": "nuclearcraft:plutonium"
       },
-      "name:8": "Plutonium-242"
+      "name:8": "钚-242"
     }
   },
   "questID:3": 50231,

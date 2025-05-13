@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound between Y\u003d5 and Y\u003d20.",
+      "desc:8": "§7§o发现于Y\u003d5与Y\u003d20之间。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 133,
         "id:8": "thermalfoundation:material"
       },
-      "name:8": "Nickel Ingot"
+      "name:8": "镍锭"
     }
   },
   "questID:3": 70094,

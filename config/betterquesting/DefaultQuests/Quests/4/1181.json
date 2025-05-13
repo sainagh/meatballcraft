@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThese should be used to transfer large amounts of fluids. ",
+      "desc:8": "§7§o用于传输大量流体。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:redstone"
       },
-      "name:8": "Fast Fluid Transfer"
+      "name:8": "高速流体传输"
     }
   },
   "questID:3": 1181,

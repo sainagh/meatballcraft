@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFind a portal using eyes of ender, and right click them on the frame\n\n§fThe End islands are located on the outer ring of the asteroids orbiting Terra. They are mostly barren, yet, thanks to the presence of atmosphere, they allow for life to exist.",
+      "desc:8": "§7§o使用末影之眼寻找传送门，右击将末影之眼镶在传送门框架上\n\n§f末地岛屿坐落于环绕泰拉的小行星带外环区域。尽管地表环境极为荒芜，但得益于稀薄大气的存在，其上仍存在基础的生命形态。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:end_stone"
       },
-      "name:8": "End Islands"
+      "name:8": "末地岛屿"
     }
   },
   "questID:3": 20256,
@@ -18,8 +18,18 @@
       "dimension:3": 1,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "The End",
+      "name:8": "末地",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:end_stone"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oObtain the trust of the rhenia bees, and conquer finem.",
+      "desc:8": "§7§o取得铼界蜜蜂的信任，并征服末结地。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:lawsword",
@@ -40,7 +40,7 @@
           "tag:10": {
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
               "Name:8": "§6§oK-Room§r"
             },

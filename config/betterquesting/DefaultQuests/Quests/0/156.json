@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIn these planets, ores don\u0027t just spawn underground!\n\n§fThis is quite interesting, the thaumic energy held in dragon remains hold some sort of code, coordinates...\n...to a location just outside this solar system, there\u0027s no doubt about it!\nIt is clear that these coordinates are placed intentionally.\nBy travelling there I\u0027ll kill two birds with one stone! I can continue my research on gravity, and I can investigate what\u0027s going on at those coordinates.",
+      "desc:8": "§7§o这些星球的矿物不止生成在地下！\n\n§f有意思，巨龙遗骸蕴含的神秘能量中潜藏着某种编码、坐标……\n……确切指向索尔星系外的某个地点，毋庸置疑！\n这些坐标显然是被刻意植入的。\n前往此处可谓一石二鸟！既能延续我对引力的研究，又能探查坐标点潜藏的秘密。B",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:sedna_artifact"
       },
-      "name:8": "Secret Coordinates"
+      "name:8": "秘密坐标"
     }
   },
   "questID:3": 156,

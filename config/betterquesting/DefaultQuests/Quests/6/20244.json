@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe crucible is a crafting mechanic that uses essentia. Essentia is a magical fluid obtained in a variety of way in thaumcraft.\n\nTo function properly, a crucible needs to be on top of fire, or on top of nitor, and it needs to be full of water. If a crucible is working properly, the water in the crucible will make bubbles.\n\nItems dropped in the crucible will be decomposed into their essentia. Holding shift over an item after having scanned it with the thaumometer will show what essentia they have. Alternatively, all essentia for each item will be shown in JEI.\n\nIf you are wearing the goggles of revealing, you will see the essentia in the crucible.\n\nIf an appropriate combination of essentia is present, items dropped in the crucible will be transformed. JEI lists the available transformations.\n\nEssentia will slowly disappear from the crucible after it is added, and it will turn into flux. Drop quartz slivers in the crucible to collect any leftover essentia, and to avoid flux from building up!",
+      "desc:8": "§7§o坩埚使用源质来进行合成。源质是神秘时代模组中的一种魔法流体，可使用多种方式获得。\n\n坩埚需要放置在火或者闪耀之光上来正常工作，坩埚内还需放满水。正常工作时，坩埚内的水会冒气泡。\n\n丢入坩埚的物品会被分解为所具备的源质。将鼠标放在被魔导透镜扫描后的物品上，按住Shift可显示其包含的源质。此外，每种物品具有的源质均可在JEI中查看。\n\n若佩戴有揭示之护目镜，可直接看到坩埚内的源质。\n\n若源质组合正确，丢入坩埚内的物品将会被转化。JEI中列出了可用的转化配方。\n\n坩埚中的源质会缓慢消失，并转化为咒波。向坩埚中丢入石英碎片来收集剩余的源质，避免咒波增长！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:crucible"
       },
-      "name:8": "Crucible"
+      "name:8": "坩埚"
     }
   },
   "questID:3": 20244,

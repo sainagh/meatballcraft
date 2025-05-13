@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe advanced mutatron is the easiest way of making a new species! This should be the main and only way to make new bees!\n\nMake sure you use pristine princesses only!\n\nCombine the right princess and drone to create a queen of a new species! JEI lists all bee breeding combinations!\n\nOnce you make a queen, you should put it in an industrial apiary!\n\n§fNo variance, no problem!",
+      "desc:8": "§7§o高级诱变机是培育新品种蜜蜂的最简单方式！你应当只使用这种方式来培育新品种！\n\n确保只使用始祖种进行培育！\n\n将正确的公主蜂和雄蜂结合以培育新品种的蜂后！JEI中列出了所有可行的蜜蜂杂交组合！\n\n一旦培育出蜂后，应当将其放入工业蜂箱！\n\n§f没变异，没问题！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "gendustry:mutatron_advanced"
       },
-      "name:8": "Advanced Mutatron"
+      "name:8": "高级诱变机"
     }
   },
   "questID:3": 20495,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDecreases range by 1 block.",
+      "desc:8": "§7§o减少1格范围。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "modularrouters:augment"
       },
-      "name:8": "Range Down Augment"
+      "name:8": "范围降级拓展"
     }
   },
   "questID:3": 90420,

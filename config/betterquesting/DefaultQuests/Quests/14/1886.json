@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWARNING: blocks broken with this will not drop.\n\nTo clear out large areas of anooying blocks for building.\n\nYou can specify how big of an area to clear out, and it will do it.\n\n",
+      "desc:8": "§7§o警告：使用该物品破坏的方块会直接销毁。\n\n用于清空大范围的方块。\n\n可设置破坏空间大小。\n\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "buildinggadgets:destructiontool",
@@ -14,7 +14,7 @@
           "overlay:1": 1
         }
       },
-      "name:8": "Destruction Gadget"
+      "name:8": "破坏小帮手"
     }
   },
   "questID:3": 1886,

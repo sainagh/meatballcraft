@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 700\nMining Level: Obsidian\nMining Speed: 7\nAttack: 6.2\nPortly Gentleman\n\nHandle\nModifier: 1\nDurability: 0\nPortly Gentleman\n\nExtra\nDurability: 75\nPortly Gentleman\n\nBows\nDrawspeed: 5\nRange Multiplier: 0.4\nBonus Damage: -1\nPortly Gentleman",
+      "desc:8": "顶端\n耐久：700\n挖掘等级：黑曜石\n挖掘速度：7\n攻击力：6.2\n憨厚的绅士\n\n手柄\n手柄系数：1\n耐久：0\n憨厚的绅士\n\n其它部件\n耐久：75\n憨厚的绅士\n\n弓\n拉弓速度：5\n范围系数：0.4\n附加伤害：-1\n憨厚的绅士",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "fluixcrystal_plustic"
         }
       },
-      "name:8": "Fluix Crystal"
+      "name:8": "福鲁伊克斯水晶"
     }
   },
   "questID:3": 201174,

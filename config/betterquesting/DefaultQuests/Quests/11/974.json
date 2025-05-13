@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oProgress through thaumcraft and astral sorcery, explore the aether.\n\nThis super-enchanted recipe is a bit annoying to see, check for uses for the neromantic prime to see it easily!\n\n§fOne day staring up into the night sky you finally understood a longing you had in the back of your mind. You belong to the stars, you always have. You understood that scientifically a long time… now your understanding is almost spiritual. When you look at the sky the constellations pop out at you announcing their presence like old friends reaching out to reconnect with you.\n\nReaching those skies was your first idea, but Terra’s atmosphere is littered with asteroids it would be nearly impossible to breach that through conventional means, so instead you devised a way to bring the stars to you, and wrap yourself in them. ",
+      "desc:8": "§7§o发展神秘时代和星辉魔法，探索天境。\n\n该超限附魔配方可能不太好找，查看纳耳狂曼引口的用途来找到该配方！\n\n§f某日你凝望夜空，终于洞悉了内心深处那份由来已久的渴望——你本就属于星辰，亘古如是。这份认知在科学层面早已明晰……如今这份理解已近乎玄奥的灵性共鸣。每当你仰望天际，群星仿佛久别重逢的故友般跃然而出，向你昭示它们的存在。\n\n你一开始想着直接抵达苍穹，但泰拉大气层中密布的陨星碎岩，使得以常规手段突破变得几无可能。于是你另辟蹊径：不如将漫天星辰尽数引至身旁，让璀璨星辉裹覆周身。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:itemcape",
@@ -50,7 +50,7 @@
           }
         }
       },
-      "name:8": "Mantle of Stars"
+      "name:8": "星斗披风"
     }
   },
   "questID:3": 974,
@@ -67,7 +67,7 @@
             },
             "display:10": {
               "Lore:9": {
-                "0:8": "§d§oSuper-Enchanted§r"
+                "0:8": "§d§o超限附魔§r"
               },
               "Name:8": "§6§oMantle of the Stars§r"
             },

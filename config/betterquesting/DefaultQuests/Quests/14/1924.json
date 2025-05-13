@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oStarts off like a normal pickaxe, but can be levelled by consuming mana.\n\nThe higher the level, the larger its range.",
+      "desc:8": "§7§o初始就和普通镐子一样，但是可消耗魔力进行升级。\n\n等级越高，挖掘范围越大。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:terrapick",
@@ -13,7 +13,7 @@
           "mana:3": 999999999
         }
       },
-      "name:8": "Terra Shatterer"
+      "name:8": "泰拉粉碎者"
     }
   },
   "questID:3": 1924,

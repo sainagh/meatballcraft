@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 120\nMining Level: Iron\nMining Speed: 4\nAttack: 3\nCheapskate\n\nHandle\nModifier: 0.5\nDurability: -50\nCheap\n\nExtra\nDurability: 20\nCheap\n\nBows\nDrawspeed: 5\nRange Multiplier: 0.4\nBonus Damage: -1\nCheap",
+      "desc:8": "顶端\n耐久：120\n挖掘等级：铁\n挖掘速度：4\n攻击力：3\n吝啬\n\n手柄\n手柄系数：0.5\n耐久：-50\n廉价\n\n其它部件\n耐久：20\n廉价\n\n弓\n拉弓速度：5\n范围系数：0.4\n附加伤害：-1\n廉价",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "stone"
         }
       },
-      "name:8": "Stone"
+      "name:8": "圆石"
     }
   },
   "questID:3": 201027,

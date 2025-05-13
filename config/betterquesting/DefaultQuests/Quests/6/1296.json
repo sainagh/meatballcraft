@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRight click a livingrock pedestal containing spirit fuel to unlock pages.",
+      "desc:8": "§7§o使用植物魔法辞典右击含有精神燃料的活石祭坛以解锁更多内容。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:lexicon",
@@ -15,7 +15,7 @@
           "knowledge.relic:1": 1
         }
       },
-      "name:8": "Extra Knowledge"
+      "name:8": "额外知识"
     }
   },
   "questID:3": 1296,

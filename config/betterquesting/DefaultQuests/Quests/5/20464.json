@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Can things get any better? Yes they can!\nIf you know how to get CREATIVE...",
+      "desc:8": "还能更强吗？当然可以！\n如果你知道怎么“创造”的话……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "mysticalagriculture:watering_can"
       },
-      "name:8": "Supremium Watering Can"
+      "name:8": "终极精华洒水壶"
     }
   },
   "questID:3": 20464,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 720\nMining Level: Obsidian\nMining Speed: 7.2\nAttack: 6.6\nTwilit\nAutosmelt\nSuperheat\nFlammable\n\nHandle\nModifier: 0.7\nDurability: 400\nTwilit\nFlammable\n\nExtra\nDurability: 200\nTwilit\n\nBows\nDrawspeed: 1\nRange Multiplier: 0.9\nBonus Damage: 4\nTwilit\nFlammable",
+      "desc:8": "顶端\n耐久：720\n挖掘等级：黑曜石\n挖掘速度：7.2\n攻击力：6.6\n暮光\n自动冶炼\n过热\n可燃\n\n手柄\n手柄系数：0.7\n耐久：400\n暮光\n可燃\n\n其它部件\n耐久：200\n暮光\n\n弓\n拉弓速度：1\n范围系数：0.9\n附加伤害：4\n暮光\n可燃",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "fierymetal"
         }
       },
-      "name:8": "Fiery"
+      "name:8": "炽铁"
     }
   },
   "questID:3": 201025,

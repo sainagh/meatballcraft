@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oNormally, when working with patterns for \u0027normal\u0027 recipes, you just need one interface.\nTo encode these recipes, you need two blocks! \n\nThe unpackager is the second! You should put your second package recipe holder in here!\n\nMake sure each packager/unpackager pair contains recipe holders that are identical!\n\nThe unpackager works like an interface, where it will automate the recipe using the machines directly adjacent to it!",
+      "desc:8": "§7§o常情况下，处理“常规”样板时，只需要一个接口。\n但要处理这些封包样板，需要两个装置！\n\n第二部分是解包机！将另一个封包配方存储器放入解包机中！\n\n每对封包机/解包机的配方存储器需完全相同！\n\n解包机与接口类似，使用相连的机器实现配方自动化！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "packagedauto:unpackager"
       },
-      "name:8": "Unpackager"
+      "name:8": "解包机"
     }
   },
   "questID:3": 1245,

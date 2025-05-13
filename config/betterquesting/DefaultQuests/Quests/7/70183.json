@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCreated from a Tier 1 Void Ore Miner.",
+      "desc:8": "§7§o1级虚空矿物采掘机产出。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "environmentaltech:erodium_crystal"
       },
-      "name:8": "Erodium Crystal"
+      "name:8": "艾洛蒂水晶"
     }
   },
   "questID:3": 70183,

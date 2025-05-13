@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 460\nMining Level: Iron\nMining Speed: 8.9\nAttack: 4.3\nTwilit\nPrecipitate\n\nBows\nDrawspeed: 1.67\nRange Multiplier: 2\nBonus Damage: 0\nTwilit\nPrecipitate",
+      "desc:8": "顶端\n耐久：460\n挖掘等级：铁\n挖掘速度：8.9\n攻击力：4.3\n暮光\n积淀\n\n弓\n拉弓速度：1.67\n范围系数：2\n附加伤害：0\n暮光\n积淀",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "nagascale"
         }
       },
-      "name:8": "Naga Scale"
+      "name:8": "娜迦鳞片"
     }
   },
   "questID:3": 201023,

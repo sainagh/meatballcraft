@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oAutomatically breaks blocks and places them in its internal buffer.",
+      "desc:8": "§7§o自动破坏方块，并将其存入内部缓存。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:block_breaker"
       },
-      "name:8": "Auto-Breaker"
+      "name:8": "方块破坏器"
     }
   },
   "questID:3": 90200,

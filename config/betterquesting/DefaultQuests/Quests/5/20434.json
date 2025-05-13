@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Creatures can be duplicated with this machine consuming essence, given the programmation provided by an Imprisonment Tool.",
+      "desc:8": "根据生物捕捉工具提供的程序，该机器可消耗精华复制生物。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:mob_duplicator"
       },
-      "name:8": "Mob Duplicator"
+      "name:8": "生物复制机"
     }
   },
   "questID:3": 20434,

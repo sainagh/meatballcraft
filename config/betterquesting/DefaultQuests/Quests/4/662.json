@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o Very versatile.\n\nUpgrades can increase its speed, give it a wireless range, and turn it into a device that repairs items based on XP.",
+      "desc:8": "§7§o泛用性很广。\n\n可使用升级提升充能速度、获得无线传输能力，以及使用经验修复物品。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 9,
@@ -24,7 +24,7 @@
           ]
         }
       },
-      "name:8": "Energetic Infuser"
+      "name:8": "能量灌注机"
     }
   },
   "questID:3": 662,

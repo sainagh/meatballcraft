@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
+      "desc:8": "§7§o5x6的传送门结构，除了远古岩石外，构成方块还包括能量、方位、空间、现实和穿越雕符石各一个（使用纯宝石右击激活）",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:pink_cotton_candy"
       },
-      "name:8": "Candyland"
+      "name:8": "糖果之地"
     }
   },
   "questID:3": 20296,
@@ -18,8 +18,18 @@
       "dimension:3": 803,
       "hideInfo:1": 1,
       "index:3": 0,
-      "name:8": "Candyland",
+      "name:8": "糖果之地",
       "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:pink_cotton_candy"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The power of the Aevitas constellation makes plant growth really fast, may need to look into it...",
+      "desc:8": "生息座的力量能极大加速植物生长，需要仔细研究一下……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "astralsorcery:itemtunedcelestialcrystal",
@@ -21,7 +21,7 @@
           }
         }
       },
-      "name:8": "Aevitas (Good)"
+      "name:8": "生息座（良好）"
     }
   },
   "questID:3": 20452,

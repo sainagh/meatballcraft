@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIf you haven\u0027t noticed it, the smeltery doubles ores when you melt them.\n\nTo semi-automate ore-doubling, use the redstone clock to automatically output molten metals into casting tables with an ingot cast!\n\nYou can use hoppers to automatically put ores into the smeltery, and to take ingots out of the casting tables!\n\nBe careful! Alloys can form if you mix a lot of metals in the smeltery at once!",
+      "desc:8": "§7§o不知道你有没有注意到，冶炼炉在熔炼矿物时会产出双倍矿。\n\n可使用红石钟来自动将熔融金属输出到装有锭铸模的浇铸台中，从而实现半自动倍矿！\n\n可使用漏斗来自动向冶炼炉输入矿物，以及从浇铸台中自动输出锭！\n\n注意！如果一次性在冶炼炉中熔炼了过多种类的金属，可能会形成合金！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:redstoneclock"
       },
-      "name:8": "Basic Ore Processing"
+      "name:8": "基础矿物处理"
     }
   },
   "questID:3": 1051,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTraded with villagers! Can be automated with a trade exchanger, or using methods to repair the frame!",
+      "desc:8": "§7§o与村民交易获得！可通过贸易交换机实现自动化，或用某些方式修复框架！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:frame_proven"
       },
-      "name:8": "Increase Production"
+      "name:8": "提高产量"
     }
   },
   "questID:3": 1218,

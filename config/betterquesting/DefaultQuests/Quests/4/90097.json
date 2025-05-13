@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCapacitor banks can be assembled into multiblocks to increase their storage and transfer rate.\n\n",
+      "desc:8": "§7§o电容库可组合为多方块结构以增加存储量和传输速率。\n\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "enderio:block_cap_bank"
       },
-      "name:8": "Basic Capacitor Bank"
+      "name:8": "基础电容库"
     }
   },
   "questID:3": 90097,

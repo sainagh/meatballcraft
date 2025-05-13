@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGenerates mana consuming leaves placed nearby",
+      "desc:8": "§7§o消耗附近放置的树叶产生魔力",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "munchdew"
         }
       },
-      "name:8": "Munchdew (Great)"
+      "name:8": "咀叶花（优异）"
     }
   },
   "questID:3": 792,

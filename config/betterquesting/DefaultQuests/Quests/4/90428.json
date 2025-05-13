@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlaces blocks in a line depending on redstone signal. Redstone and placing settings can be tweaked.",
+      "desc:8": "§7§o根据红石信号，按直线放置方块。可调整红石和放置设置。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 10,
@@ -14,7 +14,7 @@
           "ModuleFilter:9": {}
         }
       },
-      "name:8": "Extruder Module Mk1"
+      "name:8": "造桥模块 Mk1"
     }
   },
   "questID:3": 90428,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Head\nDurability: 900\nMining Level: Cobalt\nMining Speed: 5.3\nAttack: 3.75\nBaron\n\nHandle\nModifier: 1.15\nDurability: 130\nBaron\n\nExtra\nDurability: 220\nBaron",
+      "desc:8": "顶端\n耐久：900\n挖掘等级：钴\n挖掘速度：5.3\n攻击力：3.75\n爵士\n\n手柄\n手柄系数：1.15\n耐久：130\n爵士\n\n其它部件\n耐久：220\n爵士",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:shard",
@@ -12,7 +12,7 @@
           "Material:8": "baronyte"
         }
       },
-      "name:8": "Baronyte"
+      "name:8": "爵士"
     }
   },
   "questID:3": 201058,

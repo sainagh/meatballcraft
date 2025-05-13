@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFound in the stronghold in the dark forest.\n\n§fThe clues are coming together, and a story is starting to emerge, at least in the way I am looking at things in the Twilight Forest. \nIn the depths of the darkest regions of the forest, I found the ruins of large strongholds. While the surface levels are almost completely gone, the catacombs are well-preserved, and full of creatures, including some crabs! These ones adapted to live inside old rusted helmets, and they are extremely cute. The other inhabitants, not so much.\nJust like the lich towers, these strongholds clearly show the signs of an actual society inhabiting their halls. A society that, over the course of time, was taken over by magical transformations, and turned into violent monsters. \nDeep in the catacombs, I found the traces of what could have been one of the first occurrences of this cataclysm. A single room, enclosed by multiple walls and barriers, that the rulers of once mighty fortresses willingly decided to turn into their own prison. The surrounding spaces were used to study their transformation, and to learn how to fight it.\nThis transformation, though, was not something that could be stopped by mere walls, and it took over everything else.\nThis means that the crabs I encountered on terra, the ones I know are from here, were likely once people. And probably were the other bugs too, since they are not unique to the mazes I previously explored.",
+      "desc:8": "§7§o发现于黑暗森林的要塞。\n\n§f线索正在汇聚，一个故事逐渐浮出水面，至少从我在暮色森林中观察到的种种迹象来看是如此。\n在这片森林最黑暗区域的深处，我发现了巨型要塞的废墟。虽然地表建筑几乎完全损毁，但地下墓穴保存完好，充斥着各种生物，甚至包括一些螃蟹！这些螃蟹适应了在锈蚀头盔中生活，模样极为可爱。至于其他居住者嘛……就没那么讨喜了。\n与巫妖塔类似，这些要塞的厅堂明显留存着某个真实社会存在过的痕迹。这个社会在时间长河中逐渐被魔法转换侵蚀，最终沦为暴力魔物的巢穴。\n在墓穴最深处，我发现了可能是这场灾变的初始证据。一间被多重墙壁和围栏封闭的密室，昔日强大要塞的统治者们自愿将其改造成了囚禁自身的牢笼。周围的房间曾用于研究他们的转换过程，并试图寻找对抗之法。\n然而这种转换绝非区区墙壁所能阻挡，最终吞噬了一切。\n这意味着我在泰拉大陆遇到的螃蟹，那些显然源自此处的生物，很可能曾经是人类。其他虫类大概也曾是这里的居民，毕竟它们并非我之前探索的迷宫所独有。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "twilightforest:trophy"
       },
-      "name:8": "Stronghold of Forgotten Spirits"
+      "name:8": "被遗忘灵魂的要塞"
     }
   },
   "questID:3": 254,
@@ -31,7 +31,7 @@
               "Damage:2": 0,
               "id:8": "twilightforest:knightmetal_pickaxe"
             },
-            "TrophyName:8": "Phantom Slayer",
+            "TrophyName:8": "幻影屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

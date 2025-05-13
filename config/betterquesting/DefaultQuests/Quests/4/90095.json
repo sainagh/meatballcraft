@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oXnet is a medium-power logistics tool.\n\nIt is the recommended way to manage passive automations of lots of different items coming in and out of machines.\n\nIt is much more performant than enderIO conduits for item transfer.\n\nXnet can also be used to mode energy, although the transfer rate may not be high enough for all applications.\n\nBecause of a bug with the mod, conduits are still better than Xnet for fluid automation.",
+      "desc:8": "§7§oXnet模组可提供中等速度的物流传输。\n\n是拥有大量不同种输入输出物品的被动化产线的首选物流方案。\n\n在物品传输方面，其优化远超末影接口的物品导管。\n\nXnet也可进行能量传输，尽管传输速率不是很高，在某些场合下不能胜任。\n\n由于该模组的某个bug，流体自动化方面还是推荐使用流体导管。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,

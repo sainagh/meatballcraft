@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo breed this bee you will have to use a regular apiary from forestry, and TNT needs to explode within 10 seconds before the death of the queen.\n\nYou should explode a lot of TNT in water or claimed chunks to make sure this happens.",
+      "desc:8": "§7§o需要使用林业模组的常规蜂箱来培育该蜜蜂，在蜂后死亡前的10秒内引爆TNT。\n\n最好在水里或被认领的区块内引爆大量TNT，以确保转化发生。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_queen_ge",
@@ -152,7 +152,7 @@
           "MaxH:3": 50
         }
       },
-      "name:8": "Mad Scientist Bee"
+      "name:8": "疯狂科学家蜜蜂"
     }
   },
   "questID:3": 1271,

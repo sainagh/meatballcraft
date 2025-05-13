@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse these to recycle unwanted books into goodies!\n\n§fMagic sure is cool, but it does take up a lot of space, ugh.",
+      "desc:8": "§7§o使用这些物品来回收不想要的书本！\n\n§f魔法确实很酷，呃，但是占的空间有点太多了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:spell_recycling_crystal"
       },
-      "name:8": "Decluttering"
+      "name:8": "杂物清理"
     }
   },
   "questID:3": 2251,
