@@ -3183,7 +3183,7 @@ item.contenttweaker.stone_of_dimensional_ascension.name=Stone of Dimensional Asc
 item.contenttweaker.astral_mastery_tome.name=Tome of Astral Mastery
 item.contenttweaker.master_spell_infernum.name=Master Spell: Infernum
 item.contenttweaker.master_spell_sonus.name=Master Spell: Sonus
-item.contenttweaker.master_spell_gognitio.name=Master Spell: Cognitio
+item.contenttweaker.master_spell_cognitio.name=Master Spell: Cognitio
 item.contenttweaker.white_hole_core.name=White Hole Core
 item.contenttweaker.quasar_core.name=Quasar Core
 item.contenttweaker.call_to_mission.name=Call to Mission
@@ -3251,6 +3251,17 @@ tile.contenttweaker.miniature_white_hole.name=Miniature White Hole
 item.contenttweaker.supercharged_signalum.name=Supercharged Signalum Ingot
 item.contenttweaker.charged_signalum.name=Charged Signalum Ingot
 tile.contenttweaker.cosmic_string_module.name=Cosmic String Module
+item.contenttweaker.thaumic_brush.name=Thaumic Brush
+item.contenttweaker.warren_peat.name=Warren Peat
+tile.contenttweaker.hypergrowth_actualizer.name=Hypergrowth Actualizer
+tile.contenttweaker.trinity_hypergrowth_component.name=Trinity Hypergrowth Component
+tile.contenttweaker.cosmic_hypergrowth_component.name=Cosmic Hypergrowth Component
+tile.contenttweaker.freedom_definer.name=Freedom Definer
+tile.contenttweaker.wishful_definer.name=Wishful Definer
+tile.contenttweaker.quasar_charged_core_of_definition.name=Quasar-Charged Core of Definition
+tile.contenttweaker.directed_miniature_quasar.name=Directed Miniature Quasar
+tile.contenttweaker.quasar_burst_director.name=Quasar Burst Director
+fluid.inquiring_abyssite=Inquiring Abyssite
 
 
 

@@ -264,7 +264,9 @@ mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:slumbering_abyssite>*144, <
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:chaotic_egg>, <fluid:imperial_abyssite>*144, <fluid:chaos>*14400]);
 
 mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:imperial_abyssite>*144, <fluid:flesh_world_ichor>*100, <fluid:gluttonous_abyssite>*144, null]);
-mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:chaotic_egg>, <fluid:gluttonous_abyssite>*12, <fluid:chaos>*14400]);
+// mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:chaotic_egg>, <fluid:gluttonous_abyssite>*12, <fluid:chaos>*14400]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:gluttonous_abyssite>*144, <fluid:recursive_computing_matter>*100, <fluid:inquiring_abyssite>*144, null]);
 
 
 mods.forestry.Squeezer.addRecipe(<fluid:purifying_fluid>*1000, [<contenttweaker:pure_egg>], 120);
@@ -275,4 +277,3 @@ recipes.addShaped(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweake
 [[<agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>],
 [<soulshardsrespawn:materials:1>, <minecraft:egg>, <soulshardsrespawn:materials:1>],
 [<agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>]]);
-

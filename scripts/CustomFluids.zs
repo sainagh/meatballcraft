@@ -1007,3 +1007,7 @@ var bewitchedessencebaths = VanillaFactory.createFluid("bewitched_essence_salts"
 bewitchedessencebaths.register();
 
 
+var inquiringabyssite = VanillaFactory.createFluid("inquiring_abyssite", Color.fromHex("497343"));
+inquiringabyssite.register();
+
+

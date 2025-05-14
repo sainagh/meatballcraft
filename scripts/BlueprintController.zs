@@ -431,6 +431,8 @@ addController(<modularmachinery:wormhole_field_generator_controller>, "modularma
 
 addController(<modularmachinery:bee_stargate_controller>, "modularmachinery:bee_stargate");
 
+addController(<modularmachinery:abyssal_entropic_catalyzer_controller>, "modularmachinery:abyssal_entropic_catalyzer");
+
 
 
 

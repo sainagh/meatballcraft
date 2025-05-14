@@ -145,3 +145,233 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritiaitem:univocal_halite_clus
 [null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
 
 [<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, null, <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<avaritiaitem:univocal_halite_cluster>*2, 
+
+[[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M瑟尔§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M瑟尔§r"]}}), <contenttweaker:fifth_order_ascended_fractal>, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:halite_imbuement_fabrial>, null, <avaritiaitem:cosmic_fractal_harmonizer>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M瑟尔§r"]}})], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M瑟尔§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>]]);  
+
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<avaritiaitem:univocal_halite_cluster>*3, 
+
+[[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M阿克拉斯特・科瓦莱恩§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M阿克拉斯特・科瓦莱恩§r"]}}), <contenttweaker:fifth_order_ascended_fractal>, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:halite_imbuement_fabrial>, null, <avaritiaitem:cosmic_fractal_harmonizer>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M阿克拉斯特・科瓦莱恩§r"]}})], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M阿克拉斯特・科瓦莱恩§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<avaritiaitem:univocal_halite_cluster>*4, 
+
+[[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M维狄萨斯・安纳斯§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M维狄萨斯・安纳斯§r"]}}), <contenttweaker:fifth_order_ascended_fractal>, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:halite_imbuement_fabrial>, null, <avaritiaitem:cosmic_fractal_harmonizer>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M维狄萨斯・安纳斯§r"]}})], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M维狄萨斯・安纳斯§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>]]);  
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<avaritiaitem:univocal_halite_cluster>*5, 
+
+[[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M欧姆托斯・费拉克§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M欧姆托斯・费拉克§r"]}}), <contenttweaker:fifth_order_ascended_fractal>, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:halite_imbuement_fabrial>, null, <avaritiaitem:cosmic_fractal_harmonizer>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M欧姆托斯・费拉克§r"]}})], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M欧姆托斯・费拉克§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<avaritiaitem:univocal_halite_cluster>*6, 
+
+[[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M丹奈斯・鲁森§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M丹奈斯・鲁森§r"]}}), <contenttweaker:fifth_order_ascended_fractal>, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:halite_imbuement_fabrial>, null, <avaritiaitem:cosmic_fractal_harmonizer>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M丹奈斯・鲁森§r"]}})], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M丹奈斯・鲁森§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>]]);  
+
+
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<avaritiaitem:univocal_halite_cluster>*7, 
+
+[[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M泰兰§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M泰兰§r"]}}), <contenttweaker:fifth_order_ascended_fractal>, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:halite_imbuement_fabrial>, null, <avaritiaitem:cosmic_fractal_harmonizer>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M泰兰§r"]}})], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M泰兰§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<avaritiaitem:univocal_halite_cluster>*8, 
+
+[[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・泰尔兰§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・泰尔兰§r"]}}), <contenttweaker:fifth_order_ascended_fractal>, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:halite_imbuement_fabrial>, null, <avaritiaitem:cosmic_fractal_harmonizer>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・泰尔兰§r"]}})], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・泰尔兰§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>]]);  
+
+
+
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<avaritiaitem:univocal_halite_cluster>*9, 
+
+[[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・暗穆兰§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・暗穆兰§r"]}}), <contenttweaker:fifth_order_ascended_fractal>, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:halite_imbuement_fabrial>, null, <avaritiaitem:cosmic_fractal_harmonizer>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・暗穆兰§r"]}})], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・暗穆兰§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>]]);  
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<avaritiaitem:univocal_halite_cluster>*10, 
+
+[[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・加莱§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・加莱§r"]}}), <contenttweaker:fifth_order_ascended_fractal>, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:halite_imbuement_fabrial>, null, <avaritiaitem:cosmic_fractal_harmonizer>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・加莱§r"]}})], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・加莱§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<avaritiaitem:univocal_halite_cluster>*11, 
+
+[[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M斯塔沃・德梅兰§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M斯塔沃・德梅兰§r"]}}), <contenttweaker:fifth_order_ascended_fractal>, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:halite_imbuement_fabrial>, null, <avaritiaitem:cosmic_fractal_harmonizer>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M斯塔沃・德梅兰§r"]}})], 
+
+[<contenttweaker:warren_rift>, null, null, <contenttweaker:fourth_order_ascended_fractal>, null, <contenttweaker:fourth_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>], 
+
+[null, null, <contenttweaker:third_order_ascended_fractal>, null, <avaritiaitem:cosmic_fractal_harmonizer>, null, <contenttweaker:third_order_ascended_fractal>, null, null], 
+
+[null, <contenttweaker:second_order_ascended_fractal>, null, null, <contenttweaker:fifth_order_ascended_fractal>, null, null, <contenttweaker:second_order_ascended_fractal>, null], 
+
+[<contenttweaker:first_order_ascended_fractal>, null, null, <contenttweaker:warren_rift>, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M斯塔沃・德梅兰§r"]}}), <contenttweaker:warren_rift>, null, null, <contenttweaker:first_order_ascended_fractal>]]);  

@@ -78,3 +78,75 @@ mytharken8.addFluidInput(<fluid:recursive_life_essence>*10);
 mytharken8.addItemInput(<contenttweaker:terran_divine_ore>);
 mytharken8.addItemOutput(<divinerpg:terran_stone>*64);
 mytharken8.build();
+
+
+
+val mytharken9 = RecipeBuilder.newBuilder("mytharken9","mythic_processor_arkencrusher",2);
+mytharken9.addEnergyPerTickInput(1000000);
+mytharken9.addFluidInput(<fluid:whisper_of_thel>*1);
+mytharken9.addItemInput(<contenttweaker:quasar_charged_gem>);
+mytharken9.addItemOutput(<contenttweaker:quasar_charged_dust>*2);
+mytharken9.build();
+
+val mytharken10 = RecipeBuilder.newBuilder("mytharken10","mythic_processor_arkencrusher",2);
+mytharken10.addEnergyPerTickInput(1000000);
+mytharken10.addFluidInput(<fluid:whisper_of_ahkrast_korvalain>*1);
+mytharken10.addItemInput(<contenttweaker:quasar_charged_gem>);
+mytharken10.addItemOutput(<contenttweaker:quasar_charged_dust>*4);
+mytharken10.build();
+
+val mytharken11 = RecipeBuilder.newBuilder("mytharken11","mythic_processor_arkencrusher",2);
+mytharken11.addEnergyPerTickInput(1000000);
+mytharken11.addFluidInput(<fluid:whisper_of_verdith_anath>*1);
+mytharken11.addItemInput(<contenttweaker:quasar_charged_gem>);
+mytharken11.addItemOutput(<contenttweaker:quasar_charged_dust>*8);
+mytharken11.build();
+
+val mytharken12 = RecipeBuilder.newBuilder("mytharken12","mythic_processor_arkencrusher",2);
+mytharken12.addEnergyPerTickInput(1000000);
+mytharken12.addFluidInput(<fluid:whisper_of_omtose_phellack>*1);
+mytharken12.addItemInput(<contenttweaker:quasar_charged_gem>);
+mytharken12.addItemOutput(<contenttweaker:quasar_charged_dust>*16);
+mytharken12.build();
+
+val mytharken13 = RecipeBuilder.newBuilder("mytharken13","mythic_processor_arkencrusher",2);
+mytharken13.addEnergyPerTickInput(1000000);
+mytharken13.addFluidInput(<fluid:whisper_of_donaeth_rusen>*1);
+mytharken13.addItemInput(<contenttweaker:quasar_charged_gem>);
+mytharken13.addItemOutput(<contenttweaker:quasar_charged_dust>*32);
+mytharken13.build();
+
+val mytharken14 = RecipeBuilder.newBuilder("mytharken14","mythic_processor_arkencrusher",2);
+mytharken14.addEnergyPerTickInput(1000000);
+mytharken14.addFluidInput(<fluid:whisper_of_tellan>*1);
+mytharken14.addItemInput(<contenttweaker:quasar_charged_gem>);
+mytharken14.addItemOutput(<contenttweaker:quasar_charged_dust>*64);
+mytharken14.build();
+
+val mytharken15 = RecipeBuilder.newBuilder("mytharken15","mythic_processor_arkencrusher",2);
+mytharken15.addEnergyPerTickInput(1000000);
+mytharken15.addFluidInput(<fluid:whisper_of_kurald_thyrllan>*1);
+mytharken15.addItemInput(<contenttweaker:quasar_charged_gem>);
+mytharken15.addItemOutput(<contenttweaker:quasar_charged_dust>*128);
+mytharken15.build();
+
+val mytharken16 = RecipeBuilder.newBuilder("mytharken16","mythic_processor_arkencrusher",2);
+mytharken16.addEnergyPerTickInput(1000000);
+mytharken16.addFluidInput(<fluid:whisper_of_kurald_emurlahn>*1);
+mytharken16.addItemInput(<contenttweaker:quasar_charged_gem>);
+mytharken16.addItemOutput(<contenttweaker:quasar_charged_dust>*256);
+mytharken16.build();
+
+val mytharken17 = RecipeBuilder.newBuilder("mytharken17","mythic_processor_arkencrusher",2);
+mytharken17.addEnergyPerTickInput(1000000);
+mytharken17.addFluidInput(<fluid:whisper_of_kurald_galain>*1);
+mytharken17.addItemInput(<contenttweaker:quasar_charged_gem>);
+mytharken17.addItemOutput(<contenttweaker:quasar_charged_dust>*512);
+mytharken17.build();
+
+val mytharken18 = RecipeBuilder.newBuilder("mytharken18","mythic_processor_arkencrusher",2);
+mytharken18.addEnergyPerTickInput(1000000);
+mytharken18.addFluidInput(<fluid:whisper_of_starvald_demelain>*1);
+mytharken18.addItemInput(<contenttweaker:quasar_charged_gem>);
+mytharken18.addItemOutput(<contenttweaker:quasar_charged_dust>*1024);
+mytharken18.build();

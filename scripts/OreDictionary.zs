@@ -151,3 +151,7 @@ oremeteoricdraconium.add(<contenttweaker:meteoric_draconic_stone>);
 
 val orefierypyrite = <ore:oreFieryPyrite>;
 orefierypyrite.add(<contenttweaker:fiery_pyrite>);
+
+
+val orestoneblock = <ore:stone>;
+orestoneblock.remove(<divinerpg:divine_rock>);

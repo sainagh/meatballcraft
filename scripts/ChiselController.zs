@@ -209,6 +209,7 @@ mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_isotope_separator_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:quantum_condenser_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_melter_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:abyssal_entropic_catalyzer_controller>);
 
 
 

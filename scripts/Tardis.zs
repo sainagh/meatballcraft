@@ -8,6 +8,46 @@ import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 
 
+mods.thaumcraft.Infusion.registerRecipe("infthaumicbrushbro", "", 
+<contenttweaker:thaumic_brush>, 10,
+[<aspect:terra>*10000, <aspect:herba>*10000], 
+<aoa3:shyre_sapling>, 
+[<contenttweaker:innerved_sky_stone>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_thel", Amount: 1000}),
+<contenttweaker:innerved_sky_stone>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_thel", Amount: 1000}),
+<contenttweaker:innerved_sky_stone>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_thel", Amount: 1000}),
+<contenttweaker:innerved_sky_stone>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_thel", Amount: 1000}),
+<contenttweaker:innerved_sky_stone>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_thel", Amount: 1000}),
+<contenttweaker:innerved_sky_stone>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_thel", Amount: 1000})]);
+
+recipes.addShaped(<contenttweaker:hypergrowth_actualizer>,
+[[<contenttweaker:myrmitite_casing>, <contenttweaker:ascended_fluix_crystal>, <contenttweaker:myrmitite_casing>],
+[<avaritiaitem:self_actualizing_stone>, <contenttweaker:hypergrowth_component>, <avaritiaitem:self_actualizing_stone>],
+[<contenttweaker:myrmitite_casing>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:myrmitite_casing>]]);
+
+recipes.addShaped(<contenttweaker:trinity_hypergrowth_component>,
+[[<contenttweaker:myrmitite_casing>, <contenttweaker:unleashed_triquetra>, <contenttweaker:myrmitite_casing>],
+[<contenttweaker:freedomsteel_ingot>, <contenttweaker:hypergrowth_actualizer>, <contenttweaker:freedomsteel_ingot>],
+[<contenttweaker:myrmitite_casing>, <contenttweaker:unleashed_triquetra>, <contenttweaker:myrmitite_casing>]]);
+
+recipes.addShaped(<contenttweaker:cosmic_hypergrowth_component>,
+[[<contenttweaker:myrmitite_casing>, <avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:myrmitite_casing>],
+[<avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:trinity_hypergrowth_component>, <avaritiaitem:cosmic_fractal_catalyzer>],
+[<contenttweaker:myrmitite_casing>, <avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:myrmitite_casing>]]);
+
+
+mods.nuclearcraft.infuser.addRecipe([<forestry:peat>, <fluid:whisper_of_thel>*1, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M瑟尔§r"]}})]);
+mods.nuclearcraft.infuser.addRecipe([<forestry:peat>, <fluid:whisper_of_ahkrast_korvalain>*1, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M阿克拉斯特・科瓦莱恩§r"]}})]);
+mods.nuclearcraft.infuser.addRecipe([<forestry:peat>, <fluid:whisper_of_verdith_anath>*1, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M维狄萨斯・安纳斯§r"]}})]);
+mods.nuclearcraft.infuser.addRecipe([<forestry:peat>, <fluid:whisper_of_omtose_phellack>*1, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M欧姆托斯・费拉克§r"]}})]);
+mods.nuclearcraft.infuser.addRecipe([<forestry:peat>, <fluid:whisper_of_donaeth_rusen>*1, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M丹奈斯・鲁森§r"]}})]);
+mods.nuclearcraft.infuser.addRecipe([<forestry:peat>, <fluid:whisper_of_tellan>*1, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M泰兰§r"]}})]);
+mods.nuclearcraft.infuser.addRecipe([<forestry:peat>, <fluid:whisper_of_kurald_thyrllan>*1, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・泰尔兰§r"]}})]);
+mods.nuclearcraft.infuser.addRecipe([<forestry:peat>, <fluid:whisper_of_kurald_emurlahn>*1, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・暗穆兰§r"]}})]);
+mods.nuclearcraft.infuser.addRecipe([<forestry:peat>, <fluid:whisper_of_kurald_galain>*1, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M库拉德・加莱§r"]}})]);
+mods.nuclearcraft.infuser.addRecipe([<forestry:peat>, <fluid:whisper_of_starvald_demelain>*1, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M斯塔沃・德梅兰§r"]}})]);
+
+
+
 mods.thaumcraft.Infusion.registerRecipe("infrecursiondimascension", "", 
 <contenttweaker:recursion_of_dimensional_ascension>, 10,
 [<aspect:aer>*10000, <aspect:ignis>*10000, <aspect:aqua>*10000, <aspect:terra>*10000, <aspect:ordo>*10000, <aspect:perditio>*10000, <aspect:vitium>*10000], 
@@ -50,6 +90,58 @@ mods.thaumcraft.Infusion.registerRecipe("infstoneworthiness", "",
 <contenttweaker:freedomsteel_ingot>, <contenttweaker:light_of_shadesmar>, 
 <contenttweaker:essence_of_worthiness>, <contenttweaker:light_of_shadesmar>, 
 <contenttweaker:freedomsteel_ingot>, <contenttweaker:light_of_shadesmar>]);
+
+
+val moltenchaosentropic1 = RecipeBuilder.newBuilder("moltenchaosentropic1","abyssal_entropic_catalyzer",2);
+moltenchaosentropic1.addItemInput(<ore:ingotAbyssalnite>);
+moltenchaosentropic1.addItemInput(<ore:ingotDreadium>);
+moltenchaosentropic1.addItemInput(<ore:ingotLiquifiedCoralium>);
+moltenchaosentropic1.addItemInput(<ore:ingotEthaxium>);
+moltenchaosentropic1.addItemInput(<contenttweaker:chaotic_egg>);
+moltenchaosentropic1.addFluidInput(<fluid:abyssite>*144);
+moltenchaosentropic1.addFluidOutput(<fluid:chaos>*1440);
+moltenchaosentropic1.build();
+
+val moltenchaosentropic2 = RecipeBuilder.newBuilder("moltenchaosentropic2","abyssal_entropic_catalyzer",2);
+moltenchaosentropic2.addItemInput(<ore:ingotAbyssalnite>);
+moltenchaosentropic2.addItemInput(<ore:ingotDreadium>);
+moltenchaosentropic2.addItemInput(<ore:ingotLiquifiedCoralium>);
+moltenchaosentropic2.addItemInput(<ore:ingotEthaxium>);
+moltenchaosentropic2.addItemInput(<contenttweaker:chaotic_egg>);
+moltenchaosentropic2.addFluidInput(<fluid:slumbering_abyssite>*144);
+moltenchaosentropic2.addFluidOutput(<fluid:chaos>*2880);
+moltenchaosentropic2.build();
+
+val moltenchaosentropic3 = RecipeBuilder.newBuilder("moltenchaosentropic3","abyssal_entropic_catalyzer",2);
+moltenchaosentropic3.addItemInput(<ore:ingotAbyssalnite>);
+moltenchaosentropic3.addItemInput(<ore:ingotDreadium>);
+moltenchaosentropic3.addItemInput(<ore:ingotLiquifiedCoralium>);
+moltenchaosentropic3.addItemInput(<ore:ingotEthaxium>);
+moltenchaosentropic3.addItemInput(<contenttweaker:chaotic_egg>);
+moltenchaosentropic3.addFluidInput(<fluid:imperial_abyssite>*144);
+moltenchaosentropic3.addFluidOutput(<fluid:chaos>*14400);
+moltenchaosentropic3.build();
+
+val moltenchaosentropic4 = RecipeBuilder.newBuilder("moltenchaosentropic4","abyssal_entropic_catalyzer",2);
+moltenchaosentropic4.addItemInput(<ore:ingotAbyssalnite>);
+moltenchaosentropic4.addItemInput(<ore:ingotDreadium>);
+moltenchaosentropic4.addItemInput(<ore:ingotLiquifiedCoralium>);
+moltenchaosentropic4.addItemInput(<ore:ingotEthaxium>);
+moltenchaosentropic4.addItemInput(<contenttweaker:chaotic_egg>);
+moltenchaosentropic4.addFluidInput(<fluid:gluttonous_abyssite>*144);
+moltenchaosentropic4.addFluidOutput(<fluid:chaos>*144000);
+moltenchaosentropic4.build();
+
+val moltenchaosentropic5 = RecipeBuilder.newBuilder("moltenchaosentropic5","abyssal_entropic_catalyzer",2);
+moltenchaosentropic5.addItemInput(<ore:ingotAbyssalnite>);
+moltenchaosentropic5.addItemInput(<ore:ingotDreadium>);
+moltenchaosentropic5.addItemInput(<ore:ingotLiquifiedCoralium>);
+moltenchaosentropic5.addItemInput(<ore:ingotEthaxium>);
+moltenchaosentropic5.addItemInput(<contenttweaker:chaotic_egg>);
+moltenchaosentropic5.addFluidInput(<fluid:inquiring_abyssite>*144);
+moltenchaosentropic5.addFluidOutput(<fluid:chaos>*1440000);
+moltenchaosentropic5.build();
+
 
 
 val catalystbalance0 = RecipeBuilder.newBuilder("catalystbalance0","catalyst_of_balance",20);
@@ -160,6 +252,14 @@ arcautinfdracshades.addItemInput(<avaritia:block_resource:1>*2);
 arcautinfdracshades.addItemInput(<contenttweaker:everburning_dust>*4);
 arcautinfdracshades.addItemOutput(<contenttweaker:everburning_recursion_fragment>*4);
 arcautinfdracshades.build();
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:quasar_burst_director>, 
+[[null, <contenttweaker:quasar_charged_gem>, <glassential:glass_ethereal_reverse>, <contenttweaker:quasar_charged_gem>, null], 
+[<contenttweaker:quasar_charged_gem>, <contenttweaker:cuendillar_plate>, <contenttweaker:hyperuranion_conduit>, <contenttweaker:cuendillar_plate>, <contenttweaker:quasar_charged_gem>], 
+[<glassential:glass_ethereal_reverse>, <contenttweaker:hyperuranion_conduit>, <contenttweaker:quasar_stabilizer>, <contenttweaker:hyperuranion_conduit>, <glassential:glass_ethereal_reverse>], 
+[<contenttweaker:quasar_charged_gem>, <contenttweaker:cuendillar_plate>, <contenttweaker:hyperuranion_conduit>, <contenttweaker:cuendillar_plate>, <contenttweaker:quasar_charged_gem>], 
+[null, <contenttweaker:quasar_charged_gem>, <glassential:glass_ethereal_reverse>, <contenttweaker:quasar_charged_gem>, null]]);  
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:space_time_beam>*12, 
