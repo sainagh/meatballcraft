@@ -92,7 +92,7 @@ mods.jei.JEI.addDescription(<ae2stuff:inscriber>,["制作处理器，速度更�
 mods.jei.JEI.addDescription(<ae2fc:fluid_discretizer>,["将流体转化为液滴形式以便于流体合成，一个ME网络中只能存在一个！"]);
 mods.jei.JEI.addDescription(<ae2fc:fluid_packet_decoder>,["将液滴转化回流体，以防卡住。使用该方块可将液滴视为物品进行自动化。"]);
 mods.jei.JEI.addDescription(<ae2fc:ingredient_buffer>,["既是箱子又是储罐的缓存方块，有4x16B的流体容量和9个物品槽位。"]);
-mods.jei.JEI.addDescription(<ae2fc:large_ingredient_buffer>,["既是箱子又是储罐的缓存方块，有7x16b的流体容量和27物品槽位。"]);
+mods.jei.JEI.addDescription(<ae2fc:large_ingredient_buffer>,["既是箱子又是储罐的缓存方块，有7x16b的流体容量和27个物品槽位。"]);
 mods.jei.JEI.addDescription(<ae2fc:burette>,["可用于向储罐内输入精准数量的流体，因为JEI联动的缘故实际上并不需要。"]);
 mods.jei.JEI.addDescription(<ae2fc:dual_interface>,["物品和流体二合一的接口。"]);
 mods.jei.JEI.addDescription(<ae2fc:fluid_level_maintainer>,["更好版本的流体标准发信器，可标记5种流体。"]);

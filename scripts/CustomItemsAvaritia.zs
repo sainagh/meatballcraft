@@ -43,7 +43,7 @@ AvaritiaItemBuilder.registerItem("meatball_man_destruction_fabrial", 1, "meatbal
     // .colorfulName(true) // Whether to add a dynamic rainbow effect to the item name
 .create();
 
-AvaritiaItemBuilder.registerItem("self_actualizing_stone", 1, "self_actualizing_stone")
+AvaritiaItemBuilder.registerItem("self_actualizing_stone", 64, "self_actualizing_stone")
     // The following effects can be freely combined; you decide which effects are needed and which are not
     // .shouldDrawHalo(true) // Whether to display the halo
     // .haloSize(8) // Required if shouldDrawHalo. Halo size (1-16)

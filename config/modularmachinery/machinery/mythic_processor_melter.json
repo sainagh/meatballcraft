@@ -10,13 +10,13 @@
             "z": 1,
             "description": "处理数量x8",
             "modifiers": [{
-                "io": "output",
+                "io": "input",
                 "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 8
             },
             {
-                "io": "input",
+                "io": "output",
                 "target": "modularmachinery:fluid",
                 "operation": 1,
                 "multiplier": 8

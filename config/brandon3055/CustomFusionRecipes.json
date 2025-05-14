@@ -871,6 +871,57 @@
             "contenttweaker:cuendillar_plate",
             "contenttweaker:cuendillar_plate"
         ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:freedom_definer",
+        "catalyst": "contenttweaker:core_of_halite_definition",
+        "energy": 10000000000,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:chaotic_core",
+            "draconicevolution:chaotic_core",
+            "contenttweaker:trinity_ingot",
+            "contenttweaker:trinity_ingot",
+            "contenttweaker:freedomsteel_ingot",
+            "contenttweaker:freedomsteel_ingot",
+            "contenttweaker:freedomsteel_ingot",
+            "contenttweaker:freedomsteel_ingot"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:wishful_definer",
+        "catalyst": "contenttweaker:cuendillar_seal",
+        "energy": 10000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:ingot_of_infinite_wishes",
+            "contenttweaker:ingot_of_infinite_wishes",
+            "contenttweaker:ingot_of_infinite_wishes",
+            "contenttweaker:ingot_of_infinite_wishes",
+            "contenttweaker:freedom_definer",
+            "contenttweaker:freedom_definer"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:quasar_charged_core_of_definition",
+        "catalyst": "contenttweaker:cuendillar_seal",
+        "energy": 10000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:quasar_charged_gem",
+            "contenttweaker:quasar_charged_gem",
+            "contenttweaker:quasar_charged_gem",
+            "contenttweaker:quasar_charged_gem",
+            "contenttweaker:quasar_charged_gem",
+            "contenttweaker:quasar_charged_gem",
+            "contenttweaker:quasar_charged_gem",
+            "contenttweaker:quasar_charged_gem",
+            "contenttweaker:wishful_definer",
+            "contenttweaker:wishful_definer"
+        ]
     }
 
 ]

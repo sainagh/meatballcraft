@@ -170,13 +170,13 @@ haliteingotcompression.addItemInput(<contenttweaker:pure_halite_cluster>);
 haliteingotcompression.addItemOutput(<materialpart:fractallite_halite:ingot>);
 haliteingotcompression.build();
 
-val haliteingotcompression4 = RecipeBuilder.newBuilder("haliteingotcompression4","dyson_compressor",100);
+val haliteingotcompression4 = RecipeBuilder.newBuilder("haliteingotcompression4","dyson_compressor",50);
 haliteingotcompression4.addEnergyPerTickInput(2000000000);
 haliteingotcompression4.addItemInput(<avaritiaitem:cosmic_halite_cluster>);
 haliteingotcompression4.addItemOutput(<materialpart:fractallite_halite:ingot>*4);
 haliteingotcompression4.build();
 
-val haliteingotcompression8 = RecipeBuilder.newBuilder("haliteingotcompression8","dyson_compressor",100);
+val haliteingotcompression8 = RecipeBuilder.newBuilder("haliteingotcompression8","dyson_compressor",25);
 haliteingotcompression8.addEnergyPerTickInput(2000000000);
 haliteingotcompression8.addItemInput(<avaritiaitem:univocal_halite_cluster>);
 haliteingotcompression8.addItemOutput(<materialpart:fractallite_halite:ingot>*8);

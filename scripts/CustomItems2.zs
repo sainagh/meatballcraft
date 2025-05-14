@@ -2910,3 +2910,14 @@ superchargedsignalum.maxStackSize = 64;
 superchargedsignalum.beaconPayment = false;
 superchargedsignalum.register();
 
+
+var thaumicbrush = VanillaFactory.createItem("thaumic_brush");
+thaumicbrush.maxStackSize = 64;
+thaumicbrush.beaconPayment = false;
+thaumicbrush.register();
+
+var warrenpeat = VanillaFactory.createItem("warren_peat");
+warrenpeat.maxStackSize = 64;
+warrenpeat.beaconPayment = false;
+warrenpeat.register();
+

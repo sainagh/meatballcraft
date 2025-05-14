@@ -1536,6 +1536,7 @@
 <ore:ingotFractalliteHalite>.addTooltip(format.red("shiraori_gd (单人)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Sbmhawk (单人)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("amberacid (单人)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("BoxZen, ray_ray, obscure_man, TheLMiffy111 (团队)"));
 
 <contenttweaker:terrestrial_animator_0>.addTooltip(format.red("可被使用者使用"));
 <contenttweaker:terrestrial_animator_1>.addTooltip(format.red("可被使用者使用"));
@@ -1797,6 +1798,9 @@
 <contenttweaker:adamantium_reinforced_petrified_wood>.addTooltip(format.red("多方块升级，寒铁锻台：速度x20"));
 <contenttweaker:defined_block>.addTooltip(format.red("多方块升级，定义器：输出x2"));
 <contenttweaker:core_of_halite_definition>.addTooltip(format.red("多方块升级，定义器：输出x8"));
+<contenttweaker:freedom_definer>.addTooltip(format.red("多方块升级，定义器：输出x16"));
+<contenttweaker:wishful_definer>.addTooltip(format.red("多方块升级，定义器：输出x64"));
+<contenttweaker:quasar_charged_core_of_definition>.addTooltip(format.red("多方块升级，定义器：输出x256"));
 <contenttweaker:fabric_of_the_orb>.addTooltip(format.red("多方块升级，维度稳定器：速度x50"));
 <thaumadditions:adaminite_block>.addTooltip(format.red("多方块升级，龙炎坩埚：速度x6"));
 <thaumadditions:mithminite_smelter>.addTooltip(format.red("多方块升级，龙炎锻炉：输出x8"));
@@ -1835,6 +1839,12 @@
 <contenttweaker:trinity_neutronium_casing>.addTooltip(format.red("多方块升级，中子素炮&中子素轰击器：速度x20"));
 <contenttweaker:quark_cosmic_module>.addTooltip(format.red("多方块升级，夸克分解器&强脉冲加速器：速度x20"));
 <contenttweaker:naquadah_casing>.addTooltip(format.red("方块升级，『立方』：速度x20"));
+<contenttweaker:miniature_quasar>.addTooltip(format.red("多方块升级，戴森压缩器：输出x4"));
+<contenttweaker:directed_miniature_quasar>.addTooltip(format.red("多方块升级，戴森压缩器：输出x16"));
+
+<contenttweaker:hypergrowth_actualizer>.addTooltip(format.red("多方块升级，超高速生长灌注器：输出x4"));
+<contenttweaker:trinity_hypergrowth_component>.addTooltip(format.red("多方块升级，超高速生长灌注器：输出x16"));
+<contenttweaker:cosmic_hypergrowth_component>.addTooltip(format.red("多方块升级，超高速生长灌注器：输出x64"));
 
 
 <thebetweenlands:lurker_skin_pouch>.addTooltip(format.red("该物品可以将物品带进梦魇世界（好耶！）"));
@@ -2030,8 +2040,8 @@
 
 <ae2fc:dual_interface>.addTooltip(format.red("使用原材料缓存仓以在自动合成中同时物品与流体"));
 
-<ae2fc:ingredient_buffer>.addTooltip(format.red("可放置在想自动处理的机器与二合一接口接口之间，以同时处理物品与流体"));
-<ae2fc:large_ingredient_buffer>.addTooltip(format.red("可放置在想自动处理的机器与二合一接口接口之间，以同时处理物品与流体"));
+<ae2fc:ingredient_buffer>.addTooltip(format.red("可放置在想自动处理的机器与二合一接口之间，以同时处理物品与流体"));
+<ae2fc:large_ingredient_buffer>.addTooltip(format.red("可放置在想自动处理的机器与二合一接口之间，以同时处理物品与流体"));
 
 <actuallyadditions:block_atomic_reconstructor>.addTooltip(format.red("原子再构室使自动化更简单 ;)"));
 
@@ -2672,6 +2682,14 @@
 
 <appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("注意：若你更新了整合包，任务书可能不会自动更新，使用以下命令来手动更新任务书"));
 <appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("/bq_admin default load"));
+
+
+<modularmachinery:hypergrowth_insolator_factory_controller>.addTooltip(format.red("警告：该方块未来将会被移除，请替换为常规的多方块升级"));
+<modularmachinery:infinity_furnace_factory_controller>.addTooltip(format.red("警告：该方块未来将会被移除，请替换为常规的多方块升级"));
+<modularmachinery:shadow_fracturer_factory_controller>.addTooltip(format.red("警告：该方块未来将会被移除，请替换为常规的多方块升级"));
+<modularmachinery:enchanted_greenhouse_factory_controller>.addTooltip(format.red("警告：该方块未来将会被移除，请替换为常规的多方块升级"));
+<modularmachinery:sacred_cinders_apiary_factory_controller>.addTooltip(format.red("警告：该方块未来将会被移除，请替换为常规的多方块升级"));
+<modularmachinery:mechanized_coop_factory_controller>.addTooltip(format.red("警告：该方块未来将会被移除，请替换为常规的多方块升级"));
 
 
 

@@ -4,6 +4,12 @@ import mods.thaumcraft.Infusion;
 import mods.appliedenergistics2.Inscriber;
 
 
+recipes.addShaped(<aoa3:rune_shrine>,
+[[<ore:ingotSilver>, <aoa3:unpowered_rune>, <ore:ingotSilver>],
+[<aoa3:unpowered_rune>, <aoa3:ancient_rock>, <aoa3:unpowered_rune>],
+[<ore:ingotSilver>, <aoa3:unpowered_rune>, <ore:ingotSilver>]]);
+
+
 mods.thaumcraft.Infusion.registerRecipe("infusefractalstone", "", 
 <contenttweaker:fractal_stone>, 10,
 [<aspect:caeles>*1000, <aspect:cognitio>*1000, <aspect:desiderium>*1000, <aspect:imperium>*1000, <aspect:mythus>*1000, <aspect:praecantatio>*1000, <aspect:permutatio>*1000, <aspect:fabrico>*1000, <aspect:victus>*1000, <aspect:instrumentum>*1000], 
@@ -215,6 +221,11 @@ recipes.addShaped(<contenttweaker:stone_of_shadesmar>*8,
 [[<contenttweaker:stormlight_stone>, <contenttweaker:stormlight_stone>, <contenttweaker:stormlight_stone>],
 [<contenttweaker:stormlight_stone>, <contenttweaker:freedomsteel_ingot>, <contenttweaker:stormlight_stone>],
 [<contenttweaker:stormlight_stone>, <contenttweaker:stormlight_stone>, <contenttweaker:stormlight_stone>]]);
+
+recipes.addShaped(<contenttweaker:stone_of_the_resurrected_shard>*2,
+[[<contenttweaker:meteoric_draconic_stone>, <contenttweaker:meteoric_draconic_stone>, <contenttweaker:meteoric_draconic_stone>],
+[<contenttweaker:stone_of_shadesmar>, <contenttweaker:warren_shard>, <contenttweaker:stone_of_shadesmar>],
+[<contenttweaker:meteoric_draconic_stone>, <contenttweaker:meteoric_draconic_stone>, <contenttweaker:meteoric_draconic_stone>]]);
 
 
 recipes.addShaped(<contenttweaker:pure_twilight_matter>*1,
@@ -1102,8 +1113,8 @@ creatverdith6.addFluidInput(<fluid:myrmitite>*102400);
 creatverdith6.addFluidInput(<fluid:rhenium>*102400);
 creatverdith6.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 6§r"]}}));
 creatverdith6.setChance(0.0);
-creatverdith6.addItemInput(<contenttweaker:sacred_cinders_fruit>*256);
-creatverdith6.addItemInput(<tconstruct:materials:16>*256);
+creatverdith6.addItemInput(<contenttweaker:sacred_cinders_fruit>*1024);
+creatverdith6.addItemInput(<tconstruct:materials:16>*1024);
 creatverdith6.addFluidOutput(<fluid:whisper_of_verdith_anath>*100000);
 creatverdith6.build();
 

@@ -1,0 +1,6 @@
+entity.naga.name=飞龙
+item.nagaFang.name=飞龙毒牙
+item.nagaFang.text.0=用于酿造抗毒药水或制作飞龙毒匕
+item.nagaFangDagger.name=飞龙毒匕
+item.nagaFangDagger.text.0=使目标中毒
+item.nagaFangDagger.text.1=在背后刺击可以造成额外伤害
