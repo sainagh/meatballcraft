@@ -3262,11 +3262,10 @@ tile.contenttweaker.quasar_charged_core_of_definition.name=Quasar-Charged Core o
 tile.contenttweaker.directed_miniature_quasar.name=Directed Miniature Quasar
 tile.contenttweaker.quasar_burst_director.name=Quasar Burst Director
 fluid.inquiring_abyssite=Inquiring Abyssite
-
-
-
-
-
-
-
-
+# Chat Messages
+chat.contenttweaker.stargate.NotInSpace=You have to be in a space station
+chat.contenttweaker.portals.destination=Current destination: %s
+chat.contenttweaker.stargate.online=Stargate online
+chat.contenttweaker.stargate.offline=Stargate offline
+chat.contenttweaker.wormhole_generator.online=Wormhole Generator online
+chat.contenttweaker.wormhole_generator.offline=Wormhole Generator offline
