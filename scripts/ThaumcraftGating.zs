@@ -108,53 +108,6 @@ mods.thaumcraft.Infusion.registerRecipe("infuseshimmerleaf", "",
 <aoa3:holly_top_seeds>, 
 [<thaumcraft:quicksilver>, <thaumcraft:quicksilver>, <thaumcraft:quicksilver>, <thaumcraft:quicksilver>]);
 
-
-mods.thaumcraft.Infusion.removeRecipe(<thaumictinkerer:kami_chest>);
-
-mods.thaumcraft.Infusion.registerRecipe("infkamichest", "", 
-<thaumictinkerer:kami_chest>, 10, 
-[<aspect:lux>*250,<aspect:aer>*150,<aspect:praemunio>*125,<aspect:volatus>*125,<aspect:ordo>*125,<aspect:alienis>*60], 
-<thaumictinkerer:ichor_chest>, 
-[<thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>,
- <thaumictinkerer:kamiresource:2>, <thaumictinkerer:kamiresource:2>,
- <minecraft:chorus_fruit_popped>, <minecraft:golden_chestplate>,
- <thaumcraft:cloud_ring>, <minecraft:elytra>,
- <minecraft:shield>, <minecraft:feather>,
- <minecraft:ghast_tear>, <minecraft:arrow>]);
-
-mods.thaumcraft.Infusion.registerRecipe("infkamiboots", "", 
-<thaumictinkerer:kami_boots>, 10, 
-[<aspect:lux>*250,<aspect:terra>*150,<aspect:praemunio>*125,<aspect:instrumentum>*125,<aspect:motus>*125,<aspect:volatus>*60], 
-<thaumictinkerer:ichor_boots>, 
-[<thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>,
- <thaumictinkerer:kamiresource:2>, <thaumictinkerer:kamiresource:2>,
- <minecraft:chorus_fruit_popped>, <minecraft:golden_boots>,
- <minecraft:wheat_seeds>, <minecraft:grass>,
- <thaumcraft:lamp_growth>, <thaumcraft:turret>,
- <minecraft:wool:0>, <minecraft:lead>]);
-
- mods.thaumcraft.Infusion.registerRecipe("infkamilegs", "", 
-<thaumictinkerer:kami_legs>, 10, 
-[<aspect:lux>*250,<aspect:ignis>*150,<aspect:praemunio>*125,<aspect:volatus>*125,<aspect:ordo>*125,<aspect:alienis>*60], 
-<thaumictinkerer:ichor_legs>, 
-[<thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>,
- <thaumictinkerer:kamiresource:2>, <thaumictinkerer:kamiresource:2>,
- <minecraft:chorus_fruit_popped>, <minecraft:golden_leggings>,
- <minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}), <thaumictinkerer:energetic_nitor>,
- <thaumcraft:lamp_arcane>, <minecraft:lava_bucket>,
- <minecraft:fire_charge>, <minecraft:blaze_rod>]);
-
- mods.thaumcraft.Infusion.registerRecipe("infkamihelm", "", 
-<thaumictinkerer:kami_helm>, 10, 
-[<aspect:lux>*250,<aspect:aqua>*150,<aspect:auram>*125,<aspect:praemunio>*125,<aspect:cognitio>*125,<aspect:victus>*60], 
-<thaumictinkerer:ichor_helm>, 
-[<thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>,
- <thaumictinkerer:kamiresource:2>, <thaumictinkerer:kamiresource:2>,
- <minecraft:chorus_fruit_popped>, <minecraft:golden_helmet>,
- <minecraft:potion>.withTag({Potion: "minecraft:night_vision"}), <thaumictinkerer:energetic_nitor>,
- <thaumcraft:goggles>, <minecraft:ghast_tear>,
- <minecraft:fish>, <minecraft:cake>]);
-
 recipes.addShaped(<thaumictinkerer:kamiresource:3>,
 [[null, <aoa3:blazium_ingot>, null],
 [<thaumictinkerer:kamiresource:2>, <thaumcraft:ingot:0>, <thaumictinkerer:kamiresource:2>],
