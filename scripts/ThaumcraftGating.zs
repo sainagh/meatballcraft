@@ -70,9 +70,10 @@ recipes.addShaped(<thaumicaugmentation:starfield_glass:2>*4,
 
 recipes.removeShaped(<thaumcraft:plate:2>);
 recipes.removeShaped(<thaumcraft:plate:3>);
-// recipes.removeShaped(<thaumadditions:mithrillium_plate>);
-// recipes.removeShaped(<thaumadditions:adaminite_plate>);
-// recipes.removeShaped(<thaumadditions:mithminite_plate>);
+// See thaumcraft/research/LateResearch.zs for related research adjustments
+recipes.removeShaped(<thaumadditions:mithrillium_plate>);
+recipes.removeShaped(<thaumadditions:adaminite_plate>);
+recipes.removeShaped(<thaumadditions:mithminite_plate>);
 
 mods.thaumcraft.Infusion.removeRecipe(<thaumicenergistics:arcane_assembler>);
 
