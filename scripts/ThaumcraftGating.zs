@@ -66,15 +66,15 @@ recipes.addShaped(<thaumicaugmentation:starfield_glass:2>*4,
 [<aoa3:rusted_iron_ingot>, <divinerpg:teaker_staff>.reuse(), <aoa3:rusted_iron_ingot>],
 [<minecraft:glass>, <aoa3:rusted_iron_ingot>, <minecraft:glass>]]);
 
-// mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:arcane_terminal>);
-
 recipes.removeShaped(<thaumcraft:plate:2>);
 recipes.removeShaped(<thaumcraft:plate:3>);
-// See thaumcraft/research/LateResearch.zs for related research adjustments
+# See scripts/thaumcraft/research/LateResearch.zs for related research adjustments
 recipes.removeShaped(<thaumadditions:mithrillium_plate>);
 recipes.removeShaped(<thaumadditions:adaminite_plate>);
 recipes.removeShaped(<thaumadditions:mithminite_plate>);
-
+# See config/thaumcraftfix/patches/thaumic_energistics.json for related research adjustments
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:arcane_terminal>);
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:blank_knowledge_core>);
 mods.thaumcraft.Infusion.removeRecipe(<thaumicenergistics:arcane_assembler>);
 
 val arcaneassembler = RecipeBuilder.newBuilder("arcaneassemblerinf","arcane_autoinfuser",120);
@@ -92,8 +92,6 @@ arcaneassembler.addItemInput(<contenttweaker:mythic_excavation_engine>);
 arcaneassembler.addItemInput(<contenttweaker:complex_gearbox>);
 arcaneassembler.addItemOutput(<thaumicenergistics:arcane_assembler>);
 arcaneassembler.build();
-
-mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:blank_knowledge_core>);
 
 mods.thaumcraft.Crucible.registerRecipe("easierseal1", "", <thaumcraft:seal:12>, <thaumcraft:seal:0>, [<aspect:instrumentum>*20,<aspect:humanus>*10]);
 mods.thaumcraft.Crucible.registerRecipe("easierseal2", "", <thaumcraft:seal:8>, <thaumcraft:seal:0>, [<aspect:bestia>*20,<aspect:sensus>*10]);

@@ -10,6 +10,8 @@ import crafttweaker.item.IItemStack;
 Hard-coded, non-JSON, research pages to replace crafting requirements for consume requirements.
 This is so we can make these ingredients obtainable through non-crafting recipes,
 but still make associated research completable.
+
+See config/thaumcraftfix/patches for research page changes that are JSON-based.
 */
 
 # Mithrillium plates
