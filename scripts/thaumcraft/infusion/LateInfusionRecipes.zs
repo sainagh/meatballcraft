@@ -92,6 +92,19 @@ registerInfusionRecipeFromAddon(`${tcAdditions}:crystal_crusher`, "TAR_CRYSTAL_C
   ]
 );
 
+# Unify brass plates
+registerInfusionRecipeFromAddon(`${tcAdditions}:crystal_bore`, "TAR_CRYSTAL_BORE",
+  <thaumadditions:crystal_bore>, 5,
+  [
+    <aspect:exitium> * 20, <aspect:terra> * 10, <aspect:perditio> * 30
+  ],
+  <thaumcraft:morphic_resonator>,
+  [
+    <thaumcraft:stone_arcane>, <techreborn:plates:18>, <thaumcraft:stone_arcane>,
+    <techreborn:plates:18>, <thaumcraft:stone_arcane>, <thaumcraft:mechanism_complex>
+  ]
+);
+
 /*
   The same as Infusion.registerRecipe(), but allows a namespace in the resource location.
   ModTweaker only allows infusion recipes with the "thaumcraft" namespace, this allows any namespace.
