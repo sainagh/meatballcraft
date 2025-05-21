@@ -1,5 +1,3 @@
-import native.hellfirepvp.modularmachinery.common.crafting.command.ControllerCommandSender;
-import native.hellfirepvp.modularmachinery.common.tiles.base.TileMultiblockMachineController;
 import native.net.minecraft.item.Item;
 import native.net.minecraft.item.ItemStack;
 
@@ -9,12 +7,13 @@ import crafttweaker.world.IBlockPos;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.MachineTickEvent;
 import mods.modularmachinery.RecipeStartEvent;
-import mods.modularmachinery.RecipeFailureEvent;
 import mods.modularmachinery.MMEvents;
 import mods.modularmachinery.IMachineController;
 
-// Ideally some code here should be shared with ModularWormholeField, but for some reason cross-script reference doesn't work.
+// Shared code
+import scripts.util.ModularEventUtils as Util;
 
+static offset as Util.Offset = Util.Offset(5, -4);
 var portal = <ore:blockCustomPortal>;
 portal.addItems([
   <contenttweaker:sedna_portal_block>,
@@ -224,9 +223,9 @@ stargatealkemia.addItemInput(<contenttweaker:alkemia_warper>).setChance(0)
 
 // Do start up sound and message if no current portal, spawn portal if different recipe, or nothing if same portal:
 function beeStargateRecipeStart(controller as IMachineController, portalBlock as string, destination as string) {
-  var pos = getCenter(controller, 5, -4);
-  var sender = getControllerSender(controller);
-  controller.world.native.getMinecraftServer().addScheduledTask(function() {
+  var pos = offset.getCenter(controller);
+  var sender = Util.getControllerSender(controller);
+  Util.scheduleTask(controller, function() as void {
     var currentPortalBlock = controller.world.getBlockState(pos);
 
     if (currentPortalBlock != IBlockState.getBlockState(portalBlock,"")) {
@@ -250,8 +249,8 @@ MMEvents.onMachinePostTick("bee_stargate", function(event as MachineTickEvent) {
   if (ctrl.world.time % 20 != 0 || ctrl.isWorking) {
     return;
   }
-  var pos = getCenter(ctrl, 5, -4);
-  ctrl.world.native.getMinecraftServer().addScheduledTask(function() {
+  var pos = offset.getCenter(ctrl);
+  Util.scheduleTask(ctrl, function() as void {
     var centerState = ctrl.world.getBlockState(pos);
     var itemBlock = ItemStack(Item.getItemFromBlock(centerState.block.native));
     // Only clear blocks that aren't unbreakable or are known portal blocks.
@@ -264,7 +263,7 @@ MMEvents.onMachinePostTick("bee_stargate", function(event as MachineTickEvent) {
 
 // Clear portal blocks.
 function beeStargateClear(controller as IMachineController, pos as IBlockPos) {
-  var sender = getControllerSender(controller);
+  var sender = Util.getControllerSender(controller);
   beeStargatePlacePortal(controller, "minecraft:air", pos, sender);
   var offlineText = '{"translate":"chat.contenttweaker.stargate.offline"}';
   server.commandManager.executeCommand(sender, "playsound minecraft:entity.evocation_illager.cast_spell ambient @a " + pos.x + " " + pos.y + " " + pos.z + " 1 0.5");
@@ -281,14 +280,4 @@ function beeStargatePlacePortal(controller as IMachineController, portalBlock as
 	if (facing == crafttweaker.world.IFacing.north() || facing == crafttweaker.world.IFacing.south()) { dx = 1; } 
 	else { dz = 1; }
 	server.commandManager.executeCommand(sender, "fill " + (pos.x - dx) + " " + (pos.y - 1) + " " + (pos.z - dz) + " " + (pos.x + dx) + " " + (pos.y + 1) + " " + (pos.z + dz) + " " + portalBlock);
-}
-
-function getCenter(ctrl as IMachineController, offsetUp as int, offsetFacing as int) as IBlockPos {
-  return ctrl.pos.getOffset(up, offsetUp).getOffset(ctrl.facing, offsetFacing);
-}
-
-// The ICommandSender must have the correct associated world, so we're using ControllerCommandSender.
-function getControllerSender(controller as IMachineController) as ICommandSender {
-  var sender = ControllerCommandSender(controller as TileMultiblockMachineController) as native.net.minecraft.command.ICommandSender;
-  return sender.wrapper;
 }
