@@ -39,7 +39,7 @@ function getControllerSender(controller as IMachineController) as ICommandSender
 
 /*
 Schedule a task to run on the main thread. 
-You should do this for anything that involves in-world objects (like block state and commands).
+You should use this for anything that modifies in-world objects.
 The passed task must be `function() as void {...}`.
 */
 function scheduleTask(controller as IMachineController, task as function()void) {
