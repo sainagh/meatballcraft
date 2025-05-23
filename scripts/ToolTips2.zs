@@ -2612,7 +2612,6 @@ import crafttweaker.item.IItemCondition;
 <akashictome:tome>.addTooltip(format.red("WARNING: don't combine with Astral Tome, Thaumonomicon, Lexica botania, Necronomicon, Alkahestry"));
 
 <thaumicenergistics:arcane_terminal>.addTooltip(format.red("WARNINGS: This is very crashy, you shouldn't need to use it much"));
-<thaumicenergistics:arcane_terminal>.addTooltip(format.red("Vis discount does not work with voidseers pearl"));
 
 <libvulpes:advstructuremachine>.addTooltip(format.red("HiaggTM had to upgrade his hatch"));
 

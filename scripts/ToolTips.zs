@@ -1192,10 +1192,6 @@
 <contenttweaker:fourth_recursive_lock>.addTooltip(format.red("Use inside the Recursion Prison Key Dungeon"));
 <contenttweaker:fifth_recursive_lock>.addTooltip(format.red("Use inside the Recursion Prison Key Dungeon"));
 
-<ore:plateMithrillium>.addTooltip(format.red("If you want to complete the Thaumonomicon entries that require plates, make sure you craft them, making them in a compactor won't work"));
-<ore:plateAdaminite>.addTooltip(format.red("If you want to complete the Thaumonomicon entries that require plates, make sure you craft them, making them in a compactor won't work"));
-<ore:plateMithminite>.addTooltip(format.red("If you want to complete the Thaumonomicon entries that require plates, make sure you craft them, making them in a compactor won't work"));
-
 <contenttweaker:rftools_syringe>.addTooltip(format.red("The actual item has been hidden from JEI for lag reasons, ignore the structure voids"));
 
 

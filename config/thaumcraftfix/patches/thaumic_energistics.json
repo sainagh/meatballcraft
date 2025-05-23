@@ -1,0 +1,36 @@
+[
+    {
+        "key": "ARCANEASSEMBLER",
+        "ops": [
+            {
+                "op": "move",
+                "from": "stages/0/required_craft",
+                "path": "stages/0/required_item"
+            }
+        ]
+    },
+    {
+        "key": "ARCANEINSCRIBER",
+        "ops": [
+            {
+                "op": "move",
+                "from": "stages/0/required_craft",
+                "path": "stages/0/required_item"
+            }
+        ]
+    }
+    {
+        "key": "KNOWLEDGECORE",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/0/required_craft"
+            },
+            {
+                "op": "replace",
+                "path": "stages/0/required_item/0",
+                "value": "contenttweaker:complex_gearbox"
+            }
+        ]
+    }
+]
