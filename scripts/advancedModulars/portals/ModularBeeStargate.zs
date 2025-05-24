@@ -18,6 +18,7 @@ var portal = <ore:blockCustomPortal>;
 portal.addItems([
   <contenttweaker:sedna_portal_block>,
   <contenttweaker:rhenia_portal_block>,
+  <contenttweaker:haumea_portal_block>,
   <contenttweaker:luna_portal_block>,
   <contenttweaker:osiris_portal_block>,
   <contenttweaker:ptah_portal_block>,
@@ -56,6 +57,16 @@ stargaterhenia.addItemInput(<contenttweaker:rhenia_warper>).setChance(0)
   .addFluidInput(<fluid:for.honey> * 100)
   .addStartHandler(function(event as RecipeStartEvent) {
       beeStargateRecipeStart(event.controller, "contenttweaker:rhenia_portal_block", "Rhenia");
+    }
+  )
+  .addRecipeTooltip(tooltip)
+  .build();
+
+var stargatehaumea = RecipeBuilder.newBuilder("stargate_haumea", "bee_stargate", 100);
+stargatehaumea.addItemInput(<contenttweaker:haumea_warper>).setChance(0)
+  .addFluidInput(<fluid:for.honey> * 100)
+  .addStartHandler(function(event as RecipeStartEvent) {
+      beeStargateRecipeStart(event.controller, "contenttweaker:haumea_portal_block", "Haumea");
     }
   )
   .addRecipeTooltip(tooltip)
