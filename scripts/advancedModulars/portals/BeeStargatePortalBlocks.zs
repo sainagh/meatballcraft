@@ -9,6 +9,7 @@ import mods.contenttweaker.Commands;
 import mods.contenttweaker.VanillaFactory;
 import mods.zenutils.cotx.Block;
 
+# Bee stargate portals
 var sednaportal = VanillaFactory.createExpandBlock("sedna_portal_block", <blockmaterial:glass>);
 setPortalProps(sednaportal);
 setPortalLogic(sednaportal, 147, true);
@@ -29,24 +30,20 @@ setPortalProps(lunaportal);
 setPortalLogic(lunaportal, 145, true);
 lunaportal.register();
 
-
 var osirisportal = VanillaFactory.createExpandBlock("osiris_portal_block", <blockmaterial:glass>);
 setPortalProps(osirisportal);
 setPortalLogic(osirisportal, 148, true);
 osirisportal.register();
-
 
 var ptahportal = VanillaFactory.createExpandBlock("ptah_portal_block", <blockmaterial:glass>);
 setPortalProps(ptahportal);
 setPortalLogic(ptahportal, 149, true);
 ptahportal.register();
 
-
 var hatorportal = VanillaFactory.createExpandBlock("hator_portal_block", <blockmaterial:glass>);
 setPortalProps(hatorportal);
 setPortalLogic(hatorportal, 150, true);
 hatorportal.register();
-
 
 var europaportal = VanillaFactory.createExpandBlock("europa_portal_block", <blockmaterial:glass>);
 setPortalProps(europaportal);
@@ -58,24 +55,20 @@ setPortalProps(oiportal);
 setPortalLogic(oiportal, 152, true);
 oiportal.register();
 
-
 var falacerportal = VanillaFactory.createExpandBlock("falacer_portal_block", <blockmaterial:glass>);
 setPortalProps(falacerportal);
 setPortalLogic(falacerportal, 160, true);
 falacerportal.register();
-
 
 var orcusportal = VanillaFactory.createExpandBlock("orcus_portal_block", <blockmaterial:glass>);
 setPortalProps(orcusportal);
 setPortalLogic(orcusportal, 161, true);
 orcusportal.register();
 
-
 var myrmexportal = VanillaFactory.createExpandBlock("myrmex_portal_block", <blockmaterial:glass>);
 setPortalProps(myrmexportal);
 setPortalLogic(myrmexportal, 164, true);
 myrmexportal.register();
-
 
 var pixoniaportal = VanillaFactory.createExpandBlock("pixonia_portal_block", <blockmaterial:glass>);
 setPortalProps(pixoniaportal);
@@ -87,17 +80,15 @@ setPortalProps(proximaportal);
 setPortalLogic(proximaportal, 166, true);
 proximaportal.register();
 
-
-var zoiportal = VanillaFactory.createExpandBlock("zoi_portal_block", <blockmaterial:glass>);
-setPortalProps(zoiportal);
-setPortalLogic(zoiportal, 171, true);
-zoiportal.register();
-
 var neroportal = VanillaFactory.createExpandBlock("nero_portal_block", <blockmaterial:glass>);
 setPortalProps(neroportal);
 setPortalLogic(neroportal, 170, true);
 neroportal.register();
 
+var zoiportal = VanillaFactory.createExpandBlock("zoi_portal_block", <blockmaterial:glass>);
+setPortalProps(zoiportal);
+setPortalLogic(zoiportal, 171, true);
+zoiportal.register();
 
 var akathartosportal = VanillaFactory.createExpandBlock("akathartos_portal_block", <blockmaterial:glass>);
 setPortalProps(akathartosportal);
@@ -109,19 +100,13 @@ setPortalProps(pauramportal);
 setPortalLogic(pauramportal, 173, true);
 pauramportal.register();
 
-
 var alkemiaportal = VanillaFactory.createExpandBlock("alkemia_portal_block", <blockmaterial:glass>);
 setPortalProps(alkemiaportal);
 setPortalLogic(alkemiaportal, 174, true);
 alkemiaportal.register();
 
 
-var apichisiportal = VanillaFactory.createExpandBlock("apichisi_portal_block", <blockmaterial:glass>);
-setPortalProps(apichisiportal);
-setPortalLogic(apichisiportal, 184, false);
-apichisiportal.register();
-
-
+# Wormhole generator portals
 var taerrapiattaportal = VanillaFactory.createExpandBlock("taerrapiatta_portal_block", <blockmaterial:glass>);
 setPortalProps(taerrapiattaportal);
 setPortalLogic(taerrapiattaportal, 180, false);
@@ -141,6 +126,11 @@ var finemportal = VanillaFactory.createExpandBlock("finem_portal_block", <blockm
 setPortalProps(finemportal);
 setPortalLogic(finemportal, 185, false);
 finemportal.register();
+
+var apichisiportal = VanillaFactory.createExpandBlock("apichisi_portal_block", <blockmaterial:glass>);
+setPortalProps(apichisiportal);
+setPortalLogic(apichisiportal, 184, false);
+apichisiportal.register();
 
 var lyndenwyrmportal = VanillaFactory.createExpandBlock("lyndenwyrm_portal_block", <blockmaterial:glass>);
 setPortalProps(lyndenwyrmportal);
