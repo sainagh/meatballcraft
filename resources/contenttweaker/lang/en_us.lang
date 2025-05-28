@@ -3262,11 +3262,7 @@ tile.contenttweaker.quasar_charged_core_of_definition.name=Quasar-Charged Core o
 tile.contenttweaker.directed_miniature_quasar.name=Directed Miniature Quasar
 tile.contenttweaker.quasar_burst_director.name=Quasar Burst Director
 fluid.inquiring_abyssite=Inquiring Abyssite
-
-
-
-
-
-
-
-
+# XP Bath
+item.contenttweaker.xp_configurator.desc=Right-click to cycle mode
+tile.modularmachinery.xp_assimilator.failure=No nearby player
+tile.modularmachinery.xp_assimilator.desc=%d xp: Stand right on top of the controller inside the pool
