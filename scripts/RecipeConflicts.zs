@@ -2236,17 +2236,6 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<materialpart:ichorium:ingot>)
 mods.immersiveengineering.ArcFurnace.removeRecipe(<contenttweaker:material_part:309>);
 
 
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "mod_lavacow:strong_corrosive"}), <minecraft:sugar>);
-
-brewing.addBrew(<minecraft:potion>.withTag({Potion: "mod_lavacow:corrosive"}), <ore:salt>, <minecraft:potion>.withTag({Potion: "mod_lavacow:strong_corrosive"}));
-
-
-
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "extrautils2:xu2.doom"}), <minecraft:gunpowder>);
-
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "extrautils2:xu2.gravity.long"}), <minecraft:redstone>);
-
-
 recipes.remove(<xtones:base>);
 recipes.addShaped(<xtones:base>*4,
 [[<ore:slabStone>, <ore:slabStone>, null],
