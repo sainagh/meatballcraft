@@ -1192,10 +1192,6 @@
 <contenttweaker:fourth_recursive_lock>.addTooltip(format.red("在递归监狱钥匙生成的地牢内使用"));
 <contenttweaker:fifth_recursive_lock>.addTooltip(format.red("在递归监狱钥匙生成的地牢内使用"));
 
-<ore:plateMithrillium>.addTooltip(format.red("若想完成魔导手册中需要对应金属板的条目，一定要手动合成，使用压缩机合成无法完成条目"));
-<ore:plateAdaminite>.addTooltip(format.red("若想完成魔导手册中需要对应金属板的条目，一定要手动合成，使用压缩机合成无法完成条目"));
-<ore:plateMithminite>.addTooltip(format.red("若想完成魔导手册中需要对应金属板的条目，一定要手动合成，使用压缩机合成无法完成条目"));
-
 <contenttweaker:rftools_syringe>.addTooltip(format.red("由于卡顿，真正的注射器物品已在JEI中隐藏，无视结构空位即可"));
 
 

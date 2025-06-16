@@ -45,12 +45,15 @@ recipes.addShapeless(<techreborn:ingot:1>*9, [<ore:blockBrass>]);
 
 val brassplate = <ore:plateBrass>;
 brassplate.remove(<railcraft:plate:11>);
+brassplate.remove(<thaumcraft:plate:0>);
+
+recipes.removeByRecipeName("thaumcraft:brassplate");
 
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:11>);
 mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:18>, <ore:ingotBrass>, <immersiveengineering:mold:0>, 2000);
 
-recipes.removeShapeless(<techreborn:plates:18>, [<immersiveengineering:tool:0>], true);
-recipes.addShapeless(<techreborn:plates:18>, 
+recipes.removeShapeless(<thaumcraft:plate:0>, [<immersiveengineering:tool:0>], true);
+recipes.addShapeless("plate_brass_ie", <techreborn:plates:18>, 
 [<immersiveengineering:tool:0>,
 <ore:ingotBrass>]);
 
@@ -68,8 +71,6 @@ recipes.addShaped(<techreborn:ingot:1>,
 mods.immersiveengineering.ArcFurnace.removeRecipe(<railcraft:ingot:9>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:1>, <ore:ingotZinc>, null, 100, 512, [<ore:dustCopper>*3]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:1>, <ore:dustZinc>, null, 100, 512, [<ore:ingotCopper>*3]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:1>, <ore:dustZinc>, null, 100, 512, [<ore:dustCopper>*3]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:1>, <ore:ingotZinc>, null, 100, 512, [<ore:ingotCopper>*3]);
 
 
 //==================================================================
@@ -286,11 +287,13 @@ silverplate.remove(<bewitchment:silver_plate>);
 silverplate.remove(<immersiveengineering:metal:33>);
 silverplate.remove(<railcraft:plate:5>);
 
+recipes.removeByRecipeName("bewitchment:compat/silver_plate");
+
 mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:33>);
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:322>, <ore:ingotSilver>, <immersiveengineering:mold:0>, 2000);
 
 recipes.removeShapeless(<immersiveengineering:metal:33>, [<immersiveengineering:tool:0>], true);
-recipes.addShapeless(<thermalfoundation:material:322>, 
+recipes.addShapeless("plate_silver_ie", <thermalfoundation:material:322>, 
 [<immersiveengineering:tool:0>,
 <ore:ingotSilver>]);
 
@@ -691,25 +694,19 @@ irondust.remove(<careerbees:ingredients:4>);
 val ironplate = <ore:plateIron>;
 ironplate.remove(<immersiveengineering:metal:39>);
 ironplate.remove(<railcraft:plate:0>);
+// ironplate.remove(<techreborn:plates:0>);
 ironplate.remove(<thaumcraft:plate:1>);
 ironplate.remove(<libvulpes:productplate:1>);
 
-recipes.remove(<thaumcraft:plate:1>);
-recipes.addShaped(<thermalfoundation:material:32>*3,
-[[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]]);
+recipes.removeByRecipeName("thaumcraft:ironplate");
 
 mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:39>);
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:32>, <ore:ingotIron>, <immersiveengineering:mold:0>, 2000);
 
 recipes.removeShapeless(<immersiveengineering:metal:39>, [<immersiveengineering:tool:0>], true);
-recipes.addShapeless(<thermalfoundation:material:32>, 
+recipes.addShapeless("plate_iron_ie", <thermalfoundation:material:32>, 
 [<immersiveengineering:tool:0>,
 <ore:ingotIron>]);
-
-recipes.addShapeless(<thaumcraft:plate:1>*3, 
-[<ore:plateIron>,
-<ore:plateIron>,
-<ore:plateIron>]);
 
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:18>);
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:0>*2, <ore:oreIron>, 2048, <thermalfoundation:material:69>, 0.1);

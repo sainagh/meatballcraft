@@ -2612,7 +2612,6 @@ import crafttweaker.item.IItemCondition;
 <akashictome:tome>.addTooltip(format.red("警告：不要与星芒宝典、魔导手册、植物魔法辞典、死灵之书以及万能溶剂之经合成"));
 
 <thaumicenergistics:arcane_terminal>.addTooltip(format.red("警告：可能引起崩溃，应避免过多使用"));
-<thaumicenergistics:arcane_terminal>.addTooltip(format.red("虚空预言者的珍珠的魔力减免不起作用"));
 
 <libvulpes:advstructuremachine>.addTooltip(format.red("HiaggTM得升级他的IO仓了"));
 

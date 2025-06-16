@@ -1596,7 +1596,7 @@ item.contenttweaker.faultless_ichor.name=无瑕灵液
 item.contenttweaker.gem_of_the_sleeping_city.name=长眠之城宝石
 item.contenttweaker.cat_ears.name=猫耳
 item.contenttweaker.blue_hair.name=蓝发
-item.contenttweaker.time_crystal.name=时间水晶
+item.contenttweaker.time_crystal.name=时间晶体
 item.contenttweaker.stone_of_the_sleeping_city.name=长眠之城石头
 item.contenttweaker.imstuck_getmehome.name=我卡住了，让我回家！
 item.contenttweaker.elder_spooder_string.name=古老四百大线
@@ -3262,6 +3262,10 @@ tile.contenttweaker.quasar_charged_core_of_definition.name=类星体充能定义
 tile.contenttweaker.directed_miniature_quasar.name=定向微型类星体
 tile.contenttweaker.quasar_burst_director.name=类星体爆发导向器
 fluid.inquiring_abyssite=推演深渊金属
+# XP Bath
+item.contenttweaker.xp_configurator.desc=右击以循环模式
+tile.modularmachinery.xp_assimilator.failure=附近没有玩家
+tile.modularmachinery.xp_assimilator.desc=%d xp：站在池子中控制器正上方的位置
 
 # Custom Materials
 base.material.demonic_steel=恶魔钢

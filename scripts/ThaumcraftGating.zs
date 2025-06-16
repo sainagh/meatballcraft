@@ -66,14 +66,15 @@ recipes.addShaped(<thaumicaugmentation:starfield_glass:2>*4,
 [<aoa3:rusted_iron_ingot>, <divinerpg:teaker_staff>.reuse(), <aoa3:rusted_iron_ingot>],
 [<minecraft:glass>, <aoa3:rusted_iron_ingot>, <minecraft:glass>]]);
 
-// mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:arcane_terminal>);
-
 recipes.removeShaped(<thaumcraft:plate:2>);
 recipes.removeShaped(<thaumcraft:plate:3>);
-// recipes.removeShaped(<thaumadditions:mithrillium_plate>);
-// recipes.removeShaped(<thaumadditions:adaminite_plate>);
-// recipes.removeShaped(<thaumadditions:mithminite_plate>);
-
+# See scripts/thaumcraft/research/LateResearch.zs for related research adjustments
+recipes.removeShaped(<thaumadditions:mithrillium_plate>);
+recipes.removeShaped(<thaumadditions:adaminite_plate>);
+recipes.removeShaped(<thaumadditions:mithminite_plate>);
+# See config/thaumcraftfix/patches/thaumic_energistics.json for related research adjustments
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:arcane_terminal>);
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:blank_knowledge_core>);
 mods.thaumcraft.Infusion.removeRecipe(<thaumicenergistics:arcane_assembler>);
 
 val arcaneassembler = RecipeBuilder.newBuilder("arcaneassemblerinf","arcane_autoinfuser",120);
@@ -92,8 +93,6 @@ arcaneassembler.addItemInput(<contenttweaker:complex_gearbox>);
 arcaneassembler.addItemOutput(<thaumicenergistics:arcane_assembler>);
 arcaneassembler.build();
 
-mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicenergistics:blank_knowledge_core>);
-
 mods.thaumcraft.Crucible.registerRecipe("easierseal1", "", <thaumcraft:seal:12>, <thaumcraft:seal:0>, [<aspect:instrumentum>*20,<aspect:humanus>*10]);
 mods.thaumcraft.Crucible.registerRecipe("easierseal2", "", <thaumcraft:seal:8>, <thaumcraft:seal:0>, [<aspect:bestia>*20,<aspect:sensus>*10]);
 mods.thaumcraft.Crucible.registerRecipe("easierseal3", "", <thaumcraft:seal:7>, <thaumcraft:seal:0>, [<aspect:herba>*20,<aspect:vitreus>*10]);
@@ -107,53 +106,6 @@ mods.thaumcraft.Infusion.registerRecipe("infuseshimmerleaf", "",
 [<aspect:auram>*10], 
 <aoa3:holly_top_seeds>, 
 [<thaumcraft:quicksilver>, <thaumcraft:quicksilver>, <thaumcraft:quicksilver>, <thaumcraft:quicksilver>]);
-
-
-mods.thaumcraft.Infusion.removeRecipe(<thaumictinkerer:kami_chest>);
-
-mods.thaumcraft.Infusion.registerRecipe("infkamichest", "", 
-<thaumictinkerer:kami_chest>, 10, 
-[<aspect:lux>*250,<aspect:aer>*150,<aspect:praemunio>*125,<aspect:volatus>*125,<aspect:ordo>*125,<aspect:alienis>*60], 
-<thaumictinkerer:ichor_chest>, 
-[<thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>,
- <thaumictinkerer:kamiresource:2>, <thaumictinkerer:kamiresource:2>,
- <minecraft:chorus_fruit_popped>, <minecraft:golden_chestplate>,
- <thaumcraft:cloud_ring>, <minecraft:elytra>,
- <minecraft:shield>, <minecraft:feather>,
- <minecraft:ghast_tear>, <minecraft:arrow>]);
-
-mods.thaumcraft.Infusion.registerRecipe("infkamiboots", "", 
-<thaumictinkerer:kami_boots>, 10, 
-[<aspect:lux>*250,<aspect:terra>*150,<aspect:praemunio>*125,<aspect:instrumentum>*125,<aspect:motus>*125,<aspect:volatus>*60], 
-<thaumictinkerer:ichor_boots>, 
-[<thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>,
- <thaumictinkerer:kamiresource:2>, <thaumictinkerer:kamiresource:2>,
- <minecraft:chorus_fruit_popped>, <minecraft:golden_boots>,
- <minecraft:wheat_seeds>, <minecraft:grass>,
- <thaumcraft:lamp_growth>, <thaumcraft:turret>,
- <minecraft:wool:0>, <minecraft:lead>]);
-
- mods.thaumcraft.Infusion.registerRecipe("infkamilegs", "", 
-<thaumictinkerer:kami_legs>, 10, 
-[<aspect:lux>*250,<aspect:ignis>*150,<aspect:praemunio>*125,<aspect:volatus>*125,<aspect:ordo>*125,<aspect:alienis>*60], 
-<thaumictinkerer:ichor_legs>, 
-[<thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>,
- <thaumictinkerer:kamiresource:2>, <thaumictinkerer:kamiresource:2>,
- <minecraft:chorus_fruit_popped>, <minecraft:golden_leggings>,
- <minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}), <thaumictinkerer:energetic_nitor>,
- <thaumcraft:lamp_arcane>, <minecraft:lava_bucket>,
- <minecraft:fire_charge>, <minecraft:blaze_rod>]);
-
- mods.thaumcraft.Infusion.registerRecipe("infkamihelm", "", 
-<thaumictinkerer:kami_helm>, 10, 
-[<aspect:lux>*250,<aspect:aqua>*150,<aspect:auram>*125,<aspect:praemunio>*125,<aspect:cognitio>*125,<aspect:victus>*60], 
-<thaumictinkerer:ichor_helm>, 
-[<thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>,
- <thaumictinkerer:kamiresource:2>, <thaumictinkerer:kamiresource:2>,
- <minecraft:chorus_fruit_popped>, <minecraft:golden_helmet>,
- <minecraft:potion>.withTag({Potion: "minecraft:night_vision"}), <thaumictinkerer:energetic_nitor>,
- <thaumcraft:goggles>, <minecraft:ghast_tear>,
- <minecraft:fish>, <minecraft:cake>]);
 
 recipes.addShaped(<thaumictinkerer:kamiresource:3>,
 [[null, <aoa3:blazium_ingot>, null],
@@ -179,4 +131,3 @@ recipes.addShaped(<contenttweaker:ancient_decrystallizer>,
 [[<divinerpg:corrupted_shards>, <thaumcraft:crystal_essence>, <divinerpg:corrupted_shards>],
 [<thaumcraft:crystal_essence>, <aoa3:sapphire_pickaxe>, <thaumcraft:crystal_essence>],
 [<divinerpg:corrupted_shards>, <thaumcraft:crystal_essence>, <divinerpg:corrupted_shards>]]);
-
