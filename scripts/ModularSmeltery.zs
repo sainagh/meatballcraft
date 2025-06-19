@@ -98,28 +98,28 @@ val forgewyvactual1 = RecipeBuilder.newBuilder("forgewyvactual1","forge_of_the_w
 forgewyvactual1.addItemInput(<draconicevolution:chaos_shard:0>);
 forgewyvactual1.setChance(0.0);
 forgewyvactual1.addItemInput(<contenttweaker:actualization_of_balance>);
-forgewyvactual1.addFluidOutput(<fluid:actualization_balance>*10);
+forgewyvactual1.addFluidOutput(<fluid:actualization_balance>*250);
 forgewyvactual1.build();
 
 val forgewyvactual2 = RecipeBuilder.newBuilder("forgewyvactual2","forge_of_the_wyvern",2);
 forgewyvactual2.addItemInput(<draconicevolution:chaos_shard:0>);
 forgewyvactual2.setChance(0.0);
 forgewyvactual2.addItemInput(<contenttweaker:actualization_of_hope>);
-forgewyvactual2.addFluidOutput(<fluid:actualization_hope>*10);
+forgewyvactual2.addFluidOutput(<fluid:actualization_hope>*250);
 forgewyvactual2.build();
 
 val forgewyvactual3 = RecipeBuilder.newBuilder("forgewyvactual3","forge_of_the_wyvern",2);
 forgewyvactual3.addItemInput(<draconicevolution:chaos_shard:0>);
 forgewyvactual3.setChance(0.0);
 forgewyvactual3.addItemInput(<contenttweaker:actualization_of_knowledge>);
-forgewyvactual3.addFluidOutput(<fluid:actualization_knowledge>*10);
+forgewyvactual3.addFluidOutput(<fluid:actualization_knowledge>*250);
 forgewyvactual3.build();
 
 val forgewyvactual4 = RecipeBuilder.newBuilder("forgewyvactual4","forge_of_the_wyvern",2);
 forgewyvactual4.addItemInput(<draconicevolution:chaos_shard:0>);
 forgewyvactual4.setChance(0.0);
 forgewyvactual4.addItemInput(<contenttweaker:actualization_of_glory>);
-forgewyvactual4.addFluidOutput(<fluid:actualization_glory>*10);
+forgewyvactual4.addFluidOutput(<fluid:actualization_glory>*250);
 forgewyvactual4.build();
 
 

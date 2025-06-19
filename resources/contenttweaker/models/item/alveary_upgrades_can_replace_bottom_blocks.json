@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "contenttweaker:items/alveary_upgrades_can_replace_bottom_blocks"
-  }
-}

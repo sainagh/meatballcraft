@@ -17,6 +17,7 @@ mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:compression_engine_controller>);
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:advanced_compression_engine_controller>);
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:meteoric_befaller_controller>);
+mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:relic_of_the_fallen_tower_controller>);
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:processor_clean_room_controller>);
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:safe_nuke_environment_controller>);
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:me_entropic_sythesizer_controller>);
@@ -73,6 +74,8 @@ mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:forge_of_the_wyvern_controller>);
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:eldritch_impetus_catalyzer_controller>);
 mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:xp_assimilator_controller>);
+mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:uncorrupted_library_controller>);
+mods.chisel.Carving.addVariation("magicmultiblockscontroller", <modularmachinery:vibrating_flux_crucible_controller>);
 
 
 
@@ -85,6 +88,10 @@ mods.chisel.Carving.addVariation("quantumphysicsmultiblockscontroller", <modular
 mods.chisel.Carving.addVariation("quantumphysicsmultiblockscontroller", <modularmachinery:mythic_excavation_computer_multiblock_controller>);
 mods.chisel.Carving.addVariation("quantumphysicsmultiblockscontroller", <modularmachinery:the_cube_controller>);
 mods.chisel.Carving.addVariation("quantumphysicsmultiblockscontroller", <modularmachinery:quark_decomposer_controller>);
+mods.chisel.Carving.addVariation("quantumphysicsmultiblockscontroller", <modularmachinery:meatballium_radiation_scrubber_controller>);
+mods.chisel.Carving.addVariation("quantumphysicsmultiblockscontroller", <modularmachinery:radiant_meatballium_radiation_scrubber_controller>);
+mods.chisel.Carving.addVariation("quantumphysicsmultiblockscontroller", <modularmachinery:cursed_meatballium_radiation_scrubber_controller>);
+mods.chisel.Carving.addVariation("quantumphysicsmultiblockscontroller", <modularmachinery:active_meatballium_scrubbing_unit_controller>);
 
 
 
@@ -210,6 +217,7 @@ mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:quantum_condenser_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_melter_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:abyssal_entropic_catalyzer_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_rock_crusher_controller>);
 
 
 

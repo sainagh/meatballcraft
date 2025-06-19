@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "contenttweaker:items/roof_can_be_placed_7_blocks_away"
-  }
-}

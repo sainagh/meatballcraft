@@ -2711,7 +2711,7 @@ mods.jei.JEI.addDescription([
 [
     "There are a few ways to remove flux:",
     "",
-    "1. The Ritual of Eldritch Will from Blood Magic (good start). Place the ritual down, it will reduce flux levels in a 3x3 chunk area, and it will convert it to Demonic Will. If the 9 chunks are full of will, the ritual will stop clearing flux. Use Demon Crystallizers to make sure your chunks doesn't fill with will!",
+    "1. The Ritual of Eldritch Will from Blood Magic (good start). Place the ritual down, it will reduce flux levels in a 3x3 chunk area, and it will convert it to Demonic Will. ",
     "",
     "2. The Flux Condenser (not recommended). To unlock this you will need to have progressed through some Thaumcraft. A set of lattices should be placed above the Flux Condenser. Lattices have a chance of clogging, if that happens, you should break and replace them. This block consumes Herba essentia to function, and it produces Vitium essentia. You should have essentia pipes to input and output the two.",
     "",
@@ -2721,7 +2721,7 @@ mods.jei.JEI.addDescription([
 mods.jei.JEI.addDescription([
     <contenttweaker:eldritch_will_ritual>],
 [
-    "The Ritual of Eldritch Will from Blood Magic is the easiest way of getting rid of flux. Place the ritual down, it will reduce flux levels in a 3x3 chunk area, and it will convert it to Demonic Will. If the 9 chunks are full of will, the ritual will stop clearing flux. Use Demon Crystallizers to make sure your chunks doesn't fill with will!"
+    "The Ritual of Eldritch Will from Blood Magic is the easiest way of getting rid of flux. Place the ritual down, it will reduce flux levels in a 3x3 chunk area, and it will convert it to Demonic Will. "
 ]);
 
 mods.jei.JEI.addDescription([
@@ -4698,6 +4698,29 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_vowtodeath>,
 ]);
 
 
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_rainbowcore>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Skythern has three structures. Container, contained, order...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Use a white shulker box, containing the following wool colors, in this order, in the first row:", 
+    "Red", 
+    "Brown", 
+    "Purple", 
+    "Light Gray", 
+    "Pink", 
+    "Orange", 
+    "Light Blue", 
+    "Lime", 
+    "Gray"
+]);
+
+
 mods.jei.JEI.addDescription([
     <contenttweaker:passive_crafting_subnets>],
 [
@@ -4796,6 +4819,64 @@ mods.jei.JEI.addDescription([
     "To automatically extract items from Item Inputs, though, Phantomfaces still work.",
     "",
     "By exploiting this principle, it is possible to build contraptions that automatically swap the inputs to these types of multiblocks, so that you can process multiple recipes without having to build multiple machines."
+]);
+
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:super_enchanting_stripping_automation>,
+    <contenttweaker:cuendillar_plate>],
+[
+    "To obtain the specific enchanted books for making cuendillar, they need to come from stripped Super-Enchants. ",
+    "",
+    "Here are a few pointers for this automation:",
+    "",
+    "Mechanical users can be used to unpack the Rite of Super-Enchanting",
+    "",
+    "The Enchantment Extractor can be automated",
+    "",
+    "The undenchanted weapons can be re-crafted into the corresponding Rite of Super Enchanting"
+]);
+
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:karot_farm>,
+    <divinerpg:halite_phaser>],
+[
+    "Drops from Karot cannot be automated using Woot. Instead, the Taxcollector bee is recommended.",
+    "",
+    "Since the boss spawns rabbits, those will have to be removed and killed to avoid too many mobs spawning.",
+    "",
+    "The spawned rabbits are much shorter than Karot, so fans or conveyors can be used to take them away from the boss into a mob crusher or other method."
+]);
+
+
+
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:infusion_pseudo_automation>],
+[
+    "To help streamline repetitive Thaumcraft Infusion recipes, modular routers can be used as a tool to help with batch crafting.",
+    "",
+    "The Sender Module can be bound to the central Arcane Pedestal, while all the surrounding Pedestals can be bound using Distributor Modules.",
+    "",
+    "Note that, depending on your setup, you want to coordinate the order of items inserted into the Router with the location of the Sender Module within the Router. If the Sender Module is first, the central item should always be done first.",
+    "",
+    "Once all the items are positioned within the pedestals, you can just use your gauntlet to start the recipe. Just make sure you have enough essentia and stabilization.",
+    "",
+    "A method like this can be used together with recipes in ME Interfaces. Just make sure you don't send in multiple recipes on the same infusion setup.",
+    "",
+    "Also, if you took the time to read this, the Temporal Bee works with thaumcraft infusion ;)"
+]);
+
+
+mods.jei.JEI.addDescription([
+    <superfactorymanager:manager>],
+[
+    "Heart of the networks you want to create, works like a visual code chart that lets you place modules down and have them connect to diferent modules. To make the most basic A to B program you must place a 'trigger' module onto the field, the trigger module is what 'runs' the script and it is very tilable to how you'd prefer it to run, such as being triggered every 5 seconds, redstone controlled, etc.",
+    "",
+    "Cables extend the reach of the manager.  Place them adjacent to all blocks you want to include in your automation to connect them to the Manager.",
+    "",
+    "You can then place a 'input' module and tell which machine, tile, chest, etc. and from which side, and the same goes for the output module, using this you can simply have a basic input and output system. "
 ]);
 
 

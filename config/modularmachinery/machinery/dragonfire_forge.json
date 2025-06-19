@@ -8,12 +8,38 @@
             "x": 0,
             "y": 6,
             "z": 2,
-            "description": "Replace top middle block under the fluid \n to increase output 8X",
+            "description": "8X Output",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:fluid",
                 "operation": 1,
                 "multiplier": 8
+            }
+        },
+        {
+            "elements": "contenttweaker:awakened_electromagnet",
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "description": "64X output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 64
+            }
+        },
+        {
+            "elements": "contenttweaker:fractallite_furnace_core",
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "description": "256X output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 256
             }
         }
     ],

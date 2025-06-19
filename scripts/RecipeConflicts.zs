@@ -1406,20 +1406,9 @@ recipes.addShapeless(<bloodmagic:altar>,
 <deepmoblearningbm:digital_agonizer>,
 <deepmoblearning:living_matter_twilight>]);
 
-recipes.addShapeless(<contenttweaker:shining_sandstone>,
-[<contenttweaker:mark_fallen_tower>]);
 
-recipes.addShapeless(<contenttweaker:fiery_pyrite>,
-[<contenttweaker:mark_fallen_tower>]);
-
-recipes.addShapeless(<contenttweaker:meteoric_draconic_stone>,
-[<contenttweaker:mark_fallen_tower>]);
-
-recipes.addShapeless(<contenttweaker:demon_stone>,
-[<contenttweaker:mark_fallen_tower>]);
-
-recipes.addShapeless(<contenttweaker:cosmic_fabric>,
-[<contenttweaker:mark_fallen_tower>]);
+recipes.addShapeless(<contenttweaker:cuendillar_plate>,
+[<contenttweaker:super_enchanting_stripping_automation>]);
 
 mods.thermalexpansion.Crucible.addRecipe(<fluid:manyullyn>*144, <tconstruct:ingots:2>, 1000);
 mods.nuclearcraft.melter.addRecipe([<ore:ingotManyullyn>, <fluid:manyullyn>*144]);
@@ -1910,6 +1899,10 @@ recipes.addShapeless(<contenttweaker:fine_mineral_dust>,
 [<contenttweaker:passive_packagedauto>]);
 recipes.addShapeless(<contenttweaker:everwatching_eye>,
 [<contenttweaker:passive_extended_crafting>]);
+
+
+
+
 recipes.addShapeless(<contenttweaker:everwatching_eye>,
 [<contenttweaker:passive_packagedauto>]);
 recipes.addShapeless(<contenttweaker:gem_of_aura>,
@@ -1917,6 +1910,8 @@ recipes.addShapeless(<contenttweaker:gem_of_aura>,
 recipes.addShapeless(<contenttweaker:complex_gearbox>,
 [<contenttweaker:passive_packagedauto>]);
 recipes.addShapeless(<contenttweaker:complex_crank_shaft>,
+[<contenttweaker:passive_packagedauto>]);
+recipes.addShapeless(<contenttweaker:recursion_focus_lens>,
 [<contenttweaker:passive_packagedauto>]);
 
 recipes.addShapeless(<minecraft:ender_pearl>,
@@ -2236,15 +2231,6 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<materialpart:ichorium:ingot>)
 mods.immersiveengineering.ArcFurnace.removeRecipe(<contenttweaker:material_part:309>);
 
 
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "mod_lavacow:strong_corrosive"}), <minecraft:sugar>);
-
-brewing.addBrew(<minecraft:potion>.withTag({Potion: "mod_lavacow:corrosive"}), <ore:salt>, <minecraft:potion>.withTag({Potion: "mod_lavacow:strong_corrosive"}));
-
-
-
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "extrautils2:xu2.doom"}), <minecraft:gunpowder>);
-
-brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "extrautils2:xu2.gravity.long"}), <minecraft:redstone>);
 
 
 recipes.remove(<xtones:base>);
@@ -2566,3 +2552,115 @@ mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:lost_cities_worldgen>, <f
 
 
 mods.thermalexpansion.Centrifuge.addRecipe([(<techreborn:part:31>) % 99, (<techreborn:part:31>) % 99], <forestry:propolis:0>, null, 2000);
+
+mods.nuclearcraft.melter.addRecipe([<ore:ingotMirion>, <fluid:mirion>*144]);
+
+
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:leaves:0> * 1) % 10], <extratrees:food:35>, <fluid:binnie.juice.olive>*50, 100);
+
+
+mods.tconstruct.Casting.addBasinRecipe(<techreborn:storage2:10>, null, <liquid:refinediron>, 1296);
+
+
+
+
+
+recipes.addShapeless(<contenttweaker:coolant_great>,
+[<contenttweaker:coolant_great>,
+<ore:blockDraconium>]);
+
+recipes.addShapeless(<contenttweaker:coolant_great>,
+[<contenttweaker:coolant_great>,
+<ore:blockEnderium>]);
+
+recipes.addShapeless(<contenttweaker:coolant_great>,
+[<contenttweaker:coolant_great>,
+<forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000})]);
+
+recipes.addShapeless(<contenttweaker:coolant_great>,
+[<contenttweaker:coolant_great>,
+<ore:blockElectrumFlux>]);
+
+
+recipes.addShapeless(<divinerpg:divine_shards>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<divinerpg:bluefire_stone>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<contenttweaker:nebulous_soul>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<abyssalcraft:ethaxiumingot>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<divinerpg:netherite_ingot>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<bewitchment:demon_heart>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<divinerpg:corrupted_shards>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<contenttweaker:bloodmaster_metal_chest>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<contenttweaker:primordial_sliver>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<minecraft:nether_star>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<minecraft:skull:1>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<contenttweaker:imp_skin>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<bewitchment:tongue_of_dog>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<bewitchment:lizard_leg>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<bewitchment:toe_of_frog>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<bewitchment:adders_fork>,
+[<contenttweaker:good_woot_drops>]);
+
+
+
+
+recipes.addShapeless(<divinerpg:halite_shield>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<divinerpg:halite_blade>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<divinerpg:halite_blitz>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<divinerpg:halite_slicer>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<divinerpg:halite_bow>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<divinerpg:halite_helmet>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<divinerpg:halite_leggings>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<divinerpg:halite_chestplate>,
+[<contenttweaker:good_woot_drops>]);
+recipes.addShapeless(<divinerpg:halite_boots>,
+[<contenttweaker:good_woot_drops>]);
+
+
+recipes.addShapeless(<divinerpg:halite_phaser>,
+[<contenttweaker:karot_farm>]);
+
+
+
+
+recipes.addShapeless(<thaumadditions:mithrillium_ingot>,
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <thaumcraft:caster_basic>]);
+
+recipes.addShapeless(<contenttweaker:halite_bejewelled_ichorium_catalyst>,
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <thaumcraft:caster_basic>]);
+
+recipes.addShapeless(<contenttweaker:catalyst_of_the_warrens>,
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <thaumcraft:caster_basic>]);
+
+recipes.addShapeless(<contenttweaker:trinuum_catalyst>,
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <thaumcraft:caster_basic>]);
+
+recipes.addShapeless(<contenttweaker:infinitely_wishful_catalyst>,
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <thaumcraft:caster_basic>]);
+
+
+
+
+
+

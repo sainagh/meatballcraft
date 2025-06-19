@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "contenttweaker:items/cleansed_brightsteel_alloy_plate"
-  }
-}

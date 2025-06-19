@@ -185,3 +185,8 @@ val superbee_treeoflife = RecipeBuilder.newBuilder("superbee_treeoflife","sacred
 
 val superbee_gallifreyan = RecipeBuilder.newBuilder("superbee_gallifreyan","sacred_cinders_apiary",10);	superbee_gallifreyan.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Gallifreyan", UID0: "gendustry.bee.Gallifreyan"}]}}));	superbee_gallifreyan.setChance(0.0);	superbee_gallifreyan.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_gallifreyan.addItemOutput(<contenttweaker:strange_stone_essence>*64);	superbee_gallifreyan.addItemOutput(<contenttweaker:strange_stone_essence>*64);	superbee_gallifreyan.build();
 
+
+val superbee_experienced = RecipeBuilder.newBuilder("superbee_experienced","sacred_cinders_apiary",10);	superbee_experienced.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Experienced", UID0: "gendustry.bee.Experienced"}]}}));	superbee_experienced.setChance(0.0);	superbee_experienced.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_experienced.addItemOutput(<contenttweaker:condensed_essence>*64);	superbee_experienced.addItemOutput(<contenttweaker:condensed_essence>*64);	superbee_experienced.build();
+
+val superbee_phantasmal = RecipeBuilder.newBuilder("superbee_phantasmal","sacred_cinders_apiary",10);	superbee_phantasmal.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "forestry.speciesPhantasmal", UID0: "forestry.speciesPhantasmal"}]}}));	superbee_phantasmal.setChance(0.0);	superbee_phantasmal.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_phantasmal.addItemOutput(<forestry:bee_combs:8>*64);	superbee_phantasmal.addItemOutput(<forestry:bee_combs:8>*64);	superbee_phantasmal.build();
+

@@ -99,3 +99,4 @@
 <contenttweaker:lively_tree_callstone>.addTooltip(format.red("Use in this dimension:  Overworld"));
 <contenttweaker:apothecary_prison_key>.addTooltip(format.red("Use in this dimension:  Iromine"));
 <contenttweaker:strange_stone_callstone>.addTooltip(format.red("Use in this dimension:  Gallifrey"));
+<contenttweaker:shyre_rider_callstone>.addTooltip(format.red("Use in this dimension:  Shyrelands"));

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oThe wireless versions of the crystals can directly connect to machines at a distance; use the crystal binder to connect them.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:energy_crystal"
@@ -30,6 +30,10 @@
           "Count:3": 1,
           "Damage:2": 6,
           "id:8": "draconicevolution:energy_crystal"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:crystal_binder"
         }
       },
       "taskID:8": "bq_standard:retrieval"

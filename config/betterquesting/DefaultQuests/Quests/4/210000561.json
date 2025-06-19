@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    62754235
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oLets items dropped in the world act as a input or output.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8,
+        "id:8": "superfactorymanager:cable_intake"
+      },
+      "name:8": "Item Valve"
+    }
+  },
+  "questID:3": 210000561,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "superfactorymanager:cable_intake"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "superfactorymanager:cable_intake"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

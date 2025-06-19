@@ -25,6 +25,13 @@ pinkslime.addItemInput(<minecraft:slime_ball>);
 pinkslime.addItemOutput(<industrialforegoing:pink_slime>);
 pinkslime.build();
 
+val uncpinkslime = RecipeBuilder.newBuilder("uncpinkslime","uncorrupted_library",200);
+uncpinkslime.addFluidInput(<fluid:lifeessence>*50);
+uncpinkslime.addFluidInput(<fluid:liquidcoralium>*50);
+uncpinkslime.addItemInput(<minecraft:slime_ball>);
+uncpinkslime.addItemOutput(<industrialforegoing:pink_slime>);
+uncpinkslime.build();
+
 mods.thermalexpansion.Crucible.addRecipe(<fluid:if.pink_slime>*100, <industrialforegoing:pink_slime>, 1000);
 
 recipes.remove(<industrialforegoing:petrified_fuel_generator>);

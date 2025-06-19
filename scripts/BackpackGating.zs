@@ -61,3 +61,39 @@ recipes.addShaped(<thermalexpansion:satchel:0>,
 [[<ore:ingotLead>, <projectred-core:resource_item:420>, <ore:ingotLead>],
 [<projectred-core:resource_item:420>, <projectred-core:resource_item:420>, <projectred-core:resource_item:420>],
 [<ore:ingotLead>, <projectred-core:resource_item:420>, <ore:ingotLead>]]);
+
+
+
+recipes.removeShaped(<retro_sophisticated_backpacks:backpack_leather>);
+
+mods.extendedcrafting.TableCrafting.addShaped(<retro_sophisticated_backpacks:backpack_leather>, 
+[[<enderutilities:enderpart:51>, <projectred-core:resource_item:420>, <enderutilities:enderpart:0>, <projectred-core:resource_item:420>, <enderutilities:enderpart:51>], 
+[<projectred-core:resource_item:420>, <enderutilities:enderpart:21>, <minecraft:leather>, <enderutilities:enderpart:21>, <projectred-core:resource_item:420>], 
+[<enderutilities:enderpart:0>, <minecraft:leather>, <minecraft:chest>, <minecraft:leather>, <enderutilities:enderpart:0>], 
+[<projectred-core:resource_item:420>, <enderutilities:enderpart:21>, <minecraft:leather>, <enderutilities:enderpart:21>, <projectred-core:resource_item:420>], 
+[<enderutilities:enderpart:51>, <projectred-core:resource_item:420>, <enderutilities:enderpart:0>, <projectred-core:resource_item:420>, <enderutilities:enderpart:51>]]);  
+
+recipes.removeShaped(<retro_sophisticated_backpacks:upgrade_base>);
+
+recipes.addShaped(<retro_sophisticated_backpacks:upgrade_base>,
+[[<enderutilities:enderpart:51>, <enderutilities:enderpart:2>, <enderutilities:enderpart:51>],
+[<enderutilities:enderpart:2>, <aoa3:rammerhead_hide>, <enderutilities:enderpart:2>],
+[<enderutilities:enderpart:51>, <enderutilities:enderpart:2>, <enderutilities:enderpart:51>]]);
+
+
+
+recipes.removeShaped(<retro_sophisticated_backpacks:deposit_upgrade>);
+
+recipes.addShaped(<retro_sophisticated_backpacks:deposit_upgrade>,
+[[<contenttweaker:alchemical_mushroom>, <enderstorage:ender_pouch>, <contenttweaker:alchemical_mushroom>],
+[<enderutilities:enderpart:2>, <retro_sophisticated_backpacks:upgrade_base>, <enderutilities:enderpart:2>],
+[<contenttweaker:alchemical_mushroom>, <enderstorage:ender_storage:0>, <contenttweaker:alchemical_mushroom>]]);
+
+
+recipes.removeShaped(<retro_sophisticated_backpacks:restock_upgrade>);
+
+recipes.addShaped(<retro_sophisticated_backpacks:restock_upgrade>,
+[[<contenttweaker:alchemical_mushroom>, <enderstorage:ender_storage:0>, <contenttweaker:alchemical_mushroom>],
+[<enderutilities:enderpart:2>, <retro_sophisticated_backpacks:upgrade_base>, <enderutilities:enderpart:2>],
+[<contenttweaker:alchemical_mushroom>, <enderstorage:ender_pouch>, <contenttweaker:alchemical_mushroom>]]);
+

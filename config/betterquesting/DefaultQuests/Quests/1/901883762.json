@@ -1,0 +1,235 @@
+{
+  "preRequisites:11": [
+    1313906300
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "retro_sophisticated_backpacks:stack_upgrade_tier_3"
+      },
+      "name:8": "Sophisticated Backpack Upgrades"
+    }
+  },
+  "questID:3": 901883762,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "retro_sophisticated_backpacks:stack_upgrade_starter_tier"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "retro_sophisticated_backpacks:exponential_stack_upgrade"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "retro_sophisticated_backpacks:stack_upgrade_tier_1"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "retro_sophisticated_backpacks:stack_upgrade_tier_2"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "retro_sophisticated_backpacks:stack_upgrade_tier_3"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "retro_sophisticated_backpacks:stack_upgrade_tier_4"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "CraftingDest:1": 1
+            }
+          },
+          "id:8": "retro_sophisticated_backpacks:crafting_upgrade"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "retro_sophisticated_backpacks:inception_upgrade"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Enabled:1": 1,
+              "FilterItems:10": {
+                "Items:9": {},
+                "Size:3": 9
+              },
+              "FilterType:1": 0,
+              "TabState:1": 0
+            }
+          },
+          "id:8": "retro_sophisticated_backpacks:pickup_upgrade"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Enabled:1": 1,
+              "FilterItems:10": {
+                "Items:9": {},
+                "Size:3": 16
+              },
+              "FilterType:1": 0,
+              "IgnoreDurability:1": 1,
+              "IgnoreNbt:1": 1,
+              "MatchType:1": 0,
+              "OreDict:9": {},
+              "TabState:1": 0
+            }
+          },
+          "id:8": "retro_sophisticated_backpacks:advanced_pickup_upgrade"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Enabled:1": 1,
+              "FilterItems:10": {
+                "Items:9": {},
+                "Size:3": 9
+              },
+              "FilterType:1": 0,
+              "TabState:1": 0
+            }
+          },
+          "id:8": "retro_sophisticated_backpacks:feeding_upgrade"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Enabled:1": 1,
+              "FilterItems:10": {
+                "Items:9": {},
+                "Size:3": 16
+              },
+              "FilterType:1": 0,
+              "HungerFeedingStrategy:1": 1,
+              "HurtFeedingStrategy:1": 1,
+              "IgnoreDurability:1": 1,
+              "IgnoreNbt:1": 1,
+              "MatchType:1": 0,
+              "OreDict:9": {},
+              "TabState:1": 0
+            }
+          },
+          "id:8": "retro_sophisticated_backpacks:advanced_feeding_upgrade"
+        },
+        "12:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Enabled:1": 1,
+              "FilterItems:10": {
+                "Items:9": {},
+                "Size:3": 9
+              },
+              "FilterType:1": 0,
+              "TabState:1": 0
+            }
+          },
+          "id:8": "retro_sophisticated_backpacks:deposit_upgrade"
+        },
+        "13:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Enabled:1": 1,
+              "FilterItems:10": {
+                "Items:9": {},
+                "Size:3": 16
+              },
+              "FilterType:1": 0,
+              "IgnoreDurability:1": 1,
+              "IgnoreNbt:1": 1,
+              "MatchType:1": 0,
+              "OreDict:9": {},
+              "TabState:1": 0
+            }
+          },
+          "id:8": "retro_sophisticated_backpacks:advanced_deposit_upgrade"
+        },
+        "14:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Enabled:1": 1,
+              "FilterItems:10": {
+                "Items:9": {},
+                "Size:3": 9
+              },
+              "FilterType:1": 0,
+              "TabState:1": 0
+            }
+          },
+          "id:8": "retro_sophisticated_backpacks:restock_upgrade"
+        },
+        "15:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Enabled:1": 1,
+              "FilterItems:10": {
+                "Items:9": {},
+                "Size:3": 16
+              },
+              "FilterType:1": 0,
+              "IgnoreDurability:1": 1,
+              "IgnoreNbt:1": 1,
+              "MatchType:1": 0,
+              "OreDict:9": {},
+              "TabState:1": 0
+            }
+          },
+          "id:8": "retro_sophisticated_backpacks:advanced_restock_upgrade"
+        },
+        "16:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Enabled:1": 1,
+              "FilterItems:10": {
+                "Items:9": {},
+                "Size:3": 9
+              },
+              "FilterType:1": 0,
+              "FilterWay:1": 0,
+              "TabState:1": 0
+            }
+          },
+          "id:8": "retro_sophisticated_backpacks:filter_upgrade"
+        },
+        "17:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Enabled:1": 1,
+              "FilterItems:10": {
+                "Items:9": {},
+                "Size:3": 16
+              },
+              "FilterType:1": 0,
+              "FilterWay:1": 0,
+              "IgnoreDurability:1": 1,
+              "IgnoreNbt:1": 1,
+              "MatchType:1": 0,
+              "OreDict:9": {},
+              "TabState:1": 0
+            }
+          },
+          "id:8": "retro_sophisticated_backpacks:advanced_filter_upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

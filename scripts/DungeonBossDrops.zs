@@ -46,6 +46,9 @@ recipes.addShapeless(<contenttweaker:ayeraco_scale>,
 recipes.addShapeless(<contenttweaker:soul_of_the_grand_wizard>,
 [<contenttweaker:boss_drop>, <iceandfire:dread_key>, <contenttweaker:staff_of_iceika>]);
 
+recipes.addShapeless(<contenttweaker:cursed_cradle>,
+[<contenttweaker:boss_drop>, <contenttweaker:shyre_rider_callstone>]);
+
 recipes.addShapeless(<contenttweaker:nightmare_of_annoyance>,
 [<contenttweaker:boss_drop>, <contenttweaker:ghost_of_annoyance_callstone>]);
 
@@ -1259,6 +1262,429 @@ recipes.addShapeless(<contenttweaker:respect_of_death>,
 
 recipes.addShapeless(<contenttweaker:strange_stone_essence>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:strange_stone_callstone>]);
+
+
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:anemia"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:bloodmist"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:dark_beast"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:host"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:irkling"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:linger"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:modulo"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:night_watcher"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:rammerhead"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:roloscope"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:scrubby"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:skellox"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:terrestrial"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:urka"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:vertebron"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:void_walker"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_1>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:walker"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_3>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:death_hunter"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_3>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:headless_destroyer"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_3>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:reaper_twins"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_3>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:triclops"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_5>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:mother_void_walker"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_9>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:ice_giant"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_9>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:leafy_giant"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_9>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:sand_giant"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_9>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:stone_giant"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_9>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:wood_giant"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_12>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:amphibiyte"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_13>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:skeletal_cowman"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_17>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:kaiyu"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_19>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:zhinx"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:exohead"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:nethengeic_beast"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:diocus"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:paravite"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:spinoledon"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:iosaur"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:mushroom_spider"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:rawbone"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:enforcer"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:undead_troll"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:jawe"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:banshee"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:nightmare_spider"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:dawnlight"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:nightwing"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:flesh_eater"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:jumbo"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:phantom"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:cane_bug"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_20>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:gingerbird"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_30>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:gingerbread_man"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_30>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:pod_plant"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_30>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:vine_wizard"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_30>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:spectral_wizard"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_30>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:runic_guardian"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_30>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:mermage"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_30>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:amphibior"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_30>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:faceless_floater"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_30>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:zorp"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_30>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:zarg"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_30>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:baumba"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_30>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:refluct"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_40>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:inmate_x"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_40>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:inmate_y"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_40>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:merkyre"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_40>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:crusilisk"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_40>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:arkzyne"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_50>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:shyre_troll"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_50>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:lightwalker"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_50>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:luxocron"}})]);
+
+recipes.addShapeless(<contenttweaker:farming_hunter_levels>,
+[<contenttweaker:hunter_mobs>, 
+<contenttweaker:hunter_level_50>, 
+<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:stimulosus"}})]);
+
+
+recipes.addShapeless(<aoa3:rammerhead_hide>,
+[<contenttweaker:farming_hunter_levels>]);
+
+recipes.addShapeless(<aoa3:amphibiyte_lung>,
+[<contenttweaker:farming_hunter_levels>]);
+
+recipes.addShapeless(<contenttweaker:kaiyu_bone>,
+[<contenttweaker:farming_hunter_levels>]);
+
+recipes.addShapeless(<aoa3:lunar_ingot>,
+[<contenttweaker:farming_hunter_levels>]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

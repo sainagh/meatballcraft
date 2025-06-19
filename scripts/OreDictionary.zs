@@ -155,3 +155,21 @@ orefierypyrite.add(<contenttweaker:fiery_pyrite>);
 
 val orestoneblock = <ore:stone>;
 orestoneblock.remove(<divinerpg:divine_rock>);
+
+val oredensedimensionalshard = <ore:oreDenseDimensionalShard>;
+oredensedimensionalshard.add(<contenttweaker:dense_dimensional_shard_ore>);
+
+val oredensegravititte = <ore:oreDenseGravitite>;
+oredensegravititte.add(<contenttweaker:dense_gravitite_ore>);
+
+val orevoidichorium = <ore:oreVoidIchorium>;
+orevoidichorium.add(<contenttweaker:void_ichorium_ore>);
+
+val oreethaxiumstone = <ore:oreEthaxiumStone>;
+oreethaxiumstone.add(<abyssalcraft:stone:5>);
+
+
+val orestormlightstone = <ore:oreStormlightStone>;
+orestormlightstone.add(<contenttweaker:stormlight_stone>);
+
+

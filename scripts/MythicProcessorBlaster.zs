@@ -79,3 +79,10 @@ mythindblast11.addItemInput(<contenttweaker:hyperuranion_ingot>);
 mythindblast11.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
 mythindblast11.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>);
 mythindblast11.build();
+
+val mythindblast12 = RecipeBuilder.newBuilder("mythindblast12","mythic_processor_blaster",2);
+mythindblast12.addEnergyPerTickInput(200000);
+mythindblast12.addFluidInput(<fluid:dense_plasma>*6400);
+mythindblast12.addItemInput(<thermalfoundation:material:165>*64);
+mythindblast12.addItemOutput(<contenttweaker:charged_signalum>*64);
+mythindblast12.build();

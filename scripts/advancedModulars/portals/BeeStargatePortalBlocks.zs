@@ -157,7 +157,7 @@ function setPortalProps(block as Block) as Block {
 // Based off end portal logic.
 function setPortalLogic(block as Block, dimId as int, inSpace as bool) as Block {
   block.onEntityCollidedWithBlock = function(world, pos, state, entity) {
-    if (world.isRemote() || world.time % 20 != 0 || !(entity instanceof IPlayer)) {
+    if (world.isRemote() || entity.world.time % 20 != 0 || !(entity instanceof IPlayer)) {
       return;
     }
     var player as IPlayer = entity;

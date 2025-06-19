@@ -661,6 +661,7 @@
 <divinerpg:tormented_boots>.addTooltip(format.red("Uses 8 Lumps"));
 
 <contenttweaker:radioactive_residue>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
+<contenttweaker:shyre_mulch>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
 
 <contenttweaker:sparkled_oak_planks>.addTooltip(format.red("Craft the right Wood Planks with the right weapon, the Trinity Callstone will guide you"));
 
@@ -856,13 +857,13 @@
 
 <contenttweaker:pack_supporter_token>.addTooltip(format.red("Reclipse had an idea!"));
 
-<contenttweaker:corrupted_divine_ore>.addTooltip(format.red("Best yield in a Mythic Processor Arkencrusher"));
-<contenttweaker:ender_divine_ore>.addTooltip(format.red("Best yield in a Mythic Processor Arkencrusher"));
-<contenttweaker:ice_divine_ore>.addTooltip(format.red("Best yield in a Mythic Processor Arkencrusher"));
-<contenttweaker:jungle_divine_ore>.addTooltip(format.red("Best yield in a Mythic Processor Arkencrusher"));
-<contenttweaker:molten_divine_ore>.addTooltip(format.red("Best yield in a Mythic Processor Arkencrusher"));
-<contenttweaker:shadow_divine_ore>.addTooltip(format.red("Best yield in a Mythic Processor Arkencrusher"));
-<contenttweaker:terran_divine_ore>.addTooltip(format.red("Best yield in a Mythic Processor Arkencrusher"));
+<contenttweaker:corrupted_divine_ore>.addTooltip(format.red("Best yield in a Recursive Processor Arkencrusher"));
+<contenttweaker:ender_divine_ore>.addTooltip(format.red("Best yield in a Recursive Processor Arkencrusher"));
+<contenttweaker:ice_divine_ore>.addTooltip(format.red("Best yield in a Recursive Processor Arkencrusher"));
+<contenttweaker:jungle_divine_ore>.addTooltip(format.red("Best yield in a Recursive Processor Arkencrusher"));
+<contenttweaker:molten_divine_ore>.addTooltip(format.red("Best yield in a Recursive Processor Arkencrusher"));
+<contenttweaker:shadow_divine_ore>.addTooltip(format.red("Best yield in a Recursive Processor Arkencrusher"));
+<contenttweaker:terran_divine_ore>.addTooltip(format.red("Best yield in a Recursive Processor Arkencrusher"));
 
 <contenttweaker:corrupted_divine_ore>.addTooltip(format.red("Use the Ore Excavator in Gallifrey, Gallifreyan Stones Vein"));
 <contenttweaker:ender_divine_ore>.addTooltip(format.red("Use the Ore Excavator in Gallifrey, Gallifreyan Stones Vein"));
@@ -1059,6 +1060,13 @@
 <contenttweaker:p0rtals_redish_white_hat>.addTooltip(format.red("Shield to the Arbiter"));
 <contenttweaker:collar_bells>.addTooltip(format.red("Shield to the Arbiter"));
 
+<materialpart:sednanite:ingot>.addTooltip(format.red("Found on Sedna, available at the end of chapter 3 - Craftable in the plasmatic condenser"));
+
+<materialpart:rhenium:ingot>.addTooltip(format.red("Found on Rhenia"));
+
+<materialpart:myrmitite:ingot>.addTooltip(format.red("Found on Myrmex - Craftable in the plasmatic condenser"));
+
+<materialpart:ogerite:ingot>.addTooltip(format.red("Found on Pixonia - Craftable in the plasmatic condenser"));
 
 <thaumcraft:stone_ancient_rock>.addTooltip(format.red("Thanks to Artemis and birdie for adding microblocks for decorative blocks!"));
 <botania:bifrostperm>.addTooltip(format.red("Thanks to Artemis and birdie for adding microblocks for decorative blocks!"));
@@ -1409,7 +1417,6 @@
 
 <twilightforest:charm_of_life_2>.addTooltip(format.red("Prevents death and gets consumed"));
 
-<rf-capability-adapter:aecapabilityadapter_part>.addTooltip(format.red("WARNING: placing multiple of these right next to each other may cause lag"));
 
 <randomthings:timeinabottle>.addTooltip(format.red("WARNING: do not use on Abyssalcraft or Deep Mob Evolution blocks"));
 
@@ -1516,7 +1523,7 @@
 <ore:ingotFractalliteHalite>.addTooltip(format.red("PocketSkeleton (solo)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Chaika_In_Paanic & rfhb21 (team)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("okay (solo)"));
-<ore:ingotFractalliteHalite>.addTooltip(format.red("IridiumSky, maxwell_lt, Darkally (team)"));
+<ore:ingotFractalliteHalite>.addTooltip(format.red("IridumSky, maxwell_lt, Darkally (team)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("Origami10004, Lumamaster, Kafuruu (team)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("MrRepside (solo)"));
 <ore:ingotFractalliteHalite>.addTooltip(format.red("hael (solo)"));
@@ -1790,7 +1797,7 @@
 <contenttweaker:darkstar_collector>.addTooltip(format.red("Multiblock Upgrade, Automatic Starlight Altar: 100X Speed"));
 <extrabotany:manabarrel>.addTooltip(format.red("Multiblock Upgrade, Botanic Condenser: 15X increased output"));
 <contenttweaker:empowered_mazestone>.addTooltip(format.red("Multiblock Upgrade, Carminite Empowerer: 5x speed"));
-<contenttweaker:defined_block>.addTooltip(format.red("Multiblock Upgrade, Chaotic Condenser: 15X output"));
+<contenttweaker:defined_draconium_block>.addTooltip(format.red("Multiblock Upgrade, Chaotic Condenser: 15X output"));
 <contenttweaker:adamantium_reinforced_petrified_wood>.addTooltip(format.red("Multiblock Upgrade, Cold Iron Forge: 20X speed"));
 <contenttweaker:defined_block>.addTooltip(format.red("Multiblock Upgrade, Definer: 2X output"));
 <contenttweaker:core_of_halite_definition>.addTooltip(format.red("Multiblock Upgrade, Definer: 8X output"));
@@ -1800,6 +1807,8 @@
 <contenttweaker:fabric_of_the_orb>.addTooltip(format.red("Multiblock Upgrade, Dimensional Stabilizer: 50x speed"));
 <thaumadditions:adaminite_block>.addTooltip(format.red("Multiblock Upgrade, Dragonfire Crucible: 6X speed"));
 <thaumadditions:mithminite_smelter>.addTooltip(format.red("Multiblock Upgrade, Dragonfire Forge: 8X output"));
+<contenttweaker:awakened_electromagnet>.addTooltip(format.red("Multiblock Upgrade, Dragonfire Forge: 64X output"));
+<contenttweaker:fractallite_furnace_core>.addTooltip(format.red("Multiblock Upgrade, Dragonfire Forge: 256X output"));
 <contenttweaker:plated_photonium>.addTooltip(format.red("Multiblock Upgrade, Enchanted Greenhouse: 10X speed"));
 <contenttweaker:vibrating_stone>.addTooltip(format.red("Multiblock Upgrade, Essentia Crystallizer: 4X output"));
 <contenttweaker:echo_warren_stone>.addTooltip(format.red("Multiblock Upgrade, Essentia Crystallizer: 20X output"));
@@ -1823,7 +1832,9 @@
 <contenttweaker:superfocused_plasma_collider>.addTooltip(format.red("Multiblock Upgrade, Linear Plasma Accelerator: 100X parallelization"));
 <contenttweaker:hyperfocused_plasma_collider>.addTooltip(format.red("Multiblock Upgrade, Linear Plasma Accelerator: 1000X parallelization"));
 <contenttweaker:halite_bejewelled_ichorium_catalyst>.addTooltip(format.red("Multiblock Upgrade, Thaumic Replicator: 2X fluid output"));
-<contenttweaker:catalyst_of_the_warrens>.addTooltip(format.red("Multiblock Upgrade, Thaumic Replicator: 10X fluid output"));
+<contenttweaker:catalyst_of_the_warrens>.addTooltip(format.red("Multiblock Upgrade, Thaumic Replicator: 10X fluid output, 10X speed"));
+<contenttweaker:trinuum_catalyst>.addTooltip(format.red("Multiblock Upgrade, Thaumic Replicator: 50X fluid output, 20X speed"));
+<contenttweaker:infinitely_wishful_catalyst>.addTooltip(format.red("Multiblock Upgrade, Thaumic Replicator: 100X fluid output, 40X speed"));
 <contenttweaker:hihi_irokane_block>.addTooltip(format.red("Multiblock Upgrade, Meteoric Befaller: 8X speed"));
 <contenttweaker:plasma_accelerator_tube>.addTooltip(format.red("Multiblock Upgrade, Particle Accelerator & Mythic Accelerator: 5X speed"));
 <contenttweaker:gallifreyan_neutronium_casing>.addTooltip(format.red("Multiblock Upgrade, Neutronium Cannon & Bombarder: 5X speed"));
@@ -1837,7 +1848,9 @@
 <contenttweaker:naquadah_casing>.addTooltip(format.red("Multiblock Upgrade, the CUBE: 20X speed"));
 <contenttweaker:miniature_quasar>.addTooltip(format.red("Multiblock Upgrade, Dyson Compressor: 4X output"));
 <contenttweaker:directed_miniature_quasar>.addTooltip(format.red("Multiblock Upgrade, Dyson Compressor: 16X output"));
-
+<avaritia:block_resource:1>.addTooltip(format.red("Multiblock Upgrade, Steel Thermal Mixer: 10X parallelization"));
+<forge:bucketfilled>.withTag({FluidName: "darkstarlight", Amount: 1000}).addTooltip(format.red("Multiblock Upgrade, Whispering Starlight Fountain: 4X parallelization"));
+<forge:bucketfilled>.withTag({FluidName: "whispering_starlight_of_redemption", Amount: 1000}).addTooltip(format.red("Multiblock Upgrade, Whispering Starlight Fountain: 16X parallelization"));
 <contenttweaker:hypergrowth_actualizer>.addTooltip(format.red("Multiblock Upgrade, the Hypergrowth Insolator: 4X output"));
 <contenttweaker:trinity_hypergrowth_component>.addTooltip(format.red("Multiblock Upgrade, the Hypergrowth Insolator: 16X output"));
 <contenttweaker:cosmic_hypergrowth_component>.addTooltip(format.red("Multiblock Upgrade, the Hypergrowth Insolator: 64X output"));
@@ -2113,6 +2126,9 @@
 
 <contenttweaker:draconic_fabrial>.addTooltip(format.red("A Mark of the Fallen tower for 50000"));
 <contenttweaker:draconic_fabrial>.addTooltip(format.red("videojamiemostlikely had an idea"));
+
+<contenttweaker:hungering_world_soul>.addTooltip(format.red("A Mark of the Fallen tower for 50000"));
+
 
 <buildcraftsilicon:laser>.addTooltip(format.red("Face towards the Assembly Table to power it"));
 <buildcraftsilicon:laser>.addTooltip(format.red("Connect to EnderIO conduits, fluxducts often disconnect!"));
@@ -2508,7 +2524,6 @@
 
 <contenttweaker:quasar_core>.addTooltip(format.red("The Recurrent Nightmare Synthesizer and the Naquadah Casing are your friends"));
 
-<divinerpg:halite_phaser>.addTooltip(format.red("The Recurrent Nightmare Synthesizer and the Naquadah Casing are your friends"));
 
 <tardis:key>.addTooltip(format.red("Obtained from a fully grown TARDIS Coral"));
 
@@ -2679,6 +2694,14 @@
 <appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("NOTE: if you updated the pack, the questbook may not update automatically, use this command to update it manually"));
 <appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("/bq_admin default load"));
 
+<twilightforest:glass_sword>.addTooltip(format.green("Reusable"));
+<avaritia:infinity_sword>.addTooltip(format.green("Reusable"));
+<mod_lavacow:sludge_wand>.addTooltip(format.green("Reusable"));
+<mod_lavacow:scarab_wand>.addTooltip(format.green("Reusable"));
+<contenttweaker:eternally_stained_soul>.addTooltip(format.green("Reusable"));
+
+
+
 
 <modularmachinery:hypergrowth_insolator_factory_controller>.addTooltip(format.red("WARNING: this will be removed in a future update, and be replaced by a normal multiblock upgrade"));
 <modularmachinery:infinity_furnace_factory_controller>.addTooltip(format.red("WARNING: this will be removed in a future update, and be replaced by a normal multiblock upgrade"));
@@ -2686,6 +2709,128 @@
 <modularmachinery:enchanted_greenhouse_factory_controller>.addTooltip(format.red("WARNING: this will be removed in a future update, and be replaced by a normal multiblock upgrade"));
 <modularmachinery:sacred_cinders_apiary_factory_controller>.addTooltip(format.red("WARNING: this will be removed in a future update, and be replaced by a normal multiblock upgrade"));
 <modularmachinery:mechanized_coop_factory_controller>.addTooltip(format.red("WARNING: this will be removed in a future update, and be replaced by a normal multiblock upgrade"));
+
+<malisisdoors:door_factory>.addTooltip(format.red("WARNING: the doors from Malisis are very laggy, and may get removed from the pack in a future update"));
+<malisisdoors:garage_door>.addTooltip(format.red("WARNING: the doors from Malisis are very laggy, and may get removed from the pack in a future update"));
+
+<contenttweaker:charged_signalum>.addTooltip(format.red("The Flux Linkage Concentrator is your friend"));
+
+<rf-capability-adapter:aecapabilityadapter>.addTooltip(format.red("WARNING: DO NOT place next to any block that is not a compact machine"));
+
+<rf-capability-adapter:aecapabilityadapter_part>.addTooltip(format.red("WARNING: DO NOT place next to any block that is not a compact machine"));
+
+
+
+<bloodmagic:blood_shard:1>.addTooltip(format.red("Right click a Demon from Bwitchemnt with a Bound Stick"));
+<bloodmagic:blood_shard:1>.addTooltip(format.red("Can be obtained through the Sentient Coagulator multiblock"));
+
+
+<appliedenergistics2:part:220>.addTooltip(format.red("NOTE: for the very large endgame recipes, failed crafts may cause item deletions"));
+<storagedrawers:upgrade_creative:0>.addTooltip(format.red("NOTE: for the very large endgame recipes, failed crafts may cause item deletions"));
+<dankstorage:dank_7>.addTooltip(format.red("NOTE: for the very large endgame recipes, failed crafts may cause item deletions"));
+
+
+<contenttweaker:dense_dimensional_shard_ore>.addTooltip(format.red("Obtained from a Mark of the Falling Tower using a Hungering World Soul"));
+
+<contenttweaker:cuendillar_plate>.addTooltip(format.red("NOTE: to automate this, follow the tips in the JEI info box"));
+<contenttweaker:cuendillar_plate>.addTooltip(format.red("Use these Super-Enchants as starters:"));
+<contenttweaker:cuendillar_plate>.addTooltip(format.red("Zenith"));
+<contenttweaker:cuendillar_plate>.addTooltip(format.red("Explochron Sword"));
+<contenttweaker:cuendillar_plate>.addTooltip(format.red("Brightsteel Armor"));
+
+<contenttweaker:coolant_great>.addTooltip(format.red("Another JEI tab shows all available coolants, these are the good ones"));
+<contenttweaker:coolant_great>.addTooltip(format.red("With Draconium being the best"));
+
+<contenttweaker:coil_great>.addTooltip(format.red("Another JEI tab shows all available coils, these are the good ones"));
+<contenttweaker:coil_great>.addTooltip(format.red("With Ludicrite being the best"));
+
+<draconicevolution:energy_crystal:6>.addTooltip(format.red("Use the Crystal Binder to directly power machines at a distance"));
+<draconicevolution:energy_crystal:7>.addTooltip(format.red("Use the Crystal Binder to directly power machines at a distance"));
+<draconicevolution:energy_crystal:8>.addTooltip(format.red("Use the Crystal Binder to directly power machines at a distance"));
+
+<draconicevolution:energy_crystal:6>.addTooltip(format.red("Connects to 16 machines"));
+<draconicevolution:energy_crystal:7>.addTooltip(format.red("Connects to 32 machines"));
+<draconicevolution:energy_crystal:8>.addTooltip(format.red("Connects to 64 machines"));
+
+<contenttweaker:cursed_cradle>.addTooltip(format.green("Reusable"));
+
+<contenttweaker:star_of_betrayal>.addTooltip(format.green("Reusable for duping"));
+
+
+<aoa3:flammable_dust>.addTooltip(format.red("Dropped by Nethengeic Beasts"));
+
+<contenttweaker:mythic_radiation_shielding>.addTooltip(format.red("Craft with any armor to add radiation shielding"));
+<contenttweaker:mythic_radiation_shielding>.addTooltip(format.red("10 rads"));
+
+<contenttweaker:recursive_radiation_shielding>.addTooltip(format.red("Craft with any armor to add radiation shielding"));
+<contenttweaker:recursive_radiation_shielding>.addTooltip(format.red("100 rads"));
+
+<contenttweaker:fractallite_radiation_shielding>.addTooltip(format.red("Craft with any armor to add radiation shielding"));
+<contenttweaker:fractallite_radiation_shielding>.addTooltip(format.red("1000 rads"));
+
+
+<contenttweaker:shard_of_physical_healing>.addTooltip(format.red("Use magic damage"));
+
+<contenttweaker:good_woot_drops>.addTooltip(format.red("For the non-boss drops, the Ultimate Mob Farm will be better (if you can afford it)"));
+
+<superfactorymanager:manager>.addTooltip(format.red("Check the questbook for info about ech code block"));
+<superfactorymanager:manager>.addTooltip(format.red("mewmaister really wanted this!"));
+<superfactorymanager:manager>.addTooltip(format.red("NerdySpider wrote the documntation, thanks!"));
+
+
+<superfactorymanager:cable_relay:0>.addTooltip(format.red("Lets a non-block entity like a minecart with chest to be used as a input/output. Just select it as one within a module."));
+
+<superfactorymanager:cable_relay:8>.addTooltip(format.red("Lets a players inventory interact with a network to be used as a input/output when stood on, or stood next too. Must set a permission up for it for yourself and other players when clicking the block."));
+
+<superfactorymanager:cable_intake:0>.addTooltip(format.red("Lets items dropped in the world act as a input or output."));
+<superfactorymanager:cable_intake:8>.addTooltip(format.red("Lets items dropped in the world act as a input or output."));
+
+<superfactorymanager:cable_output>.addTooltip(format.red("Interacts with the redstone emitter module within the manager."));
+
+<superfactorymanager:cable_input>.addTooltip(format.red("Interacts with the redstone condition module within the manager."));
+
+<superfactorymanager:cable_bud>.addTooltip(format.red("Lets a trigger be turned into a block detector trigger when changed in its 'connection' settings."));
+
+<superfactorymanager:cable_breaker>.addTooltip(format.red("Lets the space infront of the block act as a input/output. Breaking or placing blocks infront of it."));
+
+<superfactorymanager:cable_sign>.addTooltip(format.red("Needed for the sign updater module to update a sign attached to it."));
+
+<superfactorymanager:cable_cluster:*>.addTooltip(format.red("Cable clusters let you combine multiple blocks that connect to the manager into one."));
+
+<superfactorymanager:cable>.addTooltip(format.red("Connects inventories and other SFM blocks to the controller"));
+
+<contenttweaker:big_slime>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+<contenttweaker:flying_meatball>.addTooltip(format.red("Thanks to NerdySpider for the meatball textures!"));
+<contenttweaker:hearty_meatball>.addTooltip(format.red("Thanks to NerdySpider for the meatball textures!"));
+<contenttweaker:mutated_meatball>.addTooltip(format.red("Thanks to NerdySpider for the meatball textures!"));
+
+<contenttweaker:stone_of_universal_balance>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+<contenttweaker:mark_fallen_tower>.addTooltip(format.red("All meteors are also obtained using the Relic of the Fallen Tower multiblock"));
+
+<aether_legacy:valkyrie_helmet>.addTooltip(format.green("Reusable"));
+<aether_legacy:valkyrie_chestplate>.addTooltip(format.green("Reusable"));
+<aether_legacy:valkyrie_leggings>.addTooltip(format.green("Reusable"));
+<aether_legacy:valkyrie_boots>.addTooltip(format.green("Reusable"));
+
+<contenttweaker:blade_of_the_samurai_queen>.addTooltip(format.green("Reusable"));
+
+<modularmachineryaddons:blockmeteorprovideroutput>.addTooltip(format.red("NOTE: to avoid damage from the meteors, place a block of obsidian 10 to 15 blocks above the hatch"));
+<modularmachineryaddons:blockmeteorprovideroutput>.addTooltip(format.red("For automation, make sure that the automated mining system will not break that obsidian block"));
+
+<contenttweaker:draconic_fabrial>.addTooltip(format.red("Thanks to Alecsio for Modular Machinery Addons!"));
+<contenttweaker:charged_draconium_block>.addTooltip(format.red("Thanks to Alecsio for Modular Machinery Addons!"));
+<contenttweaker:meatballium_reinforced_casing>.addTooltip(format.red("Thanks to Alecsio for Modular Machinery Addons!"));
+
+<modularmachineryaddons:blockmeteorprovideroutput>.addTooltip(format.red("Alecsio is a genius!"));
+
+<contenttweaker:stormlight_stone>.addTooltip(format.red("2% drop chance from Headstone Meteors"));
+
+
+
+
+
 
 
 

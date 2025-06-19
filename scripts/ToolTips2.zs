@@ -74,13 +74,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:white_fuel>.addTooltip(format.red("Found on Alkemia"));
 
-<materialpart:sednanite:ingot>.addTooltip(format.red("Found on Sedna, available at the end of chapter 3 - Craftable in the plasmatic condenser"));
-
-<materialpart:rhenium:ingot>.addTooltip(format.red("Found on Rhenia"));
-
-<materialpart:myrmitite:ingot>.addTooltip(format.red("Found on Myrmex - Craftable in the plasmatic condenser"));
-
-<materialpart:ogerite:ingot>.addTooltip(format.red("Found on Pixonia - Craftable in the plasmatic condenser"));
 
 <contenttweaker:sedna_artifact>.addTooltip(format.red("Used in the Warp controller"));
 
@@ -364,7 +357,10 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:retaliation_key>.addTooltip(format.red("opens the final room in the will crystal monolith"));
 
-<soulshardsrespawn:soul_shard>.addTooltip(format.red("This is made in-world, place a glowstone block, with four quartz blocks around it, and obsidian in the corners. - Text suggestion by Sandman366"));
+<soulshardsrespawn:soul_shard>.addTooltip(format.red("This is made in-world, place a glowstone block, with four quartz blocks around it, and obsidian in the corners"));
+<soulshardsrespawn:soul_shard>.addTooltip(format.red("Can be charged in 2 ways:"));
+<soulshardsrespawn:soul_shard>.addTooltip(format.red("Killing the relevant mobs while having the relevant Soul SHard in your hotbar (boosted by the soul stealer enchantment)"));
+<soulshardsrespawn:soul_shard>.addTooltip(format.red("Right clicking spawners for the relevant mobs (much better, but it destroys the spawner)"));
 
 <dimdoors:world_thread>.addTooltip(format.red("Found in Dimensional Doors dungeons"));
 
@@ -817,8 +813,6 @@ import crafttweaker.item.IItemCondition;
 <bewitchment:blessed_stone>.addTooltip(format.red("CAREFUL: this block is unbreakable"));
 <bewitchment:blessed_stone>.addTooltip(format.red("Can be broken by the Master Spell Perditio"));
 
-<contenttweaker:scale_of_the_ancient_heart>.addTooltip(format.red("CAREFUL: this block is unbreakable"));
-<contenttweaker:scale_of_the_ancient_heart>.addTooltip(format.red("Can be broken by the Master Spell Perditio"));
 
 <contenttweaker:asgard_furnace_brick>.addTooltip(format.red("CAREFUL: this block is unbreakable"));
 <contenttweaker:asgard_furnace_brick>.addTooltip(format.red("Can be broken by the Master Spell Perditio"));
@@ -965,6 +959,8 @@ import crafttweaker.item.IItemCondition;
 
 
 <techreborn:implosion_compressor>.addTooltip(format.red("hollow 3x3x3 of reinforced machine casings below the machine"));
+
+<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct", "enderio:enabled": 1 as byte}).addTooltip(format.red("Tinker Modifier: auto-teleports drops to inventory"));
 
 <bloodmagic:soul_gem:3>.addTooltip(format.red("Tinker Modifier: mobs drop will"));
 
@@ -1482,7 +1478,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:technetium_remains>.addTooltip(format.red("Can be multiplied in an infinite loop"));
 
 
-<contenttweaker:lanthanum_salt>.addTooltip(format.red("If you don't want to automate it, batch craft a large amount"));
 
 <contenttweaker:tennessine_gem>.addTooltip(format.red("Throw the various lumps into an infernal furnace"));
 
@@ -2174,7 +2169,8 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:gem_of_the_sleeping_city>.addTooltip(format.red("Found in L'Borean"));
 <contenttweaker:stone_of_the_sleeping_city>.addTooltip(format.red("Found in L'Borean"));
 
-<draconicevolution:celestial_manipulator>.addTooltip(format.red("Use in the overworld! It will also works in the void world!"));
+<draconicevolution:celestial_manipulator>.addTooltip(format.red("Must be used in the overworld, but it will affect the time in the void world as well!"));
+<draconicevolution:celestial_manipulator>.addTooltip(format.red("Chat detectors or other wireless redstone can be used to activate the time-changing functions at a distance, so you won't have to travel back and forth!"));
 
 <appliedenergistics2:part:220>.addTooltip(format.red("Do not connect to a block across a chunk boundary, it may cause a crash"));
 <appliedenergistics2:part:221>.addTooltip(format.red("Do not connect to a block across a chunk boundary, it may cause a crash"));
@@ -2448,93 +2444,93 @@ import crafttweaker.item.IItemCondition;
 <thermaldynamics:duct_16:6>.addTooltip(format.red("Use servos, retrievers, filters to move items with these (see their JEI tooltips for info on how to use them)"));
 <thermaldynamics:duct_16:7>.addTooltip(format.red("Use servos, retrievers, filters to move items with these (see their JEI tooltips for info on how to use them)"));
 
-<tconstruct:metal:0>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<thermalfoundation:storage:4>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<thermalfoundation:storage:6>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<minecraft:iron_block>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<thermalfoundation:storage:8>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<enderio:block_alloy:2>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<techreborn:storage:8>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<thermalfoundation:storage_alloy:1>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<enderio:block_alloy:6>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<thermalfoundation:storage_alloy:3>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<thermalfoundation:storage:2>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<thermalfoundation:storage_alloy:2>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<tconstruct:metal:5>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<ore:blockLudicrite>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<thermalfoundation:storage_alloy:7>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<thermalfoundation:storage:0>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<ore:blockElectrumFlux>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<techreborn:storage:2>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<techreborn:storage:5>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<enderio:block_alloy:4>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<tconstruct:metal:2>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<enderio:block_alloy:0>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<thermalfoundation:storage:3>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<minecraft:gold_block>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<tconstruct:metal:1>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<ore:blockEnergeticAlloy>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
-<thermalfoundation:storage_alloy:0>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <tconstruct:metal:0>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <thermalfoundation:storage:4>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <thermalfoundation:storage:6>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <minecraft:iron_block>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <thermalfoundation:storage:8>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <enderio:block_alloy:2>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <techreborn:storage:8>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <thermalfoundation:storage_alloy:1>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <enderio:block_alloy:6>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <thermalfoundation:storage_alloy:3>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <thermalfoundation:storage:2>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <thermalfoundation:storage_alloy:2>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <tconstruct:metal:5>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <ore:blockLudicrite>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <thermalfoundation:storage_alloy:7>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <thermalfoundation:storage:0>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <ore:blockElectrumFlux>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <techreborn:storage:2>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <techreborn:storage:5>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <enderio:block_alloy:4>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <tconstruct:metal:2>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <enderio:block_alloy:0>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <thermalfoundation:storage:3>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <minecraft:gold_block>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <tconstruct:metal:1>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <ore:blockEnergeticAlloy>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
+// <thermalfoundation:storage_alloy:0>.addTooltip(format.red("Can be used as a big turbine coil, best one is ludicrite"));
 
-<ore:blockDraconium>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<thermalfoundation:storage:4>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<thermalfoundation:storage:6>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<minecraft:iron_block>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<minecraft:diamond_block>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<ore:blockMithril>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<ore:blockVibrantAlloy>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<techreborn:storage:8>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<thermalfoundation:storage_alloy:1>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<ore:blockDarkSteel>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<thermalfoundation:storage_alloy:3>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<thermalfoundation:storage:2>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<minecraft:ice>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<ore:blockMeatRaw>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<minecraft:glass>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<ore:blockDraconiumAwakened>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<thermalfoundation:storage_alloy:2>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<nuclearcraft:ingot_block:8>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<thermalfoundation:storage_alloy:7>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<ore:blockSoularium>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<minecraft:emerald_block>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<thermalfoundation:storage:0>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<minecraft:snow>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<ore:blockElectrumFlux>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<techreborn:storage:2>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<techreborn:storage:5>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<ore:blockConductiveIron>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<tconstruct:metal:2>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<ore:blockElectricalSteel>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<techreborn:storage:3>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<minecraft:gold_block>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<ore:blockEnergeticAlloy>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<thermalfoundation:storage_alloy:0>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "electrical_steel", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "dark_steel", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "fire_water", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "ender", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "cloud_seed", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "liquid_sunshine", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "glowstone", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "purpleslime", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "energetic_alloy", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "hootch", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "pyrotheum", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "blueslime", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "vapor_of_levity", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "ender_distillation", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "nutrient_distillation", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "soularium", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "water", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "conductive_iron", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "rocket_fuel", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "meat", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "vibrant_alloy", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
-<forge:bucketfilled>.withTag({FluidName: "sewage", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <ore:blockDraconium>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <thermalfoundation:storage:4>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <thermalfoundation:storage:6>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <minecraft:iron_block>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <minecraft:diamond_block>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <ore:blockMithril>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <ore:blockVibrantAlloy>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <techreborn:storage:8>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <thermalfoundation:storage_alloy:1>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <ore:blockDarkSteel>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <thermalfoundation:storage_alloy:3>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <thermalfoundation:storage:2>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <minecraft:ice>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <ore:blockMeatRaw>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <minecraft:glass>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <ore:blockDraconiumAwakened>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <thermalfoundation:storage_alloy:2>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <nuclearcraft:ingot_block:8>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <thermalfoundation:storage_alloy:7>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <ore:blockSoularium>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <minecraft:emerald_block>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <thermalfoundation:storage:0>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <minecraft:snow>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <ore:blockElectrumFlux>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <techreborn:storage:2>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <techreborn:storage:5>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <ore:blockConductiveIron>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <tconstruct:metal:2>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <ore:blockElectricalSteel>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <techreborn:storage:3>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <minecraft:gold_block>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <ore:blockEnergeticAlloy>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <thermalfoundation:storage_alloy:0>.addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "electrical_steel", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "dark_steel", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "fire_water", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "ender", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "cloud_seed", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "liquid_sunshine", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "glowstone", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "purpleslime", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "energetic_alloy", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "hootch", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "pyrotheum", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "blueslime", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "vapor_of_levity", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "ender_distillation", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "nutrient_distillation", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "soularium", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "water", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "conductive_iron", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "rocket_fuel", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "meat", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "vibrant_alloy", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
+// <forge:bucketfilled>.withTag({FluidName: "sewage", Amount: 1000}).addTooltip(format.red("Can be used as a big reactor coolant, best one is draconium block"));
 
 <divinerpg:arcana_portal_frame>.addTooltip(format.red("Place in a shape like the end portal"));
 <divinerpg:arcana_portal_frame>.addTooltip(format.red("Make sure the dots are facing the middle"));
@@ -3197,7 +3193,6 @@ import crafttweaker.item.IItemCondition;
 
 <thaumcraft:caster_basic>.addTooltip(format.red("Press H to equip and change spell foci"));
 
-<contenttweaker:shungite_prism>.addTooltip(format.red("Right click to become immune to radiation"));
 
 <contenttweaker:shungite>.addTooltip(format.red("Found on Zoi"));
 
@@ -3257,7 +3252,11 @@ import crafttweaker.item.IItemCondition;
 
 <gendustry:honey_comb:14014>.addTooltip(format.red("Found on Nero"));
 
-<appliedenergistics2:memory_card>.addTooltip(format.red("Use the advanced memory card instead"));
+<appliedenergistics2:memory_card>.addTooltip(format.red("Used to link two P2P tunnels between each other"));
+<appliedenergistics2:memory_card>.addTooltip(format.red("To reset it, shift right click the air"));
+<appliedenergistics2:memory_card>.addTooltip(format.red("To bind to the input P2P (controller side) shift right click it"));
+<appliedenergistics2:memory_card>.addTooltip(format.red("To set the output P2P, simply right click it"));
+<appliedenergistics2:memory_card>.addTooltip(format.red("There is an advanced version with more functionality, but it can cause crashes on servers"));
 
 <betterp2p:advanced_memory_card>.addTooltip(format.red("Right click on a P2P bus to bind it to another, this card has a GUI"));
 <betterp2p:advanced_memory_card>.addTooltip(format.red("P2P buses can be renamed with a quartz cutting knife, makes it easier to keep track of things"));

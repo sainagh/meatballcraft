@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTolerance none from common bee.",
+      "desc:8": "§7§oTolerance none from common bee.\n\nSpecialty drops, the ones on the bottom row for the bee drops JEI page, require exact matching temperature and humidity to drop. Low tolerance ensures that whenever a bee can run, it will be able to produce specialty drops as well!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forestry:bee_drone_ge",

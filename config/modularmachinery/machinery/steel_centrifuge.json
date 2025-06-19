@@ -2,6 +2,27 @@
     "registryname": "iron_centrifuge",
     "localizedname": "Steel Thermal Mixer",
 	"color": 636363,
+    "modifiers": [
+        {
+            "elements": "avaritia:block_resource@1",
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "description": "Multiplies amounts processed by 10",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 10
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 10
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -3,

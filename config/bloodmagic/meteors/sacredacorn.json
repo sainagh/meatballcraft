@@ -1,0 +1,23 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "contenttweaker",
+      "path": "sacred_acorn"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 50,
+      "oreName": "oreUltimate"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreMatrix"
+    }],
+  "explosionStrength": 10.0,
+  "radius": 5,
+  "maxWeight": 100,
+  "version": 4,
+  "cost": 5000000
+}

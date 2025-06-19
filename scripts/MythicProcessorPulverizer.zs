@@ -1311,3 +1311,9 @@ mythpulv209.addItemInput(<contenttweaker:neutronium_pearl>);
 mythpulv209.addItemOutput(<avaritia:resource:2>*10000);
 mythpulv209.build();
 
+val mythpulv210 = RecipeBuilder.newBuilder("mythpulv210","mythic_processor_pulverizer",2);
+mythpulv210.addEnergyPerTickInput(60000);
+mythpulv210.addItemInput(<ore:oreTartarite>);
+mythpulv210.addItemOutput(<materialpart:tartarite:dust>*5);
+mythpulv210.build();
+

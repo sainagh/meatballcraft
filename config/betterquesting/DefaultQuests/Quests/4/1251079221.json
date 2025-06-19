@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    62754235
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCable clusters let you combine multiple blocks that connect to the manager into one.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8,
+        "id:8": "superfactorymanager:cable_cluster"
+      },
+      "name:8": "Combine Multiple Cables"
+    }
+  },
+  "questID:3": 1251079221,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "superfactorymanager:cable_cluster"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "superfactorymanager:cable_cluster"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

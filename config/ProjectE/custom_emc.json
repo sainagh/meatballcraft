@@ -23083,6 +23083,86 @@
     {
       "item": "ironchest:diamond_obsidian_shulker_upgrade|0",
       "emc": 0
+    },
+    {
+      "item": "tconstruct:ingots|6",
+      "emc": 0
+    },
+    {
+      "item": "divinerpg:divine_rock|0",
+      "emc": 1
+    },
+    {
+      "item": "superfactorymanager:cable_relay|0",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:cable_relay|8",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:cable_intake|0",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:cable_intake|8",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:cable_cluster|0",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:cable_cluster|8",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:cable_camouflage|0",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:cable_camouflage|1",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:cable_camouflage|2",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:cable_breaker|0",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:cable_bud|0",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:cable_input|0",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:cable_output|0",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:cable|0",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:manager|0",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:cable_sign|0",
+      "emc": 0
+    },
+    {
+      "item": "superfactorymanager:disk|0",
+      "emc": 0
+    },
+    {
+      "item": "divinerpg:mortum_leaves|0",
+      "emc": 1
     }
   ]
 }

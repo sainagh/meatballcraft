@@ -34,7 +34,7 @@
             "x": 0,
             "y": 2,
             "z": 6,
-            "description": "Replace unidentified body for 64x output",
+            "description": "Replace unidentified body for 16x output",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",
@@ -47,7 +47,7 @@
             "x": 0,
             "y": 2,
             "z": 6,
-            "description": "Replace unidentified body for 256x output",
+            "description": "Replace unidentified body for 64x output",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",

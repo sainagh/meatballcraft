@@ -21,6 +21,20 @@
         "0:10": {
           "Count:3": 8,
           "id:8": "contenttweaker:innerved_sky_stone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:written_book",
+          "tag:10": {
+            "author:8": "Sainagh",
+            "pages:9": {
+              "0:8": "{\"text\":\"Congratulations!\\n\\nGetting the Tree of Life is an achievemnt comparable to finishing many of the famous progression modpacks out there!\"}",
+              "1:8": "{\"text\":\"If you got here and had your fun, while struggling a bit, it is probably a good place to conclude a playthrough!\\n\\nIt\\u0027s not a small achievement to even get here!\\n \"}",
+              "2:8": "{\"text\":\"From this point onwards, things may get a fair bit more complex, and that type of content may not be for everyone.\\n\\nIf this is you, I hope you enjoy the rest of the journey!\"}"
+            },
+            "resolved:1": 1,
+            "title:8": "A Cool Achievement"
+          }
         }
       }
     }

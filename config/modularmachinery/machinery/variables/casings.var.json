@@ -15,6 +15,14 @@
         "modularmachinery:blockfluidinputhatch",
         "generalized_output_fluid"
     ],
+    "fluxormanainput": [
+        "modularmachineryaddons:blockfluxproviderinput",
+        "modularmachinery:blockmanaproviderinput"
+    ],
+    "generalized_input_essentia": [
+        "modularmachinery:blockaspectproviderinput",
+        "modularmachineryaddons:blockmeessentiainputbus"
+    ],
     "any_dragonforge_brick": [
         "iceandfire:dragonforge_lightning_brick",
         "iceandfire:dragonforge_fire_brick",

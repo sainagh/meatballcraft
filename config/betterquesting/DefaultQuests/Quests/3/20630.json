@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:corrupted_library"
         }
       },
-      "name:8": "Corrupted Library"
+      "name:8": "(un)Corrupted Library"
     }
   },
   "questID:3": 20630,
@@ -25,6 +25,13 @@
           "id:8": "modularmachinery:itemblueprint",
           "tag:10": {
             "dynamicmachine:8": "modularmachinery:corrupted_library"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:uncorrupted_library"
           }
         }
       },

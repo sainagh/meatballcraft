@@ -1,0 +1,23 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "contenttweaker",
+      "path": "charm_of_the_falling_tower"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 50,
+      "oreName": "oreVoidIchorium"
+    },
+    {
+      "weight": 30,
+      "oreName": "oreCinnabar"
+    }],
+  "explosionStrength": 10.0,
+  "radius": 5,
+  "maxWeight": 100,
+  "version": 4,
+  "cost": 5000000
+}

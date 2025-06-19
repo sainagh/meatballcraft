@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    678743056
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oHeart of the networks you want to create, works like a visual code chart that lets you place modules down and have them connect to diferent modules. To make the most basic A to B program you must place a \u0027trigger\u0027 module onto the field, the trigger module is what \"runs\" the script and it is very tilable to how you\u0027d prefer it to run, such as being triggered every 5 seconds, redstone controlled, etc. \n\nCables extend the reach of the manager.  Place them adjacent to all blocks you want to include in your automation to connect them to the Manager.\n\nYou can then place a \"input\" module and tell which machine, tile, chest, etc. and from which side, and the same goes for the output module, using this you can simply have a basic input and output system. \n\nHere\u0027s a list of each manager component and what they do in brief detail:\n\n*create trigger*\nA module which starts a chain of modules connected to its bottom. It can be set to trigger every configured second, or by a redstone signal via a \"redstone receiver\" on the network.\n\n*create input*\nA module which sets a chest, tile, machine, etc as a \"input\" which will remove the item and take it to another.\n\n*create output*\nA module which sets a chest, tile, machine, etc as a \"output\" which will take receiving items attached to input modules or similar to it. \n\nBoth inputs and outputs can be filtered. However you can **RIGHT CLICK** a filtered item in the filter to give extra configurations such as being able to be specific of how many of that one item is meant to be in the output, like a enderio limited item filter. \n\n*create flow control*\nA module which can be used to give one or more \u0027input\u0027 modules multiple outputs. Such as having one input to put coal into the side of a furnace and ore on the top, etc. Click the \u0027connections\u0027 tab to change through diferent styles. The nodes on the flow control work with most other modules too, not just input/outputs.\n\n*create fluid input \u0026 fluid output*\nWorks identially to input and output modules, except with fluids to tanks. Can be used to specify how much you want of a fluid to go into the output as well. \n\n*Auto crafter*\nLets you craft with the command! Just use the module to build the vanilla crafting table recipe you want to use when triggered. You can even set a \"Excess\" chest which will put excess crafting outputs if the final craft it can fit into it makes excess. AND it stores things such as buckets that are used.\n\n*Sign updater*\nLets you update a sign with prewritten text when triggered. Can have specific parts of the sign updated or not to keep blank spaces or text meant to stay there.\n\n*Camoflauge*\nLets you update a cable camouflage block to look like another when triggered.\n\n\n---\nAdvanced:\n\n*condition*\nConditions are powerful modules that when triggered do a true/false check. It can check to see if a inventory its set to watch as any or a single item within a filter you set. If what was set is true it will go to the left\u0027 true\u0027 prong, and vice versa to the right one if false. This lets you set up different chains of modules to happen if a single chest does or doesn\u0027t have a specific item.\n\n*redstone emitter*\ncreates a module that has to be attached to a \"redstone emitter\" block which is attached to the manager, allowing it to create a redstone pulse in any configurable side, type and style.\n\n*redstone condition*\nCreates a module that has to be attached to a \"redstone receiver\" block which is attached to the manager. It creates a true/false statement like the normal condition, however it looks for the configured redstone type. Such as strengh, side, etc. Allowing you to have something that works when something only has redstone. (Note you can set a trigger module to also be controlled by a redstone receiver)\n\n*Variables*\nLets you set conditions and collections of blocks that are part of the network as a predetermined color. For example you can have multiple output chests all set to a single variable of the color blue. And then using that, you can have a trigger \u003e input \u003e output setup instead choose to output to the variable of blue.  You can then have this variable in the corner of the setup, as it doesn\u0027t need to be interacted with when on declaration.\n\nWhen set to standard instead of declaration. It will gain trigger spots, letting other modules connect to it. This lets you add, remove, or set a block on the network as a variable when the module is triggered.\n\n*for each loop*\nLets you loop between variables to have diferent effects. Its quite confusing, however you can use this to change up basic empty variables to work with defined variables\n\n*Group*\nLets you compress multiple modules into a singular one. Must be used in junction with a group node, which when used inside of a group lets you set up to 5 inputs and 5 output nodes that you can use on the outside of the group to directly interact with it.\n\n*Sign updater*\nLets you update a sign updater block on the network and thus a sign attached to it when triggered.\n\n*Camoflauge*\nLets you update the look of a cable camoflauge block when triggered.\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "superfactorymanager:manager"
+      },
+      "name:8": "Inventory Manager"
+    }
+  },
+  "questID:3": 62754235,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "superfactorymanager:manager"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "superfactorymanager:cable"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

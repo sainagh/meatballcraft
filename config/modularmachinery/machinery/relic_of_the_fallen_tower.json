@@ -1,0 +1,4166 @@
+{
+    "registryname": "relic_of_the_fallen_tower",
+    "localizedname": "Relic of the Fallen Tower",
+	"color": "857a72",
+    "parts": [
+        {
+            "x": 4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "bloodmagic:ritual_stone@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "bloodmagic:ritual_stone@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:stone_of_the_fallen_tower@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:ritual_stone@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stone_of_the_fallen_tower@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "fluxormanainput"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:ritual_stone@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stone_of_the_fallen_tower@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "bloodmagic:ritual_stone@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "modularmachineryaddons:blockmeteorprovideroutput@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "bloodmagic:ritual_stone@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "bloodmagic:ritual_stone@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stone_of_the_fallen_tower@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "bloodmagic:ritual_stone@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:path@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:path@3"
+            ]
+        }
+    ]}

@@ -132,3 +132,9 @@ recipes.addShaped(<contenttweaker:ancient_decrystallizer>,
 [<thaumcraft:crystal_essence>, <aoa3:sapphire_pickaxe>, <thaumcraft:crystal_essence>],
 [<divinerpg:corrupted_shards>, <thaumcraft:crystal_essence>, <divinerpg:corrupted_shards>]]);
 
+
+
+val makefluxcontrolled = RecipeBuilder.newBuilder("makefluxcontrolled","vibrating_flux_crucible",40);
+makefluxcontrolled.addItemInput(<extrautils2:compresseddirt:1>);
+makefluxcontrolled.addFluxOutput(10.0);
+makefluxcontrolled.build();

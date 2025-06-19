@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    62754235
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oLets a trigger be turned into a block detector trigger when changed in its \u0027connection\u0027 settings.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "superfactorymanager:cable_bud"
+      },
+      "name:8": "Block Detector"
+    }
+  },
+  "questID:3": 1559698566,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "superfactorymanager:cable_bud"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1015,7 +1015,7 @@ gravititestone.setToolLevel(3);
 gravititestone.register();
 
 var ancientscaleheart = VanillaFactory.createBlock("scale_of_the_ancient_heart", <blockmaterial:iron>);
-ancientscaleheart.setBlockHardness(-1.0);
+ancientscaleheart.setBlockHardness(1.0);
 ancientscaleheart.setBlockResistance(2.5);
 ancientscaleheart.setToolClass("pickaxe");
 ancientscaleheart.setToolLevel(3);
@@ -2759,4 +2759,70 @@ stoneoftheresurrectedshard.setBlockResistance(2.5);
 stoneoftheresurrectedshard.setToolClass("pickaxe");
 stoneoftheresurrectedshard.setToolLevel(3);
 stoneoftheresurrectedshard.register();
+
+
+var trinuumcatalyst = VanillaFactory.createBlock("trinuum_catalyst", <blockmaterial:iron>);
+trinuumcatalyst.setBlockHardness(1.0);
+trinuumcatalyst.setBlockResistance(2.5);
+trinuumcatalyst.setToolClass("pickaxe");
+trinuumcatalyst.setToolLevel(3);
+trinuumcatalyst.register();
+
+
+var infinitelywishfulcatalyst = VanillaFactory.createBlock("infinitely_wishful_catalyst", <blockmaterial:iron>);
+infinitelywishfulcatalyst.setBlockHardness(1.0);
+infinitelywishfulcatalyst.setBlockResistance(2.5);
+infinitelywishfulcatalyst.setToolClass("pickaxe");
+infinitelywishfulcatalyst.setToolLevel(3);
+infinitelywishfulcatalyst.register();
+
+
+var carpetedallure = VanillaFactory.createBlock("carpeted_allure", <blockmaterial:iron>);
+carpetedallure.setBlockHardness(1.0);
+carpetedallure.setBlockResistance(2.5);
+carpetedallure.setToolClass("pickaxe");
+carpetedallure.setToolLevel(3);
+carpetedallure.register();
+
+var meatballiumreinforcedcasing = VanillaFactory.createBlock("meatballium_reinforced_casing", <blockmaterial:iron>);
+meatballiumreinforcedcasing.setBlockHardness(1.0);
+meatballiumreinforcedcasing.setBlockResistance(2.5);
+meatballiumreinforcedcasing.setToolClass("pickaxe");
+meatballiumreinforcedcasing.setToolLevel(3);
+meatballiumreinforcedcasing.register();
+
+var radiantmeatballiumreinforcedcasing = VanillaFactory.createBlock("radiant_meatballium_reinforced_casing", <blockmaterial:iron>);
+radiantmeatballiumreinforcedcasing.setBlockHardness(1.0);
+radiantmeatballiumreinforcedcasing.setBlockResistance(2.5);
+radiantmeatballiumreinforcedcasing.setToolClass("pickaxe");
+radiantmeatballiumreinforcedcasing.setToolLevel(3);
+radiantmeatballiumreinforcedcasing.register();
+
+var cursedmeatballiumreinforcedcasing = VanillaFactory.createBlock("cursed_meatballium_reinforced_casing", <blockmaterial:iron>);
+cursedmeatballiumreinforcedcasing.setBlockHardness(1.0);
+cursedmeatballiumreinforcedcasing.setBlockResistance(2.5);
+cursedmeatballiumreinforcedcasing.setToolClass("pickaxe");
+cursedmeatballiumreinforcedcasing.setToolLevel(3);
+cursedmeatballiumreinforcedcasing.register();
+
+var defineddraconiumblock = VanillaFactory.createBlock("defined_draconium_block", <blockmaterial:iron>);
+defineddraconiumblock.setBlockHardness(1.0);
+defineddraconiumblock.setBlockResistance(2.5);
+defineddraconiumblock.setToolClass("pickaxe");
+defineddraconiumblock.setToolLevel(3);
+defineddraconiumblock.register();
+
+var stoneofthefallentower = VanillaFactory.createBlock("stone_of_the_fallen_tower", <blockmaterial:iron>);
+stoneofthefallentower.setBlockHardness(1.0);
+stoneofthefallentower.setBlockResistance(2.5);
+stoneofthefallentower.setToolClass("pickaxe");
+stoneofthefallentower.setToolLevel(3);
+stoneofthefallentower.register();
+
+var voidichoriumore = VanillaFactory.createBlock("void_ichorium_ore", <blockmaterial:iron>);
+voidichoriumore.setBlockHardness(1.0);
+voidichoriumore.setBlockResistance(2.5);
+voidichoriumore.setToolClass("pickaxe");
+voidichoriumore.setToolLevel(3);
+voidichoriumore.register();
 
