@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/right_click_with_lots_of_infusionstones"
+  }
+}

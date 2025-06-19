@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/aglio_olio_peperoncino_pasta"
+  }
+}

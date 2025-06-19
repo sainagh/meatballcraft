@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "eikaic_jeweled_blend"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}
