@@ -1071,7 +1071,7 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "contenttweaker:gravitite_stone@0"
+                "modularmachineryaddons:blockbiomeproviderinput@0"
             ]
         },
         {
@@ -1719,7 +1719,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "modularmachinery:blocklifeessenceproviderinput"
+                "generalized_input_fluid"
             ]
         },
         {

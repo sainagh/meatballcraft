@@ -1479,6 +1479,12 @@
     "result": "deny"
   },
   {
+    "mob": ["ebwizardry:evil_wizard"],
+    "dimension": 427,
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
     "mob": ["mod_lavacow:raven",
         "abyssalcraft:depthsghoul"],
     "dimension": 50,

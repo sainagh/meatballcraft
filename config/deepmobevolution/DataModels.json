@@ -1034,7 +1034,7 @@
     ],
     "lootItems": [
       "aoa3:void_scales,1,0",
-      "actuallyadditions:item_misc,10,20",
+      "actuallyadditions:item_misc,20,20",
       "thaumcraft:curio,1,1"
     ],
     "deepLearnerDisplay": {
@@ -1155,7 +1155,7 @@
       "tconstruct:materials,4,9",
       "actuallyadditions:item_crystal,4,1",
       "aoa3:graw_statue,1,0",
-      "actuallyadditions:item_misc,30,20"
+      "actuallyadditions:item_misc,40,20"
     ],
     "deepLearnerDisplay": {
       "hearts": 100,

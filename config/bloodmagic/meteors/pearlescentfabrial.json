@@ -1,0 +1,51 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "contenttweaker",
+      "path": "pearlescent_fabrial"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 30,
+      "oreName": "oreValonite"
+    },
+    {
+      "weight": 30,
+      "oreName": "oreOctine"
+    },
+    {
+      "weight": 30,
+      "oreName": "oreBetweenSulfur"
+    },
+    {
+      "weight": 30,
+      "oreName": "oreBone"
+    },
+    {
+      "weight": 30,
+      "oreName": "oreScabyst"
+    },
+    {
+      "weight": 30,
+      "oreName": "oreSyrmorite"
+    },
+    {
+      "weight": 30,
+      "oreName": "oreAquaMiddleGem"
+    },
+    {
+      "weight": 30,
+      "oreName": "oreCrimsonMiddleGem"
+    },
+    {
+      "weight": 30,
+      "oreName": "oreGreenMiddleGem"
+    }],
+  "explosionStrength": 10.0,
+  "radius": 5,
+  "maxWeight": 100,
+  "version": 4,
+  "cost": 500000
+}

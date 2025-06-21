@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "Some of the creatures stuck here seem to be more powerful, and more influential, than others. Our recursions are all tied to this place, and when we entered we were all on the cusp of ascension, which by itself is already a very large amount of power. Given this, I should probably assume that my own understanding of recursion will have to develop as part of this trial of Nightmare.\nWell, this feels as good a time as any to make peace with the prophecies about me. In this place, where I can see myself so clearly, one thing is patently and painfully evident. I am not special. There is nothing about me that puts me above anyone else. I am smart yet presumptious, curious yet overconfident. There is nothing about me that screams hero or villain.\nAnd yet, I am here, where so few in the history of the universe have traversed, where even fewer were capable (worthy?) of leaving.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:cermile_lump"
       },
-      "name:8": "Cermile Lump"
+      "name:8": "Nightmare Ascension: Cermile"
     }
   },
   "questID:3": 356,

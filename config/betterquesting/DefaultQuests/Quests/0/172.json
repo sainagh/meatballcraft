@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o如果你还没有注意到，火龙心脏和烈焰棒有个特殊配方……\n\n更多信息请查看§c创造之书§7§o！",
+      "desc:8": "§7§o如果你还没有注意到，火龙心脏有个特殊配方……\n\n更多信息请查看§c创造之书§7§o！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "iceandfire:fire_dragon_heart"

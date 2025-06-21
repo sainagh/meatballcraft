@@ -93,9 +93,35 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_p
 <contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
 itemUtils.createEnchantedBook(<enchantment:minecraft:smite>.makeEnchantment(20)), <contenttweaker:infinite_recursive_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:unbreaking>.makeEnchantment(75))]);
 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>, 
+1000000, 
+<contenttweaker:brightseel_alloy_plate>, 
+[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
+<contenttweaker:infinite_alchemical_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 17}]}), <contenttweaker:infinite_entropic_plate>, 
+<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 4}]}), <contenttweaker:infinite_recursive_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 75 as short, id: 34}]})]);
+
+
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>*10, 
 1000000, 
 <contenttweaker:power_wrought_brightsteel_alloy_plate>, 
+[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
+<contenttweaker:infinite_alchemical_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:projectile_protection>.makeEnchantment(20)), <contenttweaker:infinite_entropic_plate>, 
+<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
+itemUtils.createEnchantedBook(<enchantment:minecraft:smite>.makeEnchantment(20)), <contenttweaker:infinite_recursive_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:unbreaking>.makeEnchantment(75))]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>*10, 
+1000000, 
+<contenttweaker:power_wrought_brightsteel_alloy_plate>, 
+[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
+<contenttweaker:infinite_alchemical_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 17}]}), <contenttweaker:infinite_entropic_plate>, 
+<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 4}]}), <contenttweaker:infinite_recursive_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 75 as short, id: 34}]})]);
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>*40, 
+1000000, 
+<contenttweaker:cleansed_brightsteel_alloy_plate>, 
 [<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
 <contenttweaker:infinite_alchemical_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:projectile_protection>.makeEnchantment(20)), <contenttweaker:infinite_entropic_plate>, 
 <contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
@@ -105,9 +131,9 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_p
 1000000, 
 <contenttweaker:cleansed_brightsteel_alloy_plate>, 
 [<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
-<contenttweaker:infinite_alchemical_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:projectile_protection>.makeEnchantment(20)), <contenttweaker:infinite_entropic_plate>, 
+<contenttweaker:infinite_alchemical_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 17}]}), <contenttweaker:infinite_entropic_plate>, 
 <contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
-itemUtils.createEnchantedBook(<enchantment:minecraft:smite>.makeEnchantment(20)), <contenttweaker:infinite_recursive_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:unbreaking>.makeEnchantment(75))]);
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 4}]}), <contenttweaker:infinite_recursive_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 75 as short, id: 34}]})]);
 
 
 // <tconstruct:hammer>.withTag({TinkerData: {Materials: ["parafrosynium", "barathosynium", "wrought_iron", "adamantium"]}, Traits: ["darktraveler", "runic1", "stalwart", "thunder2", "flame2", "frost2", "hailhydra", "unnamed", "sharp", "magnetic2", "toolleveling"]})

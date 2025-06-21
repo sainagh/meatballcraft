@@ -800,7 +800,7 @@ keyofrestoredbalance.itemRightClick = function(stack, world, player, hand) {
 
 
 // summon villager ~ ~3 ~ {CustomName:"Deep Trader",Offers:{Recipes:[{buy:{id:"contenttweaker:contenttweaker_infused_dread_shard",Count:1},sell:{id:"divinerpg:eden_dust",Count:1},rewardExp:0b,maxUses:9999999}]},Profession:2,Career:1,CareerLevel:3}
-    Commands.call("summon villager ~ ~3 ~ {Invulnerable:1, CustomName:\"理序主\",Offers:{Recipes:[{buy:{id:\"contenttweaker:token_of_forgiveness\",Count:1},sell:{id:\"divinerpg:offer_of_restored_balance\",Count:1},rewardExp:0b,maxUses:9999999}]},Profession:2,Career:1,CareerLevel:3}", player, world, false, true);
+    Commands.call("summon villager ~ ~3 ~ {Invulnerable:1, CustomName:\"理序主\",Offers:{Recipes:[{buy:{id:\"contenttweaker:token_of_forgiveness\",Count:1},sell:{id:\"contenttweaker:offer_of_restored_balance\",Count:1},rewardExp:0b,maxUses:9999999}]},Profession:2,Career:1,CareerLevel:3}", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 

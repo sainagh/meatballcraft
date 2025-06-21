@@ -33,14 +33,30 @@ recipes.addShapeless(<contenttweaker:otherwordly_tears_bottle>,[<bewitchment:oth
 mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:essence_fear>, 
 [<bloodmagic:component:11>, <bloodmagic:arcane_ashes>, <abyssalcraft:odbcore>, <abyssalcraft:dreadplate>, <contenttweaker:otherwordly_tears_bottle>, <dimdoors:stable_fabric>], 1000, 80, 0);
 
+mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:essence_fear>, 
+[<bloodmagic:component:11>, <contenttweaker:lanthanum_salt>, <abyssalcraft:odbcore>, <abyssalcraft:dreadplate>, <contenttweaker:otherwordly_tears_bottle>, <dimdoors:stable_fabric>], 1000, 80, 0);
+
+
 mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:essence_darkness>, 
 [<bloodmagic:component:16>, <bloodmagic:arcane_ashes>, <abyssalcraft:odbcore>, <abyssalcraft:dreadplate>, <contenttweaker:otherwordly_tears_bottle>, <dimdoors:stable_fabric>], 1000, 80, 0);
+
+mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:essence_darkness>, 
+[<bloodmagic:component:16>, <contenttweaker:lanthanum_salt>, <abyssalcraft:odbcore>, <abyssalcraft:dreadplate>, <contenttweaker:otherwordly_tears_bottle>, <dimdoors:stable_fabric>], 1000, 80, 0);
+
 
 mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:essence_helplessness>, 
 [<bloodarsenal:base_item:6>, <bloodmagic:arcane_ashes>, <abyssalcraft:odbcore>, <abyssalcraft:dreadplate>, <contenttweaker:otherwordly_tears_bottle>, <dimdoors:stable_fabric>], 1000, 80, 0);
 
+mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:essence_helplessness>, 
+[<bloodarsenal:base_item:6>, <contenttweaker:lanthanum_salt>, <abyssalcraft:odbcore>, <abyssalcraft:dreadplate>, <contenttweaker:otherwordly_tears_bottle>, <dimdoors:stable_fabric>], 1000, 80, 0);
+
+
 mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:essence_solitude>, 
 [<bloodmagic:component:4>, <bloodmagic:arcane_ashes>, <abyssalcraft:odbcore>, <abyssalcraft:dreadplate>, <contenttweaker:otherwordly_tears_bottle>, <dimdoors:stable_fabric>], 1000, 80, 0);
+
+mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:essence_solitude>, 
+[<bloodmagic:component:4>, <contenttweaker:lanthanum_salt>, <abyssalcraft:odbcore>, <abyssalcraft:dreadplate>, <contenttweaker:otherwordly_tears_bottle>, <dimdoors:stable_fabric>], 1000, 80, 0);
+
 
 recipes.addShaped(<contenttweaker:clausurae>*4,
 [[<botania:manaresource:12>, <contenttweaker:essence_darkness>, <botania:manaresource:12>],

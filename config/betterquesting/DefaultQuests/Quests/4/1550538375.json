@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    62754235
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o告示牌更新模块需要该方块来更新告示牌内容。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "superfactorymanager:cable_sign"
+      },
+      "name:8": "告示牌更新器"
+    }
+  },
+  "questID:3": 1550538375,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "superfactorymanager:cable_sign"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

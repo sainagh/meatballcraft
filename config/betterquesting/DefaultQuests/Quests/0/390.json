@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "Effort. This is what this place asks of me.\nOut there, there are so many things I wish I could do.\nBut no, I have to be here. I have to be here to become someone who does not need to be here.\nAnd what is asked of me? Effort.\nThis is the sacrifice, or one aspect of the sacrifice. What I hope to achieve here requires me to be here, not helping those who need it, not fighting for them, letting my actions be of no immediate use. This takes effort. So much effort.\nWhy is it that, to help the people I want to help, I must abandon them?",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:grindstone"
       },
-      "name:8": "Quartz Grindstone"
+      "name:8": "Cranking the Nightmare Away"
     }
   },
   "questID:3": 390,

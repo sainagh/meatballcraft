@@ -531,3 +531,11 @@ quantumcondinsanium.setChance(0.0);
 quantumcondinsanium.addItemInput(<mysticalagriculture:crafting:0>*1024);
 quantumcondinsanium.addItemOutput(<mysticalagradditions:insanium:0>);
 quantumcondinsanium.build();
+
+
+
+val quantumcondprojgem = RecipeBuilder.newBuilder("quantumcondprojgem", "quantum_condenser", 10);
+quantumcondprojgem.addEnergyPerTickInput(500000);
+quantumcondprojgem.addItemInput(<contenttweaker:projector_gem>*5056);
+quantumcondprojgem.addItemOutput(<extendedcrafting:singularity_custom:2042>);
+quantumcondprojgem.build();

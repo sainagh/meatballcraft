@@ -8,12 +8,38 @@
             "x": 0,
             "y": 6,
             "z": 2,
-            "description": "替换流体下方中间方块以获得产出x8",
+            "description": "产出x8",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:fluid",
                 "operation": 1,
                 "multiplier": 8
+            }
+        },
+        {
+            "elements": "contenttweaker:awakened_electromagnet",
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "description": "产出x64",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 64
+            }
+        },
+        {
+            "elements": "contenttweaker:fractallite_furnace_core",
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "description": "产出x256",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 256
             }
         }
     ],
