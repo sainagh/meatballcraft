@@ -482,3 +482,40 @@ recipes.addShaped(<contenttweaker:multiblock_sticc>,
 recipes.addShaped(<contenttweaker:multiblock_sticc>,
 [[null, <modularmachinery:itemmodularium>],
 [<modularmachinery:itemmodularium>, null]]);
+
+
+recipes.addShaped(<modularmachineryaddons:blockmeessentiainputbus>,
+[[<modularmachinery:itemmodularium>, <forge:bucketfilled>.withTag({FluidName: "hint_of_divinity", Amount: 1000}), <modularmachinery:itemmodularium>],
+[<contenttweaker:recursive_powder>, <modularmachinery:blockaspectproviderinput>, <contenttweaker:recursive_powder>],
+[<modularmachinery:itemmodularium>, <forge:bucketfilled>.withTag({FluidName: "hint_of_insanity", Amount: 1000}), <modularmachinery:itemmodularium>]]);
+
+
+
+recipes.addShaped(<modularmachineryaddons:blockbiomeproviderinput>,
+[[<modularmachinery:itemmodularium>, <extrautils2:biomemarker>, <modularmachinery:itemmodularium>],
+[<extrautils2:biomemarker>, <modularmachinery:blockcasing:0>, <extrautils2:biomemarker>],
+[<modularmachinery:itemmodularium>, <extrautils2:biomemarker>, <modularmachinery:itemmodularium>]]);
+
+
+
+recipes.addShaped(<modularmachineryaddons:blockfluxprovideroutput>,
+[[<modularmachinery:itemmodularium>, <extrautils2:biomemarker>, <modularmachinery:itemmodularium>],
+[<thaumicwonders:eldritch_cluster:6>, <modularmachinery:blockcasing:0>, <thaumicwonders:eldritch_cluster:6>],
+[<modularmachinery:itemmodularium>, <extrautils2:biomemarker>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachineryaddons:blockfluxproviderinput>,
+[[<modularmachinery:itemmodularium>, <thaumicwonders:eldritch_cluster:6>, <modularmachinery:itemmodularium>],
+[<extrautils2:biomemarker>, <modularmachinery:blockcasing:0>, <extrautils2:biomemarker>],
+[<modularmachinery:itemmodularium>, <thaumicwonders:eldritch_cluster:6>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShapeless(<modularmachineryaddons:blockfluxproviderinput>,
+[<modularmachineryaddons:blockfluxprovideroutput>]);
+recipes.addShapeless(<modularmachineryaddons:blockfluxprovideroutput>,
+[<modularmachineryaddons:blockfluxproviderinput>]);
+
+recipes.addShaped(<modularmachineryaddons:blockmeteorprovideroutput>,
+[[<modularmachinery:itemmodularium>, <contenttweaker:meteoric_draconic_stone>, <modularmachinery:itemmodularium>],
+[<contenttweaker:meteoric_draconic_stone>, <modularmachinery:blockcasing:0>, <contenttweaker:meteoric_draconic_stone>],
+[<modularmachinery:itemmodularium>, <contenttweaker:meteoric_draconic_stone>, <modularmachinery:itemmodularium>]]);
+
+

@@ -2,6 +2,46 @@
     "registryname": "whispering_infusion_fountain",
     "localizedname": "Whispering Fountain",
 	"color": "ffffff",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:darkstarlight",
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "description": "x4并行",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            }]
+        },
+        {
+            "elements": "contenttweaker:whispering_starlight_of_redemption",
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "description": "x16并行",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -3,

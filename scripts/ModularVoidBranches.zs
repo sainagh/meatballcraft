@@ -364,3 +364,17 @@ recipes.addShaped(<contenttweaker:mythic_excavation_engine>,
 [[<contenttweaker:fluix_microcontroller>, <contenttweaker:high_strength_transmission>, <contenttweaker:fluix_microcontroller>],
 [<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>],
 [<aoa3:elecanium_ingot>, <contenttweaker:primal_jewel>, <aoa3:elecanium_ingot>]]);
+
+
+
+
+recipes.addShaped(<contenttweaker:shyre_rider_callstone>,
+[[<contenttweaker:shyre_chunk>, <contenttweaker:stone_of_the_shyre_warden>, <contenttweaker:shyre_chunk>],
+[<contenttweaker:stone_of_the_shyre_warden>, <contenttweaker:cursed_dragon_egg>, <contenttweaker:stone_of_the_shyre_warden>],
+[<contenttweaker:shyre_chunk>, <contenttweaker:stone_of_the_shyre_warden>, <contenttweaker:shyre_chunk>]]);
+
+
+recipes.addShaped(<contenttweaker:cursed_dragon_egg>*2,
+[[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]}), <contenttweaker:cursed_dragon_egg>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]})],
+[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]}), <contenttweaker:cursed_cradle>.reuse(), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]})],
+[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}), null, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})]]);

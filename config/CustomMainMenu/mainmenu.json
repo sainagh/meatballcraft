@@ -47,7 +47,7 @@
         "mods":
         {
             "text" : "fml.menu.mods",
-            "hoverText" : "AoAä¸ºä¸»æ¡†æ¶",
+            "hoverText" : "AoAÎªÖ÷¿ò¼Ü",
             "posX" : -100,
             "posY" : 96,
             "width" : 200,
@@ -62,7 +62,7 @@
         "options":
         {
             "text" : "menu.options",
-            "hoverText" : "æŸ¥çœ‹æŒ‰é”®ç»‘å®šï¼",
+            "hoverText" : "²é¿´°´¼ü°ó¶¨£¡",
             "posX" : -100,
             "posY" : 144,
             "width" : 98,
@@ -76,8 +76,8 @@
         
         "performance":
         {
-            "text" : "æ”¹è¿›æ€§èƒ½",
-            "hoverText" : "åŠ è½½é€Ÿåº¦æ›´å¿«ï¼",
+            "text" : "¸Ä½øĞÔÄÜ",
+            "hoverText" : "¼ÓÔØËÙ¶È¸ü¿ì£¡",
             "posX" : -100,
             "posY" : 192,
             "width" : 200,
@@ -92,7 +92,7 @@
         "quit":
         {
             "text" : "menu.quit",
-            "hoverText" : "å†è§ï¼",
+            "hoverText" : "ÔÙ¼û£¡",
             "posX" : 2,
             "posY" : 144,
             "width" : 98,
@@ -136,7 +136,7 @@
         "discord":
         {
             "text" : "Discord",
-            "hoverText" : "åŠ å…¥è‚‰ä¸¸ï¼",
+            "hoverText" : "¼ÓÈëÈâÍè£¡",
             "posX" : -100,
             "posY" : 120,
             "width" : 200,
@@ -152,8 +152,8 @@
     {
         "mojang":
         {
-            "text" : "Â© Mojang AB è¯·å‹¿äºŒæ¬¡åˆ†å‘ï¼",
-            "hoverText" : "ï¿½nÂ© Mojang AB è¯·å‹¿äºŒæ¬¡åˆ†å‘ï¼",
+            "text" : "? Mojang AB ÇëÎğ¶ş´Î·Ö·¢£¡",
+            "hoverText" : "?n? Mojang AB ÇëÎğ¶ş´Î·Ö·¢£¡",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -166,8 +166,8 @@
         },
         "soundtrack":
         {
-            "text" : "é…ä¹ï¼š\n It's not over - Darren Curtis Music",
-            "hoverText" : "é…ä¹ï¼š\n AhAhAhAHAHH",
+            "text" : "ÅäÀÖ£º\n It's not over - Darren Curtis Music",
+            "hoverText" : "ÅäÀÖ£º\n AhAhAhAHAHH",
             "posX" : -197,
             "posY" : -30,
             "color" : -1,

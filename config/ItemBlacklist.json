@@ -991,6 +991,10 @@
     {
       "item": "rftoolsdim:dimlet_workbench",
       "damage": "*"
+    },
+    {
+      "item": "xreliquary:ender_staff",
+      "damage": "*"
     }
   ],
   "-11325": [

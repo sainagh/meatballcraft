@@ -479,6 +479,13 @@ mods.thermalexpansion.Insolator.addRecipeMonoculture(<contenttweaker:eldritch_wi
 <contenttweaker:eldritch_will_crystal_seeds>, 
 105);
 
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<contenttweaker:eldritch_will_crystal>*4, 
+<contenttweaker:eldritch_will_crystal_seeds>, 
+<contenttweaker:lunar_star>, 
+25000, 
+<contenttweaker:eldritch_will_crystal_seeds>, 
+105);
+
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<thaumcraft:void_seed>, 
 <thaumadditions:void_seed>, 
 <thaumcraft:metal_void>, 

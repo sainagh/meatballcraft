@@ -434,6 +434,22 @@ addController(<modularmachinery:bee_stargate_controller>, "modularmachinery:bee_
 addController(<modularmachinery:abyssal_entropic_catalyzer_controller>, "modularmachinery:abyssal_entropic_catalyzer");
 
 
+addController(<modularmachinery:mythic_processor_rock_crusher_controller>, "modularmachinery:mythic_processor_rock_crusher");
+
+addController(<modularmachinery:uncorrupted_library_controller>, "modularmachinery:uncorrupted_library");
+
+addController(<modularmachinery:meatballium_radiation_scrubber_controller>, "modularmachinery:meatballium_radiation_scrubber");
+
+addController(<modularmachinery:radiant_meatballium_radiation_scrubber_controller>, "modularmachinery:radiant_meatballium_radiation_scrubber");
+
+addController(<modularmachinery:cursed_meatballium_radiation_scrubber_controller>, "modularmachinery:cursed_meatballium_radiation_scrubber");
+
+addController(<modularmachinery:active_meatballium_scrubbing_unit_controller>, "modularmachinery:active_meatballium_scrubbing_unit");
+
+addController(<modularmachinery:vibrating_flux_crucible_controller>, "modularmachinery:vibrating_flux_crucible");
+
+addController(<modularmachinery:relic_of_the_fallen_tower_controller>, "modularmachinery:relic_of_the_fallen_tower");
+
 
 
 // Leave this at the bottom of the file, as it depends on the oredict being filled

@@ -1211,3 +1211,26 @@ thaum114.addItemOutput(<thaumictinkerer:kamiresource:3>);
 thaum114.build();
 
 
+
+
+val thaum115 = RecipeBuilder.newBuilder("thaum115","arcane_autoworkbench",40);
+thaum115.addEnergyPerTickInput(100);
+thaum115.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mythus"}]}));
+thaum115.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]}));
+thaum115.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "draco"}]}));
+thaum115.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "stellae"}]}));
+thaum115.addItemInput(<contenttweaker:dreadful_ice>);
+thaum115.addItemInput(<thaumcraft:mechanism_complex>*8);
+thaum115.addItemOutput(<contenttweaker:ice_construct>*8);
+thaum115.build();
+
+val thaum116 = RecipeBuilder.newBuilder("thaum116","arcane_autoworkbench",40);
+thaum116.addEnergyPerTickInput(100);
+thaum116.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mythus"}]}));
+thaum116.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]}));
+thaum116.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "draco"}]}));
+thaum116.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "stellae"}]}));
+thaum116.addItemInput(<contenttweaker:stormlight_sphere>);
+thaum116.addItemInput(<thaumcraft:mechanism_complex>*8);
+thaum116.addItemOutput(<contenttweaker:ice_construct>*8);
+thaum116.build();

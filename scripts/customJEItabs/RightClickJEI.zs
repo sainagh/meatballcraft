@@ -84,6 +84,11 @@ rightclick12.addInput(<contenttweaker:call_of_the_arbiter>);
 rightclick12.setOutputs([<contenttweaker:scale_of_the_ancient_heart>]);
 rightclick12.build();
 
+val rightclick13 = JEI.createJeiRecipe("right_click_meatball");
+rightclick13.addInput(<contenttweaker:call_of_the_arbiter>);
+rightclick13.setOutputs([<contenttweaker:stone_of_the_fallen_tower>]);
+rightclick13.build();
+
 val rclickdimlet1 = JEI.createJeiRecipe("right_click_meatball");
 rclickdimlet1.addInput(<rftoolsdim:dimlet_parcel>);
 rclickdimlet1.setOutputs([<rftoolsdim:dimlet_base>]);
@@ -259,6 +264,10 @@ rclickdimlet35.addInput(<contenttweaker:quasar_core>);
 rclickdimlet35.setOutputs([<contenttweaker:miniature_quasar>]);
 rclickdimlet35.build();
 
+val rclickdimlet36 = JEI.createJeiRecipe("right_click_meatball");
+rclickdimlet36.addInput(<bloodarsenal:bound_stick>);
+rclickdimlet36.setOutputs([<bloodmagic:blood_shard:1>]);
+rclickdimlet36.build();
 
 
 

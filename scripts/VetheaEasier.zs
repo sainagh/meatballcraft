@@ -780,7 +780,7 @@ recipes.addShapeless(<divinerpg:tormented_boots>,
 <divinerpg:tormented_template>,
 <divinerpg:pardimal_lump>]);
 
-mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:charged_signalum>, <thermalfoundation:material:165>, 100000);
+mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:charged_signalum>, <thermalfoundation:material:165>, 10000);
 
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:supercharged_signalum>, 
 <contenttweaker:charged_signalum>, 1024, <extendedcrafting:material:11>, 100000);

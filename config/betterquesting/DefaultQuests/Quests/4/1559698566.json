@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    62754235
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o当此方块并入网络后，触发器可以设定为方块更新检测模式。\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "superfactorymanager:cable_bud"
+      },
+      "name:8": "方块更新检测器"
+    }
+  },
+  "questID:3": 1559698566,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "superfactorymanager:cable_bud"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

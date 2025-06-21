@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oThe mob cannot be damaged through normal ranged and melee weapons (things like Zenith and Kikoku can do damage but will not produce drops). Magic damage, Electroblob spells, the railgun, and other magic weapons will work!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:shard_of_restored_relationship"

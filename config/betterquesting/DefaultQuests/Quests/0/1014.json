@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "Getting by and finding comfort in this land is hard.\nAnd yet, it can be done, to an extent.\nI am happy that, even in my most vulnerable state, I was able of getting back on my feet.\nSure, what I do may still lead to failure, but I was capable of standing up.\nThe help I received may still go to waste, but I was capable of standing up.\nThe sacrifice may be too much, but I was capable of standing up.\nAnd they cannot take that away from me!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "buildcraftcore:engine"
       },
-      "name:8": "Redstone Engine"
+      "name:8": "Emgin, Engin, Emgine"
     }
   },
   "questID:3": 1014,

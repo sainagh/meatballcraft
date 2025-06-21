@@ -1,0 +1,23 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "contenttweaker",
+      "path": "sword_shield"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 50,
+      "oreName": "oreRhenium"
+    },
+    {
+      "weight": 30,
+      "oreName": "oreHolographic"
+    }],
+  "explosionStrength": 10.0,
+  "radius": 5,
+  "maxWeight": 100,
+  "version": 4,
+  "cost": 5000000
+}

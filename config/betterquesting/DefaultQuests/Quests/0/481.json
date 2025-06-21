@@ -7,9 +7,9 @@
       "desc:8": "As it has been the case with most of the technology I have \u0027discovered\u0027, I seem to be tracing backs the steps of the Arbiter, the mysterious and very much missing leader of the Testificates.\nThe meteorites scattered all around Terra, they were brought forth by Blood Magic performed by the Arbiter, who used it to bring Fluix to Terra.\nWith single costly rituals, I was able to bring down meteors, but in levels nowhere near what I can do now. And thanks to some tech, I can harvest them automatically too!",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "contenttweaker:scale_of_the_ancient_heart"
+        "id:8": "contenttweaker:call_of_the_arbiter"
       },
-      "name:8": "Scale of the Ancient Heart"
+      "name:8": "Meteoric Breakthroughs"
     }
   },
   "questID:3": 481,
@@ -32,6 +32,14 @@
         "0:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:call_of_the_arbiter"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:scale_of_the_ancient_heart"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:stone_of_the_fallen_tower"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -44,6 +52,13 @@
           "id:8": "modularmachinery:itemblueprint",
           "tag:10": {
             "dynamicmachine:8": "modularmachinery:meteoric_befaller"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:relic_of_the_fallen_tower"
           }
         }
       },

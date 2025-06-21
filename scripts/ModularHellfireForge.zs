@@ -89,6 +89,15 @@ multihellfire6.addItemInput(<bewitchment:demon_heart>);
 multihellfire6.addItemOutput(<contenttweaker:willful_naquadah_chunk>);
 multihellfire6.build();
 
+val multihellfire6bett = RecipeBuilder.newBuilder("multihellfire6bett","berserker_forge",2);
+multihellfire6bett.addWillInput("DEFAULT", 10,1,2000000);
+multihellfire6bett.addItemInput(<contenttweaker:naquadah_chunk>*32);
+multihellfire6bett.addItemInput(<contenttweaker:faultless_ichor>*32);
+multihellfire6bett.addItemInput(<contenttweaker:soul_of_kashan>);
+multihellfire6bett.addItemInput(<bewitchment:demon_heart>*32);
+multihellfire6bett.addItemOutput(<contenttweaker:willful_naquadah_chunk>*32);
+multihellfire6bett.build();
+
 val multihellfire7 = RecipeBuilder.newBuilder("multihellfire7","berserker_forge",2);
 multihellfire7.addWillInput("DEFAULT", 10,1,2000000);
 multihellfire7.addItemInput(<contenttweaker:psichic_stone>);

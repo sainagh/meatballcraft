@@ -61,6 +61,12 @@ nethengeicroll.addItemEntry(<divinerpg:divine_shards>, 5);
 val nethengeicbone = nethengeicwither.addPool("nethengeicbone", 1, 1, 0, 0);
 nethengeicbone.addItemEntry(<contenttweaker:nethengeic_bone>, 5);
 
+
+val nethegeicbeast = LootTweaker.getTable("aoa3:entities/mobs/nether/nethengeic_beast");
+val nethegeicbeastflammable = nethegeicbeast.addPool("nethegeicbeastflammable", 1, 1, 0, 0);
+nethegeicbeastflammable.addItemEntry(<aoa3:flammable_dust>, 5);
+
+
 val thewatcher = LootTweaker.getTable("divinerpg:entities/boss/the_watcher");
 val thewatcherroll = thewatcher.addPool("thewatcherroll", 1, 1, 0, 0);
 thewatcherroll.addItemEntry(<bewitchment:demon_heart>*3, 5);
@@ -500,6 +506,7 @@ vanilladungeonmbc.addItemEntry(<contenttweaker:witchery_summons>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:recursive_paper_illager>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:recursive_paper_abyssal>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:recursive_paper_buggy>, 3);
+vanilladungeonmbc.addItemEntry(<contenttweaker:recursive_paper_dunerider>, 3);
 
 val vanillastronghold = LootTweaker.getTable("minecraft:chests/stronghold_corridor");
 val vanillastrongholdmbc = vanillastronghold.addPool("vanillastrongholdmbc", 1, 1, 0, 0);

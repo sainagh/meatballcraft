@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    167
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularmachineryaddons:blockscrubberproviderinput"
+      },
+      "name:8": "Meatballium Scrubbing"
+    }
+  },
+  "questID:3": 919434491,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:meatballium_reinforced_casing"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "modularmachineryaddons:blockscrubberproviderinput"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "modularmachinery:itemblueprint",
+          "tag:10": {
+            "dynamicmachine:8": "modularmachinery:meatballium_radiation_scrubber"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -128,7 +128,6 @@ key_key.open_wireless_terminal.desc:20:CONTROL
 key_key.open_wireless_crafting_terminal.desc:18:CONTROL
 key_key.open_wireless_pattern_terminal.desc:19:CONTROL
 key_key.open_wireless_fluid_terminal.desc:33:CONTROL
-key_key.open_wireless_interface_terminal.desc:23:SHIFT
 key_key.open_basic_extended_wireless_crafting_terminal:0:NONE
 key_key.open_advanced_extended_wireless_crafting_terminal:0:NONE
 key_key.open_elite_extended_wireless_crafting_terminal:0:NONE
@@ -169,6 +168,7 @@ key_key.clipboardPaste:210:NONE
 key_key.mod_lavacow.special:0:NONE
 key_key.mod_lavacow.down:44:NONE
 key_key.ae2fc.open_wireless_fluid_pattern_terminal.desc:0:NONE
+key_retro_sophisticated_backpacks.key.open_backpack.desc:48:NONE
 key_FpsReducer.key.guiOpen:207:NONE
 key_FpsReducer.key.forceIdle:197:NONE
 key_key.dragon_fireAttack:19:NONE

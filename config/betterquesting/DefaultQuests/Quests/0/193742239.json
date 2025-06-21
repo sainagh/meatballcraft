@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    480
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:mythic_radiation_shielding"
+      },
+      "name:8": "Mythic Radiation Shielding"
+    }
+  },
+  "questID:3": 193742239,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:mythic_radiation_shielding"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

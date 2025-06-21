@@ -1522,3 +1522,43 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 		[<contenttweaker:fifth_order_mythic_fractal>, null, null, <extrabotany:camera>, null, null, <contenttweaker:fifth_order_mythic_fractal>]]);  
 
 }
+
+
+
+//	Decalogue
+{
+
+	val enchlistDecalogue as EnchantMap = EnchantMap()
+	.add("minecraft:unbreaking",75)
+	.add("endercore:xpboost",100);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:explochron_sword>.withTag({display: {Name:"§6§o十诫§r",Lore:["§d§o超限附魔§r"]}}), enchlistDecalogue).getItem(), 
+		[[<contenttweaker:condensed_essence>, <contenttweaker:starlight_sphere>, null, <contenttweaker:stormlight_sphere>, <contenttweaker:condensed_essence>], 
+		[<contenttweaker:stormlight_sphere>, null, <contenttweaker:spinel_ring>, null, <contenttweaker:starlight_sphere>], 
+		[null, <contenttweaker:spinel_ring>, <aoa3:explochron_sword>, <contenttweaker:spinel_ring>, null], 
+		[<contenttweaker:starlight_sphere>, null, <contenttweaker:spinel_ring>, null, <contenttweaker:stormlight_sphere>], 
+		[<contenttweaker:condensed_essence>, <contenttweaker:stormlight_sphere>, null, <contenttweaker:starlight_sphere>, <contenttweaker:condensed_essence>]]); 
+
+
+
+}
+
+
+
+//	Wicked Sister
+{
+
+	val enchlistWickedSister as EnchantMap = EnchantMap()
+	.add("minecraft:sharpness",50)
+	.add("enderio:witherweapon",50);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<thaumadditions:the_beheader>.withTag({display: {Name:"§6§oWicked Sister§r",Lore:["§d§o超限附魔§r"]}}), enchlistWickedSister).getItem(), 
+		[[<contenttweaker:condensed_essence>, <contenttweaker:starlight_sphere>, <contenttweaker:recursive_powder>, <contenttweaker:stormlight_sphere>, <contenttweaker:condensed_essence>], 
+		[<contenttweaker:stormlight_sphere>, <contenttweaker:elder_spooder_string>, <contenttweaker:ichor>, <contenttweaker:elder_spooder_string>, <contenttweaker:starlight_sphere>], 
+		[<contenttweaker:recursive_powder>, <contenttweaker:ichor>, <thaumadditions:the_beheader>, <contenttweaker:ichor>, <contenttweaker:recursive_powder>], 
+		[<contenttweaker:starlight_sphere>, <contenttweaker:elder_spooder_string>, <contenttweaker:ichor>, <contenttweaker:elder_spooder_string>, <contenttweaker:stormlight_sphere>], 
+		[<contenttweaker:condensed_essence>, <contenttweaker:stormlight_sphere>, <contenttweaker:recursive_powder>, <contenttweaker:starlight_sphere>, <contenttweaker:condensed_essence>]]); 
+
+
+
+}

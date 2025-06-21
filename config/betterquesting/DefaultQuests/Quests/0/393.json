@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "The tools I have here, they are not ideal. They are not what I want to use.\nAnd yet they are here, and I am given the ability to use them.\nSo I should probably use them.\nNo, I want to use them!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:redstone"
       },
-      "name:8": "Redstone"
+      "name:8": "Nightmare Logic"
     }
   },
   "questID:3": 393,

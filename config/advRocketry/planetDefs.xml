@@ -450,7 +450,7 @@
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>90</orbitalPhi>
             <rotationalPeriod>36000</rotationalPeriod>
-			<biomeIds>dimdoors:limbo</biomeIds>
+			<biomeIds>advancedrocketry:moondark</biomeIds>
             <fillerBlock>rftoolsdim:dimensional_blank_block</fillerBlock>
 			<oceanBlock>industrialforegoing:essence</oceanBlock>
 			<artifact>contenttweaker:unreachable</artifact>

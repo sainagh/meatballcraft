@@ -922,6 +922,38 @@
             "contenttweaker:wishful_definer",
             "contenttweaker:wishful_definer"
         ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:radiant_meatballium_reinforced_casing",
+        "catalyst": "contenttweaker:meatballium_reinforced_casing",
+        "energy": 10000000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:radiant_fissile_dust",
+            "contenttweaker:radiant_fissile_dust",
+            "contenttweaker:radiant_fissile_dust",
+            "contenttweaker:radiant_fissile_dust",
+            "contenttweaker:radiant_fissile_dust",
+            "contenttweaker:radiant_fissile_dust",
+            "contenttweaker:radiant_fissile_dust",
+            "contenttweaker:radiant_fissile_dust"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:defined_draconium_block",
+        "catalyst": "contenttweaker:defined_block",
+        "energy": 10000000000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:chaos_shard,1,0",
+            "draconicevolution:chaos_shard,1,0",
+            "draconicevolution:chaos_shard,1,0",
+            "draconicevolution:chaos_shard,1,0",
+            "draconicevolution:chaos_shard,1,0",
+            "draconicevolution:chaos_shard,1,0"
+        ]
     }
 
 ]

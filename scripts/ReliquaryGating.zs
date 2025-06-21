@@ -8,7 +8,7 @@ recipes.addShaped(<xreliquary:magicbane>,
 
 
 
-recipes.removeShaped(<xreliquary:infernal_tear>);
+recipes.remove(<xreliquary:infernal_tear>);
 
 recipes.addShaped(<xreliquary:infernal_tear>,
 [[<contenttweaker:ignis_vis_condensate>, <xreliquary:void_tear>, <contenttweaker:ignis_vis_condensate>],

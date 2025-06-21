@@ -18,5 +18,6 @@ recipes.addShaped(<draconicevolution:chaos_shard:0>*9,
 
 val drac = RecipeBuilder.newBuilder("chaotic","chaotic_condenser",400);
 drac.addEnergyPerTickInput(400000);
+drac.addBiomeInput("minecraft:sky");
 drac.addItemOutput(<draconicevolution:chaos_shard:3>*3);
 drac.build();

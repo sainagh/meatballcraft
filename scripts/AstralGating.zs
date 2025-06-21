@@ -79,6 +79,8 @@ recipes.addShapeless(<bewitchment:salt_ore>,
 [<contenttweaker:mineralis_ritual>]);
 recipes.addShapeless(<aoa3:jade_ore>,
 [<contenttweaker:mineralis_ritual>]);
+recipes.addShapeless(<astralsorcery:blockcustomore:1>,
+[<contenttweaker:mineralis_ritual>]);
 
 mods.thermalexpansion.Crucible.addRecipe(<fluid:astralsorcery.liquidstarlight>*1000, <contenttweaker:starlight_sphere>, 1000);
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:starlight_sphere>, <fluid:astralsorcery.liquidstarlight>*1000]);

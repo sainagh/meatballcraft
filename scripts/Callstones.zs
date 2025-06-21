@@ -812,28 +812,11 @@ callofthejudge.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    // obtain position under player
-	var pos = player.position.asPosition3f();
+    player.sendChat("使用该物品将会用坠星之石替换5格半径内的末地石");
+    player.sendChat("使用该物品将会用远古之心之标尺替换5格半径内的恶魔石");
 
-	// check if player is standing on beacon
-    var posChange = player.position.asPosition3f();
-    posChange.y = pos.y - 1;
-    var blockPosBelowPlayer = posChange.asBlockPos();
-    var blockBelow = world.getBlockState(blockPosBelowPlayer);
-	print(blockBelow.commandString);
-    var check_pos as crafttweaker.util.Position3f;
-    check_pos = crafttweaker.util.Position3f.create(pos.x, pos.y, pos.z);
-	if(world.getBiome(check_pos).name != "Space") {
-		player.sendChat("必须在空间站组装该多方块");
-	}
-    if(blockBelow != <blockstate:minecraft:purpur_block>) {
-        player.sendChat("该操作无法撤消 - 站在紫珀块上来标记在何处放置此多方块");
-        return "FAIL";
-    }
-    
-	
-
-    Commands.call("setblock ~ ~6 ~ contenttweaker:scale_of_the_ancient_heart", player, world, false, true);
+    Commands.call("fill ~-5 ~-5 ~-5 ~5 ~5 ~5 contenttweaker:stone_of_the_fallen_tower 0 replace minecraft:end_stone", player, world, false, true);
+    Commands.call("fill ~-5 ~-5 ~-5 ~5 ~5 ~5 contenttweaker:scale_of_the_ancient_heart 0 replace contenttweaker:demon_stone", player, world, false, true);
 
     return "PASS";
 
@@ -4245,6 +4228,34 @@ recursivepaperillager.itemRightClick = function(stack, world, player, hand) {
 };
 recursivepaperillager.register();
 
+
+var recursivepaperdunerider= VanillaFactory.createItem("recursive_paper_dunerider");
+recursivepaperdunerider.maxStackSize = 16;
+recursivepaperdunerider.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // Commands.call("time set night", player, world, false, true);
+
+	Commands.call("/summon iceandfire:deathworm ~ ~ ~ {Scale:2f,WormAge:2}", player, world, false, true);
+	Commands.call("/summon iceandfire:deathworm ~ ~ ~ {Scale:2f,WormAge:2}", player, world, false, true);
+	Commands.call("/summon iceandfire:deathworm ~ ~ ~ {Scale:2f,WormAge:2}", player, world, false, true);
+	Commands.call("/summon iceandfire:deathworm ~ ~ ~ {Scale:2f,WormAge:2}", player, world, false, true);
+
+	Commands.call("/summon iceandfire:deathworm ~ ~ ~ {Scale:3f,WormAge:2}", player, world, false, true);
+	Commands.call("/summon iceandfire:deathworm ~ ~ ~ {Scale:3f,WormAge:2}", player, world, false, true);
+
+	Commands.call("/summon iceandfire:deathworm ~ ~ ~ {Scale:5f,WormAge:2}", player, world, false, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+recursivepaperdunerider.register();
+
+
+
 var recursivepaperabyssal= VanillaFactory.createItem("recursive_paper_abyssal");
 recursivepaperabyssal.maxStackSize = 16;
 recursivepaperabyssal.itemRightClick = function(stack, world, player, hand) {
@@ -5251,3 +5262,29 @@ livelytreecallstone.itemRightClick = function(stack, world, player, hand) {
 
 };
 livelytreecallstone.register();
+
+
+var shyreridercallstone = VanillaFactory.createItem("shyre_rider_callstone");
+shyreridercallstone.maxStackSize = 1;
+shyreridercallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 820) {
+        player.sendChat("需位于塞尔瑞");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn nest_defiler_callstone", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+shyreridercallstone.register();
+
+
+
+
+
+//summon thaumcraft:cultistknight ~ ~1 ~ {HandItems:[{Count:1,id:"aoa3:gods_greatblade"},{Count:1,id:"contenttweaker:cursed_cradle"}],HandDropChances:[0.0f,1.0f],CustomName:"Defiler of the Dragon Cradle",Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:10000.0}],Health:100000f,ArmorItems:[{Count:1,id:"aoa3:knight_boots"},{Count:1,id:"aoa3:knight_legs"},{Count:1,id:"aoa3:knight_chestplate"},{Count:1,id:"aoa3:knight_helmet"}]}

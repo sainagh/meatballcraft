@@ -16,6 +16,36 @@ combinethepuzzles.addItemInput(<contenttweaker:recursion_focus_lens>);
 combinethepuzzles.addItemOutput(<contenttweaker:recursion_fragment_terra>);
 combinethepuzzles.build();
 
+recipes.addShaped(<contenttweaker:recursion_sharpening_lens>*4,
+[[<contenttweaker:chaosstrikium_cluster>, <contenttweaker:recursion_focus_lens>, <contenttweaker:cactium_sliver>], 
+[<contenttweaker:recursion_focus_lens>, <tconstruct:sharpening_kit>.withTag({Material: "demonc_ember"}), <contenttweaker:recursion_focus_lens>], 
+[<contenttweaker:crownite_chunk>, <contenttweaker:recursion_focus_lens>, <contenttweaker:thrallium_fragment>]]);
+
+
+val combinethepuzzles1 = RecipeBuilder.newBuilder("combinethepuzzles1","me_entropic_sythesizer",100);
+combinethepuzzles1.addEnergyPerTickInput(2000000);
+combinethepuzzles1.addFluidInput(<fluid:twilight_fire>*1600);
+combinethepuzzles1.addFluidInput(<fluid:nightmarish_matter>*1600);
+combinethepuzzles1.addFluidInput(<fluid:chaotic_matter>*1600);
+combinethepuzzles1.addFluidInput(<fluid:galactic_matter>*1600);
+combinethepuzzles1.addFluidInput(<fluid:cosmic_matter>*1600);
+combinethepuzzles1.addFluidInput(<fluid:spatial_matter>*1600);
+combinethepuzzles1.addItemInput(<contenttweaker:recursion_sharpening_lens>);
+combinethepuzzles1.addItemOutput(<contenttweaker:recursion_fragment_terra>*4);
+combinethepuzzles1.build();
+
+val combinethepuzzles2 = RecipeBuilder.newBuilder("combinethepuzzles2","me_entropic_sythesizer",50);
+combinethepuzzles2.addEnergyPerTickInput(2000000);
+combinethepuzzles2.addFluidInput(<fluid:twilight_fire>*3200);
+combinethepuzzles2.addFluidInput(<fluid:nightmarish_matter>*3200);
+combinethepuzzles2.addFluidInput(<fluid:chaotic_matter>*3200);
+combinethepuzzles2.addFluidInput(<fluid:galactic_matter>*3200);
+combinethepuzzles2.addFluidInput(<fluid:cosmic_matter>*3200);
+combinethepuzzles2.addFluidInput(<fluid:spatial_matter>*3200);
+combinethepuzzles2.addItemInput(<contenttweaker:fractallite_focus_lens>);
+combinethepuzzles2.addItemOutput(<contenttweaker:recursion_fragment_terra>*8);
+combinethepuzzles2.build();
+
 scripts.PuzzleUtil.addPuzzleShapeless("vetheapuzzle",<contenttweaker:dream_projector_gem>,
 [<contenttweaker:projector_gem>,
 <tconstruct:tough_tool_rod>.withTag({Material: "jade"}),
@@ -85,6 +115,7 @@ mods.botania.ManaInfusion.addInfusion(<contenttweaker:cracked_naquadah_chunk>, <
 mods.astralsorcery.StarlightInfusion.addInfusion(<contenttweaker:cracked_naquadah_chunk>, <contenttweaker:naquadah_core>, true, 0.1, 100);
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:naquadah_core>, <fluid:unholy_radioactive_mix>*2, <contenttweaker:irradiated_naquadah_core>, 1.0, 1.0, 0.1]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:naquadah_core>*16, <fluid:infinitely_unholy_radioactive_mix>*1, <contenttweaker:irradiated_naquadah_core>*16, 1.0, 1.0, 0.1]);
 
 mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:irradiated_naquadah_core>, <ore:blockLead>*25, <contenttweaker:naquadah_ingot>, 1.0, 1.0, 0.1]);
 
@@ -261,7 +292,6 @@ mythassevenmoreofthem.addItemOutput(<contenttweaker:dustopia_garnet>*256);
 mythassevenmoreofthem.addItemOutput(<contenttweaker:vethea_garnet>*256);
 mythassevenmoreofthem.addItemOutput(<contenttweaker:shyrelands_garnet>*256);
 mythassevenmoreofthem.build();
-
 
 
 

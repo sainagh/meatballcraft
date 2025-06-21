@@ -14,8 +14,8 @@
         "id": "draconicevolution:draconium_block",
         "meta": 0,
         "item": {
-            "id": "draconicevolution:draconium_block",
-            "count": 1
+            "id": "contenttweaker:coolant_great",
+            "count": 20
           }
       },
       "b": {
@@ -23,7 +23,7 @@
         "meta": 0,
         "item": {
             "id": "bigreactors:reactorfuelrod",
-            "count": 1
+            "count": 24
           }
       }
     },

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    62754235
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o与管理器内的红石信号发射器和条件模块交互。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "superfactorymanager:cable_input"
+      },
+      "name:8": "红石信号收发器"
+    }
+  },
+  "questID:3": 2115060201,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "superfactorymanager:cable_output"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "superfactorymanager:cable_input"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

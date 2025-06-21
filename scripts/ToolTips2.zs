@@ -74,13 +74,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:white_fuel>.addTooltip(format.red("发现于炼金界"));
 
-<materialpart:sednanite:ingot>.addTooltip(format.red("发现于塞德娜，于第三章结尾获得 - 可在等离子聚合器中制作"));
-
-<materialpart:rhenium:ingot>.addTooltip(format.red("发现于铼界"));
-
-<materialpart:myrmitite:ingot>.addTooltip(format.red("发现于恐蚁界 - 可在等离子聚合器中制作"));
-
-<materialpart:ogerite:ingot>.addTooltip(format.red("发现于光精界 - 可在等离子聚合器中制作"));
 
 <contenttweaker:sedna_artifact>.addTooltip(format.red("在跃迁控制器中使用"));
 
@@ -364,7 +357,10 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:retaliation_key>.addTooltip(format.red("打开意志晶块神殿内的最终房间"));
 
-<soulshardsrespawn:soul_shard>.addTooltip(format.red("在世界中合成，放置一个荧石块，用四个石英块包围，四角放置黑曜石。 - Sandman366"));
+<soulshardsrespawn:soul_shard>.addTooltip(format.red("在世界中合成，放置一个荧石块，用四个石英块包围，四角放置黑曜石。"));
+<soulshardsrespawn:soul_shard>.addTooltip(format.red("可通过2种方式充能："));
+<soulshardsrespawn:soul_shard>.addTooltip(format.red("将灵魂碎片放在快捷栏中，击杀对应的生物（可通过窃魂魔咒加速）"));
+<soulshardsrespawn:soul_shard>.addTooltip(format.red("右击对应生物的刷怪箱（更好，但会破坏刷怪箱）"));
 
 <dimdoors:world_thread>.addTooltip(format.red("发现于维度门内的地牢"));
 
@@ -817,8 +813,6 @@ import crafttweaker.item.IItemCondition;
 <bewitchment:blessed_stone>.addTooltip(format.red("注意：该方块无法破坏"));
 <bewitchment:blessed_stone>.addTooltip(format.red("可被主宰法咒：Perditio破坏"));
 
-<contenttweaker:scale_of_the_ancient_heart>.addTooltip(format.red("注意：该方块无法破坏"));
-<contenttweaker:scale_of_the_ancient_heart>.addTooltip(format.red("可被主宰法咒：Perditio破坏"));
 
 <contenttweaker:asgard_furnace_brick>.addTooltip(format.red("注意：该方块无法破坏"));
 <contenttweaker:asgard_furnace_brick>.addTooltip(format.red("可被主宰法咒：Perditio破坏"));
@@ -965,6 +959,8 @@ import crafttweaker.item.IItemCondition;
 
 
 <techreborn:implosion_compressor>.addTooltip(format.red("机器下方是3x3x3的中空进阶机械外壳"));
+
+<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct", "enderio:enabled": 1 as byte}).addTooltip(format.red("匠魂强化：自动将掉落物传送到物品栏"));
 
 <bloodmagic:soul_gem:3>.addTooltip(format.red("匠魂强化：生物会掉落意志"));
 
@@ -1482,7 +1478,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:technetium_remains>.addTooltip(format.red("可无限循环产出"));
 
 
-<contenttweaker:lanthanum_salt>.addTooltip(format.red("若不想自动化生产，那就一次做一大批"));
 
 <contenttweaker:tennessine_gem>.addTooltip(format.red("将团块丢入炼狱熔炉"));
 
@@ -2174,7 +2169,8 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:gem_of_the_sleeping_city>.addTooltip(format.red("发现于暴风维度"));
 <contenttweaker:stone_of_the_sleeping_city>.addTooltip(format.red("发现于暴风维度"));
 
-<draconicevolution:celestial_manipulator>.addTooltip(format.red("在主世界使用！虚空世界中也可生效！"));
+<draconicevolution:celestial_manipulator>.addTooltip(format.red("必须在主世界使用！但其效果同样会影响虚空世界的时间！"));
+<draconicevolution:celestial_manipulator>.addTooltip(format.red("可使用聊天检测器或其他无线红石装置远程激活其改变时间的功能，这样就不需要来回跑了！"));
 
 <appliedenergistics2:part:220>.addTooltip(format.red("不要连接到跨区块的方块，可能会导致崩溃"));
 <appliedenergistics2:part:221>.addTooltip(format.red("不要连接到跨区块的方块，可能会导致崩溃"));
@@ -2448,93 +2444,93 @@ import crafttweaker.item.IItemCondition;
 <thermaldynamics:duct_16:6>.addTooltip(format.red("使用伺服器、检索器和过滤器来传输物品（查看对应的JEI提示以了解如何使用）"));
 <thermaldynamics:duct_16:7>.addTooltip(format.red("使用伺服器、检索器和过滤器来传输物品（查看对应的JEI提示以了解如何使用）"));
 
-<tconstruct:metal:0>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<thermalfoundation:storage:4>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<thermalfoundation:storage:6>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<minecraft:iron_block>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<thermalfoundation:storage:8>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<enderio:block_alloy:2>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<techreborn:storage:8>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<thermalfoundation:storage_alloy:1>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<enderio:block_alloy:6>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<thermalfoundation:storage_alloy:3>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<thermalfoundation:storage:2>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<thermalfoundation:storage_alloy:2>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<tconstruct:metal:5>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<ore:blockLudicrite>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<thermalfoundation:storage_alloy:7>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<thermalfoundation:storage:0>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<ore:blockElectrumFlux>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<techreborn:storage:2>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<techreborn:storage:5>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<enderio:block_alloy:4>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<tconstruct:metal:2>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<enderio:block_alloy:0>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<thermalfoundation:storage:3>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<minecraft:gold_block>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<tconstruct:metal:1>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<ore:blockEnergeticAlloy>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
-<thermalfoundation:storage_alloy:0>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <tconstruct:metal:0>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <thermalfoundation:storage:4>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <thermalfoundation:storage:6>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <minecraft:iron_block>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <thermalfoundation:storage:8>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <enderio:block_alloy:2>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <techreborn:storage:8>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <thermalfoundation:storage_alloy:1>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <enderio:block_alloy:6>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <thermalfoundation:storage_alloy:3>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <thermalfoundation:storage:2>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <thermalfoundation:storage_alloy:2>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <tconstruct:metal:5>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <ore:blockLudicrite>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <thermalfoundation:storage_alloy:7>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <thermalfoundation:storage:0>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <ore:blockElectrumFlux>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <techreborn:storage:2>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <techreborn:storage:5>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <enderio:block_alloy:4>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <tconstruct:metal:2>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <enderio:block_alloy:0>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <thermalfoundation:storage:3>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <minecraft:gold_block>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <tconstruct:metal:1>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <ore:blockEnergeticAlloy>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
+// <thermalfoundation:storage_alloy:0>.addTooltip(format.red("可用作大型涡轮机线圈，最好的材料是镠"));
 
-<ore:blockDraconium>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<thermalfoundation:storage:4>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<thermalfoundation:storage:6>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<minecraft:iron_block>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<minecraft:diamond_block>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<ore:blockMithril>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<ore:blockVibrantAlloy>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<techreborn:storage:8>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<thermalfoundation:storage_alloy:1>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<ore:blockDarkSteel>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<thermalfoundation:storage_alloy:3>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<thermalfoundation:storage:2>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<minecraft:ice>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<ore:blockMeatRaw>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<minecraft:glass>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<ore:blockDraconiumAwakened>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<thermalfoundation:storage_alloy:2>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<nuclearcraft:ingot_block:8>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<thermalfoundation:storage_alloy:7>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<ore:blockSoularium>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<minecraft:emerald_block>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<thermalfoundation:storage:0>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<minecraft:snow>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<ore:blockElectrumFlux>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<techreborn:storage:2>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<techreborn:storage:5>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<ore:blockConductiveIron>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<tconstruct:metal:2>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<ore:blockElectricalSteel>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<techreborn:storage:3>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<minecraft:gold_block>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<ore:blockEnergeticAlloy>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<thermalfoundation:storage_alloy:0>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "electrical_steel", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "dark_steel", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "fire_water", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "ender", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "cloud_seed", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "liquid_sunshine", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "glowstone", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "purpleslime", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "energetic_alloy", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "hootch", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "pyrotheum", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "blueslime", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "vapor_of_levity", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "ender_distillation", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "nutrient_distillation", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "soularium", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "water", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "conductive_iron", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "rocket_fuel", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "meat", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "vibrant_alloy", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
-<forge:bucketfilled>.withTag({FluidName: "sewage", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <ore:blockDraconium>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <thermalfoundation:storage:4>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <thermalfoundation:storage:6>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <minecraft:iron_block>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <minecraft:diamond_block>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <ore:blockMithril>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <ore:blockVibrantAlloy>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <techreborn:storage:8>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <thermalfoundation:storage_alloy:1>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <ore:blockDarkSteel>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <thermalfoundation:storage_alloy:3>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <thermalfoundation:storage:2>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <minecraft:ice>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <ore:blockMeatRaw>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <minecraft:glass>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <ore:blockDraconiumAwakened>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <thermalfoundation:storage_alloy:2>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <nuclearcraft:ingot_block:8>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <thermalfoundation:storage_alloy:7>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <ore:blockSoularium>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <minecraft:emerald_block>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <thermalfoundation:storage:0>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <minecraft:snow>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <ore:blockElectrumFlux>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <techreborn:storage:2>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <techreborn:storage:5>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <ore:blockConductiveIron>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <tconstruct:metal:2>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <ore:blockElectricalSteel>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <techreborn:storage:3>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <minecraft:gold_block>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <ore:blockEnergeticAlloy>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <thermalfoundation:storage_alloy:0>.addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "electrical_steel", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "dark_steel", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "fire_water", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "ender", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "cloud_seed", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "liquid_sunshine", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "glowstone", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "purpleslime", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "energetic_alloy", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "hootch", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "pyrotheum", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "blueslime", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "vapor_of_levity", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "ender_distillation", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "nutrient_distillation", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "soularium", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "water", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "conductive_iron", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "rocket_fuel", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "meat", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "vibrant_alloy", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
+// <forge:bucketfilled>.withTag({FluidName: "sewage", Amount: 1000}).addTooltip(format.red("可用作大型反应堆冷却剂，最好的材料是龙块"));
 
 <divinerpg:arcana_portal_frame>.addTooltip(format.red("按末地传送门框架的形状摆放"));
 <divinerpg:arcana_portal_frame>.addTooltip(format.red("确保带点的一面朝内"));
@@ -2612,7 +2608,6 @@ import crafttweaker.item.IItemCondition;
 <akashictome:tome>.addTooltip(format.red("警告：不要与星芒宝典、魔导手册、植物魔法辞典、死灵之书以及万能溶剂之经合成"));
 
 <thaumicenergistics:arcane_terminal>.addTooltip(format.red("警告：可能引起崩溃，应避免过多使用"));
-<thaumicenergistics:arcane_terminal>.addTooltip(format.red("虚空预言者的珍珠的魔力减免不起作用"));
 
 <libvulpes:advstructuremachine>.addTooltip(format.red("HiaggTM得升级他的IO仓了"));
 
@@ -3198,7 +3193,6 @@ import crafttweaker.item.IItemCondition;
 
 <thaumcraft:caster_basic>.addTooltip(format.red("按H键装备和更改施术核心"));
 
-<contenttweaker:shungite_prism>.addTooltip(format.red("右击免疫辐射"));
 
 <contenttweaker:shungite>.addTooltip(format.red("发现于孤寂界"));
 
@@ -3258,7 +3252,11 @@ import crafttweaker.item.IItemCondition;
 
 <gendustry:honey_comb:14014>.addTooltip(format.red("发现于茕踽界"));
 
-<appliedenergistics2:memory_card>.addTooltip(format.red("推荐使用高级内存卡"));
+<appliedenergistics2:memory_card>.addTooltip(format.red("用于将两个P2P通道互相连接"));
+<appliedenergistics2:memory_card>.addTooltip(format.red("Shift+右击空气以重置配置"));
+<appliedenergistics2:memory_card>.addTooltip(format.red("Shift+右击以绑定P2P输入端（也就是控制器端）"));
+<appliedenergistics2:memory_card>.addTooltip(format.red("右击以设置P2P输出端"));
+<appliedenergistics2:memory_card>.addTooltip(format.red("高级版本的内存卡功能更多，但可能好造成服务器崩溃"));
 
 <betterp2p:advanced_memory_card>.addTooltip(format.red("右击P2P通道将其与其他P2P通道绑定，内存卡有GUI"));
 <betterp2p:advanced_memory_card>.addTooltip(format.red("可以用石英切割刀重命名P2P通道，以便追踪定位"));
@@ -3649,7 +3647,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:stormlight_fragment>.addTooltip(format.red("通过飓风之子召唤石获得"));
 
 <divinerpg:storm_sword>.addTooltip(format.red("与秘界的梅里克首领交易获得"));
-
 
 
 

@@ -21,12 +21,56 @@
             "x": 0,
             "y": 2,
             "z": 0,
-            "description": "流体输出x10",
+            "description": "产出x10，速度x10",
             "modifiers": [{
                 "io": "output",
                 "target": "modularmachinery:fluid",
                 "operation": 1,
                 "multiplier": 10
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.1
+            }]
+        },
+        {
+            "elements": "contenttweaker:trinuum_catalyst",
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "description": "产出x50，速度x20",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 50
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.05
+            }]
+        },
+        {
+            "elements": "contenttweaker:infinitely_wishful_catalyst",
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "description": "产出x100，速度x40",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 100
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.025
             }]
         }
     ],
@@ -196,7 +240,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-				"modularmachinery:blockaspectproviderinput@0"
+				"generalized_input_essentia"
             ]
         },
         {

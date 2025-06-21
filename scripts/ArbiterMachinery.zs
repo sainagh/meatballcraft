@@ -276,8 +276,8 @@ inffurnaceknowledge.build();
 
 val inffurnacebalance = RecipeBuilder.newBuilder("inffurnacebalance","infinity_furnace",40);
 inffurnacebalance.addFluidInput(<fluid:actualizing_fluid>*10);
-inffurnacebalance.addItemInput(<contenttweaker:hungering_flesh_ingot>*4);
-inffurnacebalance.addItemInput(<contenttweaker:ascended_fluix_crystal>*4);
+inffurnacebalance.addItemInput(<contenttweaker:hungering_flesh_ingot>*1);
+inffurnacebalance.addItemInput(<contenttweaker:ascended_fluix_crystal>*1);
 inffurnacebalance.addItemInput(<contenttweaker:order_wood>*8);
 inffurnacebalance.addItemInput(<contenttweaker:chaos_wood>*8);
 inffurnacebalance.addItemInput(<contenttweaker:light_of_shadesmar>);
@@ -447,10 +447,10 @@ recipes.addShaped(<contenttweaker:spren_summoner_loneliness>,
 [<contenttweaker:hyperuranion_ingot>, <openblocks:tank>.withTag({tank: {FluidName: "orichalcum", Amount: 16000}}), <contenttweaker:hyperuranion_ingot>],
 [<contenttweaker:shard_of_forgotten_fear_of_death>, <contenttweaker:hyperuranion_ingot>, <contenttweaker:shard_of_rekindled_heritage>]]);
 
-mods.nuclearcraft.infuser.addRecipe([<contenttweaker:shard_of_no_hidden_intentions>, <fluid:crystalline_ichorium>*288, <contenttweaker:shard_of_no_hidden_intentions>*2]);
-mods.nuclearcraft.infuser.addRecipe([<contenttweaker:shard_of_physical_healing>, <fluid:hihi_irokane>*288, <contenttweaker:shard_of_physical_healing>*2]);
-mods.nuclearcraft.infuser.addRecipe([<contenttweaker:shard_of_realized_worth>, <fluid:parafrosynium>*288, <contenttweaker:shard_of_realized_worth>*2]);
-mods.nuclearcraft.infuser.addRecipe([<contenttweaker:shard_of_restored_relationship>, <fluid:orichalcum>*288, <contenttweaker:shard_of_restored_relationship>*2]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:shard_of_no_hidden_intentions>, <fluid:crystalline_ichorium>*72, <contenttweaker:shard_of_no_hidden_intentions>*2]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:shard_of_physical_healing>, <fluid:hihi_irokane>*72, <contenttweaker:shard_of_physical_healing>*2]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:shard_of_realized_worth>, <fluid:parafrosynium>*72, <contenttweaker:shard_of_realized_worth>*2]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:shard_of_restored_relationship>, <fluid:orichalcum>*72, <contenttweaker:shard_of_restored_relationship>*2]);
 
 
 
@@ -753,6 +753,33 @@ mods.thaumcraft.Infusion.registerRecipe("infusewarrenscatalyst", "",
 <ore:ingotFractalliteHalite>, <contenttweaker:stone_of_universal_balance>, 
 <ore:ingotFractalliteHalite>, <forge:bucketfilled>.withTag({FluidName: "recursive_computing_matter", Amount: 1000}), 
 <ore:ingotFractalliteHalite>, <contenttweaker:stone_of_universal_balance>]);
+
+
+
+mods.thaumcraft.Infusion.registerRecipe("infusetrinuumcatalyst", "", 
+<contenttweaker:trinuum_catalyst>, 10,
+[<aspect:permutatio>*5000, <aspect:fluctus>*5000, <aspect:lux>*5000, <aspect:auram>*5000, <aspect:victus>*5000, <aspect:caeles>*5000], 
+<contenttweaker:catalyst_of_the_warrens>, 
+[<contenttweaker:cuendillar_plate>, <forge:bucketfilled>.withTag({FluidName: "trinity_ingot", Amount: 1000}), 
+<contenttweaker:cuendillar_plate>, <contenttweaker:stone_of_universal_balance>, 
+<contenttweaker:cuendillar_plate>, <forge:bucketfilled>.withTag({FluidName: "trinity_ingot", Amount: 1000}), 
+<contenttweaker:cuendillar_plate>, <contenttweaker:stone_of_universal_balance>, 
+<contenttweaker:cuendillar_plate>, <forge:bucketfilled>.withTag({FluidName: "trinity_ingot", Amount: 1000}), 
+<contenttweaker:cuendillar_plate>, <contenttweaker:stone_of_universal_balance>]);
+
+
+mods.thaumcraft.Infusion.registerRecipe("infusesuperwishfulcatalyst", "", 
+<contenttweaker:infinitely_wishful_catalyst>, 10,
+[<aspect:tenebrae>*10000, <aspect:ordo>*10000, <aspect:visum>*10000, <aspect:draco>*10000, <aspect:mythus>*10000, <aspect:cognitio>*10000, <aspect:humanus>*10000], 
+<contenttweaker:trinuum_catalyst>, 
+[<contenttweaker:ingot_of_infinite_wishes>, <contenttweaker:cuendillar_seal>, 
+<contenttweaker:ingot_of_infinite_wishes>, <avaritiaitem:cosmic_fractal_catalyzer>, 
+<contenttweaker:ingot_of_infinite_wishes>, <contenttweaker:cuendillar_seal>, 
+<contenttweaker:ingot_of_infinite_wishes>, <avaritiaitem:cosmic_fractal_catalyzer>, 
+<contenttweaker:ingot_of_infinite_wishes>, <contenttweaker:cuendillar_seal>, 
+<contenttweaker:ingot_of_infinite_wishes>, <avaritiaitem:cosmic_fractal_catalyzer>]);
+
+
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:stone_of_universal_balance>, <fluid:recursive_computing_matter>*100, <contenttweaker:seeker_stone>*4]);
 

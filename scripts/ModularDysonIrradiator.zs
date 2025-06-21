@@ -155,6 +155,16 @@ corruptedlibrarydefinedengine.addItemInput(<contenttweaker:defined_gear>*4);
 corruptedlibrarydefinedengine.addItemOutput(<contenttweaker:defined_engine>);
 corruptedlibrarydefinedengine.build();
 
+val uncorruptedlibrarydefinedengine = RecipeBuilder.newBuilder("uncorruptedlibrarydefinedengine","uncorrupted_library",200);
+uncorruptedlibrarydefinedengine.addFluidInput(<fluid:lifeessence>*5000);
+uncorruptedlibrarydefinedengine.addFluidInput(<fluid:liquidcoralium>*5000);
+uncorruptedlibrarydefinedengine.addItemInput(<divinerpg:divine_shards>*4);
+uncorruptedlibrarydefinedengine.addItemInput(<contenttweaker:infinity_core>*2);
+uncorruptedlibrarydefinedengine.addItemInput(<contenttweaker:defined_servo>);
+uncorruptedlibrarydefinedengine.addItemInput(<contenttweaker:defined_gear>*4);
+uncorruptedlibrarydefinedengine.addItemOutput(<contenttweaker:defined_engine>);
+uncorruptedlibrarydefinedengine.build();
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:irradiator_casing>*24, 
 [[<contenttweaker:high_refraction_alloy_ingot>, <contenttweaker:infinity_plate>, <contenttweaker:radiation_crafter>, <contenttweaker:infinity_plate>, <contenttweaker:high_refraction_alloy_ingot>], 
 [<contenttweaker:infinity_plate>, <extendedcrafting:storage:4>, <nuclearcraft:fusion_core>, <extendedcrafting:storage:4>, <contenttweaker:infinity_plate>], 
@@ -218,6 +228,8 @@ irradiationultimatekashtop.addItemOutput(<avaritia:resource:6>*27);
 irradiationultimatekashtop.addItemOutput(<extendedcrafting:singularity_ultimate>);
 irradiationultimatekashtop.build();
 
+
+
 val irradiationultimatechickbot = RecipeBuilder.newBuilder("irradiationultimatechickbot","dyson_irradiator_bottom",200);
 irradiationultimatechickbot.addFluidInput(<fluid:hyperdense_plasma>*100);
 irradiationultimatechickbot.addItemInput(<contenttweaker:defined_ingot>);
@@ -237,6 +249,56 @@ irradiationultimatekashbot.addItemInput(<avaritiaitem:self_actualizing_stone>);
 irradiationultimatekashbot.addItemOutput(<avaritia:resource:6>*27);
 irradiationultimatekashbot.addItemOutput(<extendedcrafting:singularity_ultimate>);
 irradiationultimatekashbot.build();
+
+val irradiationblockbot1 = RecipeBuilder.newBuilder("irradiationblockbot1","dyson_irradiator_bottom",200);
+irradiationblockbot1.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationblockbot1.addItemInput(<contenttweaker:defined_ingot>);
+irradiationblockbot1.addItemInput(<contenttweaker:infinity_egg>);
+irradiationblockbot1.addItemInput(<contenttweaker:infinity_stone>);
+irradiationblockbot1.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 I§r"]}}));
+irradiationblockbot1.addItemOutput(<avaritia:block_resource:1>*6);
+irradiationblockbot1.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblockbot1.build();
+
+val irradiationblockbot2 = RecipeBuilder.newBuilder("irradiationblockbot2","dyson_irradiator_bottom",200);
+irradiationblockbot2.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationblockbot2.addItemInput(<contenttweaker:defined_ingot>);
+irradiationblockbot2.addItemInput(<contenttweaker:infinity_egg>);
+irradiationblockbot2.addItemInput(<contenttweaker:infinity_stone>);
+irradiationblockbot2.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 II§r"]}}));
+irradiationblockbot2.addItemOutput(<avaritia:block_resource:1>*12);
+irradiationblockbot2.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblockbot2.build();
+
+val irradiationblockbot3 = RecipeBuilder.newBuilder("irradiationblockbot3","dyson_irradiator_bottom",200);
+irradiationblockbot3.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationblockbot3.addItemInput(<contenttweaker:defined_ingot>);
+irradiationblockbot3.addItemInput(<contenttweaker:infinity_egg>);
+irradiationblockbot3.addItemInput(<contenttweaker:infinity_stone>);
+irradiationblockbot3.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 III§r"]}}));
+irradiationblockbot3.addItemOutput(<avaritia:block_resource:1>*18);
+irradiationblockbot3.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblockbot3.build();
+
+val irradiationblockbot4 = RecipeBuilder.newBuilder("irradiationblockbot4","dyson_irradiator_bottom",200);
+irradiationblockbot4.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationblockbot4.addItemInput(<contenttweaker:defined_ingot>);
+irradiationblockbot4.addItemInput(<contenttweaker:infinity_egg>);
+irradiationblockbot4.addItemInput(<contenttweaker:infinity_stone>);
+irradiationblockbot4.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 IV§r"]}}));
+irradiationblockbot4.addItemOutput(<avaritia:block_resource:1>*24);
+irradiationblockbot4.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblockbot4.build();
+
+val irradiationblockbot5 = RecipeBuilder.newBuilder("irradiationblockbot5","dyson_irradiator_bottom",200);
+irradiationblockbot5.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationblockbot5.addItemInput(<contenttweaker:defined_ingot>);
+irradiationblockbot5.addItemInput(<contenttweaker:infinity_egg>);
+irradiationblockbot5.addItemInput(<contenttweaker:infinity_stone>);
+irradiationblockbot5.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 V§r"]}}));
+irradiationblockbot5.addItemOutput(<avaritia:block_resource:1>*32);
+irradiationblockbot5.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblockbot5.build();
 
 val irradiationrainbowtop = RecipeBuilder.newBuilder("irradiationrainbowtop","dyson_irradiator_top",200);
 irradiationrainbowtop.addFluidInput(<fluid:chaos>*1440);
@@ -267,6 +329,65 @@ irradiationtimecrystal.addItemInput(<avaritia:resource:5>*4);
 irradiationtimecrystal.addItemInput(<contenttweaker:time_crystal>);
 irradiationtimecrystal.addItemOutput(<contenttweaker:infinite_resonator>);
 irradiationtimecrystal.build();
+
+
+
+
+
+val irradiationblocktop1 = RecipeBuilder.newBuilder("irradiationblocktop1","dyson_irradiator_top",200);
+irradiationblocktop1.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationblocktop1.addItemInput(<contenttweaker:defined_ingot>);
+irradiationblocktop1.addItemInput(<contenttweaker:infinity_egg>);
+irradiationblocktop1.addItemInput(<contenttweaker:infinity_stone>);
+irradiationblocktop1.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 I§r"]}}));
+irradiationblocktop1.addItemOutput(<avaritia:block_resource:1>*6);
+irradiationblocktop1.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblocktop1.build();
+
+val irradiationblocktop2 = RecipeBuilder.newBuilder("irradiationblocktop2","dyson_irradiator_top",200);
+irradiationblocktop2.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationblocktop2.addItemInput(<contenttweaker:defined_ingot>);
+irradiationblocktop2.addItemInput(<contenttweaker:infinity_egg>);
+irradiationblocktop2.addItemInput(<contenttweaker:infinity_stone>);
+irradiationblocktop2.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 II§r"]}}));
+irradiationblocktop2.addItemOutput(<avaritia:block_resource:1>*12);
+irradiationblocktop2.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblocktop2.build();
+
+val irradiationblocktop3 = RecipeBuilder.newBuilder("irradiationblocktop3","dyson_irradiator_top",200);
+irradiationblocktop3.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationblocktop3.addItemInput(<contenttweaker:defined_ingot>);
+irradiationblocktop3.addItemInput(<contenttweaker:infinity_egg>);
+irradiationblocktop3.addItemInput(<contenttweaker:infinity_stone>);
+irradiationblocktop3.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 III§r"]}}));
+irradiationblocktop3.addItemOutput(<avaritia:block_resource:1>*18);
+irradiationblocktop3.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblocktop3.build();
+
+val irradiationblocktop4 = RecipeBuilder.newBuilder("irradiationblocktop4","dyson_irradiator_top",200);
+irradiationblocktop4.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationblocktop4.addItemInput(<contenttweaker:defined_ingot>);
+irradiationblocktop4.addItemInput(<contenttweaker:infinity_egg>);
+irradiationblocktop4.addItemInput(<contenttweaker:infinity_stone>);
+irradiationblocktop4.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 IV§r"]}}));
+irradiationblocktop4.addItemOutput(<avaritia:block_resource:1>*24);
+irradiationblocktop4.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblocktop4.build();
+
+val irradiationblocktop5 = RecipeBuilder.newBuilder("irradiationblocktop5","dyson_irradiator_top",200);
+irradiationblocktop5.addFluidInput(<fluid:hyperdense_plasma>*100);
+irradiationblocktop5.addItemInput(<contenttweaker:defined_ingot>);
+irradiationblocktop5.addItemInput(<contenttweaker:infinity_egg>);
+irradiationblocktop5.addItemInput(<contenttweaker:infinity_stone>);
+irradiationblocktop5.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 V§r"]}}));
+irradiationblocktop5.addItemOutput(<avaritia:block_resource:1>*32);
+irradiationblocktop5.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblocktop5.build();
+
+
+
+
+
 
 mods.thaumcraft.Infusion.registerRecipe("infinityseedinfusion", "", <contenttweaker:infinity_seed>, 
 20, 
@@ -621,4 +742,3 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:pulsar_screen>*2,
 [<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <contenttweaker:atomic_mirror>, <contenttweaker:atomic_mirror>, <contenttweaker:atomic_mirror>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
 [<contenttweaker:high_energy_ray_collector>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:awakened_electromagnet>, <contenttweaker:high_energy_ray_collector>], 
 [<contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>, <contenttweaker:high_energy_ray_collector>]]);  
-

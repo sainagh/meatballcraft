@@ -2921,3 +2921,162 @@ warrenpeat.maxStackSize = 64;
 warrenpeat.beaconPayment = false;
 warrenpeat.register();
 
+var huntermobs = VanillaFactory.createItem("hunter_mobs");
+huntermobs.maxStackSize = 64;
+huntermobs.beaconPayment = false;
+huntermobs.register();
+
+var hunterlevel1 = VanillaFactory.createItem("hunter_level_1");
+hunterlevel1.maxStackSize = 64;
+hunterlevel1.beaconPayment = false;
+hunterlevel1.register();
+
+var hunterlevel3 = VanillaFactory.createItem("hunter_level_3");
+hunterlevel3.maxStackSize = 64;
+hunterlevel3.beaconPayment = false;
+hunterlevel3.register();
+
+var hunterlevel5 = VanillaFactory.createItem("hunter_level_5");
+hunterlevel5.maxStackSize = 64;
+hunterlevel5.beaconPayment = false;
+hunterlevel5.register();
+
+var hunterlevel9 = VanillaFactory.createItem("hunter_level_9");
+hunterlevel9.maxStackSize = 64;
+hunterlevel9.beaconPayment = false;
+hunterlevel9.register();
+
+var hunterlevel12 = VanillaFactory.createItem("hunter_level_12");
+hunterlevel12.maxStackSize = 64;
+hunterlevel12.beaconPayment = false;
+hunterlevel12.register();
+
+var hunterlevel13 = VanillaFactory.createItem("hunter_level_13");
+hunterlevel13.maxStackSize = 64;
+hunterlevel13.beaconPayment = false;
+hunterlevel13.register();
+
+var hunterlevel17 = VanillaFactory.createItem("hunter_level_17");
+hunterlevel17.maxStackSize = 64;
+hunterlevel17.beaconPayment = false;
+hunterlevel17.register();
+
+var hunterlevel19 = VanillaFactory.createItem("hunter_level_19");
+hunterlevel19.maxStackSize = 64;
+hunterlevel19.beaconPayment = false;
+hunterlevel19.register();
+
+var hunterlevel20 = VanillaFactory.createItem("hunter_level_20");
+hunterlevel20.maxStackSize = 64;
+hunterlevel20.beaconPayment = false;
+hunterlevel20.register();
+
+var hunterlevel30 = VanillaFactory.createItem("hunter_level_30");
+hunterlevel30.maxStackSize = 64;
+hunterlevel30.beaconPayment = false;
+hunterlevel30.register();
+
+var hunterlevel40 = VanillaFactory.createItem("hunter_level_40");
+hunterlevel40.maxStackSize = 64;
+hunterlevel40.beaconPayment = false;
+hunterlevel40.register();
+
+var hunterlevel50 = VanillaFactory.createItem("hunter_level_50");
+hunterlevel50.maxStackSize = 64;
+hunterlevel50.beaconPayment = false;
+hunterlevel50.register();
+
+var farminghunterlevels = VanillaFactory.createItem("farming_hunter_levels");
+farminghunterlevels.maxStackSize = 64;
+farminghunterlevels.beaconPayment = false;
+farminghunterlevels.register();
+
+var superenchantingstrippingautomation = VanillaFactory.createItem("super_enchanting_stripping_automation");
+superenchantingstrippingautomation.maxStackSize = 64;
+superenchantingstrippingautomation.beaconPayment = false;
+superenchantingstrippingautomation.register();
+
+var greatcoolant = VanillaFactory.createItem("coolant_great");
+greatcoolant.maxStackSize = 64;
+greatcoolant.beaconPayment = false;
+greatcoolant.register();
+
+var greatcoil = VanillaFactory.createItem("coil_great");
+greatcoil.maxStackSize = 64;
+greatcoil.beaconPayment = false;
+greatcoil.register();
+
+var goodwootdrops = VanillaFactory.createItem("good_woot_drops");
+goodwootdrops.maxStackSize = 64;
+goodwootdrops.beaconPayment = false;
+goodwootdrops.register();
+
+var karotfarm = VanillaFactory.createItem("karot_farm");
+karotfarm.maxStackSize = 64;
+karotfarm.beaconPayment = false;
+karotfarm.register();
+
+
+var mythicradiationshield = VanillaFactory.createItem("mythic_radiation_shielding");
+mythicradiationshield.maxStackSize = 64;
+mythicradiationshield.beaconPayment = false;
+mythicradiationshield.register();
+
+var recursiveradiationshield = VanillaFactory.createItem("recursive_radiation_shielding");
+recursiveradiationshield.maxStackSize = 64;
+recursiveradiationshield.beaconPayment = false;
+recursiveradiationshield.register();
+
+var fractalliteradshield = VanillaFactory.createItem("fractallite_radiation_shielding");
+fractalliteradshield.maxStackSize = 64;
+fractalliteradshield.beaconPayment = false;
+fractalliteradshield.register();
+
+var cursedcradle = VanillaFactory.createItem("cursed_cradle");
+cursedcradle.maxStackSize = 64;
+cursedcradle.beaconPayment = false;
+cursedcradle.register();
+
+var infusionpseudoautomation = VanillaFactory.createItem("infusion_pseudo_automation");
+infusionpseudoautomation.maxStackSize = 64;
+infusionpseudoautomation.beaconPayment = false;
+infusionpseudoautomation.register();
+
+var puzzlesolrainbowcore = VanillaFactory.createItem("puzzle_solution_rainbowcore");
+puzzlesolrainbowcore.maxStackSize = 64;
+puzzlesolrainbowcore.beaconPayment = false;
+puzzlesolrainbowcore.register();
+
+var recursionsharpeninglens = VanillaFactory.createItem("recursion_sharpening_lens");
+recursionsharpeninglens.maxStackSize = 64;
+recursionsharpeninglens.beaconPayment = false;
+recursionsharpeninglens.register();
+
+var valkyrieconstruct = VanillaFactory.createItem("valkyrie_construct");
+valkyrieconstruct.maxStackSize = 64;
+valkyrieconstruct.beaconPayment = false;
+valkyrieconstruct.register();
+
+var hyperchitinousfabrial = VanillaFactory.createItem("hyperchitinous_fabrial");
+hyperchitinousfabrial.maxStackSize = 64;
+hyperchitinousfabrial.beaconPayment = false;
+hyperchitinousfabrial.register();
+
+var divinestellarfabrial = VanillaFactory.createItem("divine_stellar_fabrial");
+divinestellarfabrial.maxStackSize = 64;
+divinestellarfabrial.beaconPayment = false;
+divinestellarfabrial.register();
+
+var ichortaintcondensate = VanillaFactory.createItem("ichor_taint_condensate");
+ichortaintcondensate.maxStackSize = 64;
+ichortaintcondensate.beaconPayment = false;
+ichortaintcondensate.register();
+
+var pearlescentfabrial = VanillaFactory.createItem("pearlescent_fabrial");
+pearlescentfabrial.maxStackSize = 64;
+pearlescentfabrial.beaconPayment = false;
+pearlescentfabrial.register();
+
+
+
+

@@ -45,6 +45,17 @@ elemaltar5.addItemInput(<dimdoors:stable_fabric>);
 elemaltar5.addItemOutput(<contenttweaker:essence_darkness>);
 elemaltar5.build();
 
+val elemaltar5a = RecipeBuilder.newBuilder("elemaltar5a","elemental_altar",10);
+elemaltar5a.addLifeEssenceInput(1000, false);
+elemaltar5a.addItemInput(<bloodmagic:component:16>);
+elemaltar5a.addItemInput(<contenttweaker:lanthanum_salt>);
+elemaltar5a.addItemInput(<abyssalcraft:odbcore>);
+elemaltar5a.addItemInput(<abyssalcraft:dreadplate>);
+elemaltar5a.addItemInput(<contenttweaker:otherwordly_tears_bottle>);
+elemaltar5a.addItemInput(<dimdoors:stable_fabric>);
+elemaltar5a.addItemOutput(<contenttweaker:essence_darkness>);
+elemaltar5a.build();
+
 val elemaltar6 = RecipeBuilder.newBuilder("elemaltar6","elemental_altar",10);
 elemaltar6.addLifeEssenceInput(1000, false);
 elemaltar6.addItemInput(<bloodarsenal:base_item:6>);
@@ -55,6 +66,17 @@ elemaltar6.addItemInput(<contenttweaker:otherwordly_tears_bottle>);
 elemaltar6.addItemInput(<dimdoors:stable_fabric>);
 elemaltar6.addItemOutput(<contenttweaker:essence_helplessness>);
 elemaltar6.build();
+
+val elemaltar6a = RecipeBuilder.newBuilder("elemaltar6a","elemental_altar",10);
+elemaltar6a.addLifeEssenceInput(1000, false);
+elemaltar6a.addItemInput(<bloodarsenal:base_item:6>);
+elemaltar6a.addItemInput(<contenttweaker:lanthanum_salt>);
+elemaltar6a.addItemInput(<abyssalcraft:odbcore>);
+elemaltar6a.addItemInput(<abyssalcraft:dreadplate>);
+elemaltar6a.addItemInput(<contenttweaker:otherwordly_tears_bottle>);
+elemaltar6a.addItemInput(<dimdoors:stable_fabric>);
+elemaltar6a.addItemOutput(<contenttweaker:essence_helplessness>);
+elemaltar6a.build();
 
 val elemaltar7 = RecipeBuilder.newBuilder("elemaltar7","elemental_altar",10);
 elemaltar7.addLifeEssenceInput(10, false);
@@ -105,6 +127,17 @@ elemaltar11.addItemInput(<dimdoors:stable_fabric>);
 elemaltar11.addItemOutput(<contenttweaker:essence_fear>);
 elemaltar11.build();
 
+val elemaltar11a = RecipeBuilder.newBuilder("elemaltar11a","elemental_altar",10);
+elemaltar11a.addLifeEssenceInput(1000, false);
+elemaltar11a.addItemInput(<bloodmagic:component:11>);
+elemaltar11a.addItemInput(<contenttweaker:lanthanum_salt>);
+elemaltar11a.addItemInput(<abyssalcraft:odbcore>);
+elemaltar11a.addItemInput(<abyssalcraft:dreadplate>);
+elemaltar11a.addItemInput(<contenttweaker:otherwordly_tears_bottle>);
+elemaltar11a.addItemInput(<dimdoors:stable_fabric>);
+elemaltar11a.addItemOutput(<contenttweaker:essence_fear>);
+elemaltar11a.build();
+
 val elemaltar12 = RecipeBuilder.newBuilder("elemaltar12","elemental_altar",10);
 elemaltar12.addLifeEssenceInput(1000, false);
 elemaltar12.addItemInput(<gendustry:gene_sample>.withTag({species: "rootTrees", chromosome: 0, allele: "forestry.treeOak"}));
@@ -125,6 +158,17 @@ elemaltar13.addItemInput(<contenttweaker:otherwordly_tears_bottle>);
 elemaltar13.addItemInput(<dimdoors:stable_fabric>);
 elemaltar13.addItemOutput(<contenttweaker:essence_solitude>);
 elemaltar13.build();
+
+val elemaltar13a = RecipeBuilder.newBuilder("elemaltar13a","elemental_altar",10);
+elemaltar13a.addLifeEssenceInput(1000, false);
+elemaltar13a.addItemInput(<bloodmagic:component:4>);
+elemaltar13a.addItemInput(<contenttweaker:lanthanum_salt>);
+elemaltar13a.addItemInput(<abyssalcraft:odbcore>);
+elemaltar13a.addItemInput(<abyssalcraft:dreadplate>);
+elemaltar13a.addItemInput(<contenttweaker:otherwordly_tears_bottle>);
+elemaltar13a.addItemInput(<dimdoors:stable_fabric>);
+elemaltar13a.addItemOutput(<contenttweaker:essence_solitude>);
+elemaltar13a.build();
 
 val elemaltar14 = RecipeBuilder.newBuilder("elemaltar14","elemental_altar",10);
 elemaltar14.addLifeEssenceInput(1000, false);

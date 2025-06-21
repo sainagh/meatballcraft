@@ -163,11 +163,6 @@ mods.recipestages.Recipes.addShapeless("minor_vethea_binding", "MinorVetheaBindi
 
 mods.nuclearcraft.radiation.setRadiationImmunityGameStages(false, ["radiationimmunity"]);
 
-recipes.addShaped(<contenttweaker:shungite_prism>,
-[[<contenttweaker:active_cursed_jewel>, <contenttweaker:shungite>, <contenttweaker:active_cursed_jewel>],
-[<contenttweaker:shungite>, <contenttweaker:shungite>, <contenttweaker:shungite>],
-[<contenttweaker:active_cursed_jewel>, <contenttweaker:sacred_cinders_seed>, <contenttweaker:active_cursed_jewel>]]);
-
 
 mods.recipestages.Recipes.addShaped("makebettergrandcrystals", "hardmode", <contenttweaker:grand_magician_callstone>, [
     [<ebwizardry:large_mana_flask>, <ebwizardry:astral_diamond>, <ebwizardry:large_mana_flask>],

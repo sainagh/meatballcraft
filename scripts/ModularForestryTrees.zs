@@ -1127,3 +1127,11 @@ fortree139k.addItemOutput(<contenttweaker:thaumic_citrus>*60466176);
 fortree139k.build();
 
 
+val fortree140 = RecipeBuilder.newBuilder("fortree140","enchanted_greenhouse",1000);
+fortree140.addItemInput(<advancedrocketry:aliensapling>);
+fortree140.setChance(0.0);
+fortree140.addItemInput(<forestry:peat>);
+fortree140.addItemOutput(<advancedrocketry:alienwood>*64);
+fortree140.addItemOutput(<advancedrocketry:aliensapling>*8);
+fortree140.build();
+

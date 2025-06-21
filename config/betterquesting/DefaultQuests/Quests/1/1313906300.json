@@ -1,0 +1,328 @@
+{
+  "preRequisites:11": [
+    50062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "Parent:10": {
+            "BackpackInventory:10": {
+              "Items:9": {}
+            },
+            "BackpackInventorySize:3": 27,
+            "LockedSlots:7": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "MemoryItems:10": {
+              "Items:9": {}
+            },
+            "MemoryRespectNBT:7": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "SortType:1": 0,
+            "UUIDLeast:4": -4935551937994983208,
+            "UUIDMost:4": -179820294842004319,
+            "UpgradeSlots:10": {
+              "Items:9": {}
+            },
+            "UpgradeSlotsSize:3": 1
+          },
+          "retro_sophisticated_backpacks:backpack_capability:10": {
+            "BackpackInventory:10": {
+              "Items:9": {}
+            },
+            "BackpackInventorySize:3": 27,
+            "LockedSlots:7": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "MemoryItems:10": {
+              "Items:9": {}
+            },
+            "MemoryRespectNBT:7": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "SortType:1": 0,
+            "UUIDLeast:4": -7764574786092485006,
+            "UUIDMost:4": -7046845798150815155,
+            "UpgradeSlots:10": {
+              "Items:9": {}
+            },
+            "UpgradeSlotsSize:3": 1
+          }
+        },
+        "id:8": "retro_sophisticated_backpacks:backpack_leather"
+      },
+      "name:8": "精妙背包"
+    }
+  },
+  "questID:3": 1313906300,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "BackpackInventory:10": {
+                "Items:9": {}
+              },
+              "BackpackInventorySize:3": 27,
+              "LockedSlots:7": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "MemoryItems:10": {
+                "Items:9": {}
+              },
+              "MemoryRespectNBT:7": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "SortType:1": 0,
+              "UUIDLeast:4": -4935551937994983208,
+              "UUIDMost:4": -179820294842004319,
+              "UpgradeSlots:10": {
+                "Items:9": {}
+              },
+              "UpgradeSlotsSize:3": 1
+            },
+            "retro_sophisticated_backpacks:backpack_capability:10": {
+              "BackpackInventory:10": {
+                "Items:9": {}
+              },
+              "BackpackInventorySize:3": 27,
+              "LockedSlots:7": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "MemoryItems:10": {
+                "Items:9": {}
+              },
+              "MemoryRespectNBT:7": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "SortType:1": 0,
+              "UUIDLeast:4": -7764574786092485006,
+              "UUIDMost:4": -7046845798150815155,
+              "UpgradeSlots:10": {
+                "Items:9": {}
+              },
+              "UpgradeSlotsSize:3": 1
+            }
+          },
+          "id:8": "retro_sophisticated_backpacks:backpack_leather"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

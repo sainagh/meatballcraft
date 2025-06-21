@@ -729,3 +729,28 @@ mythmelt657.addEnergyPerTickInput(60000);
 mythmelt657.addItemInput(<contenttweaker:stone_of_the_resurrected_shard>);
 mythmelt657.addFluidOutput(<fluid:stormlight> * 1000000);
 mythmelt657.build();
+
+
+val mythmelt658 = RecipeBuilder.newBuilder("mythmelt658","mythic_processor_melter",2);
+mythmelt658.addEnergyPerTickInput(60000);
+mythmelt658.addItemInput(<ore:ingotAlumite>);
+mythmelt658.addFluidOutput(<fluid:alumite> * 144);
+mythmelt658.build();
+
+val mythmelt659 = RecipeBuilder.newBuilder("mythmelt659","mythic_processor_melter",2);
+mythmelt659.addEnergyPerTickInput(60000);
+mythmelt659.addItemInput(<ore:ingotMirion>);
+mythmelt659.addFluidOutput(<fluid:mirion> * 144);
+mythmelt659.build();
+
+val mythmelt660 = RecipeBuilder.newBuilder("mythmelt660","mythic_processor_melter",2);
+mythmelt660.addEnergyPerTickInput(60000);
+mythmelt660.addItemInput(<contenttweaker:meteoric_draconic_stone>);
+mythmelt660.addFluidOutput(<fluid:meteoric_draconic_matter> * 250);
+mythmelt660.build();
+
+val mythmelt661 = RecipeBuilder.newBuilder("mythmelt661","mythic_processor_melter",2);
+mythmelt661.addEnergyPerTickInput(60000);
+mythmelt661.addItemInput(<contenttweaker:void_ichorium_ore>);
+mythmelt661.addFluidOutput(<fluid:void_ichor> * 250);
+mythmelt661.build();
