@@ -835,9 +835,9 @@ import crafttweaker.item.IItemCondition;
 
 <storagedrawers:upgrade_creative:0>.addTooltip(format.red("无法取出"));
 
-<contenttweaker:weight_of_the_heart>.addTooltip(format.red("坠星位标祭品，消耗5000000LP"));
+<contenttweaker:weight_of_the_heart>.addTooltip(format.red("坠星标位祭品，消耗5000000LP"));
 
-<contenttweaker:cosmic_gem>.addTooltip(format.red("坠星位标祭品，消耗5000000LP"));
+<contenttweaker:cosmic_gem>.addTooltip(format.red("坠星标位祭品，消耗5000000LP"));
 
 <bewitchment:spinning_wheel>.addTooltip(format.red("需要来自祭坛的魔力"));
 
@@ -878,7 +878,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:runandor_wormhole>.addTooltip(format.red("用熔融荧银填满开放式方块模组的蓄水槽，并用正确的符文（8个）环绕"));
 
-<contenttweaker:shining_sandstone>.addTooltip(format.red("通过特殊的坠星位标祭品获得"));
+<contenttweaker:shining_sandstone>.addTooltip(format.red("通过特殊的坠星标位祭品获得"));
 
 <advancedrocketry:lathe>.addTooltip(format.red("非棒类配方是bug导致的，实际上无法起效，无视就好"));
 
@@ -1846,11 +1846,11 @@ import crafttweaker.item.IItemCondition;
 
 <minecraft:fireworks>.addTooltip(format.red("在原版工作台中用火药和纸合成获得"));
 
-<contenttweaker:baku_heart>.addTooltip(format.red("坠星位标祭品，消耗50000LP"));
+<contenttweaker:baku_heart>.addTooltip(format.red("坠星标位祭品，消耗50000LP"));
 
 <contenttweaker:osiris_spinel>.addTooltip(format.red("通过装甲召唤石获得"));
 
-<contenttweaker:demon_stone>.addTooltip(format.red("通过特殊的坠星位标祭品（貘之心）获得"));
+<contenttweaker:demon_stone>.addTooltip(format.red("通过特殊的坠星标位祭品（貘之心）获得"));
 
 <appliedenergistics2:wireless_terminal>.addTooltip(format.red("将量子链接卡放入量子链接仓以获得无限访问范围"));
 
