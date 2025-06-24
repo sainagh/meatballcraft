@@ -878,7 +878,7 @@
 
 <contenttweaker:radioactive_sentient_meatball>.addTooltip(format.red("通过孤寂界召唤石获得"));
 
-<contenttweaker:cosmic_fabric>.addTooltip(format.red("通过特殊的坠星标位祭品获得"));
+<contenttweaker:cosmic_fabric>.addTooltip(format.red("通过特殊的坠星位标祭品获得"));
 
 <abyssalcraft:staff>.addTooltip(format.green("可重复使用"));
 
@@ -2122,12 +2122,12 @@
 
 <extrabotany:bottledflame>.addTooltip(format.red("未携带火把时，会发出烦人的声音"));
 
-<contenttweaker:meteoric_draconic_stone>.addTooltip(format.red("通过在坠星标位仪式中使用龙之法器作为祭品获得"));
+<contenttweaker:meteoric_draconic_stone>.addTooltip(format.red("通过在坠星位标仪式中使用龙之法器作为祭品获得"));
 
-<contenttweaker:draconic_fabrial>.addTooltip(format.red("坠星标位祭品，消耗50000LP"));
+<contenttweaker:draconic_fabrial>.addTooltip(format.red("坠星位标祭品，消耗50000LP"));
 <contenttweaker:draconic_fabrial>.addTooltip(format.red("videojamiemostlikely有个点子"));
 
-<contenttweaker:hungering_world_soul>.addTooltip(format.red("坠星标位祭品，消耗50000LP"));
+<contenttweaker:hungering_world_soul>.addTooltip(format.red("坠星位标祭品，消耗50000LP"));
 
 
 <buildcraftsilicon:laser>.addTooltip(format.red("面向装配台来为其供能"));
@@ -2730,7 +2730,7 @@
 <dankstorage:dank_7>.addTooltip(format.red("注意：对于巨型终局配方，合成失败可能会导致物品被删除"));
 
 
-<contenttweaker:dense_dimensional_shard_ore>.addTooltip(format.red("通过使用饥渴世界之魂作为祭品的坠星标位仪式获得"));
+<contenttweaker:dense_dimensional_shard_ore>.addTooltip(format.red("通过使用饥渴世界之魂作为祭品的坠星位标仪式获得"));
 
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("注意：要自动化该物品，遵循JEI信息框中的提示"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("初始需要以下超限附魔："));

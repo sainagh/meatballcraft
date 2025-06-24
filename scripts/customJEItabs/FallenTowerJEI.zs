@@ -6,7 +6,7 @@ import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
-var markofthefallentowerJEI as IJeiPanel = JEI.createJei("fallen_tower_ritual", "坠星标位");
+var markofthefallentowerJEI as IJeiPanel = JEI.createJei("fallen_tower_ritual", "坠星位标");
 markofthefallentowerJEI.setModid("Railcraft");
 markofthefallentowerJEI.setIcon(<bloodmagic:ritual_controller>);
 markofthefallentowerJEI.addRecipeCatalyst(<contenttweaker:mark_fallen_tower>);
