@@ -2208,7 +2208,7 @@
 <rftoolsdim:dimension_enscriber>.addTooltip(format.red("无法在卡尚维度中放置"));
 <rftoolsdim:dimlet_workbench>.addTooltip(format.red("无法在卡尚维度中放置"));
 
-<contenttweaker:fiery_pyrite>.addTooltip(format.red("也可通过使用对应维度的尖晶石作为祭品的坠星位标仪式获得，适用于#无EMC挑战"));
+<contenttweaker:fiery_pyrite>.addTooltip(format.red("也可通过使用对应维度的尖晶石作为祭品的坠星标位仪式获得，适用于#无EMC挑战"));
 
 <contenttweaker:helpful_tippy_hat>.addTooltip(format.red("本整合包的许多设计都与众不同……"));
 <contenttweaker:helpful_tippy_hat>.addTooltip(format.red("请仔细阅读任务书和信息框中的内容！"));
