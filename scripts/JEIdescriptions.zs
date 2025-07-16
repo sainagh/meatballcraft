@@ -4034,7 +4034,7 @@ mods.jei.JEI.addDescription([
 [
     "Flux Networks are used to transfer energy wirelessly, and are the preferred energy transfer method in the pack.",
     "",
-    "To create your own Flux Network, you need a Controller. You can specify the name of teh network and a color in the Controller GUI. Each Flux Networks machine will have to be bound to a network to function.",
+    "To create your own Flux Network, you need a Controller. You can specify the name of the network and a color in the Controller GUI. Each Flux Networks machine will have to be bound to a network to function.",
     "",
     "Flux Plugs are used to move energy from a source to a network.",
     "",
