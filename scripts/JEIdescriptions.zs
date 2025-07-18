@@ -4327,7 +4327,7 @@ mods.jei.JEI.addDescription([
     "",
     "This method is slow, for fast automation passive packaged auto is recommended (it has its own JEI info box), but this method is simpler, and fast enough for some resources.",
     "",
-    "Place an Automation Interface on top of an extended crafting table (including the Ender Crafting Table), and click 'Save Recipe' to set the ercipe to be automated.",
+    "Place an Automation Interface on top of an extended crafting table (including the Ender Crafting Table), and click 'Save Recipe' to set the recipe to be automated.",
     "",
     "The Automation Interface can be set to auto-pull under 'Config'.",
     "",
