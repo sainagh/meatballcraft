@@ -242,8 +242,8 @@ true,
 <contenttweaker:true_chaos>,<contenttweaker:wormhole_catalyst>,
 <contenttweaker:true_chaos>,<contenttweaker:wormhole_catalyst>,
 <contenttweaker:true_chaos>,<contenttweaker:wormhole_catalyst>]);
-game.setLocalization("ac.ritual.KashanWarperInf", "宇宙尽在掌握"); 
-game.setLocalization("ac.ritual.KashanWarperInf.desc", "这是一切意义之所在");
+game.setLocalization("ac.ritual.KashanWarperInf", "The universe at my fingertips"); 
+game.setLocalization("ac.ritual.KashanWarperInf.desc", "This is what it's all about");
 
 
 recipes.addShaped(<contenttweaker:true_tongue_oath>,

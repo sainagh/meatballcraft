@@ -108,8 +108,8 @@ true,
 <bewitchment:sigil_battle>,<contenttweaker:dragon_will_fragment>,
 <contenttweaker:wing_of_worship>,<contenttweaker:dragon_will_fragment>,
 <bewitchment:swirl_of_depths>,<contenttweaker:dragon_will_fragment>]);
-game.setLocalization("ac.ritual.freetheheartofhearts", "心中之心"); 
-game.setLocalization("ac.ritual.freetheheartofhearts.desc", "解放心中之心");
+game.setLocalization("ac.ritual.freetheheartofhearts", "Heart of hearts"); 
+game.setLocalization("ac.ritual.freetheheartofhearts.desc", "Free the Heart of hearts");
 
 recipes.addShaped(<contenttweaker:whispering_heart_of_hearts>*2,
 [[<aoa3:mystite_block>, <abyssalcraft:materializer>, <aoa3:mystite_block>],
@@ -279,8 +279,8 @@ true,
 <contenttweaker:cursed_sapphire>, 
 [<contenttweaker:pulsating_fluix>,<extendedcrafting:singularity_custom:994>,<contenttweaker:pulsating_fluix>,<extendedcrafting:singularity_custom:994>,
 <contenttweaker:pulsating_fluix>,<extendedcrafting:singularity_custom:994>,<contenttweaker:pulsating_fluix>,<extendedcrafting:singularity_custom:994>]);
-game.setLocalization("ac.ritual.oblivionairecallstone", "湮没无闻"); 
-game.setLocalization("ac.ritual.oblivionairecallstone.desc", "遗忘者");
+game.setLocalization("ac.ritual.oblivionairecallstone", "into oblivion"); 
+game.setLocalization("ac.ritual.oblivionairecallstone.desc", "oblivionaire");
 
 recipes.addShaped(<contenttweaker:oblivionaire_callstone>,
 [[<contenttweaker:oblivion_catalyzer>, <abyssalcraft:odb>, <contenttweaker:oblivion_catalyzer>],
@@ -429,8 +429,8 @@ true,
 <abyssalcraft:gatewaykeyjzh>, 
 [<aoa3:staring_eye>,<contenttweaker:abyssal_flesh>,<aoa3:staring_eye>,<contenttweaker:abyssal_flesh>,
 <aoa3:staring_eye>,<contenttweaker:abyssal_flesh>,<aoa3:staring_eye>,<contenttweaker:abyssal_flesh>]);
-game.setLocalization("ac.ritual.shadowlordsupcallstone", "阴影之主"); 
-game.setLocalization("ac.ritual.shadowlordsupcallstone.desc", "支配血肉");
+game.setLocalization("ac.ritual.shadowlordsupcallstone", "The Lord of Shadows"); 
+game.setLocalization("ac.ritual.shadowlordsupcallstone.desc", "Domains of the flesh");
 
 recipes.addShapeless(<abyssalcraft:shoggothflesh:0>,
 [<contenttweaker:eye_of_flesh_manipulation>.reuse(),

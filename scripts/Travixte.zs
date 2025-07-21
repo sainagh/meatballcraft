@@ -18,8 +18,8 @@ true,
 <contenttweaker:star_of_betrayal>,<contenttweaker:shard_of_the_cosmos>,
 <contenttweaker:star_of_betrayal>,<contenttweaker:orichalcum>,
 <contenttweaker:star_of_betrayal>,<contenttweaker:shard_of_the_cosmos>]);
-game.setLocalization("ac.ritual.TravixteWarperThingy", "争竞界大兄弟"); 
-game.setLocalization("ac.ritual.TravixteWarperThingy.desc", "争竞，争竞，争竞界！");
+game.setLocalization("ac.ritual.TravixteWarperThingy", "Bigboi Travixte"); 
+game.setLocalization("ac.ritual.TravixteWarperThingy.desc", "Travixte Travixte Travixte!");
 
 
 
@@ -45,8 +45,8 @@ true,
 <contenttweaker:true_tongue_oath>,<contenttweaker:undead_soil>,
 <contenttweaker:true_tongue_oath>,<contenttweaker:undead_soil>,
 <contenttweaker:true_tongue_oath>,<contenttweaker:undead_soil>]);
-game.setLocalization("ac.ritual.TravixteOathLords", "争竞界大兄弟"); 
-game.setLocalization("ac.ritual.TravixteOathLords.desc", "争竞，争竞，争竞界！");
+game.setLocalization("ac.ritual.TravixteOathLords", "Bigboi Travixte"); 
+game.setLocalization("ac.ritual.TravixteOathLords.desc", "Travixte Travixte Travixte!");
 
 
 mods.thaumcraft.Infusion.registerRecipe("infdeathcallstonedeath", "", 
@@ -71,8 +71,8 @@ true,
 <contenttweaker:true_tongue_oath>,<contenttweaker:shard_of_the_cosmos>,
 <tconstruct:pan_head>.withTag({Material: "mod_lavacow.ectoplasm"}),<contenttweaker:shard_of_the_cosmos>,
 <contenttweaker:true_tongue_oath>,<contenttweaker:shard_of_the_cosmos>]);
-game.setLocalization("ac.ritual.TravixteVowDeath", "争竞界大兄弟"); 
-game.setLocalization("ac.ritual.TravixteVowDeath.desc", "争竞，争竞，争竞界！");
+game.setLocalization("ac.ritual.TravixteVowDeath", "Bigboi Travixte"); 
+game.setLocalization("ac.ritual.TravixteVowDeath.desc", "Travixte Travixte Travixte!");
 
 
 mods.thaumcraft.Infusion.registerRecipe("infdeathrecursiongluttony", "", 
@@ -139,8 +139,8 @@ true,
 <contenttweaker:gun_devil_piece>,<contenttweaker:gun_devil_piece>,
 <contenttweaker:gun_devil_piece>,<contenttweaker:gun_devil_piece>,
 <contenttweaker:gun_devil_piece>,<contenttweaker:gun_devil_piece>]);
-game.setLocalization("ac.ritual.TravixteGunDevil", "争竞界大兄弟"); 
-game.setLocalization("ac.ritual.TravixteGunDevil.desc", "争竞，争竞，争竞界！");
+game.setLocalization("ac.ritual.TravixteGunDevil", "Bigboi Travixte"); 
+game.setLocalization("ac.ritual.TravixteGunDevil.desc", "Travixte Travixte Travixte!");
 
 
 mods.thaumcraft.Infusion.registerRecipe("infbedrockblaster", "", 
