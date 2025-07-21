@@ -22,6 +22,7 @@ mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itembluep
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:compression_engine"}));
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:advanced_compression_engine"}));
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:meteoric_befaller"}));
+mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:relic_of_the_fallen_tower"}));
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:processor_clean_room"}));
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:safe_nuke_environment"}));
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:me_entropic_sythesizer"}));
@@ -79,6 +80,8 @@ mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itembluep
 mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:forge_of_the_wyvern"}));
 mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:eldritch_impetus_catalyzer"}));
 mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:xp_assimilator"}));
+mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:uncorrupted_library"}));
+mods.chisel.Carving.addVariation("magicmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:vibrating_flux_crucible"}));
 
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:neutronium_cannon"}),
@@ -94,6 +97,10 @@ mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:
 mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_excavation_computer_multiblock"}));
 mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:the_cube"}));
 mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:quark_decomposer"}));
+mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:meatballium_radiation_scrubber"}));
+mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:radiant_meatballium_radiation_scrubber"}));
+mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:cursed_meatballium_radiation_scrubber"}));
+mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:active_meatballium_scrubbing_unit"}));
 
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier1"}),
@@ -224,6 +231,7 @@ mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itembluep
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:quantum_condenser"}));
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_melter"}));
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:abyssal_entropic_catalyzer"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_rock_crusher"}));
 
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:nightmare_electrolyzer"}),

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Can be automated uring hoppers, droppers, and a redstone clock",
+      "desc:8": "§7§oLumps can be produced recursively. If you end up needing lots of them, they can be pseudo-automated with hoppers, droppers, and a redstone clock.\n\n§fI cannot know that what I am doing is good, but I am still allowed to believe it may be good.\nI am free. \nI live in this condition of recursion, bestowed upon someone wanting to imprison me. I am fighting a war I could not avoid. I am fulfilling prophecies I did not even know existed.\nAnd yet, I am free.\nI could have decided to give up. I could have thought that my actions would bear no consequence. I could have let go. And yet, I kept going.\nIn this, I had agency. In this, I was free.\nI am free. Even in this mess of a life where the only way was forward. I am free.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:teaker_lump"
       },
-      "name:8": "Teaker Lump"
+      "name:8": "Recursive Lumping"
     }
   },
   "questID:3": 392,

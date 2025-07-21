@@ -1,8 +1,8 @@
 [
   {
     "id": "blaze",
-    "displayName": "çƒˆç„°äºº",
-    "displayNamePlural": "çƒˆç„°äºº",
+    "displayName": "ÁÒÑæÈË",
+    "displayNamePlural": "ÁÒÑæÈË",
     "livingMatter": "hellish",
     "simulationRFCost": 1500,
     "craftingIngredients": [
@@ -31,8 +31,8 @@
   },
   {
     "id": "creeper",
-    "displayName": "çˆ¬è¡Œè€…",
-    "displayNamePlural": "çˆ¬è¡Œè€…",
+    "displayName": "ÅÀĞĞÕß",
+    "displayNamePlural": "ÅÀĞĞÕß",
     "livingMatter": "overworldian",
     "simulationRFCost": 80,
     "craftingIngredients": [
@@ -60,8 +60,8 @@
   },
   {
     "id": "dragon",
-    "displayName": "æœ«å½±é¾™",
-    "displayNamePlural": "æœ«å½±é¾™",
+    "displayName": "Ä©Ó°Áú",
+    "displayNamePlural": "Ä©Ó°Áú",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -91,8 +91,8 @@
   },
   {
     "id": "enderman",
-    "displayName": "æœ«å½±äºº",
-    "displayNamePlural": "æœ«å½±äºº",
+    "displayName": "Ä©Ó°ÈË",
+    "displayNamePlural": "Ä©Ó°ÈË",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 2000,
     "craftingIngredients": [
@@ -129,8 +129,8 @@
   },
   {
     "id": "ghast",
-    "displayName": "æ¶é­‚",
-    "displayNamePlural": "æ¶é­‚",
+    "displayName": "¶ñ»ê",
+    "displayNamePlural": "¶ñ»ê",
     "livingMatter": "hellish",
     "simulationRFCost": 2000,
     "craftingIngredients": [
@@ -157,8 +157,8 @@
   },
   {
     "id": "guardian",
-    "displayName": "å®ˆæŠ¤è€…",
-    "displayNamePlural": "å®ˆæŠ¤è€…",
+    "displayName": "ÊØ»¤Õß",
+    "displayNamePlural": "ÊØ»¤Õß",
     "livingMatter": "overworldian",
     "simulationRFCost": 1500,
     "craftingIngredients": [
@@ -190,8 +190,8 @@
   },
   {
     "id": "shulker",
-    "displayName": "æ½œå½±è´",
-    "displayNamePlural": "æ½œå½±è´",
+    "displayName": "Ç±Ó°±´",
+    "displayNamePlural": "Ç±Ó°±´",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 1000,
     "craftingIngredients": [
@@ -218,8 +218,8 @@
   },
   {
     "id": "skeleton",
-    "displayName": "éª·é«…",
-    "displayNamePlural": "éª·é«…",
+    "displayName": "÷¼÷Ã",
+    "displayNamePlural": "÷¼÷Ã",
     "livingMatter": "overworldian",
     "simulationRFCost": 80,
     "craftingIngredients": [
@@ -261,8 +261,8 @@
   },
   {
     "id": "slime",
-    "displayName": "å²è±å§†",
-    "displayNamePlural": "å²è±å§†",
+    "displayName": "Ê·À³Ä·",
+    "displayNamePlural": "Ê·À³Ä·",
     "livingMatter": "overworldian",
     "simulationRFCost": 300,
     "craftingIngredients": [
@@ -298,8 +298,8 @@
   },
   {
     "id": "spider",
-    "displayName": "èœ˜è››",
-    "displayNamePlural": "èœ˜è››",
+    "displayName": "Ö©Öë",
+    "displayNamePlural": "Ö©Öë",
     "livingMatter": "overworldian",
     "simulationRFCost": 80,
     "craftingIngredients": [
@@ -344,8 +344,8 @@
   },
   {
     "id": "witch",
-    "displayName": "å¥³å·«",
-    "displayNamePlural": "å¥³å·«",
+    "displayName": "Å®Î×",
+    "displayNamePlural": "Å®Î×",
     "livingMatter": "overworldian",
     "simulationRFCost": 400,
     "craftingIngredients": [
@@ -382,8 +382,8 @@
   },
   {
     "id": "wither",
-    "displayName": "å‡‹çµ",
-    "displayNamePlural": "å‡‹çµ",
+    "displayName": "µòÁé",
+    "displayNamePlural": "µòÁé",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 5000,
     "craftingIngredients": [
@@ -414,8 +414,8 @@
   },
   {
     "id": "wither_skeleton",
-    "displayName": "å‡‹çµéª·é«…",
-    "displayNamePlural": "å‡‹çµéª·é«…",
+    "displayName": "µòÁé÷¼÷Ã",
+    "displayNamePlural": "µòÁé÷¼÷Ã",
     "livingMatter": "hellish",
     "simulationRFCost": 3000,
     "craftingIngredients": [
@@ -452,8 +452,8 @@
   },
   {
     "id": "zombie",
-    "displayName": "åƒµå°¸",
-    "displayNamePlural": "åƒµå°¸",
+    "displayName": "½©Ê¬",
+    "displayNamePlural": "½©Ê¬",
     "livingMatter": "overworldian",
     "simulationRFCost": 80,
     "craftingIngredients": [
@@ -505,8 +505,8 @@
   {
     "id": "thermal_elemental",
     "mod": "thermalfoundation",
-    "displayName": "çƒ­åŠ›å…ƒç´ ",
-    "displayNamePlural": "çƒ­åŠ›å…ƒç´ ",
+    "displayName": "ÈÈÁ¦ÔªËØ",
+    "displayNamePlural": "ÈÈÁ¦ÔªËØ",
     "livingMatter": "overworldian",
     "simulationRFCost": 500,
     "craftingIngredients": [
@@ -543,14 +543,14 @@
   {
     "id": "twilight_forest",
     "mod": "twilightforest",
-    "displayName": "æ£®æ—ç”Ÿç‰©",
-    "displayNamePlural": "æ£®æ—ç”Ÿç‰©",
+    "displayName": "É­ÁÖÉúÎï",
+    "displayNamePlural": "É­ÁÖÉúÎï",
     "livingMatter": "twilight",
     "simulationRFCost": 500,
     "craftingIngredients": [
       "twilightforest:firefly"
     ],
-    "extraTooltip": "é€šè¿‡å‡»è´¥å¨œè¿¦åº­é™¢å’Œå·«å¦–å¡”çš„éåŸç‰ˆç”Ÿç‰©è·å–æ•°æ®ã€‚",
+    "extraTooltip": "Í¨¹ı»÷°ÜÄÈåÈÍ¥ÔººÍÎ×ÑıËşµÄ·ÇÔ­°æÉúÎï»ñÈ¡Êı¾İ¡£",
     "associatedMobs": [
       "twilightforest:naga",
       "twilightforest:lich_minion",
@@ -580,14 +580,14 @@
   {
     "id": "twilight_swamp",
     "mod": "twilightforest",
-    "displayName": "æ²¼æ³½ç”Ÿç‰©",
-    "displayNamePlural": "æ²¼æ³½ç”Ÿç‰©",
+    "displayName": "ÕÓÔóÉúÎï",
+    "displayNamePlural": "ÕÓÔóÉúÎï",
     "livingMatter": "twilight",
     "simulationRFCost": 500,
     "craftingIngredients": [
       "minecraft:waterlily"
     ],
-    "extraTooltip": "é€šè¿‡å‡»è´¥æ²¼æ³½ç‰›å¤´äººè¿·å®«å’Œä¹å¤´è›‡å·¢ç©´çš„éåŸç‰ˆç”Ÿç‰©è·å–æ•°æ®ã€‚",
+    "extraTooltip": "Í¨¹ı»÷°ÜÕÓÔóÅ£Í·ÈËÃÔ¹¬ºÍ¾ÅÍ·Éß³²Ñ¨µÄ·ÇÔ­°æÉúÎï»ñÈ¡Êı¾İ¡£",
     "associatedMobs": [
       "twilightforest:minotaur",
       "twilightforest:minoshroom",
@@ -624,14 +624,14 @@
   {
     "id": "twilight_glacier",
     "mod": "twilightforest",
-    "displayName": "å†°å·ä½æ°‘",
-    "displayNamePlural": "å†°å·ä½æ°‘",
+    "displayName": "±ù´¨×¡Ãñ",
+    "displayNamePlural": "±ù´¨×¡Ãñ",
     "livingMatter": "twilight",
     "simulationRFCost": 500,
     "craftingIngredients": [
       "twilightforest:arctic_fur"
     ],
-    "extraTooltip": "é€šè¿‡å‡»è´¥é›ªæ€ªå·¢ç©´å’Œæå…‰å®«æ®¿çš„éåŸç‰ˆç”Ÿç‰©è·å–æ•°æ®ã€‚",
+    "extraTooltip": "Í¨¹ı»÷°ÜÑ©¹Ö³²Ñ¨ºÍ¼«¹â¹¬µîµÄ·ÇÔ­°æÉúÎï»ñÈ¡Êı¾İ¡£",
     "associatedMobs": [
       "twilightforest:yeti_alpha",
       "twilightforest:yeti",
@@ -668,14 +668,14 @@
   {
     "id": "twilight_darkwood",
     "mod": "twilightforest",
-    "displayName": "é»‘æ ‘ç”Ÿç‰©",
-    "displayNamePlural": "é»‘æ ‘ç”Ÿç‰©",
+    "displayName": "ºÚÊ÷ÉúÎï",
+    "displayNamePlural": "ºÚÊ÷ÉúÎï",
     "livingMatter": "twilight",
     "simulationRFCost": 500,
     "craftingIngredients": [
       "twilightforest:twilight_log"
     ],
-    "extraTooltip": "é€šè¿‡å‡»è´¥åœ°ç²¾éª‘å£«è¦å¡å’Œé»‘æš—é«˜å¡”çš„éåŸç‰ˆç”Ÿç‰©è·å–æ•°æ®ã€‚",
+    "extraTooltip": "Í¨¹ı»÷°ÜµØ¾«ÆïÊ¿ÒªÈûºÍºÚ°µ¸ßËşµÄ·ÇÔ­°æÉúÎï»ñÈ¡Êı¾İ¡£",
     "associatedMobs": [
       "twilightforest:redcap",
       "twilightforest:blockchain_goblin",
@@ -715,8 +715,8 @@
   {
     "id": "tinker_slime",
     "mod": "tconstruct",
-    "displayName": "è“è‰²å²è±å§†",
-    "displayNamePlural": "è“è‰²å²è±å§†",
+    "displayName": "À¶É«Ê·À³Ä·",
+    "displayNamePlural": "À¶É«Ê·À³Ä·",
     "livingMatter": "overworldian",
     "simulationRFCost": 500,
     "craftingIngredients": [
@@ -749,8 +749,8 @@
   {
     "id": "mo_android",
     "mod": "matteroverdrive",
-    "displayName": "æ··æˆ˜æœºæ¢°äºº",
-    "displayNamePlural": "æ··æˆ˜æœºæ¢°äºº",
+    "displayName": "»ìÕ½»úĞµÈË",
+    "displayNamePlural": "»ìÕ½»úĞµÈË",
     "livingMatter": "overworldian",
     "simulationRFCost": 256,
     "craftingIngredients": [
@@ -782,8 +782,8 @@
   },
   {
     "id": "illager",
-    "displayName": "ç¾å„æ‘æ°‘",
-    "displayNamePlural": "ç¾å„æ‘æ°‘",
+    "displayName": "ÔÖ¶ò´åÃñ",
+    "displayNamePlural": "ÔÖ¶ò´åÃñ",
     "livingMatter": "overworldian",
     "simulationRFCost": 128,
     "craftingIngredients": [
@@ -813,8 +813,8 @@
   },
   {
     "id": "hydra",
-    "displayName": "ä¹å¤´è›‡",
-    "displayNamePlural": "ä¹å¤´è›‡",
+    "displayName": "¾ÅÍ·Éß",
+    "displayNamePlural": "¾ÅÍ·Éß",
     "livingMatter": "overworldian",
     "simulationRFCost": 256,
     "craftingIngredients": [
@@ -841,8 +841,8 @@
   },
   {
     "id": "ayeraco",
-    "displayName": "ç©ºå½±å…½",
-    "displayNamePlural": "ç©ºå½±å…½",
+    "displayName": "¿ÕÓ°ÊŞ",
+    "displayNamePlural": "¿ÕÓ°ÊŞ",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 4000,
     "craftingIngredients": [
@@ -875,8 +875,8 @@
   },
   {
     "id": "nethengeicbeast",
-    "displayName": "çº³å¾·å‰å…‹å…½",
-    "displayNamePlural": "çº³å¾·å‰å…‹å…½",
+    "displayName": "ÄÉµÂ¼ª¿ËÊŞ",
+    "displayNamePlural": "ÄÉµÂ¼ª¿ËÊŞ",
     "livingMatter": "hellish",
     "simulationRFCost": 1000,
     "craftingIngredients": [
@@ -931,8 +931,8 @@
   },
   {
     "id": "smash",
-    "displayName": "ç²‰ç¢",
-    "displayNamePlural": "ç²‰ç¢",
+    "displayName": "·ÛËé",
+    "displayNamePlural": "·ÛËé",
     "livingMatter": "overworldian",
     "simulationRFCost": 2000,
     "craftingIngredients": [
@@ -962,8 +962,8 @@
   },
   {
     "id": "corallus",
-    "displayName": "çŠç‘šå®ˆå«è€…",
-    "displayNamePlural": "çŠç‘šå®ˆå«è€…",
+    "displayName": "Éºº÷ÊØÎÀÕß",
+    "displayNamePlural": "Éºº÷ÊØÎÀÕß",
     "livingMatter": "overworldian",
     "simulationRFCost": 3000,
     "craftingIngredients": [
@@ -992,8 +992,8 @@
   },
   {
     "id": "nethengeicwither",
-    "displayName": "çº³å¾·å‰å…‹å‡‹çµ",
-    "displayNamePlural": "çº³å¾·å‰å…‹å‡‹çµ",
+    "displayName": "ÄÉµÂ¼ª¿ËµòÁé",
+    "displayNamePlural": "ÄÉµÂ¼ª¿ËµòÁé",
     "livingMatter": "hellish",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1022,8 +1022,8 @@
   },
   {
     "id": "mothervoidwalker",
-    "displayName": "è™šç©ºæ­¥è¡Œè€…ä¹‹æ¯",
-    "displayNamePlural": "è™šç©ºæ­¥è¡Œè€…ä¹‹æ¯",
+    "displayName": "Ğé¿Õ²½ĞĞÕßÖ®Ä¸",
+    "displayNamePlural": "Ğé¿Õ²½ĞĞÕßÖ®Ä¸",
     "livingMatter": "overworldian",
     "simulationRFCost": 1000,
     "craftingIngredients": [
@@ -1034,7 +1034,7 @@
     ],
     "lootItems": [
       "aoa3:void_scales,1,0",
-      "actuallyadditions:item_misc,10,20",
+      "actuallyadditions:item_misc,20,20",
       "thaumcraft:curio,1,1"
     ],
     "deepLearnerDisplay": {
@@ -1050,8 +1050,8 @@
   },
   {
     "id": "betweenswamp",
-    "displayName": "çƒ‚æ³¥è •è™«",
-    "displayNamePlural": "çƒ‚æ³¥è •è™«",
+    "displayName": "ÀÃÄàÈä³æ",
+    "displayNamePlural": "ÀÃÄàÈä³æ",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 1000,
     "craftingIngredients": [
@@ -1080,8 +1080,8 @@
   },
   {
     "id": "elusive",
-    "displayName": "è™šå½±",
-    "displayNamePlural": "è™šå½±",
+    "displayName": "ĞéÓ°",
+    "displayNamePlural": "ĞéÓ°",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1110,8 +1110,8 @@
   },
   {
     "id": "shadowlord",
-    "displayName": "æš—å½±é¢†ä¸»",
-    "displayNamePlural": "æš—å½±é¢†ä¸»",
+    "displayName": "°µÓ°ÁìÖ÷",
+    "displayNamePlural": "°µÓ°ÁìÖ÷",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1140,8 +1140,8 @@
   },
   {
     "id": "graw",
-    "displayName": "æ£®æ—å®ˆæŠ¤è€…",
-    "displayNamePlural": "æ£®æ—å®ˆæŠ¤è€…",
+    "displayName": "É­ÁÖÊØ»¤Õß",
+    "displayNamePlural": "É­ÁÖÊØ»¤Õß",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1155,7 +1155,7 @@
       "tconstruct:materials,4,9",
       "actuallyadditions:item_crystal,4,1",
       "aoa3:graw_statue,1,0",
-      "actuallyadditions:item_misc,30,20"
+      "actuallyadditions:item_misc,40,20"
     ],
     "deepLearnerDisplay": {
       "hearts": 100,
@@ -1171,8 +1171,8 @@
   },
   {
     "id": "tyrosaur",
-    "displayName": "åœ°åŸŸé¢†ä¸»",
-    "displayNamePlural": "åœ°åŸŸé¢†ä¸»",
+    "displayName": "µØÓòÁìÖ÷",
+    "displayNamePlural": "µØÓòÁìÖ÷",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1201,8 +1201,8 @@
   },
   {
     "id": "skeletron",
-    "displayName": "éª·é«…é¦–é¢†",
-    "displayNamePlural": "éª·é«…é¦–é¢†",
+    "displayName": "÷¼÷ÃÊ×Áì",
+    "displayNamePlural": "÷¼÷ÃÊ×Áì",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1230,8 +1230,8 @@
   },
   {
     "id": "baroness",
-    "displayName": "å¥³çˆµ",
-    "displayNamePlural": "å¥³çˆµ",
+    "displayName": "Å®¾ô",
+    "displayNamePlural": "Å®¾ô",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1260,8 +1260,8 @@
   },
   {
     "id": "hiveking",
-    "displayName": "èœ‚ç‹",
-    "displayNamePlural": "èœ‚ç‹",
+    "displayName": "·äÍõ",
+    "displayNamePlural": "·äÍõ",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1319,8 +1319,8 @@
   },
   {
     "id": "kror",
-    "displayName": "çŸ³å·¨äºº",
-    "displayNamePlural": "çŸ³å·¨äºº",
+    "displayName": "Ê¯¾ŞÈË",
+    "displayNamePlural": "Ê¯¾ŞÈË",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1349,8 +1349,8 @@
   },
   {
     "id": "voxxulon",
-    "displayName": "ä¸è¯¦å·¨ç‰©",
-    "displayNamePlural": "ä¸è¯¦å·¨ç‰©",
+    "displayName": "²»Ïê¾ŞÎï",
+    "displayNamePlural": "²»Ïê¾ŞÎï",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1380,8 +1380,8 @@
   },
   {
     "id": "kingshroomus",
-    "displayName": "é­”è‡ç‹",
-    "displayNamePlural": "é­”è‡ç‹",
+    "displayName": "Ä§¹½Íõ",
+    "displayNamePlural": "Ä§¹½Íõ",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1410,8 +1410,8 @@
   },
   {
     "id": "silverfoot",
-    "displayName": "å‰‘åœ£",
-    "displayNamePlural": "å‰‘åœ£",
+    "displayName": "½£Ê¥",
+    "displayNamePlural": "½£Ê¥",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1439,8 +1439,8 @@
   },
   {
     "id": "mechbot",
-    "displayName": "æœºç”²æˆ˜å£«",
-    "displayNamePlural": "æœºç”²æˆ˜å£«",
+    "displayName": "»ú¼×Õ½Ê¿",
+    "displayNamePlural": "»ú¼×Õ½Ê¿",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1468,8 +1468,8 @@
   },
   {
     "id": "havenguardians",
-    "displayName": "å¤©å ‚ç›‘ç®¡è€…",
-    "displayNamePlural": "å¤©å ‚ç›‘ç®¡è€…",
+    "displayName": "ÌìÌÃ¼à¹ÜÕß",
+    "displayNamePlural": "ÌìÌÃ¼à¹ÜÕß",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1500,8 +1500,8 @@
   },
   {
     "id": "rockrider",
-    "displayName": "å·¨å²©éª‘å£«",
-    "displayNamePlural": "å·¨å²©éª‘å£«",
+    "displayName": "¾ŞÑÒÆïÊ¿",
+    "displayNamePlural": "¾ŞÑÒÆïÊ¿",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1529,8 +1529,8 @@
   },
   {
     "id": "cottoncandor",
-    "displayName": "ç³–æœå·¨äºº",
-    "displayNamePlural": "ç³–æœå·¨äºº",
+    "displayName": "ÌÇ¹û¾ŞÈË",
+    "displayNamePlural": "ÌÇ¹û¾ŞÈË",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1558,8 +1558,8 @@
   },
   {
     "id": "gyro",
-    "displayName": "é™€èºä»ª",
-    "displayNamePlural": "é™€èºä»ª",
+    "displayName": "ÍÓÂİÒÇ",
+    "displayNamePlural": "ÍÓÂİÒÇ",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1587,8 +1587,8 @@
   },
   {
     "id": "vinocorne",
-    "displayName": "æ¤ç‰©ç‹",
-    "displayNamePlural": "æ¤ç‰©ç‹",
+    "displayName": "Ö²ÎïÍõ",
+    "displayNamePlural": "Ö²ÎïÍõ",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1616,8 +1616,8 @@
   },
   {
     "id": "crystocore",
-    "displayName": "èƒ½é‡æ„å»ºè€…",
-    "displayNamePlural": "èƒ½é‡æ„å»ºè€…",
+    "displayName": "ÄÜÁ¿¹¹½¨Õß",
+    "displayNamePlural": "ÄÜÁ¿¹¹½¨Õß",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1645,8 +1645,8 @@
   },
   {
     "id": "visualent",
-    "displayName": "è§‚å¯Ÿè€…",
-    "displayNamePlural": "è§‚å¯Ÿè€…",
+    "displayName": "¹Û²ìÕß",
+    "displayNamePlural": "¹Û²ìÕß",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1675,8 +1675,8 @@
   },
   {
     "id": "clunkhead",
-    "displayName": "æ–©é¦–",
-    "displayNamePlural": "æ–©é¦–",
+    "displayName": "Õ¶Ê×",
+    "displayNamePlural": "Õ¶Ê×",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1705,8 +1705,8 @@
   },
   {
     "id": "dracyon",
-    "displayName": "é£è¡Œå®ˆæŠ¤è€…",
-    "displayNamePlural": "é£è¡Œå®ˆæŠ¤è€…",
+    "displayName": "·ÉĞĞÊØ»¤Õß",
+    "displayNamePlural": "·ÉĞĞÊØ»¤Õß",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1735,8 +1735,8 @@
   },
   {
     "id": "hydrolisk",
-    "displayName": "æ°´èƒ½é¾™èœ¥",
-    "displayNamePlural": "æ°´èƒ½é¾™èœ¥",
+    "displayName": "Ë®ÄÜÁúòá",
+    "displayNamePlural": "Ë®ÄÜÁúòá",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1764,8 +1764,8 @@
   },
   {
     "id": "terrafractallites",
-    "displayName": "è¿œå¤åˆ†å½¢è€…",
-    "displayNamePlural": "è¿œå¤åˆ†å½¢è€…",
+    "displayName": "Ô¶¹Å·ÖĞÎÕß",
+    "displayNamePlural": "Ô¶¹Å·ÖĞÎÕß",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1799,8 +1799,8 @@
   },
   {
     "id": "immortalfractallites",
-    "displayName": "ä¸æœ½åˆ†å½¢è€…",
-    "displayNamePlural": "ä¸æœ½åˆ†å½¢è€…",
+    "displayName": "²»Ğà·ÖĞÎÕß",
+    "displayNamePlural": "²»Ğà·ÖĞÎÕß",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1834,8 +1834,8 @@
   },
   {
     "id": "temporalfractallites",
-    "displayName": "ç¬ä¸–åˆ†å½¢è€…",
-    "displayNamePlural": "ç¬ä¸–åˆ†å½¢è€…",
+    "displayName": "Ë²ÊÀ·ÖĞÎÕß",
+    "displayNamePlural": "Ë²ÊÀ·ÖĞÎÕß",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [
@@ -1863,8 +1863,8 @@
   },
   {
     "id": "primordialfractallites",
-    "displayName": "åŸåˆåˆ†å½¢è€…",
-    "displayNamePlural": "åŸåˆåˆ†å½¢è€…",
+    "displayName": "Ô­³õ·ÖĞÎÕß",
+    "displayNamePlural": "Ô­³õ·ÖĞÎÕß",
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 6000,
     "craftingIngredients": [

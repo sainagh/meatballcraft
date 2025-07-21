@@ -1011,3 +1011,14 @@ var inquiringabyssite = VanillaFactory.createFluid("inquiring_abyssite", Color.f
 inquiringabyssite.register();
 
 
+var stormlightofredemption = VanillaFactory.createFluid("whispering_starlight_of_redemption", Color.fromHex("b2eddc"));
+stormlightofredemption.register();
+
+
+var meteoricdraconicmatter = VanillaFactory.createFluid("meteoric_draconic_matter", Color.fromHex("c9adc7"));
+meteoricdraconicmatter.register();
+
+
+var voidichor = VanillaFactory.createFluid("void_ichor", Color.fromHex("4e1d70"));
+voidichor.register();
+

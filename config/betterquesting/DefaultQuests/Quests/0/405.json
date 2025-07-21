@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "While the Twilight Horde seems to have no technology of their own, they seem to recognize its important role in this cosmic playground (or warground).\nThe disappearence of the Queen of all Bees, who from what I know posses the powers that allowed Bee civilization to spread and flourish throughout the universe, was not an isolated incident. The secret kept in Skythern is an interesting energy production technology.\nColor too, as so many other things in this grand place that is the universe, has a connection with recursion, and one that will be absolutely useful for my energy infrastructure!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:rainbowgenerator"
       },
-      "name:8": "Rainbow Generator!"
+      "name:8": "A Rainbow of Power"
     }
   },
   "questID:3": 405,
@@ -23,6 +23,16 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_rainbowcore"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

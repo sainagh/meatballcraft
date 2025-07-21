@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o无线版本的能量水晶可直接与机器远程连接；使用水晶扳手来进行连接。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:energy_crystal"
@@ -30,6 +30,10 @@
           "Count:3": 1,
           "Damage:2": 6,
           "id:8": "draconicevolution:energy_crystal"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:crystal_binder"
         }
       },
       "taskID:8": "bq_standard:retrieval"

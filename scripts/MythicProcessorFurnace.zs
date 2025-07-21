@@ -43,3 +43,8 @@ mythfurn6.addItemInput(<contenttweaker:draconian_metal_clump>);
 mythfurn6.addItemOutput(<contenttweaker:draconian_metal_ingot>);
 mythfurn6.build();
 
+val mythfurn7 = RecipeBuilder.newBuilder("mythfurn7","mythic_processor_furnace",2);
+mythfurn7.addEnergyPerTickInput(60000);
+mythfurn7.addItemInput(<ore:logWood>);
+mythfurn7.addItemOutput(<minecraft:coal:1>);
+mythfurn7.build();

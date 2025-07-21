@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "Those who have succumbed to the nightmare and forsaken their personhood, they seem to leave behind traces of their aspirations, desired, hopes for the future, and even regrets.\nIn this place, these regrets, hopes, and aspirations take physical form, they become Lumps. \nThese lumps can be shaped into weapons and tools.\nDuring my fights for Terra, I figuratively carried the hopes and aspirations of others on my shoulders. Here, I can do it literally.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:amthirmis_lump"
       },
-      "name:8": "Amthirmis Lump"
+      "name:8": "Nightmare Ascension: Amthirmis"
     }
   },
   "questID:3": 349,

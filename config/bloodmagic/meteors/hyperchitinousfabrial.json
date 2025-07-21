@@ -1,0 +1,35 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "contenttweaker",
+      "path": "hyperchitinous_fabrial"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 10,
+      "oreName": "oreJade"
+    },
+    {
+      "weight": 10,
+      "oreName": "oreQuartz"
+    },
+    {
+      "weight": 10,
+      "oreName": "oreFossil"
+    },
+    {
+      "weight": 10,
+      "oreName": "oreGneiss"
+    },
+    {
+      "weight": 10,
+      "oreName": "orePetrifiedWood"
+    }],
+  "explosionStrength": 10.0,
+  "radius": 5,
+  "maxWeight": 100,
+  "version": 4,
+  "cost": 300000
+}

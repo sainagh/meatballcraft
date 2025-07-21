@@ -1,0 +1,27 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "contenttweaker",
+      "path": "valkyrie_construct"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 10,
+      "oreName": "oreDenseGravitite"
+    },
+    {
+      "weight": 40,
+      "oreName": "oreZanite"
+    },
+    {
+      "weight": 40,
+      "oreName": "oreAmbrosium"
+    }],
+  "explosionStrength": 10.0,
+  "radius": 5,
+  "maxWeight": 100,
+  "version": 4,
+  "cost": 50000
+}

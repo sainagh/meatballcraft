@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oThis can be used to bypass the inventory reset in Vethea.\n\n§fA broken pact. A cheat. A way out!\nNo rule can be fully binding and foolproof. Not even the rule of Recursion.\nThat is the forbidden knwoledge the Lurker has discovered.\nIf I were to use it, I could forego the initial sacrifice. Not the whole thing, but the burden would be lightened.",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "thebetweenlands:lurker_skin_pouch"
       },
-      "name:8": "Skipping the Nightmare"
+      "name:8": "The Pact of the Secret Lurker"
     }
   },
   "questID:3": 2236,

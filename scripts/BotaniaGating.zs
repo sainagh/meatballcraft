@@ -193,9 +193,104 @@ recipes.addShapeless(<botania:flighttiara:9>,
 
 mods.botania.PureDaisy.addRecipe(<divinerpg:mortum_dirt>, <contenttweaker:mortum_livingrock>);
 
-mods.botania.PureDaisy.addRecipe(<divinerpg:mortum_leaves>, <contenttweaker:mortum_livingwood>);
+mods.botania.PureDaisy.addRecipe(<divinerpg:mortum_planks>, <contenttweaker:mortum_livingwood>);
 
 
 mods.nuclearcraft.rock_crusher.addRecipe([<contenttweaker:mortum_livingrock>, <botania:livingrock:0>*8, <botania:livingrock:0>*4, <botania:livingrock:0>*2]);
 
 mods.nuclearcraft.rock_crusher.addRecipe([<contenttweaker:mortum_livingwood>, <botania:livingwood:0>*8, <botania:livingwood:0>*4, <botania:livingwood:0>*2]);
+
+
+
+mods.botania.ManaInfusion.addConjuration(<botania:storage:0>, <aoa3:skeletal_ingot>, 1000);
+
+mods.botania.ManaInfusion.addConjuration(<botania:storage:0>*2, <aoa3:lyon_ingot>, 1000);
+
+mods.botania.ManaInfusion.addConjuration(<botania:storage:0>*3, <aoa3:elecanium_ingot>, 1000);
+
+mods.botania.ManaInfusion.addConjuration(<botania:storage:0>*4, <ore:ingotChaos>, 1000);
+
+mods.botania.ManaInfusion.addConjuration(<botania:storage:0>*5, <aoa3:shyrestone_ingot>, 1000);
+
+
+mods.botania.ManaInfusion.addConjuration(<botania:storage:3>*1, <divinerpg:eden_gem>, 1000);
+
+mods.botania.ManaInfusion.addConjuration(<botania:storage:3>*2, <divinerpg:wildwood_gem>, 1000);
+
+mods.botania.ManaInfusion.addConjuration(<botania:storage:3>*3, <divinerpg:apalachia_gem>, 1000);
+
+mods.botania.ManaInfusion.addConjuration(<botania:storage:3>*4, <divinerpg:skythern_gem>, 1000);
+
+mods.botania.ManaInfusion.addConjuration(<botania:storage:3>*5, <divinerpg:mortum_gem>, 1000);
+
+
+
+mods.botania.ManaInfusion.addAlchemy(<botania:manaresource:1>*10, <contenttweaker:divine_star>, 1000);
+
+mods.botania.ManaInfusion.addAlchemy(<botania:manaresource:1>*20, <contenttweaker:eden_star>, 1000);
+
+mods.botania.ManaInfusion.addAlchemy(<botania:manaresource:1>*30, <contenttweaker:wildwood_star>, 1000);
+
+mods.botania.ManaInfusion.addAlchemy(<botania:manaresource:1>*40, <contenttweaker:apalachia_star>, 1000);
+
+mods.botania.ManaInfusion.addAlchemy(<botania:manaresource:1>*50, <contenttweaker:skythern_star>, 1000);
+
+mods.botania.ManaInfusion.addAlchemy(<botania:manaresource:1>*60, <contenttweaker:mortum_star>, 1000);
+
+
+mods.botania.ManaInfusion.addAlchemy(<botania:manaresource:23>*4, <contenttweaker:dense_diamond_powder>, 1000);
+
+mods.botania.ManaInfusion.addAlchemy(<botania:manaresource:23>*32, <contenttweaker:recursive_powder>, 1000);
+
+mods.botania.ManaInfusion.addAlchemy(<botania:manaresource:23>*32, <contenttweaker:flying_gunpowder>, 1000);
+
+mods.botania.ManaInfusion.addAlchemy(<botania:manaresource:23>*48, <ore:dustOgerite>, 1000);
+
+
+mods.botania.ManaInfusion.addAlchemy(<botania:quartz:1>*48, <contenttweaker:endergenic_sediment>, 1000);
+
+
+
+mods.botania.ElvenTrade.addRecipe([<botania:dreamwood:0>*32], [<contenttweaker:mortum_livingwood>]);
+
+
+
+mods.botania.ElvenTrade.addRecipe([<botania:storage:2>*1], [<aoa3:skeletal_ingot>]);
+
+mods.botania.ElvenTrade.addRecipe([<botania:storage:2>*2], [<aoa3:lyon_ingot>]);
+
+mods.botania.ElvenTrade.addRecipe([<botania:storage:2>*3], [<aoa3:elecanium_ingot>]);
+
+mods.botania.ElvenTrade.addRecipe([<botania:storage:2>*4], [<ore:ingotChaos>]);
+
+mods.botania.ElvenTrade.addRecipe([<botania:storage:2>*4], [<aoa3:shyrestone_ingot>]);
+
+
+
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:8>*10], [<contenttweaker:divine_star>]);
+
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:8>*20], [<contenttweaker:eden_star>]);
+
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:8>*30], [<contenttweaker:wildwood_star>]);
+
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:8>*40], [<contenttweaker:apalachia_star>]);
+
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:8>*50], [<contenttweaker:skythern_star>]);
+
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:8>*60], [<contenttweaker:mortum_star>]);
+
+
+mods.botania.ElvenTrade.addRecipe([<botania:storage:4>*1], [<divinerpg:eden_gem>]);
+
+mods.botania.ElvenTrade.addRecipe([<botania:storage:4>*2], [<divinerpg:wildwood_gem>]);
+
+mods.botania.ElvenTrade.addRecipe([<botania:storage:4>*3], [<divinerpg:apalachia_gem>]);
+
+mods.botania.ElvenTrade.addRecipe([<botania:storage:4>*4], [<divinerpg:skythern_gem>]);
+
+mods.botania.ElvenTrade.addRecipe([<botania:storage:4>*5], [<divinerpg:mortum_gem>]);
+
+
+mods.botania.ElvenTrade.addRecipe([<botania:quartz:5>*48], [<contenttweaker:endergenic_sediment>]);
+
+

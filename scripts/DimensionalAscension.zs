@@ -226,7 +226,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
     }
 
     if (getBlockMatchAtPosition("minecraft:packed_ice", playerPos, [8,0,10], world) == 0) {
-        player.sendChat("在alpha测试阶段的很长一段时间里，第三章的星球都相当空旷。我很高兴它们现在变得更加生机勃勃了！");
+        player.sendChat("在alpha测试阶段的很长一段时间里，第3章的星球都相当空旷。我很高兴它们现在变得更加生机勃勃了！");
         player.sendChat("下一个方块在红沙的南侧，间隔一格 [8,0,10].");
         return "FAIL";
     }

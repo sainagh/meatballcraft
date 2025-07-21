@@ -1,0 +1,31 @@
+{
+    "machine": "relic_of_the_fallen_tower",
+    "registryName": "relic_fallen_tower_headstone",
+    "recipeTime": 500,
+    "requirements": [
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "lifeessence",
+            "amount": 10000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "contenttweaker:headstone",
+            "amount": 1
+        },
+        {
+            "type": "modularmachineryaddons:flux",
+            "io-type": "input",
+            "amount": 50,
+            "chunkRange": 2
+        },
+        {
+            "type": "modularmachineryaddons:meteor",
+            "io-type": "output",
+            "item": "contenttweaker:headstone"
+        }
+
+    ]
+}

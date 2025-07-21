@@ -1,0 +1,20 @@
+{
+  "preRequisites:11": [
+    916
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "modularmachinery:itemblueprint",
+        "tag:10": {
+          "dynamicmachine:8": "modularmachinery:mythic_processor_rock_crusher"
+        }
+      },
+      "name:8": "神话处理器：碎石机"
+    }
+  },
+  "questID:3": 96994583,
+  "tasks:9": {}
+}

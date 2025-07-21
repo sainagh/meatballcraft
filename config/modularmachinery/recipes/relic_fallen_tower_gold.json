@@ -1,0 +1,31 @@
+{
+    "machine": "relic_of_the_fallen_tower",
+    "registryName": "relic_fallen_tower_gold",
+    "recipeTime": 500,
+    "requirements": [
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "lifeessence",
+            "amount": 10000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:gold_block",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:mana",
+            "io-type": "input",
+            "amount": 10000,
+            "perTick": false
+        },
+        {
+            "type": "modularmachineryaddons:meteor",
+            "io-type": "output",
+            "item": "minecraft:gold_block"
+        }
+
+    ]
+}

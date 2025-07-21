@@ -15,11 +15,22 @@ recipes.addShaped(<projecte:item.pe_fuel:2>,
 [<minecraft:coal_block>, <contenttweaker:essence_of_petrification>, <minecraft:coal_block>],
 [null, <minecraft:coal_block>, null]]);
 
+
 // EZ EMC
 recipes.addShaped(<minecraft:diamond>,
 [[null, <minecraft:blaze_rod>, null],
 [<minecraft:blaze_rod>, <iceandfire:fire_dragon_heart>.reuse(), <minecraft:blaze_rod>],
 [null, <minecraft:blaze_rod>, null]]);
+
+recipes.addShaped(<minecraft:emerald>,
+[[<twilightforest:aurora_block>, null, <twilightforest:aurora_block>],
+[<twilightforest:aurora_block>, <iceandfire:ice_dragon_heart>.reuse(), <twilightforest:aurora_block>],
+[<twilightforest:aurora_block>, null, <twilightforest:aurora_block>]]);
+
+recipes.addShaped(<projecte:item.pe_matter:0>,
+[[<divinerpg:arcanium>, <divinerpg:arcanium>, <divinerpg:arcanium>],
+[<divinerpg:arcanium>, <iceandfire:lightning_dragon_heart>.reuse(), <divinerpg:arcanium>],
+[<divinerpg:arcanium>, <divinerpg:arcanium>, <divinerpg:arcanium>]]);
 
 // EZ fluid mana
 recipes.addShaped(<contenttweaker:mana_rune>,
@@ -464,3 +475,14 @@ recipes.addShaped(<iceandfire:dread_shard>*4,
 [[null, <tconstruct:materials:17>, null],
 [<tconstruct:materials:17>, <contenttweaker:dread_cleansing_fabrial>.reuse(), <tconstruct:materials:17>],
 [null, <tconstruct:materials:17>, null]]);
+
+
+
+
+// uncorrupted library
+
+
+recipes.addShaped(<contenttweaker:carpeted_allure>,
+[[<contenttweaker:etherium_ore>, <contenttweaker:hypercharged_wool>, <contenttweaker:etherium_ore>],
+[<aoa3:occult_shovel>, <divinerpg:frosted_allure>, <aoa3:occult_pickaxe>],
+[<forge:bucketfilled>.withTag({FluidName: "smoldering_tar", Amount: 1000}), <contenttweaker:hypercharged_wool>, <forge:bucketfilled>.withTag({FluidName: "smoldering_tar", Amount: 1000})]]);
