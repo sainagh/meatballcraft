@@ -39,21 +39,21 @@ var meatballiumscrubber = RecipeBuilder.newBuilder("meatballiumscrubber", "meatb
 meatballiumscrubber.addEnergyPerTickInput(10000);
 meatballiumscrubber.addScrubber(1);
 meatballiumscrubber.addRecipeTooltip("Acts as a radiation scrubber in a 3x3 chunk area centered around the machine");
-meatballiumscrubber.addRecipeTooltip("Make sure all chunks in range are loaded");
+meatballiumscrubber.addRecipeTooltip("The scrubber skips unloaded chunks.");
 meatballiumscrubber.build();
 
 var meatballiumscrubberradiant = RecipeBuilder.newBuilder("meatballiumscrubberradiant", "radiant_meatballium_radiation_scrubber", 100);
 meatballiumscrubberradiant.addEnergyPerTickInput(10000);
 meatballiumscrubberradiant.addScrubber(2);
 meatballiumscrubberradiant.addRecipeTooltip("Acts as a radiation scrubber in a 5x5 chunk area centered around the machine");
-meatballiumscrubberradiant.addRecipeTooltip("Make sure all chunks in range are loaded");
+meatballiumscrubberradiant.addRecipeTooltip("The scrubber skips unloaded chunks.");
 meatballiumscrubberradiant.build();
 
 var meatballiumscrubbercursed = RecipeBuilder.newBuilder("meatballiumscrubbercursed", "cursed_meatballium_radiation_scrubber", 100);
 meatballiumscrubbercursed.addEnergyPerTickInput(10000);
 meatballiumscrubbercursed.addScrubber(4);
 meatballiumscrubbercursed.addRecipeTooltip("Acts as a radiation scrubber in a 9x9 chunk area centered around the machine");
-meatballiumscrubbercursed.addRecipeTooltip("Make sure all chunks in range are loaded");
+meatballiumscrubbercursed.addRecipeTooltip("The scrubber skips unloaded chunks.");
 meatballiumscrubbercursed.build();
 
 
@@ -67,7 +67,7 @@ activesuperscrubber1.addRadiationInput(4,1);
 activesuperscrubber1.addBiomeInput("integrateddynamics:biome_meneglin");
 activesuperscrubber1.addItemOutput(<contenttweaker:arc_residue>);
 activesuperscrubber1.addRecipeTooltip("Removes 1 full rad every second from a 9x9 chunk area");
-activesuperscrubber1.addRecipeTooltip("Make sure all chunks in range are loaded");
+activesuperscrubber1.addRecipeTooltip("The scrubber skips unloaded chunks.");
 activesuperscrubber1.build();
 
 var activesuperscrubber2 = RecipeBuilder.newBuilder("activesuperscrubber2", "active_meatballium_scrubbing_unit", 20);
@@ -80,5 +80,5 @@ activesuperscrubber2.addRadiationInput(4,10);
 activesuperscrubber2.addBiomeInput("integrateddynamics:biome_meneglin");
 activesuperscrubber2.addItemOutput(<contenttweaker:arc_residue>);
 activesuperscrubber2.addRecipeTooltip("Removes 10 full rad every second from a 9x9 chunk area");
-activesuperscrubber2.addRecipeTooltip("Make sure all chunks in range are loaded");
+activesuperscrubber2.addRecipeTooltip("The scrubber skips unloaded chunks.");
 activesuperscrubber2.build();
