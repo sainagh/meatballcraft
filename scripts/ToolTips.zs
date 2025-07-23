@@ -1316,31 +1316,31 @@
 <abyssalcraft:necronomicon>.addTooltip(format.red("Abyssal Wasteland rituals use Abyssal Cobblestone"));
 <abyssalcraft:necronomicon>.addTooltip(format.red("Dreadlands rituals use Dreadstone Cobblestone"));
 <abyssalcraft:necronomicon>.addTooltip(format.red("Omothol rituals use Ethaxium Bricks"));
-<abyssalcraft:necronomicon>.addTooltip(format.red("Darkl Realm rituals use Dark Ethaxium Bricks"));
+<abyssalcraft:necronomicon>.addTooltip(format.red("Dark Realm rituals use Dark Ethaxium Bricks"));
 
 <abyssalcraft:necronomicon_cor>.addTooltip(format.red("Overworld rituals use Vanilla Cobblestone"));
 <abyssalcraft:necronomicon_cor>.addTooltip(format.red("Abyssal Wasteland rituals use Abyssal Cobblestone"));
 <abyssalcraft:necronomicon_cor>.addTooltip(format.red("Dreadlands rituals use Dreadstone Cobblestone"));
 <abyssalcraft:necronomicon_cor>.addTooltip(format.red("Omothol rituals use Ethaxium Bricks"));
-<abyssalcraft:necronomicon_cor>.addTooltip(format.red("Darkl Realm rituals use Dark Ethaxium Bricks"));
+<abyssalcraft:necronomicon_cor>.addTooltip(format.red("Dark Realm rituals use Dark Ethaxium Bricks"));
 
 <abyssalcraft:necronomicon_dre>.addTooltip(format.red("Overworld rituals use Vanilla Cobblestone"));
 <abyssalcraft:necronomicon_dre>.addTooltip(format.red("Abyssal Wasteland rituals use Abyssal Cobblestone"));
 <abyssalcraft:necronomicon_dre>.addTooltip(format.red("Dreadlands rituals use Dreadstone Cobblestone"));
 <abyssalcraft:necronomicon_dre>.addTooltip(format.red("Omothol rituals use Ethaxium Bricks"));
-<abyssalcraft:necronomicon_dre>.addTooltip(format.red("Darkl Realm rituals use Dark Ethaxium Bricks"));
+<abyssalcraft:necronomicon_dre>.addTooltip(format.red("Dark Realm rituals use Dark Ethaxium Bricks"));
 
 <abyssalcraft:necronomicon_omt>.addTooltip(format.red("Overworld rituals use Vanilla Cobblestone"));
 <abyssalcraft:necronomicon_omt>.addTooltip(format.red("Abyssal Wasteland rituals use Abyssal Cobblestone"));
 <abyssalcraft:necronomicon_omt>.addTooltip(format.red("Dreadlands rituals use Dreadstone Cobblestone"));
 <abyssalcraft:necronomicon_omt>.addTooltip(format.red("Omothol rituals use Ethaxium Bricks"));
-<abyssalcraft:necronomicon_omt>.addTooltip(format.red("Darkl Realm rituals use Dark Ethaxium Bricks"));
+<abyssalcraft:necronomicon_omt>.addTooltip(format.red("Dark Realm rituals use Dark Ethaxium Bricks"));
 
 <abyssalcraft:abyssalnomicon>.addTooltip(format.red("Overworld rituals use Vanilla Cobblestone"));
 <abyssalcraft:abyssalnomicon>.addTooltip(format.red("Abyssal Wasteland rituals use Abyssal Cobblestone"));
 <abyssalcraft:abyssalnomicon>.addTooltip(format.red("Dreadlands rituals use Dreadstone Cobblestone"));
 <abyssalcraft:abyssalnomicon>.addTooltip(format.red("Omothol rituals use Ethaxium Bricks"));
-<abyssalcraft:abyssalnomicon>.addTooltip(format.red("Darkl Realm rituals use Dark Ethaxium Bricks"));
+<abyssalcraft:abyssalnomicon>.addTooltip(format.red("Dark Realm rituals use Dark Ethaxium Bricks"));
 
 <botania:lens:1>.addTooltip(format.red("Faster mana beams, less mana in beam"));
 <botania:lens:2>.addTooltip(format.red("Each burst carries more mana, slower bursts"));
