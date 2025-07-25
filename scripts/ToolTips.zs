@@ -2721,7 +2721,7 @@
 
 
 
-<bloodmagic:blood_shard:1>.addTooltip(format.red("Right click a Demon from Bwitchemnt with a Bound Stick"));
+<bloodmagic:blood_shard:1>.addTooltip(format.red("Right click a Demon from bewitchment with a Bound Stick"));
 <bloodmagic:blood_shard:1>.addTooltip(format.red("Can be obtained through the Sentient Coagulator multiblock"));
 
 
