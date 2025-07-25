@@ -4201,7 +4201,7 @@ mods.jei.JEI.addDescription([
     "",
     "Be proactive with automation! The best way to expand your infrastructure is to set up automations for new materials and recipes as soon as you unlock them! If a material shows up in a side quest, it's a good idea to automate it!",
     "",
-    "Take your time! Completing and automating things from side quests, or for general base convenience, before doing more main line content is almost always the best way to do things! You will run into many hard 'wall' recipes, and the side quests will prepare you for these! This refers to weapond and armor upgrades too, side content often provides good upgrades for your gear!",
+    "Take your time! Completing and automating things from side quests, or for general base convenience, before doing more main line content is almost always the best way to do things! You will run into many hard 'wall' recipes, and the side quests will prepare you for these! This refers to weapon and armor upgrades too, side content often provides good upgrades for your gear!",
     "",
     "Take your time with JEI! Many items have multiple recipes and ways of obtaining, some will be easier than others at different points in progression!",
     "",
