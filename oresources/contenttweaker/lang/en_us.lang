@@ -3347,7 +3347,14 @@ item.contenttweaker.divine_stellar_fabrial.name=Divine Stellar Fabrial
 item.contenttweaker.ichor_taint_condensate.name=Ichor Taint Condensate
 item.contenttweaker.pearlescent_fabrial.name=Pearlescent Fabrial
 
-
-
-
-
+#Tile Names Fix
+tile.contenttweaker.stone_of_the_resurrected_shard.name=Stone of the Resurrected Shard
+tile.contenttweaker.trinuum_catalyst.name=Trinuum Catalyst
+tile.contenttweaker.infinitely_wishful_catalyst.name=Infinitely Wishful Catalyst
+tile.contenttweaker.carpeted_allure.name=Carpeted Allure
+tile.contenttweaker.meatballium_reinforced_casing.name=Meatballium Reinforced Casing
+tile.contenttweaker.radiant_meatballium_reinforced_casing.name=Radiant Meatballium Reinforced Casing
+tile.contenttweaker.cursed_meatballium_reinforced_casing.name=Cursed Meatballium Reinforced Casing
+tile.contenttweaker.defined_draconium_block.name=Defined Draconium Block
+tile.contenttweaker.stone_of_the_fallen_tower.name=Stone of the Fallen Tower
+tile.contenttweaker.void_ichorium_ore.name=Void Ichorium Ore
