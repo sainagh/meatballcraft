@@ -3346,7 +3346,17 @@ item.contenttweaker.hyperchitinous_fabrial.name=超壳质法器
 item.contenttweaker.divine_stellar_fabrial.name=神圣恒星法器
 item.contenttweaker.ichor_taint_condensate.name=灵液腐化聚合物
 item.contenttweaker.pearlescent_fabrial.name=璀璨法器
-
+#Tile Names Fix
+tile.contenttweaker.stone_of_the_resurrected_shard.name=更生碎片之石
+tile.contenttweaker.trinuum_catalyst.name=三一素催化器
+tile.contenttweaker.infinitely_wishful_catalyst.name=无尽之愿催化器
+tile.contenttweaker.carpeted_allure.name=绒毯诱饵
+tile.contenttweaker.meatballium_reinforced_casing.name=肉丸素强化外壳
+tile.contenttweaker.radiant_meatballium_reinforced_casing.name=光辉肉丸素强化外壳
+tile.contenttweaker.cursed_meatballium_reinforced_casing.name=诅咒肉丸素强化外壳
+tile.contenttweaker.defined_draconium_block.name=定义龙块
+tile.contenttweaker.stone_of_the_fallen_tower.name=坠星之石
+tile.contenttweaker.void_ichorium_ore.name=虚空灵液素矿石
 # Custom Materials
 base.material.demonic_steel=恶魔钢
 base.material.corrosive_steel=腐蚀钢
