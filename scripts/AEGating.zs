@@ -385,6 +385,7 @@ mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:
 mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:53>);
 mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:54>);
 mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:55>);
+mods.chisel.Carving.addVariation("smartcoloredcablegroup", <appliedenergistics2:part:56>);
 
 mods.chisel.Carving.addGroup("densesmartcoloredcablegroup");
 
@@ -404,6 +405,69 @@ mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergist
 mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:73>);
 mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:74>);
 mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:75>);
+mods.chisel.Carving.addVariation("densesmartcoloredcablegroup", <appliedenergistics2:part:76>);
+
+
+mods.chisel.Carving.addGroup("glasscoloredcablegroup");
+
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:0>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:1>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:2>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:3>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:4>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:5>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:6>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:7>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:8>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:9>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:10>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:11>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:12>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:13>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:14>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:15>);
+mods.chisel.Carving.addVariation("glasscoloredcablegroup", <appliedenergistics2:part:16>);
+
+
+mods.chisel.Carving.addGroup("coveredcoloredcablegroup");
+
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:20>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:21>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:22>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:23>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:24>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:25>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:26>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:27>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:28>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:29>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:30>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:31>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:32>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:33>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:34>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:35>);
+mods.chisel.Carving.addVariation("coveredcoloredcablegroup", <appliedenergistics2:part:36>);
+
+mods.chisel.Carving.addGroup("densecoveredcoloredcablegroup");
+
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:500>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:501>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:502>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:503>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:504>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:505>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:506>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:507>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:508>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:509>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:510>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:511>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:512>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:513>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:514>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:515>);
+mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:516>);
 
 
 mods.nuclearcraft.pressurizer.addRecipe([<ore:dustCertusQuartz>, <appliedenergistics2:crystal_seed:0>]);

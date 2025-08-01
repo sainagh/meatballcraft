@@ -162,3 +162,26 @@ bot16.addItemInput(<contenttweaker:sentient_meatball>);
 bot16.addItemInput(<contenttweaker:mark_of_gluttony>);
 bot16.addItemOutput(SuperEnchantedItem(<extrabotany:combatmaidboots>.withTag({display: {Name:"§6§oBoots of Gluttony§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistKittySuitWrapped).getItem());
 bot16.build();
+
+val bot17 = RecipeBuilder.newBuilder("bot17","gaia_altar",400);
+bot17.addEnergyPerTickInput(60000);
+bot17.addItemInput(<contenttweaker:monumentally_sentient_meatball>);
+bot17.addItemInput(<extrabotany:material:3>*8);
+bot17.addItemInput(<contenttweaker:orichalcum>*4);
+bot17.addItemInput(<extrabotany:manabarrel>*12);
+bot17.addItemInput(<extrabotany:judahoath>);
+bot17.addItemOutput(<extrabotany:buddhistrelics>);
+bot17.build();
+
+
+val bot18 = RecipeBuilder.newBuilder("bot18","gaia_altar",400);
+bot18.addEnergyPerTickInput(60000);
+bot18.addItemInput(<contenttweaker:monumentally_sentient_meatball>);
+bot18.addItemInput(<extrabotany:material:3>*4);
+bot18.addItemInput(<extrabotany:material:1>*12);
+bot18.addItemInput(<extrabotany:manabarrel>*4);
+bot18.addItemInput(<botania:holycloak>);
+bot18.addItemInput(<botania:unholycloak>);
+bot18.addItemInput(<botania:balancecloak>);
+bot18.addItemOutput(<extrabotany:silenteternity>);
+bot18.build();

@@ -273,6 +273,32 @@ recipes.addShaped(<techreborn:part:30>*8,
 [<techreborn:cable:6>,<techreborn:cable:6>,<techreborn:cable:6>]]);
 
 
+recipes.addShaped(<contenttweaker:better_energy_crystal>*2,
+[[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
+[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
+[<minecraft:redstone>,<aoa3:shyregem>,<minecraft:redstone>]]);
+
+recipes.addShaped(<contenttweaker:better_energy_crystal>*4,
+[[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
+[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
+[<minecraft:redstone>,<contenttweaker:cactium_sliver>,<minecraft:redstone>]]);
+
+recipes.addShaped(<contenttweaker:better_energy_crystal>*4,
+[[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
+[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
+[<minecraft:redstone>,<contenttweaker:crownite_chunk>,<minecraft:redstone>]]);
+
+recipes.addShaped(<contenttweaker:better_energy_crystal>*4,
+[[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
+[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
+[<minecraft:redstone>,<contenttweaker:thrallium_fragment>,<minecraft:redstone>]]);
+
+recipes.addShaped(<contenttweaker:better_energy_crystal>*4,
+[[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
+[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
+[<minecraft:redstone>,<contenttweaker:chaosstrikium_cluster>,<minecraft:redstone>]]);
+
+
 recipes.addShaped(<contenttweaker:better_energy_crystal>*16,
 [[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
 [<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
@@ -282,6 +308,8 @@ recipes.addShaped(<contenttweaker:better_lapotron_crystal>*8,
 [[<minecraft:dye:4>,<techreborn:part:29>,<minecraft:dye:4>],
 [<avaritiaitem:self_actualizing_stone>,<contenttweaker:better_energy_crystal>,<avaritiaitem:self_actualizing_stone>],
 [<minecraft:dye:4>,<techreborn:part:29>,<minecraft:dye:4>]]);
+
+
 
 
 recipes.addShaped(<techreborn:part:32>*32,
@@ -308,3 +336,9 @@ recipes.addShaped(<techreborn:part:32>*32,
 [[<techreborn:part:31>,<techreborn:part:31>,<techreborn:part:31>],
 [<techreborn:part:31>,<aoa3:shyre_cap>,<techreborn:part:31>],
 [<techreborn:part:31>,<techreborn:part:31>,<techreborn:part:31>]]);
+
+
+recipes.addShaped(<contenttweaker:better_lapotronic_orb>*2,
+[[<contenttweaker:better_lapotron_crystal>,<contenttweaker:better_lapotron_crystal>,<contenttweaker:better_lapotron_crystal>],
+[<contenttweaker:better_lapotron_crystal>,<contenttweaker:unidentified_plate>,<contenttweaker:better_lapotron_crystal>],
+[<contenttweaker:better_lapotron_crystal>,<contenttweaker:better_lapotron_crystal>,<contenttweaker:better_lapotron_crystal>]]);

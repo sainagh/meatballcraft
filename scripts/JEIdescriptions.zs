@@ -1442,7 +1442,7 @@ mods.jei.JEI.addDescription(<contenttweaker:ae2_base_management>,
 [
     "You should follow these practices when setting up an AE2 network!",
     "",
-    "Make sure the entirety of your network (every single cabe and bus) is chunkloaded! FTB chunks sometimes can be unreliable, so chunk and spot loaders are better!",
+    "Make sure the entirety of your network (every single cable and bus) is chunkloaded! FTB chunks sometimes can be unreliable, so chunk and spot loaders are better!",
     "",
     "Do not loop cables! Just don't do it! Colored cables and anchors are your friends!",
     "",
@@ -3880,7 +3880,7 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_stoneofanima>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Combine a Chalcedony Ingot with the following Tablets: Sight, Stength, Vitality, Pressure, Satiation, Cleansing, Distortion, Sanctity."
+    "Combine a Chalcedony Ingot with the following Tablets: Sight, Strength, Vitality, Pressure, Satiation, Cleansing, Distortion, Sanctity."
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_ghoulspirit>,
@@ -4259,7 +4259,7 @@ mods.jei.JEI.addDescription([
 [
     "Bibliocraft allows to duplicate enchanted books! To use the Typesetting Table and Printing Press, make sure you a wearing a Monocle, otherwise you won't see XP costs!",
     "",
-    "Right click the desired enchanted book in the Typesetting Table near left slot, and a Chase in the far slot. Shift right click the Typesetting Table with an empty hand to create an enchanted plate. This will consume XP based on the enchantment type and level.",
+    "Right click the desired enchanted book in the Typesetting Table near left slot, and a Chase in the far slot. Shift right click the Enchanted Book in the table with an empty hand to create an enchanted plate. This will consume XP based on the enchantment type and level.",
     "",
     "Right click the enchanted plate in the back slot of the Printing Press, together with a bunch of ink sacks. Right click normal vanilla Books on the near left slot, and they will be transformed into enchanted books of the desired type! A single enchanted press can make up to 3 enchanted books, as it has durability, but it can be repaired using various modded tools."
 ]);
@@ -4698,6 +4698,26 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_vowtodeath>,
 ]);
 
 
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_recfocusfab>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "There is an anagram in the center... Single biome...Dimension IDs",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Use the following biome markers:",
+    "N: Cherry Blossom Grove",
+    "S: Eden",
+    "E: Abyssal Wasteland (from the Abyss)",
+    "W: Immortallis"
+]);
+
+
+
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_rainbowcore>,
 [
     "Come on! At least try to solve the puzzle!",
@@ -4809,17 +4829,6 @@ mods.jei.JEI.addDescription([
 ]);
 
 
-mods.jei.JEI.addDescription([
-    <contenttweaker:multiblock_input_swapping>],
-[
-    "The pack uses quite a few multiblocks that do not consume inputs. The Enchanted Greenhouse and Mechanized Coop are examples of this.",
-    "",
-    "The multiblocks will only process a single recipe, even when multiple inputs are present. Items placed in Input Hatches from Modular Machinery cannot be extracted automatically.",
-    "",
-    "To automatically extract items from Item Inputs, though, Phantomfaces still work.",
-    "",
-    "By exploiting this principle, it is possible to build contraptions that automatically swap the inputs to these types of multiblocks, so that you can process multiple recipes without having to build multiple machines."
-]);
 
 
 mods.jei.JEI.addDescription([

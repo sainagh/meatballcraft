@@ -329,18 +329,9 @@ imstuckgetmehome.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if(player.getDimension() != 684) {
-		if(player.getDimension() != 685) {
-			if(player.getDimension() != 686) {
-				if(player.getDimension() != 687) {
-					if(player.getDimension() != 66) {
-        				player.sendChat("This will get you unstuck from a dimensional door, the erebus, and the limbo");
-        				return "FAIL";
-					}
-				}
-			}
-		}
-    }
+    player.sendChat("This will get you to spawn if you are stuck somewhere, and do no want to use cheats");
+
+
 	Commands.call("spawn", player, world, true, true);
 	return "Pass";
 };

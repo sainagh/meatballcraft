@@ -812,6 +812,128 @@ keyofrestoredbalance.register();
 
 
 
+var calloftheberserker= VanillaFactory.createItem("call_of_the_berserker");
+calloftheberserker.maxStackSize = 1;
+calloftheberserker.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 802) {
+        player.sendChat("You gotta be in Barathos");
+        return "FAIL";
+    }
+
+    // counter for fails or successes
+    var matchGen = 0 as int;
+
+    // player position
+    var playerPos = player.position.asPosition3f();
+    playerPos.x = playerPos.x;
+    playerPos.y = playerPos.y - 1;
+    playerPos.z = playerPos.z;
+
+    // explanation to player
+    player.sendChat("Seek the Apostle Mycelium, and reach its center");
+
+    // go through all blocks in the momument
+
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [0,0,0], world) == 0) {
+        player.sendChat("You are not standing in the right place (0,0,0)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [1,0,0], world) == 0) {
+        player.sendChat("You are not standing in the right place (1,0,0)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [0,0,1], world) == 0) {
+        player.sendChat("You are not standing in the right place (0,0,1)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [-1,0,0], world) == 0) {
+        player.sendChat("You are not standing in the right place (-1,0,0)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [0,0,-1], world) == 0) {
+        player.sendChat("You are not standing in the right place (0,0,-1)");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [1,0,1], world) == 0) {
+        player.sendChat("You are not standing in the right place (1,0,1)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [-1,0,1], world) == 0) {
+        player.sendChat("You are not standing in the right place (-1,0,1)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [-1,0,-1], world) == 0) {
+        player.sendChat("You are not standing in the right place (-1,0,-1)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [1,0,-1], world) == 0) {
+        player.sendChat("You are not standing in the right place (1,0,-1)");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [6,2,0], world) == 0) {
+        player.sendChat("You are not standing in the right place (7,2,0)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [-6,2,0], world) == 0) {
+        player.sendChat("You are not standing in the right place (-7,2,0)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [0,2,6], world) == 0) {
+        player.sendChat("You are not standing in the right place (0,2,7)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [0,2,-6], world) == 0) {
+        player.sendChat("You are not standing in the right place (0,2,-7)");
+        return "FAIL";
+    }
+
+
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [5,2,5], world) == 0) {
+        player.sendChat("You are not standing in the right place (6,2,6)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [-5,2,5], world) == 0) {
+        player.sendChat("You are not standing in the right place (-6,2,6)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [5,2,-5], world) == 0) {
+        player.sendChat("You are not standing in the right place (6,2,-6)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [-5,2,-5], world) == 0) {
+        player.sendChat("You are not standing in the right place (-6,2,-6)");
+        return "FAIL";
+    }
+
+
+
+    Commands.call("/summon twilightforest:minoshroom ~ ~4 ~ {HandItems:[{Count:1,id:\"aoa3:rockbasher_sword\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,CustomName:\"Fungal Apostle\"}", player, world, false, true);
+
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+calloftheberserker.register();
+
+
+
+
+
+
+
+
+
+
+
+
 var brokenichoriumjewel= VanillaFactory.createItem("void_ichorium_jewel");
 brokenichoriumjewel.maxStackSize = 1;
 brokenichoriumjewel.itemRightClick = function(stack, world, player, hand) {
@@ -1634,7 +1756,7 @@ vowtodeath.itemRightClick = function(stack, world, player, hand) {
         return "PASS";
     }
 
-    player.sendChat("Dark Ethaxium Bricks? Those do not belong here! Replace them!");
+    player.sendChat("Dark Ethaxium Bricks? Those do not belong here! Lyssa-equipped individuals would know how to replace them!");
 
     Commands.call("summon zombie ~ ~ ~-5 {PersistenceRequired:1,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\"},{Count:1,id:\"contenttweaker:grave_dust_legs\"},{Count:1,id:\"contenttweaker:grave_dust_chest\"},{Count:1,id:\"chisel:blockcobalt\",Damage:3b,tag:{display:{Name:N}}}]}", player, world, true, true);
     Commands.call("summon zombie ~ ~ ~5 {PersistenceRequired:1,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\"},{Count:1,id:\"contenttweaker:grave_dust_legs\"},{Count:1,id:\"contenttweaker:grave_dust_chest\"},{Count:1,id:\"chisel:blockplatinum\",Damage:3b,tag:{display:{Name:S}}}]}", player, world, true, true);

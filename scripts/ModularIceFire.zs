@@ -3,6 +3,62 @@ import scripts.enchantwrapper.EnchantUtil.EnchantMap;
 import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
 
 
+
+
+
+val dreadcruc1 = RecipeBuilder.newBuilder("dreaditecrucible1","dragonfire_crucible",100);
+dreadcruc1.addFluidInput(<fluid:eternal_dragon_fire>*400);
+dreadcruc1.addItemInput(<materialpart:dreadite:ingot>);
+dreadcruc1.addItemInput(<iceandfire:dragonsteel_ice_ingot>);
+dreadcruc1.addItemInput(<iceandfire:dragonsteel_fire_ingot>);
+dreadcruc1.addItemOutput(<materialpart:dreaded_steel:ingot>*3);
+dreadcruc1.build();
+
+val dreadcruc2 = RecipeBuilder.newBuilder("dreaditecrucible2","dragonfire_crucible",100);
+dreadcruc2.addFluidInput(<fluid:eternal_dragon_fire>*300);
+dreadcruc2.addItemInput(<materialpart:dreadite:ingot>);
+dreadcruc2.addItemInput(<aoa3:varsium_ingot>);
+dreadcruc2.addItemInput(<aoa3:blazium_ingot>);
+dreadcruc2.addItemInput(<minecraft:iron_ingot>*3);
+dreadcruc2.addItemOutput(<materialpart:dreaded_steel:ingot>*6);
+dreadcruc2.build();
+
+val dreadcruc3 = RecipeBuilder.newBuilder("dreaditecrucible3","dragonfire_crucible",100);
+dreadcruc3.addFluidInput(<fluid:eternal_dragon_fire>*250);
+dreadcruc3.addItemInput(<materialpart:dreadite:ingot>);
+dreadcruc3.addItemInput(<aoa3:varsium_ingot>);
+dreadcruc3.addItemInput(<aoa3:blazium_ingot>);
+dreadcruc3.addItemInput(<aoa3:lyon_ingot>);
+dreadcruc3.addItemInput(<minecraft:iron_ingot>*4);
+dreadcruc3.addItemOutput(<materialpart:dreaded_steel:ingot>*8);
+dreadcruc3.build();
+
+val dreadcruc4 = RecipeBuilder.newBuilder("dreaditecrucible4","dragonfire_crucible",100);
+dreadcruc4.addFluidInput(<fluid:eternal_dragon_fire>*250);
+dreadcruc4.addItemInput(<materialpart:dreadite:ingot>);
+dreadcruc4.addItemInput(<aoa3:varsium_ingot>);
+dreadcruc4.addItemInput(<aoa3:blazium_ingot>);
+dreadcruc4.addItemInput(<aoa3:lyon_ingot>);
+dreadcruc4.addItemInput(<aoa3:elecanium_ingot>);
+dreadcruc4.addItemInput(<minecraft:iron_ingot>*5);
+dreadcruc4.addItemOutput(<materialpart:dreaded_steel:ingot>*10);
+dreadcruc4.build();
+
+val dreadcruc5 = RecipeBuilder.newBuilder("dreaditecrucible5","dragonfire_crucible",100);
+dreadcruc5.addFluidInput(<fluid:eternal_dragon_fire>*250);
+dreadcruc5.addItemInput(<materialpart:dreadite:ingot>);
+dreadcruc5.addItemInput(<aoa3:varsium_ingot>);
+dreadcruc5.addItemInput(<aoa3:blazium_ingot>);
+dreadcruc5.addItemInput(<aoa3:lyon_ingot>);
+dreadcruc5.addItemInput(<aoa3:elecanium_ingot>);
+dreadcruc5.addItemInput(<aoa3:shyrestone_ingot>);
+dreadcruc5.addItemInput(<minecraft:iron_ingot>*6);
+dreadcruc5.addItemOutput(<materialpart:dreaded_steel:ingot>*12);
+dreadcruc5.build();
+
+
+
+
 val enchlistDragonSwordWrapped as EnchantMap = EnchantMap()
 	.add("minecraft:sharpness",75)
 	.add("minecraft:sweeping",3)
@@ -168,3 +224,28 @@ opdra15.addItemInput(<bloodmagic:item_demon_crystal:3>*4);
 opdra15.addItemInput(<bloodmagic:item_demon_crystal:4>*4);
 opdra15.addItemOutput(<contenttweaker:construct_of_will>);
 opdra15.build();
+
+
+recipes.addShaped(<contenttweaker:demonic_remains>,
+[[null, <contenttweaker:wing_of_worship>, null],
+[<bewitchment:hellhound_horn>, <aoa3:rockbasher_sword>.reuse(), <bewitchment:demon_heart>],
+[null, <contenttweaker:hand_of_dominion>, null]]);
+
+
+
+val opdra16 = RecipeBuilder.newBuilder("dragoncruc16","dragonfire_crucible",40);
+opdra16.addFluidInput(<fluid:eternal_dragon_fire>*500);
+opdra16.addItemInput(<contenttweaker:soul_of_the_dragonslayer>);
+opdra16.addItemInput(<contenttweaker:demonic_remains>);
+opdra16.addItemInput(<aoa3:mystite_ingot>);
+opdra16.addItemInput(<botania:manaresource:4>*8);
+opdra16.addItemInput(<bewitchment:cold_iron_ingot>*16);
+opdra16.addItemInput(<iceandfire:dragonsteel_ice_ingot>);
+opdra16.addItemInput(<iceandfire:dragonsteel_fire_ingot>);
+opdra16.addItemInput(<iceandfire:dragonsteel_lightning_ingot>);
+opdra16.addItemOutput(<contenttweaker:berserker_steel_ingot>);
+opdra16.build();
+
+
+
+

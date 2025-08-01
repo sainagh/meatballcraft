@@ -1,0 +1,3134 @@
+{
+    "registryname": "phasing_still_pot",
+    "localizedname": "Phasing Still Pot",
+	"color": "4d4432",
+    "parts": [
+        {
+            "x": -1,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": -1,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 7,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": -1,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 8,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 8,
+            "elements": [
+                "generalized_output_fluid"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": -1,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": -1,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "aoa3:deep_crystal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "aoa3:deep_crystal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "aoa3:deep_crystal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_slab@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "bewitchment:nethersteel_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "bewitchment:nethersteel_slab@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "bewitchment:nethersteel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "bewitchment:nethersteel@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "bewitchment:nethersteel@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 17,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_slab@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "aoa3:deep_crystal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "bewitchment:nethersteel_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:phasing_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_slab@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "aoa3:deep_crystal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_slab@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "generalized_output_fluid"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 0,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "aoa3:deep_crystal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 17,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_slab@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 17,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 17,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "contenttweaker:phasing_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "generalized_output_fluid"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "contenttweaker:phasing_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0,
+            "elements": [
+                "generalized_output_fluid"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "bewitchment:nethersteel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 8,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bewitchment:nethersteel_slab@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 0,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "contenttweaker:phasing_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_pentacle@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 17,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 17,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_slab@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 9,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 9,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 9,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 4,
+            "elements": [
+                "bewitchment:perpetual_ice@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 9,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:phasing_alloy@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "bewitchment:nethersteel_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "bewitchment:perpetual_ice@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bewitchment:nethersteel@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bewitchment:nethersteel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bewitchment:block_of_opal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "bewitchment:nethersteel_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "bewitchment:nethersteel_polished@0"
+            ]
+        }
+    ]}

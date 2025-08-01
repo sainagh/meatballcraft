@@ -609,3 +609,26 @@ reci58.addItemInput(<contenttweaker:agate>);
 reci58.addItemInput(<contenttweaker:onyx>);
 reci58.addItemOutput(<contenttweaker:infused_sol_stone>);
 reci58.build();
+
+val reci59 = RecipeBuilder.newBuilder("inf59","arcane_autoinfuser",120);
+reci59.addEnergyPerTickInput(100);
+reci59.addItemInput(<contenttweaker:imperium_vis_condensate>);
+reci59.addItemInput(<contenttweaker:primordial_prism>);
+reci59.addItemInput(<contenttweaker:master_spell_focus>);
+reci59.addItemInput(<thaumadditions:mithminite_fabric>);
+reci59.addItemOutput(<contenttweaker:master_spell_imperium>);
+reci59.build();
+
+val reci60 = RecipeBuilder.newBuilder("inf60","arcane_autoinfuser",120);
+reci60.addEnergyPerTickInput(100);
+reci60.addItemInput(<contenttweaker:tenebrae_vis_condensate>);
+reci60.addItemInput(<contenttweaker:aeldunari>);
+reci60.addItemInput(<contenttweaker:master_spell_focus>);
+reci60.addItemInput(<thaumadditions:mithminite_fabric>);
+reci60.addItemOutput(<contenttweaker:master_spell_tenebrae>);
+reci60.build();
+
+
+
+
+

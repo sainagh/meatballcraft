@@ -63,3 +63,10 @@ mods.storagedrawers.Compaction.add(<materialpart:sideral_damascus_steel:ingot>, 
 mods.storagedrawers.Compaction.add(<materialpart:ascended_draconic_alloy:ingot>, <materialpart:ascended_draconic_alloy:nugget>, 9);
 
 mods.storagedrawers.Compaction.add(<ebwizardry:magic_crystal:0>, <ebwizardry:crystal_shard>, 9);
+
+
+mods.storagedrawers.Compaction.add(<extendedcrafting:storage:5>, <extendedcrafting:material:36>, 9);
+
+
+
+mods.storagedrawers.Compaction.add(<appliedenergistics2:material:46>, <enderio:item_material:28>, 9);

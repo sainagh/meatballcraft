@@ -5475,10 +5475,7 @@ souldragonslayer.maxStackSize = 64;
 souldragonslayer.beaconPayment = false;
 souldragonslayer.register();
 
-var berserksteelingot = VanillaFactory.createItem("berserker_steel_ingot");
-berserksteelingot.maxStackSize = 64;
-berserksteelingot.beaconPayment = false;
-berserksteelingot.register();
+
 
 var superfocusedplatemythic = VanillaFactory.createItem("superfocused_plate_mythic");
 superfocusedplatemythic.maxStackSize = 64;
@@ -5529,6 +5526,21 @@ var stargatehieroglyphs = VanillaFactory.createItem("stargate_hieroglyphs");
 stargatehieroglyphs.maxStackSize = 64;
 stargatehieroglyphs.beaconPayment = false;
 stargatehieroglyphs.register();
+
+var fractalliumingot = VanillaFactory.createItem("fractallium_ingot");
+fractalliumingot.maxStackSize = 64;
+fractalliumingot.beaconPayment = false;
+fractalliumingot.register();
+
+var opalescentparticle = VanillaFactory.createItem("opalescent_particle");
+opalescentparticle.maxStackSize = 64;
+opalescentparticle.beaconPayment = false;
+opalescentparticle.register();
+
+var entropyumingot = VanillaFactory.createItem("entropyum_ingot");
+entropyumingot.maxStackSize = 64;
+entropyumingot.beaconPayment = false;
+entropyumingot.register();
 
 
 

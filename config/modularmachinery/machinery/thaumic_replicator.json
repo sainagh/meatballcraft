@@ -144,7 +144,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "generalized_input_item"
+                "thaumic_replicator_hatches"
             ]
         },
         {
@@ -200,7 +200,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "generalized_input_fluid"
+                "thaumic_replicator_hatches"
             ]
         },
         {
@@ -240,7 +240,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-				"generalized_input_essentia"
+				"thaumic_replicator_hatches"
             ]
         },
         {
@@ -248,7 +248,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "generalized_output_fluid"
+                "thaumic_replicator_hatches"
             ]
         },
         {
@@ -352,7 +352,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "generalized_input_fluid"
+                "thaumic_replicator_hatches"
             ]
         }
     ]}

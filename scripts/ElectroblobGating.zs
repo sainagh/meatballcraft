@@ -61,3 +61,11 @@ recipes.addShaped(<ebwizardry:novice_healing_wand>,
 [[<ore:dragonScaleItem>, <ebwizardry:crystal_block:7>, <ore:dragonScaleItem>], 
 [<ore:dragonScaleItem>, <minecraft:stick>, <ore:dragonScaleItem>], 
 [<ore:dragonScaleItem>, <minecraft:stick>, <ore:dragonScaleItem>]]); 
+
+
+
+mods.bloodmagic.AlchemyTable.addRecipe(<ebwizardry:grand_crystal>*4, [<bloodmagic:cutting_fluid:*>, <aoa3:crystallite>], 1, 5, 3);
+
+
+
+

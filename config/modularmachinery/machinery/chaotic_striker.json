@@ -2,6 +2,21 @@
     "registryname": "chaotic_striker",
     "localizedname": "Chaotic Striker",
 	"color": "1d0038",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:miniature_white_hole",
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "description": "2X output",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 2
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -4,

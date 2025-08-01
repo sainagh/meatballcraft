@@ -277,8 +277,13 @@ mods.tconstruct.Alloy.removeRecipe(<fluid:vivid_alloy>);
 
 recipes.addShaped(<enderio:item_broken_spawner>.withTag({entityId: "minecraft:zombie"}),
 [[<actuallyadditions:item_misc:20>, null, <actuallyadditions:item_misc:20>],
-[null, <iceandfire:hydra_fang>.reuse(), null],
+[null, <iceandfire:hydra_fang>, null],
 [<actuallyadditions:item_misc:20>, null, <actuallyadditions:item_misc:20>]]);
+
+recipes.addShaped(<enderio:item_broken_spawner>.withTag({entityId: "minecraft:zombie"})*8,
+[[<actuallyadditions:item_misc:20>, <contenttweaker:dreadful_ice>, <actuallyadditions:item_misc:20>],
+[<contenttweaker:dreadful_ice>, <iceandfire:hydra_fang>, <contenttweaker:dreadful_ice>],
+[<actuallyadditions:item_misc:20>, <contenttweaker:dreadful_ice>, <actuallyadditions:item_misc:20>]]);
 
 mods.nuclearcraft.alloy_furnace.addRecipe([<ore:ingotEndSteel>, <aoa3:energy_rune>, <enderio:item_alloy_endergy_ingot:2>*10]);
 

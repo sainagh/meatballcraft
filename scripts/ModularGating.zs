@@ -519,4 +519,13 @@ recipes.addShaped(<modularmachineryaddons:blockmeteorprovideroutput>,
 [<modularmachinery:itemmodularium>, <contenttweaker:meteoric_draconic_stone>, <modularmachinery:itemmodularium>]]);
 
 
+recipes.addShaped(<modularmachineryaddons:advancedmachineassembler>,
+[[<modularmachinery:itemmodularium>, null, <modularmachinery:itemmodularium>],
+[null, <contenttweaker:multiblock_sticc>, null],
+[<modularmachinery:itemmodularium>, null, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachineryaddons:advancedmachinedisassembler>,
+[[null, <modularmachinery:itemmodularium>, null],
+[<modularmachinery:itemmodularium>, <contenttweaker:multiblock_sticc>, <modularmachinery:itemmodularium>],
+[null, <modularmachinery:itemmodularium>, null]]);
 

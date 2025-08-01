@@ -904,3 +904,17 @@ mods.nuclearcraft.melter.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>
 mods.nuclearcraft.melter.removeRecipeWithInput([<thaumictinkerer:kamiresource:5>]);
 
 mods.nuclearcraft.pressurizer.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
+
+
+
+//==================================================================
+// silicon
+val siliconball = <ore:itemSilicon>;
+siliconball.remove(<enderio:item_material:5>);
+
+
+//==================================================================
+// silver
+val zincingot = <ore:ingotZinc>;
+zincingot.remove(<railcraft:ingot:8>);
+

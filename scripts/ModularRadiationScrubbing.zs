@@ -35,21 +35,21 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:cursed_meatballium
 
 
 
-var meatballiumscrubber = RecipeBuilder.newBuilder("meatballiumscrubber", "meatballium_radiation_scrubber", 100);
+var meatballiumscrubber = RecipeBuilder.newBuilder("meatballiumscrubber", "meatballium_radiation_scrubber", 3600);
 meatballiumscrubber.addEnergyPerTickInput(10000);
 meatballiumscrubber.addScrubber(1);
 meatballiumscrubber.addRecipeTooltip("Acts as a radiation scrubber in a 3x3 chunk area centered around the machine");
 meatballiumscrubber.addRecipeTooltip("Make sure all chunks in range are loaded");
 meatballiumscrubber.build();
 
-var meatballiumscrubberradiant = RecipeBuilder.newBuilder("meatballiumscrubberradiant", "radiant_meatballium_radiation_scrubber", 100);
+var meatballiumscrubberradiant = RecipeBuilder.newBuilder("meatballiumscrubberradiant", "radiant_meatballium_radiation_scrubber", 3600);
 meatballiumscrubberradiant.addEnergyPerTickInput(10000);
 meatballiumscrubberradiant.addScrubber(2);
 meatballiumscrubberradiant.addRecipeTooltip("Acts as a radiation scrubber in a 5x5 chunk area centered around the machine");
 meatballiumscrubberradiant.addRecipeTooltip("Make sure all chunks in range are loaded");
 meatballiumscrubberradiant.build();
 
-var meatballiumscrubbercursed = RecipeBuilder.newBuilder("meatballiumscrubbercursed", "cursed_meatballium_radiation_scrubber", 100);
+var meatballiumscrubbercursed = RecipeBuilder.newBuilder("meatballiumscrubbercursed", "cursed_meatballium_radiation_scrubber", 3600);
 meatballiumscrubbercursed.addEnergyPerTickInput(10000);
 meatballiumscrubbercursed.addScrubber(4);
 meatballiumscrubbercursed.addRecipeTooltip("Acts as a radiation scrubber in a 9x9 chunk area centered around the machine");

@@ -529,50 +529,50 @@ recipes.addShapeless(<contenttweaker:steadfast_will_sliver>*10,
 
 val berserkercrucible1 = RecipeBuilder.newBuilder("berserkercrucible1","berserker_crucible",2);
 berserkercrucible1.addItemInput(<bloodmagic:item_demon_crystal:0>);
-berserkercrucible1.addWillOutput("DEFAULT", 100);
+berserkercrucible1.addWillOutput("DEFAULT", 100, 0, 1000);
 berserkercrucible1.build();
 
 val berserkercrucible2 = RecipeBuilder.newBuilder("berserkercrucible2","berserker_crucible",2);
 berserkercrucible2.addItemInput(<contenttweaker:demon_will_sliver>);
-berserkercrucible2.addWillOutput("DEFAULT", 10);
+berserkercrucible2.addWillOutput("DEFAULT", 10, 0, 1000);
 berserkercrucible2.build();
 
 val berserkercrucible3 = RecipeBuilder.newBuilder("berserkercrucible3","berserker_crucible",2);
 berserkercrucible3.addItemInput(<bloodmagic:item_demon_crystal:1>);
-berserkercrucible3.addWillOutput("CORROSIVE", 100);
+berserkercrucible3.addWillOutput("CORROSIVE", 100, 0, 1000);
 berserkercrucible3.build();
 
 val berserkercrucible4 = RecipeBuilder.newBuilder("berserkercrucible4","berserker_crucible",2);
 berserkercrucible4.addItemInput(<contenttweaker:corrosive_will_sliver>);
-berserkercrucible4.addWillOutput("CORROSIVE", 10);
+berserkercrucible4.addWillOutput("CORROSIVE", 10, 0, 1000);
 berserkercrucible4.build();
 
 val berserkercrucible5 = RecipeBuilder.newBuilder("berserkercrucible5","berserker_crucible",2);
 berserkercrucible5.addItemInput(<bloodmagic:item_demon_crystal:2>);
-berserkercrucible5.addWillOutput("DESTRUCTIVE", 100);
+berserkercrucible5.addWillOutput("DESTRUCTIVE", 100, 0, 1000);
 berserkercrucible5.build();
 
 val berserkercrucible6 = RecipeBuilder.newBuilder("berserkercrucible6","berserker_crucible",2);
 berserkercrucible6.addItemInput(<contenttweaker:destructive_will_sliver>);
-berserkercrucible6.addWillOutput("DESTRUCTIVE", 10);
+berserkercrucible6.addWillOutput("DESTRUCTIVE", 10, 0, 1000);
 berserkercrucible6.build();
 
 val berserkercrucible7 = RecipeBuilder.newBuilder("berserkercrucible7","berserker_crucible",2);
 berserkercrucible7.addItemInput(<bloodmagic:item_demon_crystal:3>);
-berserkercrucible7.addWillOutput("VENGEFUL", 100);
+berserkercrucible7.addWillOutput("VENGEFUL", 100, 0, 1000);
 berserkercrucible7.build();
 
 val berserkercrucible8 = RecipeBuilder.newBuilder("berserkercrucible8","berserker_crucible",2);
 berserkercrucible8.addItemInput(<contenttweaker:vengeful_will_sliver>);
-berserkercrucible8.addWillOutput("VENGEFUL", 10);
+berserkercrucible8.addWillOutput("VENGEFUL", 10, 0, 1000);
 berserkercrucible8.build();
 
 val berserkercrucible9 = RecipeBuilder.newBuilder("berserkercrucible9","berserker_crucible",2);
 berserkercrucible9.addItemInput(<bloodmagic:item_demon_crystal:4>);
-berserkercrucible9.addWillOutput("STEADFAST", 100);
+berserkercrucible9.addWillOutput("STEADFAST", 100, 0, 1000);
 berserkercrucible9.build();
 
 val berserkercrucible10 = RecipeBuilder.newBuilder("berserkercrucible10","berserker_crucible",2);
 berserkercrucible10.addItemInput(<contenttweaker:steadfast_will_sliver>);
-berserkercrucible10.addWillOutput("STEADFAST", 10);
+berserkercrucible10.addWillOutput("STEADFAST", 10, 0, 1000);
 berserkercrucible10.build();

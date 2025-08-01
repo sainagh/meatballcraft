@@ -956,4 +956,19 @@ mythallo130.addItemInput(<extrabees:misc:9>*4);
 mythallo130.addItemOutput(<contenttweaker:fractal_metal_clump>);
 mythallo130.build();
 
+val mythallo131 = RecipeBuilder.newBuilder("mythallo131","mythic_processor_alloy_furnace",2);
+mythallo131.addEnergyPerTickInput(80000);
+mythallo131.addItemInput(<gendustry:honey_drop:13337>);
+mythallo131.addItemInput(<contenttweaker:meatball>*4);
+mythallo131.addItemOutput(<contenttweaker:sentient_meatball>*4);
+mythallo131.build();
+
+
+val mythallo132 = RecipeBuilder.newBuilder("mythallo132","mythic_processor_alloy_furnace",2);
+mythallo132.addEnergyPerTickInput(80000);
+mythallo132.addItemInput(<rftools:dimensional_shard>*512);
+mythallo132.addItemInput(<minecraft:diamond>*64);
+mythallo132.addItemOutput(<contenttweaker:sentient_meatball>*4);
+mythallo132.build();
+
 

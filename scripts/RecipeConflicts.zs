@@ -137,10 +137,10 @@ recipes.remove(<cyclicmagic:exp_pylon>);
 
 recipes.remove(<natura:flint_and_blaze>);
 
-recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:king_charger"}}),
-[[null, <aoa3:raw_charger_shank>, null],
-[<aoa3:raw_charger_shank>, <extendedcrafting:singularity:49>, <aoa3:raw_charger_shank>],
-[null, <contenttweaker:golem_core>, null]]);
+// recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "aoa3:king_charger"}}),
+// [[null, <aoa3:raw_charger_shank>, null],
+// [<aoa3:raw_charger_shank>, <extendedcrafting:singularity:49>, <aoa3:raw_charger_shank>],
+// [null, <contenttweaker:golem_core>, null]]);
 
 recipes.remove(<divinerpg:lava_lamp>);
 
@@ -807,23 +807,6 @@ mods.immersiveengineering.Crusher.removeRecipesForInput(<nuclearcraft:ingot:11>)
 mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:31>, <nuclearcraft:ingot:11>, 128);
 
 
-recipes.addShapeless(<appliedenergistics2:material:23>, 
-[<ae2stuff:inscriber>, <contenttweaker:advanced_inscriber_doesnt_show_up>]);
-
-recipes.addShapeless(<appliedenergistics2:material:22>, 
-[<ae2stuff:inscriber>, <contenttweaker:advanced_inscriber_doesnt_show_up>]);
-
-recipes.addShapeless(<appliedenergistics2:material:24>, 
-[<ae2stuff:inscriber>, <contenttweaker:advanced_inscriber_doesnt_show_up>]);
-
-recipes.addShapeless(<appliedenergistics2:material:16>, 
-[<ae2stuff:inscriber>, <contenttweaker:advanced_inscriber_doesnt_show_up>]);
-
-recipes.addShapeless(<appliedenergistics2:material:17>, 
-[<ae2stuff:inscriber>, <contenttweaker:advanced_inscriber_doesnt_show_up>]);
-
-recipes.addShapeless(<appliedenergistics2:material:18>, 
-[<ae2stuff:inscriber>, <contenttweaker:advanced_inscriber_doesnt_show_up>]);
 
 
 recipes.addShapeless(<abyssalcraft:psdl>, 
@@ -2477,69 +2460,6 @@ recipes.addShaped(<natura:nether_bookshelves:3>,
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:ogerite_ore>, <fluid:ogerite>*360]);
 
 
-recipes.addShapeless(<contenttweaker:jade_egg>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<contenttweaker:arlemite_egg>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<contenttweaker:realmite_egg>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<contenttweaker:limonite_egg>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<contenttweaker:rosite_egg>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<contenttweaker:rupee_egg>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<contenttweaker:amethyst_egg>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<contenttweaker:sapphire_egg>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<contenttweaker:netherite_egg>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<chickens:liquid_egg:0>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<chickens:liquid_egg:1>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-
-
-recipes.addShapeless(<forestry:fruits:2>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<forestry:fruits:5>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<forestry:fruits:1>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<forestry:fruits:6>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<forestry:fruits:3>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<forestry:fruits:4>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<forestry:fruits:0>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-
-recipes.addShapeless(<extratrees:food:55>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<extratrees:food:1>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<extratrees:food:3>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<extratrees:food:11>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<extratrees:food:13>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<extratrees:food:14>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<extratrees:food:15>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<extratrees:food:16>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<extratrees:food:17>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<extratrees:food:18>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<extratrees:food:21>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
-recipes.addShapeless(<extratrees:food:38>,
-[<contenttweaker:multiblock_input_swapping>, <actuallyadditions:block_phantomface>]);
 
 
 
@@ -2661,6 +2581,75 @@ recipes.addShapeless(<contenttweaker:infinitely_wishful_catalyst>,
 
 
 
+recipes.addShaped(<techreborn:part:7>,
+[[null, <ore:ingotTin>, null],
+[<ore:ingotTin>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "helium", Amount: 1000}}), <ore:ingotTin>],
+[null, <ore:ingotTin>, null]]);
+
+recipes.addShapeless(<extendedcrafting:material:36>,
+[<extendedcrafting:storage:5>]);
+
+furnace.addRecipe(<bewitchment:cold_iron_ingot>*4, <contenttweaker:stone_of_constraint>);
 
 
 
+mods.nuclearcraft.melter.addRecipe([<ore:ingotThaumium>, <fluid:thaumium>*144]);
+mods.nuclearcraft.melter.addRecipe([<ore:blockThaumium>, <fluid:thaumium>*1296]);
+
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:demonic_ember>, <fluid:molten_demonic_ember>*144]);
+
+
+
+recipes.addShaped(<extrabotany:material:2>,
+[[null, <contenttweaker:gold_leaf>, null],
+[<contenttweaker:gold_leaf>, <minecraft:potato>, <contenttweaker:gold_leaf>],
+[null, <contenttweaker:gold_leaf>, null]]);
+
+
+recipes.addShapeless(<aoa3:staring_eye>,
+[<aoa3:tentacles_eye_red>, <thermalfoundation:material:1027>]);
+
+
+recipes.addShapeless(<divinerpg:corrupted_shards>*9,
+[<divinerpg:corrupted_stone>]);
+recipes.addShapeless(<divinerpg:divine_shards>*9,
+[<divinerpg:divine_stone>]);
+recipes.addShapeless(<divinerpg:ender_shards>*9,
+[<divinerpg:ender_stone>]);
+recipes.addShapeless(<divinerpg:ice_shards>*9,
+[<divinerpg:ice_stone>]);
+recipes.addShapeless(<divinerpg:jungle_shards>*9,
+[<divinerpg:jungle_stone>]);
+recipes.addShapeless(<divinerpg:molten_shards>*9,
+[<divinerpg:molten_stone>]);
+recipes.addShapeless(<divinerpg:terran_shards>*9,
+[<divinerpg:terran_stone>]);
+
+
+
+recipes.addShapeless(<contenttweaker:terrestrial_catalyst>,
+[<biomesoplenty:terrestrial_artifact>]);
+
+mods.nuclearcraft.melter.addRecipe([<ore:ingotThaumium>, <fluid:thaumium>*144]);
+mods.nuclearcraft.melter.addRecipe([<ore:blockThaumium>, <fluid:thaumium>*1296]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:purified_titanium_ingot>, <fluid:purified_titanium>*144]);
+
+
+recipes.addShaped(<contenttweaker:recursive_meatball>*8,
+[[<contenttweaker:sentient_meatball_flesh>, <contenttweaker:sentient_meatball_flesh>, <contenttweaker:sentient_meatball_flesh>],
+[<contenttweaker:naquadah_chunk>, <contenttweaker:recursive_meatball>, <contenttweaker:naquadah_chunk>],
+[<contenttweaker:sentient_meatball_flesh>, <contenttweaker:sentient_meatball_flesh>, <contenttweaker:sentient_meatball_flesh>]]);
+
+
+recipes.addShaped(<contenttweaker:holy_shimmer>*2,
+[[null, <contenttweaker:ineffable_light>, null],
+[<contenttweaker:ineffable_light>, <contenttweaker:holy_shimmer>, <contenttweaker:ineffable_light>],
+[null, <contenttweaker:ineffable_light>, null]]);
+
+
+recipes.addShaped(<divinerpg:divine_shards>,
+[[<contenttweaker:divine_wisp>, <contenttweaker:divine_wisp>, <contenttweaker:divine_wisp>],
+[<contenttweaker:divine_wisp>, <contenttweaker:holy_shimmer>, <contenttweaker:divine_wisp>],
+[<contenttweaker:divine_wisp>, <contenttweaker:divine_wisp>, <contenttweaker:divine_wisp>]]);

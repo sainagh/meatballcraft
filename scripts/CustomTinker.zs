@@ -352,8 +352,8 @@ berserksteel.addMaterialTrait("exploit");
 berserksteel.addMaterialTrait("payback");
 berserksteel.addMaterialTrait("mod_lavacow.unholytouch");
 berserksteel.addMaterialTrait("holy");
-berserksteel.itemLocalizer = function(thisMaterial, itemName){return "Berserker Steel " + itemName;};
-berserksteel.localizedName = "Berserker Steel";
+berserksteel.itemLocalizer = function(thisMaterial, itemName){return "Dragonslayer Steel " + itemName;};
+berserksteel.localizedName = "Dragonslayer Steel";
 berserksteel.register();
 
 
@@ -508,9 +508,9 @@ orichalcum.register();
 
 val demonicember = mods.contenttweaker.tconstruct.MaterialBuilder.create("demonc_ember");
 demonicember.color = 0xff2b48;
-demonicember.craftable = true;
-// abyssalflesh.liquid = <fluid:molten_barathosynium>;
-demonicember.castable = false;
+demonicember.craftable = false;
+demonicember.liquid = <fluid:molten_demonic_ember>;
+demonicember.castable = true;
 demonicember.addItem(<item:contenttweaker:demonic_ember>,1,144);
 demonicember.representativeItem = <item:contenttweaker:demonic_ember>;
 demonicember.addHeadMaterialStats(10, 4.2f, 250.0f, 1);
@@ -584,10 +584,10 @@ trinity.register();
 
 val worthy = mods.contenttweaker.tconstruct.MaterialBuilder.create("worthy");
 worthy.color = 0x3f1266;
-worthy.craftable = true;
-// abyssalflesh.liquid = <fluid:molten_barathosynium>;
-worthy.castable = false;
-worthy.addItem(<item:contenttweaker:stone_of_worthiness>,1,144);
+worthy.craftable = false;
+worthy.liquid = <fluid:whisper_of_worthiness>;
+worthy.castable = true;
+worthy.addItem(<item:contenttweaker:stone_of_worthiness>,1,2500);
 worthy.representativeItem = <item:contenttweaker:stone_of_worthiness>;
 worthy.addHeadMaterialStats(100, 1.62f, 6000.04f, 1);
 worthy.addHandleMaterialStats(1.03, 100);

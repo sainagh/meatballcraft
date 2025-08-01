@@ -143,3 +143,12 @@ recipes.addShaped(<contenttweaker:adamantium_reinforced_petrified_wood>,
 [[<contenttweaker:adamantium_plate>, <erebus:planks_petrified_wood>, <contenttweaker:adamantium_plate>],
 [<erebus:planks_petrified_wood>, <erebus:planks_petrified_wood>, <erebus:planks_petrified_wood>],
 [<contenttweaker:adamantium_plate>, <erebus:planks_petrified_wood>, <contenttweaker:adamantium_plate>]]);
+
+
+recipes.addShaped(<bewitchment:empty_jar>*4,
+[[<minecraft:clay_ball>, <aoa3:charged_runium_chunk>, <minecraft:clay_ball>],
+[null, <appliedenergistics2:material:1>, null]]);
+
+
+
+

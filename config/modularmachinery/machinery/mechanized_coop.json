@@ -2,7 +2,21 @@
     "registryname": "mechanized_coop",
     "localizedname": "Mechanized Coop",
 	"color": "612b27",
-    "has-factory": true,
+    "modifiers": [
+        {
+            "elements": "contenttweaker:sacred_cinders_wood",
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "description": "10X output",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 10
+            }
+        }
+    ],
     "parts": [
         {
             "x": 2,

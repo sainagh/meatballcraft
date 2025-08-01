@@ -30,6 +30,12 @@ mods.recipestages.Recipes.addShaped("addnetherskyamber", "bloodmasterstage", <co
     [<divinerpg:ancient_entity_statue>, <aoa3:corallus_statue>, <divinerpg:ancient_entity_statue>]
 ]);
 
+recipes.addShaped(<contenttweaker:nethersky_amber>,
+[[<divinerpg:ancient_entity_statue>, <aoa3:corallus_statue>, <divinerpg:ancient_entity_statue>],
+[<aoa3:corallus_statue>, <contenttweaker:nethersky_amber>.reuse(), <aoa3:corallus_statue>],
+[<divinerpg:ancient_entity_statue>, <aoa3:corallus_statue>, <divinerpg:ancient_entity_statue>]]);
+
+
 
 
 recipes.addShaped(<contenttweaker:bloodmaster_tome>,

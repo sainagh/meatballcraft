@@ -263,7 +263,7 @@ mods.botania.ElvenTrade.addRecipe([<botania:storage:2>*3], [<aoa3:elecanium_ingo
 
 mods.botania.ElvenTrade.addRecipe([<botania:storage:2>*4], [<ore:ingotChaos>]);
 
-mods.botania.ElvenTrade.addRecipe([<botania:storage:2>*4], [<aoa3:shyrestone_ingot>]);
+mods.botania.ElvenTrade.addRecipe([<botania:storage:2>*5], [<aoa3:shyrestone_ingot>]);
 
 
 
@@ -293,5 +293,11 @@ mods.botania.ElvenTrade.addRecipe([<botania:storage:4>*5], [<divinerpg:mortum_ge
 
 mods.botania.ElvenTrade.addRecipe([<botania:quartz:5>*48], [<contenttweaker:endergenic_sediment>]);
 
+
+
+recipes.addShaped(<extrabotany:manabarrel>*4,
+[[<botania:pool:3>, <botania:lens:0>, <botania:pool:3>],
+[<botania:pool:3>, <ore:ingotOrichalcos>, <botania:pool:3>],
+[<botania:pool:3>, <botania:lens:0>, <botania:pool:3>]]);
 
 

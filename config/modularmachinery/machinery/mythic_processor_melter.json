@@ -8,7 +8,7 @@
             "x": 0,
             "y": 3,
             "z": 1,
-            "description": "Multiplies amounts processed by 8",
+            "description": "8X parallelization",
             "modifiers": [{
                 "io": "input",
                 "target": "modularmachinery:item",

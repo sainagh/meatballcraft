@@ -206,7 +206,7 @@ val reci18 = RecipeBuilder.newBuilder("thaum18","arcane_autoworkbench",120);
 reci18.addEnergyPerTickInput(100);
 reci18.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}));
 reci18.addItemInput(<minecraft:leather>*2);
-reci18.addItemInput(<minecraft:planks>*4);
+reci18.addItemInput(<ore:plankWood>*4);
 reci18.addItemInput(<minecraft:iron_ingot>);
 reci18.addItemOutput(<thaumcraft:bellows>);
 reci18.build();
@@ -1232,6 +1232,6 @@ thaum116.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1
 thaum116.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "stellae"}]}));
 thaum116.addItemInput(<contenttweaker:stormlight_sphere>);
 thaum116.addItemInput(<thaumcraft:mechanism_complex>*8);
-thaum116.addItemOutput(<contenttweaker:ice_construct>*8);
+thaum116.addItemOutput(<contenttweaker:fire_construct>*8);
 thaum116.build();
 

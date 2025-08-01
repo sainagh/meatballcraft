@@ -160,9 +160,6 @@ import crafttweaker.item.IItemCondition;
 <abyssalcraft:shadowshard>.addTooltip(format.red("Dropped by shadow monsters, found in ancient dungeons and in darklands biomes"));
 <abyssalcraft:shadowgem>.addTooltip(format.red("Dropped by shadow monsters, found in ancient dungeons and in darklands biomes"));
 
-<abyssalcraft:shadowfragment>.addTooltip(format.red("Shadow Creature spawn eggs are craftable if you're unlucky"));
-<abyssalcraft:shadowshard>.addTooltip(format.red("Shadow Creature spawn eggs are craftable if you're unlucky"));
-<abyssalcraft:shadowgem>.addTooltip(format.red("Shadow Creature spawn eggs are craftable if you're unlucky"));
 
 <abyssalcraft:shadowfragment>.addTooltip(format.red("You should use a mob duplicator and crusher to farm it"));
 <abyssalcraft:shadowshard>.addTooltip(format.red("You should use a mob duplicator and crusher to farm it"));
@@ -290,7 +287,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:sedna_artifact>.addTooltip(format.red("Start warping from the closest planet"));
 
-<iceandfire:fire_dragon_heart>.addTooltip(format.green("Reusable for making diamonds"));
 
 <forestry:planks.1:6>.addTooltip(format.red("Log is craftable"));
 
@@ -1208,6 +1204,8 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:divine_shickaxe>.addTooltip(format.red("Can be super-enchanted"));
 
+<aoa3:knights_guard>.addTooltip(format.red("Can be super-enchanted"));
+
 <extrautils2:boomerang>.addTooltip(format.red("Can be super-enchanted"));
 
 <iceandfire:stymphalian_bird_dagger>.addTooltip(format.red("Can be super-enchanted"));
@@ -2006,7 +2004,6 @@ import crafttweaker.item.IItemCondition;
 
 <ore:dustDiamond>.addTooltip(format.red("First made in the quartz grindstone"));
 
-<iceandfire:hydra_fang>.addTooltip(format.red("Hydras spawn in swamps in the overworld, or in bone structures in the nether"));
 
 <contenttweaker:myrmex_coolant_cell>.addTooltip(format.red("Cursed myrmitite buckets have a recipe"));
 
@@ -2144,6 +2141,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:ore_processing>.addTooltip(format.red("There are a lot of ways to process ores for extra goodies!"));
 
+<contenttweaker:imstuck_getmehome>.addTooltip(format.red("This will get you to spawn if you are stuck somewhere, and do no want to use cheats"));
 <contenttweaker:imstuck_getmehome>.addTooltip(format.red("It's a bit slow, but it works!"));
 
 <bewitchment:salt>.addTooltip(format.red("The mineralis ritual from astral sorcery is the best way to get this!"));
@@ -3059,8 +3057,6 @@ import crafttweaker.item.IItemCondition;
 
 <botania:enchantedsoil>.addTooltip(format.red("Obtained from the Enchanted Orchid, or Overgrowth Seeds"));
 <botania:enchantedsoil>.addTooltip(format.red("Can be moved using Pistons, and the Sigil of Acquisition"));
-
-<contenttweaker:advanced_inscriber_doesnt_show_up>.addTooltip(format.red("The advanced version is better for automation"));
 
 <contenttweaker:myrmitite_casing>.addTooltip(format.red("Mathias had an idea, Quantum tried some stuff, thanks!"));
 

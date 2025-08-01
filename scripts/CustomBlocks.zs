@@ -2826,3 +2826,79 @@ voidichoriumore.setToolClass("pickaxe");
 voidichoriumore.setToolLevel(3);
 voidichoriumore.register();
 
+var hostileneuralnetwork = VanillaFactory.createBlock("hostile_neural_network", <blockmaterial:iron>);
+hostileneuralnetwork.setBlockHardness(1.0);
+hostileneuralnetwork.setBlockResistance(2.5);
+hostileneuralnetwork.setToolClass("pickaxe");
+hostileneuralnetwork.setToolLevel(3);
+hostileneuralnetwork.register();
+
+var sacredcinderswood = VanillaFactory.createBlock("sacred_cinders_wood", <blockmaterial:iron>);
+sacredcinderswood.setBlockHardness(1.0);
+sacredcinderswood.setBlockResistance(2.5);
+sacredcinderswood.setToolClass("pickaxe");
+sacredcinderswood.setToolLevel(3);
+sacredcinderswood.register();
+
+var stoneofconstraint = VanillaFactory.createBlock("stone_of_constraint", <blockmaterial:iron>);
+stoneofconstraint.setBlockHardness(1.0);
+stoneofconstraint.setBlockResistance(2.5);
+stoneofconstraint.setToolClass("pickaxe");
+stoneofconstraint.setToolLevel(3);
+stoneofconstraint.register();
+
+var stormlightcollector = VanillaFactory.createBlock("stormlight_collector", <blockmaterial:iron>);
+stormlightcollector.setBlockHardness(1.0);
+stormlightcollector.setBlockResistance(2.5);
+stormlightcollector.setToolClass("pickaxe");
+stormlightcollector.setToolLevel(3);
+stormlightcollector.register();
+
+
+var fracturingstone = VanillaFactory.createBlock("fracturing_stone", <blockmaterial:iron>);
+fracturingstone.setBlockHardness(1.0);
+fracturingstone.setBlockResistance(2.5);
+fracturingstone.setToolClass("pickaxe");
+fracturingstone.setToolLevel(3);
+fracturingstone.register();
+
+var mythiccoilt4 = VanillaFactory.createBlock("mythic_coil_t4", <blockmaterial:iron>);
+mythiccoilt4.setBlockHardness(1.0);
+mythiccoilt4.setBlockResistance(2.5);
+mythiccoilt4.setToolClass("pickaxe");
+mythiccoilt4.setToolLevel(3);
+mythiccoilt4.register();
+
+
+var boundstonelun = VanillaFactory.createBlock("bound_lunar_stone", <blockmaterial:iron>);
+boundstonelun.setBlockHardness(1.0);
+boundstonelun.setBlockResistance(2.5);
+boundstonelun.setToolClass("pickaxe");
+boundstonelun.setToolLevel(3);
+boundstonelun.register();
+
+var sanguineneuralnet = VanillaFactory.createBlock("sanguine_neural_network", <blockmaterial:iron>);
+sanguineneuralnet.setBlockHardness(1.0);
+sanguineneuralnet.setBlockResistance(2.5);
+sanguineneuralnet.setToolClass("pickaxe");
+sanguineneuralnet.setToolLevel(3);
+sanguineneuralnet.register();
+
+var hyperuranionsilkyjewel = VanillaFactory.createBlock("hyperuranion_actualizer_silkyjewel", <blockmaterial:iron>);
+hyperuranionsilkyjewel.setBlockHardness(1.0);
+hyperuranionsilkyjewel.setBlockResistance(2.5);
+hyperuranionsilkyjewel.setToolClass("pickaxe");
+hyperuranionsilkyjewel.setToolLevel(3);
+hyperuranionsilkyjewel.register();
+
+var apostlemycelium = VanillaFactory.createBlock("apostle_mycelium", <blockmaterial:iron>);
+apostlemycelium.setBlockHardness(1.0);
+apostlemycelium.setBlockResistance(2.5);
+apostlemycelium.setToolClass("pickaxe");
+apostlemycelium.setToolLevel(3);
+apostlemycelium.register();
+
+
+
+
+

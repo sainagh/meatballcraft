@@ -100,3 +100,11 @@
 <contenttweaker:apothecary_prison_key>.addTooltip(format.red("Use in this dimension:  Iromine"));
 <contenttweaker:strange_stone_callstone>.addTooltip(format.red("Use in this dimension:  Gallifrey"));
 <contenttweaker:shyre_rider_callstone>.addTooltip(format.red("Use in this dimension:  Shyrelands"));
+<contenttweaker:blackfrost_callstone>.addTooltip(format.red("Use in this dimension:  Travixte"));
+<contenttweaker:horde_domination_callstone>.addTooltip(format.red("Use in this dimension:  Overworld"));
+<contenttweaker:gravitational_callstone>.addTooltip(format.red("Use in this dimension:  Lelyetia"));
+<contenttweaker:holy_sludge_callstone>.addTooltip(format.red("Use in this dimension:  Overworld"));
+<contenttweaker:forsaken_priests_callstone>.addTooltip(format.red("Use in this dimension:  Runandor"));
+
+
+

@@ -238,5 +238,60 @@ befaller9.addItemOutput(<bewitchment:salt_ore>*64);
 befaller9.addItemOutput(<bewitchment:salt_ore>*64);
 befaller9.addItemOutput(<bewitchment:salt_ore>*64);
 befaller9.addItemOutput(<bewitchment:salt_ore>*64);
-befaller9.addItemOutput(<bewitchment:salt_ore>*64);
+befaller9.addItemOutput(<bewitchment:garnet_ore>*64);
+befaller9.addItemOutput(<bewitchment:garnet_ore>*64);
+befaller9.addItemOutput(<bewitchment:garnet_ore>*64);
+befaller9.addItemOutput(<bewitchment:garnet_ore>*64);
 befaller9.build();
+
+recipes.addShaped(<contenttweaker:lunar_binding_fabrial>,
+[[null, <contenttweaker:elleipsinyum>, null],
+[<contenttweaker:elleipsinyum>, <contenttweaker:recursive_imprisonment_gem>, <contenttweaker:elleipsinyum>],
+[null, <contenttweaker:elleipsinyum>, null]]);
+
+val befaller10 = RecipeBuilder.newBuilder("befaller10","meteoric_befaller",100);
+befaller10.addBiomeInput("aoa3:lunalus");
+befaller10.addFluidInput(<fluid:meteoric_draconic_matter>*1000);
+befaller10.addItemInput(<contenttweaker:lunar_binding_fabrial>);
+befaller10.addItemOutput(<contenttweaker:bound_lunar_stone>*64);
+befaller10.addItemOutput(<aoa3:runium_ore>*64);
+befaller10.build();
+
+
+mods.bloodmagic.AlchemyTable.addRecipe(<aoa3:lunar_ingot>*4, [<bloodmagic:cutting_fluid:*>, <contenttweaker:bound_lunar_stone>], 1, 5, 3);
+
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 1}), <aoa3:magic_repair_dust>]]);
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 2}), <aoa3:magic_repair_dust>]]);
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 3}), <aoa3:magic_repair_dust>]]);
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 4}), <aoa3:magic_repair_dust>]]);
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 5}), <aoa3:magic_repair_dust>]]);
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 6}), <aoa3:magic_repair_dust>]]);
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 7}), <aoa3:magic_repair_dust>]]);
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 8}), <aoa3:magic_repair_dust>]]);
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 9}), <aoa3:magic_repair_dust>]]);
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 10}), <aoa3:magic_repair_dust>]]);
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 11}), <aoa3:magic_repair_dust>]]);
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 12}), <aoa3:magic_repair_dust>]]);
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 13}), <aoa3:magic_repair_dust>]]);
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 14}), <aoa3:magic_repair_dust>]]);
+recipes.addShaped(<bloodmagic:cutting_fluid:0>,
+[[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 15}), <aoa3:magic_repair_dust>]]);
+
+
+
+
+

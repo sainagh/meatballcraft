@@ -232,7 +232,7 @@ val enclistSuperMantleWrapped as EnchantMap = EnchantMap()
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.armara"},display: {Name:"§6§oMantle of the Stars§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSuperMantleWrapped).getItem(), 
+mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.armara"},display: {Name:"§6§oMantle of Woe§r",Lore:["§d§oSuper-Enchanted§r"]}}), enclistSuperMantleWrapped).getItem(), 
 [[<astralsorcery:itemperkseal>, <astralsorcery:itemrockcrystalsimple>, null, <contenttweaker:dynatos_crystal>, null, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemperkseal>], 
 [<astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <extendedcrafting:singularity:49>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>], 
 [null, <astralsorcery:itemrockcrystalsimple>, null, null, null, <astralsorcery:itemrockcrystalsimple>, null], 
@@ -486,3 +486,35 @@ recipes.addShaped(<contenttweaker:carpeted_allure>,
 [[<contenttweaker:etherium_ore>, <contenttweaker:hypercharged_wool>, <contenttweaker:etherium_ore>],
 [<aoa3:occult_shovel>, <divinerpg:frosted_allure>, <aoa3:occult_pickaxe>],
 [<forge:bucketfilled>.withTag({FluidName: "smoldering_tar", Amount: 1000}), <contenttweaker:hypercharged_wool>, <forge:bucketfilled>.withTag({FluidName: "smoldering_tar", Amount: 1000})]]);
+
+
+
+// bettercapacitors
+
+recipes.addShaped(<enderio:item_basic_capacitor:3>.withTag({eiocap: {energy_buffer: 4.00 as float, level: 3.50 as float, energy_intake: 4.00 as float, "enderio:block_combustion_generator/gen": 3.983839 as float}, "enderio:capname": "Dark Dark Capacitor",display:{Name:"Darkest Depth Capacitor"},"enderio:capno":1,"enderio:glinted":1}),
+[[<ore:ingotEthaxium>, <contenttweaker:dark_capacitor_shard>, <ore:ingotEthaxium>],
+[<contenttweaker:dark_capacitor_shard>, <enderio:item_basic_capacitor:2>, <contenttweaker:dark_capacitor_shard>],
+[<ore:ingotEthaxium>, <contenttweaker:dark_capacitor_shard>, <ore:ingotEthaxium>]]);
+
+
+recipes.addShaped(<enderio:item_basic_capacitor:3>.withTag({eiocap: {energy_buffer: 6.00 as float, level: 6.00 as float, energy_intake: 6.00 as float, "enderio:block_combustion_generator/gen": 3.983839 as float}, "enderio:capname": "Radioactive Capacitor",display:{Name:"Really Radioactive Capacitor JK IDK"},"enderio:capno":1,"enderio:glinted":1}),
+[[<contenttweaker:heuf_fuel>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:heuf_fuel>],
+[<contenttweaker:dark_capacitor_shard>, <enderio:item_capacitor_stellar>, <contenttweaker:dark_capacitor_shard>],
+[<contenttweaker:heuf_fuel>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:heuf_fuel>]]);
+
+
+recipes.addShaped(<enderio:item_basic_capacitor:3>.withTag({eiocap: {energy_buffer: 7.00 as float, level: 7.00 as float, energy_intake: 7.00 as float, "enderio:block_combustion_generator/gen": 3.983839 as float}, "enderio:capname": "Flex Capacitor",display:{Name:"Flex Capacitor"},"enderio:capno":1,"enderio:glinted":1}),
+[[<ore:ingotPromethium>, <contenttweaker:dark_capacitor_shard>, <ore:ingotPromethium>],
+[<contenttweaker:dark_capacitor_shard>, <enderio:item_capacitor_stellar>, <contenttweaker:dark_capacitor_shard>],
+[<ore:ingotPromethium>, <contenttweaker:dark_capacitor_shard>, <ore:ingotPromethium>]]);
+
+recipes.addShaped(<enderio:item_basic_capacitor:3>.withTag({eiocap: {energy_buffer: 8.00 as float, level: 8.00 as float, energy_intake: 8.00 as float, "enderio:block_combustion_generator/gen": 3.983839 as float}, "enderio:capname": "Warren Capacitor",display:{Name:"Warren Capacitor"},"enderio:capno":1,"enderio:glinted":1}),
+[[<contenttweaker:warren_shard>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:warren_shard>],
+[<contenttweaker:dark_capacitor_shard>, <enderio:item_capacitor_stellar>, <contenttweaker:dark_capacitor_shard>],
+[<contenttweaker:warren_shard>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:warren_shard>]]);
+
+
+recipes.addShaped(<enderio:item_basic_capacitor:3>.withTag({eiocap: {energy_buffer: 9.00 as float, level: 9.00 as float, energy_intake: 9.00 as float, "enderio:block_combustion_generator/gen": 3.983839 as float}, "enderio:capname": "Warren Capacitor",display:{Name:"Warren Capacitor"},"enderio:capno":1,"enderio:glinted":1}),
+[[<contenttweaker:cosmic_fracture>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:cosmic_fracture>],
+[<contenttweaker:dark_capacitor_shard>, <enderio:item_capacitor_stellar>, <contenttweaker:dark_capacitor_shard>],
+[<contenttweaker:cosmic_fracture>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:cosmic_fracture>]]);
