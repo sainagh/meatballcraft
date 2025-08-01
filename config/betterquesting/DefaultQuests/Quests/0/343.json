@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:hive_king_tendril"
             },
-            "TrophyName:8": "Hive King Slayer",
+            "TrophyName:8": "蜂王屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -47,7 +47,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:baroness_brain"
             },
-            "TrophyName:8": "Baroness Slayer",
+            "TrophyName:8": "女爵屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:shadowlord_eye"
             },
-            "TrophyName:8": "Shadowlord Slayer",
+            "TrophyName:8": "暗影领主屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -47,7 +47,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:elusive_horn"
             },
-            "TrophyName:8": "Elusive Slayer",
+            "TrophyName:8": "虚影屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
