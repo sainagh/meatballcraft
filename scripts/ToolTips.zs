@@ -2584,7 +2584,7 @@
 
 <thaumicwonders:alienist_stone>.addTooltip(format.red("可合成为不毁版本，用其进行自动化"));
 
-<contenttweaker:quasar_core>.addTooltip(format.red("要合成该物品，轮回噩梦合成器和硅岩外壳能帮得上忙"));
+<contenttweaker:quasar_core>.addTooltip(format.red("要合成该物品，递归噩梦合成器和硅岩外壳能帮得上忙"));
 <contenttweaker:quasar_core>.addTooltip(format.red("站在一个塞德娜金属稳定器上"));
 
 
