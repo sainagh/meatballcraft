@@ -2,8 +2,8 @@
   "path": "vanilla/plants/dandelion_plant.json",
   "enabled": true,
   "id": "vanilla:dandelion_plant",
-  "plant_name": "Dandelion",
-  "seed_name": "Dandelion Seeds",
+  "plant_name": "蒲公英",
+  "seed_name": "蒲公英种子",
   "seed_items": [],
   "description": {
     "translations": {},

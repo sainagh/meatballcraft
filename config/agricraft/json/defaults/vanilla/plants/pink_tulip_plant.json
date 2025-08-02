@@ -2,8 +2,8 @@
   "path": "vanilla/plants/pink_tulip_plant.json",
   "enabled": true,
   "id": "vanilla:pink_tulip_plant",
-  "plant_name": "Pink Tulip",
-  "seed_name": "Pink Tulip Seeds",
+  "plant_name": "粉红色郁金香",
+  "seed_name": "粉红色郁金香种子",
   "seed_items": [],
   "description": {
     "translations": {},

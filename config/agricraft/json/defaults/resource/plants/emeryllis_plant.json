@@ -2,8 +2,8 @@
   "path": "resource/plants/emeryllis_plant.json",
   "enabled": true,
   "id": "resource:emeryllis_plant",
-  "plant_name": "Emeryllis",
-  "seed_name": "Emeryllis Seeds",
+  "plant_name": "朱顶绿",
+  "seed_name": "朱顶绿种子",
   "seed_items": [],
   "description": {
     "translations": {},

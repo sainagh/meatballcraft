@@ -2,8 +2,8 @@
   "path": "vanilla/plants/beet_root_plant.json",
   "enabled": true,
   "id": "vanilla:beet_root_plant",
-  "plant_name": "Beets",
-  "seed_name": "Beet Seeds",
+  "plant_name": "甜菜根",
+  "seed_name": "甜菜根种子",
   "seed_items": [
     {
       "item": "minecraft:beetroot_seeds",

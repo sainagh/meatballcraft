@@ -2,8 +2,8 @@
   "path": "vanilla/plants/orange_tulip_plant.json",
   "enabled": true,
   "id": "vanilla:orange_tulip_plant",
-  "plant_name": "Orange Tulip",
-  "seed_name": "Orange Tulip Seeds",
+  "plant_name": "橙色郁金香",
+  "seed_name": "橙色郁金香种子",
   "seed_items": [],
   "description": {
     "translations": {},

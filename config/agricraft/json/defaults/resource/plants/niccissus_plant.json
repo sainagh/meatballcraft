@@ -2,8 +2,8 @@
   "path": "resource/plants/niccissus_plant.json",
   "enabled": true,
   "id": "resource:niccissus_plant",
-  "plant_name": "Niccissus",
-  "seed_name": "Niccissus Seeds",
+  "plant_name": "镍粉藤",
+  "seed_name": "镍粉藤种子",
   "seed_items": [],
   "description": {
     "translations": {},

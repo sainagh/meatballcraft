@@ -2,8 +2,8 @@
   "path": "vanilla/plants/white_tulip_plant.json",
   "enabled": true,
   "id": "vanilla:white_tulip_plant",
-  "plant_name": "White Tulip",
-  "seed_name": "White Tulip Seeds",
+  "plant_name": "白色郁金香",
+  "seed_name": "白色郁金香种子",
   "seed_items": [],
   "description": {
     "translations": {},

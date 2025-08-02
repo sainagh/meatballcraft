@@ -2,8 +2,8 @@
   "path": "vanilla/plants/poppy_plant.json",
   "enabled": true,
   "id": "vanilla:poppy_plant",
-  "plant_name": "Poppy",
-  "seed_name": "Poppy Seeds",
+  "plant_name": "虞美人",
+  "seed_name": "虞美人种子",
   "seed_items": [],
   "description": {
     "translations": {},

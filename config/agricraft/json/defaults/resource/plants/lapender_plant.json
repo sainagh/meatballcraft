@@ -2,8 +2,8 @@
   "path": "resource/plants/lapender_plant.json",
   "enabled": true,
   "id": "resource:lapender_plant",
-  "plant_name": "Lapender",
-  "seed_name": "Lapender Seeds",
+  "plant_name": "蓝熏衣",
+  "seed_name": "蓝熏衣种子",
   "seed_items": [],
   "description": {
     "translations": {},
