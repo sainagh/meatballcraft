@@ -2,6 +2,22 @@
     "registryname": "soul_accumulator",
     "localizedname": "Soul Accumulator",
 	"color": "b8c5d9",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:headstone",
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "description": "速度x10",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.1
+            }
+        }
+    ],
+
     "parts": [
         {
             "x": 0,

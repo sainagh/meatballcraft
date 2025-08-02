@@ -512,3 +512,9 @@ mythcomp88.addEnergyPerTickInput(60000);
 mythcomp88.addItemInput(<minecraft:gold_nugget>);
 mythcomp88.addItemOutput(<contenttweaker:gold_leaf>);
 mythcomp88.build();
+
+val mythcomp89 = RecipeBuilder.newBuilder("mythcomp89","mythic_processor_compactor",2);
+mythcomp89.addEnergyPerTickInput(60000);
+mythcomp89.addItemInput(<contenttweaker:evanescent_sednanite_powder>*8);
+mythcomp89.addItemOutput(<materialpart:sednanite:ingot>*8);
+mythcomp89.build();

@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "contenttweaker:items/high_refraction_alloy_ingot"
-  }
-}

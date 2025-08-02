@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "Acts as a radiation scrubber in a 9x9 chunk area centered around the machine",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:cursed_meatballium_reinforced_casing"

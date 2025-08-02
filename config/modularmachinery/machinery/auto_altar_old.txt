@@ -1,0 +1,631 @@
+{
+    "registryname": "auto_astral_altar",
+    "localizedname": "Automatic Starlight Altar",
+	"color": "f0eee6",
+    "modifiers": [
+        {
+            "elements": "libvulpes:advstructuremachine",
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "description": "20X Speed",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.05
+            }
+        },
+        {
+            "elements": "contenttweaker:darkstar_collector",
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "description": "100X Speed",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.01
+            }
+        },
+        {
+            "elements": "contenttweaker:stormlight_collector",
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "description": "600X Speed",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.001667
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockblackmarble@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockblackmarble@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockblackmarble@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockblackmarble@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockblackmarble@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockblackmarble@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockblackmarble@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockaltar@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockblackmarble@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockblackmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockblackmarble@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockblackmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockblackmarble@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockblackmarble@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:alchemical_crystal"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockblackmarble@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockblackmarble@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockblackmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockblackmarble@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockblackmarble@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockblackmarble@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockblackmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockinfusedwood@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockinfusedwood@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockinfusedwood@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockinfusedwood@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        }
+    ]}

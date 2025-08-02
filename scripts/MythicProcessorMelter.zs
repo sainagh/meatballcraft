@@ -754,3 +754,21 @@ mythmelt661.addEnergyPerTickInput(60000);
 mythmelt661.addItemInput(<contenttweaker:void_ichorium_ore>);
 mythmelt661.addFluidOutput(<fluid:void_ichor> * 250);
 mythmelt661.build();
+
+val mythmelt662 = RecipeBuilder.newBuilder("mythmelt662","mythic_processor_melter",2);
+mythmelt662.addEnergyPerTickInput(60000);
+mythmelt662.addItemInput(<ore:ingotThaumium>);
+mythmelt662.addFluidOutput(<fluid:thaumium> * 144);
+mythmelt662.build();
+
+val mythmelt663 = RecipeBuilder.newBuilder("mythmelt663","mythic_processor_melter",2);
+mythmelt663.addEnergyPerTickInput(60000);
+mythmelt663.addItemInput(<ore:blockThaumium>);
+mythmelt663.addFluidOutput(<fluid:thaumium> * 1296);
+mythmelt663.build();
+
+val mythmelt664 = RecipeBuilder.newBuilder("mythmelt664","mythic_processor_melter",2);
+mythmelt664.addEnergyPerTickInput(60000);
+mythmelt664.addItemInput(<gendustry:honey_comb:14027>*16);
+mythmelt664.addFluidOutput(<fluid:fluorine> * 32000);
+mythmelt664.build();

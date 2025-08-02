@@ -180,7 +180,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
   	.add("cofhcore:multishot", 6)
   	.add("minecraft:power", 30)
   	.add("minecraft:infinity", 1)
-	.add("cofhcore:leech",1);
+	.add("cyclicmagic:enchantment.quickdraw",1);
 
 	
 	//	Recipe
@@ -608,7 +608,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 	val attunecrystal = Utils.getCrystalORIngredient(true, true);
 	
 	mods.thaumcraft.Infusion.registerRecipe("superstellarhelm", "", 
-		SuperEnchantedItem(<enderio:item_stellar_alloy_helmet>.withTag({display: {Name:"§6§o恒星合金头盔§r",Lore:["§d§o超限附魔§r"]}}), enclistStellarWrapped).getItem(), 20, 
+		SuperEnchantedItem(<enderio:item_stellar_alloy_helmet>.withTag({display: {Name:"§6§o星爆头盔§r",Lore:["§d§o超限附魔§r"]}}), enclistStellarWrapped).getItem(), 20, 
 		[<aspect:stellae>*600, <aspect:permutatio>*100], 
 		<enderio:item_stellar_alloy_helmet>, 
 		[<contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>,
@@ -617,7 +617,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 		attunecrystal, attunecrystal]);
 
 	mods.thaumcraft.Infusion.registerRecipe("superstellarchest", "", 
-		SuperEnchantedItem(<enderio:item_stellar_alloy_chestplate>.withTag({display: {Name:"§6§o恒星合金胸甲§r",Lore:["§d§o超限附魔§r"]}}), enclistStellarWrapped).getItem(), 20, 
+		SuperEnchantedItem(<enderio:item_stellar_alloy_chestplate>.withTag({display: {Name:"§6§o星爆胸甲§r",Lore:["§d§o超限附魔§r"]}}), enclistStellarWrapped).getItem(), 20, 
 		[<aspect:stellae>*600, <aspect:permutatio>*100], 
 		<enderio:item_stellar_alloy_chestplate>, 
 		[<contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>,
@@ -626,7 +626,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 		attunecrystal, attunecrystal]);
 
 	mods.thaumcraft.Infusion.registerRecipe("superstellarlegs", "", 
-		SuperEnchantedItem(<enderio:item_stellar_alloy_leggings>.withTag({display: {Name:"§6§o恒星合金护腿§r",Lore:["§d§o超限附魔§r"]}}), enclistStellarWrapped).getItem(), 20, 
+		SuperEnchantedItem(<enderio:item_stellar_alloy_leggings>.withTag({display: {Name:"§6§o星爆护腿§r",Lore:["§d§o超限附魔§r"]}}), enclistStellarWrapped).getItem(), 20, 
 		[<aspect:stellae>*600, <aspect:permutatio>*100], 
 		<enderio:item_stellar_alloy_leggings>, 
 		[<contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>,
@@ -635,7 +635,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 		attunecrystal, attunecrystal]);
 
 	mods.thaumcraft.Infusion.registerRecipe("superstellarboots", "", 
-		SuperEnchantedItem(<enderio:item_stellar_alloy_boots>.withTag({display: {Name:"§6§o恒星合金靴子§r",Lore:["§d§o超限附魔§r"]}}), enclistStellarWrapped).getItem(), 20, 
+		SuperEnchantedItem(<enderio:item_stellar_alloy_boots>.withTag({display: {Name:"§6§o星爆靴子§r",Lore:["§d§o超限附魔§r"]}}), enclistStellarWrapped).getItem(), 20, 
 		[<aspect:stellae>*600, <aspect:permutatio>*100], 
 		<enderio:item_stellar_alloy_boots>, 
 		[<contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>,
@@ -663,7 +663,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 	.add("aoa3:sever",20);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:baron_greatblade>.withTag({display: {Name:"§6§o斩龙剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistBigBoySwordWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:rockbasher_sword>.withTag({display: {Name:"§6§o斩龙剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistBigBoySwordWrapped).getItem(), 
 		[[null, null, null, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, null, null, null], 
 		[null, null, null, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, null, null, null], 
 		[null, null, null, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, null, null, null], 
@@ -671,8 +671,8 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 		[null, null, <contenttweaker:ender_feather>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:ender_feather>, null, null], 
 		[null, null, <contenttweaker:endergenic_sediment>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:endergenic_sediment>, null, null], 
 		[null, null, <ore:ingotPromethium>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <ore:ingotPromethium>, null, null], 
-		[null, <gendustry:honey_comb:14019>, <contenttweaker:first_order_mythic_fractal>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:first_order_mythic_fractal>, <gendustry:honey_comb:14019>, null], 
-		[null, null, null, null, <aoa3:baron_greatblade>, null, null, null, null]]);
+		[null, <gendustry:honey_comb:14019>, <contenttweaker:second_order_mythic_fractal>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:berserker_steel_ingot>, <contenttweaker:second_order_mythic_fractal>, <gendustry:honey_comb:14019>, null], 
+		[null, null, null, null, <aoa3:rockbasher_sword>, null, null, null, null]]);
 }
 
 //	Plaguesword
@@ -1089,7 +1089,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 		[<contenttweaker:greater_gaia_spirit>, <divinerpg:arcanium_block>, <extrabotany:material:3>, <divinerpg:arcanium_block>, <contenttweaker:greater_gaia_spirit>]]);  
 }
 
-//	Vorpal Sword
+//	Red Queen
 {
 	// var mapVorpal as IData = {
 	// 	RepairCost: 1,
@@ -1110,7 +1110,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 	.add("minecraft:sweeping",10);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:rosidian_greatblade>.withTag({display: {Name:"§6§o神锋剑§r",Lore:["§d§o超限附魔§r"]}}), enclistVorpalWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:rosite_sword>.withTag({display: {Name:"§6§o绯红女皇§r",Lore:["§d§o超限附魔§r"]}}), enclistVorpalWrapped).getItem(), 
 		[[<twilightforest:magic_beans>, null, null, null, null, null, <twilightforest:magic_beans>], 
 		[null, <ore:ingotStellarAlloy>, <divinerpg:corrupted_stone>, <divinerpg:corrupted_stone>, <divinerpg:corrupted_stone>, <ore:ingotStellarAlloy>, null], 
 		[null, <divinerpg:corrupted_stone>, <contenttweaker:watcher_eye>, <minecraft:skull:5>, <contenttweaker:watcher_eye>, <divinerpg:corrupted_stone>, null], 
@@ -1377,7 +1377,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 
 
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<twilightforest:glass_sword>.withTag({Unbreakable: 1 as byte, display: {Name:"§6§o凯兰铎§r",Lore:["§d§o超限附魔§r"]}}), enchlistCallandorWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<twilightforest:glass_sword>.withTag({Unbreakable: 1 as byte, display: {Name:"§6§o凯兰铎§r",Lore:["§d§o极・超限附魔§r"]}}), enchlistCallandorWrapped).getItem(), 
 		[[<careerbees:ingredients:11>, null, <contenttweaker:ingot_of_infinite_wishes>, null, <contenttweaker:spiritus_vis_condensate>, null, <contenttweaker:ingot_of_infinite_wishes>, null, <careerbees:ingredients:11>], 
 		[null, <bloodmagic:blood_tank:15>.withTag({Fluid: {FluidName: "soularium", Amount: 524288000}}), null, null, <contenttweaker:cuendillar_plate>, null, null, <bloodmagic:blood_tank:15>.withTag({Fluid: {FluidName: "tough", Amount: 524288000}}), null], 
 		[<contenttweaker:ingot_of_infinite_wishes>, null, null, <contenttweaker:cuendillar_plate>, <avaritiaitem:cosmic_balance>, <contenttweaker:cuendillar_plate>, null, null, <contenttweaker:ingot_of_infinite_wishes>], 
@@ -1400,7 +1400,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 
 
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<mod_lavacow:sludge_wand>.withTag({Unbreakable: 1 as byte, display: {Name:"§6§o男性珂丹卡§r",Lore:["§d§o超限附魔§r"]}}), enchlistChoedanKal).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<mod_lavacow:sludge_wand>.withTag({Unbreakable: 1 as byte, display: {Name:"§6§o男性珂丹卡§r",Lore:["§d§o极・超限附魔§r"]}}), enchlistChoedanKal).getItem(), 
 		[[null, null, null, <contenttweaker:eleint_stone>, <bewitchment:stone_leonard_statue>, <contenttweaker:eleint_stone>, null, null, null], 
 		[null, <contenttweaker:seal_of_freedom>, null, <contenttweaker:eleint_stone>, <mod_lavacow:sludge_wand>, <contenttweaker:eleint_stone>, null, <contenttweaker:seal_of_freedom>, null], 
 		[null, null, null, null, <contenttweaker:eleint_stone>, null, null, null, null], 
@@ -1411,7 +1411,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 		[null, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <minecraft:bedrock>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, null], 
 		[<contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <minecraft:bedrock>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>, <contenttweaker:everburning_dust>]]);
 
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<mod_lavacow:scarab_wand>.withTag({Unbreakable: 1 as byte, display: {Name:"§6§o女性珂丹卡§r",Lore:["§d§o超限附魔§r"]}}), enchlistChoedanKal).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<mod_lavacow:scarab_wand>.withTag({Unbreakable: 1 as byte, display: {Name:"§6§o女性珂丹卡§r",Lore:["§d§o极・超限附魔§r"]}}), enchlistChoedanKal).getItem(), 
 		[[null, null, null, <contenttweaker:eleint_stone>, <bewitchment:stone_lilith_statue>, <contenttweaker:eleint_stone>, null, null, null], 
 		[null, <contenttweaker:seal_of_freedom>, null, <contenttweaker:eleint_stone>, <mod_lavacow:scarab_wand>, <contenttweaker:eleint_stone>, null, <contenttweaker:seal_of_freedom>, null], 
 		[null, null, null, null, <contenttweaker:eleint_stone>, null, null, null, null], 
@@ -1439,7 +1439,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 
 
 
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:shadow_sword>.withTag({Unbreakable: 1 as byte, display: {Name:"§6§o噬灵者§r",Lore:["§d§o超限附魔§r"]}}), enchlistDragnipur).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:shadow_sword>.withTag({Unbreakable: 1 as byte, display: {Name:"§6§o噬灵者§r",Lore:["§d§o极・超限附魔§r"]}}), enchlistDragnipur).getItem(), 
 		[[<contenttweaker:eleint_stone>, null, <contenttweaker:eleint_stone>, null, <contenttweaker:eleint_stone>, null, <contenttweaker:eleint_stone>, null, <contenttweaker:eleint_stone>], 
 		[null, <contenttweaker:echo_warren_alloy>, null, <contenttweaker:echo_warren_alloy>, null, <contenttweaker:echo_warren_alloy>, null, <contenttweaker:echo_warren_alloy>, null], 
 		[<contenttweaker:eleint_stone>, null, <contenttweaker:self_actualizing_warren_rift>, null, null, null, <contenttweaker:self_actualizing_warren_rift>, null, <contenttweaker:eleint_stone>], 
@@ -1553,12 +1553,274 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 	.add("enderio:witherweapon",50);
 	
 		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<thaumadditions:the_beheader>.withTag({display: {Name:"§6§oWicked Sister§r",Lore:["§d§o超限附魔§r"]}}), enchlistWickedSister).getItem(), 
-		[[<contenttweaker:condensed_essence>, <contenttweaker:starlight_sphere>, <contenttweaker:recursive_powder>, <contenttweaker:stormlight_sphere>, <contenttweaker:condensed_essence>], 
-		[<contenttweaker:stormlight_sphere>, <contenttweaker:elder_spooder_string>, <contenttweaker:ichor>, <contenttweaker:elder_spooder_string>, <contenttweaker:starlight_sphere>], 
-		[<contenttweaker:recursive_powder>, <contenttweaker:ichor>, <thaumadditions:the_beheader>, <contenttweaker:ichor>, <contenttweaker:recursive_powder>], 
-		[<contenttweaker:starlight_sphere>, <contenttweaker:elder_spooder_string>, <contenttweaker:ichor>, <contenttweaker:elder_spooder_string>, <contenttweaker:stormlight_sphere>], 
-		[<contenttweaker:condensed_essence>, <contenttweaker:stormlight_sphere>, <contenttweaker:recursive_powder>, <contenttweaker:starlight_sphere>, <contenttweaker:condensed_essence>]]); 
+		[[<contenttweaker:condensed_essence>, <contenttweaker:starlight_sphere>, <contenttweaker:recursive_powder>, <contenttweaker:starlight_sphere>, <contenttweaker:condensed_essence>], 
+		[<contenttweaker:starlight_sphere>, <contenttweaker:elder_spooder_string>, <contenttweaker:ichor>, <contenttweaker:elder_spooder_string>, <contenttweaker:starlight_sphere>], 
+		[<gendustry:honey_comb:14019>, <contenttweaker:ichor>, <thaumadditions:the_beheader>, <contenttweaker:ichor>, <gendustry:honey_comb:14019>], 
+		[<contenttweaker:starlight_sphere>, <contenttweaker:elder_spooder_string>, <contenttweaker:ichor>, <contenttweaker:elder_spooder_string>, <contenttweaker:starlight_sphere>], 
+		[<contenttweaker:condensed_essence>, <contenttweaker:starlight_sphere>, <contenttweaker:recursive_powder>, <contenttweaker:starlight_sphere>, <contenttweaker:condensed_essence>]]); 
 
 
 
 }
+
+
+
+//	Lucky Seven
+{
+
+	val enchlistLuckySeven as EnchantMap = EnchantMap()
+	.add("minecraft:sharpness",60)
+	.add("minecraft:unbreaking",18);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<extrabotany:shadowkatana>.withTag({display: {Name:"§6§o幸运七§r",Lore:["§d§o超限附魔§r"]}}), enchlistLuckySeven).getItem(), 
+		[[<computercraft:computer:*>, <magicbees:drop:1>, null, <magicbees:drop:1>, <computercraft:computer:*>], 
+		[<magicbees:drop:1>, <contenttweaker:osiris_spinel>, <cyclicmagic:beacon_potion>, <contenttweaker:osiris_spinel>, <magicbees:drop:1>], 
+		[null, <cyclicmagic:beacon_potion>, <extrabotany:shadowkatana>, <cyclicmagic:beacon_potion>, null], 
+		[<magicbees:drop:1>, <contenttweaker:osiris_spinel>, <cyclicmagic:beacon_potion>, <contenttweaker:osiris_spinel>, <magicbees:drop:1>], 
+		[<computercraft:computer:*>, <magicbees:drop:1>, null, <magicbees:drop:1>, <computercraft:computer:*>]]); 
+
+
+
+}
+
+
+
+//	Mageblood
+{
+
+	val enchlistMageblood as EnchantMap = EnchantMap()
+	.add("ebwizardry:magic_protection",18)
+	.add("minecraft:projectile_protection",18);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<thaumadditions:adaminite_belt>.withTag({display: {Name:"§6§o法师之血§r",Lore:["§d§o超限附魔§r"]}}), enchlistMageblood).getItem(), 
+		[[<nuclearcraft:depleted_fuel_ic2:1>, <ebwizardry:small_mana_flask>, <ebwizardry:small_mana_flask>, <ebwizardry:small_mana_flask>, <nuclearcraft:depleted_fuel_ic2:1>], 
+		[<ebwizardry:small_mana_flask>, <contenttweaker:demon_stone>, <contenttweaker:orcus_spinel>, <contenttweaker:demon_stone>, <ebwizardry:small_mana_flask>], 
+		[<ebwizardry:small_mana_flask>, <contenttweaker:orcus_spinel>, <thaumadditions:adaminite_belt>, <contenttweaker:orcus_spinel>, <ebwizardry:small_mana_flask>], 
+		[<ebwizardry:small_mana_flask>, <contenttweaker:demon_stone>, <contenttweaker:orcus_spinel>, <contenttweaker:demon_stone>, <ebwizardry:small_mana_flask>], 
+		[<nuclearcraft:depleted_fuel_ic2:1>, <ebwizardry:small_mana_flask>, <ebwizardry:small_mana_flask>, <ebwizardry:small_mana_flask>, <nuclearcraft:depleted_fuel_ic2:1>]]); 
+
+
+
+}
+
+
+//	Mayalaran
+{
+
+	val enchlistMayalaran as EnchantMap = EnchantMap()
+	.add("mod_lavacow:poisonous",50)
+	.add("enderio:witherweapon",30)
+	.add("minecraft:sharpness",50)
+	.add("minecraft:sweeping",25);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<iceandfire:dread_queen_sword>.withTag({display: {Name:"§6§o玛雅拉兰§r",Lore:["§d§o超限附魔§r"]}}), enchlistMayalaran).getItem(), 
+		[[null, <contenttweaker:stormlight_sphere>, null, <contenttweaker:stormlight_sphere>, null, <contenttweaker:stormlight_sphere>, null],
+		[<contenttweaker:stormlight_sphere>, <contenttweaker:recursive_powder>, <tconstruct:shard>.withTag({Material: "rosidian"}), <tconstruct:shard>.withTag({Material: "rosidian"}), <tconstruct:shard>.withTag({Material: "rosidian"}), <contenttweaker:recursive_powder>, <contenttweaker:stormlight_sphere>],
+		[null, <tconstruct:shard>.withTag({Material: "rosidian"}), <tconstruct:large_plate>.withTag({Material: "vibranium_alloy"}), <contenttweaker:sword_shield>, <tconstruct:large_plate>.withTag({Material: "vibranium_alloy"}), <tconstruct:shard>.withTag({Material: "rosidian"}), null],
+		[<contenttweaker:stormlight_sphere>, <tconstruct:shard>.withTag({Material: "rosidian"}), <contenttweaker:sword_shield>, <iceandfire:dread_queen_sword>, <contenttweaker:sword_shield>, <tconstruct:shard>.withTag({Material: "rosidian"}), <contenttweaker:stormlight_sphere>],
+		[null, <tconstruct:shard>.withTag({Material: "rosidian"}), <tconstruct:large_plate>.withTag({Material: "vibranium_alloy"}), <contenttweaker:sword_shield>, <tconstruct:large_plate>.withTag({Material: "vibranium_alloy"}), <tconstruct:shard>.withTag({Material: "rosidian"}), null],
+		[<contenttweaker:stormlight_sphere>, <contenttweaker:recursive_powder>, <tconstruct:shard>.withTag({Material: "rosidian"}), <tconstruct:shard>.withTag({Material: "rosidian"}), <tconstruct:shard>.withTag({Material: "rosidian"}), <contenttweaker:recursive_powder>, <contenttweaker:stormlight_sphere>],
+		[null, <contenttweaker:stormlight_sphere>, null, <contenttweaker:stormlight_sphere>, null, <contenttweaker:stormlight_sphere>, null]]); 
+
+
+}
+
+
+//	Taeshalach
+{
+
+	val enchlistTaeshalach as EnchantMap = EnchantMap()
+	.add("minecraft:fire_aspect",22)
+	.add("minecraft:looting",30)
+	.add("minecraft:sharpness",40)
+	.add("minecraft:sweeping",10);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:baron_sword>.withTag({display: {Name:"§6§o泰沙拉克§r",Lore:["§d§o超限附魔§r"]}}), enchlistTaeshalach).getItem(), 
+		[[<divinerpg:bluefire_stone>, <contenttweaker:baroness_brain>, <divinerpg:bluefire_stone>, <contenttweaker:baroness_brain>, <divinerpg:bluefire_stone>],
+		[<contenttweaker:baroness_brain>, <nuclearcraft:californium:8>, <openblocks:tank>.withTag({tank: {FluidName: "purified_titanium", Amount: 16000}}), <nuclearcraft:californium:8>, <contenttweaker:baroness_brain>],
+		[<divinerpg:bluefire_stone>, <openblocks:tank>.withTag({tank: {FluidName: "purified_titanium", Amount: 16000}}), <aoa3:baron_sword>, <openblocks:tank>.withTag({tank: {FluidName: "purified_titanium", Amount: 16000}}), <divinerpg:bluefire_stone>],
+		[<contenttweaker:baroness_brain>, <nuclearcraft:californium:8>, <openblocks:tank>.withTag({tank: {FluidName: "purified_titanium", Amount: 16000}}), <nuclearcraft:californium:8>, <contenttweaker:baroness_brain>],
+		[<divinerpg:bluefire_stone>, <contenttweaker:baroness_brain>, <divinerpg:bluefire_stone>, <contenttweaker:baroness_brain>, <divinerpg:bluefire_stone>]]); 
+
+
+}
+
+
+
+//	Sword of Crota
+{
+
+	val enchlistCrotasword as EnchantMap = EnchantMap()
+	.add("tombstone:plague_bringer",17)
+	.add("minecraft:looting",16)
+	.add("minecraft:sharpness",45)
+	.add("minecraft:sweeping",6);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:primal_sword>.withTag({display: {Name:"§6§o克洛塔之剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistCrotasword).getItem(), 
+		[[<tconstruct:large_plate>.withTag({Material: "end_steel"}), <tconstruct:large_plate>.withTag({Material: "end_steel"}), null, <tconstruct:large_plate>.withTag({Material: "end_steel"}), <tconstruct:large_plate>.withTag({Material: "end_steel"})],
+		[<tconstruct:large_plate>.withTag({Material: "end_steel"}), <contenttweaker:flying_gunpowder>, <contenttweaker:pure_warp>, <contenttweaker:flying_gunpowder>, <tconstruct:large_plate>.withTag({Material: "end_steel"})],
+		[null, <contenttweaker:pure_warp>, <aoa3:primal_sword>, <contenttweaker:pure_warp>, null],
+		[<tconstruct:large_plate>.withTag({Material: "end_steel"}), <contenttweaker:flying_gunpowder>, <contenttweaker:pure_warp>, <contenttweaker:flying_gunpowder>, <tconstruct:large_plate>.withTag({Material: "end_steel"})],
+		[<tconstruct:large_plate>.withTag({Material: "end_steel"}), <tconstruct:large_plate>.withTag({Material: "end_steel"}), null, <tconstruct:large_plate>.withTag({Material: "end_steel"}), <tconstruct:large_plate>.withTag({Material: "end_steel"})]]); 
+
+
+}
+
+
+
+//	Vorpal Blade
+{
+
+	val enchlistVorpalrosid as EnchantMap = EnchantMap()
+	.add("cofhcore:vorpal",16);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:rosidian_greatblade>.withTag({display: {Name:"§6§o斩首剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistVorpalrosid).getItem(), 
+		[[<ore:ingotVityte>, <ore:ingotVityte>, null, <ore:ingotVityte>, <ore:ingotVityte>],
+		[<ore:ingotVityte>, <contenttweaker:rosidian_blend>, <contenttweaker:rosidian_blend>, <contenttweaker:rosidian_blend>, <ore:ingotVityte>],
+		[null, <contenttweaker:rosidian_blend>, <aoa3:rosidian_greatblade>, <contenttweaker:rosidian_blend>, null],
+		[<ore:ingotVityte>, <contenttweaker:rosidian_blend>, <contenttweaker:rosidian_blend>, <contenttweaker:rosidian_blend>, <ore:ingotVityte>],
+		[<ore:ingotVityte>, <ore:ingotVityte>, null, <ore:ingotVityte>, <ore:ingotVityte>]]); 
+
+
+}
+
+
+
+
+//	The Crucible
+{
+
+	val enchlistThecrucible as EnchantMap = EnchantMap()
+	.add("minecraft:bane_of_arthropods",16)
+	.add("minecraft:sharpness",41)
+	.add("abyssalcraft:light_pierce",16)
+	.add("minecraft:smite",16);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<thaumadditions:adaminite_sword>.withTag({display: {Name:"§6§o裁决剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistThecrucible).getItem(), 
+		[[<nuclearcraft:plutonium:4>, null, <nuclearcraft:plutonium:4>, null, <nuclearcraft:plutonium:4>],
+		[null, <contenttweaker:gun_devil_chunk>, <contenttweaker:gun_devil_chunk>, <contenttweaker:gun_devil_chunk>, null],
+		[<nuclearcraft:plutonium:4>, <contenttweaker:gun_devil_chunk>, <thaumadditions:adaminite_sword>, <contenttweaker:gun_devil_chunk>, <nuclearcraft:plutonium:4>],
+		[null, <contenttweaker:gun_devil_chunk>, <contenttweaker:gun_devil_chunk>, <contenttweaker:gun_devil_chunk>, null],
+		[<nuclearcraft:plutonium:4>, null, <nuclearcraft:plutonium:4>, null, <nuclearcraft:plutonium:4>]]); 
+
+
+}
+
+
+
+//	Eirias
+{
+
+	val enchlistEirias as EnchantMap = EnchantMap()
+	.add("minecraft:sharpness",69)
+	.add("abyssalcraft:light_pierce",33)
+	.add("minecraft:smite",33);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:crystallite_sword>.withTag({display: {Name:"§6§o炽炎§r",Lore:["§d§o超限附魔§r"]}}), enchlistEirias).getItem(), 
+		[[<contenttweaker:deep_metamorphic_rock>, null, <ore:ingotUltimate>, null, <contenttweaker:deep_metamorphic_rock>],
+		[null, <aoa3:rainbow_druse>, <aoa3:rosidons>, <aoa3:rainbow_druse>, null],
+		[<ore:ingotUltimate>, <aoa3:rosidons>, <aoa3:crystallite_sword>, <aoa3:rosidons>, <ore:ingotUltimate>],
+		[null, <aoa3:rainbow_druse>, <aoa3:rosidons>, <aoa3:rainbow_druse>, null],
+		[<contenttweaker:deep_metamorphic_rock>, null, <ore:ingotUltimate>, null, <contenttweaker:deep_metamorphic_rock>]]); 
+
+
+}
+
+
+
+//	Shannara
+{
+
+	val enchlistSannara as EnchantMap = EnchantMap()
+	.add("minecraft:smite",101)
+	.add("minecraft:sweeping",101)
+	.add("minecraft:fire_aspect",101);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:holy_sword>.withTag({display: {Name:"§6§o沙拉娜之剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistSannara).getItem(), 
+		[[<contenttweaker:recursive_meatball>, null, <ore:blockUltimate>, null, <contenttweaker:recursive_meatball>],
+		[null, <contenttweaker:ineffable_light>, <mod_lavacow:holy_sludge>, <contenttweaker:ineffable_light>, null],
+		[<ore:blockUltimate>, <mod_lavacow:holy_sludge>, <aoa3:holy_sword>, <mod_lavacow:holy_sludge>, <ore:blockUltimate>],
+		[null, <contenttweaker:ineffable_light>, <mod_lavacow:holy_sludge>, <contenttweaker:ineffable_light>, null],
+		[<contenttweaker:recursive_meatball>, null, <ore:blockUltimate>, null, <contenttweaker:recursive_meatball>]]); 
+
+}
+
+
+//	AOTD
+{
+
+	val enchlistAOTD as EnchantMap = EnchantMap()
+	.add("mod_lavacow:lifesteal",200)
+	.add("minecraft:sharpness",100)
+	.add("minecraft:smite",255)
+	.add("cofhcore:vorpal",30)
+	.add("minecraft:efficiency",33);
+	
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:chainsaw>.withTag({display: {Name:"§6§o魔诫英豪电锯§r",Lore:["§d§o超限附魔§r"]}}), enchlistAOTD).getItem(), 
+	[[null, <contenttweaker:high_strength_transmission>, <contenttweaker:high_strength_transmission>, <contenttweaker:high_strength_transmission>, <contenttweaker:high_strength_transmission>, <contenttweaker:high_strength_transmission>, null], 
+	[<contenttweaker:high_strength_transmission>, <contenttweaker:high_strength_transmission>, <contenttweaker:enhanced_chaos_shard>, <contenttweaker:enhanced_chaos_shard>, <contenttweaker:enhanced_chaos_shard>, <contenttweaker:high_strength_transmission>, <contenttweaker:high_strength_transmission>], 
+	[<contenttweaker:high_strength_transmission>, <contenttweaker:enhanced_chaos_shard>, <randomthings:imbue:3>, <bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "lumium", Amount: 65336000}}), <randomthings:imbue:3>, <contenttweaker:enhanced_chaos_shard>, <contenttweaker:high_strength_transmission>], 
+	[<contenttweaker:high_strength_transmission>, <contenttweaker:enhanced_chaos_shard>, <contenttweaker:fourth_order_mythic_fractal>, <aoa3:chainsaw>, <contenttweaker:fourth_order_mythic_fractal>, <contenttweaker:enhanced_chaos_shard>, <contenttweaker:high_strength_transmission>], 
+	[<contenttweaker:high_strength_transmission>, <contenttweaker:enhanced_chaos_shard>, <randomthings:imbue:3>, <bloodmagic:blood_tank:12>.withTag({Fluid: {FluidName: "vibrant_alloy", Amount: 65336000}}), <randomthings:imbue:3>, <contenttweaker:enhanced_chaos_shard>, <contenttweaker:high_strength_transmission>], 
+	[<contenttweaker:high_strength_transmission>, <contenttweaker:high_strength_transmission>, <contenttweaker:enhanced_chaos_shard>, <contenttweaker:enhanced_chaos_shard>, <contenttweaker:enhanced_chaos_shard>, <contenttweaker:high_strength_transmission>, <contenttweaker:high_strength_transmission>], 
+	[null, <contenttweaker:high_strength_transmission>, <contenttweaker:high_strength_transmission>, <contenttweaker:high_strength_transmission>, <contenttweaker:high_strength_transmission>, <contenttweaker:high_strength_transmission>, null]]);  
+
+}
+
+//	black knight greatsword
+{
+
+	val enchlistBlackKnightSword as EnchantMap = EnchantMap()
+	.add("draconicevolution:enchant_reaper",200)
+	.add("minecraft:sharpness",200)
+	.add("abyssalcraft:light_pierce",85)
+	.add("minecraft:sweeping",33);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:harvester_sword>.withTag({display: {Name:"§6§o黑骑士之剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistBlackKnightSword).getItem(), 
+		[[<aoa3:ghastly_block>, <aoa3:ghoulish_block>, <aoa3:ghastly_block>, <aoa3:ghoulish_block>, <aoa3:ghastly_block>],
+		[<aoa3:ghoulish_block>, <contenttweaker:primordial_catalyst>, <contenttweaker:cosmic_fracture>, <contenttweaker:primordial_catalyst>, <aoa3:ghoulish_block>],
+		[<aoa3:ghastly_block>, <contenttweaker:cosmic_fracture>, <aoa3:harvester_sword>, <contenttweaker:cosmic_fracture>, <aoa3:ghastly_block>],
+		[<aoa3:ghoulish_block>, <contenttweaker:primordial_catalyst>, <contenttweaker:cosmic_fracture>, <contenttweaker:primordial_catalyst>, <aoa3:ghoulish_block>],
+		[<aoa3:ghastly_block>, <aoa3:ghoulish_block>, <aoa3:ghastly_block>, <aoa3:ghoulish_block>, <aoa3:ghastly_block>]]); 
+
+}
+
+//	Cornettopick
+{
+
+	val enchlistTintinnabula as EnchantMap = EnchantMap()
+	.add("minecraft:efficiency",25)
+	.add("cofhcore:smelting",1)
+	.add("minecraft:fortune",18);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:soulstone_pickaxe>.withTag({display: {Name:"§6§o可爱多镐§r",Lore:["§d§o超限附魔§r"]}}), enchlistTintinnabula).getItem(), 
+		[[null, <contenttweaker:phasing_alloy_ingot>, <contenttweaker:phasing_alloy_ingot>, <contenttweaker:phasing_alloy_ingot>, null],
+		[<contenttweaker:phasing_alloy_ingot>, null, <ore:stickChalcedony>, null, <contenttweaker:phasing_alloy_ingot>],
+		[null, null, <aoa3:soulstone_pickaxe>, null, null],
+		[null, null, <extratrees:food:55>, null, null],
+		[null, null, <ore:stickChalcedony>, null, null]]); 
+
+}
+
+
+//	The Ashbringer
+{
+
+	val enchlistAshbringer as EnchantMap = EnchantMap()
+	.add("enderio:shimmer",25)
+	.add("minecraft:sharpness",300)
+	.add("divinerpg:aftershock",20);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:knights_guard>.withTag({display: {Name:"§6§o灰烬使者§r",Lore:["§d§o超限附魔§r"]}}), enchlistAshbringer).getItem(), 
+		[[<contenttweaker:imperial_diamond_powder>, null, <contenttweaker:sacred_cinders_fruit>, null, <contenttweaker:imperial_diamond_powder>],
+		[null, <contenttweaker:prophetic_paper>, <tconstruct:large_plate>.withTag({Material: "shyrestone"}), <contenttweaker:prophetic_paper>, null],
+		[<contenttweaker:sacred_cinders_fruit>, <tconstruct:large_plate>.withTag({Material: "shyrestone"}), <aoa3:knights_guard>, <tconstruct:large_plate>.withTag({Material: "shyrestone"}), <contenttweaker:sacred_cinders_fruit>],
+		[null, <contenttweaker:prophetic_paper>, <tconstruct:large_plate>.withTag({Material: "shyrestone"}), <contenttweaker:prophetic_paper>, null],
+		[<contenttweaker:imperial_diamond_powder>, null, <contenttweaker:sacred_cinders_fruit>, null, <contenttweaker:imperial_diamond_powder>]]); 
+
+}
+
+
+
+
+

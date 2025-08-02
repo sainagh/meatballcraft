@@ -98,7 +98,7 @@ polarursaroll.addItemEntry(<aoa3:rosite_ingot>, 5);
 
 val deepcase = LootTweaker.getTable("aoa3:blocks/deep_case");
 val deepcasemain = deepcase.getPool("main");
-deepcasemain.addItemEntry(<contenttweaker:alchemical_deep_rock>*4, 20);
+deepcasemain.addItemEntry(<contenttweaker:alchemical_deep_rock>*4, 50);
 deepcasemain.addItemEntry(<projecte:item.pe_fuel:2>*64, 20);
 deepcasemain.addItemEntry(<contenttweaker:botanic_alchemic_catalyst>*16, 20);
 deepcasemain.addItemEntry(<extrabees:honey_comb:11>*64, 30);
@@ -226,6 +226,8 @@ kaiyuemc.addItemEntry(<contenttweaker:kaiyu_bone>, 5);
 val clunkhead = LootTweaker.getTable("aoa3:entities/bosses/clunkhead");
 val clunkheadbrick = clunkhead.addPool("clunkheadbrick", 1, 1, 0, 0);
 clunkheadbrick.addItemEntry(<contenttweaker:clunkhead_brick>, 5);
+val clunkheadrares = clunkhead.getPool("rares");
+clunkheadrares.removeEntry("aoa3:runic_sword");
 
 val coniferon = LootTweaker.getTable("aoa3:entities/bosses/coniferon");
 val coniferonbark = coniferon.addPool("coniferonbark", 1, 1, 0, 0);
@@ -351,6 +353,9 @@ raxxanrib.addItemEntry(<contenttweaker:raxxan_rib>, 5);
 val rockrider = LootTweaker.getTable("aoa3:entities/bosses/rock_rider");
 val rockriderstone = rockrider.addPool("rockriderstone", 1, 1, 0, 0);
 rockriderstone.addItemEntry(<contenttweaker:rockrider_stone>, 5);
+val rockriderrares = rockrider.getPool("rares");
+rockriderrares.removeEntry("aoa3:rockbasher_sword");
+
 
 val shadowlord = LootTweaker.getTable("aoa3:entities/bosses/shadowlord");
 val shadowlordeye = shadowlord.addPool("shadowlordeye", 1, 1, 0, 0);
@@ -603,6 +608,8 @@ val twilighticequeen = LootTweaker.getTable("twilightforest:entities/snow_queen"
 val twilighticequeencube = twilighticequeen.addPool("twilighticequeencube", 1, 1, 0, 0);
 twilighticequeencube.addItemEntry(<contenttweaker:cube_jello_cubes>, 15);
 
+
+
 val magicbeansloot = LootTweaker.getTable("randomthings:beanpod");
 val magicbeanslootingots = magicbeansloot.addPool("magicbeanslootingots", 2, 2, 0, 0);
 magicbeanslootingots.addItemEntry(<techreborn:ingot:14>, 3);
@@ -623,3 +630,12 @@ endertripletshard.addItemEntry(<thaumictinkerer:kamiresource:0>, 5);
 val lostcitiesloot = LootTweaker.getTable("lostcities:chests/lostcitychest");
 val lostcitieslootmeatball = lostcitiesloot.addPool("lostcitieslootmeatball", 2, 3, 0, 0);
 lostcitieslootmeatball.addItemEntry(<contenttweaker:sentient_meatball>, 5);
+
+val merkyre = LootTweaker.getTable("aoa3:entities/mobs/dustopia/merkyre");
+val merkyreshadowbar = merkyre.addPool("merkyreshadowbar", 1, 1, 0, 0);
+merkyreshadowbar.addItemEntry(<contenttweaker:pure_shadow_bar>, 5);
+
+
+val skullcreature = LootTweaker.getTable("aoa3:entities/mobs/greckon/skull_creature");
+val skullcreaturebonedust = skullcreature.addPool("skullcreaturebonedust", 1, 1, 0, 0);
+skullcreaturebonedust.addItemEntry(<contenttweaker:immortal_bone_dust>, 5);

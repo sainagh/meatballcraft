@@ -1,11 +1,25 @@
 #loader contenttweaker
+#priority -10
 
-import mods.contenttweaker.Color;
 import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
-import mods.contenttweaker.BlockState;
+import mods.contenttweaker.ItemFood;
+import mods.contenttweaker.IItemFoodEaten;
+import mods.contenttweaker.MutableItemStack;
+import mods.contenttweaker.Hand;
+import mods.contenttweaker.World;
+import mods.contenttweaker.IItemUpdate;
+import mods.contenttweaker.Player;
+import crafttweaker.player.IPlayer;
 import crafttweaker.block.IBlock;
+import crafttweaker.data.IData;
+import native.erebus.entity.EntityAnimatedBlock;
+import crafttweaker.util.Position3f;
+import crafttweaker.entity.IEntity;
+
+
 
 
 var masterspellmotus = VanillaFactory.createItem("master_spell_motus");
@@ -120,6 +134,9 @@ masterspelllux.maxStackSize = 1;
 masterspelllux.glowing = true;
 masterspelllux.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("summon Item ~ ~100 ~ {Item:{id:\"contenttweaker:ineffable_light\",Count:1b}}", player, world, false, true);
+	
+	// world.spawnEntity(<contenttweaker:ineffable_light>.createEntityItem(world, player.x, player.y+5, player.z));
+	
 	return "Pass";
 };
 masterspelllux.register();
@@ -209,10 +226,6 @@ var masterspellstellae = VanillaFactory.createItem("master_spell_stellae");
 masterspellstellae.maxStackSize = 1;
 masterspellstellae.glowing = true;
 masterspellstellae.itemRightClick = function(stack, world, player, hand) {
-	Commands.call("summon astralsorcery:entityflare ~ ~1 ~-3", player, world, false, true);
-	Commands.call("summon astralsorcery:entityflare ~ ~1 ~3", player, world, false, true);
-	Commands.call("summon astralsorcery:entityflare ~-3 ~1 ~", player, world, false, true);
-	Commands.call("summon astralsorcery:entityflare ~3 ~1 ~", player, world, false, true);
 	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:starlight_sphere\",Count:1b}}", player, world, false, true);
 	return "Pass";
 };
@@ -371,3 +384,33 @@ masterspellcognitio.itemRightClick = function(stack, world, player, hand) {
 	return "Pass";
 };
 masterspellcognitio.register();
+
+
+var masterspellimperium = VanillaFactory.createItem("master_spell_imperium");
+masterspellimperium.maxStackSize = 1;
+masterspellimperium.glowing = true;
+masterspellimperium.itemRightClick = function(stack, world, player, hand) {
+	val entity = <entity:erebus:erebus.animated_block>.createEntity(world);
+    entity.position = Position3f.create(player.x, player.y + 5, player.z);
+    (entity.native as EntityAnimatedBlock).setBlock(<item:contenttweaker:stone_of_constraint>.asBlock(), 0);
+    world.spawnEntity(entity);
+
+    return "PASS";
+};
+masterspellimperium.register();
+
+var masterspelltenebrae = VanillaFactory.createItem("master_spell_tenebrae");
+masterspelltenebrae.maxStackSize = 1;
+masterspelltenebrae.glowing = true;
+masterspelltenebrae.itemRightClick = function(stack, world, player, hand) {
+	Commands.call("/summon abyssalcraft:shadowmonster ~5 ~3 ~5 {HandItems:[{Count:10,id:\"contenttweaker:dark_capacitor_shard\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"黯曶之影\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:40,permshields:40}},Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:50.0}],Health:1000f}", player, world, false, true);
+	Commands.call("/summon abyssalcraft:shadowmonster ~-5 ~3 ~5 {HandItems:[{Count:10,id:\"contenttweaker:dark_capacitor_shard\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"黯曶之影\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:40,permshields:40}},Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:50.0}],Health:1000f}", player, world, false, true);
+	Commands.call("/summon abyssalcraft:shadowmonster ~5 ~3 ~-5 {HandItems:[{Count:10,id:\"contenttweaker:dark_capacitor_shard\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"黯曶之影\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:40,permshields:40}},Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:50.0}],Health:1000f}", player, world, false, true);
+	Commands.call("/summon abyssalcraft:shadowmonster ~-5 ~3 ~-5 {HandItems:[{Count:10,id:\"contenttweaker:dark_capacitor_shard\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"黯曶之影\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:40,permshields:40}},Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:50.0}],Health:1000f}", player, world, false, true);
+	Commands.call("/summon abyssalcraft:shadowmonster ~ ~3 ~5 {HandItems:[{Count:10,id:\"contenttweaker:dark_capacitor_shard\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"黯曶之影\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:40,permshields:40}},Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:50.0}],Health:1000f}", player, world, false, true);
+	Commands.call("/summon abyssalcraft:shadowmonster ~ ~3 ~-5 {HandItems:[{Count:10,id:\"contenttweaker:dark_capacitor_shard\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"黯曶之影\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:40,permshields:40}},Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:50.0}],Health:1000f}", player, world, false, true);
+	Commands.call("/summon abyssalcraft:shadowmonster ~5 ~3 ~ {HandItems:[{Count:10,id:\"contenttweaker:dark_capacitor_shard\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"黯曶之影\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:40,permshields:40}},Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:50.0}],Health:1000f}", player, world, false, true);
+	Commands.call("/summon abyssalcraft:shadowmonster ~-5 ~3 ~ {HandItems:[{Count:10,id:\"contenttweaker:dark_capacitor_shard\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"黯曶之影\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:40,permshields:40}},Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:50.0}],Health:1000f}", player, world, false, true);
+	return "Pass";
+};
+masterspelltenebrae.register();

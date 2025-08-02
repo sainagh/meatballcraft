@@ -77,6 +77,15 @@
         "modularmachinery:blockinputbus",
         "modularmachinery:blockmeiteminputbus"
     ],
+    "infinity_furnace_hatches": [
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockmefluidinputbus",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockmeitemoutputbus",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockmeiteminputbus",
+        "modularmachinery:blockcasing"
+    ],
     "generalized_rainbow_leaves": [
         "twilightforest:twilight_leaves@7",
         "twilightforest:twilight_leaves@3",
@@ -91,6 +100,10 @@
         "modularmachinery:blockinputbus",
         "modularmachinery:blockmeitemoutputbus",
         "modularmachinery:blockmeiteminputbus"
+    ],
+    "anyfloatingflower": [
+        "botania:miniisland",
+        "botania:floatingspecialflower"
     ],
     "both_item_fluid_input": [
         "modularmachinery:blockfluidinputhatch",
@@ -108,6 +121,16 @@
         "modularmachinery:blockfluidoutputhatch",
         "modularmachinery:blockenergyoutputhatch",
         "modularmachinery:blockmefluidoutputbus"
+    ],
+    "thaumic_replicator_hatches": [
+        "modularmachinery:blockfluidoutputhatch",
+        "modularmachinery:blockmefluidoutputbus",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockmeiteminputbus",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockmefluidinputbus",
+        "modularmachinery:blockaspectproviderinput",
+        "modularmachineryaddons:blockmeessentiainputbus"
     ],
     "apiary_decoration_soil": [
         "minecraft:grass",

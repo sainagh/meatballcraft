@@ -15,10 +15,10 @@ zenClass MixinEntityKingShroomus {
   #mixin ModifyConstant
   #{
   #  method: "getBaseMaxHealth",
-  #  constant: {doubleValue: 1800}
+  #  constant: {floatValue: 1800}
   #}
-  function mbc_changeShroomusMaxHP(value as double) as double {
-    return 8000.0;
+  function mbc_changeShroomusMaxHP(value as float) as float {
+    return 3000.0f;
   }
 }
 

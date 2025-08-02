@@ -35,25 +35,25 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:cursed_meatballium
 
 
 
-var meatballiumscrubber = RecipeBuilder.newBuilder("meatballiumscrubber", "meatballium_radiation_scrubber", 100);
+var meatballiumscrubber = RecipeBuilder.newBuilder("meatballiumscrubber", "meatballium_radiation_scrubber", 3600);
 meatballiumscrubber.addEnergyPerTickInput(10000);
 meatballiumscrubber.addScrubber(1);
 meatballiumscrubber.addRecipeTooltip("与辐射洗涤器类似，工作范围为以机器为中心的3x3区块");
-meatballiumscrubber.addRecipeTooltip("确保工作范围内的所有区块均已加载");
+meatballiumscrubber.addRecipeTooltip("洗涤器会跳过未加载区块");
 meatballiumscrubber.build();
 
-var meatballiumscrubberradiant = RecipeBuilder.newBuilder("meatballiumscrubberradiant", "radiant_meatballium_radiation_scrubber", 100);
+var meatballiumscrubberradiant = RecipeBuilder.newBuilder("meatballiumscrubberradiant", "radiant_meatballium_radiation_scrubber", 3600);
 meatballiumscrubberradiant.addEnergyPerTickInput(10000);
 meatballiumscrubberradiant.addScrubber(2);
 meatballiumscrubberradiant.addRecipeTooltip("与辐射洗涤器类似，工作范围为以机器为中心的5x5区块");
-meatballiumscrubberradiant.addRecipeTooltip("确保工作范围内的所有区块均已加载");
+meatballiumscrubberradiant.addRecipeTooltip("洗涤器会跳过未加载区块");
 meatballiumscrubberradiant.build();
 
-var meatballiumscrubbercursed = RecipeBuilder.newBuilder("meatballiumscrubbercursed", "cursed_meatballium_radiation_scrubber", 100);
+var meatballiumscrubbercursed = RecipeBuilder.newBuilder("meatballiumscrubbercursed", "cursed_meatballium_radiation_scrubber", 3600);
 meatballiumscrubbercursed.addEnergyPerTickInput(10000);
 meatballiumscrubbercursed.addScrubber(4);
 meatballiumscrubbercursed.addRecipeTooltip("与辐射洗涤器类似，工作范围为以机器为中心的9x9区块");
-meatballiumscrubbercursed.addRecipeTooltip("确保工作范围内的所有区块均已加载");
+meatballiumscrubbercursed.addRecipeTooltip("洗涤器会跳过未加载区块");
 meatballiumscrubbercursed.build();
 
 
@@ -67,7 +67,7 @@ activesuperscrubber1.addRadiationInput(4,1);
 activesuperscrubber1.addBiomeInput("integrateddynamics:biome_meneglin");
 activesuperscrubber1.addItemOutput(<contenttweaker:arc_residue>);
 activesuperscrubber1.addRecipeTooltip("每秒移除9x9区块范围内共计1 Rad的辐射");
-activesuperscrubber1.addRecipeTooltip("确保工作范围内的所有区块均已加载");
+activesuperscrubber1.addRecipeTooltip("洗涤器会跳过未加载区块");
 activesuperscrubber1.build();
 
 var activesuperscrubber2 = RecipeBuilder.newBuilder("activesuperscrubber2", "active_meatballium_scrubbing_unit", 20);
@@ -80,5 +80,5 @@ activesuperscrubber2.addRadiationInput(4,10);
 activesuperscrubber2.addBiomeInput("integrateddynamics:biome_meneglin");
 activesuperscrubber2.addItemOutput(<contenttweaker:arc_residue>);
 activesuperscrubber2.addRecipeTooltip("每秒移除9x9区块范围内共计10 Rad的辐射");
-activesuperscrubber2.addRecipeTooltip("确保工作范围内的所有区块均已加载");
+activesuperscrubber2.addRecipeTooltip("洗涤器会跳过未加载区块");
 activesuperscrubber2.build();

@@ -352,8 +352,8 @@ berserksteel.addMaterialTrait("exploit");
 berserksteel.addMaterialTrait("payback");
 berserksteel.addMaterialTrait("mod_lavacow.unholytouch");
 berserksteel.addMaterialTrait("holy");
-berserksteel.itemLocalizer = function(thisMaterial, itemName){return "狂战钢 " + itemName;};
-berserksteel.localizedName = "狂战钢";
+berserksteel.itemLocalizer = function(thisMaterial, itemName){return "龙屠钢 " + itemName;};
+berserksteel.localizedName = "龙屠钢";
 berserksteel.register();
 
 
@@ -508,9 +508,9 @@ orichalcum.register();
 
 val demonicember = mods.contenttweaker.tconstruct.MaterialBuilder.create("demonc_ember");
 demonicember.color = 0xff2b48;
-demonicember.craftable = true;
-// abyssalflesh.liquid = <fluid:molten_barathosynium>;
-demonicember.castable = false;
+demonicember.craftable = false;
+demonicember.liquid = <fluid:molten_demonic_ember>;
+demonicember.castable = true;
 demonicember.addItem(<item:contenttweaker:demonic_ember>,1,144);
 demonicember.representativeItem = <item:contenttweaker:demonic_ember>;
 demonicember.addHeadMaterialStats(10, 4.2f, 250.0f, 1);
@@ -524,11 +524,11 @@ demonicember.localizedName = "恶魔余烬";
 demonicember.register();
 
 val darkmatter = mods.contenttweaker.tconstruct.MaterialBuilder.create("rebalanced_dark_matter");
-darkmatter.color = 0x321a3b;
-darkmatter.craftable = true;
-// abyssalflesh.liquid = <fluid:molten_barathosynium>;
-darkmatter.castable = false;
-darkmatter.addItem(<item:contenttweaker:sanitized_dark_matter>,1,144);
+worthy.color = 0x3f1266;
+worthy.craftable = false;
+worthy.liquid = <fluid:whisper_of_worthiness>;
+worthy.castable = true;
+worthy.addItem(<item:contenttweaker:stone_of_worthiness>,1,2500);
 darkmatter.representativeItem = <item:contenttweaker:sanitized_dark_matter>;
 darkmatter.addHeadMaterialStats(1200, 13.62f, 9.04f, 5);
 darkmatter.addHandleMaterialStats(2.03, 350);

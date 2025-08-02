@@ -7,9 +7,9 @@ import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
 
 var spiritectoplasmJEI as IJeiPanel = JEI.createJei("spirit_ectoplasm", "灵魂掉落");
-spiritectoplasmJEI.setModid("Draconic Alchemy");
-spiritectoplasmJEI.setIcon(<draconicevolution:reactor_core>);
-spiritectoplasmJEI.addRecipeCatalyst(<draconicevolution:reactor_core>);
+spiritectoplasmJEI.setModid("Random Things");
+spiritectoplasmJEI.setIcon(<randomthings:ingredient:2>);
+spiritectoplasmJEI.addRecipeCatalyst(<randomthings:ingredient:2>);
 spiritectoplasmJEI.setBackground(IJeiUtils.createBackground(150, 55));
 spiritectoplasmJEI.addSlot(IJeiUtils.createItemSlot(40, 25, true)); // input
 spiritectoplasmJEI.addSlot(IJeiUtils.createItemSlot(95, 25, false)); // output

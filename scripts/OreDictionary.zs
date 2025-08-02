@@ -172,3 +172,47 @@ oreethaxiumstone.add(<abyssalcraft:stone:5>);
 val orestormlightstone = <ore:oreStormlightStone>;
 orestormlightstone.add(<contenttweaker:stormlight_stone>);
 
+
+
+
+
+
+val lowtiersingularity = <ore:LowTierSingularity>;
+lowtiersingularity.add(<extendedcrafting:singularity:0>);
+lowtiersingularity.add(<extendedcrafting:singularity:1>);
+lowtiersingularity.add(<extendedcrafting:singularity:2>);
+lowtiersingularity.add(<extendedcrafting:singularity:3>);
+lowtiersingularity.add(<extendedcrafting:singularity:4>);
+lowtiersingularity.add(<extendedcrafting:singularity:5>);
+lowtiersingularity.add(<extendedcrafting:singularity:6>);
+lowtiersingularity.add(<extendedcrafting:singularity:7>);
+lowtiersingularity.add(<extendedcrafting:singularity:16>);
+lowtiersingularity.add(<extendedcrafting:singularity:17>);
+lowtiersingularity.add(<extendedcrafting:singularity:18>);
+lowtiersingularity.add(<extendedcrafting:singularity:20>);
+lowtiersingularity.add(<extendedcrafting:singularity:22>);
+lowtiersingularity.add(<extendedcrafting:singularity:23>);
+lowtiersingularity.add(<extendedcrafting:singularity:25>);
+lowtiersingularity.add(<extendedcrafting:singularity:19>);
+lowtiersingularity.add(<extendedcrafting:singularity:21>);
+lowtiersingularity.add(<extendedcrafting:singularity:24>);
+lowtiersingularity.add(<extendedcrafting:singularity:28>);
+lowtiersingularity.add(<extendedcrafting:singularity:27>);
+
+val mediumtiersingularity = <ore:MediumTierSingularity>;
+mediumtiersingularity.add(<extendedcrafting:singularity:29>);
+mediumtiersingularity.add(<extendedcrafting:singularity:30>);
+mediumtiersingularity.add(<extendedcrafting:singularity:32>);
+mediumtiersingularity.add(<extendedcrafting:singularity:31>);
+mediumtiersingularity.add(<extendedcrafting:singularity:33>);
+mediumtiersingularity.add(<extendedcrafting:singularity:34>);
+mediumtiersingularity.add(<extendedcrafting:singularity:35>);
+mediumtiersingularity.add(<extendedcrafting:singularity:64>);
+mediumtiersingularity.add(<extendedcrafting:singularity:65>);
+
+val hightiersingularity = <ore:HighTierSingularity>;
+hightiersingularity.add(<extendedcrafting:singularity:26>);
+hightiersingularity.add(<extendedcrafting:singularity:48>);
+hightiersingularity.add(<extendedcrafting:singularity:49>);
+hightiersingularity.add(<extendedcrafting:singularity:50>);
+hightiersingularity.add(<extendedcrafting:singularity:66>);

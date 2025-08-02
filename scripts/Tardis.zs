@@ -47,6 +47,9 @@ mods.nuclearcraft.infuser.addRecipe([<forestry:peat>, <fluid:whisper_of_kurald_g
 mods.nuclearcraft.infuser.addRecipe([<forestry:peat>, <fluid:whisper_of_starvald_demelain>*1, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M斯塔沃・德梅兰§r"]}})]);
 
 
+mods.nuclearcraft.infuser.addRecipe(<contenttweaker:gem_of_dimensional_ascension>, <fluid:whisper_of_starvald_demelain>*1, <contenttweaker:gem_of_dimensional_ascension>*32);
+
+
 
 mods.thaumcraft.Infusion.registerRecipe("infrecursiondimascension", "", 
 <contenttweaker:recursion_of_dimensional_ascension>, 10,
@@ -66,10 +69,10 @@ mods.thaumcraft.Infusion.registerRecipe("infgreatnighmareblock", "",
 <contenttweaker:recurring_nightmare_block>, 10,
 [<aspect:gelum>*10000, <aspect:vacuos>*10000, <aspect:permutatio>*10000, <aspect:mortuus>*10000, <aspect:ventus>*10000, <aspect:fluctus>*10000], 
 <contenttweaker:nightmare_block>, 
-[<contenttweaker:echo_warren_alloy>, <contenttweaker:nightmare_of_annoyance>, 
-<contenttweaker:echo_warren_alloy>, <contenttweaker:nightmare_of_annoyance>, 
-<contenttweaker:echo_warren_alloy>, <contenttweaker:nightmare_of_annoyance>, 
-<contenttweaker:echo_warren_alloy>, <contenttweaker:nightmare_of_annoyance>]);
+[<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M欧姆托斯・费拉克§r"]}}), <contenttweaker:nightmare_of_annoyance>, 
+<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M欧姆托斯・费拉克§r"]}}), <contenttweaker:nightmare_of_annoyance>, 
+<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M欧姆托斯・费拉克§r"]}}), <contenttweaker:nightmare_of_annoyance>, 
+<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§M欧姆托斯・费拉克§r"]}}), <contenttweaker:nightmare_of_annoyance>]);
 
 
 
@@ -85,10 +88,10 @@ mods.thaumcraft.Infusion.registerRecipe("infechowarrenstone", "",
 mods.thaumcraft.Infusion.registerRecipe("infstoneworthiness", "", 
 <contenttweaker:stone_of_worthiness>, 10,
 [<aspect:caeles>*2000, <aspect:mythus>*2000], 
-<contenttweaker:fractal_stone>, 
-[<contenttweaker:essence_of_worthiness>, <contenttweaker:light_of_shadesmar>, 
+<contenttweaker:essence_of_worthiness>, 
+[<contenttweaker:fractal_stone>, <contenttweaker:light_of_shadesmar>, 
 <contenttweaker:freedomsteel_ingot>, <contenttweaker:light_of_shadesmar>, 
-<contenttweaker:essence_of_worthiness>, <contenttweaker:light_of_shadesmar>, 
+<contenttweaker:fractal_stone>, <contenttweaker:light_of_shadesmar>, 
 <contenttweaker:freedomsteel_ingot>, <contenttweaker:light_of_shadesmar>]);
 
 
@@ -208,16 +211,25 @@ catalystbalance5.addItemOutput(<contenttweaker:recursion_of_dimensional_ascensio
 catalystbalance5.build();
 
 
-val inffurnechowarrenalloy = RecipeBuilder.newBuilder("inffurnechowarrenalloy","infinity_furnace",5);
-inffurnechowarrenalloy.addFluidInput(<fluid:recursive_computing_matter>*1000);
-inffurnechowarrenalloy.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
-inffurnechowarrenalloy.addItemInput(<ore:ingotFractalliteHalite>);
-inffurnechowarrenalloy.addItemInput(<avaritia:resource:6>*2);
-inffurnechowarrenalloy.addItemInput(<contenttweaker:warren_shard>);
-inffurnechowarrenalloy.addItemOutput(<contenttweaker:echo_warren_alloy>*3);
-inffurnechowarrenalloy.build();
+val inffurnechowarrenalloy1 = RecipeBuilder.newBuilder("inffurnechowarrenalloy1","infinity_furnace",20);
+inffurnechowarrenalloy1.addFluidInput(<fluid:recursive_computing_matter>*1000);
+inffurnechowarrenalloy1.addItemInput(<contenttweaker:gem_of_dimensional_ascension>);
+inffurnechowarrenalloy1.addItemInput(<ore:ingotFractalliteHalite>);
+inffurnechowarrenalloy1.addItemInput(<avaritia:resource:6>*2);
+inffurnechowarrenalloy1.addItemInput(<contenttweaker:warren_shard>);
+inffurnechowarrenalloy1.addItemOutput(<contenttweaker:echo_warren_alloy>);
+inffurnechowarrenalloy1.build();
 
-val inffurnfinalwarrenalloy = RecipeBuilder.newBuilder("inffurnfinalwarrenalloy","infinity_furnace",5);
+val inffurnechowarrenalloy2 = RecipeBuilder.newBuilder("inffurnechowarrenalloy2","infinity_furnace",20);
+inffurnechowarrenalloy2.addFluidInput(<fluid:recursive_computing_matter>*1000);
+inffurnechowarrenalloy2.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
+inffurnechowarrenalloy2.addItemInput(<ore:ingotFractalliteHalite>);
+inffurnechowarrenalloy2.addItemInput(<avaritia:resource:6>*2);
+inffurnechowarrenalloy2.addItemInput(<contenttweaker:warren_shard>);
+inffurnechowarrenalloy2.addItemOutput(<contenttweaker:echo_warren_alloy>*4);
+inffurnechowarrenalloy2.build();
+
+val inffurnfinalwarrenalloy = RecipeBuilder.newBuilder("inffurnfinalwarrenalloy","infinity_furnace",20);
 inffurnfinalwarrenalloy.addFluidInput(<fluid:recursive_computing_matter>*5000000);
 inffurnfinalwarrenalloy.addItemInput(<contenttweaker:echo_warren_alloy>);
 inffurnfinalwarrenalloy.addItemInput(<contenttweaker:eleint_stone>);
@@ -366,15 +378,15 @@ mapDargnipur += enchlistDragnipur[3].makeEnchantment(20000).makeTag();
 mapDargnipur += enchlistDragnipur[4].makeEnchantment(20000).makeTag();
 
 recipes.addShapeless(<contenttweaker:echo_warren_bar>,
-[<aoa3:shadow_sword>.withTag(mapDargnipur).reuse(),
+[<aoa3:shadow_sword>.withTag({display: {Lore:["§d§o极・超限附魔§r"]}}).reuse(),
 <contenttweaker:echo_warren_alloy>]);
 
 recipes.addShapeless(<contenttweaker:defined_bar>,
-[<aoa3:shadow_sword>.withTag(mapDargnipur).reuse(),
+[<aoa3:shadow_sword>.withTag({display: {Lore:["§d§o极・超限附魔§r"]}}).reuse(),
 <contenttweaker:defined_ingot>]);
 
 recipes.addShapeless(<contenttweaker:sashimi_of_the_gate_of_darkness>,
-[<aoa3:shadow_sword>.withTag(mapDargnipur).reuse(),
+[<aoa3:shadow_sword>.withTag({display: {Lore:["§d§o极・超限附魔§r"]}}).reuse(),
 <minecraft:fish:1>]);
 
 

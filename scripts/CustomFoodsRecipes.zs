@@ -308,7 +308,7 @@ recipes.addShapeless(<contenttweaker:multi_fruit_milkshake>,
 <natura:edibles:5>,
 <minecraft:milk_bucket>]);
 
-recipes.addShaped(<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"}),
+recipes.addShaped(<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"}),
 [[<minecraft:milk_bucket>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]}), <cyclicmagic:apple_lapis>]]);
 
 recipes.addShaped(<contenttweaker:cube_jello_cubes>*9,

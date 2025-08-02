@@ -8,15 +8,40 @@ import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 
 
+
+val oretfspelltrinkets = <ore:trinketTwilightScepters>;
+oretfspelltrinkets.add(<twilightforest:twilight_scepter>);
+oretfspelltrinkets.add(<twilightforest:lifedrain_scepter>);
+oretfspelltrinkets.add(<twilightforest:zombie_scepter>);
+oretfspelltrinkets.add(<twilightforest:shield_scepter>);
+
+val oretfspellamuletsrare = <ore:trinketTwilightTrinketsRare>;
+oretfspellamuletsrare.add(<tfspellpack:amulet_life_charm>);
+oretfspellamuletsrare.add(<twilightforest:mazebreaker_pickaxe>);
+
+val oretfspellamuletscomm = <ore:trinketTwilightTrinketsCommon>;
+oretfspellamuletscomm.add(<tfspellpack:ring_twilight>);
+oretfspellamuletscomm.add(<tfspellpack:ring_hydra_kaboom>);
+oretfspellamuletscomm.add(<tfspellpack:ring_aurora>);
+oretfspellamuletscomm.add(<tfspellpack:ring_trollsteinn>);
+oretfspellamuletscomm.add(<tfspellpack:ring_stealth_attack>);
+oretfspellamuletscomm.add(<tfspellpack:amulet_steeleaf>);
+oretfspellamuletscomm.add(<tfspellpack:amulet_carminite>);
+oretfspellamuletscomm.add(<tfspellpack:charm_ice_exploder>);
+oretfspellamuletscomm.add(<tfspellpack:charm_goblin>);
+oretfspellamuletscomm.add(<tfspellpack:charm_troll>);
+oretfspellamuletscomm.add(<tfspellpack:charm_accursed_tome>);
+
+
 mods.abyssalcraft.InfusionRitual.addRitual("TravixteWarperThingy", 
 4, 0, 
 100000, 
 true, 
 <contenttweaker:summons_to_the_meatball_man>, 
 <contenttweaker:wormhole_catalyst>, 
-[<contenttweaker:star_of_betrayal>,<contenttweaker:orichalcum>,
+[<ore:trinketTwilightScepters>,<contenttweaker:orichalcum>,
 <contenttweaker:star_of_betrayal>,<contenttweaker:shard_of_the_cosmos>,
-<contenttweaker:star_of_betrayal>,<contenttweaker:orichalcum>,
+<ore:trinketTwilightScepters>,<contenttweaker:orichalcum>,
 <contenttweaker:star_of_betrayal>,<contenttweaker:shard_of_the_cosmos>]);
 game.setLocalization("ac.ritual.TravixteWarperThingy", "Bigboi Travixte"); 
 game.setLocalization("ac.ritual.TravixteWarperThingy.desc", "Travixte Travixte Travixte!");
@@ -41,9 +66,9 @@ mods.abyssalcraft.InfusionRitual.addRitual("TravixteOathLords",
 true, 
 <contenttweaker:oath_of_the_seven_undead_lords>, 
 <tconstruct:large_plate>.withTag({Material: "mod_lavacow.holy_sludge"}), 
-[<contenttweaker:true_tongue_oath>,<contenttweaker:undead_soil>,
+[<ore:trinketTwilightTrinketsCommon>,<contenttweaker:undead_soil>,
 <contenttweaker:true_tongue_oath>,<contenttweaker:undead_soil>,
-<contenttweaker:true_tongue_oath>,<contenttweaker:undead_soil>,
+<ore:trinketTwilightTrinketsCommon>,<contenttweaker:undead_soil>,
 <contenttweaker:true_tongue_oath>,<contenttweaker:undead_soil>]);
 game.setLocalization("ac.ritual.TravixteOathLords", "Bigboi Travixte"); 
 game.setLocalization("ac.ritual.TravixteOathLords.desc", "Travixte Travixte Travixte!");
@@ -66,7 +91,7 @@ mods.abyssalcraft.InfusionRitual.addRitual("TravixteVowDeath",
 100000, 
 true, 
 <contenttweaker:vow_to_death>, 
-<tfspellpack:amulet_life_charm>, 
+<ore:trinketTwilightTrinketsRare>, 
 [<tconstruct:pan_head>.withTag({Material: "mod_lavacow.ectoplasm"}),<contenttweaker:shard_of_the_cosmos>,
 <contenttweaker:true_tongue_oath>,<contenttweaker:shard_of_the_cosmos>,
 <tconstruct:pan_head>.withTag({Material: "mod_lavacow.ectoplasm"}),<contenttweaker:shard_of_the_cosmos>,
@@ -91,6 +116,29 @@ mods.thaumcraft.Infusion.registerRecipe("infdeathrecursiongluttony", "",
 <contenttweaker:oath_of_the_lord_of_gluttony>,
 <contenttweaker:cuendillar_seal>,
 <contenttweaker:oath_of_the_lord_of_gluttony>]);
+
+
+mods.thaumcraft.Infusion.registerRecipe("infblackfroststuffs", "", 
+<contenttweaker:blackfrost_callstone>, 10,
+[<aspect:gelum>*5000, <aspect:spiritus>*5000, <aspect:dreadia>*5000, <aspect:draco>*5000], 
+<draconicevolution:dragon_heart>, 
+[<contenttweaker:recursion_focusing_fabrial>,
+<contenttweaker:undead_soil>,
+<contenttweaker:trinity_ingot>,
+<contenttweaker:undead_soil>,
+<contenttweaker:recursion_focusing_fabrial>,
+<contenttweaker:undead_soil>,
+<contenttweaker:trinity_ingot>,
+<contenttweaker:undead_soil>,
+<contenttweaker:recursion_focusing_fabrial>,
+<contenttweaker:undead_soil>,
+<contenttweaker:trinity_ingot>,
+<contenttweaker:undead_soil>]);
+
+recipes.addShaped(<contenttweaker:fabrial_of_the_final_hour>,
+[[null, <contenttweaker:chain_of_the_final_hour>, null],
+[<contenttweaker:chain_of_the_final_hour>, <contenttweaker:dread_crown>, <contenttweaker:chain_of_the_final_hour>],
+[null, <contenttweaker:chain_of_the_final_hour>, null]]);
 
 
 mods.thaumcraft.Crucible.registerRecipe("crucrecgluttony", "", <contenttweaker:recursion_of_gluttony>*2, <contenttweaker:recursion_of_gluttony>, [<aspect:sensus>*10, <aspect:desiderium>*10, <aspect:vacuos>*10, <aspect:humanus>*10]);

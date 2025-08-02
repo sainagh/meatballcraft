@@ -11,7 +11,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 
 
 val inffurnacecosmosshard = RecipeBuilder.newBuilder("inffurnacecosmosshard","infinity_furnace",20);
-inffurnacecosmosshard.addFluidInput(<fluid:pre_baryonic_plasma>*1000);
+inffurnacecosmosshard.addFluidInput(<fluid:pre_baryonic_plasma>*300);
 inffurnacecosmosshard.addItemInput(<contenttweaker:upper_fragment_cosmos>);
 inffurnacecosmosshard.addItemInput(<contenttweaker:lower_fragment_cosmos>);
 inffurnacecosmosshard.addItemInput(<contenttweaker:perfected_gem_of_the_cosmos>);
@@ -158,30 +158,30 @@ recipes.addShaped(<contenttweaker:prayer_to_the_trinity_of_love>,
 
 
 val inffurncuendillar1 = RecipeBuilder.newBuilder("inffurncuendillar1","infinity_furnace",20);
-inffurncuendillar1.addFluidInput(<fluid:pre_baryonic_plasma>*30);
+inffurncuendillar1.addFluidInput(<fluid:pre_baryonic_plasma>*100);
 inffurncuendillar1.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
 inffurncuendillar1.addItemInput(<contenttweaker:ascended_fluix_crystal>);
 inffurncuendillar1.addItemInput(<contenttweaker:hungering_flesh_ingot>);
 inffurncuendillar1.addItemInput(<contenttweaker:cuendillar_plate>);
-inffurncuendillar1.addItemOutput(<contenttweaker:cuendillar_catalyst_1>*2);
+inffurncuendillar1.addItemOutput(<contenttweaker:cuendillar_catalyst_1>*8);
 inffurncuendillar1.build();
 
 val inffurncuendillar2 = RecipeBuilder.newBuilder("inffurncuendillar2","infinity_furnace",20);
-inffurncuendillar2.addFluidInput(<fluid:pre_baryonic_plasma>*30);
+inffurncuendillar2.addFluidInput(<fluid:pre_baryonic_plasma>*100);
 inffurncuendillar2.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
 inffurncuendillar2.addItemInput(<contenttweaker:ascended_fluix_crystal>);
 inffurncuendillar2.addItemInput(<contenttweaker:hungering_flesh_ingot>);
 inffurncuendillar2.addItemInput(<contenttweaker:cuendillar_plate>);
-inffurncuendillar2.addItemOutput(<contenttweaker:cuendillar_catalyst_2>*2);
+inffurncuendillar2.addItemOutput(<contenttweaker:cuendillar_catalyst_2>*8);
 inffurncuendillar2.build();
 
 val inffurncuendillar3 = RecipeBuilder.newBuilder("inffurncuendillar3","infinity_furnace",20);
-inffurncuendillar3.addFluidInput(<fluid:pre_baryonic_plasma>*30);
+inffurncuendillar3.addFluidInput(<fluid:pre_baryonic_plasma>*100);
 inffurncuendillar3.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
 inffurncuendillar3.addItemInput(<contenttweaker:ascended_fluix_crystal>);
 inffurncuendillar3.addItemInput(<contenttweaker:hungering_flesh_ingot>);
 inffurncuendillar3.addItemInput(<contenttweaker:cuendillar_plate>);
-inffurncuendillar3.addItemOutput(<contenttweaker:cuendillar_catalyst_3>*2);
+inffurncuendillar3.addItemOutput(<contenttweaker:cuendillar_catalyst_3>*8);
 inffurncuendillar3.build();
 
 
@@ -209,13 +209,30 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:trinity_ingo
 <contenttweaker:unleashed_triquetra>, <contenttweaker:cuendillar_catalyst_2>, <contenttweaker:freedomsteel_ingot>,
 <contenttweaker:unleashed_triquetra>, <contenttweaker:cuendillar_catalyst_3>, <contenttweaker:freedomsteel_ingot>]);
 
-recipes.addShapeless(<contenttweaker:trinity_nugget>*9,
-[<contenttweaker:trinity_ingot>]);
+// recipes.addShapeless(<contenttweaker:trinity_nugget>*9,
+// [<contenttweaker:trinity_ingot>]);
 
-recipes.addShaped(<contenttweaker:trinity_ingot>,
-[[<contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>],
-[<contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>],
-[<contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>]]);
+// recipes.addShaped(<contenttweaker:trinity_ingot>,
+// [[<contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>],
+// [<contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>],
+// [<contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>, <contenttweaker:trinity_nugget>]]);
+
+recipes.addShapeless(<contenttweaker:trinity_nugget>*9,
+[<divinerpg:arlemite_shickaxe>.reuse(),
+<contenttweaker:trinity_ingot>]);
+
+recipes.addShapeless(<contenttweaker:trinity_nugget>*16,
+[<twilightforest:mazebreaker_pickaxe>.reuse(),
+<contenttweaker:trinity_ingot>]);
+
+recipes.addShapeless(<contenttweaker:trinity_nugget>*25,
+[<aoa3:occult_pickaxe>.reuse(),
+<contenttweaker:trinity_ingot>]);
+
+recipes.addShapeless(<contenttweaker:trinity_nugget>*36,
+[<aoa3:energistic_pickaxe>.reuse(),
+<contenttweaker:trinity_ingot>]);
+
 
 mods.avaritia.ExtremeCrafting.addShaped("makesupergemofthecosmosbb",
 <contenttweaker:perfected_gem_of_the_cosmos>*2, 
@@ -656,94 +673,53 @@ null, <contenttweaker:big_bang_matter>, null,
 null, null, null]]);  
 
 
-var mapFirstFractal as IData = {};
-val enchlistFirstFractal as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>, <enchantment:cofhcore:vorpal>, <enchantment:minecraft:sweeping>];
-mapFirstFractal += enchlistFirstFractal[0].makeEnchantment(150).makeTag();
-mapFirstFractal += enchlistFirstFractal[1].makeEnchantment(25).makeTag();
-mapFirstFractal += enchlistFirstFractal[2].makeEnchantment(6).makeTag();
-// <extrabotany:firstfractal>.withTag({ench: [{lvl: 150 as short, id: 16}, {lvl: 25 as short, id: 101}, {lvl: 6 as short, id: 22}]})
+var mapMagicBane as IData = {};
+val enchlistMagicBane as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>];
+mapMagicBane += enchlistMagicBane[0].makeEnchantment(300).makeTag();
 
-var mapMagicbane as IData = {};
-val enchlistMagicbane as IEnchantmentDefinition[] = [<enchantment:minecraft:sweeping>, <enchantment:openblocks:flim_flam>, <enchantment:minecraft:unbreaking>];
-mapMagicbane += enchlistMagicbane[0].makeEnchantment(20).makeTag();
-mapMagicbane += enchlistMagicbane[1].makeEnchantment(222).makeTag();
-mapMagicbane += enchlistMagicbane[2].makeEnchantment(350).makeTag();
-// <xreliquary:magicbane>.withTag({ench: [{lvl: 20 as short, id: 22}, {lvl: 222 as short, id: 31}, {lvl: 350 as short, id: 34}]})
+var mapHolySword as IData = {};
+val enchlistHolySword as IEnchantmentDefinition[] = [<enchantment:minecraft:smite>];
+mapHolySword += enchlistHolySword[0].makeEnchantment(255).makeTag();
 
-var mapSwordTruth as IData = {};
-val enchlistSwordTruth as IEnchantmentDefinition[] = [<enchantment:enderio:shimmer>];
-mapSwordTruth += enchlistSwordTruth[0].makeEnchantment(1).makeTag();
-// <contenttweaker:sword_of_truth>.withTag({ench: [{lvl: 1 as short, id: 47}]})
+var mapRockbasher as IData = {};
+val enchlistRockbasher as IEnchantmentDefinition[] = [<enchantment:minecraft:fire_aspect>];
+mapRockbasher += enchlistRockbasher[0].makeEnchantment(101).makeTag();
 
+var mapMithminiteRobe as IData = {};
+val enchlistMithminiteRobe as IEnchantmentDefinition[] = [<enchantment:minecraft:blast_protection>];
+mapMithminiteRobe += enchlistMithminiteRobe[0].makeEnchantment(16).makeTag();
 
-var mapKikoku as IData = {};
-val enchlistKikoku as IEnchantmentDefinition[] = [<enchantment:endercore:xpboost>, <enchantment:soulshardsrespawn:soul_stealer>];
-mapKikoku += enchlistKikoku[0].makeEnchantment(50).makeTag();
-mapKikoku += enchlistKikoku[1].makeEnchantment(55).makeTag();
-// <extrautils2:lawsword>.withTag({ench: [{lvl: 50 as short, id: 39}, {lvl: 55 as short, id: 85}]})
+var mapBoneSword as IData = {};
+val enchlistBoneSword as IEnchantmentDefinition[] = [<enchantment:minecraft:sweeping>];
+mapBoneSword += enchlistBoneSword[0].makeEnchantment(33).makeTag();
 
-var mapHeavensLongBow as IData = {};
-val enchlistHeavensLongBow as IEnchantmentDefinition[] = [<enchantment:cofhcore:multishot>];
-mapHeavensLongBow += enchlistHeavensLongBow[0].makeEnchantment(15).makeTag();
-// <avaritia:infinity_bow>.withTag({ench: [{lvl: 15 as short, id: 97}]})
+var mapChainsaw as IData = {};
+val enchlistChainsaw as IEnchantmentDefinition[] = [<enchantment:minecraft:fortune>];
+mapChainsaw += enchlistChainsaw[0].makeEnchantment(18).makeTag();
 
 var mapAtlanticBow as IData = {};
 val enchlistAtlanticBow as IEnchantmentDefinition[] = [<enchantment:minecraft:power>];
 mapAtlanticBow += enchlistAtlanticBow[0].makeEnchantment(30).makeTag();
-// <aoa3:atlantic_bow>.withTag({ench: [{lvl: 30 as short, id: 48}]})
 
-var mapMithminiteRobe as IData = {};
-val enchlistMithminiteRobe as IEnchantmentDefinition[] = [<enchantment:minecraft:unbreaking>, <enchantment:openblocks:last_stand>];
-mapMithminiteRobe += enchlistMithminiteRobe[0].makeEnchantment(233).makeTag();
-mapMithminiteRobe += enchlistMithminiteRobe[1].makeEnchantment(30).makeTag();
-// <thaumadditions:mithminite_robe>.withTag({ench: [{lvl: 233 as short, id: 34}, {lvl: 30 as short, id: 30}]})
+var mapInfinityBow as IData = {};
+val enchlistInfinityBow as IEnchantmentDefinition[] = [<enchantment:minecraft:power>];
+mapInfinityBow += enchlistInfinityBow[0].makeEnchantment(12).makeTag();
 
-var mapTormentedChestplate1 as IData = {};
-val enchlistTormentedChestplate1 as IEnchantmentDefinition[] = [<enchantment:minecraft:fire_protection>, <enchantment:ebwizardry:frost_protection>];
-mapTormentedChestplate1 += enchlistTormentedChestplate1[0].makeEnchantment(15).makeTag();
-mapTormentedChestplate1 += enchlistTormentedChestplate1[1].makeEnchantment(15).makeTag();
-var mapTormentedChestplate2 as IData = {};
-mapTormentedChestplate2 += enchlistTormentedChestplate1[1].makeEnchantment(15).makeTag();
-mapTormentedChestplate2 += enchlistTormentedChestplate1[0].makeEnchantment(15).makeTag();
+var mapLawSword as IData = {};
+val enchlistlawSword as IEnchantmentDefinition[] = [<enchantment:minecraft:sharpness>];
+mapLawSword += enchlistlawSword[0].makeEnchantment(69).makeTag();
 
+var mapTormentedHelm as IData = {};
+val enchlistTormentedHelm as IEnchantmentDefinition[] = [<enchantment:minecraft:thorns>];
+mapTormentedHelm += enchlistTormentedHelm[0].makeEnchantment(55).makeTag();
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:seal_of_the_arbiter_defender>, 
+var mapLightWay as IData = {};
+val enchlistLightWay as IEnchantmentDefinition[] = [<enchantment:minecraft:bane_of_arthropods>];
+mapLightWay += enchlistLightWay[0].makeEnchantment(16).makeTag();
 
-[[null, null, null, 
-null, <contenttweaker:perfected_gem_of_the_cosmos>, null, 
-null, null, null], 
-
-[null, <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>, 
-null, <contenttweaker:perfected_gem_of_the_cosmos>, null, 
-<contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>, null], 
-
-[null, <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:recursion_prison_key>, 
-<contenttweaker:perfected_gem_of_the_cosmos>, <extrabotany:firstfractal>.withTag(mapFirstFractal), <contenttweaker:perfected_gem_of_the_cosmos>, 
-<contenttweaker:recursion_prison_key>, <contenttweaker:perfected_gem_of_the_cosmos>, null], 
-
-[null, null, <contenttweaker:perfected_gem_of_the_cosmos>, 
-<contenttweaker:recursion_prison_key>, <thaumadditions:mithminite_robe>.withTag(mapMithminiteRobe), <contenttweaker:recursion_prison_key>, 
-<contenttweaker:perfected_gem_of_the_cosmos>, null, null], 
-
-[<contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:sword_of_truth>.withTag(mapSwordTruth), 
-<aoa3:atlantic_bow>.withTag(mapAtlanticBow), <contenttweaker:seal_of_freedom>, <avaritia:infinity_bow>.withTag(mapHeavensLongBow), 
-<extrautils2:lawsword>.withTag(mapKikoku), <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>], 
-
-[null, null, <contenttweaker:perfected_gem_of_the_cosmos>, 
-<contenttweaker:recursion_prison_key>, <divinerpg:tormented_chestplate>.withTag(mapTormentedChestplate1), <contenttweaker:recursion_prison_key>, 
-<contenttweaker:perfected_gem_of_the_cosmos>, null, null], 
-
-[null, <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:recursion_prison_key>, 
-<contenttweaker:perfected_gem_of_the_cosmos>, <xreliquary:magicbane>.withTag(mapMagicbane), <contenttweaker:perfected_gem_of_the_cosmos>, 
-<contenttweaker:recursion_prison_key>, <contenttweaker:perfected_gem_of_the_cosmos>, null], 
-
-[null, <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>, 
-null, <contenttweaker:perfected_gem_of_the_cosmos>, null, 
-<contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>, null], 
-
-[null, null, null, 
-null, <contenttweaker:perfected_gem_of_the_cosmos>, null, 
-null, null, null]]);  
+var mapRunicSword as IData = {};
+val enchlistRunicSword as IEnchantmentDefinition[] = [<enchantment:minecraft:looting>];
+mapRunicSword += enchlistRunicSword[0].makeEnchantment(30).makeTag();
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:seal_of_the_arbiter_defender>, 
@@ -756,25 +732,25 @@ null, null, null],
 null, <contenttweaker:perfected_gem_of_the_cosmos>, null, 
 <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>, null], 
 
-[null, <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:recursion_prison_key>, 
-<contenttweaker:perfected_gem_of_the_cosmos>, <extrabotany:firstfractal>.withTag(mapFirstFractal), <contenttweaker:perfected_gem_of_the_cosmos>, 
-<contenttweaker:recursion_prison_key>, <contenttweaker:perfected_gem_of_the_cosmos>, null], 
+[null, <contenttweaker:perfected_gem_of_the_cosmos>, <aoa3:holy_sword>.withTag(mapHolySword), 
+<contenttweaker:perfected_gem_of_the_cosmos>, <mod_lavacow:bonesword>.withTag(mapBoneSword), <contenttweaker:perfected_gem_of_the_cosmos>, 
+<aoa3:rockbasher_sword>.withTag(mapRockbasher), <contenttweaker:perfected_gem_of_the_cosmos>, null], 
 
 [null, null, <contenttweaker:perfected_gem_of_the_cosmos>, 
 <contenttweaker:recursion_prison_key>, <thaumadditions:mithminite_robe>.withTag(mapMithminiteRobe), <contenttweaker:recursion_prison_key>, 
 <contenttweaker:perfected_gem_of_the_cosmos>, null, null], 
 
-[<contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:sword_of_truth>.withTag(mapSwordTruth), 
-<aoa3:atlantic_bow>.withTag(mapAtlanticBow), <contenttweaker:seal_of_freedom>, <avaritia:infinity_bow>.withTag(mapHeavensLongBow), 
-<extrautils2:lawsword>.withTag(mapKikoku), <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>], 
+[<contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>, <aoa3:chainsaw>.withTag(mapChainsaw), 
+<aoa3:atlantic_bow>.withTag(mapAtlanticBow), <contenttweaker:seal_of_freedom>, <avaritia:infinity_bow>.withTag(mapInfinityBow), 
+<extrautils2:lawsword>.withTag(mapLawSword), <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>], 
 
 [null, null, <contenttweaker:perfected_gem_of_the_cosmos>, 
-<contenttweaker:recursion_prison_key>, <divinerpg:tormented_chestplate>.withTag(mapTormentedChestplate2), <contenttweaker:recursion_prison_key>, 
+<contenttweaker:recursion_prison_key>, <divinerpg:tormented_chestplate>.withTag(mapTormentedHelm), <contenttweaker:recursion_prison_key>, 
 <contenttweaker:perfected_gem_of_the_cosmos>, null, null], 
 
-[null, <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:recursion_prison_key>, 
-<contenttweaker:perfected_gem_of_the_cosmos>, <xreliquary:magicbane>.withTag(mapMagicbane), <contenttweaker:perfected_gem_of_the_cosmos>, 
-<contenttweaker:recursion_prison_key>, <contenttweaker:perfected_gem_of_the_cosmos>, null], 
+[null, <contenttweaker:perfected_gem_of_the_cosmos>, <aoa3:lights_way>.withTag(mapLightWay), 
+<contenttweaker:perfected_gem_of_the_cosmos>, <xreliquary:magicbane>.withTag(mapMagicBane), <contenttweaker:perfected_gem_of_the_cosmos>, 
+<aoa3:runic_sword>.withTag(mapRunicSword), <contenttweaker:perfected_gem_of_the_cosmos>, null], 
 
 [null, <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>, 
 null, <contenttweaker:perfected_gem_of_the_cosmos>, null, 
@@ -783,6 +759,7 @@ null, <contenttweaker:perfected_gem_of_the_cosmos>, null,
 [null, null, null, 
 null, <contenttweaker:perfected_gem_of_the_cosmos>, null, 
 null, null, null]]);  
+
 
 
 

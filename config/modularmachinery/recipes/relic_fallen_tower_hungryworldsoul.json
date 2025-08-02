@@ -1,7 +1,7 @@
 {
     "machine": "relic_of_the_fallen_tower",
     "registryName": "relic_fallen_tower_hungryworldsoul",
-    "recipeTime": 500,
+    "recipeTime": 200,
     "requirements": [
         {
             "type": "modularmachinery:fluid",
@@ -19,7 +19,7 @@
             "type": "modularmachineryaddons:flux",
             "io-type": "input",
             "amount": 50,
-            "chunkRange": 2
+            "chunkRange": 0
         },
         {
             "type": "modularmachineryaddons:meteor",
