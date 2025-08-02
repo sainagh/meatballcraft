@@ -48,7 +48,7 @@ markofthesamurai.itemRightClick = function(stack, world, player, hand) {
     }
 
 	// initial message
-	player.sendChat("要使用该物品，需要先通过神秘国度模组编辑一些生物群系");
+	player.sendChat("要使用该物品，需要先通过神秘时代模组编辑一些生物群系");
 	player.sendChat("需要以下工具：");
 	player.sendChat("- 一台奥术群系转换仪");
 	player.sendChat("- 一些源质管道，或者5个源质注入装置");

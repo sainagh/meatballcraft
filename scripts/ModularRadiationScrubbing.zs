@@ -38,21 +38,21 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:cursed_meatballium
 var meatballiumscrubber = RecipeBuilder.newBuilder("meatballiumscrubber", "meatballium_radiation_scrubber", 3600);
 meatballiumscrubber.addEnergyPerTickInput(10000);
 meatballiumscrubber.addScrubber(1);
-meatballiumscrubber.addRecipeTooltip("与辐射洗涤器类似，工作范围为以机器为中心的3x3区块");
+meatballiumscrubber.addRecipeTooltip("与辐射洗涤器类似，工作范围是以机器为中心的3x3区块");
 meatballiumscrubber.addRecipeTooltip("洗涤器会跳过未加载区块");
 meatballiumscrubber.build();
 
 var meatballiumscrubberradiant = RecipeBuilder.newBuilder("meatballiumscrubberradiant", "radiant_meatballium_radiation_scrubber", 3600);
 meatballiumscrubberradiant.addEnergyPerTickInput(10000);
 meatballiumscrubberradiant.addScrubber(2);
-meatballiumscrubberradiant.addRecipeTooltip("与辐射洗涤器类似，工作范围为以机器为中心的5x5区块");
+meatballiumscrubberradiant.addRecipeTooltip("与辐射洗涤器类似，工作范围是以机器为中心的5x5区块");
 meatballiumscrubberradiant.addRecipeTooltip("洗涤器会跳过未加载区块");
 meatballiumscrubberradiant.build();
 
 var meatballiumscrubbercursed = RecipeBuilder.newBuilder("meatballiumscrubbercursed", "cursed_meatballium_radiation_scrubber", 3600);
 meatballiumscrubbercursed.addEnergyPerTickInput(10000);
 meatballiumscrubbercursed.addScrubber(4);
-meatballiumscrubbercursed.addRecipeTooltip("与辐射洗涤器类似，工作范围为以机器为中心的9x9区块");
+meatballiumscrubbercursed.addRecipeTooltip("与辐射洗涤器类似，工作范围是以机器为中心的9x9区块");
 meatballiumscrubbercursed.addRecipeTooltip("洗涤器会跳过未加载区块");
 meatballiumscrubbercursed.build();
 
