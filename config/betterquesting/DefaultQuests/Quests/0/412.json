@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou need to be level 70 in four skills to summon each boss. Right click each shrine to activate it.\nInfusion for Coniferon.\nRunation for Horon.\nForaging for Goldorth.\nHunter for Penumbra.\n\nTo have enough tribute for each boss, fight the enemies that spawn in the cavern.\n\n§fRules, rules, rules...\nEven to fight them, I have to follow their rules.\nI won\u0027t be able to fully get rid of them, that\u0027s for sure... ugh...",
+      "desc:8": "§7§oYou need to be level 70 in four skills to summon each boss. Right click each shrine to activate it.\nInfusion for Coniferon.\nRunation for Horon.\nForaging for Goldorth.\nHunter for Penumbra.\n\nTo have enough tribute for each boss, fight the enemies that spawn in the cavern.\n\n§fRules, rules, rules...\nEven to fight them, I have to follow their rules.\nI won't be able to fully get rid of them, that's for sure... ugh...",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:ancient_cavern_cap"

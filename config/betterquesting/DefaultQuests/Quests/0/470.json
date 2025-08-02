@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The entire concept of molten salt reactors relied around multiple effective closed loops of fluids, and to achieve that, highly effective heat exchangers are required.\nWhile I don\u0027t think I will ever need to make power out of these reactors, efficiency is always nice, and NaK salts are not the fastest to mass produce.",
+      "desc:8": "The entire concept of molten salt reactors relied around multiple effective closed loops of fluids, and to achieve that, highly effective heat exchangers are required.\nWhile I don't think I will ever need to make power out of these reactors, efficiency is always nice, and NaK salts are not the fastest to mass produce.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:heat_exchanger_controller"

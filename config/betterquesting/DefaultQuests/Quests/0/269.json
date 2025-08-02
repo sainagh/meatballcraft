@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Took me long enough, but it\u0027s finally time to build a Tokamak!\nFusion is just a convenient way of making power, and the free gasses are nice too!\nBack on Earth, cold fusion was seen as the great milestone in energy development, and to an extent it did play an impactful role, but by the time it became commercially viable, technologies like molten salt fission reactors and closed loop hot fusion reactors had already revolutionized energy production.\nTo be fair, though, it was the power of a Tokamak that gave the energy for my wormhole experiments, so I am definitely a fan of the source.",
+      "desc:8": "Took me long enough, but it's finally time to build a Tokamak!\nFusion is just a convenient way of making power, and the free gasses are nice too!\nBack on Earth, cold fusion was seen as the great milestone in energy development, and to an extent it did play an impactful role, but by the time it became commercially viable, technologies like molten salt fission reactors and closed loop hot fusion reactors had already revolutionized energy production.\nTo be fair, though, it was the power of a Tokamak that gave the energy for my wormhole experiments, so I am definitely a fan of the source.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:fusion_core"

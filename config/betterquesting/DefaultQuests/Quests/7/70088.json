@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o发现于Y\u003d0与Y\u003d17之间。\n可由虚空之眼掉落。\n",
+      "desc:8": "§7§o发现于Y=0与Y=17之间。\n可由虚空之眼掉落。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:rupee_ingot"

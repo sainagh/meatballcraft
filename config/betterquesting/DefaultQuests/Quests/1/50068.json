@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe base satchel has low storage, but it can be upgraded, and it can be enchanted with holding to become very big!\n\nThe satchel can be configured to automatically pick up certain blocks and items, so that they won\u0027t clog your inventory!",
+      "desc:8": "§7§oThe base satchel has low storage, but it can be upgraded, and it can be enchanted with holding to become very big!\n\nThe satchel can be configured to automatically pick up certain blocks and items, so that they won't clog your inventory!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermalexpansion:satchel",

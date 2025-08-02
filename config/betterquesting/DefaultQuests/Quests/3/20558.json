@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "高压\u003d更好\n消耗固体和流体燃料制作蒸汽。",
+      "desc:8": "高压=更好\n消耗固体和流体燃料制作蒸汽。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "railcraft:boiler_tank_pressure_low"

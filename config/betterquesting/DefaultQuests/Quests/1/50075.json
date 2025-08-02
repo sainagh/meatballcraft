@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Some of the stronger creatures I met have \u0027more powerful\u0027 hearts, which can be used to further improve my stamina.",
+      "desc:8": "Some of the stronger creatures I met have 'more powerful' hearts, which can be used to further improve my stamina.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bhc:yellow_heart_canister"

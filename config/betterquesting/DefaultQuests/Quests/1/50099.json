@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Higher jumping and faster running! who could\u0027ve asked for more?\nThanks to Tomato_Is_Life for the text!",
+      "desc:8": "Higher jumping and faster running! who could've asked for more?\nThanks to Tomato_Is_Life for the text!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:travelbelt"
       },
-      "name:8": "Soujourner\u0027s Sash"
+      "name:8": "Soujourner's Sash"
     }
   },
   "questID:3": 50099,
