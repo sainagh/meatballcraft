@@ -1473,7 +1473,7 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_haumea>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "想不到你居然不试着把线索连起来……",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "将殷钢奇点与以下符文结合：幸运、战斗、损毁、净化。"
+    "将殷钢奇点与以下符文结合：幸运、战斗、衰毁、净化。"
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_spatialphaser>,
@@ -3700,7 +3700,7 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_monumentallysentient
     "使用对应方块环绕物品：",
     "虹火 + 镶板神庙石",
     "蓝发 + 紫色ME控制器科幻方块",
-    "AI图 + 巫师之路的鄙夷方砖",
+    "AI图 + 巫师之路模组的鄙夷方砖",
     "病态淡消 + 金属镶板虚空石",
     "成瘾性曲奇 + 压缩空间壁",
     "猫耳 + ME控制器科幻方块",
