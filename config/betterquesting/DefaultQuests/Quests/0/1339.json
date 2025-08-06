@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIf things go bad in you base and have to clean things up, here is a repeatable way to get your super hazmat suit!",
+      "desc:8": "§7§o若基地突发状况需要清理，此处提供可重复获取的超级防护服！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:puzzle_solution_third_shell"
       },
-      "name:8": "In case of meltdowns!",
+      "name:8": "发生熔毁时！",
       "repeattime:3": 10000
     }
   },

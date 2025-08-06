@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I did not expect to encounter Testificates on Pixonia, but here they are!\nActing as an inside group from the Fluix Historians, some agents were able to follow some of the minions of the Meatball Man into Pixonia, and were able to collect intelligence for the sake of their master, the Arbiter. \nWhat set off the Meatball Man's attack on the Testificates was not the knowledge over Dimensional Shards alone; both beings, after all, commonly got involved in the happenings of many civilizations, one reaping chaos, one bringing order. \nWhat started it all was the implication behind this knowledge, a truth that the Arbiter was supposed to keep secret. Thanks to what was taught to the Testificates, though, the Meatball Man was able to piece it together, and driven by desire, he came into Terra, and caused the conflict that I am now fighting.\nGiven the knowledge of these agents, I thought of asking them what had happened to the Arbiter when they fought back, and what the Meatball Man may want to get out of me; as in the case of my prior encounters with the Fluix Historians, no replies, just oddly specific questions.\nSure, whenever I entered Terra there was a Solar Eclipse, but why does it matter?",
+      "desc:8": "没想到会在光精界遇到泰斯提斐人，但他们确实就在这里！\n作为福鲁伊克斯史学家内部团体的一部分，某些密探成功尾随肉丸人的爪牙进入了光精界，并为他们的主人——理序主收集情报。\n引发肉丸人袭击泰斯提斐人的导火索并非单纯关于维度碎片的知识——毕竟这两个存在本就时常介入各文明事务，一个散播混乱，一个维系秩序。\n真正的起因是这知识背后隐含的真相，一个理序主本该保守的秘密。但由于泰斯提斐人掌握的信息，肉丸人拼凑出了真相。在欲望驱使下，祂入侵泰拉世界，引发了这场我正在对抗的冲突。\n凭借这些密探提供的情报，我本想询问他们：当理序主反击时发生了什么？肉丸人又想从我这里得到什么？但就像之前与福鲁伊克斯史学家打交道时那样——没有回答，只有异常具体的问题。\n没错，每次我进入泰拉世界都会出现日食，但这又有什么关系呢？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:fluix_medal"
       },
-      "name:8": "Faithful Spies"
+      "name:8": "虔诚密探"
     }
   },
   "questID:3": 714682973,

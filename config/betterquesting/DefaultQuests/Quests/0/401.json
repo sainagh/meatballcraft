@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Knowing that my true enemies are still at large does not solve the issue at hand. How can I go deeper into the Mythic shells if I cannot defeat the Fractallites that inhabit the current Shell.\nAfter some experimentation, I could produce a gem of great power, imbued with my own recursive powers. It is not yet complete, though; just like the chickens that were left with part of Bane's powers of time and entropy, this gem is not yet fully powered.\nOnce I finally ascend to Fractallite, that is when it will too be perfected, and that is when I shall resume my journey into the Mythic Shells!",
+      "desc:8": "意识到我的真正敌人仍逍遥法外，并不能解决眼前的问题。若我无法击败栖居于当前神话叠壳中的分形者，又该如何深入神话叠壳？\n经过多次实验，我成功制造出一颗蕴含自身递归之力的强大宝石。但它尚未完成，就像那些被赋予幽魂部分时间熵力的鸡一样，这颗宝石还未完全充能。\n待我最终飞升为分形存在之时，便是宝石臻于完美之际，亦是我重探神话叠壳、征程再启之日！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:imperfect_gem_of_the_cosmos"
       },
-      "name:8": "Imperfect Gem of the Cosmos"
+      "name:8": "不完美寰宇宝石"
     }
   },
   "questID:3": 401,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "With access to all of these strange and powerful materials, one cannot help but think if they are going to enable some sort of new technology.\nMy more magically-inclined peers and enemies have used mythic and recursive materials (I'm starting to feel like my definition of mythic magic may just be a manifestation of recursion) for fairly intuitive and straightforward uses, but I suspect that some tinkering will produce more interesting, and possibly useful, applications.\nThis servo, for example, should allow me to fabricate machines in a more effective way...",
+      "desc:8": "在接触了所有这些奇异而强大的材料后，很难不会去想它们是否能催生某种新科技。\n与我那些更倾向于魔法研究的同行和对手不同，他们使用神话与递归材料的方式都相当直观（我开始怀疑自己对神话魔法的定义或许只是递归的一种表现形式），但我相信通过一些调试，定能开发出更有趣且可能更具实用性的应用方案。\n比如这个伺服器，应该能让我以更高效的方式制造机械……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:vibranium_servo"
       },
-      "name:8": "My servo is better than yours!"
+      "name:8": "我的伺服器比你的更好！"
     }
   },
   "questID:3": 278,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Those who have succumbed to the nightmare and forsaken their personhood, they seem to leave behind traces of their aspirations, desired, hopes for the future, and even regrets.\nIn this place, these regrets, hopes, and aspirations take physical form, they become Lumps. \nThese lumps can be shaped into weapons and tools.\nDuring my fights for Terra, I figuratively carried the hopes and aspirations of others on my shoulders. Here, I can do it literally.",
+      "desc:8": "那些沉沦于梦魇并抛弃人格者，似乎会留下他们志向、渴求、未来期许乃至悔恨的痕迹。\n在此地，这些悔恨、希望与抱负获得了实体形态，化作为团块。\n这些团块可被塑造成武器与工具。\n当初为泰拉而战时，我是象征意义上地肩负着他人的希望与抱负。而在这里，我能够字面意义上地背负它们。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:amthirmis_lump"
       },
-      "name:8": "Nightmare Ascension: Amthirmis"
+      "name:8": "噩梦飞升：精湛"
     }
   },
   "questID:3": 349,

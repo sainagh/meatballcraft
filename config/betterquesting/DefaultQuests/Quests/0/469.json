@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Another child of Earth's rush towards energetic independence, plasma accelerators were an interesting concept. The concept had moderate success, but it never took off. \nWhere it truly found a use, though, was for the synthesis of high-density nuclei in research labs. Here, I think, this technology can find a similar use as a faster, albeit energy-negative, alternative to magnetic confinement fusion for making gases and low-density isotopes.",
+      "desc:8": "作为地球追求能源独立进程中的又一产物，等离子加速器曾是个有趣的概念。这项技术取得了一定程度的成功，但始终未能大规模应用。\n然而它真正发挥作用的领域，是在实验室中合成高密度原子核。我认为，这项技术在此可以发挥类似作用，作为磁约束聚变的替代方案，虽然能量净收益为负，但能更快地制备气体和低密度同位素。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:plasma_collider"
       },
-      "name:8": "Plasma Collider"
+      "name:8": "等离子对撞机"
     }
   },
   "questID:3": 469,

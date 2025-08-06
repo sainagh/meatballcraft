@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "A large part of what constitutes the power and cohesiveness of civilizations as vast as the Twilight Horde lies in Fractallites.\nDominion over aspects of the laws of the universe and consciousness, it seems, is the main requirement for a civilization to expand outside their own galaxy, and Fractallites provide that to a great extent.\nThe Shyre Empire does this through the powers of the Ancients of the Cavern, who become deities for the worlds the Empire targets, blessing and punishing based on their rule.\nEven I am subject to this. Powerful surges, or derision, come every night.\nThis power is quite vast, and I am unsure I can fully tackle it, but I think I can cause some damage to these undesired Ancients.",
+      "desc:8": "在构成暮光部落这般庞大文明的力量与凝聚力中，分形元素属于非常重要的组成部分。\n对宇宙法则与意识层面的掌控力，似乎是文明向本星系外扩张的主要条件，而分形元素在很大程度上提供了这种可能。\n塞尔瑞帝国通过神殿中古老存在的力量实现这点，这些存在会化身成帝国目标世界的守护神祇，根据统治需要降下赐福或惩戒。\n即便是我，也不得不屈从于此。每夜都会遭受强大的能量冲击，或是轻蔑的嘲弄。\n这股力量确实浩瀚无垠，我尚无把握能完全应对，但至少能给这些恼人的存在制造些麻烦。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:ancient_cavern_realmstone"
       },
-      "name:8": "Ancient Cavern Realmstone"
+      "name:8": "远古神殿纯宝石"
     }
   },
   "questID:3": 411,

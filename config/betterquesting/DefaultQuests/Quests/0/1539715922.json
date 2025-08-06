@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oFreshly crafted Zenith, disenchant Oathbringer, disenchant Thunderfury, enchantmnet applicator in this order: sharpness, vorpal, sweeping edge.\n\nFreshly crafted Magicbane, disenchant Bone Storm, disenchant Fishing Sticc, disenchant the Flim-Flammer, enchantment applicator in this order: sweeping edge, flim-flam, unbreaking.\n\nFreshly crafted Sword of Truth, with just shimmer.\n\nFreshly crafted Kikoku, disenchant Jerry's Sword, disenchant Soul Stealer, enchantment applicator in this order: XP boost, soul stealer.\n\nFreshly crafted Longbow of the Heavens, give it multishot using the Abyssalcraft Ritual of Mass Enchanting.\n\nFreshly crafted Atlantic Bow, disenchant Prison realm Bow, enchantment applicator power.\n\nFreshly crafted Mithminite Robe, disenchant Mantle of the Stars, disenchant Doped Electrode, enchantment applicator in this order: unbreaking, last stand.\n\nFreshly crafted Tormented Chestplate, give it fire and frost protection using the Abyssalcraft Ritual of Mass Enchanting.",
+      "desc:8": "§7§o全新的天顶剑，剥离渡誓的魔咒，剥离雷霆之怒的魔咒，按以下顺序施加魔咒：锋利、斩首、横扫之刃。\n\n全新的神魔克星，剥离白骨风暴的魔咒，剥离钓鱼擀的魔咒，剥离诈欺者的魔咒，按以下顺序施加魔咒：横扫之刃、尔虞我诈、耐久。\n\n全新的真相之剑，仅施加微光魔咒。\n\n全新的鬼哭，剥离Jerry之剑的魔咒，剥离窃魂者的魔咒，按以下顺序施加魔咒：经验汲取、窃魂。\n\n全新的天堂陨落长弓，通过深渊国度的汇聚附魔仪式，赋予万箭魔咒。\n\n全新的深洋弓，剥离监域弓的魔咒，施加力量魔咒。\n\n全新的秘金神秘使法袍，剥离悲痛斗篷的魔咒，剥离掺杂电极的魔咒，按以下顺序施加魔咒：耐久、屹立不倒。\n\n全新的刑罚胸甲，通过深渊国度的汇聚附魔仪式，赋予火焰与冰霜保护魔咒。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:seal_of_the_arbiter_defender"
       },
-      "name:8": "Defender"
+      "name:8": "戍卫"
     }
   },
   "questID:3": 1539715922,

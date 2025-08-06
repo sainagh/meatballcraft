@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Let's be honest, compared with the other branches of magic, witchcraft is not the most powerful. \nAnd yet, its written tradition mentions many applications of natural powers being greatly enhanced in a particular place, called the stormlands.\nIn this legendary place, according to some old Testificate lore, powers are gratly increased, and feats otherwise impossible become a reality.\nThe stormland, also according to this lore, can only be brought forth with witchcraft.\nThe current state of the Twilight Horde is above my abilities, I cannot enter their next mythic shell without some extra help; who knows, maybe the stormlands can provide what I need?",
+      "desc:8": "老实说，与其他魔法分支相比，巫术并非最强大的力量。\n然而，根据其典籍记载，自然之力在某个被称为“风暴之地”的特定区域会得到极大增强。\n根据一些古老的泰斯提斐人传说，在这片传奇之地，力量会获得极大提升，那些本不可能实现的壮举都将化为现实。\n同样据这些传说所述，唯有通过巫术才能召唤出风暴之地。\n以我目前的能力，尚不足以应对暮光部落的现状，若没有额外助力，我根本无法突破他们下一层神话叠壳的防御。谁知道呢？或许风暴之地能提供我所需要的力量？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:boline"
       },
-      "name:8": "This boline is special..."
+      "name:8": "特殊的伯莱恩新月小刀……"
     }
   },
   "questID:3": 505,

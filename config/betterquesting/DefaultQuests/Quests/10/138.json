@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThese are all the ingredients for the defined ingot.\n\nYou should have most of them on passive by the time you finish chapter 8!",
+      "desc:8": "§7§o这些全都是定义锭需要的材料。\n\n完成第8章时，你应当能够被动产出其中绝大部分了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:defined_ingot"
       },
-      "name:8": "A large task ahead..."
+      "name:8": "任务真是艰巨……"
     }
   },
   "questID:3": 138,
@@ -337,7 +337,7 @@
               ],
               "tasks:10": {
                 "task1:8": "铂",
-                "task2:8": "金", 
+                "task2:8": "金",
                 "task3:8": "汞",
                 "task4:8": "铊",
                 "task5:8": "铅",

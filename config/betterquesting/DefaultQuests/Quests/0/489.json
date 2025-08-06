@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse a giant crystal on a power station to summon Crystocore.\n\n§fI have yet to understand the mechanics of this new branch of magic, but observing it in the local Crystevia population has provided some information. The constructs that inhabit this world are biological in nature, but a large part of their bodies is composed of inorganic crystal, which they appear to use as a conduit of their magic. It is almost as if they evolved to coexist with this type of magic; or, also likely, they bound themselves to it through some act or ritual.\nThis type of magic seems to operate through 'investitures' of some sort. Not unlike Wizardry, it manifests through different forms, different aspects, such as speed or strength; unlike wizardry, though, the requirements for mastering more of these aspects are much higher.\nOnly one being in this world is capable of perfoming magic within more than one aspect; the recursive being that rules it, Crystocore.",
+      "desc:8": "§7§o对能量祭坛使用巨型水晶来召唤能量构建者。\n\n§f我尚未理解这种新型魔法分支的运作原理，但通过观察本地水晶维度的居民获得了一些信息。栖息在这个世界的构装体本质上是生物体，但它们身体的很大部分由无机水晶构成，这些水晶似乎被用作魔法传导媒介。它们简直就像是为了与这类魔法共生而进化出来的；或者更可能的情况是，通过某种仪式或行为主动与之进行了绑定。\n这类魔法似乎通过某种“赋能”形式运作。与巫术相似，它会以不同形式显现出各类面相，例如速度或力量；但不同于巫术的是，掌握更多魔法面相的门槛要高得多。\n这个世界仅有一个存在能施展多重面相的魔法——统治此界的递归存在，能量构建者。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:crystevia_cap"
       },
-      "name:8": "Crystevia Falls"
+      "name:8": "攻破晶体维度"
     }
   },
   "questID:3": 489,

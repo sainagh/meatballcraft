@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The way the war in Furatto was concluded is a cruel but viable war tactic, in case I may need it for the future. if I ever find myself in a situation where a planet's worth of enemies just needs to be erased, filling it with chickens may be the way to go.\nIt is scary to be able to contemplate this thought to begin with, but this is the situation I found myself in, and I must be prepared.\nThere are still going to be many things that can get rid of laser chickens easily, but they seem quite effective anyway.",
+      "desc:8": "地盘界战争结束的方式虽然残酷，但确实是一种可行的战术。未来若再遇到需要彻底抹除整颗星球敌人的情况，投放鸡或许会成为我的选择。\n光是产生这种念头就令人不寒而栗，但既然已身处此境，我必须未雨绸缪。\n当然，世上仍有许多能轻易消灭激光鸡的存在，但它们的实战效果已足够显著。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:secret_weapon"
       },
-      "name:8": "Secret Weapon"
+      "name:8": "秘密武器"
     }
   },
   "questID:3": 538,

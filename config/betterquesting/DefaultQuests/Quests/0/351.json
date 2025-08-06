@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The asteroid belt between the Proxima stars is a strange place, filled with technology that looks faintly familiar.\nTechnology left here by the Arbiter for me, that much I know, otherwise why would I have understood the strange characters as soon as I knew of the prophecy.\nThese satellites mark an important location for the Arbiter, a place where he experimented, and played with recursion to generate new materials and technologies.\nFrom what I know, the Arbiter was some sort of engineer, who studied magic in a way similar to what I am doing now. he was much more powerful than me, at least as I am now, and was able to come up with something that does not quite make sense.\nMatter that is, well, just matter, with no other identification. What color is it? I'm not sure. Is it heavy? No idea. No matter what I do, what property I measure, the readings come out different every time. Whatever this is, its main property is being unidentified.\nAfter learning what I now know from Ogerite and how recursive properties can be passed on, I believe I should be able to give this 'unidentifiableness' to other matter.",
+      "desc:8": "比邻星之间的小行星带着实诡异，这里遍布着似曾相识的科技造物。\n我确信这些是理序主为我留下的，否则为何在知晓预言的第一时间，我就能读懂那些奇异文字？\n这些卫星标记着理序主的重要实验场，他在这里玩弄递归法则，创造出全新的物质与科技。\n据我所知，理序主算是位工程师，其研究魔法的方式与我如今所为异曲同工。他远比现在的我更强大，甚至创造出了违背常理之物。\n某种纯粹到无法被定义的物质。它究竟是什么颜色？我无从判断。密度几何？依然成谜。任何测量手段得出的数据都飘忽不定。这种物质的核心特性，恰恰在于其不可被定义的本质。\n在掌握食人魔金属的奥秘，理解递归属性的传递规律后，我相信自己终能将这种“不可定义性”赋予其他物质。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:unidentified_body"
       },
-      "name:8": "What is this?"
+      "name:8": "这是什么？"
     }
   },
   "questID:3": 351,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While I thought I was doing a pretty good job at handling radiation, it turns out, a lot of the fission I have been doing, if things were to go wrong, may be too much to handle, until now.\nThankfully, lead can be enchanted to become even more of a radiation shield.",
+      "desc:8": "虽然我以为自己的辐射防护做得不错，但事实证明，如果发生意外，我目前进行的裂变反应产生的辐射量可能远超处理能力，直到现在这个技术突破。\n值得庆幸的是，经过附魔处理后，铅能成为更高效的辐射屏障。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermalfoundation:armor.plate_lead",
@@ -15,7 +15,7 @@
           "ncRadiationResistance:6": 100.0
         }
       },
-      "name:8": "A better hazmat suit!"
+      "name:8": "更好的防护服！"
     }
   },
   "questID:3": 1337,

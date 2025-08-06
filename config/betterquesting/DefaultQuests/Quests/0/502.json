@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The plot thickens...I guess?!?\nHaven, now a stronghold of the Shyre empire, apparently, used to be part of that weird space-time origami that makes up the territories of the Twilight Horde.\nI don't really understand their motifs, but who am I to ask?",
+      "desc:8": "剧情变得更加扑朔迷离了……大概吧？！？\n天堂维度如今虽已成为塞尔瑞帝国的要塞，但据说其曾是构成暮光部落领地的那些诡异时空折叠结构的一部分。\n虽然我完全搞不懂他们的动机，但哪有我质疑的份呢？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:haven_realmstone"
       },
-      "name:8": "Twilight Deserters"
+      "name:8": "暮光叛离者"
     }
   },
   "questID:3": 502,

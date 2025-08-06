@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oComplete all rooms in immortallis.\n\n§fDelving deeper into the fortress of the Immortal Fractallites, at least one reassuring thing is certain.\nThey cannot do anything about my own immortality and recursion. \nThe powers of the Immortals have different rules from the Old Ones'. The recursion prison that entrapped me is not something than can be easily broken, if at all. Once given, it cannot be taken back, or it would not really be a prison, wouldn't it? The gift to the favored by the Shyre Empire was, as a matter of fact, a gift, which could, and was, many times, rudely taken back.\nAnd yet, I myself was able to partially wiggle my way out of my own prison, which none of the my enemies were able to do. To be fair, though, I do not think any of my enemies really wanted to give up their immortality.",
+      "desc:8": "§7§o完成不朽之地的所有房间\n\n§f在深入探索不朽分形者的要塞时，至少有一件事令人宽慰。\n他们对我自身的不朽性与递归特性束手无策。\n不朽者的力量遵循着与古神截然不同的法则。禁锢我的递归囚笼绝非轻易可破之物。若真能破解，那也称不上是牢笼了，不是吗？塞尔瑞帝国赐予宠臣的“礼物”，说到底终究只是可被粗暴收回的赠礼，事实上也确曾多次被褫夺。\n但唯独我，竟能部分挣脱自身的囚笼，这可是我的敌人们无一能做到的。不过平心而论，我想那些敌人恐怕根本不愿放弃他们的不朽之身。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:immortallis_cap"
       },
-      "name:8": "Immortallis Falls"
+      "name:8": "攻陷不朽之地"
     }
   },
   "questID:3": 409,

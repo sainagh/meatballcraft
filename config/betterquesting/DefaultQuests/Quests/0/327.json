@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Preistoric land of Precasia is one of the Shyre strongholds, yet, it does not feel like one...\ngiven the nature of this empire, and how they are taking over Terra, I would have expected a land of brainwashed beings, or savage monsters. There still are a large amount of animal-looking things in Precasia, but that's not what surprises me. Every single creature I have met here, no exceptions, has shown to have a quite evident free will. And it is out of their free will that they serve the empire.\nWhoever leads the Shyre empire sure has good PR. Seeing how things are here religion may play a role, I could see a powerful enough recursive being be worshipped by normal people.",
+      "desc:8": "传说维度是塞尔瑞帝国的要塞之一，然而这里却毫无应有的氛围……\n以这个帝国的行事风格，以及他们正在征服泰拉的态势，我原以为会看到满是被洗脑的生物或是凶残怪物。虽然传说维度确实存在大量类人生物，但真正令我震惊的是，我在此遇见的每个生灵，毫无例外，都展现出鲜明的自由意志。而他们正是出于自由意志在为帝国效力。\n塞尔瑞帝国的统治者必然深谙笼络之道。此情此景让我意识到，宗教可能在其中起着关键作用，毕竟普通民众完全可能将某个足够强大的递归存在奉若神明。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:precasia_realmstone"
       },
-      "name:8": "A Primordial World"
+      "name:8": "原始世界"
     }
   },
   "questID:3": 327,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Well, I was right at being worried that me becoming more powerful would upset the tides of war, and possibly unleash a new threat.\nThe great lieutenant beasts of L'Borean seem to have entered a pact with the Old One residing there. A Fractallite power yet unclaimed, it seems, was made available to them. Hydrolisk and Dracyon ascended, and are now entering the battlefield.\nIf they were to enter Terra as they are, who knows what type of damage they may cause, I must face them now!",
+      "desc:8": "果然，我的担忧成真了。随着我力量的增强，这场战争的平衡已被打破，甚至可能释放出新的威胁。\n暴风维度的那些高阶副官兽物似乎与盘踞于此的旧日支配者达成了契约。某种未被认领的分形之力量被它们所攫取。水能龙蜥与飞行守护者已完成飞升，此刻正向战场进发。\n若任由它们以这般姿态入侵泰拉，造成的破坏将难以估量。我必须即刻迎战！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:warlord_callstone"
       },
-      "name:8": "The Warlords"
+      "name:8": "战争领主"
     }
   },
   "questID:3": 2167,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I do not understand, it doesn't make any sense!\nAll the signs point to it, Skythern should be the final Shell. \nLooking at the will of all the Twilight beasts I have fought, their submission clearly was towards the Experienced Cori, the Fractallite monster at the head of Skythern.\nAnd yet, its defeat changed nothing. Actually, it may have made things worse. Why are the Testificates now saying that they would not mind just giving up, and making a pact with the Twilight Horde?\nWhat is going on? It is as if none of the enemies I defeated was actually defeated. Sure, recursion does that, but I have been using my powers to ensure this would not happen. Is this because I am dealing with Fractallites? Are there other rules to this game I have not been aware of?\nHave I just been a fool, pushing a rock that was already in motion regardless of my actions? No it cannot be!",
+      "desc:8": "我不明白，这完全说不通！\n所有迹象都表明，空境理应是最终的叠壳。\n从我交战过的所有暮光生物意向来看，它们臣服的对象显然是那个统领空境的历战浮游者，那只分形怪物。\n然而击败它后什么都没改变。实际上，情况可能更糟了。为什么泰斯提斐人现在纷纷表示不介意投降，要与暮光部落缔结盟约？\n到底怎么回事？就好像我击败的敌人都未被真正消灭。虽说递归特性确实会导致这种现象，但我确实有在运用力量以确保不会发生这种情况。难道因为对手是分形生物？这场游戏还有我不了解的隐藏规则？\n难道我一直像个傻子，徒劳推着早已自行滚动的巨石？不，绝不可能！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:skythern_core"
       },
-      "name:8": "Skythern Core"
+      "name:8": "空境核心"
     }
   },
   "questID:3": 293,

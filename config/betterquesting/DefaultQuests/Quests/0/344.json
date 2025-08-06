@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "From visiting Shyre territories, and especially Barathos, I've been able to piece a few things together.\n1. Whoever is leading this empire has full power over recursion, and this type of control is something that can be teached. The Baroness was capable of teaching this power to beasts of Barathos, even granting them intelligence. Looking at the way the society of this world is structured, though, I strongly believe recursion was not part of this society from the start.\n2. The creatures inhabiting Shyre planets are not opposed to their rulers and, as a matter of fact, they respect them, and even aid them. I suspect this has to do with the gift of recursion.\n3. Many of the Shyre people believe in a 'god of war', who has come into this world to start a 'holy crusade' to eliminate weakness from the universe. I don't want to jump to conclusions, but, I think, the empire is not just an 'empire', but a religion. One with many denominations and septs, though, seeing how differing the values of each Shyre world are.",
+      "desc:8": "通过探访塞尔瑞帝国的领地，尤其是爵士维度，我已能拼凑出若干线索。\n1、统治这个帝国的存在对递归法则拥有绝对掌控权，而这种控制力是可传授的。女爵甚至能将这种力量授予爵士维度的野兽，并赋予它们智慧。但观察该世界的社会结构后，我确信递归法则并非其原生文明的组成部分。\n2、栖息在塞尔瑞各星球的生物非但不反抗统治者，反而对其怀有敬意并主动协助。我推测这与被赐予的递归能力有关。\n3、多数塞尔瑞子民信奉某位“战争之神”，据信这位神明降临世间，是为发起“神圣远征”以清除宇宙中的弱者。虽不愿妄下定论，但我认为这个帝国不仅是政治实体，更是一个宗教系统。鉴于各塞尔瑞世界的价值观差异显著，应是个包含众多教派与分支的复合型宗教。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:barathos_garnet"
       },
-      "name:8": "Barathos Garnet"
+      "name:8": "爵士石榴石"
     }
   },
   "questID:3": 344,

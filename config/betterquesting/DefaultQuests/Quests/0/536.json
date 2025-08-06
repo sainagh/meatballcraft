@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Most of the surface of Finem is made out of a strange sedimentary stone that has been created by the existence of this planet's inhabitants.\nLasers and explosions can have a long lasting impact on a planet, and this is the proof for it. Very little is left here outside of the monuments of a long-lost civilization.\nThere are some remarkable things that can be inferred out of this place, though. Ender dolomite has recursive properties I know to be originated from the chickens and their affinity with chaos and entropy. This means that recursion, this power that so weirdly eludes me, is tied to entropy, and the universal law of the path of least energy.",
+      "desc:8": "末结地的大部分地表由一种奇特的沉积岩构成，这种岩石是由该星球居民的存在而形成的。\n激光与爆炸能在行星上留下持久印记，此地便是明证。除却失落文明遗留的纪念碑外，这里几乎空无一物。\n然而仍可从中推演出某些惊人发现。末地白云石具有递归特性，据我所知这种特性源自鸡，和其对混沌、熵的亲和力。这意味着递归——这种令我始终难以捉摸的力量——竟与熵，以及最小能量路径这条宇宙法则密切相关。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:ender_dolomite"
       },
-      "name:8": "Ender Dolomite"
+      "name:8": "末影白云石"
     }
   },
   "questID:3": 536,

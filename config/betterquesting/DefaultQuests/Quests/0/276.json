@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Who knew enzymes were a good source of mythic matter?\nWell, I guess it makes sense, as they are one of the buildings blocks of life.",
+      "desc:8": "谁能想到酶竟是优质的神话物质来源？\n不过细想也合理，毕竟酶是生命的基本构成要素之一。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "genetics:misc"
       },
-      "name:8": "Genetic Rampup"
+      "name:8": "基因升级"
     }
   },
   "questID:3": 276,

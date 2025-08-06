@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I guess I should not be surprised by the depravities of the Meatball Man, but is indeed quite disconcerning to know.\nNope, the mass annhilation of innocent civilizations has nothing to do with building a larger army.\nA large part of these poor souls are being sacrificed for an individual being.\nOut of the forsaken beings ensnared by the Meatball Man, one exceeds all in terms of greed and gluttony. A monster of endless hunger, and one of the lieutenants of the undead horde, this creature's power revolves around the consumption of souls who died a violent death; the more that are consumed, the stronger this being gets.\nIt seems like the magical power provided by a single soul may be quite low, which is even more concerning. How many must have died to achieve the foe I have faced? ",
+      "desc:8": "虽说我本不该对肉丸人的堕落行径感到惊讶，但得知真相仍令人毛骨悚然。\n不，那些无辜文明的大规模灭绝与组建军队毫无关联。\n这些可怜的灵魂大多被献祭给了某个独立存在。\n在肉丸人诱捕的堕落存在中，有个贪婪暴食程度冠绝群魔的怪物——作为亡灵军团副统领，这头永饥之兽的力量源自吞噬死于非命的亡魂，吞噬越多，力量越强。\n单个灵魂提供的魔法力量似乎微乎其微，这更令人不安。要造就我所面对的强敌，究竟需要多少亡魂的牺牲？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:gem_of_voracity"
       },
-      "name:8": "The Eater of Gluttonous Souls"
+      "name:8": "暴食之魂吞噬者"
     }
   },
   "questID:3": 2128,

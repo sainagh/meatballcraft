@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I am not the only one who came to this conclusion. It seems like, in one way or another, I may be fated to take the Arbiter's place and Fractallite power.\nOne of the faithful of the arbiter has approached me, and told me the Fluix Historians are ready to support me in my struggle against the Meatball Man.\nThey gave a fabrial, one that would be able to set off the full might of the Withers against the Meatball Man.\nThis is all nice and good, I think I know what I am doing here, but it leaves the matter of Alchemy, and my own state as the 'chosen one', open.\nWhat sort of plan put me where I am now? I was simply a greedy scientist looking for fame. What about me put me on this journey that was clearly laid out by design.",
+      "desc:8": "得出此结论的不止我一人。冥冥之中，我似乎注定要继承理序主之位，执掌分形之力。\n一位理序主的信徒已与我接触，告知我福鲁伊克斯史学家愿助我对抗肉丸人。\n他们赠予我一件法器，此物可唤醒凋灵的全部威能，以与肉丸人抗衡。\n这一切固然顺利，我亦清楚自己的使命，但炼金术的谜团与“天选之人”的身份仍悬而未决。\n究竟是何等谋划将我置于此地？ 我本不过是个追名逐利的贪婪科学家，何以踏上这条精心布局的命定之途？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:withering_construct"
       },
-      "name:8": "Weaponsmith of the Arbiter"
+      "name:8": "理序主的武器匠"
     }
   },
   "questID:3": 1151267866,

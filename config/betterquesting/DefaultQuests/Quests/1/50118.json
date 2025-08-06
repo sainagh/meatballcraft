@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Faster! Higher!",
+      "desc:8": "更快！更高！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:speedupbelt"
       },
-      "name:8": "Planestrider's Sash"
+      "name:8": "平原旅带"
     }
   },
   "questID:3": 50118,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "It is created from magic, it is mythic. It comes from aspects of recursion. Echoes. Shadows.\nAnd yet, it is true recursion.\nNow built upon nothing but itself. Creating and destroying. Generating and degrading.\nBecoming.\nMy third Mythic Fractal!",
+      "desc:8": "其由魔法铸就，乃神话之物。源自递归之面相。回响。投影。\n然此乃纯净递归。\n今仅以自身为基，创造与毁灭。生成与衰变。\n化现。\n我的第三个分形！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:third_order_mythic_fractal"
       },
-      "name:8": "Third Order Fractal"
+      "name:8": "三阶神话分形"
     }
   },
   "questID:3": 2161,

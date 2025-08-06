@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The picture of how the recursive powers of the Twilight Horde are making a bit more sense, although I am still not quite sure about the full picture here.\nEach of the Shells part of the Horde's territories holds these gems, which possesses powerful recursive properties. Each gem is tied to the power of the world that is located farther in, and it transmits something magical in nature to the outer layers of the Shells. What this power or influence may be, I do not know, but it reminds me of a communication device between the Shells.\nAs I got my hands on the gem in the Eden, the effects were negligible. \nWhen I took the gem from Wildwood, I did notice a bit of a change in the organization of my enemies, they suddenly felt more erratic.\nBut not that I have gotten the Apalachia gem, the negative effect on the logistics of the Twilight Horde was noticeable. My enemies are scrambling, some even seem to have totally diserted. It seems like something may have fully broken.",
+      "desc:8": "暮光部落递归之力的作用机制终于渐现明朗，不过我仍未能完全把握整体图景。\n部落领地的每个神话叠壳中都镶嵌着具有强大递归特性的宝石。每颗宝石都与更内层世界的能量相连，将某种魔法本质传递至叠壳外层。虽然尚不清楚这种力量或影响的具体形式，但它让我联想到叠壳之间的通讯装置。\n当我取得伊甸维度的宝石时，几乎察觉不到任何效果。\n而获取原始森林维度的宝石后，我注意到敌方阵营出现了些许混乱。\n但自从拿到附魔山脉的宝石后，对暮光部落后勤体系的负面影响已显而易见。敌军陷入全面混乱，甚至出现大规模溃逃现象。看起来他们的某种核心机制可能已经彻底崩溃了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:apalachia_refined_gem"
       },
-      "name:8": "Apalachia Refined Gem"
+      "name:8": "精致附魔山脉宝石"
     }
   },
   "questID:3": 414,

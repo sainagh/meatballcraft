@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I can feel it, pure and unadulterated. Recursion, magic, one and the same.\nThe pillar of reality. The will of the universe, to be, to become, to transform.\nThis awareness, this is power. This is true power. This is THE power.",
+      "desc:8": "我能感受到它，纯粹未经玷污。递归与魔法，本为一体。\n现实之柱。宇宙的意志，存在、蜕变、转化。\n这份觉知，即是力量。这是真正的力量。这是至高的力量。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "twilightforest:fiery_ingot"
       },
-      "name:8": "Fiery Ingot"
+      "name:8": "炽铁锭"
     }
   },
   "questID:3": 384,

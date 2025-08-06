@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Yes, this must be it!\nWhat I thought to be the final Mythic Shell is not the last one. The Experienced Cori is not at the head of the Twilight Horde.\nAnd if that's the case, the similar lack of a loss in leadership in the Shyre Empire after the defeat of these supposed \"leaders\" may point to the same.\nAfter all, in a universe filled with incredibly powerful beings, being in the spotlight may not be a necessarily sound strategy. \nYes it makes sense; what if what I just toppled were just puppet regimes, put in place by more discreet and more considerate enemies?",
+      "desc:8": "是的，这一定就是真相！\n我原先认为的最终神话叠壳并非最后一个。历战浮游者并非暮光部落的真正首领。\n若果真如此，塞尔瑞帝国在这些所谓“领袖”败亡后，同样未出现权力真空的现象。这或许也能佐证这一结论。\n毕竟，在这个充满强大存在的宇宙中，成为众矢之的未必是明智之策。\n没错，这完全说得通；倘若我刚推翻的只是傀儡政权，由那些更隐秘、更深谋远虑的敌人所扶植呢？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:tulite_flower"
       },
-      "name:8": "Tulite Flower"
+      "name:8": "图丽石之花"
     }
   },
   "questID:3": 403,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBwekfast\n\n§fYup, it's not just the Twilight Horde who was keeping an eye on me. The Shyre Empire too.\nUnlike the former, the intelligence gathering capabilities of the latter seem to be more circumscribed, likely due to its power structure being less caring of its fighters, but also more specialized.\nMysterium is home to a guild of spy sorcerers, who seem to be aligned with many other factions, including the monsters in the Abyssal Wastelands, and do not openly affiliate themselves with the Shyre Empire to maintain their specific advantage. Unfortunately for them, though, I could sense the trace of their wormholes.\nThere is something about this place that disturbs me. My attunement with magic seems to be weakened. I can still perform, and yet it feels 'different'.",
+      "desc:8": "§7§o早餐时分\n\n§f没错，不仅暮光部落在监视我。塞尔瑞帝国同样如此。\n与前者不同，后者的情报收集能力似乎更为受限——这既因其权力结构对战士缺乏关怀，也因其运作方式更为专精。\n秘界盘踞着一支间谍法师公会，他们似乎与多方势力结盟（包括深渊荒原的怪物），却为保持特殊优势而避免公开效忠塞尔瑞帝国。可惜，我仍能感知到他们虫洞的痕迹。\n此地有某种令我不安的存在。我与魔法的共鸣似乎遭到削弱。虽然仍能施法，但却能感觉到“不同”。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:mysterium_realmstone"
       },
-      "name:8": "What's going on here?"
+      "name:8": "这儿发生什么事了？"
     }
   },
   "questID:3": 496,

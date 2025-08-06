@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis ring will let you 'fly' for short periods of time!\n\nIt can be upgraded into very good stuff!",
+      "desc:8": "§7§o该指环可令你短暂“飞行”！\n\n可升级为巨酷炫的东西！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "extrautils2:chickenring"
       },
-      "name:8": "Ring of the Flying Squid"
+      "name:8": "飞行鱿鱼指环"
     }
   },
   "questID:3": 50083,

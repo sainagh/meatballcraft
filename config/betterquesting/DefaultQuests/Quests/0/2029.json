@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Yes, the Twilight Horde was Betrayed.\nWho knows what the Shyre Empire must've promised, but the 'Power of the Shells', the ability to create these planar worlds like Arcana, was given away by Parasecta.\nThis is precious information, and I am sure it will aid in this conflict.\nNow I think I may know how the Twilight Empire is organized, the pattern is getting more evident. The territories of the Horde are organized in layers, the 'Mythic Shells'. These worlds are close to each other, like a book held loose, where the pages don't quite touch, but are still close. The space between them has been made asymptotycally convergent, so that it is impossible to move between these worlds without the power and knowledge of Twiligh Horde beings.\nRecently, the Shyre Empire gained knowledge of this ability, so it is safe to assume their territories may follow a similar organization.\nHow many more 'pages' do I have to peel before I reach the rulers?\nThis power also seems to be manifesting itself spontaneously, in the form of the twisted worlds of dimensional doors, the Warrens.",
+      "desc:8": "是的，暮光部落遭到了背叛。\n谁知道帝国许下了什么承诺，但“叠壳之力”，那种能创造像秘界这类位面世界的能力，被寄生虫拱手相让了。\n这是珍贵的情报，我确信它将在这场冲突中发挥作用。\n现在我想我可能明白了暮光帝国的组织方式，其模式正愈发清晰。部落的疆域以层级结构排列，即“神话叠壳”。这些世界彼此紧邻，就像一本松散摊开的书，书页虽未相触却紧密相依。位面间的空间被设置为渐近收敛态，因此若不借助暮光部落生物的力量与知识，根本无法在这些世界间穿行。\n近期，塞尔瑞帝国也掌握了这项能力，因此可以合理推测，他们的疆域可能采用了类似结构。\n我还要揭开多少层“书页”才能触及统治者？\n这种力量似乎也在自发具现化，表现为那些扭曲的维度之门世界，即迷道。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:anomaly_detector_stage_3"
       },
-      "name:8": "The Betrayer"
+      "name:8": "背叛者"
     }
   },
   "questID:3": 2029,

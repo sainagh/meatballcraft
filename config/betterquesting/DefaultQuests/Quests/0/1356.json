@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Myrmitite just absorbs whatever magic you throw at it. Not all of what it absorbs is useful, but blood imbuements are.\nFor a reason I do not fully understand, what comes out has some recursive properties, not unlike many other materials and artifacts I have encountered so far.",
+      "desc:8": "恐蚁金属会吸收你施加的任何魔法。虽然这种吸收不全都有用，但注血例外。\n出于某种我尚未完全理解的原因，其产出物具有某些递归特性，与我迄今遇到的许多其他材料和器具颇为相似。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:living_myrmitite_ingot"
       },
-      "name:8": "Living Myrmitite"
+      "name:8": "活性恐蚁金属"
     }
   },
   "questID:3": 1356,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRadiation scrubbers FTW!\n\n§fMy studies on plasma have led to an interesting discovery.\nBlood magic, combined with some radioactivity, yields some interesting results.\nThis is not quite the cold fusion humanity has achieved, but it may have even greater potential!",
+      "desc:8": "§7§o辐射洗涤器必胜！\n\n§f我对等离子体的研究有了重大发现。\n在与一些放射性结合后，血魔法产生了惊人的效果。\n这虽不及人类实现的冷聚变技术，但潜力或许更为巨大！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:plasmatic_condenser"
         }
       },
-      "name:8": "Plasmatic Condenser"
+      "name:8": "等离子聚合器"
     }
   },
   "questID:3": 262,

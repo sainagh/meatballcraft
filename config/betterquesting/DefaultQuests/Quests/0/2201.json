@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Here is something that may scare even the Shyre Empire... besides me, of course.\nAmong the dragons of Lyndenwyrm there exists a hierarchy of power, the way there may be in a roost of chickens, where certain individuals are respected for their superiority in some aspect, which in this case is mastery over chaos.\nAnd at the top of this pyramid sits one dragon, well, one and many, a full-fledged fractallite, a creature capable of matching the most powerful foes I have encountered.\nAnd they too, as faithful as ever to the people that once lived here, kept on in their mission of safekeeping.",
+      "desc:8": "有些东西或许连塞尔瑞帝国都会感到畏惧……当然，除我之外。\n在树龙界的巨龙中存在着力量层级，就像鸡群中存在啄序一样，某些个体会因其在特定领域的卓越而受到尊崇——在这里，就是对混沌之力的掌控。\n这座金字塔顶端盘踞着一条龙，或者说，一条化身万千的龙，一个完全形态的分形者，足以与我遭遇过的最强敌手比肩。\n它们也始终如一地忠于曾居于此地的先民，继续履行着守护使命。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:chaotic_poppet"
       },
-      "name:8": "The Poppet"
+      "name:8": "娃娃"
     }
   },
   "questID:3": 2201,

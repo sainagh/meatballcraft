@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Despite all their rules, the Ancient Fractallites were luckily pushover fighters.\nWhat is most remarkable about them, though, is their homeworld. It reminds of the pocket spaces I built using fluix to house my factories back at the start of my adventures on Terra. The Ancient Cavern is the result of an insane amount of magic, and yet fluix can achieve the same result with much less effort, from the hands of someone who is barely capable of magic, as I was back then.\nWhat the Arbiter so easily and freely left on Terra, to be mostly snubben in front of Dimensional Shards, is quite astonishing to me. Yes sure, to be able of harnessing the power of Fluix you need a physiscs knowhow, but still, it is amazing what the Arbiter's technology is capable of.\nI have big shoes to fill...",
+      "desc:8": "尽管规则不少，但作为战士，远古分形者却意外地不堪一击。\n不过他们最引人注目的还是其母星。那让我想起初临泰拉时，用福鲁伊克斯建造工厂所用的空间口袋。远古神殿是海量魔法的产物，而福鲁伊克斯仅需微薄魔力就能达成相同效果，即便施法者如当年的我一般拙于魔法。\n理序主如此随意遗留在泰拉的造物，在维度碎片面前竟备受冷落，实在令我惊异。诚然，驾驭福鲁伊克斯之力需要物理学识，但理序主的科技伟力依旧令人叹服。\n我尚有巍峨山岳需攀登……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:ancient_cavern_garnet"
       },
-      "name:8": "Ancient Cavern Garnet"
+      "name:8": "远古神殿石榴石"
     }
   },
   "questID:3": 410,

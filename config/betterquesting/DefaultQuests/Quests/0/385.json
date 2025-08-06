@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oNether bricks can be made in the hellfire forge!\n\n§fNot only we can act within the universe. We can act on the universe.\nThe universe, or whoever or whatever force rules it, created those who can change it, who have the power to change it. In big and small ways. I ways that last and ways that do not. In ways that create and ways that destroy.\nI can act upon the universe, I am free to act upn the universe.\nAnd I am free to decide that I must act upon the universe!",
+      "desc:8": "§7§o地狱砖块可在狱火熔炉中合成！\n\n§f我们不仅能在这宇宙中行动，更能作用于宇宙本身。\n这方宇宙——无论由何人、何物、何种力量主宰——孕育了足以改变它的存在，赋予其撼动寰宇的权能。或惊天动地，或润物无声；或永恒不灭，或转瞬即逝；或创生万物，或湮灭众生。\n我，可作用于这浩瀚宇宙；我，被准许干涉这无垠寰宇。\n而我更将自由裁定：必对这宇宙施加我的意志！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:catechu_brown"
       },
-      "name:8": "Catechu Brown"
+      "name:8": "儿茶棕"
     }
   },
   "questID:3": 385,

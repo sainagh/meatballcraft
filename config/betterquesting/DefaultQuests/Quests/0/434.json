@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Looking at the happy side of things, I am not the only thing here that is corrupted, and I am not the only corrupted thing that has not outshined its usefulness.\nThe product of the secret revealed by the Undead Herald, witness of all great battles, is Corrupted Aragonite, a material infused with the powers of an Old One.\n",
+      "desc:8": "从乐观的角度来看，我并非此处唯一遭受腐化之物，也并非唯一仍具价值的腐化存在。\n由亡灵使者揭示的隐秘产物——那见证过所有伟大战役的存在——正是腐化文石，一种灌注了旧日支配者之力的材料。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:corrupted_aragonite"
       },
-      "name:8": "Corrupted Aragonite"
+      "name:8": "腐化文石"
     }
   },
   "questID:3": 434,

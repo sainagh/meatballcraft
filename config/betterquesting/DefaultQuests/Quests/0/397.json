@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Before going on, I must tie all loose ends, this much I now know. \nWhen it comes to Recursion, and even moreso with Fractallite beings, defeating an enemy once is not enough.\nThe forsaken inhabitants of Runandor, in their creation of Clunkhead, inbued it with some of the power of this Lord of Prosperity, certainly a Fractallite being.\nI must face this automaton again, not just the form I was allowed to see, but its true essence!",
+      "desc:8": "在继续前行之前，我必须了结所有未尽之事，这是我现在所确知的。\n涉及递归存在，尤其是面对分形存在时，仅击败敌人一次是远远不够的。\n符境的遗弃之民在创造斩首时，必定将繁荣之主的某些力量注入了它体内，而那位无疑是分形存在。\n我必须再次直面这个机械傀儡，不仅要对抗它曾向我展示的表象，更要直面它的真实本质！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:runic_key"
       },
-      "name:8": "Warden of the Shyre Empire"
+      "name:8": "塞尔瑞帝国监守者"
     }
   },
   "questID:3": 397,

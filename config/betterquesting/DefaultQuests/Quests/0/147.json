@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWelcome to chapter 4!\n\nYou just reached the midgame of the pack! Congratulations!\n\n§fThe Shyre Empire's ability to travel is strictly tied to the rocky material I've found in during my experiments with mythic excavation.\nDifferent realmstones can be bound to key travel regions used as ports for the empire, and this ancient rock frame can restabilize existing connections used by this power.\n\nRight click the power stone using a realmstone!",
+      "desc:8": "§7§o欢迎来到第4章！\n\n你已抵达本包的中期阶段！恭喜！\n\n§f塞尔瑞帝国穿梭维度的能力与我在神话采掘实验中发现的某种岩石密切相关。\n不同的纯宝石（界石）与帝国用作传送港的各个关键区域绑定，而这种远古岩石框架能重新稳定该能量原有的连接通道。\n\n使用纯宝石（界石）右击能量雕符石！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:carved_rune_power"
       },
-      "name:8": "Follow the Traces"
+      "name:8": "追寻踪迹"
     }
   },
   "questID:3": 147,

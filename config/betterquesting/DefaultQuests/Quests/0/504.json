@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Myrmitite's affinity with draconic and blood magic is quite useful. Full use over the power of chaos is still a long ways away, but this is the first time that I made something that directly uses this principle. And it can be weaponized.",
+      "desc:8": "恐蚁金属与龙以及血魔法的亲和性相当实用。虽然要完全掌控混沌之力尚需时日，但这是我首次造出直接运用该原理的物品。而且它还能被武器化。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:knife_blade",
@@ -12,7 +12,7 @@
           "Material:8": "chaotic_plustic"
         }
       },
-      "name:8": "Chaotic Knife Blade"
+      "name:8": "混沌核心刀刃"
     }
   },
   "questID:3": 504,

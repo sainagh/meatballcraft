@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "That is it! With these world, I bind myself to mission. I make myself an agent to the most basic substance of reality. I make myself a being of recursion itself, agent, and yet bound.\nWith these words, I bind myself to Vethea, and I ascend. \nWith these words, I become the defender of Terra.",
+      "desc:8": "就是此刻！以此诸界为证，我立誓践行使命。我将化为现实基质的代行者，成为递归本质的化身，既是执行者，亦受其约束。\n以此为誓，我与梦魇世界缔结牵绊，自此飞升。\n以此为誓，我当为泰拉之守护者。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:minor_vethea_binding"
       },
-      "name:8": "Vethea Binding"
+      "name:8": "梦魇世界之连结"
     }
   },
   "questID:3": 354,

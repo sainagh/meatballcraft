@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Oblivionnaire, the master of memory, ruler of the Abyssal Wastelands, the coralium monster, and the final agent involved in my imprisonment under the Meatball man.\nAs expected from a being with powers over memory, this being is extremely hard to track down, but once I did, I gained priceless knowledge from this monster.\nThe Meatball Man was waiting for me to do something, even after falling under this supposed trap that was laid out for me, and the Oblivionnaire was instructed to stop me from achieving this 'something', which I suspect may be reaching the Proxima Belt. What this tells me, is that I was expected to go off-script, in some way. \nWell, I did go off script, but not even the Oblivionnaire could do anything about this.\nWhat I find puzzling about this is the fact that someone had to absolve this role in stead of the Meatball Man. He is more than powerful enough to handle me, and he is clearly interested in me and what I can do as a potential force for order in the universe, and yet, he has given this seemingly important task to someone much less powerful than him.\nAnd it has backfired, as the Oblivionnaire is now defeated, and I successfully reached the Proxima Belt! My destiny is my own!\nYou hear me Meatball Man! My destiny is my own!",
+      "desc:8": "遗忘者，记忆之主宰、深渊荒原之统治者、珊瑚怪物，亦是导致我被囚禁于肉丸人掌控下的最终执行者。\n正如其对记忆权能的预期，这个存在极难追踪。但当我最终找到它时，却从这怪物身上获得了无价知识。\n肉丸人始终在等待我的某个行动，即便我已落入这个看似为我准备的陷阱。而遗忘者受命阻止我达成这个“某个行动”，我怀疑其目标可能是抵达比邻星带。这表明有人预判到我会偏离既定剧本。\n没错，我确实偏离了剧本，但即便是遗忘者也对此无能为力。\n令我困惑的是：为何必须由他人代行肉丸人的职责？祂完全有足够力量亲自对付我，且显然对我作为宇宙秩序潜在维护者的能力深感兴趣。然而祂却将这个看似重要的任务交给了远不如他强大的存在。\n现在计划彻底失败——遗忘者已被击败，而我成功抵达了比邻星带！我的命运由我主宰！\n听好了肉丸人！我的命运只属于我自己！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:oblivionaire_callstone"
       },
-      "name:8": "The Spectral Dragon Tamer"
+      "name:8": "幽魂巨龙驯养者"
     }
   },
   "questID:3": 2150,

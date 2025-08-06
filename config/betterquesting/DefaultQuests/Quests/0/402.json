@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Is this really how I damaged the Twilight Horde? Is this how a galaxy-spamming civilization is toppled? By picking up a crystal?\nAs hard it may be to believe, yes, that may be how it happens.\nI still could be wrong, as I do not yet know how these recursive gems work, but my suspicion about them being communication devices does make sense. They are tied in between the Mythic Shells of the Twilight Horde, and their removal from their locations has caused chaos and disorganization among enemy troops.\nThat is the effect I would expect from removing the Internet back on Earth. Communication is a powerful weapon, some may even say the most powerful.\nWhile I would really like to say this is over, I do not think it is. Holding on to the gem of Skythern, I know that it is not the final world of the Mythic Shells, so whoever lives and rules in the next one will eventually reinstate these communication lines.\nI hope at least I scared them enough to make them careless...",
+      "desc:8": "难道这就是我对暮光部落造成伤害的方式？一个能肆意支配星系的文明，竟会因为拾起一块水晶而受损？\n尽管难以置信，但答案恐怕确实如此。\n当然我的判断可能出错，毕竟尚未参透这些递归宝石的运作原理。但其作为通讯装置的推测确实能解释现状。这些宝石原本嵌在暮光部落的神话叠壳之间，而将其从原位移除后，敌军立刻陷入了混乱失序的状态。\n这效果就像在地球上切断互联网。通讯本就是最强大的武器，甚至可称无冕之王。\n虽然很想宣布胜利，但战争远未结束。我紧握着空境宝石，深知这绝非神话叠壳的终点。无论下一个维度的统治者是谁，他都终将重建这些通讯线路。\n希望我的行动至少能让他们失慎……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:skythern_refined_gem"
       },
-      "name:8": "Skythern Refined Gem"
+      "name:8": "精致空境宝石"
     }
   },
   "questID:3": 402,

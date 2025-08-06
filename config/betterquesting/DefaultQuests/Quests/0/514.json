@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "And what can you make with monopoles? Perfect circular motion!\nThe best jet engines humanity ever devised? Bah, such imperfection.\nThis is what true rotation looks like! Perfectly directed magnetic fields, capable of things no single crystal bearing parts could even dream of achieving! You want to experience true circlar motion? Here is true circular motion!\nTurbines built with this paradigm should allow for much higher pressures, and who knows, maybe even handle plasma!",
+      "desc:8": "用磁单极子能造什么？完美的圆周运动！\n人类设计过最好的喷气引擎？嗯，那并不完美。\n这才是真正的旋转！完美导向的磁场，能实现任何单晶轴承部件做梦都达不到的效果！想体验真正的圆周运动？这就是真正的圆周运动！\n用这种范式建造的涡轮应该能承受更高压力，谁知道呢，说不定连等离子都能驾驭！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:highly_advanced_machine_casing"
       },
-      "name:8": "Draconic Turbines!"
+      "name:8": "神龙涡轮机！"
     }
   },
   "questID:3": 514,

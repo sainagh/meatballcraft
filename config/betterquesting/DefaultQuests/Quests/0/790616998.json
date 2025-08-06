@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oNothing to see here, this and the following quests do not exist, and are a figment of your imagination.",
+      "desc:8": "§7§o这儿什么都没有，后面也不存在任务，这只是你想象。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stone_of_dimensional_ascension"
       },
-      "name:8": "Dimensional Ascension?!?"
+      "name:8": "维度飞升？？"
     }
   },
   "questID:3": 790616998,

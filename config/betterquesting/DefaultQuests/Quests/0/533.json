@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Testificate wizards on Vibe have been a gold mine of information. At some point during the campaign on Diamerisma, they became aware of a warmhole 'hotspot', a location where unbound wormholes will open, that has not fallen under the control of the Shyre Empire.\nThis world, Finem, is where they first encountered the chickens, the ones that shoot lasers, which later on became the ace in Terra's sleeve when the campaign moved to Furatto.\n",
+      "desc:8": "谐律界的泰斯提斐人巫师们堪称情报金矿。在附魔山脉战役期间，他们发现了一个未被塞尔瑞帝国控制的虫洞“活跃区”，也就是自由虫洞频繁开启的特殊区域。\n这个名为末结地的世界，正是他们首次遭遇激光鸡（能发射激光的鸡）的地方。后来当战事蔓延至地盘界时，这些激光鸡成为了泰拉阵营的制胜王牌。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:finem_warper"
       },
-      "name:8": "Animals of Mass Destruction"
+      "name:8": "大规模杀伤性动物"
     }
   },
   "questID:3": 533,

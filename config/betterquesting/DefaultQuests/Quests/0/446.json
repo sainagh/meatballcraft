@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§7§oUse a pure water stone on a hydro table to summon Hydrolisk.\n\nUse a call of the drake on a dracyon altar to summon Dracyon.\n\n§fAnd if the corruption of space itself was not scary enough, the beings at the head of this world have more than enough power to end worlds by themselves.\nOne an unstoppable force, the other an unmovable object. What I fought here were nothing but shadows of the true power of these beings; although I was able to banish them, they will likely come back, and this time, they will face me with their full might.\nThankfully, they are too strong to face me on Terra, as they alone would annhilate their treasured Dimensional Shards together with me.\nI cannot take any chances, though, if the balance of this war were to change, who knows what these opponents may be capable of.",
+      "desc:8": "§7§7§o对水能祭坛使用纯水石来召唤水能龙蜥。\n\n对德雷克祭坛使用幼龙之召来召唤飞行守护者。\n\n§f如果说空间本身的腐化还不够可怕，那么统治这个世界的存在们，单凭自身力量就足以毁灭无数世界。\n一个是不可阻挡的狂暴之力，一个是亘古不动的永恒之物。我在此对抗的不过是这些存在真实力量的残影；尽管我能驱逐它们，但他们必将卷土重来，而下次，他们将以全力与我交锋。\n所幸他们过于强大，无法降临泰拉与我正面对抗，否则仅凭战斗余波就足以让他们珍视的维度碎片与我一同湮灭。\n但我绝不能心存侥幸，倘若这场战争的平衡被打破，谁也无法预料这些对手会做出何等疯狂之举。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:borean_cap"
       },
-      "name:8": "L'Borean Falls"
+      "name:8": "攻陷暴风维度"
     }
   },
   "questID:3": 446,

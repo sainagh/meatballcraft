@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The nature of all these new materials makes it so their properties can be mixed and matched in a fairly easy fashion.\nThe upfront cost is a bit steep, but I was able to combine some of them into a useful metallic alloy base tho serve a variety of purposes.\nIt can act as a metal by itself, but thanks to its ductility, it also serves as a matrix for composites materials.\nWhat is interesting about this metal alloy, in addition to what I have said before, is that, if I am right about my theories on mythic magic, it could be reproduced using other recursive matter as well.\nI have yet to come up with an accurate means of production, but this feels like a type of discovery akin to shape-memory alloys. After the study of gold-cadmium alloys, the same was observed (with better results) in nickel-titanium alloys.\nI strongly suspect there are going to better ways of making this Ultimate alloy.",
+      "desc:8": "由于其本质，新材料的特性可以被相当轻松地混合搭配。\n虽然前期成本有些高昂，但我已经成功将其中一些材料组合成一种多功能金属合金基底。\n它本身可以作为金属使用，但由于其延展性，它还能作为复合材料的基体。\n除了我之前提到的特性外，这种金属合金还有一个有趣之处：如果我对神话魔法的理论是正确的，它或许还能通过其他递归物质复制出来。\n目前我尚未找到精确的生产方法，但这感觉像是一种类似于形状记忆合金的发现。在研究金镉合金后，同样的现象（且效果更好）在镍钛合金中也被观察到。\n我强烈怀疑，未来会有更好的方法来制造这种终极合金。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 33,
         "id:8": "extendedcrafting:material"
       },
-      "name:8": "Great Power at a Great Price"
+      "name:8": "代价高昂的强大力量"
     }
   },
   "questID:3": 517,

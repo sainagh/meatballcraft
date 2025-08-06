@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou may want to bring a way to escape...\n\n§fThe fallen of the Twilight Forest have unfinished business, it seems, and their will has remained alive in the form of ghosts, it seems. They are beings of vengeance, nothing more than shadows of a shameful defeat. \nAnd yet their will carried artifacts they were able to keep safe from the Crimson Cult. \nVibration, harmonization, resonance. These phenomena have something to do with magic, and they are a catalyst for it. They are the secret of the Twilight Forest, one they wanted safekept, so it must be useful for something.",
+      "desc:8": "§7§o你最好准备条退路……\n\n§f暮色森林的亡魂似有未竟之业，其执念凝聚成了幽灵形态。这些复仇之灵不过是昔日败北之耻的残影。\n然而它们守护的遗物竟成功躲过了猩红教团的掠夺。\n谐振，调和，共鸣。这些现象与魔法有所关联，更是催发魔法的媒介。这是暮色森林守护的核心奥秘，既被如此珍视，定然大有用途。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:call_of_the_haunted"
       },
-      "name:8": "Sounds of the Haunted"
+      "name:8": "闹鬼的动静"
     }
   },
   "questID:3": 266,

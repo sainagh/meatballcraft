@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While I have yet to fully grasp this, it seems like, at their essence, artifacts made out of fluix take advantage of the many configurations and interactions among strings, leading to transitions between data, and matter!",
+      "desc:8": "虽然我尚未完全理解这一点，但本质上看来，由福鲁伊克斯制成的器具，似乎利用了弦之间的多种构型与相互作用，从而实现数据与物质之间的转换！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:strings_crystal"
       },
-      "name:8": "Strings Crystal"
+      "name:8": "弦晶体"
     }
   },
   "questID:3": 435,

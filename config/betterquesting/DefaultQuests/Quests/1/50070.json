@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe alchemical bag is a very large backpack that also works like a vanilla ender chest. If you make two alchemical bags of the same color, they share inventory. Different players will have their own different 'alchemical bag networks'.",
+      "desc:8": "§7§o炼金术之袋的容量非常大，而且工作机制和原版的末影箱差不多。如果将两个炼金术之袋染上相同颜色，它们便会共享存储空间。不同玩家拥有独立的“炼金术之袋网络”。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 32767,
         "id:8": "projecte:item.pe_alchemical_bag"
       },
-      "name:8": "Alchemical Bag"
+      "name:8": "炼金术之袋"
     }
   },
   "questID:3": 50070,

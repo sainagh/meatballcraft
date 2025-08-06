@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "There is so little here, and yet some of what exists out there can be here too.\nMagic, even at the most basic layer of reality, can exist.\nMagic is at the most basic of reality.\nMagic is the most basic layer of reality!",
+      "desc:8": "这里几乎一无所有，但那些存在于外界的事物亦可在此显现。\n纵使处于现实最基础的层面，魔法依然能够存在。\n魔法即是现实最根本的构成。\n魔法就是现实最基本的层次！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "xreliquary:pyromancer_staff"
       },
-      "name:8": "Pyromancer's Staff"
+      "name:8": "烈焰术士之杖"
     }
   },
   "questID:3": 383,

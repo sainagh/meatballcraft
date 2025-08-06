@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis can be used to bypass the inventory reset in Vethea.\n\n§fA broken pact. A cheat. A way out!\nNo rule can be fully binding and foolproof. Not even the rule of Recursion.\nThat is the forbidden knwoledge the Lurker has discovered.\nIf I were to use it, I could forego the initial sacrifice. Not the whole thing, but the burden would be lightened.",
+      "desc:8": "§7§o可使用该物品绕过梦魇世界的物品栏重置。\n\n§f一条破碎的契约。一场欺骗。一条出路！\n没有规则能完全约束一切，保证万无一失。即便是递归法则也不例外。\n这便是潜尾鳄发现的禁忌知识。\n若运用此法，便可免去最初的牺牲。虽非彻底摆脱，但也能减轻重担。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "thebetweenlands:lurker_skin_pouch"
       },
-      "name:8": "The Pact of the Secret Lurker"
+      "name:8": "隐秘潜尾鳄的契约"
     }
   },
   "questID:3": 2236,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "A lone Testificate seems to have gone on after the campaign on Furatto. Acting by himself, one of the faithful of the Arbiter has followed the guide of some bees, and was able to reach Lyndenwyrm, gathering knowledge about the power of Entropy after studying the Chaos Dragons in the Sky of Terra.\nThis agent was one of the Arbiter's inner circle back on Terra, a powerful magician and alchemist, and the creator of the Withers. These six creatures, created from the undead of the Meatball Man, were put in place as the ultimate defense of Terra, and would awaken if the full corporeal form of the Lord of Gluttony were to ever set foot in the land of the Testificates.\nAs they told me of their mission and research, one interesting detail about powerful recursion came up. \nFractallite powers have strict rules; no more and no less than one individual can hold a given fractallite power; if a fractallite being dies, their power and their mission become available for the taking. \nOne can ascend before gaining powers, as the process of ascension simply consists of reaching a level of attunement to recursion that allows one to sense the fields for these immense powers.\nBecause of this, there are powerful fractallite beings that hold no powers, and who are simply fighting or waiting to take control over a specific one.",
+      "desc:8": "地盘界的战役结束后，一位孤独的泰斯提斐人继续前行。这位理序主的虔诚信徒之一，孤身行动，追随着一些蜜蜂的指引，成功抵达了树龙界。在研究了泰拉天空中的混沌巨龙之后，他搜集到了关于熵之力的知识。\n这位密使曾是理序主在泰拉的内环成员之一，是一位强大的魔法师和炼金术士，也是凋灵的创造者。这六体由肉丸人麾下不死生物创造而出的存在，被安置作为泰拉的最终防线。一旦暴食之主的完整实体形态踏足泰斯提斐人的土地，它们便会苏醒。\n在向我讲述其使命和研究时，他们透露了一个关于强大递归的有趣细节。\n分形之力有着严格的规则：拥有某种分形之力的个体不多不少，只能有一个；如果某个拥有分形之力的存在陨落，其力量和使命便可被他人获取。\n飞升可在获得分形之力前进行，因为飞升仅仅是达成了一种与递归共鸣的境界，从而能感知到这些巨大力量的所在领域。\n正因如此，不乏强大的分形存在本身未持力量，或为争夺而战，或静候接管之机。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:chaotic_gem"
       },
-      "name:8": "The Origin of Withers"
+      "name:8": "凋灵的起源"
     }
   },
   "questID:3": 1142834944,

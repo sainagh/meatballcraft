@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "After visiting so many of the Shyre Empire's worlds, I believe I have a good idea on who I may encounter after opening my next portals.\nThe coordinates, they all point to names that were revered in many of the places I have been. Well, their own influence seems to have taken over even Terra. The blessings I would receive back when I first arrived to the Testificates' home world, they come from them, they come from the leaders of the Shyre Empire, the gods of the Shyre Empire.\nThe Primordials, the Immortals, the appellatives vary, and so do the names associated with the portal locations I will soon be able to open. This suggests some sort of decentralized government, which makes sense, given how high the stakes here are...",
+      "desc:8": "在游历过塞尔瑞帝国的诸多世界后，我对下一个传送门可能遭遇的对象已心中有数。\n那些坐标指向的称谓，无不是我途经之处备受尊崇的名号。看来他们的影响力甚至已蔓延至泰拉世界。当初在泰斯提斐人故土时获得的祝福，其源头正是他们——塞尔瑞帝国的统治者们，塞尔瑞帝国的众神。\n原初存在、不朽者，他们称谓各异，正如我将要开启的传送门坐标关联的名号般变化多端。这暗示着某种分权治理的政体，考虑到此间牵涉的利害关系之重大……倒也合乎情理。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:recursive_demantoid"
       },
-      "name:8": "Recursive Demantoid"
+      "name:8": "递归翠榴石"
     }
   },
   "questID:3": 290,

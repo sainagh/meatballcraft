@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "And just like that, I am mission.\nI do not have to be here anymore. I do not have to act upon the nightmare anymore.\nI can act upon the Universe, I can bring change to the Universe.",
+      "desc:8": "就这样，我使命已成。\n不必再滞留于此。不必再与这梦魇纠缠。\n我能撼动寰宇，我将改变世界。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_alchemical_bag"
       },
-      "name:8": "We Out!"
+      "name:8": "我们出来了！"
     }
   },
   "questID:3": 305,

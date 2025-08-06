@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Vibrating stone's amplifying abilities are particularly well-attiuned to thaumaturgy. Its ability to interact with the aura field makes producing Adaminite soo much easier now!",
+      "desc:8": "振动石的增幅能力与神秘学尤为契合。其与灵能场域的交互特性，使得艾德曼的制备过程变得前所未有的便捷！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumadditions:adaminite_block"
       },
-      "name:8": "Really Interesting results"
+      "name:8": "着实有趣的结果"
     }
   },
   "questID:3": 537,

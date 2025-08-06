@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Have I really helped people? Well, the Testificates and the Bees surely think I have.\nHave I really helped people? Well, Terra is a bit more free than it once was.\nHave I really helped people? Why am I making excuses? I liked the power. I liked that, for once in my life, I could unshackle myself from a normal mundane life. I liked that I could finally be the hero.\nBut am I really the hero? I don't really care about my allies, I just want them to recognize me as good, and I want to become more powerful.\nI am an evil person, aren't I?\nIs this what my search into myself has produced? Is this where my solitary journey of introspection has landed? Was it worth it?",
+      "desc:8": "我真的帮助过人们吗？那些泰斯提斐人和蜜蜂肯定认为我有。\n我真的帮助过人们吗？至少泰拉比从前自由了些。\n我真的帮助过人们吗？为何要找借口？我贪恋这份力量。我贪恋此生终于能挣脱平凡生活的枷锁。我贪恋终于能成为英雄的感觉。\n但我真是英雄吗？我根本不在乎盟友，只想让他们认可我是好人，只想获得更强大的力量。\n我是个恶人，对吧？\n这就是我探寻内心的结果吗？这就是我独行自省的终点吗？值得吗？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:pure_warp"
       },
-      "name:8": "I am Evil"
+      "name:8": "我是个恶人"
     }
   },
   "questID:3": 529,

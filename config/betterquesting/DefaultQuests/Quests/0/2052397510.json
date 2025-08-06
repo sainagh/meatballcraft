@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I am still not fully sure of what happened exactly, but someone among the Faithful of the Arbiter studied the power of deraddread, and was able to cleanse from its origin it in some way. Again, I may be piecing together things that are not connected, but dread beings seem quite similar to Withers; undead capable of independent will, and yet capable of serving a greater purpose on their own.\n",
+      "desc:8": "§7§o我仍未能完全理清来龙去脉，但理序主的虔信者中有人研究了悚怖之力，并以某种方式从其源头净化了这种力量。或许我只是在牵强附会，但悚怖存在与凋灵确实极为相似：都是拥有独立意志的不死生物，却又能自发服务于更宏大的目标。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:dread_cleansing_fabrial"
       },
-      "name:8": "Dread Cleansing"
+      "name:8": "悚怖净化"
     }
   },
   "questID:3": 2052397510,

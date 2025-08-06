@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Well well well...\nIn some way, the Twilight Horde and the Shyre Empire are similar, like two sides of the same coin.\nThe way the former uses gravity is, in some way more primal, more natural...\nThe way they travel is connected to astral magic in some way.\nThe network of the magical fields gets more and more intricate, and the answer to its origin gets simpler and simpler.",
+      "desc:8": "有意思……\n某种意义上，暮光部落与塞尔瑞帝国如同硬币的两面，存在着微妙的共性。\n前者运用引力的方式更原始、自然……\n其穿梭维度的法门与星辉魔法有共通之处。\n魔法场域交织的网络越是繁复，其本源的答案反而愈发清晰。",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:twilight_clock"
       },
       "ismain:1": 1,
-      "name:8": "War to the Twilight Horde!"
+      "name:8": "向暮光部落开战！"
     }
   },
   "questID:3": 144,

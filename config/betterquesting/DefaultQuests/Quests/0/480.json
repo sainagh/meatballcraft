@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This newfound power of blood magic has allowed me to call forth a special type of meteor, one containing a recursive material I have not encountered before, one that, like the recursive powder left hidden by the Aesir, has magical interactions with multiple fields.",
+      "desc:8": "这种新获得的血魔法力量，令我能够召唤一种特殊的陨石，其中蕴含着一种前所未见的递归物质，就像阿萨神族遗留的递归粉末一样，能与多重场域产生魔法交互。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:cursed_sapphire"
       },
-      "name:8": "Cursed Sapphire"
+      "name:8": "诅咒蓝宝石"
     }
   },
   "questID:3": 480,

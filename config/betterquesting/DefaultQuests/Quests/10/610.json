@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": " ",
+      "desc:8": "",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -16,7 +16,7 @@
           "FluidName:8": "technetium"
         }
       },
-      "name:8": "Technetium"
+      "name:8": "锝"
     }
   },
   "questID:3": 610,

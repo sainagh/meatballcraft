@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I now know how the Shyre Empire can easily put an end to entire planets so easily. \nThe behemoths of the land of coral, the Deepest Ones, the warriors of L'Borean are the planet-annhilators of the Shyre Empire.\nJust like a virus, a parasite that repurposes the genome of its host to produce more of itself, the world soul underneath the coral world of L'Borean has infected the entirety of its beings, transforming them into extremely powerful warriors, which are in turn used to spread other world souls of the same type.\nThe products of this corruption are capable of exsting in higher dimensions, just like the Old Ones, and carry their blight through the space-time they traverse.\nThis reminds of the Dread Plague, in some way, but at a much larger, and more fundamental, scale.",
+      "desc:8": "现在我终于明白塞尔瑞帝国为何能如此轻易地终结整个星球了。\n那些珊瑚之地的庞然巨物，渊底的至深之物，暴风维度的战士，正是塞尔瑞帝国的行星毁灭者。\n就像病毒这种寄生体会重组宿主基因组，以进行自我复制那样，潜伏在暴风维度珊瑚世界之下的世界之魂，已将所有生灵感染异化，将它们改造成极端强大的战士，而这些战士又被用来散播同类型的其他世界之魂。\n这种腐化的产物能够像旧日支配者那样存在于更高维度，并随着它们的时空穿行散播枯萎。\n这让我在某种程度上联想到了恐惧瘟疫，但规模更为宏大，本质也更为可怖。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:borean_realmstone"
       },
-      "name:8": "A Land of Coral"
+      "name:8": "珊瑚之地"
     }
   },
   "questID:3": 448,

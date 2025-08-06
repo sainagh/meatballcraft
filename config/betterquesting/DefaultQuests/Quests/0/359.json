@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMake sure to get a woot model for each boss in Mortum, with the exception of Karot, they are going to be required in chapter 9. For Karot you will still have to farm it, but using a taxcollector bee contraption.",
+      "desc:8": "§7§o确保为死域里的所有Boss都做一个工厂控制器，除了卡萝特。他们的材料后面在第9章会用到。至于卡萝特，当然还是得刷，但是用的是收税官蜜蜂。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:skythern_block"
       },
-      "name:8": "Skythern Block"
+      "name:8": "空境块"
     }
   },
   "questID:3": 359,

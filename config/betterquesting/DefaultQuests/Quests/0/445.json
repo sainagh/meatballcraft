@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Lunalus is another of the Shyre worlds that holds a particular relevance. If the beings in Mysterium are the ones that enacted the plan to capture me, the ones in Lunalus are the ones that came up with that plan.\nFortunately, I made it out alive, and now I am ready to face them!\nWith regards to its role in the organization of the Empire, Lunalus absolves two main strategic functions. Its powerful military, instead of being assigned to warfare, is used to jail some of the more powerful enemies of the Shyre Empire, and to protect its intelligence mastermind.\nThis asteroid world is a massive prison, and the center of an espionage agency. Dismantling both should consideraly weaken my enemy.",
+      "desc:8": "月球维度是塞尔瑞帝国中另一个具有特殊意义的世界。如果说秘界中的存在是捕获我计划的执行人，那么月球维度的存在就是策划这个计划的幕后主脑。\n所幸我活着逃了出来，现在我已准备好直面他们！\n就其在帝国组织架构中的职能而言，月球维度主要承担两项战略任务：其强大的军队并不投入战场，而是用于囚禁塞尔瑞帝国最危险的敌人，同时守护着帝国的情报中枢。\n这个由小行星构成的世界既是巨型监狱，又是间谍机构的中心。若能同时摧毁这两大设施，必将重创我的敌人。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:lunalus_realmstone"
       },
-      "name:8": "Asteroid World"
+      "name:8": "小行星世界"
     }
   },
   "questID:3": 445,

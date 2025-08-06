@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Recursion is the base of itself. It is not created. It generates itself.\nIt is.",
+      "desc:8": "递归以自身为根基。它并非被造之物。而是自我衍生。\n它自在。",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -97,7 +97,7 @@
           }
         }
       },
-      "name:8": "Laser Beams!"
+      "name:8": "激光！"
     }
   },
   "questID:3": 382,

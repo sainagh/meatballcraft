@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Apichisi, where the Testificates gave up, and passed the torch to the Bubbell alliance.\nUp next in the list of beacon worlds where wormholes like to open, is the final buffer world of the Shyre Empire. Well, was the final buffer world of the Shyre Empire.\nIn an act similar to the Wizards of Vibe, drastic actions were taken to ensure that the world would not be in control of anyone. Unlike Vibe, though, this action did not involve any sort of world-ending magic that turned the planet into an unlivable wasteland.\nWhat the Bees did was actually take advantage of the encounters their civilization had with other powerful beings, gave them coordinates to reach Apichisi, and told them of the powerful mineral that permeates its soil. What followed was a multi-front war not unlike Terra's.\nI may have to reconsider my opinions about the navety of Bees. I guess it makes sense giver their vows, but the idea is quite diabolical; so diabolical, as a matter of fact, that I doubt it originally came from the Bubbell Alliance.",
+      "desc:8": "共鸣界，泰斯提斐人放弃坚守之地，将火炬传递给了气泡铃联盟。\n在虫洞偏向的信标世界名单中，下一个是塞尔瑞帝国最后的缓冲世界。或者说，曾是塞尔瑞帝国最后的缓冲世界。\n与谐律界的巫师们类似，这里采取了极端措施，以确保该世界不被任何势力掌控。但不同于谐律界，此处并未使用任何将星球变为不毛之地的灭世魔法。\n蜜蜂所做的，实际上是利用他们文明与其他强大存在接触的经验——将通往共鸣界的坐标交给这些存在，并告知其土壤中渗透的强大矿物资源。随之而来的是一场多方混战，其惨烈程度不亚于泰拉之战。\n或许我该重新评估对蜜蜂天真程度的认知。考虑到他们的誓约，这种做法倒也合理，但此计谋着实阴险；阴险到让我怀疑这个计划最初根本非气泡铃联盟所出。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:apichisi_warper"
       },
-      "name:8": "Experiment #5"
+      "name:8": "实验 #5"
     }
   },
   "questID:3": 453,

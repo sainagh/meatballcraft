@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Despite the grueling fight, I think I actually defeated these enemies. Not 'defeated' like Bane or the Primordial Fractallites, where my actions felt to have little effect on their power. \nNo, actual defeat, if that were possible. I defeated, truly defeated, Fractallite beings.\nHow? Well, I can only guess, but I believe it must have something to do with an incomplete coupling with their Fractallite powers, almost as if it took some time for it to 'settle down', and I was able to stop the merging before it was complete.\nWhat supports this theory is what Dracyon and Hydrolisk left behind. I am fumbling for words, but whatever this thing is, it is as close to pure recursion as my senses have encountered, and yet it hints at something more, just like a complex shape that is only seen from one angle, and is thus distorted.\n ",
+      "desc:8": "尽管异常艰难，但我确实击败了这些敌人。不是对抗幽魂或原始分形者时的那种“击败”，那时我的攻击对他们的力量几乎毫无影响。\n这是真正的击败，如果这个词适用的话。我真正战胜了分形存在。\n怎么做到的？我只能猜测，但应该与他们未彻底融合的分形之力有关，这种力量似乎需要时间“稳定下来”，而我在融合完成前就阻止了这个过程。\n这个理论的佐证来自飞行守护者和水能龙蜥留下的东西。我难以找到准确词汇描述，但此物是我感知范围内最接近纯粹递归的存在，却又暗示着更深层的奥秘——就像仅从单一角度观察复杂形体时必然产生的扭曲。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:recursion_of_war"
       },
-      "name:8": "*deep inhale* WAR!"
+      "name:8": "*深吸气*，战争！"
     }
   },
   "questID:3": 2166,

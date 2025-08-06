@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "After spending time in this place, I feel changed, different, mutated...\nMy perception of the world around me has changed, as if I am just now noticing things that had always been there.\nMaybe it is the things I have witnessed here, maybe it is just my experiences until now, but what I feel is undeniable. An epiphany, of some sort.\nIt is not that I feel stronger, but my grasp on power seems more steady, and I seem to undertand more of the power around myself; the field or Recursion has never been more evident.",
+      "desc:8": "在这片土地驻留后，我感到自己发生了变化，变得不同，仿佛经历了某种畸变……\n我对周遭世界的感知已然改变，恍若初次觉察到那些始终存在的事物。\n或许是在此目睹的种种，又或是迄今为止的经历，但这种感受真实不虚。某种顿悟般的觉醒。\n并非力量的增长，而是对力量的掌控更为稳固，对周身能量的理解愈发深刻；递归领域的法则从未如此明晰可感。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:borean_garnet"
       },
-      "name:8": "Borean Garnet"
+      "name:8": "暴风石榴石"
     }
   },
   "questID:3": 447,

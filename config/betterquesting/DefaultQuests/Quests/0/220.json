@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While the being behind the corruption of the Abyss appears to be somewhat intangible, something like Ashora or the elusive Oblivionaire in the Abyssal Wastelands, it has a form that is perceivable in the three-dimensional world I inhabit.\nThis form is of large flesh tendrils originating from somewhere inside the world. Its minions inhabit these tendrils, and they hold some secrets I was able to discover.\nThis flesh is in itself recursive, which is strange. I am recursive, but every time I return my remains are not, and neither are the remains of any of the enemies I have slain so far. Remains like the divine shards have properties that are useful for magic, but they are not themselves magic. The flesh of this being, though, is in itself an agent of magic, capable of controlling the world around it, as if it had a will, even when hacked off.\nThis can be used, I think, for some weapon-making.",
+      "desc:8": "尽管腐化深渊的幕后存在看似难以捉摸——如同深渊荒原中的阿索拉或神秘的遗忘者——但它在我所处的三重维度世界里确有可被感知的形态。\n其形态表现为从世界内部延伸出的巨型血肉触须。它的爪牙盘踞其中，守护着某些秘密。\n诡异的是，这种血肉本身具有递归特性。我自身虽能递归重生，但每次重生后遗骸都会消失，至今被我消灭的所有敌人遗骸亦是如此。诸如神圣碎片之类的残留遗骸虽蕴含魔法效用，其本质却非魔法造物。而这种存在的血肉，其本身就是魔法媒介，即便被斩断，仍能操控周遭世界，仿佛拥有自主意志。\n依我所见，这或许能用于锻造某种武器。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:abyssal_flesh"
       },
-      "name:8": "Abyssal Tendrils"
+      "name:8": "深渊触须"
     }
   },
   "questID:3": 220,

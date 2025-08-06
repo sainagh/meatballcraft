@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The nature of this place is having some effects on me. The flow of time is so weird, I am not sure if I can trust my memories of not.\nMy memory of it appears foggy, as if I had too much to drink, but I recall a phrase, muttered by someone in Greckon; a disembodied voice. \"The warden of the Shyrelands will not be happy with this.\"\nWell, this really sounds like the voice of a subject talking about their master. But wasn't Bane supposed to be a master, a ruler?\nSure, all signs point to it. The worship, the symbolism, the portals. These places are supposed to be at the center of the Shyre Empire.\nAnd yet this voice, a voice from a memory I do not even know to be true, this voice is telling me that things will not be over; not even when I figure out if a Fractallite can be truly put down...",
+      "desc:8": "这个地方的特性正在对我产生某种影响。时间的流动如此诡异，我甚至无法确定自己的记忆是否可信。\n关于这里的记忆仿佛蒙着迷雾，就像醉酒后的断片，但我依稀记得有人在格瑞克维度低语过一句话；一个虚无的声音：\"塞尔瑞监守者不会对此感到高兴。\"\n这听起来完全像臣民谈论主上的口吻。但幽魂不应该是帝国主宰吗？\n按理说确实如此。那些崇拜仪式、象征符号、传送门阵列，无不表明这些地方就是塞尔瑞帝国的核心所在。\n可这个声音，这段连真实性都无法确认的记忆中的声音，却在告诉我事情远未结束。即便我能确认分形者是否真能被彻底摧毁……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:greckon_garnet"
       },
-      "name:8": "Greckon Garnet"
+      "name:8": "格瑞克石榴石"
     }
   },
   "questID:3": 416,

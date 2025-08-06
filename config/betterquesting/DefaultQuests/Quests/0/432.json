@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis way for Corrupted Aragonite.\n\n§fI cannot hold onto the powers of an Old One myself, but I can at least try to make use of it indirectly.\nAfter a certain amount of potential energy, the implications of what is possible stop making sense, I simply cannot grasp what sort of emergent behavior shenanigans may be happening. \nNo matter how hard I try, I know it would take me millenia to understand this. That is what being an Old One means, I fear. Knowedge comes with a price, this much I know; I am likely the most accomplished human researcher ever, and yet I have nobody to share this knowledge with, and the main applications I have for what I do are carrying on this crazy suicide mission. \nYes, knowledge can twist a person in often terrible ways, and certain knowedge, like the one I have before me, has a price higher than other.\nThis does not stop me from banging incomprehensible ancient tomes against random objects until things happen, though.",
+      "desc:8": "§7§o该任务线通往腐化文石。\n\n§f我无法亲自掌控旧日支配者之力，但至少能尝试间接运用。\n当位能达到某个临界值，可能性的边界便开始扭曲，我实在无法理解会涌现出怎样荒诞的法则异象。\n即便穷尽心力，我也明白需要数千载光阴才能参透其中奥妙。这或许就是旧日支配者本质的可怖之处。知识终需代价，这点我心知肚明；我虽堪称人类史上最杰出的研究者，却无人可分享这些发现，而我毕生所学的主要用途，竟是延续这场疯狂的赴死使命。\n诚然，知识往往以骇人的方式扭曲人性，而此刻展现在我面前的禁忌学识，代价更是远超寻常。\n但这并不能阻止我继续把晦涩的古籍往各种物件上乱砸，直到奇迹发生。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:skotaninomicom"
       },
-      "name:8": "Skotaninomicom"
+      "name:8": "黑暗之书"
     }
   },
   "questID:3": 432,

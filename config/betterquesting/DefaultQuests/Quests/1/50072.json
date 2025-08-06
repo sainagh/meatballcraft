@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oLike the regular handy bag, but bigger!",
+      "desc:8": "§7§o和普通的手提包一样，但是更大！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "enderutilities:handybag"
       },
-      "name:8": "Handy Bag (Large)"
+      "name:8": "手提包（大）"
     }
   },
   "questID:3": 50072,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou may wantto bring good gear...\n\n§fWhile the Shyre Empire seems to hold no qualms about using many of its own fighters as cannon (well, recursion) fodder, those that are powerful and cruel enough are indeed held to a higher status.\nPowerful and cruel. Those words, to be fair, fail to fully encompass the nature of Iromine, the warrior world of metal. \nIf the warriors of Barathos are akin to the Roman Empire, a proud nation with a strong foundation in personal power and battle prowess, Iromine's forces are the Huns, a horde of violent war criminals.\nI suspect religion plays very little role at holding this place under the Empire. The call for violence appears to be more than enough.\n",
+      "desc:8": "§7§o最好带点好装备……\n\n§f虽然塞尔瑞帝国似乎毫不介意将众多战士当作炮灰（确切地说是递归耗材）使用，但那些足够强大且残暴者确实享有更高地位。\n强大而残暴。平心而论，这两个词远不足以概括黄金维度——这个金属战士世界的本质。\n若说爵士维度的战士如同罗马帝国，是个以个人实力与战斗技艺为根基的骄傲国度，那么黄金维度的军队便是匈奴，一群嗜血的战争罪犯。\n我怀疑宗教在维系此地帝国统治中作用甚微。对暴力的渴求，似乎就已足够。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:iromine_realmstone"
       },
-      "name:8": "Living Weapons"
+      "name:8": "活武器"
     }
   },
   "questID:3": 499,

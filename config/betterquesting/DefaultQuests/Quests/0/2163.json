@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Yes, more knowledge!\nI am starting to udnerstand what the Arbiter must have done with Fluix.\nNot unlike normal recursion, Fractallite magic touches the recursive fields in ways that can imbue matter with special powers.\nIf the matter-energy system uses Warren magic to capture the aspect of space, this fabrial Graw had created uses Warren magic to capture the aspect of Gravity.",
+      "desc:8": "是的，更多知识！\n我逐渐理解理序主对福鲁伊克斯做了什么。\n与常规递归不同，分形魔法能以特殊方式触及递归场域，赋予物质特殊能力。\n如果说物质 - 能量系统利用迷道魔法捕捉空间的面相，那么格劳打造的这个法器，则是运用迷道魔法来捕捉引力的面相。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:warren_splitter_fabrial"
       },
-      "name:8": "Splitting Warrens"
+      "name:8": "分离迷道"
     }
   },
   "questID:3": 2163,

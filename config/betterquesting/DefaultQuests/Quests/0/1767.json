@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "My kardashev-scale campaign could hardly be defined as graceful and organized, but it has produces some results that may be quite useful to my allies.\nFinally, some insight about the Queen of Bees. Her prison, wherever it may be, has been hidden behind a powerful spell, one placed by the most powerful magicians of both the Twilight Horde and the Shyre Empire.\nA spell of this type can only be broken by reverse engineering how it was put together. Thankfully, traces of this ritual were left by many of the agents involved in many of the territories I have explored, and the accident in Mysterium did provide some context to the fragments of knowledge I could gather.\nThis will take some time, but I think I have everything I need to break this spell.",
+      "desc:8": "我的卡尔达舍夫等级行动虽称不上优雅有序，但确实为盟友们取得了一些颇具价值的成果。\n终于，关于蜂后的情报有了眉目。无论她的囚牢位于何处，都被一道强大的咒法所隐藏，一道是由暮光部落与塞尔瑞帝国最强大的法师们共同施放的结界。\n要破解这类咒法，唯有逆向解析其构筑原理。所幸在我探索过的领地中，参与仪式的诸多施法者都留下过痕迹，而秘境维度的那场意外，也为我收集的知识碎片提供了关键线索。\n这需要些时日，但我认为破解此咒所需的一切要素已尽在掌握。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:terraformassiflora"
       },
-      "name:8": "The Biome Ritual"
+      "name:8": "生物群系仪式"
     }
   },
   "questID:3": 1767,

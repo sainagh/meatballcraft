@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Higher jumping and faster running! who could've asked for more?\nThanks to Tomato_Is_Life for the text!",
+      "desc:8": "跳得更高，跑得更快！还能奢求什么呢？\n感谢Tomato_Is_Life撰写的文本！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:travelbelt"
       },
-      "name:8": "Soujourner's Sash"
+      "name:8": "旅居者腰带"
     }
   },
   "questID:3": 50099,

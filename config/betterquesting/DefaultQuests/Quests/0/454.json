@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Pixon infusion is something I do not really understand. Well, sure, there is nothing complicated to it; Pixons exist, and they can be 'milked' into magical essences, that produce neat enchants.\nWhat puzzles me about is why? Why would anyone want to do infusion?\nWell, just in case I discover useful applications for these essences, mythic machinery seems quite compatible with this type of magic.",
+      "desc:8": "对于光精注魔，我其实不太能理解。当然，从技术层面来说并不复杂；光精确实存在，而且能被“榨取”成魔法精粹，用来进行精妙的附魔。\n真正让我困惑的是动机问题。究竟为什么有人要进行这种注魔？\n不过考虑到这些精粹可能存在的实用价值，神话机械似乎与这类魔法有着不错的兼容性。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:infusion_catalyst"
       },
-      "name:8": "Shyre Infusion Tech"
+      "name:8": "塞尔注魔科技"
     }
   },
   "questID:3": 454,

@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe repair talisman uses EMC from a klein star to automatically repair your items!",
+      "desc:8": "§7§o修复护符可消耗卡莱恩能量之星中储存的EMC，自动修复你的物品！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_repair_talisman"
       },
-      "name:8": "Repair Talisman"
+      "name:8": "修复护符"
     }
   },
   "questID:3": 50064,

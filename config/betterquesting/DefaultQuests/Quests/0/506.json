@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I do not know if this is going to be of any relevance, but myrmitite emits a strong aura of witchcraft, much stronger than the other fields. None of my tests so far, though, found any use for this. Yet.",
+      "desc:8": "我不确定这是否具有相关性，但恐蚁金属散发的巫术气息异常强烈，远超其他场域。不过截至目前，我的所有测试都尚未发现其实际用途。暂时如此。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "cursed_myrmitite"
         }
       },
-      "name:8": "A powerful fluid"
+      "name:8": "强大的流体"
     }
   },
   "questID:3": 506,

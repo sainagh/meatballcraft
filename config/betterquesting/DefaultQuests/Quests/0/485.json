@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Is this why I haven't seen any Alchemy users like me in the Shyre Empire? \nSure, from what I have seen so far we are quite rare, but still, the vastness of civilizations like my current enemies is staggering. The number of worlds I have visited so far is big enough to provide some statistical insight on this, and yet, the more I see, the less alchemy I encounter.\nSo likely, there must be some bias. Sure, producing countless resources with EMC is useful, but the types of resources I can make is not necessarily desirable. Tons of iron is worth near nothing in an economy where Sednanite and Dimensional Shards exist. And if food is so easily obtained through biological systems like Gardencia's, there really is not much use to the basic abilities provided by alchemy.\nIs it possible that planets populated by alchemists were just snobbed by my enemies as not powerful enough? It sounds outrageous to me now, as I think alchemy is incredibly powerful, but looking from the outside it may just look like a tool of convenience, unfit for a military empire...",
+      "desc:8": "这就是我在塞尔瑞帝国从未见过像我这样的炼金术使用者的原因？\n确实，就我目前所见，我们这类人相当稀少。但同时，敌对文明的庞大程度也令人震惊。我已造访过的世界数量，本应足以提供某些统计学依据，可越是探索，遇到的炼金术反而越少。\n这其中必然存在某种偏见。诚然，用EMC无限生产资源很有用，但能制造的资源类型未必符合需求。在塞德娜金属和维度碎片流通的经济体系里，成吨的铁几乎毫无价值。而当食物能轻易通过花园维度这类生物系统获取时，炼金术的基础能力确实显得多余。\n有没有可能，那些炼金术师聚居的星球，被我的敌人们傲慢地判定为实力不足？此刻想来虽觉荒谬，毕竟我认为炼金术极具威力，但站在外部视角，它或许只是个便利工具，根本配不上军事帝国的标准……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:gardencia_garnet"
       },
-      "name:8": "Gardencia Garnet"
+      "name:8": "花园石榴石"
     }
   },
   "questID:3": 485,

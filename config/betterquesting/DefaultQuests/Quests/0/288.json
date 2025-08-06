@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Well, I think I know why the Testificates were being secretive about the Arbiter.\nHe is dead. Dead by the hands of the Meatball Man.\nFull of righteousness, the god of the Testificates had chased his foe into Pixonia, and there, they had their confrontation. Only one of the two would come out of that encounter.\nAfter not hearing back from their master, faithful of the Arbiter followed the undead into the land of the Meatball Man, and there they discovered what had happened.\nWhat was left of the Arbiter on Terra were only two things, a strange sequence of characters, unreadable by any Testificate, and a letter, with a prophecy.",
+      "desc:8": "看来，我明白泰斯提斐人为何对理序主之事讳莫如深了。\n祂已陨落。死于肉丸人之手。\n这位泰斯提斐人的神明满怀正义，将死敌追入光精界，双方在那里展开终极对决。这场遭遇战后，唯有一方得以生还。\n迟迟未获主神回应，忠诚信徒们便追随亡灵踪迹来到肉丸人的领地，最终发现了真相。\n理序主在泰拉仅遗两物：一组任何泰斯提斐人都无法解读的奇异字符序列，以及一封载有预言的密函。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrabotany:blockorichalcos"
       },
-      "name:8": "Long Live the Arbiter"
+      "name:8": "理序主万岁"
     }
   },
   "questID:3": 288,

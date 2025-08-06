@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Yup, these turbines can handle plasma, and quite well too!\nTime to go make a bunch of promethium!",
+      "desc:8": "没错，这些涡轮机能处理等离子，而且表现相当出色！\n该去批量生产钷金属了！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 202,
         "id:8": "contenttweaker:material_part"
       },
-      "name:8": "High Atomic Number Fusion!"
+      "name:8": "高原子序数聚变反应！"
     }
   },
   "questID:3": 513,

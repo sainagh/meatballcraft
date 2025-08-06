@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThings are going to get quite elaborate by the end of this chapter. It may be a good idea to start working on all uncompleted side content available so far. It should be a good way to take a break from Vethea progression too!\n\n§fYup, I dipped my feet in the waters of Fractal might. Now I know, at least partially, what is coming.\nI won't just have to fully enter this vast and deep ocean, I will have to reach its bottom.\nWhile I still do not know what this will entail, and I likely won't until I get there, I can say that a sacrifice will be required, and something will need to be let go.\nWell, I already have to let go...\nSleep, a sleep of nighmares, a sleep of nightmares, a sleep of helplessness, a sleep of fear, a sleep of solitude.\nI must face my own self, or whatever form my own essence takes at the layer of recursion. I must know who I am to become before I try to become it.\nIt it time to leave it all behind, it is time to start swimming down, deeper and deeper. And deeper still.",
+      "desc:8": "§7§o本章结束时，进度会变得相当复杂。建议现在开始完成所有可进行的支线内容，这也是暂时脱离梦魇世界主线进度的好机会！\n\n§f没错，我已浅尝分形之力的水域。至少已部分知晓即将面对的挑战。\n我不只需要完全踏入这片浩瀚深邃的海洋，更必须抵达它的渊底。\n虽然尚不知晓具体要付出什么代价——恐怕只有抵达之时才能明了——但可以肯定的是，牺牲在所难免，有些事物必须舍弃。\n我早已做好了舍弃的准备……\n睡眠，充满梦魇的睡眠，充满黑暗的睡眠，充满无助的睡眠，充满恐惧的睡眠，充满孤寂的睡眠。\n我必须直面真实的自我，或是我的精华在递归层呈现的某种形态。在尝试飞升之前，必须先认清自己将成为怎样的存在。\n是时候抛却一切了，是时候开始下潜，不断深入。直至渊薮之底。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:nightmare_bed"
       },
-      "name:8": "Nightmare Bed"
+      "name:8": "梦魇床"
     }
   },
   "questID:3": 299,

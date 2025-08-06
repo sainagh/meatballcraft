@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse a staring eye on illusion altar to summon elusive.\n\nTo summon the shadowlord use a book of shadows on a shadow altar\n\n§fUnexpectedly, I stumbled upon a very interesting piece of Kardashev stage 5 politics...\nThe Horde and the Empire don't really seem to have a problem at fighting each other using all they have, including the use of planet-ending magic, like the one used on the Abyss.\nYet, on Terra, they do not; they are very careful about keeping direct conflict to a minimum.\nThose that lead the troops stationed on my new home, now I know, are not the best either faction has to offer, by far. This is quite good for the testificates, all things considered, I just have to make sure things don't get worse as a consequence of my actions.\nI think I know why, though, or, at least, I have a plausible explanation that makes sense based on available data.\nEach of these two big civilizations doesn't just want to get their hands on the shards, they want to control their entire supply chain. Because of this, any action that will damage Terra beyond a certain point might push the other faction to pull the trigger on planet-pulverizing actions. \nThis reminds of the way the nuclear deterrent was used during the cold war on Earth. Neither of the factions raised tensions above a certain point, to avoid having the other press the 'kill everyone' button.\nGood for me, 0% chance I would've survived if those eldritch abominations had been waiting for me on Terra!",
+      "desc:8": "§7§o对幻觉祭坛使用凝视之眼来召唤虚影。\n\n对暗影祭坛使用影之书来召唤暗影领主。\n\n§f出乎意料地，我偶然发现了一个关于§5级卡尔达舍夫文明§f政治的趣闻……\n暮光部落与塞尔瑞帝国在动用包括灭世级魔法（比如曾在深渊维度使用过的那种）全力交战时似乎毫无顾忌。\n但奇怪的是，在泰拉上，双方却极为克制，竭力将直接冲突控制在最低限度。\n如今我才明白，驻守在我新家园的部队指挥官，远非双方最精锐的力量。对泰斯提斐人而言这倒是件好事，只要确保我的行动不会让事态恶化就行。\n不过我想自己已经洞悉了缘由，至少根据现有数据得出了合理的解释。\n这两大文明不仅想夺取维度碎片，更企图掌控整个供应链。因此任何对泰拉造成过度破坏的行为，都可能迫使对方启动行星粉碎协议。\n这让我想起地球冷战时期的核威慑策略。双方都将紧张局势控制在临界点之下，以免对手按下“同归于尽”的按钮。\n对我而言实属万幸！若那些怪异邪物当初选择在泰拉守株待兔，我绝无可能生还！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:abyssal_cap"
       },
-      "name:8": "Abyss Falls"
+      "name:8": "攻陷深渊维度"
     }
   },
   "questID:3": 334,

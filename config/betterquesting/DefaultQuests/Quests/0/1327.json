@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "By bombarding Lithium isotopes with this newly-made neutrino plasma, it is possible to ionize them!",
+      "desc:8": "通过用这种新制造的中微子等离子体轰击锂同位素，可以使其发生电离！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "decomposed_matter"
         }
       },
-      "name:8": "Decomposed Matter"
+      "name:8": "分解物质"
     }
   },
   "questID:3": 1327,

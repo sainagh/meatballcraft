@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe base satchel has low storage, but it can be upgraded, and it can be enchanted with holding to become very big!\n\nThe satchel can be configured to automatically pick up certain blocks and items, so that they won't clog your inventory!",
+      "desc:8": "§7§o基础背包的容量很少，但能升级，而且还能附上扩容魔咒来变得更大！\n\n可通过配置背包，来自动拾取特定方块和物品，以防止杂物塞满物品栏！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermalexpansion:satchel",
@@ -12,7 +12,7 @@
           "Accessible:1": 1
         }
       },
-      "name:8": "Satchel (Basic)"
+      "name:8": "背包 (基础)"
     }
   },
   "questID:3": 50068,

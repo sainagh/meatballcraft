@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Again, despite being my enemies, I have to appreciate the beauty and diversity of the territories in the Shyre Empire. There's a whole civilization that evolved from nitrate! The creepers are deadly creatures, but the fact that nature produced such beings is astonishing. They self-immolate by exploding, and leave spores that makes more creepers. The circle of life sure is crazy. \nThis is very cool, although there is something that does not feel right about this. Some of these creepers have forgone the self-immolation part, and some have varying levels of consciousness, despite being basically the same type of creature. There is something more than evolution at play, I believe.",
+      "desc:8": "尽管作为敌人，我仍不得不赞叹塞尔瑞帝国疆域的壮美与多元。其中竟有整个文明是从硝酸盐中演化而来！那些爬行者虽是致命生物，但自然界能孕育如此存在实在令人惊叹。它们通过自爆完成献祭，留下的孢子又能孕育更多同类，这生命循环着实疯狂。\n虽然这一切非常酷炫，但总让人觉得有些不对劲。部分爬行者摒弃了自焚特性，有些个体还展现出不同程度的意识觉醒，尽管它们本质上属于同一物种。我认为，这其中运作的恐怕不止是进化法则这么简单。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:creeponia_realmstone"
       },
-      "name:8": "Life from Nitrate?!?"
+      "name:8": "源自硝酸盐的生命？！？"
     }
   },
   "questID:3": 339,

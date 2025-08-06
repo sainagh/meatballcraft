@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTyrosaur is summoned with a bone horn.\n\nRight click the army block in the skeletal arena to summon the skeletal horde\n\n§fScrew you dinos! And skeletons!\nThe leaders of precasia are interesting. They are beings that clearly posess recursion, and indeed they are worshipped. Not necessarily as full deities, more like the way Roman emperors of old carried a divine will to the eyes of their population.\nI may be connecting too many dots here, but is it possible that the characters of legends were simply knowledgeable about recursion? What if Zeus and Eracles were people that, in one way or another, stubled upon this great power, or any of the other mythic types of magic, and that's what led to the great myths of old?",
+      "desc:8": "§7§o使用骨质号角来召唤地域领主。\n\n右击骷髅竞技场中的骷髅军团祭坛来召唤骷髅军团。\n\n§f去你的恐龙！还有骷髅！\n传说维度的统治者们很有意思。他们显然是掌握递归之力的存在，也确实受到民众崇拜。不过并非被奉为完整的神明，更像是古罗马皇帝在子民眼中承载神性的那种形式。\n我可能想得有点远，但有没有可能，那些传奇人物只是通晓递归之力的凡人？假如宙斯和赫拉克勒斯都是机缘巧合获得这种伟力（或是其他神话类魔法）的普通人，古代神话传说是否正由此而来？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:precasian_cap"
       },
-      "name:8": "Precasia Falls"
+      "name:8": "攻陷传说维度"
     }
   },
   "questID:3": 328,

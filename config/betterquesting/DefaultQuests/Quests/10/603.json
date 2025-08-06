@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": " ",
+      "desc:8": "",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -16,7 +16,7 @@
           "FluidName:8": "fluidmercury"
         }
       },
-      "name:8": "Mercury"
+      "name:8": "汞"
     }
   },
   "questID:3": 603,

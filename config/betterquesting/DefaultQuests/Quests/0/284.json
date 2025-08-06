@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Simple attempts at repeating my feat of jumping from the Eden into Apalachia did not work out. Regardless of what traces I felt, all the wormhole threads I opened in Woldwood kept leading me back to Wildwood.\nAfter many failed attempts, it dawned on me. \nSpace, when observed as a field, which is what relativity does, exhibits all of the properties of mathematical functions, continuous and discontinuous alike. It has simple continuity (normal everyday space), singularities (those are black holes), jumps (those are wormholes), removable discontinuities (worlds like Arcana or Eden that exist separately from the rest of reality, I'm calling these plane worlds), and asymptotic convergence (the boundary that separates Eden and Wildwood).\nBut that's not all, if these types of mathematical phenomena indeed exist in reality, it is plausible that others will too.\nAnd that's when I thought of essential discontinuities, waves that become more and more frequent, continuously changing value, yet unable to go beyond a certain point.\nThis is how the next world of the Twilight Horde was hidden. Infinite folds, each denser and more frequent than its predecessor, increasing in number faster and faster, and yet bound by a barrier.\nA barrier I can now cross. Onwards to Apalachia!",
+      "desc:8": "简单复现我从伊甸跳转到附魔山脉的壮举并未成功。无论感知到什么痕迹，在原始森林开启的所有虫洞脉络都将我带回原地。\n经过多次失败后，我突然顿悟：\n当把空间视为场域观察时（这正是相对论的理论基础），它会展现数学函数的所有特性——无论是连续还是非连续的。包含：简单连续性（日常空间）、奇点（黑洞）、跳跃性（虫洞）、可去间断（独立于现实之外的秘界或伊甸等位面世界），以及渐近收敛性（分隔伊甸与原始森林的边界）。\n但这并非全部。如果这类数学现象真实存在，那么其他类型也可能显现。\n这让我联想到本性间断：振荡频率持续增加、数值不断变化，却始终无法突破某个临界点。\n暮光部落的下个世界正是如此隐藏的：无限折叠的空间层，每层都比前序更密集更频繁，增速呈指数级爆发，却被某种屏障所禁锢。\n而如今，这道屏障已难不倒我。附魔山脉，我来了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:wildwood_block"
       },
-      "name:8": "A Fold within a Fold, within a Fold"
+      "name:8": "折层套折层套折层"
     }
   },
   "questID:3": 284,

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCongratulations! You reached the canon ending for the modpack! \nIf you still crave some more, you can reach alternative endings by completing some side quests in this chapter!",
+      "desc:8": "§7§o恭喜！你已达成该整合包的正统结局！\n若仍意犹未尽，完成本章节的支线任务即可解锁其他结局！",
       "frame:8": "STAR4_ON_DIAGONAL_STAR4",
       "icon:10": {
         "Count:3": 1,
         "id:8": "avaritiaitem:cosmic_balance"
       },
-      "name:8": "The Beginning of the Rest of Time"
+      "name:8": "长河新章"
     }
   },
   "questID:3": 1836563922,

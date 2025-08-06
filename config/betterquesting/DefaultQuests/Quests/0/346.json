@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The land of Runandor contains traces of Brightsteel, a strange metal, one that reminds or Arcanium, one of the secrets left by the Aesir.\nOne of the materials stowed in one of the buildings in Diamerisma also has properties that are similar.\nThis got me searching history of the Elves, a population that mysteriously seemes to have touched many of my allies and enemies.\nThey definitely had something to do with Asgard, and they were marginally involved with the struggle of the Testificates. They very much disliked the Twilight Horde, and opposed them whenever they tried to take over the home of the Aesir. \nAs they fell with arcana, they too hid some of their secrets...",
+      "desc:8": "符境之地蕴藏着星钢的痕迹，这种奇异金属令人联想到阿萨神族遗留的秘金——那些被刻意隐藏的秘密之一。\n在附魔山脉某座建筑中封存的某种材料，也展现出与之相似的特性。\n这促使我开始追溯精灵的历史，这个神秘的种族似乎与我诸多盟友和敌人都存在若即若离的关联。\n他们必然与阿斯加德有着某种联系，也曾略微涉足泰斯提斐人的抗争。精灵对暮光部落深恶痛绝，每当那些生物企图侵占阿萨神族的家园时，他们必定奋起反抗。\n当秘界陨落之时，精灵们同样将部分秘密深埋……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:ancient_elven_knowledge"
       },
-      "name:8": "Elven Metallurgy"
+      "name:8": "精灵冶金学"
     }
   },
   "questID:3": 346,

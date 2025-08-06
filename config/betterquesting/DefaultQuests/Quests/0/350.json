@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The prophecy of the Arbiter, the last writ of this nearly-all-knowing being, told of one person, one not from Terra, who would arrive from meteorite of sky stone, at the peak of an eclipse, and followed by the Rainbours. This newcomer would be given the blessing of alchemy, and the power to restore balance between order and chaos.\nThis is me, I am the one the prophecy predicted. That is why the Testificates were asking those specific questions, that is why the Meatball Man is interested in me!\nAlchemy is a strange one. I was never capable of feeling it until I came to Terra, but now it is just second nature—almost as if the other conditions in the prophecy were part of a ritual to unlock that ability within me. The ability to access this type of magic, after all, is rare and precious—so rare and precious that the Shyre Empire was content to take the scraps of any weakened form of it for runation. \nAnd while the prophecy predicts my coming, it does not state my purpose.\nWhat is this prophecy predicting? What role am I to play in this battle? Why me? What does this restoration of balance between order and chaos mean?\nWell, I may get some more answers in my next voyage. For just an instant, the strange characters left by the Arbiter began to make sense, and just like that, they turned back into gibberish. Coordinates to a space between the Proxima Stars. That is where the sky stone meteorites come from, that is where I will find more answers!",
+      "desc:8": "理序主的预言，这位近乎全知者留下的最后文告，讲述了一个人，一个并非来自泰拉之人，将在日蚀之巅随天外陨石降临，虹蝠相随。这位新来者将获得炼金术的祝福，以及重塑秩序与混沌平衡的力量。\n这就是我，我就是预言所指之人。所以泰斯提斐人才会追问那些特定问题，所以肉丸人才会对我如此关注！\n炼金术着实奇妙。在来到泰拉之前，我从未感知过它的存在，如今却如呼吸般自然——仿佛预言中的其他条件都是解锁这份潜能的仪式。毕竟，能触及此类魔法的能力稀有而珍贵，珍贵到塞尔瑞帝国甘愿收集其任何次等形态的残渣用于符文转化。\n然而预言虽预示我的到来，却未言明我的使命。\n这预言究竟在预示什么？我将在这场战争中扮演何种角色？为何选中我？所谓秩序与混沌的平衡重建究竟意味着什么？\n或许在下段旅程中能找到更多答案。就在刚才，理序主留下的奇异字符突然显现出意义，转瞬又复归晦涩。那是通往比邻星之间某处空间的坐标。天外陨石的来源之地，也必将藏有更多真相！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:proxima_artifact"
       },
-      "name:8": "Signal from the Belt"
+      "name:8": "来自星带的信号"
     }
   },
   "questID:3": 350,

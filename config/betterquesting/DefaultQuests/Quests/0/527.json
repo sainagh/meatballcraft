@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Who am I? \nA man of science? Sure.\nA curious person? Sure.\nDo I like these traits I have? Yeah absolutely, they are great.\nBut what have they brought me? Deep knowledge, an adventure nobody on earth could have dreamed of, and the knowledge of an evil out there that goes beyond anything I could have imagined.\nWould it have been better to live without this knowledge? No, well, maybe... I am starting to understand why the Testificates have secret societies hiding their deepest knowledge. The package as a whole comes with a lot of unwanted things, things that cahnged me. \nDoes good in this world truly exist? Well, I don't know anymore.\nLook at me asking questions to myself. All this knowledge, and the more I know, the crazier I feel...",
+      "desc:8": "我是谁？\n科学之人？当然。\n好奇之人？当然。\n我喜欢自己的这些特质吗？当然喜欢，它们很棒。\n但它们给我带来了什么？深邃的知识，地球上无人能想象的冒险，以及一种超越我想象极限的邪恶认知。\n如果不知道这些会更好吗？不，好吧，也许……我开始理解为什么泰斯提斐人要建立秘密结社来隐藏最深奥的知识。这些认知整体伴随着太多不想要的东西，它们改变了我。\n这个世界真的存在善良吗？呵，我已经不确定了。\n看啊，我竟在自问自答。掌握了这么多知识，却越是了解，就越发感到疯狂……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:eldritch_flower"
       },
-      "name:8": "I am Insane!"
+      "name:8": "我疯了！"
     }
   },
   "questID:3": 527,

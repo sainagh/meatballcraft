@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Some of the stronger creatures I met have 'more powerful' hearts, which can be used to further improve my stamina.",
+      "desc:8": "一些更加强大的生物有着“更强力”的心脏，可以用来进一步增强我的精力。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bhc:yellow_heart_canister"
       },
-      "name:8": "Yellow Heart Canister"
+      "name:8": "黄心之容器"
     }
   },
   "questID:3": 50075,

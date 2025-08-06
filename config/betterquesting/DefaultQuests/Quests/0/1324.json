@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The lattice structure of Mithril, as strange as it sounds, can house additional ions in some of its empty slots. Thanks to this, controlled regions can be targeted to produce a stable superconductor, which in return should make the manufacturing of accelerator components easier.",
+      "desc:8": "秘银的晶格结构与听起来一样奇特，其空位中可以容纳额外的离子。得益于此特性，通过控制特定区域就能制造出稳定的超导体，从而降低加速器部件的生产难度。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:superconducting_mithril"
       },
-      "name:8": "Easier Particle Accelerators"
+      "name:8": "更简单的粒子加速器"
     }
   },
   "questID:3": 1324,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Not only I have a way out, there are some in this place who are willing to help me!\nI feel so, so incredibly grateful for what I was given, even if it was at a price.\nIt appears that even here, even in this most basic and inaccessible plane of reality, there is a society of people, one that willingly inhabits Vethea and helps those who come here and are deemed worthy. Well, worthy is not the right word. Adequate? Sufficient?\nWell, however they may feel about me, they want to help me, and at this point in time (does time matter here?), that is enough.\n",
+      "desc:8": "不仅有出路可寻，此地竟还有人愿意助我一臂之力！\n我对自己所得充满无尽感激，纵使这不无代价。\n看来，即便在此处，在这最原始、最难以企及的现实层面，仍存在着一个社会群体，他们自愿栖居于梦魇世界，并帮助那些来此且被认定够格之人。不过，够格或许并不恰当。\n达标？合格？\n无论他们如何看待我，此刻（时间在此还有意义吗？）他们愿施以援手，就已经足够了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:hammer_template"
       },
-      "name:8": "I love Hunger!"
+      "name:8": "我爱饥饿者！"
     }
   },
   "questID:3": 301,

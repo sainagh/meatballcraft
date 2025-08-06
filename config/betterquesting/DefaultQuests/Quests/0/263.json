@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This when magic starts turning into science! Imaginary gravity, in some way, is connected to blood magic!\nSednanite can now be used to more simply alloy demon will metal.\nThis theory of everything is getting deeper and deeper, and yet, the more things I discover, the more terms seem to cancel out, the simpler the theory becomes.\nI have never seen something like this. String theory is much more compelx than the theories it tries to unify. More complete means more complex, no?\nNo! I don't get it fully still, but the more knowledge I gain, the simpler things become, the more straightforward the answers seem.",
+      "desc:8": "此刻，魔法与科学接轨！虚数引力竟与血魔法有某种程度上的联系！\n我现在能更简便地将塞德娜金属熔炼为恶魔意志金属了。\n万有理论愈发深邃，可我发现得越多，相互抵消的术语就越多，理论反而越纯粹。\n我从未见过这般现象。弦论比它试图统一的理论复杂得多。越完备难道不该越复杂吗？\n不！虽未完全理解，但知识愈丰，万物愈简，答案愈直白！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "contenttweaker:material_part"
       },
-      "name:8": "Demon Will Affinity"
+      "name:8": "恶魔意志亲和"
     }
   },
   "questID:3": 263,

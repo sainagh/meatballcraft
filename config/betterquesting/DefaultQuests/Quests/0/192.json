@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDrops are custom! This is a great source for ores that are otherwise unobtainable, like Dilithium!\n\n§fThis laser is useful, it should provide a lot of very good minerals!",
+      "desc:8": "§7§o产物是自定义的！是类似双锂这种难以获得矿物的绝佳来源！\n\n§f轨道激光效用非凡，可提供大量优质矿物！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "advancedrocketry:spacelaser"
       },
-      "name:8": "Big laser, much rupee"
+      "name:8": "大激光，更多卢比"
     }
   },
   "questID:3": 192,

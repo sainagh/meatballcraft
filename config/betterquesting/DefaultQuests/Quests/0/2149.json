@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The dealings of the Old Ones are ceaseless, to them enemies and friends are alike; in their eyes, anyone and everyone can be used.\nWith regards to the deal between J'Zahar and the Meatball Man, there were others involved, other Old Ones. They did not willingly enter this pact, and their memories were later erased.\nThe record of this deal was hidden thanks to yet another deal, negotiated by the Old One in L'Borean. To find this out, one would have had to enter the deepest recesses of the Shyre Empire, a feat near impossible for anyone. Unfortunately for them, fate must have picked a different fate for me...",
+      "desc:8": "旧日支配者的交易永无止境，在它们眼中敌友并无二致，众生皆为可利用的棋子。\n关于扎哈尔与肉丸人那场交易，实则另有其他旧日支配者参与。这些存在并非自愿缔约，事后更遭记忆抹除。\n这份契约记录的隐匿，正源于暴风维度某位旧日支配者斡旋的另一场交易。欲窥得此秘，需深入塞尔瑞帝国最幽邃的禁地，这对常人近乎不可能。可惜它们算漏了一点，命运为我编织了截然不同的轨迹……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:oblivion_candle"
       },
-      "name:8": "The Dealer of The Pact"
+      "name:8": "契约缔造者"
     }
   },
   "questID:3": 2149,

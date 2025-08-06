@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While the dragons were definitely hostile, they appeared to have grown increasingly fond of me. Not unlike the bees, I suspect, they may have tested me and my worthiness.\nI guess I could see why dragons were the dogs of Lyndenwyrm, they have an incredible sense of faithfullness, and a deep sense of belonging.\nA belonging I now feel too, a belonging to a history that is so much bigger than I once expected. The dragons were once the wardens of the Testificates, a role I am now, to some extent, undertaking too.\nI feel some sort of kinship, and so do the dragons. Enough of a kinship to allow me access to the dangerous weapons once developed by the people of the Arbiter.",
+      "desc:8": "虽然这些巨龙一开始是敌对的，但似乎对我越来越有好感。就像那些蜜蜂一样，我猜它们可能是在考验我和我的价值。\n现在我大概明白为何巨龙会成为树龙界的守护者了，它们拥有令人惊叹的忠诚度，以及对归属感的深刻理解。\n我如今也体会到了这种感觉，那是对一个远比我想象中更为宏大历史的归属感。巨龙曾是泰斯提斐人的守护者，某种程度上，如今我也在承担类似的职责。\n我感受到某种血脉相连的牵绊，巨龙亦然。正是这份牵绊，让我得以接触理序主子民曾经研发的危险武器。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:draconic_sword"
       },
-      "name:8": "TRUE Draconic Power"
+      "name:8": "真・神龙之力"
     }
   },
   "questID:3": 439,

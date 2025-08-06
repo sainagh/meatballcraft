@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "More Arbiter tech! More neutrinos!",
+      "desc:8": "更多理序主科技！更多中微子！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "avaritia:resource"
       },
-      "name:8": "EZ Neutrinos"
+      "name:8": "中微子轻而易举啊"
     }
   },
   "questID:3": 437,

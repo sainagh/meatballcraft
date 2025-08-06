@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Likely due to the Arbiter, since it seems like this character has done things everywhere in this universe, the elves worked with fluix, and possessed means to work it into a matrix composite with magical properties, a lattice interacting with both matter and energy at a macroscopic level.\nNow onto the Arbiter, if indeed they were so involved with the struggle of the universe, why haven't I met them yet?",
+      "desc:8": "这很可能与理序主有关，毕竟这位存在似乎在整个宇宙各处都留有踪迹。精灵曾运用福鲁伊克斯，并掌握将其锻造成魔法基质的技艺，这种晶格结构能在宏观层面同时与物质和能量产生交互。\n再说回理序主，若这位存在当真如此深度介入宇宙纷争，为何至今我仍未与之相遇？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "avaritia:resource"
       },
-      "name:8": "Crystal Perfection"
+      "name:8": "水晶完美化"
     }
   },
   "questID:3": 347,

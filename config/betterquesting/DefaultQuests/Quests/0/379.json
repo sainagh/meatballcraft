@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCheck uses for each template to see what items can be crafted using the Infusion Table.\n\nFor each recipe, Lumps should be added one by one until you get the exact number!\n\n§fWhile the people that are helping me are definitely appreciated, I can hardly call them good Samaritans. They still expect some level of effort from me. They are willing to help me, but only if I show that I can start helping myself. They gave me access to weapons of nightmare, but I still need to make them myself. I was given food, but I had to pay for it.\nThis is good, I think. At its core, this world is a trial, one that I need to face myself, as I am. What I am, my essence of being, though,has been touched by the lives of so many others; those that believed in me as a scientist back on Earth; my family who sacrificed so many things for my success; the Testificates who accepted me on Terra; the Bees who fought alongside me; the Realmshifters who gave up so much to enter the fight; and now the people of Vethea.\nThe final challenge of this world will still be up to me, but that does not mean I should deny those who want to help me bear its burden. Especially because I am not sure I will be capable of bearing it alone...",
+      "desc:8": "§7§o查阅每个模板的用途，了解可通过注魔台合成的物品。\n\n对于每个配方，必须逐个添加团块直至达到精确数量！\n\n§f虽然我由衷感激那些帮助我的人，但很难称他们为纯粹的善心人士。他们仍期望我付出相应努力。愿意施以援手的前提，是我必须证明自己已开始自助。他们授予我梦魇武器的使用权，但锻造过程仍需亲力亲为；他们提供食物，却要求我支付代价。\n这样很好，我想。这个世界的本质是一场试炼，一场需要以真我面对的考验。而构成“我”的存在本质，早已被无数生命所铭刻：地球上那些相信作为科学家的我的人们；为我的成功倾尽所有的家人；泰拉世界接纳我的泰斯提斐人；与我并肩作战的蜜蜂；为参战付出巨大牺牲的维境跃迁者；以及此刻梦魇世界的居民。\n我终将直面这个世界的终极挑战，但这不意味着我要拒绝他人分担重担。尤其当我不确定自己能否独自承受之时……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:teaker_hammer"
       },
-      "name:8": "Dream Infusion Crafting"
+      "name:8": "梦魇注魔台合成"
     }
   },
   "questID:3": 379,

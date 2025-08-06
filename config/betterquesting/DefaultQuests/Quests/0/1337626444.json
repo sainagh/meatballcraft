@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWelcome to Chapter 10!\n\nThis is the end-game! You made it!",
+      "desc:8": "§7§o欢迎来到第10章！\n\n这章就是终局内容了！你到做了！",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:staff_of_the_lord_of_gluttony"
       },
-      "name:8": "Long Live the Meatball Man"
+      "name:8": "肉丸人万岁"
     }
   },
   "questID:3": 1337626444,

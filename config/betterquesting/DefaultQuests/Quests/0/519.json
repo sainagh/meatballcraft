@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis way for Orechid and Recursive Powder.\n\n§fI have yet to encounter any form of industrialization within the territories of the Shyre Empire, and the Twilight Horde has little more organization than a pack of animals. And yet, likely thanks to magic, they can deal with natural resources quite well, without big factories, assembly lines, and logistics infrastructure.\nI, on the other hand, do enjoy the systematic approach to resource management humanity came up with, so this is how I operate (if was not clear by now).\nDespite this, though, I have to admit that, the more knowledge I have aquired on recursion, the more innovative and efficient means of resource management I was able to devise.\nLooking at the recursive materials I have encountered so far, something tells me I may just be scratching the surface of what's possible with them.\nObtaining essentia, in my early days as a thaumaturge, was quite hard; but now, thanks to some industrialization and more magical knowledge, it is not as much of an issue. I suspect the same may be true about these new mythic resources.",
+      "desc:8": "§7§o该任务线通往凝矿兰和递归粉末。\n\n§f我尚未在塞尔瑞帝国的疆域内发现任何工业化迹象，而暮光部落的组织程度比兽群高明不了多少。但或许得益于魔法，他们无需大型工厂、装配线和物流基础设施，就能妥善处理自然资源。\n至于我（倘若各位尚未明了），则更青睐人类那套系统化的资源管理方式。\n不过必须承认，随着对递归认知的深入，我逐渐开发出更具创新性与高效性的资源管理手段。\n纵观迄今所遇的递归材料，某种直觉告诉我，这些物质的可能性远不止于此。\n初为神秘使时，获取源质曾举步维艰；如今凭借部分工业化手段与更深厚的魔法学识，这已非难事。我推测这些新出现的神话资源，或许也将遵循相似的轨迹。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:purity_offer"
       },
-      "name:8": "Purity Offer"
+      "name:8": "纯净供物"
     }
   },
   "questID:3": 519,

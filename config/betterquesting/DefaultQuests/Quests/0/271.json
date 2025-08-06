@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No matter the scale of the war, it seems like everyone has the same motifs as on Earth.\nJust like a certain western power in the early 2000s, it is all about resource control.\nMany of the planets and worlds under the control of the Shyre empire are composed of materials with interesting properties. From what I have seen, their trategy, when it comes to incorporating new civilizations in their empire (as opposed to erasing a planet with little thought), primarily revolves around their military potential; with that said, I think natural resources may play a role too, at least in some cases. \nThe affinity of these resources to the chaotic, entropic effects I encountered on the upper sky of Terra is extremely interesting!\n...and powerful, very powerful!",
+      "desc:8": "无论规模有多大，战争的模式似乎与地球上的大差不差。\n就像21世纪初某个西方大国一样，一切都是为了控制资源。\n塞尔瑞帝国掌控下的众多星球与世界，皆由特性奇异的物质构成。据我观察，他们在吸纳新文明加入帝国时（对，他们不会草率地毁灭星球），其战略核心始终围绕军事潜力展开；话虽如此，不过我认为自然资源也是重要考量，至少在部分案例中如此。\n这些物质展现出的特性，竟与我在泰拉天空中所见的混沌熵变效应如此契合！\n……而且能量惊人，极其惊人！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:fusion_crafting_core"
       },
-      "name:8": "Energetic Manipulation"
+      "name:8": "能量操控"
     }
   },
   "questID:3": 271,

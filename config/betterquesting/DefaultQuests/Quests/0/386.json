@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I am here, I am in Vethea.\nI am here, in the world of endless nightmare.\nI am here, truly here, just as myself, all of it, exposed.\nI am here, and I do not like what I see.\nI am here, naked, powerless.\nI am here, I don't want to be here.\nI am here, I have to be here.\nI am here, and I need a way to ensure I can keep staying here!\nI am here.",
+      "desc:8": "我在此，身处梦魇世界。\n我在此，在这无尽噩梦之维度。\n我在此，真实存在，仅以本我，全然袒露。\n我在此，然我厌恶所见之物。\n我在此，赤裸，无力。\n我在此，我不愿在此。\n我在此，我不得不在此。\n我在此，我必须找到能在此地存续的办法！\n我在此。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:crafting_table"
       },
-      "name:8": "Basic Fabrication (Again)"
+      "name:8": "基础合成（又一次）"
     }
   },
   "questID:3": 386,

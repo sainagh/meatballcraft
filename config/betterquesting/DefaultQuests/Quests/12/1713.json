@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGives some radiation protection!",
+      "desc:8": "§7§o获得一些辐射防护！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:chest_hazmat"

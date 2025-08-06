@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Life. The universe that senses itself.\nThe universe that becomes capable of understand itself, and by doing so separating into subject and object.\nI am not simply a piece of the universe. I can act upon it.\nAnd so can all forms of life that inhabit it.\nI am subject, we are subject. \nBut we can forget about it. We can become object. We can turn others into objects. \nI must not forget about it.\nI am subject, we are subject.",
+      "desc:8": "生命。这个能感知自身的宇宙。\n这个宇宙逐渐获得理解自身的能力，并由此分化为主体与客体。\n我并非只是宇宙的一个碎片。我能作用于它。\n栖息其中的一切生命形式皆可如此。\n我是主体，我们是主体。\n但我们可能遗忘这点。我们可能沦为客体。我们可能将他人化为客体。\n我绝不能遗忘此事。\n我是主体，我们是主体。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bewitchment:dragons_blood_sapling"
       },
-      "name:8": "Dragons Blood Sapling"
+      "name:8": "龙血塑料"
     }
   },
   "questID:3": 381,

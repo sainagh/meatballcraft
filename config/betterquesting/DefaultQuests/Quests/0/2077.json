@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Queen of the Bees, it seems, was not the only target of the Shyre Empire.\nThe jailers and torturers of Iromine were keeping a hold of the Apothecary Bee, who is apparently second to none in the making of powerful brews, brews that can bypass many of the magical protections used by the Empire. \nIf these powers were feared so much by my enemies, maybe I should start looking into them.",
+      "desc:8": "看来蜜蜂女皇并非塞尔瑞帝国的唯一目标。\n黄金维度的狱卒与拷问者们正囚禁着药师蜜蜂，这位在酿造强力药剂方面显然无人能及的大师——其药剂能突破帝国使用的诸多魔法防护。\n既然我的敌人如此忌惮这些力量，或许我该开始调查它们了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:apothecary_stone"
       },
-      "name:8": "Bee Imprisonment"
+      "name:8": "蜜蜂监禁"
     }
   },
   "questID:3": 2077,

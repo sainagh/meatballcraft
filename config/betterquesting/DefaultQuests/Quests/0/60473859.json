@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou don't want this, but if you wanted it...",
+      "desc:8": "§7§o你不会想要这个的，但如果你真要想……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:recurring_nightmare_block"
       },
-      "name:8": "Recurring Nightmares"
+      "name:8": "递归噩梦"
     }
   },
   "questID:3": 60473859,

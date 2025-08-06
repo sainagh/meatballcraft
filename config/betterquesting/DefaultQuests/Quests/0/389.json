@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I cannot say that leaving Terra and its war to face my own struggle with recursion will truly bear any fruit.\nI cannot say it. And this drives me crazy.\nAnd yet, I am strangely finding a purpose in this condition. I am absolutely unsure if my struggle in Vethea will help Terra, but I can try to make it so.\nI have agency, and I can do all that I can to do good through my actions. Does this guarantee that my choices will be good? No, but I am still free to strive towards good, and that may just be enough.",
+      "desc:8": "我无法断言，离开泰拉及其战事，去直面自己在递归中的挣扎，是否真能结出什么果实。\n我无法断言。这令我几近疯狂。\n然而，在这般境遇中，我却诡异地寻得了某种使命。我全然不确定自己在梦魇世界的抗争能否帮助泰拉，但我可以竭力使之成真。\n我拥有自主意志，能通过行动竭尽所能行善。这能保证我的选择必然正确吗？不能。但我仍可自由地向善而行，或许，这就足够了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:materials"
       },
-      "name:8": "A Searing Heart"
+      "name:8": "焦灼之心"
     }
   },
   "questID:3": 389,

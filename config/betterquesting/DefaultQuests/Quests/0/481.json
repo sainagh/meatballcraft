@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "As it has been the case with most of the technology I have 'discovered', I seem to be tracing backs the steps of the Arbiter, the mysterious and very much missing leader of the Testificates.\nThe meteorites scattered all around Terra, they were brought forth by Blood Magic performed by the Arbiter, who used it to bring Fluix to Terra.\nWith single costly rituals, I was able to bring down meteors, but in levels nowhere near what I can do now. And thanks to some tech, I can harvest them automatically too!",
+      "desc:8": "正如我所“发现”的大部分科技一样，我似乎正在追溯理序主的足迹——这位神秘且早已失踪的泰斯提斐人领袖。\n散落在泰拉各处的陨石，都是由理序主通过血魔法仪式召唤而来，祂借此将福鲁伊克斯带到了泰拉世界。\n通过代价高昂的单次仪式，我曾勉强能召唤陨石坠落，但规模远不及现今所能达到的程度。更棒的是，借助某些科技装置，我现在还能实现自动化采集！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:call_of_the_arbiter"
       },
-      "name:8": "Meteoric Breakthroughs"
+      "name:8": "坠星突破"
     }
   },
   "questID:3": 481,

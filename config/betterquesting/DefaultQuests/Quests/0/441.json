@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I may have found an ally of some sort. Someone very, very powerful is on my side; well, on the side that is against the Shyre Empire at least.\nIt took some digging into the hidden history of Runandor, safekept by its leaders and hidden even from the Shyre Empire, a hidden history about this world's original deity (or pantheon, the language is unclear).\nWhoever used to be worshipped by these people, it is a very powerful being, someone capable of touching all individuals in the universe solely through their power. A universal entity, not unlike the Meatball Man.\nIf the Meatball Man's power is over gluttony, the power of this being revolves around prosperity.\nAlchemy is a gift of prosperity, bestowed by this power, and freely given as gift. After betrayal, though, this gift was taken away from Runandor; the betrayal, I believe, was joining the Shyre Empire.\nThis gift was given to me, and to many of the enemies of the Shyre Empire; is it safe to assume that this being may be my ally?",
+      "desc:8": "我可能找到了某种盟友。一个极其强大的存在站在我这边；至少是站在对抗塞尔瑞帝国的阵营这边。\n经过对符境隐秘历史的深入挖掘（这些历史被当地统治者秘密保存，甚至连塞尔瑞帝国都无从知晓），我发现了一段关于这个世界原始神祇（或神系，文献表述模糊）的记载。\n无论这些民众曾经崇拜的是谁，那都是一位无比强大的存在，其力量足以触及宇宙中的每个个体。这是一尊与肉丸人类似的宇宙级实体。\n如果说肉丸人的权柄在于暴食，那么这位存在的力量则围绕繁荣运转。\n炼金术正是繁荣的馈赠，由这位存在赐予，并作为礼物自由施与。但在遭遇背叛后（我猜测背叛行为就是加入塞尔瑞帝国），这份礼物就从符境收回了。\n如今这份礼物赐予了我，也赐予了许多塞尔瑞帝国的敌人；是否可以认为，这位存在或许将成为我的盟友？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:runandor_garnet"
       },
-      "name:8": "Runandor Garnet"
+      "name:8": "符境石榴石"
     }
   },
   "questID:3": 441,

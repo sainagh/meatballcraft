@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "As the new Fractallite guardian of Terra, I shall oppose the march of the Meatball Man, as well as all the other threats coming from greedy invaders.\nTo mark my commitment, I bring forth all the voices of the oppressed, manipulated, and enslaved by the great powers of this Universe. I bring foth my own recursion fragment, as the voice of Terra, symbol of the end of this reign of prepotent power, and as the mark of my own mission!\nThis is for Terra! ",
+      "desc:8": "作为泰拉新任的分形守护者，我将对抗肉丸人的进犯，以及所有来自贪婪入侵者的威胁。\n为昭示我的誓言，我将汇聚全宇宙被强权压迫、操纵与奴役者的声音。我献上自己的递归碎片——作为泰拉的代言，象征这强权统治的终结，亦是我使命的印记！\n一切为了泰拉！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:recursion_fragment_terra"
       },
-      "name:8": "My own recursion fragment!"
+      "name:8": "我自己的递归碎片！"
     }
   },
   "questID:3": 1195,

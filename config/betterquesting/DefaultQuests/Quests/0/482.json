@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The laughs, the madness, the euphoria; yet another one of the criminally masterful weapons of the Shyre Empire.\nThe torture, it seems, is a secondary reason for why Celeve is part of the Empire. \nThe main motivation, though, is one of Gyro's creations. A volatile fluid that, even in small quantities, is potent enough to bring an entire planet into murderous clown madness. Even hearing the name of it is enough to induce a craze. Truly scary stuff.\nYet another world-ending weapon that could be unleashed on Terra if things with the Twilight Horde escalate further.\nI really have to be thankful that the Dimensional Shard supply chain is so valuable and yet so fragile, and that both invaders are so powerful that they could annhilate each other; otherwise, the people of Terra would have been wiped out long ago...",
+      "desc:8": "笑声、癫狂、迷醉；这不过是塞尔瑞帝国又一件令人发指的宗师级武器。\n折磨似乎只是玩具维度被纳入帝国的次要原因。\n真正的动机源于陀螺仪的一项发明：某种易挥发液体，即便微量也足以让整颗行星陷入杀人小丑般的癫狂。光是听闻其名便会诱发疯症，实属骇人听闻。\n若与暮光部落的冲突升级，这件灭世武器很可能被投向泰拉。\n我不得不庆幸维度碎片的供应链既珍贵又脆弱，而两大入侵势力势均力敌足以互相牵制——否则泰拉人民恐怕早已灭绝……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:celeve_garnet"
       },
-      "name:8": "Celeve Garnet"
+      "name:8": "玩具石榴石"
     }
   },
   "questID:3": 482,

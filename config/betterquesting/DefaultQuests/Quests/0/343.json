@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBaroness is summoned by using a Warlock Gem on a Baroness Altar.\n\nUse a Hive Egg on a Hive Spawner to summon the Hive King\n\n§fBarathos' is a very religious planet, and their religion is NOT PEACEFUL!\nAnd, of course, the avatars of their god of war are recursion masters...\nRecursion, among the many powers I have encountered, is very interesting. Many times during my journeys, I have tried to form some type of hierarchy of the various magical fields, trying to enstablish which depends on which.\nThe eldritch powers of the monster Cha'garoth, for example, seem to rely on the field of aura, and on the use of specific essentias, and yet, the final result is a magic type that's very much not thaumaturgy. It depends on thaumaturgy, but it does not look like thaumaturgy, similar to how gravity is a change in the field of space-time, but it doesn't look like it, it looks like acceleration. If it didn't, we could have figured it out way before Einstein came along.\nBecause of this, trying to enstablish a hierarchy is of outmost importance, if I want to progress in my study of magic.\nRecursion, though, is weird. Its dynamics remind me of a pendulum that never stops. What causes recursion effects to happen is other recursion effects. It is like light travelling in the void of space, it keeps going. Even light, though, loses its energy once it encounters things that aren't the void. Recursion, though, just happens.\nI keep coming back, and so do my enemies, although not as fast as me, thankfully. ",
+      "desc:8": "§7§o对女爵祭坛使用术士宝石来召唤女爵。\n\n对蜂王祭坛使用蜂巢卵来召唤蜂王。\n\n§f爵士维度是个宗教氛围极其浓厚的星球，而他们的信仰绝非平和之流！\n当然，他们那位战争之神的化身……都是递归大师……\n在我见识过的诸多力量体系中，递归是最耐人寻味的一种。在无数次旅途中，我尝试为不同魔法场域构建某种依存层级，试图厘清它们之间的从属关系。\n比如查伽洛斯这头怪物展现的诡谲力量，看似依托于灵气场域与特定源质的运用，最终呈现的却绝非神秘使法术的形态。它虽以神秘学为基础，表现方式却大相径庭，就像引力本质是时空场的扭曲，呈现的却是加速度的表象。若非如此，人类早在爱因斯坦之前就该参透其中奥秘。\n正因如此，若要在魔法研习中精进，建立这种层级体系至关重要。\n但递归却是个异类。它的运作机理让我想起永不停摆的钟锤。触发递归效应的永远是另一个递归效应，就像在宇宙虚空中永续传播的光。但就算是光，遭遇物质也终会耗散能量。递归却能凭空持续。\n我总能卷土重来，我的敌人们也是……幸好他们回归的速度远不及我。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:barathos_cap"
       },
-      "name:8": "Barathos Falls"
+      "name:8": "攻陷爵士维度"
     }
   },
   "questID:3": 343,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Was this worth it? To be honest I am not sure.\nI learned a lot less than what I initially thought. And yet, the Slime I was able to bring forth did indeed carry a large amount of the power I seek. Just in a form that did not quite make sense.\nLooking at the silver lining, though, it was quite amusing to see the Abyssal wastelands covered in slime.",
+      "desc:8": "这值得吗？说实话，我也不确定。\n我获得的知识远比预期的要少。然而，召唤出的史莱姆确实承载着我所追寻的强大力量。只是这力量以某种难以理解的形式存在着。\n不过往好处想，看着深渊荒原被史莱姆覆盖的景象，倒是相当有趣。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:big_slime"
       },
-      "name:8": "The Biggest Slime"
+      "name:8": "最大的史莱姆"
     }
   },
   "questID:3": 399,

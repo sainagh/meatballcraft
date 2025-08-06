@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis ring will allow you to slow fall, it is quite bad, but it can be upgraded into better things!",
+      "desc:8": "§7§o该指环能令你缓速下落，有点糟糕，但可以升级为更好的指环！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:chickenring"
       },
-      "name:8": "Chicken Wing Ring"
+      "name:8": "鸡翅膀指环"
     }
   },
   "questID:3": 50081,

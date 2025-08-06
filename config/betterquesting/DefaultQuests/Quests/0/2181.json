@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "As expected, the hosts that periodically cover Terra in creepers are from Creeponia. No surprises there.\nWhat is surprising about them, though, is that the ones invading Terra are much less powerful that the one I encountered here, almost as if Shyre forces were holding back, while still showing what they are capable of. \n",
+      "desc:8": "果然，那些定期用爬行者覆盖泰拉的宿主来自蠕变维度。这点并不意外。\n但令人惊讶的是，入侵泰拉的这些个体远比我在此遭遇的弱小得多，几乎就像是塞尔瑞帝国在刻意保留实力，同时仍展示着他们的能耐。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:flying_gunpowder"
       },
-      "name:8": "Flying is just Exploding with Style"
+      "name:8": "飞翔只是风格化的爆炸"
     }
   },
   "questID:3": 2181,

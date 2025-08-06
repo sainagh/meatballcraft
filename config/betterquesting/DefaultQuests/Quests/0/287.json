@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Mythic excavation has its rules, and they are as rigorous as they are versatile. Recursive powers, while being quite different in how they take form, ranging from aura to botanical energy, they follow the same first principles.\nMachines and devices equipped with mythic excavation units can use recursion as their own energy source, and can in turn shape it for various purposes. \nBuilding more powerful mythic miners, capable of synthesizing matter from my recently-explored Shyre worlds, is a good purpose for this technology.\nInvestigating the way recursion works and how I may gain control over the cycle of undeath, that is another! ",
+      "desc:8": "神话开掘有其法则，这些法则既严谨又多变。递归之力虽然表现形式各异，从灵气到植物能量皆有可能，但都遵循相同的基本原理。\n装配神话开掘单元的机械装置可将递归能量作为自身动力源，并能将其重塑以实现多种用途。\n这项技术的一大用途，便是建造更强大的神话采掘机，用以从我新探索的塞尔瑞世界种合成物质。\n而研究递归之力的运作机制，以及如何掌控不死轮回的循环，则是另一个重要方向！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:mythic_excavation_computer"
       },
-      "name:8": "A new Age!"
+      "name:8": "新纪元！"
     }
   },
   "questID:3": 287,

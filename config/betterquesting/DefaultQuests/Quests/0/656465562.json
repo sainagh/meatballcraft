@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo obtain the various matter clusters, use build big cubes of the corresponding materials in the void, and mine them using the special mode of the World Breaker.",
+      "desc:8": "§7§o要获得所需的物质簇，在虚空中大批放置对应种类的材料，使用特殊模式的世界崩解之镐挖掘。",
       "frame:8": "JAGGED",
       "icon:10": {
         "Count:3": 1,
         "id:8": "avaritia:infinity_sword"
       },
-      "name:8": "The Might of the Cosmos"
+      "name:8": "宇宙之力"
     }
   },
   "questID:3": 656465562,

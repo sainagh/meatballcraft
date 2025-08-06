@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Bees of Rhenia, as the apt strategists they are, were willing to reveal, after some trials and tribulations, one of the more common weapons used by successful recursive beings. Thorns enchants.\nWhile my base magical abilities allow for pretty poor forms of this enchant, past recursive beings in their records were able to scale this power to incredible heights.\nThankfully, the Testificates safekept their thorny secrets for posterity, and apparently so did the Bees of Rhenia.\nThe extent of thorn enchants, I was told, is much higher than what they can achieve. \nThat is ok, though. Hopefully by examining these enchants I can produce more powerful ones on my own.",
+      "desc:8": "铼界蜜蜂作为精明的战略家，在经历诸多考验后，终于向我揭示了递归存在者最常用的武器之一：荆棘魔咒。\n虽然我基础的魔法能力仅能施展这种魔咒的拙劣形态，但根据他们的记载，过往的递归存在者能将此力量提升至难以想象的高度。\n值得庆幸的是，泰斯提斐人将这些荆棘奥秘妥善保存以传后世，显然铼界蜜蜂也是如此。\n他们坦言，荆棘魔咒的潜力远非目前所能企及。\n不过这无妨。但愿通过研究这些魔咒，我能自行锻造出更强大的附魔。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:mark_of_the_samurai"
       },
-      "name:8": "Thorny Sensei"
+      "name:8": "棘刺老师"
     }
   },
   "questID:3": 508,

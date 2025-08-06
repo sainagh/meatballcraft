@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Well, the destruction caused by Chaotic Reactors may have its uses, actually. Draconium, a mineral that is already quite capable of interfacing with entropy directly, actively reacts to the explosions from the reactor, reaching a maximum-entropy state itself, and gaining useful properties.\nOne of them, interestingly enough, is to 'bind' (for the lack of a better word) to other maximum-entropy draconium, essentially acting as a universe-spanning detector of others who have discovered this same material, and a catalyst to open new wormholes. \nWell, one wormhole, just one. I am only the second to ever do this. The people of Lyndenwyrm, a planet naturally inhabited by dragons and other beasts capable of manipulating entropy, were, until now, the first and only civilization of unlocking the secrets of chaos. This is where the Wyvern I fought on Apichisi is from.\nLyndenwyrm is a planet that, at some point, actively took part in universal conflicts. Now, though, it is just a barren wasteland, actively charged of an insane amount of static electricity. An unfriendly and dangerous place.",
+      "desc:8": "实际上，混沌反应堆造成的破坏或许有其特殊价值。龙矿，这种本就具备直接与熵交互能力的矿物，会与反应堆的爆炸产生剧烈反应，使自身达到最大熵态并获得特殊性质。\n其中最耐人寻味的特性是能与其他最大熵态龙矿产生“绑定”（暂未找到更贴切的表述），本质上成为跨越宇宙的探测器，能定位所有发现该材料的文明，同时作为开启新虫洞的催化剂。\n准确地说，一个虫洞。我是有史以来第二个实现此举的存在。树龙界——这个自然栖息着巨龙及其他能操控熵的猛兽的星球——的居民，在此前是唯一掌握混沌奥秘的文明。我在共鸣界遭遇的那条飞龙正是来自此处。\n树龙界曾是个积极参与宇宙争端的星球。但如今，这里只剩下被疯狂静电笼罩的不毛荒原，成为一片危机四伏的凶险之地。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:lyndenwyrm_warper"
       },
-      "name:8": "A Land of Power"
+      "name:8": "力量之地"
     }
   },
   "questID:3": 2140,

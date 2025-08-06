@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The motivations behind the control over Pixonia specifically does not only have to do with its strategic location, it seems to be connected to the recursive material that permeates its cust as well.\nOgerite produces negligible amounts of radiation, but it is capable of undergoing nuclear fission, and its remains still possess powerful recursive properties.\nI supect the Meatball Man wanted to use this material for the sake of making weapons of mass destruction, but on my end it may be very useful for learning more about transferring recursive properties to matter.\n",
+      "desc:8": "控制光精界背后的动机不仅与其战略位置有关，似乎还与其地壳中渗透的递归物质存在关联。\n食人魔金属产生的辐射量可忽略不计，但它能够进行核裂变，其残留物仍具有强大的递归特性。\n我怀疑肉丸人想利用这种材料制造大规模杀伤性武器，但对我而言，食人魔金属也许能让我得以了解如何将递归特性转移到物质上。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:pixonia_infusion_key"
       },
-      "name:8": "The Power of the Swamp"
+      "name:8": "沼泽之力"
     }
   },
   "questID:3": 281,

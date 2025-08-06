@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWelcome to chapter 8!\n\nYou are now a late-game player! Congratulations! Very few make it here!",
+      "desc:8": "§7§o欢迎来到第8章！\n\n你现在是后期玩家了！恭喜！仅有少数人才能推进到这里！",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:dynatos_artifact"
       },
       "ismain:1": 1,
-      "name:8": "For the few..."
+      "name:8": "仅为少数人……"
     }
   },
   "questID:3": 308,

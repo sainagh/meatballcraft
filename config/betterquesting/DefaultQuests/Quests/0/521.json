@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The processing of Arkenstone yields so many useful things, and this is just using the methods I currently know.\nI wonder if something like this alone may replace my power-hungry dense plasma setup?",
+      "desc:8": "对阿肯石的处理能产出如此多有用之物，这还仅用了我目前所知的方法。\n我在想，单是这样东西是否就能取代我那耗能的高密度等离子体装置？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:recursive_powder"
       },
-      "name:8": "Recursive Powder"
+      "name:8": "递归粉末"
     }
   },
   "questID:3": 521,

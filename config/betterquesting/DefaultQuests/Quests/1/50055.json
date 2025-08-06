@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe scanner is a very useful tool for finding things while exploring!\n\nThe various modules let you select for different blocks. Holding right click with the scanner will give you X-ray vision for the selected blocks!",
+      "desc:8": "§7§o在探险时，扫描器是寻找东西的好帮手！\n\n可通过多个模块选择不同方块。按住右键可获得对于所选方块的透视视野！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 32767,
         "id:8": "scannable:scanner"
       },
-      "name:8": "Scanner"
+      "name:8": "扫描器"
     }
   },
   "questID:3": 50055,

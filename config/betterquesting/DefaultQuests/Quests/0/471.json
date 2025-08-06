@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The question about the motivation beind the Meatball Man's alliance with the arthropods makes a bit more sense now. The magic of the Erebus does have something useful to offer.\nThere seem to be restrictions, but a special species of insects, infused by powerful magic, is capable of absorbing and replicating materials in ways similar to bees and chickens.\nThe Meatball Man clearly wants to use them for some purpose, to mass produce something...\nI have no idea what that could be, but I better keep my eyes open, I could discover something useful, either a new powerful material, or an insight on what the mission of the Meatball Man could be.\nIt is clear he sees me as some sort of \"chosen one\" for something; what puzzles me is that he is the one that gave me powers in the first place, and he is now refusing to meet me face to face. If he did not bind me, I would not have been even capable of doing what I am doing now, which is fighting him.\nThat faithful moment when I entered the wormhole, was that what marked me, or was it something that came long before that?",
+      "desc:8": "肉丸人与节肢动物结盟动机现在更清晰了些。混沌之地的魔法确实能提供某些有价值的东西。\n虽然存在限制，但某种经强大魔法灌注的特殊昆虫，能够以类似蜜蜂和鸡的方式吸收并复制物质。\n肉丸人显然想利用它们来批量生产某种东西……\n虽然还不清楚具体目标，但我最好保持警惕，或许能发现有用线索，无论是某种强大的新材料，还是关于肉丸人真实目的的蛛丝马迹。\n祂显然将我视为某种“天选之人”；令人费解的是，最初赋予我力量的正是祂本人，如今却拒绝与我正面接触。若非祂当初的束缚，我甚至无法获得与他对抗的能力。\n那个穿越虫洞的关键时刻，祂是在那一刻标记了我？还是更早之前就埋下了种子？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:branch_of_life"
       },
-      "name:8": "Branch of Life"
+      "name:8": "生命之枝"
     }
   },
   "questID:3": 471,

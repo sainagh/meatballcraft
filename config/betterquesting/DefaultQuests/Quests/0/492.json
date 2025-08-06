@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oNOTE: the vox ponts have multiple layers underground ;)\n\n§7§oUse a vile stone on a voxxulon altar to summon Voxxulon.\n\n§fThe Vox Ponds of before nuclear disasters are not entirely gone. Voxxulon, its ruler, is a being from a long lost era, and the recursive powers of this creature are the main driver of this planet's history. The power to change biology of those that submit under their rule.\nThis ability is what allows this world to keep functioning; it made it so all that live here, and who have sworn fealty to Voxxulon, are now immune to every deranged experiment this world has and will ever experience. Those that didn't swear, they are long gone as victims of said experiments.\nI am still not 100% sure, but I strongly suspect the beings of Creeponia to be a result of a similar process, possibly undergone through Voxxulon themselves, or done by a recursive being of similar powers. ",
+      "desc:8": "§7§o注意：未知维度存在多层地底结构  ;)\n\n§7§o对不详祭坛使用邪恶石来召唤不详巨物。\n\n§f核灾变前的未知维度仍残留有一些痕迹。其统治者不详巨兽来自遥远的失落纪元，其递归能力是驱动该星球历史的主要动力。它能改变臣服者们的生理构造。\n这种能力维系着这个世界的运转：所有居住于此并向不详巨兽宣誓效忠的生命，都将免疫这个世界古往今来所有疯狂实验的影响。而那些拒绝效忠者，早已成为这些实验的牺牲品。\n虽然尚未完全确认，但我高度怀疑蠕变维度的生物也经历了类似改造过程，可能是由不详巨兽亲自实施，或是某个拥有相似递归能力的存在所为。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:voxponds_cap"
       },
-      "name:8": "Vox Ponds Fall"
+      "name:8": "攻陷未知维度"
     }
   },
   "questID:3": 492,

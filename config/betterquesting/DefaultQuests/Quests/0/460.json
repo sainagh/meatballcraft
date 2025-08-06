@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Well, I guess the Shyre Empire had more than one reason to include Candyland among its main territories.\nA small yet non-negligible source of recursive sweet treats are used to strengthen some of the elite, non-recursive, Shyre troops in other worlds.\n",
+      "desc:8": "看来塞尔瑞帝国将糖果世界纳入其主要领土的理由不止一个。\n数量不多但不可忽视的递归甜点资源，被用来强化塞尔瑞在其他位面的非递归精英部队。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:candyland_garnet"
       },
-      "name:8": "Candyland Garnet"
+      "name:8": "糖果石榴石"
     }
   },
   "questID:3": 460,

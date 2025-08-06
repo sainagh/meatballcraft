@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I don't know why this surprises me, but the dragons inhabiting the asteroids around Terra have two hearts, and guess what? One of them is suitable for magic infusion! More health!",
+      "desc:8": "真没想到，栖息在泰拉附近小行星上的龙竟然有两颗心脏。而且你猜怎么着？其中一颗还能进行魔力灌注！更多生命力！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bhc:green_heart_canister"
       },
-      "name:8": "Green Heart Canister"
+      "name:8": "绿心之容器"
     }
   },
   "questID:3": 50076,

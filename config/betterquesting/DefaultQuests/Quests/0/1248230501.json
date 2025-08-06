@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRockets and space stations are cool, but unfortunately sometimes they bug out.\nFor those that do not want to deal with the possible issues from using Advanced Rocketry, there's the Bee Stargate! A bit of rocketry will still be required, but it'd be a one-time thing!\n\n§fWow, of course Bees have developed extremely advanced Wormhole technology. I love the Bees!\nStepping through a Stargate, that feels quite cool, I will not deny it...\nIt seems like these structures play an important role in the history, tradition, and culture of Bees. Those that are capable of producing components for these Stargates appear to be highly regarded by the rest of the Bees. This reminds me of how priests and monks are treated by humans. I wonder if their religion has something to do with Stargates...",
+      "desc:8": "§7§o火箭和空间站固然炫酷，但有时难免出现故障。\n若不想应对高级火箭模组可能产生的问题，不妨试试蜜蜂星门！虽然仍需发展一些火箭，但仅需一次性投入！\n\n§f哇，蜜蜂居然掌握了如此先进的虫洞科技。我爱蜜蜂！\n穿越星门的感觉确实很酷，这点我无法否认……\n这些建筑似乎在蜜蜂的历史、传统与文化中扮演着重要角色。那些能制造星门部件的蜜蜂，在族群中享有崇高地位。这让我想起人类对待祭司与僧侣的方式。莫非它们的信仰与星门有所关联……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:bee_stargate"
       },
-      "name:8": "The Bee Stargate"
+      "name:8": "蜜蜂星门"
     }
   },
   "questID:3": 1248230501,

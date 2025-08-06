@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Shadows of Recursion can be seen everywhere because recursion is everywhere.\nIt just has to be revealed.\nThat is what the Mythic Fractals are. Born of aspects of Recursion, they can represent it as a whole.\nThe symbol becoming the thing.\nThe idea perfectly translating into object.\nI can see it now. I have a mission, I am fractallite, but I do not have a Fractallite power yet.\nTo tune myself to it, these Fractals will play an important role.",
+      "desc:8": "递归投影无处不在，因其本就无处不在。\n只待揭示。\n这正是神话分形的本质。它们诞生于递归的各个面相，却能完整呈现其全貌。\n符号化为实体。\n思想完美具现为物体。\n此刻我已明悟。我身负使命，身为分形之躯却尚未获得分形之力。\n若要与之共鸣，这些分形将起关键作用。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:fourth_order_mythic_fractal"
       },
-      "name:8": "Fourth Order Fractal"
+      "name:8": "四阶分形"
     }
   },
   "questID:3": 2186,

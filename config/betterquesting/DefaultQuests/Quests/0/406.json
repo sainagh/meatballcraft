@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I need to clear my head with some Engineering! All these throughts of power are discouraging.\nSomething creative should cheer me up, hopefully.\nArbiter tech is quite powerful, and it is undoubtedly fun to play with it!",
+      "desc:8": "我需要用工程学来理清思路！这些关于力量的念头太令人沮丧了。\n做些有创意的事应该能让我振作起来，但愿如此。\n理序主的科技相当强大，摆弄它们无疑充满乐趣！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "avaritia:neutronium_compressor"
       },
-      "name:8": "Neutronium Compressor"
+      "name:8": "中子素压缩机"
     }
   },
   "questID:3": 406,

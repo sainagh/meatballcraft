@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oA polonium salt reactor is a good way to obtain Californium-250 in larger amounts.\n\nFor the joy of Snock.",
+      "desc:8": "§7§o钋盐反应堆是大量获取锎-250的有效方式。\n\n为Snock开心而作。  ",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "nuclearcraft:californium"
       },
-      "name:8": "Polonium is Spent"
+      "name:8": "钋已乏"
     }
   },
   "questID:3": 826305078,

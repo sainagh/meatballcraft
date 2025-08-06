@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The first round of acceleration, getting some good amounts of hadrons and electrons!",
+      "desc:8": "第一轮加速阶段，产生大量强子和电子！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "electrons"
         }
       },
-      "name:8": "Alpha Particles & Electrons"
+      "name:8": "阿尔法粒子&电子"
     }
   },
   "questID:3": 1328,

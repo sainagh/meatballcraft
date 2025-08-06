@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIs that a One Piece reference?!?\n\n§fIt seems like I am not the first 'champion of the bees' that has come to this planet. And my predecessor has left a weapon.\nIn typical Bee fashion, they did not whish to reveal this right away, I had to prove my worthiness, but after passing this new trial, I was given some useful information.\nThe powers of my enemies are some of the mightiest in the whole universe; while this is quite terrifying in and of itself, it also means that encounters with these powers have been thoroughly documented through encounters over the ages. With the data of thousands of matchups from various magic and technological wars, some clear trends emerged.\nWhoever wants to compete face on with true universal power like the one from the Twilight Horde has to gain comparable power themselves, there is no way around it. Might, in the vast majority of documented encounters, has always trumped inventiveness and strategy. \nTo achieve this type of might, also according to these extensive records, specific steps need to be followed. The first of them, the Bees of Rhenia told me, is the recursive immortality I possess. The second is a powerful weapon, capable of cutting through recursion. The next ones, I will discover later.\nThe bewitched bow from the lore of Terra is capable of doing this, but to face truly mighty recursive beings, other weapons will be necessary. One of such weapons, they told me, is the one left by their, now fallen, ally of old.\nIt will not be enough to get to the end of this war, but it is a necessary step to achieve higher heights, or so I was told.",
+      "desc:8": "§7§o这是海贼王的梗吗？！？\n\n§f看来我并非首个造访此星球的“蜜蜂冠军”。我的前任留下了一件武器。\n秉承蜜蜂一贯作风，他们不会直接透露秘密，我必须先证明自己的价值。通过这项新试炼后，他们终于提供了关键情报。\n我的敌人们掌握着全宇宙最强大的力量之一。这固然令人畏惧，但正因如此，历代对抗这些力量的战斗都被详尽记录了下来。通过分析数千场魔法与科技战争的交锋数据，某些规律逐渐明晰。\n若想直面暮光部落这等真正的宇宙伟力，自身必须获得同等实力，这是无可回避的铁律。在绝大多数记载中，绝对力量总能碾压智谋与策略。\n根据这些浩瀚记载，获得此等力量需要遵循特定步骤。铼界蜜蜂告诉我，第一步就是我已获得的递归不朽。第二步则需要能斩断递归的强力武器，后续步骤有待探索。\n泰拉传说中的附魔长弓虽具此效，但要对抗真正强大的递归存在，还需其他武器。他们透露，其中一件正是其陨落盟友的遗物。\n蜜蜂坦言此物尚不足以终结战争，但确是攀登更高境界的必要阶梯。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:lawsword"
       },
-      "name:8": "Relic of a Past Warrior"
+      "name:8": "昔日勇士的遗物"
     }
   },
   "questID:3": 510,

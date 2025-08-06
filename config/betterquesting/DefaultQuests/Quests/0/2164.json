@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I have been ignoring this for too long, but it is time to start addressing the issue with the World Soul of the Abyss. The spread of the flesh plague outside of the Shyre territory may become an actual issue, now that the stakes seem to have raised.\nAs for the soul of Vibe, it should be possible to summon it in a contained form, and to face it directly.\nUnlike my prior encounter, though, this enemy has not been weakened by the sacrifice of powerful wizards...",
+      "desc:8": "我已忽视此事太久，但现在是时候着手处理深渊世界之魂的问题了。随着局势升级，血肉瘟疫在塞尔瑞领地之外的蔓延可能演变成真正的危机。\n至于谐律界之魂，应当可以将其以受控形态召唤，并与之正面交锋。\n但不同于先前的遭遇——这次我们的敌人并未因强大巫师们的献祭而遭到削弱……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:key_of_flesh_dominion"
       },
-      "name:8": "Domain of Flesh"
+      "name:8": "支配血肉"
     }
   },
   "questID:3": 2164,

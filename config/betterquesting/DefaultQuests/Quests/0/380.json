@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "My soul is now evident to me.\nNot just my being, that is not all that I am.\nMy soul. That idea of me that could not really exist, and is yet approximated by the person I am.\nTo ascend, I must become it, I must bring it into existance.",
+      "desc:8": "我的灵魂如今对我昭然若揭。\n不仅是我此身的存在，那远非我的全部。\n我的灵魂。那个本不可能真实存在的“我”之概念，却经由此刻的我得以近似呈现。\n欲达飞升，我必成为它，我必使其显化于世。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bloodmagic:sentient_sword",
         "tag:10": {}
       },
-      "name:8": "Sentient Sword"
+      "name:8": "感知之剑"
     }
   },
   "questID:3": 380,

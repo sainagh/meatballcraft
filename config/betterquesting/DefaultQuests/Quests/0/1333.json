@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Not quite quarks, but mixed bosons are a good milestone!",
+      "desc:8": "虽然还达不到夸克的级别，但混合玻色子已经是个重大突破了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "bosons"
         }
       },
-      "name:8": "Bosons"
+      "name:8": "玻色子"
     }
   },
   "questID:3": 1333,

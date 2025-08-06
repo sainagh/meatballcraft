@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "One of the well-guarded secrets of Gardencia, Rosidian Metal, was itself a key to another secret. Another powerful bee taken from the Bubbell Alliance.\nOriginally coming from a being not unlike the Meatball Man, or even the Meatball Man himself, the powers of the Deep-Learner bee were being used to augment the abilities of the creatures of Gardencia, bosting their food-replicating abilities.\nI really have to thank my bee friends, their ability to attune to magical fields and recursion is incredible!\nSure, soul manipulation is not necessarily a morally righteous power, and maybe I should be more weary of anything coming from the Meatball Man, but it has had so many incredible uses.\nMy factories have grown dependent on monster automation, and thanks to my bee friends, I can set up my models even more easily!",
+      "desc:8": "花园维度严密保守的秘密之一，伊恩金属，本身即是通往另一个秘密的钥匙。\n这种从气泡铃联盟夺取的强大蜜蜂，其源头与肉丸人（甚至可能是肉丸人本尊）同源。深度学习蜜蜂的力量被用于强化花园维度生物的能力，显著提升了它们的食物复制效率。\n必须特别感谢我的蜜蜂伙伴们！它们与魔法场域及递归法则的共鸣能力简直不可思议。\n诚然，灵魂操纵算不上道德正直的能力，或许我该对源自肉丸人的一切保持更高警惕——但这项技术确实带来了无数惊人应用。\n我的自动化工厂已深度依赖怪物自动化，而多亏这些蜜蜂朋友，现在我能更轻松地部署模型了！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 14018,
         "id:8": "gendustry:honey_comb"
       },
-      "name:8": "Deep Knowledge"
+      "name:8": "深度知识"
     }
   },
   "questID:3": 2184,

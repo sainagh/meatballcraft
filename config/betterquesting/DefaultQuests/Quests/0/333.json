@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Shyre empire is vast, and very powerful... so powerful that apparently they can afford leaving one of their main stronghold planets in a state of extreme corruption. This is not unlike the Twilight Forest, where direct, purposeful actions were operpetrated to intentionally turn an entire world into a land of blight.\nThis is the Abyss. The very core of this world is corrupted, down to the actual matter that makes up this place. At the moment, the basis for the words I am about to say is just a feeling, but my feelings have been way too right after I ended up on Terra. This world has a soul, just like any sentient being I have encountered in my now numerous travels, and this soul is one of twisted unhinged madness.\nThis is what a Kardashev type 5 weapon looks like: a world of decay, a god of decay. What the Crimson Cult was able to achieve through effortful deception, the Shyre Empire automated. Deleting planets, ending entire evolutionary chains, can be done by a single being. \nIf this planet soul were to do this on Terra, the planet will be gone in mere moments.",
+      "desc:8": "塞尔瑞帝国疆域广袤，实力强横……其强盛程度甚至足以放任一座主要要塞行星陷入极端腐化。与暮色森林的情形如出一辙——那里曾被蓄意谋划的定向操作，导致整个世界化作凋零之地。\n此处即是深渊维度。这个世界的核心已被彻底侵蚀，连构成其存在的物质基础都遭到污染。此刻我要说的论断，虽仅源于直觉，但自我降临泰拉以来，这种直觉从未出错。这个世界拥有灵魂，就像我漫长旅途中遇见的任何智慧生命那样，只是这个灵魂充斥着扭曲癫狂的错乱。\n这就是卡尔达舍夫5级武器的真容：一个衰亡的世界，一尊腐朽之神。血腥教团费尽心机达成的骗局，塞尔瑞帝国已将其自动化。抹除行星、终结整条进化链，仅需单一个体即可完成。\n倘若这个星球灵魂对泰拉施展此术，整个行星将在瞬息间湮灭。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:abyss_realmstone"
       },
-      "name:8": "Corruption of a Planet"
+      "name:8": "腐化行星"
     }
   },
   "questID:3": 333,

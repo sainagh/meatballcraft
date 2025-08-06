@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The elaborate nature of the Mythic Shells of the Twilight Horde is astonishing, and a great reminder of the beauty of our Universe.\nEach of the barriers between the Twilight worlds has been its own showcase of mathematical wonder, and this one is not different. It is a pathological functional space.\nIf the barrier between the Eden and Wildwood can be thought as a single fold, the barrier to Apalachia is an infinite series of folds going back and forth, each producing a smaller and smaller effect, the Barrier to the next World, Skythern, is a series of folds, where there are infinitely many folds between each pair, over and over, in an endlessly self-repeating fractal of space, continuous, yet unreachable.\nThis is not the first time I think of this, but I cannot help but be impressed at how amazing some of my enemies' creations are. ",
+      "desc:8": "暮光部落那精妙绝伦的神话叠壳令人叹为观止，这再次提醒着我们宇宙的壮美。\n暮光世界之间的每道屏障都是数学奇观的独特展现，眼前这道亦不例外——这是个病态函数空间。\n若说伊甸与原始森林之间的屏障可视为单层折层，那么通往附魔山脉的屏障便是无数正反交叠的无限序列，每道折层的效应渐次衰减；而通向下一世界“空境”的屏障，则是层层嵌套的无限折层——在每对相邻褶皱之间，又存在着无穷尽的次级折层，如此循环往复，形成永无止境自我复现的空间分形，连续延展却又遥不可及。\n这并非我首次产生如此感悟，但敌人创造的某些造物之精妙，总让我不禁为之震撼。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:apalachia_block"
       },
-      "name:8": "Am I there yet?!?"
+      "name:8": "我到了吗？！？"
     }
   },
   "questID:3": 292,

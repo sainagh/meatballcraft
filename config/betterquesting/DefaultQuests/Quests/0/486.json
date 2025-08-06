@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse petals on a vinocorne shrine to summon Vinocorne.\n\n§fThe logistics of Gardencia's empire-feeding endeavor is a surpisingly sustainable one.\nThe beings that roam this planet go through their daily activities pretty much undisturbed, but whenever they produce fruits, excess roots, or stems, they 'get a trim' from Shyre agents, which store the resulting produce, and send it to other territories as they need them.\nThe sustainable nature of this process has to do with the natural biological evolution of this place; no genetic engineering here. \nGardencia used to have a more complex food chain, with animals both herbivorous and carnivorous. As it sometimes happens in nature, evolution produced a somewhat unstable behavior, where animals would reproduce more easily, leading to more plants getting eaten, leading to plants producing more fruit, leading to more food abundance, leading to more animals eating more plants. This cycle kept going and going, producing an overpopulated world, both by plants and animals.\nUntil the cycle broke. Plants had become so good at producing more of themselves that they had gained other abilities, including walking, thinking, and, most importantly, to do magic. One of these magic-wielding plants, Vinocorne, was then able to ascend, in a world-shaking event not unlike Iceika, and in mere moments all animal life was gone from Gardencia.",
+      "desc:8": "§7§o对维诺可恩祭坛使用花瓣来召唤植物王。\n\n§f花园维度维系帝国的后勤运作竟出人意料地可持续。\n栖息于此生物的日常活动几乎不受干扰，但当它们结出果实、增生根系或茎秆时，塞尔瑞特工便会进行“修剪作业”，他们将收获物储存起来，根据各领地需求进行调配。\n这种可持续性源于该地自然的生物演化，未涉及基因工程。\n花园维度曾拥有更复杂的食物链，草食性与肉食性动物并存。正如自然界偶尔发生的状况，演化催生了某种不稳定机制：动物繁殖率提升→植物被啃食加剧→植物加速结果→食物供给过剩→动物数量进一步增长。如此循环往复，最终导致动植物双双泛滥成灾。\n直到生态循环被彻底打破。植物在疯狂增殖过程中竟进化出移动能力、思维能力，以及最关键的魔法天赋。其中一株名为植物王的魔法植物，在惊天动地的飞升事件中（与冰晶雪原的异变如出一辙），瞬息间便抹去了花园维度所有的动物生命。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:gardencia_cap"
       },
-      "name:8": "Gardencia Falls"
+      "name:8": "攻陷花园维度"
     }
   },
   "questID:3": 486,
