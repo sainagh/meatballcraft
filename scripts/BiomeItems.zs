@@ -694,7 +694,7 @@ memoryrestorationritual.itemRightClick = function(stack, world, player, hand) {
 	if((SacredSpringsMatches) == 1) {
 		if(player.getDimension() == 150) {
 			player.sendChat("成功");
-			Commands.call("summon divinerpg:hover_stringer ~ ~2 ~ {CustomName:\"谎言护卫\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_hator\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, false, true);
+			Commands.call("summon divinerpg:hover_stinger ~ ~2 ~ {CustomName:\"谎言护卫\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_hator\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, false, true);
 			return "PASS";
 		}
 	} 
@@ -707,7 +707,7 @@ memoryrestorationritual.itemRightClick = function(stack, world, player, hand) {
 		}
 	} 
 
-	player.sendChat("群系不匹配");
+	player.sendChat("所有群系均不匹配");
 	return "FAIL";
 
 

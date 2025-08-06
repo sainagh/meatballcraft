@@ -4800,7 +4800,7 @@ faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    player.sendChat("站在场地结构中心使用递归之石！");
+    player.sendChat("站在带有递归之石的场地结构中心！");
 
     player.sendChat("检查玩家位置中");
     player.sendChat("==================================================");
@@ -4812,7 +4812,7 @@ faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
     var blockPos1 = pos1.asBlockPos();
     var blockState1 = world.getBlock(blockPos1).definition.id as string;
     if(blockState1 != "contenttweaker:recursive_stone") {
-        player.sendChat("站在场地结构中心使用递归之石！");
+        player.sendChat("站在带有递归之石的场地结构中心！");
         return "FAIL";
     }
 
@@ -4823,7 +4823,7 @@ faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
     var blockPos2 = pos2.asBlockPos();
     var blockState2 = world.getBlock(blockPos2).definition.id as string;
     if(blockState2 != "contenttweaker:recursive_stone") {
-        player.sendChat("站在场地结构中心使用递归之石！");
+        player.sendChat("站在带有递归之石的场地结构中心！");
         return "FAIL";
     }
 
@@ -4834,7 +4834,7 @@ faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
     var blockPos3 = pos3.asBlockPos();
     var blockState3 = world.getBlock(blockPos3).definition.id as string;
     if(blockState3 != "contenttweaker:recursive_stone") {
-        player.sendChat("站在场地结构中心使用递归之石！");
+        player.sendChat("站在带有递归之石的场地结构中心！");
         return "FAIL";
     }
 
@@ -4845,7 +4845,7 @@ faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
     var blockPos4 = pos4.asBlockPos();
     var blockState4 = world.getBlock(blockPos4).definition.id as string;
     if(blockState4 != "contenttweaker:recursive_stone") {
-        player.sendChat("站在场地结构中心使用递归之石！");
+        player.sendChat("站在带有递归之石的场地结构中心！");
         return "FAIL";
     }
 
@@ -4856,7 +4856,7 @@ faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
     var blockPos5 = pos5.asBlockPos();
     var blockState5 = world.getBlock(blockPos5).definition.id as string;
     if(blockState5 != "contenttweaker:recursive_stone") {
-        player.sendChat("站在场地结构中心使用递归之石！");
+        player.sendChat("站在带有递归之石的场地结构中心！");
         return "FAIL";
     }
 
