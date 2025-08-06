@@ -2262,9 +2262,9 @@
 <rftoolsdim:feature_absorber>.addTooltip(format.red("需要行星圣物版本的苍穹变换器，其可重复使用"));
 <rftoolsdim:time_absorber>.addTooltip(format.red("需要行星圣物版本的苍穹变换器，其可重复使用"));
 
-<rftoolsdim:dimension_builder>.addTooltip(format.red("无法在卡尚维度中放置"));
-<rftoolsdim:dimension_enscriber>.addTooltip(format.red("无法在卡尚维度中放置"));
-<rftoolsdim:dimlet_workbench>.addTooltip(format.red("无法在卡尚维度中放置"));
+<rftoolsdim:dimension_builder>.addTooltip(format.red("只能在卡尚维度中放置"));
+<rftoolsdim:dimension_enscriber>.addTooltip(format.red("只能在卡尚维度中放置"));
+<rftoolsdim:dimlet_workbench>.addTooltip(format.red("只能在卡尚维度中放置"));
 
 <contenttweaker:fiery_pyrite>.addTooltip(format.red("也可通过使用对应维度的尖晶石作为祭品的坠星标位仪式获得，适用于#无EMC挑战"));
 
