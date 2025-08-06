@@ -2255,12 +2255,12 @@
 
 <contenttweaker:lyndenwyrm_warper>.addTooltip(format.red("警告：若不再出现下雨天气，很可能是因为空间站或自定义维度处于区块加载状态"));
 
-<rftoolsdim:material_absorber>.addTooltip(format.red("需要天地宝晶版本的苍穹变换器，其可重复使用"));
-<rftoolsdim:liquid_absorber>.addTooltip(format.red("需要天地宝晶版本的苍穹变换器，其可重复使用"));
-<rftoolsdim:biome_absorber>.addTooltip(format.red("需要天地宝晶版本的苍穹变换器，其可重复使用"));
-<rftoolsdim:terrain_absorber>.addTooltip(format.red("需要天地宝晶版本的苍穹变换器，其可重复使用"));
-<rftoolsdim:feature_absorber>.addTooltip(format.red("需要天地宝晶版本的苍穹变换器，其可重复使用"));
-<rftoolsdim:time_absorber>.addTooltip(format.red("需要天地宝晶版本的苍穹变换器，其可重复使用"));
+<rftoolsdim:material_absorber>.addTooltip(format.red("需要行星圣物版本的苍穹变换器，其可重复使用"));
+<rftoolsdim:liquid_absorber>.addTooltip(format.red("需要行星圣物版本的苍穹变换器，其可重复使用"));
+<rftoolsdim:biome_absorber>.addTooltip(format.red("需要行星圣物版本的苍穹变换器，其可重复使用"));
+<rftoolsdim:terrain_absorber>.addTooltip(format.red("需要行星圣物版本的苍穹变换器，其可重复使用"));
+<rftoolsdim:feature_absorber>.addTooltip(format.red("需要行星圣物版本的苍穹变换器，其可重复使用"));
+<rftoolsdim:time_absorber>.addTooltip(format.red("需要行星圣物版本的苍穹变换器，其可重复使用"));
 
 <rftoolsdim:dimension_builder>.addTooltip(format.red("无法在卡尚维度中放置"));
 <rftoolsdim:dimension_enscriber>.addTooltip(format.red("无法在卡尚维度中放置"));
