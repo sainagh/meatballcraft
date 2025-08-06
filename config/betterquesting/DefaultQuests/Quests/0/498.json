@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:silver_foot"
             },
-            "TrophyName:8": "Silverfoot Slayer",
+            "TrophyName:8": "剑圣屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -47,7 +47,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:mechbot_cpu"
             },
-            "TrophyName:8": "Mechbot Slayer",
+            "TrophyName:8": "机甲战士屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

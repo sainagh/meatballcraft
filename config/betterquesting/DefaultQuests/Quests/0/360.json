@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:karot_horn"
             },
-            "TrophyName:8": "Bull Bully",
+            "TrophyName:8": "怒角蛮霸",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -47,7 +47,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:vamacheron_fur"
             },
-            "TrophyName:8": "Hyper Bunny FTW",
+            "TrophyName:8": "终极兔子必胜",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -64,7 +64,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:reyvor_eye"
             },
-            "TrophyName:8": "Raymond? Reyvor!",
+            "TrophyName:8": "雷蒙德？瑞弗！",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -81,7 +81,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:densos_eye"
             },
-            "TrophyName:8": "Dense!",
+            "TrophyName:8": "密密麻麻！",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -98,7 +98,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:fiend_soul"
             },
-            "TrophyName:8": "Fiend? Soul Fiend!",
+            "TrophyName:8": "魔？噬魂魔！",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -115,7 +115,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:twilight_antenna"
             },
-            "TrophyName:8": "The Final Antenna",
+            "TrophyName:8": "最后的触角",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

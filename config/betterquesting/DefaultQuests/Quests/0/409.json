@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:flash_skull"
             },
-            "TrophyName:8": "Flash Slayer",
+            "TrophyName:8": "闪现者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -47,7 +47,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:proshield_hand"
             },
-            "TrophyName:8": "Proshield Slayer",
+            "TrophyName:8": "抵御者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -64,7 +64,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:mirage_femur"
             },
-            "TrophyName:8": "Mirage Slayer",
+            "TrophyName:8": "幻象者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -81,7 +81,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:klobber_hand"
             },
-            "TrophyName:8": "Klobber Slayer",
+            "TrophyName:8": "虐杀者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

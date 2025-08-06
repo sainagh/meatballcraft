@@ -36,17 +36,17 @@
                 0
               ],
               "tasks:10": {
-                "task1:8": "Hydrogen",
-                "task2:8": "Helium",
-                "task3:8": "Lithium",
-                "task4:8": "Beryllium",
-                "task5:8": "Boron",
-                "task6:8": "Carbon",
-                "task7:8": "Nitrogen",
-                "task8:8": "Oxygen",
-                "task9:8": "Fluorine"
+                "task1:8": "氢",
+                "task2:8": "氦",
+                "task3:8": "锂",
+                "task4:8": "铍",
+                "task5:8": "硼",
+                "task6:8": "碳",
+                "task7:8": "氮",
+                "task8:8": "氧",
+                "task9:8": "氟"
               },
-              "title:8": "Defined Checklist"
+              "title:8": "定义清单"
             },
             "page10:10": {
               "taskStates:11": [
@@ -61,15 +61,15 @@
                 0
               ],
               "tasks:10": {
-                "task1:8": "Darmstadtium",
-                "task2:8": "Roentgenium",
-                "task3:8": "Copernicium",
-                "task4:8": "Nihonium",
-                "task5:8": "Flerovium",
-                "task6:8": "Moscovium",
-                "task7:8": "Livermorium",
-                "task8:8": "Tennessine",
-                "task9:8": "Oganesson"
+                "task1:8": "Ds",
+                "task2:8": "Rg",
+                "task3:8": "Cn",
+                "task4:8": "Nh",
+                "task5:8": "Fl",
+                "task6:8": "镆",
+                "task7:8": "Lv",
+                "task8:8": "Ts",
+                "task9:8": "Og"
               },
               "title:8": ""
             },
@@ -86,15 +86,15 @@
                 0
               ],
               "tasks:10": {
-                "task1:8": "Cerium",
-                "task2:8": "Praseodymium",
-                "task3:8": "Neodymium",
-                "task4:8": "Promethium",
-                "task5:8": "Samarium",
-                "task6:8": "Europium",
-                "task7:8": "Gadolinium",
-                "task8:8": "Terbium",
-                "task9:8": "Dysprosium"
+                "task1:8": "铈",
+                "task2:8": "镨",
+                "task3:8": "钕",
+                "task4:8": "钷",
+                "task5:8": "钐",
+                "task6:8": "铕",
+                "task7:8": "钆",
+                "task8:8": "铽",
+                "task9:8": "镝"
               },
               "title:8": ""
             },
@@ -111,15 +111,15 @@
                 0
               ],
               "tasks:10": {
-                "task1:8": "Holmium",
-                "task2:8": "Erbium",
-                "task3:8": "Thulium",
-                "task4:8": "Ytterbium",
-                "task5:8": "Lutetium",
-                "task6:8": "Thorium",
-                "task7:8": "Protactinium",
-                "task8:8": "Uranium",
-                "task9:8": "Neptunium"
+                "task1:8": "钬",
+                "task2:8": "铒",
+                "task3:8": "铥",
+                "task4:8": "镱",
+                "task5:8": "镥",
+                "task6:8": "钍",
+                "task7:8": "镤",
+                "task8:8": "铀",
+                "task9:8": "镎"
               },
               "title:8": ""
             },
@@ -136,15 +136,15 @@
                 0
               ],
               "tasks:10": {
-                "task1:8": "Plutonium",
-                "task2:8": "Americium",
-                "task3:8": "Curium",
-                "task4:8": "Berkelium",
-                "task5:8": "Californium",
-                "task6:8": "Einstenium",
-                "task7:8": "Fermium",
-                "task8:8": "Mendelevium",
-                "task9:8": "Nobelium"
+                "task1:8": "钚",
+                "task2:8": "镅",
+                "task3:8": "锔",
+                "task4:8": "锫",
+                "task5:8": "锎",
+                "task6:8": "锿",
+                "task7:8": "镄",
+                "task8:8": "钔",
+                "task9:8": "锘"
               },
               "title:8": ""
             },
@@ -161,9 +161,9 @@
                 0
               ],
               "tasks:10": {
-                "task1:8": "Lawrencium",
-                "task2:8": "Meatballium",
-                "task3:8": "Arbiterium",
+                "task1:8": "铹",
+                "task2:8": "肉丸素",
+                "task3:8": "理序素",
                 "task4:8": "",
                 "task5:8": "",
                 "task6:8": "",
@@ -186,17 +186,17 @@
                 0
               ],
               "tasks:10": {
-                "task1:8": "Neon",
-                "task2:8": "Sodium",
-                "task3:8": "Magnesium",
-                "task4:8": "Aluminum",
-                "task5:8": "Silicon",
-                "task6:8": "Phosphorous",
-                "task7:8": "Sulfur",
-                "task8:8": "Chlorine",
-                "task9:8": "Argon"
+                "task1:8": "氖",
+                "task2:8": "钠",
+                "task3:8": "镁",
+                "task4:8": "铝",
+                "task5:8": "硅",
+                "task6:8": "磷",
+                "task7:8": "硫",
+                "task8:8": "氯",
+                "task9:8": "氩"
               },
-              "title:8": "by puddinpopper"
+              "title:8": "作者：puddinpopper"
             },
             "page3:10": {
               "taskStates:11": [
@@ -211,15 +211,15 @@
                 0
               ],
               "tasks:10": {
-                "task1:8": "Potassium",
-                "task2:8": "Calcium",
-                "task3:8": "Scandium",
-                "task4:8": "Titanium",
-                "task5:8": "Vanadium",
-                "task6:8": "Chrome",
-                "task7:8": "Manganese",
-                "task8:8": "Iron",
-                "task9:8": "Cobalt"
+                "task1:8": "钾",
+                "task2:8": "钙",
+                "task3:8": "钪",
+                "task4:8": "钛",
+                "task5:8": "钒",
+                "task6:8": "铬",
+                "task7:8": "锰",
+                "task8:8": "铁",
+                "task9:8": "钴"
               },
               "title:8": ""
             },
@@ -236,15 +236,15 @@
                 0
               ],
               "tasks:10": {
-                "task1:8": "Nickel",
-                "task2:8": "Copper",
-                "task3:8": "Zinc",
-                "task4:8": "Gallium",
-                "task5:8": "Germanium",
-                "task6:8": "Arsenic",
-                "task7:8": "Selenium",
-                "task8:8": "Bromine",
-                "task9:8": "Krypton"
+                "task1:8": "镍",
+                "task2:8": "铜",
+                "task3:8": "锌",
+                "task4:8": "镓",
+                "task5:8": "锗",
+                "task6:8": "砷",
+                "task7:8": "硒",
+                "task8:8": "溴",
+                "task9:8": "氪"
               },
               "title:8": ""
             },
@@ -261,15 +261,15 @@
                 0
               ],
               "tasks:10": {
-                "task1:8": "Rubidium",
-                "task2:8": "Strontium",
-                "task3:8": "Yttrium",
-                "task4:8": "Zirconium",
-                "task5:8": "Niobium",
-                "task6:8": "Molybdenum",
-                "task7:8": "Technetium",
-                "task8:8": "Ruthenium",
-                "task9:8": "Rhodium"
+                "task1:8": "铷",
+                "task2:8": "锶",
+                "task3:8": "钇",
+                "task4:8": "锆",
+                "task5:8": "铌",
+                "task6:8": "钼",
+                "task7:8": "锝",
+                "task8:8": "钌",
+                "task9:8": "铑"
               },
               "title:8": ""
             },
@@ -286,15 +286,15 @@
                 0
               ],
               "tasks:10": {
-                "task1:8": "Palladium",
-                "task2:8": "Silver",
-                "task3:8": "Cadmium",
-                "task4:8": "Indium",
-                "task5:8": "Tin",
-                "task6:8": "Antimony",
-                "task7:8": "Tellurium",
-                "task8:8": "Iodine",
-                "task9:8": "Xenon"
+                "task1:8": "钯",
+                "task2:8": "银",
+                "task3:8": "镉",
+                "task4:8": "铟",
+                "task5:8": "锡",
+                "task6:8": "锑",
+                "task7:8": "碲",
+                "task8:8": "碘",
+                "task9:8": "氙"
               },
               "title:8": ""
             },
@@ -311,15 +311,15 @@
                 0
               ],
               "tasks:10": {
-                "task1:8": "Caesium",
-                "task2:8": "Barium",
-                "task3:8": "Lanthanum",
-                "task4:8": "Hafnium",
-                "task5:8": "Tantalum",
-                "task6:8": "Tungsten",
-                "task7:8": "Rhenium",
-                "task8:8": "Osmium",
-                "task9:8": "Iridium"
+                "task1:8": "铯",
+                "task2:8": "钡",
+                "task3:8": "镧",
+                "task4:8": "铪",
+                "task5:8": "钽",
+                "task6:8": "钨",
+                "task7:8": "铼",
+                "task8:8": "锇",
+                "task9:8": "铱"
               },
               "title:8": ""
             },
@@ -336,15 +336,15 @@
                 0
               ],
               "tasks:10": {
-                "task1:8": "Platinum",
-                "task2:8": "Gold",
-                "task3:8": "Mercury",
-                "task4:8": "Thallium",
-                "task5:8": "Lead",
-                "task6:8": "Bismuth",
-                "task7:8": "Polonium",
-                "task8:8": "Astatine",
-                "task9:8": "Radon"
+                "task1:8": "铂",
+                "task2:8": "金", 
+                "task3:8": "汞",
+                "task4:8": "铊",
+                "task5:8": "铅",
+                "task6:8": "铋",
+                "task7:8": "钋",
+                "task8:8": "砹",
+                "task9:8": "氡"
               },
               "title:8": ""
             },
@@ -361,15 +361,15 @@
                 0
               ],
               "tasks:10": {
-                "task1:8": "Francium",
-                "task2:8": "Radium",
-                "task3:8": "Actinium",
-                "task4:8": "Rutherfordium",
-                "task5:8": "Dubnium",
-                "task6:8": "Seaborgium",
-                "task7:8": "Bohrium",
-                "task8:8": "Hassium",
-                "task9:8": "Meitnerium"
+                "task1:8": "钫",
+                "task2:8": "镭",
+                "task3:8": "锕",
+                "task4:8": "Rf",
+                "task5:8": "Db",
+                "task6:8": "Sg",
+                "task7:8": "Bh",
+                "task8:8": "Hs",
+                "task9:8": "Mt"
               },
               "title:8": ""
             },

@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:coniferon_bark"
             },
-            "TrophyName:8": "Coniferon Slayer",
+            "TrophyName:8": "巨树人屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -47,7 +47,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:goldorth_golden_eye"
             },
-            "TrophyName:8": "Goldorth Slayer",
+            "TrophyName:8": "奥尔特屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -64,7 +64,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:penumbra_spike"
             },
-            "TrophyName:8": "Penumbra Slayer",
+            "TrophyName:8": "半影屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -81,7 +81,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:horon_tendon"
             },
-            "TrophyName:8": "Horon Slayer",
+            "TrophyName:8": "荣誉者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

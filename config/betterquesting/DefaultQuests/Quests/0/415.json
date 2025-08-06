@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:kajaros_rib"
             },
-            "TrophyName:8": "kajaros Slayer",
+            "TrophyName:8": "原始守护者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -47,7 +47,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:harkos_rib"
             },
-            "TrophyName:8": "Harkos Slayer",
+            "TrophyName:8": "原始暗杀者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -64,7 +64,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:miskel_rib"
             },
-            "TrophyName:8": "Miskel Slayer",
+            "TrophyName:8": "原始巫师屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -81,7 +81,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:okazor_rib"
             },
-            "TrophyName:8": "Okazor Slayer",
+            "TrophyName:8": "原始武士屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -98,7 +98,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:raxxan_rib"
             },
-            "TrophyName:8": "Raxxan Slayer",
+            "TrophyName:8": "原始摧心魔屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

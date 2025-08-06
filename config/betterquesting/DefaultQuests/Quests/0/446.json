@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:dracyon_tooth"
             },
-            "TrophyName:8": "Dracyon Slayer",
+            "TrophyName:8": "飞行守护者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -47,7 +47,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:hydrolisk_pincher"
             },
-            "TrophyName:8": "Hydrolisk Slayer",
+            "TrophyName:8": "水能龙蜥屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
