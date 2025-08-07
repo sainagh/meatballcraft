@@ -2428,7 +2428,7 @@
 
 <contenttweaker:actualized_warren_alloy>.addTooltip(format.red("感谢NerdySpider绘制的迷道合金纹理！"));
 
-<contenttweaker:unleashed_mithril_3>.addTooltip(format.red("感谢NerdySpider绘制的解封秘银纹理！"));
+<contenttweaker:unleashed_mithril_3>.addTooltip(format.red("感谢NerdySpider绘制的解缚蕴魔秘银纹理！"));
 
 <contenttweaker:recursium_ingot>.addTooltip(format.red("感谢NerdySpider绘制的递归素纹理！"));
 
