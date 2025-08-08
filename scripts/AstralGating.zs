@@ -1,3 +1,5 @@
+import crafttweaker.item.IItemStack;
+
 recipes.remove(<astralsorcery:blockblackmarble>);
 
 recipes.addShaped(<astralsorcery:blockblackmarble:0>*32, 
