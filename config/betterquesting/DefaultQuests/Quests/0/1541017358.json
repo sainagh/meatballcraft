@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    2138
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "果然如我所料。过去被隐藏、被篡改，但并非我预想的“历史抹除”。\n作为远古罪行的一部分，符境居民的心智——所有诞生于此地之人的意识——都被篡改，并且持续被扭曲以遗忘符银的存在。\n我不知缘由，但知晓始作俑者。三名如今已成幽影的祭司，他们曾在符境的宗教体系中扮演要角。在一场严重到连幽影都不敢宣之于口的远古背叛后，这道遗忘咒术便被施加于背叛者及其后代身上。\n如今整个符境都笼罩在这个咒术之下。我只能推测，或许这场背叛涉及某种灭绝战争。否则，为何竟无人能知晓符银的存在？",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:forsaken_priests_callstone"
+      },
+      "name:8": "符银祭司"
+    }
+  },
+  "questID:3": 1541017358,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:forsaken_priests_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:standard_of_the_love"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:standard_of_the_loved"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:standard_of_the_lover"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -2560,11 +2560,17 @@
 
 <contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("我太爱赌博了，特别是暮色战士这款"));
 <contenttweaker:vow_to_death>.addTooltip(format.red("我太爱赌博了，特别是暮色战士这款"));
+<contenttweaker:vow_to_death>.addTooltip(format.red("配方里虽然没有提到，但你也可以使用迷宫破坏者  ;)"));
 <contenttweaker:oath_of_the_seven_undead_lords>.addTooltip(format.red("我太爱赌博了，特别是暮色战士这款"));
 
 <contenttweaker:gun_devil_limb>.addTooltip(format.red("我太爱赌博了，特别是塞尔瑞战士这款"));
 
 <avaritiaitem:bedrock_blaster>.addTooltip(format.red("对基岩右击以破坏周围基岩"));
+
+<contenttweaker:entropyum_ingot>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:fractallium_ingot>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:holy_shimmer>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:holy_sludge_crystal>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 
 
 
@@ -3021,23 +3027,7 @@
 
 
 
-<contenttweaker:electricarcfurnacemultipreview>.addTooltip(format.red("匠魂锤材料：混沌核心工具手柄，无尽锤头，振金合金左大板，飞升神龙合金右大板"));
 
-<contenttweaker:aoadimensionsrandomloot>.addTooltip(format.red("匠魂锤材料：混沌核心工具手柄，无尽锤头，振金合金左大板，飞升神龙合金右大板"));
-
-
-<contenttweaker:tinkermaterialgoodness>.addTooltip(format.red("匠魂锤材料：混沌核心工具手柄，无尽锤头，振金合金左大板，飞升神龙合金右大板"));
-
-
-<contenttweaker:biomepuzzlerework>.addTooltip(format.red("匠魂锤材料：混沌核心工具手柄，无尽锤头，振金合金左大板，飞升神龙合金右大板"));
-
-<contenttweaker:infinityfurnacenew>.addTooltip(format.red("匠魂锤材料：混沌核心工具手柄，无尽锤头，振金合金左大板，飞升神龙合金右大板"));
-
-
-
-<contenttweaker:mythicprocessorchemreactor>.addTooltip(format.red("匠魂锤材料：混沌核心工具手柄，无尽锤头，振金合金左大板，飞升神龙合金右大板"));
-
-<contenttweaker:mythicprocessorfluidinfuser>.addTooltip(format.red("匠魂锤材料：混沌核心工具手柄，无尽锤头，振金合金左大板，飞升神龙合金右大板"));
 
 
 

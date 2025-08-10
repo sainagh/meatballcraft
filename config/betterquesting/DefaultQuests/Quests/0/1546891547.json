@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    352701878
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:recursion_focusing_fabrial"
+      },
+      "name:8": "高效聚焦"
+    }
+  },
+  "questID:3": 1546891547,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:recursion_focusing_fabrial"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_recfocusfab"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

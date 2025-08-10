@@ -1,0 +1,77 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    945,
+    996
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:soulstone_pickaxe",
+        "tag:10": {
+          "display:10": {
+            "Lore:9": {
+              "0:8": "§d§o超限附魔§r"
+            },
+            "Name:8": "§6§o可爱多镐§r"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:3": 32,
+              "lvl:3": 25
+            },
+            "1:10": {
+              "id:3": 99,
+              "lvl:3": 1
+            },
+            "2:10": {
+              "id:3": 35,
+              "lvl:3": 18
+            }
+          }
+        }
+      },
+      "name:8": "可爱多镐"
+    }
+  },
+  "questID:3": 623338086,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:soulstone_pickaxe",
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§o超限附魔§r"
+              },
+              "Name:8": "§6§o可爱多镐§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 32,
+                "lvl:3": 25
+              },
+              "1:10": {
+                "id:3": 99,
+                "lvl:3": 1
+              },
+              "2:10": {
+                "id:3": 35,
+                "lvl:3": 18
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

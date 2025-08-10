@@ -101,7 +101,7 @@ recipes.addShaped(<aoa3:shadow_sword>,
 [<contenttweaker:enhanced_chaos_shard>, <ore:stickWood>, <contenttweaker:enhanced_chaos_shard>]]);
 
 recipes.addShaped(<contenttweaker:summons_to_the_army_of_darkness>,
-[[<contenttweaker:immortal_bone_dust>, <contenttweaker:bane_tusk>, <contenttweaker:immortal_bone_dust>],
+[[<contenttweaker:immortal_bone_dust>, <contenttweaker:ghoul_spirit>, <contenttweaker:immortal_bone_dust>],
 [<contenttweaker:hard_bone>, <contenttweaker:corrupted_aragonite>, <contenttweaker:hard_bone>],
 [<contenttweaker:immortal_bone_dust>, <contenttweaker:bane_tusk>, <contenttweaker:immortal_bone_dust>]]);
 

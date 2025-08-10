@@ -3208,10 +3208,6 @@ standardofthelove.maxStackSize = 64;
 standardofthelove.beaconPayment = false;
 standardofthelove.register();
 
-var strangeopalescentstone = VanillaFactory.createItem("strange_opalescent_stone");
-strangeopalescentstone.maxStackSize = 64;
-strangeopalescentstone.beaconPayment = false;
-strangeopalescentstone.register();
 
 var strangeopalescentstick = VanillaFactory.createItem("strange_opalescent_stick");
 strangeopalescentstick.maxStackSize = 64;

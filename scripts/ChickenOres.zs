@@ -151,7 +151,7 @@ creationunidentified1.build();
 
 
 recipes.addShapeless(<contenttweaker:paradoxical_egg>,
-[<contenttweaker:unidentified_egg>,
+[<contenttweaker:unidentifying_egg>,
 <contenttweaker:recursion_of_clarity>]);
 
 

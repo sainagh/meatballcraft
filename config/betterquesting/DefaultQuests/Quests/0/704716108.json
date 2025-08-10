@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    585232112
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:leash_of_the_final_hour"
+      },
+      "name:8": "巨龙收割者"
+    }
+  },
+  "questID:3": 704716108,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:blackfrost_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:leash_of_the_final_hour"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

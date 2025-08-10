@@ -2898,6 +2898,13 @@ apostlemycelium.setToolClass("pickaxe");
 apostlemycelium.setToolLevel(3);
 apostlemycelium.register();
 
+var strangeopalescentstone = VanillaFactory.createBlock("strange_opalescent_stone", <blockmaterial:iron>);
+strangeopalescentstone.setBlockHardness(1.0);
+strangeopalescentstone.setBlockResistance(2.5);
+strangeopalescentstone.setToolClass("pickaxe");
+strangeopalescentstone.setToolLevel(3);
+strangeopalescentstone.register();
+
 
 
 
