@@ -1891,13 +1891,13 @@
 <contenttweaker:hypergrowth_actualizer>.addTooltip(format.red("多方块升级，超高速生长灌注器：产出x4"));
 <contenttweaker:trinity_hypergrowth_component>.addTooltip(format.red("多方块升级，超高速生长灌注器：产出x16"));
 <contenttweaker:cosmic_hypergrowth_component>.addTooltip(format.red("多方块升级，超高速生长灌注器：产出x64"));
-<contenttweaker:headstone>.addTooltip(format.red("多方快升级，灵魂积聚器：速度x10"));
-<contenttweaker:sacred_cinders_wood>.addTooltip(format.red("多方快升级，机械鸡舍：产出x10"));
-<contenttweaker:fracturing_stone>.addTooltip(format.red("多方快升级，暗影破壳器：x8并行，87.5%流体减免"));
-<contenttweaker:hungering_machine_case>.addTooltip(format.red("多方快升级，ME神话装配室：速度x5"));
-<contenttweaker:miniature_white_hole>.addTooltip(format.red("多方快升级，混击器：产出x2"));
-<contenttweaker:sanguine_neural_network>.addTooltip(format.red("多方快升级，敌对演算单元：产出x4"));
-<contenttweaker:matrix_plasma_fusor>.addTooltip(format.red("多方快升级，惯性约束反应堆：x4并行"));
+<contenttweaker:headstone>.addTooltip(format.red("多方块升级，灵魂积聚器：速度x10"));
+<contenttweaker:sacred_cinders_wood>.addTooltip(format.red("多方块升级，机械鸡舍：产出x10"));
+<contenttweaker:fracturing_stone>.addTooltip(format.red("多方块升级，暗影破壳器：x8并行，87.5%流体减免"));
+<contenttweaker:hungering_machine_case>.addTooltip(format.red("多方块升级，ME神话装配室：速度x5"));
+<contenttweaker:miniature_white_hole>.addTooltip(format.red("多方块升级，混击器：产出x2"));
+<contenttweaker:sanguine_neural_network>.addTooltip(format.red("多方块升级，敌对演算单元：产出x4"));
+<contenttweaker:matrix_plasma_fusor>.addTooltip(format.red("多方块升级，惯性约束反应堆：x4并行"));
 
 
 <thebetweenlands:lurker_skin_pouch>.addTooltip(format.red("该物品可以将物品带进梦魇世界（好耶！）"));
