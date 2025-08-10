@@ -10,7 +10,7 @@
             "z": 2,
             "description": "输出x10",
             "modifier": {
-                "io": "input",
+                "io": "output",
                 "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 10
