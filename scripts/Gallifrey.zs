@@ -794,7 +794,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:strange_stone_call
 [<contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:ender_divine_ore>, <contenttweaker:defined_ingot>, <contenttweaker:ender_divine_ore>, <contenttweaker:imperfect_gallifreyan_plate>], 
 [<contenttweaker:ender_divine_ore>, <contenttweaker:defined_ingot>, <contenttweaker:fifth_order_mythic_fractal>, <contenttweaker:defined_ingot>, <contenttweaker:ender_divine_ore>], 
 [<contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:ender_divine_ore>, <contenttweaker:defined_ingot>, <contenttweaker:ender_divine_ore>, <contenttweaker:imperfect_gallifreyan_plate>], 
-[<contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:ender_divine_ore>, <contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:imperfect_gallifreyan_plate>]]);   
+[<contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:ender_divine_ore>, <contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:imperfect_gallifreyan_plate>]]);  
 
 
 

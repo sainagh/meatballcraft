@@ -331,6 +331,11 @@ recipes.addShaped(<extratrees:food:40>*4,
 [<forestry:fruits:6>, <extratrees:food:40>, <forestry:fruits:6>],
 [null, <forestry:fruits:6>, null]]);
 
+recipes.addShaped(<extratrees:food:40>*32,
+[[<contenttweaker:sacred_cinders_fruit>, <forestry:fruits:6>, <contenttweaker:sacred_cinders_fruit>],
+[<forestry:fruits:6>, <extratrees:food:40>, <forestry:fruits:6>],
+[<contenttweaker:sacred_cinders_fruit>, <forestry:fruits:6>, <contenttweaker:sacred_cinders_fruit>]]);
+
 recipes.addShapeless(<contenttweaker:cajun_spice>,
 [<bewitchment:garlic>,
 <aoa3:chilli>,
