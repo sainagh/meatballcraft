@@ -2027,7 +2027,7 @@ callfullmoon.itemRightClick = function(stack, world, player, hand) {
     }
 
 
-    sstack.shrink(1);
+    stack.shrink(1);
     return "PASS";
 
 };
