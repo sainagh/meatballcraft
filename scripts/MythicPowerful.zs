@@ -933,7 +933,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 		[<aoa3:vitality_tablet>, <divinerpg:jungle_stone>, <aoa3:vitality_tablet>]]);
 	
 	//	Cermile
-	recipes.addShaped(<divinerpg:cermile_staff>.withTag({display: {Name: "§d§oCermile Staff§r"}}),
+	recipes.addShaped(<divinerpg:cermile_staff>.withTag({display: {Name: "§d§o魔化法杖§r"}}),
 		[[<aoa3:medium_skill_crystal>, <divinerpg:shadow_stone>, <aoa3:medium_skill_crystal>],
 		[<divinerpg:shadow_stone>, <divinerpg:darven_staff>.withTag({display: {Name: "§c§o闪耀法杖§r"}}, false), <divinerpg:shadow_stone>],
 		[<aoa3:medium_skill_crystal>, <divinerpg:shadow_stone>, <aoa3:medium_skill_crystal>]]);
@@ -941,7 +941,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 	//	Pardimal
 	recipes.addShaped(<divinerpg:pardimal_staff>.withTag({display: {Name: "§5§o刑罚法杖§r"}}),
 		[[<projectex:matter:6>, <divinerpg:terran_stone>, <projectex:matter:6>],
-		[<divinerpg:terran_stone>, <divinerpg:cermile_staff>.withTag({display: {Name: "§d§oCermile Staff§r"}}, false), <divinerpg:terran_stone>],
+		[<divinerpg:terran_stone>, <divinerpg:cermile_staff>.withTag({display: {Name: "§d§o魔化法杖§r"}}, false), <divinerpg:terran_stone>],
 		[<projectex:matter:6>, <divinerpg:terran_stone>, <projectex:matter:6>]]);
 	
 	//	Quadrotic
