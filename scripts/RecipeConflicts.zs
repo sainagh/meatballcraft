@@ -1907,54 +1907,37 @@ recipes.addShaped(<contenttweaker:whispering_meatball>*2,
 [<contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>]]);
 
 
-recipes.addShapeless(<contenttweaker:alchemical_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<minecraft:iron_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<minecraft:gold_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<thermalfoundation:ore:0>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<thermalfoundation:ore:1>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<minecraft:redstone_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<minecraft:diamond_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<libvulpes:ore0:0>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<libvulpes:ore0:8>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<thermalfoundation:ore:7>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<bigreactors:oreanglesite>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<bigreactors:orebenitoite>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<thermalfoundation:ore:8>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<divinerpg:arlemite_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<divinerpg:realmite_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<divinerpg:rupee_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<divinerpg:bloodgem_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<divinerpg:netherite_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<aoa3:rosite_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<aoa3:limonite_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<aoa3:runium_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<aoa3:sapphire_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<aoa3:jade_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<aoa3:amethyst_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+// Orbital Laser Drops list
+var orbitalLaserOres as IItemStack[] = [
+    <minecraft:iron_ore>,
+    <minecraft:gold_ore>,
+    <thermalfoundation:ore:0>,
+    <thermalfoundation:ore:1>,
+    <minecraft:redstone_ore>,
+    <minecraft:diamond_ore>,
+    <libvulpes:ore0:0>,
+    <libvulpes:ore0:8>,
+    <thermalfoundation:ore:7>,
+    <bigreactors:oreanglesite>,
+    <bigreactors:orebenitoite>,
+    <thermalfoundation:ore:8>,
+    <divinerpg:arlemite_ore>,
+    <divinerpg:realmite_ore>,
+    <divinerpg:rupee_ore>,
+    <divinerpg:bloodgem_ore>,
+    <divinerpg:netherite_ore>,
+    <aoa3:rosite_ore>,
+    <aoa3:limonite_ore>,
+    <aoa3:runium_ore>,
+    <aoa3:sapphire_ore>,
+    <aoa3:jade_ore>,
+    <aoa3:amethyst_ore>
+];
+
+// Add recipes for Orbital Laser Drops
+for ore in orbitalLaserOres {
+    recipes.addShapeless(ore, [<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+}
 
 recipes.remove(<natura:respawn_obelisk>);
 
