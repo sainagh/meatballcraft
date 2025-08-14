@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Out of the many members that make up the undead of the Meatball Man, the dreaded ones seem to have the most freedom.\nUnlike the rest of the undead, they seem to operate independently, and they have more sentience as opposed to the rest. They were placed on Terra to keep an eye on the happenings there, and they are based in many other locations around the universe, as the intelligence-gathering network of the Meatball Man.\nTheir ability to operate independently is most peculiar, given how the powers of the Meatball Man work. All of his slaves, no matter how powerful, are dirctly subject to hist will. They can fight, they can perform individual tasks, but they cannot do things as complex as spying people.\nSomething tells me it may be a different necromancer that handles the dread...",
+      "desc:8": "在肉丸人麾下的众多亡灵成员中，那些怖惧者似乎享有最大自由。\n与其他亡灵不同，它们能独立行动，且具备更高级的自我意识。这些存在被部署在泰拉监视局势，同时遍布宇宙各处，构成肉丸人的情报网络。\n它们独立运作的能力极为反常，毕竟按照肉丸人的力量法则，所有奴仆无论强弱都直接受其意志支配。虽然奴仆们能战斗或执行单独任务，但绝无可能完成监视人类这类复杂行动。\n冥冥中有种预感：或许操纵这些怖惧者的，是另一位死灵法师……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:icy_dreadful_shard"
       },
-      "name:8": "Truly Dreadful"
+      "name:8": "真的很恐怖"
     }
   },
   "questID:3": 2127,

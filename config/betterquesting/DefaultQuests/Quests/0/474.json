@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oStart Making this ASAP!\n\nThis way for Cursed Sapphire and some Meteoric Befaller!\n\n§fI knew there was a point to spending more time studying Will and Life Essence. I was not satiated with the fairly basicgadgets I produced so far. This is the fields that emerge around living beings, after all, there must be something else.\nAnd indeed, there is something else.\nIf the isolated materials that exude these fields are combined in truly massive amounts, they form an alloy that is capable of redirecting the Will of those around it, and use it as a weapon. This is how you get the powerful Thorns enchantments the bees were mentioning!",
+      "desc:8": "§7§o早点开始做！\n\n该任务线通往诅咒蓝宝石和部分坠星相关内容！\n\n§f我就知道多花时间研究意志与生命源质是有意义的。我并不满足于目前那些相当基础的装置。毕竟这是环绕生命体涌现的场域，肯定还有其他奥秘。\n果然，确实另有玄机。\n当这些散发场域的孤立材料以极其庞大的数量结合时，就会形成一种能够引导周围生物意志，并将其转化为武器的合金。这就是蜜蜂提到的强大荆棘魔咒的由来！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:sacrifice_metal_clump"
       },
-      "name:8": "Sacrifice Metal Clump"
+      "name:8": "献祭金属碎块"
     }
   },
   "questID:3": 474,

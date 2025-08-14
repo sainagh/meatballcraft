@@ -135,6 +135,37 @@ creationunidentified.addItemInput(<contenttweaker:unidentified_egg>);
 creationunidentified.addItemOutput(<contenttweaker:unidentified_ingot>*4);
 creationunidentified.build();
 
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:unidentified_egg>, <fluid:arbiterium>*1, <contenttweaker:unidentifying_egg>]);
+
+val creationunidentified1 = RecipeBuilder.newBuilder("creationunidentified1","creation_altar",20);
+creationunidentified1.addEnergyPerTickInput(400000);
+creationunidentified1.addFluidInput(<fluid:lifeessence>*100);
+creationunidentified1.addFluidInput(<fluid:astralsorcery.liquidstarlight>*100);
+creationunidentified1.addFluidInput(<fluid:liquid_death>*100);
+creationunidentified1.addFluidInput(<fluid:liquid_pe>*100);
+creationunidentified1.addFluidInput(<fluid:liquid_lp>*100);
+creationunidentified1.addFluidInput(<fluid:californium_250>*100);
+creationunidentified1.addItemInput(<contenttweaker:unidentifying_egg>);
+creationunidentified1.addItemOutput(<contenttweaker:unidentified_ingot>*16);
+creationunidentified1.build();
+
+
+recipes.addShapeless(<contenttweaker:paradoxical_egg>,
+[<contenttweaker:unidentifying_egg>,
+<contenttweaker:recursion_of_clarity>]);
+
+
+val creationunidentified2 = RecipeBuilder.newBuilder("creationunidentified2","creation_altar",20);
+creationunidentified2.addEnergyPerTickInput(400000);
+creationunidentified2.addFluidInput(<fluid:lifeessence>*300);
+creationunidentified2.addFluidInput(<fluid:astralsorcery.liquidstarlight>*300);
+creationunidentified2.addFluidInput(<fluid:liquid_death>*300);
+creationunidentified2.addFluidInput(<fluid:liquid_pe>*300);
+creationunidentified2.addFluidInput(<fluid:liquid_lp>*300);
+creationunidentified2.addFluidInput(<fluid:californium_250>*300);
+creationunidentified2.addItemInput(<contenttweaker:paradoxical_egg>);
+creationunidentified2.addItemOutput(<contenttweaker:unidentified_ingot>*64);
+creationunidentified2.build();
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<deepmoblearning:glitch_infused_ingot>, <contenttweaker:glitch_infused_egg>, <extrabees:honey_comb:27>, 5000);
 
@@ -258,10 +289,10 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<materialpart:lunastone:ingot>*
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:chaotic_egg>, <fluid:abyssite>*144, <fluid:chaos>*1440]);
 
 mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:abyssite>*144, <fluid:twilight_fire>*20, <fluid:slumbering_abyssite>*144, null]);
-mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:chaotic_egg>, <fluid:slumbering_abyssite>*144, <fluid:chaos>*2880]);
+// mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:chaotic_egg>, <fluid:slumbering_abyssite>*144, <fluid:chaos>*2880]);
 
 mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:slumbering_abyssite>*144, <fluid:shyrestone>*36, <fluid:imperial_abyssite>*144, null]);
-mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:chaotic_egg>, <fluid:imperial_abyssite>*144, <fluid:chaos>*14400]);
+// mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:chaotic_egg>, <fluid:imperial_abyssite>*144, <fluid:chaos>*14400]);
 
 mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:imperial_abyssite>*144, <fluid:flesh_world_ichor>*100, <fluid:gluttonous_abyssite>*144, null]);
 // mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:chaotic_egg>, <fluid:gluttonous_abyssite>*12, <fluid:chaos>*14400]);
@@ -277,3 +308,4 @@ recipes.addShaped(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweake
 [[<agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>],
 [<soulshardsrespawn:materials:1>, <minecraft:egg>, <soulshardsrespawn:materials:1>],
 [<agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>]]);
+

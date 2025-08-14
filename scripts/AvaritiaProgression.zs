@@ -289,17 +289,17 @@ mods.avaritia.ExtremeCrafting.addShaped("maketheultimatestewdire",
 <contenttweaker:just_jambalaya>, <contenttweaker:sausage_sandwich>, <contenttweaker:just_jambalaya>,
 <contenttweaker:bento_xxxl>, <contenttweaker:monolithic_meal>, <contenttweaker:cube_jello_cubes>],
 
-[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
+[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
 <contenttweaker:dragon_egg_omelette>, <contenttweaker:strange_meatball>, <contenttweaker:dragon_egg_omelette>,
-<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"})],
+<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"})],
 
 [<contenttweaker:dried_vishroom>, <contenttweaker:really_golden_steak>, <contenttweaker:chocolate_cherry_truffle>, 
 <contenttweaker:hearty_meatball>, <xreliquary:apothecary_cauldron>, <contenttweaker:hearty_meatball>,
 <contenttweaker:chocolate_cherry_truffle>, <contenttweaker:really_golden_steak>, <contenttweaker:dried_vishroom>],
 
-[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
+[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
 <contenttweaker:dragon_egg_omelette>, <contenttweaker:strange_meatball>, <contenttweaker:dragon_egg_omelette>,
-<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"})],
+<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"})],
 
 [<contenttweaker:cube_jello_cubes>, <contenttweaker:monolithic_meal>, <contenttweaker:bento_xxxl>, 
 <contenttweaker:just_jambalaya>, <contenttweaker:sausage_sandwich>, <contenttweaker:just_jambalaya>,
@@ -330,17 +330,17 @@ mods.avaritia.ExtremeCrafting.addShaped("maketheultimatestewdire2",
 <contenttweaker:just_jambalaya>, <contenttweaker:sausage_sandwich>, <contenttweaker:just_jambalaya>,
 <contenttweaker:bento_xxxl>, <contenttweaker:monolithic_meal>, <contenttweaker:cube_jello_cubes>],
 
-[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
+[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
 <contenttweaker:dragon_egg_omelette>, <contenttweaker:strange_meatball>, <contenttweaker:dragon_egg_omelette>,
-<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"})],
+<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"})],
 
 [<contenttweaker:dried_vishroom>, <contenttweaker:really_golden_steak>, <contenttweaker:chocolate_cherry_truffle>, 
 <contenttweaker:hearty_meatball>, <contenttweaker:cosmic_pot>, <contenttweaker:hearty_meatball>,
 <contenttweaker:chocolate_cherry_truffle>, <contenttweaker:really_golden_steak>, <contenttweaker:dried_vishroom>],
 
-[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
+[<xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"}), <contenttweaker:radioactive_nachos>, <contenttweaker:disgusting_omelette>, 
 <contenttweaker:dragon_egg_omelette>, <contenttweaker:strange_meatball>, <contenttweaker:dragon_egg_omelette>,
-<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "扭曲奶昔"})],
+<contenttweaker:disgusting_omelette>, <contenttweaker:radioactive_nachos>, <xreliquary:potion>.withTag({effects: [{duration: 600, potency: 1, name: "thaumcraft:thaumarhia"}], hasPotion: 1 as byte, Name: "Warp Milkshake"})],
 
 [<contenttweaker:cube_jello_cubes>, <contenttweaker:monolithic_meal>, <contenttweaker:bento_xxxl>, 
 <contenttweaker:just_jambalaya>, <contenttweaker:sausage_sandwich>, <contenttweaker:just_jambalaya>,

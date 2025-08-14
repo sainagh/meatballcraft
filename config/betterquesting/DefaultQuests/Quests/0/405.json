@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While the Twilight Horde seems to have no technology of their own, they seem to recognize its important role in this cosmic playground (or warground).\nThe disappearence of the Queen of all Bees, who from what I know posses the powers that allowed Bee civilization to spread and flourish throughout the universe, was not an isolated incident. The secret kept in Skythern is an interesting energy production technology.\nColor too, as so many other things in this grand place that is the universe, has a connection with recursion, and one that will be absolutely useful for my energy infrastructure!",
+      "desc:8": "虽然暮光部落看似没有自己的科技体系，但他们似乎已认识到技术在这个宇宙游乐场（或者说战场）中的关键作用。\n据我所知，那位掌握着让蜜蜂文明得以在宇宙间开枝散叶的万蜂女皇的失踪并非个案。而空境中隐藏的秘密，正是一项令人瞩目的能源生产科技。\n在这片宏伟的宇宙，就连色彩（如同其他万千事物一样）都与递归法则存在关联。对我的能源基建体系而言，这种关联必将展现出无可替代的价值！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extrautils2:rainbowgenerator"
       },
-      "name:8": "A Rainbow of Power"
+      "name:8": "能量之虹"
     }
   },
   "questID:3": 405,

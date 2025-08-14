@@ -2,8 +2,8 @@
   "path": "vanilla/plants/wheat_plant.json",
   "enabled": true,
   "id": "vanilla:wheat_plant",
-  "plant_name": "Wheat",
-  "seed_name": "Wheat Seeds",
+  "plant_name": "小麦",
+  "seed_name": "小麦种子",
   "seed_items": [
     {
       "item": "minecraft:wheat_seeds",

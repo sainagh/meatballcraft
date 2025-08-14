@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Stormlight-infused gemstones, the ancient light of Lyndenwyrm, have strong interactions with Draconium. \nNot unlike many materials I have encountered or synthesized before, it has recursive properties; unlike anything else so far, though, its interactions remind more of a Fractallite being.\nNot only the material touches the recursive field around it, it actively changes it and its behavior. \nThis can be used as a weapon, a possibly powerful one...",
+      "desc:8": "飓光灌注的宝石，这些源自树龙界的古老光芒，与龙矿会产生强烈相互作用。\n与我此前遭遇或合成的诸多物质相似，它具有递归特性；但迄今为止最独特的是，其相互作用模式更近似于分形存在。\n该材料不仅会触及周边的递归产于，更能主动改变场域形态及其行为模式。\n此特性可被转化为武器，极其强大的武器……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:ascended_draconium_ingot"
       },
-      "name:8": "Draconian Influence in the Belt"
+      "name:8": "小行星带上的龙类影响"
     }
   },
   "questID:3": 2144,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:stormlight_infused_crystal"
             },
-            "TrophyName:8": "Draconically Ascended",
+            "TrophyName:8": "神龙飞升",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -2,8 +2,8 @@
   "path": "resource/plants/aurigold_plant.json",
   "enabled": true,
   "id": "resource:aurigold_plant",
-  "plant_name": "Aurigold",
-  "seed_name": "Aurigold Seeds",
+  "plant_name": "金光花",
+  "seed_name": "金光花种子",
   "seed_items": [],
   "description": {
     "translations": {},

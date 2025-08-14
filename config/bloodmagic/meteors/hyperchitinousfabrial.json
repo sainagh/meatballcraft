@@ -26,6 +26,10 @@
     {
       "weight": 10,
       "oreName": "orePetrifiedWood"
+    },
+    {
+      "weight": 10,
+      "oreName": "oreScabyst"
     }],
   "explosionStrength": 10.0,
   "radius": 5,

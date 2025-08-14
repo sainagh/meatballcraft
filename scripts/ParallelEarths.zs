@@ -329,18 +329,9 @@ imstuckgetmehome.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if(player.getDimension() != 684) {
-		if(player.getDimension() != 685) {
-			if(player.getDimension() != 686) {
-				if(player.getDimension() != 687) {
-					if(player.getDimension() != 66) {
-        				player.sendChat("该物品能让你从维度门、混沌之地和灵薄狱中脱身");
-        				return "FAIL";
-					}
-				}
-			}
-		}
-    }
+    player.sendChat("该物品能让你在卡在某个地方，但又不想作弊时传送回重生点。");
+
+
 	Commands.call("spawn", player, world, true, true);
 	return "Pass";
 };

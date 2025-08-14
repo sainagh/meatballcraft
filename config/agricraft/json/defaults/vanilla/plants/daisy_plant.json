@@ -2,8 +2,8 @@
   "path": "vanilla/plants/daisy_plant.json",
   "enabled": true,
   "id": "vanilla:daisy_plant",
-  "plant_name": "Daisy",
-  "seed_name": "Daisy Seeds",
+  "plant_name": "滨菊",
+  "seed_name": "滨菊种子",
   "seed_items": [],
   "description": {
     "translations": {},

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis and the following multiblocks all share the same central Quasar, check the compact machines previews for each controller for build guides",
+      "desc:8": "§7§o该多方块及后续结构共用同一个中心类星体，查看每个控制器的压缩空间预览来获得搭建指导",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:dark_matter_node"
       },
-      "name:8": "Quasar Gang - Scattered Edition"
+      "name:8": "类星体小队 - 散射"
     }
   },
   "questID:3": 1522720224,

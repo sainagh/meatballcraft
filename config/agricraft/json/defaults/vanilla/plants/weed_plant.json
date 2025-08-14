@@ -2,8 +2,8 @@
   "path": "vanilla/plants/weed_plant.json",
   "enabled": false,
   "id": "vanilla:weed_plant",
-  "plant_name": "Weed",
-  "seed_name": "Weed Seeds",
+  "plant_name": "杂草",
+  "seed_name": "杂草种子",
   "seed_items": [],
   "description": {
     "translations": {},

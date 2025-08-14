@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "As I saw before in Oi, the Meatball Man is actively seeking out a nuclear arsenal, but it is not just that.\nHe seems to have infiltrated the Vox Ponds in search of more weapons of mass destruction. \nThose that fall under the powers of the Meatball Man, together with another restriction about their character and their actions in life, need to \u0027fall before their time\u0027, killed by another being.\nInstead of just capitalizing on the certainly massive amount of wars currently taking place in the universe, this sociopath is actively nuking planets to gather more faithful. It does not matter that just a small portion of those that die end up becoming undead, he just wants more.",
+      "desc:8": "正如我先前在奥伊所见，肉丸人正在积极搜寻核武库，但这并非全部。\n祂似乎已渗透进未知维度，寻找更多大规模杀伤性武器。\n那些受肉丸人力量支配的存在，还需满足另一项关于其性格与生前行为的限制条件，必须“未及命终而陨”，即被其他存在所杀。\n这个反社会者并非仅利用宇宙中大量爆发的战争，而是主动用核弹摧毁行星来收集更多信徒。即便只有一小部分死者会转化为亡灵，祂也毫不在意，只求数量。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:gem_of_gluttony"
       },
-      "name:8": "Such Voracity"
+      "name:8": "如此贪食"
     }
   },
   "questID:3": 2126,

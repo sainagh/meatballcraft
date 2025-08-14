@@ -22,7 +22,7 @@ modpackpuzzleJEI.onTooltip(function(mouseX, mouseY) as string[]{
     return ["开动大脑！"];
   }  
   else if (mouseX <= 85 && mouseX >= 64 && mouseY <= 35 && mouseY >= 25) {
-    return ["获得左侧物品后即可完成谜题"];
+    return ["获得左侧物品后即可着手完成谜题"];
   }
   return [];
 });
@@ -359,6 +359,14 @@ undeadsoil.addInput(<contenttweaker:summons_to_the_meatball_man>);
 undeadsoil.setOutputs([<contenttweaker:undead_soil>]);
 undeadsoil.build();
 
+val recursionfocusing = JEI.createJeiRecipe("meatball_puzzle");
+recursionfocusing.addInput(<contenttweaker:call_to_mission>);
+recursionfocusing.setOutputs([<contenttweaker:recursion_focusing_fabrial>]);
+recursionfocusing.build();
 
+val gemdimensionalascension = JEI.createJeiRecipe("meatball_puzzle");
+gemdimensionalascension.addInput(<contenttweaker:stone_of_dimensional_ascension>);
+gemdimensionalascension.setOutputs([<contenttweaker:gem_of_dimensional_ascension>]);
+gemdimensionalascension.build();
 
 

@@ -1,0 +1,205 @@
+{
+    "name": "compactmachines3:thaumcraft_terraformer1",
+    "target-item": "thaumicaugmentation:arcane_terraformer",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+    "input-types": {
+      "a": {
+        "id": "thaumcraft:tube",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:tube",
+            "count": 13
+          }
+      },
+      "b": {
+        "id": "thaumicaugmentation:impetus_relay",
+        "meta": 1,
+        "item": {
+            "id": "thaumicaugmentation:impetus_relay",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "thaumcraft:jar_normal",
+        "meta": 0,
+        "item": {
+            "id": "thaumcraft:jar_normal",
+            "count": 5
+          }
+      },
+      "d": {
+        "id": "minecraft:tripwire",
+        "meta": 0,
+        "item": {
+            "id": "thaumicaugmentation:gauntlet",
+            "count": 1
+          }
+      },
+      "e": {
+        "id": "contenttweaker:fusion_core_placeholder",
+        "meta": 0,
+        "item": {
+            "id": "thaumicaugmentation:arcane_terraformer",
+            "count": 1
+          }
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{id:\"thaumcraft:tiletube\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},amount:0,side:0,open:[B;1B,1B,1B,1B,1B,1B],samount:30}"
+      },
+      "a:B": {
+        "nbt": "{id:\"thaumcraft:tiletube\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},amount:0,side:2,open:[B;1B,1B,1B,1B,1B,1B],samount:31}"
+      },
+      "b:A": {
+        "nbt": "{node:{inputs:[],outputs:[]},id:\"thaumicaugmentation:impetus_relay\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+      },
+      "c:A": {
+        "nbt": "{id:\"thaumcraft:tilejar\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},Amount:0s,facing:5b,blocked:0b}"
+      },
+      "a:C": {
+        "nbt": "{id:\"thaumcraft:tiletube\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},amount:0,side:0,open:[B;1B,1B,1B,1B,1B,1B],samount:29}"
+      },
+      "a:D": {
+        "nbt": "{id:\"thaumcraft:tiletube\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},amount:0,side:5,open:[B;1B,1B,1B,1B,1B,1B],samount:30}"
+      },
+      "a:E": {
+        "nbt": "{id:\"thaumcraft:tiletube\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},amount:0,side:5,open:[B;1B,1B,1B,1B,1B,1B],samount:29}"
+      },
+      "a:F": {
+        "nbt": "{id:\"thaumcraft:tiletube\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},amount:0,side:5,open:[B;1B,1B,1B,1B,1B,1B],samount:31}"
+      },
+      "a:G": {
+        "nbt": "{id:\"thaumcraft:tiletube\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},amount:0,side:4,open:[B;1B,1B,1B,1B,1B,1B],samount:31}"
+      },
+      "c:B": {
+        "nbt": "{id:\"thaumcraft:tilejar\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},Amount:0s,facing:2b,blocked:0b}"
+      },
+      "c:C": {
+        "nbt": "{id:\"thaumcraft:tilejar\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},Amount:0s,facing:4b,blocked:0b}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "_",
+          "a:D",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "a:E",
+          "_",
+          "_"
+        ],
+        [
+          "a:A",
+          "a:C",
+          "e",
+          "a:C",
+          "a:A"
+        ],
+        [
+          "_",
+          "_",
+          "a:C",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "a:A",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "_",
+          "_",
+          "a:F",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "a:B",
+          "_",
+          "a:B",
+          "_",
+          "a:B"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "a:G",
+          "_",
+          "_"
+        ]
+      ],
+      [
+        [
+          "b:A",
+          "_",
+          "c:B",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "d",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "c:A",
+          "_",
+          "c:B",
+          "_",
+          "c:C"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "c:B",
+          "_",
+          "_"
+        ]
+      ]
+    ]
+              
+}

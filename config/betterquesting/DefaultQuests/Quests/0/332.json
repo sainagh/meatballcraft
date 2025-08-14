@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "...And once again, the answer is mythic excavation!\nI found the compound responsible for Lelyetia\u0027s strange condition, fluctuatite, a mineral that seems to be part of most compounds in the land.\nUnlike anything I\u0027ve seen so far, its gravitational field lines intersect a plane, instead of a sphere, which is what normal matter does.\nIt also possesses complex gravity, like sednanite.\nI don\u0027t have any fluctuatite in my own body, though, which is why I feel weird when I\u0027m in Lelyetia.\nGood news, I can make fluctuatite! Bad news, to achieve the folding of space-time I see in that strange world will need several planets worth of it, at least according to my math.\nThere\u0027s clearly not that much fluctuatite on Lelyetia, so I have to assume there are things I still do not know...\nAlso, the existance of this material makes Lelyetia quite different from Arcana, or other lands of the Twilight Horde. The physical phenomena are the same one, complex gravity being used to create infinite planes of existance separate from the three dimensions of space, but the way ther are achieved is different.",
+      "desc:8": "……答案再次指向神话开掘！\n我发现了导致赫尔维蒂维度异常状态的化合物——波纹金属，这种矿物似乎是该地大多数化合物的组成部分。\n与我迄今为止所见过的任何物质都不同，它的引力场线相交于一个平面，而非普通物质的球体。\n它还具有类似塞德娜金属的复合引力特性。\n不过我的体内并不含波纹金属，这就是为什么身处赫尔维蒂时会感到不适。\n好消息：我能合成波纹金属！坏消息：根据计算，要实现那个奇异世界里的时空折叠效果，至少需要数颗行星质量的波纹金属。\n显然赫尔维蒂维度不存在如此巨量的波纹金属，因此我推测仍有未知的奥秘……\n此外，这种物质的存在使得赫尔维蒂维度与秘界或暮光部落的其他领地截然不同。虽然物理现象相同——都是利用复合引力在三维空间之外创造无限存在的位面——但实现方式却大相径庭。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:lelyetia_garnet"
       },
-      "name:8": "Lelyetia Garnet"
+      "name:8": "赫尔维蒂石榴石"
     }
   },
   "questID:3": 332,

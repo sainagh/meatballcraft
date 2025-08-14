@@ -2,8 +2,8 @@
   "path": "resource/plants/osmonium_plant.json",
   "enabled": true,
   "id": "resource:osmonium_plant",
-  "plant_name": "Osmonium",
-  "seed_name": "Osmonium Seeds",
+  "plant_name": "锇蓝草",
+  "seed_name": "锇蓝草种子",
   "seed_items": [],
   "description": {
     "translations": {},

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The whispers of this thing indeed appear to be making sense. \nThe Haven does feel \u0027different\u0027 from the rest of the Shyre Empire, and not just in appearence.\nAs a world, it is similar to the Eden, the Dungeon of Arcana, and Wildwood. All places touched by the power of the Twilight Horde. These locations are all planarly oriented, while the space outside of these planes is asymptotically converging, making it impossible to get far.\nHaven is the same. Lelyetia too; well not quite, as its gravity also includes a plane of convergence, likely driven by the effects of fluctuatite.\nThe same space-folding power that allows the Twilight Horde to shape their worlds in such a way has entered the hands of the Shyre at some point. Otherwise, the Haven would not look like Wildwood, it will be more like Lelyetia.\n\u0027They were betrayed, and so will he\u0027, the device keeps saying...",
+      "desc:8": "这东西的低语确实显得颇有道理。\n天堂维度确实与塞尔瑞帝国的其他领地截然不同，不仅在外观上。\n作为一方世界，它与伊甸、秘界地牢和原始森林颇为相似——这些地方都曾被暮光部落的力量浸染。这些区域皆以平面位面形式存在，而位面之外的空间则呈渐近收敛态，使人无法远行。\n天堂维度亦是如此。赫尔维蒂维度虽稍有不同——因其引力场中还包含着由波纹金属效应驱动的收敛平面。\n这种扭曲空间的伟力曾让暮光部落得以重塑世界，如今却不知何时落入了塞尔瑞手中。若非如此，天堂维度本应更似赫尔维蒂维度，而非现在的原始森林风貌。\n“他们曾遭背叛，他亦将重蹈覆辙”——那个装置始终重复着这句话……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:anomaly_detector_stage_2"
       },
-      "name:8": "Space Manipulation"
+      "name:8": "空间操纵"
     }
   },
   "questID:3": 2026,

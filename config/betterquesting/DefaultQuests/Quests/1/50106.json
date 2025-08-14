@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe zero ring uses EMC from a klein star to produce snow, and to turn water into ice!",
+      "desc:8": "§7§o零度指环可消耗卡莱恩能量之星中储存的EMC，将水变为冰！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_zero_ring",
         "tag:10": {}
       },
-      "name:8": "Zero Ring"
+      "name:8": "零度指环"
     }
   },
   "questID:3": 50106,

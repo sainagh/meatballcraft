@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "With enough energy, alpha particles in return can be split into the fundamental components of the atomic nucleus. With these hadrons, I should be able to do fairly controlled collisions to obtain more fundamental particles!",
+      "desc:8": "通过足够的能量，阿尔法粒子也能被分解为原子核的基本组成成分。有了这些强子，我应该可以进行相当可控的碰撞来获取更基础的粒子！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "protons"
         }
       },
-      "name:8": "Protons \u0026 Neutrons"
+      "name:8": "质子&中子"
     }
   },
   "questID:3": 1331,

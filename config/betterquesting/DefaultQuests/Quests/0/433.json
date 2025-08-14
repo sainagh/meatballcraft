@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Crazy, yes, I may be crazy, for more than one reason.\nThe Undead Herald, the frindly yet strange fellow that would sometimes show up around my home on Terra. Not only they are a Recursive being, thay are a full-fledged Old One.\nOne that, strangely enough, is willing to reveal some secrets at a fairly reasonable price. Well, a fully healthy brain is overrated anyway, and I won\u0027t need it all where I am going...",
+      "desc:8": "疯狂？没错，我或许确实疯了，而且原因不止一个。\n那位亡灵使者，那个友善却古怪的家伙，时常会出现在我位于泰拉的住所附近。他们不仅是递归存在，更是一位完全体的旧日支配者。\n奇怪的是，这位存在竟愿意以相当合理的代价透露某些秘密。也许完整健康的大脑没那么重要，而我要去的地方……也根本用不上它了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:anadrominomicom"
       },
-      "name:8": "Anadrominomicom"
+      "name:8": "溯源之书"
     }
   },
   "questID:3": 433,

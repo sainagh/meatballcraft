@@ -22666,7 +22666,7 @@
     },
     {
       "item": "gendustry:pollen_kit|0",
-      "emc": 514
+      "emc": 0
     },
     {
       "item": "thaumadditions:vis_seeds/mythus|0",
@@ -23163,6 +23163,114 @@
     {
       "item": "divinerpg:mortum_leaves|0",
       "emc": 1
+    },
+    {
+      "item": "aoa3:garden_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:lucon_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:iro_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:haven_grass_plant|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:deep_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:dead_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:dawn_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:creep_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:candy_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:blue_candy_grass|0",
+      "emc": 2
+    },
+    {
+      "item": "aoa3:baron_ground|0",
+      "emc": 2
+    },
+    {
+      "item": "cyclicmagic:block_forester|0",
+      "emc": 0
+    },
+    {
+      "item": "cyclicmagic:harvester_block|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:common_ingots|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:common_ingots|1",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:common_ingots|2",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:common_ingots|3",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:common_ingots|4",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:common_metal|4",
+      "emc": 0
+    },
+    {
+      "item": "gendustry:mutagen_tank|0",
+      "emc": 0
+    },
+    {
+      "item": "gendustry:bee_receptacle|0",
+      "emc": 0
+    },
+    {
+      "item": "gendustry:genetics_processor|0",
+      "emc": 0
+    },
+    {
+      "item": "gendustry:env_processor|0",
+      "emc": 0
+    },
+    {
+      "item": "modularmachineryaddons:advancedmachineassembler|0",
+      "emc": 1
+    },
+    {
+      "item": "modularmachineryaddons:advancedmachinedisassembler|0",
+      "emc": 1
+    },
+    {
+      "item": "gendustry:gene_template|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:tuned_botanic_alchemic_catalyst|0",
+      "emc": 0
     }
   ]
 }

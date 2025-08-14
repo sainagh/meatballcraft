@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o由于Binnie\u0027s Mods的bug，林业及其附属模组的树可能会生成大量的蝴蝶，造成卡顿。\n\n若发生此类情况，使用本任务的奖励。\n\n本任务可重复完成，遇到问题直接来领取奖励即可。",
+      "desc:8": "§7§o由于Binnie's Mods的bug，林业及其附属模组的树可能会生成大量的蝴蝶，造成卡顿。\n\n若发生此类情况，使用本任务的奖励。\n\n本任务可重复完成，遇到问题直接来领取奖励即可。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:butterfly_bloom"

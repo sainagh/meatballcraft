@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "What can control over entropy do? Well, it pairs up extremely well with Essence technology. I do not know it for sure, but I suspect this may be the natural progression of a carnivorous civilization, synthetic biomass reproduced at the speed of optimal entropy!",
+      "desc:8": "对熵的控制能带来什么？它与精华技术的结合堪称绝配。虽然无法完全确定，但我推测这可能是肉食文明的自然进化方向——以最优熵速复制的合成生物质！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tinymobfarm:ultimate_farm"
       },
-      "name:8": "WOW!"
+      "name:8": "哇哦！"
     }
   },
   "questID:3": 429,

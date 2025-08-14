@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis ring gives creative flight consuming EMC from a klein star!",
+      "desc:8": "§7§o该指环可消耗卡莱恩能量之星中的EMC，令你获得创造飞行能力！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_swrg"
       },
-      "name:8": "Swiftwolf\u0027s Rending Gale"
+      "name:8": "疾风指环"
     }
   },
   "questID:3": 50085,

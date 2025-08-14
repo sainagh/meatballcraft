@@ -2,7 +2,6 @@
     "registryname": "hypergrowth_insolator",
     "localizedname": "Hypergrowth Insolator",
 	"color": "790091",
-    "has-factory": true,
     "modifiers": [
         {
             "elements": "contenttweaker:hypergrowth_actualizer",

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "It seems like the Arbiter had devised some more advanced functional applications for Fluix. It was right there, I just could not quite grasp it.\nWell, this should provide some better quality of life.",
+      "desc:8": "看来理序主已经为福鲁伊克斯设计出了一些更高级的功能应用。答案明明就在眼前，我却始终差一点无法参透。\n不过，这应该能带来更多方便。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 341,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "Extended Processing"
+      "name:8": "增广处理"
     }
   },
   "questID:3": 452,

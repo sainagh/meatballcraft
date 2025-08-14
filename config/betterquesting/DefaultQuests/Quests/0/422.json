@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Here is something I do not quite understand, and it is the involvement of the Arbiter with the Shyre Empire.\nOne of his technologies, in the hands of the perverted brutes of Iromine, why?\nThe only reasonable guess I have is that maybe the Arbiter had something to do with the Apothecary Bee, who had unfortunately ended up in the hands of Shyre torturers.",
+      "desc:8": "以下是我始终未能理解之事：理序主为何会与塞尔瑞帝国有所牵连。\n祂那项科技竟落入黄金维度那群扭曲蛮族之手，这又是为何？\n我唯一能想到的合理推测是：或许理序主与药师蜜蜂存在关联，而后者不幸落入了塞尔瑞拷问者的魔掌。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:summoning_computer"
       },
-      "name:8": "Summoning Computer"
+      "name:8": "召唤计算机"
     }
   },
   "questID:3": 422,

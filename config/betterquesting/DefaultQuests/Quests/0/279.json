@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I cannot believe that none of my enemies have approached magic and Recursion with a Technology and Engineering mindset! And yet, it seems like I may be the first here to achieve mythic machinery! \nBut what is mythic machinery? Well, I am still figuring out the details, but the fact that Mythic and Recursive fields permeate various forms of matter can be used to make finely tuned machinery that maintains these attributes.\nThis is a great leap! The mythic void resource miners I built until now are like batteries built out of potatoes, a hint of what is possible, but limited in capability; the machinery I can produce now, though, that is like the industrial revolution! Mass production, standardization, and efficiecy!\nWell, there is one difference, the industrial revolution was brought forth by a fairly good understanding of electricity, magnetism, and how they interact; on the other hand, I still don\u0027t fully understand Recursion, I just use the effects it causes on the world.\nAnd to be fair, I am hardly the first one to build mythic machinery, the use of Fluix to produce matter-energy networks seems to come from the Arbiter. They seem to be gone, though, so I do not think I will be able to ask them questions for more insight...",
+      "desc:8": "简直难以置信，我的敌人们竟无人以科技与工程的思维来探索魔法与递归法则！看来我可能将成为首位实现神话机械的开拓者！\n但何为神话机械？虽然具体细节仍在探索中，但神话属性与递归场域能渗透各类物质的特性，正可用来制造能永久保持这些特质的精密机械。\n这是划时代的突破！此前建造的神话虚空资源采掘机就像土豆电池，虽展现了可能性却效能有限；而如今我能制造的机械，简直就是工业革命的再现！量产，标准，高效！\n不过有个关键区别：工业革命源于人类对电磁相互作用的理解，而我对递归法则仍一知半解，只是利用其引发的现象罢了。\n平心而论，我也并非神话机械的首创者，理序主早就能运用福鲁伊克斯构建质能网络。可惜保有该科技的群体似乎已湮灭在时间长河中，无法再向他们请教更深层的奥秘了……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:mythic_machine_case"
       },
-      "name:8": "Incredible Technology"
+      "name:8": "不可思议的科技"
     }
   },
   "questID:3": 279,

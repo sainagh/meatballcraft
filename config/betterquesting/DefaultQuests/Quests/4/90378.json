@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o两个输入 \u003d 一个输出\n1 + 1 \u003d 0\n1 + 0 \u003d 0\n0 + 1 \u003d 0\n0 + 0 \u003d 1",
+      "desc:8": "§7§o两个输入 = 一个输出\n1 + 1 = 0\n1 + 0 = 0\n0 + 1 = 0\n0 + 0 = 1",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,

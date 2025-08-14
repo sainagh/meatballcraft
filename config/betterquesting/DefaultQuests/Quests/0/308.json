@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWelcome to chapter 8!\n\nYou are now a late-game player! Congratulations! Very few make it here!",
+      "desc:8": "§7§o欢迎来到第8章！\n\n你现在是后期玩家了！恭喜！仅有少数人才能推进到这里！\n\n§f我为泰拉而战的使命虽已明晰，却这绝非易事。\n在初期与入侵者交锋时，一个奇异的名字——如今我已知晓那是某处地域——总以不同声音在不同场合浮现。\n从某种程度上说，此地是众多维度碎片掠夺者行动的本源。我的使命在于守护，尽管终将直面塞尔瑞帝国或暮光部落，此刻尚非决战之时。\n其余入侵者遗留的隐患亦需肃清——那便是强能界，由魔法与引力共同孕育的递归黑洞。作为寰宇力量的枢纽，其掀起的涟漪已波及泰拉。",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:dynatos_artifact"
       },
       "ismain:1": 1,
-      "name:8": "For the few..."
+      "name:8": "仅为少数人……"
     }
   },
   "questID:3": 308,

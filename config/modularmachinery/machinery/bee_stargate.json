@@ -168,7 +168,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@0"
+                "generalized_input_fluid"
             ]
         },
         {

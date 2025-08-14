@@ -2,8 +2,8 @@
   "path": "vanilla/plants/orchid_plant.json",
   "enabled": true,
   "id": "vanilla:orchid_plant",
-  "plant_name": "Blue Orchid",
-  "seed_name": "Blue Orchid Seeds",
+  "plant_name": "兰花",
+  "seed_name": "兰花种子",
   "seed_items": [],
   "description": {
     "translations": {},

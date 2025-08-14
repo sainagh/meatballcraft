@@ -9,7 +9,7 @@
         "Count:3": 1,
         "id:8": "contenttweaker:fifth_order_mythic_fractal"
       },
-      "name:8": "Fifth Order Fractal"
+      "name:8": "五阶分形"
     }
   },
   "questID:3": 1283790114,
@@ -31,7 +31,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:fifth_order_mythic_fractal"
             },
-            "TrophyName:8": "Tier 5 Fractal Boi",
+            "TrophyName:8": "Bro搞到了五阶分形",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "neon"
           }

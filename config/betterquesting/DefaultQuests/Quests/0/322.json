@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWow, you actually went ahead and crafted this! You are crazy!",
+      "desc:8": "§7§o哇哦，你真的把这玩意做出来了！太疯狂了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:defined_ingot"
       },
-      "name:8": "Defined Ingot"
+      "name:8": "定义锭"
     }
   },
   "questID:3": 322,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oElytra are used to glide from hights. These can be found in the overworld, in the same place where coal coke can be found!\n\n§fThe manufacturing of these objects has long been forgotten, and the remaining ones are guarded in libraries that are considered sacred by Testificates.",
+      "desc:8": "§7§o鞘翅可用于从高处滑翔而下。主世界中便可找到鞘翅，就和焦煤在同一个地方！\n\n§f这种物件的制作技艺早已失传，现存的鞘翅被供奉在泰斯提斐人奉为圣地的图书馆中严加守护。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:elytra"
       },
-      "name:8": "Elytra"
+      "name:8": "鞘翅"
     }
   },
   "questID:3": 50082,

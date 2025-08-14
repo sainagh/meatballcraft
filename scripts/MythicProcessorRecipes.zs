@@ -58,7 +58,26 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_coil_t2>,
 [<contenttweaker:mythic_coil_t1>, <libvulpes:coil0:7>, <contenttweaker:mythic_coil_t1>], 
 [<thaumadditions:mithrillium_ingot>, <nae2:material:1>, <thaumadditions:mithrillium_ingot>]]);  
 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_coil_t2>*2, 
+[[<ore:coilCopper>, <ore:coilCopper>, <nae2:material:1>, <ore:coilCopper>, <ore:coilCopper>], 
+[<contenttweaker:mythic_coil_t1>, <libvulpes:coil0:7>, <contenttweaker:mythic_coil_t1>, <libvulpes:coil0:7>, <contenttweaker:mythic_coil_t1>], 
+[<thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>, <ore:ingotHassium>, <thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>], 
+[<libvulpes:coil0:7>, <contenttweaker:mythic_coil_t1>, <libvulpes:coil0:7>, <contenttweaker:mythic_coil_t1>, <libvulpes:coil0:7>], 
+[<ore:coilCopper>, <ore:coilCopper>, <nae2:material:1>, <ore:coilCopper>, <ore:coilCopper>]]);  
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_coil_t3>, 
 [[<libvulpes:coil0:10>, <contenttweaker:mythic_coil_t2>, <libvulpes:coil0:10>], 
 [<contenttweaker:mythic_coil_t2>, <libvulpes:coil0:10>, <contenttweaker:mythic_coil_t2>], 
 [<thaumadditions:mithminite_ingot>, <nae2:material:1>, <thaumadditions:mithminite_ingot>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_coil_t3>*2, 
+[[<ore:coilElectrum>, <ore:coilElectrum>, <nae2:material:1>, <ore:coilElectrum>, <ore:coilElectrum>], 
+[<contenttweaker:mythic_coil_t2>, <libvulpes:coil0:10>, <contenttweaker:mythic_coil_t2>, <libvulpes:coil0:10>, <contenttweaker:mythic_coil_t2>], 
+[<thaumadditions:mithminite_ingot>, <thaumadditions:mithminite_ingot>, <ore:ingotHassium>, <thaumadditions:mithminite_ingot>, <thaumadditions:mithminite_ingot>], 
+[<libvulpes:coil0:10>, <contenttweaker:mythic_coil_t2>, <libvulpes:coil0:10>, <contenttweaker:mythic_coil_t2>, <libvulpes:coil0:10>], 
+[<ore:coilElectrum>, <ore:coilElectrum>, <nae2:material:1>, <ore:coilElectrum>, <ore:coilElectrum>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_coil_t4>, 
+[[<libvulpes:coil0:10>, <contenttweaker:mythic_coil_t3>, <libvulpes:coil0:10>], 
+[<contenttweaker:mythic_coil_t3>, <libvulpes:coil0:10>, <contenttweaker:mythic_coil_t3>], 
+[<contenttweaker:time_crystal>, <nae2:material:1>, <contenttweaker:time_crystal>]]);  

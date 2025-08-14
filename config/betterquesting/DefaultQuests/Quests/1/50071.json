@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe handy bag is a backpack that can be opened without clicking it!\n\nOpening your inventory will also open up the handy bag GUI, where you can toggle a lot of functionalities!",
+      "desc:8": "§7§o手提包不用点击便可打开！\n\n打开你物品栏的同时，便会打开手提包的GUI，可在该界面中切换许多功能！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderutilities:handybag"
       },
-      "name:8": "Handy Bag"
+      "name:8": "手提包"
     }
   },
   "questID:3": 50071,

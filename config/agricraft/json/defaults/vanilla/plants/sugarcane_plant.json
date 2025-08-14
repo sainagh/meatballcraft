@@ -2,8 +2,8 @@
   "path": "vanilla/plants/sugarcane_plant.json",
   "enabled": true,
   "id": "vanilla:sugarcane_plant",
-  "plant_name": "Sugarcane",
-  "seed_name": "Sugarcane Seeds",
+  "plant_name": "甘蔗",
+  "seed_name": "甘蔗种子",
   "seed_items": [
     {
       "item": "agricraft:agri_seed",

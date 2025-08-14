@@ -64,3 +64,17 @@ mods.nuclearcraft.melter.addRecipe([<cyclicmagic:crystallized_amber>, <fluid:amb
 
 mods.nuclearcraft.melter.addRecipe([<minecraft:poisonous_potato>, <fluid:poison>*2000]);
 
+
+
+recipes.remove(<cyclicmagic:harvester_block>);
+recipes.addShaped(<cyclicmagic:harvester_block>,
+[[<ore:gemEmerald>, <minecraft:dispenser>, <ore:gemEmerald>],
+[<industrialforegoing:plastic>, <ore:blockDiamond>, <industrialforegoing:plastic>],
+[<thermalexpansion:frame:0>, <thermalexpansion:frame:0>, <thermalexpansion:frame:0>]]);
+
+
+recipes.remove(<cyclicmagic:block_forester>);
+recipes.addShaped(<cyclicmagic:block_forester>,
+[[<minecraft:daylight_detector>, <minecraft:dispenser>, <minecraft:daylight_detector>],
+[<industrialforegoing:plastic>, <ore:blockDiamond>, <industrialforegoing:plastic>],
+[<thermalexpansion:frame:0>, <thermalexpansion:frame:0>, <thermalexpansion:frame:0>]]);

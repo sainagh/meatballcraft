@@ -111,13 +111,13 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    if ((getBlockMatchAtPosition("aether_legacy:aether_grass", playerPos, [4,0,4], world) == 0) || (getBlockMatchAtPosition("aether_legacy:aether_grass:3", playerPos, [4,0,4], world) == 0)) {
-        player.sendChat("在末地石的南侧，间隔一格放置一个空叶草方块 [4,0,4]");
+    if (getBlockMatchAtPosition("aether_legacy:skyroot_plank", playerPos, [4,0,4], world) == 0) {
+        player.sendChat("在末地石的南侧，间隔一格放置一个天根木板 [4,0,4]");
         return "FAIL";
     }
 
     if (getBlockMatchAtPosition("erebus:umberstone", playerPos, [4,0,6], world) == 0) {
-        player.sendChat("在空叶草方块的南侧，间隔一格放置一个棕石 [4,0,6]");
+        player.sendChat("在天根木板的南侧，间隔一格放置一个棕石 [4,0,6]");
         return "FAIL";
     }
 
@@ -171,8 +171,8 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("tile.stone.name", playerPos, [10,0,22], world) == 0) {
-        player.sendChat("干得不错，深渊国度模组还有一个被某种暗色方块覆盖的维度，我知道你能弄明白放置在哪的");
+    if (getBlockMatchAtPosition("abyssalcraft:darkstone_brick", playerPos, [10,0,22], world) == 0) {
+        player.sendChat("干得不错，深渊国度模组还有一个被某种暗色方块覆盖的维度，这种暗色方块能够制作一种砖。我知道你能弄明白放置在哪的");
         return "FAIL";
     }
 
@@ -237,7 +237,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("minecraft:emerald_block:8", playerPos, [8,0,14], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:emerald:8", playerPos, [8,0,14], world) == 0) {
         player.sendChat("老实说，辐射机制蛮有意思的。虽然肯定不是所有人都好这口，但我很欣赏它能迫使玩家采取某种基地建造策略");
         player.sendChat("至于下一个方块，我甚至不打算多说什么，相信你自己能搞定接下来的几个步骤。");
         return "FAIL";
@@ -327,7 +327,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("aoa3:aqua_cotton_candy", playerPos, [18,0,2], world) == 0 || getBlockMatchAtPosition("aoa3:pink_cotton_candy", playerPos, [18,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("aoa3:candyland_grass", playerPos, [18,0,2], world) == 0 ) {
         player.sendChat("我发现神圣RPG模组的维度看起来有点千篇一律，希望添加的自定义结构能带来一些多样性。");
         player.sendChat("第二神话叠壳！从轻树原木的东南侧开始，间隔一格 [18,0,2]");
         return "FAIL";
@@ -393,8 +393,14 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("aoa3:borean_grass", playerPos, [22,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("advancedrocketry:charcoallog", playerPos, [22,0,-4], world) == 0) {
         player.sendChat("我很喜欢用星域玻璃作为建筑方块，可惜大规模使用会很卡。");
+        player.sendChat("树龙界的迷雾效果很赞，而且有很多想干掉你的东西，北侧间隔一格 [22,0,-4]");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("aoa3:borean_grass", playerPos, [22,0,2], world) == 0) {
+        player.sendChat("一个有趣的事实：树龙界其实从早期测试版就存在于整合包中了，但由于风暴之地群系相关的崩溃问题一直无法进入。幸亏后来模组分叉修复了这个问题！");
         player.sendChat("第三神话质壳时间！从鄙夷方砖的东南侧开始，间隔一格 [22,0,2]");
         return "FAIL";
     }
@@ -478,8 +484,8 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
     }
 
     if (getBlockMatchAtPosition("minecraft:pumpkin", playerPos, [30,0,4], world) == 0) {
-        player.sendChat("晦暗界的制作过程十分有趣，我沉迷于血腥邪教的美术风格，他们值得拥有专属维度！");
-        player.sendChat("强能界时间！惧惮界的方块在泥土的南侧，间隔一格 [30,0,4]");
+        player.sendChat("晦暗界的制作过程十分有趣，我沉迷于血腥邪教的外观风格，他们值得拥有专属维度！");
+        player.sendChat("强能界时间！惧惮界的方块（面向南方）在泥土的南侧，间隔一格 [30,0,4]");
         return "FAIL";
     }
 

@@ -2,6 +2,58 @@ import mods.modularmachinery.RecipeBuilder;
 import scripts.enchantwrapper.EnchantUtil.EnchantMap;
 import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
 
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_log>, 
+[[<extratrees:misc:3>, <extratrees:misc:3>, null, <extratrees:misc:3>, <extratrees:misc:3>], 
+[<extratrees:misc:3>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <extratrees:misc:3>], 
+[null, <contenttweaker:chaos_wood>, <contenttweaker:energy_egg>, <contenttweaker:order_wood>, null], 
+[<extratrees:misc:3>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <extratrees:misc:3>], 
+[<extratrees:misc:3>, <extratrees:misc:3>, null, <extratrees:misc:3>, <extratrees:misc:3>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_log>*2, 
+[[<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:mortum_log", Count: 1, Damage: 0 as short}}), <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})], 
+[<extratrees:misc:3>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <extratrees:misc:3>], 
+[null, <contenttweaker:chaos_wood>, <contenttweaker:energy_egg>, <contenttweaker:order_wood>, null], 
+[<extratrees:misc:3>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <extratrees:misc:3>], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <extratrees:misc:3>, null, <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_log>*4, 
+[[<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:mortum_log", Count: 1, Damage: 0 as short}}), <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})], 
+[<extratrees:misc:3>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <extratrees:misc:3>], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}}), <contenttweaker:chaos_wood>, <contenttweaker:energy_egg>, <contenttweaker:order_wood>, <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}})], 
+[<extratrees:misc:3>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <extratrees:misc:3>], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:mortum_log", Count: 1, Damage: 0 as short}}), <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_log>*8, 
+[[<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}}), <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "bewitchment:dragons_blood_wood", Count: 1, Damage: 0 as short}}), <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "thaumcraft:log_silverwood", Count: 1, Damage: 0 as short}})], 
+[<extratrees:misc:3>, <contenttweaker:chaos_wood>, <contenttweaker:energy_egg>, <contenttweaker:order_wood>, <extratrees:misc:3>], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "bewitchment:dragons_blood_wood", Count: 1, Damage: 0 as short}}), <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "thaumcraft:log_silverwood", Count: 1, Damage: 0 as short}})], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:mortum_log", Count: 1, Damage: 0 as short}}), <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:mortum_log", Count: 1, Damage: 0 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_log>*16, 
+[[<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}}), <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "bewitchment:dragons_blood_wood", Count: 1, Damage: 0 as short}}), <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "aether_legacy:aether_log", Count: 1, Damage: 1 as short}}), <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "thaumcraft:log_silverwood", Count: 1, Damage: 0 as short}})], 
+[<extratrees:misc:3>, <contenttweaker:chaos_wood>, <contenttweaker:energy_egg>, <contenttweaker:order_wood>, <extratrees:misc:3>], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "bewitchment:dragons_blood_wood", Count: 1, Damage: 0 as short}}), <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "aether_legacy:aether_log", Count: 1, Damage: 1 as short}}), <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "thaumcraft:log_silverwood", Count: 1, Damage: 0 as short}})], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:mortum_log", Count: 1, Damage: 0 as short}}), <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:mortum_log", Count: 1, Damage: 0 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})]]);  
+
+
+
+mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:sacred_cinders_seed>, <contenttweaker:sacred_cinders_log>, 1000, <extendedcrafting:material:11>, 100);
+
+furnace.addRecipe(<contenttweaker:everburning_seed>, <contenttweaker:sacred_cinders_seed>);
+
+recipes.addShaped(<contenttweaker:everburner>,
+[[<nuclearcraft:heat_exchanger_tube_thermoconducting>, <contenttweaker:infinity_furnace_bricks>, <nuclearcraft:heat_exchanger_tube_thermoconducting>],
+[<contenttweaker:infinity_furnace_bricks>, <contenttweaker:everburning_seed>, <contenttweaker:infinity_furnace_bricks>],
+[<nuclearcraft:heat_exchanger_tube_thermoconducting>, <contenttweaker:infinity_furnace_bricks>, <nuclearcraft:heat_exchanger_tube_thermoconducting>]]);
+
+
+
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_apiary>, 
 
 [[<contenttweaker:sacred_cinders_fruit>, <contenttweaker:sacred_cinders_fruit>, <careerbees:eternalframe>, 
@@ -113,7 +165,7 @@ val superbee_blutonium = RecipeBuilder.newBuilder("superbee_blutonium","sacred_c
 val superbee_forest = RecipeBuilder.newBuilder("superbee_forest","sacred_cinders_apiary",10);	superbee_forest.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "forestry.speciesForest", UID0: "forestry.speciesForest"}]}}));	superbee_forest.setChance(0.0);	superbee_forest.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_forest.addItemOutput(<forestry:bee_combs:0>*64);	superbee_forest.addItemOutput(<forestry:bee_combs:0>*64);	superbee_forest.build();
 val superbee_meadows = RecipeBuilder.newBuilder("superbee_meadows","sacred_cinders_apiary",10);	superbee_meadows.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "forestry.speciesMeadows", UID0: "forestry.speciesMeadows"}]}}));	superbee_meadows.setChance(0.0);	superbee_meadows.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_meadows.addItemOutput(<forestry:bee_combs:0>*64);	superbee_meadows.addItemOutput(<forestry:bee_combs:0>*64);	superbee_meadows.build();
 val superbee_demonic = RecipeBuilder.newBuilder("superbee_demonic","sacred_cinders_apiary",10);	superbee_demonic.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "forestry.speciesDemonic", UID0: "forestry.speciesDemonic"}]}}));	superbee_demonic.setChance(0.0);	superbee_demonic.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_demonic.addItemOutput(<forestry:bee_combs:2>*64);	superbee_demonic.addItemOutput(<forestry:bee_combs:2>*64);	superbee_demonic.build();
-val superbee_industrious = RecipeBuilder.newBuilder("superbee_industrious","sacred_cinders_apiary",10);	superbee_industrious.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "forestry.speciesIndustrious", UID0: "forestry.speciesIndustrious"}]}}));	superbee_industrious.setChance(0.0);	superbee_industrious.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_industrious.addItemOutput(<forestry:bee_combs:3>*64);	superbee_industrious.addItemOutput(<forestry:bee_combs:3>*64);	superbee_industrious.build();
+val superbee_industrious = RecipeBuilder.newBuilder("superbee_industrious","sacred_cinders_apiary",10);	superbee_industrious.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "forestry.speciesIndustrious", UID0: "forestry.speciesIndustrious"}]}}));	superbee_industrious.setChance(0.0);	superbee_industrious.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_industrious.addItemOutput(<forestry:bee_combs:3>*64);	superbee_industrious.addItemOutput(<forestry:pollen:0>*64);	superbee_industrious.build();
 val superbee_absolute = RecipeBuilder.newBuilder("superbee_absolute","sacred_cinders_apiary",10);	superbee_absolute.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "extrabees.species.freezing", UID0: "extrabees.species.freezing"}]}}));	superbee_absolute.setChance(0.0);	superbee_absolute.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_absolute.addItemOutput(<forestry:bee_combs:4>*64);	superbee_absolute.addItemOutput(<extrabees:honey_comb:32>*64);	superbee_absolute.build();
 val superbee_imperial = RecipeBuilder.newBuilder("superbee_imperial","sacred_cinders_apiary",10);	superbee_imperial.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "forestry.speciesImperial", UID0: "forestry.speciesImperial"}]}}));	superbee_imperial.setChance(0.0);	superbee_imperial.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_imperial.addItemOutput(<forestry:bee_combs:5>*64);	superbee_imperial.addItemOutput(<forestry:royal_jelly>*64);	superbee_imperial.build();
 val superbee_edenic = RecipeBuilder.newBuilder("superbee_edenic","sacred_cinders_apiary",10);	superbee_edenic.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "forestry.speciesEdenic", UID0: "forestry.speciesEdenic"}]}}));	superbee_edenic.setChance(0.0);	superbee_edenic.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_edenic.addItemOutput(<forestry:bee_combs:6>*64);	superbee_edenic.addItemOutput(<forestry:bee_combs:6>*64);	superbee_edenic.build();
@@ -189,3 +241,15 @@ val superbee_gallifreyan = RecipeBuilder.newBuilder("superbee_gallifreyan","sacr
 val superbee_experienced = RecipeBuilder.newBuilder("superbee_experienced","sacred_cinders_apiary",10);	superbee_experienced.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Experienced", UID0: "gendustry.bee.Experienced"}]}}));	superbee_experienced.setChance(0.0);	superbee_experienced.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_experienced.addItemOutput(<contenttweaker:condensed_essence>*64);	superbee_experienced.addItemOutput(<contenttweaker:condensed_essence>*64);	superbee_experienced.build();
 
 val superbee_phantasmal = RecipeBuilder.newBuilder("superbee_phantasmal","sacred_cinders_apiary",10);	superbee_phantasmal.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "forestry.speciesPhantasmal", UID0: "forestry.speciesPhantasmal"}]}}));	superbee_phantasmal.setChance(0.0);	superbee_phantasmal.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_phantasmal.addItemOutput(<forestry:bee_combs:8>*64);	superbee_phantasmal.addItemOutput(<forestry:bee_combs:8>*64);	superbee_phantasmal.build();
+
+
+val superbee_jaded = RecipeBuilder.newBuilder("superbee_jaded","sacred_cinders_apiary",10);	superbee_jaded.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "extrabees.species.jaded", UID0: "extrabees.species.jaded"}]}}));	superbee_jaded.setChance(0.0);	superbee_jaded.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_jaded.addItemOutput(<forestry:bee_combs:0>*64);	superbee_jaded.addItemOutput(<forestry:pollen:0>*64);	superbee_jaded.build();
+
+
+val superbee_lux = RecipeBuilder.newBuilder("superbee_lux","sacred_cinders_apiary",10);	superbee_lux.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "magicbees.speciesTELux", UID0: "magicbees.speciesTELux"}]}}));	superbee_lux.setChance(0.0);	superbee_lux.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_lux.addItemOutput(<magicbees:beecomb:2>*64);	superbee_lux.addItemOutput(<magicbees:beecomb:17>*64);	superbee_lux.build();
+
+val superbee_destabilized = RecipeBuilder.newBuilder("superbee_destabilized","sacred_cinders_apiary",10);	superbee_destabilized.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "magicbees.speciesTEDestabilized", UID0: "magicbees.speciesTEDestabilized"}]}}));	superbee_destabilized.setChance(0.0);	superbee_destabilized.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_destabilized.addItemOutput(<magicbees:beecomb:2>*64);	superbee_destabilized.addItemOutput(<magicbees:beecomb:15>*64);	superbee_destabilized.build();
+
+val superbee_endearing = RecipeBuilder.newBuilder("superbee_endearing","sacred_cinders_apiary",10);	superbee_endearing.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "magicbees.speciesTEEndearing", UID0: "magicbees.speciesTEEndearing"}]}}));	superbee_endearing.setChance(0.0);	superbee_endearing.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_endearing.addItemOutput(<thermalfoundation:material:167>*64);	superbee_endearing.addItemOutput(<magicbees:beecomb:18>*64);	superbee_endearing.build();
+
+

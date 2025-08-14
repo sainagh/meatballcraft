@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHolds 4096 buckets.",
+      "desc:8": "§7§o可存储4096桶流体。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,

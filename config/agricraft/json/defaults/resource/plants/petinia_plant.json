@@ -2,8 +2,8 @@
   "path": "resource/plants/petinia_plant.json",
   "enabled": true,
   "id": "resource:petinia_plant",
-  "plant_name": "Petinia",
-  "seed_name": "Petinia Seeds",
+  "plant_name": "锡牵牛",
+  "seed_name": "锡牵牛种子",
   "seed_items": [],
   "description": {
     "translations": {},

@@ -1,29 +1,434 @@
 {
     "registryname": "infinity_furnace",
     "localizedname": "Infinity Furnace",
-	"color": "ffffff",
-    "has-factory": true,
+	"color": "292929",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:converging_recursive_essence",
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "description": "处理数量x2",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 2
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 2
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 2
+            }]
+        },
+        {
+            "elements": "contenttweaker:vibrating_recursive_essence",
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "description": "处理数量x4",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 4
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            }]
+        },
+        {
+            "elements": "contenttweaker:resonating_recursive_essence",
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "description": "处理数量x6",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 6
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 6
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 6
+            }]
+        },
+        {
+            "elements": "contenttweaker:fractal_recursive_essence",
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "description": "处理数量x8",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 8
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 8
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 8
+            }]
+        },
+        {
+            "elements": "contenttweaker:stochastic_recursive_essence",
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "description": "处理数量x10",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 10
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 10
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 10
+            }]
+        },
+        {
+            "elements": "contenttweaker:markov_recursive_essence",
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "description": "处理数量x12",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 12
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 12
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 12
+            }]
+        }
+    ],
     "parts": [
         {
-            "x": -1,
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
             "y": 0,
+            "z": 2,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
             "z": 0,
             "elements": [
                 "contenttweaker:infinity_furnace_bricks@0"
             ]
         },
         {
-            "x": -1,
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "botania:elfglasspane@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "botania:elfglasspane@0"
+            ]
+        },
+        {
+            "x": 1,
             "y": 0,
             "z": 1,
             "elements": [
-                "generalized_input_item"
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "botania:elfglasspane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "infinity_furnace_hatches"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "infinity_furnace_hatches"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "botania:elfglasspane@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "aoa3:ancient_rock@0"
             ]
         },
         {
             "x": 1,
             "y": 0,
             "z": 0,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "botania:elfglasspane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "botania:elfglasspane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "infinity_furnace_hatches"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "botania:elfglasspane@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "infinity_furnace_hatches"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "botania:elfglasspane@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
             "elements": [
                 "contenttweaker:infinity_furnace_bricks@0"
             ]
@@ -33,15 +438,175 @@
             "y": 0,
             "z": 2,
             "elements": [
+                "infinity_furnace_hatches"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
                 "contenttweaker:infinity_furnace_bricks@0"
             ]
         },
         {
             "x": 1,
-            "y": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
             "z": 1,
             "elements": [
-                "generalized_output_item"
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "botania:elfglasspane@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
             ]
         },
         {
@@ -49,6 +614,174 @@
             "y": 0,
             "z": 2,
             "elements": [
+                "infinity_furnace_hatches"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "botania:elfglasspane@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:twilight_matter"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "botania:elfglasspane@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "infinity_furnace_hatches"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "infinity_furnace_hatches"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "botania:elfglasspane@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "infinity_furnace_hatches"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinity_furnace_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
                 "contenttweaker:infinity_furnace_bricks@0"
             ]
         },
@@ -57,149 +790,13 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
+                "infinity_furnace_hatches"
             ]
         },
         {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": -1,
+            "x": -2,
             "y": 1,
             "z": 1,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "generalized_input_fluid"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:infinity_furnace_bricks@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
             "elements": [
                 "contenttweaker:infinity_furnace_bricks@0"
             ]

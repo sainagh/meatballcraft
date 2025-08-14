@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oStart of a long crafting chain ahead!\n\nIf you want to be able to craft end-game recipes, you should build an individual machine, and set up automation, for each crafting step in the following chain.\n\n§fYes! The traces still make sense, down to the raw neutrinos leftover all around the sky islands on Terra. They were left there for me, as a starting point, a starting point for the things I can do now!\n",
+      "desc:8": "§7§o从此处开始一条极长的合成链！\n\n若想合成终局配方，应当为后续每个合成步骤设置单独的机器，并实现自动化。\n\n§f没错！这些痕迹依然清晰可辨，从泰拉天空中浮岛周围残留的原始中子素就能看出。它们是专门为我留下的起点，一个能让我施展如今能力的起点！\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "avaritia:resource"
       },
-      "name:8": "Finally, some Neutrinos!"
+      "name:8": "终于，一些中微子！"
     }
   },
   "questID:3": 431,

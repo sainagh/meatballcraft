@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "After defeating some mythic beings, I think it\u0027s time for more wormholes!\nThe Testificates on Diamerisma let me know that the world of Vibe has something I may be looking for.\nEvery time a wormhole is opened, it is bound to a set of special locations scattered around the universe.\nEach of this locations contains a special mineral, like Dimensional Shards on Terra, that directs the warping of space-time in such a way to \u0027bind\u0027 the wormhole singularity. This is how the Shyre Empire found its buffer worlds to begin with. They opened wormholes unbound to any location, and they saw where they went. This is also how the Testificates, without knowledge of the other worlds in the empire, were able to attempt retaliation, although in a somewhat uneffective manner.\nMost of these minerals are worthless, and present in small traces, which is why places like Taerrapiatta and Furatto did not have any special resources, but Vibe contains something very interesting, or so I was told!\nI was also warned about this place, only a handful of Testificate wizards, six of them, after even seeing this place, dared to enter it. ",
+      "desc:8": "在击败若干神话存在后，我认为是时候开启更多虫洞了！\n附魔山脉的泰斯提斐人告诉我，谐律界可能藏有我要寻找的东西。\n每次开启虫洞时，它都会与散布在宇宙中的特定坐标点产生绑定。\n这些坐标点都蕴藏着某种特殊矿物（比如泰拉的维度碎片），它们通过扭曲时空的方式来“锚定”虫洞奇点。塞尔瑞帝国最初正是借此发现缓冲世界的。他们开启未绑定坐标的虫洞，观察通道的落点。同样原理下，即便对帝国其他世界一无所知，泰斯提斐人也能实施反击（虽然效果欠佳）。\n这类矿物大多含量稀少且毫无价值，例如地平界和地盘界等区域并无特殊资源。但据传谐律界蕴藏着非凡之物！\n当地泰斯提斐巫师们警告我，仅有六名巫师在目睹该界域后胆敢踏入。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:vibe_warper"
       },
-      "name:8": "Experiment #4"
+      "name:8": "实验 #4"
     }
   },
   "questID:3": 524,

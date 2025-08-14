@@ -185,7 +185,7 @@ val betterfluidfusion15 = RecipeBuilder.newBuilder("betterfluidfusion15","linear
 betterfluidfusion15.addEnergyPerTickInput(1000000);
 betterfluidfusion15.addFluidInput(<fluid:relativistic_matter>*1000);
 betterfluidfusion15.addFluidInput(<fluid:technetium>*1000);
-betterfluidfusion15.addFluidOutput(<fluid:magnatar_stabilizer>*1000);
+betterfluidfusion15.addFluidOutput(<fluid:magnatar_stabilizer>*10000);
 betterfluidfusion15.addFluidOutput(<fluid:technetium>*1000);
 betterfluidfusion15.build();
 

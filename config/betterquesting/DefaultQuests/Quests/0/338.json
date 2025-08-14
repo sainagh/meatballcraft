@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I will say, I am very surprised that the Shyre Empire has no knowledge of alchemy. \nWeirdly enough, my second option was correct. Some of the higher ups in the empire, for some reasons still unknown, use charged runium for their own magic art, runation. It is not the first time I encountered it. Some Testificate Alchemists on Terra still practice it, and it is a way to use alchemy as a weapon in ways that would not otherwise be possible, but it has long been outclassed by other arts such as astral sorcery. \nThe Testificates that still practice it do so in case there may be undiscovered secrets. Those of the Shyre Empire, on the other hand, out of the hundreds of worlds they control, have not a single alchemist in their midsts. That\u0027s why they even have secure portal lines to connect the Deeplands to one of the governing worlds.\nWhat are the requirements that make alchemy so common among Testificates and bees, and yet so uncommon anywhere else. The only thing I can think of is compassion, but that can\u0027t be it. Right?",
+      "desc:8": "不得不说，塞尔瑞帝国对炼金术一无所知确实令我诧异。\n奇怪的是，我的第二猜测居然是正确的。帝国某些高层出于未知原因，确实在使用充能符文块来施展他们独有的魔法技艺：符文术（魔力，Runation）。这并非我第一次遇见类似情况。泰拉上的一些泰斯提斐人炼金师仍在研习此道，这种技艺能将炼金术转化为武器，实现常规手段无法达成的效果，不过它早已被星辉魔法等其他技艺超越。\n仍坚持研习此术的泰斯提斐人，是抱着发掘未解奥秘的期望。而掌控数百个世界的塞尔瑞帝国，在其统治疆域内竟找不出一个炼金师。正因如此，他们甚至需要建立加密传送通道来连接深层维度与其行政中枢世界。\n究竟是什么特质使得炼金术在泰斯提斐人与蜜蜂中如此普遍，在其他种族却如此罕见？我唯一能想到的因素是同理心——但这不可能是真正原因，对吧？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:deeplands_garnet"
       },
-      "name:8": "Deeplands Garnet"
+      "name:8": "深层石榴石"
     }
   },
   "questID:3": 338,

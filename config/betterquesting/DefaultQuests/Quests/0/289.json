@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "A puzzle, a puzzle composed of many pieces coming from seemingly random sources, that is what the Arbiter left me. Before going to his losing battle, the arbiter knew I would follow his steps, and somehow piece all the pieces back together. I am not sure if it is about genious, of if he expected me to think the same way. The connection, after all, is quite evident now...\nThe crystal matrix from the Elves, the remains of this material in the hands of the Testificates, the prophecies of Terra, the coordinates of the Proxima Belt, the Unidentified Matter, Fluix, it all comes together; together into a powerful tool of fabrication.\nA table, one imbued with the powers of the Arbiter, one that will allow me to re-create the tools of the Arbiter.",
+      "desc:8": "一份谜题，一份由看似来自随机源头的诸多碎片拼凑而成的谜题，这就是理序主留给我的遗产。在奔赴那场必败之战前，理序主早已知晓我将追随祂的足迹，并以某种方式将所有碎片重新拼合。我不确定这是源于天才的预见，还是祂预判了我的思维方式。如今，这些联系已昭然若揭……\n精灵的水晶矩阵、泰斯提斐人手中的材料残片、泰拉的预言、比邻星带的坐标、未定义物质、福鲁伊克斯——所有线索终将汇聚，融合成一件强大的创生器具。\n一张工作台，一张灌注了理序主威能的工作台，它将使我得以重铸理序主的工具。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "avaritia:extreme_crafting_table"
       },
-      "name:8": "Extreme Fabrication"
+      "name:8": "终极合成"
     }
   },
   "questID:3": 289,

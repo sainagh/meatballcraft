@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "At a high cost of Draconium, even chaos dragons can be farmed. is this worth it? I am not sure, but it is cool to know that something like this is possible.",
+      "desc:8": "若是消耗大量的龙矿，即便是混沌龙也能刷。这值得吗？我不确定，但知道这种事情有可能发生还是很酷的。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "woot:endershard"
       },
-      "name:8": "Interesting"
+      "name:8": "有意思"
     }
   },
   "questID:3": 425,

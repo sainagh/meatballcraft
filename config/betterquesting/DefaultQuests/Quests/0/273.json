@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The search for powerful resources keeps guiding me forward! Another planet!\nUnlike the Rhenia, though, this one is inhabited by foes, by Myrmitites...\nThese creatures managed to colonize their own planet?! How?\nAs a society, if you can call them one, they exist in colonies that are extremely unfriendly towards each other. Not only they must have fought whatever other species to gain dominion of this planet, they keep fighting each other too.\nI guess it makes sense given how competition is a big driver of evolution, but I strongly doubt this strategy would ever produce an interplanetary species.\nWell, at least this world has other, less crawly, things to offer. The aptly-named myrmitite has both good material properties and compatibility with many magic fields.\nThis is probably one of the materials sought after by the Shyre Empire.",
+      "desc:8": "对强大资源的追寻不断指引我前进！又一颗行星！\n不过，与铼界不同，这颗星球上居住着敌人——恐蚁……\n这些生物竟然成功群落化了自己的星球？！他们是怎么做到的？\n他们的社会（如果还能称之为社会的话）以群落形式存在，群落之间关系极度恶劣。想必他们不仅曾与其他物种争斗过，以争夺这颗星球的统治权，而且彼此之间也争斗不断。\n考虑到竞争是进化的一大驱动因素，这或许说得通，但我非常怀疑这种策略能否真正造就一个星际物种。\n好吧，至少这个世界还能提供其他不那么令人毛骨悚然的东西。恰如其名的恐蚁金属不仅材料特性优良，还与多种魔法场域具有兼容性。\n这很可能是塞尔瑞帝国所觊觎的材料之一。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:myrmex_artifact"
       },
-      "name:8": "The Myrmex Swarm"
+      "name:8": "恐蚁蚁群"
     }
   },
   "questID:3": 273,

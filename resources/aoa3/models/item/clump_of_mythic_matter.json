@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "contenttweaker:items/clump_of_mythic_matter"
-  }
-}

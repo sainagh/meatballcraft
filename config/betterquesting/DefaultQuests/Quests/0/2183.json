@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Gardencia magicians seem to have spent some time working on special recursive materials. Rosidian is indeed quite interesting, it has properties very similar to the soul manipulation abilities I was given through the Meatball Man.\n",
+      "desc:8": "花园维度的法师们似乎花费了不少时间研究特殊的递归材料。伊恩确实非常有趣，其特性与我通过肉丸人获得的灵魂操控能力极为相似。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:rosidian_ingot"
       },
-      "name:8": "Floral Alloying"
+      "name:8": "花朵合金"
     }
   },
   "questID:3": 2183,

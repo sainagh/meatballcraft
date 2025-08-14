@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Learning about Shyre religion is not what I expected to do as part of my retaliation for Terra, but the insight I am gaining from this place is very useful.\nThe people of Precasia indeed do worship their masters; not as gods, as avatars, envoys of something bigger. In their pantheon there is a clear hierarchy, and by delving into their culture, I was able to get the names of those who sit at the top.\nTheir true deities are called the Immortals... \nDid I just learn who the leaders of the Shyre Empire are?",
+      "desc:8": "在泰拉实施报复行动的过程中，我未曾料想会涉足塞尔瑞的宗教研究，但此地的洞见确实弥足珍贵。\n传说维度的子民确实供奉着他们的主宰，并非作为神明，而是作为某种至高存在的化身与使者。他们的万神殿中等级森严，通过深入其文化，我终于知晓了端坐顶端存在的名讳。\n他们真正的神祇被称为不朽者……\n难道我刚刚窥破了塞尔瑞帝国的统治核心？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:precasia_garnet"
       },
-      "name:8": "Precasian Garnet"
+      "name:8": "传说石榴石"
     }
   },
   "questID:3": 329,

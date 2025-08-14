@@ -2,7 +2,33 @@
     "registryname": "shadow_fracturer",
     "localizedname": "Shadow Fracturer",
 	"color": "382e2d",
-    "has-factory": true,
+    "modifiers": [
+        {
+            "elements": "contenttweaker:fracturing_stone",
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "description": "x8并行， \n87.5%流体减免",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 8
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 1
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 8
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -2,

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/trait_music_of_the_spheres"
+    "layer0": "contenttweaker:textures/items/trait_inferno.png"
   }
 }

@@ -48,11 +48,11 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:phosphorous_crystal>, <fluid
 
 mods.nuclearcraft.dissolver.addRecipe([<ore:dustSalt>, <fluid:water>*100, <fluid:salt_water>*100, 0.9, 0.2, 0.0]);
 
-mods.nuclearcraft.electrolyser.addRecipe([<fluid:salt_water>*200, <fluid:chlorine>*40, <fluid:sodium>*40, <fluid:mineral_water>*120, null, 0.1, 0.9, 0.0]);
+mods.nuclearcraft.electrolyser.addRecipe([<fluid:salt_water>*2000, <fluid:chlorine>*400, <fluid:sodium>*400, <fluid:mineral_water>*1200, null, 0.1, 0.9, 0.0]);
 
-mods.nuclearcraft.electrolyser.addRecipe([<fluid:brine>*20, <fluid:chlorine>*4, <fluid:sodium>*4, <fluid:saline_remains>*12, null, 0.1, 0.9, 0.0]);
+mods.nuclearcraft.electrolyser.addRecipe([<fluid:brine>*200, <fluid:chlorine>*40, <fluid:sodium>*40, <fluid:saline_remains>*120, null, 0.1, 0.9, 0.0]);
 
-mods.nuclearcraft.electrolyser.addRecipe([<fluid:saline_remains>*10, <fluid:francium>*5, <fluid:bromine>*5, null, null, 0.1, 0.9, 0.0]);
+mods.nuclearcraft.electrolyser.addRecipe([<fluid:saline_remains>*100, <fluid:francium>*50, <fluid:bromine>*50, null, null, 0.1, 0.9, 0.0]);
 
 mods.nuclearcraft.melter.removeRecipeWithOutput([<fluid:brine>]);
 
@@ -195,6 +195,54 @@ recipes.addShaped(<contenttweaker:crystalline_beryllium>,
 [[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>], 
 [<contenttweaker:beryllium_fluoride_crystal>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "resource:emeryllis_plant", agri_growth: 10 as byte}), <contenttweaker:beryllium_fluoride_crystal>], 
 [<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>]]);  
+
+
+
+
+recipes.addShaped(<contenttweaker:crystalline_beryllium>*2, 
+[[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>], 
+[<aoa3:rainbow_druse>, <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "resource:emeryllis_plant", agri_growth: 1 as byte}), <aoa3:rainbow_druse>], 
+[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>]]);  
+
+recipes.addShaped(<contenttweaker:crystalline_beryllium>*2, 
+[[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>], 
+[<aoa3:rainbow_druse>, <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "resource:emeryllis_plant", agri_growth: 10 as byte}), <aoa3:rainbow_druse>], 
+[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>]]);  
+
+recipes.addShaped(<contenttweaker:crystalline_beryllium>*2, 
+[[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>], 
+[<aoa3:rainbow_druse>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "resource:emeryllis_plant", agri_growth: 1 as byte}), <aoa3:rainbow_druse>], 
+[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>]]);  
+
+recipes.addShaped(<contenttweaker:crystalline_beryllium>*2, 
+[[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>], 
+[<aoa3:rainbow_druse>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "resource:emeryllis_plant", agri_growth: 10 as byte}), <aoa3:rainbow_druse>], 
+[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>]]);  
+
+
+
+recipes.addShaped(<contenttweaker:crystalline_beryllium>*3, 
+[[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>], 
+[<contenttweaker:sacrificial_shard>, <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "resource:emeryllis_plant", agri_growth: 1 as byte}), <contenttweaker:sacrificial_shard>], 
+[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>]]);  
+
+recipes.addShaped(<contenttweaker:crystalline_beryllium>*3, 
+[[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>], 
+[<contenttweaker:sacrificial_shard>, <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "resource:emeryllis_plant", agri_growth: 10 as byte}), <contenttweaker:sacrificial_shard>], 
+[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>]]);  
+
+recipes.addShaped(<contenttweaker:crystalline_beryllium>*3, 
+[[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>], 
+[<contenttweaker:sacrificial_shard>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "resource:emeryllis_plant", agri_growth: 1 as byte}), <contenttweaker:sacrificial_shard>], 
+[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>]]);  
+
+recipes.addShaped(<contenttweaker:crystalline_beryllium>*3, 
+[[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>], 
+[<contenttweaker:sacrificial_shard>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "resource:emeryllis_plant", agri_growth: 10 as byte}), <contenttweaker:sacrificial_shard>], 
+[<contenttweaker:alchemical_crystal>, <contenttweaker:beryllium_fluoride_crystal>, <contenttweaker:alchemical_crystal>]]);  
+
+
+
 
 mods.techreborn.fusionReactor.addRecipe(<contenttweaker:crystalline_beryllium>, <nuclearcraft:ingot:10>, <contenttweaker:ruthenium_ingot>, 1000000, 100, 120);
 
@@ -579,7 +627,7 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:stable_nihonium>, <fluid:nih
 
 // see draconic infusion
 
-mods.nuclearcraft.melter.addRecipe([<contenttweaker:flerovium_matrix>, <fluid:flerovium>*144]);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:flerovium_matrix>, <fluid:flerovium>*250]);
 
 
 // making moscovium

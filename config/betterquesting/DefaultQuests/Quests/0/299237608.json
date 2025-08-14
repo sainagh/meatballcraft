@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oQuite a lot of Infused Diamon Singularities are going to be used in the future...",
+      "desc:8": "§7§o未来会用到相当数量的注能钻石奇异凝聚体……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2030,
         "id:8": "extendedcrafting:singularity_custom"
       },
-      "name:8": "All the Dimensional Shards"
+      "name:8": "所有维度碎片"
     }
   },
   "questID:3": 299237608,

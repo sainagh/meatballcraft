@@ -143,6 +143,16 @@ cra13.addItemInput(<abyssalcraft:lifecrystal>);
 cra13.addItemOutput(<abyssalcraft:ethaxiumingot>);
 cra13.build();
 
+val cra13a = RecipeBuilder.newBuilder("cra13a","sterilized_altar",400);
+cra13a.addEnergyPerTickInput(1200);
+cra13a.addFluidInput(<fluid:liquid_pe>*1000);
+cra13a.addFluidInput(<fluid:liquid_lp>*1000);
+cra13a.addItemInput(<abyssalcraft:ethaxiumbrick>);
+cra13a.addItemInput(<abyssalcraft:lifecrystal>);
+cra13a.addItemInput(<contenttweaker:sentient_shoggoth_flesh>);
+cra13a.addItemOutput(<abyssalcraft:ingotblock:3>);
+cra13a.build();
+
 val cra14 = RecipeBuilder.newBuilder("cra14","sterilized_altar",400);
 cra14.addEnergyPerTickInput(1200);
 cra14.addFluidInput(<fluid:liquid_pe>*400);
@@ -618,3 +628,13 @@ cra64.addItemInput(<abyssalcraft:statue:5>);
 cra64.addItemInput(<abyssalcraft:statue:6>);
 cra64.addItemOutput(<contenttweaker:paradigm_of_dominion>);
 cra64.build();
+
+
+val cra65 = RecipeBuilder.newBuilder("cra65","sterilized_altar",120);
+cra65.addEnergyPerTickInput(1200);
+cra65.addFluidInput(<fluid:liquid_pe>*1000);
+cra65.addFluidInput(<fluid:liquid_lp>*1000);
+cra65.addItemInput(<contenttweaker:demonic_remains>*128);
+cra65.addItemInput(<contenttweaker:demon_stone>*128);
+cra65.addItemOutput(<contenttweaker:demonic_remains>*256);
+cra65.build();

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe range upgrade lets you increase the range for the scanner!",
+      "desc:8": "§7§o范围升级可增加扫描器的扫描范围！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "scannable:module_range"
       },
-      "name:8": "Scanner Module: Range"
+      "name:8": "扫描模块：范围"
     }
   },
   "questID:3": 50101,

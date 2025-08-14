@@ -1,3 +1,7 @@
 item.magicbees.beecomb.otherworldly.name=Otherworldly Comb
 magicbees.effectslowspeed=Time Warp
 magicbees.allele.flowersbotania=Botania Flowers
+item.magicbees.beecomb.te_lux.name=Lux Comb
+item.magicbees.beecomb.te_destabilized.name=Destabilized Comb
+item.magicbees.beecomb.te_endearing.name=Endearing Comb
+flowerProvider.flowersBookshelf=Bookshelves

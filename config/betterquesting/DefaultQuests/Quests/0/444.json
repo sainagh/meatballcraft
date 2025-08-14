@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Here it is, Runandor! I had heard of this place from within the Deeplands. The people of this place are the ones that were so interested about the Charged Runium found there, and its alchemical properties.\nThe land of Runandor appears to be one of the worlds at the head of the Shyre Empire\u0027s military hirearchy. Runation, the subset of alchemy that has been snobbed by the Testificates, is key to the power of this place\u0027s forces.\nWhile it is indeed outclassed by other things that are easily achievable through alchemy, runation is an accessible form of this art that is accessible to others who do not possess this innate ability. Through runes, everyone can perform magic, and with enough runes, this magic can be quite destructive.\nThis is what makes Runandor so key in this conflict, its masters of runation are the only way the Shyre Empire can perform alchemy. \nWhy is it so hard for them to get their hands on actual alchemists? I still have no idea, but I suspect I will learn soon enough.",
+      "desc:8": "这里就是符境！我曾在深层维度听闻过此地。这里的居民对那些充能符文块及其炼金特性展现出异常浓厚的兴趣。\n符境似乎是塞尔瑞帝国军事体系中的核心世界之一。符文术，这项被泰斯提斐人嗤之以鼻的炼金术分支，正是此地军事力量的关键所在。\n虽然相比炼金术中其他更易达成的技艺，符文术确实相形见绌，但它为不具备先天施法能力者提供了一条接触魔法的途径。通过符文，人人都能施展法术，而足够数量的符文组合足以释放毁灭性的力量。\n这正是符境在冲突中至关重要的原因，其符文术大师们，是塞尔瑞帝国唯一能施展炼金术的渠道。\n为何他们难以招揽真正的炼金术士？我至今仍不得其解，但想必真相很快就会揭晓。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:runandor_realmstone"
       },
-      "name:8": "Shyre Magic"
+      "name:8": "塞尔瑞魔法"
     }
   },
   "questID:3": 444,

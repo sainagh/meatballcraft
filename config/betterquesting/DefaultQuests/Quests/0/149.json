@@ -6,12 +6,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I\u0027ve learnt something new about astral magic! Its power originates from the influence of numerically imaginary and comples gravity spreading through space time!\nThose that harness this power, including me, use this influence to affect the world around them. After leaving this imaginary realm (I\u0027m not quite sure how to visualize such a thing, but the math makes sense), starlight manifests as a liquid.\nWhile starlight is one form of this power that exists in the imaginary plane of existance, I suspect there may be other types. Who knows what type of magic I may be able to do with other lights.\nThose in the Twilight Horde seem to be able to use these higher-dimensional powers directly for much more powerful uses, including the opening of wormholes!\nBy reverse-engineering this theory, I can now use it to reopen portals to their world!\nI suspect this may have to do with the nature of the Dungeon of Arcana as well, but at the moment it\u0027s a total guess.",
+      "desc:8": "我最近学到了关于星辉魔法的新知识！其力量源于虚数与复合引力在时空中扩散产生的影响！\n掌握这种力量的人（包括我）正是运用这种影响来改变周遭世界。当脱离虚数空间后（虽然难以具象化这种空间，但在数学逻辑是成立的），这种力量便会具现为星能液。\n既然星能液只是这种存在于虚数位面的力量的一种具现形式，我怀疑还存在其他类型。天知道借助其他光芒，我能施展怎样的魔法！\n暮光部落的成员似乎能直接驾驭这些高维力量，实现更强大的用途——比如开启虫洞！\n通过逆向推演这套理论，我现在能重新打开通往他们世界的传送门了！\n我推测这可能与秘界地牢的本质也有关联，不过目前纯属猜测。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:divine_rock"
       },
-      "name:8": "Into the Twilit Skies!"
+      "name:8": "前往暮光之空！"
     }
   },
   "questID:3": 149,

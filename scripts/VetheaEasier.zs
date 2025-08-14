@@ -849,3 +849,20 @@ recipes.addShaped(<supersoundmuffler:sound_muffler_bauble>,
 
 recipes.addShapeless(<supersoundmuffler:sound_muffler>,
 [<supersoundmuffler:sound_muffler_bauble>]);
+
+
+
+mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:nightmare_block>*4, 
+[[<contenttweaker:muon_crystal>, <divinerpg:arksiane_lump>, <divinerpg:arksiane_lump>], 
+[<divinerpg:arksiane_lump>, <divinerpg:mortum_block>, <divinerpg:arksiane_lump>], 
+[<divinerpg:arksiane_lump>, <divinerpg:arksiane_lump>, <contenttweaker:muon_crystal>]], 2);
+
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:nightmare_gem>, 
+15000, 
+<bloodarsenal:blood_diamond>, 
+[<bloodarsenal:slate:4>, <bloodarsenal:slate:4>,
+<bloodarsenal:slate:4>, <bloodarsenal:slate:4>,
+<abyssalcraft:oc>, <abyssalcraft:oc>,
+<divinerpg:teaker_lump>, <divinerpg:teaker_lump>]);

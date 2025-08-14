@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Molten salt fission reactors! Scientists back on Earth spent quite a long time figuring out how to squeeze as much thermal power out of nuclear fission as possible, and this is what they came up with!\nWhile it was quite a big leap back then, this technology hardly compares to my current energy production capabilities, and yet it may have its usefulness. \nMost matter, even the one that makes up a simple banana, has a low but non-negligible level of radiation, and while this radiation is too small for making electricity, it can be used for material breeding.\nI really want to put recursive matter into a molten salt reactor! I really really want to do it!",
+      "desc:8": "熔盐裂变反应堆！地球上的科学家们花了很长时间研究如何从核裂变中榨取尽可能多的热能，这就是他们的最终成果！\n虽然这在当时是个巨大飞跃，但与我现在的能源生产能力相比简直不值一提，不过它或许仍有独到之处。\n大多数物质（哪怕是一根普通香蕉）都具有微弱但不可忽视的辐射。虽然这种辐射强度不足以发电，却可用于材料增殖。\n我太想把递归物质塞进熔盐反应堆了！真的超想试试看！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:salt_fission_controller"
       },
-      "name:8": "Molten Salt Reactor"
+      "name:8": "熔盐反应堆"
     }
   },
   "questID:3": 467,

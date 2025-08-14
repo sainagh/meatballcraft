@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I really like the feeling of learning something new! Even when it is something I still barely understand.\nI learned a new type of magic, the power of Stormlight! As indicated by its name, its origin lies in storms. The field that produces this magic is an emergent property from the entropic movement of large amounts of air and water.\nWhile its origin lies in disorder, it is order that binds it; the more uniform the lattice of a crystal, the more of this energy can be held.\nNow, what do I do with it? How do I release it? I am sure these questions will find their answers soon, I will just have to keep searching; probably not on Apichisi, nor on Crystevia. \nThe place these Wyverns come from is where I may find a new ally, and learn of new powers. Just as it was in Mysterium, it is reassuring to know there are others out there that cannot stand what the Shyre Empire is doing.",
+      "desc:8": "我太喜欢学习新事物的感觉了！即便我石仍一知半解。\n我学会了一种新型魔法：飓光之力！正如其名所示，这种力量源于风暴。产生这种魔法的场域，实质上是巨量空气与水汽在熵增运动中涌现出的特性。\n虽然它诞生于混沌，却需依秩序而存：晶体的晶格结构越均匀，能承载的这种能量就越多。\n那么该如何运用它？又该如何释放？我相信答案自会浮现，只需继续探寻——恐怕不在共鸣界，也不在晶体维度。\n那些飞龙的故乡或许藏着新的盟友与力量。就像在秘境维度的经历一样，知道世上还有人无法容忍塞尔瑞帝国的行径，总令人心安。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stormlight_sphere"
       },
-      "name:8": "Gem Batteries"
+      "name:8": "宝石电池"
     }
   },
   "questID:3": 2049,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:stormlight_sphere"
             },
-            "TrophyName:8": "For the Cosmere!",
+            "TrophyName:8": "为了三界宙！",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

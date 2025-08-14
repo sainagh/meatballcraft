@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "In this place, my powerlessness is absolute. \nI am back to my initial state, to my natural state, to my true state. Powerlessness.\nI do not like to be like this, I do not like to know this.\nAnd yet, I must know this, I must be like this.\nThat is how I know what must be done. What can be changed. What must be changed.\nI am powerless now, but I do not have to be...",
+      "desc:8": "在此地，我的无力是绝对的。\n我重归初始之态，重返自然之态，复得本真之态。无力。\n我不愿如此，亦不愿知晓此态。\n然我必须知晓，必须如此存续。\n唯此方能明悟当行之事。可变之物。必改之局。\n此刻我虽无力，却不必永困于此……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:furnace"
       },
-      "name:8": "Cooking (Again)"
+      "name:8": "烹饪（又一次）"
     }
   },
   "questID:3": 387,

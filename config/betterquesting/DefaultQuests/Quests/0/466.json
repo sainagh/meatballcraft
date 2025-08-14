@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The train of infinite energy does not stop! The residue left over by Arc Reactors is imbued with Mythic powers itself.\nThis matter appears to react quite well with photons, and it is a great medium for high efficiency solar panels.",
+      "desc:8": "无限能量的列车永不停歇！电弧反应堆的残留物本身就蕴含着神话之力。\n这种物质似乎能与光子产生极佳反应，是制造高效太阳能板的绝佳介质。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "techreborn:creative_solar_panel"
       },
-      "name:8": "Creative Solar Array"
+      "name:8": "创造太阳能阵列"
     }
   },
   "questID:3": 466,

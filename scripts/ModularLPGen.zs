@@ -71,3 +71,44 @@ val lp14 = RecipeBuilder.newBuilder("lp14","lp_harvester",10);
 lp14.addItemInput(<erebus:erebus_food:17>);
 lp14.addFluidOutput(<fluid:liquid_lp>*20);
 lp14.build();
+
+
+val lp15 = RecipeBuilder.newBuilder("lp15","lp_harvester",10);
+lp15.addItemInput(<aoa3:eye_bulb>);
+lp15.addFluidOutput(<fluid:liquid_lp>*30);
+lp15.build();
+
+val lp16 = RecipeBuilder.newBuilder("lp16","lp_harvester",10);
+lp16.addItemInput(<aoa3:fungal_tea>);
+lp16.addFluidOutput(<fluid:liquid_lp>*40);
+lp16.build();
+
+val lp17 = RecipeBuilder.newBuilder("lp17","lp_harvester",10);
+lp17.addItemInput(<aoa3:gingerbread_cookie>);
+lp17.addFluidOutput(<fluid:liquid_lp>*40);
+lp17.build();
+
+val lp18 = RecipeBuilder.newBuilder("lp18","lp_harvester",10);
+lp18.addItemInput(<divinerpg:raw_empowered_meat>);
+lp18.addFluidOutput(<fluid:liquid_lp>*30);
+lp18.build();
+
+val lp19 = RecipeBuilder.newBuilder("lp19","lp_harvester",10);
+lp19.addItemInput(<divinerpg:enriched_magic_meat>);
+lp19.addFluidOutput(<fluid:liquid_lp>*50);
+lp19.build();
+
+val lp20 = RecipeBuilder.newBuilder("lp20","lp_harvester",10);
+lp20.addItemInput(<divinerpg:magic_meat>);
+lp20.addFluidOutput(<fluid:liquid_lp>*40);
+lp20.build();
+
+val lp21 = RecipeBuilder.newBuilder("lp21","lp_harvester",10);
+lp21.addItemInput(<divinerpg:honeychunk>);
+lp21.addFluidOutput(<fluid:liquid_lp>*70);
+lp21.build();
+
+val lp22 = RecipeBuilder.newBuilder("lp22","lp_harvester",10);
+lp22.addItemInput(<divinerpg:honeysuckle>);
+lp22.addFluidOutput(<fluid:liquid_lp>*70);
+lp22.build();

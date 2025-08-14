@@ -6,20 +6,16 @@ import native.thaumcraft.api.golems.parts.GolemHead;
 import native.thaumcraft.api.golems.parts.GolemLeg;
 
 import crafttweaker.item.IItemStack;
+
+import scripts.thaumcraft.Unifier;
 /*
 Unify plates visually shown in the golem press.
 */
-var unifiedPlates = {
-  <thaumcraft:plate:0>: <techreborn:plates:18>,                 // brass
-  <thaumcraft:plate:1>: <thermalfoundation:material:32>,        // iron
-  <bewitchment:silver_plate>: <thermalfoundation:material:322>, // silver
-} as IItemStack[IItemStack];
-
 # Materials
 for material in GolemMaterial.getMaterials() {
   if (isStackValid(material.componentBase)) {
     var baseComponent as IItemStack = material.componentBase.wrapper;
-    material.componentBase = unifyStack(baseComponent, unifiedPlates);
+    material.componentBase = Unifier.unifyPlates(baseComponent);
   }
 }
 # Head
@@ -29,7 +25,7 @@ for head in GolemHead.getHeads() {
     var component = components[i];
     if (component instanceof ItemStack && isStackValid(component as ItemStack)) {
       var stack as IItemStack = (component as ItemStack).wrapper;
-      components[i] = unifyStack(stack, unifiedPlates);
+      components[i] = Unifier.unifyPlates(stack);
     }
   }
 }
@@ -40,21 +36,11 @@ for leg in GolemLeg.getLegs() {
     var component = components[i];
     if (component instanceof ItemStack && isStackValid(component as ItemStack)) {
       var stack as IItemStack = (component as ItemStack).wrapper;
-      components[i] = unifyStack(stack, unifiedPlates);
+      components[i] = Unifier.unifyPlates(stack);
     }
   }
 }
 
 function isStackValid(stack as ItemStack) as bool {
   return !(isNull(stack) || stack.isEmpty());
-}
-
-function unifyStack(stackIn as ItemStack, unifiedDict as IItemStack[IItemStack]) as ItemStack {
-  var stack as IItemStack = stackIn.wrapper;
-  for original, unified in unifiedDict {
-    if (stack.anyAmount().matches(original)) {
-      return (unified * stack.amount).native;
-    }
-  }
-  return stackIn;
 }

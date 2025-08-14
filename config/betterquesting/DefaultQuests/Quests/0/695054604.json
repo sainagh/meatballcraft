@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBig rabbit hole incoming! The quests following this one are not required to reach the end of the pack, but you may want to complete them for other reasons ;)",
+      "desc:8": "§7§o大坑预警！接下来的任务并非通关必做，但完成它们或许会有意外收获哦  ;)",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "recursive_computing_matter"
         }
       },
-      "name:8": "Big Brain Time"
+      "name:8": "大脑袋时间"
     }
   },
   "questID:3": 695054604,

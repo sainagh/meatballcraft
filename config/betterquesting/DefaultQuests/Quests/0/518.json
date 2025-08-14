@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Despite the squabbles between my archetypal enemies (yes I am equating this war to a myth of old), I can\u0027t help but be impressed at what the Aesir were capable of hiding after their defeat.\nI know the Shyre Empire did not know of this. They possessed the information to come to this conclusion, but they were not able to get the final step of this mystery.\nUsing magic to infuse stone into ore is a fairly mundane thing, all things considered. Useful in many cases, but in many others the bees and the chickens can do a better job.\nBut what the Aesir did was hiding their own powerful recursive material into this mundane, and honestly easy to ignore and snob, piece of botanical magic. Most of the products of the Orechid are fairly worthless, but Arkenstone, the seed of the power of the Asgard, is a gamechanger.\nWhoever did this must have been one of the final survivors of the Aesir. Instead of giving away the recursive material of Asgard, they infused into a magic that would be ignored by powerful foes like the ones they were facing, thus protecting it from their enemies\u0027 greed.\nTo whoever did this, thank you, you have given me a weapon I can use against the same enemies that put an end to your world!",
+      "desc:8": "尽管我的那些典型敌人们争吵不休（没错，我把这场战争比作古老神话），但我不得不惊叹阿萨神族在战败后竟能隐藏如此之物。\n我确信塞尔瑞帝国对此毫不知情。他们掌握着推导出这个结论的信息，却始终未能解开这个谜团的最后一步。\n用魔法将石头转化为矿石，平心而论这没什么特殊的。虽在某些场合实用，但多数情况下蜜蜂和鸡都能做得更好。\n但阿萨神族的做法，是将他们强大的递归物质藏进了这种平庸、易被人忽视和鄙夷的植物魔法之中。凝矿兰的产物大多毫无价值，但阿肯石——阿斯加德力量之种——却彻底改变了游戏规则。\n完成此举者必是阿萨神族最后的幸存者之一。他们没有直接交出阿斯加德的递归物质，而是将其注入一种会被强敌忽视的魔法中（就像当时围剿他们的那些敌人那样），从而使其免遭贪婪之徒的染指。\n致那位无名智者：感谢你赐予我这件武器，让我能用来对抗那些毁灭你们世界的敌人！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "orechid"
         }
       },
-      "name:8": "Orechid"
+      "name:8": "凝矿兰"
     }
   },
   "questID:3": 518,

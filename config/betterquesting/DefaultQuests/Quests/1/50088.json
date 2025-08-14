@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWorks like the tiara, but faster, better, stronger!",
+      "desc:8": "§7§o与天翼族之冠类似，但更快，更好，更强！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 32767,
         "id:8": "extrabotany:coregod"
       },
-      "name:8": "Core of God"
+      "name:8": "律者核心"
     }
   },
   "questID:3": 50088,

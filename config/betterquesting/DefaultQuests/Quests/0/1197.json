@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Whatever magic was used on this world, it left big scars, not only to this world, but to the ones that cast it.\nOriginally six, the wizards that fought here are now five.\nWhile I was not able to receive any confirmation, the powerful recursive tainted soul that is now spreading taint anywhere may be a hint of what happened to the last of them.\nA powerful enemy that leaves a trail of taint and corruption behind themselves; if I had to guess, this may be how the wizard in Iceika may have looked after losing control...",
+      "desc:8": "无论曾在此界施展何种魔法，它都留下了深重伤痕——不仅于此界，更反噬了施法者本身。\n原本六位在此鏖战的巫师，如今仅余其五。\n虽未获确证，但那具正不断散播腐化的强大递归腐化之魂，或许暗示着最后一位法师的结局。\n强敌所经之处必遗污浊与堕落；若容我揣测，冰晶雪原那位失控法师的终局，恐怕便是如此模样……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:tainted_heart"
       },
-      "name:8": "Tainted Heart"
+      "name:8": "腐化之心"
     }
   },
   "questID:3": 1197,
@@ -31,7 +31,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:tainted_heart"
             },
-            "TrophyName:8": "We tainted up a whole planet",
+            "TrophyName:8": "我们腐化了一整个行星",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

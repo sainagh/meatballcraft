@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "See, material science is useful!\nBloodmaster has many useful properties that make it well-suited for a variety of applications. It should be a good idea to stockpile it.",
+      "desc:8": "看吧，材料学果然有用！\n血主金属具有诸多优异特性，使其能完美适配多种应用场景。囤积一些应该是个好想法。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "contenttweaker:material_part"
       },
-      "name:8": "More Bloodmaster!"
+      "name:8": "更多血主！"
     }
   },
   "questID:3": 526,

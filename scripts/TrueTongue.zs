@@ -1,3 +1,9 @@
+recipes.addShaped(<contenttweaker:eldunari>,
+[[null, <openblocks:tank>.withTag({tank: {FluidName: "eternal_dragon_fire", Amount: 16000}}), null],
+[<openblocks:tank>.withTag({tank: {FluidName: "eternal_dragon_fire", Amount: 16000}}), <contenttweaker:eldunari>.reuse(), <openblocks:tank>.withTag({tank: {FluidName: "eternal_dragon_fire", Amount: 16000}})],
+[null, <openblocks:tank>.withTag({tank: {FluidName: "eternal_dragon_fire", Amount: 16000}}), null]]);
+
+
 recipes.addShapeless(<contenttweaker:aeldunari>.withTag({display: {Name: "ᛄᚡᛁᛛ",Lore:["§d§o真名§r"]}}),
 [<contenttweaker:eldunari>.reuse(),
 <contenttweaker:aeldunari>]);

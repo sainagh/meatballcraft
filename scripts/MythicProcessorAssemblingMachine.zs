@@ -195,3 +195,26 @@ mythassmac28.addItemInput(<contenttweaker:better_lapotron_crystal>);
 mythassmac28.addItemInput(<techreborn:part:43>);
 mythassmac28.addItemOutput(<techreborn:part:0>);
 mythassmac28.build();
+
+
+val mythassmac29 = RecipeBuilder.newBuilder("mythassmac29","mythic_processor_assembling_machine",2);
+mythassmac29.addEnergyPerTickInput(40000);
+mythassmac29.addItemInput(<aoa3:laser_blaster>);
+mythassmac29.setChance(0.0);
+mythassmac29.addItemInput(<advancedrocketry:lens:0>);
+mythassmac29.addItemInput(<ore:plateGold>);
+mythassmac29.addItemInput(<minecraft:redstone>);
+mythassmac29.addItemInput(<advancedrocketry:wafer:0>*4);
+mythassmac29.addItemOutput(<advancedrocketry:itemcircuitplate:0>);
+mythassmac29.build();
+
+val mythassmac30 = RecipeBuilder.newBuilder("mythassmac30","mythic_processor_assembling_machine",2);
+mythassmac30.addEnergyPerTickInput(40000);
+mythassmac30.addItemInput(<aoa3:laser_blaster>);
+mythassmac30.setChance(0.0);
+mythassmac30.addItemInput(<advancedrocketry:lens:0>);
+mythassmac30.addItemInput(<ore:plateGold>);
+mythassmac30.addItemInput(<minecraft:redstone_block>);
+mythassmac30.addItemInput(<advancedrocketry:wafer:0>*4);
+mythassmac30.addItemOutput(<advancedrocketry:itemcircuitplate:0>);
+mythassmac30.build();

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The same powers that allow for the creation of infinite plane worlds like the Eden or Arcana is capable of creating matter born of the higher dimensions.\nThis is a much weaker version of this ability, but, as the bees told me, it will be a start to learn how to use these powers at a larger scale.\nAll of my enemies seem to have this ability, so it should be a good idea to learn whatever I can about this, as it is possible it may be used for military purposes.",
+      "desc:8": "那种能够创造无限平面世界（如伊甸或秘界）的力量，同样可以催生源自高维度的物质。\n虽是该能力的弱化版本，但正如蜜蜂所述，这将作为学习大规模运用此类力量的起点。\n我所有的敌人都似乎掌握着这种能力，因此尽可能研习其中奥秘是明智之举，毕竟它极可能被用于军事目的。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:phasing_gem"
       },
-      "name:8": "Phasing Gems"
+      "name:8": "相位宝石"
     }
   },
   "questID:3": 1819,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:phasing_gem"
             },
-            "TrophyName:8": "Creepy Terraforming",
+            "TrophyName:8": "诡异行星改造",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

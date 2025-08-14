@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWith regards to UselessForce!\n\n§fYes, I can do it, recursion is not the only time-independent oscillator in the universe! Stuff like this can be engineered!",
+      "desc:8": "§7§o灵感来自UselessForce！\n\n§f是的，当然可以，递归并非宇宙中唯一的时间无关振荡器！这类东西是可以被设计出来的！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "twilightforest:aurora_block"
       },
-      "name:8": "All hail the CUBE"
+      "name:8": "立方万岁！"
     }
   },
   "questID:3": 844,

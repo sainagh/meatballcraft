@@ -99,7 +99,7 @@ recipes.addShaped(<contenttweaker:finis>*4,
 val spatcrucinsanitybetter = RecipeBuilder.newBuilder("spatcrucinsanitybetter","spatial_crucible",10);
 spatcrucinsanitybetter.addEnergyPerTickInput(100000);
 spatcrucinsanitybetter.addItemInput(<contenttweaker:finis>);
-spatcrucinsanitybetter.addFluidOutput(<fluid:hint_of_insanity>*16000);
+spatcrucinsanitybetter.addFluidOutput(<fluid:hint_of_insanity>*32000);
 spatcrucinsanitybetter.build();
 
 
@@ -130,14 +130,21 @@ spatcrucdivinitybetter.addEnergyPerTickInput(500000000);
 spatcrucdivinitybetter.addItemInput(<divinerpg:divine_stone>);
 spatcrucdivinitybetter.addItemInput(<contenttweaker:token_of_the_meatball_man>*8);
 spatcrucdivinitybetter.addItemInput(<contenttweaker:divine_ironwood_ingot>);
-spatcrucdivinitybetter.addFluidOutput(<fluid:hint_of_divinity>*16000);
+spatcrucdivinitybetter.addFluidOutput(<fluid:hint_of_divinity>*32000);
 spatcrucdivinitybetter.build();
 
 
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:polonium_encrusted_egg>, <contenttweaker:vox_ponds_garnet>, <contenttweaker:polonium_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:polonium_encrusted_egg>, <contenttweaker:cut_voxponds_garnet>, <contenttweaker:polonium_egg>, 1000, 1, false);
 
-val fracturer0 = RecipeBuilder.newBuilder("fracturer0","shadow_fracturer",1);
+
+recipes.addShaped(<contenttweaker:fracturing_stone>*4,
+[[<contenttweaker:optical_event_horizon>, <contenttweaker:warped_stone>, <contenttweaker:optical_event_horizon>],
+[<contenttweaker:warped_stone>, <contenttweaker:recursive_convergence>, <contenttweaker:warped_stone>],
+[<contenttweaker:optical_event_horizon>, <contenttweaker:warped_stone>, <contenttweaker:optical_event_horizon>]]);
+
+
+val fracturer0 = RecipeBuilder.newBuilder("fracturer0","shadow_fracturer",2);
 fracturer0.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer0.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer0.addItemInput(<contenttweaker:polonium_encrusted_egg>);
@@ -148,7 +155,7 @@ fracturer0.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:palladium_encrusted_egg>, <contenttweaker:celeve_garnet>, <contenttweaker:palladium_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:palladium_encrusted_egg>, <contenttweaker:cut_celeve_garnet>, <contenttweaker:palladium_egg>, 1000, 1, false);
 
-val fracturer1 = RecipeBuilder.newBuilder("fracturer1","shadow_fracturer",1);
+val fracturer1 = RecipeBuilder.newBuilder("fracturer1","shadow_fracturer",2);
 fracturer1.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer1.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer1.addItemInput(<contenttweaker:palladium_encrusted_egg>);
@@ -161,7 +168,7 @@ fracturer1.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:footbone_encrusted_egg>, <contenttweaker:precasia_garnet>, <contenttweaker:footbone_fragment_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:footbone_encrusted_egg>, <contenttweaker:cut_precasia_garnet>, <contenttweaker:footbone_fragment_egg>, 1000, 1, false);
 
-val fracturer2 = RecipeBuilder.newBuilder("fracturer2","shadow_fracturer",1);
+val fracturer2 = RecipeBuilder.newBuilder("fracturer2","shadow_fracturer",2);
 fracturer2.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer2.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer2.addItemInput(<contenttweaker:footbone_encrusted_egg>);
@@ -174,7 +181,7 @@ fracturer2.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:skullbone_encrusted_egg>, <contenttweaker:precasia_garnet>, <contenttweaker:skullbone_fragment_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:skullbone_encrusted_egg>, <contenttweaker:cut_precasia_garnet>, <contenttweaker:skullbone_fragment_egg>, 1000, 1, false);
 
-val fracturer3 = RecipeBuilder.newBuilder("fracturer3","shadow_fracturer",1);
+val fracturer3 = RecipeBuilder.newBuilder("fracturer3","shadow_fracturer",2);
 fracturer3.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer3.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer3.addItemInput(<contenttweaker:skullbone_encrusted_egg>);
@@ -187,7 +194,7 @@ fracturer3.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:yellow_gemstone_encrusted_egg>, <contenttweaker:crystevia_garnet>, <contenttweaker:yellow_gemstone_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:yellow_gemstone_encrusted_egg>, <contenttweaker:cut_crystevia_garnet>, <contenttweaker:yellow_gemstone_egg>, 1000, 1, false);
 
-val fracturer4 = RecipeBuilder.newBuilder("fracturer4","shadow_fracturer",1);
+val fracturer4 = RecipeBuilder.newBuilder("fracturer4","shadow_fracturer",2);
 fracturer4.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer4.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer4.addItemInput(<contenttweaker:yellow_gemstone_encrusted_egg>);
@@ -200,7 +207,7 @@ fracturer4.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:charged_runium_encrusted_egg>, <contenttweaker:deeplands_garnet>, <contenttweaker:charged_runium_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:charged_runium_encrusted_egg>, <contenttweaker:cut_deeplands_garnet>, <contenttweaker:charged_runium_egg>, 1000, 1, false);
 
-val fracturer5 = RecipeBuilder.newBuilder("fracturer5","shadow_fracturer",1);
+val fracturer5 = RecipeBuilder.newBuilder("fracturer5","shadow_fracturer",2);
 fracturer5.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer5.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer5.addItemInput(<contenttweaker:charged_runium_encrusted_egg>);
@@ -213,7 +220,7 @@ fracturer5.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:candyte_encrusted_egg>, <contenttweaker:candyland_garnet>, <contenttweaker:candyte_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:candyte_encrusted_egg>, <contenttweaker:cut_candyland_garnet>, <contenttweaker:candyte_egg>, 1000, 1, false);
 
-val fracturer6 = RecipeBuilder.newBuilder("fracturer6","shadow_fracturer",1);
+val fracturer6 = RecipeBuilder.newBuilder("fracturer6","shadow_fracturer",2);
 fracturer6.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer6.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer6.addItemInput(<contenttweaker:candyte_encrusted_egg>);
@@ -226,7 +233,7 @@ fracturer6.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:genemyte_encrusted_egg>, <contenttweaker:creeponia_garnet>, <contenttweaker:gemenyte_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:genemyte_encrusted_egg>, <contenttweaker:cut_creeponia_garnet>, <contenttweaker:gemenyte_egg>, 1000, 1, false);
 
-val fracturer7 = RecipeBuilder.newBuilder("fracturer7","shadow_fracturer",1);
+val fracturer7 = RecipeBuilder.newBuilder("fracturer7","shadow_fracturer",2);
 fracturer7.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer7.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer7.addItemInput(<contenttweaker:genemyte_encrusted_egg>);
@@ -239,7 +246,7 @@ fracturer7.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:lunastone_encrusted_egg>, <contenttweaker:lunalus_garnet>, <contenttweaker:lunastone_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:lunastone_encrusted_egg>, <contenttweaker:cut_lunalus_garnet>, <contenttweaker:lunastone_egg>, 1000, 1, false);
 
-val fracturer8 = RecipeBuilder.newBuilder("fracturer8","shadow_fracturer",1);
+val fracturer8 = RecipeBuilder.newBuilder("fracturer8","shadow_fracturer",2);
 fracturer8.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer8.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer8.addItemInput(<contenttweaker:lunastone_encrusted_egg>);
@@ -252,7 +259,7 @@ fracturer8.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:baronyte_encrusted_egg>, <contenttweaker:barathos_garnet>, <contenttweaker:baronyte_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:baronyte_encrusted_egg>, <contenttweaker:cut_barathos_garnet>, <contenttweaker:baronyte_egg>, 1000, 1, false);
 
-val fracturer9 = RecipeBuilder.newBuilder("fracturer9","shadow_fracturer",1);
+val fracturer9 = RecipeBuilder.newBuilder("fracturer9","shadow_fracturer",2);
 fracturer9.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer9.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer9.addItemInput(<contenttweaker:baronyte_encrusted_egg>);
@@ -265,7 +272,7 @@ fracturer9.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:jewelyte_encrusted_egg>, <contenttweaker:creeponia_garnet>, <contenttweaker:jewelyte_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:jewelyte_encrusted_egg>, <contenttweaker:cut_creeponia_garnet>, <contenttweaker:jewelyte_egg>, 1000, 1, false);
 
-val fracturer10 = RecipeBuilder.newBuilder("fracturer10","shadow_fracturer",1);
+val fracturer10 = RecipeBuilder.newBuilder("fracturer10","shadow_fracturer",2);
 fracturer10.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer10.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer10.addItemInput(<contenttweaker:jewelyte_encrusted_egg>);
@@ -278,7 +285,7 @@ fracturer10.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:white_gemstone_encrusted_egg>, <contenttweaker:crystevia_garnet>, <contenttweaker:white_gemstone_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:white_gemstone_encrusted_egg>, <contenttweaker:cut_crystevia_garnet>, <contenttweaker:white_gemstone_egg>, 1000, 1, false);
 
-val fracturer11 = RecipeBuilder.newBuilder("fracturer11","shadow_fracturer",1);
+val fracturer11 = RecipeBuilder.newBuilder("fracturer11","shadow_fracturer",2);
 fracturer11.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer11.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer11.addItemInput(<contenttweaker:white_gemstone_encrusted_egg>);
@@ -291,7 +298,7 @@ fracturer11.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:chestbone_encrusted_egg>, <contenttweaker:precasia_garnet>, <contenttweaker:chestbone_fragment_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:chestbone_encrusted_egg>, <contenttweaker:cut_precasia_garnet>, <contenttweaker:chestbone_fragment_egg>, 1000, 1, false);
 
-val fracturer12 = RecipeBuilder.newBuilder("fracturer12","shadow_fracturer",1);
+val fracturer12 = RecipeBuilder.newBuilder("fracturer12","shadow_fracturer",2);
 fracturer12.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer12.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer12.addItemInput(<contenttweaker:chestbone_encrusted_egg>);
@@ -304,7 +311,7 @@ fracturer12.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:red_gemstone_encrusted_egg>, <contenttweaker:crystevia_garnet>, <contenttweaker:red_gemstone_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:red_gemstone_encrusted_egg>, <contenttweaker:cut_crystevia_garnet>, <contenttweaker:red_gemstone_egg>, 1000, 1, false);
 
-val fracturer13 = RecipeBuilder.newBuilder("fracturer13","shadow_fracturer",1);
+val fracturer13 = RecipeBuilder.newBuilder("fracturer13","shadow_fracturer",2);
 fracturer13.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer13.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer13.addItemInput(<contenttweaker:red_gemstone_encrusted_egg>);
@@ -317,7 +324,7 @@ fracturer13.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:ornamyte_encrusted_egg>, <contenttweaker:creeponia_garnet>, <contenttweaker:ornamyte_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:ornamyte_encrusted_egg>, <contenttweaker:cut_creeponia_garnet>, <contenttweaker:ornamyte_egg>, 1000, 1, false);
 
-val fracturer14 = RecipeBuilder.newBuilder("fracturer14","shadow_fracturer",1);
+val fracturer14 = RecipeBuilder.newBuilder("fracturer14","shadow_fracturer",2);
 fracturer14.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer14.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer14.addItemInput(<contenttweaker:ornamyte_encrusted_egg>);
@@ -330,7 +337,7 @@ fracturer14.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:brightsteel_encrusted_egg>, <contenttweaker:runandor_garnet>, <contenttweaker:brightsteel_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:brightsteel_encrusted_egg>, <contenttweaker:cut_runandor_garnet>, <contenttweaker:brightsteel_egg>, 1000, 1, false);
 
-val fracturer15 = RecipeBuilder.newBuilder("fracturer15","shadow_fracturer",1);
+val fracturer15 = RecipeBuilder.newBuilder("fracturer15","shadow_fracturer",2);
 fracturer15.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer15.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer15.addItemInput(<contenttweaker:brightsteel_encrusted_egg>);
@@ -343,7 +350,7 @@ fracturer15.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:legbone_encrusted_egg>, <contenttweaker:precasia_garnet>, <contenttweaker:legbone_fragment_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:legbone_encrusted_egg>, <contenttweaker:cut_precasia_garnet>, <contenttweaker:legbone_fragment_egg>, 1000, 1, false);
 
-val fracturer16 = RecipeBuilder.newBuilder("fracturer16","shadow_fracturer",1);
+val fracturer16 = RecipeBuilder.newBuilder("fracturer16","shadow_fracturer",2);
 fracturer16.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer16.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer16.addItemInput(<contenttweaker:legbone_encrusted_egg>);
@@ -356,7 +363,7 @@ fracturer16.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:green_gemstone_encrusted_egg>, <contenttweaker:crystevia_garnet>, <contenttweaker:green_gemstone_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:green_gemstone_encrusted_egg>, <contenttweaker:cut_crystevia_garnet>, <contenttweaker:green_gemstone_egg>, 1000, 1, false);
 
-val fracturer17 = RecipeBuilder.newBuilder("fracturer17","shadow_fracturer",1);
+val fracturer17 = RecipeBuilder.newBuilder("fracturer17","shadow_fracturer",2);
 fracturer17.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer17.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer17.addItemInput(<contenttweaker:green_gemstone_encrusted_egg>);
@@ -369,7 +376,7 @@ fracturer17.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:chalcedony_encrusted_egg>, <contenttweaker:borean_garnet>, <contenttweaker:chalcedony_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:chalcedony_encrusted_egg>, <contenttweaker:cut_borean_garnet>, <contenttweaker:chalcedony_egg>, 1000, 1, false);
 
-val fracturer18 = RecipeBuilder.newBuilder("fracturer18","shadow_fracturer",1);
+val fracturer18 = RecipeBuilder.newBuilder("fracturer18","shadow_fracturer",2);
 fracturer18.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer18.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer18.addItemInput(<contenttweaker:chalcedony_encrusted_egg>);
@@ -382,7 +389,7 @@ fracturer18.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:vityte_encrusted_egg>, <contenttweaker:gardencia_garnet>, <contenttweaker:vityte_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:vityte_encrusted_egg>, <contenttweaker:cut_gardencia_garnet>, <contenttweaker:vityte_egg>, 1000, 1, false);
 
-val fracturer19 = RecipeBuilder.newBuilder("fracturer19","shadow_fracturer",1);
+val fracturer19 = RecipeBuilder.newBuilder("fracturer19","shadow_fracturer",2);
 fracturer19.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer19.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer19.addItemInput(<contenttweaker:vityte_encrusted_egg>);
@@ -395,7 +402,7 @@ fracturer19.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:purple_gemstone_encrusted_egg>, <contenttweaker:crystevia_garnet>, <contenttweaker:purple_gemstone_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:purple_gemstone_encrusted_egg>, <contenttweaker:cut_crystevia_garnet>, <contenttweaker:purple_gemstone_egg>, 1000, 1, false);
 
-val fracturer20 = RecipeBuilder.newBuilder("fracturer20","shadow_fracturer",1);
+val fracturer20 = RecipeBuilder.newBuilder("fracturer20","shadow_fracturer",2);
 fracturer20.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer20.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer20.addItemInput(<contenttweaker:purple_gemstone_encrusted_egg>);
@@ -408,7 +415,7 @@ fracturer20.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:mystite_encrusted_egg>, <contenttweaker:mysterium_garnet>, <contenttweaker:mystite_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:mystite_encrusted_egg>, <contenttweaker:cut_mysterium_garnet>, <contenttweaker:mystite_egg>, 1000, 1, false);
 
-val fracturer21 = RecipeBuilder.newBuilder("fracturer21","shadow_fracturer",1);
+val fracturer21 = RecipeBuilder.newBuilder("fracturer21","shadow_fracturer",2);
 fracturer21.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer21.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer21.addItemInput(<contenttweaker:mystite_encrusted_egg>);
@@ -421,7 +428,7 @@ fracturer21.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:blazium_encrusted_egg>, <contenttweaker:barathos_garnet>, <contenttweaker:blazium_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:blazium_encrusted_egg>, <contenttweaker:cut_barathos_garnet>, <contenttweaker:blazium_egg>, 1000, 1, false);
 
-val fracturer22 = RecipeBuilder.newBuilder("fracturer22","shadow_fracturer",1);
+val fracturer22 = RecipeBuilder.newBuilder("fracturer22","shadow_fracturer",2);
 fracturer22.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer22.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer22.addItemInput(<contenttweaker:blazium_encrusted_egg>);
@@ -434,7 +441,7 @@ fracturer22.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:bloodstone_encrusted_egg>, <contenttweaker:abyss_garnet>, <contenttweaker:bloodstone_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:bloodstone_encrusted_egg>, <contenttweaker:cut_abyss_garnet>, <contenttweaker:bloodstone_egg>, 1000, 1, false);
 
-val fracturer23 = RecipeBuilder.newBuilder("fracturer23","shadow_fracturer",1);
+val fracturer23 = RecipeBuilder.newBuilder("fracturer23","shadow_fracturer",2);
 fracturer23.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer23.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer23.addItemInput(<contenttweaker:bloodstone_encrusted_egg>);
@@ -447,7 +454,7 @@ fracturer23.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:blue_gemstone_encrusted_egg>, <contenttweaker:crystevia_garnet>, <contenttweaker:blue_gemstone_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:blue_gemstone_encrusted_egg>, <contenttweaker:cut_crystevia_garnet>, <contenttweaker:blue_gemstone_egg>, 1000, 1, false);
 
-val fracturer24 = RecipeBuilder.newBuilder("fracturer24","shadow_fracturer",1);
+val fracturer24 = RecipeBuilder.newBuilder("fracturer24","shadow_fracturer",2);
 fracturer24.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer24.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer24.addItemInput(<contenttweaker:blue_gemstone_encrusted_egg>);
@@ -460,7 +467,7 @@ fracturer24.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:lyon_encrusted_egg>, <contenttweaker:iromine_garnet>, <contenttweaker:lyon_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:lyon_encrusted_egg>, <contenttweaker:cut_iromine_garnet>, <contenttweaker:lyon_egg>, 1000, 1, false);
 
-val fracturer25 = RecipeBuilder.newBuilder("fracturer25","shadow_fracturer",1);
+val fracturer25 = RecipeBuilder.newBuilder("fracturer25","shadow_fracturer",2);
 fracturer25.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer25.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer25.addItemInput(<contenttweaker:lyon_encrusted_egg>);
@@ -473,7 +480,7 @@ fracturer25.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:varsium_encrusted_egg>, <contenttweaker:barathos_garnet>, <contenttweaker:varsium_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:varsium_encrusted_egg>, <contenttweaker:cut_barathos_garnet>, <contenttweaker:varsium_egg>, 1000, 1, false);
 
-val fracturer26 = RecipeBuilder.newBuilder("fracturer26","shadow_fracturer",1);
+val fracturer26 = RecipeBuilder.newBuilder("fracturer26","shadow_fracturer",2);
 fracturer26.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer26.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer26.addItemInput(<contenttweaker:varsium_encrusted_egg>);
@@ -486,7 +493,7 @@ fracturer26.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:crystallite_encrusted_egg>, <contenttweaker:haven_garnet>, <contenttweaker:crystallite_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:crystallite_encrusted_egg>, <contenttweaker:cut_haven_garnet>, <contenttweaker:crystallite_egg>, 1000, 1, false);
 
-val fracturer27 = RecipeBuilder.newBuilder("fracturer27","shadow_fracturer",1);
+val fracturer27 = RecipeBuilder.newBuilder("fracturer27","shadow_fracturer",2);
 fracturer27.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer27.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer27.addItemInput(<contenttweaker:crystallite_encrusted_egg>);
@@ -499,7 +506,7 @@ fracturer27.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:fluctuatite_encrusted_egg>, <contenttweaker:lelyetia_garnet>, <contenttweaker:fluctuatite_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:fluctuatite_encrusted_egg>, <contenttweaker:cut_lelyetia_garnet>, <contenttweaker:fluctuatite_egg>, 1000, 1, false);
 
-val fracturer28 = RecipeBuilder.newBuilder("fracturer28","shadow_fracturer",1);
+val fracturer28 = RecipeBuilder.newBuilder("fracturer28","shadow_fracturer",2);
 fracturer28.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer28.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer28.addItemInput(<contenttweaker:fluctuatite_encrusted_egg>);
@@ -512,7 +519,7 @@ fracturer28.build();
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:elecanium_encrusted_egg>, <contenttweaker:runandor_garnet>, <contenttweaker:elecanium_egg>, 1000, 1, false);
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:elecanium_encrusted_egg>, <contenttweaker:cut_runandor_garnet>, <contenttweaker:elecanium_egg>, 1000, 1, false);
 
-val fracturer29 = RecipeBuilder.newBuilder("fracturer29","shadow_fracturer",1);
+val fracturer29 = RecipeBuilder.newBuilder("fracturer29","shadow_fracturer",2);
 fracturer29.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer29.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer29.addItemInput(<contenttweaker:elecanium_encrusted_egg>);
@@ -526,7 +533,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:ghastly_encr
 100, <contenttweaker:ghastly_egg>, 
 [<contenttweaker:cut_greckon_garnet>, <materialpart:chaos:ingot>]);
 
-val fracturer30 = RecipeBuilder.newBuilder("fracturer30","shadow_fracturer",1);
+val fracturer30 = RecipeBuilder.newBuilder("fracturer30","shadow_fracturer",2);
 fracturer30.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer30.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer30.addItemInput(<contenttweaker:ghastly_encrusted_egg>);
@@ -540,7 +547,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:ghoulish_enc
 100, <contenttweaker:ghoulish_egg>, 
 [<contenttweaker:cut_greckon_garnet>, <materialpart:chaos:ingot>]);
 
-val fracturer31 = RecipeBuilder.newBuilder("fracturer31","shadow_fracturer",1);
+val fracturer31 = RecipeBuilder.newBuilder("fracturer31","shadow_fracturer",2);
 fracturer31.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer31.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer31.addItemInput(<contenttweaker:ghoulish_encrusted_egg>);
@@ -554,7 +561,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:caesium_encr
 100, <contenttweaker:caesium_egg>, 
 [<contenttweaker:cut_ancientcavern_garnet>, <materialpart:chaos:ingot>]);
 
-val fracturer32 = RecipeBuilder.newBuilder("fracturer32","shadow_fracturer",1);
+val fracturer32 = RecipeBuilder.newBuilder("fracturer32","shadow_fracturer",2);
 fracturer32.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer32.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer32.addItemInput(<contenttweaker:caesium_encrusted_egg>);
@@ -568,7 +575,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:strontium_en
 100, <contenttweaker:strontium_egg>, 
 [<contenttweaker:cut_dustopia_garnet>, <materialpart:chaos:ingot>]);
 
-val fracturer35 = RecipeBuilder.newBuilder("fracturer35","shadow_fracturer",1);
+val fracturer35 = RecipeBuilder.newBuilder("fracturer35","shadow_fracturer",2);
 fracturer35.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer35.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer35.addItemInput(<contenttweaker:strontium_encrusted_egg>);
@@ -582,7 +589,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:rubidium_enc
 100, <contenttweaker:rubidium_egg>, 
 [<contenttweaker:cut_immortallis_garnet>, <materialpart:chaos:ingot>]);
 
-val fracturer33 = RecipeBuilder.newBuilder("fracturer33","shadow_fracturer",1);
+val fracturer33 = RecipeBuilder.newBuilder("fracturer33","shadow_fracturer",2);
 fracturer33.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer33.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer33.addItemInput(<contenttweaker:rubidium_encrusted_egg>);
@@ -600,7 +607,7 @@ recipes.addShaped(<contenttweaker:hassium_encrusted_egg>,
 [<contenttweaker:recursive_powder>, <contenttweaker:hassium_egg>, <contenttweaker:recursive_powder>],
 [<contenttweaker:cut_vethea_garnet>, <contenttweaker:recursive_powder>, <chickens:liquid_egg:1>]]);
 
-val fracturer34 = RecipeBuilder.newBuilder("fracturer34","shadow_fracturer",1);
+val fracturer34 = RecipeBuilder.newBuilder("fracturer34","shadow_fracturer",2);
 fracturer34.addFluidInput(<fluid:hint_of_divinity>*50);
 fracturer34.addFluidInput(<fluid:hint_of_insanity>*50);
 fracturer34.addItemInput(<contenttweaker:hassium_encrusted_egg>);

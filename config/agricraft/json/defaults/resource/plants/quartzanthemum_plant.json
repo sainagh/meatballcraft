@@ -2,8 +2,8 @@
   "path": "resource/plants/quartzanthemum_plant.json",
   "enabled": true,
   "id": "resource:quartzanthemum_plant",
-  "plant_name": "Quartzanthemum",
-  "seed_name": "Crystalline Seeds",
+  "plant_name": "石英菊",
+  "seed_name": "晶莹种子",
   "seed_items": [],
   "description": {
     "translations": {},

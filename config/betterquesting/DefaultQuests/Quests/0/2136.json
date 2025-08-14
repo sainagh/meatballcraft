@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While the powers of the Lunar Lover is enough at suppressing the will of the enemies of the Shyre Empire, that alone will not topple the prison world of Lunalus.\nTo suppress the magical abilities of the prisoners, the jailers of Lunalus make use of a well-kept secret of the Shyre Empire, a spice, a volatile dust capable of inducing a cencelling effect of the fields of recursion.\nIn the same way that a superconductor, thanks to the Meissner effect, can repel the magnetic field around it, this spice can do the same with recursion.\nThis is a dangerous weapon, one so dangerous that it could not be used openly, in the fear that others may attempt to replicate it after observing it on a battlefield.\nEven then, I suspect it may have been used on me in Mysterium; it would explain lots of things.",
+      "desc:8": "虽然月之恋人的力量足以压制塞尔瑞帝国敌人的意志，但仅凭这点还不足以镇压月球维度的监狱世界。\n为压制囚徒的魔法能力，月球维度的狱卒们动用了塞尔瑞帝国严守的秘密，一种能诱发递归场域抵消效应的挥发性香料粉尘。\n正如超导体能通过迈斯纳效应排斥周围磁场，这种香料对递归场域具有同等效力。\n这是种危险的武器，其危险性甚至令帝国不敢公开使用，唯恐他方在战场上见识后竞相仿制。\n即便如此，我怀疑自己早前在秘境维度就曾中招；许多蹊跷之事由此便说得通了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:recursive_imprisonment_gem"
       },
-      "name:8": "Imprisoning Recursive Beings"
+      "name:8": "被囚禁的递归存在"
     }
   },
   "questID:3": 2136,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:recursive_imprisonment_gem"
             },
-            "TrophyName:8": "Prison, Sweet Prison",
+            "TrophyName:8": "监狱，甜蜜的监狱",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "My understanding of my enemies, despite all the time and effort so far, is still lacking, but if I want to learn, I have to take any lead I can get.\nThe structure of the mythic shells is a starting point. After all, they are the most advanced example of Warrens, perturbations and folds in the fabric of space, in the Universe. If they are not Fractallite in nature, I don\u0027t know what is!",
+      "desc:8": "虽然我已耗费大量时间和精力，但对敌人的认知仍显不足。若想继续探究，就必须抓住一切可能的线索。\n神话叠壳的结构正是切入点。毕竟，它们是整个宇宙中最具代表性的空间迷道、扰动与折层范例。若连这都不算分形本质的体现，世间就再无分形之物了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:skythern_star"
       },
-      "name:8": "Power from Skythern"
+      "name:8": "源自空境的力量"
     }
   },
   "questID:3": 296,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:skythern_star"
             },
-            "TrophyName:8": "Starry Skythern Idol",
+            "TrophyName:8": "空境之星圣像",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

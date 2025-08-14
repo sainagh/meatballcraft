@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "For some things, molecular assemblers may have gotten a bit to slow; a scale-up may be needed. Sure, I could just make more, but I feel like it\u0027d be better to go gor an integrated solution.",
+      "desc:8": "在某些情况下，分子装配室的效率可能略显不足；或许需要进行规模上的升级。当然，完全可以直接增加装配室数量，但我认为采用集成化解决方案会是更优选择。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
         "id:8": "threng:big_assembler"
       },
-      "name:8": "So Lazy Pack Unbalanced"
+      "name:8": "懒人包太不平衡了"
     }
   },
   "questID:3": 866,

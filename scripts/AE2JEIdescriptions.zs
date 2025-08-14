@@ -37,7 +37,6 @@ mods.jei.JEI.addDescription([<appliedenergistics2:part:40>,<appliedenergistics2:
 mods.jei.JEI.addDescription(<appliedenergistics2:part:516>,["基础致密线缆，可与任何染色线缆连接，能够传输32个频道。"]);
 mods.jei.JEI.addDescription(<appliedenergistics2:part:76>,["智能致密线缆，可与任何染色线缆连接，能够传输32个频道，能够显示传输的频道数。"]);
 mods.jei.JEI.addDescription([<appliedenergistics2:part:60>,<appliedenergistics2:part:61>,<appliedenergistics2:part:62>,<appliedenergistics2:part:63>,<appliedenergistics2:part:64>,<appliedenergistics2:part:65>,<appliedenergistics2:part:66>,<appliedenergistics2:part:67>,<appliedenergistics2:part:68>,<appliedenergistics2:part:69>,<appliedenergistics2:part:70>,<appliedenergistics2:part:71>,<appliedenergistics2:part:72>,<appliedenergistics2:part:73>,<appliedenergistics2:part:74>,<appliedenergistics2:part:75>],["染色致密线缆，只能与同色线缆连接，能够传输32个频道，能够显示传输的频道数。"]);
-mods.jei.JEI.addDescription(<appliedenergistics2:part:120>,["可用于阻断线缆连接，还可以用于合成线缆伪装板。"]);
 mods.jei.JEI.addDescription(<appliedenergistics2:part:80>,["通过红石信号控制线缆开关，默认为无信号则断开。"]);
 mods.jei.JEI.addDescription(<appliedenergistics2:part:100>,["通过红石信号控制线缆开关，默认为有信号则断开。"]);
 mods.jei.JEI.addDescription(<appliedenergistics2:part:240>,["将所连接容器的物品输入到ME网络内。"]);

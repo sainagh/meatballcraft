@@ -2,8 +2,8 @@
   "path": "vanilla/plants/brown_mushroom_plant.json",
   "enabled": true,
   "id": "vanilla:brown_mushroom_plant",
-  "plant_name": "Brown Mushroom",
-  "seed_name": "Brown Mushroom Spores",
+  "plant_name": "棕色蘑菇",
+  "seed_name": "棕色蘑菇孢子",
   "seed_items": [
     {
       "item": "agricraft:agri_seed",

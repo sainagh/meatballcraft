@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWelcome to chapter 6!\n\n§fThe capabilities of the Twilight Horde never stop to amaze me. Here I was, thinking just power alone would be my key to defeat my opponents for good...\nThankfully, having to face multiple opponents, besides being exhausting, has shown me different ways many of the players of this \u0027game\u0027 (feels weird to say it after so many lives have been lost, but it is indeed an appropriate word, for more than one reason) play it.\nThe Elder Ones, comparatively weak, were still able to gain massive influence thanks to their incredible intelligence-gathering abilities, making themselves indispensible to the bigger players; the Meatball Man has the incredible ability to manipulate others into serving him wether they want it or not; the Shyre Empire has brute forced its way into gathering one of the largest and most diverse armies in the cosmos, the Crimson Cult operates independtly behind the scenes, being almost untouchable due to their secrecy.\nAnd then there\u0027s the ace in the sleeve of the Twilight Horde. Their space warping abilities are a game changer, something that, arguably, places them in a leage of their own.\nWho needs subterfuge, influence, or even brute force when you are impossible to even reach and touch?\nWell, impossible is a big word, both me and the Shyre Empire are partially adept to these powers; my other enemies are doing their own space-warping experiments, and I am the first outsider to have actually entered Wildwood.\nThat is the greatness of science, it is replicable; if a truth exist, multiple people can take advantage of it! And I think I may have made another breakthrough! Time to jump into the next Shell! ",
+      "desc:8": "§7§o欢迎来到第6章！\n\n§f暮光部落的能力总是令我惊叹不已。我曾以为仅凭力量就足以彻底击败对手……\n所幸，在同时应对多方敌人的过程中（虽然疲惫不堪），我得以见识到这场“游戏”（在牺牲了这么多生命后这么说有些怪异，但这个称谓确实恰如其分，且理由不止一个）中不同玩家的游戏方式。\n那些古神虽然相对弱小，却凭借惊人的情报收集能力获得了巨大影响力，成为强大势力不可或缺的助力；肉丸人拥有操控他人效忠的可怕能力；塞尔瑞帝国以蛮横手段组建了宇宙间规模最大、兵种最丰富的军团；血腥教团则在暗处独立运作，其隐秘性令他们几乎无懈可击。\n而暮光部落真正的王牌，是他们的空间扭曲能力。这项天赋足以改写游戏规则，可以说让他们自成一家。\n当敌人绝无可能触及你时，还需要什么谋略、权术甚至蛮力吗？\n当然，“绝无可能”或许言之过早。我和塞尔瑞帝国都部分掌握了这种能力，其他敌人也在开展空间扭曲实验，而我更是首个成功闯入原始森林的外来者。\n这正是科学的伟大之处，具有可复制性！只要存在某种真理，就必定会被多人掌握！我想…我又要取得新突破了！是时候跃入下一个神话叠壳了！",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:wildwood_star"
       },
       "ismain:1": 1,
-      "name:8": "Power from Wildwood"
+      "name:8": "源自原始森林的力量"
     }
   },
   "questID:3": 283,
@@ -32,7 +32,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:wildwood_star"
             },
-            "TrophyName:8": "Starry Wildwood Idol",
+            "TrophyName:8": "原始森林之星圣像",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

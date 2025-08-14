@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "More shadows, more fragments of true recursion.\nWhat I am holding on to, I do not fully understand. I cannot fully understand.\nIt is circular, it generates itself. It is recursive. Literally.\nAnd just like that, my second Mythic Fractal.",
+      "desc:8": "更多投影，更多纯净递归的碎片。\n手中紧握之物，我未能全然理解。我永远无法理解。\n它自成循环，自我衍生。它是递归的。字面意义上。\n就这样，我的第二个神话分形诞生了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:second_order_mythic_fractal"
       },
-      "name:8": "Second Order Fractal"
+      "name:8": "二阶分形"
     }
   },
   "questID:3": 2134,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:second_order_mythic_fractal"
             },
-            "TrophyName:8": "Tier 2 Fractal Boi",
+            "TrophyName:8": "Bro搞到了二阶分形",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "neon"
           }

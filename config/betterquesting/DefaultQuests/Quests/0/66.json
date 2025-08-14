@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o秘银可于下界的特殊建筑中发现。\n\n找找蓝色的玩意！",
+      "desc:8": "§7§o蕴魔秘银可于下界的特殊建筑中发现。\n\n找找蓝色的玩意！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_philosophers_stone",

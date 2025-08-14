@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse the guardian\u0027s eye on graw altar\n\n§fThe master of Lelyetia has been taken down, and the weird feeling I felt when I first entered is partially gone. \nA weird feeling of wrongness, a pressure weighting on me, as if I my wery being was being rejected by this place. And no it is not related to the weird gravity of Lelyetia, otherwise I would feel something like this in Arcana too. The powers of Graw were, and still are, affecting me.\nThis land still holds some secrets, and I am set on figuring out what\u0027s going on!\nFor starters, whatever the trick of manipulating space-time and gravity may be, science or magic, probably both, is available to both of my foes, and it seems to be used for strategic and military porposes. Places that can only be reached through wormholes, bound to specific coordinates, are quite useful in a cosmic war.",
+      "desc:8": "§7§o对格劳祭坛使用守护者之眼\n\n§f赫尔维蒂维度的主宰已被击败，初次踏入此地时感受到的诡异压迫感已部分消散。\n那是一种难以名状的不适，仿佛我的存在本身正遭受这片土地的排斥。这与赫尔维蒂维度特有的引力异常无关，否则在秘界时我理应产生相似感受。格劳的力量过去、现在都持续影响着我的状态。  \n这片土地仍藏着未解之谜，而我决心揭开真相！  \n初步判断，无论是科学还是魔法（或许二者兼有），我的敌人们都掌握着操控时空与引力的技巧，并将其运用于战略军事领域。那些必须通过特定坐标虫洞才能抵达的区域，在星际战争中显然具有极高战术价值。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:lelyetian_cap"
       },
-      "name:8": "Lelyetia Falls"
+      "name:8": "攻陷赫尔维蒂"
     }
   },
   "questID:3": 331,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:graw_fang"
             },
-            "TrophyName:8": "Graw Slayer",
+            "TrophyName:8": "森林守护者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

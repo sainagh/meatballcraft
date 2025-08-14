@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Another requirement for an empire capable of taking over the universe. A way to maintain continuity in ruling. \nNot just immortality, the ability to give and re-take it. In a way similar to how I gained recursion from the Old Ones, the Immortal Fractallites can bestow recursive powers on whoever they desire, and just as simply take them away.\nThrough their manipulation, they were able of ensuring the ideological continuity of the Shyre Empire. Those that followed, endured, those that did not, were simply lost through the sands of time...",
+      "desc:8": "一个能够统治宇宙的帝国还需要满足另一个条件：维持统治延续性的手段。\n不仅仅是永生不死，而是能够赐予和收回永生的能力。就像我从古神那里获得递归之力那样，不朽分形者们可以随心所欲地将递归力量赐予选中之人，也能同样轻易地收回。\n通过这种操控手段，他们确保了塞尔瑞帝国的意识形态延续。顺者昌，逆者亡……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:immortallis_realmstone"
       },
-      "name:8": "Immortallis Realmstone"
+      "name:8": "不朽之地纯宝石"
     }
   },
   "questID:3": 408,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "It is not just Blood Magic and Thorns, the power of fluix and Matter-Energy networks can also be helped by this new discovery.\nIts networking capabilities do not only apply to matter, but space as well!\nThis creates a type of space-time discontinuity like the one that makes up Arcana, but in a much smaller scale.\nAnyhow, I now can say I am capable of generating my own worlds! \nThe properties of space in these worlds are quite peculiar, there\u0027s probably magic that is only possible in there!",
+      "desc:8": "不仅关乎血魔法与荆棘，福鲁伊克斯与物质 - 能量网络的同样能受益于这项新发现。\n其网络能力不仅作用于物质，还能影响空间！\n这创造了一种类似构成秘界的时空不连续性，但规模要小得多。\n无论如何，我现在可以说，我能创造属于自己的世界了！\n这些世界的空间特性极为奇特，或许存在仅在其中才能施展的魔法！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:spatial_io_port"
       },
-      "name:8": "Baby\u0027s First Spatial Breakthrough"
+      "name:8": "宝宝的首次空间突破"
     }
   },
   "questID:3": 476,

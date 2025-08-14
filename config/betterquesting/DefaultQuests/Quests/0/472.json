@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Some of the bugs of what used to be just the Erebus indeed appear to have incredibly useful powers. This species of wasps evolved to reinforce their chitin into a near-unbreakable metal-organic composite,Adamantium.\nThis material is incredibly durable, beyond pretty much anything I have seen.\nAll the zombies that are now ever-present around me have been getting better and better equipment, and I suspect it may come from sources similar to how this Adamantium is being obtained. Ambitious beings thinking they could enter an equal trade with the Meatball Man, who ended up being exploited and cheated out of their secretes instead.",
+      "desc:8": "那些原本仅存在于混沌之地的虫子中，某些品种确实展现出惊人的实用能力。这种黄蜂进化出了将几丁质强化为近乎不可摧毁的金属有机复合材料的能力，我称之为艾德曼。\n这种材料的耐久性远超我见过的任何物质。\n那些环绕在我周围的僵尸，如今它们的装备正在不断升级。我怀疑其来源与艾德曼的获取方式类似。某些野心家自以为能与肉丸人进行公平交易，结果反被利用，连核心机密都被榨取殆尽。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:adamantium_stinger"
       },
-      "name:8": "Adamantium Stinger"
+      "name:8": "艾德曼螫针"
     }
   },
   "questID:3": 472,
