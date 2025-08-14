@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    951871488
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:recursion_sharpening_lens"
+      },
+      "name:8": "Recursion Sharpening"
+    }
+  },
+  "questID:3": 1028946427,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:recursion_sharpening_lens"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

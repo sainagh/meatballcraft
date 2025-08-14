@@ -1,0 +1,77 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    947,
+    995
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:knights_guard",
+        "tag:10": {
+          "display:10": {
+            "Lore:9": {
+              "0:8": "§d§oSuper-Enchanted§r"
+            },
+            "Name:8": "§6§oThe Ashbringer§r"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:3": 47,
+              "lvl:3": 25
+            },
+            "1:10": {
+              "id:3": 16,
+              "lvl:3": 300
+            },
+            "2:10": {
+              "id:3": 81,
+              "lvl:3": 20
+            }
+          }
+        }
+      },
+      "name:8": "The Ashbringer"
+    }
+  },
+  "questID:3": 179843577,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:knights_guard",
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oThe Ashbringer§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 47,
+                "lvl:3": 25
+              },
+              "1:10": {
+                "id:3": 16,
+                "lvl:3": 300
+              },
+              "2:10": {
+                "id:3": 81,
+                "lvl:3": 20
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    2239
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The power that lingers in this world, the force that gave power to Bane, the temporal Fractallite, is not fully his own.\nThere is another that lends this power, another that twists the hand of time.\nIf Bane is a catalyst to its power, the Elder One of Greckon is its source.\nThe Blind Goat that devours all. Time always passes. Chaos always grows. The Army of Darkness never stops growing.\nBy itself this process is slow. Not geologically slow. Not planetarily slow. Cosmically slow. \nEven for the universe itself, the growth of this army, by itself, would be a slow process, and yet Bane, thanks to its powers, was able to catalyze it, and to turn it into a dangerous growth, one that ever theratens to expand through all the universe, if given the chance.\nThis would be the end of time.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:summons_to_the_army_of_darkness"
+      },
+      "name:8": "The Army of Darkness"
+    }
+  },
+  "questID:3": 1307048944,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:summons_to_the_army_of_darkness"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:horn_of_the_dark_goat"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

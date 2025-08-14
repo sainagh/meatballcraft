@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1199,
+    1186292722
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Now that I have encountered the Avatar of the Meatball Man, in all of its power, I thought I understood what type of might his full form may hold, but after this I am not sure anymore.\nYes, the traces left by the rebellious undead was meant to be found, and it was meant to be followed. It was a call for help, one I answered too late, unfortunately.\nSome undead were holding on to a power, a holy light, something that could put the Meatball Man back into his original role. Whatever this \u0027holiness\u0027 may be, I cannot even begin to guess, but the point of its importance remains.\nThe Meatball Man came in full force to stop it, and I was too late. \nThe Undead had already been under his control, and they retaliated against me. Something in their being, though, still retained some of this essence, this \u0027holiness\u0027.\nAlso, I think I may have witnessed, at least partially, what the true form of the Meatball Man, or maybe his power, may be. A mass of meatball flesh, expanding, growing, enveloping everything in its path.\nIn its behavior, this reminds of taint. A force powerful enough to annhilate full planets.\nIf the Meatball Man really wanted to, I suspect the same could happen to Terra...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:holy_shimmer"
+      },
+      "name:8": "A Shimmer in Undeath"
+    }
+  },
+  "questID:3": 723350306,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:holy_sludge_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:holy_shimmer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

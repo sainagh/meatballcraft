@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    453
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is not the first time I run into strange behavior in the Undead.\nNot all of them are under the influence of the Meatball Man, and some even seem to oppose it, to whatever extent an individual Undead can do anything against someone like him. Sure, they can struggle, but they, not unlike me, stand little chance in a one-on-one confrontation.\nSome, though, do seem to hold quite a lot of power, and most importantly, there seem to be some sort of coordination.\nWhatever the aims of this opposition may be, I cannot guess them. I would very much appreciate coming in contact with them, though.\nI think I found one of their traces, one of the signals they use to communicate.\nOf all places to do this, Apichisi does feel like a strange place to do it. After all, there are relatively few Undead here, mostly the zombies and skeletons that always follow me. Why here, of all places?\nAnd why in such an obvious place? I did not necessarily struggle at finding that message, it was pretty easy to get my hands on it. Almost as if it was meant to be easy to find...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:holy_sludge_crystal"
+      },
+      "name:8": "Holy Sludge!"
+    }
+  },
+  "questID:3": 1186292722,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:holy_sludge_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

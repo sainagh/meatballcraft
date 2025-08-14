@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    2138
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Well, I was right. The past was hidden, manipulated, but not in the \u0027erased history\u0027 scenario I envisioned.\nAs part of an ancient crime, the mind of the people of Runandor, everyone born from its people, was changed, and is continiously changed to forget about Runandium.\nI do not know why, but I do know who did it. Three priests, now mere shades, used to play a role in the religion of Runandor. After an ancient betrayal, one too grave to be spoken out loud by the shades, this spell of forgetfulness was cast over the betrayers and their offspring.\nEveryone in Runandor is now under this spell. I can only guess here, but part of me believes that this betrayal may have involved a war of extermination. Otherwise, why is it that there are no survivors capable of knowing about Runandium.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:forsaken_priests_callstone"
+      },
+      "name:8": "The Priests of Runandium"
+    }
+  },
+  "questID:3": 1541017358,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:forsaken_priests_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:standard_of_the_love"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:standard_of_the_loved"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:standard_of_the_lover"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

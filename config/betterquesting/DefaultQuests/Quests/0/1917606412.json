@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    2122
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "I still do not have the full picture, but it seems like these Dragonslayers do not directly take issue with the Shyre Empire, but with some of their associate and allies.\nBy virtue of pulling in planets and civilizations they deem to be worthy of their might, Shyre agents have entered many pacts with some of the Elder Ones, twisted creatures like Cha\u0027Garoth and Jah\u0027zahr. These beings seem to fall into a category of their own, which I do not fully understand. From what I know, as the name suggests, they are all incredibly old, having existed for a large part of the universe\u0027s life, and hold on to powerful secrets, which they often reveal as part of strange bargains and pacts.\nWhile the Shyre Empire has no problems forming pacts or entering partnerships with the Elder Ones, the Dragonslayers, for their own reasons, are fighting their campaign against them. In this, we are very much allies, even though they still do not hesitate to attack me. \nI am not an Elder One. Sure, I interacted with some, but I was openly hostile against them. I defeated them, or defeated whatever influence they had on me. Or did I? Maybe something of their influence remained, and that is what, to their eyes, makes me an enemy.\nWell, the matter of freeing myself from this prison of Recursion is an ongoing issue, and I will need more knowedge and more power to improve on my situation. This can wait.\nIn the meantime, maybe there is something I could to get the Dragonslayers on my side. I believe I know where I can find an Elder One, the Apostle. Maybe if I defeat it it can be a show of good faith, and it could open up new possibilities. Maybe...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:call_of_the_berserker"
+      },
+      "name:8": "Enemies of the Elder Ones"
+    }
+  },
+  "questID:3": 1917606412,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:call_of_the_berserker"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
