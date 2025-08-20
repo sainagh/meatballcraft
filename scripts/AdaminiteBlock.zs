@@ -65,3 +65,13 @@ recipes.addShaped(<thaumadditions:adaminite_block>,
 [<ore:ingotMithril>, <thaumadditions:mithrillium_block>, <ore:ingotMithril>],
 [<contenttweaker:vibrating_stone>, <contenttweaker:primordial_star>, <contenttweaker:vibrating_stone>]]);
 
+recipes.addShaped(<thaumadditions:adaminite_block>*2,
+[[<contenttweaker:resonating_stone>, <materialpart:dreaded_steel:ingot>, <contenttweaker:resonating_stone>],
+[<avaritia:resource:4>, <thaumadditions:mithrillium_block>, <avaritia:resource:4>],
+[<contenttweaker:resonating_stone>, <contenttweaker:primordial_star>, <contenttweaker:resonating_stone>]]);
+
+recipes.addShaped(<thaumadditions:adaminite_block>*4,
+[[<contenttweaker:resonating_stone>, <materialpart:dreaded_steel:ingot>, <contenttweaker:resonating_stone>],
+[<contenttweaker:tennessine_gem>, <thaumadditions:mithrillium_block>, <contenttweaker:tennessine_gem>],
+[<contenttweaker:resonating_stone>, <contenttweaker:primordial_star>, <contenttweaker:resonating_stone>]]);
+

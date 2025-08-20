@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Time to start thinking about some crafting components!",
+      "desc:8": "是时候考虑做一些合成组件了！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 666,
         "id:8": "extendedcrafting:singularity_custom"
       },
-      "name:8": "Singularity Time?"
+      "name:8": "奇点时间？"
     }
   },
   "questID:3": 394,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I never thought to check, but Slimes, of all things, carry a small amount of Fractallite magic in them.\nTheir very nature, after all, is fractal; each of them separates into more, over and over.\nIf the ones I encountered so far hide a small amount of Fractallite Power, if I were to find more and more powerful slimes, I may be able to witness larger and larger amounts of it.",
+      "desc:8": "我从未想过要验证这一点，但偏偏是史莱姆体内蕴含着微量分形魔法。\n毕竟它们的本质就是分形结构，每一个个体都能不断分裂增殖。\n既然目前遇到的个体都蕴藏着微量分形之力，若我能找到更多、更强的史莱姆，或许就能见证更强大的分形之力显现。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:sticky_callstone"
       },
-      "name:8": "Eww, Sticky"
+      "name:8": "呃呃，黏黏的"
     }
   },
   "questID:3": 396,

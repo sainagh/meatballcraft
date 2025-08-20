@@ -41,8 +41,8 @@ true,
 <minecraft:egg>, 
 [<thebetweenlands:items_crushed:0>,<thebetweenlands:items_crushed:0>,<thebetweenlands:items_crushed:0>,<thebetweenlands:items_crushed:0>,
 <thebetweenlands:items_crushed:0>,<thebetweenlands:items_crushed:0>,<thebetweenlands:items_crushed:0>,<thebetweenlands:items_crushed:0>]);
-game.setLocalization("ac.ritual.geckoeggcute", "召唤可爱壁虎"); 
-game.setLocalization("ac.ritual.geckoeggcute.desc", "可爱壁虎很可爱");
+game.setLocalization("ac.ritual.geckoeggcute", "Make a cute gecko"); 
+game.setLocalization("ac.ritual.geckoeggcute.desc", "Cute gecko is cute");
 
 
 val betweenSulfurDict = <ore:oreBetweenSulfur>;

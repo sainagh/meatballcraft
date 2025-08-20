@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    2239
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "滞留于此世的力量，那赋予幽魂这个永恒分形者权能的，并非全然属于它自身。\n另有存在出借此力，另有存在扭曲时间之手。\n若幽魂是其力量之催化剂，则格瑞克维度的古神方为源头。\n那吞噬万物的盲眼山羊。时间永续流逝。混沌不断滋长。黑暗军团永无止境地扩张。\n此过程本身极为缓慢。非地质尺度之缓，非行星纪元之缓，乃宇宙维度之缓。\n纵对宇宙本身而言，这支军团的自然扩张亦属缓慢进程，然幽魂凭其权能催化此势，将其转化为危险增生——若得机遇，终将蔓延吞噬全宇宙。\n此即为时之终焉。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:summons_to_the_army_of_darkness"
+      },
+      "name:8": "黑暗军团"
+    }
+  },
+  "questID:3": 1307048944,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:summons_to_the_army_of_darkness"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:horn_of_the_dark_goat"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

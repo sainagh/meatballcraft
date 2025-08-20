@@ -1,4 +1,5 @@
 import mods.modularmachinery.RecipeBuilder;
+import mods.thaumcraft.SmeltingBonus;
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:enriched_canola_seed>, 
 202020, <actuallyadditions:item_misc:24>, 
@@ -43,9 +44,19 @@ recipes.addShaped(<contenttweaker:tartarite_monolith>,
 [<abyssalcraft:stone:7>, <abyssalcraft:stone:7>, <abyssalcraft:stone:7>],
 [<contenttweaker:eldritch_will_crystal>, <abyssalcraft:stone:7>, <contenttweaker:eldritch_will_crystal>]]);
 
-mods.immersiveengineering.Crusher.addRecipe(<tombstone:crafting_ingredient:3>*4, <aoa3:jewelyte>, 4096);
-mods.immersiveengineering.Crusher.addRecipe(<tombstone:crafting_ingredient:3>*4, <aoa3:gemenyte>, 4096);
-mods.immersiveengineering.Crusher.addRecipe(<tombstone:crafting_ingredient:3>*4, <aoa3:ornamyte>, 4096);
+
+mods.thermalexpansion.Pulverizer.addRecipe(<tombstone:crafting_ingredient:3>*16, <aoa3:jewelyte>, 10);
+mods.thermalexpansion.Pulverizer.addRecipe(<tombstone:crafting_ingredient:3>*16, <aoa3:gemenyte>, 10);
+mods.thermalexpansion.Pulverizer.addRecipe(<tombstone:crafting_ingredient:3>*16, <aoa3:ornamyte>, 10);
+
+mods.nuclearcraft.manufactory.addRecipe([<aoa3:jewelyte>, <tombstone:crafting_ingredient:3>*16]);
+mods.nuclearcraft.manufactory.addRecipe([<aoa3:gemenyte>, <tombstone:crafting_ingredient:3>*16]);
+mods.nuclearcraft.manufactory.addRecipe([<aoa3:ornamyte>, <tombstone:crafting_ingredient:3>*16]);
+
+
+mods.immersiveengineering.Crusher.addRecipe(<tombstone:crafting_ingredient:3>*64, <aoa3:jewelyte>, 4096);
+mods.immersiveengineering.Crusher.addRecipe(<tombstone:crafting_ingredient:3>*64, <aoa3:gemenyte>, 4096);
+mods.immersiveengineering.Crusher.addRecipe(<tombstone:crafting_ingredient:3>*64, <aoa3:ornamyte>, 4096);
 
 mods.techreborn.centrifuge.addRecipe(<mysticalagriculture:mystical_fertilizer>*16, <minecraft:dye:15>*10, null, null, <materialpart:vityte:ingot>, null, 60, 128);
 
@@ -87,7 +98,7 @@ true,
 [<aoa3:dense_rock>,<aoa3:dense_rock>,<aoa3:dense_rock>,<aoa3:dense_rock>,
 <abyssalcraft:stone:6>,<abyssalcraft:stone:6>,<abyssalcraft:stone:6>,<abyssalcraft:stone:6>]);
 game.setLocalization("ac.ritual.MakeTartariteInf", "Tartar"); 
-game.setLocalization("ac.ritual.MakeTartariteInf.desc", "魂石！");
+game.setLocalization("ac.ritual.MakeTartariteInf.desc", "Tartarite!");
 
 
 
@@ -378,3 +389,86 @@ recipes.addShaped(<contenttweaker:cursed_dragon_egg>*2,
 [[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]}), <contenttweaker:cursed_dragon_egg>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]})],
 [<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]}), <contenttweaker:cursed_cradle>.reuse(), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]})],
 [<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}), null, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})]]);
+
+
+mods.techreborn.assemblingMachine.addRecipe(<buildcraftsilicon:redstone_chipset:0>*2, <contenttweaker:dense_redstone>, <minecraft:redstone>, 30, 64);
+mods.techreborn.assemblingMachine.addRecipe(<buildcraftsilicon:redstone_chipset:1>*2, <contenttweaker:dense_redstone>, <minecraft:iron_ingot>, 30, 64);
+mods.techreborn.assemblingMachine.addRecipe(<buildcraftsilicon:redstone_chipset:2>*2, <contenttweaker:dense_redstone>, <minecraft:gold_ingot>, 30, 64);
+mods.techreborn.assemblingMachine.addRecipe(<buildcraftsilicon:redstone_chipset:3>*2, <contenttweaker:dense_redstone>, <minecraft:quartz>, 30, 64);
+mods.techreborn.assemblingMachine.addRecipe(<buildcraftsilicon:redstone_chipset:4>*2, <contenttweaker:dense_redstone>, <minecraft:diamond>, 30, 64);
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:fluxed_electrum_shaft>, 
+[[null, <ore:blockCrystalFlux>, <ore:blockElectrumFlux>, <ore:blockElectrumFlux>, <ore:blockElectrumFlux>, <ore:blockCrystalFlux>, null], 
+[null, <ore:blockCrystalFlux>, <ore:blockElectrumFlux>, <ore:blockElectrumFlux>, <ore:blockElectrumFlux>, <ore:blockCrystalFlux>, null], 
+[null, <ore:blockCrystalFlux>, <ore:blockElectrumFlux>, <ore:blockElectrumFlux>, <ore:blockElectrumFlux>, <ore:blockCrystalFlux>, null], 
+[null, <ore:blockCrystalFlux>, <ore:blockElectrumFlux>, <ore:blockElectrumFlux>, <ore:blockElectrumFlux>, <ore:blockCrystalFlux>, null], 
+[null, <ore:blockCrystalFlux>, <ore:blockElectrumFlux>, <ore:blockElectrumFlux>, <ore:blockElectrumFlux>, <ore:blockCrystalFlux>, null], 
+[null, <ore:blockCrystalFlux>, <ore:blockElectrumFlux>, <ore:blockElectrumFlux>, <ore:blockElectrumFlux>, <ore:blockCrystalFlux>, null], 
+[null, <ore:blockCrystalFlux>, <ore:blockElectrumFlux>, <ore:blockElectrumFlux>, <ore:blockElectrumFlux>, <ore:blockCrystalFlux>, null]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:cyanite_cell>, 
+[[<ore:blockCyanite>, <ore:blockCyanite>, <ore:blockCyanite>], 
+[<ore:blockCyanite>, <techreborn:part:12>, <ore:blockCyanite>], 
+[<ore:blockCyanite>, <ore:blockCyanite>, <ore:blockCyanite>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:coralium_shielding>, 
+[[<abyssalcraft:platec>, <abyssalcraft:platec>, <abyssalcraft:platec>], 
+[<abyssalcraft:platec>, <abyssalcraft:platec>, <abyssalcraft:platec>], 
+[<abyssalcraft:platec>, <abyssalcraft:platec>, <abyssalcraft:platec>]]);
+
+
+
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<divinerpg:dirty_pearls>, (<thaumcraft:chunk:1>*4) % 99);
+furnace.addRecipe(<minecraft:ender_pearl>, <divinerpg:dirty_pearls>, 1.0);
+
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<divinerpg:clean_pearls>, (<thaumcraft:chunk:1>*8) % 99);
+furnace.addRecipe(<minecraft:ender_pearl>, <divinerpg:clean_pearls>, 1.0);
+
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<divinerpg:polished_pearls>, (<thaumcraft:chunk:1>*16) % 99);
+furnace.addRecipe(<minecraft:ender_pearl>, <divinerpg:polished_pearls>, 1.0);
+
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<divinerpg:shiny_pearls>, (<thaumcraft:chunk:1>*32) % 99);
+furnace.addRecipe(<minecraft:ender_pearl>, <divinerpg:shiny_pearls>, 1.0);
+
+
+
+
+mods.botania.RuneAltar.addRecipe(<contenttweaker:nethengeic_rune>, 
+[<botania:rune:1>, <botania:rune:1>, <materialpart:dreaded_steel:ingot>, <twilightforest:transformation_powder>, <contenttweaker:nethengeic_gem>], 
+8000);
+
+mods.botania.RuneAltar.addRecipe(<contenttweaker:nethengeic_rune>*3, 
+[<contenttweaker:nethengeic_rune>,<contenttweaker:nethengeic_mark>,<contenttweaker:nethengeic_mark>,<twilightforest:transformation_powder>], 
+8000);
+
+mods.botania.RuneAltar.addRecipe(<contenttweaker:nethengeic_rune>*6, 
+[<contenttweaker:nethengeic_rune>,<contenttweaker:barathosynium_ingot>,<contenttweaker:nethengeic_mark>,<twilightforest:transformation_powder>], 
+8000);
+
+mods.botania.RuneAltar.addRecipe(<contenttweaker:nethengeic_rune>*9, 
+[<contenttweaker:nethengeic_rune>,<contenttweaker:cosmic_fracture>,<contenttweaker:nethengeic_mark>,<twilightforest:transformation_powder>], 
+8000);
+
+
+recipes.addShaped(<avaritia:neutron_collector>*2,
+[[<contenttweaker:strange_opalescent_stone>, <contenttweaker:blue_matter>, <contenttweaker:strange_opalescent_stone>],
+[<contenttweaker:mythic_excavation_computer>, <avaritia:neutron_collector>, <contenttweaker:mythic_excavation_computer>],
+[<contenttweaker:strange_opalescent_stone>, <contenttweaker:blue_matter>, <contenttweaker:strange_opalescent_stone>]]);
+
+
+recipes.addShaped(<contenttweaker:blind_goat_abomination>,
+[[<contenttweaker:horn_of_the_dark_goat>, <contenttweaker:phasing_halite_halo>, <contenttweaker:karot_horn>],
+[<contenttweaker:eye_of_flesh_manipulation>, <contenttweaker:abyssal_flesh>, <contenttweaker:eye_of_flesh_manipulation>],
+[<contenttweaker:abyssal_flesh>, <contenttweaker:abyssal_flesh>, <contenttweaker:abyssal_flesh>]]);
+
+recipes.addShaped(<divinerpg:halite_phaser>,
+[[<divinerpg:eden_phaser>, <contenttweaker:abominable_egg>, <divinerpg:wildwood_phaser>],
+[<divinerpg:apalachia_phaser>, <contenttweaker:blind_goat_abomination>.reuse(), <divinerpg:skythern_phaser>],
+[<contenttweaker:demon_stone>, <divinerpg:mortum_phaser>, <contenttweaker:demon_stone>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:phasing_halite_halo>, [[<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>]]);  
+
+

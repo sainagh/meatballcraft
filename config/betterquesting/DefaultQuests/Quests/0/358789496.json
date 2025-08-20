@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe quests following this one are not required to reach the end of the pack, but you may want to complete them for other reasons ;)",
+      "desc:8": "§7§o后续任务并非达成本包结局的必选项，但完成它们或许能达成其他目的  ;)",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:summons_to_the_meatball_man"
       },
-      "name:8": "Travixte"
+      "name:8": "争竞界"
     }
   },
   "questID:3": 358789496,

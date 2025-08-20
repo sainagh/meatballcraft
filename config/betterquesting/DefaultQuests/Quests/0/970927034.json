@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWell, you decided to go down the rabbit hole, good for you.\n\nTo complete this crafting chain, you will have to upgrade large portions of your base. \nFor many things, there are going to be alternative recipes, use JEI to search for them; some may require to set up new automations.\nFor some things, there are going to be multiblock upgrades, which will be listed as optional retrieval objectives.",
+      "desc:8": "§7§o看来你决意跳入这个兔子洞了，勇气可嘉。\n\n要完成这条合成链，你必须对基地进行大规模升级。\n多数物品存在替代配方，使用JEI进行查询；部分配方可能需要建立新的自动化产线。\n某些环节涉及多方块结构升级，相关升级方块将作为可选目标在任务中列出。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",

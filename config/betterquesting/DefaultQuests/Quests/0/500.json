@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No clear reasons, none at all. From what I have seen in the Eden, the Twilight Horde is no stranger to espionage, and from what I am seeing now, I strongly suspect the Shyre Empire is doing some spy work of its own too.\nI myself am capable of disguising or hiding myself using magic, so one can only assume similar methods, or even ones more advanced than an invisibility potion, could be used by more magically-inclined foes.\nThankfully, after having encountered bee civilization and their secrets, I am no stranger to mysteries of this type anymore.\nI still think I am missing some fundamental piece of the puzzle. I will probably have to come back to this mystery later.",
+      "desc:8": "毫无明确缘由，完全无迹可寻。据我在伊甸所见，暮光部落本就深谙间谍之道，而眼下种种迹象表明，塞尔瑞帝国应该也在开展谍报活动。\n我本人尚可用魔法伪装或隐匿行踪，由此推想，那些更精于魔法的敌人，恐怕连隐身药水之外的更高明手段都使得出来。\n所幸在见识过蜜蜂文明及其秘辛后，此类谜团于我早已不足为奇。\n但我总觉尚未勘破此谜的核心关窍，恐怕还得以后再来探究。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:haven_garnet"
       },
-      "name:8": "Haven Garnet"
+      "name:8": "天堂石榴石"
     }
   },
   "questID:3": 500,

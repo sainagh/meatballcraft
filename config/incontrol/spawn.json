@@ -894,7 +894,7 @@
     "result": "default",
     "multxp": 1.0,
     "healthmultiply": 20.0,
-    "damagemultiply": 15.0,
+    "damagemultiply": 2.0,
     "speedmultiply": 1.0
   },
   {

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Many items have multiple ways to be obtained, but sometimes only one can lead to full automation. JEI is your friend!\nFor example, at this point you should have a passive production of sednanite.",
+      "desc:8": "许多物品都有多种获取方式，但有时只有其中一种能够被自动化。多看看JEI吧！\n譬如说，在当前阶段，你最好搭建塞德娜金属的被动产线。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:sednanite_ore"
       },
-      "name:8": "Look and See..."
+      "name:8": "翻翻找找……"
     }
   },
   "questID:3": 146,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Time for some major study time!\nVis, apparently, as a field, has macroscopic effects that can only be observed between planets.\nFor some reason, creatures like the dragon living in the end islands can bend this field to cause large scale effects, like forming clouds of oxygen around the end islands.\nThe physics and magic behind this phenomenon are yet unknown to me, but it\u0027s time to change that.\nThe good thing about being trapped in an endless cycle of undeath is that I can spend more time studying without feeling like I\u0027m wasting my time.",
+      "desc:8": "是时候研究会儿魔法了！\n显然，魔力（Vis）场域具只能在星球之间观测到的宏观现象。\n不知为何，栖息在末地岛屿上的巨龙这类生物竟能扭曲该场域，引发大规模环境变化，比如在末地周围生成氧气云团。\n之前没搞清这种现象背后的物理原理与魔法机制，但现在是时候该揭开谜底了。\n被困在这永无止境的不死轮回里，唯一的好处就是能尽情搞研究，完全不必担心浪费时间。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:draconic_key"
       },
-      "name:8": "Draconic Tech"
+      "name:8": "神龙科技"
     }
   },
   "questID:3": 270,

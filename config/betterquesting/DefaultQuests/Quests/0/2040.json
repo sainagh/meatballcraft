@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Yup, I was right, the Bees did not come up with this plan. It was someone else, a factions whose agents are no longer around, but left some of their creatures behind. Powerful Wyverns.\nThanks to them, I have finally gained more info about the strange magic I witnessed in Crystevia. The Wyverns on Apichisi wield it too, and use it to gain incredible speed.\nTo harness this magic, crystals play an important role in storing it, but I still have no idea how it is generated. The constructs of Crystevia hold it in the mineral that is embedded in their bodies, the wyverns hold it in a strange organ located in theit thorax, a gemheart of inorganic crystalline matter.",
+      "desc:8": "果然被我猜中了，蜜蜂并非这个计划的策划者。幕后另有其人，某个早已撤离的特工组织，却留下了他们培育的生物。那些强大的飞龙。\n多亏了它们，我终于获得了更多关于晶体维度所见奇异魔法的线索。共鸣界的飞龙同样掌握着这种魔法，并能借此获得惊人的速度。\n要驾驭这种魔法，水晶在能量储存中扮演着关键角色，但我仍不清楚其生成原理。晶体维度的构装体将能量储存在体内嵌入的矿物中，而飞龙则通过胸腔内某个奇特器官——由无机晶体物质构成的宝石之心来储存能量。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:gemheart"
       },
-      "name:8": "The Wyverns"
+      "name:8": "飞龙"
     }
   },
   "questID:3": 2040,

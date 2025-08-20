@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Heart Amulet is used to store Heart Canisters, which increase maximum health.\nTen of each type of Canister can be stored in the Amulet.",
+      "desc:8": "生命护符可存放能够增加最大生命值的心之容器。\n护符中最多可存放每种容器各十个！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bhc:heart_amulet"
       },
-      "name:8": "Heart Amulet"
+      "name:8": "生命护符"
     }
   },
   "questID:3": 50061,

@@ -9,118 +9,160 @@
     "catalyst": "contenttweaker:multiblock_preview",
 
 
-    "input-types": {
-      "a": {
-        "id": "packagedauto:packager_extension",
-        "meta": 0,
+  "input-types": {
+    "a": {
+      "id": "packagedauto:packager_extension",
+      "meta": 0,
         "item": {
             "id": "packagedauto:packager_extension",
             "count": 8
           }
-      },
-      "b": {
-        "id": "packagedexcrafting:elite_crafter",
-        "meta": 0,
+    },
+    "b": {
+      "id": "packagedexcrafting:elite_crafter",
+      "meta": 0,
         "item": {
             "id": "packagedexcrafting:elite_crafter",
             "count": 5
           }
-      },
-      "c": {
-        "id": "appliedenergistics2:cable_bus",
-        "meta": 0,
+    },
+    "c": {
+      "id": "minecraft:tripwire",
+      "meta": 0,
         "item": {
             "id": "contenttweaker:usethis_forfaster",
             "count": 1
           }
-      },
-      "d": {
-        "id": "packagedauto:packager",
-        "meta": 0,
+    },
+    "d": {
+      "id": "packagedauto:packager",
+      "meta": 0,
         "item": {
             "id": "packagedauto:packager",
             "count": 1
           }
-      },
-      "e": {
-        "id": "packagedauto:unpackager",
-        "meta": 0,
+    },
+    "e": {
+      "id": "appliedenergistics2:cable_bus",
+      "meta": 0,
+        "item": {
+            "id": "appliedenergistics2:part",
+            "meta": 56,
+            "count": 1
+          }
+    },
+    "f": {
+      "id": "packagedauto:unpackager",
+      "meta": 0,
         "item": {
             "id": "packagedauto:unpackager",
             "count": 1
           }
-      }
+    }
+  },
+  "input-nbt": {
+    "a:A": {
+      "nbt": "{Progress:0,Node:{p:0,k:-1L,g:18411L},OwnerUUIDMost:-8342885232664559613L,Mode:0b,Energy:0,Working:0b,OwnerUUIDLeast:-5903828338681376133L,ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"packagedauto:packager_extension\",Powered:0b,Items:[{Slot:10b,id:\"minecraft:air\",Count:0b,Damage:0s}]}"
     },
-
-    "shape": [
+    "b:A": {
+      "nbt": "{Energy:0,Working:0b,ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},OwnerUUIDLeast:-5903828338681376133L,id:\"packagedexcrafting:basic_crafter\",Node:{p:0,k:-1L,g:18411L},Items:[{Slot:10b,id:\"minecraft:air\",Count:0b,Damage:0s}],OwnerUUIDMost:-8342885232664559613L,Progress:0}"
+    },
+    "d:A": {
+      "nbt": "{Progress:0,Node:{p:0,k:-1L,g:18411L},OwnerUUIDMost:-8342885232664559613L,Mode:0b,Energy:0,Working:0b,OwnerUUIDLeast:-5903828338681376133L,ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"packagedauto:packager\",Powered:0b,Items:[{Slot:11b,id:\"minecraft:air\",Count:0b,Damage:0s}]}"
+    },
+    "e:A": {
+      "nbt": "{\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:56s},ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"appliedenergistics2:blockcablebus\",hasRedstone:2,\"extra:6\":{part:{p:0,k:-1L,g:18411L},usedChannels:2}}"
+    },
+    "f:A": {
+      "nbt": "{Tracker08:{ToSend:[]},Node:{p:0,k:-1L,g:18411L},Trackers:6b,OwnerUUIDMost:-8342885232664559613L,Tracker09:{ToSend:[]},Energy:0,Blocking:0b,OwnerUUIDLeast:-5903828338681376133L,ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"packagedauto:unpackager\",Tracker01:{ToSend:[]},Powered:0b,Tracker00:{ToSend:[]},Items:[{Slot:10b,id:\"minecraft:air\",Count:0b,Damage:0s}],Tracker03:{ToSend:[]},Tracker07:{ToSend:[]},Tracker02:{ToSend:[]},Tracker06:{ToSend:[]},Tracker05:{ToSend:[]},Tracker04:{ToSend:[]}}"
+    }
+  },
+  "shape": [
+    [
       [
-        [
-          "_",
-          "_",
-          "_"
-        ],
-        [
-          "_",
-          "c",
-          "_"
-        ],
-        [
-          "_",
-          "_",
-          "_"
-        ]
+        "_",
+        "_",
+        "_"
       ],
       [
-        [
-          "a",
-          "a",
-          "a"
-        ],
-        [
-          "a",
-          "d",
-          "a"
-        ],
-        [
-          "a",
-          "a",
-          "a"
-        ]
+        "_",
+        "c",
+        "_"
       ],
       [
-        [
-          "_",
-          "b",
-          "_"
-        ],
-        [
-          "b",
-          "e",
-          "b"
-        ],
-        [
-          "_",
-          "b",
-          "_"
-        ]
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "a:A",
+        "a:A"
       ],
       [
-        [
-          "_",
-          "_",
-          "_"
-        ],
-        [
-          "_",
-          "b",
-          "_"
-        ],
-        [
-          "_",
-          "_",
-          "_"
-        ]
+        "a:A",
+        "d:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "e:A",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "b:A",
+        "_"
+      ],
+      [
+        "b:A",
+        "f:A",
+        "b:A"
+      ],
+      [
+        "_",
+        "b:A",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b:A",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
       ]
     ]
-       
+  ]
+      
 }

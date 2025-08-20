@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Just like the Abyss, L\u0027Borean holds a deep connection with one, or more, of the Elder Ones.\nThe sleeping city of R\u0027lyeh, a plane of existance even deeper than Omothol, seems to merge with thre three \u0027normal\u0027 dimensions of space here in L\u0027Borean.\nThe gatekeepers of this world are located here, and guard it with all their might. This does not eman I can take something from them, though.\nIf the Old Ones are so good at gathering intelligence, anything I take from them must be valuable to someone, right? Right?",
+      "desc:8": "如同深渊一般，暴风维度与一位（或多位）古神有着深层联系。\n沉睡之城拉莱耶，这个比奥穆索更深的位面存在，似乎在此处与暴风维度的“正常”三维空间相融合。\n这个世界的守门人就驻扎在此，竭尽全力守护着此地。不过这并不意味着我不能从他们那里拿点东西。\n如果那些旧日支配者真的如此擅长搜集情报，那么我从他们那里拿到的任何东西对某些人来说肯定很有价值，对吧？对吧？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:gem_of_the_sleeping_city"
       },
-      "name:8": "Eldritch Sleeper"
+      "name:8": "上古沉眠者"
     }
   },
   "questID:3": 2046,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:gem_of_the_sleeping_city"
             },
-            "TrophyName:8": "Bzzzzzz.. Ugh",
+            "TrophyName:8": "嗡嗡嗡……呃",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

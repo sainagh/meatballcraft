@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/MK1_power_flower"
+    "layer0": "contenttweaker:items/mk1_power_flower"
   }
 }

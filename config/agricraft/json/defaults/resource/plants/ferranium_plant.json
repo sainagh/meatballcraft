@@ -2,8 +2,8 @@
   "path": "resource/plants/ferranium_plant.json",
   "enabled": true,
   "id": "resource:ferranium_plant",
-  "plant_name": "Ferranium",
-  "seed_name": "Ferranum Seeds",
+  "plant_name": "铁叶草",
+  "seed_name": "铁叶草种子",
   "seed_items": [],
   "description": {
     "translations": {},

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Some people just refuse to quit. Despite the fall of its empire, its Warden keeps on fighting.\nI have to say, I almost respect his commitment, no matter how many times I defeat him, he keeps coming back, and he keeps fighting. This is one stubborn recursive dude.\nWell, at least there is something to be gained from this.",
+      "desc:8": "有些人就是不肯认输。即便帝国已经覆灭，它的监守者仍在继续战斗。\n不得不说，我几乎要敬佩他的执着——无论我击败他多少次，他总会卷土重来，继续战斗。真是个顽固的递归者。\n不过，至少这并非全无收获。",
       "icon:10": {
         "Count:3": 61,
         "id:8": "contenttweaker:deknighting_stick"
       },
-      "name:8": "Warden Keeps Wardening"
+      "name:8": "监守者仍在坚守"
     }
   },
   "questID:3": 2279,

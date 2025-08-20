@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMake sure to get a woot model for each boss in Mortum, with the exception of Karot, they are going to be required in chapter 9. For Karot you will still have to farm it, but using a taxcollector bee contraption.",
+      "desc:8": "§7§o确保为死域里的所有Boss都做一个工厂控制器，除了卡萝特。他们的材料后面在第9章会用到。至于卡萝特，当然还是得刷，但是用的是收税官蜜蜂。\n\n\n\n§f看吧，分形屏障终被击破，暮光部落的中枢就此显露。\n死域，分形洞穴。伟力兽物栖居之所。\n如此伟力，被扩张与同化的本能纯粹欲望所驱使。\n历战浮游者为部落提供结构支撑——这个包裹宇宙的庞大集群，此地的住民则赋予其意志、欲望与抱负。非集体产生的秩序，而是源于控制的秩序。\n这些就是选择入侵泰拉的生物。这些才是我真正的敌人。\n它们的目标如此简单，却带来毁灭性的影响。力量，更多的力量。成长，更快的成长。\n集群必须扩张，这就是它们的诉求。\n而现在，阻止它们扩张的责任落到了我肩上。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:skythern_block"
       },
-      "name:8": "Skythern Block"
+      "name:8": "无尽分形洞穴"
     }
   },
   "questID:3": 359,

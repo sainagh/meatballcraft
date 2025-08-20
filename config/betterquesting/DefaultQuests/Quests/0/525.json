@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oStart making these, just an advice...\n\n§fFrom what I have seen, some of the more magically useful properties of matter emerge when said matter is present in large amounts. I better start stockpiling on all sorts of stuff in case it may be useful for my next magic experiments.",
+      "desc:8": "§7§o现在就开始囤积这些材料，只是个建议……\n\n§f根据我的观察，某些物质只有在大量存在时才会显现出更有价值的魔法特性。为了接下来的魔法实验，我最好开始储备各种物资以备不时之需。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
         "id:8": "extendedcrafting:singularity"
       },
-      "name:8": "A suspicion"
+      "name:8": "以备不时之需"
     }
   },
   "questID:3": 525,

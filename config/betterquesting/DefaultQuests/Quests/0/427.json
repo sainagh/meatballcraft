@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This new maximum-entropy state of matter, among many other uses, can be used as an effective material to fuse quite large amounts of Ultimate Alloy.\nI am still unsure if this is necessarily the best way to make it, but it is interesting nevertheless.",
+      "desc:8": "这种物质的全新最大熵态，除其他诸多用途外，也可作为高效材料，用于熔铸大量终极合金。\n虽然尚不确定这是否是最佳制造方式，但此发现仍颇具研究价值。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "extendedcrafting:storage"
       },
-      "name:8": "Great Power at a Low (?) Price"
+      "name:8": "代价低廉（？）的强大力量"
     }
   },
   "questID:3": 427,

@@ -16,7 +16,7 @@ ultimatecompression.build();
 
 
 
-val infinitycompression = RecipeBuilder.newBuilder("simplerinfinity","gravitational_collapser",100);
+val infinitycompression = RecipeBuilder.newBuilder("simplerinfinity","gravitational_collapser",40);
 infinitycompression.addEnergyPerTickInput(50000);
 infinitycompression.addItemInput(<contenttweaker:bright_matter>);
 infinitycompression.addItemOutput(<avaritia:resource:5>);
@@ -24,7 +24,7 @@ infinitycompression.build();
 
 
 
-val simplerinfinity2 = RecipeBuilder.newBuilder("simplerinfinity2","gravitational_collapser",100);
+val simplerinfinity2 = RecipeBuilder.newBuilder("simplerinfinity2","gravitational_collapser",40);
 simplerinfinity2.addEnergyPerTickInput(50000);
 simplerinfinity2.addItemInput(<contenttweaker:opalescent_matter>);
 simplerinfinity2.addItemOutput(<avaritia:resource:5>*4);

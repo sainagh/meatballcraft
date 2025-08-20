@@ -1,0 +1,61 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    944,
+    996
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:rosidian_greatblade",
+        "tag:10": {
+          "display:10": {
+            "Lore:9": {
+              "0:8": "§d§o超限附魔§r"
+            },
+            "Name:8": "§6§o斩首剑§r"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:3": 101,
+              "lvl:3": 16
+            }
+          }
+        }
+      },
+      "name:8": "斩首剑"
+    }
+  },
+  "questID:3": 894637416,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:rosidian_greatblade",
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§o超限附魔§r"
+              },
+              "Name:8": "§6§o斩首剑§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 101,
+                "lvl:3": 16
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

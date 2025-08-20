@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oLumps can be produced recursively. If you end up needing lots of them, they can be pseudo-automated with hoppers, droppers, and a redstone clock.\n\n§fI cannot know that what I am doing is good, but I am still allowed to believe it may be good.\nI am free. \nI live in this condition of recursion, bestowed upon someone wanting to imprison me. I am fighting a war I could not avoid. I am fulfilling prophecies I did not even know existed.\nAnd yet, I am free.\nI could have decided to give up. I could have thought that my actions would bear no consequence. I could have let go. And yet, I kept going.\nIn this, I had agency. In this, I was free.\nI am free. Even in this mess of a life where the only way was forward. I am free.",
+      "desc:8": "§7§o团块可通过递归方式生成。若需大量获取，可通过漏斗、投掷器与红石时钟实现伪自动化。\n\n§f我无法确知所为是否良善，但仍可怀抱善念。\n我是自由的。\n我活在递归的宿命中，这宿命由妄图囚禁我者赐予。我被迫卷入无法回避的战争，履行着从未知晓的预言。\n但我依然自由。\n本可放弃抵抗，本可认定行动毫无意义，本可就此放手。但我选择继续前行。\n在此抉择中，我掌握自主权。在此抉择中，我获得自由。\n我是自由的。纵使人生混沌唯有向前，我仍是自由的。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:teaker_lump"
       },
-      "name:8": "Recursive Lumping"
+      "name:8": "递归凝团"
     }
   },
   "questID:3": 392,

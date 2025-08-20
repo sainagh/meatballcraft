@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Some of the creatures stuck here seem to be more powerful, and more influential, than others. Our recursions are all tied to this place, and when we entered we were all on the cusp of ascension, which by itself is already a very large amount of power. Given this, I should probably assume that my own understanding of recursion will have to develop as part of this trial of Nightmare.\nWell, this feels as good a time as any to make peace with the prophecies about me. In this place, where I can see myself so clearly, one thing is patently and painfully evident. I am not special. There is nothing about me that puts me above anyone else. I am smart yet presumptious, curious yet overconfident. There is nothing about me that screams hero or villain.\nAnd yet, I am here, where so few in the history of the universe have traversed, where even fewer were capable (worthy?) of leaving.",
+      "desc:8": "被困于此地的某些存在似乎比其他同类更强大、更具影响力。我们的递归都与此处相连，当初进入时我们都已濒临飞升边缘，单是这份力量本身就已然极其庞大。鉴于这点，我或许该假设，我对递归理解的深入也是这场噩梦试炼的一部分。\n此刻正是与那些关于我的预言达成和解的最佳时机。在这个能如此清晰照见自我的地方，有个事实显得格外刺目而痛苦：我并非特殊存在。没有任何特质使我凌驾于他人之上。我聪慧却自负，求知若渴又过度自信。我身上没有任何英雄或反派的宿命印记。\n然而此刻，我却站在这里，站在宇宙历史长河中极少有人涉足，更罕有存在能够（配得上？）离开的领域。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:cermile_lump"
       },
-      "name:8": "Nightmare Ascension: Cermile"
+      "name:8": "噩梦飞升：魔化"
     }
   },
   "questID:3": 356,

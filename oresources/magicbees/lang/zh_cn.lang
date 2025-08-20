@@ -1,3 +1,7 @@
 item.magicbees.beecomb.otherworldly.name=异域蜂窝
 magicbees.effectslowspeed=时光扭曲
 magicbees.allele.flowersbotania=植魔花
+item.magicbees.beecomb.te_lux.name=流明蜂窝
+item.magicbees.beecomb.te_destabilized.name=不稳定蜂窝
+item.magicbees.beecomb.te_endearing.name=可爱蜂窝
+flowerProvider.flowersBookshelf=书架

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "With this new understanding of gravity, things like singularities, which I have played with before, should make a lot more sense! Time to study some more!",
+      "desc:8": "伴随着对引力的全新理解，那些我曾经玩弄过的概念——比如奇点——现在应该变得合理多了！是时候再研究研究了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:singularity_master"
       },
-      "name:8": "A Point, THE Point"
+      "name:8": "奇点，奇异点"
     }
   },
   "questID:3": 145,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Not only the rulers of Iromine are very powerful within their world, they seem to hold some authority in many of the Shyre worlds I have visited so far.\nDespite the inhumane way the Empire treats its subjects, its organization, power structure, and chain of command are more well-organized than I thought.\nI have yet to meet the \u0027Immortals\u0027 worshipped in Precasia, so this power structure will likely have more levels. I know the Kardashev scale was devised for the exact purpose of putting a scale to civilization size, but the vastness of my enemies\u0027 organization is just now starting to dawn on me.",
+      "desc:8": "黄金维度的统治者们不仅在本世界内极具权势，在我迄今造访过的诸多塞尔瑞世界中，他们似乎也掌握着一定权威。\n尽管帝国对待臣民的方式有悖人道，但其组织架构、权力体系和指挥链的严密程度却超出我的预期。\n我尚未得见传说维度中被奉为“不朽者”的存在，因此这一权力体系很可能还有更高层级。虽然卡尔达舍夫等级本就是为衡量文明规模而设，但敌人组织的庞大程度此刻才真正令我惊觉。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:iromine_garnet"
       },
-      "name:8": "Iromine Garnet"
+      "name:8": "黄金石榴石"
     }
   },
   "questID:3": 497,

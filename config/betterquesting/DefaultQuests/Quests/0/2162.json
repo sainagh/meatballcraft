@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Yes, looking back, I encountered fragments of Fractallite magic a long time before now. Fluctuatite itself holds some of it, and the flying beast Graw was close to ascending.\nThis creature had learned the secret behind Warren magic, the origin of the Mythic Shells, and the most evident example of Fractallite magic I have encountered so far.\nIf the structure of Skythern is a near perfect showcase of it, Lelyetia is not so refined, and the pocket worlds obtained from fluix are a highly mechanized version of it. And yet, it is Fractallite magic, Fractallite magic I can see and learn from.\nOh, and to learn more about this I get to beat up this gravitationally-bound bird-lizard again? Yes please!",
+      "desc:8": "确实，回想起来，我早在很久以前就接触过分形魔法的碎片。波纹金属本身就蕴含着部分分形之力，而那头名为格劳的飞行兽物已接近飞升之境。\n这头生物不仅参透了迷道魔法的奥秘，洞悉了神话叠壳的起源，更成为我迄今所见最典型的分形魔法实例。\n若说空境的结构堪称分形魔法的完美展示，那么赫尔维蒂维度就显得较为粗粝，而从福鲁伊克斯中获取的口袋世界则是其高度机械化的变体——但毋庸置疑，这些都是肉眼可见、可供研习的分形魔法。\n哈！想深入了解还得再揍一顿那只与引力绑定的鸟蜥怪？求之不得！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:gravitational_callstone"
       },
-      "name:8": "The Splitter"
+      "name:8": "分离"
     }
   },
   "questID:3": 2162,

@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRight click to turn a chunk into a super slime chunk!",
+      "desc:8": "§7§o右击可将一个区块转化为超级史莱姆区块！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "randomthings:slimecube"
       },
-      "name:8": "Spawn Slimes"
+      "name:8": "生成史莱姆"
     }
   },
   "questID:3": 1347,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Solegnolia is great, thanks to its induction properties, fields effects seem to disappear around it, meaning that my magnet will not work next to a Solegnolia!",
+      "desc:8": "弱磁兰很棒，得益于特殊的感应特性，场效应似乎在它周围消失了，这意味着我的磁铁在弱磁兰旁边无法工作！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "solegnolia"
         }
       },
-      "name:8": "Solegnolia"
+      "name:8": "弱磁兰"
     }
   },
   "questID:3": 50117,

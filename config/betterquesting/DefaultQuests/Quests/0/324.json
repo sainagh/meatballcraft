@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe three multiblocks that make Infinity Ingot can be wallshared to have each torus branching from the same center cylindrical piece, and using just one Miniature Pulsar.\n\nCheck the compact machines preview to see how to place the three controllers relative to each other.",
+      "desc:8": "§7§o制作无尽锭的三个多方块结构可共享墙面，使每个环面结构从同一中心圆柱构件分支延伸，仅需使用一个微型脉冲星即可驱动。\n\n查阅压缩机械预览以了解三个控制器之间的相对排布方式。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:miniature_pulsar"
       },
-      "name:8": "Dyson Irradiator"
+      "name:8": "戴森辐照器"
     }
   },
   "questID:3": 324,

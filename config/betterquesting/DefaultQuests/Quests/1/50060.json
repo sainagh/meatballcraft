@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe slime sling lets you jump very high by holding right click.\nThe slime boots prevent fall damage and let you bounce when you hit the ground.\nRight clicking the glider will let you glide.\n\nCombine all three, and moving around will be a lot easier!\n\nSee the next quests for better means of movement!\n\n§fSlime is gross, but it\u0027s a good way to get around.\nBouncing and gliding are fun!",
+      "desc:8": "§7§o史莱姆弹弓：按住右键可进行超高跳跃。\n史莱姆靴子：免疫摔落伤害，触地时进行弹跳。\n滑翔翼：右击装备以进行滑翔。\n\n三者配合使用，移动效率倍增！\n\n其他更好的移动方式，详见后续任务！\n\n§f粘液虽然怪恶心的，但作为出行手段确实颇为不错。\n弹来弹去，滑来滑去，太有意思啦！",
       "icon:10": {
         "Count:3": 1,
         "OreDict:8": "slimeSling",
         "id:8": "tconstruct:slimesling"
       },
-      "name:8": "Movement \u0026 Flight"
+      "name:8": "移动与飞行"
     }
   },
   "questID:3": 50060,

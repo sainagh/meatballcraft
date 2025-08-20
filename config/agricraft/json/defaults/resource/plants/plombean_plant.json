@@ -2,8 +2,8 @@
   "path": "resource/plants/plombean_plant.json",
   "enabled": true,
   "id": "resource:plombean_plant",
-  "plant_name": "Plombean",
-  "seed_name": "Plombean Seeds",
+  "plant_name": "铅华草",
+  "seed_name": "铅华草种子",
   "seed_items": [],
   "description": {
     "translations": {},

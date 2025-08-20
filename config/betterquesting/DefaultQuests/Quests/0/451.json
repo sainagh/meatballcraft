@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHave you automated this?\n\n§fAfter some more experiments, Aesir powers seem to become even more accessible. I am not there yet, but progress is happening!",
+      "desc:8": "§7§o你自动化这东西了吗？\n\n§f经过更多实验后，阿萨神族的力量似乎变得更易触及。我尚未完全掌握，但正在取得进展！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:greater_mana_core"
       },
-      "name:8": "Greater Mana Core"
+      "name:8": "上级魔力核心"
     }
   },
   "questID:3": 451,

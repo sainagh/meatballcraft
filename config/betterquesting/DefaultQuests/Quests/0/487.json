@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Gardencia! Not unlike many other Shyre worlds, it is admittedly very beautiful, and not unlike many other Shyre worlds, it is very dangerous too.\nI am sure that it selves its military purpose quite well, but the Empire\u0027s main purpose for this green lush planet does not lie in its warring abilities; rather, what makes Gardencia so incredibly interesting, and useful to my enemies, is the unique evolutionary path this place has experienced. \nKnowing what I know now, there may have been some genetic engineering, but it is nevertheless remarkable how thermodynamically efficient the life on this place is.\nThe moving creature of this world are plants, capable of photosynthesis, but they have become so good at making energy to be able to develop movement while remaining fully capable of movement. Assuming this \u0027evolution\u0027 was not obtained through external means, this is likely linked to the fact that Gardencia is a tidally-locked planet, where the sun always shines over half of the world. Thanks to this, there is no \u0027down time\u0027 for photosynthesis, and all the excess energy that is not used to move around and fight me is instead put to use to directly produce fruits and vegetables in large, very large amounts.\nThat is how the Shyre Empire effortlessly feeds itself. They don\u0027t need agriculture, nor alchemy, they just have tons of Carrotops!",
+      "desc:8": "花园维度！与其他塞尔瑞世界相似，这里确实美得惊人；这里同时也危机四伏，也与其他塞尔瑞世界相似。\n虽然这颗翠绿星球确实完美履行着军事职能，但帝国对其主要兴趣并不在于战争潜力；真正让花园维度如此特殊，乃至成为帝国重镇的，是此地独特的进化之路。\n以我如今掌握的情报来看，或许存在基因工程的痕迹，但无论如何，这个世界的生命体在热力学效率上的表现都堪称奇迹。\n那些会移动的生物本质上是植物，既能进行光合作用，又进化出完美协调的运动能力。若这种“进化”确属自然形成，很可能与其作为潮汐锁定星球的特性有关——永恒烈日始终照耀着半球大地。正因如此，光合作用永无停歇，所有未被用于移动或攻击我的过剩能量，都直接转化成了源源不断的水果与蔬菜，产量之大堪称天文数字。\n这就是塞尔瑞帝国永不枯竭的粮仓。他们既不需要农耕，也无须炼金术，只需坐享无数胡萝卜精的丰收！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:gardencia_realmstone"
       },
-      "name:8": "More Evil Plants!"
+      "name:8": "更多邪恶植物！"
     }
   },
   "questID:3": 487,

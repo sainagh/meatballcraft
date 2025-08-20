@@ -450,10 +450,20 @@ addController(<modularmachinery:vibrating_flux_crucible_controller>, "modularmac
 
 addController(<modularmachinery:relic_of_the_fallen_tower_controller>, "modularmachinery:relic_of_the_fallen_tower");
 
+addController(<modularmachinery:warren_extractor_silkyjewel_controller>, "modularmachinery:warren_extractor_silkyjewel");
+
+addController(<modularmachinery:innerved_essenceifier_controller>, "modularmachinery:innerved_essenceifier");
+
+addController(<modularmachinery:phasing_still_pot_controller>, "modularmachinery:phasing_still_pot");
+
+addController(<modularmachinery:fiery_enmesher_controller>, "modularmachinery:fiery_enmesher");
+
+addController(<modularmachinery:resonance_dissolver_controller>, "modularmachinery:resonance_dissolver");
 
 
 // Leave this at the bottom of the file, as it depends on the oredict being filled
 furnace.addRecipe(<modularmachinery:blockcontroller>, anyBlockControllerDict);
+
 
 
 

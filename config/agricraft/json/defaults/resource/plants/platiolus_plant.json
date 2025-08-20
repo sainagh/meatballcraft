@@ -2,8 +2,8 @@
   "path": "resource/plants/platiolus_plant.json",
   "enabled": true,
   "id": "resource:platiolus_plant",
-  "plant_name": "Platiolus",
-  "seed_name": "Platiolus Seeds",
+  "plant_name": "铂金草",
+  "seed_name": "铂金草种子",
   "seed_items": [],
   "description": {
     "translations": {},

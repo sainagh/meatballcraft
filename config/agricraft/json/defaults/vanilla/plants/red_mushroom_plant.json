@@ -2,8 +2,8 @@
   "path": "vanilla/plants/red_mushroom_plant.json",
   "enabled": true,
   "id": "vanilla:red_mushroom_plant",
-  "plant_name": "Red Mushroom",
-  "seed_name": "Red Mushroom Spores",
+  "plant_name": "红色蘑菇",
+  "seed_name": "红色蘑菇孢子",
   "seed_items": [
     {
       "item": "agricraft:agri_seed",

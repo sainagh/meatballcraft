@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUniversal Realgar, and Garnets in general, are going to be needed in large amounts in the upcoming chapters. You will soon unlock better ways of making them, so it is good to start working on reliable setups for all the mythic shell resources.\n\n§fFragments of a whole, now coming together. Recursive gems made into one, made into a unique substance, encopassing the whole of the powers and influence of the Shyre Empire, fragmented into the aspects of all societies it enslaved or ensnared.\nThe voices of injustice shall now speak, and shall now be used as weapons against their oppressor.\nThis gem carries the cries of the Universe, a universe that is tired of the abuse of those who gave up on their mission, and sought power instead.",
+      "desc:8": "§7§o在接下来的章节中，将需要大量万有雄黄及各类石榴石。你很快会解锁更高效的制作方式，所以是时候着手建立稳定的神话叠壳资源生产体系了。\n\n§f昔日碎片，今朝聚合。递归宝石合而为一，熔铸成承载塞尔瑞帝国全部威能与影响的独特物质，那些被奴役或蛊惑的文明，其社会形态皆在此结晶。\n不公之声终得申诉，而今将化作反抗压迫者的武器。\n此宝石凝聚着宇宙的哀鸣，这个宇宙已厌倦那些背弃使命、追逐权柄者的暴行。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:universal_realgar"
       },
-      "name:8": "Universal Realgar"
+      "name:8": "万有雄黄"
     }
   },
   "questID:3": 378,

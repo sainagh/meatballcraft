@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "white_sage_tincture"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}

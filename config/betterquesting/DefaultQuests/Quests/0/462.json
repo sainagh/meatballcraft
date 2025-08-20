@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "More strange life forms in the Shyre Empire. Life from sugar, just sugar, nothing else.\nCandyland is a land of sugar too, rocks, plants, and animals. After seeing Creeponia, I strongly suspect this may have been done artificially. Nitrate and explosives are strategically useful, but sugar, why sugar?\nThe candy creatures of Candyland are not particularly imprssive fighers, and yet they exhibit extraordinary discipline. Whatever leadership governs this place, they are doing a stellar job.\nA planet of artificially-created beings that make little to no sense strategically, a seemingly iron-clad organization structure, and goofy presentation. What have I stubled upun here? And despite all of this, why does this place feel dangerous?",
+      "desc:8": "塞尔瑞帝国中还有更多的奇异生命形态。由糖构成的生命，纯粹的糖，别无他物。\n糖果维度本身也是由糖组成——岩石、植物、动物皆是如此。见识过蠕变维度后，我强烈怀疑这里可能是人工造物。硝酸盐和炸药至少具有战略价值，但糖？为何选择糖？\n糖果维度的生物并非出色的战士，却展现出惊人的纪律性。无论这里的统治者是谁，他们的管理水平堪称典范。\n一个战略意义近乎为零的人造生物星球，一套看似铁板一块的组织架构，外加滑稽可笑的外在表现。我究竟发现了什么？而即便如此，为何此地仍令人感到危险？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:candyland_realmstone"
       },
-      "name:8": "Just Sugar, no Carbs"
+      "name:8": "纯糖，无碳水"
     }
   },
   "questID:3": 462,

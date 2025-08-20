@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "True, the Twilight Horde has not been defeated yet, but this blow did have a positive effect!\nThe bees were able to take away and mimic some of the soul manipulation powers from the Experienced Cori, and are now studying ways to use it for good. Well, whatever definition of \u0027good\u0027 they may have.\nThey are responsible for the current state of Apichisi, after all...",
+      "desc:8": "确实，暮光部落尚未被击败，但这次打击确实产生了积极效果！\n蜜蜂成功从历战浮游者那里夺取，并模仿了部分灵魂操纵能力，现在正在研究如何将其用于善途。当然，这取决于它们对“善”的定义。\n毕竟，共鸣界当前的状况就是它们的杰作……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 14020,
         "id:8": "gendustry:honey_comb"
       },
-      "name:8": "Soul-Sucking, Just like Streaming on Twitch"
+      "name:8": "吸干灵魂，唉就和直播差不多"
     }
   },
   "questID:3": 2220,

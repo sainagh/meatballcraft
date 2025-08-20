@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I asked for more!",
+      "desc:8": "我就是要更多！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:supertravelbelt"
       },
-      "name:8": "Globetrotter\u0027s Sash"
+      "name:8": "环游者腰带"
     }
   },
   "questID:3": 50113,

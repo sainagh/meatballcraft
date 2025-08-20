@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oGood to have automated by now.\n\n§fAlthough barely there, some of the powers of Asgard are still present in some materials, which, when properly compacted, can be exploted.",
+      "desc:8": "§7§o最好现在就将其自动化。\n\n§f尽管微乎其微，但阿萨神族的某些力量仍残存于部分材料中，若能妥善压缩，便可加以利用。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:lesser_mana_core"
       },
-      "name:8": "Lesser Mana Core"
+      "name:8": "次级魔力核心"
     }
   },
   "questID:3": 535,

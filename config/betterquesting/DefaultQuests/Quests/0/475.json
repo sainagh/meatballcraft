@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Sure, I am not ready to face whatever transpired in this space, but I can at least produce powerful Thorns enchants!",
+      "desc:8": "然，我还没准备好面对这个空间里发生的一切，但至少我能制作出强大的荆棘魔咒！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:sacrifice_metal_chest",
@@ -61,7 +61,7 @@
           }
         }
       },
-      "name:8": "Sacrifice Gear"
+      "name:8": "献祭装备"
     }
   },
   "questID:3": 475,

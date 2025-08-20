@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe tiara gives creative flight consuming mana from a mana tablet or other mana storage!",
+      "desc:8": "§7§o这顶冠饰可消耗魔力石板，或其他魔力容器中的魔力，令你获得创造飞行能力！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 32767,
@@ -13,7 +13,7 @@
         },
         "id:8": "botania:flighttiara"
       },
-      "name:8": "Flügel Tiara"
+      "name:8": "天翼族之冠"
     }
   },
   "questID:3": 50087,

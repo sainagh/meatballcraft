@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Who knew that this power would also act as a moderator for extremely fast fission reactions? Well, I am very happy I tinkered with it, fission is a useful way to obtain large amounts of isotopes!",
+      "desc:8": "谁能想到这股力量竟还能作为极速裂变反应的调节剂？不过我很庆幸自己捣鼓出了这个发现，裂变可是获取大量同位素的绝佳途径！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:salt_exchanger_vessel"
       },
-      "name:8": "Fast Fission Forreal"
+      "name:8": "快速裂变真的存在"
     }
   },
   "questID:3": 2050,

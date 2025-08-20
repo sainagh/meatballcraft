@@ -2,8 +2,8 @@
   "path": "resource/plants/cuprosia_plant.json",
   "enabled": true,
   "id": "resource:cuprosia_plant",
-  "plant_name": "Cuprosia",
-  "seed_name": "Cuprosia Seeds",
+  "plant_name": "铜茜草",
+  "seed_name": "铜茜草种子",
   "seed_items": [],
   "description": {
     "translations": {},

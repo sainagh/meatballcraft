@@ -43,43 +43,100 @@ markofthesamurai.itemRightClick = function(stack, world, player, hand) {
 
     // check if player is in right dimension
     if(player.getDimension() != 163) {
-        player.sendChat("需位于铼界的火山带（Volcanic）群系");
+        player.sendChat("该物品需在铼界使用");
         return "FAIL";
     }
+
+	// initial message
+	player.sendChat("要使用该物品，需要先通过神秘时代模组编辑一些生物群系");
+	player.sendChat("需要以下工具：");
+	player.sendChat("- 一台奥术群系转换仪");
+	player.sendChat("- 一些源质管道，或者5个源质注入装置");
+	player.sendChat("- 装有Ignis、Aer、Aqua、Terra、Permutatio源质的源质罐子（每种大概几个）");
+	player.sendChat("- 一些元动中继器");
+	player.sendChat("- 一台元动汲取仪，以及制造裂隙的方法，比如经典的坩埚+压缩圆石，或者邪术元动催化器多方块结构");
+	player.sendChat("- 一个神秘锭或更高等级的法师护手");
+	player.sendChat("- 一个元动谐振器");
+	player.sendChat("- 一个生物群系检查器");
+	player.sendChat("- 装有不详森林（Ominous Woods）和魔法森林（Magical Forest）群系的群系核心");
+	player.sendChat("更多信息，请查阅奥术群系转换仪的信息框");
+	player.sendChat("=====================================");
+	player.sendChat("好了，群系谜题现在开始！");
+
+
+	// step 1
 
     // obtain position under player
 	var playerpos = player.position as crafttweaker.util.Position3f;
 
     // locations to place biomes
-    val OminousBiomeLocations = [[0,0],[1,0],[0,1],[-1,0],[0,-1]] as int[][];
-	val VolcanicBiomeLocations = [[1,1],[1,-1],[-1,1],[-1,-1]] as int[][];
+	val VolcanicBiomeLocations = [[5,5],[5,-5],[-5,5],[-5,-5],[0,5],[5,0],[-5,0],[0,-5]] as int[][];
 
     // biome to pattern
-    val OminousBiomeName = "Ominous Woods" as string;
 	val VolcanicBiomeName = "Volcanic" as string;
 
 
     // get number of matches
-    val OminousMatches = checkBiomesAtPositions(OminousBiomeName, playerpos, OminousBiomeLocations, world) as int;
 	val VolcanicMatches = checkBiomesAtPositions(VolcanicBiomeName, playerpos, VolcanicBiomeLocations, world) as int;
 
-    player.sendChat("使用奥术群系转换仪来生成单方块十字形的不详森林（Ominous Woods）群系，十字四角为火山带（Volcanic）群系");
-	player.sendChat("站在中心使用该物品！");
+	// step 1 message
+	player.sendChat("步骤一：寻找一个11x11的火山带（Volcanic）群系区域，将奥术群系转换仪放置在中心点，然后站在转换仪上再次使用该物品");
 
-	player.sendChat(" - - - ");
-	player.sendChat("正在扫描周围的3x3区域");
-
-	player.sendChat("不详森林（Ominous Woods）：" ~ OminousMatches ~ " / 5");
-	player.sendChat("火山带（Volcanic）：" ~ VolcanicMatches ~ " / 4");
-
-    if((OminousMatches+VolcanicMatches) == 9) {
-		Commands.call("give @p contenttweaker:sword_shield", player, world, false, true);
-		stack.shrink(1);
-		return "PASS";
-	} else {
-		player.sendChat("形状不完整！");
+	// check step 1
+	if (VolcanicMatches != 8){
+		player.sendChat("	该11x11区域的边缘并非全是火山带（Volcanic）群系，请另寻合适位置！");
 		return "FAIL";
 	}
+	player.sendChat("	步骤一完成！你正处于11x11火山带（Volcanic）群系区域内");
+	player.sendChat("	调试辅助提示：可用草覆盖11x11区域，其颜色将随群系变化而改变");
+	player.sendChat("	将奥术群系转换仪及其装置放置在中心点");
+	player.sendChat("	为保持整洁，请将元动能量产出设备放置在11x11区域外，并通过中继器传输至转换仪");
+	
+	
+	
+	player.sendChat("---");
+	player.sendChat("步骤二：运行转换仪，创建7x7的不详森林（Ominous Woods）区域，完成后站在转换仪上再次使用该物品");
+	player.sendChat("	使用以下设置：“方形”，“半径 24“，无需过度思考");
+	player.sendChat("	根据元动能量产出速度，可能需要多次运行转换仪才能完成整个区域转换");
+
+	// step 2
+	val OminousBiomeLocations = [
+		[3,3],[3,-3],[-3,3],[-3,-3],
+		[0,3],[0,-3],[3,0],[-3,0]
+		] as int[][];
+	val OminousBiomeName = "Ominous Woods" as string;
+	val OminousMatches = checkBiomesAtPositions(OminousBiomeName, playerpos, OminousBiomeLocations, world) as int;
+    player.sendChat("不详森林（Ominous Woods）：" ~ OminousMatches ~ " / 8");
+
+	if (OminousMatches != 8){
+		player.sendChat("	7x7的不详森林（Ominous Woods）区域不完整");
+		return "FAIL";
+	}
+
+	player.sendChat("	步骤二完成！你正处于7x7的不详森林（Ominous Woods）区域内");
+
+	player.sendChat("---");
+	player.sendChat("步骤三：运行转换仪，将中心方块变为魔法森林（Magical Forest），完成后站在转换仪上再次使用该物品");
+	player.sendChat("	Use these settings, 'Square', 'Radius 2'");
+
+	// step 3
+	val MagicBiomeLocations = [
+		[0,0]
+		] as int[][];
+	val MagicBiomeName = "Magical Forest" as string;
+	val MagicMatches = checkBiomesAtPositions(MagicBiomeName, playerpos, MagicBiomeLocations, world) as int;
+    player.sendChat("魔法森林（Magical Forest）：" ~ MagicMatches ~ " / 1");
+
+	if (MagicMatches != 1){
+		player.sendChat("	中心方块不是魔法森林（Magical Forest）");
+		return "FAIL";
+	}
+
+	player.sendChat("	步骤三完成！");
+	Commands.call("summon Item ~ ~100 ~ {Item:{id:\"contenttweaker:sword_shield\",Count:1b}}", player, world, false, true);
+	stack.shrink(1);
+	return "Pass";
+
 
 };
 markofthesamurai.register();
@@ -637,7 +694,7 @@ memoryrestorationritual.itemRightClick = function(stack, world, player, hand) {
 	if((SacredSpringsMatches) == 1) {
 		if(player.getDimension() == 150) {
 			player.sendChat("成功");
-			Commands.call("summon divinerpg:hover_stringer ~ ~2 ~ {CustomName:\"谎言护卫\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_hator\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, false, true);
+			Commands.call("summon divinerpg:hover_stinger ~ ~2 ~ {CustomName:\"谎言护卫\",HandItems:[{Count:1,id:\"contenttweaker:scroll_of_truth_hator\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:50,permshields:50}}}", player, world, false, true);
 			return "PASS";
 		}
 	} 
@@ -650,7 +707,7 @@ memoryrestorationritual.itemRightClick = function(stack, world, player, hand) {
 		}
 	} 
 
-	player.sendChat("群系不匹配");
+	player.sendChat("所有群系均不匹配");
 	return "FAIL";
 
 

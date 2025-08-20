@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oOgerite makes it easy to automate these!\n\n§fThe further along I continue through this journey, the more I am becoming aware of the incredible power of the matter-energy system.\nThe technology of the Arbiter is incredible. I am quite surprised that none of my enemies even appears to care about Fluix; all of the incredible technology that has allowed me to develop as far as I have is thanks to Fluix.\n",
+      "desc:8": "§7§o食人魔金属让该物品自动化起来更容易了！\n\n§f随着这段旅程的不断深入，我愈发意识到物质 - 能量系统的惊人力量。\n理序主的科技令人叹为观止。更令我惊讶的是，我的敌人们似乎都对福鲁伊克斯毫不在意；而正是这种神奇物质所造就的非凡科技，才让我得以发展到如今的高度。\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 38,
         "id:8": "appliedenergistics2:material"
       },
-      "name:8": "64k ME Storage Component"
+      "name:8": "64k-ME存储组件"
     }
   },
   "questID:3": 438,

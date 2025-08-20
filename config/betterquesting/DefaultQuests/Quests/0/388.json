@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Seeing myself as I am. That is a disarming experience.\nIt is through this lack of power, lack of control, lack of strength, that I am now capable of seeing my own potential.\nI know what I am, I know what I am not. \nI know what I cannot chance, I know what I can change.\nAnd I will change it!",
+      "desc:8": "看清真实的自我。一种抽丝剥茧的体验。\n正是通过这种无力、失控与脆弱，我才得以窥见自己的潜能。\n我知我所是，亦知我所非。\n我知不可变之事，亦知可变之事。\n然我必将改变之！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:iron_ingot"
       },
-      "name:8": "Some protection"
+      "name:8": "一些防护"
     }
   },
   "questID:3": 388,

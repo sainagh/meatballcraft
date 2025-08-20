@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Out of the things I expected to get out of this, a weapon was not what I thought of, but wow, this is nice!",
+      "desc:8": "一把武器？这的确出乎我的意料，不过，这太棒了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "xreliquary:magicbane"
       },
-      "name:8": "Magicbane"
+      "name:8": "魔法蜜蜂"
     }
   },
   "questID:3": 430,

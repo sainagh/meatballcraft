@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Better Jetpacks!",
+      "desc:8": "更好的喷气背包！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 19,
@@ -14,7 +14,7 @@
           "JetpackParticle:3": 0
         }
       },
-      "name:8": "Resonant Jetpack"
+      "name:8": "谐振喷气背包"
     }
   },
   "questID:3": 50094,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This place, this strange asteroid belt, this is where the Arbiter came up with Fluix, his gift to the Testificates of Terra.\nThings are starting to make sense now, and I think I am starting to see the role I am supposed to play in this story.\nHow did I not see it before? \nThe Arbiter is the master of Fluix; I have been the first person since their fall that has built anything using fluix. \nThe Arbiter was a builder. I have built a large industrial base.\nThe arbiter was there to protect the Testificates, and was ready to die for them...",
+      "desc:8": "这个地方，这片奇特的小行星带，正是理序主创造出福鲁伊克斯的所在——祂赐予泰拉大陆上泰斯提斐人的礼物。\n现在一切开始变得清晰，我逐渐明白自己在这个故事中应该扮演的角色。\n为何我之前从未察觉？\n理序主是福鲁伊克斯的掌控者；而我是自他们陨落以来，第一个用福鲁伊克斯建造物品的人。\n理序主曾是建造者。我已建立起庞大的工业基地。\n理序主曾守护泰斯提斐人，并愿为他们赴死……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:reactive_fluix"
       },
-      "name:8": "He Who Made Fluix"
+      "name:8": "创造福鲁伊克斯的存在"
     }
   },
   "questID:3": 2143,

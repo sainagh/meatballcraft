@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The actions I take, the subject of the prophecies I am now quite certain to be part of, are quite surely freely taken.\nThere is nothing special about me, I could have given up, but I did not want to.\nThat, I think, is where the answer lies. Being able of doing something does not imply that I necessarily want to do it. The circumstances of life are messy and chaotic, and we are both shaped by them while having our own preexisting morals and ideals.\nIs this what the prophecies were about? Desires as opposed to actions?\nNo, it cannot be this simple. Much of my own adventure (if we can call it an adventure) revolves around the plan the Meatball Man had for me. And that took the form of actions, lots of actions, which may have ended up with me remaining imprisoned in his grasp.\nSo I am free, but my actions were foretold. I am helped, but have to help myself.",
+      "desc:8": "我所采取的行动，那些我现在几乎确定与之相关的预言所指涉的行动，无疑都是我自由意志的选择。  \n我本无特别之处，本可放弃，却不愿放弃。  \n我想，答案就在于此。有能力做某事，并不意味着我必然想做。生命的境遇混乱无序，我们既被其塑造，又秉持着与生俱来的道德与理想。  \n难道预言所指的正是这点？是欲望而非行动？  \n不，不可能如此简单。我的整个旅程（如果能称之为旅程）始终围绕着肉丸人为我设计的计划展开。那计划以行动呈现，大量的行动，最终可能导致我永远受困于他的掌控。  \n因此，我是自由的，但我的行动早已被预言。我得到援助，却必须自救。  ",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:quadrotic_lump"
       },
-      "name:8": "Nightmare Ascension: Quadrotic"
+      "name:8": "噩梦飞升：四相"
     }
   },
   "questID:3": 303,

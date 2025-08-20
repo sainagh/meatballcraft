@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "If one type of botanical stone transmutation was embedded with the remains of a powerful recursive material, one can assume that the other type of botanical stone transmutation would would too.\nWell, I was correct. Both types of Orechid hold secrets. This one, though, Etherium, does not look immediately useful, compared with its counterpart. Probably it is because I lack the knowledge to use it, but who knows, maybe it was put there for other purposes altogether.",
+      "desc:8": "若某种植物矿石嬗变形态嵌入了强大递归物质的残骸，便可推测另一种植物矿石嬗变形态亦当如此。\n果然不出所料。两种凝矿兰皆藏有玄机。不过相较其对应变体，眼前这种以太金属似乎并无立即可见的效用。或许是我学识不足无法驾驭，但也可能它被置于此处本就别有深意。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "orechidIgnem"
         }
       },
-      "name:8": "Orechid Ignem"
+      "name:8": "炎矿兰"
     }
   },
   "questID:3": 1298,

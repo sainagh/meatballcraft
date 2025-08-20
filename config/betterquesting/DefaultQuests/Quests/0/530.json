@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This knowledge is hurting me, there is no denying it. The more I delve into this crazy war, the more I became aware of a complete lack of closure. \nLearning new things is supposed to satify me! That is why I got into science to begin with. I wanted my hunger, my thirst, to be satisfied.\nBut it could not. Knowledge is infinite, but I was not.\nCan this be changed? I was a mere mortal back then (or was I?). I\u0027m not one anymore. I have infinite time, that\u0027s why I am fighting this war to begin with.\nMy mind, though, is still bound to mortal needs. Knowing as much as possible, learning as much as possible before I am gone. That was my impetus back then, that\u0027s what drove me. I wanted to play my part in the progress of humanity.\nBut now, even though after all I have seen, this ambition, it seems so little, so mininiscule. \nThe more I see, the less I udnerstand. A question answered, ten more show up, and I feel more and more miniscule in front of this infinity. And yet, I yearn for more.",
+      "desc:8": "这份知识正在侵蚀我，这是无可否认的事实。我越是深入这场疯狂的战争，就越发意识到一个彻底无解的困境。\n学习新知本应令我满足！这才是我投身科学的初衷。我渴望填补内心的饥渴，渴望获得餍足。\n然而它未能如愿。知识无垠，而我终有穷尽。\n能否改变这种宿命？我之前不过一介凡躯（真是如此吗？）。如今已非往昔。我拥有无限的时间，这正是我投身这场战争的缘由。\n可我的思维仍被凡俗的需求束缚。在消亡前尽可能知晓更多，学习更多，那曾是我的原动力，是驱策我的执念。我渴望为人类文明的进程尽绵薄之力。\n但此刻，纵使历经万千，这份抱负却显得如此渺小，如此微不足道。\n所见愈多，所悟愈少。每解一惑，十问又生，在这无垠面前我愈发感到自身的渺小。然而，我依然渴求更多。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:lost_memory"
       },
-      "name:8": "I Need Knowledge"
+      "name:8": "我需要知识"
     }
   },
   "questID:3": 530,

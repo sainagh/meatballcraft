@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPlace a charging table on top of kror altar, and right click with the boulder dash.\n\n§fInteresting, the Shyre Empire placed a master of recursion to protect a cave world that barely has any useful resource.\nRunium is cool, I guess, but it definitely isn\u0027t worth spending all this military infrastructure on, when it only possesses minor alchemical properties, and it is only capable of transmuting a low range of elements.\nDon\u0027t get me wrong, the fact that this material exists to begin with is impressive, but compared to any alchemist it has very limited abilities, making it a mildly convenient tool for a powerful empire that has climbed the Kardashev scale.\nIf you have the power to control space-time, wouldn\u0027t it be better to find a planet full of red matter? \nI have two hypotheses. The first, they just want to study it; at the end of the day, curiosity is a staple of every life form, no matter how evil or devoid of ethics. The second, the Shyre Empire has no alchemy, they cannot do it; I have yet to see alchemists in any of these territories. There are many on Terra, and even bees are capable of performing this art, but what if none of the species under the unbrella of this empire actually have the capability to do so.\n",
+      "desc:8": "§7§o在克朗祭坛的上方放置充能祭坛，使用凶猛巨石右击祭坛。\n\n§f有意思，塞尔瑞帝国居然派了一位递归大师来守护这个几乎没有任何有用资源的洞穴世界。 \n符文块确实挺酷，但它的炼金特性相当有限，只能转化一小部分元素，根本不值得投入这么多军事设施。\n别误会，这种材料的存在本身令人印象深刻，但与任何炼金术士相比，它的能力非常有限，对于一个已经攀升至卡尔达舍夫等级的强大帝国来说，它充其量只是个略微便利的工具罢了。\n既然你们有能力掌控时空，难道不是应该去找一颗充满红物质的星球吗？\n我有两个假设：第一，他们只是想研究它；归根结底，好奇心是所有生命体的共性，无论多邪恶或缺乏道德。第二，塞尔瑞帝国根本没有炼金术，他们做不到；我在他们的领土上从未见过炼金术士。泰拉上有很多炼金术士，甚至连蜜蜂都能施展这门技艺，但如果这个帝国统治下的所有物种都恰好不具备这种能力呢？  \n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:deepland_cap"
       },
-      "name:8": "Deeplands Fall"
+      "name:8": "攻陷深层维度"
     }
   },
   "questID:3": 337,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:kror_sediment"
             },
-            "TrophyName:8": "Kror Slayer",
+            "TrophyName:8": "石巨人屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

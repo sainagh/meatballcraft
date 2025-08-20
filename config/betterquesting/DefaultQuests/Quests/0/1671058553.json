@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSolar panels may become a prized possession in the future, good thing that the Shyrelands mythic miner makes them a bit easier to obtain",
+      "desc:8": "§7§o未来，太阳能板或成抢手货，好在塞尔瑞神话采掘机让你更容易获得它",
       "icon:10": {
         "Count:3": 1,
         "id:8": "techreborn:solar_panel"
       },
-      "name:8": "Solar Frienzy"
+      "name:8": "太阳能狂暴"
     }
   },
   "questID:3": 1671058553,

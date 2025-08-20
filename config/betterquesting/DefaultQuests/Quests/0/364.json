@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Am I worthy? Well, I guess I am, or else I would not have been given access to this place, Gallifrey.\nThe coordinates of the wormholes I have traversed, until now, have been bound to special material with recursive properties. This one, though is different. It is bound directly to a fractallite recursion, to a raw recursive power, like the ones that the creatures of Nero possess.\nThis one is not bound to an emotion such as fear, nor to a concept such as darkness; this is the recursive power of an attribute, worthiness. So yes, I am worthy. But worthy of what?\nThat\u0027s the loophole behind much of the magic I have encountered. The warriors of Barathos follow the power of honor in battle, but that does not make them honorable; fighting honorably for a non-honorable cause is enough for them to fulfill their pact, and maintain their powers. A similar loophole, I suspect, is what makes me worthy of Gallifrey.",
+      "desc:8": "我配得上吗？想来是配的，否则也不会获准踏入此地，伽里弗雷。\n至今我所穿越的虫洞坐标，皆锚定于具有递归特性的特殊材料。但此处不同，它直接与分形递归相连，与原始递归能量相系，正如茕踽界生灵所掌控的那种力量。\n这里不依托恐惧之类的情绪，也不依附黑暗之类的概念，而是根植于一种特质的递归之力：资格。是的，我确实具备资格。但究竟是什么样的资格？\n这便是我所遇多数魔法的漏洞所在。爵士维度的战士恪守战斗荣耀之力，但这不意味着他们真正高尚；即便为不义之师而战，只要过程光明磊落，就足以维系契约、保有力量。我怀疑，正是类似的漏洞，让我获得了踏入伽里弗雷的资格。  ",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:gallifrey_warper"
       },
-      "name:8": "Gallifrey, the World of the Worthy"
+      "name:8": "伽里弗雷，应许之地"
     }
   },
   "questID:3": 364,

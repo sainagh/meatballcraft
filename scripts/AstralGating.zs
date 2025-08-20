@@ -85,6 +85,11 @@ recipes.addShapeless(<astralsorcery:blockcustomore:1>,
 mods.thermalexpansion.Crucible.addRecipe(<fluid:astralsorcery.liquidstarlight>*1000, <contenttweaker:starlight_sphere>, 1000);
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:starlight_sphere>, <fluid:astralsorcery.liquidstarlight>*1000]);
 
+recipes.addShaped(<contenttweaker:starlight_sphere>,
+[[null, <ore:gemAquamarine>, null],
+[<ore:gemAquamarine>, <contenttweaker:starlight_sphere>.reuse(), <ore:gemAquamarine>],
+[null, <ore:gemAquamarine>, null]]);
+
 mods.astralsorcery.Altar.addAttunementAltarRecipe("MeatballCraft:shaped/internal/altar/holysword", <aether_legacy:holy_sword>, 500, 300, [
 			<aether_legacy:holystone>, <aether_legacy:enchanted_gravitite>, <aether_legacy:holystone>,
 			<aether_legacy:holystone>, <aether_legacy:enchanted_gravitite>, <aether_legacy:holystone>,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While solid-state fusion reactors are nice, they do not deal with energy-negative reactions well.\nHeating things and supending them with electromagnetic coils is an inefficient method. Lasers, very powerful ones, can definitely do this better and faster!\nAn inertial confinement reactor, that\u0027s what I need to get much higher yields.\nThis technology, back on Earth, played a pivotal role in the struggle to energetic independence. As opposed to trying for self-sustaining heat-positive reactions through magnetic confinement in a Tokamak fusion reactor, inertial confinement, which never became self-sustaining, allowed to fuse elements heavier than iron, sich as tin, into a plasma. \nWhile this fusion reactor requires quite a lot of energy, it also releases a bunch of heat, both through cooling and the decay of the unstable plasma into its original components, so thanks to the efficient thermodynamic cycles and heat exchanging methods developed for salt reactors, it was possible to produce an energy-positive cycle.\nI am not going to do that here, but using inertial confinement fusion to produce heavy metals is indeed useful for my purposes.",
+      "desc:8": "固态聚变反应堆固然不错，但它们难以处理能量负反应。\n用电磁线圈加热并悬浮物质的方法效率太低。高能激光显然能更快更好地完成这项工作！\n我需要的是惯性约束反应堆，这样才能获得更高产出。\n这项技术在地球争取能源独立的斗争中至关重要。与托卡马克装置通过磁约束实现自持性放热反应不同，惯性约束虽无法自持，却能熔炼比铁更重的元素（比如锡）形成等离子体。\n尽管这种聚变反应堆能耗惊人，但它通过冷却系统和不稳定等离子体衰变回原始组分时都会释放大量热能。得益于为熔盐堆研发的高效热力循环与热交换技术，人类最终实现了能量正循环。\n虽然不打算在此复现该过程，但利用惯性约束聚变来生产重金属确实符合我的需求。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:hohlraum"
       },
-      "name:8": "Hohlraum",
+      "name:8": "环空器",
       "tasklogic:8": "OR"
     }
   },

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Better Jetpacks!",
+      "desc:8": "更好的喷气背包！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 9,
@@ -14,7 +14,7 @@
           "JetpackParticle:3": 0
         }
       },
-      "name:8": "Energetic Jetpack"
+      "name:8": "充能合金喷气背包"
     }
   },
   "questID:3": 50095,

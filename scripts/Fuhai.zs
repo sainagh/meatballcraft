@@ -19,12 +19,11 @@ mods.thaumcraft.Infusion.registerRecipe("infvoidichoriumriftitem", "",
 
 
 
-mods.thaumcraft.Infusion.registerRecipe("infvoidichoriumriftcap", "", 
-<contenttweaker:void_ichorium_rift_cap>*4, 10,
+mods.thaumcraft.Infusion.registerRecipe("infvoidichoriumopecapcappepaa", "", 
+<contenttweaker:void_ichorium_rift_cap>, 10,
 [<aspect:vitium>*4096], 
 <contenttweaker:halite_bejewelled_ichorium_catalyst>, 
 [<contenttweaker:meteoric_draconic_stone>, <thaumcraft:metal_void>, <contenttweaker:shard_of_the_cosmos>,
-<contenttweaker:meteoric_draconic_stone>, <thaumcraft:metal_void>, <contenttweaker:shard_of_the_cosmos>,
 <contenttweaker:meteoric_draconic_stone>, <thaumcraft:metal_void>, <contenttweaker:shard_of_the_cosmos>]);
 
 
@@ -35,12 +34,10 @@ recipes.addShaped(<contenttweaker:tainted_alchemic_catalyst>,
 
 
 mods.thaumcraft.Infusion.registerRecipe("infvoidichoriumjewel", "", 
-<contenttweaker:void_ichorium_jewel>*4, 10,
+<contenttweaker:void_ichorium_jewel>, 10,
 [<aspect:instrumentum>*2000, <aspect:aversio>*1500, <aspect:praecantatio>*1000, <aspect:vacuos>*500], 
 <contenttweaker:void_ichorium_gem>, 
 [<contenttweaker:void_chains>, <contenttweaker:tainted_alchemic_catalyst>, <contenttweaker:tainted_claw>,
-<contenttweaker:void_chains>, <contenttweaker:tainted_alchemic_catalyst>, <contenttweaker:tainted_claw>,
-<contenttweaker:void_chains>, <contenttweaker:tainted_alchemic_catalyst>, <contenttweaker:tainted_claw>,
 <contenttweaker:void_chains>, <contenttweaker:tainted_alchemic_catalyst>, <contenttweaker:tainted_claw>]);
 
 
@@ -226,4 +223,3 @@ mods.thaumcraft.Infusion.registerRecipe("infastralmasterymax", "",
 
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:seal_of_freedom>, <fluid:whisper_of_starvald_demelain>*1000, <contenttweaker:eleint_stone>]);
-

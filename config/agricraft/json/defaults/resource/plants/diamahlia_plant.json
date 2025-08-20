@@ -2,8 +2,8 @@
   "path": "resource/plants/diamahlia_plant.json",
   "enabled": true,
   "id": "resource:diamahlia_plant",
-  "plant_name": "Diamahlia",
-  "seed_name": "Diamahlia Seeds",
+  "plant_name": "金刚大丽",
+  "seed_name": "金刚大丽种子",
   "seed_items": [],
   "description": {
     "translations": {},

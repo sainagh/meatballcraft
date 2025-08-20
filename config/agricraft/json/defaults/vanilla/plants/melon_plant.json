@@ -2,8 +2,8 @@
   "path": "vanilla/plants/melon_plant.json",
   "enabled": true,
   "id": "vanilla:melon_plant",
-  "plant_name": "Melon",
-  "seed_name": "Melon Seeds",
+  "plant_name": "西瓜",
+  "seed_name": "西瓜种子",
   "seed_items": [
     {
       "item": "minecraft:melon_seeds",

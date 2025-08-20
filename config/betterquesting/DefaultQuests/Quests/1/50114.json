@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This is better! Botanical magic and mana are way better at making magnets!",
+      "desc:8": "这个更好！植物魔法和魔力更适合制作磁铁！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:magnetring",
         "tag:10": {}
       },
-      "name:8": "Ring of Magnetization"
+      "name:8": "磁化指环"
     }
   },
   "questID:3": 50114,

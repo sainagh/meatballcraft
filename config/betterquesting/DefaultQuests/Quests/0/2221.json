@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Well, who could have guessed, a chicken absorbed the powers of the world soul of the Abyss.\nThis cannot be bad right? Right?",
+      "desc:8": "好吧，谁能想到呢，一只鸡竟然吸收了深渊世界之魂的力量。\n这总不会出问题吧？对吧？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:abominable_egg"
       },
-      "name:8": "The Abominable Chick"
+      "name:8": "憎恶小鸡"
     }
   },
   "questID:3": 2221,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7NOT a vibrator\n\n§fThe war on Apichisi, unlike Terra\u0027s, did not end in a stalemate. Resonating Stone, the material that pulls wormholes towards the planet, is powerful and desirable, but not as much as Dimensional Shards; so whenever the \u0027allies\u0027 of the Bees came, the Shyre Empire simply left, not deeming the conflict worth wasting precious resources they could expend against the Twilight Horde.\nI am sure that battles were still fought, but whatever happened, it likely left one of these \u0027allies\u0027 in a position advantageous enough that it would have required much bigger players, possibly even the higher-ups of the Shyre Empire, to come in and even out the odds.\nWhat happened after, well, is what likely will happen to Terra if the stalemate ever were to resolve. The planet has been completely gutted of Resonating Stone. What is left of it are reserves kept by the Bees now in control of the world, who are using it to jumpstart their infrastructure.\nThankfully, this material has alchemical properties, so I really only need a small amount, and I can make more.",
+      "desc:8": "§7不是振动器\n\n§f与泰拉不同，共鸣界的战争并未以僵局告终。能将虫洞牵引至行星的共鸣石虽强大诱人，却远不及维度碎片珍贵；因此每当蜜蜂的“盟友”来犯，塞尔瑞帝国便直接撤军，他们认为不值得为这种冲突，浪费本可用于对抗暮光部落的宝贵资源。\n我确信其间仍有激战发生，但无论如何，战局总会让某一方“盟友”占据优势，以致需要更强大的势力——甚至塞尔瑞帝国的高层亲自介入——才能扭转局势。\n而最终的结局，很可能就是打破僵局后，泰拉将面临的命运。整颗行星的共振石已被开采殆尽，残存的少量储备如今掌握在统治世界的蜜蜂手中，他们用其来重建基础设施。\n所幸这种材料具有炼金特性，我只需少量样本就能自行合成。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:resonating_stone"
       },
-      "name:8": "Resonating Stone"
+      "name:8": "共鸣石"
     }
   },
   "questID:3": 456,

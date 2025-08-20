@@ -66,7 +66,7 @@ mythallospacewarp2.build();
 
 val mythallospacewarp3 = RecipeBuilder.newBuilder("mythallospacewarp3","mythic_processor_alloy_furnace",2);
 mythallospacewarp3.addEnergyPerTickInput(80000);
-mythallospacewarp3.addItemInput(<contenttweaker:kampylotitum>);
+mythallospacewarp3.addItemInput(<contenttweaker:elleipsinyum>);
 mythallospacewarp3.addItemInput(<materialpart:fluctuatite:ingot>);
 mythallospacewarp3.addItemOutput(<contenttweaker:ekkremesynium>*2);
 mythallospacewarp3.build();
@@ -269,7 +269,11 @@ recipes.addShapeless(<contenttweaker:depleted_innerved_fissile_alloy>,
 [<contenttweaker:nuclearcraft_fission_interior>, <modularmachinery:safe_fission_lecm243_controller>, <contenttweaker:innerved_fissile_alloy>]);
 
 
-mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:innerved_fissile_dust>*4, <contenttweaker:depleted_innerved_fissile_alloy>, 1, 100, 100, 100);
+mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:innerved_fissile_dust>*4, [<contenttweaker:depleted_innerved_fissile_alloy>], 100, 20, 1);
+
+
+
+
 
 val spatcrucinnerfiss1 = RecipeBuilder.newBuilder("spatcrucinnerfiss1","spatial_crucible",2);
 spatcrucinnerfiss1.addEnergyPerTickInput(80000);

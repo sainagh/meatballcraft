@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o生成于下界和末地。\nRFTools Dimensions模组生成的维度中，可发现于Y\u003d40以下。\n",
+      "desc:8": "§7§o生成于下界和末地。\nRFTools Dimensions模组生成的维度中，可发现于Y=40以下。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftools:dimensional_shard"

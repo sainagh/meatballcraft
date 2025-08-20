@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis way for draconic armor!\n\n§fThe properties of maximum-entropy Chaos matter are remerkable. Energy transformations involving this state of matter naturally achieve their Carnot efficiency, making it a highly effective source for generating electricity.\nThis does not always play well, as the reaction is so efficient that it can automatically lower the enrgy state of the world around it, leading to catastrophic destruction.",
+      "desc:8": "§7§o该任务线通往神龙盔甲！\n\n§f最大熵态混沌物质的特性极为显著。涉及这种物质状态的能源转化，能自然达到卡诺效率，使其成为极其高效的能量来源。\n但这种特性并非总是有益的，由于反应效率过高，它会自动降低周围世界的能态，从而导致灾难性的破坏。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "draconicevolution:reactor_core"
       },
-      "name:8": "Power from Entropy"
+      "name:8": "熵之力"
     }
   },
   "questID:3": 428,

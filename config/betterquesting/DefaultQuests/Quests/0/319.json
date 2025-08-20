@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWelcome to chapter 9!",
+      "desc:8": "§7§o欢迎来到第9章！",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:alkemia_artifact"
       },
       "ismain:1": 1,
-      "name:8": "Supreme Power in the Universe"
+      "name:8": "宇宙至高伟力"
     }
   },
   "questID:3": 319,

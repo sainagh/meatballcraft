@@ -2,8 +2,8 @@
   "path": "vanilla/plants/potato_plant.json",
   "enabled": true,
   "id": "vanilla:potato_plant",
-  "plant_name": "Potato",
-  "seed_name": "Potato Seeds",
+  "plant_name": "马铃薯",
+  "seed_name": "马铃薯种子",
   "seed_items": [
     {
       "item": "agricraft:agri_seed",

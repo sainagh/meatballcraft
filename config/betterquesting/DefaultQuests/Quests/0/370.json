@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I may have made a mistake, not fully knowing the rules of Fractallite powers. Once the holder of a given power falls, the magic they cast is not reversed. The gift of Immortality coming from the Immortal Fractallites still endures after their defeat.\nThis does not follow the same logic as the other powerful magic I have encountered; or any magic I have encountered, to be fair. \nThe vessel is important to magic. Once it is taken away, the weave of recursion falters. That is how I could wiggle out of my own recursion prison, by beating up J\u0027zahar and the Primordial Malevolence. Sure, I am yet to escape this prison fully, so it is definitely possible to ensure some permanence when casting powerful spells, but the fall of the caster, looking at every single example I have seen of this, does have an effect.\nHere, though, nothing changed. Is it that the rules are different for Fractallites, or that I simply did not really defeat these enemies?",
+      "desc:8": "我可能犯了个错误，没有完全理解分形之力的规则。当某种力量的持有者陨落时，他们施放的魔法并不会逆转。那些源自不朽分形的永生馈赠，即便在其持有者败亡后依然持续生效。\n这与我遇到过的其他强大魔法——老实说，是任何魔法——都遵循着不同的逻辑。\n魔法需要容器维系。一旦容器被剥夺，递归的织理就会瓦解。正因如此，我才能通过击败扎哈尔和原始恶意，从自身的递归囚牢中找到脱身之机。当然，我至今未能完全逃出这座监狱，所以施放强大法术时确实有可能实现某种永久性效果，但根据我见过的所有案例，施法者的败亡必然会造成影响。\n然而这次，什么都没改变。究竟是分形之力的规则与众不同，还是说……我其实并未真正击败这些敌人？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:immortallis_garnet"
       },
-      "name:8": "Immortallis Garnet"
+      "name:8": "不朽之地石榴石"
     }
   },
   "questID:3": 370,

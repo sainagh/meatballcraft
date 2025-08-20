@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The stakes are high, my whole being is on the line in this place.\nMy recursion is bound, even my death takes me back to this place, this realm, the nightmare world of Vethea.\nThe most basic layer of reality, and yet the most inaccessible.\nThe creatures that inhabit this place are dangerous. Well, at least in my actual state. If only I had access to the technology I had out there. But no, this is a challenge I must face as myself, as my true self.\nThose that inhabit this place, they are like me. Better, they used to be like me. Seeking power and greatness, for reasons some of them likely thought to be rigtheous, they were confronted with the true nakedness of their being, and they were destroyed by it. They now wander the eternal nightmare as its prisoners, powerful recursive beings capable of great things out there, turned into mindless beasts, destroyed by their inability to confront themselves, trapped here forever.\nAnd yet, I am given a way out. Why was there a portal waiting for me? Why can I leave and come back?",
+      "desc:8": "赌注高昂，我的整个存在都已押注于此地。\n我的递归已被束缚，连死亡都只能将我带回此处——这个位面，这个名为威席亚的梦魇世界。\n现实的最基础层面，却也是最难触及的维度。\n栖居此地的生物极度危险。至少以我目前的状态而言如此。若还能使用外界那些科技装备该多好。但不行，这场试炼必须以真我直面。\n这里的住民都像我这样。不，应该说他们曾经都像我这样。为追求力量与伟业——其中某些人或许自认动机崇高——却在直面存在本质的赤裸真相时，被自我认知彻底摧毁。如今他们游荡在永恒梦魇中沦为囚徒，那些在外界能施展伟力的递归存在，此刻都化作了无智的野兽，因无法直面真我而永困于此。\n而我竟被给予出路。为何会有传送门静候于我？为何我能自由往返？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:dirty_pearls"
       },
-      "name:8": "If you die in a dream..."
+      "name:8": "若在梦中死亡……"
     }
   },
   "questID:3": 300,

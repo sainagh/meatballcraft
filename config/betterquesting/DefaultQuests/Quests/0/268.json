@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "New minerals! New alloys! More cool things to make! \nThe materials found in the worlds I have explored so far have useful properties that make them possibly desirable for building new things, and some of them can be used in alloys too.",
+      "desc:8": "新的材料！新的合金！又能做更多酷炫玩意了！\n迄今所探世界中的材料蕴藏有非凡特性，值得尝试用于打造新装备，而且部分还能熔铸合金。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:jeweled_runium"
       },
-      "name:8": "Material Tinkering"
+      "name:8": "材料匠锻"
     }
   },
   "questID:3": 268,

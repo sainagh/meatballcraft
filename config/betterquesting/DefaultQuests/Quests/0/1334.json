@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Here are the fundamental building blocks of the atom!",
+      "desc:8": "这些就是原子的基本构成要素！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "quarks"
         }
       },
-      "name:8": "Quarks \u0026 Leptons \u0026 Higgs"
+      "name:8": "夸克&轻子&希格斯粒子"
     }
   },
   "questID:3": 1334,

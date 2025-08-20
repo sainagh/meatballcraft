@@ -2,8 +2,8 @@
   "path": "vanilla/plants/carrot_plant.json",
   "enabled": true,
   "id": "vanilla:carrot_plant",
-  "plant_name": "Carrot",
-  "seed_name": "Carrot Seeds",
+  "plant_name": "胡萝卜",
+  "seed_name": "胡萝卜种子",
   "seed_items": [
     {
       "item": "agricraft:agri_seed",

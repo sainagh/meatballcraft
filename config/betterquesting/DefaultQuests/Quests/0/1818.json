@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Among many other peces of advice provided by the Bees of Rhenia, they shared some information about the strange nature of some of the worlds I have encountered, the ones that do not belong to a planet, and are instead outside of the three dimensions of space.\nReality, even for higher-dimensional beings, exists in the normal three dimensions that every being is capable of perceiving. Outside of these, matter is not naturally present, but fields are; this includes phenomena like magnetism, and aura. \nBeings that naturally perceive these higher dimensions can move things in and out of them, but they cannot directly bring entire spaces short of by transporting ordinary stuff.\nTo create full worlds in these higher dimensions, much more power is required. This power, from what the bees know, exploits a fundamental principle of magic. They did not call it that, but I strongly suspect it may be recursion, based on my own research. \nThe ability to generate these spaces is limited to a select few, such as the elder beings of the abyssal worlds, the Aesir, and, most importantly, the Twilight Horde and the Shyre Empire. ",
+      "desc:8": "铼界蜜蜂提供的诸多建议中，包含关于某些特殊世界本质的启示——那些不属于任何行星，游离于三维空间之外的奇异位面。\n即便对高维存在而言，现实仍以常规三维形式呈现，这是所有生命体共有的感知框架。在此维度之外，物质无法自然存在，但场域依然活跃：包括磁力场、灵气场等特殊现象。\n天生具备高维感知能力的生命体可将物体移入或移出这些维度，却无法通过常规物质运输手段直接搬运完整空间。\n要在高维创造完整世界，则需要更强大的力量。据蜜蜂所述，这种力量利用了魔法的根本原理。虽未明言，但根据我的研究推测，极可能涉及递归法则。\n目前已知具备创造此类空间能力的存在屈指可数：包括深渊世界的上古存在、阿萨神族，而最重要的是——暮光部落与塞尔瑞帝国。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:spatial_phaser"
       },
-      "name:8": "Higher-Dimensional Phasing"
+      "name:8": "高维相位"
     }
   },
   "questID:3": 1818,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Took me long enough, but it\u0027s finally time to build a Tokamak!\nFusion is just a convenient way of making power, and the free gasses are nice too!\nBack on Earth, cold fusion was seen as the great milestone in energy development, and to an extent it did play an impactful role, but by the time it became commercially viable, technologies like molten salt fission reactors and closed loop hot fusion reactors had already revolutionized energy production.\nTo be fair, though, it was the power of a Tokamak that gave the energy for my wormhole experiments, so I am definitely a fan of the source.",
+      "desc:8": "虽然花了挺长时间，但我终于要开始建造托卡马克装置了！\n核聚变不过是种获取能源的便捷方式罢了，而且还能白赚些气体副产品！\n当年在地球上，冷核聚变被视为能源发展的重大里程碑，某种程度上它确实影响深远。但等到这项技术具备商业价值时，熔盐裂变反应堆和闭环热核聚变反应堆早已彻底革新了能源产业。\n不过平心而论，正是托卡马克提供的能量支撑了我的虫洞实验，所以我绝对是这种能源的拥护者。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:fusion_core"
       },
-      "name:8": "Cold Fusion Baby!"
+      "name:8": "冷核聚变宝贝！"
     }
   },
   "questID:3": 269,

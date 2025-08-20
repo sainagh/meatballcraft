@@ -84,6 +84,13 @@ recipes.addShaped(<contenttweaker:abyssal_wasteland_warp_cleanser>,
 [<abyssalcraft:shoggothflesh:1>,<abyssalcraft:essence:0>,<abyssalcraft:shoggothflesh:1>],
 [<abyssalcraft:shoggothflesh:1>,<abyssalcraft:shoggothflesh:1>,<abyssalcraft:shoggothflesh:1>]]);
 
+
+recipes.addShaped(<contenttweaker:ineffable_light>*4,
+[[<thaumadditions:mithrillium_nugget>, <thaumadditions:mithrillium_nugget>, <thaumadditions:mithrillium_nugget>],
+[<thaumadditions:mithrillium_nugget>, <contenttweaker:ineffable_light>.reuse(), <thaumadditions:mithrillium_nugget>],
+[<thaumadditions:mithrillium_nugget>, <thaumadditions:mithrillium_nugget>, <thaumadditions:mithrillium_nugget>]]);
+
+
 recipes.addShaped(<contenttweaker:ineffable_sun>,
 [[<thaumadditions:adaminite_nugget>, <thaumadditions:adaminite_nugget>, <thaumadditions:adaminite_nugget>],
 [<thaumadditions:adaminite_nugget>, <contenttweaker:ineffable_light>.reuse(), <thaumadditions:adaminite_nugget>],

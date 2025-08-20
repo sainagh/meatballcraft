@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "These wizards are crazy, I can safely say that. This place, the world of Vibe, was in the process of being taken over in a similar way to the Abyss, by a soul of corruption that had turned most of its surface into a land of corruption and blight.\nAnd how did these five alone deal with this? By using a blight of their own. This world is now free of the corruption of the Shyre Empire because it has been taken over by adifferent corruption, taint. A whole lot of taint.\nWhile this put a stop to the enemy, it did not quite defeat it for good. This powerful soul of corruption is still living, permeating the whole of the planet. But, thanks to some newly available thaumic artifacts, it can be hurt, and even kileld, it just takes a very long time doing it.",
+      "desc:8": "这些巫师简直疯了，我可以肯定地说。谐律界正以与深渊相似的方式被侵蚀，一个腐化之魂已将地表大部分区域转化为衰败凋零之地。\n而他们五人如何应对？竟是以毒攻毒。如今谐律界虽摆脱了塞尔瑞帝国的腐化，却沦陷于另一种污染，海量的污秽。\n此举虽阻遏了敌人，却未能彻底消灭。那个强大的腐化之魂依然存活，渗透着整个星球。所幸借助新获得的神秘器具，现在能对其造成伤害甚至彻底消灭，只是需要极其漫长的过程。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:vibrating_mithminite_schythe"
       },
-      "name:8": "Blood of a Planet"
+      "name:8": "行星之血"
     }
   },
   "questID:3": 865,

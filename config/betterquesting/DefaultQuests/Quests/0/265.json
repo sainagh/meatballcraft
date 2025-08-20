@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "UU Matter, which is synthetically produced, has mythical properties. \nThet\u0027s why I love science! It allows us to connect things that seem otherwise unrelated. The fact that using fairly ordinary matter from scraps it is possible to produce stuff with mythic properties implies that magic, whatever the nature of its fiels is, is indeed present in everything. Not just as an emergent property, but as an inherent one, just like mass and charge!\nThis is nice because it will allow me to \u0027boost\u0027 my void resource miners! most of the matter that interacts with Shyre and Twilight Horde beings seems to have more \u0027mythicness\u0027, more quantity of magic, so UU matter should come in handy for making more miners!\nI\u0027m going to need a \u0027crucible\u0027 to refine this matter with alchemy, though...",
+      "desc:8": "人工合成的UU物质，竟具有神话特性。\n这就是我为什么热爱科学！ 它让我们能够将看似无关的事物联系起来。利用普通的废料物质，竟然能够生产出具有神话特性的东西，这一事实意味着魔法（无论其场域的本质是什么）确实存在于万物之中。它不仅仅是一种涌现属性，更是一种固有属性，就像质量和电荷一样！\n这很棒，因为它将能让我“增强”我的虚空资源采掘机！与塞尔瑞和暮光部落生物相互作用的大部分物质，似乎都具有更强的“神话性”，拥有更多的魔法量，所以UU物质应该能派上用场，用来制造更多的采掘机！\n不过，我可能需要一个“坩埚”来用炼金术提炼这种物质……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:spatial_crucible"
         }
       },
-      "name:8": "Existential Matter"
+      "name:8": "存在主义物质"
     }
   },
   "questID:3": 265,

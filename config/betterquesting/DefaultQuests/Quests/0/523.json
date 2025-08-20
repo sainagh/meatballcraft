@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "There is something about Twilight Horde creatures that makes them \u0027different\u0027. Just like the Meatball man, their recursive forms are more refined, more controlled. The extent to which they are capable of returning after being \u0027killed\u0027, and their omnipresence abilities are far above the troops of the Shyre Empire.\nThis may solely have to do with different philosphies of doing war, where one faction is more liberal to arm their troops, while the other is more willing to use them as cannon fodder.\nAnyhow, the source of their power seems to come from outside of the Eden, maybe from some higher dimensions, and it is channeled into this world using special gems.\nI better get my hands on some, they may come in handy for the future.",
+      "desc:8": "暮光部落的生物有种特殊的“异质感”。就像肉丸人一样，它们的递归形态更为精炼、更具可控性。这些生物在被“杀死”后的复活程度，以及无处不在的渗透能力，都远超塞尔瑞帝国的军队。\n这或许源于两种截然不同的战争哲学：一方更倾向于武装士兵，另一方则更愿意将士兵视为炮灰。\n但无论如何，它们的力量源头似乎来自伊甸之外，可能来自某些更高维度的存在，并通过特殊宝石作为媒介传导至这个世界。\n我得想办法弄到几块这种宝石，将来必定大有用处。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:eden_refined_gem"
       },
-      "name:8": "Eden Refined Gem"
+      "name:8": "精致伊甸宝石"
     }
   },
   "questID:3": 523,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:eden_refined_gem"
             },
-            "TrophyName:8": "Tier 1 Mythic Sheller",
+            "TrophyName:8": "一阶神话叠壳终结者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "neon"
           }

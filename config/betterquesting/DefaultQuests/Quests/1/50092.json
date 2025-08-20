@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oJetpacks are not as good as creative flight, but they can be used in all dimensions!\n\n§fElytra can be used to produce very basic jetpacks, which allow for slow flight.",
+      "desc:8": "§7§o喷气背包没有创造飞行那么易用，但不受维度禁飞影响！\n\n§f需要鞘翅来制作可以缓慢飞行的最基础喷气背包。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 7,
@@ -14,7 +14,7 @@
           "JetpackParticle:3": 0
         }
       },
-      "name:8": "Conductive Iron Jetpack"
+      "name:8": "导电铁喷气背包"
     }
   },
   "questID:3": 50092,

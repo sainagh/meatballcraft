@@ -2,8 +2,8 @@
   "path": "vanilla/plants/red_tulip_plant.json",
   "enabled": true,
   "id": "vanilla:red_tulip_plant",
-  "plant_name": "Red Tulip",
-  "seed_name": "Red Tulip Seeds",
+  "plant_name": "红色郁金香",
+  "seed_name": "红色郁金香种子",
   "seed_items": [],
   "description": {
     "translations": {},

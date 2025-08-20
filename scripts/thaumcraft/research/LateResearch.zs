@@ -1,15 +1,20 @@
 #modloaded thaumcraft
 #loader lateAddTC
+
 import native.net.minecraft.item.ItemStack;
 import native.thaumcraft.api.research.ResearchCategories;
 import native.thaumcraft.api.research.ResearchStage;
 
 import crafttweaker.item.IItemStack;
 
+import scripts.thaumcraft.Unifier;
+
 /*
-Hard-coded, non-JSON, research pages to replace crafting requirements for consume requirements.
+Hard-coded, non-JSON, research pages to edit.
+- Replaces crafting requirements for consume requirements.
 This is so we can make these ingredients obtainable through non-crafting recipes,
 but still make associated research completable.
+- Unifies plates from rewards.
 
 See config/thaumcraftfix/patches for research page changes that are JSON-based.
 */
@@ -40,6 +45,9 @@ convertCraftToConsume(t3SmelterStage, mithminitePlate);
 
 var scytheStage = findCraftingStage("TAR_MITHMINITE_SCYTHE", mithminitePlate);
 convertCraftToConsume(scytheStage, mithminitePlate);
+
+# TC plate unification
+convertRewardItems("TAR_CRYSTAL_CRUSHER", Unifier.unifiedPlates);
 
 function findCraftingStage(researchName as string, targetItem as IItemStack) as ResearchStage {
   var stages = ResearchCategories.getResearch(researchName).getStages();
@@ -78,5 +86,13 @@ function convertCraftToConsume(stage as ResearchStage, itemToConvert as IItemSta
     stage.setObtain([itemToConvert.native] as ItemStack[]);
   } else {
     stage.setObtain((consumed as ItemStack[]) + itemToConvert.native);
+  }
+}
+
+function convertRewardItems(researchName as string, itemsToReplace as IItemStack[IItemStack]) {
+  var rewards = ResearchCategories.getResearch(researchName).getRewardItem();
+  for i in 0 to rewards.length {
+    var reward = rewards[i];
+    rewards[i] = Unifier.unifyStack(reward, itemsToReplace);
   }
 }

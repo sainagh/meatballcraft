@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Gravity makes sense, and I feel pretty good about myself!\nThe knowledge of the way they manipulate space-time to open their portals should allow me to take the fight to their territory!\nWhat I know points inequivocably to an answer, recursion is the key. If I want to know more, I have to go to those that hold it!\n*one man army vibes intensify*",
+      "desc:8": "引力法则如此清晰，我对自己充满信心！\n既然洞悉了他们操纵时空开启传送门的手段，是时候杀入他们的地盘了！\n所有线索都指向一个答案，递归是关键。若想探寻真相，唯有向掌握着秘密的势力进发！\n*此处应有BGM*",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:realmstone"
       },
       "ismain:1": 1,
-      "name:8": "War to the Shyre Empire!"
+      "name:8": "向塞尔瑞帝国开战！"
     }
   },
   "questID:3": 143,

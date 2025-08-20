@@ -40,7 +40,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dyson_conduit>*4,
 
 mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:irradiated_filler>, <extracells:fluidfiller>, 1000);
 
-val creationray = RecipeBuilder.newBuilder("creationray","creation_altar",100);
+val creationray = RecipeBuilder.newBuilder("creationray","creation_altar",10);
 creationray.addEnergyPerTickInput(400000);
 creationray.addFluidInput(<fluid:lifeessence>*10);
 creationray.addFluidInput(<fluid:astralsorcery.liquidstarlight>*10);
@@ -118,7 +118,7 @@ electroblobdyson.addItemInput(<contenttweaker:refraction_focus_key>*2);
 electroblobdyson.addItemOutput(<contenttweaker:radiation_crafter>);
 electroblobdyson.build();
 
-val infinityfurnacerefractall = RecipeBuilder.newBuilder("infinityfurnacerefractall","infinity_furnace",200);
+val infinityfurnacerefractall = RecipeBuilder.newBuilder("infinityfurnacerefractall","infinity_furnace",40);
 infinityfurnacerefractall.addFluidInput(<fluid:dense_plasma>*16000);
 infinityfurnacerefractall.addItemInput(<bloodmagic:item_demon_crystal:0>);
 infinityfurnacerefractall.addItemInput(<bloodmagic:item_demon_crystal:1>);

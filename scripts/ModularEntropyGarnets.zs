@@ -31,20 +31,46 @@ combinethepuzzles1.addFluidInput(<fluid:galactic_matter>*1600);
 combinethepuzzles1.addFluidInput(<fluid:cosmic_matter>*1600);
 combinethepuzzles1.addFluidInput(<fluid:spatial_matter>*1600);
 combinethepuzzles1.addItemInput(<contenttweaker:recursion_sharpening_lens>);
-combinethepuzzles1.addItemOutput(<contenttweaker:recursion_fragment_terra>*4);
+combinethepuzzles1.addItemOutput(<contenttweaker:recursion_fragment_terra>*3);
 combinethepuzzles1.build();
 
-val combinethepuzzles2 = RecipeBuilder.newBuilder("combinethepuzzles2","me_entropic_sythesizer",50);
+
+val combinethepuzzles2 = RecipeBuilder.newBuilder("combinethepuzzles2","me_entropic_sythesizer",100);
 combinethepuzzles2.addEnergyPerTickInput(2000000);
-combinethepuzzles2.addFluidInput(<fluid:twilight_fire>*3200);
-combinethepuzzles2.addFluidInput(<fluid:nightmarish_matter>*3200);
-combinethepuzzles2.addFluidInput(<fluid:chaotic_matter>*3200);
-combinethepuzzles2.addFluidInput(<fluid:galactic_matter>*3200);
-combinethepuzzles2.addFluidInput(<fluid:cosmic_matter>*3200);
-combinethepuzzles2.addFluidInput(<fluid:spatial_matter>*3200);
-combinethepuzzles2.addItemInput(<contenttweaker:fractallite_focus_lens>);
-combinethepuzzles2.addItemOutput(<contenttweaker:recursion_fragment_terra>*8);
+combinethepuzzles2.addFluidInput(<fluid:twilight_fire>*1600);
+combinethepuzzles2.addFluidInput(<fluid:nightmarish_matter>*1600);
+combinethepuzzles2.addFluidInput(<fluid:chaotic_matter>*1600);
+combinethepuzzles2.addFluidInput(<fluid:galactic_matter>*1600);
+combinethepuzzles2.addFluidInput(<fluid:cosmic_matter>*1600);
+combinethepuzzles2.addFluidInput(<fluid:spatial_matter>*1600);
+combinethepuzzles2.addItemInput(<contenttweaker:recursion_focusing_fabrial>);
+combinethepuzzles2.addItemOutput(<contenttweaker:recursion_fragment_terra>*6);
 combinethepuzzles2.build();
+
+val combinethepuzzles3 = RecipeBuilder.newBuilder("combinethepuzzles3","me_entropic_sythesizer",100);
+combinethepuzzles3.addEnergyPerTickInput(2000000);
+combinethepuzzles3.addFluidInput(<fluid:twilight_fire>*1600);
+combinethepuzzles3.addFluidInput(<fluid:nightmarish_matter>*1600);
+combinethepuzzles3.addFluidInput(<fluid:chaotic_matter>*1600);
+combinethepuzzles3.addFluidInput(<fluid:galactic_matter>*1600);
+combinethepuzzles3.addFluidInput(<fluid:cosmic_matter>*1600);
+combinethepuzzles3.addFluidInput(<fluid:spatial_matter>*1600);
+combinethepuzzles3.addItemInput(<contenttweaker:recursion_of_undeath_focusing_fabrial>);
+combinethepuzzles3.addItemOutput(<contenttweaker:recursion_fragment_terra>*9);
+combinethepuzzles3.build();
+
+
+val combinethepuzzles4 = RecipeBuilder.newBuilder("combinethepuzzles4","me_entropic_sythesizer",50);
+combinethepuzzles4.addEnergyPerTickInput(2000000);
+combinethepuzzles4.addFluidInput(<fluid:twilight_fire>*3200);
+combinethepuzzles4.addFluidInput(<fluid:nightmarish_matter>*3200);
+combinethepuzzles4.addFluidInput(<fluid:chaotic_matter>*3200);
+combinethepuzzles4.addFluidInput(<fluid:galactic_matter>*3200);
+combinethepuzzles4.addFluidInput(<fluid:cosmic_matter>*3200);
+combinethepuzzles4.addFluidInput(<fluid:spatial_matter>*3200);
+combinethepuzzles4.addItemInput(<contenttweaker:fractallite_focus_lens>);
+combinethepuzzles4.addItemOutput(<contenttweaker:recursion_fragment_terra>*12);
+combinethepuzzles4.build();
 
 scripts.PuzzleUtil.addPuzzleShapeless("vetheapuzzle",<contenttweaker:dream_projector_gem>,
 [<contenttweaker:projector_gem>,

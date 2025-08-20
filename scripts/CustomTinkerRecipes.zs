@@ -243,8 +243,11 @@ scripts.PuzzleUtil.addPuzzleShaped("barongempuzzle", <contenttweaker:baron_gem>,
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:barathosynium_ingot>, 
 50000, <contenttweaker:baron_gem>, 
 [<aoa3:blazium_ingot>, <aoa3:varsium_ingot>,
-<aoa3:baronyte_ingot>, <contenttweaker:endergenic_sediment>,
+<aoa3:baronyte_ingot>, <extrabotany:nightmarefuel>,
 <extrabotany:nightmarefuel>, <ore:plateRedstone>]);
+
+mods.tconstruct.Melting.addRecipe(<liquid:molten_insanium> * 144,<ore:ingotInsanium>);
+mods.nuclearcraft.melter.addRecipe([<ore:ingotInsanium>, <fluid:molten_insanium>*144]);
 
 
 mods.tconstruct.Melting.addRecipe(<liquid:molten_barathosynium> * 144,<contenttweaker:barathosynium_ingot>);
@@ -274,5 +277,14 @@ mods.tconstruct.Melting.addRecipe(<liquid:orichalcum> * 144,<contenttweaker:oric
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:orichalcum>, <tconstruct:cast_custom:0>, <liquid:orichalcum>, 144, false, 80);
 
 
+mods.tconstruct.Melting.addRecipe(<liquid:molten_demonic_ember> * 144,<contenttweaker:demonic_ember>);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:demonic_ember>, <tconstruct:cast_custom:2>, <liquid:molten_demonic_ember>, 144, false, 80);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:demonic_ember>, <fluid:molten_demonic_ember>*144]);
+
+
 mods.tconstruct.Melting.addRecipe(<liquid:trinity_ingot> * 144,<contenttweaker:trinity_ingot>);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:trinity_ingot>, <tconstruct:cast_custom:0>, <liquid:trinity_ingot>, 144, false, 80);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:trinity_ingot>, <fluid:trinity_ingot>*144]);
+
+
+mods.tconstruct.Melting.addRecipe(<liquid:whisper_of_worthiness> * 4000,<contenttweaker:stone_of_worthiness>);
