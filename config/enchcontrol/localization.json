@@ -240,7 +240,7 @@
 		{"key": "minecraft:sweeping.desc", "value": "增加横扫攻击伤害。伤害计算公式为1+基础近战攻击力*(魔咒等级/(魔咒等级+1))"},
 		{"key": "minecraft:thorns.desc", "value": "对攻击者造成反弹伤害。魔咒等级越高，触发概率越大，造成伤害越高。多个盔甲拥有此魔咒，则每件盔甲会轮流进行荆棘效果结算。触发时消耗额外耐久"},
 		{"key": "minecraft:unbreaking.desc", "value": "减少物品消耗耐久的概率。盔甲类物品预期寿命延长为每级大约20%%，其余物品预期寿命延长为魔咒等级+1倍"},
-		{"key": "minecraft:vanishing_curse.desc", "value": "在玩家死亡时消失所"},
+		{"key": "minecraft:vanishing_curse.desc", "value": "物品会在玩家死亡时消失"},
 		{"key": "variegated:manabound.desc", "value": "可使用魔力修复物品"},
 		{"key": "woot:headhunter.desc", "value": "增加头颅掉落率"},
 		{"key": "aerialaffinity:aerial_affinity.desc", "value": "移除在空中和不接触地面时的挖掘速度惩罚"},
