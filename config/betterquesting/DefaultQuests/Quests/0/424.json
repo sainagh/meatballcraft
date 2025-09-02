@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIt may be a good time to start filling up a bunch of books!\n\n§fThe potential energy of the Book of the Dead, while having the capability of performing rituals touching the higher-order dimensions, exists itself in the string-theory space. \nI have not really thought about building devices or artifacts working in these higher dimensions, as I was scared of starting more conflicts against the Old Ones, but I think it may be time to experiment more with this!",
+      "desc:8": "§7§o是时候开始一次性充满大量深渊之书了！\n\n§f死者之书的潜在能量虽能触及高阶维度的仪式运作，但其本身存在于弦论空间之中。\n我从未认真考虑过建造能在这些高维层面运作的装置或器具，因畏惧引发与古神更多的冲突，但现在或许是时候展开更多实验了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "abyssalcraft:abyssalnomicon",
@@ -12,7 +12,7 @@
           "PotEnergy:5": 0.0
         }
       },
-      "name:8": "More Full Abyssalmonicons!"
+      "name:8": "更多满能量的深渊之书！"
     }
   },
   "questID:3": 424,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Well, I do not have to interact with the nightmare anymore, but I think I want to.\nWhat I have experienced in Vethea is what being a Fractallite means. Carrying hopes and aspirations, dreams and desires. That is what I did there, and I want to do the same here.\nAt the end of the day, technology is my way of seeing the world, and there is technology to be made out of Vethea.\nLumps are going to be quite useful in my future endeavors!",
+      "desc:8": "好吧，我本不必再与那个梦魇世界有所牵扯，但我想我仍渴望继续。\n在梦魇世界的经历让我真正理解了身为分形者的意义。承载希望与抱负，托起梦想与渴望。那是我在彼界的使命，而在此界我亦愿如此。\n归根结底，科技是我认知世界的语言，而梦魇世界本身就可淬炼成科技。\n那些肉瘤团块对我未来的探索必将大有用处！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:nightmare_block"
       },
-      "name:8": "Nightmare Block"
+      "name:8": "噩梦方块"
     }
   },
   "questID:3": 306,

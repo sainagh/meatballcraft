@@ -1022,3 +1022,153 @@ meteoricdraconicmatter.register();
 var voidichor = VanillaFactory.createFluid("void_ichor", Color.fromHex("4e1d70"));
 voidichor.register();
 
+var matterofrestraining = VanillaFactory.createFluid("matter_of_restraining", Color.fromHex("6c5e6d"));
+matterofrestraining.register();
+
+var moltendemonicember = VanillaFactory.createFluid("molten_demonic_ember", Color.fromHex("e05c2c"));
+moltendemonicember.register();
+
+var whisperofworthyy = VanillaFactory.createFluid("whisper_of_worthiness", Color.fromHex("3f1266"));
+whisperofworthyy.register();
+
+var molteninsanium = VanillaFactory.createFluid("molten_insanium", Color.fromHex("790091"));
+molteninsanium.register();
+
+var oakspirit = VanillaFactory.createFluid("oak_spirit", Color.fromHex("008202"));
+oakspirit.register();
+
+var spruceheart = VanillaFactory.createFluid("spruce_heart", Color.fromHex("3b593b"));
+spruceheart.register();
+
+var birchsoul = VanillaFactory.createFluid("birch_soul", Color.fromHex("93bd3e"));
+birchsoul.register();
+
+var cloudyoil = VanillaFactory.createFluid("cloudy_oil", Color.fromHex("6e0f00"));
+cloudyoil.register();
+
+var acaciaresin = VanillaFactory.createFluid("acacia_resin", Color.fromHex("2e9918"));
+acaciaresin.register();
+
+var ebbofdeath = VanillaFactory.createFluid("ebb_of_death", Color.fromHex("424242"));
+ebbofdeath.register();
+
+var dropletofwisdom = VanillaFactory.createFluid("droplet_of_wisdom", Color.fromHex("cbe090"));
+dropletofwisdom.register();
+
+var liquidwitchcraft = VanillaFactory.createFluid("liquid_witchcraft", Color.fromHex("5e008a"));
+liquidwitchcraft.register();
+
+var essenceofvitality = VanillaFactory.createFluid("essence_of_vitality", Color.fromHex("97ff78"));
+essenceofvitality.register();
+
+var cleansingbalm = VanillaFactory.createFluid("cleansing_balm", Color.fromHex("92d6d2"));
+cleansingbalm.register();
+
+var demonicelixir = VanillaFactory.createFluid("demonic_elixir", Color.fromHex("ad1818"));
+demonicelixir.register();
+
+var fieryunguent = VanillaFactory.createFluid("fiery_unguent", Color.fromHex("ff7530"));
+fieryunguent.register();
+
+var swirlofdepths = VanillaFactory.createFluid("swirl_of_depths", Color.fromHex("807385"));
+swirlofdepths.register();
+
+var oilofvitriol = VanillaFactory.createFluid("oil_of_vitriol", Color.fromHex("474747"));
+oilofvitriol.register();
+
+var otherworldlytears = VanillaFactory.createFluid("otherworldly_tears", Color.fromHex("8200d9"));
+otherworldlytears.register();
+
+var heavenextract = VanillaFactory.createFluid("heaven_extract", Color.fromHex("00a8ad"));
+heavenextract.register();
+
+var stoneichor = VanillaFactory.createFluid("stone_ichor", Color.fromHex("96ad00"));
+stoneichor.register();
+
+var tearofnature = VanillaFactory.createFluid("tear_of_nature", Color.fromHex("665c00"));
+tearofnature.register();
+
+var bewitchedtincture = VanillaFactory.createFluid("bewitched_tincture", Color.fromHex("095173"));
+bewitchedtincture.register();
+
+var whitesagetincture = VanillaFactory.createFluid("white_sage_tincture", Color.fromHex("8dc942"));
+whitesagetincture.register();
+
+var saltytincture = VanillaFactory.createFluid("salty_tincture", Color.fromHex("c4c4c4"));
+saltytincture.register();
+
+var garlictincture = VanillaFactory.createFluid("garlic_tincture", Color.fromHex("dbdaca"));
+garlictincture.register();
+
+var demonictincture = VanillaFactory.createFluid("demonic_tincture", Color.fromHex("630d0d"));
+demonictincture.register();
+
+var blazingtincture = VanillaFactory.createFluid("blazing_tincture", Color.fromHex("ff990a"));
+blazingtincture.register();
+
+var tallowtincture = VanillaFactory.createFluid("tallow_tincture", Color.fromHex("d1c992"));
+tallowtincture.register();
+
+var fishytincture = VanillaFactory.createFluid("fishy_tincture", Color.fromHex("86adad"));
+fishytincture.register();
+
+var coquinatincture = VanillaFactory.createFluid("coquina_tincture", Color.fromHex("949165"));
+coquinatincture.register();
+
+var irontincture = VanillaFactory.createFluid("iron_tincture", Color.fromHex("deddd3"));
+irontincture.register();
+
+var gunpowdertincture = VanillaFactory.createFluid("gunpowder_tincture", Color.fromHex("69706a"));
+gunpowdertincture.register();
+
+var dragontincture = VanillaFactory.createFluid("dragon_tincture", Color.fromHex("bf4171"));
+dragontincture.register();
+
+var dimensionaltincture = VanillaFactory.createFluid("dimensional_tincture", Color.fromHex("047000"));
+dimensionaltincture.register();
+
+var endertincture = VanillaFactory.createFluid("ender_tincture", Color.fromHex("265239"));
+endertincture.register();
+
+var glowingtincture = VanillaFactory.createFluid("glowing_tincture", Color.fromHex("fffb8c"));
+glowingtincture.register();
+
+var stonetincture = VanillaFactory.createFluid("stone_tincture", Color.fromHex("9c9c9c"));
+stonetincture.register();
+
+var graveltincture = VanillaFactory.createFluid("gravel_tincture", Color.fromHex("7d7d7d"));
+graveltincture.register();
+
+var poultrytincture = VanillaFactory.createFluid("poultry_tincture", Color.fromHex("a38787"));
+poultrytincture.register();
+
+var eyrietincture = VanillaFactory.createFluid("eyrie_tincture", Color.fromHex("c2c1a7"));
+eyrietincture.register();
+
+var fluidrecursiveconvergence = VanillaFactory.createFluid("converging_recursive_essence", Color.fromHex("5b06d1"));
+fluidrecursiveconvergence.register();
+
+var fluidselfrecursiveconvergence = VanillaFactory.createFluid("vibrating_recursive_essence", Color.fromHex("8a225d"));
+fluidselfrecursiveconvergence.register();
+
+var resonatingrecursiveessence = VanillaFactory.createFluid("resonating_recursive_essence", Color.fromHex("d67eb0"));
+resonatingrecursiveessence.register();
+
+var fractalrecursivessence = VanillaFactory.createFluid("fractal_recursive_essence", Color.fromHex("138f1d"));
+fractalrecursivessence.register();
+
+var stochasticrecursivessence = VanillaFactory.createFluid("stochastic_recursive_essence", Color.fromHex("568b8c"));
+stochasticrecursivessence.register();
+
+var markovrecursivessence = VanillaFactory.createFluid("markov_recursive_essence", Color.fromHex("07d9af"));
+markovrecursivessence.register();
+
+var demonicremains = VanillaFactory.createFluid("demonic_remains", Color.fromHex("c46280"));
+demonicremains.register();
+
+
+
+
+
+
+

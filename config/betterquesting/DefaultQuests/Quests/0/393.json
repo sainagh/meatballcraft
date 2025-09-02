@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The tools I have here, they are not ideal. They are not what I want to use.\nAnd yet they are here, and I am given the ability to use them.\nSo I should probably use them.\nNo, I want to use them!",
+      "desc:8": "我手头的这些工具，并非理想之选。它们并非我心中所愿。\n然而它们就在此处，而我被赋予了使用它们的能力。\n那么我或许应该善加利用。\n不，我渴望运用它们！ ",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:redstone"
       },
-      "name:8": "Nightmare Logic"
+      "name:8": "噩梦逻辑"
     }
   },
   "questID:3": 393,

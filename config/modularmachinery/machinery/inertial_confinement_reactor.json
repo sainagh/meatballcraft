@@ -2,6 +2,27 @@
     "registryname": "inertial_confinement_reactor",
     "localizedname": "Inertial Confinement Reactor",
 	"color": "464f47",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:matrix_plasma_fusor",
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "description": "处理数量x4",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            }]
+        }
+    ],
     "parts": [
         {
             "x": 0,

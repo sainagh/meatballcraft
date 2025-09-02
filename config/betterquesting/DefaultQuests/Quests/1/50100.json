@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis and the following quests list the available options for item magnets that will attract drops to your inventory.\n\n§fThe soul power of the so-called \u0027ender\u0027 machines can be used to make magnets that attract things to me. Sometimes this effect is a bit undesirable, but the pros outnumber the cons...",
+      "desc:8": "§7§o该任务及其后续任务列出了可用的物品磁铁选项，它们能将掉落物自动吸入你的物品。\n\n§f所谓“末影”机器蕴含的灵魂之力，可用来制成能将物品吸引至我身边的磁铁。虽然者效果有时稍显烦人，但终究利大于弊……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:item_magnet",
@@ -13,7 +13,7 @@
           "enderio:energy:3": 100000
         }
       },
-      "name:8": "Electromagnet"
+      "name:8": "电磁铁"
     }
   },
   "questID:3": 50100,

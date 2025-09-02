@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Void miners have been pretty good at providing info about mythic powers, but, for the long term, they do not seem like a reliable option.\nI drew the blueprints of a machine able to use the powers of fluix to better manage mythic resource generation.\nIt\u0027s going to be a bit of a long project, so better to start early, even if I may not have all the means to make it work as of right now...",
+      "desc:8": "虚空采掘机在提供神话力量信息方面相当优异，但从长远来看，这似乎并非可靠的选择。\n我设计了一种能够利用福鲁伊克斯能量来优化神话资源生成的机械蓝图。\n这将是个长期项目，所以最好尽早启动，尽管眼下我可能还不具备实现它的全部条件……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachinery:itemblueprint",
@@ -12,7 +12,7 @@
           "dynamicmachine:8": "modularmachinery:me_mythic_assembler"
         }
       },
-      "name:8": "Beeg Crafter!"
+      "name:8": "更大的合成器！"
     }
   },
   "questID:3": 264,

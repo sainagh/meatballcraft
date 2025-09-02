@@ -1,5 +1,15 @@
 import mods.modularmachinery.RecipeBuilder;
 
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_wood>, 
+[[<contenttweaker:abominable_egg>, <contenttweaker:abominable_egg>, null, <contenttweaker:abominable_egg>, <contenttweaker:abominable_egg>], 
+[<contenttweaker:abominable_egg>, <contenttweaker:gem_of_recursion>, <contenttweaker:sacred_cinders_log>, <contenttweaker:gem_of_recursion>, <contenttweaker:abominable_egg>], 
+[null, <contenttweaker:sacred_cinders_log>, <erebus:planks_petrified_wood>, <contenttweaker:sacred_cinders_log>, null], 
+[<contenttweaker:abominable_egg>, <contenttweaker:gem_of_recursion>, <contenttweaker:sacred_cinders_log>, <contenttweaker:gem_of_recursion>, <contenttweaker:abominable_egg>], 
+[<contenttweaker:abominable_egg>, <contenttweaker:abominable_egg>, null, <contenttweaker:abominable_egg>, <contenttweaker:abominable_egg>]]);  
+
+
+
 val chick1 = RecipeBuilder.newBuilder("chick1","mechanized_coop",480);
 chick1.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:polonium_chicken"}}));
 chick1.setChance(0.0);

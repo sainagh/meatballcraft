@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou may have been able to rush the pack until this point, but from now on, it is going to be pretty much impossible.\n\nMake sure you have passive setups (or very efficient autocrafts) for all resources that are used in lots of recipes. Garnets, for example, are good to have in a steady supply.\n\nMake sure your autocrafts are fast and reliable. If there are multiple recipes for one item, it\u0027ll be a good idea to use the easiest option available at the moment.\n\nTake a look at the side quests! There are lots of goodies there that should help out!",
+      "desc:8": "§7§o之前或许还能速通进度，但从本阶段开始，几乎就不可能了。\n\n确保为所有在大量配方中使用的资源都建立了被动生产体系（或非常高效的下单合成）。 例如，石榴石最好能有稳定供应。\n\n确保下单合成快速可靠。 如果某个物品有多个配方，那么使用当前可用的最简单选项是个好主意。\n\n留意那些支线任务！ 里面有很多好东西，应该能帮上忙！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
         "id:8": "botania:cosmetic"
       },
-      "name:8": "Infrastructure Is Important!"
+      "name:8": "基建很重要！"
     }
   },
   "questID:3": 285554142,

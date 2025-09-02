@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No matter what I told them, the Testificate wizards did not share how they were capable of producing so much flux to stop the soul of a planet. They say it was too big a crime to nature to be shared. Their souls are gone, they say, and so are their powers. They were the most powerful back then, but are now comparatively powerless. Losing their powers is what halted the progress of the campaign of Terra, and they believe it was a bad idea to deal with the enemy by taking away their only chance of continuing. I have to say I agree with them.\nWhile having access to this power would allow me to put an end to the monstrous world that is the Abyss, I am more useful as an immortal fighter as opposed to a one-time-use taint bomb.\nThe soul of Vibe, though, is now finally gone! The last of its ichor has been spilled! ",
+      "desc:8": "无论我如何追问，那些泰斯提斐人巫师始终不肯透露他们是如何产生如此巨量的咒波来禁锢一颗星球的灵魂。他们说这是对自然犯下的滔天罪行，不可为外人道。据称他们的灵魂已然消散，力量也随之湮灭。这些昔日的至强者，如今已与常人无异。正是这种力量的丧失，导致了泰拉远征行动的停滞——他们现在认为，终结自身延续的唯一机会来应对威胁，实属不智之举。对此我深表赞同。\n虽然获得这种力量能让我彻底终结深渊这个畸变的世界，但比起成为一次性使用的腐化炸弹，作为不朽战士显然更能持续发挥作用。\n不过谐律界的灵魂终于彻底消亡了！它最后的神血已然流尽！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:faultless_ichor_gem"
       },
-      "name:8": "The Soul of a Planet"
+      "name:8": "行星之魂"
     }
   },
   "questID:3": 1198,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:faultless_ichor_gem"
             },
-            "TrophyName:8": "Planetary Papercuts",
+            "TrophyName:8": "行星创口",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The vast majority of the life in the Deeplands is consciously committed to the cause of the Shyre Empire, but there still seems to be a small percentage of it that is free to act on its own, even though it is just doing critter things.\nThe critters here are different in other ways as well, as they seem to hold a strange metal in their cores. It resembles a rough steel alloy, but it is fully made through organic processes.",
+      "desc:8": "深层维度中的绝大多数生灵都自觉效忠于塞尔瑞帝国，但仍有一小部分生物保持着自主行动的自由，尽管它们只是遵循着本能在活动。\n此地的生物在其他方面也颇为独特，它们的核心部位似乎蕴藏着一种奇异金属。这种金属类似粗糙的钢合金，却完全通过有机过程形成。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:wrought_iron_shard"
       },
-      "name:8": "Deep Critters"
+      "name:8": "深层小动物"
     }
   },
   "questID:3": 2182,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:wrought_iron_shard"
             },
-            "TrophyName:8": "Quick, pick it!",
+            "TrophyName:8": "快，快捡起来！",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

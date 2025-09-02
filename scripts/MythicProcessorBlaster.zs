@@ -54,22 +54,22 @@ mythindblast7.build();
 val mythindblast8 = RecipeBuilder.newBuilder("mythindblast8","mythic_processor_blaster",2);
 mythindblast8.addEnergyPerTickInput(200000);
 mythindblast8.addFluidInput(<fluid:dense_plasma>*200);
-mythindblast8.addItemInput(<contenttweaker:ice_dragonsteel_ore>);
-mythindblast8.addItemOutput(<iceandfire:dragonsteel_ice_ingot>*9);
+mythindblast8.addItemInput(<contenttweaker:ice_dragonsteel_ore>*100);
+mythindblast8.addItemOutput(<iceandfire:dragonsteel_ice_ingot>*900);
 mythindblast8.build();
 
 val mythindblast9 = RecipeBuilder.newBuilder("mythindblast9","mythic_processor_blaster",2);
 mythindblast9.addEnergyPerTickInput(200000);
 mythindblast9.addFluidInput(<fluid:dense_plasma>*200);
-mythindblast9.addItemInput(<contenttweaker:fire_dragonsteel_ore>);
-mythindblast9.addItemOutput(<iceandfire:dragonsteel_fire_ingot>*9);
+mythindblast9.addItemInput(<contenttweaker:fire_dragonsteel_ore>*100);
+mythindblast9.addItemOutput(<iceandfire:dragonsteel_fire_ingot>*900);
 mythindblast9.build();
 
 val mythindblast10 = RecipeBuilder.newBuilder("mythindblast10","mythic_processor_blaster",2);
 mythindblast10.addEnergyPerTickInput(200000);
 mythindblast10.addFluidInput(<fluid:dense_plasma>*200);
-mythindblast10.addItemInput(<contenttweaker:lightning_dragonsteel_ore>);
-mythindblast10.addItemOutput(<iceandfire:dragonsteel_lightning_ingot>*9);
+mythindblast10.addItemInput(<contenttweaker:lightning_dragonsteel_ore>*100);
+mythindblast10.addItemOutput(<iceandfire:dragonsteel_lightning_ingot>*900);
 mythindblast10.build();
 
 val mythindblast11 = RecipeBuilder.newBuilder("mythindblast11","mythic_processor_blaster",2);
@@ -86,3 +86,10 @@ mythindblast12.addFluidInput(<fluid:dense_plasma>*6400);
 mythindblast12.addItemInput(<thermalfoundation:material:165>*64);
 mythindblast12.addItemOutput(<contenttweaker:charged_signalum>*64);
 mythindblast12.build();
+
+val mythindblast13 = RecipeBuilder.newBuilder("mythindblast13","mythic_processor_blaster",2);
+mythindblast13.addEnergyPerTickInput(1000000000);
+mythindblast13.addFluidInput(<fluid:pre_baryonic_plasma>*2);
+mythindblast13.addItemInput(<contenttweaker:sacred_cinders_log>*512);
+mythindblast13.addItemOutput(<contenttweaker:everburning_seed>);
+mythindblast13.build();

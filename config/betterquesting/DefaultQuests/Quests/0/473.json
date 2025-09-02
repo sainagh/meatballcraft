@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "More minerals, more ways to mix and match! Depending on the catalysts used, the yield of Vibranium and Jeweled Runium can be greatly increased.\nThis is good, as I am starting to use more and more of these materials.",
+      "desc:8": "更多矿物，更多混配可能！根据所用催化剂的不同，振金与宝石符文的产量可获得极大提升。\n这正合我意，这些材料的消耗量正与日俱增。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:jeweled_runium"
       },
-      "name:8": "More Material Science Improvements"
+      "name:8": "更多材料学改进"
     }
   },
   "questID:3": 473,

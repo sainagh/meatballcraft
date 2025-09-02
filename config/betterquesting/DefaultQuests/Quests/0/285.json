@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Recursion, as I have said many times now, is bizzarre. \nAt its basis, it does not originate from any other, more fundamental concept or force. Recursion, to my knowledge so far, just exists independtly of anything else, and while the entirety of magic appears to originate from it, the field of recursion cannot directly be extrapolated from its \u0027children\u0027 fields like vis, will, or mana. \nRecursion, as a fundamental force of the universe, became evident to me only after encountering it directly by witnessing beings and objects that are permeated by it. For all intents and purposes, this seems to be the way most have come by this power.\nAs soon as the process of atomic fission was discovered, multiple parties started rushing to turn it into a weapon, the atom bomb; this seems to follow a similar pattern. When a certain truth becomes evident, those seeking a certain type of knowledge will gravitate towards a particular path, independently of each other.\nConceptually, to make sense of Recursion, you need to have seen it in practice first. The discovery of Recursion is a recursive process itself. Having encountered recursion, even in insignifacant ways, is a requirement for ascending. The recursive abilities of the WIthers come from Testificate magic that originated after using Fluix, the Recursive properties of which come from the Arbiter, a Recursive being itself. Same for many of my friends and foes; their mastery over recursion originates from having encountered it by mistake, or by design of already-recursive beings. \nStill, there are some \u0027geniuses\u0027 who discovered it on their own. The power of the Queen of all Bees, I was told, was a completely new discovery, and that is why Terra\u0027s enemies took it away, in the only recorded event of them doing something together.",
+      "desc:8": "正如我多次强调的那样，递归现象极为诡谲。\n其本质在于：它并非源自任何更基础的概念或力量。就我目前所知，递归独立于万物而存，尽管所有魔法似乎都发源于此，却无法从“子场域”——如魔力（Vis）、意志（Will）或魔力（Mana）——直接推演出递归法则本身。\n作为宇宙基本力之一，递归的真相唯有在亲眼见证其渗透的实体与物品时才能显现。就现有案例而言，这似乎是多数存在获得该力量的必经之路。\n正如原子裂变过程被发现后，各方势力竞相将其武器化为原子弹；当某种真理显现时，追求特定知识者总会不约而同地踏上相似道路。\n要理解递归概念，必须首先目睹其实践。递归的发现过程本身就是一个递归循环。就算是最微小的接触，也是实现升华的必要条件。凋灵的递归能力源自泰斯提斐魔法，而这种魔法又始于具有递归特性的福鲁伊克斯——其递归属性则来自理序主（本身就是递归存在）。我的盟友与敌人们同样如此，他们的递归造诣要么源于意外接触，要么来自其他递归存在的刻意安排。\n不过确实存在自行发现递归的“天才”。据我所知，蜂群女皇的力量就是全新发现，这也解释了为何泰拉的敌人们会罕见地联合起来将其夺走，这是史料记载中他们唯一一次协同行动。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:apalachia_core"
       },
-      "name:8": "Apalachia Falls"
+      "name:8": "攻破附魔山脉"
     }
   },
   "questID:3": 285,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:eternal_shoulder"
             },
-            "TrophyName:8": "Eternal Archer Slayer",
+            "TrophyName:8": "永恒射手屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Someone else, likely long ago, truggled against the Shyre Empire in the Deeplands. Whoever this person was, they were not successful, but they nevertheless left a useful legacy.\nThis warrior seemes to have wielded a powerful type of metal-manipulation magic, which allowed them to shape, move, and even fuse magnetic matter. This being likely ascended in a way similar to the wizard of Iceika, but successfully, and was able to shape the world around themselves into creature that are themselves capable of some degree of metal-manipulation. These are the grottols now wondering the Deeplands; they likely travelled through the portal their master opened to the Shyre Empire, found themselves in a favorable habitat, and eventually became a staple of the local fauna.\nAfter the Shyre Empire did their thing, though, this once-foe was twisted into madness, and was left as a husk, aimlessly wandering through the Deeplands. The Empire likely wanted to manipulate them into servitude, but could not, and instead just broke its mind, and, tot meing able to use their power, went on ignoring them.",
+      "desc:8": "在遥远的过去，曾有另一人在深层维度对抗塞尔瑞帝国。虽未成功，却留下了宝贵的遗产。\n这位战士似乎掌握着某种强大的金属操控魔法，能够塑造、移动甚至融合磁性物质。该存在可能以类似冰晶雪原巫师的方式尝试飞升，不同的是他成功了，并能将周围环境塑造成具有部分金属操控能力的生物。这就是如今游荡在深层维度的岩壳居蟹；它们很可能是通过其主君开启的，通往塞尔瑞帝国的传送门而来，发现此处环境适宜，最终成为当地动物群的重要组成部分。\n然而当塞尔瑞帝国实施暴行后，这位昔日勇士被扭曲至疯狂，沦为空洞躯壳在深层维度漫无目的地游荡。帝国或许曾试图操控其臣服，但未能得逞，最终只能摧毁其心智。由于无法利用其力量，帝国便对其置之不理。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:wrought_summoner"
       },
-      "name:8": "Wrought Summoning"
+      "name:8": "精锻召唤"
     }
   },
   "questID:3": 1965,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:deep_metamorphic_rock"
             },
-            "TrophyName:8": "Deep Metamorphosis",
+            "TrophyName:8": "深层蜕变",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

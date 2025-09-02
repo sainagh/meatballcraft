@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe player launcher let you shoot yourself very far.\n\nIt can be combined with the glider for even higher speed, but this could crash your game!",
+      "desc:8": "§7§o弹跳之杖能让你把自己射得非常远。\n\n可与滑翔翼组合获得更快的速度，但有可能让游戏崩溃！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "cyclicmagic:tool_launcher",
         "tag:10": {}
       },
-      "name:8": "Player Launcher"
+      "name:8": "弹跳之杖"
     }
   },
   "questID:3": 50078,

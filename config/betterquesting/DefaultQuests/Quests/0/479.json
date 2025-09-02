@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The power I may want to seek is a tricky one. Knowledge really, as it is knowledge that we are speaking of.\nA knowledge that can destroy those who are not ready to face it. I am not ready, that much I know now.\nThe insights coming from the strange properies of this new fluix world is going to be quite useful.\nI do not really know what this \u0027nightmare\u0027 is, but, for some reason, when I am in this place, I can intuit, mostly subconsciously, whether or not I am ready to face it, and I am not.",
+      "desc:8": "我想要追寻的力量颇为棘手。确切说是知识，毕竟我们谈论的正是知识本身。\n这是一种足以摧毁尚未准备好面对之人的知识。我很清楚自己此刻尚未做好准备。\n从新发现的福鲁伊克斯世界的奇异特性中获得的洞见，将会相当有用。\n我其实并不明白这个所谓的“梦魇”究竟是什么，但不知为何，当我身处此地时，总能——多半是潜意识地——感知到自己是否准备好面对它，而答案是否定的。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:weight_of_the_heart"
       },
-      "name:8": "Weight of the Ancient Heart"
+      "name:8": "远古之心之重量"
     }
   },
   "questID:3": 479,

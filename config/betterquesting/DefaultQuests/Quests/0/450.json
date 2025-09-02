@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Start early, this will take a while...\n\nSeems like large amounts of molten metal may be required in my future...",
+      "desc:8": "早点开始，这得花好一会儿时间……\n\n未来似乎需要巨量的熔融铁……",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 13,
         "id:8": "bloodmagic:blood_tank"
       },
-      "name:8": "All of the Molten Iron"
+      "name:8": "所有的熔融铁"
     }
   },
   "questID:3": 450,

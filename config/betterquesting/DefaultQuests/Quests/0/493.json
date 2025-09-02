@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "It\u0027s not just the Meatball Man, the Shyre Empire is interested in Nukes too. And in chemical warfare. I guess that in a world of magic and recursion, scientific weapons can still play a role, otherwise my foes would not be so interested.\nIt is interesting to note, though, how humanity, all things considered, was able to discover these weapons so \u0027early\u0027 in the development of its civilization. Access to magic can really push development without having to touch lots of science. This could be a trategic advantage for me, to be fair; if the Shyre Empire got to nukes only after climbing the Kardashev scale so high, it is very possible I may know more than they do about some things.\nAnyhow, besides these strategic considerations, the Vox Ponds are interested in more than one way. Similar to Vibe and Furatto, it is a world that has experienced planet-wide destruction first hand. Laser chickens, Taint, and a cocktail of Nukes and chemical weapons can easily put an end to an entire world. Unlike these other places, though, the Vox Ponds are not in this state because of war; rather, they have been used for testing for so long that not a single part of the planet is now intact. Radiation, viruses, bagteria, gases,its inhabitants are immune to basically every scientific weapon out there, and they continue with their experiments of mass destruction as if they were no more than simple everyday tasks.",
+      "desc:8": "不仅肉丸人对核武感兴趣，塞尔瑞帝国同样热衷于此。还有化学武器。我猜，即便在充满魔法与递归的世界里，科学武器仍能占有一席之地，否则敌人们不会如此热衷。\n值得注意的是，纵观人类文明发展史，人类竟能在如此“早期”就发现这类武器。掌握魔法确实能跳过大量科学发展，直接推动文明进步。说实话，这或许能成为我的战略优势；如果塞尔瑞帝国要攀到极高的卡尔达舍夫等级，才能触及核武，很可能在某些领域我的认知比他们更深入。\n抛开战略考量，未知维度更值得多角度关注。与谐律界、地盘界相似，这是个亲身经历过全球毁灭的世界。激光鸡、腐化侵蚀、再加上核武与化学武器的鸡尾酒，轻易就能终结整个文明。但与其他地区不同，未知维度并非毁于战争；这里被当作试验场太久，如今整颗星球已无完肤。辐射、病毒、细菌、毒气，这里的居民对现有科学武器基本免疫，而他们仍将大规模杀伤性实验当作日常般持续进行。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:vox_ponds_realmstone"
       },
-      "name:8": "Relics of a Forgotton World"
+      "name:8": "被遗忘世界的遗物"
     }
   },
   "questID:3": 493,
@@ -39,7 +39,7 @@
           "id:8": "minecraft:paper",
           "tag:10": {
             "display:10": {
-              "Name:8": "y\u003d21 good"
+              "Name:8": "y=21 很好"
             }
           }
         }

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTime to start automating fission if you haven\u0027t started already! Check the §cEnergy Sources §7§oquests and the tips item!",
+      "desc:8": "§7§o如果之前没做，那么现在是时候开始自动化裂变了！查看§c能量来源§7§o章节中的任务和提示物品！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "nuclearcraft:californium"
       },
-      "name:8": "Fission Automation"
+      "name:8": "裂变自动化"
     }
   },
   "questID:3": 2243,

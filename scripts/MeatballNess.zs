@@ -40,8 +40,8 @@ mods.abyssalcraft.InfusionRitual.addRitual("hardModeRitual",
 <contenttweaker:bento_xxxl>, <contenttweaker:intense_meatball_pasta>, 
 <contenttweaker:aglio_olio_peperoncino_pasta>, <contenttweaker:strange_brownie>], 
 false, ["ench"]); 
-game.setLocalization("ac.ritual.hardModeRitual", "困难模式请走此路"); 
-game.setLocalization("ac.ritual.hardModeRitual.desc", "困难模式，小菜一碟");
+game.setLocalization("ac.ritual.hardModeRitual", "Hard mode this way"); 
+game.setLocalization("ac.ritual.hardModeRitual.desc", "Hard mode EZPZ");
 
 
 recipes.addShaped(<contenttweaker:lore_of_the_meatball_man>,

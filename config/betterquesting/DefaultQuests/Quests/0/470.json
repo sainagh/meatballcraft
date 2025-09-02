@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The entire concept of molten salt reactors relied around multiple effective closed loops of fluids, and to achieve that, highly effective heat exchangers are required.\nWhile I don\u0027t think I will ever need to make power out of these reactors, efficiency is always nice, and NaK salts are not the fastest to mass produce.",
+      "desc:8": "熔盐反应堆的整个设计理念，依赖于多个高效的流体闭环系统，为此需要配置性能卓越的热交换器。\n虽然我认为这些反应堆未必需要用于发电，但提升能效始终是值得追求的，何况钠钾盐的大规模生产本就耗时较长。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:heat_exchanger_controller"
       },
-      "name:8": "Heat Exchanger"
+      "name:8": "热交换器"
     }
   },
   "questID:3": 470,

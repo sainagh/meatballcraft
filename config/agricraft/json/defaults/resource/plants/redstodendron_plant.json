@@ -2,8 +2,8 @@
   "path": "resource/plants/redstodendron_plant.json",
   "enabled": true,
   "id": "resource:redstodendron_plant",
-  "plant_name": "Redstodendron",
-  "seed_name": "Red Seeds",
+  "plant_name": "红灌木",
+  "seed_name": "红色种子",
   "seed_items": [],
   "description": {
     "translations": {},

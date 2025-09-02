@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "And at the highest energy levels of collision, strings!",
+      "desc:8": "而在碰撞的最高能级中，出现了弦！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "strings"
         }
       },
-      "name:8": "Strings"
+      "name:8": "弦"
     }
   },
   "questID:3": 1323,

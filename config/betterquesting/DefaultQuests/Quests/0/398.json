@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The fracture between dimensions, that is the truth about the nature of space.\nAs I said, I did not know what answers this wretched creature would provide, but I definitely did not expect a lesson in physics.\nThere is a reason why most beings in the universe can only perceive three dimensions of space. It has to do with a fracture, one that was, long ago, put in place through Warren magic, as a way to separate a portion of reality from the rest.\nAn uncountable amount of time ago, when the Old Ones were still young, this fracture was not present, and it was much more common for beings, whatever they must have looked like back then, to be able to perceive the full space of Strings.\nAccess to this space is what allowed for the discovery of the Eldritch Recursive field, the origin of Abyssal magic, which resided in interaction existing only in some dimensions. To prevent the spread of this power, which created what are now the Elder Ones, from taking over, the ancestors of the Realmshifters forged a way to separate the dimensions, giving birth to the nightmare worlds of the Abyssal Ones, but at the same time curbing their influence.",
+      "desc:8": "维度之间的裂隙，这便是空间本质的真相。\n正如我所说，我本不指望这卑劣生物能给出什么答案，但万万没想到竟会听到一堂物理课。  \n宇宙中多数生灵只能感知三维空间。这背后自有缘由，与一道裂隙有关。这道裂隙由迷道魔法在远古时期铸就，旨在将部分现实从整体中割离。\n在不可计数的岁月之前，当旧日支配者尚年轻之时，这道裂隙还未存在。那时的生灵，无论是何等模样，大多能完整感知弦空间的全部维度。\n正是通过接触这个空间，才发现了诡异递归场域，深渊魔法的起源。这种力量仅存于特定维度的交互之中。为防止这种催生出如今古神的力量蔓延失控，维境跃迁者的先祖们创造出维度分离之法，由此诞育了深渊眷属的噩梦位面，同时也遏制了它们的影响。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:cosmic_fracture"
       },
-      "name:8": "Cosmic Fracture"
+      "name:8": "寰宇裂隙"
     }
   },
   "questID:3": 398,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:cosmic_fracture"
             },
-            "TrophyName:8": "Horrible House",
+            "TrophyName:8": "恐怖屋子",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

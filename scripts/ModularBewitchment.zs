@@ -27,7 +27,7 @@ recipes.addShaped(<contenttweaker:baphomet_altar_bricks>,
 [<aoa3:crystallite_bricks>, <contenttweaker:mythic_machine_case>, <aoa3:crystallite_bricks>],
 [<railcraft:red_nether:3>, <aoa3:crystallite_bricks>, <railcraft:red_nether:3>]]);
 
-val baphometaltar1 = RecipeBuilder.newBuilder("baphometaltar1","baphomet_altar",300);
+val baphometaltar1 = RecipeBuilder.newBuilder("baphometaltar1","baphomet_altar",30);
 baphometaltar1.addItemInput(<contenttweaker:mythic_electronic_circuit>);
 baphometaltar1.addItemInput(<extendedcrafting:material:33>*4);
 baphometaltar1.addItemOutput(<contenttweaker:advanced_mythic_electronic_circuit>);

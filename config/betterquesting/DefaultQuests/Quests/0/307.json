@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I am my mission, but I am still myself.\nNow that my duties have resumed, now that I am my duties, I must continue progressing towards my objective of stopping Fractallites for good, and to do it in the only way I can, I will need a big technological rampup!",
+      "desc:8": "我是身负使命，但我仍是我自己。  \n既然职责已然重启，既然我已职责在肩，我必须继续朝着彻底阻止分形者的目标前进。而要做到这一点——以我唯一能做到的方式——我需要一次巨大的技术飞跃！  ",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:vethea_garnet"
       },
-      "name:8": "Vethea Garnet"
+      "name:8": "梦魇石榴石"
     }
   },
   "questID:3": 307,

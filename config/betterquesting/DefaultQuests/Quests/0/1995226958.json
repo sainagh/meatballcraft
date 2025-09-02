@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o与辐射洗涤器类似，工作范围是以机器为中心的5x5区块",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:radiant_meatballium_reinforced_casing"
       },
-      "name:8": "Radiant Scrubbing"
+      "name:8": "光辉洗涤器"
     }
   },
   "questID:3": 1995226958,

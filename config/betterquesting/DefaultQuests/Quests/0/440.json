@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o§7§oUse a mega rune stone on a clunkhead altar to summon Clunkhead.\n\n§fThis I did not expect, the wizards of Runandor, at some point in the history of this world, were capable of performing alchemy, but, for some reason, it is now a lost art.\nAs the ability of its people started disappearing, they used the last of their power to perform a summoning, which bound the last of their power to a recursive automaton, Clunkhead. \nThis being was infused with all the alchemy left in Runandor, and became the ace this world\u0027s sleeve to remain in the good graces of the Shyre Empire. Those that cannot fight are destroyed, that is the way of my opponents.\nThe people of this place still cherish their past as alchemists, and safekeep what remains of their stock of dark matter with great jealousy.\nWhat is interesting, very interesting, about this is the fact that the ability to perform alchemy can be taken away, and, I suspect, given as well. This calls for some more research!",
+      "desc:8": "§7§o§7§o对斩首祭坛使用超级符文来召唤斩首。\n\n§f这倒是出乎我的意料，符境的巫师们，在此界历史的某个时期，竟掌握着炼金术的技艺。但不知为何，如今早已失传。\n当此地人民的能力开始消退时，他们耗尽最后的力量施展了召唤仪式，将残余的威能封存于一具递归自动机，斩首之中。\n此造物汇聚了符境残存的全部炼金精粹，成为此界在塞尔瑞帝国强权下赖以存续的底牌。无力斗战者终将湮灭，这是帝国的铁则。\n此境遗民仍以炼金术师的后裔自矜，将他们珍藏的暗物质库存视若禁脔。\n最耐人寻味之处在于，炼金能力既可被剥夺，依我推测，自然也能被赋予。这值得深入探究！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:runador_cap"
       },
-      "name:8": "Runandor Falls"
+      "name:8": "攻陷符境"
     }
   },
   "questID:3": 440,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:clunkhead_brick"
             },
-            "TrophyName:8": "Clunkhead Slayer",
+            "TrophyName:8": "斩首屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

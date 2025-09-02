@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Magnet goes hhhhhhhhhhhhhh",
+      "desc:8": "磁铁吸吸吸吸吸",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:magnetringgreater",
         "tag:10": {}
       },
-      "name:8": "Greater Ring of Magnetization "
+      "name:8": "高级磁化指环"
     }
   },
   "questID:3": 50119,

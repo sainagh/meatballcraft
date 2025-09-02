@@ -2,8 +2,8 @@
   "path": "vanilla/plants/allium_plant.json",
   "enabled": true,
   "id": "vanilla:allium_plant",
-  "plant_name": "Allium",
-  "seed_name": "Allium Seeds",
+  "plant_name": "绒球葱",
+  "seed_name": "绒球葱种子",
   "seed_items": [],
   "description": {
     "translations": {},

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe four guardians are spawned by wiring and activating the four levers to the guardian altar. After it is activated, use a voliant heart on the altar.\n\nRockrider is summoned by dropping a heavy boulder in the haven.\n\n§fThe existance of a place like the Haven is an interesting precedent for relationships between the Shyre Empire and the Twilight Horde. Whatever motivations drive each of these factions, they do not seem to be fully absolute, and they can be corrupted. I wonder what type of motivation or incentive these traitors may have had.\n\nIf there is anything that can skew someone to openly oppose a ruler high on the Kardashev scale, I definitely want to know what it could be!",
+      "desc:8": "§7§o召唤监管者之前，需要先激活监管者祭坛的四个拉杆。激活后，对祭坛使用天界轰炸者之心。\n\n在天堂维度丢出沉重巨石来召唤巨岩骑士。\n\n§f天堂维度这类的存在，为塞尔瑞帝国与暮光部落之间的关系开创了耐人寻味的先例。无论驱使这两大阵营的是何种动机，它们似乎都并非绝对不可动摇，而是可能遭到腐化。我很好奇这些叛徒究竟受到了怎样的动机驱使或利益诱惑。\n\n若真有什么能让人公然反抗卡尔达舍夫等级如此之高的统治者，我定要弄明白那究竟是什么！ ",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:haven_cap"
       },
-      "name:8": "Haven Falls"
+      "name:8": "攻破天堂维度"
     }
   },
   "questID:3": 501,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:rockrider_stone"
             },
-            "TrophyName:8": "Rockrider Slayer",
+            "TrophyName:8": "巨岩骑士屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -47,7 +47,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:guardian_rune"
             },
-            "TrophyName:8": "Guardian Slayer",
+            "TrophyName:8": "监管者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -10,68 +10,162 @@ recipes.addShaped(<contenttweaker:cuendillar_primer>,
 
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:infinite_plate_stamp>, <tconstruct:large_plate>.withTag({Material: "infinity_avaritia_plustic"}), <fluid:orichalcum>, 720, true, 10);
 
-val chaosstrikezalchemy = RecipeBuilder.newBuilder("chaosstrikezalchemy","chaotic_striker",640);
-chaosstrikezalchemy.addEnergyPerTickInput(1000000000);
-chaosstrikezalchemy.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["parafrosynium", "barathosynium", "wrought_iron", "adamantium"]}, Traits: ["darktraveler", "runic1", "stalwart", "thunder2", "flame2", "frost2", "hailhydra", "unnamed", "sharp", "magnetic2", "toolleveling"]}));
-chaosstrikezalchemy.setChance(0.0);
-chaosstrikezalchemy.addItemInput(<contenttweaker:infinite_plate_stamp>);
-chaosstrikezalchemy.setChance(0.0);
-chaosstrikezalchemy.addItemInput(<contenttweaker:alchemical_particle>);
-chaosstrikezalchemy.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
-chaosstrikezalchemy.build();
+val inffurnacefractallium = RecipeBuilder.newBuilder("inffurnacefractallium","infinity_furnace",20);
+inffurnacefractallium.addFluidInput(<fluid:sideral_life_essence>*100);
+inffurnacefractallium.addItemInput(<contenttweaker:recursium_ingot>);
+inffurnacefractallium.addItemInput(<contenttweaker:fractal_stone>);
+inffurnacefractallium.addItemOutput(<contenttweaker:fractallium_ingot>*2);
+inffurnacefractallium.build();
 
-val chaosstrikezalchemyup = RecipeBuilder.newBuilder("chaosstrikezalchemyup","chaotic_striker",640);
-chaosstrikezalchemyup.addEnergyPerTickInput(1000000000);
-chaosstrikezalchemyup.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["trinity", "trinity", "trinity", "trinity"]}, Traits: ["lightboost", "thunder2", "holy", "toolleveling"]}));
-chaosstrikezalchemyup.setChance(0.0);
-chaosstrikezalchemyup.addItemInput(<contenttweaker:infinite_plate_stamp>);
-chaosstrikezalchemyup.setChance(0.0);
-chaosstrikezalchemyup.addItemInput(<contenttweaker:alchemical_particle>);
-chaosstrikezalchemyup.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
-chaosstrikezalchemyup.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
-chaosstrikezalchemyup.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
-chaosstrikezalchemyup.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
-chaosstrikezalchemyup.build();
+val inffurnacealchemical = RecipeBuilder.newBuilder("inffurnacealchemical","infinity_furnace",20);
+inffurnacealchemical.addFluidInput(<fluid:recursive_life_essence>*100);
+inffurnacealchemical.addItemInput(<contenttweaker:alchemical_particle>*4);
+inffurnacealchemical.addItemInput(<contenttweaker:opalescent_matter>);
+inffurnacealchemical.addItemOutput(<contenttweaker:opalescent_particle>*5);
+inffurnacealchemical.build();
 
-val chaosstrikezrecursion = RecipeBuilder.newBuilder("chaosstrikezrecursion","chaotic_striker",10);
-chaosstrikezrecursion.addEnergyPerTickInput(1000000000);
-chaosstrikezrecursion.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["runandium", "orichalcum", "neutronium", "kaiyu"]}, Traits: ["evil_pressure", "apocalypse", "laced", "mind", "body", "soul1", "thunder2", "flame2", "frost2", "uplifting", "shulking", "bone_shock", "high_in_calcium", "toolleveling"]}));
-chaosstrikezrecursion.setChance(0.0);
-chaosstrikezrecursion.addItemInput(<contenttweaker:infinite_plate_stamp>);
-chaosstrikezrecursion.setChance(0.0);
-chaosstrikezrecursion.addItemInput(<contenttweaker:recursium_ingot>);
-chaosstrikezrecursion.addItemOutput(<contenttweaker:infinite_recursive_plate>);
-chaosstrikezrecursion.build();
+val inffurnaceentropy = RecipeBuilder.newBuilder("inffurnaceentropy","infinity_furnace",20);
+inffurnaceentropy.addFluidInput(<fluid:recursive_life_essence>*100);
+inffurnaceentropy.addItemInput(<draconicevolution:chaos_shard:0>);
+inffurnaceentropy.addItemInput(<contenttweaker:white_hole>*2);
+inffurnaceentropy.addItemInput(<contenttweaker:enhanced_chaos_fragment>);
+inffurnaceentropy.addItemOutput(<contenttweaker:entropyum_ingot>);
+inffurnaceentropy.build();
 
-val chaosstrikezrecursionup = RecipeBuilder.newBuilder("chaosstrikezrecursionup","chaotic_striker",10);
-chaosstrikezrecursionup.addEnergyPerTickInput(1000000000);
-chaosstrikezrecursionup.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["worthy", "worthy", "worthy", "worthy"]}, Traits: ["overflow", "bloodymary", "toolleveling"]}));
-chaosstrikezrecursionup.setChance(0.0);
-chaosstrikezrecursionup.addItemInput(<contenttweaker:infinite_plate_stamp>);
-chaosstrikezrecursionup.setChance(0.0);
-chaosstrikezrecursionup.addItemInput(<contenttweaker:recursium_ingot>);
-chaosstrikezrecursionup.addItemOutput(<contenttweaker:infinite_recursive_plate>*4);
-chaosstrikezrecursionup.build();
 
-val chaosstrikezentropy = RecipeBuilder.newBuilder("chaosstrikezentropy","chaotic_striker",10);
-chaosstrikezentropy.addEnergyPerTickInput(1000000000);
-chaosstrikezentropy.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["chaotic_plustic", "infinity_avaritia_plustic", "ascended_draconic_alloy", "vibranium_alloy"]}, Traits: ["darktraveler", "global", "brownmagic", "apocalypse", "spiky", "prickly", "ghastly", "endspeed", "toolleveling"]}));
-chaosstrikezentropy.setChance(0.0);
-chaosstrikezentropy.addItemInput(<contenttweaker:infinite_plate_stamp>);
-chaosstrikezentropy.setChance(0.0);
-chaosstrikezentropy.addItemInput(<draconicevolution:chaos_shard:0>);
-chaosstrikezentropy.addItemOutput(<contenttweaker:infinite_entropic_plate>);
-chaosstrikezentropy.build();
 
-val chaosstrikezentropyup = RecipeBuilder.newBuilder("chaosstrikezentropyup","chaotic_striker",10);
-chaosstrikezentropyup.addEnergyPerTickInput(1000000000);
-chaosstrikezentropyup.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["cosmic_balance", "cosmic_balance", "cosmic_balance", "cosmic_balance"]}, Traits: ["hailhydra", "vindictive", "holy", "toolleveling"]}));
-chaosstrikezentropyup.setChance(0.0);
-chaosstrikezentropyup.addItemInput(<contenttweaker:infinite_plate_stamp>);
-chaosstrikezentropyup.setChance(0.0);
-chaosstrikezentropyup.addItemInput(<draconicevolution:chaos_shard:0>);
-chaosstrikezentropyup.addItemOutput(<contenttweaker:infinite_entropic_plate>*4);
-chaosstrikezentropyup.build();
+
+
+val chaosstrikezalchemy1 = RecipeBuilder.newBuilder("chaosstrikezalchemy1","chaotic_striker",640);
+chaosstrikezalchemy1.addEnergyPerTickInput(1000000000);
+chaosstrikezalchemy1.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["parafrosynium", "barathosynium", "wrought_iron", "adamantium"]}, Traits: ["darktraveler", "runic1", "stalwart", "thunder2", "flame2", "frost2", "hailhydra", "unnamed", "sharp", "magnetic2", "toolleveling"]}));
+chaosstrikezalchemy1.setChance(0.0);
+chaosstrikezalchemy1.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezalchemy1.setChance(0.0);
+chaosstrikezalchemy1.addItemInput(<contenttweaker:alchemical_particle>);
+chaosstrikezalchemy1.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy1.build();
+
+val chaosstrikezalchemy2 = RecipeBuilder.newBuilder("chaosstrikezalchemy2","chaotic_striker",640);
+chaosstrikezalchemy2.addEnergyPerTickInput(1000000000);
+chaosstrikezalchemy2.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["parafrosynium", "barathosynium", "wrought_iron", "adamantium"]}, Traits: ["darktraveler", "runic1", "stalwart", "thunder2", "flame2", "frost2", "hailhydra", "unnamed", "sharp", "magnetic2", "toolleveling"]}));
+chaosstrikezalchemy2.setChance(0.0);
+chaosstrikezalchemy2.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezalchemy2.setChance(0.0);
+chaosstrikezalchemy2.addItemInput(<contenttweaker:opalescent_particle>);
+chaosstrikezalchemy2.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy2.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy2.build();
+
+val chaosstrikezalchemy3 = RecipeBuilder.newBuilder("chaosstrikezalchemy3","chaotic_striker",640);
+chaosstrikezalchemy3.addEnergyPerTickInput(1000000000);
+chaosstrikezalchemy3.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["trinity", "trinity", "trinity", "trinity"]}, Traits: ["lightboost", "thunder2", "holy", "toolleveling"]}));
+chaosstrikezalchemy3.setChance(0.0);
+chaosstrikezalchemy3.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezalchemy3.setChance(0.0);
+chaosstrikezalchemy3.addItemInput(<contenttweaker:alchemical_particle>);
+chaosstrikezalchemy3.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy3.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy3.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy3.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy3.build();
+
+val chaosstrikezalchemy4 = RecipeBuilder.newBuilder("chaosstrikezalchemy4","chaotic_striker",640);
+chaosstrikezalchemy4.addEnergyPerTickInput(1000000000);
+chaosstrikezalchemy4.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["trinity", "trinity", "trinity", "trinity"]}, Traits: ["lightboost", "thunder2", "holy", "toolleveling"]}));
+chaosstrikezalchemy4.setChance(0.0);
+chaosstrikezalchemy4.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezalchemy4.setChance(0.0);
+chaosstrikezalchemy4.addItemInput(<contenttweaker:opalescent_particle>);
+chaosstrikezalchemy4.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy4.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy4.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy4.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy4.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy4.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy4.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy4.addItemOutput(<contenttweaker:infinite_alchemical_plate>*64);
+chaosstrikezalchemy4.build();
+
+val chaosstrikezrecursion1 = RecipeBuilder.newBuilder("chaosstrikezrecursion1","chaotic_striker",10);
+chaosstrikezrecursion1.addEnergyPerTickInput(1000000000);
+chaosstrikezrecursion1.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["runandium", "orichalcum", "neutronium", "kaiyu"]}, Traits: ["evil_pressure", "apocalypse", "laced", "mind", "body", "soul1", "thunder2", "flame2", "frost2", "uplifting", "shulking", "bone_shock", "high_in_calcium", "toolleveling"]}));
+chaosstrikezrecursion1.setChance(0.0);
+chaosstrikezrecursion1.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezrecursion1.setChance(0.0);
+chaosstrikezrecursion1.addItemInput(<contenttweaker:recursium_ingot>);
+chaosstrikezrecursion1.addItemOutput(<contenttweaker:infinite_recursive_plate>);
+chaosstrikezrecursion1.build();
+
+val chaosstrikezrecursion2 = RecipeBuilder.newBuilder("chaosstrikezrecursion2","chaotic_striker",10);
+chaosstrikezrecursion2.addEnergyPerTickInput(1000000000);
+chaosstrikezrecursion2.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["runandium", "orichalcum", "neutronium", "kaiyu"]}, Traits: ["evil_pressure", "apocalypse", "laced", "mind", "body", "soul1", "thunder2", "flame2", "frost2", "uplifting", "shulking", "bone_shock", "high_in_calcium", "toolleveling"]}));
+chaosstrikezrecursion2.setChance(0.0);
+chaosstrikezrecursion2.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezrecursion2.setChance(0.0);
+chaosstrikezrecursion2.addItemInput(<contenttweaker:fractallium_ingot>);
+chaosstrikezrecursion2.addItemOutput(<contenttweaker:infinite_recursive_plate>*2);
+chaosstrikezrecursion2.build();
+
+val chaosstrikezrecursion3 = RecipeBuilder.newBuilder("chaosstrikezrecursion3","chaotic_striker",10);
+chaosstrikezrecursion3.addEnergyPerTickInput(1000000000);
+chaosstrikezrecursion3.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["worthy", "worthy", "worthy", "worthy"]}, Traits: ["overflow", "bloodymary", "toolleveling"]}));
+chaosstrikezrecursion3.setChance(0.0);
+chaosstrikezrecursion3.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezrecursion3.setChance(0.0);
+chaosstrikezrecursion3.addItemInput(<contenttweaker:recursium_ingot>);
+chaosstrikezrecursion3.addItemOutput(<contenttweaker:infinite_recursive_plate>*4);
+chaosstrikezrecursion3.build();
+
+val chaosstrikezrecursion4 = RecipeBuilder.newBuilder("chaosstrikezrecursion4","chaotic_striker",10);
+chaosstrikezrecursion4.addEnergyPerTickInput(1000000000);
+chaosstrikezrecursion4.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["worthy", "worthy", "worthy", "worthy"]}, Traits: ["overflow", "bloodymary", "toolleveling"]}));
+chaosstrikezrecursion4.setChance(0.0);
+chaosstrikezrecursion4.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezrecursion4.setChance(0.0);
+chaosstrikezrecursion4.addItemInput(<contenttweaker:fractallium_ingot>);
+chaosstrikezrecursion4.addItemOutput(<contenttweaker:infinite_recursive_plate>*8);
+chaosstrikezrecursion4.build();
+
+val chaosstrikezentropy1 = RecipeBuilder.newBuilder("chaosstrikezentropy1","chaotic_striker",10);
+chaosstrikezentropy1.addEnergyPerTickInput(1000000000);
+chaosstrikezentropy1.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["chaotic_plustic", "infinity_avaritia_plustic", "ascended_draconic_alloy", "vibranium_alloy"]}, Traits: ["darktraveler", "global", "brownmagic", "apocalypse", "spiky", "prickly", "ghastly", "endspeed", "toolleveling"]}));
+chaosstrikezentropy1.setChance(0.0);
+chaosstrikezentropy1.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezentropy1.setChance(0.0);
+chaosstrikezentropy1.addItemInput(<draconicevolution:chaos_shard:0>);
+chaosstrikezentropy1.addItemOutput(<contenttweaker:infinite_entropic_plate>);
+chaosstrikezentropy1.build();
+
+val chaosstrikezentropy2 = RecipeBuilder.newBuilder("chaosstrikezentropy2","chaotic_striker",10);
+chaosstrikezentropy2.addEnergyPerTickInput(1000000000);
+chaosstrikezentropy2.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["chaotic_plustic", "infinity_avaritia_plustic", "ascended_draconic_alloy", "vibranium_alloy"]}, Traits: ["darktraveler", "global", "brownmagic", "apocalypse", "spiky", "prickly", "ghastly", "endspeed", "toolleveling"]}));
+chaosstrikezentropy2.setChance(0.0);
+chaosstrikezentropy2.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezentropy2.setChance(0.0);
+chaosstrikezentropy2.addItemInput(<contenttweaker:entropyum_ingot>);
+chaosstrikezentropy2.addItemOutput(<contenttweaker:infinite_entropic_plate>*2);
+chaosstrikezentropy2.build();
+
+val chaosstrikezentropy3 = RecipeBuilder.newBuilder("chaosstrikezentropy3","chaotic_striker",10);
+chaosstrikezentropy3.addEnergyPerTickInput(1000000000);
+chaosstrikezentropy3.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["cosmic_balance", "cosmic_balance", "cosmic_balance", "cosmic_balance"]}, Traits: ["hailhydra", "vindictive", "holy", "toolleveling"]}));
+chaosstrikezentropy3.setChance(0.0);
+chaosstrikezentropy3.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezentropy3.setChance(0.0);
+chaosstrikezentropy3.addItemInput(<draconicevolution:chaos_shard:0>);
+chaosstrikezentropy3.addItemOutput(<contenttweaker:infinite_entropic_plate>*4);
+chaosstrikezentropy3.build();
+
+val chaosstrikezentropy4 = RecipeBuilder.newBuilder("chaosstrikezentropy4","chaotic_striker",10);
+chaosstrikezentropy4.addEnergyPerTickInput(1000000000);
+chaosstrikezentropy4.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["cosmic_balance", "cosmic_balance", "cosmic_balance", "cosmic_balance"]}, Traits: ["hailhydra", "vindictive", "holy", "toolleveling"]}));
+chaosstrikezentropy4.setChance(0.0);
+chaosstrikezentropy4.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezentropy4.setChance(0.0);
+chaosstrikezentropy4.addItemInput(<contenttweaker:entropyum_ingot>);
+chaosstrikezentropy4.addItemOutput(<contenttweaker:infinite_entropic_plate>*8);
+chaosstrikezentropy4.build();
 
 val chaosstrikeztaint = RecipeBuilder.newBuilder("chaosstrikeztaint","chaotic_striker",10);
 chaosstrikeztaint.addEnergyPerTickInput(1000000000);

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oConsume a treat bag anywhere in candyland to summon Cotton Candor.\nCotton Candor can only be damaged using Staves from Advent of Ascension, Excaliber, Zenith, and the Cotton Candy Withering Spray.\nCotton Candor can only be killed using the Staves and the Spray.\nDepending on the health bar of the boss, different Staves need to be used, they can all be found in Candyland.\nWhite: Wind, Primordial\nRed: Fire, Baron, Firestorm, Firefly\nGreen: Poison, Noxious\nBlue: Water\nGrey: Wither, Underworld\nPink: Lunar\n\n§fI was right about the artificial origins of this world, but I was wrong about what brought it forth. The Shyre Empire has little to do about this. Candyland is not another Creeponia, it is another Iceika. And that is why my guts kept telling me this place was dangerous.\nCotton Candor, or the being they once were, is the sole culprit behid the origins of this world as it is right now. A single act of magic, gone wrong for most, gone incredibly right for just one. At the cost of an entire planet, its inhabitants, its ecosystems, and everything else, a single being gained an extremely powerful form of recursion.\nI am capable or returning from death right after dying, the Withers of Terra continuously duplicate, Cotton Candor is invulnerable. This is why Candyland is part of the Shyre Empire; they do not care at all about these warriors, nor the resources the world has to offer. The power of its ruler, though, is enough.\nWell, almost. Whatever power was channeled to imbue this being with such power must have had some twisted sense of humor. Cotton Candor is immune to every single power, with the exception of one of the weakest form of magic, runic attacks. ",
+      "desc:8": "§7§o在糖果维度任意处食用糖果袋来召唤糖果巨人。\n只有虚无世界模组的法杖、王者圣剑、天顶剑，以及棉花糖凋零喷雾能够对糖果巨人造成伤害。\n只有法杖和喷雾能够击杀糖果巨人。\n根据Boss的血条状态，需要使用不同的法杖，所有这些法杖都可在糖果维度找到。\n白色：风之法杖、原始法杖\n红色：火焰法杖、爵士法杖、烈焰风暴、萤火虫法杖\n绿色：剧毒法杖、毒性法杖\n蓝色：水之法杖\n灰色：凋灵法杖、冥界法杖\n粉色：月球法杖\n\n§f这个世界是人造的，我的判断没错，但对其成因却看走了眼。塞尔瑞帝国与此几乎毫无干系。糖果维度并非第二个蠕变维度，而是另一个冰晶雪原。正因如此，我的直觉始终警告着此地的危险。\n糖果巨人，或者说其前身，才是造就当今世界形态的唯一元凶。一次对多数人而言失败的魔法仪式，却对某个存在产生了惊人的正向效果。以整颗行星及其居民、生态系统乃至一切为代价，某个存在获得了极端强大的递归能力。\n我死后能立即复活，泰拉的凋灵可以不断自我复制，而糖果巨人则是彻底无敌。这就是糖果维度被纳入塞尔瑞帝国的原因；他们根本不在乎这些战士，也不稀罕这个世界的资源。但统治者的力量，已足够成为理由。\n不过，还差一点。无论当初灌注这等力量的能量源为何，它必定带着某种扭曲的幽默感。糖果巨人能免疫所有类型的攻击——唯独对最弱小的符文魔法毫无抵抗之力。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:candyland_cap"
       },
-      "name:8": "Candyland Falls"
+      "name:8": "攻陷糖果维度"
     }
   },
   "questID:3": 461,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:cotton_candor_frosting"
             },
-            "TrophyName:8": "Cotton Candor Slayer",
+            "TrophyName:8": "糖果巨人屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

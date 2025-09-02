@@ -2,6 +2,27 @@
     "registryname": "mythic_processor_blaster",
     "localizedname": "Recursive Processor: Blaster",
 	"color": "464f47",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:mythic_coil_t4@0",
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "description": "x16并行",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            }]
+        }
+    ],
     "parts": [
         {
             "x": 2,

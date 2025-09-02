@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Why won\u0027t the Meatballs leave me alone?! I swear they seem to exist solely to torment me.\nThe Meatball Man has a lot of power and influence, at least comparable with the Twilight Horde, but all his forces do is toy with me, and nobody else.\nThe undead forces and the other Meatball creatures are only interested in me and the Testificates, and they don\u0027t seem to want anything beyond torment. Why don\u0027t they build empires or search for resources like the other people that are high on the Kardashev scale? They just cause chaos. \nWell, to be fair, it is very possible I am not seeing the big picture of the Meatball Man\u0027s plans, but it feels like I am interacting with a very bored kid during school, just trying to find something to do to be entertained.",
+      "desc:8": "为什么那些肉丸就是不肯放过我？！我发誓它们的存在仿佛就是为了折磨我。\n肉丸人明明拥有超过暮光部落的强大势力和影响力，可祂麾下的军队却只以戏弄我为乐，对其他人毫无兴趣。\n那些亡灵军团和其他肉丸生物只盯着我和泰斯提斐人，除了制造痛苦似乎别无他求。为什么它们不像其他达到卡尔达舍夫高阶的文明那样建立帝国或搜寻资源？它们只会制造混乱。\n不过平心而论，很可能是我没能看透肉丸人的宏大布局，但现在的感觉就像在课间遇到一个百无聊赖的孩子——纯粹为了找乐子才缠上我。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:meatball_man_charm"
       },
-      "name:8": "This is Wrong, but so Right!"
+      "name:8": "错了错了，对的对的！"
     }
   },
   "questID:3": 2240,

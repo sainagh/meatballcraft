@@ -1,7 +1,7 @@
 {
     "machine": "relic_of_the_fallen_tower",
     "registryName": "relic_fallen_tower_bakuheart",
-    "recipeTime": 500,
+    "recipeTime": 200,
     "requirements": [
         {
             "type": "modularmachinery:fluid",

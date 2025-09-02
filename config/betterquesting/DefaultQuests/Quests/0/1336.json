@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Using some very high energy collisions, it is possible to get some gravitons too!",
+      "desc:8": "通过一些极高能级的碰撞，甚至有可能获取引力子！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "gravitrons"
         }
       },
-      "name:8": "Gravitons"
+      "name:8": "引力子"
     }
   },
   "questID:3": 1336,

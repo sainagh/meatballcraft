@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Secrets, secrets, secrets...\nHow is it that, in such a vast universe, some things are known to only a handful of beings? \nWhy are jealousy and fear so strong, to push people into holding on to every tittle thing they can? \nWhy? Well, likely I will never know.\nIt does bring me hope that, despite this, there exist individuals capable of sharing their own power, their own secrets, with others. Thanks to them, I now know that the right thing is to divulge the secrets of Lunalus, to make others aware of what the Shyre Empire was hiding.\nAfter having seen all of this, it truly is remarkable that the Arbiter, the paradigm of Order, decided to share everything they knew with the Testificates. ",
+      "desc:8": "秘密，秘密，还是秘密……\n在这浩瀚的宇宙中，为何有些事物仅被寥寥数人所知？\n嫉妒与恐惧为何如此强烈，竟能驱使人紧握手中每一寸所得？\n为什么？或许我永远无法知晓。\n但令我欣慰的是，即便如此，仍存在愿意分享力量与秘密的个体。正因他们，我才明白应当揭露月球维度的秘密，让世人知晓塞尔瑞帝国隐藏的真相。\n目睹这一切后，最令人惊叹的莫过于理序主——这秩序典范——竟决定向泰斯提斐人倾囊相授其全部所知。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:lunalus_garnet"
       },
-      "name:8": "Lunalus Garnet"
+      "name:8": "月球石榴石"
     }
   },
   "questID:3": 443,

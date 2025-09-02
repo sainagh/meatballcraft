@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I can\u0027t help but feel like something is very wrong with my perception of my opponents. \nI have been fighting the Twilight Horde and the Shyre Empire for quite a while now, and while I see them both as deadly opponents, my perception of the former has been incommensurably more favorable than the latter.\nThe Twilight Horde has no slavery, no torture, no genetic engineering of civilizations and planets against their will, and they don\u0027t even practice imperialism.\nThis does not excuse them from the campaign they are executing on Terra, and their disproportionate military action against the Testificates, but, after having seen the horrors perpetrated by the Shyre Empire, and all the schemes of the Elder Ones, forceful occupation of foreign resources is a fairly mild crime.\nBut I digress, this has nothing to do with my sympathy (if we can call it that) for the Twilight Horde. Their military does not like me, and they want my demise too, after all.\nIt is interesting how a civilization with its reach does not engage in direct imperialism, though. With their space-warping abilities, it seems, they do not appear to care much about territorial control. Better to have a single well-guarded fortress, as opposed to hundreds of smaller specialized castles, at least when we are talking about powers at this scale.",
+      "desc:8": "我不禁感到自己对敌手的认知存在严重偏差。\n与塞尔瑞帝国和暮光部落交战多时，虽然二者皆为致命劲敌，但不知为何我对后者的观感竟远优于前者。\n暮光部落没有奴隶制度，不施酷刑，不会违背文明意志进行基因改造，甚至不奉行帝国主义。\n这并非为他们入侵泰拉的行径开脱，更不是为他们对泰斯提斐人过度用兵辩护。但目睹塞尔瑞帝国的暴行与古神的阴谋后，武力侵占他族资源反倒显得温和许多。\n不过言归正传，这种（姑且称之为）对暮光部落的同情并非重点。他们的军队依然视我为敌，同样欲除我而后快。\n真正耐人寻味的是，一个具备如此实力的文明竟不推行直接帝国主义。凭借空间扭曲能力，他们似乎对疆域控制兴趣缺缺。当力量达到此等规模时，与其经营数百座功能各异的要塞，不如固守一座坚不可摧的堡垒。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:wildwood_core"
       },
-      "name:8": "Wildwood Falls"
+      "name:8": "攻破原始森林"
     }
   },
   "questID:3": 277,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:termasect_bark"
             },
-            "TrophyName:8": "Termasect Slayer",
+            "TrophyName:8": "原始树虫屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

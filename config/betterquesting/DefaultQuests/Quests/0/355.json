@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While I am incredibly grateful to the mysterious beings of Vethea for helping, I am puzzled, and maybe a bit concerned, about their reasons.\nWhy are they helping me, while they let so many others degenerate mindless monsters.\nWas it something I did? Or is it because of who I am?\nAnd why do I have the strong suspicion that their motivations may also be tied to the prophecies of the Testificates?\nWas I the \u0027chosen\u0027 by these prophecies all along, just a feather in the wind? Or were my own actions that simply directed me towards a life someone else may have lived?\n",
+      "desc:8": "虽然我对梦魇世界中神秘存在们给予的帮助心怀无尽感激，但他们的动机却令我困惑，或许还有些许不安。\n为何独独选择帮助我，却任由其他生灵沦为丧失心智的怪物？\n是因为我的某些作为？抑或源于我的身份？\n更令我不安的是，这些帮助似乎总与泰斯提斐人的预言纠缠不清。\n难道我始终是预言选中的“天选之人”，就像是随风飘摇的羽毛？还是说，我自以为的行为，实则是将自己活成了他人命途的模样？\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:darven_lump"
       },
-      "name:8": "Nightmare Ascension: Darven"
+      "name:8": "噩梦飞升：闪耀"
     }
   },
   "questID:3": 355,

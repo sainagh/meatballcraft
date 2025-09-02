@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The nice thing about this new technology is that it can be used to directly boost the production rates of more mythic technology.\nOr is it recursive technology? I really have to come up with a coherent definition. Not fully knowing what type of magic is what, though, does not make things easy.\nTo be fair, what we now call \u0027electricity\u0027 wasn\u0027t always called that, ancient egyptians, who had observed the phenomena in electric fish, called it the \u0027thunder of the Nile\u0027, so I think I can cut myself some slack...",
+      "desc:8": "这项新科技的优点在于，它能直接提升更多神话科技的生产效率。\n或者说这是递归科技？我确实需要下一个明确的定义。不过，如果连魔法的种类都分不清楚，那事情确实不会变得简单。\n平心而论，我们现在称为“电力”的东西在古代也有不同称呼，观察到电鱼现象的埃及人曾称之为“尼罗河的雷霆”，所以我觉得也不必对自己太苛刻……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:baphomet_altar_bricks"
       },
-      "name:8": "Mythic Witchery?"
+      "name:8": "神话巫术学？"
     }
   },
   "questID:3": 455,

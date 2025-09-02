@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe future holds singularities! This is a good time to set up a Woot farm or two!\n\n§fThe recursive matter found in the remains of many of the Twilight Horde\u0027s warriors possesses properties that are becoming increasingly more appealing. I suspect I may need way more than I currently have to get any use out of it, though.",
+      "desc:8": "§7§o未来要用到奇点！最好现在就搭建一两个Woot工厂！\n\n§f在暮光部落许多战士的遗骸中发现的递归物质，其特性正变得越来越引人注目。不过我怀疑，要想真正利用它，我目前拥有的量可能还远远不够。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 651,
         "id:8": "extendedcrafting:singularity_custom"
       },
-      "name:8": "Divine Divination"
+      "name:8": "神圣占卜"
     }
   },
   "questID:3": 2267,

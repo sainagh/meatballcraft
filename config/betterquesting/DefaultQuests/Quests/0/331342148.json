@@ -13,7 +13,7 @@
           "Unbreakable:1": 1,
           "display:10": {
             "Lore:9": {
-              "0:8": "§d§o超限附魔§r"
+              "0:8": "§d§o极・超限附魔§r"
             },
             "Name:8": "§6§o噬灵者§r"
           },
@@ -56,15 +56,15 @@
           "tag:10": {
             "author:8": "Sainagh",
             "pages:9": {
-              "0:8": "{\"text\":\"Congratulations! You made it!\\nWas it worth it? That is up to you to decide...\\nFor sure, it must have been a crazy journey, and it must have had its wins and losses. Well, let\\u0027s end with an win!\\n \"}",
-              "1:8": "{\"text\":\"You are here, which means you have gained eternal glory in the pantheon of the cosmos!\\nYour mark, your contribution to our universe will not be forgotten!\"}",
-              "2:8": "{\"text\":\"If you so wish, you will be immortalized, in the form of a tooltip, on one of the special ending items, after completing their respective quests.\\n \"}",
-              "3:8": "{\"text\":\"Note that this can only be done once, and once you have your tooltip, you will not be able to request another.\\n \"}",
-              "4:8": "{\"text\":\"Once you have obtained the item you wish to be your official ending, send me a message on Discord showing proof of your completion (base posts in the screenshot forums are encouraged). Link in main menu!\"}",
-              "5:8": "{\"text\":\"Here are the items of eternal glory!\\n-Cosmic Balance\\n-Sword of the Cosmos\\n-Astral Mastery Tome\\n-Sashimi of the Gate of Darkness\\n-Cleansed Cinnamon Apple\\n-Black Hole Juice\\n-Tardis Coral\"}"
+              "0:8": "{\"text\":\"恭喜！你成功了！\\n这一切值得吗？这由你来决定……\\n毫无疑问，这必定是段疯狂的旅程，期间有胜有负。那么，让我们以胜利收场吧！\\n \"}",
+              "1:8": "{\"text\":\"能看到这段话，意味着你已在宇宙众神殿中赢得了永恒荣耀！\\n你留下的印记，你对这个宇宙的贡献，将永世长存！\"}",
+              "2:8": "{\"text\":\"若你愿意，在完成相应任务后，你将以工具提示信息的形式被铭刻在某件特殊结局物品上，获得不朽纪念。\\n \"}",
+              "3:8": "{\"text\":\"请注意此操作仅限一次，一旦有了自己的提示信息，将无法再次申请。\\n \"}",
+              "4:8": "{\"text\":\"在获得你选择的结局物品后，请通过Discord向我发送完成证明（建议附上基地截图）。主菜单有链接！\"}",
+              "5:8": "{\"text\":\"以下是永恒荣耀物品清单！\\n-寰宇平衡\\n-寰宇支配之剑\\n-星辉真解\\n-黑暗之门生鱼片\\n-洁净肉桂苹果\\n-黑洞汁\\n-塔迪斯珊瑚\"}"
             },
             "resolved:1": 1,
-            "title:8": "Eternal Glory"
+            "title:8": "永恒荣耀"
           }
         }
       }

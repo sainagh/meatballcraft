@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDrop a haunted idol to summon Bane.\n\n§fA voice resounding through the sheer cliffs of Greckon. A haunting chant.\nNot the dragons in the outer skies of Terra, not the beasts of Lyndenwyrm. No, the true master of chaos and entropy, that is Bane.\nThanks to its powers, this creature can even alter the change of time in Greckon. \nThis mastery over the power of entropy is what\u0027s behind the supercharging of the chickens now ravaging the land. \nJust to put things into perspective, the might of Lyndenwyrm alone was enough to move factions throughout the entire universe, and this creature alone can summon something that is as powerful and dangerous by itself? And do it multiple times?",
+      "desc:8": "§7§o丢出鬼魅神像来召唤幽魂。\n\n§f一个声音回荡在格瑞克维度的峭壁之间。一段萦绕不去的咒诵。\n既非泰拉外域的巨龙，亦非树龙界的猛兽。不，混沌与熵的真正主宰，正是幽魂。\n凭借其力量，此等存在甚至能篡改格瑞克维度的时间流转。\n正是这种对熵之力的掌控，导致了如今肆虐大地的狂暴化鸡群。\n试想：单是树龙界的威能便足以撼动全宇宙的势力格局，而这存在竟能独自召唤出与之比肩的凶险之物？且能反复为之？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:greckon_cap"
       },
-      "name:8": "Greckon Falls"
+      "name:8": "攻陷格瑞克维度"
     }
   },
   "questID:3": 418,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:bane_tusk"
             },
-            "TrophyName:8": "Bane Slayer",
+            "TrophyName:8": "幽魂屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

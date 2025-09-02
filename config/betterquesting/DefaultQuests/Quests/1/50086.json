@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oCombines the effects of all rings in one!",
+      "desc:8": "§7§o所有指环的效果合而为一！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 32767,
@@ -13,7 +13,7 @@
           "Mode:1": 0
         }
       },
-      "name:8": "Ring of Arcana"
+      "name:8": "奥法指环"
     }
   },
   "questID:3": 50086,

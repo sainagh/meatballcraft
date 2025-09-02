@@ -85,6 +85,7 @@ key_Hold to show:48:NONE
 key_Toggle to show:0:NONE
 key_key.lockitem:44:NONE
 key_key.drop:16:NONE
+key_key.cycle:45:NONE
 key_key.moreoverlays.lightoverlay.desc:65:NONE
 key_key.moreoverlays.chunkbounds.desc:67:NONE
 key_openblocks.keybind.vario_switch:0:NONE
@@ -138,6 +139,7 @@ key_key.keyWheel:0:NONE
 key_key.keyExtraCraftin:0:NONE
 key_bbw.key.mode:44:NONE
 key_bbw.key.fluidmode:44:SHIFT
+key_bbw.key.oops:44:CONTROL
 key_nei.options.keys.gui.botania_corporea_request:0:NONE
 key_binniecore.key.hold.for.help.tooltips:0:NONE
 key_key.settings_menu:47:NONE
@@ -168,7 +170,6 @@ key_key.clipboardPaste:210:NONE
 key_key.mod_lavacow.special:0:NONE
 key_key.mod_lavacow.down:44:NONE
 key_key.ae2fc.open_wireless_fluid_pattern_terminal.desc:0:NONE
-key_retro_sophisticated_backpacks.key.open_backpack.desc:48:NONE
 key_FpsReducer.key.guiOpen:207:NONE
 key_FpsReducer.key.forceIdle:197:NONE
 key_key.dragon_fireAttack:19:NONE

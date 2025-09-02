@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The will to find a way to survive is not a trivial thing.\nI can understand why so many here would want to let themselves go. I get it.\nYou spend so much of your life fighting for what you care for, and right before reaching what you think you need to not be powerless anymore and become capable of changing things, you are asked to remove yourself from the situation you want to affect, you are asked to abandon the lives you want to save.\nThis trial is not an easy one.",
+      "desc:8": "寻找生存之道的意志绝非微不足道之事。\n我完全理解为何此处众多生灵甘愿自我放逐。我明白。\n穷尽一生为你所珍视之物奋战，却在即将触及那梦寐以求力量之时，就在你以为能摆脱无力感，真正改变一切的关键时刻，竟被要求抽身离去，被迫放弃你誓死守护的生命。\n这般试炼，谈何容易。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:mob_imprisonment_tool"
       },
-      "name:8": "Yielding Will"
+      "name:8": "屈服的意志"
     }
   },
   "questID:3": 391,

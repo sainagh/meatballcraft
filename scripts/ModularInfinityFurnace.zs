@@ -1,13 +1,31 @@
 
 import mods.modularmachinery.RecipeBuilder;
 
-val infinityfurnace = RecipeBuilder.newBuilder("infinityfurnace","infinity_furnace",100);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:recursive_convergence>, <fluid:twilight_matter>*4000, <fluid:converging_recursive_essence>*4000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:perfected_gallifreyan_alloy>, <fluid:converging_recursive_essence>*250, <fluid:vibrating_recursive_essence>*250]);
+
+mods.nuclearcraft.dissolver.addRecipe([<avaritia:resource:6>, <fluid:vibrating_recursive_essence>*250, <fluid:resonating_recursive_essence>*250]);
+
+mods.nuclearcraft.dissolver.addRecipe([<ore:ingotFractalliteHalite>, <fluid:resonating_recursive_essence>*1000, <fluid:fractal_recursive_essence>*1000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<avaritiaitem:self_actualizing_stone>, <fluid:fractal_recursive_essence>*1000, <fluid:stochastic_recursive_essence>*1000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:freedomsteel_ingot>, <fluid:stochastic_recursive_essence>*1000, <fluid:markov_recursive_essence>*1000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:freedomsteel_ingot>, <fluid:stochastic_recursive_essence>*1000, <fluid:markov_recursive_essence>*1000]);
+
+
+
+
+
+val infinityfurnace = RecipeBuilder.newBuilder("infinityfurnace","infinity_furnace",40);
 infinityfurnace.addFluidInput(<fluid:dense_plasma>*16000);
 infinityfurnace.addItemInput(<projecte:fuel_block:2>);
 infinityfurnace.addItemOutput(<contenttweaker:dynatos_catalyst>);
 infinityfurnace.build();
 
-val infinityfurnaceshyre = RecipeBuilder.newBuilder("infinityfurnaceshyre","infinity_furnace",100);
+val infinityfurnaceshyre = RecipeBuilder.newBuilder("infinityfurnaceshyre","infinity_furnace",20);
 infinityfurnaceshyre.addFluidInput(<fluid:dense_plasma>*8000);
 infinityfurnaceshyre.addItemInput(<contenttweaker:shyrelands_garnet>);
 infinityfurnaceshyre.addItemInput(<contenttweaker:mortum_core>);
@@ -17,7 +35,7 @@ infinityfurnaceshyre.addItemOutput(<aoa3:shyrestone_ingot>*2);
 infinityfurnaceshyre.addItemOutput(<contenttweaker:shyre_chunk>*2);
 infinityfurnaceshyre.build();
 
-val infinityfurnaceshyrebetter = RecipeBuilder.newBuilder("infinityfurnaceshyrebetter","infinity_furnace",100);
+val infinityfurnaceshyrebetter = RecipeBuilder.newBuilder("infinityfurnaceshyrebetter","infinity_furnace",20);
 infinityfurnaceshyrebetter.addFluidInput(<fluid:dense_plasma>*8000);
 infinityfurnaceshyrebetter.addItemInput(<contenttweaker:cut_shyrelands_garnet>);
 infinityfurnaceshyrebetter.addItemInput(<contenttweaker:mortum_core>);
@@ -75,7 +93,7 @@ infinityfurnaceneutrino.addItemInput(<avaritia:resource:4>);
 infinityfurnaceneutrino.addItemOutput(<contenttweaker:plasmatic_neutronium_ingot>);
 infinityfurnaceneutrino.build();
 
-val infinityfurnaceezshyregarnet = RecipeBuilder.newBuilder("infinityfurnaceezshyregarnet","infinity_furnace",200);
+val infinityfurnaceezshyregarnet = RecipeBuilder.newBuilder("infinityfurnaceezshyregarnet","infinity_furnace",20);
 infinityfurnaceezshyregarnet.addFluidInput(<fluid:dense_plasma>*4000);
 infinityfurnaceezshyregarnet.addItemInput(<contenttweaker:recursion_fragment_shyre>);
 infinityfurnaceezshyregarnet.addItemInput(<contenttweaker:dense_diamond_powder>);

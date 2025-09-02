@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Here is a cool application of draconic magic, this strange yet powerful manipulation of entropy used as a means of empowerment. It can be used to build compact, efficient, and comfortable roosts that chickens really seem to enjoy.\nReproduction is one of life\u0027s mechanisms to \u0027fight\u0027 the second law of thermodynamics, the inevitable (at least with my current knowledge) tendency of the universe to fall into homogenuity. The ability of manipulating this very force, to an extent, produces very fertile chickens, and that means more useful eggs for me! \nI cannot reverse this law of the universe, but it seems draconic magic can create lots of gray areas where I can make interesting things.",
+      "desc:8": "这里展示了一种龙族魔法的绝妙应用：一种奇特而强大的操控熵的手段，竟能转化为赋能工具。借此可以建造出紧凑高效、舒适宜人的鸡舍，鸡们对此显得格外青睐。\n繁殖作为生命对抗热力学第二定律的机制（根据我现有认知，宇宙终将归于均质化的趋势无可避免），而通过操纵这种熵力量，竟能培育出异常高产的鸡！这意味着我能获得更多实用的蛋！\n虽然我无法逆转宇宙铁律，但神龙魔法似乎能在诸多灰色地带开辟空间，让我得以实现各种奇妙创想。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "roost:roost"
       },
-      "name:8": "Roosting Season"
+      "name:8": "鸡舍季节"
     }
   },
   "questID:3": 516,

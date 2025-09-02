@@ -2,8 +2,8 @@
   "path": "resource/plants/jaslumine_plant.json",
   "enabled": true,
   "id": "resource:jaslumine_plant",
-  "plant_name": "Jaslumine",
-  "seed_name": "Jaslumine Seeds",
+  "plant_name": "铝萤茉莉",
+  "seed_name": "铝萤茉莉种子",
   "seed_items": [],
   "description": {
     "translations": {},

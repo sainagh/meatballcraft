@@ -2,8 +2,8 @@
   "path": "vanilla/plants/pumpkin_plant.json",
   "enabled": true,
   "id": "vanilla:pumpkin_plant",
-  "plant_name": "Pumpkin",
-  "seed_name": "Pumpkin Seeds",
+  "plant_name": "南瓜",
+  "seed_name": "南瓜种子",
   "seed_items": [
     {
       "item": "minecraft:pumpkin_seeds",

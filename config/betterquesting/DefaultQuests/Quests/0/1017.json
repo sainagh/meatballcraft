@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Yes, some things are lining up.\nI am still far from where I would like to be, but this strange nightmare, with its strange rules, still allows some wiggle room for technology to develop.\nAnd well, I am a master at using technology to solve problems!",
+      "desc:8": "确实，某些线索正在逐渐明朗。\n虽然距离理想状态还很遥远，但在这个规则诡异的噩梦世界里，科技发展仍存在些许回旋余地。\n毕竟我可是运用科技解决问题的行家啊！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermaldynamics:duct_0"
       },
-      "name:8": "Nightmare Energy"
+      "name:8": "噩梦能量"
     }
   },
   "questID:3": 1017,

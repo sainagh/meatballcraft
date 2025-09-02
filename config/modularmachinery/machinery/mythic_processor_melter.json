@@ -8,7 +8,7 @@
             "x": 0,
             "y": 3,
             "z": 1,
-            "description": "处理数量x8",
+            "description": "x8并行",
             "modifiers": [{
                 "io": "input",
                 "target": "modularmachinery:item",

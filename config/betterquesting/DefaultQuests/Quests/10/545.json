@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Magnesium",
+      "desc:8": "镁",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -16,7 +16,7 @@
           "FluidName:8": "magnesium"
         }
       },
-      "name:8": "Magnesium"
+      "name:8": "镁"
     }
   },
   "questID:3": 545,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While the civilization, and the abitable land, of Lyndenwyrm are gone, traces of what once was still remain, and act as guides on how this powerful civilization may have worked.\nStormlight magic played a pivotal role in how life was carried, likely in a similar way to how cars are a common part of life to humanity. A tool that is widely available and convenient.\nThis is because, well, the entirety of Lyndenwyrm is a massive crystal planet, one that, through its structure, acts as a near-infinite source of this magical resource.",
+      "desc:8": "虽然树龙界的文明和宜居之地已不复存在，但昔日辉煌的遗迹依然留存，这些痕迹指引着我们理解这个强大文明可能的运作方式。\n飓光魔法在维系生命方面起着关键作用，其普及程度很可能类似于汽车之于现代人类社会——作为一种广泛可得且便利的工具。\n究其原因，整个树龙界本质上是一颗巨型晶体行星，其特殊结构使该星球几乎能无限产出这种魔法资源。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stormlight_infused_crystal"
       },
-      "name:8": "Charged up!"
+      "name:8": "注满！"
     }
   },
   "questID:3": 2185,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou need to be level 70 in four skills to summon each boss. Right click each shrine to activate it.\nInfusion for Coniferon.\nRunation for Horon.\nForaging for Goldorth.\nHunter for Penumbra.\n\nTo have enough tribute for each boss, fight the enemies that spawn in the cavern.\n\n§fRules, rules, rules...\nEven to fight them, I have to follow their rules.\nI won\u0027t be able to fully get rid of them, that\u0027s for sure... ugh...",
+      "desc:8": "§7§o需要特定4种技能达到70级才能召唤每种Boss。右击对应的神坛来激活。\n注魔：巨树人。\n魔力：荣誉者。\n采掘：奥尔特。\n狩猎：半影。\n\n与神殿中生成的敌人战斗，以获得足够Boss需要的祝福。\n\n§f规则，规则，到处都是规则...\n就连对抗它们时，我也不得不遵循它们的规则。\n我永远无法彻底摆脱这些桎梏，这点再清楚不过了……呃……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:ancient_cavern_cap"
       },
-      "name:8": "Ancient Cavern Falls"
+      "name:8": "攻陷远古神殿"
     }
   },
   "questID:3": 412,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:coniferon_bark"
             },
-            "TrophyName:8": "Coniferon Slayer",
+            "TrophyName:8": "巨树人屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -47,7 +47,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:goldorth_golden_eye"
             },
-            "TrophyName:8": "Goldorth Slayer",
+            "TrophyName:8": "奥尔特屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -64,7 +64,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:penumbra_spike"
             },
-            "TrophyName:8": "Penumbra Slayer",
+            "TrophyName:8": "半影屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -81,7 +81,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:horon_tendon"
             },
-            "TrophyName:8": "Horon Slayer",
+            "TrophyName:8": "荣誉者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

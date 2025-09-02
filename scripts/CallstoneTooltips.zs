@@ -100,3 +100,10 @@
 <contenttweaker:apothecary_prison_key>.addTooltip(format.red("需在指定维度使用：黄金"));
 <contenttweaker:strange_stone_callstone>.addTooltip(format.red("需在指定维度使用：伽里弗雷"));
 <contenttweaker:shyre_rider_callstone>.addTooltip(format.red("需在指定维度使用：塞尔瑞"));
+<contenttweaker:blackfrost_callstone>.addTooltip(format.red("需在指定维度使用：争竞界"));
+<contenttweaker:horde_domination_callstone>.addTooltip(format.red("需在指定维度使用：主世界"));
+<contenttweaker:gravitational_callstone>.addTooltip(format.red("需在指定维度使用：赫尔维蒂"));
+<contenttweaker:holy_sludge_callstone>.addTooltip(format.red("需在指定维度使用：主世界"));
+<contenttweaker:forsaken_priests_callstone>.addTooltip(format.red("需在指定维度使用：符境"));
+
+

@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Great! The asymptotically-convergent space surrounding the plane of Eden can be breached!\nAfter opening wormholes, traces remain, and they can be reopened, even by a poor three-dimensional like me!\nI\u0027ve seen these traces over and over, and I can\u0027t help but wonder, did the first wormhole I opened also leave a trace? \nAfter what I\u0027ve been through coming back to Earth would feel wrong, but can someone else access the wormhole I opened? Can others reach Earth?\nThe Twilight Horde is definitely interested in me, they even had a copy of my transmutation table in one of their outposts. They know of me, but do they know where I come from? Can they do anything to Earth?",
+      "desc:8": "太棒了！环绕伊甸位面的渐近收敛空间是可以突破的！\n开启虫洞后会残留痕迹，这些痕迹能被重新开启，就连我这种拙劣的三维生物都能做到！\n反复观察这些痕迹后，我不禁怀疑：我开启的第一个虫洞是否也留下了痕迹？\n经历过这一切后，回归地球可能不是很合适。但其他人能否进入我开启的虫洞？他们能抵达地球吗？\n暮光部落显然对我很感兴趣，他们甚至在某前哨站复制了我的转化桌。他们知道我的存在，但是否知晓我的来历？他们能对地球采取行动吗？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:eden_block"
       },
-      "name:8": "Deeper skies!"
+      "name:8": "深入天空！"
     }
   },
   "questID:3": 275,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o两个输入 \u003d 一个输出\n1 + 1 \u003d 1\n1 + 0 \u003d 1\n0 + 1 \u003d 1\n0 + 0 \u003d 0",
+      "desc:8": "§7§o两个输入 = 一个输出\n1 + 1 = 1\n1 + 0 = 1\n0 + 1 = 1\n0 + 0 = 0",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectred-integration:gate"

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Effort. This is what this place asks of me.\nOut there, there are so many things I wish I could do.\nBut no, I have to be here. I have to be here to become someone who does not need to be here.\nAnd what is asked of me? Effort.\nThis is the sacrifice, or one aspect of the sacrifice. What I hope to achieve here requires me to be here, not helping those who need it, not fighting for them, letting my actions be of no immediate use. This takes effort. So much effort.\nWhy is it that, to help the people I want to help, I must abandon them?",
+      "desc:8": "努力。这就是此地对我的要求。\n外面的世界，有太多我想做的事。\n但不行，我必须留在这里。我必须留在这里，才能不再需要留在这里。\n代价是什么？努力。\n这就是牺牲，或者说牺牲的一个侧面。我在此追寻的目标，要求我留在这里，不能去帮助需要帮助的人，不能为他们而战，让我的行动无法即刻见效。这需要努力。如此巨大的努力。\n为何想要帮助我在乎的人们，就必须先离开他们？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:grindstone"
       },
-      "name:8": "Cranking the Nightmare Away"
+      "name:8": "曲杆噩梦"
     }
   },
   "questID:3": 390,

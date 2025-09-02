@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The twilight horde is strange...they hold incredible power, and most of the beings I have encountered are naturally able to warp space, just as easily it would be for me to lift my hand.\nI am truly fighting against higher dimensional beings!\nEven their \u0027world\u0027 appears to exist in higer dimensions.\nYet, most of their \u0027soldiers\u0027 are no smarter than sheeps...\nI defeated the ruler of the Eden Isles, yet, at the moment, I do not have the power to delve deeper into the world of the Horde...",
+      "desc:8": "暮光部落着实诡异……其掌握的力量深不可测，我遭遇的多数存在天生便能扭曲空间，简直不费吹灰之力。\n我确实是在与高维生物抗衡！\n就连他们的“世界”似乎也存在于更高维度。\n可这些“士兵”的智能大部分还不如羊……\n虽击败了伊甸群岛的统治者，但我此刻仍无力深入部落的世界核心……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:eden_core"
       },
-      "name:8": "Eden Falls"
+      "name:8": "攻破伊甸"
     }
   },
   "questID:3": 267,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:sunstorm_ray"
             },
-            "TrophyName:8": "Sunstorm Slayer",
+            "TrophyName:8": "太阳风暴屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "A brick. A single brick.\nI have no idea how or why, but a single remain of the abundance of the Lord of Prosperity was taken by the people of Runandor, and buried deep into their creation.\nA sin of greed, that is how I would call it. Due to fear of losing everything they were given, the people of Runandor had decided to hide what was left to them after being forsaken. Instead of showing it, they hid it, scared others may take it.\nAnd yet, I still took it from them. Am I committing the same sin as they are? Is this search for Fractallite powers just a way to tell myself I hold value? Am I convincing myself I can do it when I cannot?",
+      "desc:8": "一块砖。仅仅是一块砖。\n我不知其缘由，但繁荣之主丰饶遗存中的一块，被符境之民取走，深埋于他们的造物之中。\n贪婪之罪，我愿如此称呼。因恐惧失去被赐予的一切，遭遗弃的符境子民决定藏匿最后的遗存。他们未将其示人，而是深藏，唯恐他人夺走。\n而我仍从他们手中取走了它。我是否正犯下与他们相同的罪孽？追寻分形之力的行为，是否只是自我安慰的托词？我是否在说服自己能行，实则不能？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:clunky_chunky_brick"
       },
-      "name:8": "Clunky Chunky Brick"
+      "name:8": "拙厚砖"
     }
   },
   "questID:3": 400,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:clunky_chunky_brick"
             },
-            "TrophyName:8": "So Clunky, So Chunky",
+            "TrophyName:8": "如此笨拙，如此厚重",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

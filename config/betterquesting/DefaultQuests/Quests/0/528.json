@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I think I may have been looking at what\u0027s happening under the wrong lens. Ever since I ended up on Terra, I always assumed that what has happened may just be some sort of coincidence, but it is evident this was not the case.\nThe Meatball Man, for some reason, was able to convince the Primordial Malevolce and other eldritch creatures to give me powers and bind me to recursion. I always assumed this \u0027pact\u0027 would have involved anyone who showed up on Terra through a wormhole. The Meatball Man clearly wants to do something on Terra, and I suspect this may have to do with the Arbiter, so it would make sense he is trying to take control over any new external influences, such as me.\nIf that\u0027s the case, though, why is it only me that ended up there? Why haven\u0027t I seen others show up? With such a large and populated universe that can use wormholes, why am I the only one that opened one to Terra? \nI have been trying to find answers externally, but it may be time to take a good look at myself.",
+      "desc:8": "我认为自己可能一直用错误的视角看待发生的一切。自从来到泰拉后，我始终以为这些遭遇只是某种巧合，但显然事实并非如此。\n那个肉丸人不知为何竟能说服原始恶意和其他不可名状的存在赋予我力量，并将我束缚在递归之中。我原以为这种“契约”会针对所有通过虫洞抵达泰拉的来客。肉丸人显然想在泰拉达成某种目的（我怀疑这与理序主有关），因此祂试图掌控所有新出现的外部影响（比如我）也就说得通了。\n但若果真如此，为何只有我被传送到那里？为何再没见到其他穿越者？在这个能使用虫洞技术的广袤文明宇宙中，为何唯独我开启了通往泰拉的通道？\n我一直在外部世界寻找答案，或许现在该好好审视自己了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:tartarite_ore"
       },
-      "name:8": "Eldritch Creation"
+      "name:8": "邪术创造"
     }
   },
   "questID:3": 528,

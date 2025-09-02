@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "From now on, your attitude should be to automate (passive or autocraft) everything you see!\nA passive supply of the ingredients for fusion electromagnets, for example, would be most desirable at this point.",
+      "desc:8": "从现在起，你应当自动化（被动产线或下单合成）所有东西！\n举个例子，在当前阶段，你最好为电磁体的合成原料搭建被动生产线，",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:dark_soul_machine_chassis"
       },
-      "name:8": "*All-the-Things intensifies!"
+      "name:8": "超级加倍！"
     }
   },
   "questID:3": 148,

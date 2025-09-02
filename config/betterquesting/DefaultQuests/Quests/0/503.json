@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "At some point, in some place, the recursive beings of the Twilight Horde came around a powerful material, one that directly allowed to enhance their powers, Bluefire.\nSome of the warriors sent to fight in the Nether caves of Terra seem to be directly bound to the powers of this material, and shed some of it after one of their bodies is felled.\nWhile I do not know how this was done, and I have no idea about the origin of Bluefire, it is probably a good idea to make more and more of it, just in case.\nThe good thing about recursive beings is that they have infinite bodies, and infinite bodies can be harvested over and over.",
+      "desc:8": "在某时某地，暮光部落的递归存在们发现了一种能直接增强他们力量的强大物质，蓝焰。\n那些被派往泰拉下界洞穴作战的战士中，有部分似乎与这种物质力量直接绑定，每当一具躯体倒下时就会析出些许蓝焰。\n虽然我尚不清楚这是如何实现的，也对蓝焰的起源一无所知，但为防万一，大量制备这种物质或许是个明智的选择。\n递归存在最妙之处在于他们拥有无穷躯体，而这些无穷躯体正可被反复收割。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 991,
         "id:8": "extendedcrafting:singularity_custom"
       },
-      "name:8": "All of the bluefire!"
+      "name:8": "所有的蓝焰！"
     }
   },
   "questID:3": 503,

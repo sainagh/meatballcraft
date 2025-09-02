@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse a silvro coin on a silverfoot altar to summon Silverfoot.\n\nUse a gold spring on a mechbot altar to summon MechBot.\n\n§fFrom many of the early expeditions to Antartica, reports mention a peculiar species of penguin, the Adèlie. During those times not much was divulged about these birds; not because they were hard to observe, but because their habits were enough to traumatize the scientists trying to study them.\nAdèlie penguins, as they enter adulthood, develop extremely violent unhinged tendencies, tendencies that are only satiated through enough violence to scar a scientist for life.\nIromine reminds me of that, the Polytoms that roam this world are senseless berserks unwilling of any feeling of restraint or mercy. Not even against their own. Things that would very easily be considered war crimes are a common occurrance in this world.\nThe only thing that brings some sort of order and direction are its rulers, who are powerful enough to hold order in case of rebellions against their (and the Shyre Empire\u0027s) authority. The term \u0027jailer of the damned\u0027 has never felt more appropriate...",
+      "desc:8": "§7§o对剑圣祭坛使用纯银硬币来召唤剑圣。\n\n对机械祭坛使用黄金弹簧来召唤机甲战士。\n\n§f早期对南极的多次考察报告中，都提到过一种特殊企鹅：阿德利企鹅。当时对这些鸟类的信息披露极少，并非因为难以观测，而是它们的行为习性足以给科研人员造成心理创伤。\n阿德利企鹅成年后，会发展出极端暴虐的失控倾向，唯有施加足以让科学家产生终生心理阴影的暴力行径，才能满足它们的嗜血欲望。\n黄金维度总让我联想到这种生物——游荡在这个世界的多面体生物全然是毫无理性的狂战士，对克制与怜悯毫无概念。即便对待同类也不例外。那些本该被视作战争罪行的暴行，在这里不过是家常便饭。\n唯一能维持些许秩序与方向的，是那些在其（以及塞尔瑞帝国）权威受到侵犯时，强大到足以镇压叛乱的统治者们。“恶棍的狱卒”这个称谓，从未如此贴切过……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:iromine_cap"
       },
-      "name:8": "Iromine Falls"
+      "name:8": "攻破黄金维度"
     }
   },
   "questID:3": 498,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:silver_foot"
             },
-            "TrophyName:8": "Silverfoot Slayer",
+            "TrophyName:8": "剑圣屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -47,7 +47,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:mechbot_cpu"
             },
-            "TrophyName:8": "Mechbot Slayer",
+            "TrophyName:8": "机甲战士屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

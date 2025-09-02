@@ -2,8 +2,8 @@
   "path": "vanilla/plants/nether_wart_plant.json",
   "enabled": true,
   "id": "vanilla:nether_wart_plant",
-  "plant_name": "Nether Wart",
-  "seed_name": "Nether Spores",
+  "plant_name": "地狱疣",
+  "seed_name": "地狱疣孢子",
   "seed_items": [
     {
       "item": "agricraft:agri_seed",

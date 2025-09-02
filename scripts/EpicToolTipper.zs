@@ -21,7 +21,7 @@ recipes.addShapeless(
     function(out,ins,cInfo){
         var inpuTag = ins.mark.tag as IData;
         var updatedTag as IData = {
-		    display: {Lore: ["§d§o超限附魔§r"]}
+		    display: {Name: "§6§o" + ins.mark.displayName + "§r", Lore: ["§d§o超限附魔§r"]}
 		};
 		return ins.mark.updateTag(inpuTag += updatedTag).withAmount(1);
     },

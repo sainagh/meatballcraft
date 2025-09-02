@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The atmosphere of Rhenia is near inexistent, making it a target for many resource-rich asteroids, many of which carry near-pure rhenium.\nI did not even know so much of this element could exist in one place. It can definitely be used for more interesting purposes!",
+      "desc:8": "铼界的大气近乎不存在，这使它成为众多资源丰富小行星的撞击目标，其中许多小行星携带近乎纯净的铼元素。\n我甚至不知道如此大量的该元素能集中存在于一处。它绝对能被用于更有趣的用途！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:jeweled_runium"
       },
-      "name:8": "Material Science Improvements"
+      "name:8": "材料学改进"
     }
   },
   "questID:3": 511,

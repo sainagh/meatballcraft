@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "With a bit of extra energy, here are some Muons!",
+      "desc:8": "消耗些许额外能量，生成一些μ子！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "muons"
         }
       },
-      "name:8": "Muons"
+      "name:8": "μ子"
     }
   },
   "questID:3": 1330,

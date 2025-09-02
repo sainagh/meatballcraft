@@ -114,3 +114,28 @@ infernalfurnace15.addInput(<divinerpg:arksiane_lump>);
 infernalfurnace15.setOutputs([<enderio:item_material:20>,
   <contenttweaker:tennessine_gem>]);
 infernalfurnace15.build();
+
+
+val infernalfurnace16 = JEI.createJeiRecipe("infernal_furnace");
+infernalfurnace16.addInput(<divinerpg:dirty_pearls>);
+infernalfurnace16.setOutputs([<minecraft:ender_pearl>,
+  <thaumcraft:chunk:1>*4]);
+infernalfurnace16.build();
+
+val infernalfurnace17 = JEI.createJeiRecipe("infernal_furnace");
+infernalfurnace17.addInput(<divinerpg:clean_pearls>);
+infernalfurnace17.setOutputs([<minecraft:ender_pearl>,
+  <thaumcraft:chunk:1>*8]);
+infernalfurnace17.build();
+
+val infernalfurnace18 = JEI.createJeiRecipe("infernal_furnace");
+infernalfurnace18.addInput(<divinerpg:polished_pearls>);
+infernalfurnace18.setOutputs([<minecraft:ender_pearl>,
+  <thaumcraft:chunk:1>*16]);
+infernalfurnace18.build();
+
+val infernalfurnace19 = JEI.createJeiRecipe("infernal_furnace");
+infernalfurnace19.addInput(<divinerpg:shiny_pearls>);
+infernalfurnace19.setOutputs([<minecraft:ender_pearl>,
+  <thaumcraft:chunk:1>*32]);
+infernalfurnace19.build();

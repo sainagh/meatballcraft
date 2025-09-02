@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I gotta say, the Shyre Empire is extremely diverse, which I guess makes sense when it\u0027s ruled by immortal, mythic beings (or being?).\nBarathos is a desert land of proud warriors. They have an unisually rich history and tradition, and both the beasts and people of this world live by ideals of might and power, not so different from many of the great civilizations that produced Earth\u0027s rich history. \nTo the eyes of the people of Barathos, I look nothing more than a usurper to what they believe a righteous position of power. It truly feels bad to have to fight these people, it does, but I cannot let this stop me. The Shyre Empire is a power that must be kept in check, and if I weren\u0027t here, those getting killed would be the people of Terra, and who knows how many other planets in the vast universe. Still, it is upsetting to see these poor souls die in the name of gods too complacent to do the job themselves.\nOn a different note, it seems like that, to become part of the Shyre Empire, a civilization need to be considered \u0027powerful\u0027 by some sort of standard. If a conquered world is deemed worthy, they are annexed. If a world is deemed too weak, they are terminated, completely.\nThe fact that these almost omnipotent beings can choose what civilizations are worthy of existing is so sad. This answers the Fermi paradox, I guess...",
+      "desc:8": "不得不承认，塞尔瑞帝国有着惊人的多元性。不过想想也合理，毕竟统治者们是不朽的神话存在（也有可能是单个存在？）。\n爵士维度是片沙漠之地，孕育着骄傲的战士。这里的历史与传统异常厚重，无论人兽皆崇尚力量与强权，与造就地球灿烂文明的诸多伟大国度并无二致。\n在爵士维度的人们眼中，我不过是个篡夺他们心中正义之位的窃贼。与这些人交战确实令人痛心，但我不能因此止步。塞尔瑞帝国这股势力必须受到遏制，若非有我在此，惨遭屠戮的将是泰拉人，天知道浩瀚宇宙中还有多少星球会遭殃。可悲的是，这些可怜的灵魂正以神之名白白送命，仅仅是因为祂们自命清高，不愿亲自动手。\n另有一点值得注意：某个文明若想加入塞尔瑞帝国，似乎需达到某种可以称之为“强大”的标准。被征服的世界若够格，便被吞并；若过于弱小则遭彻底终结。\n文明存续的资格被这些近乎全能的存在肆意裁定，实在可悲。想来……这便是费米悖论的答案吧。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:barathos_realmstone"
       },
-      "name:8": "Warriors of the Baron Desert"
+      "name:8": "爵士沙漠的战士"
     }
   },
   "questID:3": 136,

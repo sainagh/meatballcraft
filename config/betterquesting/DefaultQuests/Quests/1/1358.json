@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThere are multiple ways to get night vision permanently, with the best being a mob farm to get Corrupted Shards.",
+      "desc:8": "§7§o获得永久夜视效果的方法有很多，其中最佳方案当属建立刷怪场收集腐化碎片。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "cyclicmagic:glowing_helmet",
         "tag:10": {}
       },
-      "name:8": "Night Vision "
+      "name:8": "夜视"
     }
   },
   "questID:3": 1358,

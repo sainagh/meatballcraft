@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Left by one of the beings that came to Apichisi, I was able to get my hands on a more powerful entropy-accelerating device.\nThis one is on the dangerous side, somethings things go so fast that I am worried the reality around it may break.",
+      "desc:8": "借助来到共鸣界的其中一位存在所遗留之物，我得以掌控一台更强大的熵加速装置。\n这个装置相当危险，有时事物运行得太快，我担心周围现实可能会因此崩解。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tce:tce_compressed_torch_lvl1"
       },
-      "name:8": "For I am (compressed) Speed"
+      "name:8": "因为我即是（压缩的）速度"
     }
   },
   "questID:3": 2034,

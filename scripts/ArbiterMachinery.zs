@@ -204,7 +204,7 @@ mith30.addItemOutput(<projectex:matter:11>*10);
 mith30.setChance(0.5);
 mith30.addItemOutput(<contenttweaker:unbound_recursium_fragment>*64);
 mith30.setChance(0.5);
-mith30.addItemOutput(<contenttweaker:light_of_shadesmar>*10);
+mith30.addItemOutput(<contenttweaker:light_of_shadesmar>*30);
 mith30.setChance(0.1);
 mith30.addItemOutput(<contenttweaker:white_hole>*50);
 mith30.setChance(0.6);
@@ -334,6 +334,11 @@ recipes.addShaped(<contenttweaker:hyperuranion_actualizer_ichor>,
 [<tconstruct:large_plate>.withTag({Material: "ichorium"}), <contenttweaker:hyperuranon_actualizing_fabrial>, <tconstruct:large_plate>.withTag({Material: "ichorium"})],
 [<extendedcrafting:singularity_custom:628>, <tconstruct:large_plate>.withTag({Material: "ichorium"}), <extendedcrafting:singularity_custom:628>]]);
 
+recipes.addShaped(<contenttweaker:hyperuranion_actualizer_silkyjewel>,
+[[<contenttweaker:strings_crystal>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_verdith_anath", Amount: 1000}), <contenttweaker:strings_crystal>],
+[<forge:bucketfilled>.withTag({FluidName: "whisper_of_verdith_anath", Amount: 1000}), <contenttweaker:hyperuranon_actualizing_fabrial>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_verdith_anath", Amount: 1000})],
+[<contenttweaker:strings_crystal>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_verdith_anath", Amount: 1000}), <contenttweaker:strings_crystal>]]);
+
 
 val infiniteactualizing = RecipeBuilder.newBuilder("infiniteactualizing","warren_extractor_actualizing_stone",2);
 infiniteactualizing.addItemOutput(<contenttweaker:actualizing_stone>*1024);
@@ -346,6 +351,10 @@ infiniteactualizingichor.build();
 val infinitenaquadah = RecipeBuilder.newBuilder("infinitenaquadah","warren_extractor_naquadah",2);
 infinitenaquadah.addItemOutput(<contenttweaker:naquadah_ore>*1024);
 infinitenaquadah.build();
+
+val infinitesilkyjewel = RecipeBuilder.newBuilder("infinitesilkyjewel","warren_extractor_silkyjewel",2);
+infinitesilkyjewel.addItemOutput(<tconstruct:metal:6>*512);
+infinitesilkyjewel.build();
 
 val infinitedragonsteel = RecipeBuilder.newBuilder("infinitedragonsteel","warren_extractor_dragonsteel",2);
 infinitedragonsteel.addItemOutput(<contenttweaker:ice_dragonsteel_ore>*256);
@@ -863,6 +872,214 @@ mods.chisel.Carving.addVariation("warrenconfig", <contenttweaker:warren_configur
 mods.chisel.Carving.addVariation("warrenconfig", <contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 6§r"]}}));
 
 
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["暗"]}}),
+[[<ore:emcDarkMatter>, <ore:emcDarkMatter>, <ore:emcDarkMatter>],
+[<ore:emcDarkMatter>, <contenttweaker:botanic_alchemic_catalyst>, <ore:emcDarkMatter>],
+[<ore:emcDarkMatter>, <ore:emcDarkMatter>, <ore:emcDarkMatter>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["红"]}}),
+[[<ore:emcRedMatter>, <ore:emcRedMatter>, <ore:emcRedMatter>],
+[<ore:emcRedMatter>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["暗"]}}), <ore:emcRedMatter>],
+[<ore:emcRedMatter>, <ore:emcRedMatter>, <ore:emcRedMatter>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["品红"]}}),
+[[<projectex:matter:0>, <projectex:matter:0>, <projectex:matter:0>],
+[<projectex:matter:0>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["红"]}}), <projectex:matter:0>],
+[<projectex:matter:0>, <projectex:matter:0>, <projectex:matter:0>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["粉"]}}),
+[[<projectex:matter:1>, <projectex:matter:1>, <projectex:matter:1>],
+[<projectex:matter:1>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["品红"]}}), <projectex:matter:1>],
+[<projectex:matter:1>, <projectex:matter:1>, <projectex:matter:1>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["紫"]}}),
+[[<projectex:matter:2>, <projectex:matter:2>, <projectex:matter:2>],
+[<projectex:matter:2>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["粉"]}}), <projectex:matter:2>],
+[<projectex:matter:2>, <projectex:matter:2>, <projectex:matter:2>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["紫罗兰"]}}),
+[[<projectex:matter:3>, <projectex:matter:3>, <projectex:matter:3>],
+[<projectex:matter:3>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["紫"]}}), <projectex:matter:3>],
+[<projectex:matter:3>, <projectex:matter:3>, <projectex:matter:3>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["蓝"]}}),
+[[<projectex:matter:4>, <projectex:matter:4>, <projectex:matter:4>],
+[<projectex:matter:4>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["紫罗兰"]}}), <projectex:matter:4>],
+[<projectex:matter:4>, <projectex:matter:4>, <projectex:matter:4>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["青"]}}),
+[[<projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>],
+[<projectex:matter:5>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["蓝"]}}), <projectex:matter:5>],
+[<projectex:matter:5>, <projectex:matter:5>, <projectex:matter:5>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["绿"]}}),
+[[<projectex:matter:6>, <projectex:matter:6>, <projectex:matter:6>],
+[<projectex:matter:6>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["青"]}}), <projectex:matter:6>],
+[<projectex:matter:6>, <projectex:matter:6>, <projectex:matter:6>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["黄绿"]}}),
+[[<projectex:matter:7>, <projectex:matter:7>, <projectex:matter:7>],
+[<projectex:matter:7>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["绿"]}}), <projectex:matter:7>],
+[<projectex:matter:7>, <projectex:matter:7>, <projectex:matter:7>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["黄"]}}),
+[[<projectex:matter:8>, <projectex:matter:8>, <projectex:matter:8>],
+[<projectex:matter:8>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["黄绿"]}}), <projectex:matter:8>],
+[<projectex:matter:8>, <projectex:matter:8>, <projectex:matter:8>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["橙"]}}),
+[[<projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>],
+[<projectex:matter:9>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["黄"]}}), <projectex:matter:9>],
+[<projectex:matter:9>, <projectex:matter:9>, <projectex:matter:9>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["白"]}}),
+[[<projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>],
+[<projectex:matter:10>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["橙"]}}), <projectex:matter:10>],
+[<projectex:matter:10>, <projectex:matter:10>, <projectex:matter:10>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["渐消"]}}),
+[[<projectex:matter:11>, <projectex:matter:11>, <projectex:matter:11>],
+[<projectex:matter:11>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["白"]}}), <projectex:matter:11>],
+[<projectex:matter:11>, <projectex:matter:11>, <projectex:matter:11>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["深暗"]}}),
+[[<contenttweaker:deep_dark_matter>, <contenttweaker:deep_dark_matter>, <contenttweaker:deep_dark_matter>],
+[<contenttweaker:deep_dark_matter>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["渐消"]}}), <contenttweaker:deep_dark_matter>],
+[<contenttweaker:deep_dark_matter>, <contenttweaker:deep_dark_matter>, <contenttweaker:deep_dark_matter>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["深蓝"]}}),
+[[<contenttweaker:blue_matter>, <contenttweaker:blue_matter>, <contenttweaker:blue_matter>],
+[<contenttweaker:blue_matter>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["深暗"]}}), <contenttweaker:blue_matter>],
+[<contenttweaker:blue_matter>, <contenttweaker:blue_matter>, <contenttweaker:blue_matter>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["明亮"]}}),
+[[<contenttweaker:bright_matter>, <contenttweaker:bright_matter>, <contenttweaker:bright_matter>],
+[<contenttweaker:bright_matter>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["深蓝"]}}), <contenttweaker:bright_matter>],
+[<contenttweaker:bright_matter>, <contenttweaker:bright_matter>, <contenttweaker:bright_matter>]]);
+
+recipes.addShaped(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["乳白"]}}),
+[[<contenttweaker:opalescent_matter>, <contenttweaker:opalescent_matter>, <contenttweaker:opalescent_matter>],
+[<contenttweaker:opalescent_matter>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["明亮"]}}), <contenttweaker:opalescent_matter>],
+[<contenttweaker:opalescent_matter>, <contenttweaker:opalescent_matter>, <contenttweaker:opalescent_matter>]]);
+
+
+
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:botanic_alchemic_catalyst>, <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*2,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["暗"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*4,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["红"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*6,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["品红"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*8,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["粉"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*10,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["紫"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*12,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["紫罗兰"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*14,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["蓝"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*16,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["青"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*18,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["绿"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*20,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["黄绿"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*22,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["黄"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*24,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["橙"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*26,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["白"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*28,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["渐消"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*30,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["深暗"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*32,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["深蓝"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*34,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["明亮"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+recipes.addShaped(<contenttweaker:terrestrial_catalyst>*36,
+[[<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>],
+[<ore:gemMalachite>, <contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["乳白"]}}), <ore:gemSapphire>],
+[<ore:gemEmerald>, <ore:gemTanzanite>, <ore:gemPeridot>]]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 val creatthel1 = RecipeBuilder.newBuilder("creatthel1","creation_altar",2);
 creatthel1.addEnergyPerTickInput(1000000000);
 creatthel1.addFluidInput(<fluid:recursive_computing_matter>*1);
@@ -874,7 +1091,7 @@ creatthel1.addFluidInput(<fluid:chaos>*100);
 creatthel1.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 1§r"]}}));
 creatthel1.setChance(0.0);
 creatthel1.addItemInput(<contenttweaker:thaumic_citrus>);
-creatthel1.addItemInput(<biomesoplenty:terrestrial_artifact>);
+creatthel1.addItemInput(<contenttweaker:terrestrial_catalyst>);
 creatthel1.addFluidOutput(<fluid:whisper_of_thel>*10);
 creatthel1.build();
 
@@ -889,7 +1106,7 @@ creatthel2.addFluidInput(<fluid:chaos>*400);
 creatthel2.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 2§r"]}}));
 creatthel2.setChance(0.0);
 creatthel2.addItemInput(<contenttweaker:thaumic_citrus>*4);
-creatthel2.addItemInput(<biomesoplenty:terrestrial_artifact>*4);
+creatthel2.addItemInput(<contenttweaker:terrestrial_catalyst>*4);
 creatthel2.addFluidOutput(<fluid:whisper_of_thel>*100);
 creatthel2.build();
 
@@ -904,7 +1121,7 @@ creatthel3.addFluidInput(<fluid:chaos>*1600);
 creatthel3.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 3§r"]}}));
 creatthel3.setChance(0.0);
 creatthel3.addItemInput(<contenttweaker:thaumic_citrus>*16);
-creatthel3.addItemInput(<biomesoplenty:terrestrial_artifact>*16);
+creatthel3.addItemInput(<contenttweaker:terrestrial_catalyst>*16);
 creatthel3.addFluidOutput(<fluid:whisper_of_thel>*1000);
 creatthel3.build();
 
@@ -919,7 +1136,7 @@ creatthel4.addFluidInput(<fluid:chaos>*6400);
 creatthel4.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 4§r"]}}));
 creatthel4.setChance(0.0);
 creatthel4.addItemInput(<contenttweaker:thaumic_citrus>*64);
-creatthel4.addItemInput(<biomesoplenty:terrestrial_artifact>*64);
+creatthel4.addItemInput(<contenttweaker:terrestrial_catalyst>*64);
 creatthel4.addFluidOutput(<fluid:whisper_of_thel>*10000);
 creatthel4.build();
 
@@ -934,7 +1151,7 @@ creatthel5.addFluidInput(<fluid:chaos>*25600);
 creatthel5.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 5§r"]}}));
 creatthel5.setChance(0.0);
 creatthel5.addItemInput(<contenttweaker:thaumic_citrus>*256);
-creatthel5.addItemInput(<biomesoplenty:terrestrial_artifact>*256);
+creatthel5.addItemInput(<contenttweaker:terrestrial_catalyst>*256);
 creatthel5.addFluidOutput(<fluid:whisper_of_thel>*100000);
 creatthel5.build();
 
@@ -950,7 +1167,7 @@ creatthel6.addFluidInput(<fluid:chaos>*102400);
 creatthel6.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 6§r"]}}));
 creatthel6.setChance(0.0);
 creatthel6.addItemInput(<contenttweaker:thaumic_citrus>*1024);
-creatthel6.addItemInput(<biomesoplenty:terrestrial_artifact>*1024);
+creatthel6.addItemInput(<contenttweaker:terrestrial_catalyst>*1024);
 creatthel6.addFluidOutput(<fluid:whisper_of_thel>*1000000);
 creatthel6.build();
 

@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oOgerite unlocks a better recipe for Ultimate!\n\n§fThe more recursive materials I manage to get, the easier it seems to be to produce this one-fits all recursive ultimate alloy.\nThis is very handy, as I will likely need to produce more of it.",
+      "desc:8": "§7§o食人魔金属能解锁更好的配方！\n\n§f我获取的递归材料越多，炼制这种万能递归终极合金似乎就越容易。\n这非常便利，因为我很可能需要生产更多这种合金。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 32,
         "id:8": "extendedcrafting:material"
       },
-      "name:8": "Great Power at a Medium price"
+      "name:8": "代价适宜的强大力量"
     }
   },
   "questID:3": 465,

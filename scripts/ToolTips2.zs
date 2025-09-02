@@ -156,13 +156,10 @@ import crafttweaker.item.IItemCondition;
 
 <abyssalcraft:coraliumstone>.addTooltip(format.red("蕴含珊瑚的石头存在配方"));
 
-<abyssalcraft:shadowfragment>.addTooltip(format.red("阴影野兽掉落，发现于黑暗之地（Darklands）群系的古老遗迹"));
-<abyssalcraft:shadowshard>.addTooltip(format.red("阴影野兽掉落，发现于黑暗之地（Darklands）群系的古老遗迹"));
-<abyssalcraft:shadowgem>.addTooltip(format.red("阴影野兽掉落，发现于黑暗之地（Darklands）群系的古老遗迹"));
-
 <abyssalcraft:shadowfragment>.addTooltip(format.red("若运气实在太差，阴影活物刷怪蛋存在配方"));
 <abyssalcraft:shadowshard>.addTooltip(format.red("若运气实在太差，阴影活物刷怪蛋存在配方"));
 <abyssalcraft:shadowgem>.addTooltip(format.red("若运气实在太差，阴影活物刷怪蛋存在配方"));
+
 
 <abyssalcraft:shadowfragment>.addTooltip(format.red("可使用生物复制机和生物粉碎机获得"));
 <abyssalcraft:shadowshard>.addTooltip(format.red("可使用生物复制机和生物粉碎机获得"));
@@ -290,7 +287,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:sedna_artifact>.addTooltip(format.red("从距离最近的星球开始跃迁"));
 
-<iceandfire:fire_dragon_heart>.addTooltip(format.green("在钻石配方中可重复使用"));
 
 <forestry:planks.1:6>.addTooltip(format.red("原木存在配方"));
 
@@ -1208,6 +1204,8 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:divine_shickaxe>.addTooltip(format.red("可施加超限附魔"));
 
+<aoa3:knights_guard>.addTooltip(format.red("可施加超限附魔"));
+
 <extrautils2:boomerang>.addTooltip(format.red("可施加超限附魔"));
 
 <iceandfire:stymphalian_bird_dagger>.addTooltip(format.red("可施加超限附魔"));
@@ -2006,7 +2004,6 @@ import crafttweaker.item.IItemCondition;
 
 <ore:dustDiamond>.addTooltip(format.red("初始需要使用石英磨具制作"));
 
-<iceandfire:hydra_fang>.addTooltip(format.red("九头蛇生成于主世界的沼泽，或者下界的骨头结构"));
 
 <contenttweaker:myrmex_coolant_cell>.addTooltip(format.red("诅咒恐蚁金属流体桶存在配方"));
 
@@ -2144,6 +2141,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:ore_processing>.addTooltip(format.red("有很多能获得额外副产物的矿物处理方式！"));
 
+<contenttweaker:imstuck_getmehome>.addTooltip(format.red("该物品能让你在卡在某个地方，但又不想作弊时传送回重生点"));
 <contenttweaker:imstuck_getmehome>.addTooltip(format.red("生效有些慢，但是能用！"));
 
 <bewitchment:salt>.addTooltip(format.red("星辉魔法的晶金座仪式是获取该物品的最好手段！"));
@@ -3059,8 +3057,6 @@ import crafttweaker.item.IItemCondition;
 
 <botania:enchantedsoil>.addTooltip(format.red("通过蕴魔瑾或者增生之种获得"));
 <botania:enchantedsoil>.addTooltip(format.red("可使用活塞或者获取印记移动"));
-
-<contenttweaker:advanced_inscriber_doesnt_show_up>.addTooltip(format.red("高级压印器更适合自动化"));
 
 <contenttweaker:myrmitite_casing>.addTooltip(format.red("Mathias提出了点子，Quantum尝试了些东西，感谢！"));
 

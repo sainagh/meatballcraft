@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "As hard as it was, the reversing of the biome ritual was the easy part of freeing the Queen of Bees.\nSure, technically I know what could be done to make a key to open the prison of Recursion where she is imprisoned, but I have no idea where this prison is located (likely at the heart of the Twilight Horde if I had to guess), and most importantly, I do not have a small infinitesimal fraction of the power required to produce such an artifact.\nStill growing in power has been the main objective of my campaign, I have nothing but time after all, and I suspect that the more I fight, the more I will learn about Recursion, and hopefully there is going to be something there I can use.\nI am an unstoppable force, after all. A weak one, in the grand scheme of things, sure, but a relentless one nevertheless.",
+      "desc:8": "虽然艰难，但逆转群系仪式只是解救蜂后行动中最简单的环节。\n诚然，从理论上讲，我知道如何制作能打开递归监狱的钥匙——她就被囚禁在那里。可我根本不知道这座监狱的具体位置（若非要猜测，很可能位于暮光部落的核心地带）。更重要的是，我连铸造这种器具所需力量的亿万分之一都不具备。\n不过，提升力量本就是我此行的首要目标。毕竟，我最不缺的就是时间。我隐约觉得，战斗越多，对递归的了解就会越深，但愿在那里能找到可用的线索。\n说到底，我是一股不可阻挡的力量。纵使在宏大棋局中尚显弱小，但这份执着，永不消退。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:crown_of_the_energy_queen"
       },
-      "name:8": "Ze Crown"
+      "name:8": "王冠"
     }
   },
   "questID:3": 1768,

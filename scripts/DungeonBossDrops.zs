@@ -540,6 +540,12 @@ recipes.addShapeless(<contenttweaker:heart_of_the_elder_one>,
 recipes.addShapeless(<contenttweaker:naquadah_chunk>, 
 [<contenttweaker:boss_drop>, <contenttweaker:apichisi_warper>]);
 
+recipes.addShapeless(<contenttweaker:gemheart>, 
+[<contenttweaker:boss_drop>, <contenttweaker:apichisi_warper>]);
+
+recipes.addShapeless(<contenttweaker:holy_sludge_crystal>, 
+[<contenttweaker:dungeon_drop>, <contenttweaker:apichisi_warper>]);
+
 recipes.addShapeless(<gendustry:honey_comb:13369>, 
 [<contenttweaker:dungeon_drop>, <contenttweaker:space_station>, <contenttweaker:ptah_warper>]);
 
@@ -847,6 +853,12 @@ recipes.addShapeless(<contenttweaker:energy_hive>,
 recipes.addShapeless(<contenttweaker:ineffable_light>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
 
+recipes.addShapeless(<contenttweaker:stone_of_constraint>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
+recipes.addShapeless(<contenttweaker:dark_capacitor_shard>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
 recipes.addShapeless(<contenttweaker:salt_of_knowledge>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
 
@@ -1139,6 +1151,9 @@ recipes.addShapeless(<contenttweaker:holographic_ore>,
 [<contenttweaker:custom_dimensions>]);
 
 recipes.addShapeless(<contenttweaker:ichor>,
+[<contenttweaker:custom_dimensions>]);
+
+recipes.addShapeless(<tconstruct:metal:6>,
 [<contenttweaker:custom_dimensions>]);
 
 
@@ -1639,13 +1654,62 @@ recipes.addShapeless(<aoa3:lunar_ingot>,
 [<contenttweaker:farming_hunter_levels>]);
 
 
+recipes.addShapeless(<contenttweaker:stone_of_dimensional_ascension>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:call_to_mission>]);
+
+recipes.addShapeless(<contenttweaker:leash_of_the_final_hour>,
+[<contenttweaker:boss_drop>, <contenttweaker:blackfrost_callstone>]);
+
+
+recipes.addShapeless(<aoa3:energistic_pickaxe>,
+[<contenttweaker:trader_drop>, <aoa3:dustopia_realmstone>]);
+
+
+recipes.addShapeless(<contenttweaker:eye_of_flesh_manipulation>,
+[<contenttweaker:boss_drop>, <contenttweaker:key_of_flesh_dominion>]);
 
 
 
+recipes.addShapeless(<contenttweaker:summons_to_the_meatball_man>,
+[<contenttweaker:lucky_box_automation>]);
+
+recipes.addShapeless(<contenttweaker:vow_to_death>,
+[<contenttweaker:lucky_box_automation>]);
+
+recipes.addShapeless(<contenttweaker:oath_of_the_seven_undead_lords>,
+[<contenttweaker:lucky_box_automation>]);
+
+
+recipes.addShapeless(<aoa3:laser_blaster>,
+[<contenttweaker:trader_drop>, <aoa3:mysterium_realmstone>]);
 
 
 
+recipes.addShapeless(<aoa3:rockbasher_sword>,
+[<contenttweaker:boss_drop>, <contenttweaker:call_of_the_berserker>]);
 
+recipes.addShapeless(<contenttweaker:holy_shimmer>, 
+[<contenttweaker:boss_drop>, <contenttweaker:holy_sludge_callstone>]);
+
+
+recipes.addShapeless(<contenttweaker:standard_of_the_love>, 
+[<contenttweaker:trader_drop>, <contenttweaker:forsaken_priests_callstone>]);
+recipes.addShapeless(<contenttweaker:standard_of_the_loved>, 
+[<contenttweaker:trader_drop>, <contenttweaker:forsaken_priests_callstone>]);
+recipes.addShapeless(<contenttweaker:standard_of_the_lover>, 
+[<contenttweaker:trader_drop>, <contenttweaker:forsaken_priests_callstone>]);
+
+recipes.addShapeless(<contenttweaker:pure_shadow_bar>, 
+[<contenttweaker:dungeon_drop>, <aoa3:dustopia_realmstone>]);
+
+recipes.addShapeless(<contenttweaker:nightmare_steel_shard>, 
+[<contenttweaker:boss_drop>, <contenttweaker:summons_to_the_army_of_darkness>]);
+
+recipes.addShapeless(<contenttweaker:horn_of_the_dark_goat>, 
+[<contenttweaker:boss_drop>, <contenttweaker:summons_to_the_army_of_darkness>]);
+
+recipes.addShapeless(<aoa3:soulstone_pickaxe>, 
+[<contenttweaker:trader_drop>, <aoa3:lunalus_realmstone>]);
 
 
 

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oTo summon the primordial five, light all the dustopian lamps around the primordial shrine with darkly powder, and click on the shrine.\n\n§fThe darkness of Dustopia hid many secrets, and a thick layer of political subterfuge. These are the puppet masters that pulled the strings of the depraved acts of destruction, manipulation, and slavery perpetuated all over the Shyre Empire.\nPutting an end to them did not feel bad. It really didn\u0027t. It almost felt too easy.\nAnd yet, it feels like nothing changed. The troops did not stop. Terra is still being attacked. The war is still ongoing.",
+      "desc:8": "§7§o要召唤五名原始Boss，使用黑暗粉末点亮原始祭坛周围的所有异位灯，然后右击原始祭坛。\n\n§f异位维度的黑暗掩藏着无数秘密，以及厚重的政治阴谋帷幕。正是这些幕后操盘手，在整个塞尔瑞帝国境内持续煽动堕落、操纵人心并延续奴隶制度。\n终结他们并未带来丝毫愧疚。真的没有。甚至有些过于简单。\n然而一切似乎毫无改变。军队仍在推进。泰拉持续遭受攻击。战争远未结束。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:dustopia_cap"
       },
-      "name:8": "Dustopia Falls"
+      "name:8": "攻陷异位维度"
     }
   },
   "questID:3": 415,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:kajaros_rib"
             },
-            "TrophyName:8": "kajaros Slayer",
+            "TrophyName:8": "原始守护者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -47,7 +47,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:harkos_rib"
             },
-            "TrophyName:8": "Harkos Slayer",
+            "TrophyName:8": "原始暗杀者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -64,7 +64,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:miskel_rib"
             },
-            "TrophyName:8": "Miskel Slayer",
+            "TrophyName:8": "原始巫师屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -81,7 +81,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:okazor_rib"
             },
-            "TrophyName:8": "Okazor Slayer",
+            "TrophyName:8": "原始武士屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -98,7 +98,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:raxxan_rib"
             },
-            "TrophyName:8": "Raxxan Slayer",
+            "TrophyName:8": "原始摧心魔屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

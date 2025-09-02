@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oRight click an Observing Eye on a Visualent Altar to summon Visualent.\n\n§fVisualent, the hidden all-seeing ruler of Lunalus, and the intelligence mastermind of the Shyre Empire, is the one that planned my entrapment on Mysterium.\nThe good thing about my secret sequestration going wrong is that it gave me more than enough information to trace it back to its source.\nUnfortunately, it seems like some of my secrets may have leaked to Visualent\u0027s bosses; my enemy seemed too confident in themselves, too cocky, even when defeated by my hand.\n\"Do you think you can hide anything from me, Earthling?\" \nThey know where I am from, and who knows what else! The secrets of Taint, and the world-destrying chickens are still secrets, or so it seems; I believe I would have had to face them, if the Shyre Empire indeed had been able to extract those from me.",
+      "desc:8": "§7§o对观察者祭坛使用观察者之眼来召唤观察者。\n\n§f观察者，月球维度的隐秘全视统治者，同时也是塞尔瑞帝国的情报首脑，正是将我困于秘界的幕后策划者。\n那场失败的秘密囚禁唯一的好处，就是让我掌握了足够溯源的情报。\n可惜某些机密似乎已泄露给观察者的上级；即便败于我手，那些敌人仍显得异常自负，甚至狂妄到令人不安。\n“地球玩意，你以为能对我隐瞒分毫？”\n他们知道我的来历，天晓得还掌握了什么！腐化之秘和那些灭世鸡的真相应当尚未暴露，至少表面如此；若塞尔瑞帝国真能从我这榨出这些情报，我恐怕早就被迫直面它们了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:lunalus_cap"
       },
-      "name:8": "Lunalus Falls"
+      "name:8": "攻破月球维度"
     }
   },
   "questID:3": 442,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:visualent_fang"
             },
-            "TrophyName:8": "Visualent Slayer",
+            "TrophyName:8": "观察者屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

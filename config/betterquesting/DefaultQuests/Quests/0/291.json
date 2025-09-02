@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWelcome to chapter 7!\n\n§fIn the race towards full space-warping abilities, I seem to be beating the Shyre Empire at catching up with the Twilight Horde.\nAn empire that spands hundreds of worlds, and yet they behave like overconfident meatheads. Unfortunately for them, magic ability and innate power are only part of what this race is about.\nI am good at one thing, and that is seeking knowledge! \nThe way into the next Mythic Shell is mine!\nWell, to be fair, while I have the knowledge, I still seem to be lacking the power of making full use of it, but there are others who can. \nBoth the Twilight Horde and the Shyre Empire are looking at me and, most importantly, at what I have learned. I cannot slip up now.",
+      "desc:8": "§7§o欢迎来到第7章！\n\n§f在这场完全掌控空间扭曲能力的竞赛中，我似乎比塞尔瑞帝国更能追上暮光部落的脚步。\n一个横跨数百世界的帝国，行事却像群自负的蠢货。可惜对他们而言，魔法天赋与先天力量不过是这场竞赛的部分要素。\n我唯独擅长一件事，那就是追寻知识！\n通往下一层神话叠壳的路径必将属于我！\n不过平心而论，虽然掌握了知识，我似乎仍欠缺将其完全发挥的力量——但自有他人可以代劳。\n此刻暮光部落与塞尔瑞帝国都紧盯着我，更准确说是紧盯着我的研究成果。现在绝不能有任何闪失。",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:apalachia_star"
       },
       "ismain:1": 1,
-      "name:8": "Power from Apalachia"
+      "name:8": "源自附魔山脉的力量"
     }
   },
   "questID:3": 291,
@@ -32,7 +32,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:apalachia_star"
             },
-            "TrophyName:8": "Starry Apalachia Idol",
+            "TrophyName:8": "附魔山脉之星圣像",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

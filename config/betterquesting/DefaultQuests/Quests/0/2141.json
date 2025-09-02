@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Very little remains of the people of Lyndenwyrm, but one thing is certain, they had something to do with the Arbiter. The iconography is undeniably the same as Terra\u0027s, the Testificates were led by the same individual, person, God?\nI cannot say if the advanced knowledge of chaos achieved in Lyndenwyrm is directly tied to this figure, or if the Arbiter just showed up later, but it is undeniable.\nWell, whatever the involvement, things did not go well. I cannot say if it was an accident, or if it was an act from an enemy, but the people of Lyndenwyrm flew too close to the sun, or maybe bit off more than they could chew. Anyway, they are gone.\nWhat is not gone, though, together with monuments and stormlight, are the beasts of this world, which were once actively used as part of their powerful military. Everything I know about magic tells me this was the case, these incredibly powerful dragons have been tamed in some way, no differently than dogs, and their immense magic ability was pivotal to how Lyndenwyrm once dominated. And even now, after however long ago this downfall may have occurred, the dragons are still faithful to their long-gone friends.\nThe dragons are guarding something, something powerful, something dangerous...",
+      "desc:8": "树龙界的居民已所剩无几，但有一点可以确定——他们与理序主存在某种关联。那些图腾符号与泰拉世界的如出一辙，泰斯提斐人曾受同一位存在领导，是凡人？亦或是神明？\n我无法断言树龙界掌握的混沌知识是否直接源于这位存在，亦或理序主只是后来现身。但这份联系确凿无疑。\n无论牵涉多深，结局显然不妙。不知是意外还是敌意所致，树龙界的子民如同飞蛾扑火，又似蚍蜉撼树。总之，他们已湮灭在时光长河中。\n然而与神殿和飓光一同留存下来的，还有这个世界的巨兽——它们曾是强大军队的核心战力。根据我对魔法的认知，这些威力惊人的巨龙曾被驯化得如同家犬，它们磅礴的魔法力量正是树龙界昔日称霸的关键。即便在文明陨落千年后的今天，巨龙依然忠诚守护着早已消逝的旧主。\n它们在守卫某物，某种强大而危险的存在……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:wyvern_monument_activation_fabrial"
       },
-      "name:8": "The Lost Power of Wyverns"
+      "name:8": "飞龙的失落之力"
     }
   },
   "questID:3": 2141,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:fragment_of_creation"
             },
-            "TrophyName:8": "Nature Incarnate",
+            "TrophyName:8": "自然化身",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

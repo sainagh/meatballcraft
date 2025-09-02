@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o生成于晶体维度Y\u003d5与Y\u003d114之间的晶体石头附近。",
+      "desc:8": "§7§o生成于晶体维度Y=5与Y=114之间的晶体石头附近。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:green_gemstones"

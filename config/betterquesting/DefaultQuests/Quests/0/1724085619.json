@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSee, this was a bad idea...",
+      "desc:8": "§7§o看吧，果然是个坏主意……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:miniature_quasar"
       },
-      "name:8": "Quasar Gang - Dynamic Edition"
+      "name:8": "类星体小队 - 活化"
     }
   },
   "questID:3": 1724085619,

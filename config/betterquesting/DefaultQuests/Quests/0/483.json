@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oUse a toy gyrocopter to summon Gyro.\n\n§fI really do not like this place. The laughs, the cries of pain, it is all so dizzying, so maddening. I cannot think straight. My vision sometimes goes dark. This place is doing something to me. Something very bad.\nThe sight of Omothol was still maddening, but I would still take it over this. Any more time in this place, and I am afraid I will turn into a crazy clown myself. The laughs are contageous, they never escape my mind, I keep hearing them. They do not stop. They cannot stop.",
+      "desc:8": "§7§o使用玩具飞机来召唤陀螺仪。\n\n§f我实在是厌恶这个地方。那些笑声，那些痛苦的哀嚎，全都如此令人晕眩、如此疯狂。我无法正常思考，视线时不时陷入黑暗。这个地方正在对我产生影响，非常糟糕的影响。\n虽然奥穆索的景象同样令人发狂，但比起这里仍是更好的选择。若继续在此处停留，恐怕连我自己也会变成那些疯癫的小丑。那些笑声具有传染性，它们萦绕在我脑海中挥之不去，我不断听见它们。永不停歇，也无法停歇。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:celeve_cap"
       },
-      "name:8": "Celeve Falls"
+      "name:8": "攻陷玩具维度"
     }
   },
   "questID:3": 483,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:gyro_red_nose"
             },
-            "TrophyName:8": "Gyro Slayer",
+            "TrophyName:8": "陀螺仪屠戮者",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

@@ -812,6 +812,128 @@ keyofrestoredbalance.register();
 
 
 
+var calloftheberserker= VanillaFactory.createItem("call_of_the_berserker");
+calloftheberserker.maxStackSize = 1;
+calloftheberserker.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 802) {
+        player.sendChat("需位于爵士维度");
+        return "FAIL";
+    }
+
+    // counter for fails or successes
+    var matchGen = 0 as int;
+
+    // player position
+    var playerPos = player.position.asPosition3f();
+    playerPos.x = playerPos.x;
+    playerPos.y = playerPos.y - 1;
+    playerPos.z = playerPos.z;
+
+    // explanation to player
+    player.sendChat("找寻使徒菌丝，抵达中心");
+
+    // go through all blocks in the momument
+
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [0,0,0], world) == 0) {
+        player.sendChat("未站在正确位置 (0,0,0)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [1,0,0], world) == 0) {
+        player.sendChat("未站在正确位置 (1,0,0)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [0,0,1], world) == 0) {
+        player.sendChat("未站在正确位置 (0,0,1)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [-1,0,0], world) == 0) {
+        player.sendChat("未站在正确位置 (-1,0,0)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [0,0,-1], world) == 0) {
+        player.sendChat("未站在正确位置 (0,0,-1)");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [1,0,1], world) == 0) {
+        player.sendChat("未站在正确位置 (1,0,1)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [-1,0,1], world) == 0) {
+        player.sendChat("未站在正确位置 (-1,0,1)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [-1,0,-1], world) == 0) {
+        player.sendChat("未站在正确位置 (-1,0,-1)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:apostle_mycelium", playerPos, [1,0,-1], world) == 0) {
+        player.sendChat("未站在正确位置 (1,0,-1)");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [6,2,0], world) == 0) {
+        player.sendChat("未站在正确位置 (7,2,0)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [-6,2,0], world) == 0) {
+        player.sendChat("未站在正确位置 (-7,2,0)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [0,2,6], world) == 0) {
+        player.sendChat("未站在正确位置 (0,2,7)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [0,2,-6], world) == 0) {
+        player.sendChat("未站在正确位置 (0,2,-7)");
+        return "FAIL";
+    }
+
+
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [5,2,5], world) == 0) {
+        player.sendChat("未站在正确位置 (6,2,6)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [-5,2,5], world) == 0) {
+        player.sendChat("未站在正确位置 (-6,2,6)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [5,2,-5], world) == 0) {
+        player.sendChat("未站在正确位置 (6,2,-6)");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumcraft:candle_red", playerPos, [-5,2,-5], world) == 0) {
+        player.sendChat("未站在正确位置 (-6,2,-6)");
+        return "FAIL";
+    }
+
+
+
+    Commands.call("/summon twilightforest:minoshroom ~ ~4 ~ {HandItems:[{Count:1,id:\"aoa3:rockbasher_sword\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,CustomName:\"真菌使徒\"}", player, world, false, true);
+
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+calloftheberserker.register();
+
+
+
+
+
+
+
+
+
+
+
+
 var brokenichoriumjewel= VanillaFactory.createItem("void_ichorium_jewel");
 brokenichoriumjewel.maxStackSize = 1;
 brokenichoriumjewel.itemRightClick = function(stack, world, player, hand) {
@@ -1634,7 +1756,7 @@ vowtodeath.itemRightClick = function(stack, world, player, hand) {
         return "PASS";
     }
 
-    player.sendChat("暗色伊塞斯砖块？它们不属于这里！替换掉！");
+    player.sendChat("暗色伊塞斯砖块？它们不属于这里！装备有犬牙钓竿的个体知道如何替换它们！");
 
     Commands.call("summon zombie ~ ~ ~-5 {PersistenceRequired:1,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\"},{Count:1,id:\"contenttweaker:grave_dust_legs\"},{Count:1,id:\"contenttweaker:grave_dust_chest\"},{Count:1,id:\"chisel:blockcobalt\",Damage:3b,tag:{display:{Name:\"北\"}}}]}", player, world, true, true);
     Commands.call("summon zombie ~ ~ ~5 {PersistenceRequired:1,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\"},{Count:1,id:\"contenttweaker:grave_dust_legs\"},{Count:1,id:\"contenttweaker:grave_dust_chest\"},{Count:1,id:\"chisel:blockplatinum\",Damage:3b,tag:{display:{Name:\"南\"}}}]}", player, world, true, true);

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIf you actually want to go through with this, I strongly suggest to start leveling up your Inquiring Matter production, and to upgrade all the multiblocks and recipes that you can.",
+      "desc:8": "§7§o若你执意要进行此事，我强烈建议你立即着手提升推演物质产量，并升级所有可优化的多方块结构与配方。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:echo_warren_stone"
       },
-      "name:8": "Echo Warren Essentia"
+      "name:8": "回响迷道源质"
     }
   },
   "questID:3": 1338651064,

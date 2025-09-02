@@ -88,6 +88,16 @@ recipes.addShaped(<contenttweaker:world_corrupting_sentient_meatball>*2,
 [<contenttweaker:planetary_essence>, <contenttweaker:world_corrupting_sentient_meatball>, <contenttweaker:planetary_essence>],
 [<contenttweaker:sentient_meatball>, <contenttweaker:planetary_essence>, <contenttweaker:sentient_meatball>]]);
 
+recipes.addShaped(<contenttweaker:world_corrupting_sentient_meatball>*4,
+[[<contenttweaker:sentient_meatball>, <contenttweaker:planetary_essence>, <contenttweaker:sentient_meatball>],
+[<extendedcrafting:singularity_custom:628>, <contenttweaker:world_corrupting_sentient_meatball>, <extendedcrafting:singularity_custom:628>],
+[<contenttweaker:sentient_meatball>, <contenttweaker:planetary_essence>, <contenttweaker:sentient_meatball>]]);
+
+recipes.addShaped(<contenttweaker:world_corrupting_sentient_meatball>*8,
+[[<contenttweaker:sentient_meatball>, <contenttweaker:planetary_essence>, <contenttweaker:sentient_meatball>],
+[<contenttweaker:ichor_taint_condensate>, <contenttweaker:world_corrupting_sentient_meatball>, <contenttweaker:ichor_taint_condensate>],
+[<contenttweaker:sentient_meatball>, <contenttweaker:planetary_essence>, <contenttweaker:sentient_meatball>]]);
+
 
 mods.thaumcraft.Infusion.registerRecipe("infmeatballtitan", "", 
 <contenttweaker:summons_of_the_meatball_titan>, 10,
@@ -140,10 +150,10 @@ mods.thaumcraft.Infusion.registerRecipe("infundeadrisingsummons", "",
 <contenttweaker:harbinger_sentient_meatball>, 
 [<contenttweaker:burly_sentient_meatball>, <mod_lavacow:intestine>,
 <contenttweaker:faultless_ichor>, <contenttweaker:parasitic_sentient_meatball>,
-<mod_lavacow:intestine>, <enderio:item_soul_vial:1>.withTag({entityId: "mod_lavacow:lavacow"}),
+<mod_lavacow:intestine>, <mod_lavacow:mootenheart>,
 <contenttweaker:burly_sentient_meatball>, <contenttweaker:hungering_flesh_ingot>,
 <contenttweaker:faultless_ichor>, <contenttweaker:parasitic_sentient_meatball>,
-<mod_lavacow:intestine>, <enderio:item_soul_vial:1>.withTag({entityId: "mod_lavacow:lavacow"})]);
+<mod_lavacow:intestine>, <mod_lavacow:mootenheart>]);
 
 recipes.addShaped(<contenttweaker:prophetic_sentient_meatball>,
 [[<contenttweaker:prophetic_meatball_flesh>, <contenttweaker:prophetic_meatball_flesh>, <contenttweaker:prophetic_meatball_flesh>],
@@ -151,14 +161,16 @@ recipes.addShaped(<contenttweaker:prophetic_sentient_meatball>,
 [<contenttweaker:prophetic_meatball_flesh>, <contenttweaker:prophetic_meatball_flesh>, <contenttweaker:prophetic_meatball_flesh>]]);
 
 
-val hungeringsoulmeatball = RecipeBuilder.newBuilder("hungeringsoulmeatball","shrine_of_the_sentient_meatballs",200);
+
+
+val hungeringsoulmeatball = RecipeBuilder.newBuilder("hungeringsoulmeatball","shrine_of_the_sentient_meatballs",80);
 hungeringsoulmeatball.addEnergyPerTickInput(2000000000);
 hungeringsoulmeatball.addWillInput("DEFAULT", 10,0,1000000);
 hungeringsoulmeatball.addWillInput("CORROSIVE", 10,0,1000000);
 hungeringsoulmeatball.addWillInput("DESTRUCTIVE", 10,0,1000000);
 hungeringsoulmeatball.addWillInput("VENGEFUL", 10,0,1000000);
 hungeringsoulmeatball.addWillInput("STEADFAST", 10,0,1000000);
-hungeringsoulmeatball.addFluidInput(<fluid:flesh_world_ichor>*16000);
+hungeringsoulmeatball.addFluidInput(<fluid:flesh_world_ichor>*4000);
 hungeringsoulmeatball.addFluidInput(<fluid:imperial_abyssite>*100);
 hungeringsoulmeatball.addItemInput(<botania:rune:15>);
 hungeringsoulmeatball.addItemInput(<contenttweaker:inanimate_soul>);
@@ -226,6 +238,12 @@ null, <ore:ingotSacrificeMetal>, null,
 <contenttweaker:hungering_world_soul>, null, <ore:ingotFractalliteHalite>]]);
 
 
+recipes.addShaped(<contenttweaker:staff_of_the_lord_of_gluttony>,
+[[<contenttweaker:monumentally_sentient_meatball>, <contenttweaker:monumentally_sentient_meatball>, <contenttweaker:monumentally_sentient_meatball>],
+[<contenttweaker:monumentally_sentient_meatball>, <contenttweaker:staff_of_the_lord_of_gluttony>.reuse(), <contenttweaker:monumentally_sentient_meatball>],
+[<contenttweaker:monumentally_sentient_meatball>, <contenttweaker:monumentally_sentient_meatball>, <contenttweaker:monumentally_sentient_meatball>]]);
+
+
 recipes.addShaped(<contenttweaker:true_chaos>,
 [[<draconicevolution:chaotic_core>, <contenttweaker:stone_of_universal_balance>, <draconicevolution:chaotic_core>],
 [<contenttweaker:stone_of_universal_balance>, <contenttweaker:staff_of_the_lord_of_gluttony>.reuse(), <contenttweaker:stone_of_universal_balance>],
@@ -242,8 +260,8 @@ true,
 <contenttweaker:true_chaos>,<contenttweaker:wormhole_catalyst>,
 <contenttweaker:true_chaos>,<contenttweaker:wormhole_catalyst>,
 <contenttweaker:true_chaos>,<contenttweaker:wormhole_catalyst>]);
-game.setLocalization("ac.ritual.KashanWarperInf", "宇宙尽在掌握"); 
-game.setLocalization("ac.ritual.KashanWarperInf.desc", "这是一切意义之所在");
+game.setLocalization("ac.ritual.KashanWarperInf", "The universe at my fingertips"); 
+game.setLocalization("ac.ritual.KashanWarperInf.desc", "This is what it's all about");
 
 
 recipes.addShaped(<contenttweaker:true_tongue_oath>,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Deeplands are a cave world, a planet with a surface so incredibly uninhabitable, and with a spawling underground that\u0027s completely separated from its outer layer.\nLife here was born of charged runium, an \u0027excited\u0027 (that\u0027s the best word I can think of at the moment) counterpart of the compound found on Terra. Although it lacks EMC, it has clear alchemical properties, which seem to be responsible for the existance of livable areas in this planet. It can spontaneously transmute rock into air and other ingredients of life, at a slow but steady rate.\nHow does this process work, though? All alchemy I have seen requires a person with intent to guide its power, that\u0027s the whole point. And yet, this mineral, this dumb unconscious rock, has the ability to do the same as a person.\nAm I causing damage to other places if I bring charged runium there? Is it going to start making other rocks into unwanted air.\nMany of these things seem to be experimentally verifiable, thankfully. I may learn something new about the way alchemy works.",
+      "desc:8": "深层维度是一个洞穴世界，这颗行星的地表环境极端恶劣，但其与外界完全隔绝的广袤地下空间却别有洞天。\n此处的生命源自充能符文矿石，一种在泰拉发现的化合物的“活化态”（这是我目前能想到最贴切的描述）变体。虽然不具备EMC特性，但它展现出显著的炼金术特质，似乎正是这个星球能存在宜居区域的原因。它能以缓慢但稳定的速率，将岩石自发转化为空气及其他生命要素。\n但这个过程究竟如何运作？据我所知，所有炼金术都需要施术者通过意志引导能量，这是炼金术的核心法则。然而这种矿物，这种无意识的愚钝岩石，却能做到与知性生命相同的事。\n若我将充能符文矿石带往其他维度，是否会造成破坏？它是否会将周围的岩石转化为多余空气？\n值得庆幸的是，这些问题大多可通过实验验证。或许我能借此发现炼金术运作的新规律。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:deeplands_realmstone"
       },
-      "name:8": "Impossible Depths"
+      "name:8": "深不可测"
     }
   },
   "questID:3": 336,

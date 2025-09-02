@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Ever since its inception, the bigegst challenge to string theory was figuring out a way to prove that it is true.\nFor many years, the primary method to verify its veridicity was showing the existence of magnetic monopoles, magnets with only a north, or only a south. \nThis, though, turned out to be a very hard task, and my research was able to prove string theory using a different approach, the theory of wormholes, which is why I am here in the first place.\nNow that I know the theory is true, I also indirecly know that monopoles are indeed possible. And I just made some!\nAll I needed was some Sednanite!",
+      "desc:8": "自弦论诞生以来，其面临的最大挑战始终是如何验证其真实性。\n多年来，验证弦论的主要方法是证明磁单极子的存在——即仅具有北极或南极的磁体。\n这被证明是极其困难的任务，而我的研究通过虫洞理论另辟蹊径证实了弦论，这也正是我来到此地的原因。\n既然已确认理论为真，我也间接证明了磁单极子确实可能存在。而刚才，我成功制造出了它们！\n所需的材料不过是些塞德娜金属！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:magnetic_monopole"
       },
-      "name:8": "String Theory Confirmed?!?"
+      "name:8": "弦论证实了？！？"
     }
   },
   "questID:3": 512,

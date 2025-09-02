@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "As part of this new great technology left by the Arbiter, the ability to directly collect neutrinos will be very beneficial.\nI have yet to invest in any particle accelerator subatomic particle synthesis, since so far I have not had the need for it, but from now on it may be a good idea to start thinking about those tools.",
+      "desc:8": "根据理序主留下的这项伟大新科技，直接收集中微子的能力将带来极大裨益。\n目前我尚未发展任何粒子加速器的亚原子粒子合成技术，因为此前并无此需求。但从现在起，或许是时候开始考虑这些工具了。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "avaritia:neutron_collector"
       },
-      "name:8": "Pure Neutrinos"
+      "name:8": "纯净中微子"
     }
   },
   "questID:3": 348,

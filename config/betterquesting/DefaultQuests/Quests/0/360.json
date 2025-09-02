@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "暮光部落的伟力兽物：历战浮游者、冥鬼独角兽与卡萝特。\n暮光部落的至强战士：颠叟与瑞弗。\n暮光部落的伟大意志：嗜魂魔与暮光恶魔。\n岩晶勇士们正向暮光部落进发。\n终于，我们将直面这场泰拉入侵的幕后主使。\n这支部落的权力核心由多名分形者构成。\n其组建历史必然充满血腥与暴力，却也不失为一段诡谲传奇。\n据我所知，成为分形者所需的灵智门槛并不高，只需理解“必须履行的职责”这一概念，并对其产生执着——理论上，连一条狗都符合飞升条件。\n这解释了暮光部落成员看似荒诞的构成：即便身处权力顶层的许多存在，智力也仅与犬类相当。\n部落内部实则缺乏管理机构，历战浮游者的力量能左右其他成员的欲望，而伟力兽物们似乎对颠叟与瑞弗有着特殊依恋——正是这些牵绊维系着整个部落。\n目睹这一切时，我竟难以燃起怒火。在这权力架构中，我窥见某种人性微光。\n然而这份人性，在暮光恶魔与嗜魂魔身上却荡然无存。\n部落的统治体系里，每个成员各司其职，而思考权柄完全归属于最后这两位远古分形者。若非他们未决定扮演幕后操盘者的角色，本可被为“古神”。\n正是他们的动机，点燃了这场战争的火种。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:mortum_core"
       },
-      "name:8": "The Twilight Horde Falls"
+      "name:8": "攻陷暮光部落"
     }
   },
   "questID:3": 360,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:karot_horn"
             },
-            "TrophyName:8": "Bull Bully",
+            "TrophyName:8": "怒角蛮霸",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -47,7 +47,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:vamacheron_fur"
             },
-            "TrophyName:8": "Hyper Bunny FTW",
+            "TrophyName:8": "终极兔子必胜",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -64,7 +64,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:reyvor_eye"
             },
-            "TrophyName:8": "Raymond? Reyvor!",
+            "TrophyName:8": "雷蒙德？瑞弗！",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -81,7 +81,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:densos_eye"
             },
-            "TrophyName:8": "Dense!",
+            "TrophyName:8": "密密麻麻！",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -98,7 +98,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:fiend_soul"
             },
-            "TrophyName:8": "Fiend? Soul Fiend!",
+            "TrophyName:8": "魔？噬魂魔！",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
@@ -115,7 +115,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:twilight_antenna"
             },
-            "TrophyName:8": "The Final Antenna",
+            "TrophyName:8": "最后的触角",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }

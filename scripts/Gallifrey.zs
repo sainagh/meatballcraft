@@ -86,8 +86,8 @@ true,
 <contenttweaker:monumentally_sentient_meatball>, 
 [<contenttweaker:slate_of_endless_hunger>,<avaritia:ultimate_stew>,<contenttweaker:slate_of_endless_hunger>,<avaritia:ultimate_stew>,
 <contenttweaker:slate_of_endless_hunger>,<avaritia:ultimate_stew>,<contenttweaker:slate_of_endless_hunger>,<avaritia:ultimate_stew>]);
-game.setLocalization("ac.ritual.gatekeeperofthemeatballman", "肉丸人的守门者"); 
-game.setLocalization("ac.ritual.gatekeeperofthemeatballman.desc", "与肉丸人的战争开始了！");
+game.setLocalization("ac.ritual.gatekeeperofthemeatballman", "Gatekeeper of the Meatball Man"); 
+game.setLocalization("ac.ritual.gatekeeperofthemeatballman.desc", "The war with the meatball man has begun!");
 
 
 recipes.addShaped(<contenttweaker:prophetic_paper>*2,
@@ -326,8 +326,8 @@ true,
 <contenttweaker:infinity_sapling>, 
 [<contenttweaker:harbinger_hungering_flesh>,<contenttweaker:harbinger_hungering_flesh>,<contenttweaker:harbinger_hungering_flesh>,<contenttweaker:harbinger_hungering_flesh>,
 <contenttweaker:harbinger_hungering_flesh>,<contenttweaker:harbinger_hungering_flesh>,<contenttweaker:harbinger_hungering_flesh>,<contenttweaker:harbinger_hungering_flesh>]);
-game.setLocalization("ac.ritual.infusefleshtree", "噩兆血肉之树灌注仪式"); 
-game.setLocalization("ac.ritual.infusefleshtree.desc", "噩兆血肉之树灌注仪式");
+game.setLocalization("ac.ritual.infusefleshtree", "Harbinger Flesh Tree Infusion"); 
+game.setLocalization("ac.ritual.infusefleshtree.desc", "Harbinger Flesh Tree Infusion");
 
 mods.abyssalcraft.InfusionRitual.addRitual("infusefleshegg", 
 4, 0, 
@@ -337,8 +337,8 @@ true,
 <contenttweaker:infinity_egg>, 
 [<contenttweaker:harbinger_hungering_flesh>,<contenttweaker:harbinger_hungering_flesh>,<contenttweaker:harbinger_hungering_flesh>,<contenttweaker:harbinger_hungering_flesh>,
 <contenttweaker:harbinger_hungering_flesh>,<contenttweaker:harbinger_hungering_flesh>,<contenttweaker:harbinger_hungering_flesh>,<contenttweaker:harbinger_hungering_flesh>]);
-game.setLocalization("ac.ritual.infusefleshegg", "噩兆血肉之蛋灌注仪式"); 
-game.setLocalization("ac.ritual.infusefleshegg.desc", "噩兆血肉之蛋灌注仪式");
+game.setLocalization("ac.ritual.infusefleshegg", "Harbinger Flesh Egg Infusion"); 
+game.setLocalization("ac.ritual.infusefleshegg.desc", "Harbinger Flesh Egg Infusion");
 
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:gluttonous_flesh_singularity>, <contenttweaker:flesh_of_the_gluttonous_one>, 512, <extendedcrafting:material:11>, 999999);
 
@@ -423,8 +423,8 @@ true,
 <minecraft:bucket>, 
 [<contenttweaker:star_of_betrayal>,<contenttweaker:cursed_gem_of_betrayal>,<contenttweaker:star_of_betrayal>,<contenttweaker:cursed_gem_of_betrayal>,
 <contenttweaker:star_of_betrayal>,<contenttweaker:cursed_gem_of_betrayal>,<contenttweaker:star_of_betrayal>,<contenttweaker:cursed_gem_of_betrayal>]);
-game.setLocalization("ac.ritual.getfirstessencebetrayal", "泰拉的伟大背叛"); 
-game.setLocalization("ac.ritual.getfirstessencebetrayal.desc", "泰拉的伟大背叛");
+game.setLocalization("ac.ritual.getfirstessencebetrayal", "The great betrayal of terra"); 
+game.setLocalization("ac.ritual.getfirstessencebetrayal.desc", "The great betrayal of terra");
 
 val monumentalmeatball2 = RecipeBuilder.newBuilder("monumentalmeatball2","sentient_meatball_monument",100);
 monumentalmeatball2.addItemInput(<contenttweaker:rites_of_the_meatball_man>);
@@ -795,3 +795,15 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:strange_stone_call
 [<contenttweaker:ender_divine_ore>, <contenttweaker:defined_ingot>, <contenttweaker:fifth_order_mythic_fractal>, <contenttweaker:defined_ingot>, <contenttweaker:ender_divine_ore>], 
 [<contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:ender_divine_ore>, <contenttweaker:defined_ingot>, <contenttweaker:ender_divine_ore>, <contenttweaker:imperfect_gallifreyan_plate>], 
 [<contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:ender_divine_ore>, <contenttweaker:imperfect_gallifreyan_plate>, <contenttweaker:imperfect_gallifreyan_plate>]]);  
+
+
+
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:infused_dread_shard>, <fluid:essence_of_betrayal>*50, <fluid:essence_of_betrayal>*100]);
+
+
+
+recipes.addShaped(<contenttweaker:fractallite_furnace>,
+[[<extendedcrafting:singularity_custom:651>, <contenttweaker:recursium_ingot>, <extendedcrafting:singularity_custom:651>],
+[<contenttweaker:recursium_ingot>, <contenttweaker:fractallite_furnace>, <contenttweaker:recursium_ingot>],
+[<extendedcrafting:singularity_custom:651>, <contenttweaker:recursium_ingot>, <extendedcrafting:singularity_custom:651>]]);

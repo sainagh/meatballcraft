@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Yes! There is something more to it.\nResearching what remains of Asgard, now the Dungeon of Arcana, did bear fruit. \nIt seems like the aesir had devised ways to channel recursion, coming from matter with mythic properties, into a sort of transmutation.\nFrom my independent studies, I was able to achieve similar results using mythic miners. Their methods, though, appear to be more effective. Agents of the Shyre Empire seem to agree with me, otherwise why would these secrets be held in the Abyss.\nWhat is interesting to me about this is the fact that the Shyre Empire is holding secrets from a territory under the Twilight Horde. I can only assume there may be some espionage or intelligence war going on. Is this how they compete with each other when they are not able to figuratively and literally nuke each other?",
+      "desc:8": "确实！这其中另有玄机。 \n通过对阿萨神族遗迹，也就是现在的秘界地牢，的研究，我确实有所收获。\n看来阿萨神族曾设计出某种方法，能将具有神话特性的物质产生的递归，引导转化为某种嬗变形态。\n根据我的独立研究，使用神话采掘机也能达成类似效果，但他们的方法似乎更为高效。塞尔瑞帝国的特工们似乎认同我的发现，否则这些秘密为何会被封存在深渊之中？\n最令我玩味的是，塞尔瑞帝国竟从暮光部落掌控的领地中窃取机密。这只能让我推测，双方可能正在进行某种间谍战或情报争夺。难道这就是当双方无法在明面上（或字面意义上）互相毁灭时，选择的竞争方式？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:ragnarok_sigil"
       },
-      "name:8": "Ragnarok Sigil"
+      "name:8": "诸神黄昏印记"
     }
   },
   "questID:3": 520,

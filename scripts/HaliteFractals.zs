@@ -108,8 +108,8 @@ true,
 <bewitchment:sigil_battle>,<contenttweaker:dragon_will_fragment>,
 <contenttweaker:wing_of_worship>,<contenttweaker:dragon_will_fragment>,
 <bewitchment:swirl_of_depths>,<contenttweaker:dragon_will_fragment>]);
-game.setLocalization("ac.ritual.freetheheartofhearts", "心中之心"); 
-game.setLocalization("ac.ritual.freetheheartofhearts.desc", "解放心中之心");
+game.setLocalization("ac.ritual.freetheheartofhearts", "Heart of hearts"); 
+game.setLocalization("ac.ritual.freetheheartofhearts.desc", "Free the Heart of hearts");
 
 recipes.addShaped(<contenttweaker:whispering_heart_of_hearts>*2,
 [[<aoa3:mystite_block>, <abyssalcraft:materializer>, <aoa3:mystite_block>],
@@ -171,6 +171,12 @@ recipes.addShaped(<contenttweaker:dread_crown>,
 [[<ore:ingotVityte>, <iceandfire:dread_shard>, <ore:ingotVityte>],
 [<iceandfire:dread_shard>, <contenttweaker:dread_crown>.reuse(), <iceandfire:dread_shard>],
 [<ore:ingotVityte>, <iceandfire:dread_shard>, <ore:ingotVityte>]]);
+
+
+recipes.addShaped(<contenttweaker:dreadful_rhenium_catalyst>*4,
+[[<contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>],
+[<contenttweaker:rhenium_catalyst>, <contenttweaker:dread_crown>.reuse(), <contenttweaker:rhenium_catalyst>],
+[<contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>]]);
 
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:second_order_mythic_fractal>, 
@@ -279,8 +285,8 @@ true,
 <contenttweaker:cursed_sapphire>, 
 [<contenttweaker:pulsating_fluix>,<extendedcrafting:singularity_custom:994>,<contenttweaker:pulsating_fluix>,<extendedcrafting:singularity_custom:994>,
 <contenttweaker:pulsating_fluix>,<extendedcrafting:singularity_custom:994>,<contenttweaker:pulsating_fluix>,<extendedcrafting:singularity_custom:994>]);
-game.setLocalization("ac.ritual.oblivionairecallstone", "湮没无闻"); 
-game.setLocalization("ac.ritual.oblivionairecallstone.desc", "遗忘者");
+game.setLocalization("ac.ritual.oblivionairecallstone", "into oblivion"); 
+game.setLocalization("ac.ritual.oblivionairecallstone.desc", "oblivionaire");
 
 recipes.addShaped(<contenttweaker:oblivionaire_callstone>,
 [[<contenttweaker:oblivion_catalyzer>, <abyssalcraft:odb>, <contenttweaker:oblivion_catalyzer>],
@@ -298,7 +304,7 @@ recipes.addShaped(<contenttweaker:cosmic_fracture>*2,
 [<contenttweaker:primordial_prism>, <contenttweaker:cosmic_fracture>, <contenttweaker:primordial_prism>],
 [<aoa3:ghastly_block>, <contenttweaker:primordial_prism>, <aoa3:ghoulish_block>]]);
 
-recipes.addShaped(<contenttweaker:coralium_eye>*2,
+recipes.addShaped(<contenttweaker:coralium_eye>*8,
 [[<abyssalcraft:ethaxiumingot>, <abyssalcraft:platec>, <abyssalcraft:ethaxiumingot>],
 [<contenttweaker:shadow_steel>, <contenttweaker:coralium_eye>, <contenttweaker:shadow_steel>],
 [<abyssalcraft:ethaxiumingot>, <abyssalcraft:platec>, <abyssalcraft:ethaxiumingot>]]);
@@ -429,8 +435,8 @@ true,
 <abyssalcraft:gatewaykeyjzh>, 
 [<aoa3:staring_eye>,<contenttweaker:abyssal_flesh>,<aoa3:staring_eye>,<contenttweaker:abyssal_flesh>,
 <aoa3:staring_eye>,<contenttweaker:abyssal_flesh>,<aoa3:staring_eye>,<contenttweaker:abyssal_flesh>]);
-game.setLocalization("ac.ritual.shadowlordsupcallstone", "阴影之主"); 
-game.setLocalization("ac.ritual.shadowlordsupcallstone.desc", "支配血肉");
+game.setLocalization("ac.ritual.shadowlordsupcallstone", "The Lord of Shadows"); 
+game.setLocalization("ac.ritual.shadowlordsupcallstone.desc", "Domains of the flesh");
 
 recipes.addShapeless(<abyssalcraft:shoggothflesh:0>,
 [<contenttweaker:eye_of_flesh_manipulation>.reuse(),
@@ -461,6 +467,14 @@ recipes.addShapeless(<abyssalcraft:shoggothflesh:4>,
 <minecraft:rotten_flesh>,
 <minecraft:rotten_flesh>,
 <minecraft:rotten_flesh>]);
+
+recipes.addShapeless(<contenttweaker:sentient_shoggoth_flesh>,
+[<contenttweaker:eye_of_flesh_manipulation>.reuse(),
+<abyssalcraft:shoggothflesh:0>,
+<abyssalcraft:shoggothflesh:1>,
+<abyssalcraft:shoggothflesh:2>,
+<abyssalcraft:shoggothflesh:3>,
+<abyssalcraft:shoggothflesh:4>]);
 
 recipes.addShapeless(<contenttweaker:eldritch_essence>,
 [<abyssalcraft:essence:0>,
@@ -766,7 +780,7 @@ recursiumfragupgrade.build();
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:fractallite_focus_lens>, 
 1000000, 
-<contenttweaker:recursion_focus_lens>, 
+<contenttweaker:recursion_of_undeath_focusing_fabrial>, 
 [<contenttweaker:quasar_charged_dust>, <deepmoblearning:glitch_infused_ingot>,
 <contenttweaker:quasar_charged_dust>, <deepmoblearning:glitch_infused_ingot>]);
 
@@ -801,9 +815,139 @@ recursiumfragupgrade2.addItemInput(<aoa3:lyon_block>);
 recursiumfragupgrade2.addItemInput(<aoa3:lunar_block>);
 recursiumfragupgrade2.addItemInput(<aoa3:shyregem_block>);
 recursiumfragupgrade2.addItemInput(<aoa3:shyrestone_block>);
-recursiumfragupgrade2.addItemInput(<contenttweaker:fractallite_focus_lens>);
-recursiumfragupgrade2.addItemOutput(<contenttweaker:recursium_ingot>*4);
+recursiumfragupgrade2.addItemInput(<contenttweaker:recursion_sharpening_lens>);
+recursiumfragupgrade2.addItemOutput(<contenttweaker:recursium_ingot>*2);
 recursiumfragupgrade2.build();
+
+scripts.PuzzleUtil.addPuzzleShaped("recursion_focusing_fabrial", 
+<contenttweaker:recursion_focusing_fabrial>, 
+[[<contenttweaker:white_hole>, <extrautils2:biomemarker>.withTag({Biome: "biomesoplenty:cherry_blossom_grove"}), <contenttweaker:white_hole>],
+[<extrautils2:biomemarker>.withTag({Biome: "aoa3:immortallis"}), <contenttweaker:recursion_sharpening_lens>, <extrautils2:biomemarker>.withTag({Biome: "aoa3:abyss"})],
+[<contenttweaker:white_hole>, <extrautils2:biomemarker>.withTag({Biome: "divinerpg:eden"}), <contenttweaker:white_hole>]]);
+
+recipes.addShaped(<contenttweaker:recursion_focusing_fabrial>,
+[[<contenttweaker:white_hole>, <contenttweaker:recursion_focusing_fabrial>.reuse(), <contenttweaker:white_hole>],
+[<contenttweaker:recursion_focusing_fabrial>.reuse(), <contenttweaker:recursion_sharpening_lens>, <contenttweaker:recursion_focusing_fabrial>.reuse()],
+[<contenttweaker:white_hole>, <contenttweaker:recursion_focusing_fabrial>.reuse(), <contenttweaker:white_hole>]]);
+
+
+val recursiumfragupgrade3 = RecipeBuilder.newBuilder("recursiumfragupgrade3","infinity_furnace",20);
+recursiumfragupgrade3.addFluidInput(<fluid:actualizing_fluid>*50);
+recursiumfragupgrade3.addItemInput(<divinerpg:arlemite_block>);
+recursiumfragupgrade3.addItemInput(<divinerpg:realmite_block>);
+recursiumfragupgrade3.addItemInput(<divinerpg:rupee_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:amethyst_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:jade_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:sapphire_block>);
+recursiumfragupgrade3.addItemInput(<divinerpg:bloodgem_block>);
+recursiumfragupgrade3.addItemInput(<divinerpg:netherite_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:emberstone_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:limonite_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:rosite_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:baronyte_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:blazium_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:bloodstone_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:varsium_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:skeletal_ingot_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:gemenyte_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:jewelyte_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:ornamyte_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:elecanium_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:crystallite_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:ghastly_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:ghoulish_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:mystite_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:lyon_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:lunar_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:shyregem_block>);
+recursiumfragupgrade3.addItemInput(<aoa3:shyrestone_block>);
+recursiumfragupgrade3.addItemInput(<contenttweaker:recursion_focusing_fabrial>);
+recursiumfragupgrade3.addItemOutput(<contenttweaker:recursium_ingot>*4);
+recursiumfragupgrade3.build();
+
+recipes.addShaped(<contenttweaker:chain_of_the_final_hour>*16,
+[[<contenttweaker:ichorium_void_stone>, <contenttweaker:chain_of_the_final_hour>, <contenttweaker:ichorium_void_stone>],
+[<contenttweaker:meteoric_draconic_stone>, <contenttweaker:leash_of_the_final_hour>.reuse(), <contenttweaker:meteoric_draconic_stone>],
+[<contenttweaker:ichorium_void_stone>, <contenttweaker:chain_of_the_final_hour>, <contenttweaker:ichorium_void_stone>]]);
+
+
+recipes.addShaped(<contenttweaker:recursion_of_undeath_focusing_fabrial>,
+[[<contenttweaker:infused_dread_shard>, <contenttweaker:chain_of_the_final_hour>, <contenttweaker:infused_dread_shard>],
+[<contenttweaker:undead_soil>, <contenttweaker:recursion_focusing_fabrial>, <contenttweaker:undead_soil>],
+[<contenttweaker:infused_dread_shard>, <contenttweaker:chain_of_the_final_hour>, <contenttweaker:infused_dread_shard>]]);
+
+
+val recursiumfragupgrade4 = RecipeBuilder.newBuilder("recursiumfragupgrade4","infinity_furnace",20);
+recursiumfragupgrade4.addFluidInput(<fluid:actualizing_fluid>*50);
+recursiumfragupgrade4.addItemInput(<divinerpg:arlemite_block>);
+recursiumfragupgrade4.addItemInput(<divinerpg:realmite_block>);
+recursiumfragupgrade4.addItemInput(<divinerpg:rupee_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:amethyst_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:jade_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:sapphire_block>);
+recursiumfragupgrade4.addItemInput(<divinerpg:bloodgem_block>);
+recursiumfragupgrade4.addItemInput(<divinerpg:netherite_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:emberstone_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:limonite_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:rosite_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:baronyte_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:blazium_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:bloodstone_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:varsium_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:skeletal_ingot_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:gemenyte_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:jewelyte_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:ornamyte_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:elecanium_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:crystallite_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:ghastly_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:ghoulish_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:mystite_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:lyon_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:lunar_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:shyregem_block>);
+recursiumfragupgrade4.addItemInput(<aoa3:shyrestone_block>);
+recursiumfragupgrade4.addItemInput(<contenttweaker:recursion_of_undeath_focusing_fabrial>);
+recursiumfragupgrade4.addItemOutput(<contenttweaker:recursium_ingot>*8);
+recursiumfragupgrade4.build();
+
+
+
+val recursiumfragupgrade5 = RecipeBuilder.newBuilder("recursiumfragupgrade5","infinity_furnace",20);
+recursiumfragupgrade5.addFluidInput(<fluid:actualizing_fluid>*50);
+recursiumfragupgrade5.addItemInput(<divinerpg:arlemite_block>);
+recursiumfragupgrade5.addItemInput(<divinerpg:realmite_block>);
+recursiumfragupgrade5.addItemInput(<divinerpg:rupee_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:amethyst_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:jade_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:sapphire_block>);
+recursiumfragupgrade5.addItemInput(<divinerpg:bloodgem_block>);
+recursiumfragupgrade5.addItemInput(<divinerpg:netherite_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:emberstone_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:limonite_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:rosite_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:baronyte_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:blazium_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:bloodstone_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:varsium_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:skeletal_ingot_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:gemenyte_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:jewelyte_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:ornamyte_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:elecanium_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:crystallite_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:ghastly_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:ghoulish_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:mystite_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:lyon_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:lunar_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:shyregem_block>);
+recursiumfragupgrade5.addItemInput(<aoa3:shyrestone_block>);
+recursiumfragupgrade5.addItemInput(<contenttweaker:fractallite_focus_lens>);
+recursiumfragupgrade5.addItemOutput(<contenttweaker:recursium_ingot>*16);
+recursiumfragupgrade5.build();
+
+
 
 
 

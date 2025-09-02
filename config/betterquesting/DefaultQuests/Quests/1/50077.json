@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Whenever the Twilight Horde first arrived to Terra, some Testificates tried to counteract their unstoppable advance by trying to magically augment themselves.\nSome of these experiments eventually ended up corrupting their bodies, rendering them unable to distinguish between friend or foe. The descendents of these testificates still live, and their modified remains appear to hold a lot of power.",
+      "desc:8": "暮光部落初临泰拉时，部分泰斯提斐人试图通过魔法增强自身来对抗他们势不可挡的推进。\n然而其中某些实验最终导致实验者躯体腐化，丧失敌我辨识能力。这部分泰斯提斐人的后代至今犹存，他们改造后的躯壳中似乎蕴藏着强大的力量。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "bhc:blue_heart_canister"
       },
-      "name:8": "Blue Heart Canister"
+      "name:8": "蓝心之容器"
     }
   },
   "questID:3": 50077,

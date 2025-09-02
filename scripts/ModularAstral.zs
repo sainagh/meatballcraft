@@ -1,6 +1,26 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.astralsorcery.Utils;
 
+mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/stromlightaltarupgrade", 
+<contenttweaker:stormlight_collector>, 
+5000, 500, 
+[
+    <contenttweaker:recursium_ingot>, <contenttweaker:white_hole>, <contenttweaker:recursium_ingot>,
+    <contenttweaker:white_hole>, <contenttweaker:darkstar_collector>, <contenttweaker:white_hole>,
+    <contenttweaker:recursium_ingot>, <contenttweaker:white_hole>, <contenttweaker:recursium_ingot>,
+    <contenttweaker:fifth_order_mythic_fractal>, <contenttweaker:fifth_order_mythic_fractal>, <contenttweaker:fifth_order_mythic_fractal>, <contenttweaker:fifth_order_mythic_fractal>,
+    <contenttweaker:stormlight_sphere>, <contenttweaker:stormlight_sphere>,
+    <contenttweaker:stormlight_sphere>, <contenttweaker:stormlight_sphere>,
+    <contenttweaker:stormlight_sphere>, <contenttweaker:stormlight_sphere>,
+    <contenttweaker:stormlight_sphere>, <contenttweaker:stormlight_sphere>,
+    <contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:perfected_gallifreyan_plate>,
+    <contenttweaker:light_of_shadesmar>,
+    <contenttweaker:light_of_shadesmar>,
+    <contenttweaker:light_of_shadesmar>,
+    <contenttweaker:light_of_shadesmar>
+], 
+"astralsorcery.constellation.aevitas");
+
 val allcrystals = Utils.getCrystalORIngredient(false, false); //as crafttweaker.item.IIngredient
 
 val ast1 = RecipeBuilder.newBuilder("ast1","auto_astral_altar",1200);

@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This alien planet sure has a lot of variety! Maybe a bit too much..\nA backpack should be very helpful for carrying all this crap.",
+      "desc:8": "这外星球的破玩意儿也太多了！多得有点离谱了都……\n要是有个背包就好了，这些破烂儿全都能装走！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectred-exploration:backpack"
       },
-      "name:8": "White Backpack"
+      "name:8": "白色背包"
     }
   },
   "questID:3": 50062,

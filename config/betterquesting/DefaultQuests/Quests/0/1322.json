@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Thanks to all these easily accessible neutrinos, I can set up plasma cannons to help ionize some elements to get all I would need to start some particle accelerators.",
+      "desc:8": "多亏了这些容易获取的中微子，我能够部署等离子炮来帮助电离某些元素，从而获得搭建粒子加速器所需的一切材料。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "netrino_plasma"
         }
       },
-      "name:8": "Neutrino Plasma"
+      "name:8": "中微子等离子体"
     }
   },
   "questID:3": 1322,

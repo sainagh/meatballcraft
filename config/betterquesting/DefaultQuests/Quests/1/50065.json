@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oPixons can be found roaming around the overworld, you can use the stone bowl to collect infusion stones, and level up your infusion skill!",
+      "desc:8": "§7§o闪耀的光可在主世界各处发现，使用石碗从中收集注魔石，还能提升注魔技能！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:stone_bowl"
       },
-      "name:8": "Stone Bowl"
+      "name:8": "石碗"
     }
   },
   "questID:3": 50065,

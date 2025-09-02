@@ -23,7 +23,7 @@
           "Damage:2": 769,
           "id:8": "microblockcbe:microblock",
           "tag:10": {
-            "mat:8": "minecraft:stone[variant\u003dstone]"
+            "mat:8": "minecraft:stone[variant=stone]"
           }
         }
       },

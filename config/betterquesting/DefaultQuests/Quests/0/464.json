@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oSearch \"mythic processor\" in JEI to find the list of machines!\n\n§fThe easiest advantage to mythic machinery is very effective manufacturing! Right when I started thinking I\u0027d have to upgrade my processing rates, how fortuitous!\nThis type of technology does open up a few more implications about what may be possible with more powerful magical abilities, and higher control over Recursion. \nIf my theories on Dimensional Shards are correct, processing the amounts required to harness their power would indeed require incredibly efficient production lines, likely involving this type of machinery. The Arbiter, after all, was a powerful Recursive being, they had access to advanced technology, they were directly associated with Terra and the Testificates, and they were the main \u0027defender\u0027 of Dimensional Shards.\nIt is interesting how I am tracing back the steps of this figure so important to Terra\u0027s history, and I am fighting the same enemies...and the interest of the Meatball Man in me...",
+      "desc:8": "§7§o在JEI中搜索“神话处理器”来查看机械列表！\n\n§f神话机械最直观的优势，就是其高效的制造能力！正当我开始考虑需要升级产线时，这发现来得何其及时！\n这类科技确实揭示了更强大魔法能力与更高阶递归控制的实现可能。\n若我对维度碎片的理论无误，要驾驭其力量所需处理的数量级，确实需要神话机械这般极致高效的生产体系。毕竟理序主本身就是强大的递归存在，既掌握着关联泰拉与泰斯提斐人的尖端科技，又是维度碎片的主要“守护者”。\n有趣的是，如今我正沿着这位泰拉史关键人物的足迹前行，对抗着相同的敌人……而肉丸人对我的关注也愈发耐人寻味……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:mythic_coil_t1"
       },
-      "name:8": "Mythic Processors!"
+      "name:8": "神话处理器！"
     }
   },
   "questID:3": 464,

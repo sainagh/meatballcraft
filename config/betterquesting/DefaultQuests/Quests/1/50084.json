@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis ring gives creative flight, but it costs GP!",
+      "desc:8": "§7§o该指环可令你获得创造飞行能力，但是会消耗GP！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 32767,
         "id:8": "extrautils2:angelring"
       },
-      "name:8": "Angel Ring"
+      "name:8": "天使指环"
     }
   },
   "questID:3": 50084,

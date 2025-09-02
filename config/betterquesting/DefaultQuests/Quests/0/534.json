@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Got my hands on some Vibrating Stone, and this stuff is awesome. Harmonics play some role in the way magic is catalyzed, and a material that is capable of harmonization on its own, a sort of time crystal, has the power to amplify magic. This is the secret long safekept by the haunted souls of the Twilight Forest.\nAnd on even more incredible news, the Testificates that came here to retaliate are still alive, and I dare say, thriving. They did something to this place, something very drastic, that actually drove the Shyre empire away. This is the first great win of the Testificates against the Shyre Empire.",
+      "desc:8": "我搞到了一些谐振石，这东西简直棒极了。谐波在魔法催化过程中起着关键作用，而这种能自主产生谐振的材料具有放大魔法的力量（就像某种时间晶体）。这正是暮色森林中那些游荡灵魂守护已久的秘密。\n更惊人的是，前来复仇的泰斯提斐人不仅活着，我敢说还活得相当滋润。他们对这个地方做了些极其激进的改造，居然成功逼退了塞尔瑞帝国。这可是泰斯提斐人对抗塞尔瑞帝国取得的首次重大胜利。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:vibrating_stone"
       },
-      "name:8": "Interesting results"
+      "name:8": "有趣的结果"
     }
   },
   "questID:3": 534,

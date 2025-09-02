@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Pure recursive matter. \nAs I explored and experimented, I have encountered many things that exhibited partially-recursive abilities. Gems that can phase in and out of higher dimensions, blood-imbued myrmitite that self-replicates. All of these felt like \u0027shadows\u0027 of something bigger, something more powerful.\nWhile shadows only provide of a single slice of the true nature of something, if enough shadows from enough angles are used, it is possible to get a good idea about the object that originates them.\nAnd so, I was able to make pure recursive matter. \nMy first Mythic Fractal!",
+      "desc:8": "纯净的递归物质。\n在探索与实验过程中，我遇到过许多展现部分递归特性的事物。能在高维度间相位转移的宝石、能自我复制的注血恐蚁金属。这些都像是某个更宏大、更强大存在的“投影”。\n尽管单个投影只能呈现事物本质的片面，但若能从足够多的角度收集足够多的投影，就能拼凑出投射本体的真实轮廓。\n于是，我终于创造出了纯净的递归物质。\n我的第一件神话分形！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:first_order_mythic_fractal"
       },
-      "name:8": "First Order Fractal"
+      "name:8": "一阶分形"
     }
   },
   "questID:3": 2045,
@@ -30,7 +30,7 @@
               "Damage:2": 0,
               "id:8": "contenttweaker:first_order_mythic_fractal"
             },
-            "TrophyName:8": "Tier 1 Fractal Boi",
+            "TrophyName:8": "Bro搞到了一阶分形",
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "neon"
           }

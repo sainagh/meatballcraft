@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "These pocket worlds seem to be inherently bound whoever enters them, it seems. I don\u0027t quite get it, but the magic I perform here feels more \u0027real\u0027, it makes more sense.\nAnd what makes sense, is that if I want to become more powerful, sacrifice will be necessary.\nBut what type of sacrifice?\nTo grow, I think I will have to traverse some type of figurative nightmare, and survive it.\n",
+      "desc:8": "这些口袋维度似乎会与进入者产生固有绑定，虽然我还不太明白原理，但在这里施展的魔法感觉更加“真实”，更符合逻辑。\n而合乎逻辑的是，若想获得更强大的力量，牺牲将不可避免。\n但究竟需要何种牺牲？\n若要成长，我想我必须穿越某种象征性的噩梦，并从中存活下来。\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:nightmare_incense"
       },
-      "name:8": "Nightmare Incense"
+      "name:8": "噩梦熏香"
     }
   },
   "questID:3": 477,

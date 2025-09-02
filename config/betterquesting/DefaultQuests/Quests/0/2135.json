@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Due to its already-evident breadth and reach, it is no surprise that many of the civilizations that are offered membership to the Shyre Empire accept. Compared to the alternative of being destroyed by the largest empire in the universe, becoming an instrument of violence for said empire is an appealing offer, even when it involves considerable depravity against other civilizations.\nDespite this, there are many powerful beings that have attempted retaliation. Due to their possibly-useful powers, instead of defeating them, the Shyre Empire imprisoned them in teh asteroids of Lunalus, where they are broken by its jailer.\nThe Lunar Lover is a twisted creature, capable of ensnaring the minds of its subjects into submission. For those that have been broken by the jailer, there is no hope of return, but by defeating this enemy I can at least ensure the same will not happen to anyone else.",
+      "desc:8": "鉴于塞尔瑞帝国展现出的疆域广度与影响力，许多文明选择受邀加入不令人意外。相较于被这个宇宙最大帝国摧毁的，成为其暴力工具显得颇具吸引力，即便这意味着要对其他文明犯下深重罪孽。\n然而，仍有众多强大存在尝试发起反抗。鉴于这些个体可能具备实用价值，塞尔瑞帝国并未将其消灭，而是囚禁于月球维度的小行星带中，由典狱官实施精神摧残。\n“月之恋人”是种扭曲的生物，能通过精神奴役使囚犯屈服。凡经此典狱官摧残者，皆无重获自由之望。但若能击败这个敌人，我至少能确保他人不再遭受同等命运。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:lunar_star"
       },
-      "name:8": "Lovely Jailers"
+      "name:8": "迷人狱卒"
     }
   },
   "questID:3": 2135,

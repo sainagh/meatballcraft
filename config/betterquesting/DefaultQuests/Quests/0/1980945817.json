@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oLetting you know now; from this point forward, puzzles may involve some hidden chests and loot.\n\nThere are a variety of methods that can help you find these, a few are listed here...",
+      "desc:8": "§7§o好教你知道，从现在开始，谜题可能包括一些隐藏的箱子和战利品。\n\n寻找这些物品的方式多种多样，此处略举了几例……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "rftools:storage_scanner"
       },
-      "name:8": "Tools of Discovery"
+      "name:8": "探索工具"
     }
   },
   "questID:3": 1980945817,

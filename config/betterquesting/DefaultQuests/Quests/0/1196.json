@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Meatball Man and the Old Ones. A pact broken. A mission forsaken.\nThe power of the Meatball Man, as the lord of gluttony, is centeerd on undeath. I do not know the full details of this, but the mission of this creature used to be as a devil of some sort, or maybe an angel, guarding, maybe punishing, maybe instructing, those who lived gluttonous lives.\nAt a certain point, though, it became too much; the mission was abandoned, and the fight against the Arbiter, representing the teachings of a virtuous life pointing away from gluttony, began.\nWhile the mission of a Fractallite is easily abandoned, using Fractallite powers against one\u0027s own mission is not easily done. Still, it can be done, and those who have, the Old Ones, are willing to share their methods and rituals.\nIt is thanks to those rituals that the gluttonous dead now directly serve the Meatball Man, and act as his undead army.",
+      "desc:8": "肉丸人与旧日支配者。誓约破碎。使命背弃。\n作为暴食之主的肉丸人，其力量核心在于亡灵。我虽不知其中全部细节，但其最初使命应是作为某种恶魔，亦或天使，去监管、惩罚或训导那些沉溺饕餮之欲的生灵。\n然而某刻，重担终不堪负；使命遭弃，与代表远离暴食美德教诲的理序主之战由此展开。\n分形者的使命虽易抛却，但以分形之力反噬自身使命却非易事。然而旧日支配者已掌握此法，且愿分享其仪式秘术。\n正因这些仪式，暴食亡者如今直接效忠于肉丸人，化作其不死军团。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:naquadah_chunk"
       },
-      "name:8": "The pact of the Meatball Man"
+      "name:8": "肉丸人的誓约"
     }
   },
   "questID:3": 1196,

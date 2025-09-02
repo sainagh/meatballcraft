@@ -257,6 +257,7 @@ collapserwhite.addItemInput(<bloodmagic:blood_tank:4>.withTag({Fluid: {FluidName
 collapserwhite.addItemInput(<bloodmagic:blood_tank:4>.withTag({Fluid: {FluidName: "vityte", Amount: 256000}}));
 collapserwhite.addItemInput(<bloodmagic:blood_tank:4>.withTag({Fluid: {FluidName: "candyte", Amount: 256000}}));
 collapserwhite.addItemInput(<bloodmagic:blood_tank:4>.withTag({Fluid: {FluidName: "brightsteel_alloy", Amount: 256000}}));
+collapserwhite.addItemInput(<contenttweaker:white_hole>*128);
 collapserwhite.addItemInput(<contenttweaker:everlasting_fusor>);
 collapserwhite.addItemOutput(<contenttweaker:white_hole_core>);
 collapserwhite.build();

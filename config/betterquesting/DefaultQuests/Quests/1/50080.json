@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHigh level feather falling is craftable!",
+      "desc:8": "§7§o高等级的摔落保护附魔书是有配方的！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 42,
         "id:8": "simplyjetpacks:metaitemmods"
       },
-      "name:8": "So feathery!"
+      "name:8": "轻如鸿毛！"
     }
   },
   "questID:3": 50080,

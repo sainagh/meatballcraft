@@ -7,12 +7,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe mob cannot be damaged through normal ranged and melee weapons (things like Zenith and Kikoku can do damage but will not produce drops). Magic damage, Electroblob spells, the railgun, and other magic weapons will work!",
+      "desc:8": "§7§o该生物不会被常规远程和近战武器伤害（天顶剑和鬼哭这类武器让能造成伤害，但不会有掉落物）。使用魔法伤害、巫术学模组的法术、磁轨炮，以及其他魔法武器！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:shard_of_restored_relationship"
       },
-      "name:8": "Loneliness"
+      "name:8": "孤独"
     }
   },
   "questID:3": 1210666494,

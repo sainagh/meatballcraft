@@ -1,0 +1,279 @@
+{
+    "name": "compactmachines3:thaumcraft_terraformer0",
+    "target-item": "thaumicaugmentation:arcane_terraformer",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+
+
+  "input-types": {
+    "a": {
+      "id": "thaumadditions:jar_mithminite",
+      "meta": 0,
+        "item": {
+            "id": "thaumcraft:jar_normal",
+            "count": 5
+          }
+    },
+    "b": {
+      "id": "thaumcraft:essentia_output",
+      "meta": 2
+    },
+    "d": {
+      "id": "thaumcraft:essentia_output",
+      "meta": 5
+    },
+    "e": {
+      "id": "contenttweaker:fusion_core_placeholder",
+      "meta": 0,
+        "item": {
+            "id": "thaumicaugmentation:arcane_terraformer",
+            "count": 1
+          }
+    },
+    "f": {
+      "id": "thaumcraft:essentia_output",
+      "meta": 4
+    },
+    "g": {
+      "id": "thaumcraft:essentia_output",
+      "meta": 0
+    },
+    "h": {
+      "id": "thaumcraft:essentia_output",
+      "meta": 3
+    },
+      "j": {
+        "id": "thaumicaugmentation:impetus_relay",
+        "meta": 1,
+        "item": {
+            "id": "thaumicaugmentation:impetus_relay",
+            "count": 1
+          }
+      }
+  },
+  "input-nbt": {
+    "a:A": {
+      "nbt": "{facing:5b,blocked:0b,ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"thaumadditions:tilemithminitejar\",Amount:0s}"
+    },
+    "b:A": {
+      "nbt": "{id:\"thaumcraft:tileessentiaoutput\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+    },
+    "d:A": {
+      "nbt": "{id:\"thaumcraft:tileessentiaoutput\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+    },
+    "e:A": {
+      "nbt": "{inventory:{Items:[],Size:1},ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"thaumicaugmentation:arcane_terraformer\",radius:16,essentia:[I;0,0,0,0,0],node:{inputs:[],outputs:[]},circle:1b}"
+    },
+    "f:A": {
+      "nbt": "{id:\"thaumcraft:tileessentiaoutput\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+    },
+    "g:A": {
+      "nbt": "{id:\"thaumcraft:tileessentiaoutput\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+    },
+    "a:B": {
+      "nbt": "{facing:3b,blocked:0b,ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"thaumadditions:tilemithminitejar\",Amount:0s}"
+    },
+    "a:C": {
+      "nbt": "{facing:4b,blocked:0b,ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"thaumadditions:tilemithminitejar\",Amount:0s}"
+    },
+    "h:A": {
+      "nbt": "{id:\"thaumcraft:tileessentiaoutput\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "j",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "b:A",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "f:A",
+        "e:A",
+        "d:A",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "h:A",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "g:A",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "a:A",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "a:A",
+        "_",
+        "a:C",
+        "_",
+        "a:B"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "a:A",
+        "_",
+        "_"
+      ]
+    ]
+  ]
+            
+}

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While turbines are hardly a new technology at this point, I think it would be a good idea to come up with a technology that can handle vapors other than water.\nI am encountering so many crazy and strange fluids, so I would not be suprised if some of them played well with turbines.",
+      "desc:8": "虽然涡轮机在当今已算不上新技术，但我认为有必要研发一种能处理除水蒸气之外其他蒸汽的技术。\n我遇到了太多奇异的流体物质，其中某些物质能与涡轮机完美适配也毫不奇怪。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:turbine_controller"
       },
-      "name:8": "Turbine Controller"
+      "name:8": "涡轮机控制器"
     }
   },
   "questID:3": 423,

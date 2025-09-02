@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Eureka! I found the missing link! \nNot only gravity can be positive or negative, it can also be imaginary, producing rotations around non-existing objects.\nMetals like the one found on sedna, this cold, strange planet, produce motion that would be otherwise impossible at such distance from a star.\nThis allows the planet to orbit a point located somewhere near Sol, yet this motion would happen anyway even if the star wasn\u0027t there!\nManipulations of this type, at a much, much, much, larger scale are probably what guides the powers of the Twilight Horde, looking at the dungeon of Arcana.\nBut here is a philosophical question, is the warping of space caused by the emergent properties of materials like Sednanite, or are materials like Sednanite brought forth by spatial anomalies, or are both a consequence of somthing else, something more fundamental.\nIf I want answers to this question, I\u0027ll have to come to the great powers of this universe, I suspect.",
+      "desc:8": "尤里卡！我终于找到缺失的环节了！\n引力不仅能呈现正负属性，还能以虚数形式存在，产生围绕虚无之物的旋转轨道。\n在塞德娜这颗寒冷奇异的星球上，存在着某种特殊金属。即便距离恒星如此遥远，它仍能催生本不可能实现的运动。\n这使得塞德娜得以环绕索尔附近的某处空间点转动，尽管那儿根本就没有星体！\n观察秘界地牢的运作方式，暮光部落所掌控的力量很可能正是基于此类原理，只不过规模被放大到了无以计数的程度。\n但这里存在一个哲学命题：空间扭曲究竟是塞德娜合金这类物质涌现的特性所致？抑或是空间异变催生了此类物质？又或者……二者皆是某种更为本质的深层存在所引发的表象？\n若想解答这个问题，恐怕必须求助于宇宙间的终极伟力了。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 54,
         "id:8": "contenttweaker:material_part"
       },
-      "name:8": "Power in Metal"
+      "name:8": "金属中的力量"
     }
   },
   "questID:3": 157,

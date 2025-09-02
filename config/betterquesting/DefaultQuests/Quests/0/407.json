@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Yup, some tinkering was what I needed! I feel a lot better now!\nAnd as a bonus, now I have a way to fuse metastable heavy elements.",
+      "desc:8": "没错，我需要正需要稍微捣鼓几！现在感觉好多了！\n而且还有个额外收获，我现在掌握了融合亚稳态重元素的方法！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:everlasting_fusor"
       },
-      "name:8": "Everlasting Fusor"
+      "name:8": "永恒融合器"
     }
   },
   "questID:3": 407,

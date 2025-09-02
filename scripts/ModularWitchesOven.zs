@@ -239,3 +239,82 @@ honeysmelt26.addItemOutput(<industrialforegoing:pink_slime>*64);
 honeysmelt26.addItemOutput(<industrialforegoing:pink_slime>*64);
 honeysmelt26.build();
 
+
+val honeysmelt27 = RecipeBuilder.newBuilder("honeysmelt27","honeysmelter_oven",5);
+honeysmelt27.addFluidInput(<fluid:for.honey>*100);
+honeysmelt27.addItemInput(<aoa3:stranglewood_sapling>*16);
+honeysmelt27.addItemInput(<bewitchment:empty_jar>*16);
+honeysmelt27.addItemOutput(<bewitchment:wood_ash>*16);
+honeysmelt27.addItemOutput(<bewitchment:oak_spirit>*16);
+honeysmelt27.build();
+
+
+val honeysmelt28 = RecipeBuilder.newBuilder("honeysmelt28","honeysmelter_oven",5);
+honeysmelt28.addFluidInput(<fluid:for.honey>*100);
+honeysmelt28.addItemInput(<aoa3:lucalus_sapling>*16);
+honeysmelt28.addItemInput(<bewitchment:empty_jar>*16);
+honeysmelt28.addItemOutput(<bewitchment:wood_ash>*16);
+honeysmelt28.addItemOutput(<bewitchment:spruce_heart>*16);
+honeysmelt28.build();
+
+
+val honeysmelt29 = RecipeBuilder.newBuilder("honeysmelt29","honeysmelter_oven",5);
+honeysmelt29.addFluidInput(<fluid:for.honey>*100);
+honeysmelt29.addItemInput(<aoa3:achony_sapling>*16);
+honeysmelt29.addItemInput(<bewitchment:empty_jar>*16);
+honeysmelt29.addItemOutput(<bewitchment:wood_ash>*16);
+honeysmelt29.addItemOutput(<bewitchment:birch_soul>*16);
+honeysmelt29.build();
+
+val honeysmelt30 = RecipeBuilder.newBuilder("honeysmelt30","honeysmelter_oven",5);
+honeysmelt30.addFluidInput(<fluid:for.honey>*100);
+honeysmelt30.addItemInput(<aoa3:creep_sapling>*16);
+honeysmelt30.addItemInput(<bewitchment:empty_jar>*16);
+honeysmelt30.addItemOutput(<bewitchment:wood_ash>*16);
+honeysmelt30.addItemOutput(<bewitchment:cloudy_oil>*16);
+honeysmelt30.build();
+
+val honeysmelt31 = RecipeBuilder.newBuilder("honeysmelt31","honeysmelter_oven",5);
+honeysmelt31.addFluidInput(<fluid:for.honey>*100);
+honeysmelt31.addItemInput(<aoa3:churry_sapling>*16);
+honeysmelt31.addItemInput(<bewitchment:empty_jar>*16);
+honeysmelt31.addItemOutput(<bewitchment:wood_ash>*16);
+honeysmelt31.addItemOutput(<bewitchment:acacia_resin>*16);
+honeysmelt31.build();
+
+val honeysmelt32 = RecipeBuilder.newBuilder("honeysmelt32","honeysmelter_oven",5);
+honeysmelt32.addFluidInput(<fluid:for.honey>*100);
+honeysmelt32.addItemInput(<aoa3:bloodtwister_sapling>*16);
+honeysmelt32.addItemInput(<bewitchment:empty_jar>*16);
+honeysmelt32.addItemOutput(<bewitchment:wood_ash>*16);
+honeysmelt32.addItemOutput(<bewitchment:ebb_of_death>*16);
+honeysmelt32.build();
+
+val honeysmelt33 = RecipeBuilder.newBuilder("honeysmelt33","honeysmelter_oven",5);
+honeysmelt33.addFluidInput(<fluid:for.honey>*100);
+honeysmelt33.addItemInput(<aoa3:shadow_sapling>*16);
+honeysmelt33.addItemInput(<bewitchment:empty_jar>*16);
+honeysmelt33.addItemOutput(<bewitchment:wood_ash>*16);
+honeysmelt33.addItemOutput(<bewitchment:droplet_of_wisdom>*16);
+honeysmelt33.build();
+
+val honeysmelt34 = RecipeBuilder.newBuilder("honeysmelt34","honeysmelter_oven",5);
+honeysmelt34.addFluidInput(<fluid:for.honey>*100);
+honeysmelt34.addItemInput(<aoa3:creep_grass>*16);
+honeysmelt34.addItemInput(<bewitchment:empty_jar>*16);
+honeysmelt34.addItemOutput(<bewitchment:wood_ash>*16);
+honeysmelt34.addItemOutput(<bewitchment:liquid_witchcraft>*16);
+honeysmelt34.build();
+
+val honeysmelt35 = RecipeBuilder.newBuilder("honeysmelt35","honeysmelter_oven",5);
+honeysmelt35.addFluidInput(<fluid:for.honey>*100);
+honeysmelt35.addItemInput(<aoa3:deep_grass>*16);
+honeysmelt35.addItemInput(<bewitchment:empty_jar>*16);
+honeysmelt35.addItemOutput(<bewitchment:wood_ash>*16);
+honeysmelt35.addItemOutput(<bewitchment:essence_of_vitality>*16);
+honeysmelt35.build();
+
+
+
+
+

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "I do not think I am ready to enter this trial. I was able to catch glimpses of it, and I can safely say I am not ready for it.\nTo gain true power, the one my opponents possess, something needs to be given up. \nThat, I think, is why the Great Ones I have encountered are the way they are, twisted beings, reduced to singular goals and aspects, incapable of deviating from their paradigms.\nDo I want this? Is this what immortality leads to?",
+      "desc:8": "我认为自己尚未准备好接受这场试炼。我曾窥见其中片段，因此可以确定地说我还没准备好。\n要获得对手们所拥有的真正力量，必须付出某种代价。\n我想，这就是为何我遇到的那些梦境诸神都变成了那副模样——扭曲的存在，被简化为单一目标和特质，无法偏离他们的既定范式。\n这是我想要的吗？难道不朽的终点就是如此？",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:sacrificial_shard"
       },
-      "name:8": "Sacrificial Shard"
+      "name:8": "献祭碎片"
     }
   },
   "questID:3": 478,

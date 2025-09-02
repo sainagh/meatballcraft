@@ -2019,6 +2019,14 @@ callfullmoon.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon aoa3:skellox ~ ~3 ~", player, world, false, true);
     Commands.call("summon aoa3:skellox ~ ~3 ~", player, world, false, true);
 
+    player.sendChat("在霜冻之地，或许能寻得新的答案！");
+
+
+    if(player.getDimension() == 425) {
+        Commands.call("/summon iceandfire:lightningdragon ~ ~ ~ {AgeTicks:2040000, Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:100.0}],Health:10000f}", player, world, false, true);
+    }
+
+
     stack.shrink(1);
     return "PASS";
 
@@ -2052,6 +2060,13 @@ callbloodhunt.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, false, true);
     Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, false, true);
     Commands.call("summon aoa3:bloodsucker ~ ~3 ~", player, world, false, true);
+
+    player.sendChat("在至黑深处，或许能寻得新的答案！");
+
+
+    if(player.getDimension() == -11325) {
+        Commands.call("/summon aoa3:nethengeic_beast ~ ~ ~", player, world, false, true);
+    }
 
     stack.shrink(1);
     return "PASS";
@@ -2202,6 +2217,14 @@ embiggener.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon aoa3:leafy_giant ~ ~3 ~", player, world, false, true);
     Commands.call("summon aoa3:leafy_giant ~ ~3 ~", player, world, false, true);
     Commands.call("summon aoa3:leafy_giant ~ ~3 ~", player, world, false, true);
+
+    player.sendChat("在浮空岛屿，或许能寻得新的答案！");
+
+
+    if(player.getDimension() == 4) {
+        Commands.call("/summon aoa3:king_charger ~ ~ ~", player, world, false, true);
+    }
+
 
     stack.shrink(1);
     return "PASS";
@@ -3824,7 +3847,7 @@ thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
 
 
     Commands.call("summon aoa3:dracyon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_borean\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
-    Commands.call("summon aoa3:visualent ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_lunalus\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:visualent ~2 ~ ~2 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_lunalus\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
     Commands.call("summon aoa3:clunkhead ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_runandor\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
     Commands.call("summon divinerpg:sunstorm ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_eden\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
     Commands.call("summon divinerpg:termasect ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_wildwood\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
@@ -4248,6 +4271,14 @@ recursivepaperdunerider.itemRightClick = function(stack, world, player, hand) {
 
 	Commands.call("/summon iceandfire:deathworm ~ ~ ~ {Scale:5f,WormAge:2}", player, world, false, true);
 
+
+    player.sendChat("在烈焰燃起之地，或许能寻得新的答案！");
+
+
+    if(player.getDimension() == -1) {
+        Commands.call("/summon iceandfire:if_hydra ~ ~ ~", player, world, false, true);
+    }
+
     stack.shrink(1);
     return "PASS";
 
@@ -4347,6 +4378,7 @@ recursivepaperfaithfulundead.itemRightClick = function(stack, world, player, han
 
 };
 recursivepaperfaithfulundead.register();
+
 
 
 var weaponsmithcallstone = VanillaFactory.createItem("weaponsmith_callstone");
@@ -4768,7 +4800,7 @@ faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    player.sendChat("站在场地结构中心使用递归之石！");
+    player.sendChat("站在带有递归之石的场地结构中心！");
 
     player.sendChat("检查玩家位置中");
     player.sendChat("==================================================");
@@ -4780,7 +4812,7 @@ faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
     var blockPos1 = pos1.asBlockPos();
     var blockState1 = world.getBlock(blockPos1).definition.id as string;
     if(blockState1 != "contenttweaker:recursive_stone") {
-        player.sendChat("站在场地结构中心使用递归之石！");
+        player.sendChat("站在带有递归之石的场地结构中心！");
         return "FAIL";
     }
 
@@ -4791,7 +4823,7 @@ faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
     var blockPos2 = pos2.asBlockPos();
     var blockState2 = world.getBlock(blockPos2).definition.id as string;
     if(blockState2 != "contenttweaker:recursive_stone") {
-        player.sendChat("站在场地结构中心使用递归之石！");
+        player.sendChat("站在带有递归之石的场地结构中心！");
         return "FAIL";
     }
 
@@ -4802,7 +4834,7 @@ faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
     var blockPos3 = pos3.asBlockPos();
     var blockState3 = world.getBlock(blockPos3).definition.id as string;
     if(blockState3 != "contenttweaker:recursive_stone") {
-        player.sendChat("站在场地结构中心使用递归之石！");
+        player.sendChat("站在带有递归之石的场地结构中心！");
         return "FAIL";
     }
 
@@ -4813,7 +4845,7 @@ faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
     var blockPos4 = pos4.asBlockPos();
     var blockState4 = world.getBlock(blockPos4).definition.id as string;
     if(blockState4 != "contenttweaker:recursive_stone") {
-        player.sendChat("站在场地结构中心使用递归之石！");
+        player.sendChat("站在带有递归之石的场地结构中心！");
         return "FAIL";
     }
 
@@ -4824,19 +4856,19 @@ faithfulundeadcallstone.itemRightClick = function(stack, world, player, hand) {
     var blockPos5 = pos5.asBlockPos();
     var blockState5 = world.getBlock(blockPos5).definition.id as string;
     if(blockState5 != "contenttweaker:recursive_stone") {
-        player.sendChat("站在场地结构中心使用递归之石！");
+        player.sendChat("站在带有递归之石的场地结构中心！");
         return "FAIL";
     }
 
 
-    Commands.call("summon mod_lavacow:undertaker ~2 ~2 ~0 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"亡灵忠仆\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
-    Commands.call("summon mod_lavacow:banshee ~-2 ~2 ~0 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"亡灵忠仆\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
-    Commands.call("summon mod_lavacow:forsaken ~-2 ~2 ~2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"亡灵忠仆\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
-    Commands.call("summon mod_lavacow:zombiemushroom ~2 ~2 ~2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"亡灵忠仆\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
-    Commands.call("summon mod_lavacow:mummy ~0 ~2 ~-2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"亡灵忠仆\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
-    Commands.call("summon mod_lavacow:unburied ~2 ~2 ~-2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"亡灵忠仆\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
-    Commands.call("summon mod_lavacow:zombiefrozen ~0 ~2 ~2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"亡灵忠仆\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
-    Commands.call("summon mod_lavacow:ithaqua ~-2 ~2 ~-2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"亡灵忠仆\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:undertaker ~2 ~2 ~0 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"虔信亡灵\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:banshee ~-2 ~2 ~0 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"虔信亡灵\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:forsaken ~-2 ~2 ~2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"虔信亡灵\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:zombiemushroom ~2 ~2 ~2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"虔信亡灵\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:mummy ~0 ~2 ~-2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"虔信亡灵\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:unburied ~2 ~2 ~-2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"虔信亡灵\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:zombiefrozen ~0 ~2 ~2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"虔信亡灵\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
+    Commands.call("summon mod_lavacow:ithaqua ~-2 ~2 ~-2 {HandItems:[{Count:1,id:\"contenttweaker:prophetic_meatball_flesh\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ArmorItems:[{Count:1,id:\"contenttweaker:grave_dust_feet\",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:\"contenttweaker:grave_dust_legs\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_chest\",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:\"contenttweaker:grave_dust_head\"}],CustomName:\"虔信亡灵\",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f]}", player, world, false, true);
 
 
     return "PASS";
@@ -4884,7 +4916,7 @@ meatballmancallstone.itemRightClick = function(stack, world, player, hand) {
     }
 
     player.sendChat("站在以下方块上方：");
-    player.sendChat("噩兆机械外壳（上）");
+    player.sendChat("饥渴机械外壳（上）");
     player.sendChat("超越天显化法器（中）");
     player.sendChat("神话开掘反应器（下）");
 
@@ -4898,7 +4930,7 @@ meatballmancallstone.itemRightClick = function(stack, world, player, hand) {
     var blockPos1 = pos1.asBlockPos();
     var blockState1 = world.getBlock(blockPos1).definition.id as string;
     if(blockState1 != "contenttweaker:hungering_machine_case") {
-        player.sendChat("缺少噩兆机械外壳");
+        player.sendChat("缺少饥渴机械外壳");
         return "FAIL";
     }
 
@@ -5061,7 +5093,7 @@ sprensummonerglory.itemRightClick = function(stack, world, player, hand) {
     }
 
 
-    Commands.call("summon ebwizardry:spirit_horse ~ ~5 ~ {PersistenceRequired:1,Tags:[\"sprenglory\"],CustomName:\"荣耀之灵\"}", player, world, false, true);
+    Commands.call("summon minecraft:horse ~ ~5 ~ {PersistenceRequired:1,Tags:[\"sprenglory\"],CustomName:\"荣耀之灵\"}", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -5284,7 +5316,139 @@ shyreridercallstone.itemRightClick = function(stack, world, player, hand) {
 shyreridercallstone.register();
 
 
+var blackfrostcallstone = VanillaFactory.createItem("blackfrost_callstone");
+blackfrostcallstone.maxStackSize = 1;
+blackfrostcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 193) {
+        player.sendChat("需位于争竞界");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn travixte_structure_blackfrost", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+blackfrostcallstone.register();
+
+
 
 
 
 //summon thaumcraft:cultistknight ~ ~1 ~ {HandItems:[{Count:1,id:"aoa3:gods_greatblade"},{Count:1,id:"contenttweaker:cursed_cradle"}],HandDropChances:[0.0f,1.0f],CustomName:"Defiler of the Dragon Cradle",Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:10000.0}],Health:100000f,ArmorItems:[{Count:1,id:"aoa3:knight_boots"},{Count:1,id:"aoa3:knight_legs"},{Count:1,id:"aoa3:knight_chestplate"},{Count:1,id:"aoa3:knight_helmet"}]}
+
+
+
+
+
+
+
+var holysludgecallstone = VanillaFactory.createItem("holy_sludge_callstone");
+holysludgecallstone.maxStackSize = 1;
+holysludgecallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("需位于主世界");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn holy_sludge_structure_callstone", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+holysludgecallstone.register();
+
+
+
+var forsakenpriestscallstone = VanillaFactory.createItem("forsaken_priests_callstone");
+forsakenpriestscallstone.maxStackSize = 1;
+forsakenpriestscallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 819) {
+        player.sendChat("需位于符境");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn forsaken_priests_callstone_structure", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+forsakenpriestscallstone.register();
+
+
+
+var summonstothearmyofdarkness = VanillaFactory.createItem("summons_to_the_army_of_darkness");
+summonstothearmyofdarkness.maxStackSize = 1;
+summonstothearmyofdarkness.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 810) {
+        player.sendChat("需位于格瑞克维度");
+        return "FAIL";
+    }
+
+    Commands.call("summon aoa3:skull_creature ~5 ~6 ~5 {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:skull_creature ~-5 ~6 ~5 {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:skull_creature ~5 ~6 ~-5 {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:skull_creature ~-5 ~6 ~-5 {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:skull_creature ~5 ~6 ~ {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:skull_creature ~ ~6 ~5 {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:skull_creature ~ ~6 ~-5 {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:skull_creature ~-5 ~6 ~ {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+
+    Commands.call("summon aoa3:bone_creature ~8 ~6 ~8 {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~-8 ~6 ~8 {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~8 ~6 ~-8 {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~-8 ~6 ~-8 {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~ ~6 ~8 {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~ ~6 ~-8 {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~8 ~6 ~ {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon aoa3:bone_creature ~-8 ~6 ~ {HandItems:[{Count:1,id:\"contenttweaker:nightmare_steel_shard\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+
+    Commands.call("summon minecraft:wither_skeleton ~12 ~6 ~12 {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon minecraft:wither_skeleton ~-12 ~6 ~12 {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon minecraft:wither_skeleton ~12 ~6 ~-12 {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon minecraft:wither_skeleton ~-12 ~6 ~-12 {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon minecraft:wither_skeleton ~12 ~6 ~ {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon minecraft:wither_skeleton ~-12 ~6 ~ {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon minecraft:wither_skeleton ~ ~6 ~-12 {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon minecraft:wither_skeleton ~ ~6 ~12 {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+
+    Commands.call("summon minecraft:skeleton ~15 ~6 ~15 {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon minecraft:skeleton ~15 ~6 ~-15 {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon minecraft:skeleton ~-15 ~6 ~15 {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon minecraft:skeleton ~-15 ~6 ~-15 {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon minecraft:skeleton ~15 ~6 ~ {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon minecraft:skeleton ~ ~6 ~15 {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon minecraft:skeleton ~ ~6 ~-15 {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+    Commands.call("summon minecraft:skeleton ~-15 ~6 ~ {HandItems:[{Count:1,id:\"divinerpg:gray_divine_sword\"},{Count:1,id:\"contenttweaker:nightmare_steel_shard\"}],HandDropChances:[0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:1000.0}],Health:50000f}", player, world, false, true);
+
+    Commands.call("summon aoa3:grillface ~ ~6 ~ {HandItems:[{Count:1,id:\"contenttweaker:horn_of_the_dark_goat\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:300000.0},{Name:generic.attackDamage, Base:1000.0}],Health:300000f,CustomName:\"Shluhnaggah，黑山羊\"}", player, world, false, true);
+
+
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+summonstothearmyofdarkness.register();
+
+
+
+
+

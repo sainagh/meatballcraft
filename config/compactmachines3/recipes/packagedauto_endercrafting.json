@@ -10,118 +10,159 @@
 
 
 
-    "input-types": {
-      "a": {
-        "id": "extendedcrafting:ender_alternator",
-        "meta": 0,
+  "input-types": {
+    "a": {
+      "id": "extendedcrafting:ender_alternator",
+      "meta": 0,
         "item": {
             "id": "extendedcrafting:ender_alternator",
             "count": 1
           }
-      },
-      "b": {
-        "id": "appliedenergistics2:cable_bus",
-        "meta": 0,
+    },
+    "b": {
+      "id": "minecraft:tripwire",
+      "meta": 0,
         "item": {
-            "id": "contenttweaker:more_alternators_faster",
+            "id": "contenttweaker:any_number_pedestals",
             "count": 1
           }
-      },
-      "c": {
-        "id": "packagedauto:packager",
-        "meta": 0,
+    },
+    "c": {
+      "id": "packagedauto:packager",
+      "meta": 0,
         "item": {
             "id": "packagedauto:packager",
             "count": 1
           }
-      },
-      "d": {
-        "id": "packagedauto:unpackager",
-        "meta": 0,
+    },
+    "d": {
+      "id": "appliedenergistics2:cable_bus",
+      "meta": 0,
+        "item": {
+            "id": "appliedenergistics2:cable_bus",
+            "count": 1
+          }
+    },
+    "e": {
+      "id": "packagedauto:unpackager",
+      "meta": 0,
         "item": {
             "id": "packagedauto:unpackager",
             "count": 1
           }
-      },
-      "e": {
-        "id": "packagedexcrafting:ender_crafter",
-        "meta": 0,
+    },
+    "f": {
+      "id": "packagedexcrafting:ender_crafter",
+      "meta": 0,
         "item": {
             "id": "packagedexcrafting:ender_crafter",
             "count": 1
           }
-      }
+    }
+  },
+  "input-nbt": {
+    "a:A": {
+      "nbt": "{Energy:0,ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},OwnerUUIDLeast:-5903828338681376133L,id:\"packagedexcrafting:marked_pedestal\",Node:{p:0,k:-1L,g:18411L},Items:[{Slot:0b,id:\"minecraft:air\",Count:0b,Damage:0s}],OwnerUUIDMost:-8342885232664559613L}"
     },
-
-    "shape": [
+    "c:A": {
+      "nbt": "{Progress:0,Node:{p:0,k:-1L,g:18411L},OwnerUUIDMost:-8342885232664559613L,Mode:0b,Energy:0,Working:0b,OwnerUUIDLeast:-5903828338681376133L,ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"packagedauto:packager\",Powered:0b,Items:[{Slot:11b,id:\"minecraft:air\",Count:0b,Damage:0s}]}"
+    },
+    "d:A": {
+      "nbt": "{\"def:6\":{id:\"appliedenergistics2:part\",Count:1,Damage:56s},ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"appliedenergistics2:blockcablebus\",hasRedstone:2,\"extra:6\":{part:{p:0,k:-1L,g:18411L},usedChannels:2}}"
+    },
+    "e:A": {
+      "nbt": "{Tracker08:{ToSend:[]},Node:{p:0,k:-1L,g:18411L},Trackers:6b,OwnerUUIDMost:-8342885232664559613L,Tracker09:{ToSend:[]},Energy:0,Blocking:0b,OwnerUUIDLeast:-5903828338681376133L,ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"packagedauto:unpackager\",Tracker01:{ToSend:[]},Powered:0b,Tracker00:{ToSend:[]},Items:[{Slot:10b,id:\"minecraft:air\",Count:0b,Damage:0s}],Tracker03:{ToSend:[]},Tracker07:{ToSend:[]},Tracker02:{ToSend:[]},Tracker06:{ToSend:[]},Tracker05:{ToSend:[]},Tracker04:{ToSend:[]}}"
+    },
+    "f:A": {
+      "nbt": "{Progress:0L,EnergyReq:0L,Node:{p:0,k:-1L,g:18411L},OwnerUUIDMost:-8342885232664559613L,Working:0b,Energy:0,EnergyUsage:0,OwnerUUIDLeast:-5903828338681376133L,ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"packagedexcrafting:conbination_crafter\",Items:[{Slot:2b,id:\"minecraft:air\",Count:0b,Damage:0s}]}"
+    }
+  },
+  "shape": [
+    [
       [
-        [
-          "_",
-          "_",
-          "_"
-        ],
-        [
-          "_",
-          "b",
-          "_"
-        ],
-        [
-          "_",
-          "_",
-          "_"
-        ]
+        "_",
+        "_",
+        "_"
       ],
       [
-        [
-          "_",
-          "_",
-          "_"
-        ],
-        [
-          "_",
-          "c",
-          "_"
-        ],
-        [
-          "_",
-          "_",
-          "_"
-        ]
+        "_",
+        "b",
+        "_"
       ],
       [
-        [
-          "_",
-          "_",
-          "_"
-        ],
-        [
-          "_",
-          "d",
-          "_"
-        ],
-        [
-          "_",
-          "_",
-          "_"
-        ]
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
       ],
       [
-        [
-          "a",
-          "a",
-          "a"
-        ],
-        [
-          "a",
-          "e",
-          "a"
-        ],
-        [
-          "a",
-          "a",
-          "a"
-        ]
+        "_",
+        "c:A",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "d:A",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "e:A",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "f:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "a:A"
       ]
     ]
-         
+  ]
+       
 }

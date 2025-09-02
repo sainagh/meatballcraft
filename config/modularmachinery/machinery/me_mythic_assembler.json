@@ -2,6 +2,21 @@
     "registryname": "me_mythic_assembler",
     "localizedname": "ME Mythic Assembler",
 	"color": "590b7a",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:fracturing_stone",
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "description": "速度x5",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.2
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -1,

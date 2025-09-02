@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "And here is what my enemies wanted to get. Projector Gems are a recursive material hidden in the depths of Rhenia.\nThe bees do not know where it comes from, it was there in this world before their coming, and despite being aware of it, they never found a use for it.\nTo be fair, though, preventing the invaders of Terra from Getting their hand on it, that is already plenty useful!\nThe way the bees protect this world is quite interesting. It is a next level scorched earth (well, scorched Rhenia) strategy.\nBees, thanks to their adaptations, are capable of surviving in incredibly extreme conditions. To bring an army comparable to the ones on Terra here would require quite a bit of infrastructure to do safely. For starters, every potential invader would require some sort of respiration device (or magic survival tool) to even survive. And with bees capable of piercing through pretty much any conventional material, whatever device said potential invaders implement will have to be extremely strong. Additionally, the surface of the planet has been emptied of any resource that could aid life that\u0027s not a bee, requiring massive supply chain infrastructure for anyone who wanted to conduct war in such a place.\nGiven all these challenges, the bees of Rhenia made it so anyone who wants to attack this world will have to invest more resources into infrastructure and armaments than the potential gain of getting their hands on some Projector Gems.\nIf this were about Dimensional Shards, I suspect such a strategy would not work, but the recursive matter on Rhenia seems to be low impact enough to not being worth the hassle.",
+      "desc:8": "而这正是我的敌人们想要获取的东西。投影宝石是深藏在铼界地层中的一种递归物质。\n蜜蜂并不知道它的来源,早在它们到来之前，这种物质就已存在于这个世界。尽管知晓其存在，它们始终未能发掘其用途。\n不过平心而论，能阻止泰拉入侵者染指此物，这本身就极具价值！\n蜜蜂守护这个世界的方式颇为有趣。这是一种升级版的焦土（确切地说是焦铼界）战略。\n凭借特殊的适应性，蜜蜂能在极端恶劣的环境中生存。若想在此部署堪比泰拉规模的军队，需要搭建庞大的保障体系：首先，任何潜在入侵者都必须配备呼吸装置（或魔法维生工具）才能存活。而蜜蜂能刺穿几乎所有常规材料，这意味着入侵者的防护装置必须异常坚固。此外，地表所有非蜜蜂可用的生存资源都已被清空，想要在此发动战争就必须建立超大规模的补给链。\n面对这些挑战，铼界蜜蜂成功设置了这样的博弈：任何企图进攻此界的势力，在基础设施和军备上的投入都将超过获取投影宝石的潜在收益。\n若换成维度碎片，这种策略或许难以奏效。但铼界的递归物质影响层级较低，确实不值得如此大动干戈。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:holographic_ore"
       },
-      "name:8": "Projections of Recursion"
+      "name:8": "递归投影"
     }
   },
   "questID:3": 507,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "At the energy state of dense plasma, it is possible to increase the potential of the fluid through electron irradiation!",
+      "desc:8": "在致密等离子体的能量状态下，可以通过电子辐照提升流体的电势能！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -13,7 +13,7 @@
           "FluidName:8": "unbalanced_negative_matter"
         }
       },
-      "name:8": "Fermionic Matter"
+      "name:8": "费米子物质"
     }
   },
   "questID:3": 1325,

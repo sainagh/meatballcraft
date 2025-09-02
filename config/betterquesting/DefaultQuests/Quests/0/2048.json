@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While the Bees were unable to bind Naquadah, they were successful at binding a material, well, a material impregnated by a foreign energy, from one of the other beings that came to Apichisi.\nIt is permeated by the same magic I have seen in Crystevia.",
+      "desc:8": "尽管这些蜜蜂无法与硅岩产生共鸣，但它们成功绑定了一种物质——确切地说，是一种被外来能量浸染的物质，源自另一名抵达共鸣界的异界存在。\n这种物质渗透着我曾在晶体维度见识过的同源魔法能量。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:stormborn_callstone"
       },
-      "name:8": "Sormy Bees"
+      "name:8": "风暴蜜蜂"
     }
   },
   "questID:3": 2048,
