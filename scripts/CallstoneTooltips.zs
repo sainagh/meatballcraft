@@ -105,6 +105,11 @@
 <contenttweaker:gravitational_callstone>.addTooltip(format.red("Use in this dimension:  Lelyetia"));
 <contenttweaker:holy_sludge_callstone>.addTooltip(format.red("Use in this dimension:  Overworld"));
 <contenttweaker:forsaken_priests_callstone>.addTooltip(format.red("Use in this dimension:  Runandor"));
+<contenttweaker:summons_of_the_cursed_wyvern>.addTooltip(format.red("Use in this dimension:  Lyndenwyrm"));
+<contenttweaker:dying_constellation_callstone>.addTooltip(format.red("Use in this dimension:  Fuhai"));
+<contenttweaker:hopeful_return_callstone>.addTooltip(format.red("Use in this dimension:  Arcana Roof"));
+<contenttweaker:hollow_stag_callstone>.addTooltip(format.red("Use in this dimension:  Erebus"));
+<contenttweaker:broken_oath>.addTooltip(format.red("Use in this dimension:  Twilight Forest"));
 
 
 

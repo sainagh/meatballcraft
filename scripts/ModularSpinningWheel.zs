@@ -161,3 +161,46 @@ spinnyboi13.addItemOutput(<bewitchment:alchemists_fleece>*64);
 spinnyboi13.addItemOutput(<bewitchment:alchemists_fleece>*64);
 spinnyboi13.addItemOutput(<bewitchment:alchemists_fleece>*64);
 spinnyboi13.build();
+
+
+val spinnyboi14 = RecipeBuilder.newBuilder("spinnyboi14","sparkled_spinning_wheel",100);
+spinnyboi14.addFluidInput(<fluid:mana>*1000);
+spinnyboi14.addFluidInput(<fluid:dragons_blood_plastic>*100);
+spinnyboi14.addItemInput(<contenttweaker:bloodshed_fabric>*64);
+spinnyboi14.addItemInput(<minecraft:wool:15>*64);
+spinnyboi14.addItemInput(<bewitchment:bottle_of_blood>*64);
+spinnyboi14.addItemInput(<bewitchment:diabolical_vein>*64);
+spinnyboi14.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi14.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi14.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi14.build();
+
+val spinnyboi15 = RecipeBuilder.newBuilder("spinnyboi15","sparkled_spinning_wheel",100);
+spinnyboi15.addFluidInput(<fluid:mana>*1000);
+spinnyboi15.addFluidInput(<fluid:dragons_blood_plastic>*100);
+spinnyboi15.addItemInput(<contenttweaker:bloodshed_fabric>*64);
+spinnyboi15.addItemInput(<contenttweaker:elden_bloodied_fabric>*64);
+spinnyboi15.addItemInput(<bewitchment:bottle_of_blood>*64);
+spinnyboi15.addItemInput(<bewitchment:diabolical_vein>*64);
+spinnyboi15.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi15.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi15.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi15.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi15.build();
+
+val spinnyboi16 = RecipeBuilder.newBuilder("spinnyboi16","sparkled_spinning_wheel",100);
+spinnyboi16.addFluidInput(<fluid:mana>*1000);
+spinnyboi16.addFluidInput(<fluid:dragons_blood_plastic>*100);
+spinnyboi16.addItemInput(<contenttweaker:fearmongerer_fabric>*64);
+spinnyboi16.addItemInput(<contenttweaker:fearmongerer_fabric>*64);
+spinnyboi16.addItemInput(<bewitchment:bottle_of_blood>*64);
+spinnyboi16.addItemInput(<bewitchment:diabolical_vein>*64);
+spinnyboi16.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi16.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi16.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi16.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi16.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi16.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi16.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi16.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi16.build();

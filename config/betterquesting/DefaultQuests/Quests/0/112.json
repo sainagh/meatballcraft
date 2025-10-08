@@ -19,8 +19,8 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 4,
-          "id:8": "buildcraftsilicon:laser"
+          "Count:3": 2,
+          "id:8": "bc_ex_laser:ex_laser_mk2"
         }
       }
     }
@@ -36,6 +36,10 @@
         "1:10": {
           "Count:3": 1,
           "id:8": "buildcraftsilicon:laser"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "bc_ex_laser:ex_laser_mk2"
         }
       },
       "taskID:8": "bq_standard:retrieval"

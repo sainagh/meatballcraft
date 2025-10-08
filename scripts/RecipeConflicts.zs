@@ -1,4 +1,5 @@
 import mods.astralsorcery.Utils;
+import crafttweaker.item.IItemStack;
 
 
 recipes.removeShaped(<divinerpg:shuriken>);
@@ -1830,6 +1831,15 @@ mods.techreborn.grinder.addRecipe(<appliedenergistics2:material:2>, <appliedener
 // [<botania:manaresource:0>, <divinerpg:arcanium_block>, <botania:manaresource:0>],
 // [<botania:manaresource:7>, <botania:manaresource:0>, <botania:manaresource:7>]]);
 
+
+val itemSuperconductorLensEB = <ore:itemSuperconductorLensEB>;
+itemSuperconductorLensEB.add(<extrabotany:lens:6>);
+
+recipes.addShaped(<extrabotany:lens:6>,
+[[null, <contenttweaker:greater_gaia_spirit>, null],
+[<contenttweaker:greater_gaia_spirit>, <ore:itemSuperconductorLensEB>.reuse(), <contenttweaker:greater_gaia_spirit>],
+[null, <contenttweaker:greater_gaia_spirit>, null]]);
+
 recipes.addShaped(<extrabotany:lens:6>,
 [[null, <contenttweaker:greater_gaia_spirit>, null],
 [<contenttweaker:greater_gaia_spirit>, <extrabotany:lens:6>.reuse(), <contenttweaker:greater_gaia_spirit>],
@@ -1907,54 +1917,37 @@ recipes.addShaped(<contenttweaker:whispering_meatball>*2,
 [<contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>]]);
 
 
-recipes.addShapeless(<contenttweaker:alchemical_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<minecraft:iron_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<minecraft:gold_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<thermalfoundation:ore:0>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<thermalfoundation:ore:1>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<minecraft:redstone_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<minecraft:diamond_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<libvulpes:ore0:0>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<libvulpes:ore0:8>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<thermalfoundation:ore:7>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<bigreactors:oreanglesite>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<bigreactors:orebenitoite>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<thermalfoundation:ore:8>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<divinerpg:arlemite_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<divinerpg:realmite_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<divinerpg:rupee_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<divinerpg:bloodgem_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<divinerpg:netherite_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<aoa3:rosite_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<aoa3:limonite_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<aoa3:runium_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<aoa3:sapphire_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<aoa3:jade_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
-recipes.addShapeless(<aoa3:amethyst_ore>,
-[<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+// Orbital Laser Drops list
+var orbitalLaserOres as IItemStack[] = [
+    <minecraft:iron_ore>,
+    <minecraft:gold_ore>,
+    <thermalfoundation:ore:0>,
+    <thermalfoundation:ore:1>,
+    <minecraft:redstone_ore>,
+    <minecraft:diamond_ore>,
+    <libvulpes:ore0:0>,
+    <libvulpes:ore0:8>,
+    <thermalfoundation:ore:7>,
+    <bigreactors:oreanglesite>,
+    <bigreactors:orebenitoite>,
+    <thermalfoundation:ore:8>,
+    <divinerpg:arlemite_ore>,
+    <divinerpg:realmite_ore>,
+    <divinerpg:rupee_ore>,
+    <divinerpg:bloodgem_ore>,
+    <divinerpg:netherite_ore>,
+    <aoa3:rosite_ore>,
+    <aoa3:limonite_ore>,
+    <aoa3:runium_ore>,
+    <aoa3:sapphire_ore>,
+    <aoa3:jade_ore>,
+    <aoa3:amethyst_ore>
+];
+
+// Add recipes for Orbital Laser Drops
+for ore in orbitalLaserOres {
+    recipes.addShapeless(ore, [<contenttweaker:orbital_laser_drops>, <advancedrocketry:spacelaser>]);
+}
 
 recipes.remove(<natura:respawn_obelisk>);
 
@@ -2503,59 +2496,59 @@ recipes.addShapeless(<contenttweaker:coolant_great>,
 
 
 recipes.addShapeless(<divinerpg:divine_shards>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<divinerpg:bluefire_stone>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<contenttweaker:nebulous_soul>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<abyssalcraft:ethaxiumingot>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<divinerpg:netherite_ingot>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<bewitchment:demon_heart>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<divinerpg:corrupted_shards>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<contenttweaker:bloodmaster_metal_chest>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<contenttweaker:primordial_sliver>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<minecraft:nether_star>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<minecraft:skull:1>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<contenttweaker:imp_skin>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<bewitchment:tongue_of_dog>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<bewitchment:lizard_leg>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<bewitchment:toe_of_frog>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<bewitchment:adders_fork>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 
 
 
 
 recipes.addShapeless(<divinerpg:halite_shield>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<divinerpg:halite_blade>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<divinerpg:halite_blitz>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<divinerpg:halite_slicer>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<divinerpg:halite_bow>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<divinerpg:halite_helmet>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<divinerpg:halite_leggings>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<divinerpg:halite_chestplate>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 recipes.addShapeless(<divinerpg:halite_boots>,
-[<contenttweaker:good_woot_drops>]);
+[<contenttweaker:good_woot_drops>, <woot:factory>]);
 
 
 recipes.addShapeless(<divinerpg:halite_phaser>,
@@ -2653,3 +2646,32 @@ recipes.addShaped(<divinerpg:divine_shards>,
 [[<contenttweaker:divine_wisp>, <contenttweaker:divine_wisp>, <contenttweaker:divine_wisp>],
 [<contenttweaker:divine_wisp>, <contenttweaker:holy_shimmer>, <contenttweaker:divine_wisp>],
 [<contenttweaker:divine_wisp>, <contenttweaker:divine_wisp>, <contenttweaker:divine_wisp>]]);
+
+
+recipes.addShapeless(<careerbees:ingredients:1>,
+[<contenttweaker:lumber_bee_setup>]);
+
+recipes.addShaped(<mowziesmobs:naga_fang>*4,
+[[<draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>],
+[<draconicevolution:chaos_shard:3>, <mowziesmobs:naga_fang>, <draconicevolution:chaos_shard:3>],
+[<draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>]]);
+
+recipes.addShapeless(<bnkrblks:megelium_stone>,
+[<contenttweaker:megelium_detonator_automation>, <modularmachinery:megelium_detonator_controller>]);
+
+recipes.addShapeless(<divinerpg:arcanium>,
+[<contenttweaker:trait_arcaneextraction>]);
+
+recipes.addShapeless(<contenttweaker:abyssal_wasteland_matter>,
+[<contenttweaker:trait_abyssalharvesting>, <contenttweaker:abyssal_harvester>]);
+
+recipes.addShapeless(<contenttweaker:dreadlands_matter>,
+[<contenttweaker:trait_dreadfulharvesting>, <contenttweaker:dreadful_harvester>]);
+
+recipes.addShapeless(<contenttweaker:omothol_matter>,
+[<contenttweaker:trait_omotholharvesting>, <contenttweaker:omothol_harvester>]);
+
+recipes.addShapeless(<contenttweaker:soul_fragment_of_the_reconciled_aesir>,
+[<contenttweaker:trait_willoftheaesir>]);
+
+

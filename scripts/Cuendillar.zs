@@ -235,3 +235,18 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_p
 // <tconstruct:hammer>.withTag({TinkerData: {Materials: ["runandium", "orichalcum", "neutronium", "kaiyu"]}, Traits: ["evil_pressure", "apocalypse", "laced", "mind", "body", "soul1", "thunder2", "flame2", "frost2", "uplifting", "shulking", "bone_shock", "high_in_calcium", "toolleveling"]})
 
 // <tconstruct:hammer>.withTag({TinkerData: {Materials: ["chaotic_plustic", "infinity_avaritia_plustic", "ascended_draconic_alloy", "vibranium_alloy"]}, Traits: ["darktraveler", "global", "brownmagic", "apocalypse", "spiky", "prickly", "ghastly", "endspeed", "toolleveling"]})
+
+
+
+val chaosstrikezwarrens = RecipeBuilder.newBuilder("chaosstrikezwarrens","chaotic_striker",10);
+chaosstrikezwarrens.addEnergyPerTickInput(1000000000);
+chaosstrikezwarrens.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["yggdrasil_wood", "yggdrasil_wood", "yggdrasil_wood", "yggdrasil_wood"]}, Traits: ["holy", "thaumic", "overflow", "toolleveling"]}));
+chaosstrikezwarrens.setChance(0.0);
+chaosstrikezwarrens.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezwarrens.setChance(0.0);
+chaosstrikezwarrens.addItemInput(<contenttweaker:self_actualizing_warren_rift>);
+chaosstrikezwarrens.addItemOutput(<contenttweaker:warren_plate>*7);
+chaosstrikezwarrens.build();
+
+
+

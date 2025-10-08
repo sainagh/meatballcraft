@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1809800621,
+    1569647533
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:sapphire_sword"
+      },
+      "name:8": "Ascended Sapphire Sword"
+    }
+  },
+  "questID:3": 1082165791,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:sapphire_sword"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

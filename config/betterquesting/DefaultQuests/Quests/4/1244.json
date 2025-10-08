@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe interface has two functions, see the section on autocrafting for an explanation on the other functionality.\n\nThe slots at the top of an interface GUI can be configured so that the network will keep a certain amount of items in the interface.\n\nConduits and other pipes can be used to extract and insert things from the interface.\n\nThis is more lag friendly than using export buses.",
+      "desc:8": "§7§oThe interface has two functions, see the section on autocrafting for an explanation on the other functionality.\n\nThe slots at the top of an interface GUI can be configured so that the network will keep a certain amount of items in the interface. The ME Fluid Interface has the same capability but for fluids.\n\nConduits and other pipes can be used to extract and insert things from the interface. This method is generally more lag friendly than using export and import buses.\n\nThe ME Dual Interface combines the capabilities of both the item and fluid Interfaces.\n\nFor recipes using fluid drops (if a Fluid Discretized is present in your ME network), an Ingredient Buffer must be placed between the interface and the target machine to split fluids and items before starting the recipe.\n\nThe ME Pattern Interface and ME Perfect Interface have only one of the two main functions the interface can perform, but possess more slots for patterns or stocked items.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:interface"
@@ -36,6 +36,22 @@
         "4:10": {
           "Count:3": 1,
           "id:8": "ae2fc:large_ingredient_buffer"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:patterns_interface",
+            "orig_meta:3": 0
+          }
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:perfect_interface",
+            "orig_meta:3": 0
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

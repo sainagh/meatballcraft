@@ -57,6 +57,10 @@
         "modularmachinery:blockinputbus",
         "modularmachinery:blockmeiteminputbus"
     ],
+    "generalized_output_will": [
+        "modularmachinery:blockwillprovideroutput",
+        "modularmachineryaddons:blockwillmultichunkprovideroutput"
+    ],
     "generalized_output_item": [
         "modularmachinery:blockoutputbus",
         "modularmachinery:blockmeitemoutputbus"

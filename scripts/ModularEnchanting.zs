@@ -697,3 +697,321 @@ enc52.addItemInput(<contenttweaker:blue_matter>*2);
 enc52.addItemInput(<ore:ingotAstralStarmetal>*4);
 enc52.addItemOutput(<astralsorcery:itemcelestialcrystal>.withTag({astralsorcery: {crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}));
 enc52.build();
+
+
+
+
+
+
+
+
+val enchegg1 = RecipeBuilder.newBuilder("enchegg1","illuminated_enchanter",4);
+enchegg1.addEnergyPerTickInput(100000);
+enchegg1.addFluidInput(<fluid:essence>*1000);
+enchegg1.addItemInput(<contenttweaker:cut_precasia_garnet>*64);
+enchegg1.addItemInput(<contenttweaker:skullbone_fragment_egg>*64);
+enchegg1.addItemOutput(<contenttweaker:skullbone_encrusted_egg>*64);
+enchegg1.build();
+
+val enchegg2 = RecipeBuilder.newBuilder("enchegg2","illuminated_enchanter",4);
+enchegg2.addEnergyPerTickInput(100000);
+enchegg2.addFluidInput(<fluid:essence>*1000);
+enchegg2.addItemInput(<contenttweaker:cut_precasia_garnet>*64);
+enchegg2.addItemInput(<contenttweaker:legbone_fragment_egg>*64);
+enchegg2.addItemOutput(<contenttweaker:legbone_encrusted_egg>*64);
+enchegg2.build();
+
+val enchegg3 = RecipeBuilder.newBuilder("enchegg3","illuminated_enchanter",4);
+enchegg3.addEnergyPerTickInput(100000);
+enchegg3.addFluidInput(<fluid:essence>*1000);
+enchegg3.addItemInput(<contenttweaker:cut_precasia_garnet>*64);
+enchegg3.addItemInput(<contenttweaker:chestbone_fragment_egg>*64);
+enchegg3.addItemOutput(<contenttweaker:chestbone_encrusted_egg>*64);
+enchegg3.build();
+
+val enchegg4 = RecipeBuilder.newBuilder("enchegg4","illuminated_enchanter",4);
+enchegg4.addEnergyPerTickInput(100000);
+enchegg4.addFluidInput(<fluid:essence>*1000);
+enchegg4.addItemInput(<contenttweaker:cut_precasia_garnet>*64);
+enchegg4.addItemInput(<contenttweaker:footbone_fragment_egg>*64);
+enchegg4.addItemOutput(<contenttweaker:footbone_encrusted_egg>*64);
+enchegg4.build();
+
+val enchegg5 = RecipeBuilder.newBuilder("enchegg5","illuminated_enchanter",4);
+enchegg5.addEnergyPerTickInput(100000);
+enchegg5.addFluidInput(<fluid:essence>*1000);
+enchegg5.addItemInput(<contenttweaker:cut_lelyetia_garnet>*64);
+enchegg5.addItemInput(<contenttweaker:fluctuatite_egg>*64);
+enchegg5.addItemOutput(<contenttweaker:fluctuatite_encrusted_egg>*64);
+enchegg5.build();
+
+val enchegg6 = RecipeBuilder.newBuilder("enchegg6","illuminated_enchanter",4);
+enchegg6.addEnergyPerTickInput(100000);
+enchegg6.addFluidInput(<fluid:essence>*1000);
+enchegg6.addItemInput(<contenttweaker:cut_barathos_garnet>*64);
+enchegg6.addItemInput(<contenttweaker:blazium_egg>*64);
+enchegg6.addItemOutput(<contenttweaker:blazium_encrusted_egg>*64);
+enchegg6.build();
+
+val enchegg7 = RecipeBuilder.newBuilder("enchegg7","illuminated_enchanter",4);
+enchegg7.addEnergyPerTickInput(100000);
+enchegg7.addFluidInput(<fluid:essence>*1000);
+enchegg7.addItemInput(<contenttweaker:cut_barathos_garnet>*64);
+enchegg7.addItemInput(<contenttweaker:varsium_egg>*64);
+enchegg7.addItemOutput(<contenttweaker:varsium_encrusted_egg>*64);
+enchegg7.build();
+
+val enchegg8 = RecipeBuilder.newBuilder("enchegg8","illuminated_enchanter",4);
+enchegg8.addEnergyPerTickInput(100000);
+enchegg8.addFluidInput(<fluid:essence>*1000);
+enchegg8.addItemInput(<contenttweaker:cut_barathos_garnet>*64);
+enchegg8.addItemInput(<contenttweaker:baronyte_egg>*64);
+enchegg8.addItemOutput(<contenttweaker:baronyte_encrusted_egg>*64);
+enchegg8.build();
+
+val enchegg9 = RecipeBuilder.newBuilder("enchegg9","illuminated_enchanter",4);
+enchegg9.addEnergyPerTickInput(100000);
+enchegg9.addFluidInput(<fluid:essence>*1000);
+enchegg9.addItemInput(<contenttweaker:cut_creeponia_garnet>*64);
+enchegg9.addItemInput(<contenttweaker:gemenyte_egg>*64);
+enchegg9.addItemOutput(<contenttweaker:genemyte_encrusted_egg>*64);
+enchegg9.build();
+
+val enchegg10 = RecipeBuilder.newBuilder("enchegg10","illuminated_enchanter",4);
+enchegg10.addEnergyPerTickInput(100000);
+enchegg10.addFluidInput(<fluid:essence>*1000);
+enchegg10.addItemInput(<contenttweaker:cut_creeponia_garnet>*64);
+enchegg10.addItemInput(<contenttweaker:jewelyte_egg>*64);
+enchegg10.addItemOutput(<contenttweaker:jewelyte_encrusted_egg>*64);
+enchegg10.build();
+
+val enchegg11 = RecipeBuilder.newBuilder("enchegg11","illuminated_enchanter",4);
+enchegg11.addEnergyPerTickInput(100000);
+enchegg11.addFluidInput(<fluid:essence>*1000);
+enchegg11.addItemInput(<contenttweaker:cut_creeponia_garnet>*64);
+enchegg11.addItemInput(<contenttweaker:ornamyte_egg>*64);
+enchegg11.addItemOutput(<contenttweaker:ornamyte_encrusted_egg>*64);
+enchegg11.build();
+
+val enchegg12 = RecipeBuilder.newBuilder("enchegg12","illuminated_enchanter",4);
+enchegg12.addEnergyPerTickInput(100000);
+enchegg12.addFluidInput(<fluid:essence>*1000);
+enchegg12.addItemInput(<contenttweaker:cut_deeplands_garnet>*64);
+enchegg12.addItemInput(<contenttweaker:charged_runium_egg>*64);
+enchegg12.addItemOutput(<contenttweaker:charged_runium_encrusted_egg>*64);
+enchegg12.build();
+
+val enchegg13 = RecipeBuilder.newBuilder("enchegg13","illuminated_enchanter",4);
+enchegg13.addEnergyPerTickInput(100000);
+enchegg13.addFluidInput(<fluid:essence>*1000);
+enchegg13.addItemInput(<contenttweaker:cut_abyss_garnet>*64);
+enchegg13.addItemInput(<contenttweaker:bloodstone_egg>*64);
+enchegg13.addItemOutput(<contenttweaker:bloodstone_encrusted_egg>*64);
+enchegg13.build();
+
+val enchegg14 = RecipeBuilder.newBuilder("enchegg14","illuminated_enchanter",4);
+enchegg14.addEnergyPerTickInput(100000);
+enchegg14.addFluidInput(<fluid:essence>*1000);
+enchegg14.addItemInput(<contenttweaker:cut_iromine_garnet>*64);
+enchegg14.addItemInput(<contenttweaker:lyon_egg>*64);
+enchegg14.addItemOutput(<contenttweaker:lyon_encrusted_egg>*64);
+enchegg14.build();
+
+val enchegg15 = RecipeBuilder.newBuilder("enchegg15","illuminated_enchanter",4);
+enchegg15.addEnergyPerTickInput(100000);
+enchegg15.addFluidInput(<fluid:essence>*1000);
+enchegg15.addItemInput(<contenttweaker:cut_mysterium_garnet>*64);
+enchegg15.addItemInput(<contenttweaker:mystite_egg>*64);
+enchegg15.addItemOutput(<contenttweaker:mystite_encrusted_egg>*64);
+enchegg15.build();
+
+val enchegg16 = RecipeBuilder.newBuilder("enchegg16","illuminated_enchanter",4);
+enchegg16.addEnergyPerTickInput(100000);
+enchegg16.addFluidInput(<fluid:essence>*1000);
+enchegg16.addItemInput(<contenttweaker:cut_haven_garnet>*64);
+enchegg16.addItemInput(<contenttweaker:crystallite_egg>*64);
+enchegg16.addItemOutput(<contenttweaker:crystallite_encrusted_egg>*64);
+enchegg16.build();
+
+val enchegg17 = RecipeBuilder.newBuilder("enchegg17","illuminated_enchanter",4);
+enchegg17.addEnergyPerTickInput(100000);
+enchegg17.addFluidInput(<fluid:essence>*1000);
+enchegg17.addItemInput(<contenttweaker:cut_voxponds_garnet>*64);
+enchegg17.addItemInput(<contenttweaker:polonium_egg>*64);
+enchegg17.addItemOutput(<contenttweaker:polonium_encrusted_egg>*64);
+enchegg17.build();
+
+val enchegg18 = RecipeBuilder.newBuilder("enchegg18","illuminated_enchanter",4);
+enchegg18.addEnergyPerTickInput(100000);
+enchegg18.addFluidInput(<fluid:essence>*1000);
+enchegg18.addItemInput(<contenttweaker:cut_celeve_garnet>*64);
+enchegg18.addItemInput(<contenttweaker:palladium_egg>*64);
+enchegg18.addItemOutput(<contenttweaker:palladium_encrusted_egg>*64);
+enchegg18.build();
+
+val enchegg19 = RecipeBuilder.newBuilder("enchegg19","illuminated_enchanter",4);
+enchegg19.addEnergyPerTickInput(100000);
+enchegg19.addFluidInput(<fluid:essence>*1000);
+enchegg19.addItemInput(<contenttweaker:cut_candyland_garnet>*64);
+enchegg19.addItemInput(<contenttweaker:candyte_egg>*64);
+enchegg19.addItemOutput(<contenttweaker:candyte_encrusted_egg>*64);
+enchegg19.build();
+
+val enchegg20 = RecipeBuilder.newBuilder("enchegg20","illuminated_enchanter",4);
+enchegg20.addEnergyPerTickInput(100000);
+enchegg20.addFluidInput(<fluid:essence>*1000);
+enchegg20.addItemInput(<contenttweaker:cut_gardencia_garnet>*64);
+enchegg20.addItemInput(<contenttweaker:vityte_egg>*64);
+enchegg20.addItemOutput(<contenttweaker:vityte_encrusted_egg>*64);
+enchegg20.build();
+
+val enchegg21 = RecipeBuilder.newBuilder("enchegg21","illuminated_enchanter",4);
+enchegg21.addEnergyPerTickInput(100000);
+enchegg21.addFluidInput(<fluid:essence>*1000);
+enchegg21.addItemInput(<contenttweaker:cut_crystevia_garnet>*64);
+enchegg21.addItemInput(<contenttweaker:yellow_gemstone_egg>*64);
+enchegg21.addItemOutput(<contenttweaker:yellow_gemstone_encrusted_egg>*64);
+enchegg21.build();
+
+val enchegg22 = RecipeBuilder.newBuilder("enchegg22","illuminated_enchanter",4);
+enchegg22.addEnergyPerTickInput(100000);
+enchegg22.addFluidInput(<fluid:essence>*1000);
+enchegg22.addItemInput(<contenttweaker:cut_crystevia_garnet>*64);
+enchegg22.addItemInput(<contenttweaker:white_gemstone_egg>*64);
+enchegg22.addItemOutput(<contenttweaker:white_gemstone_encrusted_egg>*64);
+enchegg22.build();
+
+val enchegg23 = RecipeBuilder.newBuilder("enchegg23","illuminated_enchanter",4);
+enchegg23.addEnergyPerTickInput(100000);
+enchegg23.addFluidInput(<fluid:essence>*1000);
+enchegg23.addItemInput(<contenttweaker:cut_crystevia_garnet>*64);
+enchegg23.addItemInput(<contenttweaker:red_gemstone_egg>*64);
+enchegg23.addItemOutput(<contenttweaker:red_gemstone_encrusted_egg>*64);
+enchegg23.build();
+
+val enchegg24 = RecipeBuilder.newBuilder("enchegg24","illuminated_enchanter",4);
+enchegg24.addEnergyPerTickInput(100000);
+enchegg24.addFluidInput(<fluid:essence>*1000);
+enchegg24.addItemInput(<contenttweaker:cut_crystevia_garnet>*64);
+enchegg24.addItemInput(<contenttweaker:green_gemstone_egg>*64);
+enchegg24.addItemOutput(<contenttweaker:green_gemstone_encrusted_egg>*64);
+enchegg24.build();
+
+val enchegg25 = RecipeBuilder.newBuilder("enchegg25","illuminated_enchanter",4);
+enchegg25.addEnergyPerTickInput(100000);
+enchegg25.addFluidInput(<fluid:essence>*1000);
+enchegg25.addItemInput(<contenttweaker:cut_crystevia_garnet>*64);
+enchegg25.addItemInput(<contenttweaker:purple_gemstone_egg>*64);
+enchegg25.addItemOutput(<contenttweaker:purple_gemstone_encrusted_egg>*64);
+enchegg25.build();
+
+val enchegg26 = RecipeBuilder.newBuilder("enchegg26","illuminated_enchanter",4);
+enchegg26.addEnergyPerTickInput(100000);
+enchegg26.addFluidInput(<fluid:essence>*1000);
+enchegg26.addItemInput(<contenttweaker:cut_crystevia_garnet>*64);
+enchegg26.addItemInput(<contenttweaker:blue_gemstone_egg>*64);
+enchegg26.addItemOutput(<contenttweaker:blue_gemstone_encrusted_egg>*64);
+enchegg26.build();
+
+val enchegg27 = RecipeBuilder.newBuilder("enchegg27","illuminated_enchanter",4);
+enchegg27.addEnergyPerTickInput(100000);
+enchegg27.addFluidInput(<fluid:essence>*1000);
+enchegg27.addItemInput(<contenttweaker:cut_borean_garnet>*64);
+enchegg27.addItemInput(<contenttweaker:chalcedony_egg>*64);
+enchegg27.addItemOutput(<contenttweaker:chalcedony_encrusted_egg>*64);
+enchegg27.build();
+
+val enchegg28 = RecipeBuilder.newBuilder("enchegg28","illuminated_enchanter",4);
+enchegg28.addEnergyPerTickInput(100000);
+enchegg28.addFluidInput(<fluid:essence>*1000);
+enchegg28.addItemInput(<contenttweaker:cut_runandor_garnet>*64);
+enchegg28.addItemInput(<contenttweaker:brightsteel_egg>*64);
+enchegg28.addItemOutput(<contenttweaker:brightsteel_encrusted_egg>*64);
+enchegg28.build();
+
+val enchegg29 = RecipeBuilder.newBuilder("enchegg29","illuminated_enchanter",4);
+enchegg29.addEnergyPerTickInput(100000);
+enchegg29.addFluidInput(<fluid:essence>*1000);
+enchegg29.addItemInput(<contenttweaker:cut_runandor_garnet>*64);
+enchegg29.addItemInput(<contenttweaker:elecanium_egg>*64);
+enchegg29.addItemOutput(<contenttweaker:elecanium_encrusted_egg>*64);
+enchegg29.build();
+
+val enchegg30 = RecipeBuilder.newBuilder("enchegg30","illuminated_enchanter",4);
+enchegg30.addEnergyPerTickInput(100000);
+enchegg30.addFluidInput(<fluid:essence>*1000);
+enchegg30.addItemInput(<contenttweaker:cut_lunalus_garnet>*64);
+enchegg30.addItemInput(<contenttweaker:lunastone_egg>*64);
+enchegg30.addItemOutput(<contenttweaker:lunastone_encrusted_egg>*64);
+enchegg30.build();
+
+val enchegg31 = RecipeBuilder.newBuilder("enchegg31","illuminated_enchanter",4);
+enchegg31.addEnergyPerTickInput(100000);
+enchegg31.addFluidInput(<fluid:essence>*1000);
+enchegg31.addItemInput(<contenttweaker:cut_greckon_garnet>*64);
+enchegg31.addItemInput(<contenttweaker:ghastly_egg>*64);
+enchegg31.addItemInput(<ore:ingotChaos>*64);
+enchegg31.addItemOutput(<contenttweaker:ghastly_encrusted_egg>*64);
+enchegg31.build();
+
+val enchegg32 = RecipeBuilder.newBuilder("enchegg32","illuminated_enchanter",4);
+enchegg32.addEnergyPerTickInput(100000);
+enchegg32.addFluidInput(<fluid:essence>*1000);
+enchegg32.addItemInput(<contenttweaker:cut_greckon_garnet>*64);
+enchegg32.addItemInput(<contenttweaker:ghoulish_egg>*64);
+enchegg32.addItemInput(<ore:ingotChaos>*64);
+enchegg32.addItemOutput(<contenttweaker:ghoulish_encrusted_egg>*64);
+enchegg32.build();
+
+
+
+val enchegg33 = RecipeBuilder.newBuilder("enchegg33","illuminated_enchanter",4);
+enchegg33.addEnergyPerTickInput(100000);
+enchegg33.addFluidInput(<fluid:essence>*1000);
+enchegg33.addItemInput(<contenttweaker:cut_dustopia_garnet>*64);
+enchegg33.addItemInput(<contenttweaker:strontium_egg>*64);
+enchegg33.addItemInput(<ore:ingotChaos>*64);
+enchegg33.addItemOutput(<contenttweaker:strontium_encrusted_egg>*64);
+enchegg33.build();
+
+val enchegg34 = RecipeBuilder.newBuilder("enchegg34","illuminated_enchanter",4);
+enchegg34.addEnergyPerTickInput(100000);
+enchegg34.addFluidInput(<fluid:essence>*1000);
+enchegg34.addItemInput(<contenttweaker:cut_ancientcavern_garnet>*64);
+enchegg34.addItemInput(<contenttweaker:caesium_egg>*64);
+enchegg34.addItemInput(<ore:ingotChaos>*64);
+enchegg34.addItemOutput(<contenttweaker:caesium_encrusted_egg>*64);
+enchegg34.build();
+
+val enchegg35 = RecipeBuilder.newBuilder("enchegg35","illuminated_enchanter",4);
+enchegg35.addEnergyPerTickInput(100000);
+enchegg35.addFluidInput(<fluid:essence>*1000);
+enchegg35.addItemInput(<contenttweaker:cut_vethea_garnet>*64);
+enchegg35.addItemInput(<contenttweaker:hassium_egg>*64);
+enchegg35.addItemInput(<contenttweaker:recursive_powder>*256);
+enchegg35.addItemInput(<chickens:liquid_egg:0>*64);
+enchegg35.addItemInput(<chickens:liquid_egg:1>*64);
+enchegg35.addItemInput(<contenttweaker:dynatos_star>*64);
+enchegg35.addItemOutput(<contenttweaker:hassium_encrusted_egg>*64);
+enchegg35.build();
+
+val enchegg36 = RecipeBuilder.newBuilder("enchegg36","illuminated_enchanter",4);
+enchegg36.addEnergyPerTickInput(100000);
+enchegg36.addFluidInput(<fluid:essence>*1000);
+enchegg36.addItemInput(<contenttweaker:cut_immortallis_garnet>*64);
+enchegg36.addItemInput(<contenttweaker:rubidium_egg>*64);
+enchegg36.addItemInput(<ore:ingotChaos>*64);
+enchegg36.addItemOutput(<contenttweaker:rubidium_encrusted_egg>*64);
+enchegg36.build();
+
+
+
+
+
+
+
+
+
+
+
+

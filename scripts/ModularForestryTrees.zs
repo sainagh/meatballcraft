@@ -1136,3 +1136,56 @@ fortree140.addItemOutput(<advancedrocketry:aliensapling>*8);
 fortree140.build();
 
 
+
+val fortree141 = RecipeBuilder.newBuilder("fortree141","enchanted_greenhouse",1000);
+fortree141.addItemInput(<divinerpg:eden_sapling>);
+fortree141.setChance(0.0);
+fortree141.addItemInput(<forestry:peat>);
+fortree141.addItemOutput(<divinerpg:eden_log>*64);
+fortree141.addItemOutput(<divinerpg:eden_fragments>*64);
+fortree141.build();
+
+val fortree142 = RecipeBuilder.newBuilder("fortree142","enchanted_greenhouse",1000);
+fortree142.addItemInput(<divinerpg:wildwood_sapling>);
+fortree142.setChance(0.0);
+fortree142.addItemInput(<forestry:peat>);
+fortree142.addItemOutput(<divinerpg:wildwood_log>*64);
+fortree142.addItemOutput(<divinerpg:wildwood_fragments>*64);
+fortree142.build();
+
+val fortree143 = RecipeBuilder.newBuilder("fortree143","enchanted_greenhouse",1000);
+fortree143.addItemInput(<divinerpg:apalachia_sapling>);
+fortree143.setChance(0.0);
+fortree143.addItemInput(<forestry:peat>);
+fortree143.addItemOutput(<divinerpg:apalachia_log>*64);
+fortree143.addItemOutput(<divinerpg:apalachia_fragments>*64);
+fortree143.build();
+
+val fortree144 = RecipeBuilder.newBuilder("fortree144","enchanted_greenhouse",1000);
+fortree144.addItemInput(<divinerpg:skythern_sapling>);
+fortree144.setChance(0.0);
+fortree144.addItemInput(<forestry:peat>);
+fortree144.addItemOutput(<divinerpg:skythern_log>*64);
+fortree144.addItemOutput(<divinerpg:skythern_fragments>*64);
+fortree144.build();
+
+val fortree145 = RecipeBuilder.newBuilder("fortree145","enchanted_greenhouse",1000);
+fortree145.addItemInput(<divinerpg:mortum_sapling>);
+fortree145.setChance(0.0);
+fortree145.addItemInput(<forestry:peat>);
+fortree145.addItemOutput(<divinerpg:mortum_log>*64);
+fortree145.addItemOutput(<divinerpg:mortum_fragments>*64);
+fortree145.build();
+
+val fortree146 = RecipeBuilder.newBuilder("fortree146","enchanted_greenhouse",1000);
+fortree146.addItemInput(<divinerpg:divine_sapling>);
+fortree146.setChance(0.0);
+fortree146.addItemInput(<forestry:peat>);
+fortree146.addItemOutput(<divinerpg:divine_log>*64);
+fortree146.addItemOutput(<contenttweaker:divine_wisp>*4);
+fortree146.build();
+
+
+
+
+

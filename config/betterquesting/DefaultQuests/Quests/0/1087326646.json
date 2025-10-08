@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1724085619
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:screaming_blood_slime"
+      },
+      "name:8": "A Scream Through the Universe"
+    }
+  },
+  "questID:3": 1087326646,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:scream_of_pauram"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:screaming_blood_slime"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

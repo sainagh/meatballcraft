@@ -58,10 +58,10 @@ mods.tconstruct.Casting.removeTableRecipe(<tconstruct:clay_cast>.withTag({PartTy
 mods.tconstruct.Casting.removeTableRecipe(<tconstruct:clay_cast>.withTag({PartType: "plustic:battery_cell"}));
 mods.tconstruct.Casting.removeTableRecipe(<tconstruct:clay_cast>.withTag({PartType: "plustic:pipe_piece"}));
 
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>.withTag({PartType: "plustic:laser_medium"}), <tconstruct:pattern>.withTag({PartType: "plustic:pan_head"}), <fluid:gold>, 288, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>.withTag({PartType: "plustic:laser_medium"}), <tconstruct:pattern>.withTag({PartType: "plustic:laser_medium"}), <fluid:gold>, 288, false, 100);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>.withTag({PartType: "plustic:battery_cell"}), <tconstruct:pattern>.withTag({PartType: "plustic:battery_cell"}), <fluid:gold>, 288, false, 100);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>.withTag({PartType: "plustic:pipe_piece"}), <tconstruct:pattern>.withTag({PartType: "plustic:pipe_piece"}), <fluid:gold>, 288, false, 100);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:clay_cast>.withTag({PartType: "plustic:laser_medium"}), <tconstruct:pattern>.withTag({PartType: "plustic:pan_head"}), <fluid:clay>, 288, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:clay_cast>.withTag({PartType: "plustic:laser_medium"}), <tconstruct:pattern>.withTag({PartType: "plustic:laser_medium"}), <fluid:clay>, 288, false, 100);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:clay_cast>.withTag({PartType: "plustic:battery_cell"}), <tconstruct:pattern>.withTag({PartType: "plustic:battery_cell"}), <fluid:clay>, 288, false, 100);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:clay_cast>.withTag({PartType: "plustic:pipe_piece"}), <tconstruct:pattern>.withTag({PartType: "plustic:pipe_piece"}), <fluid:clay>, 288, false, 100);
 
@@ -288,3 +288,10 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:trinity_ingot>, <fluid:trini
 
 
 mods.tconstruct.Melting.addRecipe(<liquid:whisper_of_worthiness> * 4000,<contenttweaker:stone_of_worthiness>);
+
+
+recipes.addShaped(<contenttweaker:bloodhunter_modifier>,
+[[<ore:obsidian>, <aoa3:rosite_ingot>, <ore:obsidian>],
+[<aoa3:rosite_ingot>, <contenttweaker:bloodhunter_droplet>, <aoa3:rosite_ingot>],
+[<ore:obsidian>, <aoa3:rosite_ingot>, <ore:obsidian>]]);
+

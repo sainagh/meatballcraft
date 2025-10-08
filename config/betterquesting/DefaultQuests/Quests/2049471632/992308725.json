@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    2046820099,
+    20413
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 31,
+        "id:8": "botania:cosmetic"
+      },
+      "name:8": "Chapter 8"
+    }
+  },
+  "questID:3": 992308725,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dynatos_artifact"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

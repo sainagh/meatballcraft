@@ -629,6 +629,15 @@ reci60.addItemOutput(<contenttweaker:master_spell_tenebrae>);
 reci60.build();
 
 
-
+val inf61 = RecipeBuilder.newBuilder("inf61","arcane_autoinfuser",120);
+inf61.addEnergyPerTickInput(100);
+inf61.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "motus"}]})*25);
+inf61.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "tenebrae"}]})*25);
+inf61.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "permutatio"}]})*50);
+inf61.addItemInput(<ore:ingotGold>);
+inf61.addItemInput(<minecraft:ender_pearl>);
+inf61.addItemInput(<thaumcraft:mirrored_glass>);
+inf61.addItemOutput(<thaumcraft:mirror>);
+inf61.build();
 
 

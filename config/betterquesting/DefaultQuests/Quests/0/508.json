@@ -49,6 +49,10 @@
         "1:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:sword_shield"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:arcane_terraformer_noob"
         }
       },
       "taskID:8": "bq_standard:retrieval"

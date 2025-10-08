@@ -313,6 +313,30 @@ ast23.addItemInput(<astralsorcery:itemusabledust:1>*4);
 ast23.addItemOutput(<astralsorcery:itemperkgem:0>);
 ast23.build();
 
+val ast23a = RecipeBuilder.newBuilder("ast23a","auto_astral_altar",1200);
+ast23a.addEnergyPerTickInput(1000);
+ast23a.addItemInput(<materialpart:fluctuatite:ingot>*6);
+ast23a.addItemInput(<contenttweaker:stormlight_infused_crystal>);
+ast23a.addItemInput(<astralsorcery:itemusabledust:1>*8);
+ast23a.addItemOutput(<astralsorcery:itemperkgem:0>*2);
+ast23a.build();
+
+val ast23b = RecipeBuilder.newBuilder("ast23b","auto_astral_altar",1200);
+ast23b.addEnergyPerTickInput(1000);
+ast23b.addItemInput(<materialpart:fluctuatite:ingot>*10);
+ast23b.addItemInput(<contenttweaker:darkstar_infused_crystal>*2);
+ast23b.addItemInput(<astralsorcery:itemusabledust:1>*16);
+ast23b.addItemOutput(<astralsorcery:itemperkgem:0>*4);
+ast23b.build();
+
+val ast23c = RecipeBuilder.newBuilder("ast23c","auto_astral_altar",1200);
+ast23c.addEnergyPerTickInput(1000);
+ast23c.addItemInput(<materialpart:fluctuatite:ingot>*18);
+ast23c.addItemInput(<contenttweaker:cyclical_starlight_crystal>*2);
+ast23c.addItemInput(<astralsorcery:itemusabledust:1>*64);
+ast23c.addItemOutput(<astralsorcery:itemperkgem:0>*8);
+ast23c.build();
+
 val ast24 = RecipeBuilder.newBuilder("ast24","auto_astral_altar",1200);
 ast24.addEnergyPerTickInput(1000);
 ast24.addItemInput(<materialpart:fluctuatite:ingot>*4);
@@ -321,6 +345,30 @@ ast24.addItemInput(<astralsorcery:itemusabledust:0>*4);
 ast24.addItemOutput(<astralsorcery:itemperkgem:1>);
 ast24.build();
 
+val ast24a = RecipeBuilder.newBuilder("ast24a","auto_astral_altar",1200);
+ast24a.addEnergyPerTickInput(1000);
+ast24a.addItemInput(<materialpart:fluctuatite:ingot>*6);
+ast24a.addItemInput(<contenttweaker:stormlight_infused_crystal>);
+ast24a.addItemInput(<astralsorcery:itemusabledust:0>*8);
+ast24a.addItemOutput(<astralsorcery:itemperkgem:1>*2);
+ast24a.build();
+
+val ast24b = RecipeBuilder.newBuilder("ast24b","auto_astral_altar",1200);
+ast24b.addEnergyPerTickInput(1000);
+ast24b.addItemInput(<materialpart:fluctuatite:ingot>*10);
+ast24b.addItemInput(<contenttweaker:darkstar_infused_crystal>*2);
+ast24b.addItemInput(<astralsorcery:itemusabledust:0>*16);
+ast24b.addItemOutput(<astralsorcery:itemperkgem:1>*4);
+ast24b.build();
+
+val ast24c = RecipeBuilder.newBuilder("ast24c","auto_astral_altar",1200);
+ast24c.addEnergyPerTickInput(1000);
+ast24c.addItemInput(<materialpart:fluctuatite:ingot>*18);
+ast24c.addItemInput(<contenttweaker:cyclical_starlight_crystal>*2);
+ast24c.addItemInput(<astralsorcery:itemusabledust:0>*64);
+ast24c.addItemOutput(<astralsorcery:itemperkgem:1>*8);
+ast24c.build();
+
 val ast25 = RecipeBuilder.newBuilder("ast25","auto_astral_altar",1200);
 ast25.addEnergyPerTickInput(1000);
 ast25.addItemInput(<materialpart:fluctuatite:ingot>*4);
@@ -328,6 +376,30 @@ ast25.addItemInput(<astralsorcery:itemcelestialcrystal:0>);
 ast25.addItemInput(<astralsorcery:itemcraftingcomponent:2>*4);
 ast25.addItemOutput(<astralsorcery:itemperkgem:2>);
 ast25.build();
+
+val ast25a = RecipeBuilder.newBuilder("ast25a","auto_astral_altar",1200);
+ast25a.addEnergyPerTickInput(1000);
+ast25a.addItemInput(<materialpart:fluctuatite:ingot>*6);
+ast25a.addItemInput(<contenttweaker:stormlight_infused_crystal>);
+ast25a.addItemInput(<astralsorcery:itemcraftingcomponent:2>*8);
+ast25a.addItemOutput(<astralsorcery:itemperkgem:2>*2);
+ast25a.build();
+
+val ast25b = RecipeBuilder.newBuilder("ast25b","auto_astral_altar",1200);
+ast25b.addEnergyPerTickInput(1000);
+ast25b.addItemInput(<materialpart:fluctuatite:ingot>*10);
+ast25b.addItemInput(<contenttweaker:darkstar_infused_crystal>*2);
+ast25b.addItemInput(<astralsorcery:itemcraftingcomponent:2>*16);
+ast25b.addItemOutput(<astralsorcery:itemperkgem:2>*4);
+ast25b.build();
+
+val ast25c = RecipeBuilder.newBuilder("ast25c","auto_astral_altar",1200);
+ast25c.addEnergyPerTickInput(1000);
+ast25c.addItemInput(<materialpart:fluctuatite:ingot>*18);
+ast25c.addItemInput(<contenttweaker:cyclical_starlight_crystal>*2);
+ast25c.addItemInput(<astralsorcery:itemcraftingcomponent:2>*64);
+ast25c.addItemOutput(<astralsorcery:itemperkgem:2>*8);
+ast25c.build();
 
 val ast26 = RecipeBuilder.newBuilder("ast26","auto_astral_altar",1200);
 ast26.addEnergyPerTickInput(1000);
@@ -414,3 +486,15 @@ ast32b.addItemInput(<astralsorcery:itemcraftingcomponent:2>*3);
 ast32b.addItemInput(<astralsorcery:itemcraftingcomponent:1>*3);
 ast32b.addItemOutput(<astralsorcery:blockborehead:1>);
 ast32b.build();
+
+
+val ast33 = RecipeBuilder.newBuilder("ast33","auto_astral_altar",1200);
+ast33.addEnergyPerTickInput(1000);
+ast33.addItemInput(<contenttweaker:dynatos_crystal>*4);
+ast33.addItemInput(<contenttweaker:the_dark_star>*16);
+ast33.addItemInput(<ore:ingotAstralStarmetal>*32);
+ast33.addItemOutput(<contenttweaker:dynatos_crystal>*5);
+ast33.build();
+
+
+

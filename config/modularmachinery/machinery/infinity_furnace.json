@@ -82,32 +82,6 @@
             }]
         },
         {
-            "elements": "contenttweaker:resonating_recursive_essence",
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "description": "6X processing",
-            "modifiers": [
-            {
-                "io": "input",
-                "target": "modularmachinery:item",
-                "operation": 1,
-                "multiplier": 6
-            },
-            {
-                "io": "input",
-                "target": "modularmachinery:fluid",
-                "operation": 1,
-                "multiplier": 6
-            },
-            {
-                "io": "output",
-                "target": "modularmachinery:item",
-                "operation": 1,
-                "multiplier": 6
-            }]
-        },
-        {
             "elements": "contenttweaker:fractal_recursive_essence",
             "x": 0,
             "y": 3,
@@ -183,6 +157,110 @@
                 "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 12
+            }]
+        },
+        {
+            "elements": "contenttweaker:cauchy_recursive_essence",
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "description": "14X processing",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 14
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 14
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 14
+            }]
+        },
+        {
+            "elements": "contenttweaker:lorenz_recursive_essence",
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "description": "16X processing",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            }]
+        },
+        {
+            "elements": "contenttweaker:chaotic_recursive_essence",
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "description": "18X processing",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 18
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 18
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 18
+            }]
+        },
+        {
+            "elements": "contenttweaker:chaotic_recursive_essence",
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "description": "20X processing",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 20
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 20
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 20
             }]
         }
     ],

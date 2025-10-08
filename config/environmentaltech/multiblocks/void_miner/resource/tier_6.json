@@ -404,6 +404,16 @@
       "target": "white",
       "weight": 7,
       "id": "environmentaltech:mica"
+    },
+    {
+      "target": "green",
+      "weight": 15,
+      "id": "abyssalcraft:abyssalsand"
+    },
+    {
+      "target": "red",
+      "weight": 15,
+      "id": "abyssalcraft:dreadlandsdirt"
     }
   ]
 }

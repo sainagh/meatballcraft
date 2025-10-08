@@ -96,7 +96,8 @@ markofthesamurai.itemRightClick = function(stack, world, player, hand) {
 	
 	player.sendChat("---");
 	player.sendChat("Step 2: Run the Terraformer to make a 7x7 of Ominous Woods, and reuse this item while standing on the Terraformer");
-	player.sendChat("	Use these settings, 'Square', 'Radius 24', don't think about it too much");
+	player.sendChat("	Use these settings, 'Square', 'Radius 24', this is because of a bug in the mod");
+	player.sendChat("	Feel free to try 'Square', 'Radius 4' or other values if you are feeling lucky, but those may bug out");
 	player.sendChat("	Depending on your impetus generation, you will have to run the Terraformer multiple times to convert the entirety of the area");
 
 	// step 2
@@ -160,18 +161,27 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 	var playerpos = player.position as crafttweaker.util.Position3f;
 
     // locations to place biomes
-    val MystriumBiomeLocations = [[-2,-2],[2,2]] as int[][];
-	val NuclearWastelandLocations = [[-1,-2],[1,2]] as int[][];
-	val StorageBiomeLocations = [[0,-2],[0,2]] as int[][];
-	val CrystalChasmsLocations = [[1,-2],[-1,2]] as int[][];
-	val BlackVoidLocations = [[2,-2],[-2,2]] as int[][];
-	val TwilightStreamLocations = [[-2,-1],[2,-1],[-2,1],[2,1]] as int[][];
-	val AlienForestLocations = [[-1,-1],[1,1]] as int[][];
-	val ThornlandsLocations = [[1,-1],[-1,1]] as int[][];
-	val IromineLocations = [[-1,0],[1,0]] as int[][];
-	val StormlandLocations = [[0,-1],[0,1]] as int[][];
+    val MystriumBiomeLocations = [[6,0], [7,0], [-6,0], [-7,0], [0,6], [0,7], [0,-6], [0,-7]] as int[][];
+	val NuclearWastelandLocations = [[5,5], [5,4], [4,5],
+									[-5,5], [-5,4], [-4,5],
+									[5,-5], [5,-4], [4,-5],
+									[-5,-5], [-5,-4], [-4,-5]] as int[][];
+	val StorageBiomeLocations = [[4,4], [-4,4], [4,-4], [-4,-4]] as int[][];
+	val CrystalChasmsLocations = [[4,-3], [4,3], [-4,-3], [-4,3], [3,-4], [-3,-4], [3,4], [-3,4]] as int[][];
+	val BlackVoidLocations = [[4,-2], [4,2], [-4,-2], [-4,2], [2,-4], [-2,-4], [2,4], [-2,4]] as int[][];
+	val TwilightStreamLocations = [[4,0], [5,0], [4,1], [4,-1], [5,1], [5,-1],
+									[-4,0], [-5,0], [-4,1], [-4,-1], [-5,1], [-5,-1],
+									[0,4], [0,5], [1,4], [-1,4], [1,5], [-1,5],
+									[0,-4], [0,-5], [1,-4], [-1,-4], [1,-5], [-1,-5]] as int[][];
+	val AlienForestLocations = [[3,0], [-3,0], [0,3], [0,-3]] as int[][];
+	val ThornlandsLocations = [[2,0], [-2,0], [0,2], [0,-2]] as int[][];
+	val IromineLocations = [[1,1], [1,2], [2,1], [3,1], [1,3], [2,3], [3,2], [3,3],
+							[-1,1], [-1,2], [-2,1], [-3,1], [-1,3], [-2,3], [-3,2], [-3,3],
+							[1,-1], [1,-2], [2,-1], [3,-1], [1,-3], [2,-3], [3,-2], [3,-3],
+							[-1,-1], [-1,-2], [-2,-1], [-3,-1], [-1,-3], [-2,-3], [-3,-2], [-3,-3]] as int[][];
+	val StormlandLocations = [[1,0], [-1,0], [0,1], [0,-1]] as int[][];
 	val BogLocations = [[0,0]] as int[][];
-	val TaintedLandsLocations = [[-2,0],[2,0]] as int[][];
+	val TaintedLandsLocations = [[2,2], [-2,2], [2,-2], [-2,-2]] as int[][];
 
 	// biome to pattern
     val MysteriumBiomeName = "Mysterium" as string;
@@ -188,7 +198,8 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 	val TaintedLandsBiomeName = "Tainted Lands" as string;
 
     player.sendChat("Complete the biome ritual!");
-	player.sendChat("It occupies a 5x5 around you, you are in the center!");
+	player.sendChat("It occupies a 15x15 around you, you are in the center!");
+	player.sendChat("If you know the shapes, there are tricks to place the Extra Utilities Terraformer to do this efficiently ;)");
 
 	    // get number of matches
     val MysteriumMatches = checkBiomesAtPositions(MysteriumBiomeName, playerpos, MystriumBiomeLocations, world) as int;
@@ -206,68 +217,68 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 
 	val NumberOfMatches = MysteriumMatches + NuclearWastelandMatches + StorageBiomeMatches + CrystalChasmsMatches + BlackVoidMatches + TwilightStreamMatches + AlienForestMatches + ThornlandsMatches + IromineMatches + StormlandMatches + BogMatches + TaintedLandsMatches as int;
 
-	player.sendChat("Scanning 5x5 area around you");
-	player.sendChat("Biome Ritual: " ~ NumberOfMatches ~ " out of 25");
+	player.sendChat("Scanning 15x15 area around you");
+	player.sendChat("Biome Ritual: " ~ NumberOfMatches ~ " out of 113");
 	
 
-	if((MysteriumMatches) == 2) {
-		player.sendChat("Mysterium : " ~ MysteriumMatches ~ " out of 2");
+	if((MysteriumMatches) == 8) {
+		player.sendChat("Mysterium : " ~ MysteriumMatches ~ " out of 8");
 	} else {
-		player.sendChat("Biome #1 : " ~ MysteriumMatches ~ " out of 2");
+		player.sendChat("Biome #1 : " ~ MysteriumMatches ~ " out of 8");
 	}
 	
-	if((NuclearWastelandMatches) == 2) {
-		player.sendChat("Nuclear Wasteland : " ~ NuclearWastelandMatches ~ " out of 2");
+	if((NuclearWastelandMatches) == 12) {
+		player.sendChat("Nuclear Wasteland : " ~ NuclearWastelandMatches ~ " out of 12");
 	} else {
-		player.sendChat("Biome #2 : " ~ NuclearWastelandMatches ~ " out of 2");
+		player.sendChat("Biome #2 : " ~ NuclearWastelandMatches ~ " out of 12");
 	}
 
-	if((StorageBiomeMatches) == 2) {
-		player.sendChat("Storage Biome : " ~ StorageBiomeMatches ~ " out of 2");
+	if((StorageBiomeMatches) == 4) {
+		player.sendChat("Storage Biome : " ~ StorageBiomeMatches ~ " out of 4");
 	} else {
-		player.sendChat("Biome #3 : " ~ StorageBiomeMatches ~ " out of 2");
+		player.sendChat("Biome #3 : " ~ StorageBiomeMatches ~ " out of 4");
 	}
 
-	if((CrystalChasmsMatches) == 2) {
-		player.sendChat("Crystal Chasms : " ~ CrystalChasmsMatches ~ " out of 2");
+	if((CrystalChasmsMatches) == 8) {
+		player.sendChat("Crystal Chasms : " ~ CrystalChasmsMatches ~ " out of 8");
 	} else {
-		player.sendChat("Biome #4 : " ~ CrystalChasmsMatches ~ " out of 2");
+		player.sendChat("Biome #4 : " ~ CrystalChasmsMatches ~ " out of 8");
 	}
 
-	if((BlackVoidMatches) == 2) {
-		player.sendChat("Dangerous Black Void : " ~ BlackVoidMatches ~ " out of 2");
+	if((BlackVoidMatches) == 8) {
+		player.sendChat("Dangerous Black Void : " ~ BlackVoidMatches ~ " out of 8");
 	} else {
-		player.sendChat("Biome #5 : " ~ BlackVoidMatches ~ " out of 2");
+		player.sendChat("Biome #5 : " ~ BlackVoidMatches ~ " out of 8");
 	}
 
-	if((TwilightStreamMatches) == 4) {
-		player.sendChat("Twilight Stream : " ~ TwilightStreamMatches ~ " out of 4");
+	if((TwilightStreamMatches) == 24) {
+		player.sendChat("Twilight Stream : " ~ TwilightStreamMatches ~ " out of 24");
 	} else {
-		player.sendChat("Biome #6 : " ~ TwilightStreamMatches ~ " out of 4");
+		player.sendChat("Biome #6 : " ~ TwilightStreamMatches ~ " out of 24");
 	}
 
-	if((AlienForestMatches) == 2) {
-		player.sendChat("Alien Forest : " ~ AlienForestMatches ~ " out of 2");
+	if((AlienForestMatches) == 4) {
+		player.sendChat("Alien Forest : " ~ AlienForestMatches ~ " out of 4");
 	} else {
-		player.sendChat("Biome #7 : " ~ AlienForestMatches ~ " out of 2");
+		player.sendChat("Biome #7 : " ~ AlienForestMatches ~ " out of 4");
 	}
 
-	if((ThornlandsMatches) == 2) {
-		player.sendChat("Thornlands : " ~ ThornlandsMatches ~ " out of 2");
+	if((ThornlandsMatches) == 4) {
+		player.sendChat("Thornlands : " ~ ThornlandsMatches ~ " out of 4");
 	} else {
-		player.sendChat("Biome #8 : " ~ ThornlandsMatches ~ " out of 2");
+		player.sendChat("Biome #8 : " ~ ThornlandsMatches ~ " out of 4");
 	}
 
-	if((IromineMatches) == 2) {
-		player.sendChat("Iromine : " ~ IromineMatches ~ " out of 2");
+	if((IromineMatches) == 32) {
+		player.sendChat("Iromine : " ~ IromineMatches ~ " out of 32");
 	} else {
-		player.sendChat("Biome #9 : " ~ IromineMatches ~ " out of 2");
+		player.sendChat("Biome #9 : " ~ IromineMatches ~ " out of 32");
 	}
 
-	if((StormlandMatches) == 2) {
-		player.sendChat("Stormland : " ~ StormlandMatches ~ " out of 2");
+	if((StormlandMatches) == 4) {
+		player.sendChat("Stormland : " ~ StormlandMatches ~ " out of 4");
 	} else {
-		player.sendChat("Biome #10: " ~ StormlandMatches ~ " out of 2");
+		player.sendChat("Biome #10: " ~ StormlandMatches ~ " out of 4");
 	}
 
 	if((BogMatches) == 1) {
@@ -276,10 +287,10 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 		player.sendChat("Biome #11: " ~ BogMatches ~ " out of 1");
 	}
 
-	if((TaintedLandsMatches) == 2) {
-		player.sendChat("Tainted Lands : " ~ TaintedLandsMatches ~ " out of 2");
+	if((TaintedLandsMatches) == 4) {
+		player.sendChat("Tainted Lands : " ~ TaintedLandsMatches ~ " out of 4");
 	} else {
-		player.sendChat("Biome #12: " ~ TaintedLandsMatches ~ " out of 2");
+		player.sendChat("Biome #12: " ~ TaintedLandsMatches ~ " out of 4");
 	}
 
 
@@ -1276,8 +1287,10 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
 
     // check if player is in right dimension
     if(player.getDimension() != 193) {
-        player.sendChat("You gotta be in Travixte");
-        return "FAIL";
+		if(player.getDimension() != 192) {
+        	player.sendChat("You 'gotta' be in Travixte");
+        	return "FAIL";
+		}
     }
 
     // obtain position under player
@@ -1291,6 +1304,7 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
     val BarathosBiomeLocations = [[0,0]] as int[][];
     val MysteriumBiomeLocations = [[0,0]] as int[][];
     val IcespikesBiomeLocations = [[0,0]] as int[][];
+    val OuterLandsBiomeLocations = [[0,0]] as int[][];
 
     // biome to pattern
     val IromineBiomeName = "Iromine" as string;
@@ -1300,6 +1314,7 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
     val BarathosBiomeName = "Barathos" as string;
     val MysteriumBiomeName = "Mysterium" as string;
     val IcespikesBiomeName = "Ice Plains Spikes" as string;
+    val OuterlandsBiomeName = "Outer Lands" as string;
 
 
     // get number of matches
@@ -1310,7 +1325,23 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
     val BarathosMatches = checkBiomesAtPositions(BarathosBiomeName, playerpos, BarathosBiomeLocations, world) as int;
     val MysteriumMatches = checkBiomesAtPositions(MysteriumBiomeName, playerpos, MysteriumBiomeLocations, world) as int;
     val IcespikesMatches = checkBiomesAtPositions(IcespikesBiomeName, playerpos, IcespikesBiomeLocations, world) as int;
+    val OuterLandsMatches = checkBiomesAtPositions(OuterlandsBiomeName, playerpos, OuterLandsBiomeLocations, world) as int;
 
+	if((OuterLandsMatches) == 1) {
+		var pos3 = player.position.asPosition3f();
+    	pos3.x = pos3.x;
+    	pos3.y = pos3.y - 1;
+    	pos3.z = pos3.z;
+    	var blockPos3 = pos3.asBlockPos();
+    	var blockState3 = world.getBlock(blockPos3).definition.displayName as string;
+    	if(blockState3 != "tile.contenttweaker.stone_of_the_dying_star.name" && blockState3 != "Stone of the Dying Star") {
+        	player.sendChat("You may have stumbled into something here, but you are not quite there");
+        	return "FAIL";
+    	}
+		Commands.call("summon villager ~ ~3 ~ {Invulnerable:1, CustomName:\"Reaper of Stars\",Offers:{Recipes:[{buy:{id:\"botania:rune\",Damage:10,Count:32},sell:{id:\"contenttweaker:gem_of_the_dying_constellation\",Count:1},rewardExp:0b,maxUses:9999999}]},Profession:2,Career:1,CareerLevel:3,ActiveEffects:[{Id:24,Amplifier:0,Duration:999999},{Id:14,Amplifier:0,Duration:999999}]}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
 
     if((IromineMatches) == 1) {
 		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"Lord of Lust\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_lust\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);

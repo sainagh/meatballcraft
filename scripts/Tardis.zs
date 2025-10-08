@@ -34,6 +34,11 @@ recipes.addShaped(<contenttweaker:cosmic_hypergrowth_component>,
 [<avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:trinity_hypergrowth_component>, <avaritiaitem:cosmic_fractal_catalyzer>],
 [<contenttweaker:myrmitite_casing>, <avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:myrmitite_casing>]]);
 
+recipes.addShaped(<contenttweaker:modular_neutronium_casing>*8,
+[[<avaritia:block_resource:0>, <avaritia:block_resource:0>, <avaritia:block_resource:0>],
+[<avaritia:block_resource:0>, <modularmachinery:blockcasing:0>, <avaritia:block_resource:0>],
+[<avaritia:block_resource:0>, <avaritia:block_resource:0>, <avaritia:block_resource:0>]]);
+
 
 mods.nuclearcraft.infuser.addRecipe([<forestry:peat>, <fluid:whisper_of_thel>*1, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§MThel§r"]}})]);
 mods.nuclearcraft.infuser.addRecipe([<forestry:peat>, <fluid:whisper_of_ahkrast_korvalain>*1, <contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§MAhkrast Korvalain§r"]}})]);
@@ -145,6 +150,16 @@ moltenchaosentropic5.addFluidInput(<fluid:inquiring_abyssite>*144);
 moltenchaosentropic5.addFluidOutput(<fluid:chaos>*1440000);
 moltenchaosentropic5.build();
 
+val moltenchaosentropic6 = RecipeBuilder.newBuilder("moltenchaosentropic6","abyssal_entropic_catalyzer",2);
+moltenchaosentropic6.addItemInput(<ore:ingotAbyssalnite>);
+moltenchaosentropic6.addItemInput(<ore:ingotDreadium>);
+moltenchaosentropic6.addItemInput(<ore:ingotLiquifiedCoralium>);
+moltenchaosentropic6.addItemInput(<ore:ingotEthaxium>);
+moltenchaosentropic6.addItemInput(<contenttweaker:chaotic_egg>);
+moltenchaosentropic6.addFluidInput(<fluid:everloving_abyssite>*72);
+moltenchaosentropic6.addFluidOutput(<fluid:chaos>*7200000);
+moltenchaosentropic6.build();
+
 
 
 val catalystbalance0 = RecipeBuilder.newBuilder("catalystbalance0","catalyst_of_balance",20);
@@ -228,6 +243,15 @@ inffurnechowarrenalloy2.addItemInput(<avaritia:resource:6>*2);
 inffurnechowarrenalloy2.addItemInput(<contenttweaker:warren_shard>);
 inffurnechowarrenalloy2.addItemOutput(<contenttweaker:echo_warren_alloy>*4);
 inffurnechowarrenalloy2.build();
+
+val inffurnechowarrenalloy3 = RecipeBuilder.newBuilder("inffurnechowarrenalloy3","infinity_furnace",20);
+inffurnechowarrenalloy3.addFluidInput(<fluid:recursive_computing_matter>*1000);
+inffurnechowarrenalloy3.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
+inffurnechowarrenalloy3.addItemInput(<ore:ingotFractalliteHalite>);
+inffurnechowarrenalloy3.addItemInput(<avaritia:resource:6>*2);
+inffurnechowarrenalloy3.addItemInput(<contenttweaker:gem_of_the_birthing_nebula>);
+inffurnechowarrenalloy3.addItemOutput(<contenttweaker:echo_warren_alloy>*8);
+inffurnechowarrenalloy3.build();
 
 val inffurnfinalwarrenalloy = RecipeBuilder.newBuilder("inffurnfinalwarrenalloy","infinity_furnace",20);
 inffurnfinalwarrenalloy.addFluidInput(<fluid:recursive_computing_matter>*5000000);
@@ -327,6 +351,11 @@ recipes.addShaped(<contenttweaker:ascended_fluix_etcher>,
 [<avaritiaitem:spatial_processor>, <contenttweaker:fluix_etcher>, <avaritiaitem:spatial_processor>],
 [<contenttweaker:opalescent_matter>, <plustic:laser_medium>.withTag({Material: "starmetal"}), <contenttweaker:opalescent_matter>]]);
 
+recipes.addShaped(<contenttweaker:universal_fluix_etcher>,
+[[<contenttweaker:quasar_charged_gem>, <contenttweaker:fractallite_quantum>, <contenttweaker:quasar_charged_gem>],
+[<contenttweaker:ingot_of_infinite_wishes>, <contenttweaker:ascended_fluix_etcher>, <contenttweaker:ingot_of_infinite_wishes>],
+[<contenttweaker:quasar_charged_gem>, <contenttweaker:fractallite_quantum>, <contenttweaker:quasar_charged_gem>]]);
+
 recipes.addShaped(<contenttweaker:naquadah_casing>,
 [[<contenttweaker:opalescent_matter>, <contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:opalescent_matter>],
 [<contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:naquadah_catalyst>, <contenttweaker:hyperuranon_actualizing_fabrial>],
@@ -406,28 +435,24 @@ dysondynamizer.build();
 
 
 val dysonscatterer1 = RecipeBuilder.newBuilder("dysonscatterer1","dyson_scatterer",100);
-dysonscatterer1.addEnergyPerTickInput(1000000000);
 dysonscatterer1.addFluidInput(<fluid:strange_matter>*400);
 dysonscatterer1.addFluidInput(<fluid:gluons>*400);
 dysonscatterer1.addFluidOutput(<fluid:strange_quark_gluon_plasma>*800);
 dysonscatterer1.build();
 
 val dysonscatterer2 = RecipeBuilder.newBuilder("dysonscatterer2","dyson_scatterer",100);
-dysonscatterer2.addEnergyPerTickInput(1000000000);
 dysonscatterer2.addFluidInput(<fluid:neutron>*400);
 dysonscatterer2.addFluidInput(<fluid:muons>*400);
 dysonscatterer2.addFluidOutput(<fluid:cosmic_ray_particle_mix>*800);
 dysonscatterer2.build();
 
 val dysonscatterer3 = RecipeBuilder.newBuilder("dysonscatterer3","dyson_scatterer",100);
-dysonscatterer3.addEnergyPerTickInput(1000000000);
 dysonscatterer3.addFluidInput(<fluid:low_grade_space_time_fuel>*400);
 dysonscatterer3.addFluidInput(<fluid:cosmic_ray_particle_mix>*400);
 dysonscatterer3.addFluidOutput(<fluid:medium_grade_space_time_fuel>*800);
 dysonscatterer3.build();
 
 val dysonscatterer4 = RecipeBuilder.newBuilder("dysonscatterer4","dyson_scatterer",100);
-dysonscatterer4.addEnergyPerTickInput(1000000000);
 dysonscatterer4.addFluidInput(<fluid:medium_grade_space_time_fuel>*400);
 dysonscatterer4.addFluidInput(<fluid:strange_quark_gluon_plasma>*400);
 dysonscatterer4.addFluidOutput(<fluid:high_grade_space_time_fuel>*800);
@@ -685,14 +710,30 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:galactic_power_uni
 
 
 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dying_constellation_callstone>, 
+[[<contenttweaker:recursion_of_undeath_focusing_fabrial>, <minecraft:bedrock>, <contenttweaker:astral_insight_50>, <minecraft:bedrock>, <contenttweaker:recursion_of_undeath_focusing_fabrial>], 
+[<minecraft:bedrock>, <contenttweaker:hungering_world_soul>, <contenttweaker:miniature_star>, <contenttweaker:hungering_world_soul>, <minecraft:bedrock>], 
+[<contenttweaker:astral_insight_50>, <contenttweaker:miniature_star>, <avaritia:matter_cluster>.withTag({clusteritems: {total: 4096, items: [{item: {id: "botania:livingrock", Count: 1, Damage: 0 as short}, count: 4096}]}}), <contenttweaker:miniature_star>, <contenttweaker:astral_insight_50>], 
+[<minecraft:bedrock>, <contenttweaker:hungering_world_soul>, <contenttweaker:miniature_star>, <contenttweaker:hungering_world_soul>, <minecraft:bedrock>], 
+[<contenttweaker:recursion_of_undeath_focusing_fabrial>, <minecraft:bedrock>, <contenttweaker:astral_insight_50>, <minecraft:bedrock>, <contenttweaker:recursion_of_undeath_focusing_fabrial>]]);  
+
+
+// summon villager ~ ~3 ~ {Invulnerable:1, CustomName:"Will of Gaia",Offers:{Recipes:[{buy:{id:"contenttweaker:gem_of_cyclical_hope",Count:16},sell:{id:"contenttweaker:construct_of_natural_balance",Count:1},rewardExp:0b,maxUses:9999999}]},Profession:2,Career:1,CareerLevel:3,ActiveEffects:[{Id:24,Amplifier:0,Duration:999999},{Id:14,Amplifier:0,Duration:999999}]}
+
+
+
+
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_casing>, 
-[[<contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>], 
-[<contenttweaker:balanced_machine_casing>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:balanced_machine_casing>], 
-[<contenttweaker:naquadah_casing>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:cosmic_string_conduit>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:naquadah_casing>], 
-[<contenttweaker:naquadah_casing>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:galactic_power_unit>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:naquadah_casing>], 
-[<contenttweaker:naquadah_casing>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:cosmic_string_conduit>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:naquadah_casing>], 
-[<contenttweaker:balanced_machine_casing>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:balanced_machine_casing>], 
-[<contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>]]);  
+[[<contenttweaker:catalyst_of_natural_law>, <contenttweaker:pale_metal>, <contenttweaker:wyvernium_matrix>, <contenttweaker:space_time_beam>, <contenttweaker:space_time_beam>, <contenttweaker:space_time_beam>, <contenttweaker:wyvernium_matrix>, <contenttweaker:pale_metal>, <contenttweaker:catalyst_of_natural_law>], 
+[<contenttweaker:pale_metal>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:pale_metal>], 
+[<contenttweaker:wyvernium_matrix>, <contenttweaker:balanced_machine_casing>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:balanced_machine_casing>, <contenttweaker:wyvernium_matrix>], 
+[<contenttweaker:space_time_beam>, <contenttweaker:naquadah_casing>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:cosmic_string_conduit>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:naquadah_casing>, <contenttweaker:space_time_beam>], 
+[<contenttweaker:space_time_beam>, <contenttweaker:naquadah_casing>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:galactic_power_unit>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:naquadah_casing>, <contenttweaker:space_time_beam>], 
+[<contenttweaker:space_time_beam>, <contenttweaker:naquadah_casing>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:cosmic_string_conduit>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:naquadah_casing>, <contenttweaker:space_time_beam>], 
+[<contenttweaker:wyvernium_matrix>, <contenttweaker:balanced_machine_casing>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:balanced_machine_casing>, <contenttweaker:wyvernium_matrix>], 
+[<contenttweaker:pale_metal>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:pale_metal>], 
+[<contenttweaker:catalyst_of_natural_law>, <contenttweaker:pale_metal>, <contenttweaker:wyvernium_matrix>, <contenttweaker:space_time_beam>, <contenttweaker:space_time_beam>, <contenttweaker:space_time_beam>, <contenttweaker:wyvernium_matrix>, <contenttweaker:pale_metal>, <contenttweaker:catalyst_of_natural_law>]]);  
 
 
 
@@ -814,3 +855,99 @@ blackholejuice.build();
 
 
 mods.nuclearcraft.infuser.addRecipe([<minecraft:bucket>, <fluid:black_hole_juice>*500, <contenttweaker:black_hole_juice>, 1.0, 1.0, 1.0]);
+
+
+recipes.addShaped(<contenttweaker:whisper_of_natureal_law>,
+[[<botania:rune:9>, <botania:rune:10>, <botania:rune:11>],
+[<botania:rune:12>, <contenttweaker:gem_of_the_dying_constellation>, <botania:rune:13>],
+[<botania:rune:15>, <contenttweaker:star_core>, <botania:rune:14>]]);
+
+
+mods.botania.RuneAltar.addRecipe(<contenttweaker:plea_to_nature>, [<contenttweaker:whisper_of_natureal_law>, <contenttweaker:whisper_of_natureal_law>, <contenttweaker:mortuus_vis_condensate>, <contenttweaker:mortuus_vis_condensate>, <contenttweaker:aesir_gemstone>, <contenttweaker:aesir_gemstone>], 1000);
+
+
+val terrcaultsuperastralore = RecipeBuilder.newBuilder("terrcaultsuperastralore","terrestrial_cauldron",2);
+terrcaultsuperastralore.addFluidInput(<fluid:astralsorcery.liquidstarlight>*100000);
+terrcaultsuperastralore.addFluidInput(<fluid:recursive_computing_matter>*100);
+terrcaultsuperastralore.addItemInput(<astralsorcery:blockcustomore:1>*512);
+terrcaultsuperastralore.addItemOutput(<contenttweaker:catasterismetal_ore>*512);
+terrcaultsuperastralore.build();
+
+
+val treelifehopefulreturn = RecipeBuilder.newBuilder("treelifehopefulreturn","tree_of_life",2000);
+treelifehopefulreturn.addItemInput(<contenttweaker:gem_of_cyclical_hope>*32);
+treelifehopefulreturn.addItemInput(<contenttweaker:stellae_vis_condensate>*4);
+treelifehopefulreturn.addItemInput(<contenttweaker:fractal_fragment_natural_law>*4);
+treelifehopefulreturn.addItemOutput(<contenttweaker:hopeful_return_callstone>);
+treelifehopefulreturn.build();
+
+recipes.addShaped(<contenttweaker:sideral_living_gemstone>*4,
+[[null, <contenttweaker:bifrost_gem>, null],
+[<contenttweaker:bifrost_gem>, <bloodmagic:blood_tank:6>.withTag({Fluid: {FluidName: "sideral_life_essence", Amount: 1024000}}), <contenttweaker:bifrost_gem>],
+[null, <contenttweaker:bifrost_gem>, null]]);
+
+val treeoflifelivingconstellation = RecipeBuilder.newBuilder("treeoflifelivingconstellation","tree_of_life",10);
+treeoflifelivingconstellation.addItemInput(<contenttweaker:construct_of_natural_balance>);
+treeoflifelivingconstellation.setChance(0.0);
+treeoflifelivingconstellation.addItemInput(<contenttweaker:gem_of_cyclical_hope>);
+treeoflifelivingconstellation.addItemInput(<contenttweaker:sideral_living_gemstone>);
+treeoflifelivingconstellation.addItemOutput(<contenttweaker:gem_of_the_birthing_nebula>);
+treeoflifelivingconstellation.build();
+
+
+
+recipes.addShaped(<contenttweaker:self_actualizing_flower>,
+[[<botania:manaresource:4>, <botania:petal:*>, <botania:manaresource:4>],
+[<botania:petal:*>, <avaritiaitem:self_actualizing_stone>, <botania:petal:*>],
+[<botania:manaresource:4>, <botania:petal:*>, <botania:manaresource:4>]]);
+
+
+
+
+recipes.addShaped(<contenttweaker:catalyst_of_natural_law>,
+[[<contenttweaker:recursion_of_natural_law>, <contenttweaker:catalyst_of_balance>, <contenttweaker:recursion_of_natural_law>],
+[<contenttweaker:catalyst_of_balance>, <avaritiaitem:cosmic_balance>, <contenttweaker:catalyst_of_balance>],
+[<contenttweaker:recursion_of_natural_law>, <contenttweaker:catalyst_of_balance>, <contenttweaker:recursion_of_natural_law>]]);
+
+recipes.addShaped(<contenttweaker:recursion_of_natural_law>*8,
+[[<contenttweaker:fractal_fragment_natural_law>, <contenttweaker:soul_fragment_of_the_reconciled_aesir>, <contenttweaker:fractal_fragment_natural_law>],
+[<contenttweaker:recursion_of_clarity>, <contenttweaker:recursion_of_natural_law>, <contenttweaker:recursion_of_clarity>],
+[<contenttweaker:fractal_fragment_natural_law>, <contenttweaker:soul_fragment_of_the_reconciled_aesir>, <contenttweaker:fractal_fragment_natural_law>]]);
+
+
+
+mods.thaumcraft.Infusion.registerRecipe("infscreamofpauram", "", 
+<contenttweaker:scream_of_pauram>, 10,
+[<aspect:spiritus>*10000, <aspect:victus>*10000], 
+<contenttweaker:recursion_fear>, 
+[<contenttweaker:quasar_charged_gem>, <contenttweaker:droplet_of_the_great_snake>,
+<contenttweaker:quasar_charged_gem>, <contenttweaker:gem_of_the_dying_constellation>,
+<contenttweaker:quasar_charged_gem>, <contenttweaker:droplet_of_the_great_snake>,
+<contenttweaker:quasar_charged_gem>, <contenttweaker:gem_of_the_dying_constellation>,
+<contenttweaker:quasar_charged_gem>, <contenttweaker:droplet_of_the_great_snake>,
+<contenttweaker:quasar_charged_gem>, <contenttweaker:gem_of_the_dying_constellation>]);
+
+mods.thaumcraft.Crucible.registerRecipe("crucibledupebloodslime", "", <contenttweaker:screaming_blood_slime>*24, <contenttweaker:screaming_blood_slime>, [<aspect:victus>*20]);
+
+
+mods.botania.RuneAltar.addRecipe(<contenttweaker:twilit_warren_shredder>,[<contenttweaker:quasar_charged_gem>, <contenttweaker:gem_of_the_dying_constellation>, <contenttweaker:quasar_charged_gem>, <contenttweaker:gem_of_the_birthing_nebula>, <contenttweaker:quasar_charged_gem>, <contenttweaker:scroll_of_truth_asgard>], 200);
+
+
+mods.tconstruct.Melting.addRecipe(<liquid:molten_echo_warren> * 144,<contenttweaker:echo_warren_bar>);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:echo_warren_bar>, <tconstruct:cast_custom:0>, <liquid:molten_echo_warren>, 144, false, 80);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:echo_warren_bar>, <fluid:molten_echo_warren>]);
+
+
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:resounding_warren_alloy_block>, <contenttweaker:warren_plate>, <liquid:molten_echo_warren>, 1296, true);
+
+recipes.addShapeless(<avaritiaitem:resounding_warren_alloy>*9,
+[<contenttweaker:resounding_warren_alloy_block>]);
+
+recipes.addShapeless(<contenttweaker:yggdrasil_wood>*2,
+[<contenttweaker:yggdrasil_wood>, <twilightforest:cinder_log>]);
+
+mods.storagedrawers.Compaction.add(<contenttweaker:resounding_warren_alloy_block>, <avaritiaitem:resounding_warren_alloy>, 9);
+
+
+

@@ -10,12 +10,50 @@ recipes.addShaped(<draconicevolution:crafting_injector:0>*2,
 [<aoa3:low_precasia_stone>, <contenttweaker:draconic_machine_frame>, <aoa3:lelyetia_stone>],
 [<aoa3:baron_stone>, <contenttweaker:projector_gem>, <aoa3:creep_stone>]]);
 
+recipes.addShaped(<draconicevolution:crafting_injector:0>*4,
+[[<ore:blockStellarAlloy>, <draconicevolution:draconic_core>, <ore:blockStellarAlloy>],
+[<contenttweaker:draconic_machine_frame>, <contenttweaker:actualizing_stone>, <contenttweaker:draconic_machine_frame>],
+[<contenttweaker:actualizing_stone>, <extendedcrafting:singularity_custom:2042>, <contenttweaker:actualizing_stone>]]);
+
+recipes.addShaped(<draconicevolution:crafting_injector:0>*8,
+[[<ore:blockStellarAlloy>, <draconicevolution:draconic_core>, <ore:blockStellarAlloy>],
+[<contenttweaker:draconic_machine_frame>, <contenttweaker:draconic_machine_frame>, <contenttweaker:draconic_machine_frame>],
+[<contenttweaker:actualizing_stone>, <contenttweaker:projector_gem_relativistic_condensate>, <contenttweaker:actualizing_stone>]]);
+
+
+recipes.addShaped(<contenttweaker:summons_of_the_cursed_wyvern>,
+[[<contenttweaker:wyvernium_matrix>, <contenttweaker:cursed_dragon_egg>, <contenttweaker:wyvernium_matrix>],
+[<contenttweaker:cursed_dragon_egg>, <contenttweaker:cursed_cradle>.reuse(), <contenttweaker:cursed_dragon_egg>],
+[<contenttweaker:wyvernium_matrix>, <contenttweaker:cursed_dragon_egg>, <contenttweaker:wyvernium_matrix>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:wyvernium_matrix>, 
+[[null, null, null, <contenttweaker:wyvernium_ingot>, <contenttweaker:wyvernium_ingot>, <contenttweaker:wyvernium_ingot>, null, null, null], 
+[null, <contenttweaker:wyvernium_ingot>, <contenttweaker:wyvernium_ingot>, <contenttweaker:stormlight_fragment>, <ore:blockCrystalmatrix>, <contenttweaker:stormlight_fragment>, <contenttweaker:wyvernium_ingot>, <contenttweaker:wyvernium_ingot>, null], 
+[null, <contenttweaker:wyvernium_ingot>, <contenttweaker:stormlight_fragment>, <contenttweaker:stormlight_fragment>, <ore:blockCrystalmatrix>, <contenttweaker:stormlight_fragment>, <contenttweaker:stormlight_fragment>, <contenttweaker:wyvernium_ingot>, null], 
+[<contenttweaker:wyvernium_ingot>, <contenttweaker:stormlight_fragment>, <contenttweaker:stormlight_fragment>, <avaritia:resource:5>, <ore:blockCrystalmatrix>, <avaritia:resource:5>, <contenttweaker:stormlight_fragment>, <contenttweaker:stormlight_fragment>, <contenttweaker:wyvernium_ingot>], 
+[<contenttweaker:wyvernium_ingot>, <ore:blockCrystalmatrix>, <ore:blockCrystalmatrix>, <ore:blockCrystalmatrix>, <contenttweaker:draconian_metal_ingot>, <ore:blockCrystalmatrix>, <ore:blockCrystalmatrix>, <ore:blockCrystalmatrix>, <contenttweaker:wyvernium_ingot>], 
+[<contenttweaker:wyvernium_ingot>, <contenttweaker:stormlight_fragment>, <contenttweaker:stormlight_fragment>, <avaritia:resource:5>, <ore:blockCrystalmatrix>, <avaritia:resource:5>, <contenttweaker:stormlight_fragment>, <contenttweaker:stormlight_fragment>, <contenttweaker:wyvernium_ingot>], 
+[null, <contenttweaker:wyvernium_ingot>, <contenttweaker:stormlight_fragment>, <contenttweaker:stormlight_fragment>, <ore:blockCrystalmatrix>, <contenttweaker:stormlight_fragment>, <contenttweaker:stormlight_fragment>, <contenttweaker:wyvernium_ingot>, null], 
+[null, <contenttweaker:wyvernium_ingot>, <contenttweaker:wyvernium_ingot>, <contenttweaker:stormlight_fragment>, <ore:blockCrystalmatrix>, <contenttweaker:stormlight_fragment>, <contenttweaker:wyvernium_ingot>, <contenttweaker:wyvernium_ingot>, null], 
+[null, null, null, <contenttweaker:wyvernium_ingot>, <contenttweaker:wyvernium_ingot>, <contenttweaker:wyvernium_ingot>, null, null, null]]);  
+
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:draconic_machine_frame>, 
 [[<contenttweaker:indium_dust>, <minecraft:dragon_egg>, <draconicevolution:dragon_heart>, <minecraft:dragon_egg>, <contenttweaker:indium_dust>], 
 [<minecraft:dragon_egg>, <draconicevolution:draconium_block:0>, <nuclearcraft:fuel_mixed_oxide:1>, <draconicevolution:draconium_block:0>, <minecraft:dragon_egg>], 
 [<draconicevolution:dragon_heart>, <nuclearcraft:fuel_mixed_oxide:0>, <techreborn:machine_frame:2>, <nuclearcraft:fuel_mixed_oxide:0>, <draconicevolution:dragon_heart>], 
 [<minecraft:dragon_egg>, <draconicevolution:draconium_block:0>, <nuclearcraft:fuel_mixed_oxide:1>, <draconicevolution:draconium_block:0>, <minecraft:dragon_egg>], 
 [<contenttweaker:indium_dust>, <minecraft:dragon_egg>, <draconicevolution:dragon_heart>, <minecraft:dragon_egg>, <contenttweaker:indium_dust>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:draconic_machine_frame>*4, 
+[[<contenttweaker:indium_dust>, <minecraft:dragon_egg>, <draconicevolution:dragon_heart>, <minecraft:dragon_egg>, <contenttweaker:indium_dust>], 
+[<minecraft:dragon_egg>, <draconicevolution:draconium_block:0>, <nuclearcraft:fuel_mixed_oxide:1>, <draconicevolution:draconium_block:0>, <minecraft:dragon_egg>], 
+[<contenttweaker:heart_of_the_cursed_wyvern>, <nuclearcraft:fuel_mixed_oxide:0>, <techreborn:machine_frame:2>, <nuclearcraft:fuel_mixed_oxide:0>, <contenttweaker:heart_of_the_cursed_wyvern>], 
+[<minecraft:dragon_egg>, <draconicevolution:draconium_block:0>, <nuclearcraft:fuel_mixed_oxide:1>, <draconicevolution:draconium_block:0>, <minecraft:dragon_egg>], 
+[<contenttweaker:indium_dust>, <minecraft:dragon_egg>, <draconicevolution:dragon_heart>, <minecraft:dragon_egg>, <contenttweaker:indium_dust>]]);  
+
+
 
 recipes.addShapeless(<minecraft:dragon_egg>,
 [<mysticalagradditions:stuff:3>, <mysticalagradditions:stuff:2>]);
@@ -213,6 +251,15 @@ mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:wyvern_core>*32
 [<bewitchment:cold_iron_ingot>, null, null, <draconicevolution:draconic_core>, null, null, <ore:ingotIceDragonsteel>], 
 [null, <extendedcrafting:material:40>, null, <draconicevolution:draconic_core>, null, <extendedcrafting:material:40>, null], 
 [<draconicevolution:draconium_block>, null, <ore:ingotFireDragonsteel>, null, <bewitchment:cold_iron_ingot>, null, <draconicevolution:draconium_block>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:wyvern_core>*64, 
+[[<draconicevolution:draconium_block>, null, <bewitchment:cold_iron_ingot>, null, <ore:blockFireDragonsteel>, null, <draconicevolution:draconium_block>], 
+[null, <extendedcrafting:material:40>, null, <contenttweaker:draconic_fulcrum>, null, <extendedcrafting:material:40>, null], 
+[<ore:blockIceDragonsteel>, null, <contenttweaker:trinity_nugget>, <contenttweaker:draconic_fulcrum>, <contenttweaker:trinity_nugget>, null, <bewitchment:cold_iron_ingot>], 
+[null, <contenttweaker:draconic_fulcrum>, <contenttweaker:draconic_fulcrum>, <contenttweaker:eye_of_gallifrey>, <contenttweaker:draconic_fulcrum>, <contenttweaker:draconic_fulcrum>, null], 
+[<bewitchment:cold_iron_ingot>, null, <contenttweaker:trinity_nugget>, <contenttweaker:draconic_fulcrum>, <contenttweaker:trinity_nugget>, null, <ore:blockIceDragonsteel>], 
+[null, <extendedcrafting:material:40>, null, <contenttweaker:draconic_fulcrum>, null, <extendedcrafting:material:40>, null], 
+[<draconicevolution:draconium_block>, null, <ore:blockFireDragonsteel>, null, <bewitchment:cold_iron_ingot>, null, <draconicevolution:draconium_block>]]);  
 
 recipes.removeShaped(<draconicevolution:diss_enchanter>);
 

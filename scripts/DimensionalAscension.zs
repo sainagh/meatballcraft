@@ -137,7 +137,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
     }
 
     if (getBlockMatchAtPosition("thebetweenlands:pitstone", playerPos, [4,0,14], world) == 0) {
-        player.sendChat("Place a block of Arcanium Block south relative to the Arcanium Block, one block away [4,0,14]");
+        player.sendChat("Place a block of Pitstone south relative to the Arcanium Block, one block away [4,0,14]");
         return "FAIL";
     }
 
@@ -177,7 +177,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
     }
 
     if (getBlockMatchAtPosition("enderio:block_reinforced_obsidian", playerPos, [4,0,-2], world) == 0) {
-        player.sendChat("Ok I will give you this one, Place a block of Reinforced Obsidian diagonally noth-east relative to the Netherrack, one block away [4,0,-2]");
+        player.sendChat("Ok I will give you this one, Place a block of Reinforced Obsidian diagonally north-east relative to the Netherrack, one block away [4,0,-2]");
         return "FAIL";
     }
 

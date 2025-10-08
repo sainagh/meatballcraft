@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1032
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe following section categorizes all possible Tinker\u0027s materials available at each point in progression, categorized as great, good, and OK.\n\nThe ratings for each material may change as players provide feedback and new builds are discovered, so things here may get reshuffled.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:toolforge",
+        "tag:10": {
+          "textureBlock:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "id:8": "aoa3:lyon_block"
+          }
+        }
+      },
+      "name:8": "Kinkerer\u0027s Koolbook"
+    }
+  },
+  "questID:3": 490258798,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

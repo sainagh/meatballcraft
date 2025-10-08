@@ -3256,6 +3256,7 @@ import crafttweaker.item.IItemCondition;
 
 <betterp2p:advanced_memory_card>.addTooltip(format.red("Right click on a P2P bus to bind it to another, this card has a GUI"));
 <betterp2p:advanced_memory_card>.addTooltip(format.red("P2P buses can be renamed with a quartz cutting knife, makes it easier to keep track of things"));
+<betterp2p:advanced_memory_card>.addTooltip(format.red("Thanks to Dallagen and ChaosStrikez for helping fixing its crashes"));
 
 <appliedenergistics2:certus_quartz_cutting_knife>.addTooltip(format.red("Right click on a bus to rename it"));
 <appliedenergistics2:nether_quartz_cutting_knife>.addTooltip(format.red("Right click on a bus to rename it"));

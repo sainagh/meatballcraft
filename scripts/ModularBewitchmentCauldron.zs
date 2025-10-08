@@ -91,6 +91,16 @@ cauldron9.addItemInput(<minecraft:glowstone>);
 cauldron9.addItemOutput(<bewitchment:torchwood>);
 cauldron9.build();
 
+val cauldron10 = RecipeBuilder.newBuilder("autocauldron10","terrestrial_cauldron",20);
+cauldron10.addFluidInput(<fluid:water>*1000);
+cauldron10.addFluidInput(<fluid:lava>*1000);
+cauldron10.addItemInput(<contenttweaker:everbloody_flask>);
+cauldron10.addItemInput(<minecraft:wool:15>*64);
+cauldron10.addItemInput(<minecraft:wool:15>*64);
+cauldron10.addItemOutput(<contenttweaker:bloodshed_fabric>*128);
+cauldron10.addItemOutput(<contenttweaker:everbloody_flask>);
+cauldron10.build();
+
 
 
 
@@ -180,7 +190,33 @@ autocauldronup9.addItemOutput(<bewitchment:torchwood>);
 autocauldronup9.build();
 
 
+val autocauldronup10 = RecipeBuilder.newBuilder("autocauldronup10","terrestrial_cauldron",4);
+autocauldronup10.addFluidInput(<fluid:essence_of_ilarity>*5);
+autocauldronup10.addFluidInput(<fluid:matter_of_restraining>*5);
+autocauldronup10.addItemInput(<contenttweaker:everbloody_flask>);
+autocauldronup10.addItemInput(<minecraft:wool:15>*64);
+autocauldronup10.addItemInput(<minecraft:wool:15>*64);
+autocauldronup10.addItemOutput(<contenttweaker:bloodshed_fabric>*128);
+autocauldronup10.addItemOutput(<contenttweaker:everbloody_flask>);
+autocauldronup10.build();
 
+val autocauldronup11 = RecipeBuilder.newBuilder("autocauldronup11","terrestrial_cauldron",4);
+autocauldronup11.addFluidInput(<fluid:essence_of_ilarity>*5);
+autocauldronup11.addFluidInput(<fluid:matter_of_restraining>*5);
+autocauldronup11.addItemInput(<contenttweaker:droplet_of_the_great_snake>);
+autocauldronup11.addItemInput(<contenttweaker:bloodshed_fabric>*64);
+autocauldronup11.addItemOutput(<contenttweaker:elden_bloodied_fabric>*64);
+autocauldronup11.build();
+
+val autocauldronup12 = RecipeBuilder.newBuilder("autocauldronup12","terrestrial_cauldron",4);
+autocauldronup12.addFluidInput(<fluid:essence_of_ilarity>*5);
+autocauldronup12.addFluidInput(<fluid:matter_of_restraining>*5);
+autocauldronup12.addItemInput(<contenttweaker:screaming_blood_slime>);
+autocauldronup12.addItemInput(<contenttweaker:bloodshed_fabric>*64);
+autocauldronup12.addItemInput(<contenttweaker:elden_bloodied_fabric>*64);
+autocauldronup12.addItemOutput(<contenttweaker:fearmongerer_fabric>*64);
+autocauldronup12.addItemOutput(<contenttweaker:fearmongerer_fabric>*64);
+autocauldronup12.build();
 
 
 

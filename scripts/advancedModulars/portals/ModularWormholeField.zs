@@ -99,6 +99,27 @@ wormholegallifrey.addItemInput(<contenttweaker:gallifrey_warper>).setChance(0)
   .addRecipeTooltip(tooltip)
   .build();
 
+var wormholehomeseeker = RecipeBuilder.newBuilder("wormholehomeseeker","wormhole_field_generator",100);
+wormholehomeseeker.addItemInput(<contenttweaker:homeseeker_warper>).setChance(0)
+  .addEnergyPerTickInput(10000)
+  .addStartHandler(function(event as RecipeStartEvent) {
+      wormholeGeneratorRecipeStart(event.controller, "contenttweaker:homeseeker_portal_block", "Home?");
+    }
+  )
+  .addRecipeTooltip(tooltip)
+  .build();
+
+var wormholehomebound = RecipeBuilder.newBuilder("wormholehomebound","wormhole_field_generator",100);
+wormholehomebound.addItemInput(<contenttweaker:homebound_warper>).setChance(0)
+  .addEnergyPerTickInput(10000)
+  .addStartHandler(function(event as RecipeStartEvent) {
+      wormholeGeneratorRecipeStart(event.controller, "contenttweaker:homebound_portal_block", "Home!");
+    }
+  )
+  .addRecipeTooltip(tooltip)
+  .build();
+
+
 // Do start up sound and message if no current portal, spawn portal if different recipe, or nothing if same portal:
 function wormholeGeneratorRecipeStart(controller as IMachineController, portalBlock as string, destination as string) {
   var pos = offset.getCenter(controller);

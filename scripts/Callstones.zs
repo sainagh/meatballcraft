@@ -4134,6 +4134,7 @@ claimofworthiness.itemRightClick = function(stack, world, player, hand) {
 };
 claimofworthiness.register();
 
+// summon aoa3:ghostly_bugeye ~3 ~1 ~3 {HandItems:[{Count:1,id:"contenttweaker:pale_metal"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:5000.0},{Name:generic.attackDamage, Base:50.0}],Health:5000f,CustomName:"Ensnared Meatball Bug",ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}
 
 
 var summonsoftheshyrewarden = VanillaFactory.createItem("summons_of_the_shyre_warden");
@@ -4760,6 +4761,9 @@ meatballtitancallstone.itemRightClick = function(stack, world, player, hand) {
 meatballtitancallstone.register();
 
 
+
+
+//summon thaumcraft:cultistknight ~ ~1 ~ {PersistenceRequired:1,HandItems:[{Count:1,id:"contenttweaker:pale_metal"},{}],CustomName:"Meatball Subjugator",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f],ActiveEffects:[{Id:11,Amplifier:5,Duration:999999}],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:100.0}],Health:10000f,ArmorItems:[{Count:1,id:"contenttweaker:sentient_meatball_feet",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:"contenttweaker:sentient_meatball_legs",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:"contenttweaker:sentient_meatball_chest",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:"contenttweaker:sentient_meatball"}]}
 
 var fleshworldcallstone = VanillaFactory.createItem("flesh_world_callstone");
 fleshworldcallstone.maxStackSize = 1;
@@ -5451,5 +5455,180 @@ summonstothearmyofdarkness.register();
 
 
 
+
+
+var arcaneterraformernoob = VanillaFactory.createItem("arcane_terraformer_noob");
+arcaneterraformernoob.maxStackSize = 1;
+arcaneterraformernoob.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("/tellraw @a {\"text\":\"Click here to see a walkthrough on how to set up the biomes for this puzzle\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=-_5BU87Gnjs\"}}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+arcaneterraformernoob.register();
+
+
+
+var summonsofthecursedwyvern = VanillaFactory.createItem("summons_of_the_cursed_wyvern");
+summonsofthecursedwyvern.maxStackSize = 1;
+summonsofthecursedwyvern.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 162) {
+        player.sendChat("You gotta be in Lyndenwyrm");
+        return "FAIL";
+    }
+
+    Commands.call("/summon mowziesmobs:naga ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:heart_of_the_cursed_wyvern\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Amygg'alla, the Cursed Wyvern\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}},Attributes:[{Name:generic.maxHealth, Base:5000000.0},{Name:generic.attackDamage, Base:50000.0}],Health:5000000f}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+summonsofthecursedwyvern.register();
+
+
+var dyingconstellationcallstone = VanillaFactory.createItem("dying_constellation_callstone");
+dyingconstellationcallstone.maxStackSize = 1;
+dyingconstellationcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 192) {
+        player.sendChat("You gotta be in Fuhai");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn dying_constellation_traders", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+dyingconstellationcallstone.register();
+
+var hopefulreturncallstone = VanillaFactory.createItem("hopeful_return_callstone");
+hopefulreturncallstone.maxStackSize = 1;
+hopefulreturncallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 426) {
+        player.sendChat("You gotta be in Arcana (better on the roof)");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn arcana_roof_hopeful_return", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+hopefulreturncallstone.register();
+
+
+// summon bewitchment:demon ~ ~3 ~ {CustomName:"Alazoneia, Harbinger of Bloodshed",recipeList:{Recipes:[{buy:{id:"contenttweaker:marrow_of_alazoneia",Count:1},sell:{id:"contenttweaker:everbloody_flask",Count:1},rewardExp:0b,maxUses:9999999}]},HandItems:[{Count:1,id:"contenttweaker:marrow_of_alazoneia"},{}],HandDropChances:[1.0f,0.0f],ForgeCaps:{"twilightforest:cap_shield":{tempshields:30,permshields:30}},Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:300.0}],Health:50000f}
+
+
+var twilitwarrenshredder = VanillaFactory.createItem("twilit_warren_shredder");
+twilitwarrenshredder.maxStackSize = 1;
+twilitwarrenshredder.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 426) {
+        player.sendChat("Stand on the Bedrock roof of Arcana");
+        return "FAIL";
+    }
+
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    if(blockBelow != <blockstate:minecraft:bedrock>) {
+        player.sendChat("Stand on the Bedrock roof of Arcana");
+        return "FAIL";
+    }
+
+    Commands.call("summon bewitchment:demon ~ ~3 ~10 {Invulnerable:1,PersistenceRequired:1,NoAI:1,CustomName:\"Reconciled Aesir\",recipeList:{Recipes:[{buy:{id:\"contenttweaker:soul_fragment_of_the_reconciled_aesir\",Count:64},sell:{id:\"contenttweaker:recursion_of_natural_law\",Count:1},rewardExp:0b,maxUses:9999999}]},ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, true, true);
+    Commands.call("summon bewitchment:demon ~ ~3 ~-10 {Invulnerable:1,PersistenceRequired:1,NoAI:1,CustomName:\"Reconciled Aesir\",recipeList:{Recipes:[{buy:{id:\"contenttweaker:soul_fragment_of_the_reconciled_aesir\",Count:64},sell:{id:\"contenttweaker:recursion_of_natural_law\",Count:1},rewardExp:0b,maxUses:9999999}]},ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, true, true);
+    Commands.call("summon bewitchment:demon ~10 ~3 ~ {Invulnerable:1,PersistenceRequired:1,NoAI:1,CustomName:\"Reconciled Aesir\",recipeList:{Recipes:[{buy:{id:\"contenttweaker:soul_fragment_of_the_reconciled_aesir\",Count:64},sell:{id:\"contenttweaker:recursion_of_natural_law\",Count:1},rewardExp:0b,maxUses:9999999}]},ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, true, true);
+    Commands.call("summon bewitchment:demon ~-10 ~3 ~ {Invulnerable:1,PersistenceRequired:1,NoAI:1,CustomName:\"Reconciled Aesir\",recipeList:{Recipes:[{buy:{id:\"contenttweaker:soul_fragment_of_the_reconciled_aesir\",Count:64},sell:{id:\"contenttweaker:recursion_of_natural_law\",Count:1},rewardExp:0b,maxUses:9999999}]},ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, true, true);
+
+
+    Commands.call("fill ~-7 ~-1 ~ ~7 ~-1 ~ contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+    Commands.call("fill ~ ~-1 ~-7 ~ ~-1 ~7 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+
+    Commands.call("fill ~1 ~-1 ~-5 ~-1 ~-1 ~5 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+    Commands.call("fill ~5 ~-1 ~-1 ~-5 ~-1 ~1 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+
+    Commands.call("fill ~-4 ~-1 ~-4 ~4 ~-1 ~4 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+
+    Commands.call("fill ~4 ~-1 ~4 ~5 ~-1 ~5 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+    Commands.call("fill ~-4 ~-1 ~4 ~-5 ~-1 ~5 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+    Commands.call("fill ~4 ~-1 ~-4 ~5 ~-1 ~-5 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+    Commands.call("fill ~-4 ~-1 ~-4 ~-5 ~-1 ~-5 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+
+    Commands.call("fill ~-2 ~ ~-2 ~2 ~-5 ~2 air", player, world, false, true);
+    Commands.call("fill ~-2 ~-5 ~-2 ~2 ~-10 ~2 air", player, world, false, true);
+    Commands.call("fill ~-2 ~-10 ~-2 ~2 ~-15 ~2 air", player, world, false, true);
+
+    Commands.call("particle blockcrack ~ ~ ~ 1 1 1 0.1 1000", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+twilitwarrenshredder.register();
+
+
+
+
+var hollowstagcallstone = VanillaFactory.createItem("hollow_stag_callstone");
+hollowstagcallstone.maxStackSize = 1;
+hollowstagcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 66) {
+        player.sendChat("You gotta be in Erebus");
+        return "FAIL";
+    }
+
+    Commands.call("/pillar-spawn erebus_structure_hollowstag", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+hollowstagcallstone.register();
+
+
+var tearofarcanacallstone = VanillaFactory.createItem("tear_of_arcana_callstone");
+tearofarcanacallstone.maxStackSize = 1;
+tearofarcanacallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn arcanium_cluster_bee", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+tearofarcanacallstone.register();
 
 

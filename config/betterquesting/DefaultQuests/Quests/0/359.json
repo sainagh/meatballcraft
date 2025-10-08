@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMake sure to get a woot model for each boss in Mortum, with the exception of Karot, they are going to be required in chapter 9. For Karot you will still have to farm it, but using a taxcollector bee contraption.",
+      "desc:8": "§7§oMake sure to get a woot model for each boss in Mortum, with the exception of Karot, they are going to be required in chapter 9. For Karot you will still have to farm it, but using a taxcollector bee contraption.\n\n§fHere it is, the fractal barrier finally broken, and the fulcrum of the Twilight Horde unveiled.\nMortum, the fractal caves. The home of the great beasts.\nSo much power, driven by instinct and sheer desire to expand, to assimilate.\nThe Experienced Cori provides the structure of the Horde, as a massive, universe-enveloping colony, the inhabitants of this place provide its will, its desires and its aspirations. Organization not from the collective; organization from control.\nThese are the beings that chose to invade Terra. These are my true enemies.\nTheir goals so simple, and yet their implications so devastating. Power, more power. Growth, more growth. \nThe colony must grow, that is what they want.\nAnd now it is up to me to stop its growth.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:skythern_block"
       },
-      "name:8": "Skythern Block"
+      "name:8": "The Infinite Fractal Caves"
     }
   },
   "questID:3": 359,

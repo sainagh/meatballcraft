@@ -247,5 +247,35 @@ opdra16.addItemOutput(<contenttweaker:berserker_steel_ingot>);
 opdra16.build();
 
 
+val opdra17 = RecipeBuilder.newBuilder("dragoncruc17","dragonfire_crucible",40);
+opdra17.addFluidInput(<fluid:eternal_dragon_fire>*5000);
+opdra17.addItemInput(<aoa3:shyregem>);
+opdra17.addItemInput(<contenttweaker:pearlescent_artifact>);
+opdra17.addItemInput(<aoa3:crystallite_block>);
+opdra17.addItemInput(<aoa3:bloodstone_block>);
+opdra17.addItemOutput(<contenttweaker:eternal_dragonfire_gem>);
+opdra17.build();
+
+val opdra18 = RecipeBuilder.newBuilder("dragoncruc18","dragonfire_crucible",40);
+opdra18.addFluidInput(<fluid:eternal_dragon_fire>*800);
+opdra18.addItemInput(<contenttweaker:heart_of_the_cursed_wyvern>);
+opdra18.addItemInput(<contenttweaker:wyvernium_ingot>);
+opdra18.addItemInput(<contenttweaker:eternal_dragonfire_gem>);
+opdra18.addItemOutput(<contenttweaker:heart_of_the_cursed_wyvern>*2);
+opdra18.build();
+
+
+val opdra19 = RecipeBuilder.newBuilder("dragoncruc19","dragonfire_crucible",40);
+opdra19.addFluidInput(<fluid:eternal_dragon_fire>*5000000);
+opdra19.addItemInput(<forge:bucketfilled>.withTag({FluidName: "eleint_dragonfire", Amount: 1000}));
+opdra19.addItemInput(<minecraft:bucket>);
+opdra19.addItemInput(<ore:ingotIceDragonsteel>);
+opdra19.addItemInput(<ore:ingotFireDragonsteel>);
+opdra19.addItemInput(<ore:ingotLightningDragonsteel>);
+opdra19.addItemOutput(<forge:bucketfilled>.withTag({FluidName: "eleint_dragonfire", Amount: 1000}));
+opdra19.addItemOutput(<forge:bucketfilled>.withTag({FluidName: "eleint_dragonfire", Amount: 1000}));
+opdra19.build();
+
+
 
 

@@ -20,8 +20,16 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 14,
+          "id:8": "contenttweaker:bloodhunter_modifier"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 19,
           "id:8": "tconstruct:materials"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:a_smithys_tablet"
         }
       }
     }

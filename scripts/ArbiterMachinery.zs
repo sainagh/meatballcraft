@@ -50,12 +50,38 @@ mythallspatialcompound.addItemInput(<contenttweaker:etherium_dust>*4);
 mythallspatialcompound.addItemOutput(<contenttweaker:spatial_compound>);
 mythallspatialcompound.build();
 
+val mythallspacewarpcompound = RecipeBuilder.newBuilder("mythallspacewarpcompound","mythic_processor_alloy_furnace",2);
+mythallspacewarpcompound.addEnergyPerTickInput(60000);
+mythallspacewarpcompound.addItemInput(<contenttweaker:spatial_compound>);
+mythallspacewarpcompound.addItemInput(<contenttweaker:dust_of_infinite_wishes>*2);
+mythallspacewarpcompound.addItemInput(<extendedcrafting:singularity_custom:630>);
+mythallspacewarpcompound.addItemOutput(<contenttweaker:space_warping_compound>);
+mythallspacewarpcompound.build();
+
 recipes.addShaped(<contenttweaker:hypercharged_wool>*2,
 [[<bewitchment:alchemists_carpet>, <bewitchment:hedgewitches_carpet>, <bewitchment:besmirched_carpet>],
 [null, <contenttweaker:hypercharged_wool>, null],
 [<bewitchment:besmirched_carpet>, <bewitchment:hedgewitches_carpet>, <bewitchment:alchemists_carpet>]]);
 
+recipes.addShaped(<contenttweaker:hypercharged_wool>*4,
+[[<bewitchment:alchemists_carpet>, <bewitchment:hedgewitches_carpet>, <bewitchment:besmirched_carpet>],
+[<contenttweaker:bloodshed_fabric>, <contenttweaker:hypercharged_wool>, <contenttweaker:bloodshed_fabric>],
+[<bewitchment:besmirched_carpet>, <bewitchment:hedgewitches_carpet>, <bewitchment:alchemists_carpet>]]);
+
+recipes.addShaped(<contenttweaker:hypercharged_wool>*16,
+[[<bewitchment:alchemists_carpet>, <bewitchment:hedgewitches_carpet>, <bewitchment:besmirched_carpet>],
+[<contenttweaker:elden_bloodied_fabric>, <contenttweaker:hypercharged_wool>, <contenttweaker:elden_bloodied_fabric>],
+[<bewitchment:besmirched_carpet>, <bewitchment:hedgewitches_carpet>, <bewitchment:alchemists_carpet>]]);
+
+recipes.addShaped(<contenttweaker:hypercharged_wool>*64,
+[[<bewitchment:alchemists_carpet>, <bewitchment:hedgewitches_carpet>, <bewitchment:besmirched_carpet>],
+[<contenttweaker:screaming_blood_slime>, <contenttweaker:hypercharged_wool>, <contenttweaker:screaming_blood_slime>],
+[<bewitchment:besmirched_carpet>, <bewitchment:hedgewitches_carpet>, <bewitchment:alchemists_carpet>]]);
+
+
 Inscriber.addRecipe(<avaritiaitem:spatial_processor>, <contenttweaker:ascended_fluix_crystal>, false, <contenttweaker:singular_spatial_processor>, <contenttweaker:spatial_compound>);
+Inscriber.addRecipe(<avaritiaitem:spatial_processor>*2, <contenttweaker:ascended_fluix_crystal>, false, <contenttweaker:singular_spatial_processor>, <contenttweaker:space_warping_compound>);
+
 
 recipes.addShaped(<contenttweaker:hypercharged_redstone>,
 [[null, <contenttweaker:hypercharged_wool>, null],
@@ -108,6 +134,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:ascended_spatial_c
 [<avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:innerved_sky_stone>, <contenttweaker:hypercharged_redstone>, 
 <forestry:thermionic_tubes:8>, <forestry:thermionic_tubes:13>, <forestry:thermionic_tubes:8>, 
 <contenttweaker:hypercharged_redstone>, <contenttweaker:innerved_sky_stone>, <avaritiaitem:fractallite_halite_catalyst>]]);  
+
+
+
 
 
 
@@ -171,6 +200,10 @@ divinecombineralltheshells.addItemOutput(<contenttweaker:core_of_the_mythic_shel
 divinecombineralltheshells.build();
 
 
+
+
+
+
 val spatialcruciblekashan = RecipeBuilder.newBuilder("spatialcruciblekashan","spatial_crucible",200);
 spatialcruciblekashan.addEnergyPerTickInput(500000000);
 spatialcruciblekashan.addFluidInput(<fluid:actualizing_fluid>*100);
@@ -195,9 +228,13 @@ mith30.addEnergyPerTickInput(500000000);
 mith30.addFluidInput(<fluid:ultimate_fractallite_essence>*50);
 mith30.addFluidInput(<fluid:infinity>*72);
 mith30.addItemOutput(<contenttweaker:opalescent_matter>*64);
-mith30.setChance(0.5);
-mith30.addItemOutput(<contenttweaker:opalescent_matter>*32);
-mith30.setChance(0.5);
+mith30.setChance(0.95);
+mith30.addItemOutput(<contenttweaker:opalescent_matter>*64);
+mith30.setChance(0.8);
+mith30.addItemOutput(<contenttweaker:opalescent_matter>*64);
+mith30.setChance(0.7);
+mith30.addItemOutput(<contenttweaker:opalescent_matter>*64);
+mith30.setChance(0.6);
 mith30.addItemOutput(<projectex:final_star_shard>);
 mith30.setChance(0.5);
 mith30.addItemOutput(<projectex:matter:11>*10);
@@ -212,8 +249,12 @@ mith30.addItemOutput(<contenttweaker:cosmic_pot>*4);
 mith30.setChance(0.8);
 mith30.addItemOutput(<contenttweaker:stormlight_stone>*64);
 mith30.setChance(0.1);
-mith30.addItemOutput(<contenttweaker:soul_of_kashan>*32);
-mith30.setChance(0.1);
+mith30.addItemOutput(<contenttweaker:soul_of_kashan>*64);
+mith30.setChance(0.6);
+mith30.addItemOutput(<contenttweaker:deep_dark_matter>*64);
+mith30.setChance(0.95);
+mith30.addItemOutput(<contenttweaker:deep_dark_matter>*64);
+mith30.setChance(0.8);
 mith30.addItemOutput(<contenttweaker:tier30_token>);
 mith30.build();
 
@@ -339,10 +380,20 @@ recipes.addShaped(<contenttweaker:hyperuranion_actualizer_silkyjewel>,
 [<forge:bucketfilled>.withTag({FluidName: "whisper_of_verdith_anath", Amount: 1000}), <contenttweaker:hyperuranon_actualizing_fabrial>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_verdith_anath", Amount: 1000})],
 [<contenttweaker:strings_crystal>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_verdith_anath", Amount: 1000}), <contenttweaker:strings_crystal>]]);
 
+recipes.addShaped(<contenttweaker:hyperuranion_actualizer_mythic_shell>,
+[[<ore:blockUltimate>, <extendedcrafting:singularity_custom:2044>, <ore:blockUltimate>],
+[<contenttweaker:recursive_convergence>, <contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:recursive_convergence>],
+[<ore:blockUltimate>, <extendedcrafting:singularity_custom:2044>, <ore:blockUltimate>]]);
+
 
 val infiniteactualizing = RecipeBuilder.newBuilder("infiniteactualizing","warren_extractor_actualizing_stone",2);
 infiniteactualizing.addItemOutput(<contenttweaker:actualizing_stone>*1024);
 infiniteactualizing.build();
+
+val infiniteactualizingmythicshell = RecipeBuilder.newBuilder("infiniteactualizingmythicshell","warren_extractor_mythic_shell",2);
+infiniteactualizingmythicshell.addItemOutput(<contenttweaker:ultimate_ore>*512);
+infiniteactualizingmythicshell.addItemOutput(<contenttweaker:matrix_ore>*512);
+infiniteactualizingmythicshell.build();
 
 val infiniteactualizingichor = RecipeBuilder.newBuilder("infiniteactualizingichor","warren_extractor_ichor",2);
 infiniteactualizingichor.addItemOutput(<contenttweaker:ichor>*1024);
@@ -1237,11 +1288,11 @@ creatahkrast4.build();
 val creatahkrast5 = RecipeBuilder.newBuilder("creatahkrast5","creation_altar",2);
 creatahkrast5.addEnergyPerTickInput(1000000000);
 creatahkrast5.addFluidInput(<fluid:whisper_of_thel>*50000);
-creatahkrast5.addFluidInput(<fluid:dragons_blood_plastic>*26500);
-creatahkrast5.addFluidInput(<fluid:aerial_moonshine>*26500);
-creatahkrast5.addFluidInput(<fluid:lving_gold_nak>*26500);
-creatahkrast5.addFluidInput(<fluid:spatial_matter>*26500);
-creatahkrast5.addFluidInput(<fluid:sednanite>*26500);
+creatahkrast5.addFluidInput(<fluid:dragons_blood_plastic>*25600);
+creatahkrast5.addFluidInput(<fluid:aerial_moonshine>*25600);
+creatahkrast5.addFluidInput(<fluid:lving_gold_nak>*25600);
+creatahkrast5.addFluidInput(<fluid:spatial_matter>*25600);
+creatahkrast5.addFluidInput(<fluid:sednanite>*25600);
 creatahkrast5.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§MMode 5§r"]}}));
 creatahkrast5.setChance(0.0);
 creatahkrast5.addItemInput(<extratrees:food:40>*256);

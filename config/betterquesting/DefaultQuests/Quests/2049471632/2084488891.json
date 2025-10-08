@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1569647533,
+    1809800621
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "iceandfire:dragonbone_sword_ice"
+      },
+      "name:8": "Iced Dragon Bone Sword"
+    }
+  },
+  "questID:3": 2084488891,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:dragonbone_sword_ice"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

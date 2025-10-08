@@ -20,6 +20,7 @@ mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:oil_of_vitriol> * 1000,
 mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:otherworldly_tears> * 1000, <bewitchment:otherworldly_tears>, 100, <bewitchment:empty_jar>);
 mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:heaven_extract> * 1000, <bewitchment:heaven_extract>, 100, <bewitchment:empty_jar>);
 mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:stone_ichor> * 1000, <bewitchment:stone_ichor>, 100, <bewitchment:empty_jar>);
+mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:hellfire> * 1000, <bewitchment:bottled_hellfire>, 100, <minecraft:glass_bottle>);
 
 
 mods.thermalexpansion.Transposer.addFillRecipe(<bewitchment:oak_spirit>, <bewitchment:empty_jar>, <fluid:oak_spirit> * 1000, 100);
@@ -39,6 +40,7 @@ mods.thermalexpansion.Transposer.addFillRecipe(<bewitchment:oil_of_vitriol>, <be
 mods.thermalexpansion.Transposer.addFillRecipe(<bewitchment:otherworldly_tears>, <bewitchment:empty_jar>, <fluid:otherworldly_tears> * 1000, 100);
 mods.thermalexpansion.Transposer.addFillRecipe(<bewitchment:heaven_extract>, <bewitchment:empty_jar>, <fluid:heaven_extract> * 1000, 100);
 mods.thermalexpansion.Transposer.addFillRecipe(<bewitchment:stone_ichor>, <bewitchment:empty_jar>, <fluid:stone_ichor> * 1000, 100);
+mods.thermalexpansion.Transposer.addFillRecipe(<bewitchment:bottled_hellfire>, <minecraft:glass_bottle>, <fluid:hellfire> * 1000, 100);
 
 
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:tear_of_nature_bottle>, <minecraft:glass_bottle>, <fluid:tear_of_nature> * 1000, 100);
@@ -269,4 +271,29 @@ pulsestillheavenext.addFluidOutput(<fluid:cloudy_oil>*8000);
 pulsestillheavenext.addFluidOutput(<fluid:poultry_tincture>*8000);
 pulsestillheavenext.addFluidOutput(<fluid:eyrie_tincture>*8000);
 pulsestillheavenext.build();
+
+
+
+
+
+val pulsestillbothellfire = RecipeBuilder.newBuilder("pulsestillbothellfire","phasing_still_pot",5);
+pulsestillbothellfire.addItemInput(<contenttweaker:tear_of_nature_bottle>);
+pulsestillbothellfire.addFluidInput(<fluid:tallow_tincture>*32000);
+pulsestillbothellfire.addFluidInput(<fluid:tallow_tincture>*32000);
+pulsestillbothellfire.addFluidInput(<fluid:dragon_tincture>*32000);
+pulsestillbothellfire.addFluidInput(<fluid:fiery_unguent>*32000);
+pulsestillbothellfire.addFluidOutput(<fluid:hellfire>*32000);
+pulsestillbothellfire.addFluidOutput(<fluid:tallow_tincture>*8000);
+pulsestillbothellfire.addFluidOutput(<fluid:fiery_unguent>*8000);
+pulsestillbothellfire.addFluidOutput(<fluid:dragon_tincture>*8000);
+pulsestillbothellfire.build();
+
+val pulsestilldemonelixir = RecipeBuilder.newBuilder("pulsestilldemonelixir","phasing_still_pot",5);
+pulsestilldemonelixir.addItemInput(<contenttweaker:tear_of_nature_bottle>);
+pulsestilldemonelixir.addFluidInput(<fluid:demonic_tincture>*32000);
+pulsestilldemonelixir.addFluidInput(<fluid:fiery_unguent>*32000);
+pulsestilldemonelixir.addFluidOutput(<fluid:demonic_elixir>*48000);
+pulsestilldemonelixir.addFluidOutput(<fluid:fiery_unguent>*8000);
+pulsestilldemonelixir.addFluidOutput(<fluid:demonic_tincture>*8000);
+pulsestilldemonelixir.build();
 

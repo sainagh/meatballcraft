@@ -35,9 +35,16 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_log
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_log>*16, 
 [[<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}}), <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})], 
-[<careerbees:ingredients:1>.withTag({bark: {id: "bewitchment:dragons_blood_wood", Count: 1, Damage: 0 as short}}), <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "aether_legacy:aether_log", Count: 1, Damage: 1 as short}}), <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "thaumcraft:log_silverwood", Count: 1, Damage: 0 as short}})], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "bewitchment:dragons_blood_wood", Count: 1, Damage: 0 as short}}), <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "aether_legacy:aether_log", Count: 1, Damage: 0 as short}}), <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "thaumcraft:log_silverwood", Count: 1, Damage: 0 as short}})], 
 [<extratrees:misc:3>, <contenttweaker:chaos_wood>, <contenttweaker:energy_egg>, <contenttweaker:order_wood>, <extratrees:misc:3>], 
-[<careerbees:ingredients:1>.withTag({bark: {id: "bewitchment:dragons_blood_wood", Count: 1, Damage: 0 as short}}), <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "aether_legacy:aether_log", Count: 1, Damage: 1 as short}}), <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "thaumcraft:log_silverwood", Count: 1, Damage: 0 as short}})], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "bewitchment:dragons_blood_wood", Count: 1, Damage: 0 as short}}), <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "aether_legacy:aether_log", Count: 1, Damage: 0 as short}}), <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "thaumcraft:log_silverwood", Count: 1, Damage: 0 as short}})], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:mortum_log", Count: 1, Damage: 0 as short}}), <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:mortum_log", Count: 1, Damage: 0 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_log>*64, 
+[[<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}}), <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "bewitchment:dragons_blood_wood", Count: 1, Damage: 0 as short}}), <contenttweaker:yggdrasil_wood>, <careerbees:ingredients:1>.withTag({bark: {id: "aether_legacy:aether_log", Count: 1, Damage: 0 as short}}), <contenttweaker:yggdrasil_wood>, <careerbees:ingredients:1>.withTag({bark: {id: "thaumcraft:log_silverwood", Count: 1, Damage: 0 as short}})], 
+[<extratrees:misc:3>, <contenttweaker:chaos_wood>, <contenttweaker:energy_egg>, <contenttweaker:order_wood>, <extratrees:misc:3>], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "bewitchment:dragons_blood_wood", Count: 1, Damage: 0 as short}}), <contenttweaker:yggdrasil_wood>, <careerbees:ingredients:1>.withTag({bark: {id: "aether_legacy:aether_log", Count: 1, Damage: 0 as short}}), <contenttweaker:yggdrasil_wood>, <careerbees:ingredients:1>.withTag({bark: {id: "thaumcraft:log_silverwood", Count: 1, Damage: 0 as short}})], 
 [<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:mortum_log", Count: 1, Damage: 0 as short}}), <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "divinerpg:mortum_log", Count: 1, Damage: 0 as short}}), <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})]]);  
 
 
@@ -254,3 +261,29 @@ val superbee_endearing = RecipeBuilder.newBuilder("superbee_endearing","sacred_c
 
 
 
+
+
+val superbee_deeplands = RecipeBuilder.newBuilder("superbee_deeplands","sacred_cinders_apiary",10);	
+superbee_deeplands.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Deeplands", UID0: "gendustry.bee.Deeplands"}]}}));	
+superbee_deeplands.setChance(0.0);	
+superbee_deeplands.addFluidInput(<fluid:liquid_sunshine>*25);	
+superbee_deeplands.addItemOutput(<contenttweaker:deep_dark_matter>*64);	
+superbee_deeplands.addItemOutput(<contenttweaker:deep_dark_matter>*64);	
+superbee_deeplands.build();
+
+
+val superbee_ascendant = RecipeBuilder.newBuilder("superbee_ascendant","sacred_cinders_apiary",10);	
+superbee_ascendant.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Ascendant", UID0: "gendustry.bee.Ascendant"}]}}));	
+superbee_ascendant.setChance(0.0);	
+superbee_ascendant.addFluidInput(<fluid:liquid_sunshine>*25);	
+superbee_ascendant.addItemOutput(<contenttweaker:opalescent_matter>*64);	
+superbee_ascendant.addItemOutput(<contenttweaker:opalescent_matter>*64);	
+superbee_ascendant.build();
+
+val superbee_honeysmeltest = RecipeBuilder.newBuilder("superbee_honeysmeltest","sacred_cinders_apiary",10);	
+superbee_honeysmeltest.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Honeysmeltest", UID0: "gendustry.bee.Honeysmeltest"}]}}));	
+superbee_honeysmeltest.setChance(0.0);	
+superbee_honeysmeltest.addFluidInput(<fluid:liquid_sunshine>*25);	
+superbee_honeysmeltest.addItemOutput(<gendustry:honey_comb:14029>*64);	
+superbee_honeysmeltest.addItemOutput(<gendustry:honey_comb:14029>*64);	
+superbee_honeysmeltest.build();

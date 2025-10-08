@@ -142,6 +142,18 @@ setPortalProps(gallifreyportal);
 setPortalLogic(gallifreyportal, 624, false);
 gallifreyportal.register();
 
+
+var homeseekerportal = VanillaFactory.createExpandBlock("homeseeker_portal_block", <blockmaterial:glass>);
+setPortalProps(homeseekerportal);
+setPortalHomeseeker(homeseekerportal);
+homeseekerportal.register();
+
+var homeboundportal = VanillaFactory.createExpandBlock("homebound_portal_block", <blockmaterial:glass>);
+setPortalProps(homeboundportal);
+setPortalHomebound(homeboundportal);
+homeboundportal.register();
+
+
 function setPortalProps(block as Block) as Block {
   block.setBlockHardness(-1.0);
   block.setToolClass("pickaxe");
@@ -179,3 +191,50 @@ function setPortalLogic(block as Block, dimId as int, inSpace as bool) as Block 
   };
   return block;
 }
+
+
+
+
+
+// construct special teleport
+function setPortalHomeseeker(block as Block) as Block {
+  block.onEntityCollidedWithBlock = function(world, pos, state, entity) {
+    if (world.isRemote() || entity.world.time % 20 != 0 || !(entity instanceof IPlayer)) {
+      return;
+    }
+    var player as IPlayer = entity;
+    // CoT type -> native type
+    var blockPos as BlockPos = BlockPos(pos.x, pos.y, pos.z);
+    var entityBB = entity.native.getEntityBoundingBox();
+    // Ugly casting because of CoT types
+    var blockBB = (state as IBlockState).native.getBoundingBox(entity.world.native, blockPos);
+    if (!entity.isRiding && !entity.isBeingRidden && entityBB.intersects(blockBB.offset(blockPos))) {
+      Commands.call("tp @p ~5 ~50 ~5", player, world, true, true);
+      Commands.call("summon Item ~ ~ ~ {Item:{id:\"contenttweaker:shattered_mythic_matter\",Count:1b,Damage:0b}}", player, world, true, true);
+    }
+  };
+  return block;
+}
+
+
+
+// construct special teleport
+function setPortalHomebound(block as Block) as Block {
+  block.onEntityCollidedWithBlock = function(world, pos, state, entity) {
+    if (world.isRemote() || entity.world.time % 20 != 0 || !(entity instanceof IPlayer)) {
+      return;
+    }
+    var player as IPlayer = entity;
+    // CoT type -> native type
+    var blockPos as BlockPos = BlockPos(pos.x, pos.y, pos.z);
+    var entityBB = entity.native.getEntityBoundingBox();
+    // Ugly casting because of CoT types
+    var blockBB = (state as IBlockState).native.getBoundingBox(entity.world.native, blockPos);
+    if (!entity.isRiding && !entity.isBeingRidden && entityBB.intersects(blockBB.offset(blockPos))) {
+      Commands.call("tp @p ~5 ~50 ~5", player, world, true, true);
+      Commands.call("summon twilightforest:knight_phantom ~ ~1 ~ {PersistenceRequired:1,HandItems:[{Count:1,id:\"aoa3:baron_sword\"},{Count:1,id:\"contenttweaker:recursive_mind_shield\"}],HandDropChances:[0.0f,1.0f],ArmorItems:[{},{},{Count:1,id:\"contenttweaker:sentient_meatball_chest\"},{Count:1,id:\"contenttweaker:sentient_meatball\"}],ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}],ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:100,permshields:100}},Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:300.0}],Health:50000f,CustomName:\"Meatball Mind Shield\"}", player, world, true, true);
+    }
+  };
+  return block;
+}
+

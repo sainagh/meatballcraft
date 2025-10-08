@@ -23267,6 +23267,22 @@
     {
       "item": "gendustry:gene_template|0",
       "emc": 0
+    },
+    {
+      "item": "contenttweaker:tuned_botanic_alchemic_catalyst|0",
+      "emc": 0
+    },
+    {
+      "item": "packagedauto:crafting_proxy|0",
+      "emc": 0
+    },
+    {
+      "item": "packagedfluidcrafting:fluid_packet_encoder|0",
+      "emc": 0
+    },
+    {
+      "item": "packagedauto:distributor|0",
+      "emc": 0
     }
   ]
 }

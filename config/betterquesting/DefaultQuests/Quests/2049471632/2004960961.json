@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    1569647533,
+    81569973
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:scythe"
+      },
+      "name:8": "Scythe"
+    }
+  },
+  "questID:3": 2004960961,
+  "tasks:9": {}
+}

@@ -224,13 +224,6 @@ mythindgrind28.addItemOutput(<contenttweaker:naquadah_chunk>);
 mythindgrind28.build();
 
 
-val mythindgrind29 = RecipeBuilder.newBuilder("mythindgrind29","mythic_processor_grinder",2);
-mythindgrind29.addEnergyPerTickInput(2000000);
-mythindgrind29.addFluidInput(<fluid:sideral_life_essence>*1000);
-mythindgrind29.addItemInput(<contenttweaker:ingot_of_infinite_wishes>);
-mythindgrind29.addItemOutput(<contenttweaker:dust_of_infinite_wishes>*64);
-mythindgrind29.build();
-
 val mythindgrind30 = RecipeBuilder.newBuilder("mythindgrind30","mythic_processor_grinder",2);
 mythindgrind30.addEnergyPerTickInput(2000000);
 mythindgrind30.addFluidInput(<fluid:dense_plasma>*50);
@@ -280,3 +273,70 @@ mythindgrind36.addFluidInput(<fluid:ice>*1);
 mythindgrind36.addItemInput(<aoa3:ornamyte>*32);
 mythindgrind36.addItemOutput(<bewitchment:garnet>*2048);
 mythindgrind36.build();
+
+
+val mythindgrind37 = RecipeBuilder.newBuilder("mythindgrind37","mythic_processor_grinder",2);
+mythindgrind37.addEnergyPerTickInput(2000000);
+mythindgrind37.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindgrind37.addItemInput(<ore:oreRhenium>*1024);
+mythindgrind37.addItemOutput(<materialpart:rhenium:dust>*16384);
+mythindgrind37.build();
+
+val mythindgrind38 = RecipeBuilder.newBuilder("mythindgrind38","mythic_processor_grinder",2);
+mythindgrind38.addEnergyPerTickInput(2000000);
+mythindgrind38.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindgrind38.addItemInput(<ore:oreSednanite>*1024);
+mythindgrind38.addItemOutput(<materialpart:sednanite:dust>*16384);
+mythindgrind38.build();
+
+val mythindgrind39 = RecipeBuilder.newBuilder("mythindgrind39","mythic_processor_grinder",2);
+mythindgrind39.addEnergyPerTickInput(2000000);
+mythindgrind39.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindgrind39.addItemInput(<ore:oreMyrmitite>*1024);
+mythindgrind39.addItemOutput(<materialpart:myrmitite:dust>*16384);
+mythindgrind39.build();
+
+
+val mythindgrind40 = RecipeBuilder.newBuilder("mythindgrind40","mythic_processor_grinder",2);
+mythindgrind40.addEnergyPerTickInput(2000000);
+mythindgrind40.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindgrind40.addItemInput(<ore:oreOgerite>*1024);
+mythindgrind40.addItemOutput(<materialpart:ogerite:dust>*16384);
+mythindgrind40.build();
+
+
+val mythindgrind41 = RecipeBuilder.newBuilder("mythindgrind41","mythic_processor_grinder",2);
+mythindgrind41.addEnergyPerTickInput(2000000);
+mythindgrind41.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindgrind41.addItemInput(<ore:oreHolographic>*512);
+mythindgrind41.addItemOutput(<contenttweaker:projector_gem>*16384);
+mythindgrind41.build();
+
+
+val mythindgrind42 = RecipeBuilder.newBuilder("mythindgrind42","mythic_processor_grinder",2);
+mythindgrind42.addEnergyPerTickInput(2000000);
+mythindgrind42.addFluidInput(<fluid:astralsorcery.liquidstarlight>*50000);
+mythindgrind42.addItemInput(<ore:oreAstralStarmetal>*256);
+mythindgrind42.addItemOutput(<astralsorcery:itemcraftingcomponent:2>*2048);
+mythindgrind42.build();
+
+val mythindgrind43 = RecipeBuilder.newBuilder("mythindgrind43","mythic_processor_grinder",2);
+mythindgrind43.addEnergyPerTickInput(2000000);
+mythindgrind43.addFluidInput(<fluid:astralsorcery.liquidstarlight>*50000);
+mythindgrind43.addItemInput(<contenttweaker:catasterismetal_ore>*256);
+mythindgrind43.addItemOutput(<astralsorcery:itemcraftingcomponent:2>*8192);
+mythindgrind43.build();
+
+val mythindgrind44 = RecipeBuilder.newBuilder("mythindgrind44","mythic_processor_grinder",2);
+mythindgrind44.addEnergyPerTickInput(2000000);
+mythindgrind44.addFluidInput(<fluid:lymph_of_pixonia>*1);
+mythindgrind44.addItemInput(<contenttweaker:pale_metal>*16);
+mythindgrind44.addItemOutput(<contenttweaker:pale_metal_dust>*16);
+mythindgrind44.build();
+
+
+
+
+
+
+

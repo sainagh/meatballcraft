@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1917606412
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:everbloody_flask"
+      },
+      "name:8": "The Harbinger of Bloodshed"
+    }
+  },
+  "questID:3": 2053473508,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:rite_of_bloodshed"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:marrow_of_alazoneia"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:everbloody_flask"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

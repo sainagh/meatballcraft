@@ -7,7 +7,7 @@
       "desc:8": "§7§o5 x 6 frame of ancient rock with one rune of power, direction, space, reality, travel (right click power with realmstone)",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "aoa3:pink_cotton_candy"
+        "id:8": "aoa3:candyland_grass"
       },
       "name:8": "Candyland"
     }
@@ -26,7 +26,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "aoa3:pink_cotton_candy"
+          "id:8": "aoa3:candyland_grass"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

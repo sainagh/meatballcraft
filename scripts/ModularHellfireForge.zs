@@ -1,6 +1,19 @@
 
 import mods.modularmachinery.RecipeBuilder;
 
+recipes.addShaped(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}),
+[[<bloodmagic:item_demon_crystal>, <bloodmagic:item_demon_crystal>, <bloodmagic:item_demon_crystal>],
+[<bloodmagic:item_demon_crystal>, <bloodmagic:soul_forge>, <bloodmagic:item_demon_crystal>],
+[<bloodmagic:item_demon_crystal>, <bloodmagic:item_demon_crystal>, <bloodmagic:item_demon_crystal>]]);
+
+mods.chisel.Carving.addGroup("hellfireconfig");
+mods.chisel.Carving.addVariation("hellfireconfig", <contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+mods.chisel.Carving.addVariation("hellfireconfig", <contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o3x3 Chunks§r"]}}));
+mods.chisel.Carving.addVariation("hellfireconfig", <contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o5x5 Chunks§r"]}}));
+
+
+
+
 
 val multihellfiredupe1 = RecipeBuilder.newBuilder("multihellfiredupe1","berserker_forge",2);
 multihellfiredupe1.addWillInput("DEFAULT", 20,1,2000000);
@@ -509,6 +522,188 @@ multihellfire53.addItemInput(<ore:blockCoal>);
 multihellfire53.addItemOutput(<bloodmagic:component:1>);
 multihellfire53.build();
 
+val multihellfire54 = RecipeBuilder.newBuilder("multihellfire54","berserker_forge",2);
+multihellfire54.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire54.addItemInput(<contenttweaker:blank_slate_catalyst>);
+multihellfire54.addItemInput(<aoa3:bloodstone>);
+multihellfire54.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire54.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire54.addItemOutput(<bloodmagic:slate:0>*4);
+multihellfire54.build();
+
+val multihellfire54a = RecipeBuilder.newBuilder("multihellfire54a","berserker_forge",2);
+multihellfire54a.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire54a.addItemInput(<contenttweaker:blank_slate_catalyst>);
+multihellfire54a.addItemInput(<aoa3:crystallite>);
+multihellfire54a.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire54a.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire54a.addItemOutput(<bloodmagic:slate:0>*8);
+multihellfire54a.build();
+
+val multihellfire54b = RecipeBuilder.newBuilder("multihellfire54b","berserker_forge",2);
+multihellfire54b.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire54b.addItemInput(<contenttweaker:blank_slate_catalyst>);
+multihellfire54b.addItemInput(<aoa3:shyregem>);
+multihellfire54b.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire54b.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire54b.addItemOutput(<bloodmagic:slate:0>*16);
+multihellfire54b.build();
+
+val multihellfire54c = RecipeBuilder.newBuilder("multihellfire54c","berserker_forge",2);
+multihellfire54c.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire54c.addItemInput(<contenttweaker:blank_slate_catalyst>);
+multihellfire54c.addItemInput(<contenttweaker:eternal_dragonfire_gem>);
+multihellfire54c.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire54c.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire54c.addItemOutput(<bloodmagic:slate:0>*64);
+multihellfire54c.build();
+
+val multihellfire55 = RecipeBuilder.newBuilder("multihellfire55","berserker_forge",2);
+multihellfire55.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire55.addItemInput(<contenttweaker:reinforced_slate_catalyst>);
+multihellfire55.addItemInput(<aoa3:bloodstone>);
+multihellfire55.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire55.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire55.addItemOutput(<bloodmagic:slate:1>*4);
+multihellfire55.build();
+
+val multihellfire55a = RecipeBuilder.newBuilder("multihellfire55a","berserker_forge",2);
+multihellfire55a.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire55a.addItemInput(<contenttweaker:reinforced_slate_catalyst>);
+multihellfire55a.addItemInput(<aoa3:crystallite>);
+multihellfire55a.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire55a.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire55a.addItemOutput(<bloodmagic:slate:1>*8);
+multihellfire55a.build();
+
+val multihellfire55b = RecipeBuilder.newBuilder("multihellfire55b","berserker_forge",2);
+multihellfire55b.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire55b.addItemInput(<contenttweaker:reinforced_slate_catalyst>);
+multihellfire55b.addItemInput(<aoa3:shyregem>);
+multihellfire55b.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire55b.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire55b.addItemOutput(<bloodmagic:slate:1>*16);
+multihellfire55b.build();
+
+val multihellfire55c = RecipeBuilder.newBuilder("multihellfire55c","berserker_forge",2);
+multihellfire55c.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire55c.addItemInput(<contenttweaker:reinforced_slate_catalyst>);
+multihellfire55c.addItemInput(<contenttweaker:eternal_dragonfire_gem>);
+multihellfire55c.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire55c.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire55c.addItemOutput(<bloodmagic:slate:1>*64);
+multihellfire55c.build();
+
+val multihellfire56 = RecipeBuilder.newBuilder("multihellfire56","berserker_forge",2);
+multihellfire56.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire56.addItemInput(<contenttweaker:imbued_slate_catalyst>);
+multihellfire56.addItemInput(<aoa3:bloodstone>);
+multihellfire56.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire56.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire56.addItemOutput(<bloodmagic:slate:2>*4);
+multihellfire56.build();
+
+val multihellfire56a = RecipeBuilder.newBuilder("multihellfire56a","berserker_forge",2);
+multihellfire56a.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire56a.addItemInput(<contenttweaker:imbued_slate_catalyst>);
+multihellfire56a.addItemInput(<aoa3:crystallite>);
+multihellfire56a.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire56a.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire56a.addItemOutput(<bloodmagic:slate:2>*8);
+multihellfire56a.build();
+
+val multihellfire56b = RecipeBuilder.newBuilder("multihellfire56b","berserker_forge",2);
+multihellfire56b.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire56b.addItemInput(<contenttweaker:imbued_slate_catalyst>);
+multihellfire56b.addItemInput(<aoa3:shyregem>);
+multihellfire56b.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire56b.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire56b.addItemOutput(<bloodmagic:slate:2>*16);
+multihellfire56b.build();
+
+val multihellfire56c = RecipeBuilder.newBuilder("multihellfire56c","berserker_forge",2);
+multihellfire56c.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire56c.addItemInput(<contenttweaker:imbued_slate_catalyst>);
+multihellfire56c.addItemInput(<contenttweaker:eternal_dragonfire_gem>);
+multihellfire56c.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire56c.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire56c.addItemOutput(<bloodmagic:slate:2>*64);
+multihellfire56c.build();
+
+val multihellfire57 = RecipeBuilder.newBuilder("multihellfire57","berserker_forge",2);
+multihellfire57.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire57.addItemInput(<contenttweaker:demonic_slate_catalyst>);
+multihellfire57.addItemInput(<aoa3:bloodstone>);
+multihellfire57.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire57.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire57.addItemOutput(<bloodmagic:slate:3>*4);
+multihellfire57.build();
+
+val multihellfire57a = RecipeBuilder.newBuilder("multihellfire57a","berserker_forge",2);
+multihellfire57a.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire57a.addItemInput(<contenttweaker:demonic_slate_catalyst>);
+multihellfire57a.addItemInput(<aoa3:crystallite>);
+multihellfire57a.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire57a.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire57a.addItemOutput(<bloodmagic:slate:3>*8);
+multihellfire57a.build();
+
+val multihellfire57b = RecipeBuilder.newBuilder("multihellfire57b","berserker_forge",2);
+multihellfire57b.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire57b.addItemInput(<contenttweaker:demonic_slate_catalyst>);
+multihellfire57b.addItemInput(<aoa3:shyregem>);
+multihellfire57b.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire57b.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire57b.addItemOutput(<bloodmagic:slate:3>*16);
+multihellfire57b.build();
+
+val multihellfire57c = RecipeBuilder.newBuilder("multihellfire57c","berserker_forge",2);
+multihellfire57c.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire57c.addItemInput(<contenttweaker:demonic_slate_catalyst>);
+multihellfire57c.addItemInput(<contenttweaker:eternal_dragonfire_gem>);
+multihellfire57c.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire57c.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire57c.addItemOutput(<bloodmagic:slate:3>*64);
+multihellfire57c.build();
+
+val multihellfire58 = RecipeBuilder.newBuilder("multihellfire58","berserker_forge",2);
+multihellfire58.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire58.addItemInput(<contenttweaker:ethereal_slate_catalyst>);
+multihellfire58.addItemInput(<aoa3:bloodstone>);
+multihellfire58.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire58.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire58.addItemOutput(<bloodmagic:slate:4>*4);
+multihellfire58.build();
+
+val multihellfire58a = RecipeBuilder.newBuilder("multihellfire58a","berserker_forge",2);
+multihellfire58a.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire58a.addItemInput(<contenttweaker:ethereal_slate_catalyst>);
+multihellfire58a.addItemInput(<aoa3:crystallite>);
+multihellfire58a.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire58a.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire58a.addItemOutput(<bloodmagic:slate:4>*8);
+multihellfire58a.build();
+
+val multihellfire58b = RecipeBuilder.newBuilder("multihellfire58b","berserker_forge",2);
+multihellfire58b.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire58b.addItemInput(<contenttweaker:ethereal_slate_catalyst>);
+multihellfire58b.addItemInput(<aoa3:shyregem>);
+multihellfire58b.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire58b.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire58b.addItemOutput(<bloodmagic:slate:4>*16);
+multihellfire58b.build();
+
+val multihellfire58c = RecipeBuilder.newBuilder("multihellfire58c","berserker_forge",2);
+multihellfire58c.addWillInput("DEFAULT", 5,1,2000000);
+multihellfire58c.addItemInput(<contenttweaker:ethereal_slate_catalyst>);
+multihellfire58c.addItemInput(<contenttweaker:eternal_dragonfire_gem>);
+multihellfire58c.addItemInput(<ore:nuggetBloodmasterMetal>);
+multihellfire58c.addItemInput(<tombstone:crafting_ingredient:3>);
+multihellfire58c.addItemOutput(<bloodmagic:slate:4>*64);
+multihellfire58c.build();
+
+
+
 
 
 recipes.addShapeless(<contenttweaker:demon_will_sliver>*10,
@@ -528,51 +723,246 @@ recipes.addShapeless(<contenttweaker:steadfast_will_sliver>*10,
 
 
 val berserkercrucible1 = RecipeBuilder.newBuilder("berserkercrucible1","berserker_crucible",2);
+berserkercrucible1.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible1.setChance(0.0);
 berserkercrucible1.addItemInput(<bloodmagic:item_demon_crystal:0>);
 berserkercrucible1.addWillOutput("DEFAULT", 100, 0, 1000);
 berserkercrucible1.build();
 
+val berserkercrucible1a = RecipeBuilder.newBuilder("berserkercrucible1a","berserker_crucible",2);
+berserkercrucible1a.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible1a.setChance(0.0);
+berserkercrucible1a.addItemInput(<bloodmagic:item_demon_crystal:0>);
+berserkercrucible1a.addWillOutput(0, 100, 0, 1000, "DEFAULT");
+berserkercrucible1a.build();
+
+val berserkercrucible1b = RecipeBuilder.newBuilder("berserkercrucible1b","berserker_crucible",2);
+berserkercrucible1b.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o3x3 Chunks§r"]}}));
+berserkercrucible1b.setChance(0.0);
+berserkercrucible1b.addItemInput(<bloodmagic:item_demon_crystal:0>*9);
+berserkercrucible1b.addWillOutput(1, 900, 0, 9000, "DEFAULT");
+berserkercrucible1b.build();
+
+val berserkercrucible1c = RecipeBuilder.newBuilder("berserkercrucible1c","berserker_crucible",2);
+berserkercrucible1c.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o5x5 Chunks§r"]}}));
+berserkercrucible1c.setChance(0.0);
+berserkercrucible1c.addItemInput(<bloodmagic:item_demon_crystal:0>*25);
+berserkercrucible1c.addWillOutput(2, 2500, 0, 25000, "DEFAULT");
+berserkercrucible1c.build();
+
 val berserkercrucible2 = RecipeBuilder.newBuilder("berserkercrucible2","berserker_crucible",2);
+berserkercrucible2.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible2.setChance(0.0);
 berserkercrucible2.addItemInput(<contenttweaker:demon_will_sliver>);
 berserkercrucible2.addWillOutput("DEFAULT", 10, 0, 1000);
 berserkercrucible2.build();
 
+val berserkercrucible2a = RecipeBuilder.newBuilder("berserkercrucible2a","berserker_crucible",2);
+berserkercrucible2a.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible2a.setChance(0.0);
+berserkercrucible2a.addItemInput(<contenttweaker:demon_will_sliver>);
+berserkercrucible2a.addWillOutput(0, 10, 0, 1000, "DEFAULT");
+berserkercrucible2a.build();
+
+val berserkercrucible2b = RecipeBuilder.newBuilder("berserkercrucible2b","berserker_crucible",2);
+berserkercrucible2b.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o3x3 Chunks§r"]}}));
+berserkercrucible2b.setChance(0.0);
+berserkercrucible2b.addItemInput(<contenttweaker:demon_will_sliver>*9);
+berserkercrucible2b.addWillOutput(0, 90, 0, 9000, "DEFAULT");
+berserkercrucible2b.build();
+
 val berserkercrucible3 = RecipeBuilder.newBuilder("berserkercrucible3","berserker_crucible",2);
+berserkercrucible3.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible3.setChance(0.0);
 berserkercrucible3.addItemInput(<bloodmagic:item_demon_crystal:1>);
 berserkercrucible3.addWillOutput("CORROSIVE", 100, 0, 1000);
 berserkercrucible3.build();
 
+val berserkercrucible3a = RecipeBuilder.newBuilder("berserkercrucible3a","berserker_crucible",2);
+berserkercrucible3a.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible3a.setChance(0.0);
+berserkercrucible3a.addItemInput(<bloodmagic:item_demon_crystal:1>);
+berserkercrucible3a.addWillOutput(0, 100, 0, 1000, "CORROSIVE");
+berserkercrucible3a.build();
+
+val berserkercrucible3b = RecipeBuilder.newBuilder("berserkercrucible3b","berserker_crucible",2);
+berserkercrucible3b.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o3x3 Chunks§r"]}}));
+berserkercrucible3b.setChance(0.0);
+berserkercrucible3b.addItemInput(<bloodmagic:item_demon_crystal:1>*9);
+berserkercrucible3b.addWillOutput(1, 900, 0, 9000, "CORROSIVE");
+berserkercrucible3b.build();
+
+val berserkercrucible3c = RecipeBuilder.newBuilder("berserkercrucible3c","berserker_crucible",2);
+berserkercrucible3c.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o5x5 Chunks§r"]}}));
+berserkercrucible3c.setChance(0.0);
+berserkercrucible3c.addItemInput(<bloodmagic:item_demon_crystal:1>*25);
+berserkercrucible3c.addWillOutput(2, 2500, 0, 25000, "CORROSIVE");
+berserkercrucible3c.build();
+
 val berserkercrucible4 = RecipeBuilder.newBuilder("berserkercrucible4","berserker_crucible",2);
+berserkercrucible4.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible4.setChance(0.0);
 berserkercrucible4.addItemInput(<contenttweaker:corrosive_will_sliver>);
 berserkercrucible4.addWillOutput("CORROSIVE", 10, 0, 1000);
 berserkercrucible4.build();
 
+val berserkercrucible4a = RecipeBuilder.newBuilder("berserkercrucible4a","berserker_crucible",2);
+berserkercrucible4a.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible4a.setChance(0.0);
+berserkercrucible4a.addItemInput(<contenttweaker:corrosive_will_sliver>);
+berserkercrucible4a.addWillOutput(0, 10, 0, 1000, "CORROSIVE");
+berserkercrucible4a.build();
+
+val berserkercrucible4b = RecipeBuilder.newBuilder("berserkercrucible4b","berserker_crucible",2);
+berserkercrucible4b.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o3x3 Chunks§r"]}}));
+berserkercrucible4b.setChance(0.0);
+berserkercrucible4b.addItemInput(<contenttweaker:corrosive_will_sliver>*9);
+berserkercrucible4b.addWillOutput(0, 90, 0, 9000, "CORROSIVE");
+berserkercrucible4b.build();
+
 val berserkercrucible5 = RecipeBuilder.newBuilder("berserkercrucible5","berserker_crucible",2);
+berserkercrucible5.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible5.setChance(0.0);
 berserkercrucible5.addItemInput(<bloodmagic:item_demon_crystal:2>);
 berserkercrucible5.addWillOutput("DESTRUCTIVE", 100, 0, 1000);
 berserkercrucible5.build();
 
+val berserkercrucible5a = RecipeBuilder.newBuilder("berserkercrucible5a","berserker_crucible",2);
+berserkercrucible5a.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible5a.setChance(0.0);
+berserkercrucible5a.addItemInput(<bloodmagic:item_demon_crystal:2>);
+berserkercrucible5a.addWillOutput(0, 100, 0, 1000, "DESTRUCTIVE");
+berserkercrucible5a.build();
+
+val berserkercrucible5b = RecipeBuilder.newBuilder("berserkercrucible5b","berserker_crucible",2);
+berserkercrucible5b.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o3x3 Chunks§r"]}}));
+berserkercrucible5b.setChance(0.0);
+berserkercrucible5b.addItemInput(<bloodmagic:item_demon_crystal:2>*9);
+berserkercrucible5b.addWillOutput(1, 900, 0, 9000, "DESTRUCTIVE");
+berserkercrucible5b.build();
+
+val berserkercrucible5c = RecipeBuilder.newBuilder("berserkercrucible5c","berserker_crucible",2);
+berserkercrucible5c.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o5x5 Chunks§r"]}}));
+berserkercrucible5c.setChance(0.0);
+berserkercrucible5c.addItemInput(<bloodmagic:item_demon_crystal:2>*25);
+berserkercrucible5c.addWillOutput(2, 2500, 0, 25000, "DESTRUCTIVE");
+berserkercrucible5c.build();
+
 val berserkercrucible6 = RecipeBuilder.newBuilder("berserkercrucible6","berserker_crucible",2);
+berserkercrucible6.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible6.setChance(0.0);
 berserkercrucible6.addItemInput(<contenttweaker:destructive_will_sliver>);
 berserkercrucible6.addWillOutput("DESTRUCTIVE", 10, 0, 1000);
 berserkercrucible6.build();
 
+val berserkercrucible6a = RecipeBuilder.newBuilder("berserkercrucible6a","berserker_crucible",2);
+berserkercrucible6a.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible6a.setChance(0.0);
+berserkercrucible6a.addItemInput(<contenttweaker:destructive_will_sliver>);
+berserkercrucible6a.addWillOutput(0, 10, 0, 1000, "DESTRUCTIVE");
+berserkercrucible6a.build();
+
+val berserkercrucible6b = RecipeBuilder.newBuilder("berserkercrucible6b","berserker_crucible",2);
+berserkercrucible6b.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o3x3 Chunks§r"]}}));
+berserkercrucible6b.setChance(0.0);
+berserkercrucible6b.addItemInput(<contenttweaker:destructive_will_sliver>*9);
+berserkercrucible6b.addWillOutput(0, 90, 0, 9000, "DESTRUCTIVE");
+berserkercrucible6b.build();
+
 val berserkercrucible7 = RecipeBuilder.newBuilder("berserkercrucible7","berserker_crucible",2);
+berserkercrucible7.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible7.setChance(0.0);
 berserkercrucible7.addItemInput(<bloodmagic:item_demon_crystal:3>);
 berserkercrucible7.addWillOutput("VENGEFUL", 100, 0, 1000);
 berserkercrucible7.build();
 
+val berserkercrucible7a = RecipeBuilder.newBuilder("berserkercrucible7a","berserker_crucible",2);
+berserkercrucible7a.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible7a.setChance(0.0);
+berserkercrucible7a.addItemInput(<bloodmagic:item_demon_crystal:3>);
+berserkercrucible7a.addWillOutput(0, 100, 0, 1000, "VENGEFUL");
+berserkercrucible7a.build();
+
+val berserkercrucible7b = RecipeBuilder.newBuilder("berserkercrucible7b","berserker_crucible",2);
+berserkercrucible7b.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o3x3 Chunks§r"]}}));
+berserkercrucible7b.setChance(0.0);
+berserkercrucible7b.addItemInput(<bloodmagic:item_demon_crystal:3>*9);
+berserkercrucible7b.addWillOutput(1, 900, 0, 9000, "VENGEFUL");
+berserkercrucible7b.build();
+
+val berserkercrucible7c = RecipeBuilder.newBuilder("berserkercrucible7c","berserker_crucible",2);
+berserkercrucible7c.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o5x5 Chunks§r"]}}));
+berserkercrucible7c.setChance(0.0);
+berserkercrucible7c.addItemInput(<bloodmagic:item_demon_crystal:3>*25);
+berserkercrucible7c.addWillOutput(2, 2500, 0, 25000, "VENGEFUL");
+berserkercrucible7c.build();
+
 val berserkercrucible8 = RecipeBuilder.newBuilder("berserkercrucible8","berserker_crucible",2);
+berserkercrucible8.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible8.setChance(0.0);
 berserkercrucible8.addItemInput(<contenttweaker:vengeful_will_sliver>);
 berserkercrucible8.addWillOutput("VENGEFUL", 10, 0, 1000);
 berserkercrucible8.build();
 
+val berserkercrucible8a = RecipeBuilder.newBuilder("berserkercrucible8a","berserker_crucible",2);
+berserkercrucible8a.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible8a.setChance(0.0);
+berserkercrucible8a.addItemInput(<contenttweaker:vengeful_will_sliver>);
+berserkercrucible8a.addWillOutput(0, 10, 0, 1000, "VENGEFUL");
+berserkercrucible8a.build();
+
+val berserkercrucible8b = RecipeBuilder.newBuilder("berserkercrucible8b","berserker_crucible",2);
+berserkercrucible8b.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o3x3 Chunks§r"]}}));
+berserkercrucible8b.setChance(0.0);
+berserkercrucible8b.addItemInput(<contenttweaker:vengeful_will_sliver>*9);
+berserkercrucible8b.addWillOutput(0, 90, 0, 9000, "VENGEFUL");
+berserkercrucible8b.build();
+
 val berserkercrucible9 = RecipeBuilder.newBuilder("berserkercrucible9","berserker_crucible",2);
+berserkercrucible9.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible9.setChance(0.0);
 berserkercrucible9.addItemInput(<bloodmagic:item_demon_crystal:4>);
 berserkercrucible9.addWillOutput("STEADFAST", 100, 0, 1000);
 berserkercrucible9.build();
 
+val berserkercrucible9a = RecipeBuilder.newBuilder("berserkercrucible9a","berserker_crucible",2);
+berserkercrucible9a.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible9a.setChance(0.0);
+berserkercrucible9a.addItemInput(<bloodmagic:item_demon_crystal:4>);
+berserkercrucible9a.addWillOutput(0, 100, 0, 1000, "STEADFAST");
+berserkercrucible9a.build();
+
+val berserkercrucible9b = RecipeBuilder.newBuilder("berserkercrucible9b","berserker_crucible",2);
+berserkercrucible9b.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o3x3 Chunks§r"]}}));
+berserkercrucible9b.setChance(0.0);
+berserkercrucible9b.addItemInput(<bloodmagic:item_demon_crystal:4>*9);
+berserkercrucible9b.addWillOutput(1, 900, 0, 9000, "STEADFAST");
+berserkercrucible9b.build();
+
+val berserkercrucible9c = RecipeBuilder.newBuilder("berserkercrucible9c","berserker_crucible",2);
+berserkercrucible9c.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o5x5 Chunks§r"]}}));
+berserkercrucible9c.setChance(0.0);
+berserkercrucible9c.addItemInput(<bloodmagic:item_demon_crystal:4>*25);
+berserkercrucible9c.addWillOutput(2, 2500, 0, 25000, "STEADFAST");
+berserkercrucible9c.build();
+
 val berserkercrucible10 = RecipeBuilder.newBuilder("berserkercrucible10","berserker_crucible",2);
+berserkercrucible10.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible10.setChance(0.0);
 berserkercrucible10.addItemInput(<contenttweaker:steadfast_will_sliver>);
 berserkercrucible10.addWillOutput("STEADFAST", 10, 0, 1000);
 berserkercrucible10.build();
+
+val berserkercrucible10a = RecipeBuilder.newBuilder("berserkercrucible10a","berserker_crucible",2);
+berserkercrucible10a.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§oSingle Chunk§r"]}}));
+berserkercrucible10a.setChance(0.0);
+berserkercrucible10a.addItemInput(<contenttweaker:steadfast_will_sliver>);
+berserkercrucible10a.addWillOutput(0, 10, 0, 1000, "STEADFAST");
+berserkercrucible10a.build();
+
+val berserkercrucible10b = RecipeBuilder.newBuilder("berserkercrucible10b","berserker_crucible",2);
+berserkercrucible10b.addItemInput(<contenttweaker:hellfire_configurator>.withTag({display: {Lore: ["§d§o3x3 Chunks§r"]}}));
+berserkercrucible10b.setChance(0.0);
+berserkercrucible10b.addItemInput(<contenttweaker:steadfast_will_sliver>*9);
+berserkercrucible10b.addWillOutput(0, 90, 0, 9000, "STEADFAST");
+berserkercrucible10b.build();

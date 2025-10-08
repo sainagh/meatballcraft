@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    921771716
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:fractal_fragment_natural_law"
+      },
+      "name:8": "Avenging the Aesir"
+    }
+  },
+  "questID:3": 83338498,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:plea_to_nature"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:fractal_fragment_natural_law"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

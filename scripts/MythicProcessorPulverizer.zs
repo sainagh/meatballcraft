@@ -1358,3 +1358,4 @@ mythpulv216.setChance(0.0);
 mythpulv216.addItemInput(<libvulpes:productboule:3>);
 mythpulv216.addItemOutput(<advancedrocketry:wafer:0>*2);
 mythpulv216.build();
+

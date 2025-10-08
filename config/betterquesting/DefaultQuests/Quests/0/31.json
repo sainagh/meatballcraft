@@ -24,6 +24,10 @@
         "0:10": {
           "Count:3": 10,
           "id:8": "contenttweaker:aglio_olio_peperoncino_pasta"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:notes_of_a_mines_yearner"
         }
       }
     }

@@ -13,7 +13,13 @@ mods.nuclearcraft.dissolver.addRecipe([<avaritiaitem:self_actualizing_stone>, <f
 
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:freedomsteel_ingot>, <fluid:stochastic_recursive_essence>*1000, <fluid:markov_recursive_essence>*1000]);
 
-mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:freedomsteel_ingot>, <fluid:stochastic_recursive_essence>*1000, <fluid:markov_recursive_essence>*1000]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:trinity_ingot>, <fluid:markov_recursive_essence>*1000, <fluid:cauchy_recursive_essence>*1000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:ingot_of_infinite_wishes>, <fluid:cauchy_recursive_essence>*1000, <fluid:lorenz_recursive_essence>*1000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:ascended_starlight_sphere>, <fluid:lorenz_recursive_essence>*1000, <fluid:chaotic_recursive_essence>*1000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:echo_warren_bar>, <fluid:chaotic_recursive_essence>*1000, <fluid:warping_recursive_essence>*1000]);
 
 
 
@@ -99,3 +105,69 @@ infinityfurnaceezshyregarnet.addItemInput(<contenttweaker:recursion_fragment_shy
 infinityfurnaceezshyregarnet.addItemInput(<contenttweaker:dense_diamond_powder>);
 infinityfurnaceezshyregarnet.addItemOutput(<contenttweaker:imperial_diamond_powder>);
 infinityfurnaceezshyregarnet.build();
+
+
+
+val infinityfurnacecursedslate = RecipeBuilder.newBuilder("infinityfurnacecursedslate","infinity_furnace",10);
+infinityfurnacecursedslate.addFluidInput(<fluid:recursive_life_essence>*50);
+infinityfurnacecursedslate.addItemInput(<magicbees:resource:5>*64);
+infinityfurnacecursedslate.addItemInput(<bloodmagic:slate:4>*64);
+infinityfurnacecursedslate.addItemInput(<contenttweaker:xxeus_heart>*4);
+infinityfurnacecursedslate.addItemOutput(<contenttweaker:draconic_catalyst>*1);
+infinityfurnacecursedslate.build();
+
+val infinityfurnacecursedwyvernium = RecipeBuilder.newBuilder("infinityfurnacecursedwyvernium","infinity_furnace",10);
+infinityfurnacecursedwyvernium.addFluidInput(<fluid:chaos>*500);
+infinityfurnacecursedwyvernium.addItemInput(<contenttweaker:draconic_catalyst>*8);
+infinityfurnacecursedwyvernium.addItemInput(<mowziesmobs:naga_fang>);
+infinityfurnacecursedwyvernium.addItemInput(<aoa3:elecanium_block>);
+infinityfurnacecursedwyvernium.addItemOutput(<contenttweaker:wyvernium_ingot>);
+infinityfurnacecursedwyvernium.build();
+
+val infinityfurnacecyclicalhope = RecipeBuilder.newBuilder("infinityfurnacecyclicalhope","infinity_furnace",10);
+infinityfurnacecyclicalhope.addFluidInput(<fluid:sideral_life_essence>*500);
+infinityfurnacecyclicalhope.addItemInput(<contenttweaker:gem_of_the_dying_constellation>);
+infinityfurnacecyclicalhope.addItemInput(<extendedcrafting:singularity_custom:2045>);
+infinityfurnacecyclicalhope.addItemOutput(<contenttweaker:gem_of_cyclical_hope>);
+infinityfurnacecyclicalhope.build();
+
+
+val infinityfurnacemegelium1 = RecipeBuilder.newBuilder("infinityfurnacemegelium1","infinity_furnace",10);
+infinityfurnacemegelium1.addFluidInput(<fluid:ascended_draconic_alloy>*4);
+infinityfurnacemegelium1.addItemInput(<bnkrblks:megelium_stone>);
+infinityfurnacemegelium1.addItemInput(<avaritiaitem:self_actualizing_stone>);
+infinityfurnacemegelium1.addItemOutput(<contenttweaker:creative_megelium>);
+infinityfurnacemegelium1.build();
+
+val infinityfurnacemegelium2 = RecipeBuilder.newBuilder("infinityfurnacemegelium2","infinity_furnace",10);
+infinityfurnacemegelium2.addFluidInput(<fluid:ascended_draconic_alloy>*4);
+infinityfurnacemegelium2.addItemInput(<contenttweaker:creative_megelium>);
+infinityfurnacemegelium2.addItemInput(<contenttweaker:trinity_nugget>);
+infinityfurnacemegelium2.addItemOutput(<contenttweaker:everloving_megelium>);
+infinityfurnacemegelium2.build();
+
+val infinityfurnacemegelium3 = RecipeBuilder.newBuilder("infinityfurnacemegelium3","infinity_furnace",10);
+infinityfurnacemegelium3.addFluidInput(<fluid:ascended_draconic_alloy>*4);
+infinityfurnacemegelium3.addItemInput(<contenttweaker:everloving_megelium>);
+infinityfurnacemegelium3.addItemInput(<contenttweaker:dust_of_infinite_wishes>);
+infinityfurnacemegelium3.addItemOutput(<contenttweaker:everwishing_megelium>);
+infinityfurnacemegelium3.build();
+
+val infinityfurnacemegelium4 = RecipeBuilder.newBuilder("infinityfurnacemegelium4","infinity_furnace",10);
+infinityfurnacemegelium4.addFluidInput(<fluid:ascended_draconic_alloy>*4);
+infinityfurnacemegelium4.addItemInput(<contenttweaker:everwishing_megelium>);
+infinityfurnacemegelium4.addItemInput(<contenttweaker:quasar_charged_dust>*8);
+infinityfurnacemegelium4.addItemOutput(<contenttweaker:everwondering_megelium>);
+infinityfurnacemegelium4.build();
+
+
+
+val infinityfurnacecyclicalstarlight = RecipeBuilder.newBuilder("infinityfurnacecyclicalstarlight","infinity_furnace",10);
+infinityfurnacecyclicalstarlight.addFluidInput(<fluid:ascended_draconic_alloy>*4);
+infinityfurnacecyclicalstarlight.addItemInput(<contenttweaker:darkstar_infused_crystal>*128);
+infinityfurnacecyclicalstarlight.addItemInput(<contenttweaker:gem_of_the_dying_constellation>);
+infinityfurnacecyclicalstarlight.addItemInput(<contenttweaker:gem_of_the_birthing_nebula>);
+infinityfurnacecyclicalstarlight.addItemOutput(<contenttweaker:cyclical_starlight_crystal>*128);
+infinityfurnacecyclicalstarlight.build();
+
+

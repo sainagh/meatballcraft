@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Acts as a radiation scrubber in a 3x3 chunk area centered around the machine",
+      "desc:8": "§7§oActs as a radiation scrubber in a 3x3 chunk area centered around the machine",
       "icon:10": {
         "Count:3": 1,
         "id:8": "modularmachineryaddons:blockscrubberproviderinput"

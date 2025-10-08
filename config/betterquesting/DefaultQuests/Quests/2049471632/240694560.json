@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    1569647533,
+    1809800621
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "iceandfire:troll_weapon.hammer"
+      },
+      "name:8": "Troll Smashing Objects"
+    }
+  },
+  "questID:3": 240694560,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:troll_weapon.axe"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:troll_weapon.column"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:troll_weapon.column_forest"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:troll_weapon.column_frost"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:troll_weapon.hammer"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:troll_weapon.trunk_frost"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:troll_weapon.trunk"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

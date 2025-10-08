@@ -160,4 +160,11 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:trait_necrotic>.addTooltip(format.red("Life-steal"));
 <contenttweaker:trait_sentience>.addTooltip(format.red("Mobs drop will"));
 <contenttweaker:trait_steady>.addTooltip(format.red("Less knockback for you, more for your attacher"));
+<contenttweaker:trait_bloodsweattears>.addTooltip(format.red("Broken blocks have a chance of dropping XP (I: 50%, II: 75%, III: 87.5%)"));
+<contenttweaker:trait_arcaneextraction>.addTooltip(format.red("Broken blocks have a chance of dropping Arcanium #EMCless"));
+<contenttweaker:trait_abyssalharvesting>.addTooltip(format.red("Chance of dropping the corresponding Matter when hitting mobs #EMCless"));
+<contenttweaker:trait_dreadfulharvesting>.addTooltip(format.red("Chance of dropping the corresponding Matter when hitting mobs #EMCless"));
+<contenttweaker:trait_omotholharvesting>.addTooltip(format.red("Chance of dropping the corresponding Matter when hitting mobs #EMCless"));
+<contenttweaker:trait_willoftheaesir>.addTooltip(format.red("Chance of dropping Soul Fragments when breaking blocks"));
+<contenttweaker:trait_tearofarcana>.addTooltip(format.red("Chance of dropping Arcanium blocks (increased up to level 10); low chance of dropping Arcanium Clusters"));
 

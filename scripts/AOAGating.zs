@@ -101,7 +101,7 @@ recipes.addShaped(<aoa3:shadow_sword>,
 [<contenttweaker:enhanced_chaos_shard>, <ore:stickWood>, <contenttweaker:enhanced_chaos_shard>]]);
 
 recipes.addShaped(<contenttweaker:summons_to_the_army_of_darkness>,
-[[<contenttweaker:immortal_bone_dust>, <contenttweaker:bane_tusk>, <contenttweaker:immortal_bone_dust>],
+[[<contenttweaker:immortal_bone_dust>, <contenttweaker:ghoul_spirit>, <contenttweaker:immortal_bone_dust>],
 [<contenttweaker:hard_bone>, <contenttweaker:corrupted_aragonite>, <contenttweaker:hard_bone>],
 [<contenttweaker:immortal_bone_dust>, <contenttweaker:bane_tusk>, <contenttweaker:immortal_bone_dust>]]);
 
@@ -124,7 +124,7 @@ recipes.addShaped(<aoa3:chainsaw>,
 
 recipes.removeShaped(<aoa3:lights_way>);
 recipes.addShaped(<aoa3:lights_way>,
-[[<contenttweaker:stone_of_the_shyre_warden>, <aoa3:shyregem_block>, <contenttweaker:cursed_cradle>],
+[[<contenttweaker:stone_of_the_shyre_warden>, <aoa3:shyregem_block>, <contenttweaker:stone_of_the_shyre_warden>],
 [<contenttweaker:shyre_chunk>, <aoa3:shyrestone_block>, <contenttweaker:shyre_chunk>],
 [null, <ore:stickWood>, null]]);
 

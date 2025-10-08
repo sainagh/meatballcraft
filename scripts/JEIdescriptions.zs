@@ -4279,7 +4279,7 @@ mods.jei.JEI.addDescription([
     "@ - filters by mod names",
     "% - filters by creative tab (You will likely never use this)",
     "",
-    "You can also use - in order to exclude items from your search. You can only use this following one of the previous prefixes. Otherwise, you JEI just won't bother searching.",
+    "You can also use - in order to exclude items from your search. You can only use this following one of the previous prefixes. Otherwise, your JEI just won't bother searching.",
     "",
     "For exemple, if you are searching for NuclearCraft fuels but dont want the depleted fuels to come up in your search, you can search with :",
     "",
@@ -4741,6 +4741,33 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_rainbowcore>,
 ]);
 
 
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_hollowstag>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "The Antlion callstone... The Pale Sky Stone Pebble... The mob that is not an Antlion...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Right click a Stag Beetle with a Pale Sky Stone Pebble"
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_homeseeker>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "The Unfathomable Prison... The Pale Sky Stone Pebble... A certain legged creature...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Right click a Centipede with a Pale Sky Stone Pebble"
+]);
+
+
 mods.jei.JEI.addDescription([
     <contenttweaker:passive_crafting_subnets>],
 [
@@ -4888,5 +4915,15 @@ mods.jei.JEI.addDescription([
     "You can then place a 'input' module and tell which machine, tile, chest, etc. and from which side, and the same goes for the output module, using this you can simply have a basic input and output system. "
 ]);
 
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:lumber_bee_setup>,
+    <careerbees:ingredients:1>
+    ],
+[
+    "If a tree is placed nearby an Apiary or Industrial Apiary with a Luber Queen, the bee will produce Tree Barks of the corresponding type.",
+    "",
+    "While in theory full trees grown from a Sapling are required, the structure shown in the multiblock preview can be used. You're welcome ;)"
+]);
 
 

@@ -1,5 +1,11 @@
 import mods.modularmachinery.RecipeBuilder;
 
+import crafttweaker.data.IData;
+
+import mods.thaumcraft.Infusion;
+
+
+
 recipes.remove(<avaritia:resource:7>);
 
 recipes.removeShaped(<avaritia:resource:0>);
@@ -355,6 +361,18 @@ mods.avaritia.ExtremeCrafting.addShaped("maketheultimatestewdire2",
 <contenttweaker:nice_clean_salad>, <contenttweaker:burned_enchanted_feather>, <contenttweaker:intense_meatball_pasta>]]);
 
 
+mods.thaumcraft.Infusion.registerRecipe("infeleintinvestiture", "", 
+<contenttweaker:investiture_of_the_eleint>, 20, 
+[<aspect:draco>*10000, <aspect:caeles>*10000], 
+<contenttweaker:fiery_recursion_fragment>, 
+[<contenttweaker:eleint_stone>, <draconicevolution:chaos_shard:0>,
+<contenttweaker:eleint_stone>, <draconicevolution:chaos_shard:0>,
+<contenttweaker:eleint_stone>, <draconicevolution:chaos_shard:0>,
+<contenttweaker:eleint_stone>, <draconicevolution:chaos_shard:0>]);
+
+
+
+
 val dragoncrucwishful = RecipeBuilder.newBuilder("dragoncrucwishful","dragonfire_crucible",100);
 dragoncrucwishful.addFluidInput(<fluid:eternal_dragon_fire>*1000000);
 dragoncrucwishful.addItemInput(<contenttweaker:wish_of_infinity>);
@@ -362,6 +380,37 @@ dragoncrucwishful.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
 dragoncrucwishful.addItemInput(<contenttweaker:shard_of_the_cosmos>);
 dragoncrucwishful.addItemOutput(<contenttweaker:ingot_of_infinite_wishes>);
 dragoncrucwishful.build();
+
+val dragoncrucwishful2 = RecipeBuilder.newBuilder("dragoncrucwishful2","dragonfire_crucible",100);
+dragoncrucwishful2.addFluidInput(<fluid:eleint_dragonfire>*250);
+dragoncrucwishful2.addItemInput(<contenttweaker:wish_of_infinity>);
+dragoncrucwishful2.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*2);
+dragoncrucwishful2.addItemInput(<contenttweaker:shard_of_the_cosmos>);
+dragoncrucwishful2.addItemOutput(<contenttweaker:ingot_of_infinite_wishes>*2);
+dragoncrucwishful2.build();
+
+recipes.addShapeless(<contenttweaker:dust_of_infinite_wishes>*16,
+[<divinerpg:arlemite_shickaxe>.reuse(),
+<contenttweaker:ingot_of_infinite_wishes>]);
+
+recipes.addShapeless(<contenttweaker:dust_of_infinite_wishes>*32,
+[<twilightforest:mazebreaker_pickaxe>.reuse(),
+<contenttweaker:ingot_of_infinite_wishes>]);
+
+recipes.addShapeless(<contenttweaker:dust_of_infinite_wishes>*48,
+[<aoa3:occult_pickaxe>.reuse(),
+<contenttweaker:ingot_of_infinite_wishes>]);
+
+recipes.addShapeless(<contenttweaker:dust_of_infinite_wishes>*64,
+[<aoa3:energistic_pickaxe>.reuse(),
+<contenttweaker:ingot_of_infinite_wishes>]);
+
+recipes.addShapeless(<contenttweaker:chunk_of_infinite_wishes>*64,
+[<avaritia:infinity_pickaxe>.withTag({display: {Lore:["§d§oSuper-Duper-Enchanted§r"]}}).reuse(),
+<contenttweaker:ingot_of_infinite_wishes>]);
+
+
+
 
 
 
@@ -572,6 +621,103 @@ null, <contenttweaker:core_of_halite_definition>, <contenttweaker:core_of_halite
 [<minecraft:bedrock>, null, null, 
 null, null, null,
 null, null, null]]);
+
+
+
+val chunkinfinitewishes = <contenttweaker:chunk_of_infinite_wishes>;
+val dustinfinitewishes = <contenttweaker:dust_of_infinite_wishes>;
+val terrapickss = <botania:terrapick>;
+recipes.addShapeless(
+    "multiplydustinfinitewishes",dustinfinitewishes,
+    [chunkinfinitewishes, 
+    chunkinfinitewishes, 
+    chunkinfinitewishes, 
+    chunkinfinitewishes, 
+    terrapickss.marked("mark").reuse()],
+    function(out,ins,cInfo){
+		var manastored = ins.mark.tag.mana as int;
+        if (manastored < 5000000){
+            var outputitemstack1 = <contenttweaker:dust_of_infinite_wishes>*4;
+            return outputitemstack1;
+        }
+        if (manastored < 500000000){
+            var outputitemstack2 = <contenttweaker:dust_of_infinite_wishes>*5;
+            return outputitemstack2;
+        }
+        if (manastored < 1000000000){
+            var outputitemstack3 = <contenttweaker:dust_of_infinite_wishes>*6;
+            return outputitemstack3;
+        }
+        if (manastored < 2000000000){
+            var outputitemstack4 = <contenttweaker:dust_of_infinite_wishes>*7;
+            return outputitemstack4;
+        }
+        var outputitemstack5 = <contenttweaker:dust_of_infinite_wishes>*8;
+        return outputitemstack5;
+
+		
+        
+    },
+    null
+);
+
+recipes.addShapeless(<contenttweaker:eleint_scale>,
+[<aoa3:shadow_sword>.withTag({display: {Lore:["§d§oSuper-Duper-Enchanted§r"]}}).reuse(),
+<ore:dragonScaleItem>]);
+
+
+recipes.addShapeless(
+    "multiplydustinfinitewishesbett",dustinfinitewishes,
+    [chunkinfinitewishes, 
+    chunkinfinitewishes, 
+    chunkinfinitewishes, 
+    chunkinfinitewishes,
+    <contenttweaker:eleint_scale>, 
+    terrapickss.marked("mark").reuse()],
+    function(out,ins,cInfo){
+		var manastored = ins.mark.tag.mana as int;
+        if (manastored < 5000000){
+            var outputitemstack1 = <contenttweaker:dust_of_infinite_wishes>*8;
+            return outputitemstack1;
+        }
+        if (manastored < 500000000){
+            var outputitemstack2 = <contenttweaker:dust_of_infinite_wishes>*9;
+            return outputitemstack2;
+        }
+        if (manastored < 1000000000){
+            var outputitemstack3 = <contenttweaker:dust_of_infinite_wishes>*10;
+            return outputitemstack3;
+        }
+        if (manastored < 2000000000){
+            var outputitemstack4 = <contenttweaker:dust_of_infinite_wishes>*11;
+            return outputitemstack4;
+        }
+        var outputitemstack5 = <contenttweaker:dust_of_infinite_wishes>*12;
+        return outputitemstack5;
+
+		
+        
+    },
+    null
+);
+
+
+
+mods.avaritia.ExtremeCrafting.remove(<avaritia:skullfire_sword>);
+
+recipes.addShaped(<avaritia:skullfire_sword>,
+[[<minecraft:blaze_powder>, <ore:ingotTitanium>, <minecraft:blaze_powder>],
+[<erebus:materials:66>, <ore:ingotTitanium>, <erebus:materials:66>],
+[<minecraft:blaze_powder>, <ore:obsidianRod>, <minecraft:blaze_powder>]]);
+
+
+
+
+
+
+
+
+
 
 
 

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "While the matter of weapons capable of planetary destruction should not be ignored, it is not the sole issue I shall contend with here in Greckon.\nThis place is permeated by entropy-manipulating magic. Chaos, in its inevitability rules this place.\nThis power is a strange one. In a way, it reminds me of the Meatball Man\u0027s own powers, but in a different form. \nEveryone desires, and it is easy to desire too much. That is the inevitability of the Meatball Man\u0027s powers. There will always be someone to fall under his wing, always.\nSimilarly, all creatures traverse time, and contribute to the entropy of the universe. That is a subtle inevitability, but it is nevertheless an inevitability. Everyone, in their own way, will produce chaos, and the power that lingers in this place, is there to devour it, and turn it into ghouls and other misshapen creatures.\nEven the minerals in the soil of Greckon fall under this influence.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:ghoul_spirit"
       },
-      "name:8": "Runicorn Powers"
+      "name:8": "The Land of Ghouls"
     }
   },
   "questID:3": 2239,

@@ -75,6 +75,18 @@ apichisiwarper.maxStackSize = 1;
 apichisiwarper.glowing = true;
 apichisiwarper.register();
 
+var homeseekerwarper = VanillaFactory.createItem("homeseeker_warper");
+homeseekerwarper.maxStackSize = 1;
+homeseekerwarper.glowing = true;
+homeseekerwarper.register();
+
+var homeboundwarper = VanillaFactory.createItem("homebound_warper");
+homeboundwarper.maxStackSize = 1;
+homeboundwarper.glowing = true;
+homeboundwarper.register();
+
+
+
 var vibewarper = VanillaFactory.createItem("vibe_warper");
 vibewarper.maxStackSize = 1;
 vibewarper.glowing = true;

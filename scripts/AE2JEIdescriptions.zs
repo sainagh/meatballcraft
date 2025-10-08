@@ -84,7 +84,6 @@ mods.jei.JEI.addDescription(<thaumicenergistics:essentia_cell_16k>,["Stores esse
 mods.jei.JEI.addDescription(<thaumicenergistics:essentia_cell_64k>,["Stores essentia in cell form, stores ~512k essentia"]);
 mods.jei.JEI.addDescription(<extracells:fluidcrafter>,["Can craft recipes that use buckets using fluid stored in the ME system using stored fluid instead of a bucket."]);
 mods.jei.JEI.addDescription(<ae2fc:fluid_assembler>,["Can craft recipes that use buckets using fluid stored in the ME system using stored fluid instead of a bucket, needs a ME Fluid Discretizer to craft fake fluid."]);
-mods.jei.JEI.addDescription(<ae2stuff:encoder>,["Block version of pattern terminal"]);
 mods.jei.JEI.addDescription(<ae2fc:fluid_pattern_encoder>,["Block version of fluid pattern terminal"]);
 mods.jei.JEI.addDescription(<appliedenergistics2:inscriber>,["Crafts processors, the face in which items are inserted matters."]);
 mods.jei.JEI.addDescription(<ae2stuff:inscriber>,["Crafts processors faster, the face in which items are inserted does not matter."]);

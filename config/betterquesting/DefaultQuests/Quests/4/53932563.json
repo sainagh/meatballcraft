@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    90149,
+    1245
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oCombines the packager and unpackager into a single block.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "packagingprovider:packaging_provider"
+      },
+      "name:8": "Packaging Provider"
+    }
+  },
+  "questID:3": 53932563,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "packagingprovider:packaging_provider"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

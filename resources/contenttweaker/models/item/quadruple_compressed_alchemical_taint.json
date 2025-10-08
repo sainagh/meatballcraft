@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/quadruple_compressed_alchemical_taint"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    471525021,
+    1474843254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:sound_of_music"
+      },
+      "name:8": "Sound of Music"
+    }
+  },
+  "questID:3": 1050362230,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:sound_of_music"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

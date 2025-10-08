@@ -381,3 +381,12 @@ cleansedcinnamonapple.onItemFoodEaten = function(stack, world, player) {
 	player.sendChat("Here we are! At the pinnacle of power!");
 };
 cleansedcinnamonapple.register();
+
+
+var strangephasingmeat = VanillaFactory.createItemFood("strange_phasing_meat", 5);
+strangephasingmeat.saturation = 1;
+strangephasingmeat.onItemFoodEaten = function(stack, world, player) {
+	player.sendChat("Remember that you did not come to this world on your own, existance is something to be thankful for :)");
+};
+strangephasingmeat.register();
+

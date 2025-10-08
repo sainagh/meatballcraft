@@ -29,6 +29,7 @@ mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:bee_stargate_controller>);
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:wormhole_field_generator_controller>);
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:hostile_computing_unit_controller>);
+mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:philosophers_unifier_controller>);
 
 
 
@@ -96,6 +97,7 @@ mods.chisel.Carving.addVariation("quantumphysicsmultiblockscontroller", <modular
 mods.chisel.Carving.addVariation("quantumphysicsmultiblockscontroller", <modularmachinery:radiant_meatballium_radiation_scrubber_controller>);
 mods.chisel.Carving.addVariation("quantumphysicsmultiblockscontroller", <modularmachinery:cursed_meatballium_radiation_scrubber_controller>);
 mods.chisel.Carving.addVariation("quantumphysicsmultiblockscontroller", <modularmachinery:active_meatballium_scrubbing_unit_controller>);
+mods.chisel.Carving.addVariation("quantumphysicsmultiblockscontroller", <modularmachinery:megelium_detonator_controller>);
 
 
 
@@ -164,6 +166,7 @@ mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:impet
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:fractallite_furnace_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:altar_to_the_name_of_names_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:bastion_of_flesh_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:plith_of_ascension_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:sentient_meatball_monument_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:shrine_of_the_sentient_meatballs_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:chaotic_striker_controller>);

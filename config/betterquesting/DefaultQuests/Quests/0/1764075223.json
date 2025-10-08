@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    83338498
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:construct_of_natural_balance"
+      },
+      "name:8": "The Scale Rebalances"
+    }
+  },
+  "questID:3": 1764075223,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:hopeful_return_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:construct_of_natural_balance"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

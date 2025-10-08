@@ -822,7 +822,7 @@ recursiumfragupgrade2.build();
 scripts.PuzzleUtil.addPuzzleShaped("recursion_focusing_fabrial", 
 <contenttweaker:recursion_focusing_fabrial>, 
 [[<contenttweaker:white_hole>, <extrautils2:biomemarker>.withTag({Biome: "biomesoplenty:cherry_blossom_grove"}), <contenttweaker:white_hole>],
-[<extrautils2:biomemarker>.withTag({Biome: "aoa3:immortallis"}), <contenttweaker:recursion_sharpening_lens>, <extrautils2:biomemarker>.withTag({Biome: "aoa3:abyss"})],
+[<extrautils2:biomemarker>.withTag({Biome: "aoa3:iromine"}), <contenttweaker:recursion_sharpening_lens>, <extrautils2:biomemarker>.withTag({Biome: "aoa3:abyss"})],
 [<contenttweaker:white_hole>, <extrautils2:biomemarker>.withTag({Biome: "divinerpg:eden"}), <contenttweaker:white_hole>]]);
 
 recipes.addShaped(<contenttweaker:recursion_focusing_fabrial>,

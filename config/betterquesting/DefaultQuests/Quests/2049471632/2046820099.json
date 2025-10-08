@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    28
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThis section of the questbook lists all available weapon options at each chapter in the pack.\n\n§cThis quest chapter is still a work-in-progress, and not all available options are listed yet!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:sword_of_truth"
+      },
+      "name:8": "Bonking All Year Round"
+    }
+  },
+  "questID:3": 2046820099,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
