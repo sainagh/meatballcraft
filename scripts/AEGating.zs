@@ -514,3 +514,182 @@ recipes.addShaped(<appliedenergistics2:material:54>*18,
 [[<minecraft:dye:4>, <contenttweaker:fractal_stone>, <minecraft:dye:4>],
 [<contenttweaker:fractal_stone>, <appliedenergistics2:material:22>, <contenttweaker:fractal_stone>],
 [<minecraft:dye:4>, <contenttweaker:fractal_stone>, <minecraft:dye:4>]]);
+
+
+/*
+
+
+recipes.remove(<crazyae:material:0>);
+recipes.remove(<crazyae:material:1>);
+recipes.remove(<crazyae:material:2>);
+recipes.remove(<crazyae:material:3>);
+
+recipes.remove(<crazyae:material:8>);
+recipes.remove(<crazyae:material:9>);
+recipes.remove(<crazyae:material:10>);
+recipes.remove(<crazyae:material:11>);
+
+
+recipes.remove(<crazyae:material:4>);
+recipes.addShaped(<crazyae:material:4>,
+[[<ore:dustFluix>, <crazyae:material:16>, <ore:dustFluix>],
+[<nae2:material:4>, <appliedenergistics2:quartz_glass>, <nae2:material:4>],
+[<ore:dustFluix>, <nae2:material:4>, <ore:dustFluix>]]);
+
+recipes.remove(<crazyae:material:12>);
+recipes.addShaped(<crazyae:material:12>,
+[[<ore:dustFluix>, <appliedenergistics2:material:23>, <ore:dustFluix>],
+[<nae2:material:8>, <appliedenergistics2:quartz_glass>, <nae2:material:8>],
+[<ore:dustFluix>, <nae2:material:8>, <ore:dustFluix>]]);
+
+
+recipes.remove(<crazyae:material:30>);
+recipes.remove(<crazyae:material:31>);
+recipes.remove(<crazyae:material:32>);
+recipes.remove(<crazyae:material:33>);
+recipes.remove(<crazyae:material:34>);
+
+
+recipes.remove(<crazyae:material:36>);
+recipes.addShaped(<crazyae:material:36>,
+[[<ore:blockRedstone>, <ore:blockDraconium>, <ore:blockRedstone>],
+[<ore:blockDraconium>, <crazyae:material:48>, <ore:blockDraconium>],
+[<ore:blockRedstone>, <ore:blockDraconium>, <ore:blockRedstone>]]);
+
+recipes.remove(<crazyae:material:18>);
+recipes.remove(<crazyae:material:19>);
+recipes.remove(<crazyae:material:20>);
+recipes.remove(<crazyae:material:21>);
+recipes.remove(<crazyae:material:22>);
+recipes.remove(<crazyae:material:23>);
+recipes.remove(<crazyae:material:24>);
+recipes.remove(<crazyae:material:25>);
+recipes.remove(<crazyae:material:26>);
+recipes.remove(<crazyae:material:27>);
+recipes.remove(<crazyae:material:28>);
+recipes.remove(<crazyae:material:29>);
+
+recipes.remove(<crazyae:part:4>);
+recipes.remove(<crazyae:part:5>);
+recipes.remove(<crazyae:part:6>);
+
+recipes.remove(<crazyae:mechanical_elventrade>);
+recipes.remove(<crazyae:mechanical_manapool>);
+recipes.remove(<crazyae:mechanical_runealtar>);
+recipes.remove(<crazyae:mechanical_petal>);
+recipes.remove(<crazyae:mechanical_puredaisy>);
+recipes.remove(<crazyae:mechanical_teraplate>);
+recipes.remove(<crazyae:mechanical_brewery>);
+
+
+recipes.remove(<crazyae:mana_cell_1k>);
+recipes.remove(<crazyae:mana_cell_4k>);
+recipes.remove(<crazyae:mana_cell_16k>);
+recipes.remove(<crazyae:mana_cell_64k>);
+recipes.remove(<crazyae:mana_cell_256k>);
+recipes.remove(<crazyae:mana_cell_1mb>);
+recipes.remove(<crazyae:mana_cell_4mb>);
+recipes.remove(<crazyae:mana_cell_16mb>);
+recipes.remove(<crazyae:mana_cell_64mb>);
+recipes.remove(<crazyae:mana_cell_256mb>);
+recipes.remove(<crazyae:mana_cell_1gb>);
+recipes.remove(<crazyae:mana_cell_2gb>);
+
+recipes.remove(<crazyae:crafting_storage_256k>);
+recipes.remove(<crazyae:crafting_storage_1mb>);
+recipes.remove(<crazyae:crafting_storage_4mb>);
+recipes.remove(<crazyae:crafting_storage_16mb>);
+
+recipes.remove(<crazyae:crafting_accelerator_4x>);
+recipes.remove(<crazyae:crafting_accelerator_16x>);
+recipes.remove(<crazyae:crafting_accelerator_64x>);
+
+
+recipes.remove(<crazyae:crafting_accelerator_256x>);
+recipes.addShaped(<crazyae:crafting_accelerator_256x>,
+[[<ore:dustFluix>, <appliedenergistics2:material:47>, <ore:dustFluix>],
+[<nae2:coprocessor_64x>, <crazyae:material:48>, <nae2:coprocessor_64x>],
+[<ore:dustFluix>, <nae2:coprocessor_64x>, <ore:dustFluix>]]);
+
+
+recipes.remove(<crazyae:crafting_accelerator_1024x>);
+recipes.addShaped(<crazyae:crafting_accelerator_1024x>,
+[[<ore:dustFluix>, <appliedenergistics2:material:47>, <ore:dustFluix>],
+[<crazyae:crafting_accelerator_256x>, <crazyae:material:48>, <crazyae:crafting_accelerator_256x>],
+[<ore:dustFluix>, <crazyae:crafting_accelerator_256x>, <ore:dustFluix>]]);
+
+
+recipes.remove(<crazyae:crafting_accelerator_4096x>);
+recipes.addShaped(<crazyae:crafting_accelerator_4096x>,
+[[<ore:dustFluix>, <appliedenergistics2:material:47>, <ore:dustFluix>],
+[<crazyae:crafting_accelerator_1024x>, <crazyae:material:48>, <crazyae:crafting_accelerator_1024x>],
+[<ore:dustFluix>, <crazyae:crafting_accelerator_1024x>, <ore:dustFluix>]]);
+
+
+recipes.remove(<crazyae:crafting_accelerator_16384x>);
+recipes.addShaped(<crazyae:crafting_accelerator_16384x>,
+[[<appliedenergistics2:material:47>, <crazyae:material:16>, <appliedenergistics2:material:47>],
+[<crazyae:crafting_accelerator_4096x>, <crazyae:material:48>, <crazyae:crafting_accelerator_4096x>],
+[<appliedenergistics2:material:47>, <crazyae:crafting_accelerator_4096x>, <appliedenergistics2:material:47>]]);
+
+
+recipes.remove(<crazyae:crafting_accelerator_65536x>);
+recipes.addShaped(<crazyae:crafting_accelerator_65536x>,
+[[<appliedenergistics2:material:47>, <crazyae:material:16>, <appliedenergistics2:material:47>],
+[<crazyae:crafting_accelerator_16384x>, <crazyae:material:48>, <crazyae:crafting_accelerator_16384x>],
+[<appliedenergistics2:material:47>, <crazyae:crafting_accelerator_16384x>, <appliedenergistics2:material:47>]]);
+
+
+
+recipes.remove(<crazyae:quantum_channels_multiplier>);
+
+
+recipes.remove(<crazyae:patterns_interface>);
+recipes.addShaped(<crazyae:patterns_interface>,
+[[<appliedenergistics2:interface>, <appliedenergistics2:material:47>, <appliedenergistics2:interface>],
+[<crazyae:material:16>, <ore:nuggetPromethium>, <crazyae:material:16>],
+[<appliedenergistics2:interface>, <appliedenergistics2:material:47>, <appliedenergistics2:interface>]]);
+
+recipes.remove(<crazyae:perfect_interface>);
+recipes.addShaped(<crazyae:perfect_interface>,
+[[<appliedenergistics2:interface>, <crazyae:material:16>, <appliedenergistics2:interface>],
+[<appliedenergistics2:material:47>, <contenttweaker:blue_matter>, <appliedenergistics2:material:47>],
+[<appliedenergistics2:interface>, <crazyae:material:16>, <appliedenergistics2:interface>]]);
+
+
+recipes.remove(<crazyae:improved_molecular_assembler>);
+recipes.addShaped(<crazyae:improved_molecular_assembler>,
+[[<appliedenergistics2:molecular_assembler>, <crazyae:material:16>, <appliedenergistics2:molecular_assembler>],
+[<appliedenergistics2:material:47>, <contenttweaker:time_crystal>, <appliedenergistics2:material:47>],
+[<appliedenergistics2:molecular_assembler>, <crazyae:material:16>, <appliedenergistics2:molecular_assembler>]]);
+
+
+
+
+
+recipes.remove(<crazyae:improved_crank>);
+
+recipes.remove(<crazyae:crafting_units_combiner>);
+
+recipes.remove(<crazyae:big_crystal_charger>);
+
+recipes.remove(<crazyae:basic_solar_panel>);
+recipes.remove(<crazyae:improved_solar_panel>);
+recipes.remove(<crazyae:advanced_solar_panel>);
+recipes.remove(<crazyae:perfect_solar_panel>);
+
+
+recipes.remove(<crazyae:material:49>);
+recipes.remove(<crazyae:material:50>);
+
+*/
+
+recipes.remove(<packagingprovider:packaging_provider>);
+mods.extendedcrafting.TableCrafting.addShaped(<packagingprovider:packaging_provider>, 
+[[<appliedenergistics2:material:47>, <contenttweaker:spatial_processing_unit>, <extendedcrafting:material:13>, <contenttweaker:spatial_processing_unit>, <appliedenergistics2:material:47>], 
+[<contenttweaker:spatial_processing_unit>, <threng:material:4>, <packagedauto:packager>, <threng:material:4>, <contenttweaker:spatial_processing_unit>], 
+[<extendedcrafting:material:13>, <packagedauto:unpackager>, <contenttweaker:spatial_processing_unit>, <packagedauto:unpackager>, <extendedcrafting:material:13>], 
+[<contenttweaker:spatial_processing_unit>, <threng:material:4>, <packagedauto:packager>, <threng:material:4>, <contenttweaker:spatial_processing_unit>], 
+[<appliedenergistics2:material:47>, <contenttweaker:spatial_processing_unit>, <extendedcrafting:material:13>, <contenttweaker:spatial_processing_unit>, <appliedenergistics2:material:47>]]);  
+
+

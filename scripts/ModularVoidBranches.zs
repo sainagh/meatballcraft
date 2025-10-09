@@ -1,5 +1,9 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.thaumcraft.SmeltingBonus;
+import mods.thaumcraft.Infusion;
+
+
+
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:enriched_canola_seed>, 
 202020, <actuallyadditions:item_misc:24>, 
@@ -371,8 +375,32 @@ recipes.addShaped(<contenttweaker:sticky_callstone>,
 [<contenttweaker:forgotten_slime>, <contenttweaker:primordial_prism>, <contenttweaker:forgotten_slime>],
 [<contenttweaker:dimensional_ingot>, <avaritia:resource:7>, <contenttweaker:dimensional_ingot>]]);
 
+
+mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:mythic_excavation_engine>, 
+[[<contenttweaker:jeweled_runium>, <contenttweaker:high_strength_transmission>, <contenttweaker:jeweled_runium>], 
+[<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>], 
+[<thaumadditions:adaminite_ingot>, <bloodmagic:blood_shard:1>, <thaumadditions:adaminite_ingot>]], 1); 
+
+
 recipes.addShaped(<contenttweaker:mythic_excavation_engine>,
 [[<contenttweaker:fluix_microcontroller>, <contenttweaker:high_strength_transmission>, <contenttweaker:fluix_microcontroller>],
+[<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>],
+[<aoa3:elecanium_ingot>, <contenttweaker:primal_jewel>, <aoa3:elecanium_ingot>]]);
+
+recipes.addShaped(<contenttweaker:mythic_excavation_engine>*4,
+[[<contenttweaker:matter_digitalization_fabrial>, <contenttweaker:high_strength_transmission>, <contenttweaker:matter_digitalization_fabrial>],
+[<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>],
+[<aoa3:elecanium_ingot>, <contenttweaker:primal_jewel>, <aoa3:elecanium_ingot>]]);
+
+
+recipes.addShaped(<contenttweaker:warren_generator>*4,
+[[<contenttweaker:matter_digitalization_fabrial>, <extendedcrafting:singularity_custom:2044>, <contenttweaker:matter_digitalization_fabrial>],
+[<extendedcrafting:singularity_custom:2043>, <contenttweaker:warren_shard>, <extendedcrafting:singularity_custom:2043>],
+[<contenttweaker:matter_digitalization_fabrial>, <extendedcrafting:singularity_custom:2044>, <contenttweaker:matter_digitalization_fabrial>]]);
+
+
+recipes.addShaped(<contenttweaker:mythic_excavation_engine>*8,
+[[<contenttweaker:warren_generator>, <contenttweaker:high_strength_transmission>, <contenttweaker:warren_generator>],
 [<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>],
 [<aoa3:elecanium_ingot>, <contenttweaker:primal_jewel>, <aoa3:elecanium_ingot>]]);
 
@@ -472,3 +500,195 @@ recipes.addShaped(<divinerpg:halite_phaser>,
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:phasing_halite_halo>, [[<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>]]);  
 
 
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_excavation_reactor>, 
+[[<ore:ingotCrystalMatrix>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
+<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity:29>, <contenttweaker:brightseel_alloy_gear>, 
+<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <ore:ingotCrystalMatrix>], 
+
+[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
+<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
+
+[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
+<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:mythic_coil_t2>, <contenttweaker:fluxed_electrum_shaft>, 
+<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
+
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
+<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
+
+[<extendedcrafting:material:32>, <contenttweaker:fluix_microcontroller>, <ore:ingotUltimate>, 
+<contenttweaker:mythic_excavation_engine>, <contenttweaker:mythic_excavation_computer>, <contenttweaker:mythic_excavation_engine>, 
+<ore:ingotUltimate>, <contenttweaker:fluix_microcontroller>, <extendedcrafting:material:32>], 
+
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
+<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
+
+[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
+<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:awakened_electromagnet>, <contenttweaker:fluxed_electrum_shaft>, 
+<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
+
+[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
+<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
+
+[<ore:ingotCrystalMatrix>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
+<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity_custom:651>, <contenttweaker:brightseel_alloy_gear>, 
+<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <ore:ingotCrystalMatrix>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_excavation_reactor>*3, 
+[[<contenttweaker:defined_plate>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
+<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity:29>, <contenttweaker:brightseel_alloy_gear>, 
+<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <contenttweaker:defined_plate>], 
+
+[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
+<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
+
+[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
+<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:mythic_coil_t2>, <contenttweaker:fluxed_electrum_shaft>, 
+<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
+
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
+<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
+
+[<extendedcrafting:material:32>, <contenttweaker:fluix_microcontroller>, <ore:ingotUltimate>, 
+<contenttweaker:mythic_excavation_engine>, <contenttweaker:mythic_excavation_computer>, <contenttweaker:mythic_excavation_engine>, 
+<ore:ingotUltimate>, <contenttweaker:fluix_microcontroller>, <extendedcrafting:material:32>], 
+
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
+<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
+
+[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
+<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:awakened_electromagnet>, <contenttweaker:fluxed_electrum_shaft>, 
+<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
+
+[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
+<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
+
+[<contenttweaker:defined_plate>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
+<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity_custom:651>, <contenttweaker:brightseel_alloy_gear>, 
+<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <contenttweaker:defined_plate>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_excavation_reactor>*6, 
+[[<contenttweaker:defined_plate>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
+<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity:29>, <contenttweaker:brightseel_alloy_gear>, 
+<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <contenttweaker:defined_plate>], 
+
+[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <contenttweaker:mythic_excavation_computer>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
+<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
+
+[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
+<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:mythic_coil_t2>, <contenttweaker:fluxed_electrum_shaft>, 
+<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
+
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
+<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
+
+[<extendedcrafting:singularity_custom:630>, <contenttweaker:fluix_microcontroller>, <ore:blockUltimate>, 
+<contenttweaker:mythic_excavation_engine>, <contenttweaker:mythic_excavation_engine>, <contenttweaker:mythic_excavation_engine>, 
+<ore:blockUltimate>, <contenttweaker:fluix_microcontroller>, <extendedcrafting:singularity_custom:630>], 
+
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
+<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
+
+[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
+<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:awakened_electromagnet>, <contenttweaker:fluxed_electrum_shaft>, 
+<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
+
+[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <contenttweaker:mythic_excavation_computer>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
+<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
+
+[<contenttweaker:defined_plate>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
+<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity_custom:651>, <contenttweaker:brightseel_alloy_gear>, 
+<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <contenttweaker:defined_plate>]]);  
+
+
+
+
+mods.thaumcraft.Infusion.registerRecipe("thauminfbloodsheddemon", "", 
+<contenttweaker:rite_of_bloodshed>, 20, 
+[<aspect:victus>*200, <aspect:tenebrae>*100, <aspect:aversio>*100, <aspect:diabolus>*100, <aspect:infernum>*100], 
+<bewitchment:pentacle>, 
+[<contenttweaker:demonic_remains>, <thaumadditions:brass_plated_silverwood>,
+<contenttweaker:berserker_steel_ingot>, <aoa3:mystite_block>,
+<contenttweaker:recursive_powder>,
+<contenttweaker:demonic_remains>, <thaumadditions:brass_plated_silverwood>,
+<contenttweaker:berserker_steel_ingot>, <aoa3:mystite_block>,
+<contenttweaker:recursive_powder>]);
+
+
+
+val rainbowlensgrav = RecipeBuilder.newBuilder("rainbowlensgrav","gravitite_enchanter",300);
+rainbowlensgrav.addFluidInput(<fluid:astralsorcery.liquidstarlight>*1000);
+rainbowlensgrav.addItemInput(<contenttweaker:rainbow_gemstones>*4);
+rainbowlensgrav.addItemInput(<contenttweaker:gravitite_lens>);
+rainbowlensgrav.addItemInput(<contenttweaker:fluix_lens>);
+rainbowlensgrav.addItemOutput(<contenttweaker:rainbow_lens>);
+rainbowlensgrav.build();
+
+
+val rainbowlensgrav2 = RecipeBuilder.newBuilder("rainbowlensgrav2","gravitite_enchanter",5);
+rainbowlensgrav2.addFluidInput(<fluid:stormlight>*5);
+rainbowlensgrav2.addItemInput(<contenttweaker:rainbow_gemstones>*4);
+rainbowlensgrav2.addItemInput(<contenttweaker:gravitite_lens>);
+rainbowlensgrav2.addItemInput(<contenttweaker:fluix_lens>);
+rainbowlensgrav2.addItemOutput(<contenttweaker:rainbow_lens>);
+rainbowlensgrav2.build();
+
+
+recipes.addShaped(<contenttweaker:strange_phasing_dragon_meal>*8,
+[[<iceandfire:dragon_meal>, <iceandfire:dragon_meal>, <iceandfire:dragon_meal>],
+[<iceandfire:dragon_meal>, <contenttweaker:shard_of_a_fallen_spren>, <iceandfire:dragon_meal>],
+[<iceandfire:dragon_meal>, <iceandfire:dragon_meal>, <iceandfire:dragon_meal>]]);
+
+furnace.addRecipe(<iceandfire:dragon_meal>, <contenttweaker:strange_phasing_dragon_meal>);
+
+
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<contenttweaker:strange_phasing_dragon_meal>, <contenttweaker:strange_phasing_meat> % 90);
+
+
+
+
+val divinecombinerfinemineraldust = RecipeBuilder.newBuilder("divinecombinerfinemineraldust","divine_combiner",2);
+divinecombinerfinemineraldust.addFluidInput(<fluid:infinity>*288);
+divinecombinerfinemineraldust.addItemInput(<contenttweaker:pale_metal_dust>);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:41>*48);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:1>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:2>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:4>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:6>*32);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:5>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:8>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:10>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:11>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:17>*32);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:23>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:24>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:25>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:28>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:30>*32);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:31>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:37>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:39>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:40>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:50>*32);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:49>*32);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:48>*32);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:56>*32);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:69>*48);
+divinecombinerfinemineraldust.addItemOutput(<contenttweaker:fine_mineral_dust>*16);
+divinecombinerfinemineraldust.build();

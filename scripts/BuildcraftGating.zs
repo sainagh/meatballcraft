@@ -31,3 +31,11 @@ mods.buildcraft.AssemblyTable.addRecipe("chipsetbetter3", <buildcraftsilicon:red
 mods.buildcraft.AssemblyTable.addRecipe("chipsetbetter4", <buildcraftsilicon:redstone_chipset:3>*4, 10000, [<draconicevolution:nugget:1>, <minecraft:redstone>, <minecraft:quartz>]);
 
 mods.buildcraft.AssemblyTable.addRecipe("chipsetbetter5", <buildcraftsilicon:redstone_chipset:4>*4, 10000, [<draconicevolution:nugget:1>, <minecraft:redstone>, <minecraft:diamond>]);
+
+
+
+
+recipes.remove(<bc_ex_laser:ex_laser_mk3>);
+recipes.remove(<bc_ex_laser:ex_laser_mk4>);
+recipes.remove(<bc_ex_laser:ex_laser_mk5>);
+

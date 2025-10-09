@@ -23,5 +23,7 @@ recipes.addShaped(<contenttweaker:greater_mana_core>*2,
 
 recipes.remove(<extrabotany:rewardbag943>);
 
-recipes.addShapeless(<extrabotany:rewardbag943>*3,
-[<botania:dice>, <contenttweaker:greater_mana_core>]);
+recipes.addShaped(<extrabotany:rewardbag943>*2,
+[[null, <botania:manaresource:4>, null],
+[<contenttweaker:greater_mana_core>, <botania:dice>, <contenttweaker:greater_mana_core>],
+[null, <botania:rune:15>, null]]);

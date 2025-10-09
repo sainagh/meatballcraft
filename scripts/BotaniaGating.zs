@@ -1,3 +1,6 @@
+import mods.modularmachinery.RecipeBuilder;
+
+
 recipes.removeShaped(<botania:altar:0>);
 
 recipes.removeShaped(<botania:rfgenerator>);
@@ -12,132 +15,196 @@ mods.botania.RuneAltar.removeRecipe(<botania:rune:0>);
 
 mods.botania.RuneAltar.addRecipe(<botania:rune:0>*3, 
 [<botania:manaresource:0>, <botania:manaresource:23>, <divinerpg:whale_fin>, <divinerpg:crab_claw>, <minecraft:fish:3>], 150);
+mods.botania.RuneAltar.addRecipe(<botania:rune:0>*6, 
+[<botania:manaresource:0>, <contenttweaker:strange_stone_essence>, <divinerpg:whale_fin>, <divinerpg:crab_claw>, <minecraft:fish:3>], 150);
 mods.botania.RuneAltar.addRecipe(<botania:rune:0>*9, 
 [<botania:manaresource:0>, <contenttweaker:actualizing_stone>, <divinerpg:whale_fin>, <divinerpg:crab_claw>, <minecraft:fish:3>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:0>*27, 
 [<botania:manaresource:0>, <contenttweaker:trinity_nugget>, <divinerpg:whale_fin>, <divinerpg:crab_claw>, <minecraft:fish:3>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:0>*81, 
 [<botania:manaresource:0>, <contenttweaker:dust_of_infinite_wishes>, <divinerpg:whale_fin>, <divinerpg:crab_claw>, <minecraft:fish:3>], 5);
+mods.botania.RuneAltar.addRecipe(<botania:rune:0>*162, 
+[<botania:manaresource:0>, <contenttweaker:quasar_charged_dust>, <divinerpg:whale_fin>, <divinerpg:crab_claw>, <minecraft:fish:3>], 5);
 
 mods.botania.RuneAltar.removeRecipe(<botania:rune:1>);
 
 mods.botania.RuneAltar.addRecipe(<botania:rune:1>*3, 
 [<botania:manaresource:0>, <botania:manaresource:23>, <divinerpg:purple_blaze>, <erebus:materials:21>, <tconstruct:ingots:2>], 150);
+mods.botania.RuneAltar.addRecipe(<botania:rune:1>*6, 
+[<botania:manaresource:0>, <contenttweaker:strange_stone_essence>, <divinerpg:purple_blaze>, <erebus:materials:21>, <tconstruct:ingots:2>], 150);
 mods.botania.RuneAltar.addRecipe(<botania:rune:1>*9, 
 [<botania:manaresource:0>, <contenttweaker:actualizing_stone>, <divinerpg:purple_blaze>, <erebus:materials:21>, <tconstruct:ingots:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:1>*27, 
 [<botania:manaresource:0>, <contenttweaker:trinity_nugget>, <divinerpg:purple_blaze>, <erebus:materials:21>, <tconstruct:ingots:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:1>*81, 
 [<botania:manaresource:0>, <contenttweaker:dust_of_infinite_wishes>, <divinerpg:purple_blaze>, <erebus:materials:21>, <tconstruct:ingots:2>], 5);
+mods.botania.RuneAltar.addRecipe(<botania:rune:1>*162, 
+[<botania:manaresource:0>, <contenttweaker:quasar_charged_dust>, <divinerpg:purple_blaze>, <erebus:materials:21>, <tconstruct:ingots:2>], 5);
 
 mods.botania.RuneAltar.removeRecipe(<botania:rune:2>);
 
 mods.botania.RuneAltar.addRecipe(<botania:rune:2>*3, 
 [<botania:manaresource:0>, <botania:manaresource:23>, <thaumcraft:vishroom>, <nuclearcraft:dry_earth>, <cyclicmagic:crystallized_obsidian>], 150);
+mods.botania.RuneAltar.addRecipe(<botania:rune:2>*6, 
+[<botania:manaresource:0>, <contenttweaker:strange_stone_essence>, <thaumcraft:vishroom>, <nuclearcraft:dry_earth>, <cyclicmagic:crystallized_obsidian>], 150);
 mods.botania.RuneAltar.addRecipe(<botania:rune:2>*9, 
 [<botania:manaresource:0>, <contenttweaker:actualizing_stone>, <thaumcraft:vishroom>, <nuclearcraft:dry_earth>, <cyclicmagic:crystallized_obsidian>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:2>*27, 
 [<botania:manaresource:0>, <contenttweaker:trinity_nugget>, <thaumcraft:vishroom>, <nuclearcraft:dry_earth>, <cyclicmagic:crystallized_obsidian>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:2>*81, 
 [<botania:manaresource:0>, <contenttweaker:dust_of_infinite_wishes>, <thaumcraft:vishroom>, <nuclearcraft:dry_earth>, <cyclicmagic:crystallized_obsidian>], 5);
+mods.botania.RuneAltar.addRecipe(<botania:rune:2>*162, 
+[<botania:manaresource:0>, <contenttweaker:quasar_charged_dust>, <thaumcraft:vishroom>, <nuclearcraft:dry_earth>, <cyclicmagic:crystallized_obsidian>], 5);
 
 mods.botania.RuneAltar.removeRecipe(<botania:rune:3>);
 
 mods.botania.RuneAltar.addRecipe(<botania:rune:3>*3, 
 [<botania:manaresource:0>, <botania:manaresource:23>, <actuallyadditions:block_smiley_cloud>, <iceandfire:stymphalian_bird_feather>, <tconstruct:edible:4>], 150);
+mods.botania.RuneAltar.addRecipe(<botania:rune:3>*6, 
+[<botania:manaresource:0>, <contenttweaker:strange_stone_essence>, <actuallyadditions:block_smiley_cloud>, <iceandfire:stymphalian_bird_feather>, <tconstruct:edible:4>], 150);
 mods.botania.RuneAltar.addRecipe(<botania:rune:3>*9, 
 [<botania:manaresource:0>, <contenttweaker:actualizing_stone>, <actuallyadditions:block_smiley_cloud>, <iceandfire:stymphalian_bird_feather>, <tconstruct:edible:4>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:3>*27, 
 [<botania:manaresource:0>, <contenttweaker:trinity_nugget>, <actuallyadditions:block_smiley_cloud>, <iceandfire:stymphalian_bird_feather>, <tconstruct:edible:4>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:3>*81, 
 [<botania:manaresource:0>, <contenttweaker:dust_of_infinite_wishes>, <actuallyadditions:block_smiley_cloud>, <iceandfire:stymphalian_bird_feather>, <tconstruct:edible:4>], 5);
+mods.botania.RuneAltar.addRecipe(<botania:rune:3>*162, 
+[<botania:manaresource:0>, <contenttweaker:quasar_charged_dust>, <actuallyadditions:block_smiley_cloud>, <iceandfire:stymphalian_bird_feather>, <tconstruct:edible:4>], 5);
 
 
+mods.botania.RuneAltar.addRecipe(<botania:rune:8>*2, 
+[<botania:manaresource:1>, <contenttweaker:strange_stone_essence>, <botania:manaresource:0>, <botania:manaresource:0>, <botania:manaresource:0>, <botania:manaresource:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:8>*5, 
 [<botania:manaresource:1>, <contenttweaker:actualizing_stone>, <botania:manaresource:0>, <botania:manaresource:0>, <botania:manaresource:0>, <botania:manaresource:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:8>*25, 
 [<botania:manaresource:1>, <contenttweaker:trinity_nugget>, <botania:manaresource:0>, <botania:manaresource:0>, <botania:manaresource:0>, <botania:manaresource:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:8>*125, 
 [<botania:manaresource:1>, <contenttweaker:dust_of_infinite_wishes>, <botania:manaresource:0>, <botania:manaresource:0>, <botania:manaresource:0>, <botania:manaresource:0>], 5);
+mods.botania.RuneAltar.addRecipe(<botania:rune:8>*250, 
+[<botania:manaresource:1>, <contenttweaker:quasar_charged_dust>, <botania:manaresource:0>, <botania:manaresource:0>, <botania:manaresource:0>, <botania:manaresource:0>], 5);
 
 
+mods.botania.RuneAltar.addRecipe(<botania:rune:4>*2, 
+[<botania:rune:0>, <botania:rune:1>, <contenttweaker:strange_stone_essence>, <minecraft:wheat>, <ore:treeSapling>, <ore:treeSapling>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:4>*5, 
 [<botania:rune:0>, <botania:rune:1>, <contenttweaker:actualizing_stone>, <minecraft:wheat>, <ore:treeSapling>, <ore:treeSapling>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:4>*25, 
 [<botania:rune:0>, <botania:rune:1>, <contenttweaker:trinity_nugget>, <minecraft:wheat>, <ore:treeSapling>, <ore:treeSapling>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:4>*125, 
 [<botania:rune:0>, <botania:rune:1>, <contenttweaker:dust_of_infinite_wishes>, <minecraft:wheat>, <ore:treeSapling>, <ore:treeSapling>], 50);
+mods.botania.RuneAltar.addRecipe(<botania:rune:4>*250, 
+[<botania:rune:0>, <botania:rune:1>, <contenttweaker:quasar_charged_dust>, <minecraft:wheat>, <ore:treeSapling>, <ore:treeSapling>], 50);
 
+mods.botania.RuneAltar.addRecipe(<botania:rune:5>*2, 
+[<botania:rune:2>, <botania:rune:3>, <contenttweaker:strange_stone_essence>, <minecraft:melon>, <ore:slimeball>, <minecraft:sand>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:5>*5, 
 [<botania:rune:2>, <botania:rune:3>, <contenttweaker:actualizing_stone>, <minecraft:melon>, <ore:slimeball>, <minecraft:sand>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:5>*25, 
 [<botania:rune:2>, <botania:rune:3>, <contenttweaker:trinity_nugget>, <minecraft:melon>, <ore:slimeball>, <minecraft:sand>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:5>*125, 
 [<botania:rune:2>, <botania:rune:3>, <contenttweaker:dust_of_infinite_wishes>, <minecraft:melon>, <ore:slimeball>, <minecraft:sand>], 50);
+mods.botania.RuneAltar.addRecipe(<botania:rune:5>*250, 
+[<botania:rune:2>, <botania:rune:3>, <contenttweaker:quasar_charged_dust>, <minecraft:melon>, <ore:slimeball>, <minecraft:sand>], 50);
 
+mods.botania.RuneAltar.addRecipe(<botania:rune:6>*2, 
+[<botania:rune:1>, <botania:rune:3>, <contenttweaker:strange_stone_essence>, <minecraft:spider_eye>, <ore:treeLeaves>, <ore:treeLeaves>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:6>*5, 
 [<botania:rune:1>, <botania:rune:3>, <contenttweaker:actualizing_stone>, <minecraft:spider_eye>, <ore:treeLeaves>, <ore:treeLeaves>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:6>*25, 
 [<botania:rune:1>, <botania:rune:3>, <contenttweaker:trinity_nugget>, <minecraft:spider_eye>, <ore:treeLeaves>, <ore:treeLeaves>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:6>*125, 
 [<botania:rune:1>, <botania:rune:3>, <contenttweaker:dust_of_infinite_wishes>, <minecraft:spider_eye>, <ore:treeLeaves>, <ore:treeLeaves>], 50);
+mods.botania.RuneAltar.addRecipe(<botania:rune:6>*250, 
+[<botania:rune:1>, <botania:rune:3>, <contenttweaker:quasar_charged_dust>, <minecraft:spider_eye>, <ore:treeLeaves>, <ore:treeLeaves>], 50);
 
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>*2, 
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:strange_stone_essence>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*5, 
 [<botania:rune:0>, <botania:rune:2>, <contenttweaker:actualizing_stone>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*25, 
 [<botania:rune:0>, <botania:rune:2>, <contenttweaker:trinity_nugget>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*125, 
 [<botania:rune:0>, <botania:rune:2>, <contenttweaker:dust_of_infinite_wishes>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>*250, 
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:quasar_charged_dust>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
 
 
+mods.botania.RuneAltar.addRecipe(<botania:rune:9>*2, 
+[<botania:rune:3>, <botania:rune:5>, <contenttweaker:strange_stone_essence>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:9>*5, 
 [<botania:rune:3>, <botania:rune:5>, <contenttweaker:actualizing_stone>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:9>*25, 
 [<botania:rune:3>, <botania:rune:5>, <contenttweaker:trinity_nugget>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:9>*125, 
 [<botania:rune:3>, <botania:rune:5>, <contenttweaker:dust_of_infinite_wishes>, <botania:manaresource:2>], 50);
+mods.botania.RuneAltar.addRecipe(<botania:rune:9>*250, 
+[<botania:rune:3>, <botania:rune:5>, <contenttweaker:quasar_charged_dust>, <botania:manaresource:2>], 50);
 
+mods.botania.RuneAltar.addRecipe(<botania:rune:10>*2, 
+[<botania:rune:1>, <botania:rune:7>, <contenttweaker:strange_stone_essence>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:10>*5, 
 [<botania:rune:1>, <botania:rune:7>, <contenttweaker:actualizing_stone>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:10>*25, 
 [<botania:rune:1>, <botania:rune:7>, <contenttweaker:trinity_nugget>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:10>*125, 
 [<botania:rune:1>, <botania:rune:7>, <contenttweaker:dust_of_infinite_wishes>, <botania:manaresource:2>], 50);
+mods.botania.RuneAltar.addRecipe(<botania:rune:10>*250, 
+[<botania:rune:1>, <botania:rune:7>, <contenttweaker:quasar_charged_dust>, <botania:manaresource:2>], 50);
 
+mods.botania.RuneAltar.addRecipe(<botania:rune:11>*2, 
+[<botania:rune:0>, <botania:rune:4>, <contenttweaker:strange_stone_essence>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:11>*5, 
 [<botania:rune:0>, <botania:rune:4>, <contenttweaker:actualizing_stone>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:11>*25, 
 [<botania:rune:0>, <botania:rune:4>, <contenttweaker:trinity_nugget>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:11>*125, 
 [<botania:rune:0>, <botania:rune:4>, <contenttweaker:dust_of_infinite_wishes>, <botania:manaresource:2>], 50);
+mods.botania.RuneAltar.addRecipe(<botania:rune:11>*250, 
+[<botania:rune:0>, <botania:rune:4>, <contenttweaker:quasar_charged_dust>, <botania:manaresource:2>], 50);
 
+mods.botania.RuneAltar.addRecipe(<botania:rune:12>*2, 
+[<botania:rune:3>, <botania:rune:6>, <contenttweaker:strange_stone_essence>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:12>*5, 
 [<botania:rune:3>, <botania:rune:6>, <contenttweaker:actualizing_stone>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:12>*25, 
 [<botania:rune:3>, <botania:rune:6>, <contenttweaker:trinity_nugget>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:12>*125, 
 [<botania:rune:3>, <botania:rune:6>, <contenttweaker:dust_of_infinite_wishes>, <botania:manaresource:2>], 50);
+mods.botania.RuneAltar.addRecipe(<botania:rune:12>*250, 
+[<botania:rune:3>, <botania:rune:6>, <contenttweaker:quasar_charged_dust>, <botania:manaresource:2>], 50);
 
+mods.botania.RuneAltar.addRecipe(<botania:rune:13>*2, 
+[<botania:rune:2>, <botania:rune:7>, <contenttweaker:strange_stone_essence>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:13>*5, 
 [<botania:rune:2>, <botania:rune:7>, <contenttweaker:actualizing_stone>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:13>*25, 
 [<botania:rune:2>, <botania:rune:7>, <contenttweaker:trinity_nugget>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:13>*125, 
 [<botania:rune:2>, <botania:rune:7>, <contenttweaker:dust_of_infinite_wishes>, <botania:manaresource:2>], 50);
+mods.botania.RuneAltar.addRecipe(<botania:rune:13>*250, 
+[<botania:rune:2>, <botania:rune:7>, <contenttweaker:quasar_charged_dust>, <botania:manaresource:2>], 50);
 
+mods.botania.RuneAltar.addRecipe(<botania:rune:14>*2, 
+[<botania:rune:0>, <botania:rune:7>, <contenttweaker:strange_stone_essence>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:14>*5, 
 [<botania:rune:0>, <botania:rune:7>, <contenttweaker:actualizing_stone>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:14>*25, 
 [<botania:rune:0>, <botania:rune:7>, <contenttweaker:trinity_nugget>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:14>*125, 
 [<botania:rune:0>, <botania:rune:7>, <contenttweaker:dust_of_infinite_wishes>, <botania:manaresource:2>], 50);
+mods.botania.RuneAltar.addRecipe(<botania:rune:14>*250, 
+[<botania:rune:0>, <botania:rune:7>, <contenttweaker:quasar_charged_dust>, <botania:manaresource:2>], 50);
 
+mods.botania.RuneAltar.addRecipe(<botania:rune:15>*2, 
+[<botania:rune:1>, <botania:rune:5>, <contenttweaker:strange_stone_essence>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:15>*5, 
 [<botania:rune:1>, <botania:rune:5>, <contenttweaker:actualizing_stone>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:15>*25, 
 [<botania:rune:1>, <botania:rune:5>, <contenttweaker:trinity_nugget>, <botania:manaresource:2>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:15>*125, 
 [<botania:rune:1>, <botania:rune:5>, <contenttweaker:dust_of_infinite_wishes>, <botania:manaresource:2>], 50);
+mods.botania.RuneAltar.addRecipe(<botania:rune:15>*250, 
+[<botania:rune:1>, <botania:rune:5>, <contenttweaker:quasar_charged_dust>, <botania:manaresource:2>], 50);
 
 
 recipes.addShaped(<extrabotany:gildedmashedpotato>,
@@ -293,10 +360,40 @@ mods.botania.ElvenTrade.addRecipe([<botania:storage:4>*5], [<divinerpg:mortum_ge
 
 mods.botania.ElvenTrade.addRecipe([<botania:quartz:5>*48], [<contenttweaker:endergenic_sediment>]);
 
+mods.botania.ElvenTrade.addRecipe([<botania:elfglass>*16], [<aoa3:lelyetian_glass>]);
+mods.botania.ElvenTrade.addRecipe([<botania:elfglass>*32], [<aoa3:haven_glass>]);
+
 
 
 recipes.addShaped(<extrabotany:manabarrel>*4,
 [[<botania:pool:3>, <botania:lens:0>, <botania:pool:3>],
 [<botania:pool:3>, <ore:ingotOrichalcos>, <botania:pool:3>],
 [<botania:pool:3>, <botania:lens:0>, <botania:pool:3>]]);
+
+mods.botania.Apothecary.addRecipe(<contenttweaker:entropic_seedling>, [<botania:rune:1>, <botania:rune:1>, <botania:rune:13>, <botania:rune:13>, <ore:petalRed>, <ore:petalGray>, <ore:petalBlack>]);
+
+
+val everburningforgeterrasteelezpz = RecipeBuilder.newBuilder("everburningforgeterrasteelezpz","tree_of_life",5);
+everburningforgeterrasteelezpz.addItemInput(<contenttweaker:self_actualizing_flower>);
+everburningforgeterrasteelezpz.addItemOutput(<contenttweaker:warren_petal>*64);
+everburningforgeterrasteelezpz.build();
+
+recipes.addShaped(<contenttweaker:terrasteel_infused_stone>*2,
+[[<contenttweaker:warren_petal>, <contenttweaker:actualizing_stone>, <contenttweaker:warren_petal>],
+[<botania:manaresource:5>, <contenttweaker:terrasteel_crystal>.reuse(), <botania:manaresource:5>],
+[<contenttweaker:warren_petal>, <contenttweaker:actualizing_stone>, <contenttweaker:warren_petal>]]);
+
+
+mods.botania.ManaInfusion.addAlchemy(<botania:manaresource:4>*64, <contenttweaker:terrasteel_infused_stone>, 5000);
+
+
+recipes.addShaped(<contenttweaker:recursive_mind_shield>*32,
+[[<thaumcraft:brain>, <bewitchment:sigil_shrieking>, <thaumcraft:brain>],
+[<thaumcraft:brain>, <contenttweaker:recursive_mind_shield>, <thaumcraft:brain>],
+[<thaumcraft:brain>, <bewitchment:sigil_shrieking>, <thaumcraft:brain>]]);
+
+recipes.addShaped(<contenttweaker:pale_metal>*6,
+[[<contenttweaker:greater_mana_core>, <contenttweaker:greater_mana_core>, <contenttweaker:greater_mana_core>],
+[<contenttweaker:pale_metal>, <contenttweaker:recursive_mind_shield>, <contenttweaker:pale_metal>],
+[<contenttweaker:greater_mana_core>, <contenttweaker:greater_mana_core>, <contenttweaker:greater_mana_core>]]);
 

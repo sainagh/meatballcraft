@@ -1,7 +1,7 @@
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:safe_fission_leu235"}),
-[[null, <nuclearcraft:fuel_uranium:4>, null],
-[<nuclearcraft:fuel_uranium:4>, <minecraft:paper>, <nuclearcraft:fuel_uranium:4>],
-[null, <nuclearcraft:fuel_uranium:4>, null]]);
+[[null, <ore:ingotUranium>, null],
+[<ore:ingotUranium>, <minecraft:paper>, <ore:ingotUranium>],
+[null, <ore:ingotUranium>, null]]);
 
 mods.chisel.Carving.addGroup("safencfission");
 mods.chisel.Carving.addVariation("safencfission", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:safe_fission_leu235"}));
@@ -31,6 +31,8 @@ mods.chisel.Carving.addVariation("safencfission", <modularmachinery:itemblueprin
 mods.chisel.Carving.addVariation("safencfission", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:active_cooled_hecm245"}));
 mods.chisel.Carving.addVariation("safencfission", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:active_cooled_hecf249"}));
 mods.chisel.Carving.addVariation("safencfission", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:cryolattice_tbu"}));
+mods.chisel.Carving.addVariation("safencfission", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_altar_ziggurat"}));
+mods.chisel.Carving.addVariation("safencfission", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:tardis_structure"}));
 
 recipes.addShapeless(<modularmachinery:safe_fission_leu235_controller>,[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:safe_fission_leu235"}).reuse(),<modularmachinery:blockcontroller>]);
 recipes.addShapeless(<modularmachinery:safe_fission_tbu_controller>,[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:safe_fission_tbu"}).reuse(),<modularmachinery:blockcontroller>]);
@@ -59,6 +61,8 @@ recipes.addShapeless(<modularmachinery:active_cooled_hea242_controller>,[<modula
 recipes.addShapeless(<modularmachinery:active_cooled_hecm245_controller>,[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:active_cooled_hecm245"}).reuse(),<modularmachinery:blockcontroller>]);
 recipes.addShapeless(<modularmachinery:active_cooled_hecf249_controller>,[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:active_cooled_hecf249"}).reuse(),<modularmachinery:blockcontroller>]);
 recipes.addShapeless(<modularmachinery:cryolattice_tbu_controller>,[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:cryolattice_tbu"}).reuse(),<modularmachinery:blockcontroller>]);
+recipes.addShapeless(<modularmachinery:blood_altar_ziggurat_controller>,[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_altar_ziggurat"}).reuse(),<modularmachinery:blockcontroller>]);
+recipes.addShapeless(<modularmachinery:blood_altar_ziggurat_controller>,[<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:tardis_structure"}).reuse(),<modularmachinery:blockcontroller>]);
 
 mods.chisel.Carving.addGroup("safencfissioncont");
 mods.chisel.Carving.addVariation("safencfissioncont", <modularmachinery:safe_fission_leu235_controller>);
@@ -88,6 +92,8 @@ mods.chisel.Carving.addVariation("safencfissioncont", <modularmachinery:active_c
 mods.chisel.Carving.addVariation("safencfissioncont", <modularmachinery:active_cooled_hecm245_controller>);
 mods.chisel.Carving.addVariation("safencfissioncont", <modularmachinery:active_cooled_hecf249_controller>);
 mods.chisel.Carving.addVariation("safencfissioncont", <modularmachinery:cryolattice_tbu_controller>);
+mods.chisel.Carving.addVariation("safencfissioncont", <modularmachinery:blood_altar_ziggurat_controller>);
+mods.chisel.Carving.addVariation("safencfissioncont", <modularmachinery:tardis_structure_controller>);
 
 
 recipes.addShapeless(<nuclearcraft:depleted_fuel_uranium:4>,

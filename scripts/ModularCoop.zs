@@ -490,3 +490,33 @@ chick74.addItemOutput(<minecraft:redstone>*32);
 chick74.addItemOutput(<minecraft:redstone>*32);
 chick74.addItemOutput(<minecraft:redstone>*32);
 chick74.build();
+
+val chick75 = RecipeBuilder.newBuilder("chick75","mechanized_coop",480);
+chick75.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:lovely_chicken"}}));
+chick75.setChance(0.0);
+chick75.addItemOutput(<contenttweaker:lovely_egg>*32);
+chick75.build();
+
+
+val chick76 = RecipeBuilder.newBuilder("chick76","mechanized_coop",480);
+chick76.addItemInput(<minecraft:egg>);
+chick76.setChance(0.0);
+chick76.addItemOutput(<minecraft:egg>*16);
+chick76.addItemOutput(<minecraft:egg>*16);
+chick76.addItemOutput(<minecraft:egg>*16);
+chick76.addItemOutput(<minecraft:egg>*16);
+chick76.build();
+
+
+val chick77 = RecipeBuilder.newBuilder("chick77","mechanized_coop",480);
+chick77.addItemInput(<hatchery:hatcheryegg>);
+chick77.setChance(0.0);
+chick77.addItemOutput(<minecraft:egg>*16);
+chick77.addItemOutput(<minecraft:egg>*16);
+chick77.addItemOutput(<minecraft:egg>*16);
+chick77.addItemOutput(<minecraft:egg>*16);
+chick77.addItemOutput(<minecraft:egg>*16);
+chick77.addItemOutput(<minecraft:egg>*16);
+chick77.addItemOutput(<minecraft:egg>*16);
+chick77.addItemOutput(<minecraft:egg>*16);
+chick77.build();

@@ -1,0 +1,146 @@
+{
+  "preRequisites:11": [
+    90103
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o通过疯狂AE2的能源存储元件，你可以在AE2网络中储存RF，并使用能源输出和输入总线进行传输。\n\n要查看输入和输出速率，可使用能源终端。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 36,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "crazyae:material",
+          "orig_meta:3": 36
+        }
+      },
+      "name:8": "应用能源丨能量存储"
+    }
+  },
+  "questID:3": 777714193,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:part",
+            "orig_meta:3": 9
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:energy_cell_1k",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:energy_cell_4k",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:energy_cell_16k",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:energy_cell_64k",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:energy_cell_256k",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:energy_cell_1mb",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:energy_cell_4mb",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:energy_cell_16mb",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
+        },
+        "9:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:energy_cell_64mb",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
+        },
+        "10:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:energy_cell_256mb",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
+        },
+        "11:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:energy_cell_1gb",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
+        },
+        "12:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:energy_cell_2gb",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1048771552,
+    1900648883
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:gem_of_the_dying_constellation"
+      },
+      "name:8": "死亡无形"
+    }
+  },
+  "questID:3": 921771716,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dying_constellation_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:gem_of_the_dying_constellation"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

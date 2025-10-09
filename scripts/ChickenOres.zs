@@ -299,6 +299,8 @@ mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:imperial_abyssite>*144, <fl
 
 mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:gluttonous_abyssite>*144, <fluid:recursive_computing_matter>*100, <fluid:inquiring_abyssite>*144, null]);
 
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:trinity_nugget>, <fluid:inquiring_abyssite>*144, <fluid:everloving_abyssite>*144]);
+
 
 mods.forestry.Squeezer.addRecipe(<fluid:purifying_fluid>*1000, [<contenttweaker:pure_egg>], 120);
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:pure_egg>, <fluid:purifying_fluid>*1000]);
@@ -308,4 +310,3 @@ recipes.addShaped(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweake
 [[<agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>],
 [<soulshardsrespawn:materials:1>, <minecraft:egg>, <soulshardsrespawn:materials:1>],
 [<agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>]]);
-

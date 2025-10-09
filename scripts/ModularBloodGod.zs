@@ -196,6 +196,24 @@ elemaltar16.addFluidOutput(<fluid:innerved_fissile_matter>*1000);
 elemaltar16.build();
 
 
+val elemaltar17 = RecipeBuilder.newBuilder("elemaltar17","elemental_altar",5);
+elemaltar17.addLifeEssenceInput(1000, false);
+elemaltar17.addItemInput(<contenttweaker:deep_metamorphic_rock>*16);
+elemaltar17.addItemInput(<extendedcrafting:material:33>*16);
+elemaltar17.addItemInput(<ore:ingotBloodmasterMetal>*16);
+elemaltar17.addItemInput(<bloodarsenal:blood_burned_string>*16);
+elemaltar17.addItemInput(<divinerpg:twilight_stone>*16);
+elemaltar17.addItemInput(<divinerpg:molten_shards>*16);
+elemaltar17.addItemOutput(<contenttweaker:deep_slate_catalyst>*16);
+elemaltar17.build();
+
+val elemaltar18 = RecipeBuilder.newBuilder("elemaltar18","elemental_altar",5);
+elemaltar18.addLifeEssenceInput(1000, false);
+elemaltar18.addItemInput(<contenttweaker:screaming_blood_slime>*16);
+elemaltar18.addItemInput(<contenttweaker:pale_metal>*16);
+elemaltar18.addItemOutput(<contenttweaker:shrieking_metal>*32);
+elemaltar18.build();
+
 
 
 
@@ -399,4 +417,13 @@ fluidelemaltar16.addItemInput(<materialpart:sednanite:ingot>);
 fluidelemaltar16.addFluidOutput(<fluid:innerved_fissile_matter>*1000);
 fluidelemaltar16.build();
 
-
+val fluidelemaltar17 = RecipeBuilder.newBuilder("fluidelemaltar17","elemental_altar",5);
+fluidelemaltar17.addFluidInput(<fluid:lifeessence>*1000);
+fluidelemaltar17.addItemInput(<contenttweaker:deep_metamorphic_rock>*16);
+fluidelemaltar17.addItemInput(<extendedcrafting:material:33>*16);
+fluidelemaltar17.addItemInput(<ore:ingotBloodmasterMetal>*16);
+fluidelemaltar17.addItemInput(<bloodarsenal:blood_burned_string>*16);
+fluidelemaltar17.addItemInput(<divinerpg:twilight_stone>*16);
+fluidelemaltar17.addItemInput(<divinerpg:molten_shards>*16);
+fluidelemaltar17.addItemOutput(<contenttweaker:deep_slate_catalyst>*16);
+fluidelemaltar17.build();

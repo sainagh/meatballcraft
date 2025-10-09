@@ -158,6 +158,110 @@
                 "operation": 1,
                 "multiplier": 12
             }]
+        },
+        {
+            "elements": "contenttweaker:cauchy_recursive_essence",
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "description": "处理数量x14",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 14
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 14
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 14
+            }]
+        },
+        {
+            "elements": "contenttweaker:lorenz_recursive_essence",
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "description": "处理数量x16",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            }]
+        },
+        {
+            "elements": "contenttweaker:chaotic_recursive_essence",
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "description": "处理数量x18",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 18
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 18
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 18
+            }]
+        },
+        {
+            "elements": "contenttweaker:chaotic_recursive_essence",
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "description": "处理数量x20",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 20
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 20
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 20
+            }]
         }
     ],
     "parts": [

@@ -180,3 +180,7 @@ recipes.addShapeless(<contenttweaker:voxxulon_slime>,
 
 recipes.addShapeless(<contenttweaker:xxeus_heart>,
 [<aoa3:xxeus_statue>.reuse(), <projecte:item.pe_matter:0>]);
+
+
+recipes.addShapeless(<contenttweaker:crystocore_shard>,
+[<aoa3:crystocore_statue>.reuse(), <projecte:item.pe_matter:0>]);

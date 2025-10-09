@@ -361,6 +361,9 @@ recipes.addShapeless(<divinerpg:apalachia_heart>,
 recipes.addShapeless(<divinerpg:skythern_heart>, 
 [<contenttweaker:boss_drop>, <divinerpg:apalachia_block>]);
 
+recipes.addShapeless(<contenttweaker:sigil_flame>, 
+[<contenttweaker:trader_drop>, <extrautils2:teleporter:1>]);
+
 
 recipes.addShapeless(<contenttweaker:gem_of_the_sleeping_city>, 
 [<contenttweaker:dungeon_drop>, <aoa3:borean_realmstone>]);
@@ -1045,6 +1048,22 @@ recipes.addShapeless(<thebetweenlands:swamp_talisman:3>,
 recipes.addShapeless(<thebetweenlands:swamp_talisman:4>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
 
+recipes.addShapeless(<integrateddynamics:menril_sapling>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<integrateddynamics:menril_log>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<integrateddynamics:menril_log_filled>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<integrateddynamics:menril_berries>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+
+recipes.addShapeless(<contenttweaker:bloodhunter_droplet>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+
+recipes.addShapeless(<contenttweaker:refined_obsidian_flake>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+
+
 recipes.addShapeless(<erebus:stag_heart_raw>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
 
@@ -1154,6 +1173,12 @@ recipes.addShapeless(<contenttweaker:ichor>,
 [<contenttweaker:custom_dimensions>]);
 
 recipes.addShapeless(<tconstruct:metal:6>,
+[<contenttweaker:custom_dimensions>]);
+
+recipes.addShapeless(<contenttweaker:ultimate_ore>,
+[<contenttweaker:custom_dimensions>]);
+
+recipes.addShapeless(<contenttweaker:matrix_ore>,
 [<contenttweaker:custom_dimensions>]);
 
 
@@ -1711,10 +1736,67 @@ recipes.addShapeless(<contenttweaker:horn_of_the_dark_goat>,
 recipes.addShapeless(<aoa3:soulstone_pickaxe>, 
 [<contenttweaker:trader_drop>, <aoa3:lunalus_realmstone>]);
 
+recipes.addShapeless(<contenttweaker:heart_of_the_cursed_wyvern>, 
+[<contenttweaker:boss_drop>, <contenttweaker:summons_of_the_cursed_wyvern>]);
+
+recipes.addShapeless(<contenttweaker:universal_constellation>, 
+[<contenttweaker:dungeon_drop>, <contenttweaker:universal_constellation_callstone>]);
+
+recipes.addShapeless(<contenttweaker:gem_of_the_dying_constellation>, 
+[<contenttweaker:dungeon_drop>, <contenttweaker:dying_constellation_callstone>]);
+
+
+recipes.addShapeless(<divinerpg:scythe>, 
+[<contenttweaker:trader_drop>, <contenttweaker:funny_pumpkin>]);
 
 
 
 
+recipes.addShapeless(<contenttweaker:refined_obsidian_sliver>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:fluix_lens>]);
+
+recipes.addShapeless(<contenttweaker:refined_obsidian_sliver>,
+[<contenttweaker:dungeon_drop>, <divinerpg:snow_globe>]);
+
+recipes.addShapeless(<contenttweaker:refined_obsidian_sliver>,
+[<contenttweaker:dungeon_drop>, <abyssalcraft:gatewaykey>]);
+
+recipes.addShapeless(<contenttweaker:refined_obsidian_sliver>,
+[<contenttweaker:dungeon_drop>, <abyssalcraft:gatewaykeyjzh>]);
+
+recipes.addShapeless(<contenttweaker:refined_obsidian_sliver>,
+[<contenttweaker:dungeon_drop>, <aether_legacy:skyroot_bucket>]);
+
+recipes.addShapeless(<contenttweaker:construct_of_natural_balance>,
+[<contenttweaker:trader_drop>, <contenttweaker:hopeful_return_callstone>]);
+
+recipes.addShapeless(<contenttweaker:everbloody_flask>,
+[<contenttweaker:trader_drop>, <contenttweaker:rite_of_bloodshed>]);
+
+recipes.addShapeless(<contenttweaker:marrow_of_alazoneia>,
+[<contenttweaker:boss_drop>, <contenttweaker:rite_of_bloodshed>]);
+
+recipes.addShapeless(<contenttweaker:recursion_of_natural_law>,
+[<contenttweaker:trader_drop>, <contenttweaker:twilit_warren_shredder>]);
+
+recipes.addShapeless(<contenttweaker:deep_dark_matter>,
+[<contenttweaker:dungeon_drop>, <aoa3:deeplands_realmstone>]);
+
+recipes.addShapeless(<contenttweaker:pale_sky_stone_pebble>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:fluix_callstone>]);
+
+
+recipes.addShapeless(<contenttweaker:arcanium_cluster>,
+[<contenttweaker:trait_tearofarcana>, <contenttweaker:aesir_gemstone>]);
+recipes.addShapeless(<divinerpg:arcanium_block>,
+[<contenttweaker:trait_tearofarcana>, <contenttweaker:aesir_gemstone>]);
+
+
+recipes.addShapeless(<contenttweaker:arcanium_cluster>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:tear_of_arcana_callstone>]);
+
+recipes.addShapeless(<contenttweaker:earthly_salvation>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:trinity_fabrial>]);
 
 
 

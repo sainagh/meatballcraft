@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1976749680,
+    1809800621
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:creepified_sword"
+      },
+      "name:8": "蠕变剑"
+    }
+  },
+  "questID:3": 1518469376,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:creepified_sword"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

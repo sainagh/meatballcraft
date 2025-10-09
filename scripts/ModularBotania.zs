@@ -185,3 +185,63 @@ bot18.addItemInput(<botania:unholycloak>);
 bot18.addItemInput(<botania:balancecloak>);
 bot18.addItemOutput(<extrabotany:silenteternity>);
 bot18.build();
+
+val bot19 = RecipeBuilder.newBuilder("bot19","gaia_altar",400);
+bot19.addEnergyPerTickInput(60000);
+bot19.addItemInput(<contenttweaker:pale_metal>);
+bot19.addItemInput(<contenttweaker:greater_gaia_spirit>*6);
+bot19.addItemInput(<botania:manaresource:14>*128);
+bot19.addItemOutput(<extrabotany:material:3>*4);
+bot19.build();
+
+
+
+val bot20 = RecipeBuilder.newBuilder("bot20","gaia_altar",400);
+bot20.addEnergyPerTickInput(60000);
+bot20.addItemInput(<contenttweaker:shrieking_metal>);
+bot20.addItemInput(<contenttweaker:greater_gaia_spirit>*8);
+bot20.addItemInput(<botania:manaresource:14>*256);
+bot20.addItemOutput(<extrabotany:material:3>*8);
+bot20.build();
+
+
+
+
+val gaiaaltarentropynium = RecipeBuilder.newBuilder("gaiaaltarentropynium","gaia_altar",30);
+gaiaaltarentropynium.addEnergyPerTickInput(40000);
+gaiaaltarentropynium.addItemInput(<contenttweaker:entropic_seedling>);
+gaiaaltarentropynium.addItemInput(<bnkrblks:megelium_stone>*3);
+gaiaaltarentropynium.addItemInput(<botania:manaresource:0>);
+gaiaaltarentropynium.addItemOutput(<botania:specialflower>.withTag({type: "entropinnyum"})*3);
+gaiaaltarentropynium.build();
+
+val gaiaaltarentropynium2 = RecipeBuilder.newBuilder("gaiaaltarentropynium2","gaia_altar",30);
+gaiaaltarentropynium2.addEnergyPerTickInput(40000);
+gaiaaltarentropynium2.addItemInput(<contenttweaker:entropic_seedling>);
+gaiaaltarentropynium2.addItemInput(<contenttweaker:creative_megelium>);
+gaiaaltarentropynium2.addItemOutput(<botania:specialflower>.withTag({type: "entropinnyum"})*4);
+gaiaaltarentropynium2.build();
+
+val gaiaaltarentropynium3 = RecipeBuilder.newBuilder("gaiaaltarentropynium3","gaia_altar",30);
+gaiaaltarentropynium3.addEnergyPerTickInput(40000);
+gaiaaltarentropynium3.addItemInput(<contenttweaker:entropic_seedling>);
+gaiaaltarentropynium3.addItemInput(<contenttweaker:everloving_megelium>);
+gaiaaltarentropynium3.addItemOutput(<botania:specialflower>.withTag({type: "entropinnyum"})*6);
+gaiaaltarentropynium3.build();
+
+val gaiaaltarentropynium4 = RecipeBuilder.newBuilder("gaiaaltarentropynium4","gaia_altar",30);
+gaiaaltarentropynium4.addEnergyPerTickInput(40000);
+gaiaaltarentropynium4.addItemInput(<contenttweaker:entropic_seedling>);
+gaiaaltarentropynium4.addItemInput(<contenttweaker:everwishing_megelium>);
+gaiaaltarentropynium4.addItemOutput(<botania:specialflower>.withTag({type: "entropinnyum"})*8);
+gaiaaltarentropynium4.build();
+
+val gaiaaltarentropynium5 = RecipeBuilder.newBuilder("gaiaaltarentropynium5","gaia_altar",30);
+gaiaaltarentropynium5.addEnergyPerTickInput(40000);
+gaiaaltarentropynium5.addItemInput(<contenttweaker:entropic_seedling>);
+gaiaaltarentropynium5.addItemInput(<contenttweaker:everwondering_megelium>);
+gaiaaltarentropynium5.addItemOutput(<botania:specialflower>.withTag({type: "entropinnyum"})*12);
+gaiaaltarentropynium5.build();
+
+
+

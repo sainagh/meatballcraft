@@ -2,7 +2,20 @@
     "craft": {
         "inventory": 0b,
         "amount": "",
-        "recents": []
+        "recents": [
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "meta": 11,
+                    "item": "projectex:matter"
+                }
+            }
+        ]
     },
     "player": {
         "last": "",

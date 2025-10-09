@@ -152,3 +152,15 @@ forgewyvorichalc.addFluidOutput(<fluid:orichalcum>*144);
 forgewyvorichalc.build();
 
 
+val forgewyvadamant = RecipeBuilder.newBuilder("forgewyvadamant","forge_of_the_wyvern",2);
+forgewyvadamant.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvadamant.setChance(0.0);
+forgewyvadamant.addItemInput(<contenttweaker:adamantium_ingot>);
+forgewyvadamant.addFluidOutput(<fluid:molten_adamantium>*144);
+forgewyvadamant.build();
+
+
+
+
+
+

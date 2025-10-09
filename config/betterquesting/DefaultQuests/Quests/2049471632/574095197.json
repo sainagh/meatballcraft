@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1569647533,
+    1474843254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mod_lavacow:thorn_shooter"
+      },
+      "name:8": "仙人掌枪"
+    }
+  },
+  "questID:3": 574095197,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "mod_lavacow:thorn_shooter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

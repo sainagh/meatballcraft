@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    28
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o本章节的任务书列出了整合包每个阶段所有可用的武器选项。\n\n§c该任务章节仍在完善中，尚未列出所有可用选项！",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:sword_of_truth"
+      },
+      "name:8": "全年战不停"
+    }
+  },
+  "questID:3": 2046820099,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

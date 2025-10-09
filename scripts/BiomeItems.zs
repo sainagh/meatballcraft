@@ -96,7 +96,8 @@ markofthesamurai.itemRightClick = function(stack, world, player, hand) {
 	
 	player.sendChat("---");
 	player.sendChat("步骤二：运行转换仪，创建7x7的不详森林（Ominous Woods）区域，完成后站在转换仪上再次使用该物品");
-	player.sendChat("	使用以下设置：“方形”，“半径 24“，无需过度思考");
+	player.sendChat("	使用以下设置：“方形”，“半径 24”，如此设置是因为模组本身的一个bug");
+	player.sendChat("	当然，如果你觉得自己运气够好，也可以试试：“方形”，“半径 4”，但这样有可能出bug");
 	player.sendChat("	根据元动能量产出速度，可能需要多次运行转换仪才能完成整个区域转换");
 
 	// step 2
@@ -160,18 +161,27 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 	var playerpos = player.position as crafttweaker.util.Position3f;
 
     // locations to place biomes
-    val MystriumBiomeLocations = [[-2,-2],[2,2]] as int[][];
-	val NuclearWastelandLocations = [[-1,-2],[1,2]] as int[][];
-	val StorageBiomeLocations = [[0,-2],[0,2]] as int[][];
-	val CrystalChasmsLocations = [[1,-2],[-1,2]] as int[][];
-	val BlackVoidLocations = [[2,-2],[-2,2]] as int[][];
-	val TwilightStreamLocations = [[-2,-1],[2,-1],[-2,1],[2,1]] as int[][];
-	val AlienForestLocations = [[-1,-1],[1,1]] as int[][];
-	val ThornlandsLocations = [[1,-1],[-1,1]] as int[][];
-	val IromineLocations = [[-1,0],[1,0]] as int[][];
-	val StormlandLocations = [[0,-1],[0,1]] as int[][];
+    val MystriumBiomeLocations = [[6,0], [7,0], [-6,0], [-7,0], [0,6], [0,7], [0,-6], [0,-7]] as int[][];
+	val NuclearWastelandLocations = [[5,5], [5,4], [4,5],
+									[-5,5], [-5,4], [-4,5],
+									[5,-5], [5,-4], [4,-5],
+									[-5,-5], [-5,-4], [-4,-5]] as int[][];
+	val StorageBiomeLocations = [[4,4], [-4,4], [4,-4], [-4,-4]] as int[][];
+	val CrystalChasmsLocations = [[4,-3], [4,3], [-4,-3], [-4,3], [3,-4], [-3,-4], [3,4], [-3,4]] as int[][];
+	val BlackVoidLocations = [[4,-2], [4,2], [-4,-2], [-4,2], [2,-4], [-2,-4], [2,4], [-2,4]] as int[][];
+	val TwilightStreamLocations = [[4,0], [5,0], [4,1], [4,-1], [5,1], [5,-1],
+									[-4,0], [-5,0], [-4,1], [-4,-1], [-5,1], [-5,-1],
+									[0,4], [0,5], [1,4], [-1,4], [1,5], [-1,5],
+									[0,-4], [0,-5], [1,-4], [-1,-4], [1,-5], [-1,-5]] as int[][];
+	val AlienForestLocations = [[3,0], [-3,0], [0,3], [0,-3]] as int[][];
+	val ThornlandsLocations = [[2,0], [-2,0], [0,2], [0,-2]] as int[][];
+	val IromineLocations = [[1,1], [1,2], [2,1], [3,1], [1,3], [2,3], [3,2], [3,3],
+							[-1,1], [-1,2], [-2,1], [-3,1], [-1,3], [-2,3], [-3,2], [-3,3],
+							[1,-1], [1,-2], [2,-1], [3,-1], [1,-3], [2,-3], [3,-2], [3,-3],
+							[-1,-1], [-1,-2], [-2,-1], [-3,-1], [-1,-3], [-2,-3], [-3,-2], [-3,-3]] as int[][];
+	val StormlandLocations = [[1,0], [-1,0], [0,1], [0,-1]] as int[][];
 	val BogLocations = [[0,0]] as int[][];
-	val TaintedLandsLocations = [[-2,0],[2,0]] as int[][];
+	val TaintedLandsLocations = [[2,2], [-2,2], [2,-2], [-2,-2]] as int[][];
 
 	// biome to pattern
     val MysteriumBiomeName = "Mysterium" as string;
@@ -188,7 +198,8 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 	val TaintedLandsBiomeName = "Tainted Lands" as string;
 
     player.sendChat("完成群系仪式！");
-	player.sendChat("将检测以玩家为中心的5x5格区域！");
+	player.sendChat("将检测以玩家为中心的15x15格区域！");
+	player.sendChat("如果知道群系排布形状，可以使用更多实用设备模组的地形转换仪，配合些技巧来高效地完成仪式  ;)");
 
 	    // get number of matches
     val MysteriumMatches = checkBiomesAtPositions(MysteriumBiomeName, playerpos, MystriumBiomeLocations, world) as int;
@@ -206,68 +217,68 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 
 	val NumberOfMatches = MysteriumMatches + NuclearWastelandMatches + StorageBiomeMatches + CrystalChasmsMatches + BlackVoidMatches + TwilightStreamMatches + AlienForestMatches + ThornlandsMatches + IromineMatches + StormlandMatches + BogMatches + TaintedLandsMatches as int;
 
-	player.sendChat("扫描周围5x5区域");
-	player.sendChat("群系仪式：" ~ NumberOfMatches ~ " / 25");
+	player.sendChat("扫描周围15x15区域");
+	player.sendChat("群系仪式：" ~ NumberOfMatches ~ " / 113");
 	
 
-	if((MysteriumMatches) == 2) {
-		player.sendChat("秘境（Mysterium）：" ~ MysteriumMatches ~ " / 2");
+	if((MysteriumMatches) == 8) {
+		player.sendChat("秘境（Mysterium）：" ~ MysteriumMatches ~ " / 8");
 	} else {
-		player.sendChat("群系 #1：" ~ MysteriumMatches ~ " / 2");
+		player.sendChat("群系 #1：" ~ MysteriumMatches ~ " / 8");
 	}
 	
-	if((NuclearWastelandMatches) == 2) {
-		player.sendChat("核泄露之地（Nuclear Wasteland）：" ~ NuclearWastelandMatches ~ " / 2");
+	if((NuclearWastelandMatches) == 12) {
+		player.sendChat("核泄露之地（Nuclear Wasteland）：" ~ NuclearWastelandMatches ~ " / 12");
 	} else {
-		player.sendChat("群系 #2：" ~ NuclearWastelandMatches ~ " / 2");
+		player.sendChat("群系 #2：" ~ NuclearWastelandMatches ~ " / 12");
 	}
 
-	if((StorageBiomeMatches) == 2) {
-		player.sendChat("AE2群系（Storage Cell）：" ~ StorageBiomeMatches ~ " / 2");
+	if((StorageBiomeMatches) == 4) {
+		player.sendChat("AE2群系（Storage Cell）：" ~ StorageBiomeMatches ~ " / 4");
 	} else {
-		player.sendChat("群系 #3：" ~ StorageBiomeMatches ~ " / 2");
+		player.sendChat("群系 #3：" ~ StorageBiomeMatches ~ " / 4");
 	}
 
-	if((CrystalChasmsMatches) == 2) {
-		player.sendChat("水晶巨峰（Crystal Chasms）：" ~ CrystalChasmsMatches ~ " / 2");
+	if((CrystalChasmsMatches) == 8) {
+		player.sendChat("水晶巨峰（Crystal Chasms）：" ~ CrystalChasmsMatches ~ " / 8");
 	} else {
-		player.sendChat("群系 #4：" ~ CrystalChasmsMatches ~ " / 2");
+		player.sendChat("群系 #4：" ~ CrystalChasmsMatches ~ " / 8");
 	}
 
-	if((BlackVoidMatches) == 2) {
-		player.sendChat("凶险的黑暗虚空（Dangerous Black Void）：" ~ BlackVoidMatches ~ " / 2");
+	if((BlackVoidMatches) == 8) {
+		player.sendChat("凶险的黑暗虚空（Dangerous Black Void）：" ~ BlackVoidMatches ~ " / 8");
 	} else {
-		player.sendChat("群系 #5：" ~ BlackVoidMatches ~ " / 2");
+		player.sendChat("群系 #5：" ~ BlackVoidMatches ~ " / 8");
 	}
 
-	if((TwilightStreamMatches) == 4) {
-		player.sendChat("暮色河流（Twilight Stream）：" ~ TwilightStreamMatches ~ " out of 4");
+	if((TwilightStreamMatches) == 24) {
+		player.sendChat("暮色河流（Twilight Stream）：" ~ TwilightStreamMatches ~ " / 24");
 	} else {
-		player.sendChat("群系 #6：" ~ TwilightStreamMatches ~ " out of 4");
+		player.sendChat("群系 #6：" ~ TwilightStreamMatches ~ " / 24");
 	}
 
-	if((AlienForestMatches) == 2) {
-		player.sendChat("外星森林（Alien Forest）：" ~ AlienForestMatches ~ " / 2");
+	if((AlienForestMatches) == 4) {
+		player.sendChat("外星森林（Alien Forest）：" ~ AlienForestMatches ~ " / 4");
 	} else {
-		player.sendChat("群系 #7：" ~ AlienForestMatches ~ " / 2");
+		player.sendChat("群系 #7：" ~ AlienForestMatches ~ " / 4");
 	}
 
-	if((ThornlandsMatches) == 2) {
-		player.sendChat("荆棘之地（Thornlands）：" ~ ThornlandsMatches ~ " / 2");
+	if((ThornlandsMatches) == 4) {
+		player.sendChat("荆棘之地（Thornlands）：" ~ ThornlandsMatches ~ " / 4");
 	} else {
-		player.sendChat("群系 #8：" ~ ThornlandsMatches ~ " / 2");
+		player.sendChat("群系 #8：" ~ ThornlandsMatches ~ " / 4");
 	}
 
-	if((IromineMatches) == 2) {
-		player.sendChat("黄金（Iromine）：" ~ IromineMatches ~ " / 2");
+	if((IromineMatches) == 32) {
+		player.sendChat("黄金（Iromine）：" ~ IromineMatches ~ " / 32");
 	} else {
-		player.sendChat("群系 #9：" ~ IromineMatches ~ " / 2");
+		player.sendChat("群系 #9：" ~ IromineMatches ~ " / 32");
 	}
 
-	if((StormlandMatches) == 2) {
-		player.sendChat("风暴之地（Stormland）：" ~ StormlandMatches ~ " / 2");
+	if((StormlandMatches) == 4) {
+		player.sendChat("风暴之地（Stormland）：" ~ StormlandMatches ~ " / 4");
 	} else {
-		player.sendChat("群系 #10: " ~ StormlandMatches ~ " / 2");
+		player.sendChat("群系 #10: " ~ StormlandMatches ~ " / 4");
 	}
 
 	if((BogMatches) == 1) {
@@ -276,10 +287,10 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 		player.sendChat("群系 #11: " ~ BogMatches ~ " / 1");
 	}
 
-	if((TaintedLandsMatches) == 2) {
-		player.sendChat("腐化之地（Tainted Lands）：" ~ TaintedLandsMatches ~ " / 2");
+	if((TaintedLandsMatches) == 4) {
+		player.sendChat("腐化之地（Tainted Lands）：" ~ TaintedLandsMatches ~ " / 4");
 	} else {
-		player.sendChat("群系 #12: " ~ TaintedLandsMatches ~ " / 2");
+		player.sendChat("群系 #12: " ~ TaintedLandsMatches ~ " / 4");
 	}
 
 
@@ -1276,8 +1287,10 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
 
     // check if player is in right dimension
     if(player.getDimension() != 193) {
-        player.sendChat("需位于争竞界");
+		if(player.getDimension() != 192) {
+        player.sendChat("“需”位于争竞界");
         return "FAIL";
+		}
     }
 
     // obtain position under player
@@ -1291,6 +1304,7 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
     val BarathosBiomeLocations = [[0,0]] as int[][];
     val MysteriumBiomeLocations = [[0,0]] as int[][];
     val IcespikesBiomeLocations = [[0,0]] as int[][];
+    val OuterLandsBiomeLocations = [[0,0]] as int[][];
 
     // biome to pattern
     val IromineBiomeName = "Iromine" as string;
@@ -1300,6 +1314,7 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
     val BarathosBiomeName = "Barathos" as string;
     val MysteriumBiomeName = "Mysterium" as string;
     val IcespikesBiomeName = "Ice Plains Spikes" as string;
+    val OuterlandsBiomeName = "Outer Lands" as string;
 
 
     // get number of matches
@@ -1310,7 +1325,23 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
     val BarathosMatches = checkBiomesAtPositions(BarathosBiomeName, playerpos, BarathosBiomeLocations, world) as int;
     val MysteriumMatches = checkBiomesAtPositions(MysteriumBiomeName, playerpos, MysteriumBiomeLocations, world) as int;
     val IcespikesMatches = checkBiomesAtPositions(IcespikesBiomeName, playerpos, IcespikesBiomeLocations, world) as int;
+	val OuterLandsMatches = checkBiomesAtPositions(OuterlandsBiomeName, playerpos, OuterLandsBiomeLocations, world) as int;
 
+	if((OuterLandsMatches) == 1) {
+		var pos3 = player.position.asPosition3f();
+    	pos3.x = pos3.x;
+    	pos3.y = pos3.y - 1;
+    	pos3.z = pos3.z;
+    	var blockPos3 = pos3.asBlockPos();
+    	var blockState3 = world.getBlock(blockPos3).definition.id as string;
+    	if(blockState3 != "contenttweaker:stone_of_the_dying_star") {
+        	player.sendChat("你似乎摸到了一些门道，但还缺了最关键的一环");
+        	return "FAIL";
+    	}
+		Commands.call("summon villager ~ ~3 ~ {Invulnerable:1, CustomName:\"群星收割者\",Offers:{Recipes:[{buy:{id:\"botania:rune\",Damage:10,Count:32},sell:{id:\"contenttweaker:gem_of_the_dying_constellation\",Count:1},rewardExp:0b,maxUses:9999999}]},Profession:2,Career:1,CareerLevel:3,ActiveEffects:[{Id:24,Amplifier:0,Duration:999999},{Id:14,Amplifier:0,Duration:999999}]}", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} 
 
     if((IromineMatches) == 1) {
 		Commands.call("summon thaumcraft:cultistcleric ~ ~2 ~ {CustomName:\"色欲之主\",HandItems:[{Count:1,id:\"contenttweaker:respect_of_the_lord_of_lust\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:400,permshields:400}},ArmorItems:[{Count:1,id:\"avaritia:infinity_boots\"},{Count:1,id:\"avaritia:infinity_pants\"},{Count:1,id:\"avaritia:infinity_chestplate\"},{Count:1,id:\"avaritia:infinity_helmet\"}]}", player, world, false, true);

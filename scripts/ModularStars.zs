@@ -278,3 +278,23 @@ collapsergalactic.addItemInput(<bloodmagic:blood_tank:12>.withTag({Fluid: {Fluid
 collapsergalactic.addItemInput(<contenttweaker:everlasting_fusor>);
 collapsergalactic.addItemOutput(<contenttweaker:galactic_core>);
 collapsergalactic.build();
+
+
+
+val collapserprojector = RecipeBuilder.newBuilder("collapserprojector","relativistic_collapser",1000);
+collapserprojector.addEnergyPerTickInput(70000000);
+collapserprojector.addItemInput(<extendedcrafting:singularity_custom:2042>*512);
+collapserprojector.addItemInput(<contenttweaker:everlasting_fusor>);
+collapserprojector.addItemOutput(<contenttweaker:projector_gem_relativistic_condensate>);
+collapserprojector.build();
+
+
+
+
+val collapsermythicrareearths = RecipeBuilder.newBuilder("collapsermythicrareearths","relativistic_collapser",1000);
+collapsermythicrareearths.addEnergyPerTickInput(70000000);
+collapsermythicrareearths.addItemInput(<extendedcrafting:singularity_custom:2043>*32);
+collapsermythicrareearths.addItemInput(<extendedcrafting:singularity_custom:2044>*32);
+collapsermythicrareearths.addItemInput(<contenttweaker:everlasting_fusor>);
+collapsermythicrareearths.addItemOutput(<contenttweaker:mythic_rare_earths_relativistic_condensate>);
+collapsermythicrareearths.build();

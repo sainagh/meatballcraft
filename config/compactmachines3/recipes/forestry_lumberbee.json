@@ -1,0 +1,137 @@
+{
+    "name": "compactmachines3:forestry_lumberbee",
+    "target-item": "contenttweaker:lumber_bee_setup",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+  "input-types": {
+    "a": {
+      "id": "gendustry:industrial_apiary",
+      "meta": 0,
+        "item": {
+            "id": "gendustry:industrial_apiary",
+            "count": 1
+          }
+    },
+    "b": {
+      "id": "minecraft:grass",
+      "meta": 0
+    },
+    "c": {
+      "id": "minecraft:dirt",
+      "meta": 0
+    },
+    "d": {
+      "id": "minecraft:tripwire",
+      "meta": 0
+    },
+    "e": {
+      "id": "minecraft:leaves",
+      "meta": 4
+    },
+    "f": {
+      "id": "minecraft:log",
+      "meta": 0
+    }
+  },
+  "input-nbt": {
+    "a:A": {
+      "nbt": "{owner:{Name:\"meatballcraft\",Id:\"8c381e15-592d-4003-ae11-6367e203127b\",Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc1NTU1NTUxNzM5NSwKICAicHJvZmlsZUlkIiA6ICI4YzM4MWUxNTU5MmQ0MDAzYWUxMTYzNjdlMjAzMTI3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtZWF0YmFsbGNyYWZ0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcyNzNhYjFhZWNmNWY5MmNiMzU4ZjhlYmFjNTg1Yjc0M2VjNjY1N2NkZWZiOTA0YzE0MmQyYzY4ZTg2ZDQ3MDAiCiAgICB9CiAgfQp9\",Signature:\"vIPg9QatAgiV/pKIr+QYG87zbilDEcvYO3yiMjKfe1cuSnofH93ao3746Y41pax2kGakOuLZ5CG9MWV6+zTlnb15ygqWWPqxDNc00yjUWmgsMTN1l7uMdqARNy+GJ6KklHbW3wqjsG9qydB8/OGaohQhJAOihTLidkx+TB+5zWmHdP0CkSFBWKKQqVmmnEKojQKOVQzhWWYp/oUpHWfpgFi78EmTQ0aasVgL1BiKLZHidvZN55RnT7YpXQPX/c0YICEsLl4THj8xpFLCuD+WySNUtGnx5CzU0tXmvsGGgu2uAqcNl+h2GTbtWGahE+MXhO+MnseyO9CQY9l7ar8iOg0f6fGmkrVMyn2T0NZN9osFFsU9tKy6alDQ1XTaS7noAg9VvNPtW0cqS+PreufWi6LDscU2K4h2WuDdpXBJ6l6igqqHRdqzOLjLyodS2uv5f5N4nq55UBE47TzRnhACpVAAJiFPHITCL6SipD0u++GtYYn1R9xyr39RFChBRiYnHL3XvQI1r87CoxyqfvKSkpD+PORBoUEV9yOb/sXG1FYrBHhgPq/2bCkHyWwlVyJaY+Dh6MmCw/WRwJ6FzWkyJsy1isLpjrf9STTjbncShOa8VQLoO12Z2VYmv2HyhbNtTWMZBWEMRqiewxCr/OvFELZVygOEOCfTyPBesfSYQCs\u003d\"}]}},ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"gendustry:industrial_apiary\",power:{stored:0.0f},Items:[],errors:[\"forestry:no_queen\",\"forestry:no_power\"],rsmode:0b}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "d",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "e",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "f",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "f",
+        "_",
+        "a:A"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "c",
+        "b",
+        "c"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ]
+    ]
+  ]
+   
+}

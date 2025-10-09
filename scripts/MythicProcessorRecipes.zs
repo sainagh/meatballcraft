@@ -53,6 +53,49 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_coil_t1>,
 <immersiveengineering:metal_decoration0:0>, <immersiveengineering:metal_decoration0:1>, <immersiveengineering:metal_decoration0:0>, 
 <immersiveengineering:metal_decoration0:0>, <techreborn:part:17>, <draconicevolution:crafting_injector:2>]]);  
 
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_coil_t1>*2, 
+[[<draconicevolution:crafting_injector:3>, <techreborn:part:17>, <immersiveengineering:metal_decoration0:0>, 
+<immersiveengineering:metal_decoration0:0>, <immersiveengineering:metal_decoration0:1>, <immersiveengineering:metal_decoration0:0>, 
+<immersiveengineering:metal_decoration0:0>, <techreborn:part:17>, <draconicevolution:crafting_injector:3>], 
+
+[<techreborn:part:17>, <techreborn:fusion_coil>, <immersiveengineering:metal_decoration0:0>, 
+<immersiveengineering:metal_decoration0:0>, <immersiveengineering:metal_decoration0:1>, <immersiveengineering:metal_decoration0:0>, 
+<immersiveengineering:metal_decoration0:0>, <techreborn:fusion_coil>, <techreborn:part:17>], 
+
+[<immersiveengineering:metal_decoration0:0>, <immersiveengineering:metal_decoration0:0>, <ore:blockUltimate>, 
+<contenttweaker:imperfect_neutronium_nugget>, <nuclearcraft:depleted_fuel_americium:2>, <contenttweaker:imperfect_neutronium_nugget>, 
+<ore:blockUltimate>, <immersiveengineering:metal_decoration0:0>, <immersiveengineering:metal_decoration0:0>], 
+
+[<immersiveengineering:metal_decoration0:0>, <immersiveengineering:metal_decoration0:0>, <contenttweaker:imperfect_neutronium_nugget>, 
+<materialpart:vibranium_alloy:gear>, <thaumadditions:mithminite_plate>, <materialpart:vibranium_alloy:gear>, 
+<contenttweaker:imperfect_neutronium_nugget>, <immersiveengineering:metal_decoration0:0>, <immersiveengineering:metal_decoration0:0>], 
+
+[<immersiveengineering:metal_decoration0:1>, <immersiveengineering:metal_decoration0:1>, <nuclearcraft:depleted_fuel_americium:2>, 
+<thaumadditions:mithminite_plate>, <contenttweaker:mythic_machine_case>, <thaumadditions:mithminite_plate>, 
+<nuclearcraft:depleted_fuel_americium:2>, <immersiveengineering:metal_decoration0:1>, <immersiveengineering:metal_decoration0:1>], 
+
+[<immersiveengineering:metal_decoration0:0>, <immersiveengineering:metal_decoration0:0>, <contenttweaker:imperfect_neutronium_nugget>, 
+<materialpart:vibranium_alloy:gear>, <thaumadditions:mithminite_plate>, <materialpart:vibranium_alloy:gear>, 
+<contenttweaker:imperfect_neutronium_nugget>, <immersiveengineering:metal_decoration0:0>, <immersiveengineering:metal_decoration0:0>], 
+
+[<immersiveengineering:metal_decoration0:0>, <immersiveengineering:metal_decoration0:0>, <ore:blockUltimate>, 
+<contenttweaker:imperfect_neutronium_nugget>, <nuclearcraft:depleted_fuel_americium:2>, <contenttweaker:imperfect_neutronium_nugget>, 
+<ore:blockUltimate>, <immersiveengineering:metal_decoration0:0>, <immersiveengineering:metal_decoration0:0>], 
+
+[<techreborn:part:17>, <techreborn:fusion_coil>, <immersiveengineering:metal_decoration0:0>, 
+<immersiveengineering:metal_decoration0:0>, <immersiveengineering:metal_decoration0:1>, <immersiveengineering:metal_decoration0:0>, 
+<immersiveengineering:metal_decoration0:0>, <techreborn:fusion_coil>, <techreborn:part:17>], 
+
+[<draconicevolution:crafting_injector:3>, <techreborn:part:17>, <immersiveengineering:metal_decoration0:0>, 
+<immersiveengineering:metal_decoration0:0>, <immersiveengineering:metal_decoration0:1>, <immersiveengineering:metal_decoration0:0>, 
+<immersiveengineering:metal_decoration0:0>, <techreborn:part:17>, <draconicevolution:crafting_injector:3>]]);  
+
+
+
+
+
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_coil_t2>, 
 [[<libvulpes:coil0:7>, <contenttweaker:mythic_coil_t1>, <libvulpes:coil0:7>], 
 [<contenttweaker:mythic_coil_t1>, <libvulpes:coil0:7>, <contenttweaker:mythic_coil_t1>], 

@@ -2,6 +2,60 @@
     "registryname": "arc_reactor",
     "localizedname": "Arc Reactor",
 	"color": "b0b0b0",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:nightmare_machine_case",
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "description": "输出x4",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            }
+        },
+        {
+            "elements": "contenttweaker:defined_machine_case",
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "description": "输出x16",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            }
+        },
+        {
+            "elements": "contenttweaker:well_defined_machine_case",
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "description": "输出x64",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64
+            }
+        },
+        {
+            "elements": "contenttweaker:balanced_machine_casing",
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "description": "输出x256",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 256
+            }
+        }
+    ],
     "parts": [
         {
             "x": -1,

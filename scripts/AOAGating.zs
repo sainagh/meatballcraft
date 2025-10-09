@@ -124,7 +124,6 @@ recipes.addShaped(<aoa3:chainsaw>,
 
 recipes.removeShaped(<aoa3:lights_way>);
 recipes.addShaped(<aoa3:lights_way>,
-[[<contenttweaker:stone_of_the_shyre_warden>, <aoa3:shyregem_block>, <contenttweaker:cursed_cradle>],
+[[<contenttweaker:stone_of_the_shyre_warden>, <aoa3:shyregem_block>, <contenttweaker:stone_of_the_shyre_warden>],
 [<contenttweaker:shyre_chunk>, <aoa3:shyrestone_block>, <contenttweaker:shyre_chunk>],
 [null, <ore:stickWood>, null]]);
-

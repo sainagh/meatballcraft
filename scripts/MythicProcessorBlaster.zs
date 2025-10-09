@@ -35,13 +35,7 @@ mythindblast5.addItemInput(<bnkrblks:megelium_stone>);
 mythindblast5.addItemOutput(<bnkrblks:megelium_block>);
 mythindblast5.build();
 
-val mythindblast6 = RecipeBuilder.newBuilder("mythindblast6","mythic_processor_blaster",2);
-mythindblast6.addEnergyPerTickInput(200000);
-mythindblast6.addFluidInput(<fluid:dense_plasma>*30000);
-mythindblast6.addItemInput(<contenttweaker:hyperuranion_ingot>);
-mythindblast6.addItemInput(<extendedcrafting:singularity_custom:2030>);
-mythindblast6.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>);
-mythindblast6.build();
+
 
 val mythindblast7 = RecipeBuilder.newBuilder("mythindblast7","mythic_processor_blaster",2);
 mythindblast7.addEnergyPerTickInput(200000);
@@ -72,13 +66,6 @@ mythindblast10.addItemInput(<contenttweaker:lightning_dragonsteel_ore>*100);
 mythindblast10.addItemOutput(<iceandfire:dragonsteel_lightning_ingot>*900);
 mythindblast10.build();
 
-val mythindblast11 = RecipeBuilder.newBuilder("mythindblast11","mythic_processor_blaster",2);
-mythindblast11.addEnergyPerTickInput(200000);
-mythindblast11.addFluidInput(<fluid:dense_plasma>*30000);
-mythindblast11.addItemInput(<contenttweaker:hyperuranion_ingot>);
-mythindblast11.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
-mythindblast11.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>);
-mythindblast11.build();
 
 val mythindblast12 = RecipeBuilder.newBuilder("mythindblast12","mythic_processor_blaster",2);
 mythindblast12.addEnergyPerTickInput(200000);
@@ -93,3 +80,56 @@ mythindblast13.addFluidInput(<fluid:pre_baryonic_plasma>*2);
 mythindblast13.addItemInput(<contenttweaker:sacred_cinders_log>*512);
 mythindblast13.addItemOutput(<contenttweaker:everburning_seed>);
 mythindblast13.build();
+
+val mythindblast14 = RecipeBuilder.newBuilder("mythindblast14","mythic_processor_blaster",2);
+mythindblast14.addEnergyPerTickInput(100000);
+mythindblast14.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindblast14.addItemInput(<materialpart:rhenium:dust>*8192);
+mythindblast14.addItemOutput(<materialpart:rhenium:ingot>*8192);
+mythindblast14.build();
+
+val mythindblast15 = RecipeBuilder.newBuilder("mythindblast15","mythic_processor_blaster",2);
+mythindblast15.addEnergyPerTickInput(100000);
+mythindblast15.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindblast15.addItemInput(<materialpart:sednanite:dust>*8192);
+mythindblast15.addItemOutput(<materialpart:sednanite:ingot>*8192);
+mythindblast15.build();
+
+val mythindblast16 = RecipeBuilder.newBuilder("mythindblast16","mythic_processor_blaster",2);
+mythindblast16.addEnergyPerTickInput(100000);
+mythindblast16.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindblast16.addItemInput(<materialpart:ogerite:dust>*8192);
+mythindblast16.addItemOutput(<materialpart:ogerite:ingot>*8192);
+mythindblast16.build();
+
+val mythindblast17 = RecipeBuilder.newBuilder("mythindblast17","mythic_processor_blaster",2);
+mythindblast17.addEnergyPerTickInput(100000);
+mythindblast17.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindblast17.addItemInput(<materialpart:myrmitite:dust>*8192);
+mythindblast17.addItemOutput(<materialpart:myrmitite:ingot>*8192);
+mythindblast17.build();
+
+val mythindblast18 = RecipeBuilder.newBuilder("mythindblast18","mythic_processor_blaster",2);
+mythindblast18.addEnergyPerTickInput(100000);
+mythindblast18.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindblast18.addItemInput(<contenttweaker:matrix_ore>*1024);
+mythindblast18.addItemInput(<aoa3:shyrelands_tokens>*12);
+mythindblast18.addItemOutput(<avaritia:resource:1>*8192);
+mythindblast18.build();
+
+val mythindblast19 = RecipeBuilder.newBuilder("mythindblast19","mythic_processor_blaster",2);
+mythindblast19.addEnergyPerTickInput(100000);
+mythindblast19.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindblast19.addItemInput(<contenttweaker:ultimate_ore>*1024);
+mythindblast19.addItemInput(<divinerpg:mortum_chunk>*1);
+mythindblast19.addItemOutput(<extendedcrafting:material:32>*8192);
+mythindblast19.build();
+
+val mythindblast20 = RecipeBuilder.newBuilder("mythindblast20","mythic_processor_blaster",2);
+mythindblast20.addEnergyPerTickInput(100000);
+mythindblast20.addFluidInput(<fluid:recursive_computing_matter>*2);
+mythindblast20.addItemInput(<astralsorcery:itemcraftingcomponent:2>*8192);
+mythindblast20.addItemOutput(<astralsorcery:itemcraftingcomponent:1>*8192);
+mythindblast20.build();
+
+

@@ -252,6 +252,13 @@ creepheart.addItemEntry(<contenttweaker:creep_explosive_gland>, 5);
 val crystocore = LootTweaker.getTable("aoa3:entities/bosses/crystocore");
 val crystocoreshard = crystocore.addPool("crystocoreshard", 1, 1, 0, 0);
 crystocoreshard.addItemEntry(<contenttweaker:crystocore_shard>, 5);
+val crystocoreadvrock = crystocore.addPool("crystocoreadvrock", 2, 2, 0, 0);
+crystocoreadvrock.addItemEntry(<advancedrocketry:crystal:0>, 5);
+crystocoreadvrock.addItemEntry(<advancedrocketry:crystal:1>, 5);
+crystocoreadvrock.addItemEntry(<advancedrocketry:crystal:2>, 5);
+crystocoreadvrock.addItemEntry(<advancedrocketry:crystal:3>, 5);
+crystocoreadvrock.addItemEntry(<advancedrocketry:crystal:4>, 5);
+crystocoreadvrock.addItemEntry(<advancedrocketry:crystal:5>, 5);
 
 val dracyon = LootTweaker.getTable("aoa3:entities/bosses/dracyon");
 val dracyontooth = dracyon.addPool("dracyontooth", 1, 1, 0, 0);
@@ -478,6 +485,9 @@ netherfortressspecial.addItemEntry(<contenttweaker:embiggener>*4, 2);
 netherfortressspecial.addItemEntry(<contenttweaker:creepy_explosive>*4, 2);
 netherfortressspecial.addItemEntry(<contenttweaker:call_of_enigma>*4, 2);
 netherfortressspecial.addItemEntry(<contenttweaker:witchery_summons>*4, 2);
+val netherfortressreinforcement = netherfortress.addPool("netherfortressreinforcement", 1, 2, 1, 1);
+netherfortressreinforcement.addItemEntry(<contenttweaker:refined_obsidian_flake>*3, 15);
+netherfortressreinforcement.addItemEntry(<contenttweaker:alchemical_ore>*3, 25);
 
 val endcity = LootTweaker.getTable("minecraft:chests/end_city_treasure");
 val endcityspecial = endcity.addPool("endcityspecial", 1, 2, 1, 1);
@@ -485,6 +495,9 @@ endcityspecial.addItemEntry(<thermalfoundation:material:134>, 15);
 endcityspecial.addItemEntry(<contenttweaker:funny_pumpkin>, 15);
 endcityspecial.addItemEntry(<contenttweaker:wormhole_fragment>, 15);
 endcityspecial.addItemEntry(<contenttweaker:aquatic_stone>, 15);
+val endcityreinforcement = endcity.addPool("endcityreinforcement", 1, 2, 1, 1);
+endcityreinforcement.addItemEntry(<contenttweaker:refined_obsidian_flake>*3, 15);
+endcityreinforcement.addItemEntry(<contenttweaker:alchemical_ore>*3, 15);
 
 val runicorn = LootTweaker.getTable("aoa3:entities/mobs/runandor/runicorn");
 val runicornprimordial = runicorn.addPool("runicornprimordial", 1, 1, 0, 0);
@@ -639,3 +652,146 @@ merkyreshadowbar.addItemEntry(<contenttweaker:pure_shadow_bar>, 5);
 val skullcreature = LootTweaker.getTable("aoa3:entities/mobs/greckon/skull_creature");
 val skullcreaturebonedust = skullcreature.addPool("skullcreaturebonedust", 1, 1, 0, 0);
 skullcreaturebonedust.addItemEntry(<contenttweaker:immortal_bone_dust>, 5);
+
+val bloodsucker = LootTweaker.getTable("aoa3:entities/mobs/abyss/bloodsucker");
+val bloodsuckerdrop = bloodsucker.addPool("bloodsuckerdrop", 1, 1, 0, 0);
+bloodsuckerdrop.addItemEntry(<contenttweaker:bloodhunter_droplet>, 5);
+
+val trollvault = LootTweaker.getTable("twilightforest:structures/troll_vault/common");
+val trollvaultextra = trollvault.addPool("trollvaultextra", 1, 1, 0, 0);
+trollvaultextra.addItemEntry(<contenttweaker:alchemical_ore>*15, 5);
+trollvaultextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>*4, 15);
+
+val labytinthvault = LootTweaker.getTable("twilightforest:structures/labyrinth_vault/common");
+val labytinthvaultextra = labytinthvault.addPool("labytinthvaultextra", 1, 1, 0, 0);
+labytinthvaultextra.addItemEntry(<contenttweaker:alchemical_ore>*8, 5);
+labytinthvaultextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>, 2);
+
+val labytinthroom = LootTweaker.getTable("twilightforest:structures/labyrinth_room/common");
+val labytinthroomextra = labytinthroom.addPool("labytinthroomextra", 1, 1, 0, 0);
+labytinthroomextra.addItemEntry(<contenttweaker:alchemical_ore>*17, 5);
+labytinthroomextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>, 7);
+val labytinthroommbcfood = labytinthroom.addPool("labytinthroommbcfood", 2, 2, 0, 0);
+labytinthroommbcfood.addItemEntry(<contenttweaker:burned_enchanted_feather>, 10);
+labytinthroommbcfood.addItemEntry(<contenttweaker:lovely_latke>, 10);
+labytinthroommbcfood.addItemEntry(<contenttweaker:big_boy_steak>, 10);
+labytinthroommbcfood.addItemEntry(<contenttweaker:fortune_cookie>, 10);
+labytinthroommbcfood.addItemEntry(<contenttweaker:pan_di_stelle>, 10);
+
+val edgemaze = LootTweaker.getTable("twilightforest:structures/hedge_maze/common");
+val edgemazeextra = edgemaze.addPool("edgemazeextra", 2, 2, 0, 0);
+edgemazeextra.addItemEntry(<contenttweaker:alchemical_ore>*11, 5);
+edgemazeextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>*3, 10);
+val edgemazesequence = edgemaze.addPool("edgemazesequence", 1, 1, 0, 0);
+edgemazesequence.addItemEntry(<thaumadditions:mithrillium_ingot>, 1);
+edgemazesequence.addItemEntry(<thaumcraft:ingot:0>, 10);
+edgemazesequence.addItemEntry(<botania:manaresource:2>, 10);
+edgemazesequence.addItemEntry(<abyssalcraft:abyingot>, 10);
+edgemazesequence.addItemEntry(<bloodmagic:slate:0>, 10);
+
+val darktowercache = LootTweaker.getTable("twilightforest:structures/darktower_cache/common");
+val darktowercacheextra = darktowercache.addPool("darktowercacheextra", 1, 1, 0, 0);
+darktowercacheextra.addItemEntry(<contenttweaker:alchemical_ore>*6, 5);
+darktowercacheextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>, 10);
+val darktowercachembcfood = darktowercache.addPool("darktowercachembcfood", 2, 2, 0, 0);
+darktowercachembcfood.addItemEntry(<contenttweaker:bento_xxl>, 10);
+darktowercachembcfood.addItemEntry(<contenttweaker:intense_meatball_pasta>, 10);
+darktowercachembcfood.addItemEntry(<contenttweaker:aglio_olio_peperoncino_pasta>, 10);
+darktowercachembcfood.addItemEntry(<contenttweaker:strange_meatball>, 10);
+darktowercachembcfood.addItemEntry(<contenttweaker:friendly_frittata>, 10);
+
+val auroracache = LootTweaker.getTable("twilightforest:structures/aurora_cache/common");
+val auroracacheextra = auroracache.addPool("auroracacheextra", 1, 1, 0, 0);
+auroracacheextra.addItemEntry(<contenttweaker:alchemical_ore>*12, 5);
+auroracacheextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>, 8);
+
+val strongholdtfroom = LootTweaker.getTable("twilightforest:structures/stronghold_room/common");
+val strongholdtfroomextra = strongholdtfroom.addPool("strongholdtfroomextra", 1, 1, 0, 0);
+strongholdtfroomextra.addItemEntry(<contenttweaker:alchemical_ore>*9, 5);
+strongholdtfroomextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>, 18);
+
+
+val abyssalstrongholdcrossing = LootTweaker.getTable("abyssalcraft:chests/stronghold_crossing");
+val abyssalstrongholdcrossingextra = abyssalstrongholdcrossing.addPool("abyssalstrongholdcrossingextra", 2, 2, 0, 0);
+abyssalstrongholdcrossingextra.addItemEntry(<contenttweaker:alchemical_ore>*24, 5);
+abyssalstrongholdcrossingextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>*3, 18);
+abyssalstrongholdcrossingextra.addItemEntry(<thermalfoundation:upgrade:3>, 10);
+
+
+val abyssalstrongholdcorridor = LootTweaker.getTable("abyssalcraft:chests/stronghold_corridor");
+val abyssalstrongholdcorridorextra = abyssalstrongholdcorridor.addPool("abyssalstrongholdcorridorextra", 2, 2, 0, 0);
+abyssalstrongholdcorridorextra.addItemEntry(<contenttweaker:alchemical_ore>*24, 5);
+abyssalstrongholdcorridorextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>*3, 18);
+abyssalstrongholdcorridorextra.addItemEntry(<enderio:item_capacitor_melodic>, 10);
+
+val omotholhouse = LootTweaker.getTable("abyssalcraft:chests/omothol/house");
+val omotholhouseextra = omotholhouse.addPool("omotholhouseextra", 2, 2, 0, 0);
+omotholhouseextra.addItemEntry(<contenttweaker:alchemical_ore>*10, 5);
+omotholhouseextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>, 18);
+omotholhouseextra.addItemEntry(<advancedrocketry:productingot:1>, 15);
+
+val aetherbronzedungeon = LootTweaker.getTable("aether_legacy:chests/bronze_dungeon_chest");
+val aetherbronzedungeonextra = aetherbronzedungeon.addPool("aetherbronzedungeonextra", 1, 1, 0, 0);
+aetherbronzedungeonextra.addItemEntry(<contenttweaker:alchemical_ore>, 5);
+aetherbronzedungeonextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>, 18);
+aetherbronzedungeonextra.addItemEntry(<bigreactors:ingotcyanite>, 15);
+
+val aethersilverdungeon = LootTweaker.getTable("aether_legacy:chests/silver_dungeon_chest");
+val aethersilverdungeonextra = aethersilverdungeon.addPool("aethersilverdungeonextra", 1, 1, 0, 0);
+aethersilverdungeonextra.addItemEntry(<contenttweaker:alchemical_ore>, 5);
+aethersilverdungeonextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>, 18);
+aethersilverdungeonextra.addItemEntry(<bigreactors:ingotcyanite>, 15);
+val aethersilverdungeonmbcfood = aethersilverdungeon.addPool("aethersilverdungeonmbcfood", 2, 2, 0, 0);
+aethersilverdungeonmbcfood.addItemEntry(<contenttweaker:bento_xxl>, 10);
+aethersilverdungeonmbcfood.addItemEntry(<contenttweaker:intense_meatball_pasta>, 10);
+aethersilverdungeonmbcfood.addItemEntry(<contenttweaker:aglio_olio_peperoncino_pasta>, 10);
+aethersilverdungeonmbcfood.addItemEntry(<contenttweaker:yummy_concrete>, 10);
+aethersilverdungeonmbcfood.addItemEntry(<contenttweaker:multi_fruit_milkshake>, 10);
+aethersilverdungeonmbcfood.addItemEntry(<contenttweaker:nice_clean_salad>, 10);
+
+
+val iceikadungeon = LootTweaker.getTable("divinerpg:chests/iceika/iceika_chest_dungeon");
+val iceikadungeonextra = iceikadungeon.addPool("iceikadungeonextra", 4, 4, 0, 0);
+iceikadungeonextra.addItemEntry(<contenttweaker:alchemical_ore>, 5);
+iceikadungeonextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>, 10);
+iceikadungeonextra.addItemEntry(<contenttweaker:deep_dark_matter>, 5);
+
+
+val arcanabanquethall = LootTweaker.getTable("divinerpg:chests/arcana/banquet_hall_loot");
+val arcanabanquethallextra = arcanabanquethall.addPool("arcanabanquethallextra", 1, 1, 0, 0);
+arcanabanquethallextra.addItemEntry(<contenttweaker:alchemical_ore>*5, 5);
+arcanabanquethallextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>, 10);
+arcanabanquethallextra.addItemEntry(<botania:rune:4>, 5);
+val arcanabanquethallmbcfood = arcanabanquethall.addPool("arcanabanquethallmbcfood", 2, 2, 0, 0);
+arcanabanquethallmbcfood.addItemEntry(<contenttweaker:bento_xxl>, 10);
+arcanabanquethallmbcfood.addItemEntry(<contenttweaker:intense_meatball_pasta>, 10);
+arcanabanquethallmbcfood.addItemEntry(<contenttweaker:aglio_olio_peperoncino_pasta>, 10);
+arcanabanquethallmbcfood.addItemEntry(<contenttweaker:strange_brownie>, 10);
+arcanabanquethallmbcfood.addItemEntry(<contenttweaker:really_golden_steak>, 10);
+arcanabanquethallmbcfood.addItemEntry(<contenttweaker:buffalo_charger>, 10);
+arcanabanquethallmbcfood.addItemEntry(<contenttweaker:cube_jello_cubes>, 10);
+
+
+val woodlandmansion = LootTweaker.getTable("minecraft:chests/woodland_mansion");
+val woodlandmansionextra = woodlandmansion.addPool("woodlandmansionextra", 2, 2, 0, 0);
+woodlandmansionextra.addItemEntry(<contenttweaker:refined_obsidian_sliver>*4, 5);
+woodlandmansionextra.addItemEntry(<contenttweaker:alchemical_ore>*32, 5);
+woodlandmansionextra.addItemEntry(<botania:manaresource:4>, 5);
+
+
+val broccohead = LootTweaker.getTable("aoa3:entities/mobs/gardencia/broccohead");
+val broccoheadextra = broccohead.addPool("broccoheadextra", 2, 2, 0, 0);
+broccoheadextra.addItemEntry(<aoa3:gardencia_stone>*4, 5);
+
+
+val fischer = LootTweaker.getTable("aoa3:entities/mobs/voxponds/fischer");
+val fischerextra = fischer.addPool("fischerextra", 2, 2, 0, 0);
+fischerextra.addItemEntry(<aoa3:toxic_stone>*4, 5);
+
+val flye = LootTweaker.getTable("aoa3:entities/mobs/lelyetia/flye");
+val flyeextra = flye.addPool("flyeextra", 2, 2, 0, 0);
+flyeextra.addItemEntry(<aoa3:lelyetian_glass>*16, 5);
+
+val angelica = LootTweaker.getTable("aoa3:entities/mobs/haven/angelica");
+val angelicaextra = angelica.addPool("angelicaextra", 2, 2, 0, 0);
+angelicaextra.addItemEntry(<aoa3:haven_glass>*16, 5);

@@ -32,6 +32,46 @@
         "3:10": {
           "Count:3": 1,
           "id:8": "nae2:coprocessor_64x"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:crafting_accelerator_256x",
+            "orig_meta:3": 0
+          }
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:crafting_accelerator_1024x",
+            "orig_meta:3": 0
+          }
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:crafting_accelerator_4096x",
+            "orig_meta:3": 0
+          }
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:crafting_accelerator_16384x",
+            "orig_meta:3": 0
+          }
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:crafting_accelerator_65536x",
+            "orig_meta:3": 0
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

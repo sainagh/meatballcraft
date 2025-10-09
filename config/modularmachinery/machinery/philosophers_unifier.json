@@ -1,0 +1,1171 @@
+
+{
+    "registryname": "philosophers_unifier",
+    "localizedname": "Philosopher's Unifier",
+	"color": "3b0d06",
+    "modifiers": [
+        {
+            "elements": "projectex:power_flower@1",
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "description": "处理数量x10，能量消耗x4",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 10
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:energy",
+                "operation": 1,
+                "multiplier": 4
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 10
+            }]
+        },
+        {
+            "elements": "projectex:power_flower@2",
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "description": "处理数量x100，能量消耗x16",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 100
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:energy",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 100
+            }]
+        },
+        {
+            "elements": "projectex:power_flower@3",
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "description": "处理数量x1000，能量消耗x64",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 1000
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:energy",
+                "operation": 1,
+                "multiplier": 64
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 1000
+            }]
+        },
+        {
+            "elements": "projectex:power_flower@4",
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "description": "处理数量x10000，能量消耗x256",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 10000
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:energy",
+                "operation": 1,
+                "multiplier": 256
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 10000
+            }]
+        },
+        {
+            "elements": "projectex:power_flower@5",
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "description": "处理数量x100000，能量消耗x1024",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 100000
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:energy",
+                "operation": 1,
+                "multiplier": 1024
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 100000
+            }]
+        },
+        {
+            "elements": "projectex:power_flower@6",
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "description": "处理数量x1000000，能量消耗x4096",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 1000000
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:energy",
+                "operation": 1,
+                "multiplier": 4096
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 1000000
+            }]
+        },
+        {
+            "elements": "projectex:power_flower@7",
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "description": "处理数量x10000000，能量消耗x16384",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 10000000
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:energy",
+                "operation": 1,
+                "multiplier": 16384
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 10000000
+            }]
+        },
+        {
+            "elements": "projectex:power_flower@8",
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "description": "处理数量x100000000，能量消耗x65536",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 100000000
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:energy",
+                "operation": 1,
+                "multiplier": 65536
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 100000000
+            }]
+        },
+        {
+            "elements": "projectex:power_flower@9",
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "description": "处理数量x1000000000，能量消耗x262144",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 1000000000
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:energy",
+                "operation": 1,
+                "multiplier": 262144
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 1000000000
+            }]
+        }
+    ],
+    "parts": [
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_item"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "projectex:power_flower@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_item"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "projecte:fuel_block@2"
+            ]
+        }
+    ]}

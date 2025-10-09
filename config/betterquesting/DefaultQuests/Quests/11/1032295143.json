@@ -1,0 +1,61 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    713881066,
+    995
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "avaritia:infinity_pickaxe",
+        "tag:10": {
+          "display:10": {
+            "Lore:9": {
+              "0:8": "§d§o极・超限附魔§r"
+            },
+            "Name:8": "§6§oThe Lightbringer§r"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:3": 99,
+              "lvl:3": 20000
+            }
+          }
+        }
+      },
+      "name:8": "Lightbringer"
+    }
+  },
+  "questID:3": 1032295143,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "avaritia:infinity_pickaxe",
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§o极・超限附魔§r"
+              },
+              "Name:8": "§6§oThe Lightbringer§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 99,
+                "lvl:3": 20000
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

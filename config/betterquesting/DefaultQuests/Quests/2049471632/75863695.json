@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    1474843254,
+    992308725
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "New Quest"
+    }
+  },
+  "questID:3": 75863695,
+  "tasks:9": {}
+}

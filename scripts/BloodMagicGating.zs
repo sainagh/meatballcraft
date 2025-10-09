@@ -106,3 +106,15 @@ recipes.addShaped(<contenttweaker:fabric_of_the_orb>,
 [[<aoa3:ancient_rock>, <dimdoors:world_thread>, <aoa3:ancient_rock>],
 [<dimdoors:world_thread>, <bloodmagic:blood_rune:8>, <dimdoors:world_thread>],
 [<aoa3:ancient_rock>, <dimdoors:world_thread>, <aoa3:ancient_rock>]]);
+
+
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:blank_slate_catalyst>, <contenttweaker:deep_slate_catalyst>, 0, 1000, 100, 100);
+
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:reinforced_slate_catalyst>, <contenttweaker:blank_slate_catalyst>, 1, 2000, 200, 200);
+
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:imbued_slate_catalyst>, <contenttweaker:reinforced_slate_catalyst>, 2, 5000, 500, 500);
+
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:demonic_slate_catalyst>, <contenttweaker:imbued_slate_catalyst>, 3, 15000, 1500, 1500);
+
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:ethereal_slate_catalyst>, <contenttweaker:demonic_slate_catalyst>, 5, 30000, 3000, 3000);
+

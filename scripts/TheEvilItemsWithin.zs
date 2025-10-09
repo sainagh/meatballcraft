@@ -575,3 +575,19 @@ butterflyegg.itemRightClick = function(stack, world, player, hand) {
 
 };
 butterflyegg.register();
+
+
+
+var coresamplehanddrill = VanillaFactory.createItem("core_sample_hand_drill");
+coresamplehanddrill.maxStackSize = 16;
+coresamplehanddrill.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+        Commands.call("/ip reservoir get", player, world, true, true);
+        Commands.call("/ie mineral get", player, world, true, true);
+        return "PASS";
+
+};
+coresamplehanddrill.register();

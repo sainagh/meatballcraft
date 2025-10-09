@@ -314,6 +314,13 @@ honeysmelt35.addItemOutput(<bewitchment:wood_ash>*16);
 honeysmelt35.addItemOutput(<bewitchment:essence_of_vitality>*16);
 honeysmelt35.build();
 
+val honeysmelt36 = RecipeBuilder.newBuilder("honeysmelt36","honeysmelter_oven",5);
+honeysmelt36.addFluidInput(<fluid:for.honey>*100);
+honeysmelt36.addItemInput(<gendustry:honey_comb:14029>*16);
+honeysmelt36.addItemInput(<ore:ingotIron>*64);
+honeysmelt36.addItemOutput(<careerbees:ingredients:10>*64);
+honeysmelt36.build();
+
 
 
 

@@ -1,0 +1,39 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    201127,
+    1697117569
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:shard",
+        "tag:10": {
+          "Material:8": "bloodwood"
+        }
+      },
+      "name:8": "血木"
+    }
+  },
+  "questID:3": 1680450332,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "tconstruct:shard",
+          "tag:10": {
+            "Material:8": "bloodwood"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

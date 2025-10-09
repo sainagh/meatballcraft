@@ -117,7 +117,7 @@ infinitewishesrecipe.addAspectInput("coralos",100);
 infinitewishesrecipe.addAspectInput("praecantatio",100);
 infinitewishesrecipe.addAspectInput("draco",100);
 infinitewishesrecipe.addManaInput(10000, false);
-infinitewishesrecipe.addStarlightInput(5000);
+infinitewishesrecipe.addStarlightInput(1000);
 infinitewishesrecipe.addFluidInput(<fluid:darkstarlight>*7000);
 infinitewishesrecipe.addFluidInput(<fluid:pristine_aura>*7000);
 infinitewishesrecipe.addFluidInput(<fluid:sacrificial_essence>*7000);
@@ -212,13 +212,40 @@ recipes.addShaped(<contenttweaker:astral_insight_100>,
 
 
 
+
+
+mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/trinitaswarper", 
+<contenttweaker:starstruck_sentient_meatball>, 
+5000, 500, 
+[
+    <bloodmagic:blood_tank:6>.withTag({Fluid: {FluidName: "astralsorcery.liquidstarlight", Amount: 1024000}}), <contenttweaker:actualized_starlight_sphere>, <bloodmagic:blood_tank:6>.withTag({Fluid: {FluidName: "astralsorcery.liquidstarlight", Amount: 1024000}}),
+    <contenttweaker:actualized_starlight_sphere>, <contenttweaker:chaotic_sentient_meatball>, <contenttweaker:actualized_starlight_sphere>,
+    <bloodmagic:blood_tank:6>.withTag({Fluid: {FluidName: "astralsorcery.liquidstarlight", Amount: 1024000}}), <contenttweaker:actualized_starlight_sphere>, <bloodmagic:blood_tank:6>.withTag({Fluid: {FluidName: "astralsorcery.liquidstarlight", Amount: 1024000}}),
+    <avaritiaitem:cosmic_fractal_catalyzer>, <avaritiaitem:cosmic_fractal_catalyzer>, <avaritiaitem:cosmic_fractal_catalyzer>, <avaritiaitem:cosmic_fractal_catalyzer>,
+    <contenttweaker:darkstar_stone>, <contenttweaker:darkstar_stone>,
+    <contenttweaker:darkstar_stone>, <contenttweaker:darkstar_stone>,
+    <contenttweaker:darkstar_stone>, <contenttweaker:darkstar_stone>,
+    <contenttweaker:darkstar_stone>, <contenttweaker:darkstar_stone>,
+    <contenttweaker:opalescent_matter>, <contenttweaker:opalescent_matter>, <contenttweaker:opalescent_matter>, <contenttweaker:opalescent_matter>,
+    <contenttweaker:universal_constellation>,
+    <contenttweaker:universal_constellation>,
+    <contenttweaker:universal_constellation>,
+    <contenttweaker:universal_constellation>
+], 
+"astralsorcery.constellation.aevitas");
+
+
+
+
+
+
 mods.thaumcraft.Infusion.registerRecipe("infastralmasterymax", "", 
 <contenttweaker:astral_mastery_tome>, 10,
 [<aspect:stellae>*10000], 
 <minecraft:book>, 
-[<contenttweaker:astral_insight_60>, <avaritiaitem:cosmic_fractal_catalyzer>,
+[<contenttweaker:astral_insight_60>, <contenttweaker:starstruck_sentient_meatball>,
 <contenttweaker:astral_insight_60>, <avaritiaitem:cosmic_fractal_catalyzer>,
-<contenttweaker:astral_insight_60>, <avaritiaitem:cosmic_fractal_catalyzer>,
+<contenttweaker:astral_insight_60>, <contenttweaker:starstruck_sentient_meatball>,
 <contenttweaker:astral_insight_60>, <avaritiaitem:cosmic_fractal_catalyzer>]);
 
 

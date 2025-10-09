@@ -172,6 +172,9 @@ oreethaxiumstone.add(<abyssalcraft:stone:5>);
 val orestormlightstone = <ore:oreStormlightStone>;
 orestormlightstone.add(<contenttweaker:stormlight_stone>);
 
+val oreaesirgemstone = <ore:itemAesirGemstone>;
+oreaesirgemstone.add(<contenttweaker:aesir_gemstone>);
+
 
 
 
@@ -216,3 +219,17 @@ hightiersingularity.add(<extendedcrafting:singularity:48>);
 hightiersingularity.add(<extendedcrafting:singularity:49>);
 hightiersingularity.add(<extendedcrafting:singularity:50>);
 hightiersingularity.add(<extendedcrafting:singularity:66>);
+
+
+val orebloodhunter = <ore:itemBloodhunterReinforcement>;
+orebloodhunter.add(<contenttweaker:bloodhunter_modifier>);
+
+
+val oreabyssalharvester = <ore:itemAbyssalHarvester>;
+oreabyssalharvester.add(<contenttweaker:abyssal_harvester>);
+
+val oredreadfulharvester = <ore:itemDreadfulHarvester>;
+oredreadfulharvester.add(<contenttweaker:dreadful_harvester>);
+
+val oreomotholharvester = <ore:itemOmotholHarvester>;
+oreomotholharvester.add(<contenttweaker:omothol_harvester>);

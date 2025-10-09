@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    81569973,
+    471525021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 0,
+        "id:8": "minecraft:air"
+      },
+      "name:8": ""
+    }
+  },
+  "questID:3": 467612206,
+  "tasks:9": {}
+}

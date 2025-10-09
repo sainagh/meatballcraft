@@ -2906,5 +2906,161 @@ strangeopalescentstone.setToolLevel(3);
 strangeopalescentstone.register();
 
 
+var modularneutroniumcasing = VanillaFactory.createBlock("modular_neutronium_casing", <blockmaterial:iron>);
+modularneutroniumcasing.setBlockHardness(1.0);
+modularneutroniumcasing.setBlockResistance(2.5);
+modularneutroniumcasing.setToolClass("pickaxe");
+modularneutroniumcasing.setToolLevel(3);
+modularneutroniumcasing.register();
+
+var starstrucksentientmeatball = VanillaFactory.createBlock("starstruck_sentient_meatball", <blockmaterial:iron>);
+starstrucksentientmeatball.setBlockHardness(1.0);
+starstrucksentientmeatball.setBlockResistance(2.5);
+starstrucksentientmeatball.setToolClass("pickaxe");
+starstrucksentientmeatball.setToolLevel(3);
+starstrucksentientmeatball.register();
+
+var stoneofthedyingstar = VanillaFactory.createBlock("stone_of_the_dying_star", <blockmaterial:iron>);
+stoneofthedyingstar.setBlockHardness(1.0);
+stoneofthedyingstar.setBlockResistance(2.5);
+stoneofthedyingstar.setToolClass("pickaxe");
+stoneofthedyingstar.setToolLevel(3);
+stoneofthedyingstar.register();
+
+var chromodynamiccondenser = VanillaFactory.createBlock("chromodynamic_condenser", <blockmaterial:iron>);
+chromodynamiccondenser.setBlockHardness(1.0);
+chromodynamiccondenser.setBlockResistance(2.5);
+chromodynamiccondenser.setToolClass("pickaxe");
+chromodynamiccondenser.setToolLevel(3);
+chromodynamiccondenser.register();
+
+
+var orderedeigenstatecondenser = VanillaFactory.createBlock("ordered_eigenstate_condenser", <blockmaterial:iron>);
+orderedeigenstatecondenser.setBlockHardness(1.0);
+orderedeigenstatecondenser.setBlockResistance(2.5);
+orderedeigenstatecondenser.setToolClass("pickaxe");
+orderedeigenstatecondenser.setToolLevel(3);
+orderedeigenstatecondenser.register();
+
+
+var eventhorizoncondenser = VanillaFactory.createBlock("event_horizon_condenser", <blockmaterial:iron>);
+eventhorizoncondenser.setBlockHardness(1.0);
+eventhorizoncondenser.setBlockResistance(2.5);
+eventhorizoncondenser.setToolClass("pickaxe");
+eventhorizoncondenser.setToolLevel(3);
+eventhorizoncondenser.register();
+
+var hyperuranionactualizermythicshell = VanillaFactory.createBlock("hyperuranion_actualizer_mythic_shell", <blockmaterial:iron>);
+hyperuranionactualizermythicshell.setBlockHardness(1.0);
+hyperuranionactualizermythicshell.setBlockResistance(2.5);
+hyperuranionactualizermythicshell.setToolClass("pickaxe");
+hyperuranionactualizermythicshell.setToolLevel(3);
+hyperuranionactualizermythicshell.register();
+
+
+var doublecompressedaeternalisfuel = VanillaFactory.createBlock("double_compressed_aeternalis_fuel", <blockmaterial:iron>);
+doublecompressedaeternalisfuel.setBlockHardness(1.0);
+doublecompressedaeternalisfuel.setBlockResistance(2.5);
+doublecompressedaeternalisfuel.setToolClass("pickaxe");
+doublecompressedaeternalisfuel.setToolLevel(3);
+doublecompressedaeternalisfuel.register();
+
+var triplecompressedaeternalisfuel = VanillaFactory.createBlock("triple_compressed_aeternalis_fuel", <blockmaterial:iron>);
+triplecompressedaeternalisfuel.setBlockHardness(1.0);
+triplecompressedaeternalisfuel.setBlockResistance(2.5);
+triplecompressedaeternalisfuel.setToolClass("pickaxe");
+triplecompressedaeternalisfuel.setToolLevel(3);
+triplecompressedaeternalisfuel.register();
+
+var quadruplecompressedaeternalisfuel = VanillaFactory.createBlock("quadruple_compressed_aeternalis_fuel", <blockmaterial:iron>);
+quadruplecompressedaeternalisfuel.setBlockHardness(1.0);
+quadruplecompressedaeternalisfuel.setBlockResistance(2.5);
+quadruplecompressedaeternalisfuel.setToolClass("pickaxe");
+quadruplecompressedaeternalisfuel.setToolLevel(3);
+quadruplecompressedaeternalisfuel.register();
+
+var quintuplecompressedaeternalisfuel = VanillaFactory.createBlock("quintuple_compressed_aeternalis_fuel", <blockmaterial:iron>);
+quintuplecompressedaeternalisfuel.setBlockHardness(1.0);
+quintuplecompressedaeternalisfuel.setBlockResistance(2.5);
+quintuplecompressedaeternalisfuel.setToolClass("pickaxe");
+quintuplecompressedaeternalisfuel.setToolLevel(3);
+quintuplecompressedaeternalisfuel.register();
+
+var sextuplecompressedaeternalisfuel = VanillaFactory.createBlock("sextuple_compressed_aeternalis_fuel", <blockmaterial:iron>);
+sextuplecompressedaeternalisfuel.setBlockHardness(1.0);
+sextuplecompressedaeternalisfuel.setBlockResistance(2.5);
+sextuplecompressedaeternalisfuel.setToolClass("pickaxe");
+sextuplecompressedaeternalisfuel.setToolLevel(3);
+sextuplecompressedaeternalisfuel.register();
+
+var septuplecompressedaeternalisfuel = VanillaFactory.createBlock("septuple_compressed_aeternalis_fuel", <blockmaterial:iron>);
+septuplecompressedaeternalisfuel.setBlockHardness(1.0);
+septuplecompressedaeternalisfuel.setBlockResistance(2.5);
+septuplecompressedaeternalisfuel.setToolClass("pickaxe");
+septuplecompressedaeternalisfuel.setToolLevel(3);
+septuplecompressedaeternalisfuel.register();
+
+var catasterismiore = VanillaFactory.createBlock("catasterismetal_ore", <blockmaterial:iron>);
+catasterismiore.setBlockHardness(1.0);
+catasterismiore.setBlockResistance(2.5);
+catasterismiore.setToolClass("pickaxe");
+catasterismiore.setToolLevel(3);
+catasterismiore.register();
+
+var actualizedmegelium = VanillaFactory.createBlock("creative_megelium", <blockmaterial:iron>);
+actualizedmegelium.setBlockHardness(1.0);
+actualizedmegelium.setBlockResistance(2.5);
+actualizedmegelium.setToolClass("pickaxe");
+actualizedmegelium.setToolLevel(3);
+actualizedmegelium.register();
+
+var everlovingmegelium = VanillaFactory.createBlock("everloving_megelium", <blockmaterial:iron>);
+everlovingmegelium.setBlockHardness(1.0);
+everlovingmegelium.setBlockResistance(2.5);
+everlovingmegelium.setToolClass("pickaxe");
+everlovingmegelium.setToolLevel(3);
+everlovingmegelium.register();
+
+var everwishingmegelium = VanillaFactory.createBlock("everwishing_megelium", <blockmaterial:iron>);
+everwishingmegelium.setBlockHardness(1.0);
+everwishingmegelium.setBlockResistance(2.5);
+everwishingmegelium.setToolClass("pickaxe");
+everwishingmegelium.setToolLevel(3);
+everwishingmegelium.register();
+
+var wonderingmegelium = VanillaFactory.createBlock("everwondering_megelium", <blockmaterial:iron>);
+wonderingmegelium.setBlockHardness(1.0);
+wonderingmegelium.setBlockResistance(2.5);
+wonderingmegelium.setToolClass("pickaxe");
+wonderingmegelium.setToolLevel(3);
+wonderingmegelium.register();
+
+var ascendedskystone = VanillaFactory.createBlock("ascended_sky_stone", <blockmaterial:iron>);
+ascendedskystone.setBlockHardness(1.0);
+ascendedskystone.setBlockResistance(2.5);
+ascendedskystone.setToolClass("pickaxe");
+ascendedskystone.setToolLevel(3);
+ascendedskystone.register();
+
+var yggdrasilwood = VanillaFactory.createBlock("yggdrasil_wood", <blockmaterial:iron>);
+yggdrasilwood.setBlockHardness(1.0);
+yggdrasilwood.setBlockResistance(2.5);
+yggdrasilwood.setToolClass("pickaxe");
+yggdrasilwood.setToolLevel(3);
+yggdrasilwood.register();
+
+var resoundingwarrenalloyblock = VanillaFactory.createBlock("resounding_warren_alloy_block", <blockmaterial:iron>);
+resoundingwarrenalloyblock.setBlockHardness(1.0);
+resoundingwarrenalloyblock.setBlockResistance(2.5);
+resoundingwarrenalloyblock.setToolClass("pickaxe");
+resoundingwarrenalloyblock.setToolLevel(3);
+resoundingwarrenalloyblock.register();
+
+var universalfluixetcher = VanillaFactory.createBlock("universal_fluix_etcher", <blockmaterial:iron>);
+universalfluixetcher.setBlockHardness(1.0);
+universalfluixetcher.setBlockResistance(2.5);
+universalfluixetcher.setToolClass("pickaxe");
+universalfluixetcher.setToolLevel(3);
+universalfluixetcher.register();
 
 

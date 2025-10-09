@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/mythic_rare_earths_relativistic_condensate"
+  }
+}

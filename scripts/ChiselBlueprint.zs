@@ -34,6 +34,7 @@ mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itembluep
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:bee_stargate"}));
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:wormhole_field_generator"}));
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:hostile_computing_unit"}));
+mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:philosophers_unifier"}));
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:arcane_autoworkbench"}),
 [[null,null,<modularmachinery:itemmodularium>],
@@ -105,6 +106,7 @@ mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:
 mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:radiant_meatballium_radiation_scrubber"}));
 mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:cursed_meatballium_radiation_scrubber"}));
 mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:active_meatballium_scrubbing_unit"}));
+mods.chisel.Carving.addVariation("quantumphysicsmultiblocks", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:megelium_detonator"}));
 
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythical_resource_miner_tier1"}),
@@ -176,6 +178,7 @@ mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fractallite_furnace"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:altar_to_the_name_of_names"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:bastion_of_flesh"}));
+mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:plith_of_ascension"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sentient_meatball_monument"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:shrine_of_the_sentient_meatballs"}));
 mods.chisel.Carving.addVariation("dysonstuff", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:chaotic_striker"}));

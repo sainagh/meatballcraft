@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    992308725,
+    81569973
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:lights_way"
+      },
+      "name:8": "光明之路"
+    }
+  },
+  "questID:3": 367377303,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:lights_way"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

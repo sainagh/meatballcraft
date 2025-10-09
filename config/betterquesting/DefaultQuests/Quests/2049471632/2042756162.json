@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    81569973,
+    1439034117
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "redstonearsenal:tool.bow_flux",
+        "tag:10": {
+          "Energy:3": 0
+        }
+      },
+      "name:8": "红石充能弓"
+    }
+  },
+  "questID:3": 2042756162,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "redstonearsenal:tool.bow_flux",
+          "tag:10": {
+            "Energy:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

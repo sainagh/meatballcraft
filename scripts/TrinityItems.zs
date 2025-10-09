@@ -1788,3 +1788,192 @@ vowtodeath.register();
 
 
 //summon minecraft:horse ~ ~1 ~ {Variant:4,Tame:1, SaddleItem:{id:saddle,Count:1}, ArmorItem:{id:"thermalfoundation:horse_armor_platinum",Count:1}, CustomName:"Steed of the Final Hour",Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,ActiveEffects:[{Id:12,Amplifier:255,Duration:999999}],Passengers:[{id:"thaumcraft:cultistcleric",Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:1000000.0}],Health:1000000f,PersistenceRequired:1,HandItems:[{Count:1,id:"avaritia:skullfire_sword",tag:{ench:[{id:16,lvl:500},{id:101,lvl:50}]}},{Count:1,id:"contenttweaker:respect_of_death"}],HandDropChances:[0.0f,1.0f],ForgeCaps:{"twilightforest:cap_shield":{tempshields:1000,permshields:1000}},ArmorItems:[{Count:1,id:"avaritia:infinity_boots"},{Count:1,id:"avaritia:infinity_pants"},{Count:1,id:"avaritia:infinity_chestplate"},{Count:1,id:"avaritia:infinity_helmet"}],CustomName:"Death, Lord of the Final Hour",ActiveEffects:[{Id:10,Amplifier:255,Duration:999999}]}]}
+
+
+
+var riteofbloodshed = VanillaFactory.createItem("rite_of_bloodshed");
+riteofbloodshed.maxStackSize = 1;
+riteofbloodshed.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // counter for fails or successes
+    var matchGen = 0 as int;
+
+    // player position
+    var playerPos = player.position.asPosition3f();
+    playerPos.x = playerPos.x;
+    playerPos.y = playerPos.y - 1;
+    playerPos.z = playerPos.z;
+
+    if(player.getDimension() != 817) {
+        player.sendChat("站在秘境维度的粉笔圆环中心");
+        return "FAIL";
+    }
+
+
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass:1", playerPos, [0,0,0], world) == 0){
+        player.sendChat("站在秘境维度的粉笔圆环中心 [0,0,0]");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass:1", playerPos, [3,0,0], world) == 0){
+        player.sendChat("站在秘境维度的粉笔圆环中心 [3,0,0]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass:1", playerPos, [-3,0,0], world) == 0){
+        player.sendChat("站在秘境维度的粉笔圆环中心 [-3,0,0]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass:1", playerPos, [0,0,3], world) == 0){
+        player.sendChat("站在秘境维度的粉笔圆环中心 [0,0,3]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass:1", playerPos, [0,0,-3], world) == 0){
+        player.sendChat("站在秘境维度的粉笔圆环中心 [0,0,-3]");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass:1", playerPos, [3,0,1], world) == 0){
+        player.sendChat("站在秘境维度的粉笔圆环中心 [3,0,1]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass:1", playerPos, [3,0,-1], world) == 0){
+        player.sendChat("站在秘境维度的粉笔圆环中心 [3,0,1]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass:1", playerPos, [-3,0,1], world) == 0){
+        player.sendChat("站在秘境维度的粉笔圆环中心 [3,0,1]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass:1", playerPos, [-3,0,-1], world) == 0){
+        player.sendChat("站在秘境维度的粉笔圆环中心 [3,0,1]");
+        return "FAIL";
+    }
+
+
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass:1", playerPos, [1,0,3], world) == 0){
+        player.sendChat("站在秘境维度的粉笔圆环中心 [0,0,3]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass:1", playerPos, [-1,0,3], world) == 0){
+        player.sendChat("站在秘境维度的粉笔圆环中心 [0,0,3]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass:1", playerPos, [1,0,-3], world) == 0){
+        player.sendChat("站在秘境维度的粉笔圆环中心 [0,0,3]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("thaumicaugmentation:starfield_glass:1", playerPos, [-1,0,-3], world) == 0){
+        player.sendChat("站在秘境维度的粉笔圆环中心 [0,0,3]");
+        return "FAIL";
+    }
+
+    Commands.call("summon bewitchment:demon ~ ~3 ~ {CustomName:\"阿拉佐尼亚，血戮噩兆\",recipeList:{Recipes:[{buy:{id:\"contenttweaker:marrow_of_alazoneia\",Count:1},sell:{id:\"contenttweaker:everbloody_flask\",Count:1},rewardExp:0b,maxUses:9999999}]},HandItems:[{Count:1,id:\"contenttweaker:marrow_of_alazoneia\"},{}],HandDropChances:[1.0f,0.0f],ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:30,permshields:30}},Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:300.0}],Health:50000f}", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+riteofbloodshed.register();
+
+
+//summon bewitchment:demoness ~ ~3 ~ {CustomName:"Baki, the Chained Flame",recipeList:{Recipes:[{buy:{id:"bewitchment:sigil_sentinel",Count:1},sell:{id:"contenttweaker:sigil_flame",Count:1},rewardExp:0b,maxUses:9999999}]},Attributes:[{Name:generic.maxHealth, Base:500.0},{Name:generic.attackDamage, Base:20.0}],Health:500f}
+
+
+var trinity_fabrial = VanillaFactory.createItem("trinity_fabrial");
+trinity_fabrial.maxStackSize = 1;
+trinity_fabrial.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // counter for fails or successes
+    var matchGen = 0 as int;
+
+    // player position
+    var playerPos = player.position.asPosition3f();
+    playerPos.x = playerPos.x;
+    playerPos.y = playerPos.y - 1;
+    playerPos.z = playerPos.z;
+
+    if(player.getDimension() != 111) {
+        player.sendChat("站在失落城市维度的3x3方形暴食觉识肉丸上");
+        return "FAIL";
+    }
+
+
+    if (getBlockMatchAtPosition("contenttweaker:gluttonous_sentient_meatball", playerPos, [0,0,0], world) == 0){
+        player.sendChat("站在3x3方形的暴食觉识肉丸上");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("contenttweaker:gluttonous_sentient_meatball", playerPos, [0,0,1], world) == 0){
+        player.sendChat("站在3x3方形的暴食觉识肉丸上");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:gluttonous_sentient_meatball", playerPos, [0,0,-1], world) == 0){
+        player.sendChat("站在3x3方形的暴食觉识肉丸上");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:gluttonous_sentient_meatball", playerPos, [1,0,0], world) == 0){
+        player.sendChat("站在3x3方形的暴食觉识肉丸上");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:gluttonous_sentient_meatball", playerPos, [-1,0,0], world) == 0){
+        player.sendChat("站在3x3方形的暴食觉识肉丸上");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("contenttweaker:gluttonous_sentient_meatball", playerPos, [1,0,1], world) == 0){
+        player.sendChat("站在3x3方形的暴食觉识肉丸上");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:gluttonous_sentient_meatball", playerPos, [-1,0,1], world) == 0){
+        player.sendChat("站在3x3方形的暴食觉识肉丸上");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:gluttonous_sentient_meatball", playerPos, [1,0,-1], world) == 0){
+        player.sendChat("站在3x3方形的暴食觉识肉丸上");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:gluttonous_sentient_meatball", playerPos, [-1,0,-1], world) == 0){
+        player.sendChat("站在3x3方形的暴食觉识肉丸上");
+        return "FAIL";
+    }
+
+
+    Commands.call("fill ~-7 ~-1 ~ ~7 ~-1 ~ contenttweaker:sparkled_oak_planks 0", player, world, false, true);
+    Commands.call("fill ~ ~-1 ~-7 ~ ~-1 ~7 contenttweaker:sparkled_oak_planks 0", player, world, false, true);
+
+    Commands.call("fill ~1 ~-1 ~-5 ~-1 ~-1 ~5 contenttweaker:sparkled_oak_planks 0", player, world, false, true);
+    Commands.call("fill ~5 ~-1 ~-1 ~-5 ~-1 ~1 contenttweaker:sparkled_oak_planks 0", player, world, false, true);
+
+    Commands.call("fill ~-4 ~-1 ~-4 ~4 ~-1 ~4 contenttweaker:sparkled_oak_planks 0", player, world, false, true);
+
+    Commands.call("fill ~4 ~-1 ~4 ~5 ~-1 ~5 contenttweaker:sparkled_oak_planks 0", player, world, false, true);
+    Commands.call("fill ~-4 ~-1 ~4 ~-5 ~-1 ~5 contenttweaker:sparkled_oak_planks 0", player, world, false, true);
+    Commands.call("fill ~4 ~-1 ~-4 ~5 ~-1 ~-5 contenttweaker:sparkled_oak_planks 0", player, world, false, true);
+    Commands.call("fill ~-4 ~-1 ~-4 ~-5 ~-1 ~-5 contenttweaker:sparkled_oak_planks 0", player, world, false, true);
+
+    Commands.call("fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 sparkled_oak_planks 0", player, world, false, true);
+
+    Commands.call("summon aoa3:realmshifter ~5 ~2 ~ {Invulnerable:1,PersistenceRequired:1,CustomName:\"转世的人类之魂\"}", player, world, false, true);
+    Commands.call("summon aoa3:realmshifter ~-5 ~2 ~ {Invulnerable:1,PersistenceRequired:1,CustomName:\"转世的人类之魂\"}", player, world, false, true);
+    Commands.call("summon aoa3:realmshifter ~ ~2 ~5 {Invulnerable:1,PersistenceRequired:1,CustomName:\"转世的人类之魂\"}", player, world, false, true);
+    Commands.call("summon aoa3:realmshifter ~ ~2 ~-5 {Invulnerable:1,PersistenceRequired:1,CustomName:\"转世的人类之魂\"}", player, world, false, true);
+    Commands.call("summon aoa3:realmshifter ~3 ~2 ~3 {Invulnerable:1,PersistenceRequired:1,CustomName:\"转世的人类之魂\"}", player, world, false, true);
+    Commands.call("summon aoa3:realmshifter ~-3 ~2 ~3 {Invulnerable:1,PersistenceRequired:1,CustomName:\"转世的人类之魂\"}", player, world, false, true);
+    Commands.call("summon aoa3:realmshifter ~3 ~2 ~-3 {Invulnerable:1,PersistenceRequired:1,CustomName:\"转世的人类之魂\"}", player, world, false, true);
+    Commands.call("summon aoa3:realmshifter ~-3 ~2 ~-3 {Invulnerable:1,PersistenceRequired:1,CustomName:\"转世的人类之魂\"}", player, world, false, true);
+
+    Commands.call("summon Item ~ ~4 ~ {Item:{id:\"contenttweaker:earthly_salvation\",Count:1b}}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+trinity_fabrial.register();
+
+
+
+

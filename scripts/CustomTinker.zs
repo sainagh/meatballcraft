@@ -599,3 +599,56 @@ worthy.addMaterialTrait("bloodymary");
 worthy.itemLocalizer = function(thisMaterial, itemName){return "尊铸 " + itemName;};
 worthy.localizedName = "尊铸";
 worthy.register();
+
+
+
+val bloodwood = mods.contenttweaker.tconstruct.MaterialBuilder.create("bloodwood");
+bloodwood.color = 0xb83950;
+bloodwood.craftable = true;
+bloodwood.castable = false;
+bloodwood.addItem(<item:natura:nether_planks:1>,1,144);
+bloodwood.representativeItem = <item:natura:nether_planks:1>;
+bloodwood.addHeadMaterialStats(250, 4.5, 1.0f, 7);
+bloodwood.addHandleMaterialStats(1.03, 25);
+bloodwood.addExtraMaterialStats(100);
+bloodwood.addProjectileMaterialStats();
+bloodwood.addBowMaterialStats(0.69, 1.54, 2);
+bloodwood.addMaterialTrait("blood_sweat_tears");
+bloodwood.addMaterialTrait("necrotic");
+bloodwood.itemLocalizer = function(thisMaterial, itemName){return "血木 " + itemName;};
+bloodwood.localizedName = "血木";
+bloodwood.register();
+
+
+val aesirwood = mods.contenttweaker.tconstruct.MaterialBuilder.create("aesir_wood");
+aesirwood.color = 0xcfc432;
+aesirwood.craftable = true;
+aesirwood.castable = false;
+aesirwood.addItem(<item:contenttweaker:aesir_wood>,1,144);
+aesirwood.representativeItem = <item:contenttweaker:aesir_wood>;
+aesirwood.addHeadMaterialStats(1000, 4.5, 25.0f, 7);
+aesirwood.addHandleMaterialStats(1.03, 25);
+aesirwood.addExtraMaterialStats(100);
+aesirwood.addProjectileMaterialStats();
+aesirwood.addBowMaterialStats(0.2, 30.54, 6);
+aesirwood.addMaterialTrait("arcane_extraction");
+aesirwood.itemLocalizer = function(thisMaterial, itemName){return "阿萨神族之木 " + itemName;};
+aesirwood.localizedName = "阿萨神族之木";
+aesirwood.register();
+
+val yggdrasilwood = mods.contenttweaker.tconstruct.MaterialBuilder.create("yggdrasil_wood");
+yggdrasilwood.color = 0x868763;
+yggdrasilwood.craftable = true;
+yggdrasilwood.castable = false;
+yggdrasilwood.addItem(<item:contenttweaker:yggdrasil_wood>,1,144);
+yggdrasilwood.representativeItem = <item:contenttweaker:yggdrasil_wood>;
+yggdrasilwood.addHeadMaterialStats(1000, 4.5, 25.0f, 7);
+yggdrasilwood.addHandleMaterialStats(1.03, 25);
+yggdrasilwood.addExtraMaterialStats(100);
+yggdrasilwood.addProjectileMaterialStats();
+yggdrasilwood.addBowMaterialStats(0.2, 30.54, 6);
+yggdrasilwood.addMaterialTrait("will_of_the_aesir");
+yggdrasilwood.itemLocalizer = function(thisMaterial, itemName){return "世界树之木 " + itemName;};
+yggdrasilwood.localizedName = "世界树之木";
+yggdrasilwood.register();
+

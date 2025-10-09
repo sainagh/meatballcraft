@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    134104165
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:trinity_fabrial"
+      },
+      "name:8": "救赎"
+    }
+  },
+  "questID:3": 2087721005,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:trinity_fabrial"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:earthly_salvation"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

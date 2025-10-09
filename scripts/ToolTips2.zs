@@ -3256,6 +3256,7 @@ import crafttweaker.item.IItemCondition;
 
 <betterp2p:advanced_memory_card>.addTooltip(format.red("右击P2P通道将其与其他P2P通道绑定，内存卡有GUI"));
 <betterp2p:advanced_memory_card>.addTooltip(format.red("可以用石英切割刀重命名P2P通道，以便追踪定位"));
+<betterp2p:advanced_memory_card>.addTooltip(format.red("感谢Dallagen和ChaosStrikez帮忙修复崩溃错误"));
 
 <appliedenergistics2:certus_quartz_cutting_knife>.addTooltip(format.red("右击设备为其重命名"));
 <appliedenergistics2:nether_quartz_cutting_knife>.addTooltip(format.red("右击设备为其重命名"));

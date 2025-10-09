@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    471525021,
+    1809800621
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:glacier_sword"
+      },
+      "name:8": "冰川剑"
+    }
+  },
+  "questID:3": 1198177347,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:glacier_sword"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
