@@ -3595,7 +3595,7 @@ mods.jei.JEI.addDescription([
     <nuclearcraft:salt_fission_retriever>,
     <nuclearcraft:salt_fission_distributor>],
 [
-    "熔盐枯竭燃料回收器和熔盐燃料分配器是高级版本的熔岩反应堆出入口。",
+    "熔盐枯竭燃料回收器和熔盐燃料分配器是高级版本的熔盐反应堆出入口。",
     "",
     "不需要与容器接触（所有面都可设置为'默认'，并行不需要彼此连接），即可自动输出燃料（分配器），抽入枯竭燃料（回收器）。",
     "",
