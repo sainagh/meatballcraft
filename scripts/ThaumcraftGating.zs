@@ -1,4 +1,11 @@
 import mods.modularmachinery.RecipeBuilder;
+import mods.thaumcraft.Infusion;
+import mods.thaumcraft.Crucible;
+
+mods.thaumcraft.Crucible.registerRecipe("crucibledupeimpetus", "", <thaumicaugmentation:material:5>*7, <thaumicaugmentation:material:5>, [<aspect:potentia>*10, <aspect:ordo>*20, <aspect:vitium>*5]);
+mods.thaumcraft.Crucible.registerRecipe("crucibledupeprimordialgrains", "", <thaumicwonders:primordial_grain>*7, <thaumicwonders:primordial_grain>, [<aspect:aer>*5, <aspect:aqua>*5, <aspect:ignis>*5, <aspect:terra>*5, <aspect:ordo>*5, <aspect:perditio>*5]);
+
+
 
 recipes.removeShaped(<thaumcraft:table_wood>);
 
@@ -138,3 +145,5 @@ val makefluxcontrolled = RecipeBuilder.newBuilder("makefluxcontrolled","vibratin
 makefluxcontrolled.addItemInput(<extrautils2:compresseddirt:1>);
 makefluxcontrolled.addFluxOutput(10.0);
 makefluxcontrolled.build();
+
+

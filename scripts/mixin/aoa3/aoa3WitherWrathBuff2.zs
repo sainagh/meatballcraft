@@ -8,10 +8,10 @@ zenClass MixinWeaponRegister {
     #mixin ModifyConstant
     #{
     #    method: "registerWeapon",
-    #    slice: {from: {value: "NEW", target: "net/tslat/aoa3/item/weapon/gun/FlamingFury"}},
-    #    constant: {doubleValue: 20.5f, ordinal: 0}
+    #    slice: {from: {value: "NEW", target: "net/tslat/aoa3/item/weapon/blaster/WithersWrath"}},
+    #    constant: {doubleValue: 21f, ordinal: 0}
     #}
-    function modifyFlamingFuryDamage(original as double) as double {
-        return 200.0;
+    function modifyWitherWrathDamage(original as double) as double {
+        return 8.0;
     }
 }

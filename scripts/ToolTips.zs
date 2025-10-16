@@ -3014,6 +3014,8 @@
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("Chaika_In_Paanic, rfhb21, Nezer_Stra (team)"));
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("迪奥-布兰多 & 0160 (team)"));
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("zalee (solo)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("Sømêøne (reasonably EMCless) (solo)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("KawaiiPotatoKing & RandTheGrayMan (team)"));
 
 
 <contenttweaker:spren_summoner_faith>.addTooltip(format.red("Used in Kashan, Ancient Cavern biome"));
@@ -3150,6 +3152,14 @@
 <contenttweaker:gluttonous_bell>.addTooltip(format.red("The Unfathomable Prison spawns a certain mob"));
 <contenttweaker:gluttonous_bell>.addTooltip(format.red("Right click that mob type (spawned from any source) with a certain Pebble"));
 
+<contenttweaker:medallion_of_undead_repellence>.addTooltip(format.red("Nether Fortresses spawns a certain mob"));
+<contenttweaker:medallion_of_undead_repellence>.addTooltip(format.red("Right click that mob type (spawned from any source) with a certain Pebble"));
+
+<contenttweaker:recursive_mind_shield>.addTooltip(format.red("Have you travelled through certain warpers??"));
+
+<contenttweaker:flesh_of_the_orb>.addTooltip(format.red("Obtained from the Meaty Orb"));
+<contenttweaker:flesh_of_the_orb>.addTooltip(format.red("It required 250 Victus, Aqua, Alienis to start"));
+
 
 
 
@@ -3163,41 +3173,36 @@
 
 
 
+<draconicevolution:crafting_injector:*>.addTooltip(format.red("For increased charging speed, Injectors can be powered through Cryo-Stabilized Fluxducts connected to multiple Flux Points"));
+
+<aoa3:flaming_fury>.addTooltip(format.red("KurryCat is not confused by strange number formats"));
 
 
 
+
+
+
+
+
+<contenttweaker:waytospawnhydra>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
+
+<contenttweaker:cleanroomprism>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
 
 <contenttweaker:laststandformula>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
 
-<contenttweaker:superknockbaksuperenchant>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
 <contenttweaker:alecsioandcobees>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
 
 <contenttweaker:energyrepairforlater>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
 
 <contenttweaker:blueprints>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
 
-
-
-
-<contenttweaker:meatyorbrework>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
 <contenttweaker:firesuperenchantforshields>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
 
 <contenttweaker:apothecarybeemorestuffs>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
 
 <contenttweaker:customtippedarrows>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
 
-
-<contenttweaker:weaponquests>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-
-
 <contenttweaker:aoadimensionsrandomloot>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-
-<contenttweaker:biomepuzzlerework>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
 
 <contenttweaker:mythicprocessorchemreactor>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
 

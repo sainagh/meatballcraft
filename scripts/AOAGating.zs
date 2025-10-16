@@ -128,3 +128,25 @@ recipes.addShaped(<aoa3:lights_way>,
 [<contenttweaker:shyre_chunk>, <aoa3:shyrestone_block>, <contenttweaker:shyre_chunk>],
 [null, <ore:stickWood>, null]]);
 
+
+
+recipes.addShaped(<aoa3:dart_gun>,
+[[<aoa3:amphibiyte_lung>, <contenttweaker:alchemical_mushroom>, <aoa3:amphibiyte_lung>],
+[<biomesoplenty:bamboo>, <biomesoplenty:bamboo>, <biomesoplenty:bamboo>],
+[<aoa3:amphibiyte_lung>, <contenttweaker:alchemical_mushroom>, <aoa3:amphibiyte_lung>]]);
+
+recipes.addShaped(<aoa3:flaming_fury>,
+[[<avaritia:resource:2>, <minecraft:shulker_shell>, <avaritia:resource:2>],
+[<draconicevolution:dragon_heart>, <aoa3:gun_frame>, <draconicevolution:dragon_heart>],
+[<avaritia:resource:2>, <minecraft:shulker_shell>, <avaritia:resource:2>]]);
+
+recipes.addShaped(<aoa3:nethengeic_slugger>,
+[[<aoa3:flammable_dust>, <contenttweaker:king_bambambam_pelvis>, <aoa3:flammable_dust>],
+[<divinerpg:fury_fire>, <aoa3:gun_frame>, <divinerpg:fury_fire>],
+[<aoa3:flammable_dust>, <contenttweaker:nethengeic_bone>, <aoa3:flammable_dust>]]);
+
+
+recipes.addShaped(<aoa3:withers_wrath>,
+[[<extendedcrafting:storage:2>, <aoa3:wither_rune>, <extendedcrafting:storage:2>],
+[<contenttweaker:medallion_of_undead_repellence>, <aoa3:blaster_frame>, <contenttweaker:medallion_of_undead_repellence>],
+[<extendedcrafting:storage:2>, <aoa3:wither_rune>, <extendedcrafting:storage:2>]]);

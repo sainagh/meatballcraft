@@ -3786,6 +3786,16 @@ palemetaldust.maxStackSize = 64;
 palemetaldust.beaconPayment = false;
 palemetaldust.register();
 
+var medallionofundeathrepellence = VanillaFactory.createItem("medallion_of_undead_repellence");
+medallionofundeathrepellence.maxStackSize = 64;
+medallionofundeathrepellence.beaconPayment = false;
+medallionofundeathrepellence.register();
+
+var fleshoftheorb = VanillaFactory.createItem("flesh_of_the_orb");
+fleshoftheorb.maxStackSize = 64;
+fleshoftheorb.beaconPayment = false;
+fleshoftheorb.register();
+
 
 
 

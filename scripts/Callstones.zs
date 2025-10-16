@@ -5632,3 +5632,156 @@ tearofarcanacallstone.itemRightClick = function(stack, world, player, hand) {
 tearofarcanacallstone.register();
 
 
+var alchemicalsparkcallstonesingle = VanillaFactory.createItem("alchemical_spark_callstone_single");
+alchemicalsparkcallstonesingle.maxStackSize = 1;
+alchemicalsparkcallstonesingle.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_single", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstonesingle.register();
+
+
+var alchemicalsparkcallstonecompressed = VanillaFactory.createItem("alchemical_spark_callstone_compressed");
+alchemicalsparkcallstonecompressed.maxStackSize = 1;
+alchemicalsparkcallstonecompressed.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_compressed", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstonecompressed.register();
+
+
+var alchemicalsparkcallstonedouble = VanillaFactory.createItem("alchemical_spark_callstone_double");
+alchemicalsparkcallstonedouble.maxStackSize = 1;
+alchemicalsparkcallstonedouble.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_double", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstonedouble.register();
+
+
+var alchemicalsparkcallstonetriple = VanillaFactory.createItem("alchemical_spark_callstone_triple");
+alchemicalsparkcallstonetriple.maxStackSize = 1;
+alchemicalsparkcallstonetriple.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_triple", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstonetriple.register();
+
+var alchemicalsparkcallstonequadruple = VanillaFactory.createItem("alchemical_spark_callstone_quadruple");
+alchemicalsparkcallstonequadruple.maxStackSize = 1;
+alchemicalsparkcallstonequadruple.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_quadruple", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstonequadruple.register();
+
+
+var alchemicalsparkcallstonequintuple = VanillaFactory.createItem("alchemical_spark_callstone_quintuple");
+alchemicalsparkcallstonequintuple.maxStackSize = 1;
+alchemicalsparkcallstonequintuple.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_quintuple", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstonequintuple.register();
+
+
+var alchemicalsparkcallstonesextuple = VanillaFactory.createItem("alchemical_spark_callstone_sextuple");
+alchemicalsparkcallstonesextuple.maxStackSize = 1;
+alchemicalsparkcallstonesextuple.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_sextuple", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstonesextuple.register();
+
+
+
+var alchemicalsparkcallstoneseptuple = VanillaFactory.createItem("alchemical_spark_callstone_septuple");
+alchemicalsparkcallstoneseptuple.maxStackSize = 1;
+alchemicalsparkcallstoneseptuple.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_septuple", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstoneseptuple.register();
+
+
+var alchemicalsparkcallstoneoctuple = VanillaFactory.createItem("alchemical_spark_callstone_octuple");
+alchemicalsparkcallstoneoctuple.maxStackSize = 1;
+alchemicalsparkcallstoneoctuple.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_octuple", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstoneoctuple.register();
+
+

@@ -1829,7 +1829,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 	.add("cofhcore:smelting",20000)
 	.add("enchantment:openblocks:flim_flam",10000);
 	
-		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<avaritia:infinity_pickaxe>.withTag({display: {Name:"§6§oThe Lightbringer§r",Lore:["§d§oSuper-Duper-Enchanted§r"]}}), enchlistLightbringer).getItem(), 
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<avaritia:infinity_pickaxe>.withTag({display: {Name:"§6§oThe Lightpiercer§r",Lore:["§d§oSuper-Duper-Enchanted§r"]}}), enchlistLightbringer).getItem(), 
 		[[<contenttweaker:ascended_starlight_sphere>, <contenttweaker:lux_vis_condensate>, <twilightforest:mazebreaker_pickaxe>, <contenttweaker:lux_vis_condensate>, <contenttweaker:ascended_starlight_sphere>],
 		[<contenttweaker:exitium_vis_condensate>, <contenttweaker:ignis_vis_condensate>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:ignis_vis_condensate>, <contenttweaker:exitium_vis_condensate>],
 		[<aoa3:occult_pickaxe>, <contenttweaker:self_actualizing_warren_rift>, <avaritia:infinity_pickaxe>, <contenttweaker:self_actualizing_warren_rift>, <aoa3:energistic_pickaxe>],

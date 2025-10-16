@@ -180,7 +180,7 @@ tearofarcana.onBlockHarvestDrops = function(trait, tool, event) {
         event.player.give(itemUtils.getItem("divinerpg:arcanium_block"));
     }
     if ((Math.random()/traitlevel) < 0.01) {
-        event.player.give(itemUtils.getItem("divinerpg:arcanium_cluster"));
+        event.player.give(itemUtils.getItem("contenttweaker:arcanium_cluster"));
     }
 };
 tearofarcana.register();

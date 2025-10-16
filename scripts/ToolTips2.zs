@@ -786,11 +786,11 @@ import crafttweaker.item.IItemCondition;
 
 <extrautils2:bagofholding>.addTooltip(format.red("Empty before using this in recipes!!"));
 
-<projectex:personal_link>.addTooltip(format.red("Do not connect directly to a storage bus (laggy). Use drawers or danks instead!"));
+<projectex:personal_link>.addTooltip(format.red("Dallagen made these less laggy!"));
 
-<projectex:refined_link>.addTooltip(format.red("Do not connect directly to a storage bus (laggy). Use drawers or danks instead!"));
+<projectex:refined_link>.addTooltip(format.red("Dallagen made these less laggy!"));
 
-<projectex:compressed_refined_link>.addTooltip(format.red("Do not connect directly to a storage bus (laggy). Use drawers or danks instead!"));
+<projectex:compressed_refined_link>.addTooltip(format.red("Dallagen made these less laggy!"));
 
 <aether_legacy:zanite_gemstone>.addTooltip(format.red("Now faster, thanks to Supernodap's sacrifice!"));
 
@@ -2299,6 +2299,9 @@ import crafttweaker.item.IItemCondition;
 <projectex:personal_link>.addTooltip(format.red("This takes EMC from your network, and infinitely makes an item!"));
 <projectex:refined_link>.addTooltip(format.red("This takes EMC from your network, and infinitely makes 9 items!"));
 <projectex:compressed_refined_link>.addTooltip(format.red("This takes EMC from your network, and infinitely makes 54 items!"));
+<projectex:personal_link>.addTooltip(format.red("It can be connected directly to storage buses!"));
+<projectex:refined_link>.addTooltip(format.red("It can be connected directly to storage buses!"));
+<projectex:compressed_refined_link>.addTooltip(format.red("It can be connected directly to storage buses!"));
 
 <thaumadditions:vis_seeds>.withTag({Aspect: "mythus"}).addTooltip(format.red("This seed only works in the phytogenic insolator!"));
 
@@ -3115,9 +3118,9 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:abyssal_wasteland_stronghold>.addTooltip(format.red("Use powerstone trackers to find it!"));
 
-<thaumicwonders:void_fortress_helm>.addTooltip(format.red("WARNING: wearing this may cause lots of lag"));
-<thaumicwonders:void_fortress_chest>.addTooltip(format.red("WARNING: wearing this may cause lots of lag"));
-<thaumicwonders:void_fortress_legs>.addTooltip(format.red("WARNING: wearing this may cause lots of lag"));
+// <thaumicwonders:void_fortress_helm>.addTooltip(format.red("WARNING: wearing this may cause lots of lag"));
+// <thaumicwonders:void_fortress_chest>.addTooltip(format.red("WARNING: wearing this may cause lots of lag"));
+// <thaumicwonders:void_fortress_legs>.addTooltip(format.red("WARNING: wearing this may cause lots of lag"));
 
 <enderutilities:handybag:0>.addTooltip(format.red("WARNING: do not place backpacks, satchels, etc in the extra slots, may cause memory leaks"));
 <enderutilities:handybag:1>.addTooltip(format.red("WARNING: do not place backpacks, satchels, etc in the extra slots, may cause memory leaks"));

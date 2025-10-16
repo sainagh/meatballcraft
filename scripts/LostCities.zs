@@ -1,5 +1,8 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.thaumcraft.Infusion;
+import mods.thaumicwonders.MeatyOrb;
+
+mods.thaumicwonders.MeatyOrb.add(<contenttweaker:flesh_of_the_orb>, 15);
 
 
 recipes.addShaped(<contenttweaker:stone_of_universal_balance>,
@@ -19,9 +22,9 @@ recipes.addShaped(<contenttweaker:stone_of_universal_balance>*16,
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:stone_of_universal_balance>*64, 
 [[<contenttweaker:quasar_charged_dust>, <contenttweaker:order_wood>, <contenttweaker:yggdrasil_wood>, <contenttweaker:order_wood>, <contenttweaker:quasar_charged_dust>], 
-[<careerbees:ingredients:12>, <>, <contenttweaker:dust_of_infinite_wishes>, <>, <careerbees:ingredients:11>], 
+[<careerbees:ingredients:12>, null, <contenttweaker:dust_of_infinite_wishes>, null, <careerbees:ingredients:11>], 
 [<contenttweaker:ascended_fluix_crystal>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:trinity_nugget>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:ascended_fluix_crystal>], 
-[<careerbees:ingredients:11>, <>, <contenttweaker:dust_of_infinite_wishes>, <>, <careerbees:ingredients:12>], 
+[<careerbees:ingredients:11>, null, <contenttweaker:dust_of_infinite_wishes>, null, <careerbees:ingredients:12>], 
 [<contenttweaker:quasar_charged_dust>, <contenttweaker:chaos_wood>, <contenttweaker:yggdrasil_wood>, <contenttweaker:chaos_wood>, <contenttweaker:quasar_charged_dust>]]);  
 
 
@@ -57,9 +60,9 @@ mods.avaritia.ExtremeCrafting.addShaped("returningpointdire",
 <contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>, 
 <magicbees:enchanted_earth>, <contenttweaker:sentient_meatball>, <contenttweaker:ascended_fluix_crystal>],
 
-[<contenttweaker:wormhole_catalyst>, <contenttweaker:mark_of_sacrifice>, <deepmoblearningbm:blood_infused_glitch_ingot>,
+[<contenttweaker:flesh_of_the_orb>, <contenttweaker:mark_of_sacrifice>, <deepmoblearningbm:blood_infused_glitch_ingot>,
 <contenttweaker:stone_of_universal_balance>, <contenttweaker:planetary_essence>, <contenttweaker:stone_of_universal_balance>, 
-<deepmoblearningbm:blood_infused_glitch_ingot>, <contenttweaker:mark_of_sacrifice>, <contenttweaker:wormhole_catalyst>],
+<deepmoblearningbm:blood_infused_glitch_ingot>, <contenttweaker:mark_of_sacrifice>, <contenttweaker:flesh_of_the_orb>],
 
 [<contenttweaker:ascended_fluix_crystal>, <contenttweaker:sentient_meatball>, <magicbees:enchanted_earth>,
 <contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>, 

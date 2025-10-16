@@ -645,3 +645,432 @@ recipes.addShapeless(<contenttweaker:quadruple_compressed_aeternalis_fuel>, [<pr
 recipes.addShapeless(<contenttweaker:quintuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:quintuple_compressed_alchemical_gilding>]);
 recipes.addShapeless(<contenttweaker:sextuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:sextuple_compressed_alchemical_gilding>]);
 recipes.addShapeless(<contenttweaker:septuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:septuple_compressed_alchemical_gilding>]);
+
+
+
+// 17
+
+mods.botania.RuneAltar.addRecipe(<contenttweaker:alchemical_refraction>*2, [<contenttweaker:alchemical_gilding>, <contenttweaker:recursive_powder>], 3);
+mods.botania.RuneAltar.addRecipe(<contenttweaker:compressed_alchemical_refraction>*2, [<contenttweaker:compressed_alchemical_gilding>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>], 3);
+mods.botania.RuneAltar.addRecipe(<contenttweaker:double_compressed_alchemical_refraction>*2, [<contenttweaker:double_compressed_alchemical_gilding>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>], 3);
+mods.botania.RuneAltar.addRecipe(<contenttweaker:triple_compressed_alchemical_refraction>*2, [<contenttweaker:triple_compressed_alchemical_gilding>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>], 3);
+mods.botania.RuneAltar.addRecipe(<contenttweaker:quadruple_compressed_alchemical_refraction>*2, [<contenttweaker:quadruple_compressed_alchemical_gilding>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>], 3);
+mods.botania.RuneAltar.addRecipe(<contenttweaker:quintuple_compressed_alchemical_refraction>*2, [<contenttweaker:quintuple_compressed_alchemical_gilding>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>], 3);
+mods.botania.RuneAltar.addRecipe(<contenttweaker:sextuple_compressed_alchemical_refraction>*2, [<contenttweaker:sextuple_compressed_alchemical_gilding>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>], 3);
+mods.botania.RuneAltar.addRecipe(<contenttweaker:septuple_compressed_alchemical_refraction>*2, [<contenttweaker:septuple_compressed_alchemical_gilding>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>, <contenttweaker:recursive_powder>], 3);
+
+
+mods.storagedrawers.Compaction.add(<contenttweaker:compressed_alchemical_refraction>, <contenttweaker:alchemical_refraction>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:double_compressed_alchemical_refraction>, <contenttweaker:compressed_alchemical_refraction>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:triple_compressed_alchemical_refraction>, <contenttweaker:double_compressed_alchemical_refraction>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:quadruple_compressed_alchemical_refraction>, <contenttweaker:triple_compressed_alchemical_refraction>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:quintuple_compressed_alchemical_refraction>, <contenttweaker:quadruple_compressed_alchemical_refraction>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:sextuple_compressed_alchemical_refraction>, <contenttweaker:quintuple_compressed_alchemical_refraction>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:septuple_compressed_alchemical_refraction>, <contenttweaker:sextuple_compressed_alchemical_refraction>, 9);
+
+
+recipes.addShapeless(<projecte:item.pe_fuel:2>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:alchemical_refraction>]);
+recipes.addShapeless(<projecte:fuel_block:2>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:compressed_alchemical_refraction>]);
+recipes.addShapeless(<contenttweaker:double_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:double_compressed_alchemical_refraction>]);
+recipes.addShapeless(<contenttweaker:triple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:triple_compressed_alchemical_refraction>]);
+recipes.addShapeless(<contenttweaker:quadruple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:quadruple_compressed_alchemical_refraction>]);
+recipes.addShapeless(<contenttweaker:quintuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:quintuple_compressed_alchemical_refraction>]);
+recipes.addShapeless(<contenttweaker:sextuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:sextuple_compressed_alchemical_refraction>]);
+recipes.addShapeless(<contenttweaker:septuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:septuple_compressed_alchemical_refraction>]);
+
+
+// 18
+
+val loomemcless1 = RecipeBuilder.newBuilder("loomemcless1","sparkled_spinning_wheel",2);
+loomemcless1.addFluidInput(<fluid:exhaust_steam>*1);
+loomemcless1.addFluidInput(<fluid:lyon>*10);
+loomemcless1.addItemInput(<contenttweaker:alchemical_refraction>);
+loomemcless1.addItemInput(<minecraft:web>*1);
+loomemcless1.addItemInput(<ore:ingotMirion>*1);
+loomemcless1.addItemInput(<contenttweaker:divine_wisp>*1);
+loomemcless1.addItemOutput(<contenttweaker:alchemical_particulate>*2);
+loomemcless1.build();
+
+val loomemcless2 = RecipeBuilder.newBuilder("loomemcless2","sparkled_spinning_wheel",2);
+loomemcless2.addFluidInput(<fluid:exhaust_steam>*2);
+loomemcless2.addFluidInput(<fluid:lyon>*20);
+loomemcless2.addItemInput(<contenttweaker:compressed_alchemical_refraction>);
+loomemcless2.addItemInput(<minecraft:web>*2);
+loomemcless2.addItemInput(<ore:ingotMirion>*2);
+loomemcless2.addItemInput(<contenttweaker:divine_wisp>*2);
+loomemcless2.addItemOutput(<contenttweaker:compressed_alchemical_particulate>*2);
+loomemcless2.build();
+
+val loomemcless3 = RecipeBuilder.newBuilder("loomemcless3","sparkled_spinning_wheel",2);
+loomemcless3.addFluidInput(<fluid:exhaust_steam>*3);
+loomemcless3.addFluidInput(<fluid:lyon>*30);
+loomemcless3.addItemInput(<contenttweaker:double_compressed_alchemical_refraction>);
+loomemcless3.addItemInput(<minecraft:web>*3);
+loomemcless3.addItemInput(<ore:ingotMirion>*3);
+loomemcless3.addItemInput(<contenttweaker:divine_wisp>*3);
+loomemcless3.addItemOutput(<contenttweaker:double_compressed_alchemical_particulate>*2);
+loomemcless3.build();
+
+val loomemcless4 = RecipeBuilder.newBuilder("loomemcless4","sparkled_spinning_wheel",2);
+loomemcless4.addFluidInput(<fluid:exhaust_steam>*4);
+loomemcless4.addFluidInput(<fluid:lyon>*40);
+loomemcless4.addItemInput(<contenttweaker:triple_compressed_alchemical_refraction>);
+loomemcless4.addItemInput(<minecraft:web>*4);
+loomemcless4.addItemInput(<ore:ingotMirion>*4);
+loomemcless4.addItemInput(<contenttweaker:divine_wisp>*4);
+loomemcless4.addItemOutput(<contenttweaker:triple_compressed_alchemical_particulate>*2);
+loomemcless4.build();
+
+val loomemcless5 = RecipeBuilder.newBuilder("loomemcless5","sparkled_spinning_wheel",2);
+loomemcless5.addFluidInput(<fluid:exhaust_steam>*5);
+loomemcless5.addFluidInput(<fluid:lyon>*50);
+loomemcless5.addItemInput(<contenttweaker:quadruple_compressed_alchemical_refraction>);
+loomemcless5.addItemInput(<minecraft:web>*5);
+loomemcless5.addItemInput(<ore:ingotMirion>*5);
+loomemcless5.addItemInput(<contenttweaker:divine_wisp>*5);
+loomemcless5.addItemOutput(<contenttweaker:quadruple_compressed_alchemical_particulate>*2);
+loomemcless5.build();
+
+val loomemcless6 = RecipeBuilder.newBuilder("loomemcless6","sparkled_spinning_wheel",2);
+loomemcless6.addFluidInput(<fluid:exhaust_steam>*6);
+loomemcless6.addFluidInput(<fluid:lyon>*60);
+loomemcless6.addItemInput(<contenttweaker:quintuple_compressed_alchemical_refraction>);
+loomemcless6.addItemInput(<minecraft:web>*6);
+loomemcless6.addItemInput(<ore:ingotMirion>*6);
+loomemcless6.addItemInput(<contenttweaker:divine_wisp>*6);
+loomemcless6.addItemOutput(<contenttweaker:quintuple_compressed_alchemical_particulate>*2);
+loomemcless6.build();
+
+val loomemcless7 = RecipeBuilder.newBuilder("loomemcless7","sparkled_spinning_wheel",2);
+loomemcless7.addFluidInput(<fluid:exhaust_steam>*7);
+loomemcless7.addFluidInput(<fluid:lyon>*70);
+loomemcless7.addItemInput(<contenttweaker:sextuple_compressed_alchemical_refraction>);
+loomemcless7.addItemInput(<minecraft:web>*7);
+loomemcless7.addItemInput(<ore:ingotMirion>*7);
+loomemcless7.addItemInput(<contenttweaker:divine_wisp>*7);
+loomemcless7.addItemOutput(<contenttweaker:sextuple_compressed_alchemical_particulate>*2);
+loomemcless7.build();
+
+val loomemcless8 = RecipeBuilder.newBuilder("loomemcless8","sparkled_spinning_wheel",2);
+loomemcless8.addFluidInput(<fluid:exhaust_steam>*8);
+loomemcless8.addFluidInput(<fluid:lyon>*80);
+loomemcless8.addItemInput(<contenttweaker:septuple_compressed_alchemical_refraction>);
+loomemcless8.addItemInput(<minecraft:web>*8);
+loomemcless8.addItemInput(<ore:ingotMirion>*8);
+loomemcless8.addItemInput(<contenttweaker:divine_wisp>*8);
+loomemcless8.addItemOutput(<contenttweaker:septuple_compressed_alchemical_particulate>*2);
+loomemcless8.build();
+
+
+
+mods.storagedrawers.Compaction.add(<contenttweaker:compressed_alchemical_particulate>, <contenttweaker:alchemical_particulate>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:double_compressed_alchemical_particulate>, <contenttweaker:compressed_alchemical_particulate>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:triple_compressed_alchemical_particulate>, <contenttweaker:double_compressed_alchemical_particulate>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:quadruple_compressed_alchemical_particulate>, <contenttweaker:triple_compressed_alchemical_particulate>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:quintuple_compressed_alchemical_particulate>, <contenttweaker:quadruple_compressed_alchemical_particulate>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:sextuple_compressed_alchemical_particulate>, <contenttweaker:quintuple_compressed_alchemical_particulate>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:septuple_compressed_alchemical_particulate>, <contenttweaker:sextuple_compressed_alchemical_particulate>, 9);
+
+
+recipes.addShapeless(<projecte:item.pe_fuel:2>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:alchemical_particulate>]);
+recipes.addShapeless(<projecte:fuel_block:2>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:compressed_alchemical_particulate>]);
+recipes.addShapeless(<contenttweaker:double_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:double_compressed_alchemical_particulate>]);
+recipes.addShapeless(<contenttweaker:triple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:triple_compressed_alchemical_particulate>]);
+recipes.addShapeless(<contenttweaker:quadruple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:quadruple_compressed_alchemical_particulate>]);
+recipes.addShapeless(<contenttweaker:quintuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:quintuple_compressed_alchemical_particulate>]);
+recipes.addShapeless(<contenttweaker:sextuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:sextuple_compressed_alchemical_particulate>]);
+recipes.addShapeless(<contenttweaker:septuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:septuple_compressed_alchemical_particulate>]);
+
+
+
+
+// 19
+
+val mythpulvemcless1 = RecipeBuilder.newBuilder("mythpulvemcless1","mythic_processor_pulverizer",2);
+mythpulvemcless1.addEnergyPerTickInput(1000000);
+mythpulvemcless1.addItemInput(<contenttweaker:alchemical_particulate>);
+mythpulvemcless1.addItemInput(<contenttweaker:cursed_sapphire>);
+mythpulvemcless1.addItemOutput(<contenttweaker:alchemical_sand>*2);
+mythpulvemcless1.build();
+
+val mythpulvemcless2 = RecipeBuilder.newBuilder("mythpulvemcless2","mythic_processor_pulverizer",2);
+mythpulvemcless2.addEnergyPerTickInput(1000000);
+mythpulvemcless2.addItemInput(<contenttweaker:compressed_alchemical_particulate>);
+mythpulvemcless2.addItemInput(<contenttweaker:cursed_sapphire>*2);
+mythpulvemcless2.addItemOutput(<contenttweaker:compressed_alchemical_sand>*2);
+mythpulvemcless2.build();
+
+val mythpulvemcless3 = RecipeBuilder.newBuilder("mythpulvemcless3","mythic_processor_pulverizer",2);
+mythpulvemcless3.addEnergyPerTickInput(1000000);
+mythpulvemcless3.addItemInput(<contenttweaker:double_compressed_alchemical_particulate>);
+mythpulvemcless3.addItemInput(<contenttweaker:cursed_sapphire>*3);
+mythpulvemcless3.addItemOutput(<contenttweaker:double_compressed_alchemical_sand>*2);
+mythpulvemcless3.build();
+
+val mythpulvemcless4 = RecipeBuilder.newBuilder("mythpulvemcless4","mythic_processor_pulverizer",2);
+mythpulvemcless4.addEnergyPerTickInput(1000000);
+mythpulvemcless4.addItemInput(<contenttweaker:triple_compressed_alchemical_particulate>);
+mythpulvemcless4.addItemInput(<contenttweaker:cursed_sapphire>*4);
+mythpulvemcless4.addItemOutput(<contenttweaker:triple_compressed_alchemical_sand>*2);
+mythpulvemcless4.build();
+
+val mythpulvemcless5 = RecipeBuilder.newBuilder("mythpulvemcless5","mythic_processor_pulverizer",2);
+mythpulvemcless5.addEnergyPerTickInput(1000000);
+mythpulvemcless5.addItemInput(<contenttweaker:quadruple_compressed_alchemical_particulate>);
+mythpulvemcless5.addItemInput(<contenttweaker:cursed_sapphire>*5);
+mythpulvemcless5.addItemOutput(<contenttweaker:quadruple_compressed_alchemical_sand>*2);
+mythpulvemcless5.build();
+
+val mythpulvemcless6 = RecipeBuilder.newBuilder("mythpulvemcless6","mythic_processor_pulverizer",2);
+mythpulvemcless6.addEnergyPerTickInput(1000000);
+mythpulvemcless6.addItemInput(<contenttweaker:quintuple_compressed_alchemical_particulate>);
+mythpulvemcless6.addItemInput(<contenttweaker:cursed_sapphire>*6);
+mythpulvemcless6.addItemOutput(<contenttweaker:quintuple_compressed_alchemical_sand>*2);
+mythpulvemcless6.build();
+
+val mythpulvemcless7 = RecipeBuilder.newBuilder("mythpulvemcless7","mythic_processor_pulverizer",2);
+mythpulvemcless7.addEnergyPerTickInput(1000000);
+mythpulvemcless7.addItemInput(<contenttweaker:sextuple_compressed_alchemical_particulate>);
+mythpulvemcless7.addItemInput(<contenttweaker:cursed_sapphire>*7);
+mythpulvemcless7.addItemOutput(<contenttweaker:sextuple_compressed_alchemical_sand>*2);
+mythpulvemcless7.build();
+
+val mythpulvemcless8 = RecipeBuilder.newBuilder("mythpulvemcless8","mythic_processor_pulverizer",2);
+mythpulvemcless8.addEnergyPerTickInput(1000000);
+mythpulvemcless8.addItemInput(<contenttweaker:septuple_compressed_alchemical_particulate>);
+mythpulvemcless8.addItemInput(<contenttweaker:cursed_sapphire>*8);
+mythpulvemcless8.addItemOutput(<contenttweaker:septuple_compressed_alchemical_sand>*2);
+mythpulvemcless8.build();
+
+
+mods.storagedrawers.Compaction.add(<contenttweaker:compressed_alchemical_sand>, <contenttweaker:alchemical_sand>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:double_compressed_alchemical_sand>, <contenttweaker:compressed_alchemical_sand>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:triple_compressed_alchemical_sand>, <contenttweaker:double_compressed_alchemical_sand>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:quadruple_compressed_alchemical_sand>, <contenttweaker:triple_compressed_alchemical_sand>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:quintuple_compressed_alchemical_sand>, <contenttweaker:quadruple_compressed_alchemical_sand>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:sextuple_compressed_alchemical_sand>, <contenttweaker:quintuple_compressed_alchemical_sand>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:septuple_compressed_alchemical_sand>, <contenttweaker:sextuple_compressed_alchemical_sand>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:octuple_compressed_alchemical_sand>, <contenttweaker:septuple_compressed_alchemical_sand>, 9);
+
+
+recipes.addShapeless(<projecte:item.pe_fuel:2>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:alchemical_sand>]);
+recipes.addShapeless(<projecte:fuel_block:2>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:compressed_alchemical_sand>]);
+recipes.addShapeless(<contenttweaker:double_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:double_compressed_alchemical_sand>]);
+recipes.addShapeless(<contenttweaker:triple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:triple_compressed_alchemical_sand>]);
+recipes.addShapeless(<contenttweaker:quadruple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:quadruple_compressed_alchemical_sand>]);
+recipes.addShapeless(<contenttweaker:quintuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:quintuple_compressed_alchemical_sand>]);
+recipes.addShapeless(<contenttweaker:sextuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:sextuple_compressed_alchemical_sand>]);
+recipes.addShapeless(<contenttweaker:septuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:septuple_compressed_alchemical_sand>]);
+recipes.addShapeless(<contenttweaker:octuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:octuple_compressed_alchemical_sand>]);
+
+// 20
+
+val arcautowemcless1 = RecipeBuilder.newBuilder("arcautowemcless1","arcane_autoworkbench",2);
+arcautowemcless1.addEnergyPerTickInput(1000000);
+arcautowemcless1.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]})*5);
+arcautowemcless1.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})*5);
+arcautowemcless1.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]})*5);
+arcautowemcless1.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "bestia"}]})*5);
+arcautowemcless1.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]})*5);
+arcautowemcless1.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]})*5);
+arcautowemcless1.addItemInput(<contenttweaker:stormlight_infused_crystal>*1);
+arcautowemcless1.addItemInput(<contenttweaker:runandium_ingot>*1);
+arcautowemcless1.addItemInput(<contenttweaker:alchemical_sand>);
+arcautowemcless1.addItemOutput(<contenttweaker:alchemical_spark_callstone_single>*2);
+arcautowemcless1.build();
+
+val arcautowemcless2 = RecipeBuilder.newBuilder("arcautowemcless2","arcane_autoworkbench",2);
+arcautowemcless2.addEnergyPerTickInput(1000000);
+arcautowemcless2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]})*10);
+arcautowemcless2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})*10);
+arcautowemcless2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]})*10);
+arcautowemcless2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "bestia"}]})*10);
+arcautowemcless2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]})*10);
+arcautowemcless2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]})*10);
+arcautowemcless2.addItemInput(<contenttweaker:stormlight_infused_crystal>*2);
+arcautowemcless2.addItemInput(<contenttweaker:runandium_ingot>*2);
+arcautowemcless2.addItemInput(<contenttweaker:compressed_alchemical_sand>);
+arcautowemcless2.addItemOutput(<contenttweaker:alchemical_spark_callstone_compressed>*2);
+arcautowemcless2.build();
+
+val arcautowemcless3 = RecipeBuilder.newBuilder("arcautowemcless3","arcane_autoworkbench",2);
+arcautowemcless3.addEnergyPerTickInput(1000000);
+arcautowemcless3.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]})*15);
+arcautowemcless3.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})*15);
+arcautowemcless3.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]})*15);
+arcautowemcless3.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "bestia"}]})*15);
+arcautowemcless3.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]})*15);
+arcautowemcless3.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]})*15);
+arcautowemcless3.addItemInput(<contenttweaker:stormlight_infused_crystal>*3);
+arcautowemcless3.addItemInput(<contenttweaker:runandium_ingot>*3);
+arcautowemcless3.addItemInput(<contenttweaker:double_compressed_alchemical_sand>);
+arcautowemcless3.addItemOutput(<contenttweaker:alchemical_spark_callstone_double>*2);
+arcautowemcless3.build();
+
+val arcautowemcless4 = RecipeBuilder.newBuilder("arcautowemcless4","arcane_autoworkbench",2);
+arcautowemcless4.addEnergyPerTickInput(1000000);
+arcautowemcless4.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]})*20);
+arcautowemcless4.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})*20);
+arcautowemcless4.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]})*20);
+arcautowemcless4.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "bestia"}]})*20);
+arcautowemcless4.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]})*20);
+arcautowemcless4.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]})*20);
+arcautowemcless4.addItemInput(<contenttweaker:stormlight_infused_crystal>*4);
+arcautowemcless4.addItemInput(<contenttweaker:runandium_ingot>*4);
+arcautowemcless4.addItemInput(<contenttweaker:triple_compressed_alchemical_sand>);
+arcautowemcless4.addItemOutput(<contenttweaker:alchemical_spark_callstone_triple>*2);
+arcautowemcless4.build();
+
+val arcautowemcless5 = RecipeBuilder.newBuilder("arcautowemcless5","arcane_autoworkbench",2);
+arcautowemcless5.addEnergyPerTickInput(1000000);
+arcautowemcless5.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]})*25);
+arcautowemcless5.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})*25);
+arcautowemcless5.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]})*25);
+arcautowemcless5.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "bestia"}]})*25);
+arcautowemcless5.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]})*25);
+arcautowemcless5.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]})*25);
+arcautowemcless5.addItemInput(<contenttweaker:stormlight_infused_crystal>*5);
+arcautowemcless5.addItemInput(<contenttweaker:runandium_ingot>*5);
+arcautowemcless5.addItemInput(<contenttweaker:quadruple_compressed_alchemical_sand>);
+arcautowemcless5.addItemOutput(<contenttweaker:alchemical_spark_callstone_quadruple>*2);
+arcautowemcless5.build();
+
+val arcautowemcless6 = RecipeBuilder.newBuilder("arcautowemcless6","arcane_autoworkbench",2);
+arcautowemcless6.addEnergyPerTickInput(1000000);
+arcautowemcless6.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]})*30);
+arcautowemcless6.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})*30);
+arcautowemcless6.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]})*30);
+arcautowemcless6.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "bestia"}]})*30);
+arcautowemcless6.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]})*30);
+arcautowemcless6.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]})*30);
+arcautowemcless6.addItemInput(<contenttweaker:stormlight_infused_crystal>*6);
+arcautowemcless6.addItemInput(<contenttweaker:runandium_ingot>*6);
+arcautowemcless6.addItemInput(<contenttweaker:quintuple_compressed_alchemical_sand>);
+arcautowemcless6.addItemOutput(<contenttweaker:alchemical_spark_callstone_quintuple>*2);
+arcautowemcless6.build();
+
+val arcautowemcless7 = RecipeBuilder.newBuilder("arcautowemcless7","arcane_autoworkbench",2);
+arcautowemcless7.addEnergyPerTickInput(1000000);
+arcautowemcless7.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]})*35);
+arcautowemcless7.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})*35);
+arcautowemcless7.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]})*35);
+arcautowemcless7.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "bestia"}]})*35);
+arcautowemcless7.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]})*35);
+arcautowemcless7.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]})*35);
+arcautowemcless7.addItemInput(<contenttweaker:stormlight_infused_crystal>*7);
+arcautowemcless7.addItemInput(<contenttweaker:runandium_ingot>*7);
+arcautowemcless7.addItemInput(<contenttweaker:sextuple_compressed_alchemical_sand>);
+arcautowemcless7.addItemOutput(<contenttweaker:alchemical_spark_callstone_sextuple>*2);
+arcautowemcless7.build();
+
+val arcautowemcless8 = RecipeBuilder.newBuilder("arcautowemcless8","arcane_autoworkbench",2);
+arcautowemcless8.addEnergyPerTickInput(1000000);
+arcautowemcless8.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]})*40);
+arcautowemcless8.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})*40);
+arcautowemcless8.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]})*40);
+arcautowemcless8.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "bestia"}]})*40);
+arcautowemcless8.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]})*40);
+arcautowemcless8.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]})*40);
+arcautowemcless8.addItemInput(<contenttweaker:stormlight_infused_crystal>*8);
+arcautowemcless8.addItemInput(<contenttweaker:runandium_ingot>*8);
+arcautowemcless8.addItemInput(<contenttweaker:septuple_compressed_alchemical_sand>);
+arcautowemcless8.addItemOutput(<contenttweaker:alchemical_spark_callstone_septuple>*2);
+arcautowemcless8.build();
+
+val arcautowemcless9 = RecipeBuilder.newBuilder("arcautowemcless9","arcane_autoworkbench",2);
+arcautowemcless9.addEnergyPerTickInput(1000000);
+arcautowemcless9.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]})*45);
+arcautowemcless9.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})*45);
+arcautowemcless9.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]})*45);
+arcautowemcless9.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "bestia"}]})*45);
+arcautowemcless9.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]})*45);
+arcautowemcless9.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]})*45);
+arcautowemcless9.addItemInput(<contenttweaker:stormlight_infused_crystal>*9);
+arcautowemcless9.addItemInput(<contenttweaker:runandium_ingot>*9);
+arcautowemcless9.addItemInput(<contenttweaker:octuple_compressed_alchemical_sand>);
+arcautowemcless9.addItemOutput(<contenttweaker:alchemical_spark_callstone_octuple>*2);
+arcautowemcless9.build();
+
+recipes.addShapeless(<contenttweaker:alchemical_spark>, [<contenttweaker:dungeon_drop>, <contenttweaker:alchemical_spark_callstone_single>]);
+recipes.addShapeless(<contenttweaker:compressed_alchemical_spark>, [<contenttweaker:dungeon_drop>, <contenttweaker:alchemical_spark_callstone_compressed>]);
+recipes.addShapeless(<contenttweaker:double_compressed_alchemical_spark>, [<contenttweaker:dungeon_drop>, <contenttweaker:alchemical_spark_callstone_double>]);
+recipes.addShapeless(<contenttweaker:triple_compressed_alchemical_spark>, [<contenttweaker:dungeon_drop>, <contenttweaker:alchemical_spark_callstone_triple>]);
+recipes.addShapeless(<contenttweaker:quadruple_compressed_alchemical_spark>, [<contenttweaker:dungeon_drop>, <contenttweaker:alchemical_spark_callstone_quadruple>]);
+recipes.addShapeless(<contenttweaker:quintuple_compressed_alchemical_spark>, [<contenttweaker:dungeon_drop>, <contenttweaker:alchemical_spark_callstone_quintuple>]);
+recipes.addShapeless(<contenttweaker:sextuple_compressed_alchemical_spark>, [<contenttweaker:dungeon_drop>, <contenttweaker:alchemical_spark_callstone_sextuple>]);
+recipes.addShapeless(<contenttweaker:septuple_compressed_alchemical_spark>, [<contenttweaker:dungeon_drop>, <contenttweaker:alchemical_spark_callstone_septuple>]);
+recipes.addShapeless(<contenttweaker:octuple_compressed_alchemical_spark>, [<contenttweaker:dungeon_drop>, <contenttweaker:alchemical_spark_callstone_octuple>]);
+
+
+
+mods.storagedrawers.Compaction.add(<contenttweaker:compressed_alchemical_spark>, <contenttweaker:alchemical_spark>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:double_compressed_alchemical_spark>, <contenttweaker:compressed_alchemical_spark>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:triple_compressed_alchemical_spark>, <contenttweaker:double_compressed_alchemical_spark>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:quadruple_compressed_alchemical_spark>, <contenttweaker:triple_compressed_alchemical_spark>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:quintuple_compressed_alchemical_spark>, <contenttweaker:quadruple_compressed_alchemical_spark>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:sextuple_compressed_alchemical_spark>, <contenttweaker:quintuple_compressed_alchemical_spark>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:septuple_compressed_alchemical_spark>, <contenttweaker:sextuple_compressed_alchemical_spark>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:octuple_compressed_alchemical_spark>, <contenttweaker:septuple_compressed_alchemical_spark>, 9);
+
+
+recipes.addShapeless(<projecte:item.pe_fuel:2>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:alchemical_spark>]);
+recipes.addShapeless(<projecte:fuel_block:2>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:compressed_alchemical_spark>]);
+recipes.addShapeless(<contenttweaker:double_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:double_compressed_alchemical_spark>]);
+recipes.addShapeless(<contenttweaker:triple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:triple_compressed_alchemical_spark>]);
+recipes.addShapeless(<contenttweaker:quadruple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:quadruple_compressed_alchemical_spark>]);
+recipes.addShapeless(<contenttweaker:quintuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:quintuple_compressed_alchemical_spark>]);
+recipes.addShapeless(<contenttweaker:sextuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:sextuple_compressed_alchemical_spark>]);
+recipes.addShapeless(<contenttweaker:septuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:septuple_compressed_alchemical_spark>]);
+recipes.addShapeless(<contenttweaker:octuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:octuple_compressed_alchemical_spark>]);
+
+
+// 21
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:alchemical_clathrate>*2, 10, <contenttweaker:alchemical_spark>, [<contenttweaker:corrupted_aragonite>, <ore:blockCosmicNeutronium>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:compressed_alchemical_clathrate>*2, 10, <contenttweaker:compressed_alchemical_spark>, [<contenttweaker:corrupted_aragonite>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:double_compressed_alchemical_clathrate>*2, 10, <contenttweaker:double_compressed_alchemical_spark>, [<contenttweaker:corrupted_aragonite>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:triple_compressed_alchemical_clathrate>*2, 10, <contenttweaker:triple_compressed_alchemical_spark>, [<contenttweaker:corrupted_aragonite>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:quadruple_compressed_alchemical_clathrate>*2, 10, <contenttweaker:quadruple_compressed_alchemical_spark>, [<contenttweaker:corrupted_aragonite>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:quintuple_compressed_alchemical_clathrate>*2, 10, <contenttweaker:quintuple_compressed_alchemical_spark>, [<contenttweaker:corrupted_aragonite>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:sextuple_compressed_alchemical_clathrate>*2, 10, <contenttweaker:sextuple_compressed_alchemical_spark>, [<contenttweaker:corrupted_aragonite>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:septuple_compressed_alchemical_clathrate>*2, 10, <contenttweaker:septuple_compressed_alchemical_spark>, [<contenttweaker:corrupted_aragonite>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:octuple_compressed_alchemical_clathrate>*2, 10, <contenttweaker:octuple_compressed_alchemical_spark>, [<contenttweaker:corrupted_aragonite>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>]);
+
+
+mods.storagedrawers.Compaction.add(<contenttweaker:compressed_alchemical_clathrate>, <contenttweaker:alchemical_clathrate>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:double_compressed_alchemical_clathrate>, <contenttweaker:compressed_alchemical_clathrate>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:triple_compressed_alchemical_clathrate>, <contenttweaker:double_compressed_alchemical_clathrate>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:quadruple_compressed_alchemical_clathrate>, <contenttweaker:triple_compressed_alchemical_clathrate>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:quintuple_compressed_alchemical_clathrate>, <contenttweaker:quadruple_compressed_alchemical_clathrate>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:sextuple_compressed_alchemical_clathrate>, <contenttweaker:quintuple_compressed_alchemical_clathrate>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:septuple_compressed_alchemical_clathrate>, <contenttweaker:sextuple_compressed_alchemical_clathrate>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:octuple_compressed_alchemical_clathrate>, <contenttweaker:septuple_compressed_alchemical_clathrate>, 9);
+
+
+recipes.addShapeless(<projecte:item.pe_fuel:2>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:alchemical_clathrate>]);
+recipes.addShapeless(<projecte:fuel_block:2>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:compressed_alchemical_clathrate>]);
+recipes.addShapeless(<contenttweaker:double_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:double_compressed_alchemical_clathrate>]);
+recipes.addShapeless(<contenttweaker:triple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:triple_compressed_alchemical_clathrate>]);
+recipes.addShapeless(<contenttweaker:quadruple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:quadruple_compressed_alchemical_clathrate>]);
+recipes.addShapeless(<contenttweaker:quintuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:quintuple_compressed_alchemical_clathrate>]);
+recipes.addShapeless(<contenttweaker:sextuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:sextuple_compressed_alchemical_clathrate>]);
+recipes.addShapeless(<contenttweaker:septuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:septuple_compressed_alchemical_clathrate>]);
+recipes.addShapeless(<contenttweaker:octuple_compressed_aeternalis_fuel>, [<projecte:item.pe_philosophers_stone>, <contenttweaker:octuple_compressed_alchemical_clathrate>]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
