@@ -1640,7 +1640,7 @@
 <extratrees:food:40>.addTooltip(format.red("发现于下界某处"));
 
 <gendustry:honey_comb:14015>.addTooltip(format.red("发现于晦暗界"));
-<gendustry:honey_comb:14016>.addTooltip(format.red("发现于帕拉姆"));
+<gendustry:honey_comb:14016>.addTooltip(format.red("发现于惧惮界"));
 <gendustry:honey_comb:14017>.addTooltip(format.red("发现于孤寂界"));
 
 <contenttweaker:stone_of_the_shyre_warden>.addTooltip(format.red("对塞尔瑞监守者使用反骑士之杖"));
