@@ -60,6 +60,9 @@ nethengeicroll.addItemEntry(<bewitchment:demon_heart>*3, 5);
 nethengeicroll.addItemEntry(<divinerpg:divine_shards>, 5);
 val nethengeicbone = nethengeicwither.addPool("nethengeicbone", 1, 1, 0, 0);
 nethengeicbone.addItemEntry(<contenttweaker:nethengeic_bone>, 5);
+val nethengeicwitherrares = nethengeicwither.getPool("rares");
+nethengeicwitherrares.removeEntry("aoa3:nethengeic_slugger");
+nethengeicwitherrares.removeEntry("aoa3:withers_wrath");
 
 
 val nethegeicbeast = LootTweaker.getTable("aoa3:entities/mobs/nether/nethengeic_beast");
@@ -228,6 +231,12 @@ val clunkheadbrick = clunkhead.addPool("clunkheadbrick", 1, 1, 0, 0);
 clunkheadbrick.addItemEntry(<contenttweaker:clunkhead_brick>, 5);
 val clunkheadrares = clunkhead.getPool("rares");
 clunkheadrares.removeEntry("aoa3:runic_sword");
+
+val enderdragonaoa = LootTweaker.getTable("aoa3:entities/bosses/ender_dragon");
+val enderdragonaoaextra = enderdragonaoa.getPool("aoa_loot");
+enderdragonaoaextra.removeEntry("aoa3:flaming_fury");
+
+
 
 val coniferon = LootTweaker.getTable("aoa3:entities/bosses/coniferon");
 val coniferonbark = coniferon.addPool("coniferonbark", 1, 1, 0, 0);
@@ -547,6 +556,8 @@ val amphibiyte = LootTweaker.getTable("aoa3:entities/mobs/overworld/amphibiyte")
 val amphibiytegoodies = amphibiyte.addPool("amphibiytegoodies", 1, 1, 0, 0);
 amphibiytegoodies.addItemEntry(<contenttweaker:heart_stone>, 15);
 amphibiytegoodies.addItemEntry(<contenttweaker:bloodlust_coin>, 15);
+val amphibiyteextra = amphibiyte.getPool("mob_specific_loot");
+amphibiyteextra.removeEntry("aoa3:dart_gun");
 
 val bonecreeper = LootTweaker.getTable("aoa3:entities/mobs/creeponia/bone_creeper");
 val bonecreepergunpow = bonecreeper.addPool("bonecreepergunpow", 1, 1, 0, 0);

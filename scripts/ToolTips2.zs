@@ -786,11 +786,11 @@ import crafttweaker.item.IItemCondition;
 
 <extrautils2:bagofholding>.addTooltip(format.red("在配方中使用时需先清空物品！！"));
 
-<projectex:personal_link>.addTooltip(format.red("不要直接与存储总线连接（会导致卡顿）。用抽屉或Dank替代！"));
+<projectex:personal_link>.addTooltip(format.red("Dallagen让它们没那么卡了！"));
 
-<projectex:refined_link>.addTooltip(format.red("不要直接与存储总线连接（会导致卡顿）。用抽屉或Dank替代！"));
+<projectex:refined_link>.addTooltip(format.red("Dallagen让它们没那么卡了！"));
 
-<projectex:compressed_refined_link>.addTooltip(format.red("不要直接与存储总线连接（会导致卡顿）。用抽屉或Dank替代！"));
+<projectex:compressed_refined_link>.addTooltip(format.red("Dallagen让它们没那么卡了！"));
 
 <aether_legacy:zanite_gemstone>.addTooltip(format.red("现在更快了，感谢Supernodap的牺牲！"));
 
@@ -2299,6 +2299,9 @@ import crafttweaker.item.IItemCondition;
 <projectex:personal_link>.addTooltip(format.red("从玩家网络中抽取EMC，无限制造单个物品！"));
 <projectex:refined_link>.addTooltip(format.red("从玩家网络中抽取EMC，无限制造最多9种物品！"));
 <projectex:compressed_refined_link>.addTooltip(format.red("从玩家网络中抽取EMC，无限制造最多54种物品！"));
+<projectex:personal_link>.addTooltip(format.red("可直接与存储总线连接！"));
+<projectex:refined_link>.addTooltip(format.red("可直接与存储总线连接！"));
+<projectex:compressed_refined_link>.addTooltip(format.red("可直接与存储总线连接！"));
 
 <thaumadditions:vis_seeds>.withTag({Aspect: "mythus"}).addTooltip(format.red("仅适用与有机灌注器！"));
 
@@ -3115,9 +3118,9 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:abyssal_wasteland_stronghold>.addTooltip(format.red("使用蕴能石追踪器寻找！"));
 
-<thaumicwonders:void_fortress_helm>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
-<thaumicwonders:void_fortress_chest>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
-<thaumicwonders:void_fortress_legs>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+// <thaumicwonders:void_fortress_helm>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+// <thaumicwonders:void_fortress_chest>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
+// <thaumicwonders:void_fortress_legs>.addTooltip(format.red("警告：穿戴该装备可能造成大量卡顿"));
 
 <enderutilities:handybag:0>.addTooltip(format.red("警告：不要将背包放进额外物品栏，可能会造成内存泄漏"));
 <enderutilities:handybag:1>.addTooltip(format.red("警告：不要将背包放进额外物品栏，可能会造成内存泄漏"));

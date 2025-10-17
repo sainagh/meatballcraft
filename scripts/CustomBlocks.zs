@@ -3000,6 +3000,13 @@ septuplecompressedaeternalisfuel.setToolClass("pickaxe");
 septuplecompressedaeternalisfuel.setToolLevel(3);
 septuplecompressedaeternalisfuel.register();
 
+var octuplecompressedaeternalisfuel = VanillaFactory.createBlock("octuple_compressed_aeternalis_fuel", <blockmaterial:iron>);
+octuplecompressedaeternalisfuel.setBlockHardness(1.0);
+octuplecompressedaeternalisfuel.setBlockResistance(2.5);
+octuplecompressedaeternalisfuel.setToolClass("pickaxe");
+octuplecompressedaeternalisfuel.setToolLevel(3);
+octuplecompressedaeternalisfuel.register();
+
 var catasterismiore = VanillaFactory.createBlock("catasterismetal_ore", <blockmaterial:iron>);
 catasterismiore.setBlockHardness(1.0);
 catasterismiore.setBlockResistance(2.5);

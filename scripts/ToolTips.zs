@@ -3014,6 +3014,8 @@
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("Chaika_In_Paanic, rfhb21, Nezer_Stra (团队)"));
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("迪奥-布兰多 & 0160 (团队)"));
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("zalee (单人)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("Sømêøne (基本无EMC) (单人)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("KawaiiPotatoKing & RandTheGrayMan (团队)"));
 
 
 <contenttweaker:spren_summoner_faith>.addTooltip(format.red("在卡尚的远古神殿（Ancient Cavern）群系使用"));
@@ -3144,11 +3146,19 @@
 
 <minecraft:fish>.addTooltip(format.red("可施加超限附魔"));
 
-<contenttweaker:geo_fragment>.addTooltip(format.red("蚁狮巢穴召唤石会生成一只不属于其的生物"));
+<contenttweaker:geo_fragment>.addTooltip(format.red("蚁狮巢穴召唤石会生成某种不属于其的生物"));
 <contenttweaker:geo_fragment>.addTooltip(format.red("使用特定石子右击此种生物（生成方式不限）"));
 
-<contenttweaker:gluttonous_bell>.addTooltip(format.red("莫测监狱中会生成某只生物"));
+<contenttweaker:gluttonous_bell>.addTooltip(format.red("莫测监狱中会生成某种特定生物"));
 <contenttweaker:gluttonous_bell>.addTooltip(format.red("使用特定石子右击此种生物（生成方式不限）"));
+
+<contenttweaker:medallion_of_undead_repellence>.addTooltip(format.red("下界要塞中会生成某种特定生物"));
+<contenttweaker:medallion_of_undead_repellence>.addTooltip(format.red("使用特定石子右击此种生物（生成方式不限）"));
+
+<contenttweaker:recursive_mind_shield>.addTooltip(format.red("你有没有用过某些特定的跃迁器？？"));
+
+<contenttweaker:flesh_of_the_orb>.addTooltip(format.red("通过嗜肉之球获得"));
+<contenttweaker:flesh_of_the_orb>.addTooltip(format.red("需要Victus、Aqua、Alienis源质各250点来启动"));
 
 
 
@@ -3163,41 +3173,36 @@
 
 
 
+<draconicevolution:crafting_injector:*>.addTooltip(format.red("要加快充能速度，可使用与多个通量接出点相连的凛冰固化能量管道为注入合成装置供能"));
+
+<aoa3:flaming_fury>.addTooltip(format.red("KurryCat不会被奇怪的数字格式搞晕"));
 
 
 
+
+
+
+
+
+<contenttweaker:waytospawnhydra>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
+
+<contenttweaker:cleanroomprism>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
 
 <contenttweaker:laststandformula>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
 
-<contenttweaker:superknockbaksuperenchant>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
 <contenttweaker:alecsioandcobees>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
 
 <contenttweaker:energyrepairforlater>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
 
 <contenttweaker:blueprints>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
 
-
-
-
-<contenttweaker:meatyorbrework>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
 <contenttweaker:firesuperenchantforshields>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
 
 <contenttweaker:apothecarybeemorestuffs>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
 
 <contenttweaker:customtippedarrows>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
 
-
-<contenttweaker:weaponquests>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-
-
 <contenttweaker:aoadimensionsrandomloot>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-
-<contenttweaker:biomepuzzlerework>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
 
 <contenttweaker:mythicprocessorchemreactor>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
 

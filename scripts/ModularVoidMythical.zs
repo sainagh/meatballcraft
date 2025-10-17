@@ -126,6 +126,10 @@ mith2.addItemOutput(<projectex:power_flower:0>);
 mith2.setChance(0.05);
 mith2.addItemOutput(<abyssalcraft:shadowgem>);
 mith2.setChance(0.5);
+mith2.addItemOutput(<aoa3:limonite_bullet>*64);
+mith2.setChance(0.5);
+mith2.addItemOutput(<aoa3:metal_slug>*64);
+mith2.setChance(0.5);
 mith2.addItemOutput(<contenttweaker:tier2_token>);
 mith2.build();
 
@@ -167,6 +171,10 @@ mith3.addItemOutput(<projectex:power_flower:1>);
 mith3.setChance(0.05);
 mith3.addItemOutput(<biomesoplenty:crystal:0>*15);
 mith3.setChance(0.25);
+mith3.addItemOutput(<aoa3:limonite_bullet>*64);
+mith3.setChance(0.7);
+mith3.addItemOutput(<aoa3:metal_slug>*64);
+mith3.setChance(0.7);
 mith3.addItemOutput(<contenttweaker:tier3_token>);
 mith3.build();
 
@@ -514,6 +522,10 @@ mith6.addItemOutput(<contenttweaker:dense_redstone>*15);
 mith6.setChance(0.6);
 mith6.addItemOutput(<contenttweaker:blue_matter>*4);
 mith6.setChance(0.3);
+mith6.addItemOutput(<aoa3:limonite_bullet>*64);
+mith6.setChance(0.9);
+mith6.addItemOutput(<aoa3:metal_slug>*64);
+mith6.setChance(0.9);
 mith6.addItemOutput(<contenttweaker:tier6_token>);
 mith6.build();
 

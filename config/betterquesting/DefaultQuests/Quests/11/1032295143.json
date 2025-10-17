@@ -18,7 +18,7 @@
             "Lore:9": {
               "0:8": "§d§o极・超限附魔§r"
             },
-            "Name:8": "§6§oThe Lightbringer§r"
+            "Name:8": "§6§o裂光者§r"
           },
           "ench:9": {
             "0:10": {
@@ -28,7 +28,7 @@
           }
         }
       },
-      "name:8": "Lightbringer"
+      "name:8": "裂光者"
     }
   },
   "questID:3": 1032295143,
@@ -44,7 +44,7 @@
               "Lore:9": {
                 "0:8": "§d§o极・超限附魔§r"
               },
-              "Name:8": "§6§oThe Lightbringer§r"
+              "Name:8": "§6§o裂光者§r"
             },
             "ench:9": {
               "0:10": {

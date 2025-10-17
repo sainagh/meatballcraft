@@ -2,6 +2,8 @@
 #loader mixin
 
 import mixin.CallbackInfo;
+import native.java.util.UUID;
+
 import native.hellfirepvp.astralsorcery.common.registry.RegistryPerks;
 
 #mixin Mixin
