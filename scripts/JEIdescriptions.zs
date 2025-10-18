@@ -766,7 +766,7 @@ mods.jei.JEI.addDescription([
 	"Abyssal Wasteland uses Abyssal Cobblestone",
 	"Dreadlands uses Dreadstone Cobblestone",
 	"Omothol uses Ethaxium Bricks",
-	"Darkl Realm uses Dark Ethaxium Bricks"
+	"Dark Realm uses Dark Ethaxium Bricks"
 ]);
 
 
