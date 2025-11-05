@@ -69,9 +69,9 @@
 <botania:baublebox>.addTooltip(format.red("可存储饰品"));
 <botania:dodgering>.addTooltip(format.red("可双击方向键进行闪避"));
 <botania:invisibilitycloak>.addTooltip(format.red("使玩家隐身"));
-<botania:cloudpendant>.addTooltip(format.red("启用二段跳"));<botania:supercloudpendant>.addTooltip(format.red("启用三段跳"));
-<botania:supercloudpendant>.addTooltip(format.red("高亮附近生物"));
-<botania:thirdeye>.addTooltip(format.red("附近的爆炸不会破坏方块"));
+<botania:cloudpendant>.addTooltip(format.red("启用二段跳"));
+<botania:supercloudpendant>.addTooltip(format.red("启用三段跳"));
+<botania:thirdeye>.addTooltip(format.red("高亮附近生物"));
 <botania:goddesscharm>.addTooltip(format.red("附近的爆炸不会破坏方块"));
 <cyclicmagic:glove_climb>.addTooltip(format.red("可以像蜘蛛一样爬墙"));
 <cyclicmagic:tool_auto_torch>.addTooltip(format.red("亮度低于7时，自动在脚下放置火把"));
