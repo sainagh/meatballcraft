@@ -3022,7 +3022,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:radioactive_residue>.addTooltip(format.red("RestlessClam喜欢辐射"));
 
-<techreborn:dust:5>.addTooltip(format.red("使用工业磨粉机处理铝矿石"));
+<techreborn:dust:5>.addTooltip(format.red("使用工业磨粉机处理铝土矿石"));
 
 <enderio:block_soul_binder>.addTooltip(format.red("循环模组的液态经验可以被直接传输进该方块"));
 
@@ -3044,8 +3044,8 @@ import crafttweaker.item.IItemCondition;
 <advancedrocketry:alienwood>.addTooltip(format.red("发现于恐蚁界"));
 <advancedrocketry:aliensapling>.addTooltip(format.red("发现于恐蚁界"));
 
-<techreborn:dust:54>.addTooltip(format.red("使用工业电解机处理铝土矿粉，或者使用深度怪物学习模组"));
-<ore:ingotTitanium>.addTooltip(format.red("使用工业电解机处理铝土矿粉，或者使用深度怪物学习模组"));
+<techreborn:dust:54>.addTooltip(format.red("使用工业电解器处理铝土矿粉，或者使用深度怪物学习模组"));
+<ore:ingotTitanium>.addTooltip(format.red("使用工业电解器处理铝土矿粉，或者使用深度怪物学习模组"));
 
 <contenttweaker:foraging_loot_table>.addTooltip(format.red("查看物品用途来了解技能可获得什么掉落物"));
 
