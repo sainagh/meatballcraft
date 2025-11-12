@@ -2363,7 +2363,7 @@
 
 <contenttweaker:infinite_alchemical_plate>.addTooltip(format.red("匠魂锤材料：狂乱坚韧手柄、爵士元素锤头、艾德曼左大板、锻铁右大板"));
 <contenttweaker:infinite_recursive_plate>.addTooltip(format.red("匠魂锤材料：符银坚韧手柄、山铜锤头、开宇左大板、中子素右大板"));
-<contenttweaker:infinite_entropic_plate>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、振金合金左大板、飞升神龙合金右大板"));
+<contenttweaker:infinite_entropic_plate>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
 <contenttweaker:infinite_tainted_plate>.addTooltip(format.red("匠魂锤材料：银坚韧手柄、神秘锤头、黄铜左大板、注血故障右大板"));
 
 <contenttweaker:alchemical_deep_rock>.addTooltip(format.red("破坏一些沉睡之石"));
