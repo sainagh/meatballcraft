@@ -448,17 +448,21 @@ null,
 mods.nuclearcraft.alloy_furnace.addRecipe([<nuclearcraft:depleted_fuel_mixed_oxide:0>, <nuclearcraft:depleted_fuel_mixed_oxide:1>, <nuclearcraft:depleted_fuel_ic2:1>, 1.0, 1.0, 0.005]);
 mods.thermalexpansion.InductionSmelter.addRecipe(<nuclearcraft:depleted_fuel_ic2:1>, <nuclearcraft:depleted_fuel_mixed_oxide:1>, <nuclearcraft:depleted_fuel_mixed_oxide:0>, 1000);
 
-val nukecalifornium = RecipeBuilder.newBuilder("nukecalifornium","safe_nuke_environment",100);
-nukecalifornium.addItemInput(<techreborn:nuke>);
-nukecalifornium.addFluidInput(<fluid:californium_250>*1000);
-nukecalifornium.addFluidOutput(<fluid:californium_256>*1000);
-nukecalifornium.build();
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:fluidcompressedair>*10, <fluid:californium_250>*1000, <fluid:areated_molten_californium_250>*1000, <fluid:oxygen>*2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:lithium6>*10, <fluid:infinitely_unholy_radioactive_mix>*1000, <fluid:unholy_nuke_catalyst>*1000, null]);
 
-val nukepolonium = RecipeBuilder.newBuilder("nukepolonium","safe_nuke_environment",100);
-nukepolonium.addItemInput(<techreborn:nuke>);
-nukepolonium.addFluidInput(<fluid:spent_polonium>*1000);
-nukepolonium.addFluidOutput(<fluid:californium_256>*1000);
-nukepolonium.build();
+
+// val nukecalifornium = RecipeBuilder.newBuilder("nukecalifornium","safe_nuke_environment",100);
+// nukecalifornium.addItemInput(<techreborn:nuke>);
+// nukecalifornium.addFluidInput(<fluid:californium_250>*1000);
+// nukecalifornium.addFluidOutput(<fluid:californium_256>*1000);
+// nukecalifornium.build();
+
+// val nukepolonium = RecipeBuilder.newBuilder("nukepolonium","safe_nuke_environment",100);
+// nukepolonium.addItemInput(<techreborn:nuke>);
+// nukepolonium.addFluidInput(<fluid:spent_polonium>*1000);
+// nukepolonium.addFluidOutput(<fluid:californium_256>*1000);
+// nukepolonium.build();
 
 mods.nuclearcraft.heat_exchanger.addRecipe([<fluid:mineral_water>*10, <fluid:wet_steam>*20, 80000.0, 300, 700]);
 

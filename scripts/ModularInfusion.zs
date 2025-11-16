@@ -640,3 +640,11 @@ inf61.addItemInput(<thaumcraft:mirrored_glass>);
 inf61.addItemOutput(<thaumcraft:mirror>);
 inf61.build();
 
+val inf62 = RecipeBuilder.newBuilder("inf62","arcane_autoinfuser",120);
+inf62.addEnergyPerTickInput(100);
+inf62.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "auram"}]})*10);
+inf62.addItemInput(<thaumcraft:quicksilver>*4);
+inf62.addItemInput(<aoa3:holly_top_seeds>);
+inf62.addItemOutput(<thaumcraft:shimmerleaf>);
+inf62.build();
+

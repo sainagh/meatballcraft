@@ -18,7 +18,7 @@ recipes.addShaped(<contenttweaker:ordered_eigenstate_condenser>,
 
 recipes.addShaped(<contenttweaker:event_horizon_condenser>,
 [[<contenttweaker:black_hole_core>, <glassential:glass_redstone>, <contenttweaker:black_hole_core>],
-[<glassential:glass_redstone>, <contenttweaker:ordered_eigenstate_condenser>, <contenttweaker:mythic_excavation_reactor>],
+[<glassential:glass_redstone>, <contenttweaker:ordered_eigenstate_condenser>, <glassential:glass_redstone>],
 [<contenttweaker:black_hole_core>, <glassential:glass_redstone>, <contenttweaker:black_hole_core>]]);
 
 

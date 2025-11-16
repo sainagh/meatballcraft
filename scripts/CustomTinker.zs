@@ -652,3 +652,21 @@ yggdrasilwood.itemLocalizer = function(thisMaterial, itemName){return "世界树
 yggdrasilwood.localizedName = "世界树之木";
 yggdrasilwood.register();
 
+
+val heavybone = mods.contenttweaker.tconstruct.MaterialBuilder.create("hard_bone");
+heavybone.color = 0x4d4d4d;
+heavybone.craftable = true;
+heavybone.castable = false;
+heavybone.addItem(<item:contenttweaker:hard_bone>,1,144);
+heavybone.representativeItem = <item:contenttweaker:hard_bone>;
+heavybone.addHeadMaterialStats(2000, 7.5, 6.0f, 6);
+heavybone.addHandleMaterialStats(2.0, 2000);
+heavybone.addExtraMaterialStats(2000);
+heavybone.addProjectileMaterialStats();
+heavybone.addBowMaterialStats(0.3, 10.54, 4.0);
+heavybone.addMaterialTrait("holy");
+heavybone.addMaterialTrait("giggity");
+heavybone.itemLocalizer = function(thisMaterial, itemName){return "硬骨 " + itemName;};
+heavybone.localizedName = "硬骨";
+heavybone.register();
+

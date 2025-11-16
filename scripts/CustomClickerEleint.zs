@@ -39,7 +39,7 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
       }
     }
     
-    Commands.call("/entitydata @e[r=10] {CustomName:\"飞升艾兰特\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}},Tags:[\"dragonascendedeleint\"]}", event.player, event.world, true, true);
+    Commands.call("/entitydata @e[r=10] {CustomName:\"飞升伊莱\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}},Tags:[\"dragonascendedeleint\"]}", event.player, event.world, true, true);
     Commands.call("/fill ~-10 ~-1 ~-10 ~10 ~1 ~10 contenttweaker:eleint_dragonfire 0 replace contenttweaker:eternal_dragon_fire", event.player, event.world, true, true);
     heldItem.mutable().shrink(1);
   }

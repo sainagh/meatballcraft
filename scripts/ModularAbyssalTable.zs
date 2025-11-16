@@ -52,7 +52,7 @@ ezpzbloodnetflask.addLifeEssenceOutput(10000, false);
 ezpzbloodnetflask.build();
 
 val ezpzbloodnetsnek = RecipeBuilder.newBuilder("ezpzbloodnetsnek","blood_god_altar_network",5);
-ezpzbloodnetsnek.addFluidInput(<fluid:water>*1000);
+ezpzbloodnetsnek.addFluidInput(<fluid:rhenium>*144);
 ezpzbloodnetsnek.addItemInput(<contenttweaker:everbloody_flask>);
 ezpzbloodnetsnek.setChance(0.0);
 ezpzbloodnetsnek.addLifeEssenceOutput(100000, false);

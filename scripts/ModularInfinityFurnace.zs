@@ -118,11 +118,19 @@ infinityfurnacecursedslate.build();
 
 val infinityfurnacecursedwyvernium = RecipeBuilder.newBuilder("infinityfurnacecursedwyvernium","infinity_furnace",10);
 infinityfurnacecursedwyvernium.addFluidInput(<fluid:chaos>*500);
-infinityfurnacecursedwyvernium.addItemInput(<contenttweaker:draconic_catalyst>*8);
+infinityfurnacecursedwyvernium.addItemInput(<contenttweaker:draconic_catalyst>*4);
 infinityfurnacecursedwyvernium.addItemInput(<mowziesmobs:naga_fang>);
 infinityfurnacecursedwyvernium.addItemInput(<aoa3:elecanium_block>);
 infinityfurnacecursedwyvernium.addItemOutput(<contenttweaker:wyvernium_ingot>);
 infinityfurnacecursedwyvernium.build();
+
+val infinityfurnacecursedwyvernium2 = RecipeBuilder.newBuilder("infinityfurnacecursedwyvernium2","infinity_furnace",10);
+infinityfurnacecursedwyvernium2.addFluidInput(<fluid:chaos>*500);
+infinityfurnacecursedwyvernium2.addItemInput(<contenttweaker:draconic_catalyst>);
+infinityfurnacecursedwyvernium2.addItemInput(<contenttweaker:chain_of_the_final_hour>);
+infinityfurnacecursedwyvernium2.addItemInput(<aoa3:elecanium_block>);
+infinityfurnacecursedwyvernium2.addItemOutput(<contenttweaker:wyvernium_ingot>);
+infinityfurnacecursedwyvernium2.build();
 
 val infinityfurnacecyclicalhope = RecipeBuilder.newBuilder("infinityfurnacecyclicalhope","infinity_furnace",10);
 infinityfurnacecyclicalhope.addFluidInput(<fluid:sideral_life_essence>*500);
@@ -170,3 +178,18 @@ infinityfurnacecyclicalstarlight.addItemInput(<contenttweaker:gem_of_the_birthin
 infinityfurnacecyclicalstarlight.addItemOutput(<contenttweaker:cyclical_starlight_crystal>*128);
 infinityfurnacecyclicalstarlight.build();
 
+
+
+val infinityfurnacedemantoid2 = RecipeBuilder.newBuilder("infinityfurnacedemantoid2","infinity_furnace",10);
+infinityfurnacedemantoid2.addFluidInput(<fluid:shyrestone>*72);
+infinityfurnacedemantoid2.addItemInput(<contenttweaker:recursive_demantoid>*4);
+infinityfurnacedemantoid2.addItemInput(<contenttweaker:shyre_chunk>);
+infinityfurnacedemantoid2.addItemOutput(<contenttweaker:ascending_demantoid>*2);
+infinityfurnacedemantoid2.build();
+
+val infinityfurnacedemantoid3 = RecipeBuilder.newBuilder("infinityfurnacedemantoid3","infinity_furnace",10);
+infinityfurnacedemantoid3.addFluidInput(<fluid:infinity>*8);
+infinityfurnacedemantoid3.addItemInput(<contenttweaker:ascending_demantoid>*4);
+infinityfurnacedemantoid3.addItemInput(<contenttweaker:strange_stone_essence>);
+infinityfurnacedemantoid3.addItemOutput(<contenttweaker:fractallite_demantoid>*2);
+infinityfurnacedemantoid3.build();

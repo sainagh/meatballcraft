@@ -2657,7 +2657,7 @@ recipes.addShaped(<mowziesmobs:naga_fang>*4,
 [<draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>]]);
 
 recipes.addShapeless(<bnkrblks:megelium_stone>,
-[<contenttweaker:megelium_detonator_automation>, <modularmachinery:megelium_detonator_controller>]);
+[<contenttweaker:megelium_detonator_automation>, <modularmachinery:megelium_detonator_controller>, <aoa3:ancient_rock>]);
 
 recipes.addShapeless(<divinerpg:arcanium>,
 [<contenttweaker:trait_arcaneextraction>]);

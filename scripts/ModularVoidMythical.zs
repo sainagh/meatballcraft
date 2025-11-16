@@ -804,6 +804,18 @@ mith11.addItemOutput(<contenttweaker:blue_matter>*5);
 mith11.setChance(0.4);
 mith11.addItemOutput(<advancedrocketry:crystal:1>*64);
 mith11.setChance(0.8);
+mith11.addItemOutput(<aoa3:carved_rune_travel>*30);
+mith11.setChance(0.8);
+mith11.addItemOutput(<aoa3:carved_rune_reality>*30);
+mith11.setChance(0.8);
+mith11.addItemOutput(<aoa3:carved_rune_space>*30);
+mith11.setChance(0.8);
+mith11.addItemOutput(<aoa3:carved_rune_direction>*30);
+mith11.setChance(0.8);
+mith11.addItemOutput(<aoa3:carved_rune_power>*30);
+mith11.setChance(0.8);
+mith11.addItemOutput(<aoa3:carved_rune_empowering>*30);
+mith11.setChance(0.8);
 mith11.addItemOutput(<contenttweaker:tier11_token>);
 mith11.build();
 
@@ -1275,6 +1287,18 @@ mith17.addItemOutput(<contenttweaker:haven_garnet>);
 mith17.setChance(0.5);
 mith17.addItemOutput(<contenttweaker:blue_matter>*10);
 mith17.setChance(0.5);
+mith17.addItemOutput(<aoa3:carved_rune_travel>*60);
+mith17.setChance(0.9);
+mith17.addItemOutput(<aoa3:carved_rune_reality>*60);
+mith17.setChance(0.9);
+mith17.addItemOutput(<aoa3:carved_rune_space>*60);
+mith17.setChance(0.9);
+mith17.addItemOutput(<aoa3:carved_rune_direction>*60);
+mith17.setChance(0.9);
+mith17.addItemOutput(<aoa3:carved_rune_power>*60);
+mith17.setChance(0.9);
+mith17.addItemOutput(<aoa3:carved_rune_empowering>*60);
+mith17.setChance(0.9);
 mith17.addItemOutput(<contenttweaker:tier17_token>);
 mith17.build();
 
@@ -1410,6 +1434,18 @@ mith20.addItemOutput(<iceandfire:stymphalian_bird_feather>*16);
 mith20.setChance(0.5);
 mith20.addItemOutput(<contenttweaker:blue_matter>*10);
 mith20.setChance(0.5);
+mith20.addItemOutput(<aoa3:carved_rune_travel>*60);
+mith20.setChance(0.9);
+mith20.addItemOutput(<aoa3:carved_rune_reality>*60);
+mith20.setChance(0.9);
+mith20.addItemOutput(<aoa3:carved_rune_space>*60);
+mith20.setChance(0.9);
+mith20.addItemOutput(<aoa3:carved_rune_direction>*60);
+mith20.setChance(0.9);
+mith20.addItemOutput(<aoa3:carved_rune_power>*60);
+mith20.setChance(0.9);
+mith20.addItemOutput(<aoa3:carved_rune_empowering>*60);
+mith20.setChance(0.9);
 mith20.addItemOutput(<contenttweaker:tier20_token>);
 mith20.build();
 
@@ -1552,26 +1588,10 @@ mods.tconstruct.Casting.addTableRecipe(<materialpart:primal_ogerite:ingot>,
 false, 
 100);
 
-recipes.addShaped(<contenttweaker:gilded_rainbow_heart_canister>*8,
-[[<contenttweaker:rainbow_heart_canister>, <contenttweaker:rainbow_heart_canister>, <contenttweaker:rainbow_heart_canister>],
-[<contenttweaker:rainbow_heart_canister>, <extrautils2:decorativesolid:8>, <contenttweaker:rainbow_heart_canister>],
-[<contenttweaker:rainbow_heart_canister>, <contenttweaker:rainbow_heart_canister>, <contenttweaker:rainbow_heart_canister>]]);
 
-val pixoniacarmin = RecipeBuilder.newBuilder("pixoniacarmin","carminite_empowerer",1200);
-pixoniacarmin.addEnergyPerTickInput(5000);
-pixoniacarmin.addAspectInput("coralos",10);
-pixoniacarmin.addItemInput(<materialpart:primal_ogerite:ingot>);
-pixoniacarmin.addItemInput(<minecraft:cooked_chicken>);
-pixoniacarmin.addItemOutput(<contenttweaker:pixonia_heart>);
-pixoniacarmin.build();
 
-val pixoniacarminbetter = RecipeBuilder.newBuilder("pixoniacarminbetter","carminite_empowerer",120);
-pixoniacarminbetter.addEnergyPerTickInput(5000);
-pixoniacarminbetter.addAspectInput("coralos",10);
-pixoniacarminbetter.addItemInput(<materialpart:primal_ogerite:ingot>);
-pixoniacarminbetter.addItemInput(<ore:nuggetMeat>*6);
-pixoniacarminbetter.addItemOutput(<contenttweaker:pixonia_heart>*8);
-pixoniacarminbetter.build();
+
+
 
 val spatcruc2 = RecipeBuilder.newBuilder("spatialcruc2","spatial_crucible",200);
 spatcruc2.addEnergyPerTickInput(120000);
@@ -1798,6 +1818,18 @@ mith23.addItemOutput(<contenttweaker:lunalus_garnet>);
 mith23.setChance(0.5);
 mith23.addItemOutput(<contenttweaker:blue_matter>*20);
 mith23.setChance(0.6);
+mith23.addItemOutput(<aoa3:carved_rune_travel>*60);
+mith23.setChance(0.9);
+mith23.addItemOutput(<aoa3:carved_rune_reality>*60);
+mith23.setChance(0.9);
+mith23.addItemOutput(<aoa3:carved_rune_space>*60);
+mith23.setChance(0.9);
+mith23.addItemOutput(<aoa3:carved_rune_direction>*60);
+mith23.setChance(0.9);
+mith23.addItemOutput(<aoa3:carved_rune_power>*60);
+mith23.setChance(0.9);
+mith23.addItemOutput(<aoa3:carved_rune_empowering>*60);
+mith23.setChance(0.9);
 mith23.addItemOutput(<contenttweaker:tier23_token>);
 mith23.build();
 
@@ -2015,10 +2047,6 @@ mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:chaotic_bricks>*4,
 [<contenttweaker:chaotic_stone>, <extendedcrafting:trimmed:5>, <contenttweaker:chaotic_stone>], 
 [null, <contenttweaker:chaotic_stone>, null]], 15);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:apalachia_star>, 
-2000000, 
-<minecraft:nether_star>, 
-[<contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, <contenttweaker:recursive_demantoid>]);
 
 recipes.addShaped(<contenttweaker:rainbow_petal>,
 [[<aoa3:holly_top_petals>, <aoa3:holly_top_petals>, <aoa3:holly_top_petals>],
@@ -2118,10 +2146,6 @@ aoatokenOreDict.add(<aoa3:vox_ponds_tokens>);
 
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:chaos_pearl>, <materialpart:chaos:ingot>, 100, <extendedcrafting:material:11>, 1000000000,1000000);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:skythern_star>, 
-2000000, 
-<minecraft:nether_star>, 
-[<avaritia:resource:1>, <contenttweaker:enhanced_chaos_fragment>, <avaritia:resource:3>, <avaritia:resource:3>]);
 
 
 
@@ -2214,6 +2238,18 @@ mith24.addItemOutput(<contenttweaker:ancient_cavern_garnet>);
 mith24.setChance(0.5);
 mith24.addItemOutput(<contenttweaker:blue_matter>*40);
 mith24.setChance(0.7);
+mith24.addItemOutput(<aoa3:carved_rune_travel>*60);
+mith24.setChance(0.95);
+mith24.addItemOutput(<aoa3:carved_rune_reality>*60);
+mith24.setChance(0.95);
+mith24.addItemOutput(<aoa3:carved_rune_space>*60);
+mith24.setChance(0.95);
+mith24.addItemOutput(<aoa3:carved_rune_direction>*60);
+mith24.setChance(0.95);
+mith24.addItemOutput(<aoa3:carved_rune_power>*60);
+mith24.setChance(0.95);
+mith24.addItemOutput(<aoa3:carved_rune_empowering>*60);
+mith24.setChance(0.95);
 mith24.addItemOutput(<contenttweaker:tier24_token>);
 mith24.build();
 
@@ -2247,6 +2283,18 @@ mith25.addItemOutput(<aoa3:dungeon_tokens>*10);
 mith25.setChance(0.05);
 mith25.addItemOutput(<contenttweaker:blue_matter>*40);
 mith25.setChance(0.7);
+mith25.addItemOutput(<aoa3:carved_rune_travel>*60);
+mith25.setChance(0.95);
+mith25.addItemOutput(<aoa3:carved_rune_reality>*60);
+mith25.setChance(0.95);
+mith25.addItemOutput(<aoa3:carved_rune_space>*60);
+mith25.setChance(0.95);
+mith25.addItemOutput(<aoa3:carved_rune_direction>*60);
+mith25.setChance(0.95);
+mith25.addItemOutput(<aoa3:carved_rune_power>*60);
+mith25.setChance(0.95);
+mith25.addItemOutput(<aoa3:carved_rune_empowering>*60);
+mith25.setChance(0.95);
 mith25.addItemOutput(<contenttweaker:tier25_token>);
 mith25.build();
 
@@ -2707,99 +2755,7 @@ recipes.addShaped(<contenttweaker:dynatos_star>,
 
 mods.nuclearcraft.infuser.addRecipe([<materialpart:myrmitite:dust>, <fluid:niobium>*10, <contenttweaker:myrminiobite_ingot>]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_star>*2, 
-2000000, 
-<minecraft:nether_star>, 
-[<contenttweaker:myrminiobite_ingot>, <contenttweaker:hafnium_chunk>, <contenttweaker:tantalum_chunk>, <contenttweaker:cerium_ingot>, <materialpart:hassium:ingot>, <contenttweaker:ruthenium_ingot>]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_star>, 
-2000000, 
-<minecraft:nether_star>, 
-[<contenttweaker:myrminiobite_ingot>, <contenttweaker:hafnium_chunk>, <contenttweaker:tantalum_chunk>, <contenttweaker:cerium_ingot>, <materialpart:hassium:ingot>]);
-
-
-val divinecombinerrealgar = RecipeBuilder.newBuilder("divinecombinerrealgar","divine_combiner",2);
-divinecombinerrealgar.addFluidInput(<fluid:hint_of_divinity>*10);
-divinecombinerrealgar.addItemInput(<contenttweaker:eternal_tulite>);
-divinecombinerrealgar.addItemInput(<contenttweaker:abyss_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:lelyetia_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:precasia_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:runandor_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:creeponia_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:deeplands_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:vox_ponds_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:mysterium_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:iromine_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:haven_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:candyland_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:celeve_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:gardencia_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:crystevia_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:lunalus_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:barathos_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:borean_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:immortallis_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:ancient_cavern_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:greckon_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:dustopia_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:vethea_garnet>);
-divinecombinerrealgar.addItemOutput(<contenttweaker:universal_realgar>);
-divinecombinerrealgar.build();
-
-
-
-val divinecombinerrealgar2 = RecipeBuilder.newBuilder("divinecombinerrealgar2","divine_combiner",2);
-divinecombinerrealgar2.addFluidInput(<fluid:infinite_divine_wish>*40);
-divinecombinerrealgar2.addItemInput(<contenttweaker:eternal_tulite>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:abyss_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:lelyetia_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:precasia_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:runandor_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:creeponia_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:deeplands_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:vox_ponds_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:mysterium_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:iromine_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:haven_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:candyland_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:celeve_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:gardencia_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:crystevia_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:lunalus_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:barathos_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:borean_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:immortallis_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:ancient_cavern_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:greckon_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:dustopia_garnet>*8);
-divinecombinerrealgar2.addItemInput(<contenttweaker:vethea_garnet>*8);
-divinecombinerrealgar2.addItemOutput(<contenttweaker:universal_realgar>*8);
-divinecombinerrealgar2.build();
-
-
-val divinecombinergemrec = RecipeBuilder.newBuilder("divinecombinergemrec","divine_combiner",2);
-divinecombinergemrec.addFluidInput(<fluid:hint_of_divinity>*10);
-divinecombinergemrec.addItemInput(<contenttweaker:universal_realgar>);
-divinecombinergemrec.addItemInput(<contenttweaker:shyrelands_garnet>);
-divinecombinergemrec.addItemInput(<divinerpg:eden_chunk>);
-divinecombinergemrec.addItemInput(<divinerpg:wildwood_chunk>);
-divinecombinergemrec.addItemInput(<divinerpg:apalachia_chunk>);
-divinecombinergemrec.addItemInput(<divinerpg:skythern_chunk>);
-divinecombinergemrec.addItemInput(<divinerpg:mortum_chunk>);
-divinecombinergemrec.addItemOutput(<contenttweaker:gem_of_recursion>);
-divinecombinergemrec.build();
-
-val divinecombinergemrec2 = RecipeBuilder.newBuilder("divinecombinergemrec2","divine_combiner",2);
-divinecombinergemrec2.addFluidInput(<fluid:infinite_divine_wish>*40);
-divinecombinergemrec2.addItemInput(<contenttweaker:universal_realgar>*8);
-divinecombinergemrec2.addItemInput(<contenttweaker:shyrelands_garnet>*8);
-divinecombinergemrec2.addItemInput(<divinerpg:eden_chunk>*8);
-divinecombinergemrec2.addItemInput(<divinerpg:wildwood_chunk>*8);
-divinecombinergemrec2.addItemInput(<divinerpg:apalachia_chunk>*8);
-divinecombinergemrec2.addItemInput(<divinerpg:skythern_chunk>*8);
-divinecombinergemrec2.addItemInput(<divinerpg:mortum_chunk>*8);
-divinecombinergemrec2.addItemOutput(<contenttweaker:gem_of_recursion>*8);
-divinecombinergemrec2.build();
 
 
 recipes.addShaped(<contenttweaker:compressed_realgar>,

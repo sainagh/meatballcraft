@@ -7,12 +7,29 @@
     "betterquesting:10": {
       "desc:8": "",
       "icon:10": {
-        "Count:3": 0,
-        "id:8": "minecraft:air"
+        "Count:3": 1,
+        "id:8": "aoa3:flaming_fury",
+        "tag:10": {
+          "HideFlags:1": 2
+        }
       },
-      "name:8": ""
+      "name:8": "熊熊怒火"
     }
   },
   "questID:3": 467612206,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:flaming_fury",
+          "tag:10": {
+            "HideFlags:1": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

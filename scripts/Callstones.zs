@@ -5784,3 +5784,28 @@ alchemicalsparkcallstoneoctuple.itemRightClick = function(stack, world, player, 
 };
 alchemicalsparkcallstoneoctuple.register();
 
+
+
+var riteofunhollowing = VanillaFactory.createItem("rite_of_unhollowing");
+riteofunhollowing.maxStackSize = 1;
+riteofunhollowing.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 66) {
+        player.sendChat("需位于混沌之地");
+        return "FAIL";
+    }
+
+    Commands.call("summon aoa3:ghostly_bugeye ~5 ~2 ~5 {HandItems:[{Count:1,id:\"contenttweaker:spark_of_unhallowing\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500000.0},{Name:generic.attackDamage, Base:5000.0}],Health:500000f,CustomName:\"空洞之意志\",ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~-5 ~2 ~5 {HandItems:[{Count:1,id:\"contenttweaker:spark_of_unhallowing\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500000.0},{Name:generic.attackDamage, Base:5000.0}],Health:500000f,CustomName:\"空洞之意志\",ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~5 ~2 ~-5 {HandItems:[{Count:1,id:\"contenttweaker:spark_of_unhallowing\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500000.0},{Name:generic.attackDamage, Base:5000.0}],Health:500000f,CustomName:\"空洞之意志\",ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~-5 ~2 ~-5 {HandItems:[{Count:1,id:\"contenttweaker:spark_of_unhallowing\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500000.0},{Name:generic.attackDamage, Base:5000.0}],Health:500000f,CustomName:\"空洞之意志\",ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+riteofunhollowing.register();

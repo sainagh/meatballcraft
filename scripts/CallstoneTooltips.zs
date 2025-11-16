@@ -110,5 +110,6 @@
 <contenttweaker:hopeful_return_callstone>.addTooltip(format.red("需在指定维度使用：秘界天花板"));
 <contenttweaker:hollow_stag_callstone>.addTooltip(format.red("需在指定维度使用：混沌之地"));
 <contenttweaker:broken_oath>.addTooltip(format.red("需在指定维度使用：暮色森林"));
+<contenttweaker:rite_of_unhollowing>.addTooltip(format.red("需在指定维度使用：混沌之地"));
 
 

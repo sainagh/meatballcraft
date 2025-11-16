@@ -173,5 +173,5 @@ bot17.addItemInput(<contenttweaker:bright_matter>);
 bot17.addItemInput(<thebetweenlands:spirit_fruit>*32);
 bot17.addItemInput(<contenttweaker:bee_stargate>);
 bot17.addItemInput(<projecte:item.pe_fuel:2>*1024);
-bot17.addItemOutput(<contenttweaker:bright_matter>*32);
+bot17.addItemOutput(<contenttweaker:bright_matter>*64);
 bot17.build();

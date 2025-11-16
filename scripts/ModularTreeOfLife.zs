@@ -348,13 +348,50 @@ treeoflifecinders.addItemInput(<forestry:fertilizer_compound>);
 treeoflifecinders.addItemOutput(<contenttweaker:sacred_cinders_fruit>);
 treeoflifecinders.build();
 
-val treeoflifecindersbetter = RecipeBuilder.newBuilder("treeoflifecindersbetter","tree_of_life",2);
-treeoflifecindersbetter.addEnergyPerTickInput(50000000);
-treeoflifecindersbetter.addItemInput(<contenttweaker:sacred_cinders_seed>);
-treeoflifecindersbetter.setChance(0.0);
-treeoflifecindersbetter.addItemInput(<gendustry:honey_comb:14012>);
-treeoflifecindersbetter.addItemOutput(<contenttweaker:sacred_cinders_fruit>*16);
-treeoflifecindersbetter.build();
+val treeoflifecinders2 = RecipeBuilder.newBuilder("treeoflifecinders2","tree_of_life",2);
+treeoflifecinders2.addEnergyPerTickInput(50000000);
+treeoflifecinders2.addItemInput(<contenttweaker:sacred_cinders_seed>);
+treeoflifecinders2.setChance(0.0);
+treeoflifecinders2.addItemInput(<gendustry:honey_comb:14012>);
+treeoflifecinders2.addItemOutput(<contenttweaker:sacred_cinders_fruit>*16);
+treeoflifecinders2.build();
+
+mods.nuclearcraft.infuser.addRecipe([<forestry:propolis:3>*64, <fluid:recursive_computing_matter>*4000, <contenttweaker:inquiring_propolis>*64]);
+
+
+val treeoflifepropolis = RecipeBuilder.newBuilder("treeoflifepropolis","tree_of_life",2);
+treeoflifepropolis.addEnergyPerTickInput(50000000);
+treeoflifepropolis.addItemInput(<gendustry:honey_comb:14012>*64);
+treeoflifepropolis.addItemInput(<contenttweaker:inquiring_propolis>*64);
+treeoflifepropolis.addItemOutput(<contenttweaker:agricultural_propolis>*64);
+treeoflifepropolis.build();
+
+val treeoflifecinders3 = RecipeBuilder.newBuilder("treeoflifecinders3","tree_of_life",2);
+treeoflifecinders3.addEnergyPerTickInput(50000000);
+treeoflifecinders3.addItemInput(<contenttweaker:sacred_cinders_seed>);
+treeoflifecinders3.setChance(0.0);
+treeoflifecinders3.addItemInput(<contenttweaker:agricultural_propolis>);
+treeoflifecinders3.addItemInput(<forestry:peat>);
+treeoflifecinders3.addItemOutput(<contenttweaker:sacred_cinders_fruit>*64);
+treeoflifecinders3.build();
+
+val treeoflifecinders4 = RecipeBuilder.newBuilder("treeoflifecinders4","tree_of_life",2);
+treeoflifecinders4.addEnergyPerTickInput(50000000);
+treeoflifecinders4.addItemInput(<contenttweaker:sacred_cinders_seed>);
+treeoflifecinders4.setChance(0.0);
+treeoflifecinders4.addItemInput(<contenttweaker:agricultural_propolis>);
+treeoflifecinders4.addItemInput(<contenttweaker:trinity_nugget>);
+treeoflifecinders4.addItemOutput(<contenttweaker:sacred_cinders_fruit>*256);
+treeoflifecinders4.build();
+
+val treeoflifecinders5 = RecipeBuilder.newBuilder("treeoflifecinders5","tree_of_life",2);
+treeoflifecinders5.addEnergyPerTickInput(50000000);
+treeoflifecinders5.addItemInput(<contenttweaker:sacred_cinders_seed>);
+treeoflifecinders5.setChance(0.0);
+treeoflifecinders5.addItemInput(<contenttweaker:agricultural_propolis>);
+treeoflifecinders5.addItemInput(<contenttweaker:dust_of_infinite_wishes>);
+treeoflifecinders5.addItemOutput(<contenttweaker:sacred_cinders_fruit>*1024);
+treeoflifecinders5.build();
 
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:alchemical_particle>, <projectex:matter:11>, 100000, <extendedcrafting:material:11>, 100);
 

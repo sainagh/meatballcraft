@@ -207,3 +207,11 @@ recipes.addShaped(<contenttweaker:refined_obsidian_sliver>,
 [[<contenttweaker:refined_obsidian_flake>, <contenttweaker:refined_obsidian_flake>, <contenttweaker:refined_obsidian_flake>],
 [<contenttweaker:refined_obsidian_flake>, <contenttweaker:refined_obsidian_flake>, <contenttweaker:refined_obsidian_flake>],
 [<contenttweaker:refined_obsidian_flake>, <contenttweaker:refined_obsidian_flake>, <contenttweaker:refined_obsidian_flake>]]);
+
+
+recipes.addShaped(<contenttweaker:refined_obsidian_sliver>*2,
+[[<contenttweaker:furnace_heart>, <contenttweaker:pale_sky_stone_pebble>, <contenttweaker:furnace_heart>],
+[<contenttweaker:pale_sky_stone_pebble>, <contenttweaker:refined_obsidian_sliver>, <contenttweaker:pale_sky_stone_pebble>],
+[<contenttweaker:furnace_heart>, <contenttweaker:pale_sky_stone_pebble>, <contenttweaker:furnace_heart>]]);
+
+

@@ -2515,9 +2515,6 @@
 
 <aoa3:immortal_banner>.addTooltip(format.red("通过与不朽之地入口处的令牌交易者交易获得"));
 
-<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("感谢ChaosStrikez帮忙实现！"));
-<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("在主世界中右击以召唤一颗血魔法模组的陨星"));
-<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("可通过正确配置使用者和黑曜石以实现自动化"));
 
 <contenttweaker:infinite_plate_stamp>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
@@ -3113,8 +3110,6 @@
 <contenttweaker:notes_of_a_mines_yearner>.addTooltip(format.red("装备打造或许需要投入一些精力，但这一切都是值得的！"));
 <contenttweaker:notes_of_a_mines_yearner>.addTooltip(format.red("如需建议，可查看装甲库与「Faber Ferrarius」中的任务！"));
 
-<contenttweaker:toy_sword>.addTooltip(format.red("生活品质类改进总是好的！"));
-<contenttweaker:toy_sword>.addTooltip(format.red("检查个人强化和工具攀升章节中的任务，里面有很多实用工具！"));
 
 <contenttweaker:bound_lunar_stone>.addTooltip(format.red("切削油的修复过程可自动化  ;)"));
 
@@ -3176,40 +3171,6 @@
 <draconicevolution:crafting_injector:*>.addTooltip(format.red("要加快充能速度，可使用与多个通量接出点相连的凛冰固化能量管道为注入合成装置供能"));
 
 <aoa3:flaming_fury>.addTooltip(format.red("KurryCat不会被奇怪的数字格式搞晕"));
-
-
-
-
-
-
-
-
-<contenttweaker:waytospawnhydra>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:cleanroomprism>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:laststandformula>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:alecsioandcobees>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:energyrepairforlater>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:blueprints>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:firesuperenchantforshields>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:apothecarybeemorestuffs>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:customtippedarrows>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:aoadimensionsrandomloot>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:mythicprocessorchemreactor>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:mythicprocessorfluidinfuser>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-
-
 
 
 

@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    1479261109,
+    81569973
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "xreliquary:potion_essence",
+        "tag:10": {
+          "effects:9": {
+            "0:10": {
+              "duration:3": 1,
+              "name:8": "minecraft:instant_damage",
+              "potency:3": 8
+            }
+          }
+        }
+      },
+      "name:8": "药师药水"
+    }
+  },
+  "questID:3": 412275932,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "xreliquary:potion_essence",
+          "tag:10": {
+            "effects:9": {
+              "0:10": {
+                "duration:3": 1,
+                "name:8": "minecraft:instant_damage",
+                "potency:3": 8
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

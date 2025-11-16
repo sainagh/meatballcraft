@@ -713,6 +713,8 @@ octuplecompressedalchemicalspark.register();
 
 
 
+
+
 var alchemicalclathrate = VanillaFactory.createItem("alchemical_clathrate");
 alchemicalclathrate.maxStackSize = 64;
 alchemicalclathrate.beaconPayment = false;
@@ -757,3 +759,574 @@ var octuplecompressedalchemicalclathrate = VanillaFactory.createItem("octuple_co
 octuplecompressedalchemicalclathrate.maxStackSize = 64;
 octuplecompressedalchemicalclathrate.beaconPayment = false;
 octuplecompressedalchemicalclathrate.register();
+
+
+
+
+
+
+
+
+
+
+
+
+var alchemicalcore = VanillaFactory.createItem("alchemical_core");
+alchemicalcore.maxStackSize = 64;
+alchemicalcore.beaconPayment = false;
+alchemicalcore.register();
+
+var compressedalchemicalcore = VanillaFactory.createItem("compressed_alchemical_core");
+compressedalchemicalcore.maxStackSize = 64;
+compressedalchemicalcore.beaconPayment = false;
+compressedalchemicalcore.register();
+
+var doublecompressedalchemicalcore = VanillaFactory.createItem("double_compressed_alchemical_core");
+doublecompressedalchemicalcore.maxStackSize = 64;
+doublecompressedalchemicalcore.beaconPayment = false;
+doublecompressedalchemicalcore.register();
+
+var triplecompressedalchemicalcore = VanillaFactory.createItem("triple_compressed_alchemical_core");
+triplecompressedalchemicalcore.maxStackSize = 64;
+triplecompressedalchemicalcore.beaconPayment = false;
+triplecompressedalchemicalcore.register();
+
+var quadruplecompressedalchemicalcore = VanillaFactory.createItem("quadruple_compressed_alchemical_core");
+quadruplecompressedalchemicalcore.maxStackSize = 64;
+quadruplecompressedalchemicalcore.beaconPayment = false;
+quadruplecompressedalchemicalcore.register();
+
+var quintuplecompressedalchemicalcore = VanillaFactory.createItem("quintuple_compressed_alchemical_core");
+quintuplecompressedalchemicalcore.maxStackSize = 64;
+quintuplecompressedalchemicalcore.beaconPayment = false;
+quintuplecompressedalchemicalcore.register();
+
+var sextuplecompressedalchemicalcore = VanillaFactory.createItem("sextuple_compressed_alchemical_core");
+sextuplecompressedalchemicalcore.maxStackSize = 64;
+sextuplecompressedalchemicalcore.beaconPayment = false;
+sextuplecompressedalchemicalcore.register();
+
+var septuplecompressedalchemicalcore = VanillaFactory.createItem("septuple_compressed_alchemical_core");
+septuplecompressedalchemicalcore.maxStackSize = 64;
+septuplecompressedalchemicalcore.beaconPayment = false;
+septuplecompressedalchemicalcore.register();
+
+var octuplecompressedalchemicalcore = VanillaFactory.createItem("octuple_compressed_alchemical_core");
+octuplecompressedalchemicalcore.maxStackSize = 64;
+octuplecompressedalchemicalcore.beaconPayment = false;
+octuplecompressedalchemicalcore.register();
+
+var nonuplecompressedalchemicalcore = VanillaFactory.createItem("nonuple_compressed_alchemical_core");
+nonuplecompressedalchemicalcore.maxStackSize = 64;
+nonuplecompressedalchemicalcore.beaconPayment = false;
+nonuplecompressedalchemicalcore.register();
+
+
+
+
+
+
+
+var alchemicalascension = VanillaFactory.createItem("alchemical_ascension");
+alchemicalascension.maxStackSize = 64;
+alchemicalascension.beaconPayment = false;
+alchemicalascension.register();
+
+var compressedalchemicalascension = VanillaFactory.createItem("compressed_alchemical_ascension");
+compressedalchemicalascension.maxStackSize = 64;
+compressedalchemicalascension.beaconPayment = false;
+compressedalchemicalascension.register();
+
+var doublecompressedalchemicalascension = VanillaFactory.createItem("double_compressed_alchemical_ascension");
+doublecompressedalchemicalascension.maxStackSize = 64;
+doublecompressedalchemicalascension.beaconPayment = false;
+doublecompressedalchemicalascension.register();
+
+var triplecompressedalchemicalascension = VanillaFactory.createItem("triple_compressed_alchemical_ascension");
+triplecompressedalchemicalascension.maxStackSize = 64;
+triplecompressedalchemicalascension.beaconPayment = false;
+triplecompressedalchemicalascension.register();
+
+var quadruplecompressedalchemicalascension = VanillaFactory.createItem("quadruple_compressed_alchemical_ascension");
+quadruplecompressedalchemicalascension.maxStackSize = 64;
+quadruplecompressedalchemicalascension.beaconPayment = false;
+quadruplecompressedalchemicalascension.register();
+
+var quintuplecompressedalchemicalascension = VanillaFactory.createItem("quintuple_compressed_alchemical_ascension");
+quintuplecompressedalchemicalascension.maxStackSize = 64;
+quintuplecompressedalchemicalascension.beaconPayment = false;
+quintuplecompressedalchemicalascension.register();
+
+var sextuplecompressedalchemicalascension = VanillaFactory.createItem("sextuple_compressed_alchemical_ascension");
+sextuplecompressedalchemicalascension.maxStackSize = 64;
+sextuplecompressedalchemicalascension.beaconPayment = false;
+sextuplecompressedalchemicalascension.register();
+
+var septuplecompressedalchemicalascension = VanillaFactory.createItem("septuple_compressed_alchemical_ascension");
+septuplecompressedalchemicalascension.maxStackSize = 64;
+septuplecompressedalchemicalascension.beaconPayment = false;
+septuplecompressedalchemicalascension.register();
+
+var octuplecompressedalchemicalascension = VanillaFactory.createItem("octuple_compressed_alchemical_ascension");
+octuplecompressedalchemicalascension.maxStackSize = 64;
+octuplecompressedalchemicalascension.beaconPayment = false;
+octuplecompressedalchemicalascension.register();
+
+var nonuplecompressedalchemicalascension = VanillaFactory.createItem("nonuple_compressed_alchemical_ascension");
+nonuplecompressedalchemicalascension.maxStackSize = 64;
+nonuplecompressedalchemicalascension.beaconPayment = false;
+nonuplecompressedalchemicalascension.register();
+
+
+
+
+
+
+
+
+
+var alchemicalwhisper = VanillaFactory.createItem("alchemical_whisper");
+alchemicalwhisper.maxStackSize = 64;
+alchemicalwhisper.beaconPayment = false;
+alchemicalwhisper.register();
+
+var compressedalchemicalwhisper = VanillaFactory.createItem("compressed_alchemical_whisper");
+compressedalchemicalwhisper.maxStackSize = 64;
+compressedalchemicalwhisper.beaconPayment = false;
+compressedalchemicalwhisper.register();
+
+var doublecompressedalchemicalwhisper = VanillaFactory.createItem("double_compressed_alchemical_whisper");
+doublecompressedalchemicalwhisper.maxStackSize = 64;
+doublecompressedalchemicalwhisper.beaconPayment = false;
+doublecompressedalchemicalwhisper.register();
+
+var triplecompressedalchemicalwhisper = VanillaFactory.createItem("triple_compressed_alchemical_whisper");
+triplecompressedalchemicalwhisper.maxStackSize = 64;
+triplecompressedalchemicalwhisper.beaconPayment = false;
+triplecompressedalchemicalwhisper.register();
+
+var quadruplecompressedalchemicalwhisper = VanillaFactory.createItem("quadruple_compressed_alchemical_whisper");
+quadruplecompressedalchemicalwhisper.maxStackSize = 64;
+quadruplecompressedalchemicalwhisper.beaconPayment = false;
+quadruplecompressedalchemicalwhisper.register();
+
+var quintuplecompressedalchemicalwhisper = VanillaFactory.createItem("quintuple_compressed_alchemical_whisper");
+quintuplecompressedalchemicalwhisper.maxStackSize = 64;
+quintuplecompressedalchemicalwhisper.beaconPayment = false;
+quintuplecompressedalchemicalwhisper.register();
+
+var sextuplecompressedalchemicalwhisper = VanillaFactory.createItem("sextuple_compressed_alchemical_whisper");
+sextuplecompressedalchemicalwhisper.maxStackSize = 64;
+sextuplecompressedalchemicalwhisper.beaconPayment = false;
+sextuplecompressedalchemicalwhisper.register();
+
+var septuplecompressedalchemicalwhisper = VanillaFactory.createItem("septuple_compressed_alchemical_whisper");
+septuplecompressedalchemicalwhisper.maxStackSize = 64;
+septuplecompressedalchemicalwhisper.beaconPayment = false;
+septuplecompressedalchemicalwhisper.register();
+
+var octuplecompressedalchemicalwhisper = VanillaFactory.createItem("octuple_compressed_alchemical_whisper");
+octuplecompressedalchemicalwhisper.maxStackSize = 64;
+octuplecompressedalchemicalwhisper.beaconPayment = false;
+octuplecompressedalchemicalwhisper.register();
+
+var nonuplecompressedalchemicalwhisper = VanillaFactory.createItem("nonuple_compressed_alchemical_whisper");
+nonuplecompressedalchemicalwhisper.maxStackSize = 64;
+nonuplecompressedalchemicalwhisper.beaconPayment = false;
+nonuplecompressedalchemicalwhisper.register();
+
+
+
+
+
+
+
+
+
+
+
+
+var alchemicalrecursion = VanillaFactory.createItem("alchemical_recursion");
+alchemicalrecursion.maxStackSize = 64;
+alchemicalrecursion.beaconPayment = false;
+alchemicalrecursion.register();
+
+var compressedalchemicalrecursion = VanillaFactory.createItem("compressed_alchemical_recursion");
+compressedalchemicalrecursion.maxStackSize = 64;
+compressedalchemicalrecursion.beaconPayment = false;
+compressedalchemicalrecursion.register();
+
+var doublecompressedalchemicalrecursion = VanillaFactory.createItem("double_compressed_alchemical_recursion");
+doublecompressedalchemicalrecursion.maxStackSize = 64;
+doublecompressedalchemicalrecursion.beaconPayment = false;
+doublecompressedalchemicalrecursion.register();
+
+var triplecompressedalchemicalrecursion = VanillaFactory.createItem("triple_compressed_alchemical_recursion");
+triplecompressedalchemicalrecursion.maxStackSize = 64;
+triplecompressedalchemicalrecursion.beaconPayment = false;
+triplecompressedalchemicalrecursion.register();
+
+var quadruplecompressedalchemicalrecursion = VanillaFactory.createItem("quadruple_compressed_alchemical_recursion");
+quadruplecompressedalchemicalrecursion.maxStackSize = 64;
+quadruplecompressedalchemicalrecursion.beaconPayment = false;
+quadruplecompressedalchemicalrecursion.register();
+
+var quintuplecompressedalchemicalrecursion = VanillaFactory.createItem("quintuple_compressed_alchemical_recursion");
+quintuplecompressedalchemicalrecursion.maxStackSize = 64;
+quintuplecompressedalchemicalrecursion.beaconPayment = false;
+quintuplecompressedalchemicalrecursion.register();
+
+var sextuplecompressedalchemicalrecursion = VanillaFactory.createItem("sextuple_compressed_alchemical_recursion");
+sextuplecompressedalchemicalrecursion.maxStackSize = 64;
+sextuplecompressedalchemicalrecursion.beaconPayment = false;
+sextuplecompressedalchemicalrecursion.register();
+
+var septuplecompressedalchemicalrecursion = VanillaFactory.createItem("septuple_compressed_alchemical_recursion");
+septuplecompressedalchemicalrecursion.maxStackSize = 64;
+septuplecompressedalchemicalrecursion.beaconPayment = false;
+septuplecompressedalchemicalrecursion.register();
+
+var octuplecompressedalchemicalrecursion = VanillaFactory.createItem("octuple_compressed_alchemical_recursion");
+octuplecompressedalchemicalrecursion.maxStackSize = 64;
+octuplecompressedalchemicalrecursion.beaconPayment = false;
+octuplecompressedalchemicalrecursion.register();
+
+var nonuplecompressedalchemicalrecursion = VanillaFactory.createItem("nonuple_compressed_alchemical_recursion");
+nonuplecompressedalchemicalrecursion.maxStackSize = 64;
+nonuplecompressedalchemicalrecursion.beaconPayment = false;
+nonuplecompressedalchemicalrecursion.register();
+
+var decuplecompressedalchemicalrecursion = VanillaFactory.createItem("decuple_compressed_alchemical_recursion");
+decuplecompressedalchemicalrecursion.maxStackSize = 64;
+decuplecompressedalchemicalrecursion.beaconPayment = false;
+decuplecompressedalchemicalrecursion.register();
+
+
+
+
+
+
+
+
+var alchemicalideal = VanillaFactory.createItem("alchemical_ideal");
+alchemicalideal.maxStackSize = 64;
+alchemicalideal.beaconPayment = false;
+alchemicalideal.register();
+
+var compressedalchemicalideal = VanillaFactory.createItem("compressed_alchemical_ideal");
+compressedalchemicalideal.maxStackSize = 64;
+compressedalchemicalideal.beaconPayment = false;
+compressedalchemicalideal.register();
+
+var doublecompressedalchemicalideal = VanillaFactory.createItem("double_compressed_alchemical_ideal");
+doublecompressedalchemicalideal.maxStackSize = 64;
+doublecompressedalchemicalideal.beaconPayment = false;
+doublecompressedalchemicalideal.register();
+
+var triplecompressedalchemicalideal = VanillaFactory.createItem("triple_compressed_alchemical_ideal");
+triplecompressedalchemicalideal.maxStackSize = 64;
+triplecompressedalchemicalideal.beaconPayment = false;
+triplecompressedalchemicalideal.register();
+
+var quadruplecompressedalchemicalideal = VanillaFactory.createItem("quadruple_compressed_alchemical_ideal");
+quadruplecompressedalchemicalideal.maxStackSize = 64;
+quadruplecompressedalchemicalideal.beaconPayment = false;
+quadruplecompressedalchemicalideal.register();
+
+var quintuplecompressedalchemicalideal = VanillaFactory.createItem("quintuple_compressed_alchemical_ideal");
+quintuplecompressedalchemicalideal.maxStackSize = 64;
+quintuplecompressedalchemicalideal.beaconPayment = false;
+quintuplecompressedalchemicalideal.register();
+
+var sextuplecompressedalchemicalideal = VanillaFactory.createItem("sextuple_compressed_alchemical_ideal");
+sextuplecompressedalchemicalideal.maxStackSize = 64;
+sextuplecompressedalchemicalideal.beaconPayment = false;
+sextuplecompressedalchemicalideal.register();
+
+var septuplecompressedalchemicalideal = VanillaFactory.createItem("septuple_compressed_alchemical_ideal");
+septuplecompressedalchemicalideal.maxStackSize = 64;
+septuplecompressedalchemicalideal.beaconPayment = false;
+septuplecompressedalchemicalideal.register();
+
+var octuplecompressedalchemicalideal = VanillaFactory.createItem("octuple_compressed_alchemical_ideal");
+octuplecompressedalchemicalideal.maxStackSize = 64;
+octuplecompressedalchemicalideal.beaconPayment = false;
+octuplecompressedalchemicalideal.register();
+
+var nonuplecompressedalchemicalideal = VanillaFactory.createItem("nonuple_compressed_alchemical_ideal");
+nonuplecompressedalchemicalideal.maxStackSize = 64;
+nonuplecompressedalchemicalideal.beaconPayment = false;
+nonuplecompressedalchemicalideal.register();
+
+var decuplecompressedalchemicalideal = VanillaFactory.createItem("decuple_compressed_alchemical_ideal");
+decuplecompressedalchemicalideal.maxStackSize = 64;
+decuplecompressedalchemicalideal.beaconPayment = false;
+decuplecompressedalchemicalideal.register();
+
+
+
+
+
+
+
+
+
+
+var alchemicalconvergence = VanillaFactory.createItem("alchemical_convergence");
+alchemicalconvergence.maxStackSize = 64;
+alchemicalconvergence.beaconPayment = false;
+alchemicalconvergence.register();
+
+var compressedalchemicalconvergence = VanillaFactory.createItem("compressed_alchemical_convergence");
+compressedalchemicalconvergence.maxStackSize = 64;
+compressedalchemicalconvergence.beaconPayment = false;
+compressedalchemicalconvergence.register();
+
+var doublecompressedalchemicalconvergence = VanillaFactory.createItem("double_compressed_alchemical_convergence");
+doublecompressedalchemicalconvergence.maxStackSize = 64;
+doublecompressedalchemicalconvergence.beaconPayment = false;
+doublecompressedalchemicalconvergence.register();
+
+var triplecompressedalchemicalconvergence = VanillaFactory.createItem("triple_compressed_alchemical_convergence");
+triplecompressedalchemicalconvergence.maxStackSize = 64;
+triplecompressedalchemicalconvergence.beaconPayment = false;
+triplecompressedalchemicalconvergence.register();
+
+var quadruplecompressedalchemicalconvergence = VanillaFactory.createItem("quadruple_compressed_alchemical_convergence");
+quadruplecompressedalchemicalconvergence.maxStackSize = 64;
+quadruplecompressedalchemicalconvergence.beaconPayment = false;
+quadruplecompressedalchemicalconvergence.register();
+
+var quintuplecompressedalchemicalconvergence = VanillaFactory.createItem("quintuple_compressed_alchemical_convergence");
+quintuplecompressedalchemicalconvergence.maxStackSize = 64;
+quintuplecompressedalchemicalconvergence.beaconPayment = false;
+quintuplecompressedalchemicalconvergence.register();
+
+var sextuplecompressedalchemicalconvergence = VanillaFactory.createItem("sextuple_compressed_alchemical_convergence");
+sextuplecompressedalchemicalconvergence.maxStackSize = 64;
+sextuplecompressedalchemicalconvergence.beaconPayment = false;
+sextuplecompressedalchemicalconvergence.register();
+
+var septuplecompressedalchemicalconvergence = VanillaFactory.createItem("septuple_compressed_alchemical_convergence");
+septuplecompressedalchemicalconvergence.maxStackSize = 64;
+septuplecompressedalchemicalconvergence.beaconPayment = false;
+septuplecompressedalchemicalconvergence.register();
+
+var octuplecompressedalchemicalconvergence = VanillaFactory.createItem("octuple_compressed_alchemical_convergence");
+octuplecompressedalchemicalconvergence.maxStackSize = 64;
+octuplecompressedalchemicalconvergence.beaconPayment = false;
+octuplecompressedalchemicalconvergence.register();
+
+var nonuplecompressedalchemicalconvergence = VanillaFactory.createItem("nonuple_compressed_alchemical_convergence");
+nonuplecompressedalchemicalconvergence.maxStackSize = 64;
+nonuplecompressedalchemicalconvergence.beaconPayment = false;
+nonuplecompressedalchemicalconvergence.register();
+
+var decuplecompressedalchemicalconvergence = VanillaFactory.createItem("decuple_compressed_alchemical_convergence");
+decuplecompressedalchemicalconvergence.maxStackSize = 64;
+decuplecompressedalchemicalconvergence.beaconPayment = false;
+decuplecompressedalchemicalconvergence.register();
+
+
+
+
+
+var alchemicalunleashing = VanillaFactory.createItem("alchemical_unleashing");
+alchemicalunleashing.maxStackSize = 64;
+alchemicalunleashing.beaconPayment = false;
+alchemicalunleashing.register();
+
+var compressedalchemicalunleashing = VanillaFactory.createItem("compressed_alchemical_unleashing");
+compressedalchemicalunleashing.maxStackSize = 64;
+compressedalchemicalunleashing.beaconPayment = false;
+compressedalchemicalunleashing.register();
+
+var doublecompressedalchemicalunleashing = VanillaFactory.createItem("double_compressed_alchemical_unleashing");
+doublecompressedalchemicalunleashing.maxStackSize = 64;
+doublecompressedalchemicalunleashing.beaconPayment = false;
+doublecompressedalchemicalunleashing.register();
+
+var triplecompressedalchemicalunleashing = VanillaFactory.createItem("triple_compressed_alchemical_unleashing");
+triplecompressedalchemicalunleashing.maxStackSize = 64;
+triplecompressedalchemicalunleashing.beaconPayment = false;
+triplecompressedalchemicalunleashing.register();
+
+var quadruplecompressedalchemicalunleashing = VanillaFactory.createItem("quadruple_compressed_alchemical_unleashing");
+quadruplecompressedalchemicalunleashing.maxStackSize = 64;
+quadruplecompressedalchemicalunleashing.beaconPayment = false;
+quadruplecompressedalchemicalunleashing.register();
+
+var quintuplecompressedalchemicalunleashing = VanillaFactory.createItem("quintuple_compressed_alchemical_unleashing");
+quintuplecompressedalchemicalunleashing.maxStackSize = 64;
+quintuplecompressedalchemicalunleashing.beaconPayment = false;
+quintuplecompressedalchemicalunleashing.register();
+
+var sextuplecompressedalchemicalunleashing = VanillaFactory.createItem("sextuple_compressed_alchemical_unleashing");
+sextuplecompressedalchemicalunleashing.maxStackSize = 64;
+sextuplecompressedalchemicalunleashing.beaconPayment = false;
+sextuplecompressedalchemicalunleashing.register();
+
+var septuplecompressedalchemicalunleashing = VanillaFactory.createItem("septuple_compressed_alchemical_unleashing");
+septuplecompressedalchemicalunleashing.maxStackSize = 64;
+septuplecompressedalchemicalunleashing.beaconPayment = false;
+septuplecompressedalchemicalunleashing.register();
+
+var octuplecompressedalchemicalunleashing = VanillaFactory.createItem("octuple_compressed_alchemical_unleashing");
+octuplecompressedalchemicalunleashing.maxStackSize = 64;
+octuplecompressedalchemicalunleashing.beaconPayment = false;
+octuplecompressedalchemicalunleashing.register();
+
+var nonuplecompressedalchemicalunleashing = VanillaFactory.createItem("nonuple_compressed_alchemical_unleashing");
+nonuplecompressedalchemicalunleashing.maxStackSize = 64;
+nonuplecompressedalchemicalunleashing.beaconPayment = false;
+nonuplecompressedalchemicalunleashing.register();
+
+var decuplecompressedalchemicalunleashing = VanillaFactory.createItem("decuple_compressed_alchemical_unleashing");
+decuplecompressedalchemicalunleashing.maxStackSize = 64;
+decuplecompressedalchemicalunleashing.beaconPayment = false;
+decuplecompressedalchemicalunleashing.register();
+
+var endecuplecompressedalchemicalunleashing = VanillaFactory.createItem("endecuple_compressed_alchemical_unleashing");
+endecuplecompressedalchemicalunleashing.maxStackSize = 64;
+endecuplecompressedalchemicalunleashing.beaconPayment = false;
+endecuplecompressedalchemicalunleashing.register();
+
+
+
+
+
+
+
+
+
+var alchemicaltransmutation = VanillaFactory.createItem("alchemical_transmutation");
+alchemicaltransmutation.maxStackSize = 64;
+alchemicaltransmutation.beaconPayment = false;
+alchemicaltransmutation.register();
+
+var compressedalchemicaltransmutation = VanillaFactory.createItem("compressed_alchemical_transmutation");
+compressedalchemicaltransmutation.maxStackSize = 64;
+compressedalchemicaltransmutation.beaconPayment = false;
+compressedalchemicaltransmutation.register();
+
+var doublecompressedalchemicaltransmutation = VanillaFactory.createItem("double_compressed_alchemical_transmutation");
+doublecompressedalchemicaltransmutation.maxStackSize = 64;
+doublecompressedalchemicaltransmutation.beaconPayment = false;
+doublecompressedalchemicaltransmutation.register();
+
+var triplecompressedalchemicaltransmutation = VanillaFactory.createItem("triple_compressed_alchemical_transmutation");
+triplecompressedalchemicaltransmutation.maxStackSize = 64;
+triplecompressedalchemicaltransmutation.beaconPayment = false;
+triplecompressedalchemicaltransmutation.register();
+
+var quadruplecompressedalchemicaltransmutation = VanillaFactory.createItem("quadruple_compressed_alchemical_transmutation");
+quadruplecompressedalchemicaltransmutation.maxStackSize = 64;
+quadruplecompressedalchemicaltransmutation.beaconPayment = false;
+quadruplecompressedalchemicaltransmutation.register();
+
+var quintuplecompressedalchemicaltransmutation = VanillaFactory.createItem("quintuple_compressed_alchemical_transmutation");
+quintuplecompressedalchemicaltransmutation.maxStackSize = 64;
+quintuplecompressedalchemicaltransmutation.beaconPayment = false;
+quintuplecompressedalchemicaltransmutation.register();
+
+var sextuplecompressedalchemicaltransmutation = VanillaFactory.createItem("sextuple_compressed_alchemical_transmutation");
+sextuplecompressedalchemicaltransmutation.maxStackSize = 64;
+sextuplecompressedalchemicaltransmutation.beaconPayment = false;
+sextuplecompressedalchemicaltransmutation.register();
+
+var septuplecompressedalchemicaltransmutation = VanillaFactory.createItem("septuple_compressed_alchemical_transmutation");
+septuplecompressedalchemicaltransmutation.maxStackSize = 64;
+septuplecompressedalchemicaltransmutation.beaconPayment = false;
+septuplecompressedalchemicaltransmutation.register();
+
+var octuplecompressedalchemicaltransmutation = VanillaFactory.createItem("octuple_compressed_alchemical_transmutation");
+octuplecompressedalchemicaltransmutation.maxStackSize = 64;
+octuplecompressedalchemicaltransmutation.beaconPayment = false;
+octuplecompressedalchemicaltransmutation.register();
+
+var nonuplecompressedalchemicaltransmutation = VanillaFactory.createItem("nonuple_compressed_alchemical_transmutation");
+nonuplecompressedalchemicaltransmutation.maxStackSize = 64;
+nonuplecompressedalchemicaltransmutation.beaconPayment = false;
+nonuplecompressedalchemicaltransmutation.register();
+
+var decuplecompressedalchemicaltransmutation = VanillaFactory.createItem("decuple_compressed_alchemical_transmutation");
+decuplecompressedalchemicaltransmutation.maxStackSize = 64;
+decuplecompressedalchemicaltransmutation.beaconPayment = false;
+decuplecompressedalchemicaltransmutation.register();
+
+var endecuplecompressedalchemicaltransmutation = VanillaFactory.createItem("endecuple_compressed_alchemical_transmutation");
+endecuplecompressedalchemicaltransmutation.maxStackSize = 64;
+endecuplecompressedalchemicaltransmutation.beaconPayment = false;
+endecuplecompressedalchemicaltransmutation.register();
+
+
+
+
+
+
+
+
+var alchemicalfractal = VanillaFactory.createItem("alchemical_fractal");
+alchemicalfractal.maxStackSize = 64;
+alchemicalfractal.beaconPayment = false;
+alchemicalfractal.register();
+
+var compressedalchemicalfractal = VanillaFactory.createItem("compressed_alchemical_fractal");
+compressedalchemicalfractal.maxStackSize = 64;
+compressedalchemicalfractal.beaconPayment = false;
+compressedalchemicalfractal.register();
+
+var doublecompressedalchemicalfractal = VanillaFactory.createItem("double_compressed_alchemical_fractal");
+doublecompressedalchemicalfractal.maxStackSize = 64;
+doublecompressedalchemicalfractal.beaconPayment = false;
+doublecompressedalchemicalfractal.register();
+
+var triplecompressedalchemicalfractal = VanillaFactory.createItem("triple_compressed_alchemical_fractal");
+triplecompressedalchemicalfractal.maxStackSize = 64;
+triplecompressedalchemicalfractal.beaconPayment = false;
+triplecompressedalchemicalfractal.register();
+
+var quadruplecompressedalchemicalfractal = VanillaFactory.createItem("quadruple_compressed_alchemical_fractal");
+quadruplecompressedalchemicalfractal.maxStackSize = 64;
+quadruplecompressedalchemicalfractal.beaconPayment = false;
+quadruplecompressedalchemicalfractal.register();
+
+var quintuplecompressedalchemicalfractal = VanillaFactory.createItem("quintuple_compressed_alchemical_fractal");
+quintuplecompressedalchemicalfractal.maxStackSize = 64;
+quintuplecompressedalchemicalfractal.beaconPayment = false;
+quintuplecompressedalchemicalfractal.register();
+
+var sextuplecompressedalchemicalfractal = VanillaFactory.createItem("sextuple_compressed_alchemical_fractal");
+sextuplecompressedalchemicalfractal.maxStackSize = 64;
+sextuplecompressedalchemicalfractal.beaconPayment = false;
+sextuplecompressedalchemicalfractal.register();
+
+var septuplecompressedalchemicalfractal = VanillaFactory.createItem("septuple_compressed_alchemical_fractal");
+septuplecompressedalchemicalfractal.maxStackSize = 64;
+septuplecompressedalchemicalfractal.beaconPayment = false;
+septuplecompressedalchemicalfractal.register();
+
+var octuplecompressedalchemicalfractal = VanillaFactory.createItem("octuple_compressed_alchemical_fractal");
+octuplecompressedalchemicalfractal.maxStackSize = 64;
+octuplecompressedalchemicalfractal.beaconPayment = false;
+octuplecompressedalchemicalfractal.register();
+
+var nonuplecompressedalchemicalfractal = VanillaFactory.createItem("nonuple_compressed_alchemical_fractal");
+nonuplecompressedalchemicalfractal.maxStackSize = 64;
+nonuplecompressedalchemicalfractal.beaconPayment = false;
+nonuplecompressedalchemicalfractal.register();
+
+var decuplecompressedalchemicalfractal = VanillaFactory.createItem("decuple_compressed_alchemical_fractal");
+decuplecompressedalchemicalfractal.maxStackSize = 64;
+decuplecompressedalchemicalfractal.beaconPayment = false;
+decuplecompressedalchemicalfractal.register();
+
+var endecuplecompressedalchemicalfractal = VanillaFactory.createItem("endecuple_compressed_alchemical_fractal");
+endecuplecompressedalchemicalfractal.maxStackSize = 64;
+endecuplecompressedalchemicalfractal.beaconPayment = false;
+endecuplecompressedalchemicalfractal.register();
+
+var dodecuplecompressedalchemicalfractal = VanillaFactory.createItem("dodecuple_compressed_alchemical_fractal");
+dodecuplecompressedalchemicalfractal.maxStackSize = 64;
+dodecuplecompressedalchemicalfractal.beaconPayment = false;
+dodecuplecompressedalchemicalfractal.register();

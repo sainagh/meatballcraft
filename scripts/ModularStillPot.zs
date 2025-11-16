@@ -296,3 +296,71 @@ pulsestilldemonelixir.addFluidOutput(<fluid:demonic_elixir>*48000);
 pulsestilldemonelixir.addFluidOutput(<fluid:fiery_unguent>*8000);
 pulsestilldemonelixir.addFluidOutput(<fluid:demonic_tincture>*8000);
 pulsestilldemonelixir.build();
+
+
+
+
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:oak_spirit>, <bewitchment:empty_jar>, <fluid:oak_spirit>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:spruce_heart>, <bewitchment:empty_jar>, <fluid:spruce_heart>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:cloudy_oil>, <bewitchment:empty_jar>, <fluid:cloudy_oil>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:acacia_resin>, <bewitchment:empty_jar>, <fluid:acacia_resin>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:ebb_of_death>, <bewitchment:empty_jar>, <fluid:ebb_of_death>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:droplet_of_wisdom>, <bewitchment:empty_jar>, <fluid:droplet_of_wisdom>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:liquid_witchcraft>, <bewitchment:empty_jar>, <fluid:liquid_witchcraft>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:essence_of_vitality>, <bewitchment:empty_jar>, <fluid:essence_of_vitality>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:cleansing_balm>, <bewitchment:empty_jar>, <fluid:cleansing_balm>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:demonic_elixir>, <bewitchment:empty_jar>, <fluid:demonic_elixir>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:fiery_unguent>, <bewitchment:empty_jar>, <fluid:fiery_unguent>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:swirl_of_depths>, <bewitchment:empty_jar>, <fluid:swirl_of_depths>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:oil_of_vitriol>, <bewitchment:empty_jar>, <fluid:oil_of_vitriol>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:otherworldly_tears>, <bewitchment:empty_jar>, <fluid:otherworldly_tears>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:heaven_extract>, <bewitchment:empty_jar>, <fluid:heaven_extract>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:stone_ichor>, <bewitchment:empty_jar>, <fluid:stone_ichor>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:bottled_hellfire>, <minecraft:glass_bottle>, <fluid:hellfire>*1000]);
+
+
+
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:cloudy_oil_bottle>, <minecraft:glass_bottle>, <fluid:cloudy_oil>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:acacia_resin_bottle>, <minecraft:glass_bottle>, <fluid:acacia_resin>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:liquid_witchcraft_bottle>, <minecraft:glass_bottle>, <fluid:liquid_witchcraft>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:cleansing_balm_bottle>, <minecraft:glass_bottle>, <fluid:cleansing_balm>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:demonic_elixir_bottle>, <minecraft:glass_bottle>, <fluid:demonic_elixir>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:fiery_unguent_bottle>, <minecraft:glass_bottle>, <fluid:fiery_unguent>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:swirl_depths_bottle>, <minecraft:glass_bottle>, <fluid:swirl_of_depths>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:otherwordly_tears_bottle>, <minecraft:glass_bottle>, <fluid:otherworldly_tears>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:heaven_extract_bottle>, <minecraft:glass_bottle>, <fluid:heaven_extract>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:stone_ichor_bottle>, <minecraft:glass_bottle>, <fluid:stone_ichor>*1000]);
+
+
+
+
+
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:hellfire>*1000, <bewitchment:bottled_hellfire>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:spruce_heart>*1000, <bewitchment:spruce_heart>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:cloudy_oil>*1000, <bewitchment:cloudy_oil>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:acacia_resin>*1000, <bewitchment:acacia_resin>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:ebb_of_death>*1000, <bewitchment:ebb_of_death>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:droplet_of_wisdom>*1000, <bewitchment:droplet_of_wisdom>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:liquid_witchcraft>*1000, <bewitchment:liquid_witchcraft>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:essence_of_vitality>*1000, <bewitchment:essence_of_vitality>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:cleansing_balm>*1000, <bewitchment:cleansing_balm>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:demonic_elixir>*1000, <bewitchment:demonic_elixir>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:fiery_unguent>*1000, <bewitchment:fiery_unguent>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:swirl_of_depths>*1000, <bewitchment:swirl_of_depths>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:oil_of_vitriol>*1000, <bewitchment:oil_of_vitriol>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:otherworldly_tears>*1000, <bewitchment:otherworldly_tears>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:heaven_extract>*1000, <bewitchment:heaven_extract>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:stone_ichor>*1000, <bewitchment:stone_ichor>]);
+
+
+
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:cloudy_oil>*1000, <contenttweaker:cloudy_oil_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:acacia_resin>*1000, <contenttweaker:acacia_resin_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:liquid_witchcraft>*1000, <contenttweaker:liquid_witchcraft_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:cleansing_balm>*1000, <contenttweaker:cleansing_balm_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:demonic_elixir>*1000, <contenttweaker:demonic_elixir_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:fiery_unguent>*1000, <contenttweaker:fiery_unguent_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:swirl_of_depths>*1000, <contenttweaker:swirl_depths_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:otherworldly_tears>*1000, <contenttweaker:otherwordly_tears_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:heaven_extract>*1000, <contenttweaker:heaven_extract_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:stone_ichor>*1000, <contenttweaker:stone_ichor_bottle>]);

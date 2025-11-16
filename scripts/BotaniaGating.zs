@@ -397,3 +397,8 @@ recipes.addShaped(<contenttweaker:pale_metal>*6,
 [<contenttweaker:pale_metal>, <contenttweaker:recursive_mind_shield>, <contenttweaker:pale_metal>],
 [<contenttweaker:greater_mana_core>, <contenttweaker:greater_mana_core>, <contenttweaker:greater_mana_core>]]);
 
+recipes.addShaped(<contenttweaker:pale_metal>*24,
+[[<contenttweaker:greater_mana_core>, <contenttweaker:yggdrasil_wood>, <contenttweaker:greater_mana_core>],
+[<contenttweaker:pale_metal>, <contenttweaker:recursive_mind_shield>, <contenttweaker:pale_metal>],
+[<contenttweaker:greater_mana_core>, <contenttweaker:yggdrasil_wood>, <contenttweaker:greater_mana_core>]]);
+

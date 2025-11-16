@@ -283,7 +283,7 @@ collapsergalactic.build();
 
 val collapserprojector = RecipeBuilder.newBuilder("collapserprojector","relativistic_collapser",1000);
 collapserprojector.addEnergyPerTickInput(70000000);
-collapserprojector.addItemInput(<extendedcrafting:singularity_custom:2042>*512);
+collapserprojector.addItemInput(<extendedcrafting:singularity_custom:2042>*64);
 collapserprojector.addItemInput(<contenttweaker:everlasting_fusor>);
 collapserprojector.addItemOutput(<contenttweaker:projector_gem_relativistic_condensate>);
 collapserprojector.build();

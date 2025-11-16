@@ -7,7 +7,11 @@
       "desc:8": "§7§o元始加速器用于将元始珍珠变为元始晶粒。\n\n加速器是一个可自定义长度的多方块结构，在JEI中查看多方块预览，轨道越长，产出的晶粒就越多（收益递减）。最大长度为10格。\n\n可用管道将元始珍珠输入到加速器内。\n\n使用红石脉冲来激活该机器，元始晶粒会在终端附近掉落。\n\n晶粒可通过处理重新变为元始珍珠，需要一些坩埚自动化。",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "thaumicwonders:primordial_accelerator"
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "thaumicwonders:primordial_accelerator",
+          "orig_meta:3": 0
+        }
       },
       "name:8": "元始加速器"
     }
@@ -19,15 +23,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "thaumicwonders:primordial_accelerator"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "thaumicwonders:primordial_accelerator",
+            "orig_meta:3": 0
+          }
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "thaumicwonders:primordial_accelerator_tunnel"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "thaumicwonders:primordial_accelerator_tunnel",
+            "orig_meta:3": 0
+          }
         },
         "2:10": {
           "Count:3": 1,
-          "id:8": "thaumicwonders:primordial_accelerator_terminus"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "thaumicwonders:primordial_accelerator_terminus",
+            "orig_meta:3": 0
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

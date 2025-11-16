@@ -114,3 +114,17 @@ val mythproccentsep112 = RecipeBuilder.newBuilder("mythproccentsep112","mythic_p
 val mythproccentsep113 = RecipeBuilder.newBuilder("mythproccentsep113","mythic_processor_centrifuge",2);	mythproccentsep113.addEnergyPerTickInput(70000);	mythproccentsep113.addItemInput(<extrabees:honey_comb:53>);	mythproccentsep113.addItemOutput(<extrabees:misc:3>);	mythproccentsep113.addItemOutput(<forestry:honey_drop>);	mythproccentsep113.addItemOutput(<forestry:beeswax>);	mythproccentsep113.addItemOutput(<minecraft:dirt>);	mythproccentsep113.build();
 val mythproccentsep114 = RecipeBuilder.newBuilder("mythproccentsep114","mythic_processor_centrifuge",2);	mythproccentsep114.addEnergyPerTickInput(70000);	mythproccentsep114.addItemInput(<extrabees:honey_comb:52>);	mythproccentsep114.addItemOutput(<extrabees:misc:2>);	mythproccentsep114.addItemOutput(<forestry:honey_drop>);	mythproccentsep114.addItemOutput(<forestry:beeswax>);	mythproccentsep114.addItemOutput(<minecraft:dirt>);	mythproccentsep114.build();
 val mythproccentsep115 = RecipeBuilder.newBuilder("mythproccentsep115","mythic_processor_centrifuge",2);	mythproccentsep115.addEnergyPerTickInput(70000);	mythproccentsep115.addItemInput(<extrabees:honey_comb:56>);	mythproccentsep115.addItemOutput(<extrabees:misc:1>);	mythproccentsep115.addItemOutput(<forestry:honey_drop>);	mythproccentsep115.addItemOutput(<forestry:beeswax>);	mythproccentsep115.addItemOutput(<minecraft:dirt>);	mythproccentsep115.build();
+
+
+
+
+
+
+val mythproccentsep116 = RecipeBuilder.newBuilder("mythproccentsep116","mythic_processor_centrifuge",2);	
+mythproccentsep116.addEnergyPerTickInput(70000);	
+mythproccentsep116.addItemInput(<forestry:bee_combs:6>);	
+mythproccentsep116.addItemOutput(<forestry:propolis:3>);	
+mythproccentsep116.addItemOutput(<forestry:honey_drop:0>);	
+mythproccentsep116.addItemOutput(<minecraft:dirt>);	
+mythproccentsep116.addItemOutput(<minecraft:dirt>);	
+mythproccentsep116.build();

@@ -184,3 +184,23 @@ tearofarcana.onBlockHarvestDrops = function(trait, tool, event) {
     }
 };
 tearofarcana.register();
+
+
+
+val giggity = TraitBuilder.create("giggity");
+giggity.color = Color.fromHex("bd42ff").getIntColor(); 
+giggity.localizedName = game.localize("meatballcraft.tconstruct.tool_trait.giggity.name");
+giggity.localizedDescription = game.localize("meatballcraft.tconstruct.tool_trait.giggity.desc");
+giggity.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    // get trait level
+        var traitdata as TraitDataRepresentation = trait.getData(tool);
+        var traitlevel = 0;
+        if (!isNull(traitdata)) {
+            traitlevel = traitdata.level;
+        }
+    if ((Math.random()/traitlevel) < 0.5) {
+        val player as IPlayer = attacker;
+        player.give(itemUtils.getItem("contenttweaker:hard_bone"));
+    }
+};
+giggity.register();
