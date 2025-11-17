@@ -1623,7 +1623,7 @@ val soulaccumemcless11 = RecipeBuilder.newBuilder("soulaccumemcless11","soul_acc
 soulaccumemcless11.addFluidInput(<fluid:recursive_computing_matter>*11);
 soulaccumemcless11.addFluidInput(<fluid:actualizing_fluid>*1);
 soulaccumemcless11.addItemInput(<enderio:item_broken_spawner>.withTag({entityId: "aoa3:ghostine_ancient"}));
-soulaccumemcless11.addItemInput(<contenttweaker:nonuple_compressed_alchemical_recursion>);
+soulaccumemcless11.addItemInput(<contenttweaker:decuple_compressed_alchemical_recursion>);
 soulaccumemcless11.addItemOutput(<contenttweaker:decuple_compressed_alchemical_ideal>*2);
 soulaccumemcless11.build();
 
