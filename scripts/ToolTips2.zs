@@ -1,3 +1,5 @@
+#reloadable
+
 import crafttweaker.item.IItemCondition;
 
 
@@ -1393,8 +1395,6 @@ import crafttweaker.item.IItemCondition;
 
 <soulshardsrespawn:vile_sword>.addTooltip(format.red("Thanks to ChaosStrikez for fixing the script!"));
 
-<contenttweaker:mythic_coil_t2>.addTooltip(format.red("Thanks to Sandman366 for fixing the upgrade script!"));
-
 <aoa3:rosidian_greatblade>.addTooltip(format.red("Can be super-enchanted"));
 
 <tconstruct:clear_glass:0>.addTooltip(format.red("Automate this in the smeltery"));
@@ -1496,10 +1496,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:miniature_pulsar>.addTooltip(format.red("Use the pulsar core"));
 
 <contenttweaker:miniature_star>.addTooltip(format.red("Use the star core"));
-
-<contenttweaker:defined_block>.addTooltip(format.red("You don't have to craft this if you don't want to..."));
-
-<contenttweaker:vibrating_stone>.addTooltip(format.red("Found on Vibe"));
 
 <contenttweaker:resonating_stone>.addTooltip(format.red("Found on Apichisi"));
 
@@ -2610,8 +2606,6 @@ import crafttweaker.item.IItemCondition;
 
 <thaumicenergistics:arcane_terminal>.addTooltip(format.red("WARNINGS: This is very crashy, you shouldn't need to use it much"));
 
-<libvulpes:advstructuremachine>.addTooltip(format.red("HiaggTM had to upgrade his hatch"));
-
 <thaumcraft:vishroom>.addTooltip(format.red("Found in magic forest biomes in the overworld"));
 
 <immersiveengineering:stone_device:1>.addTooltip(format.red("Ignore the cobblestone in the multiblock preview"));
@@ -3171,8 +3165,6 @@ import crafttweaker.item.IItemCondition;
 
 <botania:lokiring>.addTooltip(format.red("WARNING: this may mess up your ability to right click"));
 
-<contenttweaker:energy_hive>.addTooltip(format.red("From the orbital callstone"));
-
 <twilightforest:seeker_bow>.addTooltip(format.red("Dropped by the snow queen in the Twilight Forest"));
 
 <ore:bed>.addTooltip(format.red("WARNING: do not use in the void dimension"));
@@ -3356,8 +3348,6 @@ import crafttweaker.item.IItemCondition;
 <thaumcraft:brain_box>.addTooltip(format.red("Place on the side of a thaumatorium to encode an extra recipe!"));
 
 <thaumadditions:mithrillium_smelter>.addTooltip(format.red("Does not produce any flux"));
-<thaumadditions:adaminite_smelter>.addTooltip(format.red("Does not produce any flux, and has a 120% yield"));
-<thaumadditions:mithminite_smelter>.addTooltip(format.red("Does not produce any flux, and has a 150% yield"));
 
 <thaumcraft:goggles>.addTooltip(format.red("These will let you see essentia in thaumcraft machines, make sure you wear them at all times!"));
 

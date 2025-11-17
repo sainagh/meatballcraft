@@ -1,3 +1,5 @@
+#reloadable
+
 <contenttweaker:plate_clump_mythic>.addTooltip(format.red("You can start automating this after crafting the Alkemia Artifact"));
 
 <aoa3:omni_chestplate>.addTooltip(format.red("Obtained from the explosive expert in creeponia"));
@@ -461,8 +463,6 @@
 <botania:starsword>.addTooltip(format.red("Can be super-enchanted"));
 <aether_legacy:valkyrie_lance>.addTooltip(format.red("Can be super-enchanted"));
 <bloodmagic:bound_sword>.addTooltip(format.red("Can be super-enchanted"));
-
-<contenttweaker:headstone>.addTooltip(format.red("Obtained from the Ancient Wyvern Callstone"));
 
 <contenttweaker:silky_forester_leaf>.addTooltip(format.red("Obtained from breaking Forestry and Binnie leaves from in-world trees using silk touch"));
 
@@ -1439,8 +1439,6 @@
 
 <forestry:pollen_fertile>.addTooltip(format.red("Right click on leaves of the Corresponding Species with a Pollen Collection Kit"));
 
-<contenttweaker:ichorium_catalyst>.addTooltip(format.red("To properly assemble the Impetus Syphons into the Font of Divinity, the diagonal bits of the smaller multiblock should intersect with the larger multiblock"));
-
 <modularmachinery:blockimpetusprovideroutput>.addTooltip(format.red("Use the Impetus Resonator to transfer Impetus"));
 <modularmachinery:blockimpetusproviderinput>.addTooltip(format.red("Use the Impetus Resonator to transfer Impetus"));
 
@@ -1815,101 +1813,14 @@
 <contenttweaker:standard_of_the_loved>.addTooltip(format.red("If you know how to make a Runandor Wormhole, you can duplicate this easily"));
 <contenttweaker:standard_of_the_lover>.addTooltip(format.red("If you know how to make a Runandor Wormhole, you can duplicate this easily"));
 
-
-
 <aoa3:rockbasher_sword>.addTooltip(format.green("Reusable"));
 <contenttweaker:blind_goat_abomination>.addTooltip(format.green("Reusable"));
-
 
 <randomthings:advanceditemcollector>.addTooltip(format.red("WARNING: do not shift click while in the collector GUI, it can delete items"));
 
 <contenttweaker:pure_shadow_bar>.addTooltip(format.red("Dropped by Merkyre in Dustopia"));
 
 <contenttweaker:immortal_bone_dust>.addTooltip(format.red("Dropped by Skull Creatures in Greckon"));
-
-<contenttweaker:energy_hive>.addTooltip(format.red("Multiblock Upgrade, Lathe: Multiplies amounts processed by 16"));
-<thaumadditions:adaminite_block>.addTooltip(format.red("Multiblock Upgrade, Arcane Autoinfuser: increase machine speed by 80%"));
-<thaumadditions:mithminite_block>.addTooltip(format.red("Multiblock Upgrade, Arcane Autoworkbench: 5X Speed"));
-<contenttweaker:ichorium_catalyst>.addTooltip(format.red("Multiblock Upgrade, Arcane Autoworkbench: 20X Speed"));
-<libvulpes:advstructuremachine>.addTooltip(format.red("Multiblock Upgrade, Automatic Starlight Altar: 20X Speed"));
-<contenttweaker:darkstar_collector>.addTooltip(format.red("Multiblock Upgrade, Automatic Starlight Altar: 100X Speed"));
-<contenttweaker:stormlight_collector>.addTooltip(format.red("Multiblock Upgrade, Automatic Starlight Altar: 600X Speed"));
-<extrabotany:manabarrel>.addTooltip(format.red("Multiblock Upgrade, Botanic Condenser: 15X increased output"));
-<contenttweaker:empowered_mazestone>.addTooltip(format.red("Multiblock Upgrade, Carminite Empowerer: 5x speed"));
-<contenttweaker:defined_draconium_block>.addTooltip(format.red("Multiblock Upgrade, Chaotic Condenser: 15X output"));
-<contenttweaker:adamantium_reinforced_petrified_wood>.addTooltip(format.red("Multiblock Upgrade, Cold Iron Forge: 20X speed"));
-<contenttweaker:defined_block>.addTooltip(format.red("Multiblock Upgrade, Definer: 2X output"));
-<contenttweaker:core_of_halite_definition>.addTooltip(format.red("Multiblock Upgrade, Definer: 8X output"));
-<contenttweaker:freedom_definer>.addTooltip(format.red("Multiblock Upgrade, Definer: 16X output"));
-<contenttweaker:wishful_definer>.addTooltip(format.red("Multiblock Upgrade, Definer: 64X output"));
-<contenttweaker:quasar_charged_core_of_definition>.addTooltip(format.red("Multiblock Upgrade, Definer: 256X output"));
-<contenttweaker:fabric_of_the_orb>.addTooltip(format.red("Multiblock Upgrade, Dimensional Stabilizer: 50x speed"));
-<thaumadditions:adaminite_block>.addTooltip(format.red("Multiblock Upgrade, Dragonfire Crucible: 6X speed"));
-<thaumadditions:mithminite_smelter>.addTooltip(format.red("Multiblock Upgrade, Dragonfire Forge: 8X output"));
-<contenttweaker:awakened_electromagnet>.addTooltip(format.red("Multiblock Upgrade, Dragonfire Forge: 64X output"));
-<contenttweaker:fractallite_furnace_core>.addTooltip(format.red("Multiblock Upgrade, Dragonfire Forge: 256X output"));
-<contenttweaker:plated_photonium>.addTooltip(format.red("Multiblock Upgrade, Enchanted Greenhouse: 10X speed"));
-<contenttweaker:vibrating_stone>.addTooltip(format.red("Multiblock Upgrade, Essentia Crystallizer: 4X output"));
-<contenttweaker:echo_warren_stone>.addTooltip(format.red("Multiblock Upgrade, Essentia Crystallizer: 20X output"));
-<contenttweaker:plasma_wood>.addTooltip(format.red("Multiblock Upgrade, Gaia Altar: 6X speed"));
-<nuclearcraft:block_depleted_curium>.addTooltip(format.red("Multiblock Upgrade, Gravitite Enchanter: 95% fluid discount"));
-<contenttweaker:darkstar_collector>.addTooltip(format.red("Multiblock Upgrade, Gravitite Enchanter: 95% fluid discount, 20X speed"));
-<contenttweaker:omothol_containment_stone>.addTooltip(format.red("Multiblock Upgrade, LP Harvester: 5X output"));
-<avaritia:block_resource:0>.addTooltip(format.red("Multiblock Upgrade, Mythic Excavation Reactor: 5X speed"));
-<contenttweaker:mythic_coil_t2>.addTooltip(format.red("Multiblock Upgrade, Mythic Processors: parallelization"));
-<contenttweaker:mythic_coil_t4>.addTooltip(format.red("Multiblock Upgrade, Recursive Processors: parallelization"));
-<contenttweaker:omothol_containment_stone>.addTooltip(format.red("Multiblock Upgrade, PE Sterilizer: 5X output"));
-<contenttweaker:nightmare_block>.addTooltip(format.red("Multiblock Upgrade, Plasmatic Controller: 400X output"));
-<divinerpg:eden_planks>.addTooltip(format.red("Multiblock Upgrade, Plated Carpenter: 10X speed"));
-<divinerpg:eden_planks>.addTooltip(format.red("Multiblock Upgrade, Plated Thermofabricator: 10X speed"));
-<contenttweaker:stone_of_the_wizard>.addTooltip(format.red("Multiblock Upgrade, Sentient Coagulator: 8X Output"));
-<thebetweenlands:pearl_block>.addTooltip(format.red("Multiblock Upgrade, Sterilized Sacrificial Altar: 10X speed"));
-<contenttweaker:gallifreyan_irradiator>.addTooltip(format.red("Multiblock Upgrade, Two-Phase Fission Reactor: 10X speed"));
-<abyssalcraft:ethaxiumbrick:2>.addTooltip(format.red("Multiblock Upgrade, Valonite Gateway: 5X speed"));
-<contenttweaker:elemental_harmonizer>.addTooltip(format.red("Multiblock Upgrade, Wizardry Combiner: 20X speed"));
-<tardis:toyota_hexagon_4>.addTooltip(format.red("Multiblock Upgrade, Mythic Excavation Reactor: 20X speed"));
-<contenttweaker:focused_plasma_collider>.addTooltip(format.red("Multiblock Upgrade, Linear Plasma Accelerator: 10X parallelization"));
-<contenttweaker:superfocused_plasma_collider>.addTooltip(format.red("Multiblock Upgrade, Linear Plasma Accelerator: 100X parallelization"));
-<contenttweaker:hyperfocused_plasma_collider>.addTooltip(format.red("Multiblock Upgrade, Linear Plasma Accelerator: 1000X parallelization"));
-<contenttweaker:halite_bejewelled_ichorium_catalyst>.addTooltip(format.red("Multiblock Upgrade, Thaumic Replicator: 2X fluid output"));
-<contenttweaker:catalyst_of_the_warrens>.addTooltip(format.red("Multiblock Upgrade, Thaumic Replicator: 10X fluid output, 10X speed"));
-<contenttweaker:trinuum_catalyst>.addTooltip(format.red("Multiblock Upgrade, Thaumic Replicator: 50X fluid output, 20X speed"));
-<contenttweaker:infinitely_wishful_catalyst>.addTooltip(format.red("Multiblock Upgrade, Thaumic Replicator: 100X fluid output, 40X speed"));
-<contenttweaker:hihi_irokane_block>.addTooltip(format.red("Multiblock Upgrade, Meteoric Befaller: 8X speed"));
-<contenttweaker:plasma_accelerator_tube>.addTooltip(format.red("Multiblock Upgrade, Particle Accelerator & Mythic Accelerator: 5X speed"));
-<contenttweaker:gallifreyan_neutronium_casing>.addTooltip(format.red("Multiblock Upgrade, Neutronium Cannon & Bombarder: 5X speed"));
-<contenttweaker:quark_neutronium_module>.addTooltip(format.red("Multiblock Upgrade, Quark Decomposer and High Impulse Accelerator: 5X speed"));
-<contenttweaker:well_defined_machine_case>.addTooltip(format.red("Multiblock Upgrade, the CUBE: 5X speed"));
-<contenttweaker:ascended_fluix_etcher>.addTooltip(format.red("Multiblock Upgrade, Processor Clean Room: 10X speed"));
-<contenttweaker:universal_fluix_etcher>.addTooltip(format.red("Multiblock Upgrade, Processor Clean Room: 100X speed"));
-<contenttweaker:naquadah_casing>.addTooltip(format.red("Multiblock Upgrade, Relativistic Collapser: 200X speed"));
-<contenttweaker:dyson_extruder>.addTooltip(format.red("Multiblock Upgrade, Particle Accelerator & Mythic Accelerator: 20X speed"));
-<contenttweaker:trinity_neutronium_casing>.addTooltip(format.red("Multiblock Upgrade, Neutronium Cannon & Bombarder: 20X speed"));
-<contenttweaker:quark_cosmic_module>.addTooltip(format.red("Multiblock Upgrade, Quark Decomposer & High Impulse Accelerator: 20X speed"));
-<contenttweaker:naquadah_casing>.addTooltip(format.red("Multiblock Upgrade, the CUBE: 20X speed"));
-<contenttweaker:miniature_quasar>.addTooltip(format.red("Multiblock Upgrade, Dyson Compressor: 4X output"));
-<contenttweaker:directed_miniature_quasar>.addTooltip(format.red("Multiblock Upgrade, Dyson Compressor: 16X output"));
-<avaritia:block_resource:1>.addTooltip(format.red("Multiblock Upgrade, Steel Thermal Mixer: 10X parallelization"));
-<forge:bucketfilled>.withTag({FluidName: "darkstarlight", Amount: 1000}).addTooltip(format.red("Multiblock Upgrade, Whispering Starlight Fountain: 4X parallelization"));
-<forge:bucketfilled>.withTag({FluidName: "whispering_starlight_of_redemption", Amount: 1000}).addTooltip(format.red("Multiblock Upgrade, Whispering Starlight Fountain: 16X parallelization"));
-<contenttweaker:hypergrowth_actualizer>.addTooltip(format.red("Multiblock Upgrade, Hypergrowth Insolator: 4X output"));
-<contenttweaker:trinity_hypergrowth_component>.addTooltip(format.red("Multiblock Upgrade, Hypergrowth Insolator: 16X output"));
-<contenttweaker:cosmic_hypergrowth_component>.addTooltip(format.red("Multiblock Upgrade, Hypergrowth Insolator: 64X output"));
-<contenttweaker:headstone>.addTooltip(format.red("Multiblock Upgrade, Soul Accumulator: 10X speed"));
-<contenttweaker:sacred_cinders_wood>.addTooltip(format.red("Multiblock Upgrade, Mechanized Coop: 10X output"));
-<contenttweaker:fracturing_stone>.addTooltip(format.red("Multiblock Upgrade, Shadow Fracturer: 8X parallelization, 87.5% fluid discount"));
-<contenttweaker:hungering_machine_case>.addTooltip(format.red("Multiblock Upgrade, ME Mythic Assembler: 5X speed"));
-<contenttweaker:miniature_white_hole>.addTooltip(format.red("Multiblock Upgrade, Chaotic Striker: 2X output"));
-<contenttweaker:sanguine_neural_network>.addTooltip(format.red("Multiblock Upgrade, Hostile Computing Unit: 4X output"));
-<contenttweaker:matrix_plasma_fusor>.addTooltip(format.red("Multiblock Upgrade, Inertial Confinement Reactor: 4X parallelization"));
-<contenttweaker:chromodynamic_condenser>.addTooltip(format.red("Multiblock Upgrade, Quantum Condenser: 4X parallelization"));
-<contenttweaker:ordered_eigenstate_condenser>.addTooltip(format.red("Multiblock Upgrade, Quantum Condenser: 16X parallelization"));
-<contenttweaker:event_horizon_condenser>.addTooltip(format.red("Multiblock Upgrade, Quantum Condenser: 64X parallelization"));
-<contenttweaker:nightmare_machine_case>.addTooltip(format.red("Multiblock Upgrade, Arc Reactor: 4X item output"));
-<contenttweaker:defined_machine_case>.addTooltip(format.red("Multiblock Upgrade, Arc Reactor: 16X item output"));
-<contenttweaker:well_defined_machine_case>.addTooltip(format.red("Multiblock Upgrade, Arc Reactor: 64X item output"));
-<contenttweaker:balanced_machine_casing>.addTooltip(format.red("Multiblock Upgrade, Arc Reactor: 256X item output"));
-
 
 <thebetweenlands:lurker_skin_pouch>.addTooltip(format.red("This will let you bring your items into Vethea (yippee)"));
 <thebetweenlands:lurker_skin_pouch>.addTooltip(format.red("Put your goodies into the pouch"));
@@ -2359,7 +2270,6 @@
 
 <contenttweaker:mythic_coil_t1>.addTooltip(format.red("For Mythic Processors, ME Machinery Output Buses are the fastest way to export items"));
 <contenttweaker:draconium_electromagnet>.addTooltip(format.red("For Mythic Processors, ME Machinery Output Buses are the fastest way to export items"));
-<contenttweaker:awakened_electromagnet>.addTooltip(format.red("For Mythic Processors, ME Machinery Output Buses are the fastest way to export items"));
 
 <contenttweaker:infinite_alchemical_plate>.addTooltip(format.red("Hammer Materials: Parafrosynium Tool Rod, Barathosynium Hammer, Adamantium left Plate, Wrought Iron right Plate"));
 <contenttweaker:infinite_recursive_plate>.addTooltip(format.red("Hammer Materials: Runandium Tool Rod, Orichalcum Hammer, kaiyu left Plate, Neutronium right Plate"));
@@ -2515,9 +2425,6 @@
 
 <aoa3:immortal_banner>.addTooltip(format.red("Obtained from the Token Collector in the Immortallis entrance"));
 
-<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("Thanks to ChaosStrikez for the help implementing this!"));
-<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("Right click while in the overworld to summon a blood magic meteor"));
-<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("This can be automated with a mechanical user, some obsidian, and a bit of setup"));
 
 <contenttweaker:infinite_plate_stamp>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
@@ -2632,16 +2539,9 @@
 
 <contenttweaker:absolutely_autentic_rainbowgen>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 
-<contenttweaker:ascended_fluix_etcher>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
-
 <contenttweaker:stormlight_stone>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 
 <contenttweaker:stone_of_worthiness>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
-
-<contenttweaker:catalyst_of_the_warrens>.addTooltip(format.red("Thanks to NerdySpider for all the multiblock upgrade textures!"));
-<contenttweaker:hyperfocused_plasma_collider>.addTooltip(format.red("Thanks to NerdySpider for all the multiblock upgrade textures!"));
-<contenttweaker:quark_cosmic_module>.addTooltip(format.red("Thanks to NerdySpider for all the multiblock upgrade textures!"));
-<contenttweaker:naquadah_casing>.addTooltip(format.red("Thanks to NerdySpider for all the multiblock upgrade textures!"));
 
 <contenttweaker:hyperuranion_actualizer_naquadah>.addTooltip(format.red("Thanks to NerdySpider for all the Hyperuranion Actualizer textures!"));
 
@@ -3113,8 +3013,6 @@
 <contenttweaker:notes_of_a_mines_yearner>.addTooltip(format.red("Gearing up may take some effort, but it will be worth it!"));
 <contenttweaker:notes_of_a_mines_yearner>.addTooltip(format.red("For suggestions, check out the quests in the Armory and Faber Ferrarius!"));
 
-<contenttweaker:toy_sword>.addTooltip(format.red("Quality of life is always nice to have!"));
-<contenttweaker:toy_sword>.addTooltip(format.red("Check out the quests in Personal Augmentation and Tooling Shmooving suggest lots of useful tools!"));
 
 <contenttweaker:bound_lunar_stone>.addTooltip(format.red("Cutting fluid can be auto-repaired ;)"));
 
@@ -3176,40 +3074,6 @@
 <draconicevolution:crafting_injector:*>.addTooltip(format.red("For increased charging speed, Injectors can be powered through Cryo-Stabilized Fluxducts connected to multiple Flux Points"));
 
 <aoa3:flaming_fury>.addTooltip(format.red("KurryCat is not confused by strange number formats"));
-
-
-
-
-
-
-
-
-<contenttweaker:waytospawnhydra>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:cleanroomprism>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:laststandformula>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:alecsioandcobees>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:energyrepairforlater>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:blueprints>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:firesuperenchantforshields>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:apothecarybeemorestuffs>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:customtippedarrows>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:aoadimensionsrandomloot>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:mythicprocessorchemreactor>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:mythicprocessorfluidinfuser>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-
-
 
 
 
