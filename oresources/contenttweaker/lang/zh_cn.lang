@@ -3922,14 +3922,14 @@ item.contenttweaker.decuple_compressed_alchemical_fractal.name=十重压缩炼�
 item.contenttweaker.endecuple_compressed_alchemical_fractal.name=十一重压缩炼金分形
 item.contenttweaker.dodecuple_compressed_alchemical_fractal.name=十二重压缩炼金分形
 
-item.contenttweaker.trait_bloodsweattears.name=Trait Description: Blood Sweat & Tears
-item.contenttweaker.trait_arcaneextraction.name=Trait Description: Arcane Extraction
-item.contenttweaker.trait_abyssalharvesting.name=Trait Description: Abyssal Harvesting
-item.contenttweaker.trait_dreadfulharvesting.name=Trait Description: Dreadful Harvesting
-item.contenttweaker.trait_omotholharvesting.name=Trait Description: Omothol Harvesting
-item.contenttweaker.trait_willoftheaesir.name=Trait Description: Will of the Aesir
-item.contenttweaker.trait_tearofarcana.name=Trait Description: Tear of Arcana
-item.contenttweaker.trait_giggity.name=Trait Description: Giggity
+item.contenttweaker.trait_bloodsweattears.name=属性描述：血汗与血泪
+item.contenttweaker.trait_arcaneextraction.name=属性描述：秘金提取
+item.contenttweaker.trait_abyssalharvesting.name=属性描述：深渊收割
+item.contenttweaker.trait_dreadfulharvesting.name=属性描述：恐惧收割
+item.contenttweaker.trait_omotholharvesting.name=属性描述：奥穆索收割
+item.contenttweaker.trait_willoftheaesir.name=属性描述：阿萨神族的意志
+item.contenttweaker.trait_tearofarcana.name=属性描述：秘界之泪
+item.contenttweaker.trait_giggity.name=属性描述：Giggity
 
 
 
