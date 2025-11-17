@@ -2256,7 +2256,7 @@
 
 <astralsorcery:blockattunementaltar>.addTooltip(format.red("警告：不要与游戏刻加速手段共用"));
 
-<itemblacklist:blacklisted>.addTooltip(format.red("警告：有时卡在方块状态，将其放入工作台来解除"));
+<itemblacklist:blacklisted>.addTooltip(format.red("警告：有时会卡在锁定状态，将其放入工作台来解除"));
 
 <contenttweaker:ancient_wyvern_trinket>.addTooltip(format.red("右击传送到远古飞龙神殿所在地"));
 
