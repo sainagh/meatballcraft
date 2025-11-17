@@ -1,6 +1,6 @@
 #modloaded bewitchment
 #loader mixin
-#clientonly
+#sideonly client
 
 import native.mezz.jei.api.IModRegistry;
 import native.mezz.jei.api.recipe.transfer.IRecipeTransferRegistry;

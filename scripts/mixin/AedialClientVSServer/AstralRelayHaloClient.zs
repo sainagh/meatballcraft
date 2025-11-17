@@ -1,6 +1,6 @@
 #modloaded astralsorcery
 #loader mixin
-#clientonly
+#sideonly client
 
 import native.hellfirepvp.astralsorcery.client.ClientScheduler;
 import native.net.minecraft.client.renderer.BufferBuilder;

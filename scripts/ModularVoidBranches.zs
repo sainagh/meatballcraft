@@ -641,8 +641,8 @@ rainbowlensgrav.addItemOutput(<contenttweaker:rainbow_lens>);
 rainbowlensgrav.build();
 
 
-val rainbowlensgrav2 = RecipeBuilder.newBuilder("rainbowlensgrav2","gravitite_enchanter",5);
-rainbowlensgrav2.addFluidInput(<fluid:stormlight>*5);
+val rainbowlensgrav2 = RecipeBuilder.newBuilder("rainbowlensgrav2","gravitite_enchanter",40);
+rainbowlensgrav2.addFluidInput(<fluid:stormlight>*200);
 rainbowlensgrav2.addItemInput(<contenttweaker:rainbow_gemstones>*4);
 rainbowlensgrav2.addItemInput(<contenttweaker:gravitite_lens>);
 rainbowlensgrav2.addItemInput(<contenttweaker:fluix_lens>);

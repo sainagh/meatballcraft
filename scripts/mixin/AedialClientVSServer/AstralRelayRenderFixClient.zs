@@ -1,5 +1,6 @@
 #modloaded astralsorcery
 #loader mixin
+#sideonly client
 
 import native.hellfirepvp.astralsorcery.common.tile.TileAttunementRelay;
 
