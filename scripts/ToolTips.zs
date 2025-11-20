@@ -416,9 +416,9 @@
 <contenttweaker:pressed_spice>.addTooltip(format.red("将正确的香料与正确的开放式方块模组的模板结合，[虚无]月球维度将指引你"));
 
 <contenttweaker:runic_ore>.addTooltip(format.red("在符境维度，使用斗轮式挖掘机开采Runic矿床"));
-<contenttweaker:runic_ore>.addTooltip(format.red("与正确的奇异矿簇（3个）结合，附魔山脉将指引你"));
+<contenttweaker:runic_ore>.addTooltip(format.red("与正确的邪术矿簇（3个）结合，附魔山脉将指引你"));
 
-<contenttweaker:catalyzed_runic_ore>.addTooltip(format.red("将符文矿石与正确的奇异矿簇（3个）结合，附魔山脉将指引你"));
+<contenttweaker:catalyzed_runic_ore>.addTooltip(format.red("将符文矿石与正确的邪术矿簇（3个）结合，附魔山脉将指引你"));
 
 <draconicevolution:draconium_block:1>.addTooltip(format.red("在神龙反应堆周围放置觉醒龙块，然后炸吧！"));
 <draconicevolution:draconium_block:1>.addTooltip(format.red("使用精准采集挖掘"));
@@ -3152,7 +3152,7 @@
 
 <contenttweaker:recursive_mind_shield>.addTooltip(format.red("你有没有用过某些特定的跃迁器？？"));
 
-<contenttweaker:flesh_of_the_orb>.addTooltip(format.red("通过嗜肉之球获得"));
+<contenttweaker:flesh_of_the_orb>.addTooltip(format.red("通过肉质之球获得"));
 <contenttweaker:flesh_of_the_orb>.addTooltip(format.red("需要Victus、Aqua、Alienis源质各250点来启动"));
 
 
