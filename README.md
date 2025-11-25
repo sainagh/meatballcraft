@@ -177,3 +177,11 @@ Earth (Lost Cities): 111
 Gallifrey: 624
 
 RFTools Dimensions: 900 (and consecutive numbers)
+
+Kashan: 190
+
+Trinitas: 191
+
+Fuhai: 192
+
+Travixte: 193

@@ -4134,6 +4134,7 @@ claimofworthiness.itemRightClick = function(stack, world, player, hand) {
 };
 claimofworthiness.register();
 
+// summon aoa3:ghostly_bugeye ~3 ~1 ~3 {HandItems:[{Count:1,id:"contenttweaker:pale_metal"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:5000.0},{Name:generic.attackDamage, Base:50.0}],Health:5000f,CustomName:"Ensnared Meatball Bug",ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}
 
 
 var summonsoftheshyrewarden = VanillaFactory.createItem("summons_of_the_shyre_warden");
@@ -4760,6 +4761,9 @@ meatballtitancallstone.itemRightClick = function(stack, world, player, hand) {
 meatballtitancallstone.register();
 
 
+
+
+//summon thaumcraft:cultistknight ~ ~1 ~ {PersistenceRequired:1,HandItems:[{Count:1,id:"contenttweaker:pale_metal"},{}],CustomName:"Meatball Subjugator",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f],ActiveEffects:[{Id:11,Amplifier:5,Duration:999999}],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:100.0}],Health:10000f,ArmorItems:[{Count:1,id:"contenttweaker:sentient_meatball_feet",tag:{ench:[{id:7,lvl:100}]}},{Count:1,id:"contenttweaker:sentient_meatball_legs",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:"contenttweaker:sentient_meatball_chest",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:"contenttweaker:sentient_meatball"}]}
 
 var fleshworldcallstone = VanillaFactory.createItem("flesh_world_callstone");
 fleshworldcallstone.maxStackSize = 1;
@@ -5452,3 +5456,356 @@ summonstothearmyofdarkness.register();
 
 
 
+
+var arcaneterraformernoob = VanillaFactory.createItem("arcane_terraformer_noob");
+arcaneterraformernoob.maxStackSize = 1;
+arcaneterraformernoob.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("/tellraw @a {\"text\":\"点击此处查看该谜题群系的设置教程\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=-_5BU87Gnjs\"}}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+arcaneterraformernoob.register();
+
+
+
+var summonsofthecursedwyvern = VanillaFactory.createItem("summons_of_the_cursed_wyvern");
+summonsofthecursedwyvern.maxStackSize = 1;
+summonsofthecursedwyvern.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 162) {
+        player.sendChat("需位于树龙界");
+        return "FAIL";
+    }
+
+    Commands.call("/summon mowziesmobs:naga ~ ~10 ~ {HandItems:[{Count:1,id:\"contenttweaker:heart_of_the_cursed_wyvern\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"阿米迦拉，诅咒飞龙\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:200,permshields:200}},Attributes:[{Name:generic.maxHealth, Base:5000000.0},{Name:generic.attackDamage, Base:50000.0}],Health:5000000f}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+summonsofthecursedwyvern.register();
+
+
+var dyingconstellationcallstone = VanillaFactory.createItem("dying_constellation_callstone");
+dyingconstellationcallstone.maxStackSize = 1;
+dyingconstellationcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 192) {
+        player.sendChat("需位于衰腐界");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn dying_constellation_traders", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+dyingconstellationcallstone.register();
+
+var hopefulreturncallstone = VanillaFactory.createItem("hopeful_return_callstone");
+hopefulreturncallstone.maxStackSize = 1;
+hopefulreturncallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 426) {
+        player.sendChat("需位于秘界（最好是在天花板上）");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn arcana_roof_hopeful_return", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+hopefulreturncallstone.register();
+
+
+// summon bewitchment:demon ~ ~3 ~ {CustomName:"Alazoneia, Harbinger of Bloodshed",recipeList:{Recipes:[{buy:{id:"contenttweaker:marrow_of_alazoneia",Count:1},sell:{id:"contenttweaker:everbloody_flask",Count:1},rewardExp:0b,maxUses:9999999}]},HandItems:[{Count:1,id:"contenttweaker:marrow_of_alazoneia"},{}],HandDropChances:[1.0f,0.0f],ForgeCaps:{"twilightforest:cap_shield":{tempshields:30,permshields:30}},Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:300.0}],Health:50000f}
+
+
+var twilitwarrenshredder = VanillaFactory.createItem("twilit_warren_shredder");
+twilitwarrenshredder.maxStackSize = 1;
+twilitwarrenshredder.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 426) {
+        player.sendChat("站在秘界的基岩天花板上");
+        return "FAIL";
+    }
+
+	var pos = player.position.asPosition3f();
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y - 1;
+    var blockPosBelowPlayer = posChange.asBlockPos();
+    var blockBelow = world.getBlockState(blockPosBelowPlayer);
+	print(blockBelow.commandString);
+    if(blockBelow != <blockstate:minecraft:bedrock>) {
+        player.sendChat("站在秘界的基岩天花板上");
+        return "FAIL";
+    }
+
+    Commands.call("summon bewitchment:demon ~ ~3 ~10 {Invulnerable:1,PersistenceRequired:1,NoAI:1,CustomName:\"和合的阿萨神族\",recipeList:{Recipes:[{buy:{id:\"contenttweaker:soul_fragment_of_the_reconciled_aesir\",Count:64},sell:{id:\"contenttweaker:recursion_of_natural_law\",Count:1},rewardExp:0b,maxUses:9999999}]},ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, true, true);
+    Commands.call("summon bewitchment:demon ~ ~3 ~-10 {Invulnerable:1,PersistenceRequired:1,NoAI:1,CustomName:\"和合的阿萨神族\",recipeList:{Recipes:[{buy:{id:\"contenttweaker:soul_fragment_of_the_reconciled_aesir\",Count:64},sell:{id:\"contenttweaker:recursion_of_natural_law\",Count:1},rewardExp:0b,maxUses:9999999}]},ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, true, true);
+    Commands.call("summon bewitchment:demon ~10 ~3 ~ {Invulnerable:1,PersistenceRequired:1,NoAI:1,CustomName:\"和合的阿萨神族\",recipeList:{Recipes:[{buy:{id:\"contenttweaker:soul_fragment_of_the_reconciled_aesir\",Count:64},sell:{id:\"contenttweaker:recursion_of_natural_law\",Count:1},rewardExp:0b,maxUses:9999999}]},ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, true, true);
+    Commands.call("summon bewitchment:demon ~-10 ~3 ~ {Invulnerable:1,PersistenceRequired:1,NoAI:1,CustomName:\"和合的阿萨神族\",recipeList:{Recipes:[{buy:{id:\"contenttweaker:soul_fragment_of_the_reconciled_aesir\",Count:64},sell:{id:\"contenttweaker:recursion_of_natural_law\",Count:1},rewardExp:0b,maxUses:9999999}]},ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, true, true);
+
+
+    Commands.call("fill ~-7 ~-1 ~ ~7 ~-1 ~ contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+    Commands.call("fill ~ ~-1 ~-7 ~ ~-1 ~7 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+
+    Commands.call("fill ~1 ~-1 ~-5 ~-1 ~-1 ~5 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+    Commands.call("fill ~5 ~-1 ~-1 ~-5 ~-1 ~1 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+
+    Commands.call("fill ~-4 ~-1 ~-4 ~4 ~-1 ~4 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+
+    Commands.call("fill ~4 ~-1 ~4 ~5 ~-1 ~5 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+    Commands.call("fill ~-4 ~-1 ~4 ~-5 ~-1 ~5 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+    Commands.call("fill ~4 ~-1 ~-4 ~5 ~-1 ~-5 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+    Commands.call("fill ~-4 ~-1 ~-4 ~-5 ~-1 ~-5 contenttweaker:yggdrasil_wood 0 replace minecraft:bedrock", player, world, false, true);
+
+    Commands.call("fill ~-2 ~ ~-2 ~2 ~-5 ~2 air", player, world, false, true);
+    Commands.call("fill ~-2 ~-5 ~-2 ~2 ~-10 ~2 air", player, world, false, true);
+    Commands.call("fill ~-2 ~-10 ~-2 ~2 ~-15 ~2 air", player, world, false, true);
+
+    Commands.call("particle blockcrack ~ ~ ~ 1 1 1 0.1 1000", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+twilitwarrenshredder.register();
+
+
+
+
+var hollowstagcallstone = VanillaFactory.createItem("hollow_stag_callstone");
+hollowstagcallstone.maxStackSize = 1;
+hollowstagcallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 66) {
+        player.sendChat("需位于混沌之地");
+        return "FAIL";
+    }
+
+    Commands.call("/pillar-spawn erebus_structure_hollowstag", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+hollowstagcallstone.register();
+
+
+var tearofarcanacallstone = VanillaFactory.createItem("tear_of_arcana_callstone");
+tearofarcanacallstone.maxStackSize = 1;
+tearofarcanacallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn arcanium_cluster_bee", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+tearofarcanacallstone.register();
+
+
+var alchemicalsparkcallstonesingle = VanillaFactory.createItem("alchemical_spark_callstone_single");
+alchemicalsparkcallstonesingle.maxStackSize = 1;
+alchemicalsparkcallstonesingle.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_single", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstonesingle.register();
+
+
+var alchemicalsparkcallstonecompressed = VanillaFactory.createItem("alchemical_spark_callstone_compressed");
+alchemicalsparkcallstonecompressed.maxStackSize = 1;
+alchemicalsparkcallstonecompressed.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_compressed", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstonecompressed.register();
+
+
+var alchemicalsparkcallstonedouble = VanillaFactory.createItem("alchemical_spark_callstone_double");
+alchemicalsparkcallstonedouble.maxStackSize = 1;
+alchemicalsparkcallstonedouble.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_double", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstonedouble.register();
+
+
+var alchemicalsparkcallstonetriple = VanillaFactory.createItem("alchemical_spark_callstone_triple");
+alchemicalsparkcallstonetriple.maxStackSize = 1;
+alchemicalsparkcallstonetriple.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_triple", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstonetriple.register();
+
+var alchemicalsparkcallstonequadruple = VanillaFactory.createItem("alchemical_spark_callstone_quadruple");
+alchemicalsparkcallstonequadruple.maxStackSize = 1;
+alchemicalsparkcallstonequadruple.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_quadruple", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstonequadruple.register();
+
+
+var alchemicalsparkcallstonequintuple = VanillaFactory.createItem("alchemical_spark_callstone_quintuple");
+alchemicalsparkcallstonequintuple.maxStackSize = 1;
+alchemicalsparkcallstonequintuple.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_quintuple", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstonequintuple.register();
+
+
+var alchemicalsparkcallstonesextuple = VanillaFactory.createItem("alchemical_spark_callstone_sextuple");
+alchemicalsparkcallstonesextuple.maxStackSize = 1;
+alchemicalsparkcallstonesextuple.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_sextuple", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstonesextuple.register();
+
+
+
+var alchemicalsparkcallstoneseptuple = VanillaFactory.createItem("alchemical_spark_callstone_septuple");
+alchemicalsparkcallstoneseptuple.maxStackSize = 1;
+alchemicalsparkcallstoneseptuple.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_septuple", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstoneseptuple.register();
+
+
+var alchemicalsparkcallstoneoctuple = VanillaFactory.createItem("alchemical_spark_callstone_octuple");
+alchemicalsparkcallstoneoctuple.maxStackSize = 1;
+alchemicalsparkcallstoneoctuple.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn alchemicalore_callstone_octuple", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+alchemicalsparkcallstoneoctuple.register();
+
+
+
+var riteofunhollowing = VanillaFactory.createItem("rite_of_unhollowing");
+riteofunhollowing.maxStackSize = 1;
+riteofunhollowing.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 66) {
+        player.sendChat("需位于混沌之地");
+        return "FAIL";
+    }
+
+    Commands.call("summon aoa3:ghostly_bugeye ~5 ~2 ~5 {HandItems:[{Count:1,id:\"contenttweaker:spark_of_unhallowing\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500000.0},{Name:generic.attackDamage, Base:5000.0}],Health:500000f,CustomName:\"空洞之意志\",ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~-5 ~2 ~5 {HandItems:[{Count:1,id:\"contenttweaker:spark_of_unhallowing\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500000.0},{Name:generic.attackDamage, Base:5000.0}],Health:500000f,CustomName:\"空洞之意志\",ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~5 ~2 ~-5 {HandItems:[{Count:1,id:\"contenttweaker:spark_of_unhallowing\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500000.0},{Name:generic.attackDamage, Base:5000.0}],Health:500000f,CustomName:\"空洞之意志\",ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~-5 ~2 ~-5 {HandItems:[{Count:1,id:\"contenttweaker:spark_of_unhallowing\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500000.0},{Name:generic.attackDamage, Base:5000.0}],Health:500000f,CustomName:\"空洞之意志\",ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+riteofunhollowing.register();

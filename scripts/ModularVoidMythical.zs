@@ -48,15 +48,15 @@ mith1.addItemOutput(<divinerpg:terran_shards>*10);
 mith1.setChance(0.05);
 mith1.addItemOutput(<divinerpg:jungle_shards>*10);
 mith1.setChance(0.05);
-mith1.addItemOutput(<divinerpg:crab_claw>*10);
+mith1.addItemOutput(<divinerpg:crab_claw>*40);
 mith1.setChance(0.2);
-mith1.addItemOutput(<divinerpg:shark_fin>*10);
+mith1.addItemOutput(<divinerpg:shark_fin>*30);
 mith1.setChance(0.2);
-mith1.addItemOutput(<divinerpg:whale_fin>*10);
+mith1.addItemOutput(<divinerpg:whale_fin>*30);
 mith1.setChance(0.2);
-mith1.addItemOutput(<divinerpg:cyclops_eye_shards>*10);
+mith1.addItemOutput(<divinerpg:cyclops_eye_shards>*20);
 mith1.setChance(0.05);
-mith1.addItemOutput(<divinerpg:aquatic_pellets>*10);
+mith1.addItemOutput(<divinerpg:aquatic_pellets>*30);
 mith1.setChance(0.05);
 mith1.addItemOutput(<aoa3:void_scales>*10);
 mith1.setChance(0.3);
@@ -126,6 +126,10 @@ mith2.addItemOutput(<projectex:power_flower:0>);
 mith2.setChance(0.05);
 mith2.addItemOutput(<abyssalcraft:shadowgem>);
 mith2.setChance(0.5);
+mith2.addItemOutput(<aoa3:limonite_bullet>*64);
+mith2.setChance(0.5);
+mith2.addItemOutput(<aoa3:metal_slug>*64);
+mith2.setChance(0.5);
 mith2.addItemOutput(<contenttweaker:tier2_token>);
 mith2.build();
 
@@ -167,6 +171,10 @@ mith3.addItemOutput(<projectex:power_flower:1>);
 mith3.setChance(0.05);
 mith3.addItemOutput(<biomesoplenty:crystal:0>*15);
 mith3.setChance(0.25);
+mith3.addItemOutput(<aoa3:limonite_bullet>*64);
+mith3.setChance(0.7);
+mith3.addItemOutput(<aoa3:metal_slug>*64);
+mith3.setChance(0.7);
 mith3.addItemOutput(<contenttweaker:tier3_token>);
 mith3.build();
 
@@ -514,15 +522,16 @@ mith6.addItemOutput(<contenttweaker:dense_redstone>*15);
 mith6.setChance(0.6);
 mith6.addItemOutput(<contenttweaker:blue_matter>*4);
 mith6.setChance(0.3);
+mith6.addItemOutput(<aoa3:limonite_bullet>*64);
+mith6.setChance(0.9);
+mith6.addItemOutput(<aoa3:metal_slug>*64);
+mith6.setChance(0.9);
 mith6.addItemOutput(<contenttweaker:tier6_token>);
 mith6.build();
 
 
-val crucuu = RecipeBuilder.newBuilder("mythicalcrucuumatter","mythical_resource_crucible",40);
-crucuu.addEnergyPerTickInput(100000);
-crucuu.addItemInput(<techreborn:uumatter>);
-crucuu.addFluidOutput(<fluid:liquid_uu_matter>*100);
-crucuu.build();
+mods.thermalexpansion.Crucible.addRecipe(<fluid:liquid_uu_matter>*100, <techreborn:uumatter>, 50);
+mods.nuclearcraft.melter.addRecipe([<techreborn:uumatter>, <fluid:liquid_uu_matter>*100]);
 
 
 mods.thermalexpansion.Sawmill.addRecipe(<contenttweaker:dragons_blood_plastic>*3, <bewitchment:dragons_blood_resin>, 543);
@@ -583,6 +592,8 @@ mith7.addItemOutput(<extendedcrafting:material:40>*3);
 mith7.setChance(0.05);
 mith7.addItemOutput(<contenttweaker:blue_matter>*5);
 mith7.setChance(0.4);
+mith7.addItemOutput(<advancedrocketry:crystal:2>*64);
+mith7.setChance(0.8);
 mith7.addItemOutput(<contenttweaker:tier7_token>);
 mith7.build();
 
@@ -636,6 +647,8 @@ mith8.addItemOutput(<nuclearcraft:compound:0>*4);
 mith8.setChance(0.1);
 mith8.addItemOutput(<contenttweaker:blue_matter>*5);
 mith8.setChance(0.4);
+mith8.addItemOutput(<advancedrocketry:crystal:5>*64);
+mith8.setChance(0.8);
 mith8.addItemOutput(<contenttweaker:tier8_token>);
 mith8.build();
 
@@ -684,6 +697,8 @@ mith9.addItemOutput(<thaumictinkerer:energetic_nitor>);
 mith9.setChance(0.1);
 mith9.addItemOutput(<contenttweaker:blue_matter>*5);
 mith9.setChance(0.4);
+mith9.addItemOutput(<advancedrocketry:crystal:3>*64);
+mith9.setChance(0.8);
 mith9.addItemOutput(<contenttweaker:tier9_token>);
 mith9.build();
 
@@ -732,6 +747,8 @@ mith10.addItemOutput(<abyssalcraft:oc>);
 mith10.setChance(0.05);
 mith10.addItemOutput(<contenttweaker:blue_matter>*5);
 mith10.setChance(0.4);
+mith10.addItemOutput(<advancedrocketry:crystal:4>*64);
+mith10.setChance(0.8);
 mith10.addItemOutput(<contenttweaker:tier10_token>);
 mith10.build();
 
@@ -769,6 +786,8 @@ mith11.addItemOutput(<aoa3:gold_coin>*10);
 mith11.setChance(0.02);
 mith11.addItemOutput(<contenttweaker:deeplands_garnet>);
 mith11.setChance(0.5);
+mith11.addItemOutput(<contenttweaker:deep_dark_matter>*35);
+mith11.setChance(0.8);
 mith11.addItemOutput(<aoa3:deep_case>*8);
 mith11.setChance(0.5);
 mith11.addItemOutput(<materialpart:dreaded_steel:ingot>*2);
@@ -783,6 +802,20 @@ mith11.addItemOutput(<contenttweaker:dense_redstone>*33);
 mith11.setChance(0.8);
 mith11.addItemOutput(<contenttweaker:blue_matter>*5);
 mith11.setChance(0.4);
+mith11.addItemOutput(<advancedrocketry:crystal:1>*64);
+mith11.setChance(0.8);
+mith11.addItemOutput(<aoa3:carved_rune_travel>*30);
+mith11.setChance(0.8);
+mith11.addItemOutput(<aoa3:carved_rune_reality>*30);
+mith11.setChance(0.8);
+mith11.addItemOutput(<aoa3:carved_rune_space>*30);
+mith11.setChance(0.8);
+mith11.addItemOutput(<aoa3:carved_rune_direction>*30);
+mith11.setChance(0.8);
+mith11.addItemOutput(<aoa3:carved_rune_power>*30);
+mith11.setChance(0.8);
+mith11.addItemOutput(<aoa3:carved_rune_empowering>*30);
+mith11.setChance(0.8);
 mith11.addItemOutput(<contenttweaker:tier11_token>);
 mith11.build();
 
@@ -836,6 +869,8 @@ mith12.addItemOutput(<contenttweaker:nethengeic_gem>*36);
 mith12.setChance(0.6);
 mith12.addItemOutput(<contenttweaker:blue_matter>*5);
 mith12.setChance(0.4);
+mith12.addItemOutput(<advancedrocketry:crystal:0>*64);
+mith12.setChance(0.8);
 mith12.addItemOutput(<contenttweaker:tier12_token>);
 mith12.build();
 
@@ -1252,6 +1287,18 @@ mith17.addItemOutput(<contenttweaker:haven_garnet>);
 mith17.setChance(0.5);
 mith17.addItemOutput(<contenttweaker:blue_matter>*10);
 mith17.setChance(0.5);
+mith17.addItemOutput(<aoa3:carved_rune_travel>*60);
+mith17.setChance(0.9);
+mith17.addItemOutput(<aoa3:carved_rune_reality>*60);
+mith17.setChance(0.9);
+mith17.addItemOutput(<aoa3:carved_rune_space>*60);
+mith17.setChance(0.9);
+mith17.addItemOutput(<aoa3:carved_rune_direction>*60);
+mith17.setChance(0.9);
+mith17.addItemOutput(<aoa3:carved_rune_power>*60);
+mith17.setChance(0.9);
+mith17.addItemOutput(<aoa3:carved_rune_empowering>*60);
+mith17.setChance(0.9);
 mith17.addItemOutput(<contenttweaker:tier17_token>);
 mith17.build();
 
@@ -1342,8 +1389,8 @@ mith19.addItemOutput(<aoa3:amphibiyte_lung>*50);
 mith19.setChance(0.5);
 mith19.addItemOutput(<contenttweaker:mysterium_garnet>);
 mith19.setChance(0.5);
-mith19.addItemOutput(<aoa3:scream_shield>);
-mith19.setChance(0.1);
+mith19.addItemOutput(<aoa3:scream_shield>*48);
+mith19.setChance(0.7);
 mith19.addItemOutput(<contenttweaker:blue_matter>*10);
 mith19.setChance(0.5);
 mith19.addItemOutput(<contenttweaker:tier19_token>);
@@ -1379,12 +1426,26 @@ mith20.addItemOutput(<aoa3:compass_rune>*10);
 mith20.setChance(0.02);
 mith20.addItemOutput(<aoa3:gold_coin>*10);
 mith20.setChance(0.07);
+mith20.addItemOutput(<contenttweaker:deep_dark_matter>*45);
+mith20.setChance(0.9);
 mith20.addItemOutput(<contenttweaker:vox_ponds_garnet>);
 mith20.setChance(0.5);
 mith20.addItemOutput(<iceandfire:stymphalian_bird_feather>*16);
 mith20.setChance(0.5);
 mith20.addItemOutput(<contenttweaker:blue_matter>*10);
 mith20.setChance(0.5);
+mith20.addItemOutput(<aoa3:carved_rune_travel>*60);
+mith20.setChance(0.9);
+mith20.addItemOutput(<aoa3:carved_rune_reality>*60);
+mith20.setChance(0.9);
+mith20.addItemOutput(<aoa3:carved_rune_space>*60);
+mith20.setChance(0.9);
+mith20.addItemOutput(<aoa3:carved_rune_direction>*60);
+mith20.setChance(0.9);
+mith20.addItemOutput(<aoa3:carved_rune_power>*60);
+mith20.setChance(0.9);
+mith20.addItemOutput(<aoa3:carved_rune_empowering>*60);
+mith20.setChance(0.9);
 mith20.addItemOutput(<contenttweaker:tier20_token>);
 mith20.build();
 
@@ -1434,13 +1495,6 @@ recipes.addShaped(<contenttweaker:vibranium_servo>,
 [<techreborn:machine_casing:2>, <contenttweaker:dark_soul_machine_chassis>, <techreborn:machine_casing:2>],
 [<botania:shimmerwoodplanks>, <materialpart:vibranium_alloy:gear>, <botania:shimmerwoodplanks>]]);
 
-val rainbowlensgrav = RecipeBuilder.newBuilder("rainbowlensgrav","gravitite_enchanter",300);
-rainbowlensgrav.addFluidInput(<fluid:astralsorcery.liquidstarlight>*1000);
-rainbowlensgrav.addItemInput(<contenttweaker:rainbow_gemstones>*4);
-rainbowlensgrav.addItemInput(<contenttweaker:gravitite_lens>);
-rainbowlensgrav.addItemInput(<contenttweaker:fluix_lens>);
-rainbowlensgrav.addItemOutput(<contenttweaker:rainbow_lens>);
-rainbowlensgrav.build();
 
 val mythicmachineautoinf = RecipeBuilder.newBuilder("mythicmachineautoinf","auto_astral_altar",1200);
 mythicmachineautoinf.addEnergyPerTickInput(1000);
@@ -1534,26 +1588,10 @@ mods.tconstruct.Casting.addTableRecipe(<materialpart:primal_ogerite:ingot>,
 false, 
 100);
 
-recipes.addShaped(<contenttweaker:gilded_rainbow_heart_canister>*8,
-[[<contenttweaker:rainbow_heart_canister>, <contenttweaker:rainbow_heart_canister>, <contenttweaker:rainbow_heart_canister>],
-[<contenttweaker:rainbow_heart_canister>, <extrautils2:decorativesolid:8>, <contenttweaker:rainbow_heart_canister>],
-[<contenttweaker:rainbow_heart_canister>, <contenttweaker:rainbow_heart_canister>, <contenttweaker:rainbow_heart_canister>]]);
 
-val pixoniacarmin = RecipeBuilder.newBuilder("pixoniacarmin","carminite_empowerer",1200);
-pixoniacarmin.addEnergyPerTickInput(5000);
-pixoniacarmin.addAspectInput("coralos",10);
-pixoniacarmin.addItemInput(<materialpart:primal_ogerite:ingot>);
-pixoniacarmin.addItemInput(<minecraft:cooked_chicken>);
-pixoniacarmin.addItemOutput(<contenttweaker:pixonia_heart>);
-pixoniacarmin.build();
 
-val pixoniacarminbetter = RecipeBuilder.newBuilder("pixoniacarminbetter","carminite_empowerer",120);
-pixoniacarminbetter.addEnergyPerTickInput(5000);
-pixoniacarminbetter.addAspectInput("coralos",10);
-pixoniacarminbetter.addItemInput(<materialpart:primal_ogerite:ingot>);
-pixoniacarminbetter.addItemInput(<ore:nuggetMeat>*6);
-pixoniacarminbetter.addItemOutput(<contenttweaker:pixonia_heart>*8);
-pixoniacarminbetter.build();
+
+
 
 val spatcruc2 = RecipeBuilder.newBuilder("spatialcruc2","spatial_crucible",200);
 spatcruc2.addEnergyPerTickInput(120000);
@@ -1590,10 +1628,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<materialpart:vibranium:ingo
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:jeweled_runium>*16, 100000, <contenttweaker:enchanted_myrmitite>, [<aoa3:jewelyte>, <aoa3:ornamyte>, <aoa3:gemenyte>, <aoa3:bloodstone>, <aoa3:charged_runium_chunk>]);
 
 
-mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:mythic_excavation_engine>, 
-[[<contenttweaker:jeweled_runium>, <contenttweaker:high_strength_transmission>, <contenttweaker:jeweled_runium>], 
-[<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>], 
-[<thaumadditions:adaminite_ingot>, <bloodmagic:blood_shard:1>, <thaumadditions:adaminite_ingot>]], 1); 
 
 mods.actuallyadditions.Empowerer.addRecipe(<contenttweaker:refraction_focus_key>, <contenttweaker:supertranslucent_catalyst>, <materialpart:vibranium:ingot>, <contenttweaker:rainbow_gemstones>, <materialpart:vibranium:ingot>, <contenttweaker:rainbow_gemstones>, 3000, 200);
 
@@ -1776,12 +1810,26 @@ mith23.addItemOutput(<aoa3:luna_globe>*30);
 mith23.setChance(0.1);
 mith23.addItemOutput(<divinerpg:ender_stone>*30);
 mith23.setChance(0.5);
+mith23.addItemOutput(<contenttweaker:deep_dark_matter>*55);
+mith23.setChance(0.9);
 mith23.addItemOutput(<actuallyadditions:item_solidified_experience>*48);
 mith23.setChance(0.1);
 mith23.addItemOutput(<contenttweaker:lunalus_garnet>);
 mith23.setChance(0.5);
 mith23.addItemOutput(<contenttweaker:blue_matter>*20);
 mith23.setChance(0.6);
+mith23.addItemOutput(<aoa3:carved_rune_travel>*60);
+mith23.setChance(0.9);
+mith23.addItemOutput(<aoa3:carved_rune_reality>*60);
+mith23.setChance(0.9);
+mith23.addItemOutput(<aoa3:carved_rune_space>*60);
+mith23.setChance(0.9);
+mith23.addItemOutput(<aoa3:carved_rune_direction>*60);
+mith23.setChance(0.9);
+mith23.addItemOutput(<aoa3:carved_rune_power>*60);
+mith23.setChance(0.9);
+mith23.addItemOutput(<aoa3:carved_rune_empowering>*60);
+mith23.setChance(0.9);
 mith23.addItemOutput(<contenttweaker:tier23_token>);
 mith23.build();
 
@@ -1980,82 +2028,6 @@ mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:imperfect_neutronium_nugg
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:unidentified_gem>, <fluid:fluix_plasma>*100, <contenttweaker:reactive_fluix>, 0.5, 0.6, 0.0]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_excavation_reactor>, 
-[[<ore:ingotCrystalMatrix>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
-<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity:29>, <contenttweaker:brightseel_alloy_gear>, 
-<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <ore:ingotCrystalMatrix>], 
-
-[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
-<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
-<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
-
-[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
-<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:mythic_coil_t2>, <contenttweaker:fluxed_electrum_shaft>, 
-<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
-
-[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
-<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
-<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
-
-[<extendedcrafting:material:32>, <contenttweaker:fluix_microcontroller>, <ore:ingotUltimate>, 
-<contenttweaker:mythic_excavation_engine>, <contenttweaker:mythic_excavation_computer>, <contenttweaker:mythic_excavation_engine>, 
-<ore:ingotUltimate>, <contenttweaker:fluix_microcontroller>, <extendedcrafting:material:32>], 
-
-[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
-<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
-<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
-
-[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
-<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:awakened_electromagnet>, <contenttweaker:fluxed_electrum_shaft>, 
-<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
-
-[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
-<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
-<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
-
-[<ore:ingotCrystalMatrix>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
-<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity_custom:651>, <contenttweaker:brightseel_alloy_gear>, 
-<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <ore:ingotCrystalMatrix>]]);  
-
-
-
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_excavation_reactor>*3, 
-[[<contenttweaker:defined_plate>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
-<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity:29>, <contenttweaker:brightseel_alloy_gear>, 
-<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <contenttweaker:defined_plate>], 
-
-[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
-<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
-<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
-
-[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
-<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:mythic_coil_t2>, <contenttweaker:fluxed_electrum_shaft>, 
-<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
-
-[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
-<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
-<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
-
-[<extendedcrafting:material:32>, <contenttweaker:fluix_microcontroller>, <ore:ingotUltimate>, 
-<contenttweaker:mythic_excavation_engine>, <contenttweaker:mythic_excavation_computer>, <contenttweaker:mythic_excavation_engine>, 
-<ore:ingotUltimate>, <contenttweaker:fluix_microcontroller>, <extendedcrafting:material:32>], 
-
-[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
-<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
-<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
-
-[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
-<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:awakened_electromagnet>, <contenttweaker:fluxed_electrum_shaft>, 
-<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
-
-[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
-<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
-<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
-
-[<contenttweaker:defined_plate>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
-<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity_custom:651>, <contenttweaker:brightseel_alloy_gear>, 
-<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <contenttweaker:defined_plate>]]);  
-
 
 
 
@@ -2075,10 +2047,6 @@ mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:chaotic_bricks>*4,
 [<contenttweaker:chaotic_stone>, <extendedcrafting:trimmed:5>, <contenttweaker:chaotic_stone>], 
 [null, <contenttweaker:chaotic_stone>, null]], 15);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:apalachia_star>, 
-2000000, 
-<minecraft:nether_star>, 
-[<contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, <contenttweaker:recursive_demantoid>]);
 
 recipes.addShaped(<contenttweaker:rainbow_petal>,
 [[<aoa3:holly_top_petals>, <aoa3:holly_top_petals>, <aoa3:holly_top_petals>],
@@ -2178,10 +2146,6 @@ aoatokenOreDict.add(<aoa3:vox_ponds_tokens>);
 
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:chaos_pearl>, <materialpart:chaos:ingot>, 100, <extendedcrafting:material:11>, 1000000000,1000000);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:skythern_star>, 
-2000000, 
-<minecraft:nether_star>, 
-[<avaritia:resource:1>, <contenttweaker:enhanced_chaos_fragment>, <avaritia:resource:3>, <avaritia:resource:3>]);
 
 
 
@@ -2274,6 +2238,18 @@ mith24.addItemOutput(<contenttweaker:ancient_cavern_garnet>);
 mith24.setChance(0.5);
 mith24.addItemOutput(<contenttweaker:blue_matter>*40);
 mith24.setChance(0.7);
+mith24.addItemOutput(<aoa3:carved_rune_travel>*60);
+mith24.setChance(0.95);
+mith24.addItemOutput(<aoa3:carved_rune_reality>*60);
+mith24.setChance(0.95);
+mith24.addItemOutput(<aoa3:carved_rune_space>*60);
+mith24.setChance(0.95);
+mith24.addItemOutput(<aoa3:carved_rune_direction>*60);
+mith24.setChance(0.95);
+mith24.addItemOutput(<aoa3:carved_rune_power>*60);
+mith24.setChance(0.95);
+mith24.addItemOutput(<aoa3:carved_rune_empowering>*60);
+mith24.setChance(0.95);
 mith24.addItemOutput(<contenttweaker:tier24_token>);
 mith24.build();
 
@@ -2307,6 +2283,18 @@ mith25.addItemOutput(<aoa3:dungeon_tokens>*10);
 mith25.setChance(0.05);
 mith25.addItemOutput(<contenttweaker:blue_matter>*40);
 mith25.setChance(0.7);
+mith25.addItemOutput(<aoa3:carved_rune_travel>*60);
+mith25.setChance(0.95);
+mith25.addItemOutput(<aoa3:carved_rune_reality>*60);
+mith25.setChance(0.95);
+mith25.addItemOutput(<aoa3:carved_rune_space>*60);
+mith25.setChance(0.95);
+mith25.addItemOutput(<aoa3:carved_rune_direction>*60);
+mith25.setChance(0.95);
+mith25.addItemOutput(<aoa3:carved_rune_power>*60);
+mith25.setChance(0.95);
+mith25.addItemOutput(<aoa3:carved_rune_empowering>*60);
+mith25.setChance(0.95);
 mith25.addItemOutput(<contenttweaker:tier25_token>);
 mith25.build();
 
@@ -2383,6 +2371,8 @@ mith27.addItemOutput(<aoa3:fragmented_anima_stone>*64);
 mith27.setChance(0.9);
 mith27.addItemOutput(<draconicevolution:chaos_shard:3>);
 mith27.setChance(0.05);
+mith27.addItemOutput(<contenttweaker:deep_dark_matter>*64);
+mith27.setChance(0.95);
 mith27.addItemOutput(<contenttweaker:dustopia_garnet>);
 mith27.setChance(0.5);
 mith27.addItemOutput(<contenttweaker:dense_redstone>*128);
@@ -2765,57 +2755,7 @@ recipes.addShaped(<contenttweaker:dynatos_star>,
 
 mods.nuclearcraft.infuser.addRecipe([<materialpart:myrmitite:dust>, <fluid:niobium>*10, <contenttweaker:myrminiobite_ingot>]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_star>*2, 
-2000000, 
-<minecraft:nether_star>, 
-[<contenttweaker:myrminiobite_ingot>, <contenttweaker:hafnium_chunk>, <contenttweaker:tantalum_chunk>, <contenttweaker:cerium_ingot>, <materialpart:hassium:ingot>, <contenttweaker:ruthenium_ingot>]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_star>, 
-2000000, 
-<minecraft:nether_star>, 
-[<contenttweaker:myrminiobite_ingot>, <contenttweaker:hafnium_chunk>, <contenttweaker:tantalum_chunk>, <contenttweaker:cerium_ingot>, <materialpart:hassium:ingot>]);
-
-
-val divinecombinerrealgar = RecipeBuilder.newBuilder("divinecombinerrealgar","divine_combiner",2);
-divinecombinerrealgar.addFluidInput(<fluid:hint_of_divinity>*10);
-divinecombinerrealgar.addItemInput(<contenttweaker:eternal_tulite>);
-divinecombinerrealgar.addItemInput(<contenttweaker:abyss_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:lelyetia_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:precasia_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:runandor_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:creeponia_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:deeplands_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:vox_ponds_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:mysterium_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:iromine_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:haven_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:candyland_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:celeve_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:gardencia_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:crystevia_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:lunalus_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:barathos_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:borean_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:immortallis_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:ancient_cavern_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:greckon_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:dustopia_garnet>);
-divinecombinerrealgar.addItemInput(<contenttweaker:vethea_garnet>);
-divinecombinerrealgar.addItemOutput(<contenttweaker:universal_realgar>);
-divinecombinerrealgar.build();
-
-
-val divinecombinergemrec = RecipeBuilder.newBuilder("divinecombinergemrec","divine_combiner",2);
-divinecombinergemrec.addFluidInput(<fluid:hint_of_divinity>*10);
-divinecombinergemrec.addItemInput(<contenttweaker:universal_realgar>);
-divinecombinergemrec.addItemInput(<contenttweaker:shyrelands_garnet>);
-divinecombinergemrec.addItemInput(<divinerpg:eden_chunk>);
-divinecombinergemrec.addItemInput(<divinerpg:wildwood_chunk>);
-divinecombinergemrec.addItemInput(<divinerpg:apalachia_chunk>);
-divinecombinergemrec.addItemInput(<divinerpg:skythern_chunk>);
-divinecombinergemrec.addItemInput(<divinerpg:mortum_chunk>);
-divinecombinergemrec.addItemOutput(<contenttweaker:gem_of_recursion>);
-divinecombinergemrec.build();
 
 
 recipes.addShaped(<contenttweaker:compressed_realgar>,

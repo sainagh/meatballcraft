@@ -1,0 +1,95 @@
+{
+    "name": "compactmachines3:minecraft_autoshulkerfilling",
+    "target-item": "contenttweaker:automated_shulker_filling",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+
+
+
+  "input-types": {
+    "a": {
+      "id": "minecraft:yellow_shulker_box",
+      "meta": 1,
+	  "item": {
+        "id": "minecraft:yellow_shulker_box",
+        "count": 1
+      }
+    },
+    "b": {
+      "id": "minecraft:hopper",
+      "meta": 5,
+	  "item": {
+        "id": "minecraft:hopper",
+        "count": 4
+      }
+    },
+    "c": {
+      "id": "minecraft:redstone_wire",
+      "meta": 0,
+	  "item": {
+        "id": "minecraft:redstone_wire",
+        "count": 3
+      }
+    },
+    "d": {
+      "id": "minecraft:dropper",
+      "meta": 2,
+	  "item": {
+        "id": "minecraft:dropper",
+        "count": 3
+      }
+    }
+  },
+  "input-nbt": {
+    "a:A": {
+      "nbt": "{Lock:\"\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"minecraft:shulker_box\"}"
+    },
+    "b:A": {
+      "nbt": "{Lock:\"\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"minecraft:hopper\",TransferCooldown:0,Items:[]}"
+    },
+    "d:A": {
+      "nbt": "{Lock:\"\",ForgeCaps:{\"ebwizardry:casting_data\":{spell:0,castingTick:0,modifiers:{}},\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"minecraft:dropper\",Items:[]}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "c",
+        "c",
+        "c",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "b:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "d:A",
+        "d:A",
+        "d:A",
+        "_",
+        "_"
+      ]
+    ]
+  ]
+          
+}

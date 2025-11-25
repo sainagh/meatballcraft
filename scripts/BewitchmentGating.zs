@@ -150,4 +150,89 @@ recipes.addShaped(<bewitchment:empty_jar>*4,
 [null, <appliedenergistics2:material:1>, null]]);
 
 
+recipes.addShaped(<contenttweaker:sigil_flame>*6,
+[[<contenttweaker:scorcher_eternal_flame>, <contenttweaker:sigil_flame>, <contenttweaker:scorcher_eternal_flame>],
+[<bewitchment:heart>, <contenttweaker:sigil_flame>, <bewitchment:heart>],
+[<contenttweaker:scorcher_eternal_flame>, <contenttweaker:sigil_flame>, <contenttweaker:scorcher_eternal_flame>]]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<bewitchment:sigil_mending>, 
+[[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <ore:dyePurple>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <ore:dyePurple>, <bewitchment:essence_of_vitality>, <ore:dyePurple>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:essence_of_vitality>, <bewitchment:oak_apple_gall>, <bewitchment:essence_of_vitality>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <ore:dyePurple>, <bewitchment:essence_of_vitality>, <ore:dyePurple>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <ore:dyePurple>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<bewitchment:sigil_ruin>, 
+[[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <bewitchment:snake_venom>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <bewitchment:snake_venom>, <bewitchment:white_sage>, <bewitchment:snake_venom>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:white_sage>, <bewitchment:cleansing_balm>, <bewitchment:white_sage>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <bewitchment:snake_venom>, <bewitchment:white_sage>, <bewitchment:snake_venom>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <bewitchment:snake_venom>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<bewitchment:sigil_binding>, 
+[[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <ore:slimeball>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <ore:slimeball>, <ore:string>, <ore:slimeball>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <ore:string>, <bewitchment:belladonna>, <ore:string>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <ore:slimeball>, <ore:string>, <ore:slimeball>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <ore:slimeball>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<bewitchment:sigil_cleansing>, 
+[[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <ore:dyeWhite>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <ore:dyeWhite>, <bewitchment:cleansing_balm>, <ore:dyeWhite>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:cleansing_balm>, <ore:dyeGreen>, <bewitchment:cleansing_balm>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <ore:dyeWhite>, <bewitchment:cleansing_balm>, <ore:dyeWhite>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <ore:dyeWhite>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<bewitchment:sigil_failure>, 
+[[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <ore:dyeBlack>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <ore:dyeBlack>, <bewitchment:oil_of_vitriol>, <ore:dyeBlack>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:oil_of_vitriol>, <ore:dyeRed>, <bewitchment:oil_of_vitriol>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <ore:dyeBlack>, <bewitchment:oil_of_vitriol>, <ore:dyeBlack>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <ore:dyeBlack>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<bewitchment:sigil_purity>, 
+[[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <bewitchment:cleansing_balm>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <bewitchment:cleansing_balm>, <bewitchment:juniper_berries>, <bewitchment:cleansing_balm>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:juniper_berries>, <bewitchment:white_sage>, <bewitchment:juniper_berries>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <bewitchment:cleansing_balm>, <bewitchment:juniper_berries>, <bewitchment:cleansing_balm>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <bewitchment:cleansing_balm>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<bewitchment:sigil_luck>, 
+[[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <ore:dyeGreen>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <ore:dyeGreen>, <ore:dyeRed>, <ore:dyeGreen>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <ore:dyeRed>, <ore:dyeMagenta>, <ore:dyeRed>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <ore:dyeGreen>, <ore:dyeRed>, <ore:dyeGreen>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <ore:dyeGreen>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<bewitchment:sigil_battle>, 
+[[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <bewitchment:bottle_of_blood>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <bewitchment:bottle_of_blood>, <bewitchment:iron_gall_ink>, <bewitchment:bottle_of_blood>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:iron_gall_ink>, <bewitchment:bottle_of_blood>, <bewitchment:iron_gall_ink>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <bewitchment:bottle_of_blood>, <bewitchment:iron_gall_ink>, <bewitchment:bottle_of_blood>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <bewitchment:bottle_of_blood>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<bewitchment:sigil_disorientation>, 
+[[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <bewitchment:iron_gall_ink>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <bewitchment:iron_gall_ink>, <ore:dyePurple>, <bewitchment:iron_gall_ink>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <ore:dyePurple>, <bewitchment:white_sage>, <ore:dyePurple>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <bewitchment:iron_gall_ink>, <ore:dyePurple>, <bewitchment:iron_gall_ink>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <bewitchment:iron_gall_ink>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<bewitchment:sigil_shrieking>, 
+[[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <ore:dyeRed>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <ore:dyeRed>, <bewitchment:ectoplasm>, <ore:dyeRed>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:ectoplasm>, <bewitchment:toe_of_frog>, <bewitchment:ectoplasm>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <ore:dyeRed>, <bewitchment:ectoplasm>, <ore:dyeRed>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <ore:dyeRed>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<bewitchment:sigil_sentinel>, 
+[[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <ore:dyeWhite>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <ore:dyeWhite>, <bewitchment:spruce_heart>, <ore:dyeWhite>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:spruce_heart>, <bewitchment:ectoplasm>, <bewitchment:spruce_heart>, <contenttweaker:sigil_flame>], 
+[<bewitchment:dragons_blood_resin>, <ore:dyeWhite>, <bewitchment:spruce_heart>, <ore:dyeWhite>, <bewitchment:dragons_blood_resin>], 
+[<contenttweaker:sigil_flame>, <bewitchment:dragons_blood_resin>, <ore:dyeWhite>, <bewitchment:dragons_blood_resin>, <contenttweaker:sigil_flame>]]);  
+
+
 

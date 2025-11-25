@@ -1,0 +1,165 @@
+{
+  "preRequisites:11": [
+    1569647533
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o可使用任意材料组合的手里剑完成此任务。\n\n根据所处的章节，查看§c匠魂工具箱§7§o任务以了解合适的材料。",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "plustic::10": {
+            "Items:9": {},
+            "Size:3": 1
+          },
+          "plustic:fruitsalad_cap:10": {
+            "Items:9": {},
+            "Size:3": 5
+          },
+          "plustic:musicofthespheres_cap:10": {
+            "Items:9": {},
+            "Size:3": 1
+          }
+        },
+        "id:8": "tconstruct:shuriken",
+        "tag:10": {
+          "Modifiers:9": {
+            "0:10": {
+              "color:3": -994201,
+              "identifier:8": "depthdigger",
+              "level:3": 1
+            },
+            "1:10": {
+              "color:3": 16777215,
+              "identifier:8": "toolleveling",
+              "level:3": 1
+            }
+          },
+          "Special:10": {
+            "Categories:9": {
+              "0:8": "no_melee",
+              "1:8": "projectile",
+              "2:8": "tool"
+            }
+          },
+          "Stats:10": {
+            "Accuracy:5": 1.0,
+            "Attack:5": 4.5,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 540,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 2,
+            "MiningSpeed:5": 7.0
+          },
+          "StatsOriginal:10": {
+            "Accuracy:5": 1.0,
+            "Attack:5": 4.5,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 540,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 2,
+            "MiningSpeed:5": 7.0
+          },
+          "TinkerData:10": {
+            "Materials:9": {
+              "0:8": "alubrass",
+              "1:8": "alubrass",
+              "2:8": "alubrass",
+              "3:8": "alubrass"
+            },
+            "Modifiers:9": {
+              "0:8": "toolleveling"
+            }
+          },
+          "Traits:9": {
+            "0:8": "depthdigger",
+            "1:8": "toolleveling"
+          }
+        }
+      },
+      "name:8": "匠魂手里剑"
+    }
+  },
+  "questID:3": 1407018860,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "plustic::10": {
+              "Items:9": {},
+              "Size:3": 1
+            },
+            "plustic:fruitsalad_cap:10": {
+              "Items:9": {},
+              "Size:3": 5
+            },
+            "plustic:musicofthespheres_cap:10": {
+              "Items:9": {},
+              "Size:3": 1
+            }
+          },
+          "id:8": "tconstruct:shuriken",
+          "tag:10": {
+            "Modifiers:9": {
+              "0:10": {
+                "color:3": -994201,
+                "identifier:8": "depthdigger",
+                "level:3": 1
+              },
+              "1:10": {
+                "color:3": 16777215,
+                "identifier:8": "toolleveling",
+                "level:3": 1
+              }
+            },
+            "Special:10": {
+              "Categories:9": {
+                "0:8": "no_melee",
+                "1:8": "projectile",
+                "2:8": "tool"
+              }
+            },
+            "Stats:10": {
+              "Accuracy:5": 1.0,
+              "Attack:5": 4.5,
+              "AttackSpeedMultiplier:5": 1.0,
+              "Durability:3": 540,
+              "FreeModifiers:3": 3,
+              "HarvestLevel:3": 2,
+              "MiningSpeed:5": 7.0
+            },
+            "StatsOriginal:10": {
+              "Accuracy:5": 1.0,
+              "Attack:5": 4.5,
+              "AttackSpeedMultiplier:5": 1.0,
+              "Durability:3": 540,
+              "FreeModifiers:3": 3,
+              "HarvestLevel:3": 2,
+              "MiningSpeed:5": 7.0
+            },
+            "TinkerData:10": {
+              "Materials:9": {
+                "0:8": "alubrass",
+                "1:8": "alubrass",
+                "2:8": "alubrass",
+                "3:8": "alubrass"
+              },
+              "Modifiers:9": {
+                "0:8": "toolleveling"
+              }
+            },
+            "Traits:9": {
+              "0:8": "depthdigger",
+              "1:8": "toolleveling"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

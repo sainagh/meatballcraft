@@ -518,3 +518,11 @@ mythcomp89.addEnergyPerTickInput(60000);
 mythcomp89.addItemInput(<contenttweaker:evanescent_sednanite_powder>*8);
 mythcomp89.addItemOutput(<materialpart:sednanite:ingot>*8);
 mythcomp89.build();
+
+
+val mythcomp90 = RecipeBuilder.newBuilder("mythcomp90","mythic_processor_compactor",2);
+mythcomp90.addEnergyPerTickInput(60000);
+mythcomp90.addItemInput(<contenttweaker:deep_metamorphic_rock>*8);
+mythcomp90.addItemInput(<aoa3:runium_chunk>*64);
+mythcomp90.addItemOutput(<contenttweaker:deep_metamorphic_rock>*16);
+mythcomp90.build();

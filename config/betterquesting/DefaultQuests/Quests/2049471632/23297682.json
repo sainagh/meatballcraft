@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    81569973,
+    1479261109
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:holy_sword"
+      },
+      "name:8": "圣剑"
+    }
+  },
+  "questID:3": 23297682,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:holy_sword"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

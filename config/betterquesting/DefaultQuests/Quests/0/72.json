@@ -36,6 +36,14 @@
         "1:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:multiblock_sticc"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "modularmachineryaddons:advancedmachineassembler"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "modularmachineryaddons:advancedmachinedisassembler"
         }
       },
       "taskID:8": "bq_standard:retrieval"

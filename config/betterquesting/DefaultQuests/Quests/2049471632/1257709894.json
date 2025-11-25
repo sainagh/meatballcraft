@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    471525021,
+    81569973
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thebetweenlands:shockwave_sword",
+        "tag:10": {
+          "cooldown:3": 0,
+          "uses:3": 0
+        }
+      },
+      "name:8": "震波剑"
+    }
+  },
+  "questID:3": 1257709894,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thebetweenlands:shockwave_sword",
+          "tag:10": {
+            "cooldown:3": 0,
+            "uses:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1822,5 +1822,84 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 
 
 
+//	The Lightbringer
+{
+
+	val enchlistLightbringer as EnchantMap = EnchantMap()
+	.add("cofhcore:smelting",20000)
+	.add("enchantment:openblocks:flim_flam",10000);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<avaritia:infinity_pickaxe>.withTag({display: {Name:"§6§o裂光者§r",Lore:["§d§o极・超限附魔§r"]}}), enchlistLightbringer).getItem(), 
+		[[<contenttweaker:ascended_starlight_sphere>, <contenttweaker:lux_vis_condensate>, <twilightforest:mazebreaker_pickaxe>, <contenttweaker:lux_vis_condensate>, <contenttweaker:ascended_starlight_sphere>],
+		[<contenttweaker:exitium_vis_condensate>, <contenttweaker:ignis_vis_condensate>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:ignis_vis_condensate>, <contenttweaker:exitium_vis_condensate>],
+		[<aoa3:occult_pickaxe>, <contenttweaker:self_actualizing_warren_rift>, <avaritia:infinity_pickaxe>, <contenttweaker:self_actualizing_warren_rift>, <aoa3:energistic_pickaxe>],
+		[<contenttweaker:exitium_vis_condensate>, <contenttweaker:ignis_vis_condensate>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:ignis_vis_condensate>, <contenttweaker:exitium_vis_condensate>],
+		[<contenttweaker:ascended_starlight_sphere>, <contenttweaker:lux_vis_condensate>, <thaumictinkerer:ichorium_pick_adv>, <contenttweaker:lux_vis_condensate>, <contenttweaker:ascended_starlight_sphere>]]); 
+
+}
+
+
+//	Dyrnwyn
+{
+
+	val enchlistLightbringer as EnchantMap = EnchantMap()
+	.add("cofhcore:vorpal",35)
+	.add("minecraft:fire_aspect",200);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:lights_way>.withTag({display: {Name:"§6§o德尔温炎剑§r",Lore:["§d§o超限附魔§r"]}}), enchlistLightbringer).getItem(), 
+		[[<contenttweaker:ascended_fluix_crystal>, null, <contenttweaker:ascended_fluix_crystal>, null, <contenttweaker:ascended_fluix_crystal>],
+		[null, <contenttweaker:cuendillar_plate>, <contenttweaker:recursive_convergence>, <contenttweaker:cuendillar_plate>, null],
+		[<contenttweaker:ascended_fluix_crystal>, <contenttweaker:mixed_metal_shard>, <aoa3:lights_way>, <contenttweaker:mixed_metal_shard>, <contenttweaker:ascended_fluix_crystal>],
+		[null, <contenttweaker:cuendillar_plate>, <contenttweaker:hyperuranion_ingot>, <contenttweaker:cuendillar_plate>, null],
+		[<contenttweaker:ascended_fluix_crystal>, null, <contenttweaker:ascended_fluix_crystal>, null, <contenttweaker:ascended_fluix_crystal>]]); 
+
+}
+
+//	slapper
+{
+
+	val enchlistSlapper as EnchantMap = EnchantMap()
+	.add("minecraft:knockback",200);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<minecraft:fish>.withTag({display: {Name:"§6§o鱼拍§r",Lore:["§d§o超限附魔§r"]}}), enchlistSlapper).getItem(), 
+		[[null, <contenttweaker:smash_jaw>, null, <contenttweaker:smash_jaw>, null],
+		[<contenttweaker:smash_jaw>, <contenttweaker:jeweled_runium>, <ore:ingotOgerite>, <contenttweaker:jeweled_runium>, <contenttweaker:smash_jaw>],
+		[null, <ore:ingotOgerite>, <minecraft:fish>, <ore:ingotOgerite>, null],
+		[<contenttweaker:smash_jaw>, <contenttweaker:jeweled_runium>, <ore:ingotOgerite>, <contenttweaker:jeweled_runium>, <contenttweaker:smash_jaw>],
+		[null, <contenttweaker:smash_jaw>, null, <contenttweaker:smash_jaw>, null]]); 
+
+}
+
+//	slappest
+{
+
+	val enchlistSlappest as EnchantMap = EnchantMap()
+	.add("minecraft:knockback",2000);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<minecraft:fish>.withTag({display: {Name:"§6§o鱼拍拍§r",Lore:["§d§o超限附魔§r"]}}), enchlistSlappest).getItem(), 
+		[[null, <contenttweaker:smash_jaw>, null, <contenttweaker:smash_jaw>, null],
+		[<contenttweaker:smash_jaw>, <contenttweaker:jeweled_runium>, <contenttweaker:perfected_gallifreyan_alloy>, <contenttweaker:jeweled_runium>, <contenttweaker:smash_jaw>],
+		[null, <contenttweaker:perfected_gallifreyan_alloy>, <minecraft:fish>, <contenttweaker:perfected_gallifreyan_alloy>, null],
+		[<contenttweaker:smash_jaw>, <contenttweaker:jeweled_runium>, <contenttweaker:perfected_gallifreyan_alloy>, <contenttweaker:jeweled_runium>, <contenttweaker:smash_jaw>],
+		[null, <contenttweaker:smash_jaw>, null, <contenttweaker:smash_jaw>, null]]); 
+
+}
+
+//	slappestest
+{
+
+	val enchlistSlappestest as EnchantMap = EnchantMap()
+	.add("minecraft:knockback",20000);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<minecraft:fish>.withTag({display: {Name:"§6§o鱼拍拍拍§r",Lore:["§d§o超限附魔§r"]}}), enchlistSlappestest).getItem(), 
+		[[null, <contenttweaker:smash_jaw>, null, <contenttweaker:smash_jaw>, null],
+		[<contenttweaker:smash_jaw>, <contenttweaker:jeweled_runium>, <contenttweaker:ingot_of_infinite_wishes>, <contenttweaker:jeweled_runium>, <contenttweaker:smash_jaw>],
+		[null, <contenttweaker:ingot_of_infinite_wishes>, <minecraft:fish>, <contenttweaker:ingot_of_infinite_wishes>, null],
+		[<contenttweaker:smash_jaw>, <contenttweaker:jeweled_runium>, <contenttweaker:ingot_of_infinite_wishes>, <contenttweaker:jeweled_runium>, <contenttweaker:smash_jaw>],
+		[null, <contenttweaker:smash_jaw>, null, <contenttweaker:smash_jaw>, null]]); 
+
+}
+
+
 
 

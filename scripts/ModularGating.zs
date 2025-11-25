@@ -528,3 +528,10 @@ recipes.addShaped(<modularmachineryaddons:advancedmachinedisassembler>,
 [[null, <modularmachinery:itemmodularium>, null],
 [<modularmachinery:itemmodularium>, <contenttweaker:multiblock_sticc>, <modularmachinery:itemmodularium>],
 [null, <modularmachinery:itemmodularium>, null]]);
+
+
+
+recipes.addShaped(<modularmachineryaddons:blockwillmultichunkprovideroutput>,
+[[<modularmachinery:itemmodularium>, <bloodmagic:item_demon_crystal:0>, <modularmachinery:itemmodularium>],
+[<bloodmagic:item_demon_crystal:0>, <modularmachinery:blockwillprovideroutput>, <bloodmagic:item_demon_crystal:0>],
+[<modularmachinery:itemmodularium>, <bloodmagic:item_demon_crystal:0>, <modularmachinery:itemmodularium>]]);

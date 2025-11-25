@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    1809800621,
+    471525021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:yellow_divine_sword"
+      },
+      "name:8": "神圣之剑"
+    }
+  },
+  "questID:3": 1908569504,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:blue_divine_sword"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:divine_sword"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:gray_divine_sword"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:green_divine_sword"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:red_divine_sword"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:yellow_divine_sword"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

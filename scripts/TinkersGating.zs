@@ -195,3 +195,23 @@ recipes.addShaped(<tconstruct:pattern>.withTag({PartType: "plustic:battery_cell"
 [null, <tconstruct:pattern>, null],
 [null, <contenttweaker:mithminite_core>, null]]);
 
+
+
+recipes.remove(<tconstruct:materials:14>);
+recipes.addShaped(<tconstruct:materials:14>,
+[[<contenttweaker:refined_obsidian_sliver>, <contenttweaker:refined_obsidian_sliver>, <contenttweaker:refined_obsidian_sliver>],
+[<contenttweaker:refined_obsidian_sliver>, <tconstruct:cast:*>, <contenttweaker:refined_obsidian_sliver>],
+[<contenttweaker:refined_obsidian_sliver>, <contenttweaker:refined_obsidian_sliver>, <contenttweaker:refined_obsidian_sliver>]]);
+
+recipes.addShaped(<contenttweaker:refined_obsidian_sliver>,
+[[<contenttweaker:refined_obsidian_flake>, <contenttweaker:refined_obsidian_flake>, <contenttweaker:refined_obsidian_flake>],
+[<contenttweaker:refined_obsidian_flake>, <contenttweaker:refined_obsidian_flake>, <contenttweaker:refined_obsidian_flake>],
+[<contenttweaker:refined_obsidian_flake>, <contenttweaker:refined_obsidian_flake>, <contenttweaker:refined_obsidian_flake>]]);
+
+
+recipes.addShaped(<contenttweaker:refined_obsidian_sliver>*2,
+[[<contenttweaker:furnace_heart>, <contenttweaker:pale_sky_stone_pebble>, <contenttweaker:furnace_heart>],
+[<contenttweaker:pale_sky_stone_pebble>, <contenttweaker:refined_obsidian_sliver>, <contenttweaker:pale_sky_stone_pebble>],
+[<contenttweaker:furnace_heart>, <contenttweaker:pale_sky_stone_pebble>, <contenttweaker:furnace_heart>]]);
+
+

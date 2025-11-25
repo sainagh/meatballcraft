@@ -1,0 +1,61 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    944,
+    998
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:fish",
+        "tag:10": {
+          "display:10": {
+            "Lore:9": {
+              "0:8": "§d§o超限附魔§r"
+            },
+            "Name:8": "§6§o鱼拍§r"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:3": 19,
+              "lvl:3": 200
+            }
+          }
+        }
+      },
+      "name:8": "鱼拍"
+    }
+  },
+  "questID:3": 1285937242,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:fish",
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§o超限附魔§r"
+              },
+              "Name:8": "§6§o鱼拍§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 19,
+                "lvl:3": 200
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -216,5 +216,247 @@ mythassmac30.addItemInput(<advancedrocketry:lens:0>);
 mythassmac30.addItemInput(<ore:plateGold>);
 mythassmac30.addItemInput(<minecraft:redstone_block>);
 mythassmac30.addItemInput(<advancedrocketry:wafer:0>*4);
-mythassmac30.addItemOutput(<advancedrocketry:itemcircuitplate:0>);
+mythassmac30.addItemOutput(<advancedrocketry:itemcircuitplate:1>);
 mythassmac30.build();
+
+
+val mythassmac31 = RecipeBuilder.newBuilder("mythassmac31","mythic_processor_assembling_machine",2);
+mythassmac31.addEnergyPerTickInput(40000);
+mythassmac31.addItemInput(<techreborn:machine_frame:0>);
+mythassmac31.setChance(0.0);
+mythassmac31.addItemInput(<ore:ingotCopper>*18);
+mythassmac31.addItemInput(<ore:itemRubber>*36);
+mythassmac31.addItemOutput(<techreborn:cable:5>*36);
+mythassmac31.build();
+
+val mythassmac32 = RecipeBuilder.newBuilder("mythassmac32","mythic_processor_assembling_machine",2);
+mythassmac32.addEnergyPerTickInput(40000);
+mythassmac32.addItemInput(<techreborn:machine_frame:1>);
+mythassmac32.setChance(0.0);
+mythassmac32.addItemInput(<ore:ingotCopper>*18);
+mythassmac32.addItemInput(<ore:itemRubber>*18);
+mythassmac32.addItemInput(<contenttweaker:magical_sap>*18);
+mythassmac32.addItemOutput(<contenttweaker:magical_insulated_copper_cable>*36);
+mythassmac32.build();
+
+val mythassmac33 = RecipeBuilder.newBuilder("mythassmac33","mythic_processor_assembling_machine",2);
+mythassmac33.addEnergyPerTickInput(40000);
+mythassmac33.addItemInput(<techreborn:machine_frame:1>);
+mythassmac33.setChance(0.0);
+mythassmac33.addItemInput(<ore:ingotCopper>*18);
+mythassmac33.addItemInput(<ore:itemRubber>*18);
+mythassmac33.addItemInput(<contenttweaker:mystical_sap>*18);
+mythassmac33.addItemOutput(<contenttweaker:mystical_insulated_copper_cable>*36);
+mythassmac33.build();
+
+val mythassmac34 = RecipeBuilder.newBuilder("mythassmac34","mythic_processor_assembling_machine",2);
+mythassmac34.addEnergyPerTickInput(40000);
+mythassmac34.addItemInput(<techreborn:machine_frame:1>);
+mythassmac34.setChance(0.0);
+mythassmac34.addItemInput(<ore:ingotCopper>*18);
+mythassmac34.addItemInput(<ore:itemRubber>*18);
+mythassmac34.addItemInput(<contenttweaker:arcane_sap>*18);
+mythassmac34.addItemOutput(<contenttweaker:arcane_insulated_copper_cable>*36);
+mythassmac34.build();
+
+val mythassmac35 = RecipeBuilder.newBuilder("mythassmac35","mythic_processor_assembling_machine",2);
+mythassmac35.addEnergyPerTickInput(40000);
+mythassmac35.addItemInput(<techreborn:machine_frame:1>);
+mythassmac35.setChance(0.0);
+mythassmac35.addItemInput(<ore:ingotCopper>*18);
+mythassmac35.addItemInput(<ore:itemRubber>*18);
+mythassmac35.addItemInput(<contenttweaker:mythical_sap>*18);
+mythassmac35.addItemOutput(<contenttweaker:mythical_insulated_copper_cable>*36);
+mythassmac35.build();
+
+val mythassmac36 = RecipeBuilder.newBuilder("mythassmac36","mythic_processor_assembling_machine",2);
+mythassmac36.addEnergyPerTickInput(40000);
+mythassmac36.addItemInput(<techreborn:machine_frame:1>);
+mythassmac36.setChance(0.0);
+mythassmac36.addItemInput(<ore:ingotCopper>*18);
+mythassmac36.addItemInput(<ore:itemRubber>*18);
+mythassmac36.addItemInput(<contenttweaker:ascended_sap>*18);
+mythassmac36.addItemOutput(<contenttweaker:ascended_insulated_copper_cable>*36);
+mythassmac36.build();
+
+
+val mythassmac37 = RecipeBuilder.newBuilder("mythassmac37","mythic_processor_assembling_machine",2);
+mythassmac37.addEnergyPerTickInput(40000);
+mythassmac37.addItemInput(<ore:plateElectrum>*16);
+mythassmac37.addItemInput(<contenttweaker:magical_sap>*16);
+mythassmac37.addItemOutput(<contenttweaker:magical_insulated_electrum_plate>*16);
+mythassmac37.build();
+
+val mythassmac38 = RecipeBuilder.newBuilder("mythassmac38","mythic_processor_assembling_machine",2);
+mythassmac38.addEnergyPerTickInput(40000);
+mythassmac38.addItemInput(<ore:plateElectrum>*16);
+mythassmac38.addItemInput(<contenttweaker:mystical_sap>*16);
+mythassmac38.addItemOutput(<contenttweaker:mystical_insulated_electrum_plate>*16);
+mythassmac38.build();
+
+val mythassmac39 = RecipeBuilder.newBuilder("mythassmac39","mythic_processor_assembling_machine",2);
+mythassmac39.addEnergyPerTickInput(40000);
+mythassmac39.addItemInput(<ore:plateElectrum>*16);
+mythassmac39.addItemInput(<contenttweaker:arcane_sap>*16);
+mythassmac39.addItemOutput(<contenttweaker:arcane_insulated_electrum_plate>*16);
+mythassmac39.build();
+
+val mythassmac40 = RecipeBuilder.newBuilder("mythassmac40","mythic_processor_assembling_machine",2);
+mythassmac40.addEnergyPerTickInput(40000);
+mythassmac40.addItemInput(<ore:plateElectrum>*16);
+mythassmac40.addItemInput(<contenttweaker:mythical_sap>*16);
+mythassmac40.addItemOutput(<contenttweaker:mythical_insulated_electrum_plate>*16);
+mythassmac40.build();
+
+val mythassmac41 = RecipeBuilder.newBuilder("mythassmac41","mythic_processor_assembling_machine",2);
+mythassmac41.addEnergyPerTickInput(40000);
+mythassmac41.addItemInput(<ore:plateElectrum>*16);
+mythassmac41.addItemInput(<contenttweaker:ascended_sap>*16);
+mythassmac41.addItemOutput(<contenttweaker:ascended_insulated_electrum_plate>*16);
+mythassmac41.build();
+
+
+val mythassmac42 = RecipeBuilder.newBuilder("mythassmac42","mythic_processor_assembling_machine",2);
+mythassmac42.addEnergyPerTickInput(40000);
+mythassmac42.addItemInput(<ore:plateSilicon>*1);
+mythassmac42.addItemInput(<contenttweaker:magical_insulated_electrum_plate>*4);
+mythassmac42.addItemOutput(<contenttweaker:magical_insulated_circuit_board>*2);
+mythassmac42.build();
+
+val mythassmac43 = RecipeBuilder.newBuilder("mythassmac43","mythic_processor_assembling_machine",2);
+mythassmac43.addEnergyPerTickInput(40000);
+mythassmac43.addItemInput(<ore:plateSilicon>*1);
+mythassmac43.addItemInput(<contenttweaker:mystical_insulated_electrum_plate>*4);
+mythassmac43.addItemOutput(<contenttweaker:mystical_insulated_circuit_board>*2);
+mythassmac43.build();
+
+val mythassmac44 = RecipeBuilder.newBuilder("mythassmac44","mythic_processor_assembling_machine",2);
+mythassmac44.addEnergyPerTickInput(40000);
+mythassmac44.addItemInput(<ore:plateSilicon>*1);
+mythassmac44.addItemInput(<contenttweaker:arcane_insulated_electrum_plate>*4);
+mythassmac44.addItemOutput(<contenttweaker:arcane_insulated_circuit_board>*2);
+mythassmac44.build();
+
+val mythassmac45 = RecipeBuilder.newBuilder("mythassmac45","mythic_processor_assembling_machine",2);
+mythassmac45.addEnergyPerTickInput(40000);
+mythassmac45.addItemInput(<ore:plateSilicon>*1);
+mythassmac45.addItemInput(<contenttweaker:mythical_insulated_electrum_plate>*4);
+mythassmac45.addItemOutput(<contenttweaker:mythical_insulated_circuit_board>*2);
+mythassmac45.build();
+
+val mythassmac46 = RecipeBuilder.newBuilder("mythassmac46","mythic_processor_assembling_machine",2);
+mythassmac46.addEnergyPerTickInput(40000);
+mythassmac46.addItemInput(<ore:plateSilicon>*1);
+mythassmac46.addItemInput(<contenttweaker:ascended_insulated_electrum_plate>*4);
+mythassmac46.addItemOutput(<contenttweaker:ascended_insulated_circuit_board>*2);
+mythassmac46.build();
+
+
+
+val mythassmac47 = RecipeBuilder.newBuilder("mythassmac47","mythic_processor_assembling_machine",2);
+mythassmac47.addEnergyPerTickInput(40000);
+mythassmac47.addItemInput(<techreborn:part:40>*1);
+mythassmac47.addItemInput(<contenttweaker:magical_insulated_copper_cable>*3);
+mythassmac47.addItemOutput(<techreborn:part:29>*2);
+mythassmac47.build();
+
+val mythassmac48 = RecipeBuilder.newBuilder("mythassmac48","mythic_processor_assembling_machine",2);
+mythassmac48.addEnergyPerTickInput(40000);
+mythassmac48.addItemInput(<techreborn:part:40>*1);
+mythassmac48.addItemInput(<contenttweaker:mystical_insulated_copper_cable>*3);
+mythassmac48.addItemOutput(<techreborn:part:29>*4);
+mythassmac48.build();
+
+val mythassmac49 = RecipeBuilder.newBuilder("mythassmac49","mythic_processor_assembling_machine",2);
+mythassmac49.addEnergyPerTickInput(40000);
+mythassmac49.addItemInput(<techreborn:part:40>*1);
+mythassmac49.addItemInput(<contenttweaker:arcane_insulated_copper_cable>*3);
+mythassmac49.addItemOutput(<techreborn:part:29>*8);
+mythassmac49.build();
+
+val mythassmac50 = RecipeBuilder.newBuilder("mythassmac50","mythic_processor_assembling_machine",2);
+mythassmac50.addEnergyPerTickInput(40000);
+mythassmac50.addItemInput(<techreborn:part:40>*1);
+mythassmac50.addItemInput(<contenttweaker:mythical_insulated_copper_cable>*3);
+mythassmac50.addItemOutput(<techreborn:part:29>*16);
+mythassmac50.build();
+
+val mythassmac51 = RecipeBuilder.newBuilder("mythassmac51","mythic_processor_assembling_machine",2);
+mythassmac51.addEnergyPerTickInput(40000);
+mythassmac51.addItemInput(<techreborn:part:40>*1);
+mythassmac51.addItemInput(<contenttweaker:ascended_insulated_copper_cable>*3);
+mythassmac51.addItemOutput(<techreborn:part:29>*32);
+mythassmac51.build();
+
+
+val mythassmac52 = RecipeBuilder.newBuilder("mythassmac52","mythic_processor_assembling_machine",2);
+mythassmac52.addEnergyPerTickInput(40000);
+mythassmac52.addItemInput(<techreborn:part:42>*2);
+mythassmac52.addItemInput(<contenttweaker:magical_insulated_circuit_board>);
+mythassmac52.addItemOutput(<techreborn:part:30>*2);
+mythassmac52.build();
+
+val mythassmac53 = RecipeBuilder.newBuilder("mythassmac53","mythic_processor_assembling_machine",2);
+mythassmac53.addEnergyPerTickInput(40000);
+mythassmac53.addItemInput(<techreborn:part:42>*2);
+mythassmac53.addItemInput(<contenttweaker:mystical_insulated_circuit_board>);
+mythassmac53.addItemOutput(<techreborn:part:30>*4);
+mythassmac53.build();
+
+val mythassmac54 = RecipeBuilder.newBuilder("mythassmac54","mythic_processor_assembling_machine",2);
+mythassmac54.addEnergyPerTickInput(40000);
+mythassmac54.addItemInput(<techreborn:part:42>*2);
+mythassmac54.addItemInput(<contenttweaker:arcane_insulated_circuit_board>);
+mythassmac54.addItemOutput(<techreborn:part:30>*8);
+mythassmac54.build();
+
+val mythassmac55 = RecipeBuilder.newBuilder("mythassmac55","mythic_processor_assembling_machine",2);
+mythassmac55.addEnergyPerTickInput(40000);
+mythassmac55.addItemInput(<techreborn:part:42>*2);
+mythassmac55.addItemInput(<contenttweaker:mythical_insulated_circuit_board>);
+mythassmac55.addItemOutput(<techreborn:part:30>*16);
+mythassmac55.build();
+
+val mythassmac56 = RecipeBuilder.newBuilder("mythassmac56","mythic_processor_assembling_machine",2);
+mythassmac56.addEnergyPerTickInput(40000);
+mythassmac56.addItemInput(<techreborn:part:42>*2);
+mythassmac56.addItemInput(<contenttweaker:ascended_insulated_circuit_board>);
+mythassmac56.addItemOutput(<techreborn:part:30>*32);
+mythassmac56.build();
+
+
+
+val mythassmac57 = RecipeBuilder.newBuilder("mythassmac57","mythic_processor_assembling_machine",2);
+mythassmac57.addEnergyPerTickInput(40000);
+mythassmac57.addItemInput(<minecraft:prismarine_crystals>*2);
+mythassmac57.addItemInput(<ore:ingotVibrantAlloy>*2);
+mythassmac57.addItemInput(<minecraft:prismarine_shard>);
+mythassmac57.addItemInput(<enderio:item_basic_capacitor:1>);
+mythassmac57.addItemOutput(<enderio:item_material:56>);
+mythassmac57.build();
+
+val mythassmac58 = RecipeBuilder.newBuilder("mythassmac58","mythic_processor_assembling_machine",2);
+mythassmac58.addEnergyPerTickInput(40000);
+mythassmac58.addItemInput(<minecraft:prismarine_crystals>*2);
+mythassmac58.addItemInput(<ore:ingotVibrantAlloy>*2);
+mythassmac58.addItemInput(<minecraft:prismarine_shard>);
+mythassmac58.addItemInput(<enderio:item_capacitor_energetic_silver>);
+mythassmac58.addItemOutput(<enderio:item_material:56>);
+mythassmac58.build();
+
+
+val mythassmac59 = RecipeBuilder.newBuilder("mythassmac59","mythic_processor_assembling_machine",2);
+mythassmac59.addEnergyPerTickInput(40000);
+mythassmac59.addItemInput(<appliedenergistics2:material:12>*96);
+mythassmac59.addItemInput(<appliedenergistics2:material:22>*64);
+mythassmac59.addItemInput(<appliedenergistics2:material:23>*64);
+mythassmac59.addItemInput(<appliedenergistics2:material:24>*64);
+mythassmac59.addItemOutput(<contenttweaker:spatial_processing_unit>*32);
+mythassmac59.build();
+
+
+
+
+
+
+

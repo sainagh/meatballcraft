@@ -1,5 +1,9 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.thaumcraft.SmeltingBonus;
+import mods.thaumcraft.Infusion;
+
+
+
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:enriched_canola_seed>, 
 202020, <actuallyadditions:item_misc:24>, 
@@ -371,8 +375,32 @@ recipes.addShaped(<contenttweaker:sticky_callstone>,
 [<contenttweaker:forgotten_slime>, <contenttweaker:primordial_prism>, <contenttweaker:forgotten_slime>],
 [<contenttweaker:dimensional_ingot>, <avaritia:resource:7>, <contenttweaker:dimensional_ingot>]]);
 
+
+mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:mythic_excavation_engine>, 
+[[<contenttweaker:jeweled_runium>, <contenttweaker:high_strength_transmission>, <contenttweaker:jeweled_runium>], 
+[<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>], 
+[<thaumadditions:adaminite_ingot>, <bloodmagic:blood_shard:1>, <thaumadditions:adaminite_ingot>]], 1); 
+
+
 recipes.addShaped(<contenttweaker:mythic_excavation_engine>,
 [[<contenttweaker:fluix_microcontroller>, <contenttweaker:high_strength_transmission>, <contenttweaker:fluix_microcontroller>],
+[<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>],
+[<aoa3:elecanium_ingot>, <contenttweaker:primal_jewel>, <aoa3:elecanium_ingot>]]);
+
+recipes.addShaped(<contenttweaker:mythic_excavation_engine>*4,
+[[<contenttweaker:matter_digitalization_fabrial>, <contenttweaker:high_strength_transmission>, <contenttweaker:matter_digitalization_fabrial>],
+[<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>],
+[<aoa3:elecanium_ingot>, <contenttweaker:primal_jewel>, <aoa3:elecanium_ingot>]]);
+
+
+recipes.addShaped(<contenttweaker:warren_generator>*4,
+[[<contenttweaker:matter_digitalization_fabrial>, <extendedcrafting:singularity_custom:2044>, <contenttweaker:matter_digitalization_fabrial>],
+[<extendedcrafting:singularity_custom:2043>, <contenttweaker:warren_shard>, <extendedcrafting:singularity_custom:2043>],
+[<contenttweaker:matter_digitalization_fabrial>, <extendedcrafting:singularity_custom:2044>, <contenttweaker:matter_digitalization_fabrial>]]);
+
+
+recipes.addShaped(<contenttweaker:mythic_excavation_engine>*8,
+[[<contenttweaker:warren_generator>, <contenttweaker:high_strength_transmission>, <contenttweaker:warren_generator>],
 [<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>],
 [<aoa3:elecanium_ingot>, <contenttweaker:primal_jewel>, <aoa3:elecanium_ingot>]]);
 
@@ -472,3 +500,519 @@ recipes.addShaped(<divinerpg:halite_phaser>,
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:phasing_halite_halo>, [[<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>], [<divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>, <divinerpg:halite_phaser>]]);  
 
 
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_excavation_reactor>, 
+[[<ore:ingotCrystalMatrix>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
+<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity:29>, <contenttweaker:brightseel_alloy_gear>, 
+<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <ore:ingotCrystalMatrix>], 
+
+[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
+<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
+
+[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
+<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:mythic_coil_t2>, <contenttweaker:fluxed_electrum_shaft>, 
+<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
+
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
+<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
+
+[<extendedcrafting:material:32>, <contenttweaker:fluix_microcontroller>, <ore:ingotUltimate>, 
+<contenttweaker:mythic_excavation_engine>, <contenttweaker:mythic_excavation_computer>, <contenttweaker:mythic_excavation_engine>, 
+<ore:ingotUltimate>, <contenttweaker:fluix_microcontroller>, <extendedcrafting:material:32>], 
+
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
+<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
+
+[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
+<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:awakened_electromagnet>, <contenttweaker:fluxed_electrum_shaft>, 
+<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
+
+[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
+<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
+
+[<ore:ingotCrystalMatrix>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
+<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity_custom:651>, <contenttweaker:brightseel_alloy_gear>, 
+<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <ore:ingotCrystalMatrix>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_excavation_reactor>*3, 
+[[<contenttweaker:defined_plate>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
+<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity:29>, <contenttweaker:brightseel_alloy_gear>, 
+<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <contenttweaker:defined_plate>], 
+
+[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
+<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
+
+[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
+<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:mythic_coil_t2>, <contenttweaker:fluxed_electrum_shaft>, 
+<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
+
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
+<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
+
+[<extendedcrafting:material:32>, <contenttweaker:fluix_microcontroller>, <ore:ingotUltimate>, 
+<contenttweaker:mythic_excavation_engine>, <contenttweaker:mythic_excavation_computer>, <contenttweaker:mythic_excavation_engine>, 
+<ore:ingotUltimate>, <contenttweaker:fluix_microcontroller>, <extendedcrafting:material:32>], 
+
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
+<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
+
+[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
+<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:awakened_electromagnet>, <contenttweaker:fluxed_electrum_shaft>, 
+<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
+
+[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
+<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
+
+[<contenttweaker:defined_plate>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
+<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity_custom:651>, <contenttweaker:brightseel_alloy_gear>, 
+<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <contenttweaker:defined_plate>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:mythic_excavation_reactor>*6, 
+[[<contenttweaker:defined_plate>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
+<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity:29>, <contenttweaker:brightseel_alloy_gear>, 
+<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <contenttweaker:defined_plate>], 
+
+[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <contenttweaker:mythic_excavation_computer>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
+<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
+
+[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
+<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:mythic_coil_t2>, <contenttweaker:fluxed_electrum_shaft>, 
+<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
+
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
+<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
+
+[<extendedcrafting:singularity_custom:630>, <contenttweaker:fluix_microcontroller>, <ore:blockUltimate>, 
+<contenttweaker:mythic_excavation_engine>, <contenttweaker:mythic_excavation_engine>, <contenttweaker:mythic_excavation_engine>, 
+<ore:blockUltimate>, <contenttweaker:fluix_microcontroller>, <extendedcrafting:singularity_custom:630>], 
+
+[<environmentaltech:solar_cell_aethium>, <contenttweaker:reactive_fluix>, <tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), 
+<contenttweaker:coralium_shielding>, <contenttweaker:brightsteel_case>, <contenttweaker:coralium_shielding>, 
+<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy_endergy", Count: 1, Damage: 4 as short}}), <contenttweaker:reactive_fluix>, <environmentaltech:solar_cell_aethium>], 
+
+[<enderio:item_capacitor_stellar>, <nuclearcraft:rtg_americium>, <contenttweaker:cyanite_cell>, 
+<contenttweaker:fluxed_electrum_shaft>, <contenttweaker:awakened_electromagnet>, <contenttweaker:fluxed_electrum_shaft>, 
+<contenttweaker:cyanite_cell>, <nuclearcraft:rtg_americium>, <enderio:item_capacitor_stellar>], 
+
+[<contenttweaker:empowerment_core>, <contenttweaker:entropy_construct>, <techreborn:matter_fabricator>, 
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), <contenttweaker:mythic_excavation_computer>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), 
+<techreborn:matter_fabricator>, <contenttweaker:entropy_construct>, <contenttweaker:empowerment_core>], 
+
+[<contenttweaker:defined_plate>, <contenttweaker:empowerment_core>, <techreborn:machine_casing:2>, 
+<contenttweaker:brightseel_alloy_gear>, <extendedcrafting:singularity_custom:651>, <contenttweaker:brightseel_alloy_gear>, 
+<techreborn:machine_casing:2>, <contenttweaker:empowerment_core>, <contenttweaker:defined_plate>]]);  
+
+
+
+
+mods.thaumcraft.Infusion.registerRecipe("thauminfbloodsheddemon", "", 
+<contenttweaker:rite_of_bloodshed>, 20, 
+[<aspect:victus>*200, <aspect:tenebrae>*100, <aspect:aversio>*100, <aspect:diabolus>*100, <aspect:infernum>*100], 
+<bewitchment:pentacle>, 
+[<contenttweaker:demonic_remains>, <thaumadditions:brass_plated_silverwood>,
+<contenttweaker:berserker_steel_ingot>, <aoa3:mystite_block>,
+<contenttweaker:recursive_powder>,
+<contenttweaker:demonic_remains>, <thaumadditions:brass_plated_silverwood>,
+<contenttweaker:berserker_steel_ingot>, <aoa3:mystite_block>,
+<contenttweaker:recursive_powder>]);
+
+
+
+val rainbowlensgrav = RecipeBuilder.newBuilder("rainbowlensgrav","gravitite_enchanter",300);
+rainbowlensgrav.addFluidInput(<fluid:astralsorcery.liquidstarlight>*1000);
+rainbowlensgrav.addItemInput(<contenttweaker:rainbow_gemstones>*4);
+rainbowlensgrav.addItemInput(<contenttweaker:gravitite_lens>);
+rainbowlensgrav.addItemInput(<contenttweaker:fluix_lens>);
+rainbowlensgrav.addItemOutput(<contenttweaker:rainbow_lens>);
+rainbowlensgrav.build();
+
+
+val rainbowlensgrav2 = RecipeBuilder.newBuilder("rainbowlensgrav2","gravitite_enchanter",40);
+rainbowlensgrav2.addFluidInput(<fluid:stormlight>*200);
+rainbowlensgrav2.addItemInput(<contenttweaker:rainbow_gemstones>*4);
+rainbowlensgrav2.addItemInput(<contenttweaker:gravitite_lens>);
+rainbowlensgrav2.addItemInput(<contenttweaker:fluix_lens>);
+rainbowlensgrav2.addItemOutput(<contenttweaker:rainbow_lens>);
+rainbowlensgrav2.build();
+
+
+recipes.addShaped(<contenttweaker:strange_phasing_dragon_meal>*8,
+[[<iceandfire:dragon_meal>, <iceandfire:dragon_meal>, <iceandfire:dragon_meal>],
+[<iceandfire:dragon_meal>, <contenttweaker:shard_of_a_fallen_spren>, <iceandfire:dragon_meal>],
+[<iceandfire:dragon_meal>, <iceandfire:dragon_meal>, <iceandfire:dragon_meal>]]);
+
+furnace.addRecipe(<iceandfire:dragon_meal>, <contenttweaker:strange_phasing_dragon_meal>);
+
+
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<contenttweaker:strange_phasing_dragon_meal>, <contenttweaker:strange_phasing_meat> % 90);
+
+
+
+
+val divinecombinerfinemineraldust = RecipeBuilder.newBuilder("divinecombinerfinemineraldust","divine_combiner",2);
+divinecombinerfinemineraldust.addFluidInput(<fluid:infinity>*288);
+divinecombinerfinemineraldust.addItemInput(<contenttweaker:pale_metal_dust>);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:41>*48);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:1>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:2>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:4>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:6>*32);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:5>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:8>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:10>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:11>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:17>*32);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:23>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:24>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:25>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:28>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:30>*32);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:31>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:37>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:39>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:40>*64);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:50>*32);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:49>*32);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:48>*32);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:56>*32);
+divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:69>*48);
+divinecombinerfinemineraldust.addItemOutput(<contenttweaker:fine_mineral_dust>*16);
+divinecombinerfinemineraldust.build();
+
+
+mods.thaumcraft.Infusion.registerRecipe("infritualofunhollowing", "", 
+<contenttweaker:rite_of_unhollowing>, 10,
+[<aspect:cognitio>*10000, <aspect:terra>*10000, <aspect:herba>*10000, <aspect:permutatio>*10000], 
+<erebus:stag_heart_raw>, 
+[<contenttweaker:quasar_charged_gem>, <contenttweaker:yggdrasil_wood>,
+<contenttweaker:geo_fragment>, <contenttweaker:pale_metal>,
+<contenttweaker:quasar_charged_gem>, <contenttweaker:yggdrasil_wood>,
+<contenttweaker:geo_fragment>, <contenttweaker:pale_metal>,
+<contenttweaker:quasar_charged_gem>, <contenttweaker:yggdrasil_wood>,
+<contenttweaker:geo_fragment>, <contenttweaker:pale_metal>]);
+
+val steraltrecgrowth = RecipeBuilder.newBuilder("steraltrecgrowth","sterilized_altar",2);
+steraltrecgrowth.addEnergyPerTickInput(1200);
+steraltrecgrowth.addFluidInput(<fluid:liquid_pe>*500);
+steraltrecgrowth.addFluidInput(<fluid:liquid_lp>*500);
+steraltrecgrowth.addItemInput(<contenttweaker:recursion_of_growth>);
+steraltrecgrowth.setChance(0.0);
+steraltrecgrowth.addItemInput(<contenttweaker:pale_metal_dust>*4);
+steraltrecgrowth.addItemInput(<contenttweaker:quasar_charged_dust>*4);
+steraltrecgrowth.addItemInput(<bewitchment:hellebore>);
+steraltrecgrowth.addItemOutput(<contenttweaker:delicate_flower>);
+steraltrecgrowth.build();
+
+recipes.addShapeless(<contenttweaker:delicate_pollen>*8,
+[<botania:pestleandmortar>.reuse(),
+<contenttweaker:delicate_flower>]);
+
+
+val divinecombinerfinemineraldust2 = RecipeBuilder.newBuilder("divinecombinerfinemineraldust2","divine_combiner",2);
+divinecombinerfinemineraldust2.addFluidInput(<fluid:infinity>*288);
+divinecombinerfinemineraldust2.addItemInput(<contenttweaker:delicate_pollen>);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:41>*192);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:1>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:2>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:4>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:6>*128);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:5>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:8>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:10>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:11>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:17>*128);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:23>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:24>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:25>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:28>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:30>*128);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:31>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:37>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:39>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:40>*256);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:50>*128);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:49>*128);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:48>*128);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:56>*128);
+divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:69>*192);
+divinecombinerfinemineraldust2.addItemOutput(<contenttweaker:fine_mineral_dust>*64);
+divinecombinerfinemineraldust2.build();
+
+
+
+
+
+val divinecombinerrealgar = RecipeBuilder.newBuilder("divinecombinerrealgar","divine_combiner",2);
+divinecombinerrealgar.addFluidInput(<fluid:hint_of_divinity>*10);
+divinecombinerrealgar.addItemInput(<contenttweaker:eternal_tulite>);
+divinecombinerrealgar.addItemInput(<contenttweaker:abyss_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:lelyetia_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:precasia_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:runandor_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:creeponia_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:deeplands_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:vox_ponds_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:mysterium_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:iromine_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:haven_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:candyland_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:celeve_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:gardencia_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:crystevia_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:lunalus_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:barathos_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:borean_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:immortallis_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:ancient_cavern_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:greckon_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:dustopia_garnet>);
+divinecombinerrealgar.addItemInput(<contenttweaker:vethea_garnet>);
+divinecombinerrealgar.addItemOutput(<contenttweaker:universal_realgar>);
+divinecombinerrealgar.build();
+
+recipes.addShaped(<contenttweaker:divine_resonance_fabrial>,
+[[<ore:stickSednanite>, <ore:stickSednanite>, <ore:stickSednanite>],
+[<contenttweaker:divine_wisp>, <minecraft:silver_shulker_box>.withTag({BlockEntityTag: {Items: [{Slot: 0 as byte, id: "contenttweaker:shyre_chunk", Count: 1, Damage: 0 as short}, {Slot: 1 as byte, id: "contenttweaker:mortum_livingrock", Count: 1, Damage: 0 as short}, {Slot: 2 as byte, id: "aoa3:shyregem", Count: 1, Damage: 0 as short}]}}), <contenttweaker:divine_wisp>],
+[<ore:stickSednanite>, <ore:stickSednanite>, <ore:stickSednanite>]]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:divine_resonance_fabrial>, <fluid:hint_of_divinity>*8000, <fluid:divine_resonant_hint>*8000]);
+
+
+
+mods.nuclearcraft.dissolver.addRecipe([<avaritia:resource:5>, <fluid:divine_resonant_hint>*8000, <fluid:divine_resonance>*8000]);
+
+
+
+val divinecombinerrealgar2 = RecipeBuilder.newBuilder("divinecombinerrealgar2","divine_combiner",2);
+divinecombinerrealgar2.addFluidInput(<fluid:divine_resonant_hint>*10);
+divinecombinerrealgar2.addItemInput(<contenttweaker:eternal_tulite>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:abyss_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:lelyetia_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:precasia_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:runandor_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:creeponia_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:deeplands_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:vox_ponds_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:mysterium_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:iromine_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:haven_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:candyland_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:celeve_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:gardencia_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:crystevia_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:lunalus_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:barathos_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:borean_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:immortallis_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:ancient_cavern_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:greckon_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:dustopia_garnet>*8);
+divinecombinerrealgar2.addItemInput(<contenttweaker:vethea_garnet>*8);
+divinecombinerrealgar2.addItemOutput(<contenttweaker:universal_realgar>*8);
+divinecombinerrealgar2.build();
+
+
+val divinecombinerrealgar3 = RecipeBuilder.newBuilder("divinecombinerrealgar3","divine_combiner",2);
+divinecombinerrealgar3.addFluidInput(<fluid:divine_resonance>*40);
+divinecombinerrealgar3.addItemInput(<contenttweaker:eternal_tulite>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:abyss_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:lelyetia_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:precasia_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:runandor_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:creeponia_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:deeplands_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:vox_ponds_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:mysterium_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:iromine_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:haven_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:candyland_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:celeve_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:gardencia_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:crystevia_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:lunalus_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:barathos_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:borean_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:immortallis_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:ancient_cavern_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:greckon_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:dustopia_garnet>*64);
+divinecombinerrealgar3.addItemInput(<contenttweaker:vethea_garnet>*64);
+divinecombinerrealgar3.addItemOutput(<contenttweaker:universal_realgar>*64);
+divinecombinerrealgar3.build();
+
+
+val divinecombinergemrec = RecipeBuilder.newBuilder("divinecombinergemrec","divine_combiner",2);
+divinecombinergemrec.addFluidInput(<fluid:hint_of_divinity>*10);
+divinecombinergemrec.addItemInput(<contenttweaker:universal_realgar>);
+divinecombinergemrec.addItemInput(<contenttweaker:shyrelands_garnet>);
+divinecombinergemrec.addItemInput(<divinerpg:eden_chunk>);
+divinecombinergemrec.addItemInput(<divinerpg:wildwood_chunk>);
+divinecombinergemrec.addItemInput(<divinerpg:apalachia_chunk>);
+divinecombinergemrec.addItemInput(<divinerpg:skythern_chunk>);
+divinecombinergemrec.addItemInput(<divinerpg:mortum_chunk>);
+divinecombinergemrec.addItemOutput(<contenttweaker:gem_of_recursion>);
+divinecombinergemrec.build();
+
+val divinecombinergemrec2 = RecipeBuilder.newBuilder("divinecombinergemrec2","divine_combiner",2);
+divinecombinergemrec2.addFluidInput(<fluid:divine_resonant_hint>*10);
+divinecombinergemrec2.addItemInput(<contenttweaker:universal_realgar>*8);
+divinecombinergemrec2.addItemInput(<contenttweaker:shyrelands_garnet>*8);
+divinecombinergemrec2.addItemInput(<divinerpg:eden_chunk>*8);
+divinecombinergemrec2.addItemInput(<divinerpg:wildwood_chunk>*8);
+divinecombinergemrec2.addItemInput(<divinerpg:apalachia_chunk>*8);
+divinecombinergemrec2.addItemInput(<divinerpg:skythern_chunk>*8);
+divinecombinergemrec2.addItemInput(<divinerpg:mortum_chunk>*8);
+divinecombinergemrec2.addItemOutput(<contenttweaker:gem_of_recursion>*8);
+divinecombinergemrec2.build();
+
+val divinecombinergemrec3 = RecipeBuilder.newBuilder("divinecombinergemrec3","divine_combiner",2);
+divinecombinergemrec3.addFluidInput(<fluid:divine_resonance>*40);
+divinecombinergemrec3.addItemInput(<contenttweaker:universal_realgar>*64);
+divinecombinergemrec3.addItemInput(<contenttweaker:shyrelands_garnet>*64);
+divinecombinergemrec3.addItemInput(<divinerpg:eden_chunk>*64);
+divinecombinergemrec3.addItemInput(<divinerpg:wildwood_chunk>*64);
+divinecombinergemrec3.addItemInput(<divinerpg:apalachia_chunk>*64);
+divinecombinergemrec3.addItemInput(<divinerpg:skythern_chunk>*64);
+divinecombinergemrec3.addItemInput(<divinerpg:mortum_chunk>*64);
+divinecombinergemrec3.addItemOutput(<contenttweaker:gem_of_recursion>*64);
+divinecombinergemrec3.build();
+
+
+
+
+
+
+recipes.addShaped(<contenttweaker:gilded_rainbow_heart_canister>*8,
+[[<contenttweaker:rainbow_heart_canister>, <contenttweaker:rainbow_heart_canister>, <contenttweaker:rainbow_heart_canister>],
+[<contenttweaker:rainbow_heart_canister>, <extrautils2:decorativesolid:8>, <contenttweaker:rainbow_heart_canister>],
+[<contenttweaker:rainbow_heart_canister>, <contenttweaker:rainbow_heart_canister>, <contenttweaker:rainbow_heart_canister>]]);
+
+recipes.addShaped(<contenttweaker:brave_heart_of_pixonia>*3,
+[[<contenttweaker:pixonia_heart>, <contenttweaker:pixonia_heart>, <contenttweaker:pixonia_heart>],
+[<contenttweaker:abominable_egg>, <contenttweaker:pale_metal_dust>, <contenttweaker:abominable_egg>],
+[<contenttweaker:pixonia_heart>, <contenttweaker:pixonia_heart>, <contenttweaker:pixonia_heart>]]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:apalachia_star>, 
+2000000, 
+<minecraft:nether_star>, 
+[<contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, 
+<contenttweaker:unidentified_ingot>, <contenttweaker:recursive_demantoid>]);
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:apalachia_star>*4, 
+2000000, 
+<minecraft:nether_star>, 
+[<contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, 
+<contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, 
+<contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, 
+<contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, 
+<contenttweaker:ascending_demantoid>, <contenttweaker:ascending_demantoid>]);
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:apalachia_star>*8, 
+2000000, 
+<minecraft:nether_star>, 
+[<contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, 
+<contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, 
+<contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, 
+<contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, 
+<contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, 
+<contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, 
+<contenttweaker:fractallite_demantoid>, <contenttweaker:fractallite_demantoid>]);
+
+
+
+
+
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:skythern_star>, 
+2000000, 
+<minecraft:nether_star>, 
+[<avaritia:resource:1>, <contenttweaker:enhanced_chaos_fragment>, <avaritia:resource:3>, <avaritia:resource:3>]);
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:skythern_star>*4, 
+2000000, 
+<minecraft:nether_star>, 
+[<avaritia:resource:1>, <avaritia:resource:1>, 
+<avaritia:resource:1>, <avaritia:resource:1>, 
+<contenttweaker:entropyum_ingot>, <contenttweaker:entropyum_ingot>, 
+<avaritia:resource:4>, <avaritia:resource:4>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:skythern_star>*8, 
+2000000, 
+<minecraft:nether_star>, 
+[<avaritia:resource:1>, <avaritia:resource:1>,
+<avaritia:resource:1>, <avaritia:resource:1>,
+<avaritia:resource:1>, <avaritia:resource:1>,
+<avaritia:resource:1>, <avaritia:resource:1>, 
+<contenttweaker:entropyum_ingot>, <contenttweaker:entropyum_ingot>, 
+<avaritia:block_resource:0>, <contenttweaker:trinity_nugget>]);
+
+
+
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_star>, 
+2000000, 
+<minecraft:nether_star>, 
+[<contenttweaker:myrminiobite_ingot>, <contenttweaker:hafnium_chunk>, <contenttweaker:tantalum_chunk>, <contenttweaker:cerium_ingot>, <materialpart:hassium:ingot>]);
+
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_star>*2, 
+2000000, 
+<minecraft:nether_star>, 
+[<contenttweaker:myrminiobite_ingot>, <contenttweaker:hafnium_chunk>, <contenttweaker:tantalum_chunk>, <contenttweaker:cerium_ingot>, <materialpart:hassium:plate>, <contenttweaker:ruthenium_ingot>]);
+
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:mortum_star>*8, 
+2000000, 
+<minecraft:nether_star>, 
+[<contenttweaker:myrminiobite_ingot>, <contenttweaker:hafnium_chunk>, <contenttweaker:tantalum_chunk>, <contenttweaker:cerium_ingot>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:ruthenium_ingot>, <contenttweaker:dust_of_infinite_wishes>,
+<contenttweaker:myrminiobite_ingot>, <contenttweaker:hafnium_chunk>, <contenttweaker:tantalum_chunk>, <contenttweaker:cerium_ingot>, <contenttweaker:hassium_alloy_ingot>, <contenttweaker:ruthenium_ingot>, <contenttweaker:dust_of_infinite_wishes>]);
+
+
+
+
+
+val pixoniacarmin = RecipeBuilder.newBuilder("pixoniacarmin","carminite_empowerer",1200);
+pixoniacarmin.addEnergyPerTickInput(5000);
+pixoniacarmin.addAspectInput("coralos",10);
+pixoniacarmin.addItemInput(<materialpart:primal_ogerite:ingot>);
+pixoniacarmin.addItemInput(<minecraft:cooked_chicken>);
+pixoniacarmin.addItemOutput(<contenttweaker:pixonia_heart>);
+pixoniacarmin.build();
+
+val pixoniacarminbetter = RecipeBuilder.newBuilder("pixoniacarminbetter","carminite_empowerer",120);
+pixoniacarminbetter.addEnergyPerTickInput(5000);
+pixoniacarminbetter.addAspectInput("coralos",10);
+pixoniacarminbetter.addItemInput(<materialpart:primal_ogerite:ingot>);
+pixoniacarminbetter.addItemInput(<ore:nuggetMeat>*6);
+pixoniacarminbetter.addItemOutput(<contenttweaker:pixonia_heart>*8);
+pixoniacarminbetter.build();
+
+
+val pixoniacarminbetter2 = RecipeBuilder.newBuilder("pixoniacarminbetter2","carminite_empowerer",120);
+pixoniacarminbetter2.addEnergyPerTickInput(5000);
+pixoniacarminbetter2.addAspectInput("coralos",10);
+pixoniacarminbetter2.addItemInput(<materialpart:primal_ogerite:ingot>);
+pixoniacarminbetter2.addItemInput(<contenttweaker:strange_phasing_meat>);
+pixoniacarminbetter2.addItemOutput(<contenttweaker:pixonia_heart>*8);
+pixoniacarminbetter2.build();

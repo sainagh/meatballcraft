@@ -29,6 +29,10 @@
           "Count:3": 1,
           "Damage:2": 7,
           "id:8": "immersiveengineering:metal_device1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:core_sample_hand_drill"
         }
       },
       "taskID:8": "bq_standard:retrieval"

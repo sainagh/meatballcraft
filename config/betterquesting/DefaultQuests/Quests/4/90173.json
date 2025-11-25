@@ -25,9 +25,38 @@
         "0:10": {
           "Count:3": 1,
           "id:8": "appliedenergistics2:energy_cell",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:dense_energy_cell",
+          "tag:10": {}
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
           "tag:10": {
-            "internalCurrentPower:6": 200000.0,
-            "internalMaxPower:6": 200000.0
+            "orig_id:8": "crazyae:improved_energy_cell",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:advanced_energy_cell",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:perfect_energy_cell",
+            "orig_meta:3": 0,
+            "orig_tag:10": {}
           }
         }
       },

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1251999575
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "虽然诅咒龙巢已被占领，但它孕育出的巢穴仍在宇宙中游荡，此刻正挑战着那个理序主与泰斯提斐人——作为秩序的代言者——曾与混沌融为一体、与龙和谐共处之地。\n诅咒龙巢的野兽们不曾遗忘秩序主宰的意志，视其为巨大威胁。\n由继承了理序主未竟事业的我，来面对这群龙之巢穴，将它们纳入我的羽翼之下，正是再合适不过。\n阿米迦拉！面对我！拥抱我！与我共演这混沌之舞！\n接受我的手！交出你的掌控！\n归入理序主的恩典之下！",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:summons_of_the_cursed_wyvern"
+      },
+      "name:8": "诅咒飞龙"
+    }
+  },
+  "questID:3": 70658157,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:summons_of_the_cursed_wyvern"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:heart_of_the_cursed_wyvern"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

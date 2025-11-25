@@ -5,14 +5,29 @@ mods.thermalexpansion.Insolator.addRecipeMonoculture(<thebetweenlands:weeping_bl
  <thebetweenlands:weeping_blue>, 
  105);
  
-mods.thermalexpansion.Insolator.addRecipeMonoculture(<thebetweenlands:spirit_fruit>,
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<thebetweenlands:spirit_fruit>*12,
  <thebetweenlands:sapling_spirit_tree>, 
  <thebetweenlands:sap_spit>*4, 
  25000, 
  <thebetweenlands:sapling_spirit_tree>, 
  105);
- 
-mods.thermalexpansion.Insolator.addRecipeMonoculture(<thebetweenlands:forbidden_fig>,
+
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<thebetweenlands:spirit_fruit>*24,
+ <thebetweenlands:sapling_spirit_tree>, 
+ <contenttweaker:cursed_slime>*2, 
+ 25000, 
+ <thebetweenlands:sapling_spirit_tree>, 
+ 105);
+
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<thebetweenlands:spirit_fruit>*36,
+ <thebetweenlands:sapling_spirit_tree>, 
+ <contenttweaker:big_slime>, 
+ 25000, 
+ <thebetweenlands:sapling_spirit_tree>, 
+ 105);
+
+
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<thebetweenlands:forbidden_fig>*12,
  <thebetweenlands:forbidden_fig>, 
  <thebetweenlands:sap_spit>*4, 
  25000, 
@@ -26,12 +41,20 @@ mods.thermalexpansion.Insolator.addRecipeMonoculture(<ebwizardry:magic_crystal>,
  <ebwizardry:crystal_flower>, 
  105);
 
-mods.thermalexpansion.Insolator.addRecipeMonoculture(<erebus:materials:3>,
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<erebus:materials:3>*16,
  <erebus:materials:3>, 
  <thermalfoundation:material:1028>, 
  25000, 
- <erebus:materials:3>*3, 
- 105);
+ <erebus:materials:3>, 
+ 125);
+
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<erebus:materials:3>*60,
+ <erebus:materials:3>, 
+ <aoa3:rosidons>, 
+ 25000, 
+ <erebus:materials:3>, 
+ 155);
+
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<bewitchment:aconitum>*3,
  <bewitchment:aconitum_seeds>, 

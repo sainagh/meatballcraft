@@ -25,8 +25,8 @@ portal.addItems([
   <contenttweaker:gallifrey_portal_block>
 ]);
 var tooltip = [
-  "该配方在激活时会生成一个传送门。",
-  "站在传送门中以进行传送。"
+  "This recipe spawns a portal while active.",
+  "To teleport, stand inside the portal."
 ] as string[];
 
 var wormholetaerrapiatta = RecipeBuilder.newBuilder("wormholetaerrapiatta","wormhole_field_generator",100);
@@ -98,6 +98,27 @@ wormholegallifrey.addItemInput(<contenttweaker:gallifrey_warper>).setChance(0)
   )
   .addRecipeTooltip(tooltip)
   .build();
+
+var wormholehomeseeker = RecipeBuilder.newBuilder("wormholehomeseeker","wormhole_field_generator",100);
+wormholehomeseeker.addItemInput(<contenttweaker:homeseeker_warper>).setChance(0)
+  .addEnergyPerTickInput(10000)
+  .addStartHandler(function(event as RecipeStartEvent) {
+      wormholeGeneratorRecipeStart(event.controller, "contenttweaker:homeseeker_portal_block", "Home?");
+    }
+  )
+  .addRecipeTooltip(tooltip)
+  .build();
+
+var wormholehomebound = RecipeBuilder.newBuilder("wormholehomebound","wormhole_field_generator",100);
+wormholehomebound.addItemInput(<contenttweaker:homebound_warper>).setChance(0)
+  .addEnergyPerTickInput(10000)
+  .addStartHandler(function(event as RecipeStartEvent) {
+      wormholeGeneratorRecipeStart(event.controller, "contenttweaker:homebound_portal_block", "Home!");
+    }
+  )
+  .addRecipeTooltip(tooltip)
+  .build();
+
 
 // Do start up sound and message if no current portal, spawn portal if different recipe, or nothing if same portal:
 function wormholeGeneratorRecipeStart(controller as IMachineController, portalBlock as string, destination as string) {

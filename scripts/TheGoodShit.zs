@@ -388,10 +388,32 @@ recipes.addShaped(<botania:manaresource:5>*2,
 [<botania:manaresource:8>, <contenttweaker:sympan_spirit>.reuse(), <botania:manaresource:8>],
 [<magicbees:beecomb:2>, <botania:manaresource:7>, <magicbees:beecomb:2>]]);
 
+recipes.addShaped(<botania:manaresource:5>*4,
+[[<magicbees:beecomb:2>, <botania:manaresource:7>, <magicbees:beecomb:2>],
+[<botania:manaresource:8>, <contenttweaker:sympan_spirit>.reuse(), <botania:manaresource:8>],
+[<magicbees:beecomb:2>, <contenttweaker:rosidian_blend>, <magicbees:beecomb:2>]]);
+
+recipes.addShaped(<botania:manaresource:5>*8,
+[[<magicbees:beecomb:2>, <botania:manaresource:7>, <magicbees:beecomb:2>],
+[<contenttweaker:yggdrasil_wood>, <contenttweaker:sympan_spirit>.reuse(), <contenttweaker:yggdrasil_wood>],
+[<magicbees:beecomb:2>, <contenttweaker:rosidian_blend>, <magicbees:beecomb:2>]]);
+
+
 recipes.addShaped(<botania:manaresource:14>*2,
 [[<magicbees:beecomb:11>, <botania:manaresource:4>, <magicbees:beecomb:12>],
 [<botania:manaresource:8>, <contenttweaker:sympan_spirit>.reuse(), <botania:manaresource:8>],
 [<magicbees:beecomb:14>, <botania:manaresource:4>, <magicbees:beecomb:13>]]);
+
+recipes.addShaped(<botania:manaresource:14>*4,
+[[<magicbees:beecomb:11>, <botania:manaresource:4>, <magicbees:beecomb:12>],
+[<botania:manaresource:8>, <contenttweaker:sympan_spirit>.reuse(), <botania:manaresource:8>],
+[<magicbees:beecomb:14>, <ore:ingotChaos>, <magicbees:beecomb:13>]]);
+
+recipes.addShaped(<botania:manaresource:14>*8,
+[[<magicbees:beecomb:11>, <botania:manaresource:4>, <magicbees:beecomb:12>],
+[<contenttweaker:yggdrasil_wood>, <contenttweaker:sympan_spirit>.reuse(), <contenttweaker:yggdrasil_wood>],
+[<magicbees:beecomb:14>, <ore:ingotChaos>, <magicbees:beecomb:13>]]);
+
 
 // creative mill
 
@@ -518,3 +540,11 @@ recipes.addShaped(<enderio:item_basic_capacitor:3>.withTag({eiocap: {energy_buff
 [[<contenttweaker:cosmic_fracture>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:cosmic_fracture>],
 [<contenttweaker:dark_capacitor_shard>, <enderio:item_capacitor_stellar>, <contenttweaker:dark_capacitor_shard>],
 [<contenttweaker:cosmic_fracture>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:cosmic_fracture>]]);
+
+
+// hand core sample drill
+
+recipes.addShaped(<contenttweaker:core_sample_hand_drill>,
+[[<ore:blockSheetmetalConstantan>, <extrabees:honey_comb:36>, <ore:blockSheetmetalConstantan>],
+[<immersiveengineering:coresample>, <immersiveengineering:metal_device1:7>, <immersiveengineering:coresample>],
+[<ore:blockSheetmetalConstantan>, <techreborn:advanceddrill>, <ore:blockSheetmetalConstantan>]]);

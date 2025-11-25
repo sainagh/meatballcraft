@@ -89,6 +89,31 @@ rightclick13.addInput(<contenttweaker:call_of_the_arbiter>);
 rightclick13.setOutputs([<contenttweaker:stone_of_the_fallen_tower>]);
 rightclick13.build();
 
+val rightclick14 = JEI.createJeiRecipe("right_click_meatball");
+rightclick14.addInput(<contenttweaker:scream_of_pauram>);
+rightclick14.setOutputs([<contenttweaker:screaming_blood_slime>]);
+rightclick14.build();
+
+val rightclick15 = JEI.createJeiRecipe("right_click_meatball");
+rightclick15.addInput(<contenttweaker:twilit_warren_shredder>);
+rightclick15.setOutputs([<contenttweaker:yggdrasil_wood>*100]);
+rightclick15.build();
+
+val rightclick16 = JEI.createJeiRecipe("right_click_meatball");
+rightclick16.addInput(<contenttweaker:investiture_of_the_eleint>);
+rightclick16.setOutputs([<forge:bucketfilled>.withTag({FluidName: "eleint_dragonfire", Amount: 1000})]);
+rightclick16.build();
+
+
+
+
+
+
+
+
+
+
+
 val rclickdimlet1 = JEI.createJeiRecipe("right_click_meatball");
 rclickdimlet1.addInput(<rftoolsdim:dimlet_parcel>);
 rclickdimlet1.setOutputs([<rftoolsdim:dimlet_base>]);
@@ -268,6 +293,16 @@ val rclickdimlet36 = JEI.createJeiRecipe("right_click_meatball");
 rclickdimlet36.addInput(<bloodarsenal:bound_stick>);
 rclickdimlet36.setOutputs([<bloodmagic:blood_shard:1>]);
 rclickdimlet36.build();
+
+val rclickdimlet37 = JEI.createJeiRecipe("right_click_meatball");
+rclickdimlet37.addInput(<contenttweaker:plea_to_nature>);
+rclickdimlet37.setOutputs([<contenttweaker:fractal_fragment_natural_law>]);
+rclickdimlet37.build();
+
+val rclickdimlet38 = JEI.createJeiRecipe("right_click_meatball");
+rclickdimlet38.addInput(<contenttweaker:spark_of_unhallowing>);
+rclickdimlet38.setOutputs([<contenttweaker:recursion_of_growth>]);
+rclickdimlet38.build();
 
 
 

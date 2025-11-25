@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    471525021,
+    1474843254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:meteor_mash"
+      },
+      "name:8": "流星粉碎"
+    }
+  },
+  "questID:3": 1830352023,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:meteor_mash"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -460,10 +460,19 @@ addController(<modularmachinery:fiery_enmesher_controller>, "modularmachinery:fi
 
 addController(<modularmachinery:resonance_dissolver_controller>, "modularmachinery:resonance_dissolver");
 
+addController(<modularmachinery:hostile_computing_unit_controller>, "modularmachinery:hostile_computing_unit");
+
+addController(<modularmachinery:blood_altar_ziggurat_controller>, "modularmachinery:blood_altar_ziggurat");
+
+addController(<modularmachinery:megelium_detonator_controller>, "modularmachinery:megelium_detonator");
+
+addController(<modularmachinery:plith_of_ascension_controller>, "modularmachinery:plith_of_ascension");
+
+addController(<modularmachinery:philosophers_unifier_controller>, "modularmachinery:philosophers_unifier");
+
 
 // Leave this at the bottom of the file, as it depends on the oredict being filled
 furnace.addRecipe(<modularmachinery:blockcontroller>, anyBlockControllerDict);
-
 
 
 

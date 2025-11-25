@@ -2,6 +2,65 @@
     "registryname": "quantum_condenser",
     "localizedname": "Quantum Condenser",
 	"color": "000000",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:chromodynamic_condenser",
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "description": "处理数量x4",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            }]
+        },
+        {
+            "elements": "contenttweaker:ordered_eigenstate_condenser",
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "description": "处理数量x16",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            }]
+        },
+        {
+            "elements": "contenttweaker:event_horizon_condenser",
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "description": "处理数量x64",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -2,

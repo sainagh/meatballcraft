@@ -1,5 +1,8 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.thaumcraft.Infusion;
+import mods.thaumicwonders.MeatyOrb;
+
+mods.thaumicwonders.MeatyOrb.add(<contenttweaker:flesh_of_the_orb>, 15);
 
 
 recipes.addShaped(<contenttweaker:stone_of_universal_balance>,
@@ -16,6 +19,13 @@ recipes.addShaped(<contenttweaker:stone_of_universal_balance>*16,
 [[<contenttweaker:recursium_ingot>, <contenttweaker:dust_of_infinite_wishes>, <contenttweaker:order_wood>],
 [<contenttweaker:hungering_flesh_ingot>, <contenttweaker:trinity_nugget>, <contenttweaker:ascended_fluix_crystal>],
 [<contenttweaker:chaos_wood>, <contenttweaker:dust_of_infinite_wishes>, <contenttweaker:recursium_ingot>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:stone_of_universal_balance>*64, 
+[[<contenttweaker:quasar_charged_dust>, <contenttweaker:order_wood>, <contenttweaker:yggdrasil_wood>, <contenttweaker:order_wood>, <contenttweaker:quasar_charged_dust>], 
+[<careerbees:ingredients:12>, null, <contenttweaker:dust_of_infinite_wishes>, null, <careerbees:ingredients:11>], 
+[<contenttweaker:ascended_fluix_crystal>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:trinity_nugget>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:ascended_fluix_crystal>], 
+[<careerbees:ingredients:11>, null, <contenttweaker:dust_of_infinite_wishes>, null, <careerbees:ingredients:12>], 
+[<contenttweaker:quasar_charged_dust>, <contenttweaker:chaos_wood>, <contenttweaker:yggdrasil_wood>, <contenttweaker:chaos_wood>, <contenttweaker:quasar_charged_dust>]]);  
 
 
 val hungeringfleshgear = RecipeBuilder.newBuilder("hungeringfleshgear","mythic_processor_gearworking_die",1);
@@ -38,9 +48,9 @@ mods.avaritia.ExtremeCrafting.addShaped("returningpointdire",
 <contenttweaker:ascended_fluix_crystal>, <contenttweaker:wormhole_catalyst>, <contenttweaker:ascended_fluix_crystal>, 
 <contenttweaker:ascended_fluix_crystal>, <contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:perfected_gallifreyan_plate>],
 
-[<contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>,
+[<contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:recursive_mind_shield>, <contenttweaker:sentient_meatball>,
 <contenttweaker:sentient_meatball>, <contenttweaker:mark_of_sacrifice>, <contenttweaker:sentient_meatball>, 
-<contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>, <contenttweaker:perfected_gallifreyan_plate>],
+<contenttweaker:sentient_meatball>, <contenttweaker:recursive_mind_shield>, <contenttweaker:perfected_gallifreyan_plate>],
 
 [<contenttweaker:ascended_fluix_crystal>, <contenttweaker:sentient_meatball>, <magicbees:enchanted_earth>,
 <magicbees:enchanted_earth>, <deepmoblearningbm:blood_infused_glitch_ingot>, <magicbees:enchanted_earth>, 
@@ -50,9 +60,9 @@ mods.avaritia.ExtremeCrafting.addShaped("returningpointdire",
 <contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>, 
 <magicbees:enchanted_earth>, <contenttweaker:sentient_meatball>, <contenttweaker:ascended_fluix_crystal>],
 
-[<contenttweaker:wormhole_catalyst>, <contenttweaker:mark_of_sacrifice>, <deepmoblearningbm:blood_infused_glitch_ingot>,
+[<contenttweaker:flesh_of_the_orb>, <contenttweaker:mark_of_sacrifice>, <deepmoblearningbm:blood_infused_glitch_ingot>,
 <contenttweaker:stone_of_universal_balance>, <contenttweaker:planetary_essence>, <contenttweaker:stone_of_universal_balance>, 
-<deepmoblearningbm:blood_infused_glitch_ingot>, <contenttweaker:mark_of_sacrifice>, <contenttweaker:wormhole_catalyst>],
+<deepmoblearningbm:blood_infused_glitch_ingot>, <contenttweaker:mark_of_sacrifice>, <contenttweaker:flesh_of_the_orb>],
 
 [<contenttweaker:ascended_fluix_crystal>, <contenttweaker:sentient_meatball>, <magicbees:enchanted_earth>,
 <contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>, <contenttweaker:stone_of_universal_balance>, 
@@ -62,9 +72,9 @@ mods.avaritia.ExtremeCrafting.addShaped("returningpointdire",
 <magicbees:enchanted_earth>, <deepmoblearningbm:blood_infused_glitch_ingot>, <magicbees:enchanted_earth>, 
 <magicbees:enchanted_earth>, <contenttweaker:sentient_meatball>, <contenttweaker:ascended_fluix_crystal>],
 
-[<contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>,
+[<contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:recursive_mind_shield>, <contenttweaker:sentient_meatball>,
 <contenttweaker:sentient_meatball>, <contenttweaker:mark_of_sacrifice>, <contenttweaker:sentient_meatball>, 
-<contenttweaker:sentient_meatball>, <contenttweaker:sentient_meatball>, <contenttweaker:perfected_gallifreyan_plate>],
+<contenttweaker:sentient_meatball>, <contenttweaker:recursive_mind_shield>, <contenttweaker:perfected_gallifreyan_plate>],
 
 [<contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:perfected_gallifreyan_plate>, <contenttweaker:ascended_fluix_crystal>,
 <contenttweaker:ascended_fluix_crystal>, <contenttweaker:wormhole_catalyst>, <contenttweaker:ascended_fluix_crystal>, 
@@ -172,13 +182,64 @@ hungeringsoulmeatball.addWillInput("VENGEFUL", 10,0,1000000);
 hungeringsoulmeatball.addWillInput("STEADFAST", 10,0,1000000);
 hungeringsoulmeatball.addFluidInput(<fluid:flesh_world_ichor>*4000);
 hungeringsoulmeatball.addFluidInput(<fluid:imperial_abyssite>*100);
-hungeringsoulmeatball.addItemInput(<botania:rune:15>);
+hungeringsoulmeatball.addItemInput(<botania:rune:10>);
 hungeringsoulmeatball.addItemInput(<contenttweaker:inanimate_soul>);
 hungeringsoulmeatball.addItemInput(<extrabotany:cocoondesire>);
 hungeringsoulmeatball.addItemInput(<contenttweaker:abyssal_flesh>*4);
 hungeringsoulmeatball.addItemInput(<contenttweaker:world_corrupting_sentient_meatball>);
 hungeringsoulmeatball.addItemOutput(<contenttweaker:hungering_world_soul>);
 hungeringsoulmeatball.build();
+
+
+val dupegemdyingconst = RecipeBuilder.newBuilder("dupegemdyingconst","gaia_altar",60);
+dupegemdyingconst.addEnergyPerTickInput(40000);
+dupegemdyingconst.addItemInput(<contenttweaker:gem_of_the_dying_constellation>*8);
+dupegemdyingconst.addItemInput(<botania:rune:10>*256);
+dupegemdyingconst.addItemOutput(<contenttweaker:gem_of_the_dying_constellation>*16);
+dupegemdyingconst.build();
+
+
+
+val hungeringsoulmeatball1 = RecipeBuilder.newBuilder("hungeringsoulmeatball1","shrine_of_the_sentient_meatballs",80);
+hungeringsoulmeatball1.addEnergyPerTickInput(2000000000);
+hungeringsoulmeatball1.addWillInput("DEFAULT", 80,0,1000000);
+hungeringsoulmeatball1.addWillInput("CORROSIVE", 80,0,1000000);
+hungeringsoulmeatball1.addWillInput("DESTRUCTIVE", 80,0,1000000);
+hungeringsoulmeatball1.addWillInput("VENGEFUL", 80,0,1000000);
+hungeringsoulmeatball1.addWillInput("STEADFAST", 80,0,1000000);
+hungeringsoulmeatball1.addFluidInput(<fluid:flesh_world_ichor>*32000);
+hungeringsoulmeatball1.addFluidInput(<fluid:imperial_abyssite>*800);
+hungeringsoulmeatball1.addItemInput(<contenttweaker:gem_of_the_dying_constellation>*4);
+hungeringsoulmeatball1.addItemInput(<contenttweaker:inanimate_soul>*8);
+hungeringsoulmeatball1.addItemInput(<extrabotany:cocoondesire>*8);
+hungeringsoulmeatball1.addItemInput(<contenttweaker:abyssal_flesh>*32);
+hungeringsoulmeatball1.addItemInput(<contenttweaker:world_corrupting_sentient_meatball>*8);
+hungeringsoulmeatball1.addItemOutput(<contenttweaker:hungering_world_soul>*10);
+hungeringsoulmeatball1.build();
+
+recipes.addShaped(<contenttweaker:shrieking_soul>,
+[[<aoa3:scream_shield>, <contenttweaker:inanimate_soul>, <aoa3:scream_shield>],
+[<contenttweaker:inanimate_soul>, <contenttweaker:shrieking_metal>, <contenttweaker:inanimate_soul>],
+[<aoa3:scream_shield>, <contenttweaker:inanimate_soul>, <aoa3:scream_shield>]]);
+
+val hungeringsoulmeatball2 = RecipeBuilder.newBuilder("hungeringsoulmeatball2","shrine_of_the_sentient_meatballs",80);
+hungeringsoulmeatball2.addEnergyPerTickInput(2000000000);
+hungeringsoulmeatball2.addWillInput("DEFAULT", 90,0,1000000);
+hungeringsoulmeatball2.addWillInput("CORROSIVE", 90,0,1000000);
+hungeringsoulmeatball2.addWillInput("DESTRUCTIVE", 90,0,1000000);
+hungeringsoulmeatball2.addWillInput("VENGEFUL", 90,0,1000000);
+hungeringsoulmeatball2.addWillInput("STEADFAST", 90,0,1000000);
+hungeringsoulmeatball2.addFluidInput(<fluid:flesh_world_ichor>*48000);
+hungeringsoulmeatball2.addFluidInput(<fluid:imperial_abyssite>*900);
+hungeringsoulmeatball2.addItemInput(<contenttweaker:gem_of_the_dying_constellation>*5);
+hungeringsoulmeatball2.addItemInput(<contenttweaker:shrieking_soul>*2);
+hungeringsoulmeatball2.addItemInput(<extrabotany:cocoondesire>*10);
+hungeringsoulmeatball2.addItemInput(<contenttweaker:abyssal_flesh>*40);
+hungeringsoulmeatball2.addItemInput(<contenttweaker:world_corrupting_sentient_meatball>*10);
+hungeringsoulmeatball2.addItemOutput(<contenttweaker:hungering_world_soul>*15);
+hungeringsoulmeatball2.build();
+
+
 
 mods.nuclearcraft.infuser.addRecipe([<avaritia:resource:5>, <fluid:fractallite_halite>*12, <avaritiaitem:fractallite_halite_catalyst>]);
 

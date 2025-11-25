@@ -1079,10 +1079,6 @@
   ],
   "151": [
     {
-      "item": "extrautils2:terraformer",
-      "damage": "*"
-    },
-    {
       "item": "rftoolsdim:dimension_builder",
       "damage": "*"
     },
@@ -1734,6 +1730,12 @@
     },
     {
       "item": "ae2exttable:wireless_ultimate_crafting_terminal",
+      "damage": "*"
+    }
+  ],
+  "192": [
+    {
+      "item": "xreliquary:rod_of_lyssa",
       "damage": "*"
     }
   ]

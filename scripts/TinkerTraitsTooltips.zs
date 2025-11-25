@@ -160,4 +160,11 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:trait_necrotic>.addTooltip(format.red("生命汲取"));
 <contenttweaker:trait_sentience>.addTooltip(format.red("生物将掉落恶魔意志"));
 <contenttweaker:trait_steady>.addTooltip(format.red("增加自身击退抗性，并击退攻击者"));
-
+<contenttweaker:trait_bloodsweattears>.addTooltip(format.red("破坏方块时有概率掉落经验球（I：50%，II：75%，III：87.5%）"));
+<contenttweaker:trait_arcaneextraction>.addTooltip(format.red("破坏方块时有概率掉落秘金 #无EMC挑战"));
+<contenttweaker:trait_abyssalharvesting>.addTooltip(format.red("击中生物时有概率掉落对应物质 #无EMC挑战"));
+<contenttweaker:trait_dreadfulharvesting>.addTooltip(format.red("击中生物时有概率掉落对应物质 #无EMC挑战"));
+<contenttweaker:trait_omotholharvesting>.addTooltip(format.red("击中生物时有概率掉落对应物质 #无EMC挑战"));
+<contenttweaker:trait_willoftheaesir>.addTooltip(format.red("破坏方块时有概率掉落灵魂碎片"));
+<contenttweaker:trait_tearofarcana>.addTooltip(format.red("破坏方块时有概率掉落秘金块（概率随等级提升，最高至10级）；小概率掉落秘金簇"));
+<contenttweaker:trait_giggity>.addTooltip(format.red("击中生物时有概率掉落硬骨"));

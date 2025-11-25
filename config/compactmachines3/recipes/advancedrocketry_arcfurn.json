@@ -1,0 +1,259 @@
+{
+  "name": "compactmachines3:advancedrocketry_arcfurnace",
+
+  "disabled": false,
+
+  "target-item": "advancedrocketry:arcfurnace",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:multiblock_preview",
+  "catalyst-meta": 0,
+  
+
+  "input-types": {
+    "a": {
+      "id": "advancedrocketry:blastbrick",
+      "meta": 0
+    },
+    "b": {
+      "id": "libvulpes:forgepowerinput",
+      "meta": 0,
+      "item": {
+        "id": "libvulpes:forgepowerinput",
+        "count": 3
+      }
+    },
+    "c": {
+      "id": "libvulpes:coil0",
+      "meta": 2
+    },
+    "d": {
+      "id": "libvulpes:hatch",
+      "meta": 1,
+      "item": {
+        "id": "libvulpes:hatch",
+        "count": 1,
+        "meta": 1
+      }
+    },
+    "e": {
+      "id": "minecraft:nether_brick",
+      "meta": 0,
+      "item": {
+        "id": "advancedrocketry:arcfurnace",
+        "count": 1
+      }
+    },
+    "f": {
+      "id": "libvulpes:hatch",
+      "meta": 0,
+      "item": {
+        "id": "libvulpes:hatch",
+        "count": 1,
+        "meta": 0
+      }
+    }
+  },
+  "input-nbt": {
+    "b:A": {
+      "nbt": "{ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"minecraft:vulpesforgepowerinput\",teir:1,energy:0,maxEnergy:100000}"
+    },
+    "d:A": {
+      "nbt": "{size:4,outputItems:[],ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"minecraft:vulpesoutputhatch\",slotExtract:[B;1B,1B,1B,1B],slotInsert:[B;0B,0B,0B,0B]}"
+    },
+    "f:A": {
+      "nbt": "{size:4,outputItems:[],ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"minecraft:vulpesinputhatch\",slotExtract:[B;0B,0B,0B,0B],slotInsert:[B;1B,1B,1B,1B]}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "a",
+        "b:A",
+        "a",
+        "_"
+      ],
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "_"
+      ],
+      [
+        "_",
+        "b:A",
+        "a",
+        "b:A",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "c",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "c",
+        "_",
+        "c",
+        "a"
+      ],
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "_"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "f:A",
+        "e",
+        "d:A",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+ 
+}

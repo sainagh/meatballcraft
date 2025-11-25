@@ -21,7 +21,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:elemental_harmoniz
 
 // actual line
 
-val gallifreymirrror = RecipeBuilder.newBuilder("gallifreymirrror","gravitational_collapser",200);
+val gallifreymirrror = RecipeBuilder.newBuilder("gallifreymirrror","gravitational_collapser",20);
 gallifreymirrror.addEnergyPerTickInput(1111111);
 gallifreymirrror.addItemInput(<contenttweaker:eye_of_gallifrey>*16);
 gallifreymirrror.addItemInput(<contenttweaker:rainbow_lens>*16);
@@ -100,6 +100,22 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:greater_gaia
 <ore:ingotShadowium>, <ore:ingotShadowium>,
 <ore:ingotPhotonium>, <ore:ingotPhotonium>,
 <ore:ingotPhotonium>, <ore:ingotPhotonium>]);
+
+
+recipes.addShaped(<contenttweaker:whisp_of_asgard>*8,
+[[<botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>],
+[<botania:manaresource:14>, <contenttweaker:scroll_of_truth_asgard>.reuse(), <botania:manaresource:14>],
+[<botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>]]);
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:greater_gaia_spirit>*4, 
+100000, <contenttweaker:lesser_mana_core>, 
+[<contenttweaker:gaia_spirit_block>, <contenttweaker:gaia_spirit_block>,
+<aoa3:shyregem_block>, <aoa3:shyregem_block>,
+<extrabotany:blockphotonium>, <extrabotany:blockshadowium>,
+<extrabotany:blockphotonium>, <extrabotany:blockshadowium>,
+<extrabotany:blockphotonium>, <extrabotany:blockshadowium>,
+<contenttweaker:whisp_of_asgard>, <contenttweaker:whisp_of_asgard>]);
 
 
 

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1976749680,
+    1474843254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "iceandfire:myrmex_desert_swarm"
+      },
+      "name:8": "恐蜂蚁巢"
+    }
+  },
+  "questID:3": 995774562,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:myrmex_jungle_swarm"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

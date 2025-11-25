@@ -157,3 +157,21 @@ bot15.addFluidInput(<fluid:liquidcoralium>*50);
 bot15.addItemInput(<forestry:peat>);
 bot15.addItemOutput(<thebetweenlands:sludge_ball>*8);
 bot15.build();
+
+val bot16 = RecipeBuilder.newBuilder("gateval16","valonite_gateway",10);
+bot16.addFluidInput(<fluid:liquidcoralium>*100);
+bot16.addItemInput(<contenttweaker:blue_matter>);
+bot16.addItemInput(<thebetweenlands:spirit_fruit>*16);
+bot16.addItemInput(<contenttweaker:master_wizardry_catalyst>);
+bot16.addItemInput(<projecte:item.pe_fuel:2>*64);
+bot16.addItemOutput(<contenttweaker:blue_matter>*5);
+bot16.build();
+
+val bot17 = RecipeBuilder.newBuilder("gateval17","valonite_gateway",10);
+bot17.addFluidInput(<fluid:liquidcoralium>*800);
+bot17.addItemInput(<contenttweaker:bright_matter>);
+bot17.addItemInput(<thebetweenlands:spirit_fruit>*32);
+bot17.addItemInput(<contenttweaker:bee_stargate>);
+bot17.addItemInput(<projecte:item.pe_fuel:2>*1024);
+bot17.addItemOutput(<contenttweaker:bright_matter>*64);
+bot17.build();

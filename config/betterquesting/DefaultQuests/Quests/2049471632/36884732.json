@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1809800621,
+    471525021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:item_dark_steel_bow",
+        "tag:10": {
+          "enderio.darksteel.upgrade.energyUpgrade:10": {
+            "energy:3": 1000000,
+            "level:3": 3
+          }
+        }
+      },
+      "name:8": "玄钢弓"
+    }
+  },
+  "questID:3": 36884732,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_dark_steel_bow",
+          "tag:10": {
+            "enderio.darksteel.upgrade.energyUpgrade:10": {
+              "energy:3": 1000000,
+              "level:3": 3
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -178,6 +178,11 @@ recipes.addShaped(<contenttweaker:dreadful_rhenium_catalyst>*4,
 [<contenttweaker:rhenium_catalyst>, <contenttweaker:dread_crown>.reuse(), <contenttweaker:rhenium_catalyst>],
 [<contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>]]);
 
+recipes.addShaped(<contenttweaker:runic_rhenium_catalyst>*4,
+[[<contenttweaker:dreadful_rhenium_catalyst>, <contenttweaker:dreadful_rhenium_catalyst>, <contenttweaker:dreadful_rhenium_catalyst>],
+[<contenttweaker:dreadful_rhenium_catalyst>, <aoa3:runic_sword>.reuse(), <contenttweaker:dreadful_rhenium_catalyst>],
+[<contenttweaker:dreadful_rhenium_catalyst>, <contenttweaker:dreadful_rhenium_catalyst>, <contenttweaker:dreadful_rhenium_catalyst>]]);
+
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:second_order_mythic_fractal>, 
 1000000000, 1000000000, 
@@ -361,6 +366,40 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:pearlescent_
 <divinerpg:clean_pearls>, <divinerpg:clean_pearls>,
 <divinerpg:polished_pearls>, <divinerpg:polished_pearls>,
 <divinerpg:shiny_pearls>]);
+
+val divcombpearlescentart1 = RecipeBuilder.newBuilder("divcombpearlescentart1","divine_combiner",2);
+divcombpearlescentart1.addFluidInput(<fluid:hint_of_divinity>*10);
+divcombpearlescentart1.addItemInput(<biomesoplenty:terrestrial_artifact>*4);
+divcombpearlescentart1.addItemInput(<divinerpg:dirty_pearls>*32);
+divcombpearlescentart1.addItemInput(<divinerpg:clean_pearls>*16);
+divcombpearlescentart1.addItemInput(<divinerpg:polished_pearls>*8);
+divcombpearlescentart1.addItemInput(<divinerpg:shiny_pearls>*4);
+divcombpearlescentart1.addItemOutput(<contenttweaker:pearlescent_artifact>*4);
+divcombpearlescentart1.build();
+
+val divcombpearlescentart2 = RecipeBuilder.newBuilder("divcombpearlescentart2","divine_combiner",2);
+divcombpearlescentart2.addFluidInput(<fluid:divine_resonant_hint>*8);
+divcombpearlescentart2.addItemInput(<biomesoplenty:terrestrial_artifact>*16);
+divcombpearlescentart2.addItemInput(<divinerpg:dirty_pearls>*128);
+divcombpearlescentart2.addItemInput(<divinerpg:clean_pearls>*64);
+divcombpearlescentart2.addItemInput(<divinerpg:polished_pearls>*32);
+divcombpearlescentart2.addItemInput(<divinerpg:shiny_pearls>*16);
+divcombpearlescentart2.addItemOutput(<contenttweaker:pearlescent_artifact>*16);
+divcombpearlescentart2.build();
+
+val divcombpearlescentart3 = RecipeBuilder.newBuilder("divcombpearlescentart3","divine_combiner",2);
+divcombpearlescentart3.addFluidInput(<fluid:divine_resonance>*6);
+divcombpearlescentart3.addItemInput(<biomesoplenty:terrestrial_artifact>*64);
+divcombpearlescentart3.addItemInput(<divinerpg:dirty_pearls>*512);
+divcombpearlescentart3.addItemInput(<divinerpg:clean_pearls>*256);
+divcombpearlescentart3.addItemInput(<divinerpg:polished_pearls>*128);
+divcombpearlescentart3.addItemInput(<divinerpg:shiny_pearls>*64);
+divcombpearlescentart3.addItemOutput(<contenttweaker:pearlescent_artifact>*64);
+divcombpearlescentart3.build();
+
+
+
+
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:fourth_order_mythic_fractal>, 
 1000000000, 1000000000, 
@@ -822,7 +861,7 @@ recursiumfragupgrade2.build();
 scripts.PuzzleUtil.addPuzzleShaped("recursion_focusing_fabrial", 
 <contenttweaker:recursion_focusing_fabrial>, 
 [[<contenttweaker:white_hole>, <extrautils2:biomemarker>.withTag({Biome: "biomesoplenty:cherry_blossom_grove"}), <contenttweaker:white_hole>],
-[<extrautils2:biomemarker>.withTag({Biome: "aoa3:immortallis"}), <contenttweaker:recursion_sharpening_lens>, <extrautils2:biomemarker>.withTag({Biome: "aoa3:abyss"})],
+[<extrautils2:biomemarker>.withTag({Biome: "aoa3:iromine"}), <contenttweaker:recursion_sharpening_lens>, <extrautils2:biomemarker>.withTag({Biome: "aoa3:abyss"})],
 [<contenttweaker:white_hole>, <extrautils2:biomemarker>.withTag({Biome: "divinerpg:eden"}), <contenttweaker:white_hole>]]);
 
 recipes.addShaped(<contenttweaker:recursion_focusing_fabrial>,

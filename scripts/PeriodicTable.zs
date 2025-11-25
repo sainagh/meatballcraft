@@ -498,7 +498,18 @@ mods.nuclearcraft.irradiator.addRecipe([<fluid:einstenium>*10, <fluid:atomic_nuc
 
 mods.nuclearcraft.fusion.addRecipe([<fluid:astralsorcery.liquidstarlight>*1000, <fluid:lifeessence>*1000, <fluid:sideral_life_essence>*1000, null, null, null, 200.0, 200.0, 14555.0, 0.1]);
 
-mods.nuclearcraft.crystallizer.addRecipe([<fluid:sideral_life_essence>*1000, <contenttweaker:stable_fusor>, 0.1, 0.1, 0.1]);
+// mods.nuclearcraft.crystallizer.addRecipe([<fluid:sideral_life_essence>*1000, <contenttweaker:stable_fusor>, 0.1, 0.1, 0.1]);
+
+recipes.addShaped(<contenttweaker:stable_fusor>,
+[[<ore:ingotSednanite>, <contenttweaker:inert_crystal>, <ore:ingotSednanite>],
+[<contenttweaker:inert_crystal>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "sideral_life_essence", Amount: 1000}}), <contenttweaker:inert_crystal>],
+[<ore:ingotSednanite>, <contenttweaker:inert_crystal>, <ore:ingotSednanite>]]);
+
+recipes.addShaped(<contenttweaker:stable_fusor>*64,
+[[<extendedcrafting:singularity_custom:630>, <contenttweaker:inert_crystal>, <extendedcrafting:singularity_custom:630>],
+[<contenttweaker:inert_crystal>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "sideral_life_essence", Amount: 1000}}), <contenttweaker:inert_crystal>],
+[<extendedcrafting:singularity_custom:630>, <contenttweaker:inert_crystal>, <extendedcrafting:singularity_custom:630>]]);
+
 
 mods.avaritia.Compressor.add("compressorrelativistic", <contenttweaker:everlasting_fusor>, 100, <contenttweaker:stable_fusor>, true);
 

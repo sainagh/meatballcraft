@@ -968,6 +968,28 @@ val mythallo132 = RecipeBuilder.newBuilder("mythallo132","mythic_processor_alloy
 mythallo132.addEnergyPerTickInput(80000);
 mythallo132.addItemInput(<rftools:dimensional_shard>*512);
 mythallo132.addItemInput(<minecraft:diamond>*64);
-mythallo132.addItemOutput(<contenttweaker:sentient_meatball>*4);
+mythallo132.addItemOutput(<rftools:infused_diamond>*64);
 mythallo132.build();
+
+
+val mythallo133 = RecipeBuilder.newBuilder("mythallo133","mythic_processor_alloy_furnace",2);
+mythallo133.addEnergyPerTickInput(80000);
+mythallo133.addItemInput(<contenttweaker:infinity_fragment>*16);
+mythallo133.addItemInput(<minecraft:nether_star>*4);
+mythallo133.addItemOutput(<contenttweaker:dynatos_star>*4);
+mythallo133.build();
+
+val mythallo134 = RecipeBuilder.newBuilder("mythallo134","mythic_processor_alloy_furnace",2);
+mythallo134.addEnergyPerTickInput(80000);
+mythallo134.addItemInput(<gendustry:honey_comb:14003>);
+mythallo134.addItemInput(<nuclearcraft:plutonium:4>*16);
+mythallo134.addItemOutput(<nuclearcraft:plutonium:5>*16);
+mythallo134.build();
+
+val mythallo135 = RecipeBuilder.newBuilder("mythallo135","mythic_processor_alloy_furnace",2);
+mythallo135.addEnergyPerTickInput(80000);
+mythallo135.addItemInput(<gendustry:honey_comb:14003>);
+mythallo135.addItemInput(<nuclearcraft:plutonium:8>*16);
+mythallo135.addItemOutput(<nuclearcraft:plutonium:9>*16);
+mythallo135.build();
 

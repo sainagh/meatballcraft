@@ -1166,6 +1166,46 @@ markovrecursivessence.register();
 var demonicremains = VanillaFactory.createFluid("demonic_remains", Color.fromHex("c46280"));
 demonicremains.register();
 
+var hellfire = VanillaFactory.createFluid("hellfire", Color.fromHex("cc6729"));
+hellfire.register();
+
+var everlovingabyssite = VanillaFactory.createFluid("everloving_abyssite", Color.fromHex("8aa18e"));
+everlovingabyssite.register();
+
+var cauchyrecursiveessence = VanillaFactory.createFluid("cauchy_recursive_essence", Color.fromHex("ffdc7a"));
+cauchyrecursiveessence.register();
+
+var lorenzrecursiveessence = VanillaFactory.createFluid("lorenz_recursive_essence", Color.fromHex("ffdc7a"));
+lorenzrecursiveessence.register();
+
+var chaoticrecursiveessence = VanillaFactory.createFluid("chaotic_recursive_essence", Color.fromHex("ffdc7a"));
+chaoticrecursiveessence.register();
+
+var warpingrecursiveessence = VanillaFactory.createFluid("warping_recursive_essence", Color.fromHex("ffdc7a"));
+warpingrecursiveessence.register();
+
+var moltenechowarren = VanillaFactory.createFluid("molten_echo_warren", Color.fromHex("bd6800"));
+moltenechowarren.register();
+
+var eleintdragonfire = VanillaFactory.createFluid("eleint_dragonfire", Color.fromHex("965227"));
+eleintdragonfire.register();
+
+var divineresonancehint = VanillaFactory.createFluid("divine_resonant_hint", Color.fromHex("95962a"));
+divineresonancehint.register();
+
+var divineresonance = VanillaFactory.createFluid("divine_resonance", Color.fromHex("727306"));
+divineresonance.register();
+
+var areatedcalif250 = VanillaFactory.createFluid("areated_molten_californium_250", Color.fromHex("6b0700"));
+areatedcalif250.register();
+
+var unholynukecatalyst = VanillaFactory.createFluid("unholy_nuke_catalyst", Color.fromHex("489c6b"));
+unholynukecatalyst.register();
+
+
+
+
+
 
 
 

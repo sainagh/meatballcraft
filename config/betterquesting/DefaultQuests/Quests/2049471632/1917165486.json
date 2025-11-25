@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    81569973,
+    471525021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:bluefire_sword"
+      },
+      "name:8": "蓝焰剑"
+    }
+  },
+  "questID:3": 1917165486,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:bluefire_sword"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

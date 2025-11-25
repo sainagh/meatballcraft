@@ -221,6 +221,20 @@ fractallitefurnacealloy.addItemInput(<contenttweaker:essence_of_creation>);
 fractallitefurnacealloy.addItemOutput(<contenttweaker:perfected_gallifreyan_alloy>);
 fractallitefurnacealloy.build();
 
+val fractallitefurnacehyperuranion = RecipeBuilder.newBuilder("fractallitefurnacehyperuranion","fractallite_furnace",2);
+fractallitefurnacehyperuranion.addFluidInput(<fluid:aeternalis_fuel>*10);
+fractallitefurnacehyperuranion.addItemInput(<contenttweaker:hyperuranion_ingot>);
+fractallitefurnacehyperuranion.addItemInput(<extendedcrafting:singularity_custom:2030>);
+fractallitefurnacehyperuranion.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>);
+fractallitefurnacehyperuranion.build();
+
+val fractallitefurnacehyperuranion2 = RecipeBuilder.newBuilder("fractallitefurnacehyperuranion2","fractallite_furnace",2);
+fractallitefurnacehyperuranion2.addFluidInput(<fluid:aeternalis_fuel>*10);
+fractallitefurnacehyperuranion2.addItemInput(<contenttweaker:hyperuranion_ingot>);
+fractallitefurnacehyperuranion2.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
+fractallitefurnacehyperuranion2.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>);
+fractallitefurnacehyperuranion2.build();
+
 var unfulfilleddata as IData = {
 	display: {Lore:["§d§o原初未锻§r"]}
 };
@@ -263,10 +277,6 @@ recipes.addShaped(<contenttweaker:matter_digitalization_fabrial>,
 [<contenttweaker:recursion_of_clarity>, <contenttweaker:fluix_microcontroller>, <contenttweaker:recursion_of_clarity>],
 [<appliedenergistics2:part:140>, <contenttweaker:recursion_of_clarity>, <appliedenergistics2:part:140>]]);
 
-recipes.addShaped(<contenttweaker:mythic_excavation_engine>*4,
-[[<contenttweaker:matter_digitalization_fabrial>, <contenttweaker:high_strength_transmission>, <contenttweaker:matter_digitalization_fabrial>],
-[<contenttweaker:universal_booster>, <contenttweaker:mythic_machine_case>, <contenttweaker:universal_booster>],
-[<aoa3:elecanium_ingot>, <contenttweaker:primal_jewel>, <aoa3:elecanium_ingot>]]);
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:gallifreyan_irradiator>, 
@@ -447,26 +457,33 @@ monumentalmeatball4.addFluidInput(<fluid:essence_of_gluttony>*100);
 monumentalmeatball4.addFluidOutput(<fluid:hungering_flesh_catalyst>*100);
 monumentalmeatball4.build();
 
-val bastionofflesh = RecipeBuilder.newBuilder("bastionofflesh","bastion_of_flesh",100);
-bastionofflesh.addItemInput(<avaritia:resource:6>);
-bastionofflesh.addItemOutput(<contenttweaker:hungering_flesh_ingot>);
-bastionofflesh.addFluidInput(<fluid:hungering_flesh_catalyst>*100);
-bastionofflesh.addFluidOutput(<fluid:essence_of_betrayal>*100);
-bastionofflesh.build();
+val bastionofflesh1 = RecipeBuilder.newBuilder("bastionofflesh1","bastion_of_flesh",100);
+bastionofflesh1.addItemInput(<avaritia:resource:6>*4);
+bastionofflesh1.addItemOutput(<contenttweaker:hungering_flesh_ingot>*4);
+bastionofflesh1.addFluidInput(<fluid:hungering_flesh_catalyst>*100);
+bastionofflesh1.addFluidOutput(<fluid:essence_of_betrayal>*100);
+bastionofflesh1.build();
 
-val bastionoffleshbett = RecipeBuilder.newBuilder("bastionoffleshbett","bastion_of_flesh",100);
-bastionoffleshbett.addItemInput(<contenttweaker:echo_warren_alloy>);
-bastionoffleshbett.addItemOutput(<contenttweaker:hungering_flesh_ingot>*4);
-bastionoffleshbett.addFluidInput(<fluid:hungering_flesh_catalyst>*100);
-bastionoffleshbett.addFluidOutput(<fluid:essence_of_betrayal>*100);
-bastionoffleshbett.build();
+val bastionofflesh2 = RecipeBuilder.newBuilder("bastionofflesh2","bastion_of_flesh",100);
+bastionofflesh2.addItemInput(<contenttweaker:echo_warren_alloy>*4);
+bastionofflesh2.addItemOutput(<contenttweaker:hungering_flesh_ingot>*16);
+bastionofflesh2.addFluidInput(<fluid:hungering_flesh_catalyst>*100);
+bastionofflesh2.addFluidOutput(<fluid:essence_of_betrayal>*100);
+bastionofflesh2.build();
 
-val bastionoffleshbetterer = RecipeBuilder.newBuilder("bastionoffleshbetterer","bastion_of_flesh",100);
-bastionoffleshbetterer.addItemInput(<contenttweaker:echo_warren_bar>);
-bastionoffleshbetterer.addItemOutput(<contenttweaker:hungering_flesh_ingot>*16);
-bastionoffleshbetterer.addFluidInput(<fluid:hungering_flesh_catalyst>*100);
-bastionoffleshbetterer.addFluidOutput(<fluid:essence_of_betrayal>*100);
-bastionoffleshbetterer.build();
+val bastionofflesh3 = RecipeBuilder.newBuilder("bastionofflesh3","bastion_of_flesh",100);
+bastionofflesh3.addItemInput(<contenttweaker:echo_warren_bar>*4);
+bastionofflesh3.addItemOutput(<contenttweaker:hungering_flesh_ingot>*64);
+bastionofflesh3.addFluidInput(<fluid:hungering_flesh_catalyst>*100);
+bastionofflesh3.addFluidOutput(<fluid:essence_of_betrayal>*100);
+bastionofflesh3.build();
+
+val bastionofflesh4 = RecipeBuilder.newBuilder("bastionofflesh4","bastion_of_flesh",100);
+bastionofflesh4.addItemInput(<avaritiaitem:resounding_warren_alloy>*4);
+bastionofflesh4.addItemOutput(<contenttweaker:hungering_flesh_ingot>*256);
+bastionofflesh4.addFluidInput(<fluid:hungering_flesh_catalyst>*100);
+bastionofflesh4.addFluidOutput(<fluid:essence_of_betrayal>*100);
+bastionofflesh4.build();
 
 
 
@@ -521,9 +538,9 @@ nameofnamesingotup.build();
 
 
 
-mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:dust_of_infinite_wishes>, <fluid:hint_of_divinity>*4000, <fluid:infinite_divine_wish>*4000]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:dust_of_infinite_wishes>, <fluid:hint_of_divinity>*4000, <fluid:infinite_divine_wish>*8000]);
 
-mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:dust_of_infinite_wishes>, <fluid:hint_of_insanity>*4000, <fluid:infinite_insane_wish>*4000]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:dust_of_infinite_wishes>, <fluid:hint_of_insanity>*4000, <fluid:infinite_insane_wish>*8000]);
 
 
 val nameofnamesingotupup = RecipeBuilder.newBuilder("nameofnamesingotupup","altar_to_the_name_of_names",10);
@@ -542,6 +559,8 @@ nameofnamesingotupup.addItemOutput(<contenttweaker:hyperuranion_ingot>*4);
 nameofnamesingotupup.build();
 
 
+
+
 val nameofnamesingotbeegwarr = RecipeBuilder.newBuilder("nameofnamesingotbeegwarr","altar_to_the_name_of_names",5);
 nameofnamesingotbeegwarr.addEnergyPerTickInput(2000000000);
 nameofnamesingotbeegwarr.addFluidInput(<fluid:naquadah_alloy>*16000);
@@ -556,6 +575,21 @@ nameofnamesingotbeegwarr.addItemInput(<contenttweaker:defined_bar>);
 nameofnamesingotbeegwarr.addItemInput(<contenttweaker:recursion_of_clarity>*2);
 nameofnamesingotbeegwarr.addItemOutput(<contenttweaker:hyperuranion_ingot>*8);
 nameofnamesingotbeegwarr.build();
+
+val nameofnamesingotbeegnatlaw = RecipeBuilder.newBuilder("nameofnamesingotbeegnatlaw","altar_to_the_name_of_names",5);
+nameofnamesingotbeegnatlaw.addEnergyPerTickInput(2000000000);
+nameofnamesingotbeegnatlaw.addFluidInput(<fluid:naquadah_alloy>*16000);
+nameofnamesingotbeegnatlaw.addFluidInput(<fluid:dragonsteel_fire>*16000);
+nameofnamesingotbeegnatlaw.addFluidInput(<fluid:dragonsteel_ice>*16000);
+nameofnamesingotbeegnatlaw.addFluidInput(<fluid:dragonsteel_lightning>*16000);
+nameofnamesingotbeegnatlaw.addFluidInput(<fluid:mildly_recursive_goo>*16000);
+nameofnamesingotbeegnatlaw.addFluidInput(<fluid:high_entropy_hyperdense_plasma>*16000);
+nameofnamesingotbeegnatlaw.addFluidInput(<fluid:infinite_divine_wish>*16000);
+nameofnamesingotbeegnatlaw.addFluidInput(<fluid:infinite_insane_wish>*16000);
+nameofnamesingotbeegnatlaw.addItemInput(<contenttweaker:defined_bar>);
+nameofnamesingotbeegnatlaw.addItemInput(<contenttweaker:recursion_of_natural_law>*2);
+nameofnamesingotbeegnatlaw.addItemOutput(<contenttweaker:hyperuranion_ingot>*16);
+nameofnamesingotbeegnatlaw.build();
 
 
 mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/requemofthearbiter", <contenttweaker:requiem_of_the_arbiter>, 4500, 400, [
@@ -625,6 +659,20 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hyperuranon_actual
 [<contenttweaker:well_defined_machine_case>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:actualizing_hyperuranion_ingot>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:well_defined_machine_case>], 
 [<contenttweaker:mythic_excavation_reactor>, <contenttweaker:collapser_conduit>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:collapser_conduit>, <contenttweaker:mythic_excavation_reactor>], 
 [<contenttweaker:mythic_excavation_reactor>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:well_defined_machine_case>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:mythic_excavation_reactor>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hyperuranon_actualizing_fabrial>*2, 
+[[<contenttweaker:mythic_excavation_reactor>, <contenttweaker:mythic_excavation_reactor>, <botania:elfglass>, <contenttweaker:well_defined_machine_case>, <botania:elfglass>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:mythic_excavation_reactor>], 
+[<contenttweaker:mythic_excavation_reactor>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:fractal_fragment_natural_law>, <contenttweaker:well_defined_machine_case>, <contenttweaker:fractal_fragment_natural_law>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:mythic_excavation_reactor>], 
+[<botania:elfglass>, <contenttweaker:fractal_fragment_natural_law>, <contenttweaker:collapser_conduit>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:collapser_conduit>, <contenttweaker:fractal_fragment_natural_law>, <botania:elfglass>], 
+[<botania:elfglass>, <contenttweaker:well_defined_machine_case>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:actualizing_hyperuranion_ingot>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:well_defined_machine_case>, <botania:elfglass>], 
+[<botania:elfglass>, <contenttweaker:fractal_fragment_natural_law>, <contenttweaker:collapser_conduit>, <contenttweaker:fifth_order_ascended_fractal>, <contenttweaker:collapser_conduit>, <contenttweaker:fractal_fragment_natural_law>, <botania:elfglass>], 
+[<contenttweaker:mythic_excavation_reactor>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:fractal_fragment_natural_law>, <contenttweaker:well_defined_machine_case>, <contenttweaker:fractal_fragment_natural_law>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:mythic_excavation_reactor>], 
+[<contenttweaker:mythic_excavation_reactor>, <contenttweaker:mythic_excavation_reactor>, <botania:elfglass>, <contenttweaker:well_defined_machine_case>, <botania:elfglass>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:mythic_excavation_reactor>]]);  
+
+
+
+
 
 recipes.addShaped(<contenttweaker:hymn_of_the_true_tongue>,
 [[<contenttweaker:rarified_fluix_crystal>, <contenttweaker:well_defined_machine_case>, <contenttweaker:rarified_fluix_crystal>],
@@ -734,20 +782,59 @@ recipes.addShaped(<randomthings:ingredient:2>*16,
 [<aoa3:ghostly_powder>, <aoa3:ghastly_ingot>, <aoa3:ghostly_powder>],
 [null, <aoa3:ghostly_powder>, null]]);
 
-recipes.addShaped(<contenttweaker:ascended_fluix_crystal>*4,
-[[<contenttweaker:flawless_fluix_crystal>, <avaritia:resource:6>, <contenttweaker:flawless_fluix_crystal>],
-[<avaritia:resource:6>, <contenttweaker:sword_of_truth>.reuse(), <avaritia:resource:6>],
-[<contenttweaker:flawless_fluix_crystal>, <avaritia:resource:6>, <contenttweaker:flawless_fluix_crystal>]]);
+recipes.addShaped(<contenttweaker:ascended_sky_stone>*8,
+[[<appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>],
+[<appliedenergistics2:sky_stone_block>, <contenttweaker:sword_of_truth>.reuse(), <appliedenergistics2:sky_stone_block>],
+[<appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>]]);
 
-recipes.addShaped(<contenttweaker:ascended_fluix_crystal>*16,
-[[<contenttweaker:flawless_fluix_crystal>, <contenttweaker:echo_warren_alloy>, <contenttweaker:flawless_fluix_crystal>],
-[<contenttweaker:echo_warren_alloy>, <contenttweaker:sword_of_truth>.reuse(), <contenttweaker:echo_warren_alloy>],
-[<contenttweaker:flawless_fluix_crystal>, <contenttweaker:echo_warren_alloy>, <contenttweaker:flawless_fluix_crystal>]]);
 
-recipes.addShaped(<contenttweaker:ascended_fluix_crystal>*64,
-[[<contenttweaker:flawless_fluix_crystal>, <contenttweaker:echo_warren_bar>, <contenttweaker:flawless_fluix_crystal>],
-[<contenttweaker:echo_warren_bar>, <contenttweaker:sword_of_truth>.reuse(), <contenttweaker:echo_warren_bar>],
-[<contenttweaker:flawless_fluix_crystal>, <contenttweaker:echo_warren_bar>, <contenttweaker:flawless_fluix_crystal>]]);
+
+val plithofascension1 = RecipeBuilder.newBuilder("plithofascension1","plith_of_ascension",100);
+plithofascension1.addFluidInput(<fluid:ascended_draconic_alloy>*12);
+plithofascension1.addItemInput(<avaritia:resource:6>*4);
+plithofascension1.addItemInput(<contenttweaker:flawless_fluix_crystal>*4);
+plithofascension1.addItemOutput(<contenttweaker:ascended_fluix_crystal>*4);
+plithofascension1.build();
+
+val plithofascension2 = RecipeBuilder.newBuilder("plithofascension2","plith_of_ascension",100);
+plithofascension2.addFluidInput(<fluid:ascended_draconic_alloy>*12);
+plithofascension2.addItemInput(<contenttweaker:echo_warren_alloy>*4);
+plithofascension2.addItemInput(<contenttweaker:flawless_fluix_crystal>*4);
+plithofascension2.addItemOutput(<contenttweaker:ascended_fluix_crystal>*16);
+plithofascension2.build();
+
+val plithofascension3 = RecipeBuilder.newBuilder("plithofascension3","plith_of_ascension",100);
+plithofascension3.addFluidInput(<fluid:ascended_draconic_alloy>*12);
+plithofascension3.addItemInput(<contenttweaker:echo_warren_bar>*4);
+plithofascension3.addItemInput(<contenttweaker:flawless_fluix_crystal>*4);
+plithofascension3.addItemOutput(<contenttweaker:ascended_fluix_crystal>*64);
+plithofascension3.build();
+
+val plithofascension4 = RecipeBuilder.newBuilder("plithofascension4","plith_of_ascension",100);
+plithofascension4.addFluidInput(<fluid:ascended_draconic_alloy>*12);
+plithofascension4.addItemInput(<avaritiaitem:resounding_warren_alloy>*4);
+plithofascension4.addItemInput(<contenttweaker:flawless_fluix_crystal>*4);
+plithofascension4.addItemOutput(<contenttweaker:ascended_fluix_crystal>*256);
+plithofascension4.build();
+
+
+
+
+
+// recipes.addShaped(<contenttweaker:ascended_fluix_crystal>*4,
+// [[<contenttweaker:flawless_fluix_crystal>, <avaritia:resource:6>, <contenttweaker:flawless_fluix_crystal>],
+// [<avaritia:resource:6>, <contenttweaker:sword_of_truth>.reuse(), <avaritia:resource:6>],
+// [<contenttweaker:flawless_fluix_crystal>, <avaritia:resource:6>, <contenttweaker:flawless_fluix_crystal>]]);
+
+// recipes.addShaped(<contenttweaker:ascended_fluix_crystal>*16,
+// [[<contenttweaker:flawless_fluix_crystal>, <contenttweaker:echo_warren_alloy>, <contenttweaker:flawless_fluix_crystal>],
+// [<contenttweaker:echo_warren_alloy>, <contenttweaker:sword_of_truth>.reuse(), <contenttweaker:echo_warren_alloy>],
+// [<contenttweaker:flawless_fluix_crystal>, <contenttweaker:echo_warren_alloy>, <contenttweaker:flawless_fluix_crystal>]]);
+
+// recipes.addShaped(<contenttweaker:ascended_fluix_crystal>*64,
+// [[<contenttweaker:flawless_fluix_crystal>, <contenttweaker:echo_warren_bar>, <contenttweaker:flawless_fluix_crystal>],
+// [<contenttweaker:echo_warren_bar>, <contenttweaker:sword_of_truth>.reuse(), <contenttweaker:echo_warren_bar>],
+// [<contenttweaker:flawless_fluix_crystal>, <contenttweaker:echo_warren_bar>, <contenttweaker:flawless_fluix_crystal>]]);
 
 val swordoftruth = <contenttweaker:sword_of_truth>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 4000},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]});
 
@@ -807,3 +894,6 @@ recipes.addShaped(<contenttweaker:fractallite_furnace>,
 [[<extendedcrafting:singularity_custom:651>, <contenttweaker:recursium_ingot>, <extendedcrafting:singularity_custom:651>],
 [<contenttweaker:recursium_ingot>, <contenttweaker:fractallite_furnace>, <contenttweaker:recursium_ingot>],
 [<extendedcrafting:singularity_custom:651>, <contenttweaker:recursium_ingot>, <extendedcrafting:singularity_custom:651>]]);
+
+
+mods.projecte.WorldTransmutation.add(<biomesoplenty:grass:5>, <divinerpg:mortum_grass>);

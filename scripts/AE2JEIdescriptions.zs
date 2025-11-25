@@ -84,7 +84,6 @@ mods.jei.JEI.addDescription(<thaumicenergistics:essentia_cell_16k>,["以元件�
 mods.jei.JEI.addDescription(<thaumicenergistics:essentia_cell_64k>,["以元件形式存储源质，可存储大约512k单位单种源质。"]);
 mods.jei.JEI.addDescription(<extracells:fluidcrafter>,["可直接使用ME系统中存储的流体处理桶装流体配方。"]);
 mods.jei.JEI.addDescription(<ae2fc:fluid_assembler>,["可直接使用ME系统中存储的流体处理桶装流体配方，需要ME流体离散器来制作伪流体。"]);
-mods.jei.JEI.addDescription(<ae2stuff:encoder>,["方块版本的样板终端。"]);
 mods.jei.JEI.addDescription(<ae2fc:fluid_pattern_encoder>,["方块版本的流体样板终端。"]);
 mods.jei.JEI.addDescription(<appliedenergistics2:inscriber>,["制作处理器，各个面的IO各不相同。"]);
 mods.jei.JEI.addDescription(<ae2stuff:inscriber>,["制作处理器，速度更快，可从任意面输入物品。"]);

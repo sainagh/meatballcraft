@@ -7,7 +7,7 @@ import mods.contenttweaker.Commands;
 import mods.contenttweaker.ResourceLocation;
 
 
-var instanceTEX = mods.contenttweaker.ResourceLocation.create("contenttweaker:textures/items/trait_inferno.png");
+var instanceTEX = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/trait_inferno");
 
   
 
@@ -171,3 +171,11 @@ var trait_necrotic = VanillaFactory.createItem("trait_necrotic"); trait_necrotic
 var trait_sentience = VanillaFactory.createItem("trait_sentience");	trait_sentience.textureLocation = instanceTEX;  trait_sentience.register();
 var trait_steady = VanillaFactory.createItem("trait_steady");	trait_steady.textureLocation = instanceTEX;  trait_steady.register();
 
+var trait_bloodsweattears = VanillaFactory.createItem("trait_bloodsweattears");	trait_bloodsweattears.textureLocation = instanceTEX;  trait_bloodsweattears.register();
+var trait_arcaneextraction = VanillaFactory.createItem("trait_arcaneextraction");	trait_arcaneextraction.textureLocation = instanceTEX;  trait_arcaneextraction.register();
+var trait_abyssalharvesting = VanillaFactory.createItem("trait_abyssalharvesting");	trait_abyssalharvesting.textureLocation = instanceTEX;  trait_abyssalharvesting.register();
+var trait_dreadfulharvesting = VanillaFactory.createItem("trait_dreadfulharvesting");	trait_dreadfulharvesting.textureLocation = instanceTEX;  trait_dreadfulharvesting.register();
+var trait_omotholharvesting = VanillaFactory.createItem("trait_omotholharvesting");	trait_omotholharvesting.textureLocation = instanceTEX;  trait_omotholharvesting.register();
+var trait_willoftheaesir = VanillaFactory.createItem("trait_willoftheaesir");	trait_willoftheaesir.textureLocation = instanceTEX;  trait_willoftheaesir.register();
+var trait_tearofarcana = VanillaFactory.createItem("trait_tearofarcana");	trait_tearofarcana.textureLocation = instanceTEX;  trait_tearofarcana.register();
+var trait_giggity = VanillaFactory.createItem("trait_giggity");	trait_giggity.textureLocation = instanceTEX;  trait_giggity.register();

@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1569647533,
+    1474843254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "iceandfire:deathworm_gauntlet_red",
+        "tag:10": {}
+      },
+      "name:8": "死亡蠕虫手甲"
+    }
+  },
+  "questID:3": 1342953011,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:deathworm_gauntlet_red",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:deathworm_gauntlet_white",
+          "tag:10": {}
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:deathworm_gauntlet_yellow",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

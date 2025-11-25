@@ -2,11 +2,504 @@
     "craft": {
         "inventory": 0b,
         "amount": "",
-        "recents": []
+        "recents": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "meta": 11,
+                "item": "projectex:matter"
+            }
+        }]
     },
     "player": {
-        "last": "",
-        "recipes": {}
+        "last": "Default",
+        "recipes": {"Default": [
+            {
+                "input": [
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 6L,
+                            "meta": 2,
+                            "item": "projecte:item.pe_fuel"
+                        }
+                    },
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 3L,
+                            "meta": 10,
+                            "item": "projectex:matter"
+                        }
+                    }
+                ],
+                "catalyst": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "minecraft:crafting_table"
+                    }
+                }],
+                "output": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "meta": 11,
+                        "item": "projectex:matter"
+                    }
+                }]
+            },
+            {
+                "input": [
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 6L,
+                            "meta": 2,
+                            "item": "projecte:item.pe_fuel"
+                        }
+                    },
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 3L,
+                            "meta": 9,
+                            "item": "projectex:matter"
+                        }
+                    }
+                ],
+                "catalyst": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "minecraft:crafting_table"
+                    }
+                }],
+                "output": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "meta": 10,
+                        "item": "projectex:matter"
+                    }
+                }]
+            },
+            {
+                "input": [
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 6L,
+                            "meta": 2,
+                            "item": "projecte:item.pe_fuel"
+                        }
+                    },
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 3L,
+                            "meta": 8,
+                            "item": "projectex:matter"
+                        }
+                    }
+                ],
+                "catalyst": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "minecraft:crafting_table"
+                    }
+                }],
+                "output": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "meta": 9,
+                        "item": "projectex:matter"
+                    }
+                }]
+            },
+            {
+                "input": [
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 6L,
+                            "meta": 2,
+                            "item": "projecte:item.pe_fuel"
+                        }
+                    },
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 3L,
+                            "meta": 5,
+                            "item": "projectex:matter"
+                        }
+                    }
+                ],
+                "catalyst": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "minecraft:crafting_table"
+                    }
+                }],
+                "output": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "meta": 6,
+                        "item": "projectex:matter"
+                    }
+                }]
+            },
+            {
+                "input": [
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 6L,
+                            "meta": 2,
+                            "item": "projecte:item.pe_fuel"
+                        }
+                    },
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 3L,
+                            "meta": 6,
+                            "item": "projectex:matter"
+                        }
+                    }
+                ],
+                "catalyst": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "minecraft:crafting_table"
+                    }
+                }],
+                "output": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "meta": 7,
+                        "item": "projectex:matter"
+                    }
+                }]
+            },
+            {
+                "input": [
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 6L,
+                            "meta": 2,
+                            "item": "projecte:item.pe_fuel"
+                        }
+                    },
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 3L,
+                            "meta": 7,
+                            "item": "projectex:matter"
+                        }
+                    }
+                ],
+                "catalyst": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "minecraft:crafting_table"
+                    }
+                }],
+                "output": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "meta": 8,
+                        "item": "projectex:matter"
+                    }
+                }]
+            },
+            {
+                "input": [
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 6L,
+                            "meta": 2,
+                            "item": "projecte:item.pe_fuel"
+                        }
+                    },
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 3L,
+                            "meta": 4,
+                            "item": "projectex:matter"
+                        }
+                    }
+                ],
+                "catalyst": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "minecraft:crafting_table"
+                    }
+                }],
+                "output": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "meta": 5,
+                        "item": "projectex:matter"
+                    }
+                }]
+            },
+            {
+                "input": [
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 6L,
+                            "meta": 2,
+                            "item": "projecte:item.pe_fuel"
+                        }
+                    },
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 3L,
+                            "meta": 3,
+                            "item": "projectex:matter"
+                        }
+                    }
+                ],
+                "catalyst": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "minecraft:crafting_table"
+                    }
+                }],
+                "output": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "meta": 4,
+                        "item": "projectex:matter"
+                    }
+                }]
+            },
+            {
+                "input": [
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 6L,
+                            "meta": 2,
+                            "item": "projecte:item.pe_fuel"
+                        }
+                    },
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 3L,
+                            "meta": 2,
+                            "item": "projectex:matter"
+                        }
+                    }
+                ],
+                "catalyst": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "minecraft:crafting_table"
+                    }
+                }],
+                "output": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "meta": 3,
+                        "item": "projectex:matter"
+                    }
+                }]
+            },
+            {
+                "input": [
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 6L,
+                            "meta": 2,
+                            "item": "projecte:item.pe_fuel"
+                        }
+                    },
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 3L,
+                            "meta": 1,
+                            "item": "projectex:matter"
+                        }
+                    }
+                ],
+                "catalyst": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "minecraft:crafting_table"
+                    }
+                }],
+                "output": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "meta": 2,
+                        "item": "projectex:matter"
+                    }
+                }]
+            },
+            {
+                "input": [
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 6L,
+                            "meta": 2,
+                            "item": "projecte:item.pe_fuel"
+                        }
+                    },
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 3L,
+                            "item": "projectex:matter"
+                        }
+                    }
+                ],
+                "catalyst": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "minecraft:crafting_table"
+                    }
+                }],
+                "output": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "meta": 1,
+                        "item": "projectex:matter"
+                    }
+                }]
+            },
+            {
+                "input": [
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 6L,
+                            "meta": 2,
+                            "item": "projecte:item.pe_fuel"
+                        }
+                    },
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 3L,
+                            "meta": 1,
+                            "item": "projecte:item.pe_matter"
+                        }
+                    }
+                ],
+                "catalyst": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "minecraft:crafting_table"
+                    }
+                }],
+                "output": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "projectex:matter"
+                    }
+                }]
+            },
+            {
+                "input": [
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 6L,
+                            "meta": 2,
+                            "item": "projecte:item.pe_fuel"
+                        }
+                    },
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 3L,
+                            "item": "projecte:item.pe_matter"
+                        }
+                    }
+                ],
+                "catalyst": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "minecraft:crafting_table"
+                    }
+                }],
+                "output": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "meta": 1,
+                        "item": "projecte:item.pe_matter"
+                    }
+                }]
+            },
+            {
+                "input": [
+                    {
+                        "type": "itemStack",
+                        "content": {
+                            "amount": 8L,
+                            "meta": 2,
+                            "item": "projecte:item.pe_fuel"
+                        }
+                    },
+                    {
+                        "type": "oreDict",
+                        "content": {
+                            "amount": 1L,
+                            "name": "blockDiamond"
+                        }
+                    }
+                ],
+                "catalyst": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "minecraft:crafting_table"
+                    }
+                }],
+                "output": [{
+                    "type": "itemStack",
+                    "content": {
+                        "amount": 1L,
+                        "item": "projecte:item.pe_matter"
+                    }
+                }]
+            }
+        ]}
     },
     "math": {
         "current": "",

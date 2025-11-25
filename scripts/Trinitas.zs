@@ -233,6 +233,10 @@ recipes.addShapeless(<contenttweaker:trinity_nugget>*36,
 [<aoa3:energistic_pickaxe>.reuse(),
 <contenttweaker:trinity_ingot>]);
 
+recipes.addShapeless(<contenttweaker:trinity_nugget>*49,
+[<avaritia:infinity_pickaxe>.withTag({display: {Lore:["§d§o极・超限附魔§r"]}}).reuse(),
+<contenttweaker:trinity_ingot>]);
+
 
 mods.avaritia.ExtremeCrafting.addShaped("makesupergemofthecosmosbb",
 <contenttweaker:perfected_gem_of_the_cosmos>*2, 
@@ -763,12 +767,86 @@ null, null, null]]);
 
 
 
+
+
+
+
+
+var magicbaneench as IData = ({ench: [{id: 16 , lvl: 300 as short}]});
+var holyshwodenc as IData = ({ench: [{id: 17 , lvl: 255 as short}]});
+var rockbasherench as IData = ({ench: [{id: 20 , lvl: 101 as short}]});
+var mithminiterobeench as IData = ({ench: [{id: 3 , lvl: 16 as short}]});
+var boneswordench as IData = ({ench: [{id: 22 , lvl: 33 as short}]});
+var chainsawenc as IData = ({ench: [{id: 35 , lvl: 18 as short}]});
+var atlanticbowench as IData = ({ench: [{id: 48 , lvl: 30 as short}]});
+var infinitybowenc as IData = ({ench: [{id: 48 , lvl: 12 as short}]});
+var lawswordenc as IData = ({ench: [{id: 16 , lvl: 69 as short}]});
+var tormentedchestenc as IData = ({ench: [{id: 7 , lvl: 55 as short}]});
+var lightwayenc as IData = ({ench: [{id: 18 , lvl: 16 as short}]});
+var runicswordench as IData = ({ench: [{id: 21 , lvl: 30 as short}]});
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:seal_of_the_arbiter_defender>, 
+
+[[null, null, null, 
+null, <contenttweaker:perfected_gem_of_the_cosmos>, null, 
+null, null, null], 
+
+[null, <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>, 
+null, <contenttweaker:perfected_gem_of_the_cosmos>, null, 
+<contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>, null], 
+
+[null, <contenttweaker:perfected_gem_of_the_cosmos>, <aoa3:holy_sword>.withTag(holyshwodenc), 
+<contenttweaker:perfected_gem_of_the_cosmos>, <mod_lavacow:bonesword>.withTag(boneswordench), <contenttweaker:perfected_gem_of_the_cosmos>, 
+<aoa3:rockbasher_sword>.withTag(rockbasherench), <contenttweaker:perfected_gem_of_the_cosmos>, null], 
+
+[null, null, <contenttweaker:perfected_gem_of_the_cosmos>, 
+<contenttweaker:recursion_prison_key>, <thaumadditions:mithminite_robe>.withTag(mithminiterobeench), <contenttweaker:recursion_prison_key>, 
+<contenttweaker:perfected_gem_of_the_cosmos>, null, null], 
+
+[<contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>, <aoa3:chainsaw>.withTag(chainsawenc), 
+<aoa3:atlantic_bow>.withTag(atlanticbowench), <contenttweaker:seal_of_freedom>, <avaritia:infinity_bow>.withTag(infinitybowenc), 
+<extrautils2:lawsword>.withTag(lawswordenc), <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>], 
+
+[null, null, <contenttweaker:perfected_gem_of_the_cosmos>, 
+<contenttweaker:recursion_prison_key>, <divinerpg:tormented_chestplate>.withTag(tormentedchestenc), <contenttweaker:recursion_prison_key>, 
+<contenttweaker:perfected_gem_of_the_cosmos>, null, null], 
+
+[null, <contenttweaker:perfected_gem_of_the_cosmos>, <aoa3:lights_way>.withTag(lightwayenc), 
+<contenttweaker:perfected_gem_of_the_cosmos>, <xreliquary:magicbane>.withTag(magicbaneench), <contenttweaker:perfected_gem_of_the_cosmos>, 
+<aoa3:runic_sword>.withTag(runicswordench), <contenttweaker:perfected_gem_of_the_cosmos>, null], 
+
+[null, <contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>, 
+null, <contenttweaker:perfected_gem_of_the_cosmos>, null, 
+<contenttweaker:perfected_gem_of_the_cosmos>, <contenttweaker:perfected_gem_of_the_cosmos>, null], 
+
+[null, null, null, 
+null, <contenttweaker:perfected_gem_of_the_cosmos>, null, 
+null, null, null]]); 
+
+
+
+
+
+
+
+
+
 recipes.addShaped(<contenttweaker:token_of_forgiveness>,
 [[<ore:ingotFractalliteHalite>, <contenttweaker:hungering_machine_case>, <ore:ingotFractalliteHalite>],
 [<contenttweaker:hungering_machine_case>, <contenttweaker:token_of_the_meatball_man>, <contenttweaker:hungering_machine_case>],
 [<ore:ingotFractalliteHalite>, <contenttweaker:hungering_machine_case>, <ore:ingotFractalliteHalite>]]);
 
-
+recipes.addShapeless(<contenttweaker:offer_of_restored_balance>*9,
+[<contenttweaker:offer_of_restored_balance>,
+<contenttweaker:token_of_forgiveness>,
+<contenttweaker:token_of_forgiveness>,
+<contenttweaker:token_of_forgiveness>,
+<contenttweaker:token_of_forgiveness>,
+<contenttweaker:token_of_forgiveness>,
+<contenttweaker:token_of_forgiveness>,
+<contenttweaker:token_of_forgiveness>,
+<contenttweaker:token_of_forgiveness>]);
 
 mods.avaritia.ExtremeCrafting.addShaped("canonendingdire",
 <avaritiaitem:cosmic_balance>, 
@@ -791,3 +869,7 @@ mods.avaritia.ExtremeCrafting.addShaped("canonendingdire",
 [null, null, <ore:blockInfinity>, <avaritiaitem:fractallite_halite_catalyst>, <avaritiaitem:fractallite_halite_catalyst>, <avaritiaitem:fractallite_halite_catalyst>, <ore:blockInfinity>, null, null]]);
 
 
+recipes.addShaped(<contenttweaker:earthly_salvation>*5,
+[[null, <contenttweaker:trinity_nugget>, null],
+[<contenttweaker:trinity_nugget>, <contenttweaker:earthly_salvation>, <contenttweaker:trinity_nugget>],
+[null, <contenttweaker:trinity_nugget>, null]]);

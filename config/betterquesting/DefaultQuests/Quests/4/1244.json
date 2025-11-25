@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o接口具有两个功能，查看自动合成板块以了解关于另一功能的信息。\n\n可通过配置接口GUI顶部的槽位，使网络将接口内的物品维持在特定数量。\n\n导管可其他管道可对接口进行输入或输出操作。\n\n比使用输出总线更不容易导致卡顿。",
+      "desc:8": "§7§o接口具有两个功能，查看自动合成板块以了解关于另一功能的信息。\n\n可通过配置接口GUI顶部的槽位，使网络将接口内的物品维持在特定数量。ME流体接口功能相同，但是适用于流体。\n\n导管可其他管道可对接口进行输入或输出操作。此种方法比使用输出总线更不容易导致卡顿。\n\nME二合一接口同时具有物品和流体接口的功能。\n\n对于使用液滴的配方（若ME网络中存在流体离散器），必须在接口与目标机器之间放置一个原材料缓存仓，用以在启动配方前分离流体与物品。\n\nME样板接口和ME完美接口仅具有两种接口功能中的一项，但具有更多样板/物品槽位。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:interface"
@@ -36,6 +36,22 @@
         "4:10": {
           "Count:3": 1,
           "id:8": "ae2fc:large_ingredient_buffer"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:patterns_interface",
+            "orig_meta:3": 0
+          }
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "crazyae:perfect_interface",
+            "orig_meta:3": 0
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

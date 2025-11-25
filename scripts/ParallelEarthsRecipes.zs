@@ -582,3 +582,89 @@ recipes.addShaped(<contenttweaker:wormhole_field_module>,
 [[<rftools:infused_diamond>, <contenttweaker:deuterium_crystal>, <rftools:infused_diamond>],
 [<ore:crystalErodium>, <techreborn:machine_frame:2>, <ore:crystalErodium>],
 [<contenttweaker:better_lapotronic_orb>, <bigreactors:blockludicrite>, <contenttweaker:better_lapotronic_orb>]]);
+
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:homeseeker_warper>, 
+
+[[<contenttweaker:gluttonous_bell>, <divinerpg:snowflake>, <storagedrawers:upgrade_creative>, 
+<thebetweenlands:spirit_fruit>, <twilightforest:raven_feather>, <thebetweenlands:spirit_fruit>, 
+<storagedrawers:upgrade_creative>, <divinerpg:snowflake>, <contenttweaker:gluttonous_bell>], 
+
+[<divinerpg:snowflake>, <botania:manaresource:5>, <thermalfoundation:material:1028>, 
+<contenttweaker:ayeraco_scale>, <divinerpg:bluefire_stone>, <contenttweaker:ayeraco_scale>, 
+<thermalfoundation:material:1028>, <botania:manaresource:5>, <divinerpg:snowflake>], 
+
+[<storagedrawers:upgrade_creative>, <thermalfoundation:material:1028>, <botania:manaresource:5>, 
+<aether_legacy:aercloud:2>, <draconicevolution:chaos_shard:3>, <aether_legacy:aercloud:2>, 
+<botania:manaresource:5>, <thermalfoundation:material:1028>, <storagedrawers:upgrade_creative>], 
+
+[<thebetweenlands:spirit_fruit>, <contenttweaker:ayeraco_scale>, <aether_legacy:aercloud:2>, 
+<divinerpg:arcanium_block>, <divinerpg:arcanium_block>, <divinerpg:arcanium_block>, 
+<aether_legacy:aercloud:2>, <contenttweaker:ayeraco_scale>, <thebetweenlands:spirit_fruit>], 
+
+[<twilightforest:raven_feather>, <divinerpg:bluefire_stone>, <draconicevolution:chaos_shard:3>, 
+<divinerpg:arcanium_block>, <contenttweaker:wormhole_catalyst>, <divinerpg:arcanium_block>, 
+<draconicevolution:chaos_shard:3>, <divinerpg:bluefire_stone>, <twilightforest:raven_feather>], 
+
+[<thebetweenlands:spirit_fruit>, <contenttweaker:ayeraco_scale>, <aether_legacy:aercloud:2>, 
+<divinerpg:arcanium_block>, <divinerpg:arcanium_block>, <divinerpg:arcanium_block>, 
+<aether_legacy:aercloud:2>, <contenttweaker:ayeraco_scale>, <thebetweenlands:spirit_fruit>], 
+
+[<storagedrawers:upgrade_creative>, <thermalfoundation:material:1028>, <botania:manaresource:5>, 
+<aether_legacy:aercloud:2>, <draconicevolution:chaos_shard:3>, <aether_legacy:aercloud:2>, 
+<botania:manaresource:5>, <thermalfoundation:material:1028>, <storagedrawers:upgrade_creative>], 
+
+[<divinerpg:snowflake>, <botania:manaresource:5>, <thermalfoundation:material:1028>, 
+<contenttweaker:ayeraco_scale>, <divinerpg:bluefire_stone>, <contenttweaker:ayeraco_scale>, 
+<thermalfoundation:material:1028>, <botania:manaresource:5>, <divinerpg:snowflake>], 
+
+[<contenttweaker:gluttonous_bell>, <divinerpg:snowflake>, <storagedrawers:upgrade_creative>, 
+<thebetweenlands:spirit_fruit>, <twilightforest:raven_feather>, <thebetweenlands:spirit_fruit>, 
+<storagedrawers:upgrade_creative>, <divinerpg:snowflake>, <contenttweaker:gluttonous_bell>]]);  
+
+
+
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:homebound_warper>, 
+
+[[<contenttweaker:shattered_mythic_matter>, <mowziesmobs:naga_fang>, <contenttweaker:stormlight_infused_crystal>, 
+<aoa3:rosidons>, <aoa3:opteryx_feather>, <aoa3:rosidons>, 
+<contenttweaker:stormlight_infused_crystal>, <mowziesmobs:naga_fang>, <contenttweaker:shattered_mythic_matter>], 
+
+[<mowziesmobs:naga_fang>, <contenttweaker:stormlight_sphere>, <contenttweaker:sentient_meatball>, 
+<contenttweaker:resonating_stone>, <ore:ingotSednanite>, <contenttweaker:resonating_stone>, 
+<contenttweaker:sentient_meatball>, <contenttweaker:stormlight_sphere>, <mowziesmobs:naga_fang>], 
+
+[<contenttweaker:stormlight_infused_crystal>, <contenttweaker:sentient_meatball>, <contenttweaker:stormlight_sphere>, 
+<contenttweaker:berserker_steel_ingot>, <draconicevolution:chaos_shard:0>, <contenttweaker:berserker_steel_ingot>, 
+<contenttweaker:stormlight_sphere>, <contenttweaker:sentient_meatball>, <contenttweaker:stormlight_infused_crystal>], 
+
+[<aoa3:rosidons>, <contenttweaker:resonating_stone>, <contenttweaker:berserker_steel_ingot>, 
+<contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>, 
+<contenttweaker:berserker_steel_ingot>, <contenttweaker:resonating_stone>, <aoa3:rosidons>], 
+
+[<aoa3:opteryx_feather>, <ore:ingotSednanite>, <draconicevolution:chaos_shard:0>, 
+<contenttweaker:phasing_gem>, <contenttweaker:wormhole_catalyst>, <contenttweaker:phasing_gem>, 
+<draconicevolution:chaos_shard:0>, <ore:ingotSednanite>, <aoa3:opteryx_feather>], 
+
+[<aoa3:rosidons>, <contenttweaker:resonating_stone>, <contenttweaker:berserker_steel_ingot>, 
+<contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>, <contenttweaker:phasing_gem>, 
+<contenttweaker:berserker_steel_ingot>, <contenttweaker:resonating_stone>, <aoa3:rosidons>], 
+
+[<contenttweaker:stormlight_infused_crystal>, <contenttweaker:sentient_meatball>, <contenttweaker:stormlight_sphere>, 
+<contenttweaker:berserker_steel_ingot>, <draconicevolution:chaos_shard:0>, <contenttweaker:berserker_steel_ingot>, 
+<contenttweaker:stormlight_sphere>, <contenttweaker:sentient_meatball>, <contenttweaker:stormlight_infused_crystal>], 
+
+[<mowziesmobs:naga_fang>, <contenttweaker:stormlight_sphere>, <contenttweaker:sentient_meatball>, 
+<contenttweaker:resonating_stone>, <ore:ingotSednanite>, <contenttweaker:resonating_stone>, 
+<contenttweaker:sentient_meatball>, <contenttweaker:stormlight_sphere>, <mowziesmobs:naga_fang>], 
+
+[<contenttweaker:shattered_mythic_matter>, <mowziesmobs:naga_fang>, <contenttweaker:stormlight_infused_crystal>, 
+<aoa3:rosidons>, <aoa3:opteryx_feather>, <aoa3:rosidons>, 
+<contenttweaker:stormlight_infused_crystal>, <mowziesmobs:naga_fang>, <contenttweaker:shattered_mythic_matter>]]);  

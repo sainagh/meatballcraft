@@ -2,6 +2,28 @@
     "registryname": "gravitational_collapser",
     "localizedname": "Gravity Inverter",
 	"color": "bababa",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:miniature_white_hole",
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "description": "处理数量x10",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 10
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 10
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -2,

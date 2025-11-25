@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1032
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o以下板块按进度阶段对所有可用的匠魂材料进行了分类，分为优异、良好和一般三个等级。\n\n材料的评级可能会随着玩家反馈和新构筑的发现而调整，因此这里的分类可能会重新排列。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "tconstruct:toolforge",
+        "tag:10": {
+          "textureBlock:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "id:8": "aoa3:lyon_block"
+          }
+        }
+      },
+      "name:8": "匠魂宝典"
+    }
+  },
+  "questID:3": 490258798,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

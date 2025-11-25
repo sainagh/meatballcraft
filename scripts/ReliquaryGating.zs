@@ -14,3 +14,6 @@ recipes.addShaped(<xreliquary:infernal_tear>,
 [[<contenttweaker:ignis_vis_condensate>, <xreliquary:void_tear>, <contenttweaker:ignis_vis_condensate>],
 [<xreliquary:void_tear>, <contenttweaker:crown_of_the_energy_queen>, <xreliquary:void_tear>],
 [<contenttweaker:ignis_vis_condensate>, <xreliquary:void_tear>, <contenttweaker:ignis_vis_condensate>]]);
+
+
+recipes.remove(<xreliquary:apothecary_mortar>);

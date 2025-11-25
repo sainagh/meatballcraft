@@ -1,0 +1,174 @@
+{
+  "preRequisites:11": [
+    1569647533,
+    81569973
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o可使用任意材料组合的武士刀完成此任务。\n\n根据所处的章节，查看§c匠魂工具箱§7§o任务以了解合适的材料。",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "plustic::10": {
+            "Items:9": {},
+            "Size:3": 1
+          },
+          "plustic:fruitsalad_cap:10": {
+            "Items:9": {},
+            "Size:3": 5
+          },
+          "plustic:musicofthespheres_cap:10": {
+            "Items:9": {},
+            "Size:3": 1
+          }
+        },
+        "id:8": "plustic:katana",
+        "tag:10": {
+          "Modifiers:9": {
+            "0:10": {
+              "color:3": -5338513,
+              "identifier:8": "fractured",
+              "level:3": 1
+            },
+            "1:10": {
+              "color:3": -5338513,
+              "identifier:8": "sharp",
+              "level:3": 1
+            },
+            "2:10": {
+              "color:3": 16777215,
+              "identifier:8": "toolleveling",
+              "level:3": 1
+            }
+          },
+          "PlusTiC_Counter:5": 0.0,
+          "Special:10": {
+            "Categories:9": {
+              "0:8": "tool",
+              "1:8": "weapon"
+            }
+          },
+          "Stats:10": {
+            "Attack:5": 5.5,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 242,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 2,
+            "MiningSpeed:5": 5.0
+          },
+          "StatsOriginal:10": {
+            "Attack:5": 4.0,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 242,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 2,
+            "MiningSpeed:5": 5.0
+          },
+          "TinkerData:10": {
+            "Materials:9": {
+              "0:8": "mod_lavacow.chitin",
+              "1:8": "mod_lavacow.chitin",
+              "2:8": "mod_lavacow.chitin",
+              "3:8": "mod_lavacow.chitin"
+            },
+            "Modifiers:9": {
+              "0:8": "toolleveling"
+            }
+          },
+          "Traits:9": {
+            "0:8": "fractured",
+            "1:8": "sharp",
+            "2:8": "toolleveling"
+          }
+        }
+      },
+      "name:8": "匠魂武士刀"
+    }
+  },
+  "questID:3": 1149819793,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "plustic::10": {
+              "Items:9": {},
+              "Size:3": 1
+            },
+            "plustic:fruitsalad_cap:10": {
+              "Items:9": {},
+              "Size:3": 5
+            },
+            "plustic:musicofthespheres_cap:10": {
+              "Items:9": {},
+              "Size:3": 1
+            }
+          },
+          "id:8": "plustic:katana",
+          "tag:10": {
+            "Modifiers:9": {
+              "0:10": {
+                "color:3": -5338513,
+                "identifier:8": "fractured",
+                "level:3": 1
+              },
+              "1:10": {
+                "color:3": -5338513,
+                "identifier:8": "sharp",
+                "level:3": 1
+              },
+              "2:10": {
+                "color:3": 16777215,
+                "identifier:8": "toolleveling",
+                "level:3": 1
+              }
+            },
+            "PlusTiC_Counter:5": 0.0,
+            "Special:10": {
+              "Categories:9": {
+                "0:8": "tool",
+                "1:8": "weapon"
+              }
+            },
+            "Stats:10": {
+              "Attack:5": 5.5,
+              "AttackSpeedMultiplier:5": 1.0,
+              "Durability:3": 242,
+              "FreeModifiers:3": 3,
+              "HarvestLevel:3": 2,
+              "MiningSpeed:5": 5.0
+            },
+            "StatsOriginal:10": {
+              "Attack:5": 4.0,
+              "AttackSpeedMultiplier:5": 1.0,
+              "Durability:3": 242,
+              "FreeModifiers:3": 3,
+              "HarvestLevel:3": 2,
+              "MiningSpeed:5": 5.0
+            },
+            "TinkerData:10": {
+              "Materials:9": {
+                "0:8": "mod_lavacow.chitin",
+                "1:8": "mod_lavacow.chitin",
+                "2:8": "mod_lavacow.chitin",
+                "3:8": "mod_lavacow.chitin"
+              },
+              "Modifiers:9": {
+                "0:8": "toolleveling"
+              }
+            },
+            "Traits:9": {
+              "0:8": "fractured",
+              "1:8": "sharp",
+              "2:8": "toolleveling"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

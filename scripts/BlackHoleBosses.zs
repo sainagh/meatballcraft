@@ -448,17 +448,21 @@ null,
 mods.nuclearcraft.alloy_furnace.addRecipe([<nuclearcraft:depleted_fuel_mixed_oxide:0>, <nuclearcraft:depleted_fuel_mixed_oxide:1>, <nuclearcraft:depleted_fuel_ic2:1>, 1.0, 1.0, 0.005]);
 mods.thermalexpansion.InductionSmelter.addRecipe(<nuclearcraft:depleted_fuel_ic2:1>, <nuclearcraft:depleted_fuel_mixed_oxide:1>, <nuclearcraft:depleted_fuel_mixed_oxide:0>, 1000);
 
-val nukecalifornium = RecipeBuilder.newBuilder("nukecalifornium","safe_nuke_environment",100);
-nukecalifornium.addItemInput(<techreborn:nuke>);
-nukecalifornium.addFluidInput(<fluid:californium_250>*1000);
-nukecalifornium.addFluidOutput(<fluid:californium_256>*1000);
-nukecalifornium.build();
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:fluidcompressedair>*10, <fluid:californium_250>*1000, <fluid:areated_molten_californium_250>*1000, <fluid:oxygen>*2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:lithium6>*10, <fluid:infinitely_unholy_radioactive_mix>*1000, <fluid:unholy_nuke_catalyst>*1000, null]);
 
-val nukepolonium = RecipeBuilder.newBuilder("nukepolonium","safe_nuke_environment",100);
-nukepolonium.addItemInput(<techreborn:nuke>);
-nukepolonium.addFluidInput(<fluid:spent_polonium>*1000);
-nukepolonium.addFluidOutput(<fluid:californium_256>*1000);
-nukepolonium.build();
+
+// val nukecalifornium = RecipeBuilder.newBuilder("nukecalifornium","safe_nuke_environment",100);
+// nukecalifornium.addItemInput(<techreborn:nuke>);
+// nukecalifornium.addFluidInput(<fluid:californium_250>*1000);
+// nukecalifornium.addFluidOutput(<fluid:californium_256>*1000);
+// nukecalifornium.build();
+
+// val nukepolonium = RecipeBuilder.newBuilder("nukepolonium","safe_nuke_environment",100);
+// nukepolonium.addItemInput(<techreborn:nuke>);
+// nukepolonium.addFluidInput(<fluid:spent_polonium>*1000);
+// nukepolonium.addFluidOutput(<fluid:californium_256>*1000);
+// nukepolonium.build();
 
 mods.nuclearcraft.heat_exchanger.addRecipe([<fluid:mineral_water>*10, <fluid:wet_steam>*20, 80000.0, 300, 700]);
 
@@ -748,3 +752,159 @@ creationallgarnets.addItemOutput(<contenttweaker:cut_vethea_garnet>*64);
 creationallgarnets.addItemOutput(<contenttweaker:cut_shyrelands_garnet>*64);
 creationallgarnets.addItemOutput(<contenttweaker:eye_of_gallifrey>);
 creationallgarnets.build();
+
+
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:quasar_charged_dust>*16, <fluid:low_grade_space_time_fuel>*5, <contenttweaker:solid_low_grade_space_time_fuel>]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:quasar_charged_dust>*32, <fluid:medium_grade_space_time_fuel>*5, <contenttweaker:solid_medium_grade_space_time_fuel>]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:quasar_charged_dust>*64, <fluid:high_grade_space_time_fuel>*5, <contenttweaker:solid_high_grade_space_time_fuel>]);
+
+
+
+val creationallgarnets2 = RecipeBuilder.newBuilder("creationallgarnets2","creation_altar",10);
+creationallgarnets2.addEnergyPerTickInput(1000000);
+creationallgarnets2.addFluidInput(<fluid:darkstarlight>*100);
+creationallgarnets2.addFluidInput(<fluid:sacrificial_essence>*100);
+creationallgarnets2.addFluidInput(<fluid:pristine_aura>*100);
+creationallgarnets2.addFluidInput(<fluid:strange_matter>*100);
+creationallgarnets2.addItemInput(<contenttweaker:gem_of_recursion>);
+creationallgarnets2.addItemInput(<contenttweaker:recursion_fragment_shyre>);
+creationallgarnets2.addItemInput(<contenttweaker:arkengem>);
+creationallgarnets2.addItemInput(<contenttweaker:quasar_charged_dust>*16);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_abyss_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_precasia_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_lelyetia_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_creeponia_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_deeplands_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_barathos_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_crystevia_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_gardencia_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_candyland_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_haven_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_voxponds_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_mysterium_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_celeve_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_iromine_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_borean_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_lunalus_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_runandor_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_ancientcavern_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_immortallis_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_greckon_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_dustopia_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_vethea_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:cut_shyrelands_garnet>*64);
+creationallgarnets2.addItemOutput(<contenttweaker:eye_of_gallifrey>*4);
+creationallgarnets2.build();
+
+
+
+val creationallgarnets3 = RecipeBuilder.newBuilder("creationallgarnets3","creation_altar",5);
+creationallgarnets3.addEnergyPerTickInput(1000000);
+creationallgarnets3.addFluidInput(<fluid:darkstarlight>*100);
+creationallgarnets3.addFluidInput(<fluid:sacrificial_essence>*100);
+creationallgarnets3.addFluidInput(<fluid:pristine_aura>*100);
+creationallgarnets3.addFluidInput(<fluid:strange_matter>*100);
+creationallgarnets3.addItemInput(<contenttweaker:gem_of_recursion>);
+creationallgarnets3.addItemInput(<contenttweaker:recursion_fragment_shyre>);
+creationallgarnets3.addItemInput(<contenttweaker:arkengem>);
+creationallgarnets3.addItemInput(<contenttweaker:solid_low_grade_space_time_fuel>);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_abyss_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_precasia_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_lelyetia_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_creeponia_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_deeplands_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_barathos_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_crystevia_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_gardencia_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_candyland_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_haven_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_voxponds_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_mysterium_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_celeve_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_iromine_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_borean_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_lunalus_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_runandor_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_ancientcavern_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_immortallis_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_greckon_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_dustopia_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_vethea_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:cut_shyrelands_garnet>*128);
+creationallgarnets3.addItemOutput(<contenttweaker:eye_of_gallifrey>*16);
+creationallgarnets3.build();
+
+
+
+val creationallgarnets4 = RecipeBuilder.newBuilder("creationallgarnets4","creation_altar",5);
+creationallgarnets4.addEnergyPerTickInput(1000000);
+creationallgarnets4.addFluidInput(<fluid:darkstarlight>*100);
+creationallgarnets4.addFluidInput(<fluid:sacrificial_essence>*100);
+creationallgarnets4.addFluidInput(<fluid:pristine_aura>*100);
+creationallgarnets4.addFluidInput(<fluid:strange_matter>*100);
+creationallgarnets4.addItemInput(<contenttweaker:gem_of_recursion>);
+creationallgarnets4.addItemInput(<contenttweaker:recursion_fragment_shyre>);
+creationallgarnets4.addItemInput(<contenttweaker:arkengem>);
+creationallgarnets4.addItemInput(<contenttweaker:solid_medium_grade_space_time_fuel>);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_abyss_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_precasia_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_lelyetia_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_creeponia_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_deeplands_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_barathos_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_crystevia_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_gardencia_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_candyland_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_haven_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_voxponds_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_mysterium_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_celeve_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_iromine_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_borean_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_lunalus_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_runandor_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_ancientcavern_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_immortallis_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_greckon_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_dustopia_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_vethea_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:cut_shyrelands_garnet>*256);
+creationallgarnets4.addItemOutput(<contenttweaker:eye_of_gallifrey>*64);
+creationallgarnets4.build();
+
+
+val creationallgarnets5 = RecipeBuilder.newBuilder("creationallgarnets5","creation_altar",5);
+creationallgarnets5.addEnergyPerTickInput(1000000);
+creationallgarnets5.addFluidInput(<fluid:darkstarlight>*100);
+creationallgarnets5.addFluidInput(<fluid:sacrificial_essence>*100);
+creationallgarnets5.addFluidInput(<fluid:pristine_aura>*100);
+creationallgarnets5.addFluidInput(<fluid:strange_matter>*100);
+creationallgarnets5.addItemInput(<contenttweaker:gem_of_recursion>);
+creationallgarnets5.addItemInput(<contenttweaker:recursion_fragment_shyre>);
+creationallgarnets5.addItemInput(<contenttweaker:arkengem>);
+creationallgarnets5.addItemInput(<contenttweaker:solid_high_grade_space_time_fuel>);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_abyss_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_precasia_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_lelyetia_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_creeponia_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_deeplands_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_barathos_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_crystevia_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_gardencia_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_candyland_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_haven_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_voxponds_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_mysterium_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_celeve_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_iromine_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_borean_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_lunalus_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_runandor_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_ancientcavern_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_immortallis_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_greckon_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_dustopia_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_vethea_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:cut_shyrelands_garnet>*1024);
+creationallgarnets5.addItemOutput(<contenttweaker:eye_of_gallifrey>*256);
+creationallgarnets5.build();

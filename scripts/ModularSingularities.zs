@@ -6,6 +6,21 @@ recipes.addShaped(<contenttweaker:quantum_condenser>,
 [<extendedcrafting:material:18>, <extendedcrafting:compressor>, <extendedcrafting:material:18>],
 [null, <extendedcrafting:material:18>, null]]);
 
+recipes.addShaped(<contenttweaker:chromodynamic_condenser>,
+[[<avaritia:block_resource:0>, <contenttweaker:mythic_excavation_computer>, <avaritia:block_resource:0>],
+[<contenttweaker:mythic_excavation_computer>, <contenttweaker:quantum_condenser>, <contenttweaker:mythic_excavation_computer>],
+[<avaritia:block_resource:0>, <contenttweaker:mythic_excavation_computer>, <avaritia:block_resource:0>]]);
+
+recipes.addShaped(<contenttweaker:ordered_eigenstate_condenser>,
+[[<contenttweaker:time_crystal>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:time_crystal>],
+[<contenttweaker:mythic_excavation_reactor>, <contenttweaker:chromodynamic_condenser>, <contenttweaker:mythic_excavation_reactor>],
+[<contenttweaker:time_crystal>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:time_crystal>]]);
+
+recipes.addShaped(<contenttweaker:event_horizon_condenser>,
+[[<contenttweaker:black_hole_core>, <glassential:glass_redstone>, <contenttweaker:black_hole_core>],
+[<glassential:glass_redstone>, <contenttweaker:ordered_eigenstate_condenser>, <glassential:glass_redstone>],
+[<contenttweaker:black_hole_core>, <glassential:glass_redstone>, <contenttweaker:black_hole_core>]]);
+
 
 
 
@@ -545,3 +560,78 @@ quantumcondnaquadah.addEnergyPerTickInput(500000);
 quantumcondnaquadah.addItemInput(<contenttweaker:naquadah_ingot>*5056);
 quantumcondnaquadah.addItemOutput(<extendedcrafting:singularity_custom:2041>);
 quantumcondnaquadah.build();
+
+val quantumcondmatrixcrystal = RecipeBuilder.newBuilder("quantumcondmatrixcrystal","quantum_condenser",4);
+quantumcondmatrixcrystal.addEnergyPerTickInput(500000);
+quantumcondmatrixcrystal.addItemInput(<ore:ingotCrystalMatrix>*5056);
+quantumcondmatrixcrystal.addItemOutput(<extendedcrafting:singularity_custom:2044>);
+quantumcondmatrixcrystal.build();
+
+val quantumcondultimateingot = RecipeBuilder.newBuilder("quantumcondultimateingot","quantum_condenser",4);
+quantumcondultimateingot.addEnergyPerTickInput(500000);
+quantumcondultimateingot.addItemInput(<ore:ingotUltimate>*5056);
+quantumcondultimateingot.addItemOutput(<extendedcrafting:singularity_custom:2043>);
+quantumcondultimateingot.build();
+
+val quantumcondstarmetal = RecipeBuilder.newBuilder("quantumcondstarmetal","quantum_condenser",4);
+quantumcondstarmetal.addEnergyPerTickInput(500000);
+quantumcondstarmetal.addItemInput(<ore:ingotAstralStarmetal>*5056);
+quantumcondstarmetal.addItemOutput(<extendedcrafting:singularity_custom:2045>);
+quantumcondstarmetal.build();
+
+val quantumcondrhenium = RecipeBuilder.newBuilder("quantumcondrhenium","quantum_condenser",4);
+quantumcondrhenium.addEnergyPerTickInput(500000);
+quantumcondrhenium.addItemInput(<ore:ingotRhenium>*5056);
+quantumcondrhenium.addItemOutput(<extendedcrafting:singularity_custom:2046>);
+quantumcondrhenium.build();
+
+val quantumcondmyrmitite = RecipeBuilder.newBuilder("quantumcondmyrmitite","quantum_condenser",4);
+quantumcondmyrmitite.addEnergyPerTickInput(500000);
+quantumcondmyrmitite.addItemInput(<ore:ingotMyrmitite>*5056);
+quantumcondmyrmitite.addItemOutput(<extendedcrafting:singularity_custom:2047>);
+quantumcondmyrmitite.build();
+
+val quantumcondogerite = RecipeBuilder.newBuilder("quantumcondogerite","quantum_condenser",4);
+quantumcondogerite.addEnergyPerTickInput(500000);
+quantumcondogerite.addItemInput(<ore:ingotOgerite>*5056);
+quantumcondogerite.addItemOutput(<extendedcrafting:singularity_custom:2048>);
+quantumcondogerite.build();
+
+val quantumcondawakened = RecipeBuilder.newBuilder("quantumcondawakened","quantum_condenser",4);
+quantumcondawakened.addEnergyPerTickInput(500000);
+quantumcondawakened.addItemInput(<ore:ingotDraconiumAwakened>*5056);
+quantumcondawakened.addItemOutput(<extendedcrafting:singularity_custom:2049>);
+quantumcondawakened.build();
+
+val quantumcondelementium = RecipeBuilder.newBuilder("quantumcondelementium","quantum_condenser",4);
+quantumcondelementium.addEnergyPerTickInput(500000);
+quantumcondelementium.addItemInput(<ore:ingotElvenElementium>*5056);
+quantumcondelementium.addItemOutput(<extendedcrafting:singularity_custom:2050>);
+quantumcondelementium.build();
+
+val quantumcondsoularium = RecipeBuilder.newBuilder("quantumcondsoularium","quantum_condenser",4);
+quantumcondsoularium.addEnergyPerTickInput(500000);
+quantumcondsoularium.addItemInput(<ore:ingotSoularium>*5056);
+quantumcondsoularium.addItemOutput(<extendedcrafting:singularity_custom:2051>);
+quantumcondsoularium.build();
+
+val quantumcondtoughalloy = RecipeBuilder.newBuilder("quantumcondtoughalloy","quantum_condenser",4);
+quantumcondtoughalloy.addEnergyPerTickInput(500000);
+quantumcondtoughalloy.addItemInput(<ore:ingotTough>*5056);
+quantumcondtoughalloy.addItemOutput(<extendedcrafting:singularity_custom:2052>);
+quantumcondtoughalloy.build();
+
+val quantumcondpulsatingiron = RecipeBuilder.newBuilder("quantumcondpulsatingiron","quantum_condenser",4);
+quantumcondpulsatingiron.addEnergyPerTickInput(500000);
+quantumcondpulsatingiron.addItemInput(<ore:ingotPulsatingIron>*5056);
+quantumcondpulsatingiron.addItemOutput(<extendedcrafting:singularity_custom:2053>);
+quantumcondpulsatingiron.build();
+
+val quantumcondborax = RecipeBuilder.newBuilder("quantumcondborax","quantum_condenser",4);
+quantumcondborax.addEnergyPerTickInput(500000);
+quantumcondborax.addItemInput(<ore:dustBorax>*5056);
+quantumcondborax.addItemOutput(<extendedcrafting:singularity_custom:2054>);
+quantumcondborax.build();
+
+
+
