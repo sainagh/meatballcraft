@@ -74,12 +74,7 @@ mythindblast12.addItemInput(<thermalfoundation:material:165>*64);
 mythindblast12.addItemOutput(<contenttweaker:charged_signalum>*64);
 mythindblast12.build();
 
-val mythindblast13 = RecipeBuilder.newBuilder("mythindblast13","mythic_processor_blaster",2);
-mythindblast13.addEnergyPerTickInput(1000000000);
-mythindblast13.addFluidInput(<fluid:pre_baryonic_plasma>*2);
-mythindblast13.addItemInput(<contenttweaker:sacred_cinders_log>*512);
-mythindblast13.addItemOutput(<contenttweaker:everburning_seed>);
-mythindblast13.build();
+
 
 val mythindblast14 = RecipeBuilder.newBuilder("mythindblast14","mythic_processor_blaster",2);
 mythindblast14.addEnergyPerTickInput(100000);

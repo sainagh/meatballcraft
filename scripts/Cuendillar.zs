@@ -240,7 +240,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_p
 
 val chaosstrikezwarrens = RecipeBuilder.newBuilder("chaosstrikezwarrens","chaotic_striker",10);
 chaosstrikezwarrens.addEnergyPerTickInput(1000000000);
-chaosstrikezwarrens.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["yggdrasil_wood", "yggdrasil_wood", "yggdrasil_wood", "yggdrasil_wood"]}, Traits: ["holy", "thaumic", "overflow", "toolleveling"]}));
+chaosstrikezwarrens.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["yggdrasil_wood", "yggdrasil_wood", "yggdrasil_wood", "yggdrasil_wood"]}, Traits: ["will_of_the_aesir", "toolleveling"]}));
 chaosstrikezwarrens.setChance(0.0);
 chaosstrikezwarrens.addItemInput(<contenttweaker:infinite_plate_stamp>);
 chaosstrikezwarrens.setChance(0.0);

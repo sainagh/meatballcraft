@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    471525021,
+    81569973
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:arcanite_blade"
+      },
+      "name:8": "Arcanite Blade"
+    }
+  },
+  "questID:3": 833283631,
+  "tasks:9": {}
+}

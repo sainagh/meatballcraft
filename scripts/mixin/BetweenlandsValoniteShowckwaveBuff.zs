@@ -1,4 +1,3 @@
-#modloaded thebetweenlands
 #loader mixin
 
 import mixin.CallbackInfo;
@@ -10,11 +9,15 @@ zenClass MixinBLMaterialRegistry {
     #mixin Static
     #mixin ModifyConstant
     #{
-    #    method: "BLMaterialRegistry",
-    #    constant: {floatValue: 8.0F}
+    #    method: "<clinit>",
+    #    constant: {floatValue: 3.0F},
+    #    slice: {
+    #        from: {value: "CONSTANT", args: "stringValue=valonite"},
+    #        to:   {value: "CONSTANT", args: "stringValue=loot"}
+    #    }
     #}
     function modifyValoniteShockwaveDamage(original as float) as float {
-        return 27.0F;
+        return 22.0F;
     }
 }
 

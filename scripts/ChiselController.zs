@@ -30,6 +30,7 @@ mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:wormhole_field_generator_controller>);
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:hostile_computing_unit_controller>);
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:philosophers_unifier_controller>);
+mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:aesir_resonator_controller>);
 
 
 
@@ -241,6 +242,7 @@ mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmach
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_rhenia_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_ichor_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_silkyjewel_controller>);
+mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_mythic_shell_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:recursive_brain_in_a_vat_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:recursive_brain_in_a_vat_ahkrast_korvalain_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:recursive_brain_in_a_vat_donaeth_rusen_controller>);

@@ -89,7 +89,7 @@ abyssalharvesting.onHit = function(trait, tool, attacker, target, damage, isCrit
         if (!isNull(traitdata)) {
             traitlevel = traitdata.level;
         }
-    if ((Math.random()/traitlevel) < 0.5) {
+    if ((Math.random()/traitlevel) < 0.25) {
         val player as IPlayer = attacker;
         player.give(itemUtils.getItem("contenttweaker:abyssal_wasteland_matter"));
     }
@@ -109,7 +109,7 @@ dreadfulharvesting.onHit = function(trait, tool, attacker, target, damage, isCri
         if (!isNull(traitdata)) {
             traitlevel = traitdata.level;
         }
-    if ((Math.random()/traitlevel) < 0.5) {
+    if ((Math.random()/traitlevel) < 0.25) {
         val player as IPlayer = attacker;
         player.give(itemUtils.getItem("contenttweaker:dreadlands_matter"));
     }
@@ -129,7 +129,7 @@ omotholharvesting.onHit = function(trait, tool, attacker, target, damage, isCrit
         if (!isNull(traitdata)) {
             traitlevel = traitdata.level;
         }
-    if ((Math.random()/traitlevel) < 0.5) {
+    if ((Math.random()/traitlevel) < 0.25) {
         val player as IPlayer = attacker;
         player.give(itemUtils.getItem("contenttweaker:omothol_matter"));
     }
@@ -170,17 +170,37 @@ tearofarcana.onBlockHarvestDrops = function(trait, tool, event) {
         if (!isNull(traitdata)) {
             traitlevel = traitdata.level;
         }
-    if ((Math.random()/traitlevel) < 0.8) {
-        event.player.give(itemUtils.getItem("divinerpg:arcanium_block"));
-    }
     if ((Math.random()/traitlevel) < 0.5) {
         event.player.give(itemUtils.getItem("divinerpg:arcanium_block"));
     }
-    if ((Math.random()/traitlevel) < 0.3) {
+    if ((Math.random()/traitlevel) < 0.25) {
         event.player.give(itemUtils.getItem("divinerpg:arcanium_block"));
     }
-    if ((Math.random()/traitlevel) < 0.01) {
+    if ((Math.random()/traitlevel) < 0.1) {
+        event.player.give(itemUtils.getItem("divinerpg:arcanium_block"));
+    }
+    if ((Math.random()/traitlevel) < 0.02) {
         event.player.give(itemUtils.getItem("contenttweaker:arcanium_cluster"));
     }
 };
 tearofarcana.register();
+
+
+
+val giggity = TraitBuilder.create("giggity");
+giggity.color = Color.fromHex("bd42ff").getIntColor(); 
+giggity.localizedName = game.localize("meatballcraft.tconstruct.tool_trait.giggity.name");
+giggity.localizedDescription = game.localize("meatballcraft.tconstruct.tool_trait.giggity.desc");
+giggity.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    // get trait level
+        var traitdata as TraitDataRepresentation = trait.getData(tool);
+        var traitlevel = 0;
+        if (!isNull(traitdata)) {
+            traitlevel = traitdata.level;
+        }
+    if ((Math.random()/traitlevel) < 0.5) {
+        val player as IPlayer = attacker;
+        player.give(itemUtils.getItem("contenttweaker:hard_bone"));
+    }
+};
+giggity.register();

@@ -1,0 +1,182 @@
+{
+  "preRequisites:11": [
+    471525021,
+    81569973
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oAny material combination will be valid for this quest.\n\nCheck the §cTinkerer\u0027s Toolbox §7§oquests for good materials depending on your chapter",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "plustic::10": {
+            "Items:9": {},
+            "Size:3": 1
+          },
+          "plustic:fruitsalad_cap:10": {
+            "Items:9": {},
+            "Size:3": 5
+          },
+          "plustic:musicofthespheres_cap:10": {
+            "Items:9": {},
+            "Size:3": 1
+          }
+        },
+        "id:8": "tconstruct:shortbow",
+        "tag:10": {
+          "Modifiers:9": {
+            "0:10": {
+              "color:3": -4558286,
+              "identifier:8": "aridiculous",
+              "level:3": 1
+            },
+            "1:10": {
+              "color:3": -4558286,
+              "identifier:8": "mod_lavacow.amber_pharaoh",
+              "level:3": 1
+            },
+            "2:10": {
+              "color:3": 16777215,
+              "identifier:8": "toolleveling",
+              "level:3": 1
+            }
+          },
+          "Special:10": {
+            "Categories:9": {
+              "0:8": "tool",
+              "1:8": "launcher"
+            }
+          },
+          "Stats:10": {
+            "Attack:5": 5.0,
+            "AttackSpeedMultiplier:5": 1.0,
+            "DrawSpeed:5": 1.1,
+            "Durability:3": 550,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 2,
+            "MiningSpeed:5": 7.0,
+            "ProjectileBonusDamage:5": 1.0,
+            "Range:5": 1.1
+          },
+          "StatsOriginal:10": {
+            "Attack:5": 5.0,
+            "AttackSpeedMultiplier:5": 1.0,
+            "DrawSpeed:5": 1.1,
+            "Durability:3": 550,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 2,
+            "MiningSpeed:5": 7.0,
+            "ProjectileBonusDamage:5": 1.0,
+            "Range:5": 1.1
+          },
+          "TinkerData:10": {
+            "Materials:9": {
+              "0:8": "mod_lavacow.ancient_amber",
+              "1:8": "mod_lavacow.ancient_amber",
+              "2:8": "string"
+            },
+            "Modifiers:9": {
+              "0:8": "toolleveling"
+            }
+          },
+          "Traits:9": {
+            "0:8": "aridiculous",
+            "1:8": "mod_lavacow.amber_pharaoh",
+            "2:8": "toolleveling"
+          }
+        }
+      },
+      "name:8": "Tinker\u0027s Bow"
+    }
+  },
+  "questID:3": 1858107221,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "plustic::10": {
+              "Items:9": {},
+              "Size:3": 1
+            },
+            "plustic:fruitsalad_cap:10": {
+              "Items:9": {},
+              "Size:3": 5
+            },
+            "plustic:musicofthespheres_cap:10": {
+              "Items:9": {},
+              "Size:3": 1
+            }
+          },
+          "id:8": "tconstruct:shortbow",
+          "tag:10": {
+            "Modifiers:9": {
+              "0:10": {
+                "color:3": -4558286,
+                "identifier:8": "aridiculous",
+                "level:3": 1
+              },
+              "1:10": {
+                "color:3": -4558286,
+                "identifier:8": "mod_lavacow.amber_pharaoh",
+                "level:3": 1
+              },
+              "2:10": {
+                "color:3": 16777215,
+                "identifier:8": "toolleveling",
+                "level:3": 1
+              }
+            },
+            "Special:10": {
+              "Categories:9": {
+                "0:8": "tool",
+                "1:8": "launcher"
+              }
+            },
+            "Stats:10": {
+              "Attack:5": 5.0,
+              "AttackSpeedMultiplier:5": 1.0,
+              "DrawSpeed:5": 1.1,
+              "Durability:3": 550,
+              "FreeModifiers:3": 3,
+              "HarvestLevel:3": 2,
+              "MiningSpeed:5": 7.0,
+              "ProjectileBonusDamage:5": 1.0,
+              "Range:5": 1.1
+            },
+            "StatsOriginal:10": {
+              "Attack:5": 5.0,
+              "AttackSpeedMultiplier:5": 1.0,
+              "DrawSpeed:5": 1.1,
+              "Durability:3": 550,
+              "FreeModifiers:3": 3,
+              "HarvestLevel:3": 2,
+              "MiningSpeed:5": 7.0,
+              "ProjectileBonusDamage:5": 1.0,
+              "Range:5": 1.1
+            },
+            "TinkerData:10": {
+              "Materials:9": {
+                "0:8": "mod_lavacow.ancient_amber",
+                "1:8": "mod_lavacow.ancient_amber",
+                "2:8": "string"
+              },
+              "Modifiers:9": {
+                "0:8": "toolleveling"
+              }
+            },
+            "Traits:9": {
+              "0:8": "aridiculous",
+              "1:8": "mod_lavacow.amber_pharaoh",
+              "2:8": "toolleveling"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

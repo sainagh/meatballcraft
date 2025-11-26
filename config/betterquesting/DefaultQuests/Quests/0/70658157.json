@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1251999575
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "While the Cursed Cradle has been taken, the nest it spawned still roams the universe, and is now challenging the place where the Arbiter and the Testificates, as agents of order, became one with Chaos and lived in harmony with the dragons.\nThe will of the one who orders, not forgotten by the beasts of the Cursed Cradle, is seen as a threat to them.\nIt is fitting that I, who inherited the work of the Arbiter, would now face a nest of dragons, to place them under my wing.\nAmyg\u0027alla! Come face me! Come embrace me! Make me a participant in the dance of Chaos! \nAccept my hand! Yield your control!\nEnter the grace of the Arbiter!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:summons_of_the_cursed_wyvern"
+      },
+      "name:8": "The Cursed Wyvern"
+    }
+  },
+  "questID:3": 70658157,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:summons_of_the_cursed_wyvern"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:heart_of_the_cursed_wyvern"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -139,3 +139,10 @@ infernalfurnace19.addInput(<divinerpg:shiny_pearls>);
 infernalfurnace19.setOutputs([<minecraft:ender_pearl>,
   <thaumcraft:chunk:1>*32]);
 infernalfurnace19.build();
+
+
+val infernalfurnace20 = JEI.createJeiRecipe("infernal_furnace");
+infernalfurnace20.addInput(<contenttweaker:strange_phasing_dragon_meal>);
+infernalfurnace20.setOutputs([<iceandfire:dragon_meal>,
+  <contenttweaker:strange_phasing_meat>*32]);
+infernalfurnace20.build();

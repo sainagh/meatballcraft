@@ -3007,6 +3007,34 @@ octuplecompressedaeternalisfuel.setToolClass("pickaxe");
 octuplecompressedaeternalisfuel.setToolLevel(3);
 octuplecompressedaeternalisfuel.register();
 
+var nonuplecompressedaeternalisfuel = VanillaFactory.createBlock("nonuple_compressed_aeternalis_fuel", <blockmaterial:iron>);
+nonuplecompressedaeternalisfuel.setBlockHardness(1.0);
+nonuplecompressedaeternalisfuel.setBlockResistance(2.5);
+nonuplecompressedaeternalisfuel.setToolClass("pickaxe");
+nonuplecompressedaeternalisfuel.setToolLevel(3);
+nonuplecompressedaeternalisfuel.register();
+
+var decuplecompressedaeternalisfuel = VanillaFactory.createBlock("decuple_compressed_aeternalis_fuel", <blockmaterial:iron>);
+decuplecompressedaeternalisfuel.setBlockHardness(1.0);
+decuplecompressedaeternalisfuel.setBlockResistance(2.5);
+decuplecompressedaeternalisfuel.setToolClass("pickaxe");
+decuplecompressedaeternalisfuel.setToolLevel(3);
+decuplecompressedaeternalisfuel.register();
+
+var endecuplecompressedaeternalisfuel = VanillaFactory.createBlock("endecuple_compressed_aeternalis_fuel", <blockmaterial:iron>);
+endecuplecompressedaeternalisfuel.setBlockHardness(1.0);
+endecuplecompressedaeternalisfuel.setBlockResistance(2.5);
+endecuplecompressedaeternalisfuel.setToolClass("pickaxe");
+endecuplecompressedaeternalisfuel.setToolLevel(3);
+endecuplecompressedaeternalisfuel.register();
+
+var dodecuplecompressedaeternalisfuel = VanillaFactory.createBlock("dodecuple_compressed_aeternalis_fuel", <blockmaterial:iron>);
+dodecuplecompressedaeternalisfuel.setBlockHardness(1.0);
+dodecuplecompressedaeternalisfuel.setBlockResistance(2.5);
+dodecuplecompressedaeternalisfuel.setToolClass("pickaxe");
+dodecuplecompressedaeternalisfuel.setToolLevel(3);
+dodecuplecompressedaeternalisfuel.register();
+
 var catasterismiore = VanillaFactory.createBlock("catasterismetal_ore", <blockmaterial:iron>);
 catasterismiore.setBlockHardness(1.0);
 catasterismiore.setBlockResistance(2.5);

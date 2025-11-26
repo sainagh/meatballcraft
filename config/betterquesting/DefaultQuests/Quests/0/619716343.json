@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "Getting good at handling radiation is quite useful.\nThings in this universe interact in truly strange ways.\nIt is so fascinating.\nMagic that absorbs radiation!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:recursive_radiation_shielding"

@@ -304,7 +304,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "generalized_output_item"
+                "modularmachinery:blockoutputbus@1"
             ]
         },
         {
@@ -1240,7 +1240,7 @@
             "y": 0,
             "z": 20,
             "elements": [
-                "generalized_input_fluid"
+                "modularmachinery:blockfluidinputhatch@3"
             ]
         },
         {
@@ -1600,7 +1600,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "generalized_input_item"
+                "modularmachinery:blockinputbus@2"
             ]
         },
         {

@@ -890,7 +890,7 @@ mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:infused_dread_shard>, <fl
 
 
 
-recipes.addShaped(<contenttweaker:fractallite_furnace>,
+recipes.addShaped(<contenttweaker:fractallite_furnace>*5,
 [[<extendedcrafting:singularity_custom:651>, <contenttweaker:recursium_ingot>, <extendedcrafting:singularity_custom:651>],
 [<contenttweaker:recursium_ingot>, <contenttweaker:fractallite_furnace>, <contenttweaker:recursium_ingot>],
 [<extendedcrafting:singularity_custom:651>, <contenttweaker:recursium_ingot>, <extendedcrafting:singularity_custom:651>]]);

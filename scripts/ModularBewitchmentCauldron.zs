@@ -64,6 +64,7 @@ val cauldron6 = RecipeBuilder.newBuilder("autocauldron6","terrestrial_cauldron",
 cauldron6.addFluidInput(<fluid:water>*1000);
 cauldron6.addFluidInput(<fluid:lava>*1000);
 cauldron6.addItemInput(<bewitchment:adders_fork>*4);
+cauldron6.addItemInput(<minecraft:glass_bottle>);
 cauldron6.addItemOutput(<bewitchment:bottle_of_blood>);
 cauldron6.build();
 
@@ -71,6 +72,7 @@ val cauldron7 = RecipeBuilder.newBuilder("autocauldron7","terrestrial_cauldron",
 cauldron7.addFluidInput(<fluid:water>*1000);
 cauldron7.addFluidInput(<fluid:lava>*1000);
 cauldron7.addItemInput(<bewitchment:tongue_of_dog>);
+cauldron7.addItemInput(<minecraft:glass_bottle>);
 cauldron7.addItemOutput(<bewitchment:bottle_of_blood>);
 cauldron7.build();
 
@@ -162,6 +164,7 @@ val autocauldronup6 = RecipeBuilder.newBuilder("autocauldronup6","terrestrial_ca
 autocauldronup6.addFluidInput(<fluid:essence_of_ilarity>*5);
 autocauldronup6.addFluidInput(<fluid:matter_of_restraining>*5);
 autocauldronup6.addItemInput(<bewitchment:adders_fork>*4);
+autocauldronup6.addItemInput(<minecraft:glass_bottle>);
 autocauldronup6.addItemOutput(<bewitchment:bottle_of_blood>);
 autocauldronup6.build();
 
@@ -169,6 +172,7 @@ val autocauldronup7 = RecipeBuilder.newBuilder("autocauldronup7","terrestrial_ca
 autocauldronup7.addFluidInput(<fluid:essence_of_ilarity>*5);
 autocauldronup7.addFluidInput(<fluid:matter_of_restraining>*5);
 autocauldronup7.addItemInput(<bewitchment:tongue_of_dog>);
+autocauldronup7.addItemInput(<minecraft:glass_bottle>);
 autocauldronup7.addItemOutput(<bewitchment:bottle_of_blood>);
 autocauldronup7.build();
 

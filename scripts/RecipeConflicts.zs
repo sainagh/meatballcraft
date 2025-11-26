@@ -153,7 +153,7 @@ recipes.addShaped(<divinerpg:lava_lamp>,
 mods.nuclearcraft.melter.addRecipe([<aoa3:raw_charger_shank>, <fluid:charger>*20]);
 mods.nuclearcraft.melter.addRecipe([<aoa3:charger_shank>, <fluid:charger>*17]);
 
-mods.nuclearcraft.alloy_furnace.addRecipe([<ore:ingotAluminum>*5, <minecraft:iron_ingot>*3, <plustic:alumiteingot>*3]);
+mods.nuclearcraft.alloy_furnace.addRecipe([<ore:ingotAluminum>*5, <minecraft:iron_ingot>*3, <tconstruct:ingots:6>*3]);
 
 recipes.remove(<mod_lavacow:mossy_stick>);
 
@@ -2657,7 +2657,7 @@ recipes.addShaped(<mowziesmobs:naga_fang>*4,
 [<draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>]]);
 
 recipes.addShapeless(<bnkrblks:megelium_stone>,
-[<contenttweaker:megelium_detonator_automation>, <modularmachinery:megelium_detonator_controller>]);
+[<contenttweaker:megelium_detonator_automation>, <modularmachinery:megelium_detonator_controller>, <aoa3:ancient_rock>]);
 
 recipes.addShapeless(<divinerpg:arcanium>,
 [<contenttweaker:trait_arcaneextraction>]);
@@ -2675,3 +2675,7 @@ recipes.addShapeless(<contenttweaker:soul_fragment_of_the_reconciled_aesir>,
 [<contenttweaker:trait_willoftheaesir>]);
 
 
+recipes.addShaped(<minecraft:sign>*3,
+[[null, <ore:stickWood>, null],
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);

@@ -1,10 +1,10 @@
 {
   "preRequisites:11": [
-    371
+    372
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "The higher-dimensional anomalies traversing space-time in and around Terra, the dimensional doors I have traversed so many times, while not being under the control of my now fallen enemies, appear to be a consequence of their passage.\nWarren magic, as it strains reality itself, leaves traces in space time, scars of some sort. \nPlaces where the dimensions are scrambled, where voids, loops, and discontinuities are left in the very fabric of reality.\nThese scars, while serving no purpose to those capable of opening Warrens, act as passagesways for the Limbo to spread.\nNot quite an entity, not quite a place. Not quite a will, not quite a people. The Limbo is, well, the Limbo.\nIts existance is directly tied to a Fractallite power, to a need of balance in the Universe. Where great power, reality-warping power, is cast, the Limbo acts as the equal and opposite reaction.\nWhere someone seeks to control space, uncontrollable, chaotic space follows. That is the Limbo.\nIf I am to heal the woulds left by all the portals open around Terra, I must also stop the Limbo.\nCan I do it? No, not really, but I can misdirect it. Blind it, in a way.\nBy casting warren magic within the Limbo itself, I can direct its spread in a way.\nWhile the effects will not be noticeable for now, given enough time, the wounds around Terra will heal. \nOne day, the scars of this war will too disappear. One day...",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:warren_blindfold"

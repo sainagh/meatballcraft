@@ -54,14 +54,14 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:first_order_
 
 scripts.PuzzleUtil.addPuzzleShapeless("infusethatstormhoms",<contenttweaker:infuser_fabrial>,
 [<contenttweaker:gemheart>,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "motus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitreus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ventus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})
+makeVisCrystal(<aspect:motus> * 1),
+makeVisCrystal(<aspect:perditio> * 1),
+makeVisCrystal(<aspect:terra> * 1),
+makeVisCrystal(<aspect:aqua> * 1),
+makeVisCrystal(<aspect:aer> * 1),
+makeVisCrystal(<aspect:vitreus> * 1),
+makeVisCrystal(<aspect:ventus> * 1),
+makeVisCrystal(<aspect:luna> * 1)
 ]);
 
 recipes.addShaped(<contenttweaker:stormlight_sphere>,
@@ -177,6 +177,11 @@ recipes.addShaped(<contenttweaker:dreadful_rhenium_catalyst>*4,
 [[<contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>],
 [<contenttweaker:rhenium_catalyst>, <contenttweaker:dread_crown>.reuse(), <contenttweaker:rhenium_catalyst>],
 [<contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>, <contenttweaker:rhenium_catalyst>]]);
+
+recipes.addShaped(<contenttweaker:runic_rhenium_catalyst>*4,
+[[<contenttweaker:dreadful_rhenium_catalyst>, <contenttweaker:dreadful_rhenium_catalyst>, <contenttweaker:dreadful_rhenium_catalyst>],
+[<contenttweaker:dreadful_rhenium_catalyst>, <aoa3:runic_sword>.reuse(), <contenttweaker:dreadful_rhenium_catalyst>],
+[<contenttweaker:dreadful_rhenium_catalyst>, <contenttweaker:dreadful_rhenium_catalyst>, <contenttweaker:dreadful_rhenium_catalyst>]]);
 
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:second_order_mythic_fractal>, 
@@ -361,6 +366,40 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:pearlescent_
 <divinerpg:clean_pearls>, <divinerpg:clean_pearls>,
 <divinerpg:polished_pearls>, <divinerpg:polished_pearls>,
 <divinerpg:shiny_pearls>]);
+
+val divcombpearlescentart1 = RecipeBuilder.newBuilder("divcombpearlescentart1","divine_combiner",2);
+divcombpearlescentart1.addFluidInput(<fluid:hint_of_divinity>*10);
+divcombpearlescentart1.addItemInput(<biomesoplenty:terrestrial_artifact>*4);
+divcombpearlescentart1.addItemInput(<divinerpg:dirty_pearls>*32);
+divcombpearlescentart1.addItemInput(<divinerpg:clean_pearls>*16);
+divcombpearlescentart1.addItemInput(<divinerpg:polished_pearls>*8);
+divcombpearlescentart1.addItemInput(<divinerpg:shiny_pearls>*4);
+divcombpearlescentart1.addItemOutput(<contenttweaker:pearlescent_artifact>*4);
+divcombpearlescentart1.build();
+
+val divcombpearlescentart2 = RecipeBuilder.newBuilder("divcombpearlescentart2","divine_combiner",2);
+divcombpearlescentart2.addFluidInput(<fluid:divine_resonant_hint>*8);
+divcombpearlescentart2.addItemInput(<biomesoplenty:terrestrial_artifact>*16);
+divcombpearlescentart2.addItemInput(<divinerpg:dirty_pearls>*128);
+divcombpearlescentart2.addItemInput(<divinerpg:clean_pearls>*64);
+divcombpearlescentart2.addItemInput(<divinerpg:polished_pearls>*32);
+divcombpearlescentart2.addItemInput(<divinerpg:shiny_pearls>*16);
+divcombpearlescentart2.addItemOutput(<contenttweaker:pearlescent_artifact>*16);
+divcombpearlescentart2.build();
+
+val divcombpearlescentart3 = RecipeBuilder.newBuilder("divcombpearlescentart3","divine_combiner",2);
+divcombpearlescentart3.addFluidInput(<fluid:divine_resonance>*6);
+divcombpearlescentart3.addItemInput(<biomesoplenty:terrestrial_artifact>*64);
+divcombpearlescentart3.addItemInput(<divinerpg:dirty_pearls>*512);
+divcombpearlescentart3.addItemInput(<divinerpg:clean_pearls>*256);
+divcombpearlescentart3.addItemInput(<divinerpg:polished_pearls>*128);
+divcombpearlescentart3.addItemInput(<divinerpg:shiny_pearls>*64);
+divcombpearlescentart3.addItemOutput(<contenttweaker:pearlescent_artifact>*64);
+divcombpearlescentart3.build();
+
+
+
+
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:fourth_order_mythic_fractal>, 
 1000000000, 1000000000, 

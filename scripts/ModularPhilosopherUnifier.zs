@@ -8,6 +8,48 @@ philounit1.addItemInput(<ore:blockDiamond>*1);
 philounit1.addItemOutput(<projecte:item.pe_matter:0>*1);
 philounit1.build();
 
+val philounit1a = RecipeBuilder.newBuilder("philounit1a","philosophers_unifier",2);
+philounit1a.addEnergyPerTickInput(100);
+philounit1a.addItemInput(<projecte:fuel_block:2>*8);
+philounit1a.addItemInput(<ore:blockDiamond>*9);
+philounit1a.addItemOutput(<projecte:item.pe_matter:0>*9);
+philounit1a.build();
+
+val philounit1b = RecipeBuilder.newBuilder("philounit1b","philosophers_unifier",2);
+philounit1b.addEnergyPerTickInput(100);
+philounit1b.addItemInput(<contenttweaker:double_compressed_aeternalis_fuel>*8);
+philounit1b.addItemInput(<ore:blockDiamond>*81);
+philounit1b.addItemOutput(<projecte:item.pe_matter:0>*81);
+philounit1b.build();
+
+val philounit1c = RecipeBuilder.newBuilder("philounit1c","philosophers_unifier",2);
+philounit1c.addEnergyPerTickInput(100);
+philounit1c.addItemInput(<contenttweaker:triple_compressed_aeternalis_fuel>*8);
+philounit1c.addItemInput(<ore:blockDiamond>*729);
+philounit1c.addItemOutput(<projecte:item.pe_matter:0>*729);
+philounit1c.build();
+
+val philounit1d = RecipeBuilder.newBuilder("philounit1d","philosophers_unifier",2);
+philounit1d.addEnergyPerTickInput(100);
+philounit1d.addItemInput(<contenttweaker:quadruple_compressed_aeternalis_fuel>*8);
+philounit1d.addItemInput(<ore:blockDiamond>*6561);
+philounit1d.addItemOutput(<projecte:item.pe_matter:0>*6561);
+philounit1d.build();
+
+val philounit1e = RecipeBuilder.newBuilder("philounit1e","philosophers_unifier",2);
+philounit1e.addEnergyPerTickInput(100);
+philounit1e.addItemInput(<contenttweaker:quintuple_compressed_aeternalis_fuel>*8);
+philounit1e.addItemInput(<ore:blockDiamond>*59049);
+philounit1e.addItemOutput(<projecte:item.pe_matter:0>*59049);
+philounit1e.build();
+
+val philounit1f = RecipeBuilder.newBuilder("philounit1f","philosophers_unifier",2);
+philounit1f.addEnergyPerTickInput(100);
+philounit1f.addItemInput(<contenttweaker:sextuple_compressed_aeternalis_fuel>*8);
+philounit1f.addItemInput(<ore:blockDiamond>*531441);
+philounit1f.addItemOutput(<projecte:item.pe_matter:0>*531441);
+philounit1f.build();
+
 val philounit2 = RecipeBuilder.newBuilder("philounit2","philosophers_unifier",2);
 philounit2.addEnergyPerTickInput(100);
 philounit2.addItemInput(<projecte:item.pe_fuel:2>*6);
@@ -15,12 +57,61 @@ philounit2.addItemInput(<projecte:item.pe_matter:0>*3);
 philounit2.addItemOutput(<projecte:item.pe_matter:1>*1);
 philounit2.build();
 
+val philounit2a = RecipeBuilder.newBuilder("philounit2a","philosophers_unifier",2);
+philounit2a.addEnergyPerTickInput(100);
+philounit2a.addItemInput(<projecte:fuel_block:2>*6);
+philounit2a.addItemInput(<projecte:item.pe_matter:0>*27);
+philounit2a.addItemOutput(<projecte:item.pe_matter:1>*9);
+philounit2a.build();
+
+val philounit2b = RecipeBuilder.newBuilder("philounit2b","philosophers_unifier",2);
+philounit2b.addEnergyPerTickInput(100);
+philounit2b.addItemInput(<contenttweaker:double_compressed_aeternalis_fuel>*6);
+philounit2b.addItemInput(<projecte:item.pe_matter:0>*243);
+philounit2b.addItemOutput(<projecte:item.pe_matter:1>*81);
+philounit2b.build();
+
+val philounit2c = RecipeBuilder.newBuilder("philounit2c","philosophers_unifier",2);
+philounit2c.addEnergyPerTickInput(100);
+philounit2c.addItemInput(<contenttweaker:triple_compressed_aeternalis_fuel>*6);
+philounit2c.addItemInput(<projecte:item.pe_matter:0>*2187);
+philounit2c.addItemOutput(<projecte:item.pe_matter:1>*729);
+philounit2c.build();
+
+val philounit2d = RecipeBuilder.newBuilder("philounit2d","philosophers_unifier",2);
+philounit2d.addEnergyPerTickInput(100);
+philounit2d.addItemInput(<contenttweaker:quadruple_compressed_aeternalis_fuel>*6);
+philounit2d.addItemInput(<projecte:item.pe_matter:0>*19683);
+philounit2d.addItemOutput(<projecte:item.pe_matter:1>*6561);
+philounit2d.build();
+
+val philounit2e = RecipeBuilder.newBuilder("philounit2e","philosophers_unifier",2);
+philounit2e.addEnergyPerTickInput(100);
+philounit2e.addItemInput(<contenttweaker:quintuple_compressed_aeternalis_fuel>*6);
+philounit2e.addItemInput(<projecte:item.pe_matter:0>*177147);
+philounit2e.addItemOutput(<projecte:item.pe_matter:1>*59049);
+philounit2e.build();
+
 val philounit3 = RecipeBuilder.newBuilder("philounit3","philosophers_unifier",2);
 philounit3.addEnergyPerTickInput(100);
 philounit3.addItemInput(<projecte:item.pe_fuel:2>*6);
 philounit3.addItemInput(<projecte:item.pe_matter:1>*3);
 philounit3.addItemOutput(<projectex:matter:0>*1);
 philounit3.build();
+
+val philounit3a = RecipeBuilder.newBuilder("philounit3a","philosophers_unifier",2);
+philounit3a.addEnergyPerTickInput(100);
+philounit3a.addItemInput(<projecte:fuel_block:2>*6);
+philounit3a.addItemInput(<projecte:item.pe_matter:1>*27);
+philounit3a.addItemOutput(<projectex:matter:0>*9);
+philounit3a.build();
+
+val philounit3b = RecipeBuilder.newBuilder("philounit3b","philosophers_unifier",2);
+philounit3b.addEnergyPerTickInput(100);
+philounit3b.addItemInput(<contenttweaker:double_compressed_aeternalis_fuel>*6);
+philounit3b.addItemInput(<projecte:item.pe_matter:1>*243);
+philounit3b.addItemOutput(<projectex:matter:0>*81);
+philounit3b.build();
 
 val philounit4 = RecipeBuilder.newBuilder("philounit4","philosophers_unifier",2);
 philounit4.addEnergyPerTickInput(100);

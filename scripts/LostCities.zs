@@ -83,9 +83,9 @@ mods.avaritia.ExtremeCrafting.addShaped("returningpointdire",
 
 
 recipes.addShaped(<contenttweaker:all_seeing_sentient_meatball>*2,
-[[<contenttweaker:sentient_meatball>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "visum"}]}), <contenttweaker:sentient_meatball>],
-[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "visum"}]}), <contenttweaker:all_seeing_sentient_meatball>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "visum"}]})],
-[<contenttweaker:sentient_meatball>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "visum"}]}), <contenttweaker:sentient_meatball>]]);
+[[<contenttweaker:sentient_meatball>, makeVisCrystal(<aspect:visum> * 1), <contenttweaker:sentient_meatball>],
+[makeVisCrystal(<aspect:visum> * 1), <contenttweaker:all_seeing_sentient_meatball>, makeVisCrystal(<aspect:visum> * 1)],
+[<contenttweaker:sentient_meatball>, makeVisCrystal(<aspect:visum> * 1), <contenttweaker:sentient_meatball>]]);
 
 recipes.addShaped(<contenttweaker:spreading_sentient_meatball>*2,
 [[<contenttweaker:sentient_meatball>, <thaumcraft:taint_soil>, <contenttweaker:sentient_meatball>],

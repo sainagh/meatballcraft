@@ -1,19 +1,16 @@
+#modloaded openblocks
 #loader mixin
 
-import mixin.CallbackInfo;
-import native.openblocks.enchantments.LastStandEnchantmentsHandler;
-
-
-#mixin Mixin
-#{targets: "openblocks.enchantments.LastStandEnchantmentsHandler"}
+#mixin {value: "openblocks.enchantments.LastStandEnchantmentsHandler"}
 zenClass MixinLastStandEnchantmentsHandler  {
+  #mixin Static
   #mixin ModifyConstant
   #{
-  #  method: "lambda$onLivingHurt$0",
-  #  constant: {intValue: 50}
+  #  method: "lambda$onHurt$1",
+  #  constant: {floatValue: 50.0}
   #}
-  function changelaststandflatmultiplier(value as int) as int {
-    return 400;
+  function mbc_modify_xpRequiredFlat(original as float) as float {
+    return 400.0f;
   }
 }
 

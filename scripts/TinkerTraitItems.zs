@@ -7,7 +7,7 @@ import mods.contenttweaker.Commands;
 import mods.contenttweaker.ResourceLocation;
 
 
-var instanceTEX = mods.contenttweaker.ResourceLocation.create("contenttweaker:textures/items/trait_inferno.png");
+var instanceTEX = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/trait_inferno");
 
   
 
@@ -178,4 +178,5 @@ var trait_dreadfulharvesting = VanillaFactory.createItem("trait_dreadfulharvesti
 var trait_omotholharvesting = VanillaFactory.createItem("trait_omotholharvesting");	trait_omotholharvesting.textureLocation = instanceTEX;  trait_omotholharvesting.register();
 var trait_willoftheaesir = VanillaFactory.createItem("trait_willoftheaesir");	trait_willoftheaesir.textureLocation = instanceTEX;  trait_willoftheaesir.register();
 var trait_tearofarcana = VanillaFactory.createItem("trait_tearofarcana");	trait_tearofarcana.textureLocation = instanceTEX;  trait_tearofarcana.register();
+var trait_giggity = VanillaFactory.createItem("trait_giggity");	trait_giggity.textureLocation = instanceTEX;  trait_giggity.register();
 

@@ -1319,19 +1319,19 @@ mythpulv210.build();
 
 val mythpulv211 = RecipeBuilder.newBuilder("mythpulv211","mythic_processor_pulverizer",2);
 mythpulv211.addEnergyPerTickInput(60000);
-mythpulv211.addItemInput(<aoa3:gemenyte>);
+mythpulv211.addItemInput(<contenttweaker:gemenyte_dust>);
 mythpulv211.addItemOutput(<tombstone:crafting_ingredient:3>*64);
 mythpulv211.build();
 
 val mythpulv212 = RecipeBuilder.newBuilder("mythpulv212","mythic_processor_pulverizer",2);
 mythpulv212.addEnergyPerTickInput(60000);
-mythpulv212.addItemInput(<aoa3:ornamyte>);
+mythpulv212.addItemInput(<contenttweaker:ornamyte_dust>);
 mythpulv212.addItemOutput(<tombstone:crafting_ingredient:3>*64);
 mythpulv212.build();
 
 val mythpulv213 = RecipeBuilder.newBuilder("mythpulv213","mythic_processor_pulverizer",2);
 mythpulv213.addEnergyPerTickInput(60000);
-mythpulv213.addItemInput(<aoa3:jewelyte>);
+mythpulv213.addItemInput(<contenttweaker:jewelyte_dust>);
 mythpulv213.addItemOutput(<tombstone:crafting_ingredient:3>*64);
 mythpulv213.build();
 

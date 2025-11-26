@@ -3847,7 +3847,7 @@ thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
 
 
     Commands.call("summon aoa3:dracyon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_borean\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
-    Commands.call("summon aoa3:visualent ~2 ~ ~2 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_lunalus\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:visualent ~1 ~1 ~1 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_lunalus\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
     Commands.call("summon aoa3:clunkhead ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_runandor\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
     Commands.call("summon divinerpg:sunstorm ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_eden\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
     Commands.call("summon divinerpg:termasect ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_wildwood\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
@@ -5785,3 +5785,27 @@ alchemicalsparkcallstoneoctuple.itemRightClick = function(stack, world, player, 
 alchemicalsparkcallstoneoctuple.register();
 
 
+
+var riteofunhollowing = VanillaFactory.createItem("rite_of_unhollowing");
+riteofunhollowing.maxStackSize = 1;
+riteofunhollowing.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 66) {
+        player.sendChat("You gotta be in Erebus");
+        return "FAIL";
+    }
+
+    Commands.call("summon aoa3:ghostly_bugeye ~5 ~2 ~5 {HandItems:[{Count:1,id:\"contenttweaker:spark_of_unhallowing\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500000.0},{Name:generic.attackDamage, Base:5000.0}],Health:500000f,CustomName:\"Will of the Hallowed\",ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~-5 ~2 ~5 {HandItems:[{Count:1,id:\"contenttweaker:spark_of_unhallowing\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500000.0},{Name:generic.attackDamage, Base:5000.0}],Health:500000f,CustomName:\"Will of the Hallowed\",ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~5 ~2 ~-5 {HandItems:[{Count:1,id:\"contenttweaker:spark_of_unhallowing\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500000.0},{Name:generic.attackDamage, Base:5000.0}],Health:500000f,CustomName:\"Will of the Hallowed\",ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, false, true);
+    Commands.call("summon aoa3:ghostly_bugeye ~-5 ~2 ~-5 {HandItems:[{Count:1,id:\"contenttweaker:spark_of_unhallowing\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:500000.0},{Name:generic.attackDamage, Base:5000.0}],Health:500000f,CustomName:\"Will of the Hallowed\",ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}]}", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+riteofunhollowing.register();

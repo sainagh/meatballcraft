@@ -3726,10 +3726,10 @@ sigilflame.maxStackSize = 64;
 sigilflame.beaconPayment = false;
 sigilflame.register();
 
-var demonicflame = VanillaFactory.createItem("demonic_flame");
-demonicflame.maxStackSize = 64;
-demonicflame.beaconPayment = false;
-demonicflame.register();
+//var demonicflame = VanillaFactory.createItem("demonic_flame");
+//demonicflame.maxStackSize = 64;
+//demonicflame.beaconPayment = false;
+//demonicflame.register();
 
 var gluttonousbell = VanillaFactory.createItem("gluttonous_bell");
 gluttonousbell.maxStackSize = 64;
@@ -3795,6 +3795,152 @@ var fleshoftheorb = VanillaFactory.createItem("flesh_of_the_orb");
 fleshoftheorb.maxStackSize = 64;
 fleshoftheorb.beaconPayment = false;
 fleshoftheorb.register();
+
+var foodshurikenmaterials = VanillaFactory.createItem("good_shuriken_materials");
+foodshurikenmaterials.maxStackSize = 64;
+foodshurikenmaterials.beaconPayment = false;
+foodshurikenmaterials.register();
+
+var foodswordmaterials = VanillaFactory.createItem("good_sword_materials");
+foodswordmaterials.maxStackSize = 64;
+foodswordmaterials.beaconPayment = false;
+foodswordmaterials.register();
+
+var foodtoolmaterials = VanillaFactory.createItem("good_tool_materials");
+foodtoolmaterials.maxStackSize = 64;
+foodtoolmaterials.beaconPayment = false;
+foodtoolmaterials.register();
+
+var foodbowmaterials = VanillaFactory.createItem("good_bow_materials");
+foodbowmaterials.maxStackSize = 64;
+foodbowmaterials.beaconPayment = false;
+foodbowmaterials.register();
+
+var foodembossingmaterials = VanillaFactory.createItem("good_embossing_materials");
+foodembossingmaterials.maxStackSize = 64;
+foodembossingmaterials.beaconPayment = false;
+foodembossingmaterials.register();
+
+var chapter1 = VanillaFactory.createItem("chapter_1");
+chapter1.maxStackSize = 64;
+chapter1.beaconPayment = false;
+chapter1.register();
+
+var chapter2 = VanillaFactory.createItem("chapter_2");
+chapter2.maxStackSize = 64;
+chapter2.beaconPayment = false;
+chapter2.register();
+
+var chapter3 = VanillaFactory.createItem("chapter_3");
+chapter3.maxStackSize = 64;
+chapter3.beaconPayment = false;
+chapter3.register();
+
+var chapter4 = VanillaFactory.createItem("chapter_4");
+chapter4.maxStackSize = 64;
+chapter4.beaconPayment = false;
+chapter4.register();
+
+var chapter5 = VanillaFactory.createItem("chapter_5");
+chapter5.maxStackSize = 64;
+chapter5.beaconPayment = false;
+chapter5.register();
+
+var chapter6 = VanillaFactory.createItem("chapter_6");
+chapter6.maxStackSize = 64;
+chapter6.beaconPayment = false;
+chapter6.register();
+
+var chapter7 = VanillaFactory.createItem("chapter_7");
+chapter7.maxStackSize = 64;
+chapter7.beaconPayment = false;
+chapter7.register();
+
+var chapter8 = VanillaFactory.createItem("chapter_8");
+chapter8.maxStackSize = 64;
+chapter8.beaconPayment = false;
+chapter8.register();
+
+var chapter9 = VanillaFactory.createItem("chapter_9");
+chapter9.maxStackSize = 64;
+chapter9.beaconPayment = false;
+chapter9.register();
+
+var chapter10 = VanillaFactory.createItem("chapter_10");
+chapter10.maxStackSize = 64;
+chapter10.beaconPayment = false;
+chapter10.register();
+
+var automatedshulkerfilling = VanillaFactory.createItem("automated_shulker_filling");
+automatedshulkerfilling.maxStackSize = 64;
+automatedshulkerfilling.beaconPayment = false;
+automatedshulkerfilling.register();
+
+var divineboosterfabrial = VanillaFactory.createItem("divine_resonance_fabrial");
+divineboosterfabrial.maxStackSize = 64;
+divineboosterfabrial.beaconPayment = false;
+divineboosterfabrial.register();
+
+var sparkofunhallowing = VanillaFactory.createItem("spark_of_unhallowing");
+sparkofunhallowing.maxStackSize = 64;
+sparkofunhallowing.beaconPayment = false;
+sparkofunhallowing.register();
+
+var growingrecursionfragment = VanillaFactory.createItem("recursion_of_growth");
+growingrecursionfragment.maxStackSize = 64;
+growingrecursionfragment.beaconPayment = false;
+growingrecursionfragment.register();
+
+var delicateflower = VanillaFactory.createItem("delicate_flower");
+delicateflower.maxStackSize = 64;
+delicateflower.beaconPayment = false;
+delicateflower.register();
+
+var delicatepollen = VanillaFactory.createItem("delicate_pollen");
+delicatepollen.maxStackSize = 64;
+delicatepollen.beaconPayment = false;
+delicatepollen.register();
+
+var sacredcinderscatalyst = VanillaFactory.createItem("sacred_cinders_catalyst");
+sacredcinderscatalyst.maxStackSize = 64;
+sacredcinderscatalyst.beaconPayment = false;
+sacredcinderscatalyst.register();
+
+var agriculturalpropolis = VanillaFactory.createItem("agricultural_propolis");
+agriculturalpropolis.maxStackSize = 64;
+agriculturalpropolis.beaconPayment = false;
+agriculturalpropolis.register();
+
+var inquiringpropolis = VanillaFactory.createItem("inquiring_propolis");
+inquiringpropolis.maxStackSize = 64;
+inquiringpropolis.beaconPayment = false;
+inquiringpropolis.register();
+
+
+var magicbannedrheniumcatalyst = VanillaFactory.createItem("runic_rhenium_catalyst");
+magicbannedrheniumcatalyst.maxStackSize = 64;
+magicbannedrheniumcatalyst.beaconPayment = false;
+magicbannedrheniumcatalyst.register();
+
+var braveheartofpixonia = VanillaFactory.createItem("brave_heart_of_pixonia");
+braveheartofpixonia.maxStackSize = 64;
+braveheartofpixonia.beaconPayment = false;
+braveheartofpixonia.register();
+
+var ascendingdemantoid = VanillaFactory.createItem("ascending_demantoid");
+ascendingdemantoid.maxStackSize = 64;
+ascendingdemantoid.beaconPayment = false;
+ascendingdemantoid.register();
+
+var fractallitedemantoid = VanillaFactory.createItem("fractallite_demantoid");
+fractallitedemantoid.maxStackSize = 64;
+fractallitedemantoid.beaconPayment = false;
+fractallitedemantoid.register();
+
+var investitureofthedirewolf = VanillaFactory.createItem("investiture_of_the_direwolf");
+investitureofthedirewolf.maxStackSize = 64;
+investitureofthedirewolf.beaconPayment = false;
+investitureofthedirewolf.register();
 
 
 

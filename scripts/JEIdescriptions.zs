@@ -4927,3 +4927,20 @@ mods.jei.JEI.addDescription([
 ]);
 
 
+
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:automated_shulker_filling>
+    ],
+[   "There are a variety of ways to auto-place a shulker box, but some place them in weird orientations that make them inaccessible. Dispensers will always place them so that they can be opened.",
+    "",
+    "With regards to automating the filling of shulker shells with the right items in the right order, there are three methods.",
+    "",
+    "1. Super Factory Manager, which has the ability to target specific slots; the counting starts from 0, so the top left slot in a shulker box is slot 0.",
+    "",
+    "2. Using vanilla mechanics; placing hoppers in a row, with droppers next to them all receiving redstone at the same time, allows to create a chain of items that get added to the shulker box in a controlled order (see preview); the first item is from the dropper closest to the shulker box, the second item is in the second, etc.",
+    "",
+    "3. Being a crazy person; both limited item filters and retrievers will place the right amounts of each item, but not in the right place; just have systems that do not respect orders, and build a filtering system that throws away the shulker boxes with the wrong inventory :)"
+]);
+
+

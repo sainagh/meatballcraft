@@ -1791,6 +1791,15 @@ recipes.addShapeless(<contenttweaker:arcanium_cluster>,
 recipes.addShapeless(<divinerpg:arcanium_block>,
 [<contenttweaker:trait_tearofarcana>, <contenttweaker:aesir_gemstone>]);
 
+recipes.addShapeless(<contenttweaker:hard_bone>,
+[<contenttweaker:trait_giggity>]);
+
+recipes.addShapeless(<contenttweaker:chaos_wood>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:lively_tree_callstone>]);
+
+recipes.addShapeless(<contenttweaker:order_wood>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:lively_tree_callstone>]);
+
 
 recipes.addShapeless(<contenttweaker:arcanium_cluster>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:tear_of_arcana_callstone>]);
@@ -1800,7 +1809,35 @@ recipes.addShapeless(<contenttweaker:earthly_salvation>,
 
 
 
+recipes.addShapeless(<contenttweaker:alchemical_core>,
+[<contenttweaker:automated_shulker_filling>]);
+recipes.addShapeless(<contenttweaker:compressed_alchemical_core>,
+[<contenttweaker:automated_shulker_filling>]);
+recipes.addShapeless(<contenttweaker:double_compressed_alchemical_core>,
+[<contenttweaker:automated_shulker_filling>]);
+recipes.addShapeless(<contenttweaker:triple_compressed_alchemical_core>,
+[<contenttweaker:automated_shulker_filling>]);
+recipes.addShapeless(<contenttweaker:quadruple_compressed_alchemical_core>,
+[<contenttweaker:automated_shulker_filling>]);
+recipes.addShapeless(<contenttweaker:quintuple_compressed_alchemical_core>,
+[<contenttweaker:automated_shulker_filling>]);
+recipes.addShapeless(<contenttweaker:sextuple_compressed_alchemical_core>,
+[<contenttweaker:automated_shulker_filling>]);
+recipes.addShapeless(<contenttweaker:octuple_compressed_alchemical_core>,
+[<contenttweaker:automated_shulker_filling>]);
+recipes.addShapeless(<contenttweaker:nonuple_compressed_alchemical_core>,
+[<contenttweaker:automated_shulker_filling>]);
 
+recipes.addShapeless(<contenttweaker:divine_resonance_fabrial>,
+[<contenttweaker:automated_shulker_filling>]);
+
+
+
+recipes.addShapeless(<contenttweaker:pale_metal>,
+[<contenttweaker:boss_drop>, <contenttweaker:hollow_stag_callstone>]);
+
+recipes.addShapeless(<contenttweaker:spark_of_unhallowing>,
+[<contenttweaker:boss_drop>, <contenttweaker:rite_of_unhollowing>]);
 
 
 

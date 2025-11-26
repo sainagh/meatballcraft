@@ -513,3 +513,17 @@ masterspelltenebrae.itemRightClick = function(stack, world, player, hand) {
 	return "Pass";
 };
 masterspelltenebrae.register();
+
+
+
+var masterspellmestia = VanillaFactory.createItem("master_spell_bestia");
+masterspellmestia.maxStackSize = 1;
+masterspellmestia.glowing = true;
+masterspellmestia.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	Commands.call("/summon twilightforest:mist_wolf ~5 ~3 ~5 {HandItems:[{Count:10,id:\"contenttweaker:investiture_of_the_direwolf\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Feral Direwolf\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:40,permshields:40}},Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:50.0}],Health:2000f}", player, world, false, true);
+	return "Pass";
+};
+masterspellmestia.register();

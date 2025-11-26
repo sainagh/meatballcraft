@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "The first step in Sacred Cinders magic, have something to grow!\nWith my level of affinity to this power, even making seeds is hard!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:sacred_cinders_seed"

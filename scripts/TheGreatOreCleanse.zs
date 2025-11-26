@@ -72,6 +72,15 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<railcraft:ingot:9>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:1>, <ore:ingotZinc>, null, 100, 512, [<ore:dustCopper>*3]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:1>, <ore:dustZinc>, null, 100, 512, [<ore:ingotCopper>*3]);
 
+recipes.removeShaped(<railcraft:ingot:9>*4,
+[[<mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>],
+[<mysticalagriculture:brass_essence>, null, <mysticalagriculture:brass_essence>],
+[<mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>]]);
+recipes.addShaped(<techreborn:ingot:1>*4,
+[[<mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>],
+[<mysticalagriculture:brass_essence>, null, <mysticalagriculture:brass_essence>],
+[<mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>, <mysticalagriculture:brass_essence>]]);
+
 
 //==================================================================
 // titanium
@@ -917,4 +926,12 @@ siliconball.remove(<enderio:item_material:5>);
 // silver
 val zincingot = <ore:ingotZinc>;
 zincingot.remove(<railcraft:ingot:8>);
+
+
+//==================================================================
+// silver
+val alumiteingot = <ore:ingotAlumite>;
+alumiteingot.remove(<plustic:alumiteingot>);
+
+
 

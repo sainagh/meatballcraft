@@ -125,3 +125,14 @@ recipes.addShaped(<contenttweaker:menacing_sludge>*4,
 [[<ore:blockSyrmorite>, <projecte:item.pe_fuel:2>, <ore:blockSyrmorite>],
 [<iceandfire:gorgon_head>, <contenttweaker:menacing_sludge>, <iceandfire:gorgon_head>],
 [<ore:blockSyrmorite>, <projecte:item.pe_fuel:2>, <ore:blockSyrmorite>]]);
+
+
+
+recipes.removeShaped(<thebetweenlands:valonite_sword>);
+recipes.addShaped(<thebetweenlands:valonite_sword>,
+[[null, <ore:blockValonite>, null],
+[<contenttweaker:menacing_sludge>, <ore:blockValonite>, <contenttweaker:menacing_sludge>],
+[null, <thebetweenlands:items_misc:20>, null]]);
+
+
+

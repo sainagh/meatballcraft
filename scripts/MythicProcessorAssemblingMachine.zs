@@ -216,7 +216,7 @@ mythassmac30.addItemInput(<advancedrocketry:lens:0>);
 mythassmac30.addItemInput(<ore:plateGold>);
 mythassmac30.addItemInput(<minecraft:redstone_block>);
 mythassmac30.addItemInput(<advancedrocketry:wafer:0>*4);
-mythassmac30.addItemOutput(<advancedrocketry:itemcircuitplate:0>);
+mythassmac30.addItemOutput(<advancedrocketry:itemcircuitplate:1>);
 mythassmac30.build();
 
 

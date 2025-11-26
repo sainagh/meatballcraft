@@ -166,5 +166,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:trait_dreadfulharvesting>.addTooltip(format.red("Chance of dropping the corresponding Matter when hitting mobs #EMCless"));
 <contenttweaker:trait_omotholharvesting>.addTooltip(format.red("Chance of dropping the corresponding Matter when hitting mobs #EMCless"));
 <contenttweaker:trait_willoftheaesir>.addTooltip(format.red("Chance of dropping Soul Fragments when breaking blocks"));
-<contenttweaker:trait_tearofarcana>.addTooltip(format.red("Chance of dropping Arcanium blocks (increased up to level 10); low chance of dropping Arcanium Clusters"));
+<contenttweaker:trait_tearofarcana>.addTooltip(format.red("When breaking blocks, chance of dropping Arcanium blocks (increased up to level 10); low chance of dropping Arcanium Clusters"));
+<contenttweaker:trait_giggity>.addTooltip(format.red("Chance of dropping Hard Bones when hitting mobs"));
 

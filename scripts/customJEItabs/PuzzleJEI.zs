@@ -369,5 +369,35 @@ gemdimensionalascension.addInput(<contenttweaker:stone_of_dimensional_ascension>
 gemdimensionalascension.setOutputs([<contenttweaker:gem_of_dimensional_ascension>]);
 gemdimensionalascension.build();
 
+val rainbowcorepuzzle = JEI.createJeiRecipe("meatball_puzzle");
+rainbowcorepuzzle.addInput(<divinerpg:apalachia_block>);
+rainbowcorepuzzle.setOutputs([<contenttweaker:rainbow_core>]);
+rainbowcorepuzzle.build();
+
+val gluttbellpuzzle = JEI.createJeiRecipe("meatball_puzzle");
+gluttbellpuzzle.addInput(<contenttweaker:unfathomable_breaker>);
+gluttbellpuzzle.setOutputs([<contenttweaker:gluttonous_bell>]);
+gluttbellpuzzle.build();
+
+val geofragmentpuzzle = JEI.createJeiRecipe("meatball_puzzle");
+geofragmentpuzzle.addInput(<contenttweaker:antlion_callstone>);
+geofragmentpuzzle.setOutputs([<contenttweaker:geo_fragment>]);
+geofragmentpuzzle.build();
+
+val homeseekerpuzzle = JEI.createJeiRecipe("meatball_puzzle");
+homeseekerpuzzle.addInput(<contenttweaker:gluttonous_bell>);
+homeseekerpuzzle.setOutputs([<contenttweaker:shattered_mythic_matter>]);
+homeseekerpuzzle.build();
+
+val homeboundpuzzle = JEI.createJeiRecipe("meatball_puzzle");
+homeboundpuzzle.addInput(<contenttweaker:shattered_mythic_matter>);
+homeboundpuzzle.setOutputs([<contenttweaker:recursive_mind_shield>]);
+homeboundpuzzle.build();
+
+val witherswarthpuzzle = JEI.createJeiRecipe("meatball_puzzle");
+witherswarthpuzzle.addInput(<contenttweaker:pale_sky_stone_pebble>);
+witherswarthpuzzle.setOutputs([<contenttweaker:medallion_of_undead_repellence>]);
+witherswarthpuzzle.build();
+
 
 

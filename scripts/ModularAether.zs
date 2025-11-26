@@ -82,7 +82,7 @@ enc8.addItemOutput(SuperEnchantedItem(<aether_legacy:ice_pendant>.withTag({displ
 enc8.build();
 
 val enc9 = RecipeBuilder.newBuilder("astaeth9","gravitite_enchanter",40);
-enc9.addFluidInput(<fluid:astralsorcery.liquidstarlight>*50);
+enc9.addFluidInput(<fluid:astralsorcery.liquidstarlight>*60);
 enc9.addItemInput(<aether_legacy:blue_berry>);
 enc9.addItemOutput(<aether_legacy:enchanted_blueberry>);
 enc9.build();

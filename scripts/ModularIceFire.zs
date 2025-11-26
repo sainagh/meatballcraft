@@ -29,7 +29,7 @@ dreadcruc3.addItemInput(<materialpart:dreadite:ingot>);
 dreadcruc3.addItemInput(<aoa3:varsium_ingot>);
 dreadcruc3.addItemInput(<aoa3:blazium_ingot>);
 dreadcruc3.addItemInput(<aoa3:lyon_ingot>);
-dreadcruc3.addItemInput(<minecraft:iron_ingot>*4);
+dreadcruc3.addItemInput(<minecraft:gold_ingot>*4);
 dreadcruc3.addItemOutput(<materialpart:dreaded_steel:ingot>*8);
 dreadcruc3.build();
 
@@ -40,7 +40,7 @@ dreadcruc4.addItemInput(<aoa3:varsium_ingot>);
 dreadcruc4.addItemInput(<aoa3:blazium_ingot>);
 dreadcruc4.addItemInput(<aoa3:lyon_ingot>);
 dreadcruc4.addItemInput(<aoa3:elecanium_ingot>);
-dreadcruc4.addItemInput(<minecraft:iron_ingot>*5);
+dreadcruc4.addItemInput(<ore:ingotLead>*5);
 dreadcruc4.addItemOutput(<materialpart:dreaded_steel:ingot>*10);
 dreadcruc4.build();
 
@@ -52,7 +52,7 @@ dreadcruc5.addItemInput(<aoa3:blazium_ingot>);
 dreadcruc5.addItemInput(<aoa3:lyon_ingot>);
 dreadcruc5.addItemInput(<aoa3:elecanium_ingot>);
 dreadcruc5.addItemInput(<aoa3:shyrestone_ingot>);
-dreadcruc5.addItemInput(<minecraft:iron_ingot>*6);
+dreadcruc5.addItemInput(<ore:ingotAluminum>*6);
 dreadcruc5.addItemOutput(<materialpart:dreaded_steel:ingot>*12);
 dreadcruc5.build();
 

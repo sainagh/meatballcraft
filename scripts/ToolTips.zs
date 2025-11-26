@@ -2515,9 +2515,6 @@
 
 <aoa3:immortal_banner>.addTooltip(format.red("Obtained from the Token Collector in the Immortallis entrance"));
 
-<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("Thanks to ChaosStrikez for the help implementing this!"));
-<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("Right click while in the overworld to summon a blood magic meteor"));
-<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("This can be automated with a mechanical user, some obsidian, and a bit of setup"));
 
 <contenttweaker:infinite_plate_stamp>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
@@ -3113,8 +3110,6 @@
 <contenttweaker:notes_of_a_mines_yearner>.addTooltip(format.red("Gearing up may take some effort, but it will be worth it!"));
 <contenttweaker:notes_of_a_mines_yearner>.addTooltip(format.red("For suggestions, check out the quests in the Armory and Faber Ferrarius!"));
 
-<contenttweaker:toy_sword>.addTooltip(format.red("Quality of life is always nice to have!"));
-<contenttweaker:toy_sword>.addTooltip(format.red("Check out the quests in Personal Augmentation and Tooling Shmooving suggest lots of useful tools!"));
 
 <contenttweaker:bound_lunar_stone>.addTooltip(format.red("Cutting fluid can be auto-repaired ;)"));
 
@@ -3176,40 +3171,6 @@
 <draconicevolution:crafting_injector:*>.addTooltip(format.red("For increased charging speed, Injectors can be powered through Cryo-Stabilized Fluxducts connected to multiple Flux Points"));
 
 <aoa3:flaming_fury>.addTooltip(format.red("KurryCat is not confused by strange number formats"));
-
-
-
-
-
-
-
-
-<contenttweaker:waytospawnhydra>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:cleanroomprism>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:laststandformula>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:alecsioandcobees>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:energyrepairforlater>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:blueprints>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:firesuperenchantforshields>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:apothecarybeemorestuffs>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:customtippedarrows>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:aoadimensionsrandomloot>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:mythicprocessorchemreactor>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:mythicprocessorfluidinfuser>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-
-
 
 
 

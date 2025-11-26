@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "A prophecy. The Prophecy.\nMy prophecy.\nNo, this is not just me. The Meatball Man, the Arbiter, and all the poor souls that have been dragged down through this conflict.\nOrder and chaos always intertwined, even in this prophecy.\nPart of it came from the writs of the Arbiter, concerning my coming to Terra, my affinity to alchemy, my ability to bring back Matter-Energy technology, and my visit to Proxima.\nAnother part of the prophecy came from the cult of the Lord of Gluttony, now uttered by its Harbinger. A confrontation that must take place, an enmity born from imprisonment. \nOrder giving way to Chaos. Chaos giving way to Order.\nThat is why I was imprisoned. The Lord of Gluttony, fearing I would be the one to follow the steps of the Arbiter (thus becoming order), tried to imprison me, to bend my will into scheme (thus becoming chaos). By retaliating, by finding my freedom, I became the agent of Order. Me arriving to Terra was truly a chance happening, but the actions of the Meatball Man, trying to prevent the Prophecy of the Arbiter, made me into the person the Arbiter had prophecized.\nThe actions of the Arbiter played as big a role as the Meatball Man\u0027s in this. And the Prophecy still holds.\nI have been Chaos giving way to Order. At some point, I must be Order giving way to Chaos.\nI do not know when that will be, and, unlike what has happened until now, my actions are going what will trigger this happening.\nFrom now on, fate rests on me.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:prophetic_paper"
       },
-      "name:8": "A Prophecy of Orcer and Chaos"
+      "name:8": "A Prophecy of Order and Chaos"
     }
   },
   "questID:3": 946204526,

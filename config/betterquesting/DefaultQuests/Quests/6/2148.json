@@ -7,7 +7,11 @@
       "desc:8": "§7§oThe primordial accelerator is used to break Primordial Pearls into Primordial Grains.\n\nIt is a multiblock of variable length, see the JEI preview for the multiblock structure, the more Tunnels, the more Grains can be produced (with diminishing returns).\n\nPrimordial pearls can be piped into the Accelerator.\n\nUse a redstone pulse to activate the machine, Primordial Grains will be dropped out around the Terminus.\n\nGrains can be turned back into full Pearls for an endless loop, with a bit of crucible automation.",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "thaumicwonders:primordial_accelerator"
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "thaumicwonders:primordial_accelerator",
+          "orig_meta:3": 0
+        }
       },
       "name:8": "Primordial Accelerator"
     }
@@ -19,15 +23,27 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "thaumicwonders:primordial_accelerator"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "thaumicwonders:primordial_accelerator",
+            "orig_meta:3": 0
+          }
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "thaumicwonders:primordial_accelerator_tunnel"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "thaumicwonders:primordial_accelerator_tunnel",
+            "orig_meta:3": 0
+          }
         },
         "2:10": {
           "Count:3": 1,
-          "id:8": "thaumicwonders:primordial_accelerator_terminus"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "thaumicwonders:primordial_accelerator_terminus",
+            "orig_meta:3": 0
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

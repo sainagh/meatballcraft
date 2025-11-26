@@ -253,13 +253,13 @@ recipes.addShaped(<contenttweaker:crimson_ichor>*2,
 
 val makeichorium = RecipeBuilder.newBuilder("makeichorium","arcane_autoinfuser",200);
 makeichorium.addEnergyPerTickInput(150000000);
-makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alkimia"}]})*300);
-makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mythus"}]})*100);
-makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]})*200);
-makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]})*100);
-makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]})*100);
-makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]})*50);
-makeichorium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aversio"}]})*50);
+makeichorium.addItemInput(makeVisCrystal(<aspect:alkimia> * 1)*300);
+makeichorium.addItemInput(makeVisCrystal(<aspect:mythus> * 1)*100);
+makeichorium.addItemInput(makeVisCrystal(<aspect:desiderium> * 1)*200);
+makeichorium.addItemInput(makeVisCrystal(<aspect:alienis> * 1)*100);
+makeichorium.addItemInput(makeVisCrystal(<aspect:potentia> * 1)*100);
+makeichorium.addItemInput(makeVisCrystal(<aspect:spiritus> * 1)*50);
+makeichorium.addItemInput(makeVisCrystal(<aspect:aversio> * 1)*50);
 makeichorium.addItemInput(<contenttweaker:crimson_ichor>*8);
 makeichorium.addItemInput(<thaumadditions:mithminite_block>*2);
 makeichorium.addItemInput(<thaumicaugmentation:material:5>*16);
@@ -271,13 +271,13 @@ makeichorium.build();
 
 val makeichorium2 = RecipeBuilder.newBuilder("makeichorium2","arcane_autoinfuser",200);
 makeichorium2.addEnergyPerTickInput(150000000);
-makeichorium2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alkimia"}]})*300);
-makeichorium2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mythus"}]})*100);
-makeichorium2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]})*200);
-makeichorium2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]})*100);
-makeichorium2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]})*100);
-makeichorium2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]})*50);
-makeichorium2.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aversio"}]})*50);
+makeichorium2.addItemInput(makeVisCrystal(<aspect:alkimia> * 1)*300);
+makeichorium2.addItemInput(makeVisCrystal(<aspect:mythus> * 1)*100);
+makeichorium2.addItemInput(makeVisCrystal(<aspect:desiderium> * 1)*200);
+makeichorium2.addItemInput(makeVisCrystal(<aspect:alienis> * 1)*100);
+makeichorium2.addItemInput(makeVisCrystal(<aspect:potentia> * 1)*100);
+makeichorium2.addItemInput(makeVisCrystal(<aspect:spiritus> * 1)*50);
+makeichorium2.addItemInput(makeVisCrystal(<aspect:aversio> * 1)*50);
 makeichorium2.addItemInput(<contenttweaker:crimson_ichor>*8);
 makeichorium2.addItemInput(<thaumadditions:mithminite_block>*2);
 makeichorium2.addItemInput(<thaumicaugmentation:material:5>*16);
@@ -289,13 +289,13 @@ makeichorium2.build();
 
 val makeichorium3 = RecipeBuilder.newBuilder("makeichorium3","arcane_autoinfuser",200);
 makeichorium3.addEnergyPerTickInput(150000000);
-makeichorium3.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alkimia"}]})*300);
-makeichorium3.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mythus"}]})*100);
-makeichorium3.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]})*200);
-makeichorium3.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]})*100);
-makeichorium3.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]})*100);
-makeichorium3.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]})*50);
-makeichorium3.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aversio"}]})*50);
+makeichorium3.addItemInput(makeVisCrystal(<aspect:alkimia> * 1)*300);
+makeichorium3.addItemInput(makeVisCrystal(<aspect:mythus> * 1)*100);
+makeichorium3.addItemInput(makeVisCrystal(<aspect:desiderium> * 1)*200);
+makeichorium3.addItemInput(makeVisCrystal(<aspect:alienis> * 1)*100);
+makeichorium3.addItemInput(makeVisCrystal(<aspect:potentia> * 1)*100);
+makeichorium3.addItemInput(makeVisCrystal(<aspect:spiritus> * 1)*50);
+makeichorium3.addItemInput(makeVisCrystal(<aspect:aversio> * 1)*50);
 makeichorium3.addItemInput(<contenttweaker:crimson_ichor>*8);
 makeichorium3.addItemInput(<thaumadditions:mithminite_block>*2);
 makeichorium3.addItemInput(<thaumicaugmentation:material:5>*16);
@@ -341,103 +341,103 @@ makeaura.build();
 mods.avaritia.ExtremeCrafting.addShaped("direallthevis",
 <contenttweaker:gem_of_aura>, 
 [[
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alkimia"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "visum"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sensus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fabrico"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "lux"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vinculum"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "coralos"}]}),
+makeVisCrystal(<aspect:alkimia> * 1),
+makeVisCrystal(<aspect:ordo> * 1),
+makeVisCrystal(<aspect:visum> * 1),
+makeVisCrystal(<aspect:sensus> * 1),
+makeVisCrystal(<aspect:fabrico> * 1),
+makeVisCrystal(<aspect:lux> * 1),
+makeVisCrystal(<aspect:humanus> * 1),
+makeVisCrystal(<aspect:vinculum> * 1),
+makeVisCrystal(<aspect:coralos> * 1),
 ],
 [
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]}),
+makeVisCrystal(<aspect:gelum> * 1),
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ventus"}]}),
+makeVisCrystal(<aspect:ventus> * 1),
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitreus"}]}),
+makeVisCrystal(<aspect:vitreus> * 1),
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]}),
+makeVisCrystal(<aspect:herba> * 1),
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]}),
+makeVisCrystal(<aspect:potentia> * 1),
 ],
 [
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]}),
+makeVisCrystal(<aspect:desiderium> * 1),
+makeVisCrystal(<aspect:caeles> * 1),
 null,
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sonus"}]}),
+makeVisCrystal(<aspect:sonus> * 1),
 null,
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "motus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "draco"}]}),
+makeVisCrystal(<aspect:motus> * 1),
+makeVisCrystal(<aspect:draco> * 1),
 ],
 [
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]}),
+makeVisCrystal(<aspect:luna> * 1),
 null,
 null,
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}),
+makeVisCrystal(<aspect:ignis> * 1),
 null,
 null,
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "bestia"}]}),
+makeVisCrystal(<aspect:bestia> * 1),
 ],
 [
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "dreadia"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "stellae"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "auram"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "cognitio"}]}),
+makeVisCrystal(<aspect:terra> * 1),
+makeVisCrystal(<aspect:dreadia> * 1),
+makeVisCrystal(<aspect:aer> * 1),
+makeVisCrystal(<aspect:stellae> * 1),
+makeVisCrystal(<aspect:sol> * 1),
+makeVisCrystal(<aspect:aqua> * 1),
+makeVisCrystal(<aspect:alienis> * 1),
+makeVisCrystal(<aspect:auram> * 1),
+makeVisCrystal(<aspect:cognitio> * 1),
 ],
 [
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "volatus"}]}),
+makeVisCrystal(<aspect:volatus> * 1),
 null,
 null,
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]}),
+makeVisCrystal(<aspect:praecantatio> * 1),
 null,
 null,
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "tenebrae"}]}),
+makeVisCrystal(<aspect:tenebrae> * 1),
 ],
 [
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "permutatio"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "exanimis"}]}),
+makeVisCrystal(<aspect:permutatio> * 1),
+makeVisCrystal(<aspect:exanimis> * 1),
 null,
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mythus"}]}),
+makeVisCrystal(<aspect:mythus> * 1),
 null,
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praemunio"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "exitium"}]}),
+makeVisCrystal(<aspect:praemunio> * 1),
+makeVisCrystal(<aspect:exitium> * 1),
 ],
 [
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]}),
+makeVisCrystal(<aspect:vitium> * 1),
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mortuus"}]}),
+makeVisCrystal(<aspect:mortuus> * 1),
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fluctus"}]}),
+makeVisCrystal(<aspect:fluctus> * 1),
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]}),
+makeVisCrystal(<aspect:spiritus> * 1),
 null,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "metallum"}]}),
+makeVisCrystal(<aspect:metallum> * 1),
 ],
 [
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "instrumentum"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "diabolus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "victus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "machina"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aversio"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vacuos"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "imperium"}]}),
+makeVisCrystal(<aspect:perditio> * 1),
+makeVisCrystal(<aspect:instrumentum> * 1),
+makeVisCrystal(<aspect:infernum> * 1),
+makeVisCrystal(<aspect:diabolus> * 1),
+makeVisCrystal(<aspect:victus> * 1),
+makeVisCrystal(<aspect:machina> * 1),
+makeVisCrystal(<aspect:aversio> * 1),
+makeVisCrystal(<aspect:vacuos> * 1),
+makeVisCrystal(<aspect:imperium> * 1),
 ]]);
 
 
@@ -448,17 +448,21 @@ null,
 mods.nuclearcraft.alloy_furnace.addRecipe([<nuclearcraft:depleted_fuel_mixed_oxide:0>, <nuclearcraft:depleted_fuel_mixed_oxide:1>, <nuclearcraft:depleted_fuel_ic2:1>, 1.0, 1.0, 0.005]);
 mods.thermalexpansion.InductionSmelter.addRecipe(<nuclearcraft:depleted_fuel_ic2:1>, <nuclearcraft:depleted_fuel_mixed_oxide:1>, <nuclearcraft:depleted_fuel_mixed_oxide:0>, 1000);
 
-val nukecalifornium = RecipeBuilder.newBuilder("nukecalifornium","safe_nuke_environment",100);
-nukecalifornium.addItemInput(<techreborn:nuke>);
-nukecalifornium.addFluidInput(<fluid:californium_250>*1000);
-nukecalifornium.addFluidOutput(<fluid:californium_256>*1000);
-nukecalifornium.build();
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:fluidcompressedair>*10, <fluid:californium_250>*1000, <fluid:areated_molten_californium_250>*1000, <fluid:oxygen>*2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:lithium6>*10, <fluid:infinitely_unholy_radioactive_mix>*1000, <fluid:unholy_nuke_catalyst>*1000, null]);
 
-val nukepolonium = RecipeBuilder.newBuilder("nukepolonium","safe_nuke_environment",100);
-nukepolonium.addItemInput(<techreborn:nuke>);
-nukepolonium.addFluidInput(<fluid:spent_polonium>*1000);
-nukepolonium.addFluidOutput(<fluid:californium_256>*1000);
-nukepolonium.build();
+
+// val nukecalifornium = RecipeBuilder.newBuilder("nukecalifornium","safe_nuke_environment",100);
+// nukecalifornium.addItemInput(<techreborn:nuke>);
+// nukecalifornium.addFluidInput(<fluid:californium_250>*1000);
+// nukecalifornium.addFluidOutput(<fluid:californium_256>*1000);
+// nukecalifornium.build();
+
+// val nukepolonium = RecipeBuilder.newBuilder("nukepolonium","safe_nuke_environment",100);
+// nukepolonium.addItemInput(<techreborn:nuke>);
+// nukepolonium.addFluidInput(<fluid:spent_polonium>*1000);
+// nukepolonium.addFluidOutput(<fluid:californium_256>*1000);
+// nukepolonium.build();
 
 mods.nuclearcraft.heat_exchanger.addRecipe([<fluid:mineral_water>*10, <fluid:wet_steam>*20, 80000.0, 300, 700]);
 

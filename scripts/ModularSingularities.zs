@@ -18,7 +18,7 @@ recipes.addShaped(<contenttweaker:ordered_eigenstate_condenser>,
 
 recipes.addShaped(<contenttweaker:event_horizon_condenser>,
 [[<contenttweaker:black_hole_core>, <glassential:glass_redstone>, <contenttweaker:black_hole_core>],
-[<glassential:glass_redstone>, <contenttweaker:ordered_eigenstate_condenser>, <contenttweaker:mythic_excavation_reactor>],
+[<glassential:glass_redstone>, <contenttweaker:ordered_eigenstate_condenser>, <glassential:glass_redstone>],
 [<contenttweaker:black_hole_core>, <glassential:glass_redstone>, <contenttweaker:black_hole_core>]]);
 
 
@@ -205,319 +205,319 @@ val quantumcond176 = RecipeBuilder.newBuilder("quantumcond176","quantum_condense
 
 val quantumcondsensus = RecipeBuilder.newBuilder("quantumcondsensus","quantum_condenser",4);
 quantumcondsensus.addEnergyPerTickInput(500000);
-quantumcondsensus.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sensus"}]})* 4096);
+quantumcondsensus.addItemInput(makeVisCrystal(<aspect:sensus> * 1)* 4096);
 quantumcondsensus.addItemOutput(<contenttweaker:sensus_vis_condensate>);
 quantumcondsensus.build();
 
 val quantumcondmachina = RecipeBuilder.newBuilder("quantumcondmachina","quantum_condenser",4);
 quantumcondmachina.addEnergyPerTickInput(500000);
-quantumcondmachina.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "machina"}]})* 4096);
+quantumcondmachina.addItemInput(makeVisCrystal(<aspect:machina> * 1)* 4096);
 quantumcondmachina.addItemOutput(<contenttweaker:machina_vis_condensate>);
 quantumcondmachina.build();
 
 val quantumcondalkimia = RecipeBuilder.newBuilder("quantumcondalkimia","quantum_condenser",4);
 quantumcondalkimia.addEnergyPerTickInput(500000);
-quantumcondalkimia.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alkimia"}]})* 4096);
+quantumcondalkimia.addItemInput(makeVisCrystal(<aspect:alkimia> * 1)* 4096);
 quantumcondalkimia.addItemOutput(<contenttweaker:alkimia_vis_condensate>);
 quantumcondalkimia.build();
 
 val quantumcondpraemunio = RecipeBuilder.newBuilder("quantumcondpraemunio","quantum_condenser",4);
 quantumcondpraemunio.addEnergyPerTickInput(500000);
-quantumcondpraemunio.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praemunio"}]})* 4096);
+quantumcondpraemunio.addItemInput(makeVisCrystal(<aspect:praemunio> * 1)* 4096);
 quantumcondpraemunio.addItemOutput(<contenttweaker:praemunio_vis_condensate>);
 quantumcondpraemunio.build();
 
 val quantumcondexitium = RecipeBuilder.newBuilder("quantumcondexitium","quantum_condenser",4);
 quantumcondexitium.addEnergyPerTickInput(500000);
-quantumcondexitium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "exitium"}]})* 4096);
+quantumcondexitium.addItemInput(makeVisCrystal(<aspect:exitium> * 1)* 4096);
 quantumcondexitium.addItemOutput(<contenttweaker:exitium_vis_condensate>);
 quantumcondexitium.build();
 
 val quantumcondsonus = RecipeBuilder.newBuilder("quantumcondsonus","quantum_condenser",4);
 quantumcondsonus.addEnergyPerTickInput(500000);
-quantumcondsonus.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sonus"}]})* 4096);
+quantumcondsonus.addItemInput(makeVisCrystal(<aspect:sonus> * 1)* 4096);
 quantumcondsonus.addItemOutput(<contenttweaker:sonus_vis_condensate>);
 quantumcondsonus.build();
 
 val quantumcondhumanus = RecipeBuilder.newBuilder("quantumcondhumanus","quantum_condenser",4);
 quantumcondhumanus.addEnergyPerTickInput(500000);
-quantumcondhumanus.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]})* 4096);
+quantumcondhumanus.addItemInput(makeVisCrystal(<aspect:humanus> * 1)* 4096);
 quantumcondhumanus.addItemOutput(<contenttweaker:humanus_vis_condensate>);
 quantumcondhumanus.build();
 
 val quantumcondbestia = RecipeBuilder.newBuilder("quantumcondbestia","quantum_condenser",4);
 quantumcondbestia.addEnergyPerTickInput(500000);
-quantumcondbestia.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "bestia"}]})* 4096);
+quantumcondbestia.addItemInput(makeVisCrystal(<aspect:bestia> * 1)* 4096);
 quantumcondbestia.addItemOutput(<contenttweaker:bestia_vis_condensate>);
 quantumcondbestia.build();
 
 val quantumconddraco = RecipeBuilder.newBuilder("quantumconddraco","quantum_condenser",4);
 quantumconddraco.addEnergyPerTickInput(500000);
-quantumconddraco.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "draco"}]})* 4096);
+quantumconddraco.addItemInput(makeVisCrystal(<aspect:draco> * 1)* 4096);
 quantumconddraco.addItemOutput(<contenttweaker:draco_vis_condensate>);
 quantumconddraco.build();
 
 val quantumcondventus = RecipeBuilder.newBuilder("quantumcondventus","quantum_condenser",4);
 quantumcondventus.addEnergyPerTickInput(500000);
-quantumcondventus.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ventus"}]})* 4096);
+quantumcondventus.addItemInput(makeVisCrystal(<aspect:ventus> * 1)* 4096);
 quantumcondventus.addItemOutput(<contenttweaker:ventus_vis_condensate>);
 quantumcondventus.build();
 
 val quantumconddreadia = RecipeBuilder.newBuilder("quantumconddreadia","quantum_condenser",4);
 quantumconddreadia.addEnergyPerTickInput(500000);
-quantumconddreadia.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "dreadia"}]})* 4096);
+quantumconddreadia.addItemInput(makeVisCrystal(<aspect:dreadia> * 1)* 4096);
 quantumconddreadia.addItemOutput(<contenttweaker:dreadia_vis_condensate>);
 quantumconddreadia.build();
 
 val quantumcondvictus = RecipeBuilder.newBuilder("quantumcondvictus","quantum_condenser",4);
 quantumcondvictus.addEnergyPerTickInput(500000);
-quantumcondvictus.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "victus"}]})* 4096);
+quantumcondvictus.addItemInput(makeVisCrystal(<aspect:victus> * 1)* 4096);
 quantumcondvictus.addItemOutput(<contenttweaker:victus_vis_condensate>);
 quantumcondvictus.build();
 
 val quantumcondimperium = RecipeBuilder.newBuilder("quantumcondimperium","quantum_condenser",4);
 quantumcondimperium.addEnergyPerTickInput(500000);
-quantumcondimperium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "imperium"}]})* 4096);
+quantumcondimperium.addItemInput(makeVisCrystal(<aspect:imperium> * 1)* 4096);
 quantumcondimperium.addItemOutput(<contenttweaker:imperium_vis_condensate>);
 quantumcondimperium.build();
 
 val quantumcondvinculum = RecipeBuilder.newBuilder("quantumcondvinculum","quantum_condenser",4);
 quantumcondvinculum.addEnergyPerTickInput(500000);
-quantumcondvinculum.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vinculum"}]})* 4096);
+quantumcondvinculum.addItemInput(makeVisCrystal(<aspect:vinculum> * 1)* 4096);
 quantumcondvinculum.addItemOutput(<contenttweaker:vinculum_vis_condensate>);
 quantumcondvinculum.build();
 
 val quantumconddesiderium = RecipeBuilder.newBuilder("quantumconddesiderium","quantum_condenser",4);
 quantumconddesiderium.addEnergyPerTickInput(500000);
-quantumconddesiderium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]})* 4096);
+quantumconddesiderium.addItemInput(makeVisCrystal(<aspect:desiderium> * 1)* 4096);
 quantumconddesiderium.addItemOutput(<contenttweaker:desiderium_vis_condensate>);
 quantumconddesiderium.build();
 
 val quantumcondignis = RecipeBuilder.newBuilder("quantumcondignis","quantum_condenser",4);
 quantumcondignis.addEnergyPerTickInput(500000);
-quantumcondignis.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})* 4096);
+quantumcondignis.addItemInput(makeVisCrystal(<aspect:ignis> * 1)* 4096);
 quantumcondignis.addItemOutput(<contenttweaker:ignis_vis_condensate>);
 quantumcondignis.build();
 
 val quantumcondexanimis = RecipeBuilder.newBuilder("quantumcondexanimis","quantum_condenser",4);
 quantumcondexanimis.addEnergyPerTickInput(500000);
-quantumcondexanimis.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "exanimis"}]})* 4096);
+quantumcondexanimis.addItemInput(makeVisCrystal(<aspect:exanimis> * 1)* 4096);
 quantumcondexanimis.addItemOutput(<contenttweaker:exanimis_vis_condensate>);
 quantumcondexanimis.build();
 
 val quantumcondordo = RecipeBuilder.newBuilder("quantumcondordo","quantum_condenser",4);
 quantumcondordo.addEnergyPerTickInput(500000);
-quantumcondordo.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]})* 4096);
+quantumcondordo.addItemInput(makeVisCrystal(<aspect:ordo> * 1)* 4096);
 quantumcondordo.addItemOutput(<contenttweaker:ordo_vis_condensate>);
 quantumcondordo.build();
 
 val quantumcondstellae = RecipeBuilder.newBuilder("quantumcondstellae","quantum_condenser",4);
 quantumcondstellae.addEnergyPerTickInput(500000);
-quantumcondstellae.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "stellae"}]})* 4096);
+quantumcondstellae.addItemInput(makeVisCrystal(<aspect:stellae> * 1)* 4096);
 quantumcondstellae.addItemOutput(<contenttweaker:stellae_vis_condensate>);
 quantumcondstellae.build();
 
 val quantumcondtenebrae = RecipeBuilder.newBuilder("quantumcondtenebrae","quantum_condenser",4);
 quantumcondtenebrae.addEnergyPerTickInput(500000);
-quantumcondtenebrae.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "tenebrae"}]})* 4096);
+quantumcondtenebrae.addItemInput(makeVisCrystal(<aspect:tenebrae> * 1)* 4096);
 quantumcondtenebrae.addItemOutput(<contenttweaker:tenebrae_vis_condensate>);
 quantumcondtenebrae.build();
 
 val quantumcondmetallum = RecipeBuilder.newBuilder("quantumcondmetallum","quantum_condenser",4);
 quantumcondmetallum.addEnergyPerTickInput(500000);
-quantumcondmetallum.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "metallum"}]})* 4096);
+quantumcondmetallum.addItemInput(makeVisCrystal(<aspect:metallum> * 1)* 4096);
 quantumcondmetallum.addItemOutput(<contenttweaker:metallum_vis_condensate>);
 quantumcondmetallum.build();
 
 val quantumcondpotentia = RecipeBuilder.newBuilder("quantumcondpotentia","quantum_condenser",4);
 quantumcondpotentia.addEnergyPerTickInput(500000);
-quantumcondpotentia.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]})* 4096);
+quantumcondpotentia.addItemInput(makeVisCrystal(<aspect:potentia> * 1)* 4096);
 quantumcondpotentia.addItemOutput(<contenttweaker:potentia_vis_condensate>);
 quantumcondpotentia.build();
 
 val quantumcondvacuos = RecipeBuilder.newBuilder("quantumcondvacuos","quantum_condenser",4);
 quantumcondvacuos.addEnergyPerTickInput(500000);
-quantumcondvacuos.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vacuos"}]})* 4096);
+quantumcondvacuos.addItemInput(makeVisCrystal(<aspect:vacuos> * 1)* 4096);
 quantumcondvacuos.addItemOutput(<contenttweaker:vacuos_vis_condensate>);
 quantumcondvacuos.build();
 
 val quantumcondterra = RecipeBuilder.newBuilder("quantumcondterra","quantum_condenser",4);
 quantumcondterra.addEnergyPerTickInput(500000);
-quantumcondterra.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})* 4096);
+quantumcondterra.addItemInput(makeVisCrystal(<aspect:terra> * 1)* 4096);
 quantumcondterra.addItemOutput(<contenttweaker:terra_vis_condensate>);
 quantumcondterra.build();
 
 val quantumcondpermutatio = RecipeBuilder.newBuilder("quantumcondpermutatio","quantum_condenser",4);
 quantumcondpermutatio.addEnergyPerTickInput(500000);
-quantumcondpermutatio.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "permutatio"}]})* 4096);
+quantumcondpermutatio.addItemInput(makeVisCrystal(<aspect:permutatio> * 1)* 4096);
 quantumcondpermutatio.addItemOutput(<contenttweaker:permutatio_vis_condensate>);
 quantumcondpermutatio.build();
 
 val quantumcondsol = RecipeBuilder.newBuilder("quantumcondsol","quantum_condenser",4);
 quantumcondsol.addEnergyPerTickInput(500000);
-quantumcondsol.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]})* 4096);
+quantumcondsol.addItemInput(makeVisCrystal(<aspect:sol> * 1)* 4096);
 quantumcondsol.addItemOutput(<contenttweaker:sol_vis_condensate>);
 quantumcondsol.build();
 
 val quantumcondvisum = RecipeBuilder.newBuilder("quantumcondvisum","quantum_condenser",4);
 quantumcondvisum.addEnergyPerTickInput(500000);
-quantumcondvisum.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "visum"}]})* 4096);
+quantumcondvisum.addItemInput(makeVisCrystal(<aspect:visum> * 1)* 4096);
 quantumcondvisum.addItemOutput(<contenttweaker:visum_vis_condensate>);
 quantumcondvisum.build();
 
 val quantumcondaer = RecipeBuilder.newBuilder("quantumcondaer","quantum_condenser",4);
 quantumcondaer.addEnergyPerTickInput(500000);
-quantumcondaer.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})* 4096);
+quantumcondaer.addItemInput(makeVisCrystal(<aspect:aer> * 1)* 4096);
 quantumcondaer.addItemOutput(<contenttweaker:aer_vis_condensate>);
 quantumcondaer.build();
 
 val quantumcondmortuus = RecipeBuilder.newBuilder("quantumcondmortuus","quantum_condenser",4);
 quantumcondmortuus.addEnergyPerTickInput(500000);
-quantumcondmortuus.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mortuus"}]})* 4096);
+quantumcondmortuus.addItemInput(makeVisCrystal(<aspect:mortuus> * 1)* 4096);
 quantumcondmortuus.addItemOutput(<contenttweaker:mortuus_vis_condensate>);
 quantumcondmortuus.build();
 
 val quantumcondlux = RecipeBuilder.newBuilder("quantumcondlux","quantum_condenser",4);
 quantumcondlux.addEnergyPerTickInput(500000);
-quantumcondlux.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "lux"}]})* 4096);
+quantumcondlux.addItemInput(makeVisCrystal(<aspect:lux> * 1)* 4096);
 quantumcondlux.addItemOutput(<contenttweaker:lux_vis_condensate>);
 quantumcondlux.build();
 
 val quantumconddiabolus = RecipeBuilder.newBuilder("quantumconddiabolus","quantum_condenser",4);
 quantumconddiabolus.addEnergyPerTickInput(500000);
-quantumconddiabolus.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "diabolus"}]})* 4096);
+quantumconddiabolus.addItemInput(makeVisCrystal(<aspect:diabolus> * 1)* 4096);
 quantumconddiabolus.addItemOutput(<contenttweaker:diabolus_vis_condensate>);
 quantumconddiabolus.build();
 
 val quantumcondfabrico = RecipeBuilder.newBuilder("quantumcondfabrico","quantum_condenser",4);
 quantumcondfabrico.addEnergyPerTickInput(500000);
-quantumcondfabrico.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fabrico"}]})* 4096);
+quantumcondfabrico.addItemInput(makeVisCrystal(<aspect:fabrico> * 1)* 4096);
 quantumcondfabrico.addItemOutput(<contenttweaker:fabrico_vis_condensate>);
 quantumcondfabrico.build();
 
 val quantumcondluna = RecipeBuilder.newBuilder("quantumcondluna","quantum_condenser",4);
 quantumcondluna.addEnergyPerTickInput(500000);
-quantumcondluna.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})* 4096);
+quantumcondluna.addItemInput(makeVisCrystal(<aspect:luna> * 1)* 4096);
 quantumcondluna.addItemOutput(<contenttweaker:luna_vis_condensate>);
 quantumcondluna.build();
 
 val quantumcondvolatus = RecipeBuilder.newBuilder("quantumcondvolatus","quantum_condenser",4);
 quantumcondvolatus.addEnergyPerTickInput(500000);
-quantumcondvolatus.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "volatus"}]})* 4096);
+quantumcondvolatus.addItemInput(makeVisCrystal(<aspect:volatus> * 1)* 4096);
 quantumcondvolatus.addItemOutput(<contenttweaker:volatus_vis_condensate>);
 quantumcondvolatus.build();
 
 val quantumcondinfernum = RecipeBuilder.newBuilder("quantumcondinfernum","quantum_condenser",4);
 quantumcondinfernum.addEnergyPerTickInput(500000);
-quantumcondinfernum.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]})* 4096);
+quantumcondinfernum.addItemInput(makeVisCrystal(<aspect:infernum> * 1)* 4096);
 quantumcondinfernum.addItemOutput(<contenttweaker:infernum_vis_condensate>);
 quantumcondinfernum.build();
 
 val quantumcondpraecantatio = RecipeBuilder.newBuilder("quantumcondpraecantatio","quantum_condenser",4);
 quantumcondpraecantatio.addEnergyPerTickInput(500000);
-quantumcondpraecantatio.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]})* 4096);
+quantumcondpraecantatio.addItemInput(makeVisCrystal(<aspect:praecantatio> * 1)* 4096);
 quantumcondpraecantatio.addItemOutput(<contenttweaker:praecantatio_vis_condensate>);
 quantumcondpraecantatio.build();
 
 val quantumcondaqua = RecipeBuilder.newBuilder("quantumcondaqua","quantum_condenser",4);
 quantumcondaqua.addEnergyPerTickInput(500000);
-quantumcondaqua.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})* 4096);
+quantumcondaqua.addItemInput(makeVisCrystal(<aspect:aqua> * 1)* 4096);
 quantumcondaqua.addItemOutput(<contenttweaker:aqua_vis_condensate>);
 quantumcondaqua.build();
 
 val quantumcondaversio = RecipeBuilder.newBuilder("quantumcondaversio","quantum_condenser",4);
 quantumcondaversio.addEnergyPerTickInput(500000);
-quantumcondaversio.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aversio"}]})* 4096);
+quantumcondaversio.addItemInput(makeVisCrystal(<aspect:aversio> * 1)* 4096);
 quantumcondaversio.addItemOutput(<contenttweaker:aversio_vis_condensate>);
 quantumcondaversio.build();
 
 val quantumcondfluctus = RecipeBuilder.newBuilder("quantumcondfluctus","quantum_condenser",4);
 quantumcondfluctus.addEnergyPerTickInput(500000);
-quantumcondfluctus.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fluctus"}]})* 4096);
+quantumcondfluctus.addItemInput(makeVisCrystal(<aspect:fluctus> * 1)* 4096);
 quantumcondfluctus.addItemOutput(<contenttweaker:fluctus_vis_condensate>);
 quantumcondfluctus.build();
 
 val quantumcondcognitio = RecipeBuilder.newBuilder("quantumcondcognitio","quantum_condenser",4);
 quantumcondcognitio.addEnergyPerTickInput(500000);
-quantumcondcognitio.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "cognitio"}]})* 4096);
+quantumcondcognitio.addItemInput(makeVisCrystal(<aspect:cognitio> * 1)* 4096);
 quantumcondcognitio.addItemOutput(<contenttweaker:cognitio_vis_condensate>);
 quantumcondcognitio.build();
 
 val quantumcondmythus = RecipeBuilder.newBuilder("quantumcondmythus","quantum_condenser",4);
 quantumcondmythus.addEnergyPerTickInput(500000);
-quantumcondmythus.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mythus"}]})* 4096);
+quantumcondmythus.addItemInput(makeVisCrystal(<aspect:mythus> * 1)* 4096);
 quantumcondmythus.addItemOutput(<contenttweaker:mythus_vis_condensate>);
 quantumcondmythus.build();
 
 val quantumcondspiritus = RecipeBuilder.newBuilder("quantumcondspiritus","quantum_condenser",4);
 quantumcondspiritus.addEnergyPerTickInput(500000);
-quantumcondspiritus.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]})* 4096);
+quantumcondspiritus.addItemInput(makeVisCrystal(<aspect:spiritus> * 1)* 4096);
 quantumcondspiritus.addItemOutput(<contenttweaker:spiritus_vis_condensate>);
 quantumcondspiritus.build();
 
 val quantumcondalienis = RecipeBuilder.newBuilder("quantumcondalienis","quantum_condenser",4);
 quantumcondalienis.addEnergyPerTickInput(500000);
-quantumcondalienis.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]})* 4096);
+quantumcondalienis.addItemInput(makeVisCrystal(<aspect:alienis> * 1)* 4096);
 quantumcondalienis.addItemOutput(<contenttweaker:alienis_vis_condensate>);
 quantumcondalienis.build();
 
 val quantumcondperditio = RecipeBuilder.newBuilder("quantumcondperditio","quantum_condenser",4);
 quantumcondperditio.addEnergyPerTickInput(500000);
-quantumcondperditio.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})* 4096);
+quantumcondperditio.addItemInput(makeVisCrystal(<aspect:perditio> * 1)* 4096);
 quantumcondperditio.addItemOutput(<contenttweaker:perditio_vis_condensate>);
 quantumcondperditio.build();
 
 val quantumcondcaeles = RecipeBuilder.newBuilder("quantumcondcaeles","quantum_condenser",4);
 quantumcondcaeles.addEnergyPerTickInput(500000);
-quantumcondcaeles.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]})* 4096);
+quantumcondcaeles.addItemInput(makeVisCrystal(<aspect:caeles> * 1)* 4096);
 quantumcondcaeles.addItemOutput(<contenttweaker:caeles_vis_condensate>);
 quantumcondcaeles.build();
 
 val quantumcondvitium = RecipeBuilder.newBuilder("quantumcondvitium","quantum_condenser",4);
 quantumcondvitium.addEnergyPerTickInput(500000);
-quantumcondvitium.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]})* 4096);
+quantumcondvitium.addItemInput(makeVisCrystal(<aspect:vitium> * 1)* 4096);
 quantumcondvitium.addItemOutput(<contenttweaker:vitium_vis_condensate>);
 quantumcondvitium.build();
 
 val quantumcondcoralos = RecipeBuilder.newBuilder("quantumcondcoralos","quantum_condenser",4);
 quantumcondcoralos.addEnergyPerTickInput(500000);
-quantumcondcoralos.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "coralos"}]})* 4096);
+quantumcondcoralos.addItemInput(makeVisCrystal(<aspect:coralos> * 1)* 4096);
 quantumcondcoralos.addItemOutput(<contenttweaker:coralos_vis_condensate>);
 quantumcondcoralos.build();
 
 val quantumcondvitreus = RecipeBuilder.newBuilder("quantumcondvitreus","quantum_condenser",4);
 quantumcondvitreus.addEnergyPerTickInput(500000);
-quantumcondvitreus.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitreus"}]})* 4096);
+quantumcondvitreus.addItemInput(makeVisCrystal(<aspect:vitreus> * 1)* 4096);
 quantumcondvitreus.addItemOutput(<contenttweaker:vitreus_vis_condensate>);
 quantumcondvitreus.build();
 
 val quantumcondauram = RecipeBuilder.newBuilder("quantumcondauram","quantum_condenser",4);
 quantumcondauram.addEnergyPerTickInput(500000);
-quantumcondauram.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "auram"}]})* 4096);
+quantumcondauram.addItemInput(makeVisCrystal(<aspect:auram> * 1)* 4096);
 quantumcondauram.addItemOutput(<contenttweaker:auram_vis_condensate>);
 quantumcondauram.build();
 
 val quantumcondherba = RecipeBuilder.newBuilder("quantumcondherba","quantum_condenser",4);
 quantumcondherba.addEnergyPerTickInput(500000);
-quantumcondherba.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]})* 4096);
+quantumcondherba.addItemInput(makeVisCrystal(<aspect:herba> * 1)* 4096);
 quantumcondherba.addItemOutput(<contenttweaker:herba_vis_condensate>);
 quantumcondherba.build();
 
 val quantumcondgelum = RecipeBuilder.newBuilder("quantumcondgelum","quantum_condenser",4);
 quantumcondgelum.addEnergyPerTickInput(500000);
-quantumcondgelum.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]})* 4096);
+quantumcondgelum.addItemInput(makeVisCrystal(<aspect:gelum> * 1)* 4096);
 quantumcondgelum.addItemOutput(<contenttweaker:gelum_vis_condensate>);
 quantumcondgelum.build();
 
 val quantumcondinstrumentum = RecipeBuilder.newBuilder("quantumcondinstrumentum","quantum_condenser",4);
 quantumcondinstrumentum.addEnergyPerTickInput(500000);
-quantumcondinstrumentum.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "instrumentum"}]})* 4096);
+quantumcondinstrumentum.addItemInput(makeVisCrystal(<aspect:instrumentum> * 1)* 4096);
 quantumcondinstrumentum.addItemOutput(<contenttweaker:instrumentum_vis_condensate>);
 quantumcondinstrumentum.build();
 
 val quantumcondmotus = RecipeBuilder.newBuilder("quantumcondmotus","quantum_condenser",4);
 quantumcondmotus.addEnergyPerTickInput(500000);
-quantumcondmotus.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "motus"}]})* 4096);
+quantumcondmotus.addItemInput(makeVisCrystal(<aspect:motus> * 1)* 4096);
 quantumcondmotus.addItemOutput(<contenttweaker:motus_vis_condensate>);
 quantumcondmotus.build();
 

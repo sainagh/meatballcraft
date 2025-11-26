@@ -146,9 +146,9 @@ mods.thaumcraft.Crucible.registerRecipe("crucrecgluttony", "", <contenttweaker:r
 
 val infbucketofundeath = RecipeBuilder.newBuilder("infbucketofundeath","arcane_autoinfuser",120);
 infbucketofundeath.addEnergyPerTickInput(100);
-infbucketofundeath.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mortuus"}]})*30);
-infbucketofundeath.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]})*20);
-infbucketofundeath.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]})*10);
+infbucketofundeath.addItemInput(makeVisCrystal(<aspect:mortuus> * 1)*30);
+infbucketofundeath.addItemInput(makeVisCrystal(<aspect:infernum> * 1)*20);
+infbucketofundeath.addItemInput(makeVisCrystal(<aspect:vitium> * 1)*10);
 infbucketofundeath.addItemInput(<forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}));
 infbucketofundeath.addItemInput(<contenttweaker:recursion_of_gluttony>*2);
 infbucketofundeath.addItemInput(<contenttweaker:cuendillar_plate>*2);

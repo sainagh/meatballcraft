@@ -41,19 +41,20 @@ mods.thermalexpansion.Insolator.addRecipeMonoculture(<ebwizardry:magic_crystal>,
  <ebwizardry:crystal_flower>, 
  105);
 
-mods.thermalexpansion.Insolator.addRecipeMonoculture(<erebus:materials:3>,
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<erebus:materials:3>*16,
  <erebus:materials:3>, 
  <thermalfoundation:material:1028>, 
  25000, 
- <erebus:materials:3>*15, 
+ <erebus:materials:3>, 
  125);
 
-mods.thermalexpansion.Insolator.addRecipeMonoculture(<erebus:materials:3>,
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<erebus:materials:3>*60,
  <erebus:materials:3>, 
  <aoa3:rosidons>, 
  25000, 
- <erebus:materials:3>*60, 
+ <erebus:materials:3>, 
  155);
+
 
 mods.thermalexpansion.Insolator.addRecipeMonoculture(<bewitchment:aconitum>*3,
  <bewitchment:aconitum_seeds>, 

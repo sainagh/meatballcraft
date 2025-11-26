@@ -1,9 +1,9 @@
 scripts.PuzzleUtil.addPuzzleShapeless("ezmithminiteboii",<contenttweaker:ghoul_spirit>,
 [<aoa3:primed_ghoulasm>,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mythus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "auram"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitreus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]})]);
+makeVisCrystal(<aspect:mythus> * 1),
+makeVisCrystal(<aspect:auram> * 1),
+makeVisCrystal(<aspect:vitreus> * 1),
+makeVisCrystal(<aspect:potentia> * 1)]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thaumadditions:mithminite_ingot>, 
 300, 

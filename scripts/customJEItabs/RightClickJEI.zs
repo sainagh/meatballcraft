@@ -299,6 +299,11 @@ rclickdimlet37.addInput(<contenttweaker:plea_to_nature>);
 rclickdimlet37.setOutputs([<contenttweaker:fractal_fragment_natural_law>]);
 rclickdimlet37.build();
 
+val rclickdimlet38 = JEI.createJeiRecipe("right_click_meatball");
+rclickdimlet38.addInput(<contenttweaker:spark_of_unhallowing>);
+rclickdimlet38.setOutputs([<contenttweaker:recursion_of_growth>]);
+rclickdimlet38.build();
+
 
 
 

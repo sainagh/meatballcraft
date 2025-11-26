@@ -42,6 +42,13 @@ recipes.addShaped(<contenttweaker:demonologist_callstone>,
 [<contenttweaker:imp_skin>, <contenttweaker:sigil_power>, <contenttweaker:imp_skin>],
 [<forestry:bee_combs:2>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "forestry.speciesDemonic"}), <forestry:bee_combs:2>]]);
 
+
+recipes.addShaped(<contenttweaker:baku_heart>*4,
+[[<forestry:bee_combs:2>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "forestry.speciesDemonic"}), <forestry:bee_combs:2>],
+[<contenttweaker:baku_heart>, <bewitchment:sigil_ruin>, <contenttweaker:baku_heart>],
+[<forestry:bee_combs:2>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 0, allele: "forestry.speciesDemonic"}), <forestry:bee_combs:2>]]);
+
+
 val oreDemonStoneOreDict = <ore:oreDemonStone>;
 oreDemonStoneOreDict.add(<contenttweaker:demon_stone>);
 

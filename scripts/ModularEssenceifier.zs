@@ -364,7 +364,7 @@ essenceifier72.build();
 
 val essenceifier73 = RecipeBuilder.newBuilder("essenceifier73","innerved_essenceifier",2);
 essenceifier73.addItemInput(<mysticalagriculture:alumite_essence>*64);
-essenceifier73.addItemOutput(<plustic:alumiteingot>*32);
+essenceifier73.addItemOutput(<tconstruct:ingots:6>*32);
 essenceifier73.build();
 
 val essenceifier74 = RecipeBuilder.newBuilder("essenceifier74","innerved_essenceifier",2);

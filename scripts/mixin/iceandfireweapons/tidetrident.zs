@@ -1,17 +1,14 @@
+#modloaded iceandfire
 #loader mixin
 
-import mixin.CallbackInfo;
-import native.com.github.alexthe666.iceandfire.entity.EntityTideTrident;
-
-#mixin Mixin
-#{targets: "com.github.alexthe666.iceandfire.entity.EntityTideTrident"}
+#mixin {value: "com.github.alexthe666.iceandfire.entity.EntityTideTrident"}
 zenClass MixinEntityTideTrident {
     #mixin ModifyConstant
     #{
-    #  method: "EntityTideTrident",
+    #  method: "<init>",
     #  constant: {doubleValue: 6.0D}
     #}
-    function ChangeTideTridentdamage(existing as double) as double {
-        return 35.0 as double;
+    function mbc_modify_dmg_TideTrident(original as double) as double {
+        return 35.0d;
     }
 }

@@ -110,6 +110,8 @@
 <contenttweaker:hopeful_return_callstone>.addTooltip(format.red("Use in this dimension:  Arcana Roof"));
 <contenttweaker:hollow_stag_callstone>.addTooltip(format.red("Use in this dimension:  Erebus"));
 <contenttweaker:broken_oath>.addTooltip(format.red("Use in this dimension:  Twilight Forest"));
+<contenttweaker:rite_of_unhollowing>.addTooltip(format.red("Use in this dimension:  Erebus"));
+<contenttweaker:summon_of_the_gatekeeper>.addTooltip(format.red("Use in this dimension:  Deep Dark"));
 
 
 

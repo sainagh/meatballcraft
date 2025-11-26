@@ -1,17 +1,174 @@
 {
   "preRequisites:11": [
-    1569647533
+    1569647533,
+    81569973
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "§7§oAny material combination will be valid for this quest.\n\nCheck the §cTinkerer\u0027s Toolbox §7§oquests for good materials depending on your chapter",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "minecraft:nether_star"
+        "ForgeCaps:10": {
+          "plustic::10": {
+            "Items:9": {},
+            "Size:3": 1
+          },
+          "plustic:fruitsalad_cap:10": {
+            "Items:9": {},
+            "Size:3": 5
+          },
+          "plustic:musicofthespheres_cap:10": {
+            "Items:9": {},
+            "Size:3": 1
+          }
+        },
+        "id:8": "plustic:katana",
+        "tag:10": {
+          "Modifiers:9": {
+            "0:10": {
+              "color:3": -5338513,
+              "identifier:8": "fractured",
+              "level:3": 1
+            },
+            "1:10": {
+              "color:3": -5338513,
+              "identifier:8": "sharp",
+              "level:3": 1
+            },
+            "2:10": {
+              "color:3": 16777215,
+              "identifier:8": "toolleveling",
+              "level:3": 1
+            }
+          },
+          "PlusTiC_Counter:5": 0.0,
+          "Special:10": {
+            "Categories:9": {
+              "0:8": "tool",
+              "1:8": "weapon"
+            }
+          },
+          "Stats:10": {
+            "Attack:5": 5.5,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 242,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 2,
+            "MiningSpeed:5": 5.0
+          },
+          "StatsOriginal:10": {
+            "Attack:5": 4.0,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 242,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 2,
+            "MiningSpeed:5": 5.0
+          },
+          "TinkerData:10": {
+            "Materials:9": {
+              "0:8": "mod_lavacow.chitin",
+              "1:8": "mod_lavacow.chitin",
+              "2:8": "mod_lavacow.chitin",
+              "3:8": "mod_lavacow.chitin"
+            },
+            "Modifiers:9": {
+              "0:8": "toolleveling"
+            }
+          },
+          "Traits:9": {
+            "0:8": "fractured",
+            "1:8": "sharp",
+            "2:8": "toolleveling"
+          }
+        }
       },
-      "name:8": "New Quest"
+      "name:8": "Tinker\u0027s Katana"
     }
   },
   "questID:3": 1149819793,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "plustic::10": {
+              "Items:9": {},
+              "Size:3": 1
+            },
+            "plustic:fruitsalad_cap:10": {
+              "Items:9": {},
+              "Size:3": 5
+            },
+            "plustic:musicofthespheres_cap:10": {
+              "Items:9": {},
+              "Size:3": 1
+            }
+          },
+          "id:8": "plustic:katana",
+          "tag:10": {
+            "Modifiers:9": {
+              "0:10": {
+                "color:3": -5338513,
+                "identifier:8": "fractured",
+                "level:3": 1
+              },
+              "1:10": {
+                "color:3": -5338513,
+                "identifier:8": "sharp",
+                "level:3": 1
+              },
+              "2:10": {
+                "color:3": 16777215,
+                "identifier:8": "toolleveling",
+                "level:3": 1
+              }
+            },
+            "PlusTiC_Counter:5": 0.0,
+            "Special:10": {
+              "Categories:9": {
+                "0:8": "tool",
+                "1:8": "weapon"
+              }
+            },
+            "Stats:10": {
+              "Attack:5": 5.5,
+              "AttackSpeedMultiplier:5": 1.0,
+              "Durability:3": 242,
+              "FreeModifiers:3": 3,
+              "HarvestLevel:3": 2,
+              "MiningSpeed:5": 5.0
+            },
+            "StatsOriginal:10": {
+              "Attack:5": 4.0,
+              "AttackSpeedMultiplier:5": 1.0,
+              "Durability:3": 242,
+              "FreeModifiers:3": 3,
+              "HarvestLevel:3": 2,
+              "MiningSpeed:5": 5.0
+            },
+            "TinkerData:10": {
+              "Materials:9": {
+                "0:8": "mod_lavacow.chitin",
+                "1:8": "mod_lavacow.chitin",
+                "2:8": "mod_lavacow.chitin",
+                "3:8": "mod_lavacow.chitin"
+              },
+              "Modifiers:9": {
+                "0:8": "toolleveling"
+              }
+            },
+            "Traits:9": {
+              "0:8": "fractured",
+              "1:8": "sharp",
+              "2:8": "toolleveling"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

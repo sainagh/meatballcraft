@@ -684,7 +684,7 @@ mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:irradiated_naquadah_core>
 
 recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "essence_of_sane_thoughts", Amount: 1000}),
 [[<thaumictinkerer:kamiresource:3>, <thaumcraft:brain_box>.withTag({display: {Name: "ᚽᛠᛇᛒᚽᛃᛒᚶᚣᚽᚤᛠᚽᚥᛊ",Lore:["§d§oTrue Name§r"]}}), <thaumictinkerer:kamiresource:3>],
-[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "cognitio"}]}), <forge:bucketfilled>.withTag({FluidName: "vapor_of_levity", Amount: 1000}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "cognitio"}]})],
+[makeVisCrystal(<aspect:cognitio> * 1), <forge:bucketfilled>.withTag({FluidName: "vapor_of_levity", Amount: 1000}), makeVisCrystal(<aspect:cognitio> * 1)],
 [<thaumictinkerer:kamiresource:3>, <botania:incensestick>.withTag({brewKey: "warpWard"}), <thaumictinkerer:kamiresource:3>]]);
 
 recipes.addShaped(<thaumcraft:mechanism_simple>*4,

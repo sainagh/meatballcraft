@@ -93,6 +93,23 @@
 			"contenttweaker:dreadful_rhenium_catalyst"
         ]
     },
+	{
+        "mode": "ADD",
+        "result": "contenttweaker:eden_star,8",
+        "catalyst": "minecraft:nether_star,8",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:runic_rhenium_catalyst",
+            "contenttweaker:runic_rhenium_catalyst",
+            "contenttweaker:runic_rhenium_catalyst",
+            "contenttweaker:runic_rhenium_catalyst",
+            "contenttweaker:runic_rhenium_catalyst",
+            "contenttweaker:runic_rhenium_catalyst",
+			"contenttweaker:runic_rhenium_catalyst",
+			"contenttweaker:runic_rhenium_catalyst"
+        ]
+    },
     {
         "mode": "REMOVE",
         "result": "draconicevolution:crafting_injector,1,2",
@@ -301,6 +318,27 @@
             "contenttweaker:pixonia_heart",
             "contenttweaker:pixonia_heart",
             "contenttweaker:pixonia_heart",
+            "contenttweaker:gilded_rainbow_heart_canister",
+            "contenttweaker:gilded_rainbow_heart_canister"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:wildwood_star,8",
+        "catalyst": "minecraft:nether_star,8",
+        "energy": 5000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:brave_heart_of_pixonia",
+            "contenttweaker:brave_heart_of_pixonia",
+            "contenttweaker:brave_heart_of_pixonia",
+            "contenttweaker:brave_heart_of_pixonia",
+            "contenttweaker:brave_heart_of_pixonia",
+            "contenttweaker:brave_heart_of_pixonia",
+            "contenttweaker:brave_heart_of_pixonia",
+            "contenttweaker:brave_heart_of_pixonia",
+            "contenttweaker:gilded_rainbow_heart_canister",
+            "contenttweaker:gilded_rainbow_heart_canister",
             "contenttweaker:gilded_rainbow_heart_canister",
             "contenttweaker:gilded_rainbow_heart_canister"
         ]
@@ -1100,8 +1138,8 @@
         "energy": 256000,
         "tier": 3,
         "ingredients": [
-            "draconicevolution:wyvern_fulcrum",
-            "draconicevolution:wyvern_fulcrum",
+            "contenttweaker:wyvern_fulcrum",
+            "contenttweaker:wyvern_fulcrum",
             "contenttweaker:wyvern_fulcrum",
             "contenttweaker:draconic_fulcrum",
             "contenttweaker:draconic_fulcrum",

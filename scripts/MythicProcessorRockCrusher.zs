@@ -154,7 +154,7 @@ mythrockcrush19.build();
 val mythrockcrush20 = RecipeBuilder.newBuilder("mythrockcrush20","mythic_processor_rock_crusher",2);
 mythrockcrush20.addEnergyPerTickInput(80000);
 mythrockcrush20.addItemInput(<techreborn:dust:39>);
-mythrockcrush20.addItemOutput(<contenttweaker:tiny_gallium_dust>);
+mythrockcrush20.addItemOutput(<contenttweaker:tiny_germanium_dust>);
 mythrockcrush20.addItemOutput(<thermalfoundation:material:0>);
 mythrockcrush20.build();
 

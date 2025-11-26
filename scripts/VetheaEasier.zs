@@ -866,3 +866,8 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:nightmare_ge
 <bloodarsenal:slate:4>, <bloodarsenal:slate:4>,
 <abyssalcraft:oc>, <abyssalcraft:oc>,
 <divinerpg:teaker_lump>, <divinerpg:teaker_lump>]);
+
+
+
+
+

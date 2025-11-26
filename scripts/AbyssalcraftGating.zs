@@ -33,9 +33,9 @@ recipes.addShaped(<abyssalcraft:dreadfragment>*4,
 [null, <minecraft:rotten_flesh>, null]]);
 
 recipes.addShaped(<abyssalcraft:coraliumore>,
-[[<xreliquary:witch_hat>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]}), <xreliquary:witch_hat>],
+[[<xreliquary:witch_hat>, makeVisCrystal(<aspect:vitium> * 1), <xreliquary:witch_hat>],
 [<abyssalcraft:shoggothflesh:0>, <minecraft:emerald_ore>, <abyssalcraft:shoggothflesh:0>],
-[<xreliquary:witch_hat>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]}), <xreliquary:witch_hat>]]);
+[<xreliquary:witch_hat>, makeVisCrystal(<aspect:vitium> * 1), <xreliquary:witch_hat>]]);
 
 recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "abyssalcraft:shadowcreature"}}),
 [[<aoa3:void_scales>, <thaumcraft:crystal_essence>, <aoa3:void_scales>],

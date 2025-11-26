@@ -470,6 +470,53 @@ mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergi
 mods.chisel.Carving.addVariation("densecoveredcoloredcablegroup", <appliedenergistics2:part:516>);
 
 
+
+
+
+mods.chisel.Carving.addGroup("wirelessconnectorgroup");
+
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:0>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:1>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:2>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:3>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:4>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:5>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:6>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:7>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:8>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:9>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:10>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:11>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:12>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:13>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:14>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:15>);
+mods.chisel.Carving.addVariation("wirelessconnectorgroup", <ae2stuff:wireless:16>);
+
+
+
+
+mods.chisel.Carving.addGroup("wirelesshubgroup");
+
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:0>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:1>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:2>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:3>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:4>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:5>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:6>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:7>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:8>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:9>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:10>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:11>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:12>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:13>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:14>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:15>);
+mods.chisel.Carving.addVariation("wirelesshubgroup", <ae2stuff:wireless_hub:16>);
+
+
 mods.nuclearcraft.pressurizer.addRecipe([<ore:dustCertusQuartz>, <appliedenergistics2:crystal_seed:0>]);
 mods.nuclearcraft.pressurizer.addRecipe([<ore:dustQuartz>, <appliedenergistics2:crystal_seed:600>]);
 mods.nuclearcraft.pressurizer.addRecipe([<ore:dustNetherQuartz>, <appliedenergistics2:crystal_seed:600>]);

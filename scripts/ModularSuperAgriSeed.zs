@@ -761,6 +761,13 @@ hypergrowth103.setChance(0.0);
 hypergrowth103.addItemOutput(<divinerpg:moonbulb>*64);
 hypergrowth103.build();
 
+val hypergrowth104 = RecipeBuilder.newBuilder("hypergrowth104","hypergrowth_insolator",10);
+hypergrowth104.addFluidInput(<fluid:hot_spring_water>*100);
+hypergrowth104.addItemInput(<erebus:materials:3>);
+hypergrowth104.setChance(0.0);
+hypergrowth104.addItemOutput(<erebus:materials:3>*64);
+hypergrowth104.build();
+
 
 
 

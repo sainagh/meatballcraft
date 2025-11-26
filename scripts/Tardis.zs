@@ -638,11 +638,11 @@ dysoncompressorshard.addItemInput(<contenttweaker:mixed_metal_shard>*32);
 dysoncompressorshard.addItemOutput(<contenttweaker:black_hole_alloy_clump>);
 dysoncompressorshard.build();
 
-val nukeinfiniteunholy = RecipeBuilder.newBuilder("nukeinfiniteunholy","safe_nuke_environment",2);
-nukeinfiniteunholy.addItemInput(<techreborn:nuke>);
-nukeinfiniteunholy.addFluidInput(<fluid:infinitely_unholy_radioactive_mix>*1);
-nukeinfiniteunholy.addFluidOutput(<fluid:cold_plasma>*1000);
-nukeinfiniteunholy.build();
+// val nukeinfiniteunholy = RecipeBuilder.newBuilder("nukeinfiniteunholy","safe_nuke_environment",2);
+// nukeinfiniteunholy.addItemInput(<techreborn:nuke>);
+// nukeinfiniteunholy.addFluidInput(<fluid:infinitely_unholy_radioactive_mix>*1);
+// nukeinfiniteunholy.addFluidOutput(<fluid:cold_plasma>*1000);
+// nukeinfiniteunholy.build();
 
 
 val irradiationrainbowtopblack = RecipeBuilder.newBuilder("irradiationrainbowtopblack","dyson_irradiator_top",2);
@@ -881,12 +881,12 @@ treelifehopefulreturn.addItemInput(<contenttweaker:fractal_fragment_natural_law>
 treelifehopefulreturn.addItemOutput(<contenttweaker:hopeful_return_callstone>);
 treelifehopefulreturn.build();
 
-recipes.addShaped(<contenttweaker:sideral_living_gemstone>*4,
-[[null, <contenttweaker:bifrost_gem>, null],
+recipes.addShaped(<contenttweaker:sideral_living_gemstone>*8,
+[[<contenttweaker:bifrost_gem>, <contenttweaker:bifrost_gem>, <contenttweaker:bifrost_gem>],
 [<contenttweaker:bifrost_gem>, <bloodmagic:blood_tank:6>.withTag({Fluid: {FluidName: "sideral_life_essence", Amount: 1024000}}), <contenttweaker:bifrost_gem>],
-[null, <contenttweaker:bifrost_gem>, null]]);
+[<contenttweaker:bifrost_gem>, <contenttweaker:bifrost_gem>, <contenttweaker:bifrost_gem>]]);
 
-val treeoflifelivingconstellation = RecipeBuilder.newBuilder("treeoflifelivingconstellation","tree_of_life",10);
+val treeoflifelivingconstellation = RecipeBuilder.newBuilder("treeoflifelivingconstellation","tree_of_life",2);
 treeoflifelivingconstellation.addItemInput(<contenttweaker:construct_of_natural_balance>);
 treeoflifelivingconstellation.setChance(0.0);
 treeoflifelivingconstellation.addItemInput(<contenttweaker:gem_of_cyclical_hope>);
@@ -936,7 +936,7 @@ mods.botania.RuneAltar.addRecipe(<contenttweaker:twilit_warren_shredder>,[<conte
 mods.tconstruct.Melting.addRecipe(<liquid:molten_echo_warren> * 144,<contenttweaker:echo_warren_bar>);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:echo_warren_bar>, <tconstruct:cast_custom:0>, <liquid:molten_echo_warren>, 144, false, 80);
 
-mods.nuclearcraft.melter.addRecipe([<contenttweaker:echo_warren_bar>, <fluid:molten_echo_warren>]);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:echo_warren_bar>, <fluid:molten_echo_warren>*144]);
 
 
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:resounding_warren_alloy_block>, <contenttweaker:warren_plate>, <liquid:molten_echo_warren>, 1296, true);
@@ -950,4 +950,26 @@ recipes.addShapeless(<contenttweaker:yggdrasil_wood>*2,
 mods.storagedrawers.Compaction.add(<contenttweaker:resounding_warren_alloy_block>, <avaritiaitem:resounding_warren_alloy>, 9);
 
 
+val easiereverburning1 = RecipeBuilder.newBuilder("easiereverburning1","fractallite_furnace",2);
+easiereverburning1.addFluidInput(<fluid:pre_baryonic_plasma>*2);
+easiereverburning1.addItemInput(<contenttweaker:sacred_cinders_log>*512);
+easiereverburning1.addItemOutput(<contenttweaker:everburning_seed>);
+easiereverburning1.build();
 
+val easiereverburning2 = RecipeBuilder.newBuilder("easiereverburning2","fractallite_furnace",2);
+easiereverburning2.addFluidInput(<fluid:low_grade_space_time_fuel>*2);
+easiereverburning2.addItemInput(<contenttweaker:sacred_cinders_log>*256);
+easiereverburning2.addItemOutput(<contenttweaker:everburning_seed>);
+easiereverburning2.build();
+
+val easiereverburning3 = RecipeBuilder.newBuilder("easiereverburning3","fractallite_furnace",2);
+easiereverburning3.addFluidInput(<fluid:medium_grade_space_time_fuel>*2);
+easiereverburning3.addItemInput(<contenttweaker:sacred_cinders_log>*128);
+easiereverburning3.addItemOutput(<contenttweaker:everburning_seed>);
+easiereverburning3.build();
+
+val easiereverburning4 = RecipeBuilder.newBuilder("easiereverburning4","fractallite_furnace",2);
+easiereverburning4.addFluidInput(<fluid:high_grade_space_time_fuel>*2);
+easiereverburning4.addItemInput(<contenttweaker:sacred_cinders_log>*64);
+easiereverburning4.addItemOutput(<contenttweaker:everburning_seed>);
+easiereverburning4.build();
