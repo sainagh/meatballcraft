@@ -3022,7 +3022,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:radioactive_residue>.addTooltip(format.red("RestlessClam likes radiation"));
 
-<techreborn:dust:5>.addTooltip(format.red("Put aluminum ore in an industrial grinder"));
+<techreborn:dust:5>.addTooltip(format.red("Put bauxite ore in an industrial grinder"));
 
 <enderio:block_soul_binder>.addTooltip(format.red("Cyclic liquid XP can be piped in directly"));
 
