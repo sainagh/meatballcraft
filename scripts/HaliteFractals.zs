@@ -54,14 +54,14 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:first_order_
 
 scripts.PuzzleUtil.addPuzzleShapeless("infusethatstormhoms",<contenttweaker:infuser_fabrial>,
 [<contenttweaker:gemheart>,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "motus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitreus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ventus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})
+makeVisCrystal(<aspect:motus> * 1),
+makeVisCrystal(<aspect:perditio> * 1),
+makeVisCrystal(<aspect:terra> * 1),
+makeVisCrystal(<aspect:aqua> * 1),
+makeVisCrystal(<aspect:aer> * 1),
+makeVisCrystal(<aspect:vitreus> * 1),
+makeVisCrystal(<aspect:ventus> * 1),
+makeVisCrystal(<aspect:luna> * 1)
 ]);
 
 recipes.addShaped(<contenttweaker:stormlight_sphere>,

@@ -307,7 +307,7 @@ item.contenttweaker.gemenyte_egg.name=Gemenyte Egg
 item.contenttweaker.gravitite_lens.name=Gravitite Lens
 item.contenttweaker.fluix_lens.name=Fluix Lens
 item.contenttweaker.twilight_essence.name=Twilight Essence
-item.contenttweaker.blue_gemstone_egg.name=Blue gemstone Egg
+item.contenttweaker.blue_gemstone_egg.name=Blue Gemstone Egg
 item.contenttweaker.twilight_gear.name=Twilight Gear
 item.contenttweaker.instant_power_junction.name=Instant Power Junction
 item.contenttweaker.fire_construct.name=Fire Construct
@@ -1681,7 +1681,7 @@ item.contenttweaker.must_be_overworld_abyssal_dimensions.name=Must be in the Ove
 item.contenttweaker.right_click_cobble_with_necronomicon.name=Right click cobblestone with the necronomicon
 item.contenttweaker.built_in_launchpad.name=Rockets must be assembled in a launchpad
 item.contenttweaker.rocket_works_with_these_blocks.name=To make a rocket you need at least these blocks
-item.contenttweaker.planet_space_station_chip_computer.name=Plant and Space Station ID chips are placed in the Guidance Computer
+item.contenttweaker.planet_space_station_chip_computer.name=Planet and Space Station ID chips are placed in the Guidance Computer
 item.contenttweaker.to_make_statues_safe.name=These configurations will make statues safe, right click monolith stone with Necronomicon
 item.contenttweaker.items_in_all.name=Items are placed in both Display Stands and Empowerer (follow JEI)
 item.contenttweaker.energy_display_stands.name=Only the Display Stands need energy
@@ -2173,7 +2173,7 @@ item.contenttweaker.whispering_heart_of_hearts.name=Whispering Heart of the Dark
 item.contenttweaker.soul_of_the_dragonslayer.name=Soul of the Dragonslayer
 item.contenttweaker.berserker_steel_ingot.name=Dragonslayer Steel Ingot
 item.contenttweaker.superfocused_plate_mythic.name=Superfocused Plate of Mythic Matter
-item.contenttweaker.puzzle_solution_dragonslayer.name=Puzzle Solution: Dragonslyer
+item.contenttweaker.puzzle_solution_dragonslayer.name=Puzzle Solution: Dragonslayer
 item.contenttweaker.dread_crown.name=Dread Crown
 item.contenttweaker.icy_dreadful_shard.name=Icy Dreadful Shard
 item.contenttweaker.dreadful_shard.name=Unleashed Dreadful Shard
@@ -3932,5 +3932,7 @@ item.contenttweaker.trait_tearofarcana.name=Trait Description: Tear of Arcana
 item.contenttweaker.trait_giggity.name=Trait Description: Giggity
 
 
+item.contenttweaker.investiture_of_the_direwolf.name=Investiture of the Direwolf
+item.contenttweaker.master_spell_bestia.name=Master Spell Bestia
 
 

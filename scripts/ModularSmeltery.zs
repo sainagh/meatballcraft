@@ -160,6 +160,14 @@ forgewyvadamant.addFluidOutput(<fluid:molten_adamantium>*144);
 forgewyvadamant.build();
 
 
+val forgewyvascdrac = RecipeBuilder.newBuilder("forgewyvascdrac","forge_of_the_wyvern",2);
+forgewyvascdrac.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvascdrac.setChance(0.0);
+forgewyvascdrac.addItemInput(<contenttweaker:ascended_draconic_alloy>);
+forgewyvascdrac.addFluidOutput(<fluid:ascended_draconic_alloy>*144);
+forgewyvascdrac.build();
+
+
 
 
 

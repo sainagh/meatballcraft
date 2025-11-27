@@ -951,28 +951,24 @@ mods.storagedrawers.Compaction.add(<contenttweaker:resounding_warren_alloy_block
 
 
 val easiereverburning1 = RecipeBuilder.newBuilder("easiereverburning1","fractallite_furnace",2);
-easiereverburning1.addEnergyPerTickInput(1000000000);
 easiereverburning1.addFluidInput(<fluid:pre_baryonic_plasma>*2);
 easiereverburning1.addItemInput(<contenttweaker:sacred_cinders_log>*512);
 easiereverburning1.addItemOutput(<contenttweaker:everburning_seed>);
 easiereverburning1.build();
 
 val easiereverburning2 = RecipeBuilder.newBuilder("easiereverburning2","fractallite_furnace",2);
-easiereverburning2.addEnergyPerTickInput(1000000000);
 easiereverburning2.addFluidInput(<fluid:low_grade_space_time_fuel>*2);
 easiereverburning2.addItemInput(<contenttweaker:sacred_cinders_log>*256);
 easiereverburning2.addItemOutput(<contenttweaker:everburning_seed>);
 easiereverburning2.build();
 
 val easiereverburning3 = RecipeBuilder.newBuilder("easiereverburning3","fractallite_furnace",2);
-easiereverburning3.addEnergyPerTickInput(1000000000);
 easiereverburning3.addFluidInput(<fluid:medium_grade_space_time_fuel>*2);
 easiereverburning3.addItemInput(<contenttweaker:sacred_cinders_log>*128);
 easiereverburning3.addItemOutput(<contenttweaker:everburning_seed>);
 easiereverburning3.build();
 
 val easiereverburning4 = RecipeBuilder.newBuilder("easiereverburning4","fractallite_furnace",2);
-easiereverburning4.addEnergyPerTickInput(1000000000);
 easiereverburning4.addFluidInput(<fluid:high_grade_space_time_fuel>*2);
 easiereverburning4.addItemInput(<contenttweaker:sacred_cinders_log>*64);
 easiereverburning4.addItemOutput(<contenttweaker:everburning_seed>);

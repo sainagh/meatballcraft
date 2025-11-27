@@ -42,10 +42,10 @@ function addSeedAnalysisRecipe(seedItem as IItemStack, recipeName as string) {
     );
 }
 
+
 // Define all seeds that need analysis recipes
 var seedsToAnalyze as IItemStack[] = [
     <agricraft:agri_seed>,
-    <agricraft:clipping>,
     <mysticalagradditions:tier6_inferium_seeds>,
     <mysticalagradditions:nether_star_seeds>,
     <mysticalagradditions:dragon_egg_seeds>,
@@ -151,3 +151,33 @@ var seedsToAnalyze as IItemStack[] = [
 for i, seed in seedsToAnalyze {
     addSeedAnalysisRecipe(seed, "scan_seed_" + i);
 }
+
+
+
+
+
+
+
+
+val agriclip = <agricraft:clipping>;
+recipes.addShapeless(
+    "scanagriclipping",<agricraft:agri_seed>,
+    [(agriclip.marked("mark").transformNew(function(item) { return item.withTag(item.tag); })).noReturn(), 
+    <contenttweaker:seed_analyzer>.reuse()],
+    function(out,ins,cInfo){
+		var species = ins.mark.tag.agri_seed as string;
+        var strength = ins.mark.tag.agri_strength as byte;
+        var gain = ins.mark.tag.agri_gain as byte;
+        var growth = ins.mark.tag.agri_growth as byte;
+        var analyzed = 1 as byte;
+        var updatedTag as IData = {
+                agri_analyzed: analyzed,
+                agri_strength: strength,
+                agri_gain: gain,
+                agri_seed: species,
+                agri_growth: growth
+			};
+		return out.updateTag(updatedTag);
+    },
+    null
+);

@@ -47,6 +47,10 @@
         "modularmachinery:blockenergyinputhatch",
         "modularmachinery:blockenergyoutputhatch"
     ],
+    "elemaltar_input": [
+        "modularmachinery:blocklifeessenceproviderinput",
+        "modularmachinery:blockfluidinputhatch"
+    ],
     "casings_item": [
         "modularmachinery:blockoutputbus",
         "modularmachinery:blockinputbus",

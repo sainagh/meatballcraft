@@ -40,10 +40,10 @@ mods.thaumcraft.Crucible.registerRecipe("mythusgem", "", <contenttweaker:mythus_
 
 // val supergemsinfusion = RecipeBuilder.newBuilder("supergemsinfusion","arcane_autoinfuser",1200);
 // supergemsinfusion.addEnergyPerTickInput(100);
-// supergemsinfusion.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}));
-// supergemsinfusion.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}));
-// supergemsinfusion.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}));
-// supergemsinfusion.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}));
+// supergemsinfusion.addItemInput(makeVisCrystal(<aspect:aer> * 1));
+// supergemsinfusion.addItemInput(makeVisCrystal(<aspect:terra> * 1));
+// supergemsinfusion.addItemInput(makeVisCrystal(<aspect:ignis> * 1));
+// supergemsinfusion.addItemInput(makeVisCrystal(<aspect:aqua> * 1));
 // supergemsinfusion.addItemInput(<contenttweaker:mythus_gem>);
 // supergemsinfusion.addItemInput(<contenttweaker:vitium_gem>);
 // supergemsinfusion.addItemInput(<contenttweaker:caeles_gem>);
@@ -74,4 +74,3 @@ recipes.addShaped(<thaumadditions:adaminite_block>*4,
 [[<contenttweaker:resonating_stone>, <materialpart:dreaded_steel:ingot>, <contenttweaker:resonating_stone>],
 [<contenttweaker:tennessine_gem>, <thaumadditions:mithrillium_block>, <contenttweaker:tennessine_gem>],
 [<contenttweaker:resonating_stone>, <contenttweaker:primordial_star>, <contenttweaker:resonating_stone>]]);
-

@@ -153,7 +153,7 @@ recipes.addShaped(<divinerpg:lava_lamp>,
 mods.nuclearcraft.melter.addRecipe([<aoa3:raw_charger_shank>, <fluid:charger>*20]);
 mods.nuclearcraft.melter.addRecipe([<aoa3:charger_shank>, <fluid:charger>*17]);
 
-mods.nuclearcraft.alloy_furnace.addRecipe([<ore:ingotAluminum>*5, <minecraft:iron_ingot>*3, <plustic:alumiteingot>*3]);
+mods.nuclearcraft.alloy_furnace.addRecipe([<ore:ingotAluminum>*5, <minecraft:iron_ingot>*3, <tconstruct:ingots:6>*3]);
 
 recipes.remove(<mod_lavacow:mossy_stick>);
 
@@ -2674,3 +2674,8 @@ recipes.addShapeless(<contenttweaker:omothol_matter>,
 recipes.addShapeless(<contenttweaker:soul_fragment_of_the_reconciled_aesir>,
 [<contenttweaker:trait_willoftheaesir>]);
 
+
+recipes.addShaped(<minecraft:sign>*3,
+[[null, <ore:stickWood>, null],
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);

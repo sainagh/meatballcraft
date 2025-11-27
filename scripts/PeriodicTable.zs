@@ -352,7 +352,7 @@ mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:manganese_thallium_mix>*200
 recipes.addShapeless(<contenttweaker:bismuth_cluster>,
 [<thaumadditions:mithminite_scythe>.reuse(), 
 <thaumcraft:cluster:2>, 
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fabrico"}]})]);
+makeVisCrystal(<aspect:fabrico> * 1)]);
 
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:bismuth_cluster>, <fluid:hydrochloric_acid>*10, <fluid:bismuth>*144]);
 

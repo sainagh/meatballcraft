@@ -2625,9 +2625,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:collapser_conduit>
 <contenttweaker:primordial_star>, <nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:electromagnet_supercooler_idle>]]);  
 
 recipes.addShaped(<contenttweaker:fluctuatite_stabilizer>,
-[[<materialpart:fluctuatite:rod>, <materialpart:fluctuatite:rod>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fluctus"}]})],
+[[<materialpart:fluctuatite:rod>, <materialpart:fluctuatite:rod>, makeVisCrystal(<aspect:fluctus> * 1)],
 [null, <ore:rodSednanite>, <materialpart:fluctuatite:rod>],
-[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fluctus"}]}), null, <materialpart:fluctuatite:rod>]]);
+[makeVisCrystal(<aspect:fluctus> * 1), null, <materialpart:fluctuatite:rod>]]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:stable_orbiting_device>, 
 [[<contenttweaker:fluctuatite_stabilizer>, <gendustry:honey_comb:14009>, <extendedcrafting:singularity:5>, <gendustry:honey_comb:14009>, <contenttweaker:fluctuatite_stabilizer>], 
@@ -2994,7 +2994,7 @@ recipes.addShaped(<contenttweaker:summoning_computer>,
 
 recipes.addShaped(<contenttweaker:primal_jewel>,
 [[<nuclearcraft:alloy:12>, <thaumcraft:ingot:1>, <nuclearcraft:alloy:12>],
-[<iceandfire:chain_link>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]}), <iceandfire:chain_link>],
+[<iceandfire:chain_link>, makeVisCrystal(<aspect:potentia> * 1), <iceandfire:chain_link>],
 [<nuclearcraft:alloy:12>, <forge:bucketfilled>.withTag({FluidName: "mana", Amount: 1000}), <nuclearcraft:alloy:12>]]);
 
 

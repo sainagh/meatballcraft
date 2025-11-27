@@ -62,3 +62,15 @@ import crafttweaker.item.IItemCondition;
 
 
 <ebwizardry:spell_book:*>.addTooltip(format.red("可方便地储存在施法者档案馆中"));
+
+<libvulpes:productgem:0>.addTooltip(format.red("感谢Capn修了一大堆高级火箭模组的bug！"));
+
+<contenttweaker:yggdrasil_wood>.addTooltip(format.red("Adrin58喜欢*快速*修复bug"));
+
+<contenttweaker:investiture_of_the_direwolf>.addTooltip(format.red("对你的宠物狼右击"));
+<contenttweaker:investiture_of_the_direwolf>.addTooltip(format.red("别担心，它们会喜欢这个的"));
+
+
+
+
+

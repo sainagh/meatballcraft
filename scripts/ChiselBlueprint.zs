@@ -35,6 +35,8 @@ mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itembluep
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:wormhole_field_generator"}));
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:hostile_computing_unit"}));
 mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:philosophers_unifier"}));
+mods.chisel.Carving.addVariation("modularblueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aesir_resonator"}));
+
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:arcane_autoworkbench"}),
 [[null,null,<modularmachinery:itemmodularium>],
@@ -259,6 +261,7 @@ mods.chisel.Carving.addVariation("bigresourcegenerators", <modularmachinery:item
 mods.chisel.Carving.addVariation("bigresourcegenerators", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:warren_extractor_rhenia"}));
 mods.chisel.Carving.addVariation("bigresourcegenerators", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:warren_extractor_ichor"}));
 mods.chisel.Carving.addVariation("bigresourcegenerators", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:warren_extractor_silkyjewel"}));
+mods.chisel.Carving.addVariation("bigresourcegenerators", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:warren_extractor_mythic_shell"}));
 mods.chisel.Carving.addVariation("bigresourcegenerators", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:recursive_brain_in_a_vat"}));
 mods.chisel.Carving.addVariation("bigresourcegenerators", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:recursive_brain_in_a_vat_ahkrast_korvalain"}));
 mods.chisel.Carving.addVariation("bigresourcegenerators", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:recursive_brain_in_a_vat_donaeth_rusen"}));

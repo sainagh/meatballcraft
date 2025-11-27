@@ -36,7 +36,7 @@ mods.thermalexpansion.Imbuer.addRecipe(<fluid:fossile_refined_oil>*200, <aoa3:sk
 
 mods.thermalexpansion.CompressionDynamo.addFuel(<fluid:fossile_refined_oil>, 3000000);
 
-mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:eldritch_will_crystal>, [<materialpart:tartarite:dust>, <draconicevolution:draconic_ingot>, <dimdoors:world_thread>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]})], 800, 20);
+mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:eldritch_will_crystal>, [<materialpart:tartarite:dust>, <draconicevolution:draconic_ingot>, <dimdoors:world_thread>, makeVisCrystal(<aspect:alienis> * 1)], 800, 20);
 
 recipes.addShaped(<contenttweaker:eldritch_will_crystal_seeds>,
 [[<contenttweaker:eldritch_will_crystal>, <mysticalagradditions:insanium:0>, <contenttweaker:eldritch_will_crystal>],
@@ -49,18 +49,18 @@ recipes.addShaped(<contenttweaker:tartarite_monolith>,
 [<contenttweaker:eldritch_will_crystal>, <abyssalcraft:stone:7>, <contenttweaker:eldritch_will_crystal>]]);
 
 
-mods.thermalexpansion.Pulverizer.addRecipe(<tombstone:crafting_ingredient:3>*16, <aoa3:jewelyte>, 10);
-mods.thermalexpansion.Pulverizer.addRecipe(<tombstone:crafting_ingredient:3>*16, <aoa3:gemenyte>, 10);
-mods.thermalexpansion.Pulverizer.addRecipe(<tombstone:crafting_ingredient:3>*16, <aoa3:ornamyte>, 10);
+mods.thermalexpansion.Pulverizer.addRecipe(<tombstone:crafting_ingredient:3>*16, <contenttweaker:jewelyte_dust>, 10);
+mods.thermalexpansion.Pulverizer.addRecipe(<tombstone:crafting_ingredient:3>*16, <contenttweaker:gemenyte_dust>, 10);
+mods.thermalexpansion.Pulverizer.addRecipe(<tombstone:crafting_ingredient:3>*16, <contenttweaker:ornamyte_dust>, 10);
 
-mods.nuclearcraft.manufactory.addRecipe([<aoa3:jewelyte>, <tombstone:crafting_ingredient:3>*16]);
-mods.nuclearcraft.manufactory.addRecipe([<aoa3:gemenyte>, <tombstone:crafting_ingredient:3>*16]);
-mods.nuclearcraft.manufactory.addRecipe([<aoa3:ornamyte>, <tombstone:crafting_ingredient:3>*16]);
+mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:jewelyte_dust>, <tombstone:crafting_ingredient:3>*16]);
+mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:gemenyte_dust>, <tombstone:crafting_ingredient:3>*16]);
+mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:ornamyte_dust>, <tombstone:crafting_ingredient:3>*16]);
 
 
-mods.immersiveengineering.Crusher.addRecipe(<tombstone:crafting_ingredient:3>*64, <aoa3:jewelyte>, 4096);
-mods.immersiveengineering.Crusher.addRecipe(<tombstone:crafting_ingredient:3>*64, <aoa3:gemenyte>, 4096);
-mods.immersiveengineering.Crusher.addRecipe(<tombstone:crafting_ingredient:3>*64, <aoa3:ornamyte>, 4096);
+mods.immersiveengineering.Crusher.addRecipe(<tombstone:crafting_ingredient:3>*64, <contenttweaker:jewelyte_dust>, 4096);
+mods.immersiveengineering.Crusher.addRecipe(<tombstone:crafting_ingredient:3>*64, <contenttweaker:gemenyte_dust>, 4096);
+mods.immersiveengineering.Crusher.addRecipe(<tombstone:crafting_ingredient:3>*64, <contenttweaker:ornamyte_dust>, 4096);
 
 mods.techreborn.centrifuge.addRecipe(<mysticalagriculture:mystical_fertilizer>*16, <minecraft:dye:15>*10, null, null, <materialpart:vityte:ingot>, null, 60, 128);
 
@@ -414,9 +414,9 @@ recipes.addShaped(<contenttweaker:shyre_rider_callstone>,
 
 
 recipes.addShaped(<contenttweaker:cursed_dragon_egg>*2,
-[[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]}), <contenttweaker:cursed_dragon_egg>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]})],
-[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]}), <contenttweaker:cursed_cradle>.reuse(), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]})],
-[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}), null, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})]]);
+[[makeVisCrystal(<aspect:potentia> * 1), <contenttweaker:cursed_dragon_egg>, makeVisCrystal(<aspect:potentia> * 1)],
+[makeVisCrystal(<aspect:gelum> * 1), <contenttweaker:cursed_cradle>.reuse(), makeVisCrystal(<aspect:gelum> * 1)],
+[makeVisCrystal(<aspect:ignis> * 1), null, makeVisCrystal(<aspect:ignis> * 1)]]);
 
 
 mods.techreborn.assemblingMachine.addRecipe(<buildcraftsilicon:redstone_chipset:0>*2, <contenttweaker:dense_redstone>, <minecraft:redstone>, 30, 64);

@@ -134,7 +134,7 @@ mods.thermalexpansion.Centrifuge.addRecipe(
     [
     (<divinerpg:netherite_ore>*8) % 90, 
     (<divinerpg:bloodgem_ore>*8) % 90], 
-    (<gendustry:honey_comb:13379>*8), null, 2000);
+    (<gendustry:honey_comb:13379>), null, 2000);
 
 recipes.addShaped(<contenttweaker:water_doped_egg>*8,
 [[<minecraft:egg>, <minecraft:egg>, <minecraft:egg>],

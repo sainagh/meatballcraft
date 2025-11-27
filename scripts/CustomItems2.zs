@@ -3937,6 +3937,11 @@ fractallitedemantoid.maxStackSize = 64;
 fractallitedemantoid.beaconPayment = false;
 fractallitedemantoid.register();
 
+var investitureofthedirewolf = VanillaFactory.createItem("investiture_of_the_direwolf");
+investitureofthedirewolf.maxStackSize = 64;
+investitureofthedirewolf.beaconPayment = false;
+investitureofthedirewolf.register();
+
 
 
 

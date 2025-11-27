@@ -161,7 +161,7 @@ null, <contenttweaker:spinel_ring>, null,
 
 val infusesacredeucaly = RecipeBuilder.newBuilder("infusesacredeucaly","arcane_autoinfuser",20);
 infusesacredeucaly.addEnergyPerTickInput(1000);
-infusesacredeucaly.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]})*10);
+infusesacredeucaly.addItemInput(makeVisCrystal(<aspect:herba> * 1)*10);
 infusesacredeucaly.addItemInput(<biomesoplenty:log_3:7>);
 infusesacredeucaly.addItemOutput(<contenttweaker:sacred_eucalyptus>);
 infusesacredeucaly.build();

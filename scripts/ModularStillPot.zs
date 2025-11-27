@@ -99,14 +99,7 @@ restincturesdemon.addItemInput(<bewitchment:demon_heart>*32);
 restincturesdemon.addFluidOutput(<fluid:demonic_tincture>*32000);
 restincturesdemon.build();
 
-val pulsestilldemelixir = RecipeBuilder.newBuilder("pulsestilldemelixir","phasing_still_pot",5);
-pulsestilldemelixir.addItemInput(<contenttweaker:tear_of_nature_bottle>);
-pulsestilldemelixir.addFluidInput(<fluid:fiery_unguent>*8000);
-pulsestilldemelixir.addFluidInput(<fluid:demonic_tincture>*32000);
-pulsestilldemelixir.addFluidOutput(<fluid:cleansing_balm>*32000);
-pulsestilldemelixir.addFluidOutput(<fluid:demonic_tincture>*8000);
-pulsestilldemelixir.addFluidOutput(<fluid:fiery_unguent>*1000);
-pulsestilldemelixir.build();
+
 
 
 val restincturesblazing = RecipeBuilder.newBuilder("restincturesblazing","resonance_dissolver",5);
