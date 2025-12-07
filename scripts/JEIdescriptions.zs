@@ -4712,8 +4712,8 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_recfocusfab>,
     "使用以下生物群系标记：",
     "北：樱花树林（Cherry Blossom Grove）",
     "南：伊甸（Eden）",
-    "东：深渊荒原（Abyssal Wasteland）（来自深渊国度模组）",
-    "西：不朽之地（Immortallis）"
+    "东：深渊荒原（Abyssal Wasteland）（来自虚无世界的深渊维度）",
+    "西：黄金（Iromine）"
 ]);
 
 
