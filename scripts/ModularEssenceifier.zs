@@ -194,7 +194,7 @@ essenceifier38.build();
 
 val essenceifier39 = RecipeBuilder.newBuilder("essenceifier39","innerved_essenceifier",2);
 essenceifier39.addItemInput(<mysticalagriculture:ruby_essence>*64);
-essenceifier39.addItemOutput(<techreborn:gem:1>*48);
+essenceifier39.addItemOutput(<biomesoplenty:gem:1>*48);
 essenceifier39.build();
 
 val essenceifier40 = RecipeBuilder.newBuilder("essenceifier40","innerved_essenceifier",2);
