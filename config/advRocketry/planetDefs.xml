@@ -1,6 +1,6 @@
 <galaxy>
-    <star name="Sol" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="0" >
-        <planet name="Terra" DIMID="0" dimMapping="" customIcon="earthlike">
+    <star name="索尔" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="0" >
+        <planet name="泰拉" DIMID="0" dimMapping="" customIcon="earthlike">
             <isKnown>true</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>
@@ -9,7 +9,7 @@
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>100</atmosphereDensity>
-            <planet name="Luna" DIMID="145" customIcon="moon">
+            <planet name="月球" DIMID="145" customIcon="moon">
                 <isKnown>true</isKnown>
                 <fogColor>1.0,1.0,1.0</fogColor>
                 <skyColor>1.0,1.0,1.0</skyColor>
@@ -20,14 +20,14 @@
                 <atmosphereDensity>0</atmosphereDensity>
                 <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
             </planet>
-            <planet name="Ender Islands" DIMID="1" dimMapping="" customIcon="moon">
+            <planet name="末地岛屿" DIMID="1" dimMapping="" customIcon="moon">
                 <isKnown>true</isKnown>
             </planet>
-            <planet name="Aether Islands" DIMID="4" dimMapping="" customIcon="moon">
+            <planet name="天境岛屿" DIMID="4" dimMapping="" customIcon="moon">
                 <isKnown>true</isKnown>
             </planet>
         </planet>
-		<planet name="Haumea" DIMID="146" customIcon="Venusian">
+		<planet name="哈乌美亚" DIMID="146" customIcon="Venusian">
 			<hasRings>true</hasRings>
             <fogColor>0.5,0.0,0.5</fogColor>
             <skyColor>0.5,0.0,0.5</skyColor>
@@ -42,7 +42,7 @@
             <rotationalPeriod>30000</rotationalPeriod>
             <biomeIds>minecraft:mushroom_island</biomeIds>
         </planet>
-		<planet name="Sedna" DIMID="147" customIcon="IceWorld">
+		<planet name="塞德娜" DIMID="147" customIcon="IceWorld">
             <fogColor>0.0,0.2,0.9</fogColor>
             <skyColor>0.0,0.2,0.9</skyColor>
             <atmosphereDensity>20</atmosphereDensity>
@@ -59,7 +59,7 @@
             <biomeIds>advancedrocketry:crystalchasms</biomeIds>
 			<artifact>contenttweaker:sedna_artifact</artifact>
 		</planet>
-		<planet name="Osiris" DIMID="148" customIcon="DesertWorld">
+		<planet name="奥西里斯" DIMID="148" customIcon="DesertWorld">
             <fogColor>0.9,0.3,0.0</fogColor>
             <skyColor>0.9,0.3,0.0</skyColor>
             <atmosphereDensity>20</atmosphereDensity>
@@ -74,7 +74,7 @@
             <rotationalPeriod>20000</rotationalPeriod>
             <biomeIds>advancedrocketry:hotdryrock,nuclearcraft:nuclear_wasteland</biomeIds>
 		</planet>
-		<planet name="Ptah" DIMID="149" customIcon="Venusian">
+		<planet name="普塔" DIMID="149" customIcon="Venusian">
             <fogColor>0.4,0.3,0.0</fogColor>
             <skyColor>0.4,0.3,0.0</skyColor>
             <atmosphereDensity>20</atmosphereDensity>
@@ -89,7 +89,7 @@
 			<fillerBlock>minecraft:obsidian</fillerBlock>
             <biomeIds>advancedrocketry:hotdryrock</biomeIds>
 		</planet>
-		<planet name="Hator" DIMID="150" customIcon="MarsLike">
+		<planet name="哈托尔" DIMID="150" customIcon="MarsLike">
             <fogColor>0.9,0.1,0.1</fogColor>
             <skyColor>0.9,0.1,0.1</skyColor>
             <atmosphereDensity>100</atmosphereDensity>
@@ -105,14 +105,14 @@
 			<oceanBlock>Minecraft:lava</oceanBlock>
             <biomeIds>minecraft:mesa_clear_rock,minecraft:mesa_rock,minecraft:ocean</biomeIds>
 		</planet>
-		<planet name="Vulcan" customIcon="GasGiantRed">
+		<planet name="伏尔甘" customIcon="GasGiantRed">
 			<GasGiant>true</GasGiant>
 			<fogColor>0.9,0.7,0.5</fogColor>
             <skyColor>0.9,0.7,0.5</skyColor>
             <orbitalDistance>250</orbitalDistance>
 			<gas>hydrogen</gas>
 			<gas>fluid_methanol</gas>
-			<planet name="Europa" DIMID="151" customIcon="moon">
+			<planet name="欧罗巴" DIMID="151" customIcon="moon">
                 <isKnown>true</isKnown>
                 <fogColor>0.0,0.0,1.0</fogColor>
                 <skyColor>0.0,0.0,1.0</skyColor>
@@ -123,7 +123,7 @@
                 <atmosphereDensity>250</atmosphereDensity>
                 <biomeIds>biomesoplenty:glacier,iceandfire:glacier</biomeIds>
             </planet>
-			<planet name="Oi" DIMID="152" customIcon="moon">
+			<planet name="奥伊" DIMID="152" customIcon="moon">
                 <isKnown>true</isKnown>
                 <hasOxygen>true</hasOxygen>
                 <fogColor>1.0,0.8,0.0</fogColor>
@@ -139,7 +139,7 @@
                 <biomeIds>nuclearcraft:nuclear_wasteland,biomesoplenty:wasteland</biomeIds>
             </planet>
 		</planet>
-		<planet name="Ceres" customIcon="GasGiantBrown">
+		<planet name="克瑞斯" customIcon="GasGiantBrown">
 			<GasGiant>true</GasGiant>
 			<hasRings>true</hasRings>
             <fogColor>0.6,0.6,0.6</fogColor>
@@ -148,7 +148,7 @@
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
 		</planet>
-		<planet name="Liber" customIcon="GasGiantBlue">
+		<planet name="利贝尔" customIcon="GasGiantBlue">
 			<GasGiant>true</GasGiant>
             <fogColor>0.0,0.1,0.9</fogColor>
             <skyColor>0.0,0.1,0.9</skyColor>
@@ -156,7 +156,7 @@
 			<gas>cryotheum</gas>
 			<gas>helium</gas>
 		</planet>
-		<planet name="Aventus" customIcon="GasGiantBlue">
+		<planet name="阿文图斯" customIcon="GasGiantBlue">
 			<GasGiant>true</GasGiant>
             <fogColor>0.0,0.0,0.6</fogColor>
             <skyColor>0.0,0.0,0.6</skyColor>
@@ -164,7 +164,7 @@
 			<gas>cryotheum</gas>
 			<gas>helium</gas>
 		</planet>
-		<planet name="Falacer" DIMID="160" customIcon="DesertWorld">
+		<planet name="法拉瑟" DIMID="160" customIcon="DesertWorld">
             <fogColor>0.9,0.3,0.0</fogColor>
             <skyColor>0.9,0.3,0.0</skyColor>
             <atmosphereDensity>0</atmosphereDensity>
@@ -177,7 +177,7 @@
 			</OreGen>
             <rotationalPeriod>10000</rotationalPeriod>
             <biomeIds>advancedrocketry:volcanicbarren</biomeIds>
-			<planet name="Orcus" DIMID="161" customIcon="moon">
+			<planet name="奥迦斯" DIMID="161" customIcon="moon">
                 <isKnown>true</isKnown>
                 <fogColor>0.9,0.3,0.0</fogColor>
                 <skyColor>0.9,0.3,0.0</skyColor>
@@ -190,9 +190,9 @@
             </planet>
 		</planet>
     </star>
-	<star name="Proxima Duo A" temp="140" x="6" y="-6" size="2.0" numPlanets="0" numGasGiants="0">
-		<star name="Proxima Duo B" temp="200" separation="20.0" />
-        <planet name="Lindenwyrm" DIMID="162" customIcon="CarbonWorld">
+	<star name="比邻双星 A" temp="140" x="6" y="-6" size="2.0" numPlanets="0" numGasGiants="0">
+		<star name="比邻双星 B" temp="200" separation="20.0" />
+        <planet name="树龙界" DIMID="162" customIcon="CarbonWorld">
             <fogColor>0.0,0.9,0.0</fogColor>
             <skyColor>0.0,0.9,0.0</skyColor>
 			<hasRings>false</hasRings>
@@ -205,7 +205,7 @@
 			<biomeIds>advancedrocketry:stormland</biomeIds>
 			<artifact>contenttweaker:tartarus_artifact</artifact>
 		</planet>
-		<planet name="Rhenia" DIMID="163" customIcon="MarsLike">
+		<planet name="铼界" DIMID="163" customIcon="MarsLike">
             <fogColor>0.1,0.0,0.0</fogColor>
             <skyColor>0.1,0.0,0.0</skyColor>
 			<hasRings>true</hasRings>
@@ -221,7 +221,7 @@
 			<biomeIds>advancedrocketry:volcanic,advancedrocketry:volcanicbarren</biomeIds>
 			<artifact>contenttweaker:rhenia_artifact</artifact>
 		</planet>
-        <planet name="Myrmex" DIMID="164" customIcon="EarthLike">
+        <planet name="恐蚁界" DIMID="164" customIcon="EarthLike">
             <fogColor>0.3,0.2,0.0</fogColor>
             <skyColor>0.3,0.2,0.0</skyColor>
 			<hasRings>true</hasRings>
@@ -237,7 +237,7 @@
 			<biomeIds>advancedrocketry:alien_forest,thaumcraft:magical_forest,biomesoplenty:cherry_blossom_grove</biomeIds>
 			<artifact>contenttweaker:myrmex_artifact</artifact>
 		</planet>
-        <planet name="Pixonia" DIMID="165" customIcon="GasGiantBrown">
+        <planet name="光精界" DIMID="165" customIcon="GasGiantBrown">
             <fogColor>0.1,0.8,0.3</fogColor>
             <skyColor>0.1,0.8,0.3</skyColor>
 			<hasRings>false</hasRings>
@@ -256,7 +256,7 @@
 			<biomeIds>advancedrocketry:marsh,advancedrocketry:deepswamp,minecraft:swampland,biomesoplenty:bog,biomesoplenty:lush_swamp,twilightforest:twilight_swamp</biomeIds>
 			<artifact>contenttweaker:pixonia_artifact</artifact>
 		</planet>
-        <planet name="Proxima Belt" DIMID="166" customIcon="Moon">
+        <planet name="比邻星带" DIMID="166" customIcon="Moon">
             <atmosphereDensity>10</atmosphereDensity>
             <gravitationalMultiplier>30</gravitationalMultiplier>
             <orbitalDistance>25</orbitalDistance>
@@ -268,8 +268,8 @@
 			<artifact>contenttweaker:proxima_artifact</artifact>
 		</planet>
     </star>
-    <star name="Dynatos" temp="140" x="5" y="7" size="2.5" numPlanets="0" numGasGiants="0" blackHole="true">
-		<planet name="Nero" DIMID="170" customIcon="WaterWorld">
+    <star name="强能界" temp="140" x="5" y="7" size="2.5" numPlanets="0" numGasGiants="0" blackHole="true">
+		<planet name="茕踽界" DIMID="170" customIcon="WaterWorld">
             <atmosphereDensity>100</atmosphereDensity>
             <hasOxygen>true</hasOxygen>
             <fogColor>0.9,0.0,0.9</fogColor>
@@ -282,7 +282,7 @@
 			<biomeIds>advancedrocketry:oceanspires,minecraft:deep_ocean</biomeIds>
 			<artifact>contenttweaker:dynatos_artifact</artifact>
 		</planet>
-        <planet name="Zoi" DIMID="171" customIcon="DesertWorld">
+        <planet name="孤寂界" DIMID="171" customIcon="DesertWorld">
             <atmosphereDensity>100</atmosphereDensity>
             <hasOxygen>true</hasOxygen>
             <fogColor>0.1,0.6,0.0</fogColor>
@@ -295,7 +295,7 @@
 			<biomeIds>biomesoplenty:quagmire</biomeIds>
 			<artifact>contenttweaker:dynatos_artifact</artifact>
 		</planet>
-        <planet name="Akathartos" DIMID="172" customIcon="GasGiantRed">
+        <planet name="晦暗界" DIMID="172" customIcon="GasGiantRed">
             <atmosphereDensity>120</atmosphereDensity>
             <hasOxygen>true</hasOxygen>
             <fogColor>0.9,0.0,0.1</fogColor>
@@ -308,7 +308,7 @@
 			<biomeIds>thaumcraft:eldritch</biomeIds>
 			<artifact>contenttweaker:dynatos_artifact</artifact>
 		</planet>
-        <planet name="Pauram" DIMID="173" customIcon="Moon">
+        <planet name="惧惮界" DIMID="173" customIcon="Moon">
             <atmosphereDensity>120</atmosphereDensity>
             <hasOxygen>true</hasOxygen>
             <gravitationalMultiplier>10</gravitationalMultiplier>
@@ -319,7 +319,7 @@
 			<biomeIds>twilightforest:spooky_forest</biomeIds>
 			<artifact>contenttweaker:dynatos_artifact</artifact>
 		</planet>
-        <planet name="Alkemia" DIMID="174" customIcon="CarbonWorld">
+        <planet name="炼金界" DIMID="174" customIcon="CarbonWorld">
             <atmosphereDensity>10</atmosphereDensity>
             <fogColor>0.1,0.1,0.1</fogColor>
             <skyColor>0.1,0.1,0.1</skyColor>
@@ -333,8 +333,8 @@
 			<artifact>contenttweaker:alkemia_artifact</artifact>
 		</planet>
     </star>
-    <star name="Sole" temp="105" x="20" y="-20" size="1.0" numPlanets="0" numGasGiants="0" blackHole="false">
-		<planet name="Taerrapiatta" DIMID="180" customIcon="WaterWorld">
+    <star name="索莱" temp="105" x="20" y="-20" size="1.0" numPlanets="0" numGasGiants="0" blackHole="false">
+		<planet name="地平界" DIMID="180" customIcon="WaterWorld">
             <atmosphereDensity>100</atmosphereDensity>
             <fogColor>0.4,0.0,0.4</fogColor>
             <skyColor>0.4,0.0,0.4</skyColor>
@@ -346,7 +346,7 @@
 			<biomeIds>biomesoplenty:redwood_forest,minecraft:plains</biomeIds>
 			<artifact>contenttweaker:unreachable</artifact>
 		</planet>
-        <planet name="Diamerisma" DIMID="181" customIcon="WaterWorld">
+        <planet name="地方界" DIMID="181" customIcon="WaterWorld">
             <atmosphereDensity>100</atmosphereDensity>
             <fogColor>0.4,0.0,0.8</fogColor>
             <skyColor>0.4,0.0,0.8</skyColor>
@@ -362,7 +362,7 @@
 			<biomeIds>biomesoplenty:cherry_blossom_grove</biomeIds>
 			<artifact>contenttweaker:unreachable</artifact>
 		</planet>
-        <planet name="Furatto" DIMID="182" customIcon="WaterWorld">
+        <planet name="地盘界" DIMID="182" customIcon="WaterWorld">
             <atmosphereDensity>100</atmosphereDensity>
             <fogColor>0.1,0.0,0.4</fogColor>
             <skyColor>0.1,0.0,0.4</skyColor>
@@ -377,7 +377,7 @@
 			<biomeIds>biomesoplenty:woodland</biomeIds>
 			<artifact>contenttweaker:unreachable</artifact>
 		</planet>
-        <planet name="Vibe" DIMID="183" customIcon="WaterWorld">
+        <planet name="谐律界" DIMID="183" customIcon="WaterWorld">
             <atmosphereDensity>100</atmosphereDensity>
             <fogColor>0.4,0.3,0.2</fogColor>
             <skyColor>0.4,0.3,0.2</skyColor>
@@ -392,7 +392,7 @@
 			<biomeIds>biomesoplenty:woodland</biomeIds>
 			<artifact>contenttweaker:unreachable</artifact>
 		</planet>
-        <planet name="Apichisi" DIMID="184" customIcon="WaterWorld">
+        <planet name="共鸣界" DIMID="184" customIcon="WaterWorld">
             <atmosphereDensity>100</atmosphereDensity>
             <fogColor>0.4,0.9,0.2</fogColor>
             <skyColor>0.4,0.9,0.2</skyColor>
@@ -407,7 +407,7 @@
 			<biomeIds>minecraft:desert_hills</biomeIds>
 			<artifact>contenttweaker:unreachable</artifact>
 		</planet>
-        <planet name="Finem" DIMID="185" customIcon="MarsLike">
+        <planet name="末结地" DIMID="185" customIcon="MarsLike">
             <fogColor>0.9,0.0,0.9</fogColor>
             <skyColor>0.9,0.0,0.9</skyColor>
             <atmosphereDensity>130</atmosphereDensity>
@@ -422,24 +422,24 @@
             <artifact>contenttweaker:unreachable</artifact>
 		</planet>
     </star>
-    <star name="Azath" temp="100" x="-50" y="-50" size="3.0" numPlanets="0" numGasGiants="0" blackHole="true">
-        <star name="Azath A" temp="100" separation="50.0" size="1.5" blackHole="true"/>
-        <star name="Malaz 1" temp="100" separation="30.0" size="1.5" blackHole="false"/>
-        <star name="Malaz 2" temp="100" separation="50.0" size="1.5" blackHole="false"/>
-        <star name="Malaz 3" temp="100" separation="30.0" size="1.5" blackHole="false"/>
-        <star name="Azath B" temp="100" separation="50.0" size="1.5" blackHole="true"/>
-        <star name="Malaz 4" temp="100" separation="30.0" size="1.5" blackHole="false"/>
-        <star name="Malaz 5" temp="100" separation="50.0" size="1.5" blackHole="false"/>
-        <star name="Malaz 6" temp="100" separation="30.0" size="1.5" blackHole="false"/>
-        <star name="Azath C" temp="100" separation="50.0" size="1.5" blackHole="true"/>
-        <star name="Malaz 7" temp="100" separation="30.0" size="1.5" blackHole="false"/>
-        <star name="Malaz 8" temp="100" separation="50.0" size="1.5" blackHole="false"/>
-        <star name="Malaz 9" temp="100" separation="30.0" size="1.5" blackHole="false"/>
-        <star name="Azath D" temp="100" separation="50.0" size="1.5" blackHole="true"/>
-        <star name="Malaz 10" temp="100" separation="30.0" size="1.5" blackHole="false"/>
-        <star name="Malaz 11" temp="100" separation="50.0" size="1.5" blackHole="false"/>
-        <star name="Malaz 12" temp="100" separation="30.0" size="1.5" blackHole="false"/>
-		<planet name="Kashan" DIMID="190" customIcon="WaterWorld">
+    <star name="阿萨斯" temp="100" x="-50" y="-50" size="3.0" numPlanets="0" numGasGiants="0" blackHole="true">
+        <star name="阿萨斯 A" temp="100" separation="50.0" size="1.5" blackHole="true"/>
+        <star name="玛拉兹 1" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+        <star name="玛拉兹 2" temp="100" separation="50.0" size="1.5" blackHole="false"/>
+        <star name="玛拉兹 3" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+        <star name="阿萨斯 B" temp="100" separation="50.0" size="1.5" blackHole="true"/>
+        <star name="玛拉兹 4" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+        <star name="玛拉兹 5" temp="100" separation="50.0" size="1.5" blackHole="false"/>
+        <star name="玛拉兹 6" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+        <star name="阿萨斯 C" temp="100" separation="50.0" size="1.5" blackHole="true"/>
+        <star name="玛拉兹 7" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+        <star name="玛拉兹 8" temp="100" separation="50.0" size="1.5" blackHole="false"/>
+        <star name="玛拉兹 9" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+        <star name="阿萨斯 D" temp="100" separation="50.0" size="1.5" blackHole="true"/>
+        <star name="玛拉兹 10" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+        <star name="玛拉兹 11" temp="100" separation="50.0" size="1.5" blackHole="false"/>
+        <star name="玛拉兹 12" temp="100" separation="30.0" size="1.5" blackHole="false"/>
+		<planet name="卡尚" DIMID="190" customIcon="WaterWorld">
             <atmosphereDensity>100</atmosphereDensity>
             <hasOxygen>true</hasOxygen>
             <fogColor>0.55,0.8,0.9</fogColor>
@@ -454,31 +454,31 @@
             <fillerBlock>rftoolsdim:dimensional_blank_block</fillerBlock>
 			<oceanBlock>industrialforegoing:essence</oceanBlock>
 			<artifact>contenttweaker:unreachable</artifact>
-            <planet name="Kashan Moon A" customIcon="moon">
+            <planet name="卡尚卫星 A" customIcon="moon">
                 <GasGiant>true</GasGiant>
                 <orbitalTheta>0</orbitalTheta>
 			    <orbitalPhi>50</orbitalPhi>
                 <rotationalPeriod>72000</rotationalPeriod>
             </planet>
-            <planet name="Kashan Moon B" customIcon="EarthLike">
+            <planet name="卡尚卫星 B" customIcon="EarthLike">
                 <GasGiant>true</GasGiant>
                 <orbitalTheta>25</orbitalTheta>
 			    <orbitalPhi>30</orbitalPhi>
                 <rotationalPeriod>48000</rotationalPeriod>
             </planet>
-            <planet name="Kashan Moon C" customIcon="WaterWorld">
+            <planet name="卡尚卫星 C" customIcon="WaterWorld">
                 <GasGiant>true</GasGiant>
                 <orbitalTheta>35</orbitalTheta>
 			    <orbitalPhi>40</orbitalPhi>
                 <rotationalPeriod>52000</rotationalPeriod>
             </planet>
-            <planet name="Kashan Moon D" customIcon="MarsLike">
+            <planet name="卡尚卫星 D" customIcon="MarsLike">
                 <GasGiant>true</GasGiant>
                 <orbitalTheta>15</orbitalTheta>
 			    <orbitalPhi>50</orbitalPhi>
                 <rotationalPeriod>52000</rotationalPeriod>
             </planet>
-            <planet name="Kashan Moon E" customIcon="Venusian">
+            <planet name="卡尚卫星 E" customIcon="Venusian">
                 <GasGiant>true</GasGiant>
                 <orbitalTheta>55</orbitalTheta>
 			    <orbitalPhi>30</orbitalPhi>
@@ -486,11 +486,11 @@
             </planet>
 		</planet>
     </star>
-    <star name="Trinuum" temp="100" x="50" y="-50" size="4.0" numPlanets="0" numGasGiants="0" blackHole="false">
-        <star name="Trinuum A" temp="100" separation="30.0" size="1.0" blackHole="false"/>
-        <star name="Trinuum B" temp="100" separation="30.0" size="1.0" blackHole="false"/>
-        <star name="Trinuum C" temp="100" separation="30.0" size="1.0" blackHole="false"/>
-		<planet name="Trinitas" DIMID="191" customIcon="WaterWorld">
+    <star name="三连星" temp="100" x="50" y="-50" size="4.0" numPlanets="0" numGasGiants="0" blackHole="false">
+        <star name="三连星 A" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="三连星 B" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="三连星 C" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+		<planet name="叁壹界" DIMID="191" customIcon="WaterWorld">
             <atmosphereDensity>100</atmosphereDensity>
             <hasOxygen>true</hasOxygen>
             <fogColor>0.68,0.67,0.06</fogColor>
@@ -507,20 +507,20 @@
 			<artifact>contenttweaker:unreachable</artifact>
 		</planet>
     </star>
-    <star name="Kilida" temp="100" x="-50" y="50" size="4.0" numPlanets="0" numGasGiants="0" blackHole="true">
-        <star name="Kilida 0" temp="100" separation="5.0" size="1.0" blackHole="false"/>
-        <star name="Kilida 1" temp="100" separation="10.0" size="1.0" blackHole="false"/>
-        <star name="Kilida 2" temp="100" separation="15.0" size="1.0" blackHole="false"/>
-        <star name="Kilida 3" temp="100" separation="20.0" size="1.0" blackHole="false"/>
-        <star name="Kilida 4" temp="100" separation="25.0" size="1.0" blackHole="false"/>
-        <star name="Kilida 5" temp="100" separation="30.0" size="1.0" blackHole="false"/>
-        <star name="Kilida 6" temp="100" separation="35.0" size="1.0" blackHole="false"/>
-        <star name="Kilida 7" temp="100" separation="40.0" size="1.0" blackHole="false"/>
-        <star name="Kilida 8" temp="100" separation="45.0" size="1.0" blackHole="false"/>
-        <star name="Kilida 9" temp="100" separation="50.0" size="1.0" blackHole="false"/>
-        <star name="Kilida 10" temp="100" separation="55.0" size="1.0" blackHole="false"/>
-        <star name="Kilida 11" temp="100" separation="60.0" size="1.0" blackHole="false"/>
-		<planet name="Fuhai" DIMID="192" customIcon="WaterWorld">
+    <star name="渊泽" temp="100" x="-50" y="50" size="4.0" numPlanets="0" numGasGiants="0" blackHole="true">
+        <star name="渊泽 0" temp="100" separation="5.0" size="1.0" blackHole="false"/>
+        <star name="渊泽 1" temp="100" separation="10.0" size="1.0" blackHole="false"/>
+        <star name="渊泽 2" temp="100" separation="15.0" size="1.0" blackHole="false"/>
+        <star name="渊泽 3" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="渊泽 4" temp="100" separation="25.0" size="1.0" blackHole="false"/>
+        <star name="渊泽 5" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="渊泽 6" temp="100" separation="35.0" size="1.0" blackHole="false"/>
+        <star name="渊泽 7" temp="100" separation="40.0" size="1.0" blackHole="false"/>
+        <star name="渊泽 8" temp="100" separation="45.0" size="1.0" blackHole="false"/>
+        <star name="渊泽 9" temp="100" separation="50.0" size="1.0" blackHole="false"/>
+        <star name="渊泽 10" temp="100" separation="55.0" size="1.0" blackHole="false"/>
+        <star name="渊泽 11" temp="100" separation="60.0" size="1.0" blackHole="false"/>
+		<planet name="衰腐界" DIMID="192" customIcon="WaterWorld">
             <atmosphereDensity>100</atmosphereDensity>
             <hasOxygen>true</hasOxygen>
             <fogColor>0.35,0.23,0.57</fogColor>
@@ -537,22 +537,22 @@
 			<artifact>contenttweaker:unreachable</artifact>
 		</planet>
     </star>    
-    <star name="Thanatos" temp="100" x="-100" y="100" size="3.0" numPlanets="0" numGasGiants="0" blackHole="false">
-        <star name="Thanatos 0" temp="100" separation="20.0" size="1.0" blackHole="false"/>
-        <star name="Thanatos 1" temp="100" separation="30.0" size="1.0" blackHole="false"/>
-        <star name="Thanatos 2" temp="100" separation="20.0" size="1.0" blackHole="false"/>
-        <star name="Thanatos 3" temp="100" separation="30.0" size="1.0" blackHole="false"/>
-        <star name="Thanatos 4" temp="100" separation="20.0" size="1.0" blackHole="false"/>
-        <star name="Thanatos 5" temp="100" separation="30.0" size="1.0" blackHole="false"/>
-        <star name="Thanatos 6" temp="100" separation="20.0" size="1.0" blackHole="false"/>
-        <star name="Thanatos 7" temp="100" separation="30.0" size="1.0" blackHole="false"/>
-        <star name="Thanatos 8" temp="100" separation="20.0" size="1.0" blackHole="false"/>
-        <star name="Thanatos 9" temp="100" separation="30.0" size="1.0" blackHole="false"/>
-        <star name="Thanatos 10" temp="100" separation="20.0" size="1.0" blackHole="false"/>
-        <star name="Thanatos 11" temp="100" separation="30.0" size="1.0" blackHole="false"/>
-        <star name="Thanatos 12" temp="100" separation="20.0" size="1.0" blackHole="false"/>
-        <star name="Thanatos 13" temp="100" separation="30.0" size="1.0" blackHole="false"/>
-		<planet name="Travixte" DIMID="193" customIcon="WaterWorld">
+    <star name="塔纳托斯" temp="100" x="-100" y="100" size="3.0" numPlanets="0" numGasGiants="0" blackHole="false">
+        <star name="塔纳托斯 0" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="塔纳托斯 1" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="塔纳托斯 2" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="塔纳托斯 3" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="塔纳托斯 4" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="塔纳托斯 5" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="塔纳托斯 6" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="塔纳托斯 7" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="塔纳托斯 8" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="塔纳托斯 9" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="塔纳托斯 10" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="塔纳托斯 11" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+        <star name="塔纳托斯 12" temp="100" separation="20.0" size="1.0" blackHole="false"/>
+        <star name="塔纳托斯 13" temp="100" separation="30.0" size="1.0" blackHole="false"/>
+		<planet name="争竞界" DIMID="193" customIcon="WaterWorld">
             <atmosphereDensity>100</atmosphereDensity>
             <hasOxygen>true</hasOxygen>
             <fogColor>0.64,1.0,0.9</fogColor>
