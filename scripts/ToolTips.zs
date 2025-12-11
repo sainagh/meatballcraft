@@ -2329,7 +2329,7 @@
 <contenttweaker:warren_creation_fabrial>.addTooltip(format.red("站在JEI中显示的结构中心来激活"));
 <contenttweaker:warren_creation_fabrial>.addTooltip(format.red("警告：若世界是在beta-0.15版本之前创建的，你需要手动生成维度"));
 <contenttweaker:warren_creation_fabrial>.addTooltip(format.red("关闭整合包，备份存档"));
-<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("从config > advRocketry文件夹中复制'plantDefs.xml'文件到saves > worldname > advRocketry"));
+<contenttweaker:warren_creation_fabrial>.addTooltip(format.red("从config > advRocketry文件夹中复制'planetDefs.xml'文件到saves > worldname > advRocketry"));
 <contenttweaker:warren_creation_fabrial>.addTooltip(format.red("打开整合包，重新使用该物品"));
 
 <contenttweaker:lucky_box_aether_bronze>.addTooltip(format.red("感谢UselessForce绘制的幸运盒子纹理"));
@@ -2477,21 +2477,21 @@
 <contenttweaker:call_to_mission>.addTooltip(format.red("站在JEI中显示的结构中心来激活"));
 <contenttweaker:call_to_mission>.addTooltip(format.red("警告：若世界是在pre-0.18版本之前创建的，你需要手动生成维度"));
 <contenttweaker:call_to_mission>.addTooltip(format.red("关闭整合包，备份存档"));
-<contenttweaker:call_to_mission>.addTooltip(format.red("从config > advRocketry文件夹中复制'plantDefs.xml'文件到saves > worldname > advRocketry"));
+<contenttweaker:call_to_mission>.addTooltip(format.red("从config > advRocketry文件夹中复制'planetDefs.xml'文件到saves > worldname > advRocketry"));
 <contenttweaker:call_to_mission>.addTooltip(format.red("打开整合包，重新使用该物品"));
 
 <contenttweaker:void_ichorium_rift>.addTooltip(format.red("跃迁器"));
 <contenttweaker:void_ichorium_rift>.addTooltip(format.red("站在JEI中显示的结构中心来激活"));
 <contenttweaker:void_ichorium_rift>.addTooltip(format.red("警告：若世界是在pre-0.18版本之前创建的，你需要手动生成维度"));
 <contenttweaker:void_ichorium_rift>.addTooltip(format.red("关闭整合包，备份存档"));
-<contenttweaker:void_ichorium_rift>.addTooltip(format.red("从config > advRocketry文件夹中复制'plantDefs.xml'文件到saves > worldname > advRocketry"));
+<contenttweaker:void_ichorium_rift>.addTooltip(format.red("从config > advRocketry文件夹中复制'planetDefs.xml'文件到saves > worldname > advRocketry"));
 <contenttweaker:void_ichorium_rift>.addTooltip(format.red("打开整合包，重新使用该物品"));
 
 <contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("跃迁器"));
 <contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("站在JEI中显示的结构中心来激活"));
 <contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("警告：若世界是在pre-0.18版本之前创建的，你需要手动生成维度"));
 <contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("关闭整合包，备份存档"));
-<contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("从config > advRocketry文件夹中复制'plantDefs.xml'文件到saves > worldname > advRocketry"));
+<contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("从config > advRocketry文件夹中复制'planetDefs.xml'文件到saves > worldname > advRocketry"));
 <contenttweaker:summons_to_the_meatball_man>.addTooltip(format.red("打开整合包，重新使用该物品"));
 
 <modularmachinery:cryolattice_tbu_controller>.addTooltip(format.red("同样适用于其他多种燃料！"));
