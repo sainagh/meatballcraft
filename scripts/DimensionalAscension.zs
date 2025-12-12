@@ -575,7 +575,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
     }
 
     if (getBlockMatchAtPosition("contenttweaker:recursive_stone", playerPos, [4,-1,2], world) == 0) {
-        player.sendChat("不管怎么说，我既然花时间写下了这些，说明我内心还是希望你能成功的。");
+        player.sendChat("不管怎么说，既然花时间写下了这些，说明我内心还是希望你能成功的。");
         player.sendChat("玩得开心，大概吧……");
         player.sendChat("还记得你在哪用的递归监狱钥匙吗？没错，如果你是咒法主宰，也许能尝试破坏那里的某种方块，然后将其放置在对应维度方块的下方");
         return "FAIL";
