@@ -296,7 +296,7 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 
 
 
-	if((NumberOfMatches) == 25) {
+	if((NumberOfMatches) == 113) {
 		Commands.call("give @p contenttweaker:crown_of_the_energy_queen", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
