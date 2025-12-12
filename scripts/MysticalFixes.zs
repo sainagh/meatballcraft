@@ -24,6 +24,13 @@ recipes.addShaped(<techreborn:ingot:14>*2,
 [<mysticalagriculture:titanium_essence>, null, <mysticalagriculture:titanium_essence>],
 [<mysticalagriculture:titanium_essence>, <mysticalagriculture:titanium_essence>, <mysticalagriculture:titanium_essence>]]);
 
+recipes.removeByRecipeName("mysticalagriculture:ingotzinc");
+
+recipes.addShaped(<techreborn:ingot:18>*4,
+[[<mysticalagriculture:zinc_essence>, <mysticalagriculture:zinc_essence>, <mysticalagriculture:zinc_essence>],
+[<mysticalagriculture:zinc_essence>, null, <mysticalagriculture:zinc_essence>],
+[<mysticalagriculture:zinc_essence>, <mysticalagriculture:zinc_essence>, <mysticalagriculture:zinc_essence>]]);
+
 recipes.removeShaped(<avaritia:resource:3>,
 [[<mysticalagradditions:neutronium_essence>, <mysticalagradditions:neutronium_essence>, <mysticalagradditions:neutronium_essence>],
 [<mysticalagradditions:neutronium_essence>, <mysticalagradditions:neutronium_essence>, <mysticalagradditions:neutronium_essence>],
