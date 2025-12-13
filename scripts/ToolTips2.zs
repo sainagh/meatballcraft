@@ -1130,7 +1130,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:big_slime>.addTooltip(format.red("通过击败粘性召唤石Boss获得"));
 <contenttweaker:big_slime>.addTooltip(format.red("可复制"));
 
-<advancedrocketry:spacestationchip:0>.addTooltip(format.red("务必为每个空间站准备多个备份空间站ID芯片 - 芯片可在卫星建造机中复制"));
+<advancedrocketry:spacestationchip:0>.addTooltip(format.red("务必为每个空间站准备多个备份空间站ID芯片 - 芯片可在卫星组装机中复制"));
 
 <appliedenergistics2:controller>.addTooltip(format.red("感谢StaffiX和Weemuu找到的更好的模组版本！"));
 

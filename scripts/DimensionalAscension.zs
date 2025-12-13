@@ -323,13 +323,13 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
 
     if (getBlockMatchAtPosition("divinerpg:wildwood_grass", playerPos, [18,0,-2], world) == 0) {
         player.sendChat("恐蚁界里的冰火传说模组生物很酷，就是有点卡。所以我为它们只做了专属维度来参与到流程中，算是某种程度上的妥协。");
-        player.sendChat("现在我们要前往原始森林了，下一个方块在轻树原木的东北侧，间隔一格 [18,0,-2]");
+        player.sendChat("现在我们要前往原始森林了，下一个方块在轻树木的东北侧，间隔一格 [18,0,-2]");
         return "FAIL";
     }
 
     if (getBlockMatchAtPosition("aoa3:candyland_grass", playerPos, [18,0,2], world) == 0 ) {
         player.sendChat("我发现神圣RPG模组的维度看起来有点千篇一律，希望添加的自定义结构能带来一些多样性。");
-        player.sendChat("第二神话叠壳！从轻树原木的东南侧开始，间隔一格 [18,0,2]");
+        player.sendChat("第二神话叠壳！从轻树木的东南侧开始，间隔一格 [18,0,2]");
         return "FAIL";
     }
 
@@ -383,7 +383,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
 
     if (getBlockMatchAtPosition("bewitchment:scorned_bricks", playerPos, [20,0,0], world) == 0) {
         player.sendChat("在制作共鸣界时，我突然意识到：许多在原版自定义冒险地图中通过命令方块实现的效果，同样可以运用在模组包里！自那以后，我开始在各个自定义结构中大规模使用命令方块！");
-        player.sendChat("下一站是光精界，其方块在轻树原木的东侧，间隔三格 [20,0,0]");
+        player.sendChat("下一站是光精界，其方块在轻树木的东侧，间隔三格 [20,0,0]");
         return "FAIL";
     }
 
