@@ -179,13 +179,13 @@
 <contenttweaker:simplest_salt_reactor>.addTooltip(format.red("点击查看安全的反应堆设计"));
 <contenttweaker:simplest_hot_salt_reactor>.addTooltip(format.red("点击查看安全的反应堆设计"));
 
-<contenttweaker:simplest_salt_reactor>.addTooltip(format.red("警告：只能有一个切片，并且不适用于不洁放射性混浆"));
-<contenttweaker:simplest_hot_salt_reactor>.addTooltip(format.red("警告：对于不洁放射性混浆，只能有一个切片，对于淋巴液，可以有5个切片"));
+<contenttweaker:simplest_salt_reactor>.addTooltip(format.red("警告：只能有一个片层，并且不适用于不洁放射性混浆"));
+<contenttweaker:simplest_hot_salt_reactor>.addTooltip(format.red("警告：对于不洁放射性混浆，只能有一个片层，对于淋巴液，可以有5个片层"));
 
-<contenttweaker:safe_lymph_of_pixonia>.addTooltip(format.red("预览显示的是反应堆内部的横截面，切片数量可自己选择"));
-<contenttweaker:safe_polonium>.addTooltip(format.red("预览显示的是反应堆内部的横截面，切片数量可自己选择"));
-<contenttweaker:safe_meatballstarlight>.addTooltip(format.red("预览显示的是反应堆内部的横截面，切片数量可自己选择"));
-<contenttweaker:safe_einstenium>.addTooltip(format.red("预览显示的是反应堆内部的横截面，切片数量可自己选择"));
+<contenttweaker:safe_lymph_of_pixonia>.addTooltip(format.red("预览显示的是反应堆内部的横截面，片层数量可自己选择"));
+<contenttweaker:safe_polonium>.addTooltip(format.red("预览显示的是反应堆内部的横截面，片层数量可自己选择"));
+<contenttweaker:safe_meatballstarlight>.addTooltip(format.red("预览显示的是反应堆内部的横截面，片层数量可自己选择"));
+<contenttweaker:safe_einstenium>.addTooltip(format.red("预览显示的是反应堆内部的横截面，片层数量可自己选择"));
 
 <nuclearcraft:fuel_uranium:4>.addTooltip(format.red("感谢Gebcrafter新绘制的核电工艺纹理！"));
 <nuclearcraft:fuel_uranium:2>.addTooltip(format.red("感谢Gebcrafter新绘制的核电工艺纹理！"));
@@ -208,24 +208,24 @@
 <minecraft:enchanted_book>.addTooltip(format.red("可方便地储存在魔咒图书馆中"));
 <minecraft:enchanted_book>.addTooltip(format.red("祛魔手稿可将附魔书回收利用，赚点添头"));
 
-<contenttweaker:cryotheum_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个切片的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
-<contenttweaker:raw_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个切片的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
-<contenttweaker:redstone_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个切片的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
-<contenttweaker:gold_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个切片的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
-<contenttweaker:liquidhelium_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个切片的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:cryotheum_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个片层的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:raw_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个片层的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:redstone_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个片层的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:gold_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个片层的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:liquidhelium_nak_cooler>.addTooltip(format.red("输出端配置为'冷却液分配'模式（最后一个片层的输出端配置为'热冷却液输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
 
-<contenttweaker:ogerite_vital_vessel>.addTooltip(format.red("输出端配置为'燃料分配'模式（最后一个切片的输出端设置为'枯竭输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
-<contenttweaker:polonium_vessel>.addTooltip(format.red("输出端配置为'燃料分配'模式（最后一个切片的输出端设置为'枯竭输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
-<contenttweaker:radioactive_mix_vessel>.addTooltip(format.red("输出端配置为'燃料分配'模式（最后一个切片的输出端设置为'枯竭输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
-<contenttweaker:pssessed_starlight_vessel>.addTooltip(format.red("输出端配置为'燃料分配'模式（最后一个切片的输出端设置为'枯竭输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:ogerite_vital_vessel>.addTooltip(format.red("输出端配置为'燃料分配'模式（最后一个片层的输出端设置为'枯竭输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:polonium_vessel>.addTooltip(format.red("输出端配置为'燃料分配'模式（最后一个片层的输出端设置为'枯竭输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:radioactive_mix_vessel>.addTooltip(format.red("输出端配置为'燃料分配'模式（最后一个片层的输出端设置为'枯竭输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:pssessed_starlight_vessel>.addTooltip(format.red("输出端配置为'燃料分配'模式（最后一个片层的输出端设置为'枯竭输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
 
 <astralsorcery:itemknowledgeshare>.addTooltip(format.red("用于和其他玩家分享知识。"));
 
 <contenttweaker:triple_nak_heat_exchanger>.addTooltip(format.red("点击查看较好的热交换器设计"));
-<contenttweaker:quintuple_nak_heat_exchanger>.addTooltip(format.red("点击查看较好的热交换器设计似"));
+<contenttweaker:quintuple_nak_heat_exchanger>.addTooltip(format.red("点击查看较好的热交换器设计"));
 
-<contenttweaker:triple_nak_heat_exchanger>.addTooltip(format.red("切片越多，速度越快"));
-<contenttweaker:quintuple_nak_heat_exchanger>.addTooltip(format.red("切片越多，速度越快"));
+<contenttweaker:triple_nak_heat_exchanger>.addTooltip(format.red("片层越多，速度越快"));
+<contenttweaker:quintuple_nak_heat_exchanger>.addTooltip(format.red("片层越多，速度越快"));
 
 <contenttweaker:triple_nak_heat_exchanger>.addTooltip(format.red("可处理最多3种不同的钠钾流体用于闭环系统"));
 <contenttweaker:quintuple_nak_heat_exchanger>.addTooltip(format.red("可处理最多5种不同的钠钾流体用于闭环系统"));
@@ -517,10 +517,10 @@
 <contenttweaker:hot_heat_exchanger>.addTooltip(format.red("使用硬碳管道"));
 <contenttweaker:cold_heat_exchanger>.addTooltip(format.red("使用导热合金管道"));
 
-<contenttweaker:hot_heat_exchanger>.addTooltip(format.red("输出端配置为'输入分配'模式（最后一个切片的输出端配置为'产物输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
-<contenttweaker:cold_heat_exchanger>.addTooltip(format.red("输出端配置为'输入分配'模式（最后一个切片的输出端配置为'产物输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:hot_heat_exchanger>.addTooltip(format.red("输出端配置为'输入分配'模式（最后一个片层的输出端配置为'产物输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:cold_heat_exchanger>.addTooltip(format.red("输出端配置为'输入分配'模式（最后一个片层的输出端配置为'产物输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
 
-<contenttweaker:particulate_steam_condensation_tube>.addTooltip(format.red("输出端配置为'输入分配'模式（最后一个切片的输出端配置为'产物输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
+<contenttweaker:particulate_steam_condensation_tube>.addTooltip(format.red("输出端配置为'输入分配'模式（最后一个片层的输出端配置为'产物输出'模式），输入端配置为'默认'模式，其余端配置为'禁用'模式"));
 
 <ore:plateCopper>.addTooltip(format.red("感谢Mambodog621帮助实现矿词统一！"));
 
