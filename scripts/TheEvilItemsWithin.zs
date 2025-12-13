@@ -203,7 +203,7 @@ stafficeika.itemRightClick = function(stack, world, player, hand) {
         Commands.call("fill ~-2 ~1 ~-2 ~2 ~5 ~2 air 0 replace contenttweaker:icy_gateway 0", player, world, false, true);
         return "PASS";
     } else {
-        Commands.call("say stand on the bedrock block inside the the Iceika Fortress", player, world, false, true);
+        Commands.call("say stand on the bedrock block inside the Iceika Fortress", player, world, false, true);
         return "FAIL";
     }
 };
