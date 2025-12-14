@@ -568,7 +568,7 @@ immortalliscallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in the Twilight Forest
     if(player.getDimension() != 7) {
-        player.sendChat("Enter the twilight forest");
+        player.sendChat("Enter the Twilight Forest");
         return "FAIL";
     }
 
@@ -606,7 +606,7 @@ harbingercallstone.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in the Twilight Forest
     if(player.getDimension() != 7) {
-        player.sendChat("Enter the twilight forest");
+        player.sendChat("Enter the Twilight Forest");
         return "FAIL";
     }
 
@@ -683,7 +683,7 @@ callofthehaunted.itemRightClick = function(stack, world, player, hand) {
     }
     // check if player is in the Twilight Forest
     if(player.getDimension() != 7) {
-        player.sendChat("You gotta be in the twilight forest");
+        player.sendChat("You gotta be in the Twilight Forest");
         return "FAIL";
     }
 
