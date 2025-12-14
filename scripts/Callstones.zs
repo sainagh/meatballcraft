@@ -4471,7 +4471,7 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-// the only time it was ever actually a spatial storage check, and it wasn't even commented
+	// the only time it was ever actually a spatial storage check, and it wasn't even commented
     if(player.getDimension() != -26) {
         player.sendChat("You gotta be in Spatial Storage from AE2");
         return "FAIL";
