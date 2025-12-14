@@ -678,7 +678,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:deeplands_wormhole>.addTooltip(format.red("藏在深层召唤石中"));
 
-<contenttweaker:celestial_shield_fragment>.addTooltip(format.red("咒法主宰才能获得"));
+<contenttweaker:celestial_shield_fragment>.addTooltip(format.red("法咒主宰才能获得"));
 
 <danknull:danknull_dock>.addTooltip(format.red("不要与存储总线连接，会造成崩溃"));
 
@@ -900,7 +900,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:ineffable_sun>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
 
-<contenttweaker:ineffable_light>.addTooltip(format.red("只有咒法主宰才能获得！"));
+<contenttweaker:ineffable_light>.addTooltip(format.red("只有法咒主宰才能获得！"));
 
 <contenttweaker:dense_vibrating_chunk>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
 

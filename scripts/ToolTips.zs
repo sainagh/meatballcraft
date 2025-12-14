@@ -718,9 +718,9 @@
 
 <contenttweaker:cotton_candy_withering_spray>.addTooltip(format.red("右击糖果巨人对其造成600点伤害，需使用5次"));
 
-<contenttweaker:starlight_sphere>.addTooltip(format.red("只有咒法主宰才能获得！"));
-<contenttweaker:lively_twilight_gem>.addTooltip(format.red("只有咒法主宰才能获得！"));
-<contenttweaker:stone_of_constraint>.addTooltip(format.red("只有咒法主宰才能获得！"));
+<contenttweaker:starlight_sphere>.addTooltip(format.red("只有法咒主宰才能获得！"));
+<contenttweaker:lively_twilight_gem>.addTooltip(format.red("只有法咒主宰才能获得！"));
+<contenttweaker:stone_of_constraint>.addTooltip(format.red("只有法咒主宰才能获得！"));
 
 <thermalfoundation:tool.fishing_rod_platinum>.addTooltip(format.red("可施加超限附魔"));
 
@@ -2301,9 +2301,9 @@
 
 <fluxnetworks:flux>.addTooltip(format.red("警告：不要放入Dank，可能会出错"));
 
-<contenttweaker:possessed_sky_stone>.addTooltip(format.red("要是有咒法主宰能命令（Order）我就好了……"));
+<contenttweaker:possessed_sky_stone>.addTooltip(format.red("要是有法咒主宰能命令（Order）我就好了……"));
 
-<contenttweaker:freed_sky_stone>.addTooltip(format.red("只有咒法主宰才能获得！"));
+<contenttweaker:freed_sky_stone>.addTooltip(format.red("只有法咒主宰才能获得！"));
 <contenttweaker:freed_sky_stone>.addTooltip(format.red("推荐用使用者  :)"));
 
 <draconicevolution:fusion_crafting_core>.addTooltip(format.red("警告：不要对其使用超级消音器，会造成卡顿"));
@@ -2369,7 +2369,7 @@
 <contenttweaker:alchemical_deep_rock>.addTooltip(format.red("破坏一些沉睡之石"));
 
 <contenttweaker:hypercharged_wool>.addTooltip(format.red("使用渐消羊毛右击一只特殊的羊"));
-<contenttweaker:hypercharged_wool>.addTooltip(format.red("咒法主宰可能知道是哪只羊……"));
+<contenttweaker:hypercharged_wool>.addTooltip(format.red("法咒主宰可能知道是哪只羊……"));
 
 <modularmachinery:blockmefluidoutputbus>.addTooltip(format.red("感谢Alecsio帮忙修复了相关问题"));
 
@@ -2523,8 +2523,8 @@
 <contenttweaker:infinite_recursive_plate>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 
 
-<contenttweaker:cursed_dragon_egg>.addTooltip(format.red("咒法主宰才能获得"));
-<contenttweaker:dark_capacitor_shard>.addTooltip(format.red("咒法主宰才能获得"));
+<contenttweaker:cursed_dragon_egg>.addTooltip(format.red("法咒主宰才能获得"));
+<contenttweaker:dark_capacitor_shard>.addTooltip(format.red("法咒主宰才能获得"));
 
 <contenttweaker:void_ichorium_rift>.addTooltip(format.red("跃迁器"));
 
@@ -2624,7 +2624,7 @@
 
 <appliedenergistics2:part:261>.addTooltip(format.red("感谢Alecsio在ME流体处理方面的帮助！"));
 
-<contenttweaker:salt_of_knowledge>.addTooltip(format.red("只有咒法主宰才能获得！"));
+<contenttweaker:salt_of_knowledge>.addTooltip(format.red("只有法咒主宰才能获得！"));
 <contenttweaker:salt_of_knowledge>.addTooltip(format.red("感谢osto让经验浴池成为可能！"));
 
 <contenttweaker:absolutely_autentic_rainbowgen>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
