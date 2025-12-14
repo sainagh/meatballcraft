@@ -27,9 +27,9 @@ creeponiacallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in Creeponia
     if(player.getDimension() != 805) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("You gotta be in Creeponia");
         return "FAIL";
     }
 
@@ -46,7 +46,7 @@ stormborncallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in the Twilight Forest
     if(player.getDimension() != 7) {
         player.sendChat("You gotta be in the Twilight Forest");
         return "FAIL";
@@ -65,9 +65,9 @@ deeplandscallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in the Deeplands
     if(player.getDimension() != 807) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("You gotta be in the Deeplands");
         return "FAIL";
     }
 
@@ -84,9 +84,9 @@ crysteviacallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in Crystevia
     if(player.getDimension() != 806) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("You gotta be in Crystevia");
         return "FAIL";
     }
 
@@ -103,9 +103,9 @@ irominecallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in Iromine
     if(player.getDimension() != 813) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("You gotta be in Iromine");
         return "FAIL";
     }
 
@@ -122,9 +122,9 @@ boreancallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in L'Borean
     if(player.getDimension() != 814) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("You gotta be in L'Borean");
         return "FAIL";
     }
 
@@ -141,9 +141,9 @@ lunaluscallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in Lunalus
     if(player.getDimension() != 816) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("You gotta be in Lunalus");
         return "FAIL";
     }
 
@@ -160,9 +160,9 @@ wildwoodcallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in Wildwood
     if(player.getDimension() != 421) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("You gotta be in Wildwood");
         return "FAIL";
     }
 
@@ -179,9 +179,9 @@ skytherncallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in Skythern
     if(player.getDimension() != 423) {
-        player.sendChat("Enter the right dimension");
+        player.sendChat("You gotta be in Skythern");
         return "FAIL";
     }
 
@@ -198,9 +198,9 @@ tuliteflower.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in Skythern
     if(player.getDimension() != 423) {
-        player.sendChat("Use in skythern");
+        player.sendChat("You gotta use this in Skythern");
         return "FAIL";
     }
 
@@ -566,7 +566,7 @@ immortalliscallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in the Twilight Forest
     if(player.getDimension() != 7) {
         player.sendChat("Enter the twilight forest");
         return "FAIL";
@@ -585,7 +585,7 @@ horrificcallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in Hator
     if(player.getDimension() != 150) {
         player.sendChat("You gotta be in Hator");
         return "FAIL";
@@ -604,7 +604,7 @@ harbingercallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in the Twilight Forest
     if(player.getDimension() != 7) {
         player.sendChat("Enter the twilight forest");
         return "FAIL";
@@ -623,9 +623,9 @@ dreamcallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in Vethea
     if(player.getDimension() != 427) {
-        player.sendChat("You gotta be in vethea");
+        player.sendChat("You gotta be in Vethea");
         return "FAIL";
     }
 
@@ -642,7 +642,7 @@ nightmarecallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in Vethea
     if(player.getDimension() != 427) {
         player.sendChat("You gotta be in vethea");
         return "FAIL";
@@ -662,9 +662,9 @@ sacredcallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is the Aether
     if(player.getDimension() != 4) {
-        player.sendChat("You gotta be in the aether");
+        player.sendChat("You gotta be in the Aether");
         return "FAIL";
     }
 
@@ -681,7 +681,7 @@ callofthehaunted.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in the Twilight Forest
     if(player.getDimension() != 7) {
         player.sendChat("You gotta be in the twilight forest");
         return "FAIL";
@@ -700,7 +700,7 @@ recursionprisonkey.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in the End
     if(player.getDimension() != 1) {
         player.sendChat("You gotta be in the end");
         return "FAIL";
@@ -719,7 +719,7 @@ stickycallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in Diamerisma
     if(player.getDimension() != 181) {
         player.sendChat("You gotta be in Diamerisma");
         return "FAIL";
@@ -779,9 +779,9 @@ arcaneprisonkey.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in Arcana
     if(player.getDimension() != 426) {
-        player.sendChat("You gotta be in arcana");
+        player.sendChat("You gotta be in Arcana");
         return "FAIL";
     }
 
@@ -879,7 +879,7 @@ mossygravedust.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in the overworld
     if(player.getDimension() != 0) {
         player.sendChat("You gotta be in the overworld");
         return "FAIL";
@@ -900,7 +900,7 @@ unusuallyheavybone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in the overworld
     if(player.getDimension() != 0) {
         player.sendChat("You gotta be in the overworld");
         return "FAIL";
@@ -921,7 +921,7 @@ summoningcomputer.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in the proxima belt
     if(player.getDimension() != 166) {
         player.sendChat("You gotta be in the proxima belt");
         return "FAIL";
@@ -946,7 +946,7 @@ skeletalcallstone.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-    // check if player is in spatial storage
+    // check if player is in the overworld
     if(player.getDimension() != 0) {
         player.sendChat("You gotta be in the overworld");
         return "FAIL";
@@ -1291,7 +1291,7 @@ betweenlandscallstone0.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("You gotta be in the overworld");
         return "FAIL";
     }
 
@@ -1312,7 +1312,7 @@ betweenlandscallstone1.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("You gotta be in the overworld");
         return "FAIL";
     }
 
@@ -1332,7 +1332,7 @@ betweenlandscallstone2.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("You gotta be in the overworld");
         return "FAIL";
     }
 
@@ -1352,7 +1352,7 @@ betweenlandscallstone3.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("You gotta be in the overworld");
         return "FAIL";
     }
 
@@ -1372,7 +1372,7 @@ betweenlandscallstone4.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("You gotta be in the overworld");
         return "FAIL";
     }
 
@@ -1392,7 +1392,7 @@ betweenlandscallstone5.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("You gotta be in the overworld");
         return "FAIL";
     }
 
@@ -1412,7 +1412,7 @@ betweenlandscallstone6.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("You gotta be in the overworld");
         return "FAIL";
     }
 
@@ -1432,7 +1432,7 @@ betweenlandscallstone7.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("You gotta be in the overworld");
         return "FAIL";
     }
 
@@ -1452,7 +1452,7 @@ betweenlandscallstone8.itemRightClick = function(stack, world, player, hand) {
     }
 
     if(player.getDimension() != 0) {
-        player.sendChat("You gotta be in overworld");
+        player.sendChat("You gotta be in the overworld");
         return "FAIL";
     }
 
@@ -4471,9 +4471,9 @@ hymnofthetruetongue.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-
+// the only time it was ever actually a spatial storage check, and it wasn't even commented
     if(player.getDimension() != -26) {
-        player.sendChat("Enter SPatial Storage from AE2");
+        player.sendChat("You gotta be in Spatial Storage from AE2");
         return "FAIL";
     }
 
