@@ -30,7 +30,7 @@ eldritchflower.itemRightClick = function(stack, world, player, hand) {
         Commands.call("give @p contenttweaker:lost_memory", player, world, false, true);
         return "PASS";
     } else {
-        Commands.call("say Right click while standing in front of a Block of Obsidian (same level as the floor) looking east", player, world, false, true);
+        player.sendChat("Right click while standing in front of an obsidian block (same level as the floor) looking east!");
         return "FAIL";
     }
 };
@@ -105,7 +105,7 @@ unfathomablebreaker.itemRightClick = function(stack, world, player, hand) {
         Commands.call("fill ~-1 ~-2 ~-1 ~1 ~-2 ~1 air 0 replace contenttweaker:unfathomable_stone 0", player, world, false, true);
         return "PASS";
     } else {
-        Commands.call("say stand on the bedrock block on top of the demonic prison", player, world, false, true);
+        player.sendChat("Stand on the bedrock block on top of the demonic prison!");
         return "FAIL";
     }
 };
@@ -203,7 +203,7 @@ stafficeika.itemRightClick = function(stack, world, player, hand) {
         Commands.call("fill ~-2 ~1 ~-2 ~2 ~5 ~2 air 0 replace contenttweaker:icy_gateway 0", player, world, false, true);
         return "PASS";
     } else {
-        Commands.call("say stand on the bedrock block inside the Iceika Fortress", player, world, false, true);
+        player.sendChat("Stand on the bedrock block inside the Iceika Fortress!");
         return "FAIL";
     }
 };
