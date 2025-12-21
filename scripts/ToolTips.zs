@@ -2506,9 +2506,9 @@
 <tombstone:grave_key>.addTooltip(format.red("/ob_inventory restore [玩家名称] [物品栏备份]"));
 <tombstone:grave_key>.addTooltip(format.red("使用TAB键来选择最近一次死亡时的[物品栏备份]"));
 
-<contenttweaker:cuendillar_catalyst_1>.addTooltip(format.red("使用源语誓约右击叁壹召唤石中的三一生物"));
-<contenttweaker:cuendillar_catalyst_2>.addTooltip(format.red("使用源语誓约右击叁壹召唤石中的三一生物"));
-<contenttweaker:cuendillar_catalyst_3>.addTooltip(format.red("使用源语誓约右击叁壹召唤石中的三一生物"));
+<contenttweaker:cuendillar_catalyst_1>.addTooltip(format.red("使用源语誓约右击叁壹界召唤石中的三一生物"));
+<contenttweaker:cuendillar_catalyst_2>.addTooltip(format.red("使用源语誓约右击叁壹界召唤石中的三一生物"));
+<contenttweaker:cuendillar_catalyst_3>.addTooltip(format.red("使用源语誓约右击叁壹界召唤石中的三一生物"));
 
 <contenttweaker:recursive_quantum>.addTooltip(format.red("推荐进行结构共用"));
 <contenttweaker:fractallite_quantum>.addTooltip(format.red("推荐进行结构共用"));

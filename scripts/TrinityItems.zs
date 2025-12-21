@@ -506,7 +506,7 @@ prayertrinitylove.itemRightClick = function(stack, world, player, hand) {
     playerPos.z = playerPos.z;
 
     if (getBlockMatchAtPosition("contenttweaker:fractallite_stone_of_love", playerPos, [0,0,0], world) == 0) {
-        player.sendChat("站在叁壹召唤石结构的中心");
+        player.sendChat("站在叁壹界召唤石结构的中心");
         return "FAIL";
     }
 
