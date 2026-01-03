@@ -3142,13 +3142,13 @@
 <minecraft:fish>.addTooltip(format.red("可施加超限附魔"));
 
 <contenttweaker:geo_fragment>.addTooltip(format.red("蚁狮巢穴召唤石会生成某种不属于其的生物"));
-<contenttweaker:geo_fragment>.addTooltip(format.red("使用特定石子右击此种生物（生成方式不限）"));
+<contenttweaker:geo_fragment>.addTooltip(format.red("使用特定卵石右击此种生物（生成方式不限）"));
 
 <contenttweaker:gluttonous_bell>.addTooltip(format.red("莫测监狱中会生成某种特定生物"));
-<contenttweaker:gluttonous_bell>.addTooltip(format.red("使用特定石子右击此种生物（生成方式不限）"));
+<contenttweaker:gluttonous_bell>.addTooltip(format.red("使用特定卵石右击此种生物（生成方式不限）"));
 
 <contenttweaker:medallion_of_undead_repellence>.addTooltip(format.red("下界要塞中会生成某种特定生物"));
-<contenttweaker:medallion_of_undead_repellence>.addTooltip(format.red("使用特定石子右击此种生物（生成方式不限）"));
+<contenttweaker:medallion_of_undead_repellence>.addTooltip(format.red("使用特定卵石右击此种生物（生成方式不限）"));
 
 <contenttweaker:recursive_mind_shield>.addTooltip(format.red("你有没有用过某些特定的跃迁器？？"));
 
