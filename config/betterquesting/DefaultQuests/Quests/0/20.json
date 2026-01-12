@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oHurt mobs sometimes drop items that heals you, the more you do it, the better the healing.\n\nThis skill is levelled by using heart stones, found in battle towers!\n\n§fEssence is something I know, so I am trying to compare my discoveries to it. While some of the mechanics are similar, this magic is very much different in its origin.",
+      "desc:8": "§7§oHurt mobs sometimes drop items that heal you, the more you do it, the better the healing.\n\nThis skill is levelled by using heart stones, found in battle towers!\n\n§fEssence is something I know, so I am trying to compare my discoveries to it. While some of the mechanics are similar, this magic is very much different in its origin.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "mod_lavacow:acidicheart"

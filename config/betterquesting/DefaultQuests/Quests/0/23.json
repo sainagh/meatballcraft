@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe more you mine, the better the random drops and luck.\n\n§fThe energy of this new magic is very conceptual, it seems. It has specific rules, but these rules directly relate to emerging concepts. When I mine, I get stuff that weren\u0027t there, but what does \u0027mine\u0027 mean? Does this only work on some types of stone, but not others? What if I am using the wrong tool?\nAnd how does the magic force guiding this even know that I am \u0027mining\u0027 as opposed to \u0027logging\u0027?\n",
+      "desc:8": "§7§oThe more you mine, the better the random drops and luck.\n\n§fThe energy of this new magic is very conceptual, it seems. It has specific rules, but these rules directly relate to emerging concepts. When I mine, I get stuff that wasn\u0027t there, but what does \u0027mine\u0027 mean? Does this only work on some types of stone, but not others? What if I am using the wrong tool?\nAnd how does the magic force guiding this even know that I am \u0027mining\u0027 as opposed to \u0027logging\u0027?\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:corrupted_pickaxe"

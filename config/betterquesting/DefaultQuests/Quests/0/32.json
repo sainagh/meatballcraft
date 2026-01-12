@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDimensional doors are found around the world and are a good source of starting materials.\n\nAfter travelling through a door, it spawns a rift, use the remover to take the rift out!\n\nSilk touch can be used to mine the fabric blocks in dimensional doors.\n\nif you get stuck, you can use the stuck item to teleport back to the overworld!\n\n§fWhatever the rules physics in this place are, they are not quite like the ones back on Earth. Space seems to spontaneously morph into pockets of reality separate from everywhere else. Something must be causing this, but I have no idea what or why.\nThere are structures in these warrens of twisting corridors and halls, and hidden treasures as well. Someone must\u0027ve used these places for something.",
+      "desc:8": "§7§oDimensional doors are found around the world and are a good source of starting materials.\n\nAfter travelling through a door, it spawns a rift, use the remover to take the rift out!\n\nSilk touch can be used to mine the fabric blocks in dimensional doors.\n\nIf you get stuck, you can use the stuck item to teleport back to the overworld!\n\n§fWhatever the rules physics in this place are, they are not quite like the ones back on Earth. Space seems to spontaneously morph into pockets of reality separate from everywhere else. Something must be causing this, but I have no idea what or why.\nThere are structures in these warrens of twisting corridors and halls, and hidden treasures as well. Someone must\u0027ve used these places for something.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "dimdoors:world_thread"
