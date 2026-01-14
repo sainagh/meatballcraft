@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    471525021,
+    81569973
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extrabotany:firstfractal",
+        "tag:10": {
+          "soulbindUUID:8": "8c381e15-592d-4003-ae11-6367e203127b"
+        }
+      },
+      "name:8": "Zenith - First Fractal"
+    }
+  },
+  "questID:3": 1366831095,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extrabotany:firstfractal",
+          "tag:10": {
+            "soulbindUUID:8": "8c381e15-592d-4003-ae11-6367e203127b"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

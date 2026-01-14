@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1167022541
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:sundered_crimson_heart"
+      },
+      "name:8": "Sundering of the Crimson Heart"
+    }
+  },
+  "questID:3": 107705993,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:evertainted_pebble"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:sundered_crimson_heart"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,1341 @@
+{
+    "registryname": "stellar_diviner",
+    "localizedname": "Stellar Diviner",
+	"color": "212121",
+    "modifiers": [
+        {
+            "elements": "divinerpg:eden_block",
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "description": "2x parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 2
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 2
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 2
+            }]
+        },
+        {
+            "elements": "divinerpg:wildwood_block",
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "description": "4x parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 4
+            }]
+        },
+        {
+            "elements": "divinerpg:apalachia_block",
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "description": "8x parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 8
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 8
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 8
+            }]
+        },
+        {
+            "elements": "divinerpg:mortum_block",
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "description": "16x parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 16
+            }]
+        },
+        {
+            "elements": "divinerpg:skythern_block",
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "description": "16x parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 32
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 32
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 32
+            }]
+        }
+    ],
+    "parts": [
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "enderio:block_fluid_stellar_alloy@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "aoa3:carved_rune_travel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "aoa3:carved_rune_travel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "aoa3:carved_rune_travel@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "aoa3:carved_rune_space@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "aoa3:carved_rune_travel@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "divinerpg:divine_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "aoa3:carved_rune_reality@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "enderio:block_alloy_endergy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "aoa3:ancient_rock@0"
+            ]
+        }
+    ]}

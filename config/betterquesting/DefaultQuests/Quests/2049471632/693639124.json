@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    471525021,
+    81569973
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cyclicmagic:dynamite_safe"
+      },
+      "name:8": "Combat Dynamite"
+    }
+  },
+  "questID:3": 693639124,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cyclicmagic:dynamite_safe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

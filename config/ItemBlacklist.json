@@ -997,64 +997,6 @@
       "damage": "*"
     }
   ],
-  "-11325": [
-    {
-      "item": "cyclicmagic:ender_pearl_mounted",
-      "damage": "*"
-    },
-    {
-      "item": "minecraft:ender_pearl",
-      "damage": "*"
-    },
-    {
-      "item": "enderio:item_travel_staff",
-      "damage": "*"
-    },
-    {
-      "item": "minecraft:chorus_fruit",
-      "damage": "*"
-    },
-    {
-      "item": "cyclicmagic:ender_pearl_reuse",
-      "damage": "*"
-    },
-    {
-      "item": "actuallyadditions:item_tele_staff",
-      "damage": "*"
-    },
-    {
-      "item": "enderutilities:enderbow",
-      "damage": "*"
-    },
-    {
-      "item": "rftools:storage_scanner",
-      "damage": "*"
-    },
-    {
-      "item": "projecte:item.pe_destruction_catalyst",
-      "damage": "*"
-    },
-    {
-      "item": "projecte:item.pe_catalitic_lens",
-      "damage": "*"
-    },
-    {
-      "item": "projecte:item.pe_rm_morning_star",
-      "damage": "*"
-    },
-    {
-      "item": "rftoolsdim:dimension_builder",
-      "damage": "*"
-    },
-    {
-      "item": "rftoolsdim:dimension_enscriber",
-      "damage": "*"
-    },
-    {
-      "item": "rftoolsdim:dimlet_workbench",
-      "damage": "*"
-    }
-  ],
   "163": [
     {
       "item": "extrautils2:terraformer",

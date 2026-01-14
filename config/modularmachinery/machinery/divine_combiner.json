@@ -192,7 +192,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "generalized_input_fluid"
+                "divine_combiner_io"
             ]
         },
         {
@@ -680,7 +680,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "aoa3:dark_bricks@0"
+                "divine_combiner_io"
             ]
         },
         {
@@ -696,7 +696,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "generalized_output_item"
+                "divine_combiner_io"
             ]
         },
         {
@@ -704,7 +704,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "aoa3:dark_bricks@0"
+                "divine_combiner_io"
             ]
         },
         {
@@ -1048,7 +1048,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "aoa3:dark_bricks@0"
+                "divine_combiner_io"
             ]
         },
         {
@@ -1056,7 +1056,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "generalized_input_item"
+                "divine_combiner_io"
             ]
         },
         {
@@ -1064,7 +1064,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "aoa3:dark_bricks@0"
+                "divine_combiner_io"
             ]
         },
         {

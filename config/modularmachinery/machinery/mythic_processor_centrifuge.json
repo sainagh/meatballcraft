@@ -2,6 +2,27 @@
     "registryname": "mythic_processor_centrifuge",
     "localizedname": "Recursive Processor: Centrifuge",
 	"color": "464f47",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:mythic_coil_t4@0",
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "description": "16X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            }]
+        }
+    ],
     "parts": [
         {
             "x": 1,
@@ -80,7 +101,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "generalized_output_fluid"
+                "generalized_output_item"
             ]
         },
         {

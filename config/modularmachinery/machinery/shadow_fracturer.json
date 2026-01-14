@@ -27,6 +27,31 @@
                 "operation": 1,
                 "multiplier": 8
             }]
+        },
+        {
+            "elements": "contenttweaker:void_ichorium_ore",
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "description": "64X parallelization, \n87.5% fluid discount",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 1
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64
+            }]
         }
     ],
     "parts": [

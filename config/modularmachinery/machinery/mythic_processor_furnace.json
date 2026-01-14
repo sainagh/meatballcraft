@@ -8,18 +8,18 @@
             "x": 0,
             "y": 3,
             "z": 1,
-            "description": "16X parallelization",
+            "description": "64X parallelization",
             "modifiers": [{
                 "io": "output",
                 "target": "modularmachinery:item",
                 "operation": 1,
-                "multiplier": 16
+                "multiplier": 64
             },
             {
                 "io": "input",
                 "target": "modularmachinery:item",
                 "operation": 1,
-                "multiplier": 16
+                "multiplier": 64
             }]
         }
     ],

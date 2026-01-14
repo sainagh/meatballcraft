@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1709108114
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:unforgotten_summons"
+      },
+      "name:8": "Heir of the Twilit Hero"
+    }
+  },
+  "questID:3": 202394020,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:twilit_freedom_fabrial"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:summons_of_the_twilit_hero"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:unforgotten_summons"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    104577917
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:standard_of_the_dragon_reborn"
+      },
+      "name:8": "Avatar of the Arbiter"
+    }
+  },
+  "questID:3": 577649534,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dragon_reborn_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:standard_of_the_dragon_reborn"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:stone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

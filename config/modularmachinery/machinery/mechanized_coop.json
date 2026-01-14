@@ -15,6 +15,19 @@
                 "operation": 1,
                 "multiplier": 10
             }
+        },
+        {
+            "elements": "contenttweaker:everloving_wood",
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "description": "100X output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 100
+            }
         }
     ],
     "parts": [

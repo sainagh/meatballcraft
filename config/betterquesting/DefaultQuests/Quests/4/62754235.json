@@ -24,6 +24,10 @@
         "1:10": {
           "Count:3": 1,
           "id:8": "superfactorymanager:cable"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "superfactorymanager:manager_advanced"
         }
       },
       "taskID:8": "bq_standard:retrieval"

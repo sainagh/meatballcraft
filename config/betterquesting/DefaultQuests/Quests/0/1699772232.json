@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    544292152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:rune_of_valhalla"
+      },
+      "name:8": "Valhalla"
+    }
+  },
+  "questID:3": 1699772232,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:valhalla_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:rune_of_valhalla"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
