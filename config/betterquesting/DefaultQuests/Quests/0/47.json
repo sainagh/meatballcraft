@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": " Crop sticks are awesome! They allow me to grow plants in better ways, and to better keep track of their properties.\nThis should allow me to do simple cross-breeding, and to improve my thoughput.",
+      "desc:8": "Crop sticks are awesome! They allow me to grow plants in better ways, and to better keep track of their properties.\nThis should allow me to do simple cross-breeding, and to improve my throughput.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "agricraft:crop_sticks"

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe smeltery is made out of seared bricks (or other seared blocks). \nIt needs a smeltery controller, and at least a seared tank (or other fuel sources), and they can be placed anywhere in the structure.\nThe multiblock consists of a hollow cuboid without edges, and an open top.\nSeared drains with faucets are used to output molten metals to casting tables and basins.\n\n§fFinally at the bronze age! By building a smeltery, I can extract metal from ore more efficiently, and I can start making alloys!",
+      "desc:8": "§7§oThe smeltery is made out of seared bricks (or other seared blocks). \nIt needs a smeltery controller, and at least a seared tank with lava (or other fuel sources), and they can be placed anywhere in the structure.\nThe multiblock consists of a hollow cuboid without edges, and an open top.\nSeared drains with faucets are used to output molten metals to casting tables and basins.\n\n§fFinally at the bronze age! By building a smeltery, I can extract metal from ore more efficiently, and I can start making alloys!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:smeltery_controller"

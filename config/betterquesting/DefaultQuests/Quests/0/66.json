@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oMana infused metal can be found in a special structure in the nether!\n\nSearch for blue stuff!",
+      "desc:8": "§7§oMithril can be found in a special structure in the nether!\n\nSearch for blue stuff!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projecte:item.pe_philosophers_stone",
         "tag:10": {}
       },
-      "name:8": "For Philosopher\u0027s Only"
+      "name:8": "For Philosophers Only"
     }
   },
   "questID:3": 66,
