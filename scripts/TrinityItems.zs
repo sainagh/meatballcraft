@@ -474,7 +474,7 @@ summonsrealmshiftercherubim.itemRightClick = function(stack, world, player, hand
         Commands.call("summon aoa3:realmshifter ~ ~ ~ {HandItems:[{Count:1,id:\"contenttweaker:stone_of_the_love\"},{}], PersistenceRequired:1,Tags:[\"cherubimblue\"],CustomName:\"Realmshifter Cherubim\"}", player, world, false, true);
         return "PASS";
     }
-    player.sendChat("Stand on any of the Tarracotta Blocks");
+    player.sendChat("Stand on any of the Terracotta blocks!");
 
     return "FAIL";
 
@@ -557,36 +557,36 @@ keyofrestoredbalance.itemRightClick = function(stack, world, player, hand) {
     }
 
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [1,0,0], world) == 0) {
-        player.sendChat("Missing Celtic Sky stone Brick: [1,0,0]");
+        player.sendChat("Missing Celtic Sky Stone Brick: [1,0,0]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [-1,0,0], world) == 0) {
-        player.sendChat("Missing Celtic Sky stone Brick: [-1,0,0]");
+        player.sendChat("Missing Celtic Sky Stone Brick: [-1,0,0]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [0,0,1], world) == 0) {
-        player.sendChat("Missing Celtic Sky stone Brick: [0,0,1]");
+        player.sendChat("Missing Celtic Sky Stone Brick: [0,0,1]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [0,0,-1], world) == 0) {
-        player.sendChat("Missing Celtic Sky stone Brick: [0,0,-1]");
+        player.sendChat("Missing Celtic Sky Stone Brick: [0,0,-1]");
         return "FAIL";
     }
 
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [1,0,1], world) == 0) {
-        player.sendChat("Missing Celtic Sky stone Brick: [1,0,1]");
+        player.sendChat("Missing Celtic Sky Stone Brick: [1,0,1]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [1,0,-1], world) == 0) {
-        player.sendChat("Missing Celtic Sky stone Brick: [1,0,-1]");
+        player.sendChat("Missing Celtic Sky Stone Brick: [1,0,-1]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [-1,0,1], world) == 0) {
-        player.sendChat("Missing Celtic Sky stone Brick: [-1,0,1]");
+        player.sendChat("Missing Celtic Sky Stone Brick: [-1,0,1]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0:7", playerPos, [-1,0,-1], world) == 0) {
-        player.sendChat("Missing Celtic Sky stone Brick: [-1,0,-1]");
+        player.sendChat("Missing Celtic Sky Stone Brick: [-1,0,-1]");
         return "FAIL";
     }
 
@@ -648,111 +648,111 @@ keyofrestoredbalance.itemRightClick = function(stack, world, player, hand) {
 
 
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [0,0,3], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [0,0,3]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [0,0,3]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [1,0,3], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [1,0,3]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [1,0,3]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [-1,0,3], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [-1,0,3]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [-1,0,3]");
         return "FAIL";
     }
 
 
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [0,0,-3], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [0,0,-3]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [0,0,-3]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [1,0,-3], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [1,0,-3]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [1,0,-3]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [-1,0,-3], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [-1,0,-3]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [-1,0,-3]");
         return "FAIL";
     }
 
 
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [3,0,0], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [3,0,0]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [3,0,0]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [3,0,1], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [3,0,1]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [3,0,1]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [3,0,-1], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [3,0,-1]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [3,0,-1]");
         return "FAIL";
     }
 
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [-3,0,0], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [-3,0,0]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [-3,0,0]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [-3,0,1], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [-3,0,1]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [-3,0,1]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [-3,0,-1], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [-3,0,-1]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [-3,0,-1]");
         return "FAIL";
     }
 
 
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [2,0,2], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [2,0,2]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [2,0,2]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [2,0,-2], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [2,0,-2]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [2,0,-2]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [-2,0,2], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [-2,0,2]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [-2,0,2]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:1", playerPos, [-2,0,-2], world) == 0) {
-        player.sendChat("Missing Tiles Sky stone Brick: [-2,0,-2]");
+        player.sendChat("Missing Tiles Sky Stone Brick: [-2,0,-2]");
         return "FAIL";
     }
 
 
 
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [2,1,2], world) == 0) {
-        player.sendChat("Missing Pillar Sky stone Brick: [2,1,2]");
+        player.sendChat("Missing Pillar Sky Stone Brick: [2,1,2]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [2,1,-2], world) == 0) {
-        player.sendChat("Missing Pillar Sky stone Brick: [2,1,-2]");
+        player.sendChat("Missing Pillar Sky Stone Brick: [2,1,-2]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [-2,1,2], world) == 0) {
-        player.sendChat("Missing Pillar Sky stone Brick: [-2,1,2]");
+        player.sendChat("Missing Pillar Sky Stone Brick: [-2,1,2]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [-2,1,-2], world) == 0) {
-        player.sendChat("Missing Pillar Sky stone Brick: [-2,1,-2]");
+        player.sendChat("Missing Pillar Sky Stone Brick: [-2,1,-2]");
         return "FAIL";
     }
 
 
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [0,1,3], world) == 0) {
-        player.sendChat("Missing Pillar Sky stone Brick: [0,1,3]");
+        player.sendChat("Missing Pillar Sky Stone Brick: [0,1,3]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [0,1,-3], world) == 0) {
-        player.sendChat("Missing Pillar Sky stone Brick: [0,1,-3]");
+        player.sendChat("Missing Pillar Sky Stone Brick: [0,1,-3]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [3,1,0], world) == 0) {
-        player.sendChat("Missing Pillar Sky stone Brick: [3,1,0]");
+        player.sendChat("Missing Pillar Sky Stone Brick: [3,1,0]");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0:2", playerPos, [-3,1,0], world) == 0) {
-        player.sendChat("Missing Pillar Sky stone Brick: [-3,1,0]");
+        player.sendChat("Missing Pillar Sky Stone Brick: [-3,1,0]");
         return "FAIL";
     }
 
