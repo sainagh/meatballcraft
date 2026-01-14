@@ -1,0 +1,708 @@
+{
+    "registryname": "seared_caster",
+    "localizedname": "Seared Caster",
+	"color": "000000",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:cursed_myrmitite@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "2X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 2
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 2
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 2
+            }]
+        },
+        {
+            "elements": "contenttweaker:rosidian@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "4X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 4
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 4
+            }]
+        },
+        {
+            "elements": "contenttweaker:lymph_of_pixonia@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "8X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 8
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 8
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 8
+            }]
+        },
+        {
+            "elements": "contenttweaker:runandium@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "12X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 12
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 12
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 12
+            }]
+        },
+        {
+            "elements": "contenttweaker:stormlight@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "16X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            }]
+        },
+        {
+            "elements": "contenttweaker:ascended_draconic_alloy@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "20X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 20
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 20
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 20
+            }]
+        },
+        {
+            "elements": "contenttweaker:oganesson@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "24X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 24
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 24
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 24
+            }]
+        },
+        {
+            "elements": "contenttweaker:twilight_fire@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "32X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 32
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 32
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 32
+            }]
+        },
+        {
+            "elements": "contenttweaker:shyre_weed_oil@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "40X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 40
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 40
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 40
+            }]
+        },
+        {
+            "elements": "contenttweaker:darkstarlight@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "48X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 48
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 48
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 48
+            }]
+        },
+        {
+            "elements": "contenttweaker:molten_defined@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "64X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 64
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64
+            }]
+        },
+        {
+            "elements": "contenttweaker:fractallite_halite@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "80X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 80
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 80
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 80
+            }]
+        }
+    ],
+    "parts": [
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "tconstruct:seared@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "tconstruct:seared@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:rhenium_molten@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "generalized_input_fluid"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "generalized_input_item"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "tconstruct:seared@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "tconstruct:seared_stairs_brick_small@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "generalized_output_item"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "tconstruct:seared@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@10"
+            ]
+        }
+    ]}

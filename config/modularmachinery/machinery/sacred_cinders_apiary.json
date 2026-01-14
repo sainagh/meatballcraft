@@ -2,7 +2,22 @@
     "registryname": "sacred_cinders_apiary",
     "localizedname": "Sacred Cinders Apiary",
 	"color": "232c3b",
-    "has-factory": true,
+    "modifiers": [
+        {
+            "elements": "contenttweaker:sacrosanct_cinders_apiary",
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "description": "5X output",
+            "modifiers": [
+                {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 5
+            }]
+        }
+    ],
     "parts": [
         {
             "x": 2,

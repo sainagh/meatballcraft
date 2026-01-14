@@ -1,32 +1,31 @@
 {
   "preRequisites:11": [
-    50062
+    1439034117,
+    81569973
   ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "betterquesting:placeholder",
+        "id:8": "aoa3:carrot_cannon",
         "tag:10": {
-          "orig_id:8": "retro_sophisticated_backpacks:backpack_leather",
-          "orig_meta:3": 0
+          "HideFlags:1": 2
         }
       },
-      "name:8": "Sophisticated Backpacks"
+      "name:8": "Carrot Cannon"
     }
   },
-  "questID:3": 1313906300,
+  "questID:3": 1430156385,
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "betterquesting:placeholder",
+          "id:8": "aoa3:carrot_cannon",
           "tag:10": {
-            "orig_id:8": "retro_sophisticated_backpacks:backpack_leather",
-            "orig_meta:3": 0
+            "HideFlags:1": 2
           }
         }
       },

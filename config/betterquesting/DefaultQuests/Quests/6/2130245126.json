@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20194
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe infusion claw is a block that, when placed above a Runic Matrix, enables the automation of thaumcraft infusion recipes.\n\nIf the right essentia and item ingredients are present, a redstone signal sent to the claw will start the infusion as if the Matrix had been clicked by a Gauntlet.\n\nNote that the infusion will still follow instability rules, as well as failure if the right essentia is not present.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gadothaumy:infusion_claw"
+      },
+      "name:8": "Infusion Claw"
+    }
+  },
+  "questID:3": 2130245126,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gadothaumy:infusion_claw"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

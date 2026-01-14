@@ -1,116 +1,5 @@
 [
     {
-        "mode": "ADD",
-        "result": "contenttweaker:divine_star",
-        "catalyst": "minecraft:nether_star",
-        "energy": 100000,
-        "tier": 1,
-        "ingredients": [
-            "divinerpg:divine_rock",
-            "divinerpg:divine_rock",
-            "divinerpg:divine_rock",
-            "divinerpg:divine_rock",
-            "divinerpg:divine_rock",
-            "divinerpg:divine_rock"
-        ]
-    },
-    {
-        "mode": "ADD",
-        "result": "contenttweaker:divine_star,2",
-        "catalyst": "minecraft:nether_star,2",
-        "energy": 100000,
-        "tier": 2,
-        "ingredients": [
-            "aoa3:toxic_stone",
-            "aoa3:toxic_stone",
-            "aoa3:toxic_stone",
-            "aoa3:toxic_stone",
-            "aoa3:toxic_stone",
-            "aoa3:toxic_stone"
-        ]
-    },
-    {
-        "mode": "ADD",
-        "result": "contenttweaker:divine_star,4",
-        "catalyst": "minecraft:nether_star,4",
-        "energy": 100000,
-        "tier": 3,
-        "ingredients": [
-            "aoa3:borean_stone",
-            "aoa3:borean_stone",
-            "aoa3:borean_stone",
-            "aoa3:borean_stone",
-            "aoa3:borean_stone",
-            "aoa3:borean_stone"
-        ]
-    },
-    {
-        "mode": "ADD",
-        "result": "contenttweaker:divine_star,8",
-        "catalyst": "minecraft:nether_star,8",
-        "energy": 100000,
-        "tier": 3,
-        "ingredients": [
-            "aoa3:dustopia_stone",
-            "aoa3:dustopia_stone",
-            "aoa3:dustopia_stone",
-            "aoa3:dustopia_stone",
-            "aoa3:dustopia_stone",
-            "aoa3:dustopia_stone"
-        ]
-    },
-	{
-        "mode": "ADD",
-        "result": "contenttweaker:eden_star",
-        "catalyst": "minecraft:nether_star",
-        "energy": 1000000,
-        "tier": 1,
-        "ingredients": [
-            "contenttweaker:rhenium_catalyst",
-            "contenttweaker:rhenium_catalyst",
-            "contenttweaker:rhenium_catalyst",
-            "contenttweaker:rhenium_catalyst",
-            "contenttweaker:rhenium_catalyst",
-            "contenttweaker:rhenium_catalyst",
-			"contenttweaker:rhenium_catalyst",
-			"contenttweaker:rhenium_catalyst"
-        ]
-    },
-	{
-        "mode": "ADD",
-        "result": "contenttweaker:eden_star,4",
-        "catalyst": "minecraft:nether_star,4",
-        "energy": 1000000,
-        "tier": 1,
-        "ingredients": [
-            "contenttweaker:dreadful_rhenium_catalyst",
-            "contenttweaker:dreadful_rhenium_catalyst",
-            "contenttweaker:dreadful_rhenium_catalyst",
-            "contenttweaker:dreadful_rhenium_catalyst",
-            "contenttweaker:dreadful_rhenium_catalyst",
-            "contenttweaker:dreadful_rhenium_catalyst",
-			"contenttweaker:dreadful_rhenium_catalyst",
-			"contenttweaker:dreadful_rhenium_catalyst"
-        ]
-    },
-	{
-        "mode": "ADD",
-        "result": "contenttweaker:eden_star,8",
-        "catalyst": "minecraft:nether_star,8",
-        "energy": 1000000,
-        "tier": 1,
-        "ingredients": [
-            "contenttweaker:runic_rhenium_catalyst",
-            "contenttweaker:runic_rhenium_catalyst",
-            "contenttweaker:runic_rhenium_catalyst",
-            "contenttweaker:runic_rhenium_catalyst",
-            "contenttweaker:runic_rhenium_catalyst",
-            "contenttweaker:runic_rhenium_catalyst",
-			"contenttweaker:runic_rhenium_catalyst",
-			"contenttweaker:runic_rhenium_catalyst"
-        ]
-    },
-    {
         "mode": "REMOVE",
         "result": "draconicevolution:crafting_injector,1,2",
         "catalyst": "draconicevolution:crafting_injector,1,1"
@@ -129,6 +18,96 @@
             "contenttweaker:jeweled_runium",
             "contenttweaker:jeweled_runium",
 			"contenttweaker:jeweled_runium"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:divination_catalyst",
+        "catalyst": "minecraft:ender_eye",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "actuallyadditions:item_misc,1,19",
+            "actuallyadditions:item_misc,1,19",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "minecraft:nether_star"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:divination_catalyst,4,0",
+        "catalyst": "minecraft:ender_eye",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:eden_core",
+            "contenttweaker:eden_core",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "minecraft:nether_star"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:divination_catalyst,8,0",
+        "catalyst": "minecraft:ender_eye",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:wildwood_core",
+            "contenttweaker:wildwood_core",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "minecraft:nether_star"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:divination_catalyst,16,0",
+        "catalyst": "minecraft:ender_eye",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:apalachia_core",
+            "contenttweaker:apalachia_core",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "minecraft:nether_star"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:divination_catalyst,32,0",
+        "catalyst": "minecraft:ender_eye",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:skythern_core",
+            "contenttweaker:skythern_core",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "minecraft:nether_star"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:divination_catalyst,64,0",
+        "catalyst": "minecraft:ender_eye",
+        "energy": 256000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:mortum_core",
+            "contenttweaker:mortum_core",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "minecraft:nether_star"
         ]
     },
     {
@@ -286,61 +265,6 @@
             "thebetweenlands:sapling_hearthgrove",
             "thebetweenlands:sapling_hearthgrove",
             "contenttweaker:voxponds_artifact"
-        ]
-    },
-    {
-        "mode": "ADD",
-        "result": "contenttweaker:wildwood_star",
-        "catalyst": "minecraft:nether_star",
-        "energy": 5000000,
-        "tier": 2,
-        "ingredients": [
-            "contenttweaker:pixonia_heart",
-            "contenttweaker:pixonia_heart",
-            "contenttweaker:pixonia_heart",
-            "contenttweaker:pixonia_heart",
-            "contenttweaker:rainbow_heart_canister",
-            "contenttweaker:rainbow_heart_canister"
-        ]
-    },
-    {
-        "mode": "ADD",
-        "result": "contenttweaker:wildwood_star,4",
-        "catalyst": "minecraft:nether_star,4",
-        "energy": 5000000,
-        "tier": 2,
-        "ingredients": [
-            "contenttweaker:pixonia_heart",
-            "contenttweaker:pixonia_heart",
-            "contenttweaker:pixonia_heart",
-            "contenttweaker:pixonia_heart",
-            "contenttweaker:pixonia_heart",
-            "contenttweaker:pixonia_heart",
-            "contenttweaker:pixonia_heart",
-            "contenttweaker:pixonia_heart",
-            "contenttweaker:gilded_rainbow_heart_canister",
-            "contenttweaker:gilded_rainbow_heart_canister"
-        ]
-    },
-    {
-        "mode": "ADD",
-        "result": "contenttweaker:wildwood_star,8",
-        "catalyst": "minecraft:nether_star,8",
-        "energy": 5000000,
-        "tier": 2,
-        "ingredients": [
-            "contenttweaker:brave_heart_of_pixonia",
-            "contenttweaker:brave_heart_of_pixonia",
-            "contenttweaker:brave_heart_of_pixonia",
-            "contenttweaker:brave_heart_of_pixonia",
-            "contenttweaker:brave_heart_of_pixonia",
-            "contenttweaker:brave_heart_of_pixonia",
-            "contenttweaker:brave_heart_of_pixonia",
-            "contenttweaker:brave_heart_of_pixonia",
-            "contenttweaker:gilded_rainbow_heart_canister",
-            "contenttweaker:gilded_rainbow_heart_canister",
-            "contenttweaker:gilded_rainbow_heart_canister",
-            "contenttweaker:gilded_rainbow_heart_canister"
         ]
     },
     {
@@ -1108,6 +1032,53 @@
             "draconicevolution:chaos_shard,1,0",
             "draconicevolution:chaos_shard,1,0",
             "draconicevolution:chaos_shard,1,0"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:balanced_draconium_block",
+        "catalyst": "contenttweaker:defined_draconium_block",
+        "energy": 10000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:recursium_ingot",
+            "contenttweaker:recursium_ingot",
+            "contenttweaker:chaos_wood",
+            "contenttweaker:order_wood",
+            "ore:ingotInfinity",
+            "ore:ingotInfinity"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:fractal_draconium_block",
+        "catalyst": "contenttweaker:balanced_draconium_block",
+        "energy": 100000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:cuendillar_plate",
+            "contenttweaker:cuendillar_plate",
+            "contenttweaker:cuendillar_plate",
+            "contenttweaker:cuendillar_plate",
+            "avaritiaitem:fractallite_halite_catalyst",
+            "avaritiaitem:fractallite_halite_catalyst"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:endlessly_wishing_draconium_block",
+        "catalyst": "contenttweaker:fractal_draconium_block",
+        "energy": 1000000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:ingot_of_infinite_wishes",
+            "contenttweaker:ingot_of_infinite_wishes",
+            "contenttweaker:ingot_of_infinite_wishes",
+            "contenttweaker:ingot_of_infinite_wishes",
+            "contenttweaker:cuendillar_seal",
+            "contenttweaker:cuendillar_seal",
+            "contenttweaker:cuendillar_seal",
+            "contenttweaker:cuendillar_seal"
         ]
     },
     {

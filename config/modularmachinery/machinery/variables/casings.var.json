@@ -15,6 +15,12 @@
         "modularmachinery:blockfluidinputhatch",
         "generalized_output_fluid"
     ],
+    "fluid_both_io": [
+        "modularmachinery:blockfluidoutputhatch",
+        "modularmachinery:blockmefluidoutputbus",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockmefluidinputbus"
+    ],
     "fluxormanainput": [
         "modularmachineryaddons:blockfluxproviderinput",
         "modularmachinery:blockmanaproviderinput"
@@ -102,6 +108,15 @@
     "berserker_forge_input": [
         "modularmachinery:blockfluidinputhatch@2",
         "modularmachinery:blockinputbus@0"
+    ],
+    "divine_combiner_io": [
+        "aoa3:dark_bricks",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockmefluidinputbus",
+        "modularmachinery:blockmeitemoutputbus",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockmeiteminputbus",
+        "modularmachinery:blockoutputbus"
     ],
     "plasmatic_condenser_io": [
         "modularmachinery:blockoutputbus",

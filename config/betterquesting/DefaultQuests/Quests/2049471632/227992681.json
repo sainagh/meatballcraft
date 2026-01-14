@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    1439034117,
+    81569973
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:baronator",
+        "tag:10": {
+          "HideFlags:1": 2
+        }
+      },
+      "name:8": "Baronator"
+    }
+  },
+  "questID:3": 227992681,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:baronator",
+          "tag:10": {
+            "HideFlags:1": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

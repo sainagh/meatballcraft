@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    107705993
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:sundering_of_the_twilit_curse"
+      },
+      "name:8": "Freedom for the Twilight Forest"
+    }
+  },
+  "questID:3": 1709108114,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:sundering_of_the_twilit_curse"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:crimson_warren_remains"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

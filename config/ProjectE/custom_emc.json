@@ -16434,63 +16434,63 @@
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|0",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|1",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|2",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|3",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|4",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|5",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|6",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|7",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|8",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|9",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|10",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|11",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|12",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|13",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_planks_oak_thaumcraft_plank_silverwood_0|14",
-      "emc": 1
+      "emc": 8
     },
     {
       "item": "unlimitedchiselworks:chisel_cobblestone_aether_legacy_holystone_2|0",
@@ -23283,6 +23283,134 @@
     {
       "item": "packagedauto:distributor|0",
       "emc": 0
+    },
+    {
+      "item": "extrautils2:biomemarker|0",
+      "emc": 0
+    },
+    {
+      "item": "twilightforest:fluffy_cloud|0",
+      "emc": 16
+    },
+    {
+      "item": "draconicevolution:item_dislocation_inhibitor|0",
+      "emc": 1728
+    },
+    {
+      "item": "iceandfire:chared_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "iceandfire:chared_grass|0",
+      "emc": 1
+    },
+    {
+      "item": "iceandfire:chared_stone|0",
+      "emc": 1
+    },
+    {
+      "item": "iceandfire:chared_cobblestone|0",
+      "emc": 1
+    },
+    {
+      "item": "iceandfire:chared_gravel|0",
+      "emc": 1
+    },
+    {
+      "item": "iceandfire:chared_grass_path|0",
+      "emc": 1
+    },
+    {
+      "item": "divinerpg:snow_bricks|0",
+      "emc": 64
+    },
+    {
+      "item": "chisel:ironpane|0",
+      "emc": 96
+    },
+    {
+      "item": "chisel:ironpane|1",
+      "emc": 96
+    },
+    {
+      "item": "chisel:ironpane|2",
+      "emc": 96
+    },
+    {
+      "item": "chisel:ironpane|3",
+      "emc": 96
+    },
+    {
+      "item": "chisel:ironpane|4",
+      "emc": 96
+    },
+    {
+      "item": "chisel:ironpane|5",
+      "emc": 96
+    },
+    {
+      "item": "chisel:ironpane|6",
+      "emc": 96
+    },
+    {
+      "item": "chisel:ironpane|7",
+      "emc": 96
+    },
+    {
+      "item": "chisel:ironpane|8",
+      "emc": 96
+    },
+    {
+      "item": "chisel:ironpane|9",
+      "emc": 96
+    },
+    {
+      "item": "chisel:ironpane|10",
+      "emc": 96
+    },
+    {
+      "item": "chisel:ironpane|11",
+      "emc": 96
+    },
+    {
+      "item": "chisel:ironpane|12",
+      "emc": 96
+    },
+    {
+      "item": "bewitchment:nethersteel_pentacle|0",
+      "emc": 192
+    },
+    {
+      "item": "bewitchment:nethersteel_polished|0",
+      "emc": 192
+    },
+    {
+      "item": "thaumicaugmentation:stone|7",
+      "emc": 256
+    },
+    {
+      "item": "thaumicaugmentation:bars|0",
+      "emc": 256
+    },
+    {
+      "item": "thaumicaugmentation:stone|3",
+      "emc": 256
+    },
+    {
+      "item": "abyssalcraft:dreadlandsdirt|0",
+      "emc": 2
+    },
+    {
+      "item": "abyssalcraft:fusedabyssalsand|0",
+      "emc": 1
+    },
+    {
+      "item": "aoa3:toxic_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "tardis:gallifreyan_sand|0",
+      "emc": 1
     }
   ]
 }

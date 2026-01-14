@@ -2,6 +2,33 @@
     "registryname": "illuminated_enchanter",
     "localizedname": "Illuminated Enchanter",
 	"color": "e8e7e6",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:sacred_cinders_wood",
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "description": "8X procesing",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 8
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 1
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 8
+            }]
+        }
+    ],
     "parts": [
         {
             "x": -1,

@@ -4,7 +4,7 @@
 	"color": "7332c2",
     "modifiers": [
         {
-            "elements": "contenttweaker:defined_draconium_block",
+            "elements": "draconicevolution:draconium_block@1",
             "x": 0,
             "y": 1,
             "z": 4,
@@ -14,6 +14,58 @@
                 "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 15.0
+            }
+        },
+        {
+            "elements": "contenttweaker:defined_draconium_block",
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "description": "60X Output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 60.0
+            }
+        },
+        {
+            "elements": "contenttweaker:balanced_draconium_block",
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "description": "240X Output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 240.0
+            }
+        },
+        {
+            "elements": "contenttweaker:fractal_draconium_block",
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "description": "960X Output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 960.0
+            }
+        },
+        {
+            "elements": "contenttweaker:endlessly_wishing_draconium_block",
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "description": "3840X Output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 3840.0
             }
         }
     ],
