@@ -257,13 +257,13 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
 
     if (getBlockMatchAtPosition("divinerpg:eden_grass", playerPos, [12,0,-2], world) == 0) {
         player.sendChat("没错！获得第一块塞德娜金属的感觉很棒吧？第四章开始才是真正的挑战，不是吗？");
-        player.sendChat("现在我们要前往伊甸，下一个方块在黑曜石晶体的东北侧，间隔一格 [12,0,-2]");
+        player.sendChat("现在我们要前往伊甸，下一个方块在水晶方块的东北侧，间隔一格 [12,0,-2]");
         return "FAIL";
     }
 
     if (getBlockMatchAtPosition("aoa3:precasia_grass", playerPos, [12,0,2], world) == 0) {
         player.sendChat("神圣RPG是我玩过的第一个有高难度怪物的模组。当时游戏版本还是1.4.6呢！");
-        player.sendChat("是时候进入第一神话叠壳的传说维度了，下一个方块在黑曜石晶体的东南侧，间隔一格 [12,0,2]");
+        player.sendChat("是时候进入第一神话叠壳的传说维度了，下一个方块在水晶方块的东南侧，间隔一格 [12,0,2]");
         return "FAIL";
     }
 
@@ -311,7 +311,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
 
     if (getBlockMatchAtPosition("projectred-exploration:stone", playerPos, [14,0,0], world) == 0) {
         player.sendChat("末结地有*一点点*卡，但我实在忍不住不在整个维度里塞满激光鸡！");
-        player.sendChat("接下来是铼界，其方块在末影白云石的东侧，间隔三格 [14,0,0]");
+        player.sendChat("接下来是铼界，其方块在蓝色水晶方块的东侧，间隔三格 [14,0,0]");
         return "FAIL";
     }
 
