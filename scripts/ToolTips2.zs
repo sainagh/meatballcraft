@@ -3255,7 +3255,7 @@ import crafttweaker.item.IItemCondition;
 <appliedenergistics2:memory_card>.addTooltip(format.red("Shift+右击空气以重置配置"));
 <appliedenergistics2:memory_card>.addTooltip(format.red("Shift+右击以绑定P2P输入端（也就是控制器端）"));
 <appliedenergistics2:memory_card>.addTooltip(format.red("右击以设置P2P输出端"));
-<appliedenergistics2:memory_card>.addTooltip(format.red("高级版本的内存卡功能更多，但可能好造成服务器崩溃"));
+<appliedenergistics2:memory_card>.addTooltip(format.red("高级版本的内存卡功能更多，但可能会造成服务器崩溃"));
 
 <betterp2p:advanced_memory_card>.addTooltip(format.red("右击P2P通道将其与其他P2P通道绑定，内存卡有GUI"));
 <betterp2p:advanced_memory_card>.addTooltip(format.red("可以用石英切割刀重命名P2P通道，以便追踪定位"));
