@@ -71,6 +71,9 @@ oreogerite.add(<contenttweaker:ogerite_ore>);
 val orearkenstone = <ore:oreArkenstone>;
 orearkenstone.add(<contenttweaker:arkenstone>);
 
+val orelivinggold = <ore:oreLivingGold>;
+orelivinggold.add(<contenttweaker:living_gold_ore>);
+
 val oreetherium = <ore:oreEtherium>;
 oreetherium.add(<contenttweaker:etherium_ore>);
 

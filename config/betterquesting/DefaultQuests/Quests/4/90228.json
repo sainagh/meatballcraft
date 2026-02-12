@@ -69,8 +69,35 @@
                       "Name:8": "Speed: Good, Performance: Good"
                     }
                   }
+                },
+                "4:10": {
+                  "Count:3": 1,
+                  "Damage:2": 0,
+                  "Slot:1": 4,
+                  "id:8": "superfactorymanager:manager",
+                  "tag:10": {
+                    "RepairCost:3": 0,
+                    "display:10": {
+                      "Name:8": "Speed: Great, Performance: Great"
+                    }
+                  }
+                },
+                "5:10": {
+                  "Count:3": 1,
+                  "Damage:2": 0,
+                  "Slot:1": 5,
+                  "id:8": "tesslocator:basic_fluid_tesslocator",
+                  "tag:10": {
+                    "RepairCost:3": 0,
+                    "display:10": {
+                      "Name:8": "Speed: Good, Performance: Bad"
+                    }
+                  }
                 }
               }
+            },
+            "display:10": {
+              "Name:8": "Fluid Transfer Options"
             }
           }
         }

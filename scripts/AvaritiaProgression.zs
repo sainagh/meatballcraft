@@ -389,6 +389,14 @@ dragoncrucwishful2.addItemInput(<contenttweaker:shard_of_the_cosmos>);
 dragoncrucwishful2.addItemOutput(<contenttweaker:ingot_of_infinite_wishes>*2);
 dragoncrucwishful2.build();
 
+val dragoncrucwishful3 = RecipeBuilder.newBuilder("dragoncrucwishful3","dragonfire_crucible",100);
+dragoncrucwishful3.addFluidInput(<fluid:nidhogg_dragonfire>*250);
+dragoncrucwishful3.addItemInput(<contenttweaker:wish_of_infinity>);
+dragoncrucwishful3.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*4);
+dragoncrucwishful3.addItemInput(<contenttweaker:shard_of_the_cosmos>);
+dragoncrucwishful3.addItemOutput(<contenttweaker:ingot_of_infinite_wishes>*4);
+dragoncrucwishful3.build();
+
 recipes.addShapeless(<contenttweaker:dust_of_infinite_wishes>*16,
 [<divinerpg:arlemite_shickaxe>.reuse(),
 <contenttweaker:ingot_of_infinite_wishes>]);
@@ -633,6 +641,7 @@ recipes.addShapeless(
     chunkinfinitewishes, 
     chunkinfinitewishes, 
     chunkinfinitewishes, 
+    <ore:dragonScaleItem>, 
     terrapickss.marked("mark").reuse()],
     function(out,ins,cInfo){
 		var manastored = ins.mark.tag.mana as int;
@@ -700,6 +709,89 @@ recipes.addShapeless(
     },
     null
 );
+
+recipes.addShapeless(
+    "multiplydustinfinitewishesbettxx",dustinfinitewishes,
+    [chunkinfinitewishes, 
+    chunkinfinitewishes, 
+    chunkinfinitewishes, 
+    chunkinfinitewishes,
+    <contenttweaker:actualization_aspected_eleint_scale>, 
+    terrapickss.marked("mark").reuse()],
+    function(out,ins,cInfo){
+		var manastored = ins.mark.tag.mana as int;
+        if (manastored < 5000000){
+            var outputitemstack1 = <contenttweaker:dust_of_infinite_wishes>*16;
+            return outputitemstack1;
+        }
+        if (manastored < 500000000){
+            var outputitemstack2 = <contenttweaker:dust_of_infinite_wishes>*18;
+            return outputitemstack2;
+        }
+        if (manastored < 1000000000){
+            var outputitemstack3 = <contenttweaker:dust_of_infinite_wishes>*20;
+            return outputitemstack3;
+        }
+        if (manastored < 2000000000){
+            var outputitemstack4 = <contenttweaker:dust_of_infinite_wishes>*22;
+            return outputitemstack4;
+        }
+        var outputitemstack5 = <contenttweaker:dust_of_infinite_wishes>*24;
+        return outputitemstack5;
+
+		
+        
+    },
+    null
+);
+
+recipes.addShapeless(
+    "multiplydustinfinitewishesbettrah",dustinfinitewishes,
+    [chunkinfinitewishes, 
+    chunkinfinitewishes, 
+    chunkinfinitewishes, 
+    chunkinfinitewishes,
+    <contenttweaker:scale_of_rahk>, 
+    terrapickss.marked("mark").reuse()],
+    function(out,ins,cInfo){
+		var manastored = ins.mark.tag.mana as int;
+        if (manastored < 5000000){
+            var outputitemstack1 = <contenttweaker:dust_of_infinite_wishes>*24;
+            return outputitemstack1;
+        }
+        if (manastored < 500000000){
+            var outputitemstack2 = <contenttweaker:dust_of_infinite_wishes>*28;
+            return outputitemstack2;
+        }
+        if (manastored < 1000000000){
+            var outputitemstack3 = <contenttweaker:dust_of_infinite_wishes>*32;
+            return outputitemstack3;
+        }
+        if (manastored < 2000000000){
+            var outputitemstack4 = <contenttweaker:dust_of_infinite_wishes>*40;
+            return outputitemstack4;
+        }
+        var outputitemstack5 = <contenttweaker:dust_of_infinite_wishes>*48;
+        return outputitemstack5;
+
+		
+        
+    },
+    null
+);
+
+
+
+val creataltaspeleint = RecipeBuilder.newBuilder("creataltaspeleint","creation_altar",5);
+creataltaspeleint.addEnergyPerTickInput(500000000);
+creataltaspeleint.addFluidInput(<fluid:molten_echo_warren>*1);
+creataltaspeleint.addFluidInput(<fluid:recursive_computing_matter>*1);
+creataltaspeleint.addFluidInput(<fluid:actualizing_fluid>*1);
+creataltaspeleint.addFluidInput(<fluid:eleint_dragonfire>*1);
+creataltaspeleint.addItemInput(<contenttweaker:eleint_scale>);
+creataltaspeleint.addItemOutput(<contenttweaker:actualization_aspected_eleint_scale>);
+creataltaspeleint.build();
+
 
 
 

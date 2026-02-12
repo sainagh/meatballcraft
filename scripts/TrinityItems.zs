@@ -1978,3 +1978,232 @@ trinity_fabrial.register();
 
 
 
+var summonsofragnarok = VanillaFactory.createItem("summons_of_ragnarok");
+summonsofragnarok.maxStackSize = 1;
+summonsofragnarok.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // counter for fails or successes
+    var matchGen = 0 as int;
+
+    // player position
+    var playerPos = player.position.asPosition3f();
+    playerPos.x = playerPos.x;
+    playerPos.y = playerPos.y - 1;
+    playerPos.z = playerPos.z;
+
+    if(player.getDimension() != 426) {
+        player.sendChat("Fill the center 5x5 area left by the Warren Shredder in Arcana with Ragnarok Sigils");
+        return "FAIL";
+    }
+    player.sendChat("Fill the center 5x5 area left by the Warren Shredder in Arcana with Ragnarok Sigils");
+
+
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [0,0,0], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [0,0,0]");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [1,0,0], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [1,0,0]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [-1,0,0], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [-1,0,0]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [0,0,1], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [0,0,1]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [0,0,-1], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [0,0,-1]");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [2,0,0], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [2,0,0]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [-2,0,0], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [-2,0,0]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [0,0,2], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [0,0,2]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [0,0,-2], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [0,0,-2]");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [1,0,1], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [1,0,1]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [-1,0,1], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [-1,0,1]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [1,0,-1], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [1,0,-1]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [-1,0,-1], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [-1,0,-1]");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [2,0,2], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [2,0,2]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [-2,0,2], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [-2,0,2]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [2,0,-2], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [2,0,-2]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [-2,0,-2], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [-2,0,-2]");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [1,0,2], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [1,0,2]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [-1,0,2], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [-1,0,2]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [1,0,-2], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [1,0,-2]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [-1,0,-2], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [-1,0,-2]");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [2,0,1], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [2,0,1]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [-2,0,1], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [-2,0,1]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [2,0,-1], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [2,0,-1]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:ragnarok_sigil", playerPos, [-2,0,-1], world) == 0){
+        player.sendChat("Missing Ragnarok Sigil: [-2,0,-1]");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("contenttweaker:yggdrasil_wood", playerPos, [3,0,0], world) == 0){
+        player.sendChat("Missing Yggdrasil Wood: [3,0,0]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:yggdrasil_wood", playerPos, [-3,0,0], world) == 0){
+        player.sendChat("Missing Yggdrasil Wood: [-3,0,0]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:yggdrasil_wood", playerPos, [0,0,3], world) == 0){
+        player.sendChat("Missing Yggdrasil Wood: [0,0,3]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:yggdrasil_wood", playerPos, [0,0,-3], world) == 0){
+        player.sendChat("Missing Yggdrasil Wood: [0,0,-3]");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("contenttweaker:yggdrasil_wood", playerPos, [4,0,0], world) == 0){
+        player.sendChat("Missing Yggdrasil Wood: [4,0,0]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:yggdrasil_wood", playerPos, [-4,0,0], world) == 0){
+        player.sendChat("Missing Yggdrasil Wood: [-4,0,0]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:yggdrasil_wood", playerPos, [0,0,4], world) == 0){
+        player.sendChat("Missing Yggdrasil Wood: [0,0,4]");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("contenttweaker:yggdrasil_wood", playerPos, [0,0,-4], world) == 0){
+        player.sendChat("Missing Yggdrasil Wood: [0,0,-4]");
+        return "FAIL";
+    }
+
+
+    Commands.call("/summon divinerpg:rainbour ~10 ~3 ~ {CustomName:\"Nidhogg\",Invulnerable:1,PersistenceRequired:1,ActiveEffects:[{Id:14,Amplifier:0,Duration:999999},{Id:24,Amplifier:0,Duration:999999}],Passengers:[{id:\"minecraft:villager\",CustomName:\"Ratatoskr\",Invulnerable:1,PersistenceRequired:1,ActiveEffects:[{Id:14,Amplifier:0,Duration:999999},{Id:24,Amplifier:0,Duration:999999}],Offers:{Recipes:[{buy:{id:\"botania:infinitefruit\",Count:1},sell:{id:\"contenttweaker:breath_of_ragnarok\",Count:1},rewardExp:0b,maxUses:9999999}]}}]}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+summonsofragnarok.register();
+
+
+
+
+
+//summon villager ~ ~3 ~ {Invulnerable:1, CustomName:"Loki",Offers:{Recipes:[{buy:{id:"botania:lokiring",Count:1},sell:{id:"contenttweaker:gratitude_of_loki",Count:1},rewardExp:0b,maxUses:9999999}]},Profession:2,Career:1,CareerLevel:3,ActiveEffects:[{Id:14,Amplifier:0,Duration:999999},{Id:24,Amplifier:0,Duration:999999}]}
+
+
+
+
+var summonsofthetwilithero = VanillaFactory.createItem("summons_of_the_twilit_hero");
+summonsofthetwilithero.maxStackSize = 1;
+summonsofthetwilithero.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // counter for fails or successes
+    var matchGen = 0 as int;
+
+    // player position
+    var playerPos = player.position.asPosition3f();
+    playerPos.x = playerPos.x;
+    playerPos.y = playerPos.y - 1;
+    playerPos.z = playerPos.z;
+
+    if(player.getDimension() != 7) {
+        player.sendChat("Replace the top middle portal block in the Crepucular Callstone with a Twilit Freedom Fabrial, and stand on top of it");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("contenttweaker:twilit_freedom_fabrial", playerPos, [0,0,0], world) == 0){
+        player.sendChat("Replace the top middle portal block in the Crepucular Callstone with a Twilit Freedom Fabrial, and stand on top of it");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("twilightforest:auroralized_glass", playerPos, [0,-1,0], world) == 0){
+        player.sendChat("Replace the top middle portal block in the Crepucular Callstone with a Twilit Freedom Fabrial, and stand on top of it");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("twilightforest:auroralized_glass", playerPos, [0,-2,0], world) == 0){
+        player.sendChat("Replace the top middle portal block in the Crepucular Callstone with a Twilit Freedom Fabrial, and stand on top of it");
+        return "FAIL";
+    }
+    if (getBlockMatchAtPosition("twilightforest:auroralized_glass", playerPos, [0,-3,0], world) == 0){
+        player.sendChat("Replace the top middle portal block in the Crepucular Callstone with a Twilit Freedom Fabrial, and stand on top of it");
+        return "FAIL";
+    }
+
+
+    Commands.call("fill ~-5 ~-5 ~-5 ~5 ~1 ~5 contenttweaker:crepuscular_portal_block 0 replace twilightforest:auroralized_glass", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+summonsofthetwilithero.register();

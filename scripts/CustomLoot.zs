@@ -179,6 +179,8 @@ karothorn.addItemEntry(<contenttweaker:karot_horn>, 5);
 val kingscorher = LootTweaker.getTable("divinerpg:entities/boss/king_of_scorchers");
 val scorcherflame = kingscorher.addPool("scorcherflame", 1, 1, 0, 0);
 scorcherflame.addItemEntry(<contenttweaker:scorcher_eternal_flame>, 5);
+val scorcherdivine = kingscorher.addPool("scorcherdivine", 1, 1, 0, 0);
+scorcherdivine.addItemEntry(<divinerpg:divine_shards>, 5);
 
 val parasecta = LootTweaker.getTable("divinerpg:entities/boss/parasecta");
 val parasectawing = parasecta.addPool("parasectawing", 1, 1, 0, 0);
@@ -217,6 +219,8 @@ coriexperience.addItemEntry(<contenttweaker:cori_experience>, 5);
 val bane = LootTweaker.getTable("aoa3:entities/bosses/bane");
 val banetusk = bane.addPool("banetusk", 1, 1, 0, 0);
 banetusk.addItemEntry(<contenttweaker:bane_tusk>, 5);
+val banerares = bane.getPool("rares");
+banerares.removeEntry("aoa3:haunter_rifle");
 
 val baroness = LootTweaker.getTable("aoa3:entities/bosses/baroness");
 val baronessbrain = baroness.addPool("baronessbrain", 1, 1, 0, 0);
@@ -272,6 +276,8 @@ crystocoreadvrock.addItemEntry(<advancedrocketry:crystal:5>, 5);
 val dracyon = LootTweaker.getTable("aoa3:entities/bosses/dracyon");
 val dracyontooth = dracyon.addPool("dracyontooth", 1, 1, 0, 0);
 dracyontooth.addItemEntry(<contenttweaker:dracyon_tooth>, 5);
+val dracyonrares = dracyon.getPool("rares");
+dracyonrares.removeEntry("aoa3:draco");
 
 val elusive = LootTweaker.getTable("aoa3:entities/bosses/elusive");
 val elusivehorn = elusive.addPool("elusivehorn", 1, 1, 0, 0);
@@ -292,10 +298,27 @@ grawfang.addItemEntry(<contenttweaker:graw_fang>, 5);
 val guardian = LootTweaker.getTable("aoa3:entities/bosses/red_guardian");
 val guardianrune = guardian.addPool("guardianrune", 1, 1, 0, 0);
 guardianrune.addItemEntry(<contenttweaker:guardian_rune>, 5);
+val guardianrare = guardian.getPool("rares");
+guardianrare.removeEntry("aoa3:dragilator");
+
+val guardiany = LootTweaker.getTable("aoa3:entities/bosses/yellow_guardian");
+val guardianyrare = guardiany.getPool("rares");
+guardianyrare.removeEntry("aoa3:electinator");
+
+val guardiang = LootTweaker.getTable("aoa3:entities/bosses/green_guardian");
+val guardiangrare = guardiang.getPool("rares");
+guardiangrare.removeEntry("aoa3:germinator");
+
+val guardianb = LootTweaker.getTable("aoa3:entities/bosses/blue_guardian");
+val guardianbrare = guardianb.getPool("rares");
+guardianbrare.removeEntry("aoa3:frosticator");
+
 
 val gyro = LootTweaker.getTable("aoa3:entities/bosses/gyro");
 val gyronose = gyro.addPool("gyronose", 1, 1, 0, 0);
 gyronose.addItemEntry(<contenttweaker:gyro_red_nose>, 5);
+val gyrorare = gyro.getPool("rares");
+gyrorare.removeEntry("aoa3:cyclone");
 
 val harkos = LootTweaker.getTable("aoa3:entities/bosses/harkos");
 val harkosrib = harkos.addPool("harkosrib", 1, 1, 0, 0);
@@ -337,6 +360,9 @@ klobberhand.addItemEntry(<contenttweaker:klobber_hand>, 5);
 val kror = LootTweaker.getTable("aoa3:entities/bosses/kror");
 val krorsediment = kror.addPool("krorsediment", 1, 1, 0, 0);
 krorsediment.addItemEntry(<contenttweaker:kror_sediment>, 5);
+val krorrares = kror.getPool("rares");
+krorrares.removeEntry("aoa3:boulder_bomber");
+krorrares.addItemEntry(<appliedenergistics2:material:12>, 5);
 
 val mechbot = LootTweaker.getTable("aoa3:entities/bosses/mechbot");
 val mechbotcpu = mechbot.addPool("mechbotcpu", 1, 1, 0, 0);
@@ -504,6 +530,7 @@ endcityspecial.addItemEntry(<thermalfoundation:material:134>, 15);
 endcityspecial.addItemEntry(<contenttweaker:funny_pumpkin>, 15);
 endcityspecial.addItemEntry(<contenttweaker:wormhole_fragment>, 15);
 endcityspecial.addItemEntry(<contenttweaker:aquatic_stone>, 15);
+endcityspecial.addItemEntry(<contenttweaker:chorus_seedling>, 15);
 val endcityreinforcement = endcity.addPool("endcityreinforcement", 1, 2, 1, 1);
 endcityreinforcement.addItemEntry(<contenttweaker:refined_obsidian_flake>*3, 15);
 endcityreinforcement.addItemEntry(<contenttweaker:alchemical_ore>*3, 15);
@@ -534,6 +561,8 @@ vanilladungeonmbc.addItemEntry(<contenttweaker:recursive_paper_illager>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:recursive_paper_abyssal>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:recursive_paper_buggy>, 3);
 vanilladungeonmbc.addItemEntry(<contenttweaker:recursive_paper_dunerider>, 3);
+vanilladungeonmbc.addItemEntry(<contenttweaker:recursive_paper_faithfulundead>, 3);
+vanilladungeonmbc.addItemEntry(<contenttweaker:recursive_paper_flying>, 3);
 
 val vanillastronghold = LootTweaker.getTable("minecraft:chests/stronghold_corridor");
 val vanillastrongholdmbc = vanillastronghold.addPool("vanillastrongholdmbc", 1, 1, 0, 0);
@@ -806,4 +835,24 @@ flyeextra.addItemEntry(<aoa3:lelyetian_glass>*16, 5);
 val angelica = LootTweaker.getTable("aoa3:entities/mobs/haven/angelica");
 val angelicaextra = angelica.addPool("angelicaextra", 2, 2, 0, 0);
 angelicaextra.addItemEntry(<aoa3:haven_glass>*16, 5);
+
+
+val enforcer = LootTweaker.getTable("aoa3:entities/mobs/iromine/enforcer");
+val enforcerspecific = enforcer.getPool("mob_specific_loot");
+enforcerspecific.removeEntry("aoa3:overshot");
+
+
+val ieepicshader = LootTweaker.getTable("immersiveengineering:advancements/shader_epic");
+val ieepicshaderpool = ieepicshader.getPool("immersiveengineering:shaders");
+ieepicshaderpool.removeEntry("immersiveengineering:shader_bag");
+
+val ieepicshader2 = LootTweaker.getTable("immersiveengineering:advancements/shader_masterwork");
+val ieepicshaderpool2 = ieepicshader2.getPool("immersiveengineering:shaders");
+ieepicshaderpool2.removeEntry("immersiveengineering:shader_bag");
+
+val ieepicshader3 = LootTweaker.getTable("immersiveengineering:advancements/shader_rare");
+val ieepicshaderpool3 = ieepicshader3.getPool("immersiveengineering:shaders");
+ieepicshaderpool3.removeEntry("immersiveengineering:shader_bag");
+
+
 

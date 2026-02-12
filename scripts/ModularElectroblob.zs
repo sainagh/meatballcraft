@@ -367,3 +367,66 @@ reci35.addItemInput(<minecraft:experience_bottle>*4);
 reci35.addItemInput(<astralsorcery:itemcraftingcomponent:5>);
 reci35.addItemOutput(<ebwizardry:identification_scroll>);
 reci35.build();
+
+val reci36 = RecipeBuilder.newBuilder("electroblob36","wizardry_combiner",40);
+reci36.addEnergyPerTickInput(15000);
+reci36.addItemInput(<contenttweaker:fluix_fossilization_fabrial>);
+reci36.setChance(0.0);
+reci36.addItemInput(<iceandfire:gorgon_head>*4);
+reci36.addItemInput(<contenttweaker:essence_of_petrification>*4);
+reci36.addItemInput(<aoa3:lyon_ingot>);
+reci36.addItemInput(<appliedenergistics2:material:12>*64);
+reci36.addItemOutput(<contenttweaker:petrified_fluix>*64);
+reci36.build();
+
+val reci37 = RecipeBuilder.newBuilder("electroblob37","wizardry_combiner",40);
+reci37.addEnergyPerTickInput(15000);
+reci37.addItemInput(<contenttweaker:fluix_fossilization_fabrial>);
+reci37.setChance(0.0);
+reci37.addItemInput(<iceandfire:gorgon_head>*4);
+reci37.addItemInput(<contenttweaker:essence_of_petrification>*4);
+reci37.addItemInput(<aoa3:elecanium_ingot>);
+reci37.addItemInput(<appliedenergistics2:material:12>*256);
+reci37.addItemOutput(<contenttweaker:petrified_fluix>*256);
+reci37.build();
+
+val reci38 = RecipeBuilder.newBuilder("electroblob38","wizardry_combiner",40);
+reci38.addEnergyPerTickInput(15000);
+reci38.addItemInput(<contenttweaker:fluix_fossilization_fabrial>);
+reci38.setChance(0.0);
+reci38.addItemInput(<iceandfire:gorgon_head>*4);
+reci38.addItemInput(<contenttweaker:essence_of_petrification>*4);
+reci38.addItemInput(<aoa3:ghastly_ingot>);
+reci38.addItemInput(<appliedenergistics2:material:12>*1024);
+reci38.addItemOutput(<contenttweaker:petrified_fluix>*1024);
+reci38.build();
+
+val reci39 = RecipeBuilder.newBuilder("electroblob39","wizardry_combiner",40);
+reci39.addEnergyPerTickInput(15000);
+reci39.addItemInput(<contenttweaker:fluix_fossilization_fabrial>);
+reci39.setChance(0.0);
+reci39.addItemInput(<iceandfire:gorgon_head>*4);
+reci39.addItemInput(<contenttweaker:essence_of_petrification>*4);
+reci39.addItemInput(<aoa3:ghoulish_ingot>);
+reci39.addItemInput(<appliedenergistics2:material:12>*1024);
+reci39.addItemOutput(<contenttweaker:petrified_fluix>*1024);
+reci39.build();
+
+val reci40 = RecipeBuilder.newBuilder("electroblob40","wizardry_combiner",40);
+reci40.addEnergyPerTickInput(15000);
+reci40.addItemInput(<contenttweaker:fluix_fossilization_fabrial>);
+reci40.setChance(0.0);
+reci40.addItemInput(<iceandfire:gorgon_head>*4);
+reci40.addItemInput(<contenttweaker:essence_of_petrification>*4);
+reci40.addItemInput(<aoa3:shyrestone_ingot>);
+reci40.addItemInput(<appliedenergistics2:material:12>*4096);
+reci40.addItemOutput(<contenttweaker:petrified_fluix>*4096);
+reci40.build();
+
+val reci41 = RecipeBuilder.newBuilder("electroblob41","wizardry_combiner",40);
+reci41.addEnergyPerTickInput(15000);
+reci41.addItemInput(<actuallyadditions:item_jam:0>*16);
+reci41.addItemInput(<ebwizardry:magic_crystal:0>*4);
+reci41.addItemInput(<minecraft:emerald>*64);
+reci41.addItemOutput(<actuallyadditions:item_jam:0>*32);
+reci41.build();

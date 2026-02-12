@@ -2,66 +2,66 @@ import mods.modularmachinery.RecipeBuilder;
 import mods.astralsorcery.Utils;
 
 
-val mith1 = RecipeBuilder.newBuilder("mythicaltier1","mythical_resource_miner_tier1",800);
+val mith1 = RecipeBuilder.newBuilder("mythicaltier1","mythical_resource_miner_tier1",400);
 mith1.addEnergyPerTickInput(20000);
-mith1.addItemOutput(<aoa3:mud_ball>*10);
-mith1.setChance(0.05);
-mith1.addItemOutput(<aoa3:ghostly_powder>*10);
-mith1.setChance(0.1);
-mith1.addItemOutput(<aoa3:torn_cloth>*10);
-mith1.setChance(0.05);
-mith1.addItemOutput(<aoa3:ice_crystal>*10);
-mith1.setChance(0.05);
-mith1.addItemOutput(<aoa3:raw_furlion_chop>*10);
-mith1.setChance(0.05);
-mith1.addItemOutput(<aoa3:raw_chimera_chop>*10);
-mith1.setChance(0.05);
-mith1.addItemOutput(<aoa3:rammerhead_hide>*10);
-mith1.setChance(0.05);
+mith1.addItemOutput(<aoa3:mud_ball>*20);
+mith1.setChance(0.5);
+mith1.addItemOutput(<aoa3:ghostly_powder>*20);
+mith1.setChance(0.8);
+mith1.addItemOutput(<aoa3:torn_cloth>*50);
+mith1.setChance(0.4);
+mith1.addItemOutput(<aoa3:ice_crystal>*60);
+mith1.setChance(0.8);
+mith1.addItemOutput(<aoa3:ice_crystal>*60);
+mith1.setChance(0.8);
+mith1.addItemOutput(<aoa3:raw_furlion_chop>*40);
+mith1.setChance(0.8);
+mith1.addItemOutput(<aoa3:raw_chimera_chop>*40);
+mith1.setChance(0.8);
+mith1.addItemOutput(<aoa3:rammerhead_hide>*20);
+mith1.setChance(0.2);
 mith1.addItemOutput(<aoa3:jungle_thorns>*10);
-mith1.setChance(0.05);
+mith1.setChance(0.3);
 mith1.addItemOutput(<aoa3:fragmented_anima_stone>*10);
-mith1.setChance(0.02);
-mith1.addItemOutput(<aoa3:raw_charger_shank>*10);
-mith1.setChance(0.01);
-mith1.addItemOutput(<aoa3:copper_coin>*10);
-mith1.setChance(0.05);
-mith1.addItemOutput(<aoa3:raw_ursa_meat>*10);
-mith1.setChance(0.05);
-mith1.addItemOutput(<aoa3:chitin>*10);
-mith1.setChance(0.05);
+mith1.setChance(0.1);
+mith1.addItemOutput(<aoa3:raw_charger_shank>*64);
+mith1.setChance(0.7);
+mith1.addItemOutput(<aoa3:copper_coin>*20);
+mith1.setChance(0.15);
+mith1.addItemOutput(<aoa3:raw_ursa_meat>*40);
+mith1.setChance(0.8);
+mith1.addItemOutput(<aoa3:chitin>*48);
+mith1.setChance(0.5);
 mith1.addItemOutput(<aoa3:power_core>*10);
-mith1.setChance(0.05);
-mith1.addItemOutput(<aoa3:rusted_iron_ingot>*10);
-mith1.setChance(0.05);
+mith1.setChance(0.2);
+mith1.addItemOutput(<aoa3:rusted_iron_ingot>*20);
+mith1.setChance(0.5);
 mith1.addItemOutput(<aoa3:dark_bricks>*10);
 mith1.setChance(0.2);
-mith1.addItemOutput(<aoa3:wind_rune>*20);
-mith1.setChance(0.03);
+mith1.addItemOutput(<aoa3:wind_rune>*30);
+mith1.setChance(0.1);
 mith1.addItemOutput(<aoa3:ancient_rock>*10);
 mith1.setChance(0.3);
 mith1.addItemOutput(<aoa3:coral_bricks>*10);
 mith1.setChance(0.5);
-mith1.addItemOutput(<aoa3:amphibiyte_spawner>);
-mith1.setChance(0.001);
-mith1.addItemOutput(<divinerpg:terran_shards>*10);
-mith1.setChance(0.05);
-mith1.addItemOutput(<divinerpg:jungle_shards>*10);
-mith1.setChance(0.05);
+mith1.addItemOutput(<divinerpg:terran_shards>*20);
+mith1.setChance(0.3);
+mith1.addItemOutput(<divinerpg:jungle_shards>*20);
+mith1.setChance(0.3);
 mith1.addItemOutput(<divinerpg:crab_claw>*40);
 mith1.setChance(0.2);
 mith1.addItemOutput(<divinerpg:shark_fin>*30);
 mith1.setChance(0.2);
 mith1.addItemOutput(<divinerpg:whale_fin>*30);
 mith1.setChance(0.2);
-mith1.addItemOutput(<divinerpg:cyclops_eye_shards>*20);
-mith1.setChance(0.05);
-mith1.addItemOutput(<divinerpg:aquatic_pellets>*30);
-mith1.setChance(0.05);
-mith1.addItemOutput(<aoa3:void_scales>*10);
-mith1.setChance(0.3);
-mith1.addItemOutput(<aoa3:ivory>*10);
-mith1.setChance(0.05);
+mith1.addItemOutput(<divinerpg:cyclops_eye>*60);
+mith1.setChance(0.85);
+mith1.addItemOutput(<divinerpg:aquatic_pellets>*40);
+mith1.setChance(0.2);
+mith1.addItemOutput(<aoa3:void_scales>*16);
+mith1.setChance(0.5);
+mith1.addItemOutput(<aoa3:ivory>*30);
+mith1.setChance(0.5);
 mith1.addItemOutput(<contenttweaker:deep_dark_matter>);
 mith1.setChance(0.1);
 mith1.addItemOutput(<contenttweaker:tier1_token>);
@@ -84,7 +84,7 @@ recipes.addShaped(<projectex:compressed_refined_link>,
 [<projectex:refined_link>, <divinerpg:purple_blaze>, <projectex:refined_link>]]);
 
 
-val mith2 = RecipeBuilder.newBuilder("mythicaltier2","mythical_resource_miner_tier2",800);
+val mith2 = RecipeBuilder.newBuilder("mythicaltier2","mythical_resource_miner_tier2",400);
 mith2.addEnergyPerTickInput(30000);
 mith2.addItemOutput(<aoa3:carved_rune_travel>*15);
 mith2.setChance(0.15);
@@ -98,38 +98,38 @@ mith2.addItemOutput(<aoa3:carved_rune_power>*15);
 mith2.setChance(0.15);
 mith2.addItemOutput(<aoa3:carved_rune_empowering>*15);
 mith2.setChance(0.15);
-mith2.addItemOutput(<aoa3:chilli>*10);
-mith2.setChance(0.05);
-mith2.addItemOutput(<aoa3:copper_coin>*10);
-mith2.setChance(0.1);
+mith2.addItemOutput(<aoa3:chilli>*30);
+mith2.setChance(0.4);
+mith2.addItemOutput(<aoa3:copper_coin>*20);
+mith2.setChance(0.4);
 mith2.addItemOutput(<contenttweaker:hellspot_chop>*12);
 mith2.setChance(0.5);
 mith2.addItemOutput(<aoa3:flammable_dust>*10);
 mith2.setChance(0.1);
-mith2.addItemOutput(<aoa3:sharp_claw>*10);
-mith2.setChance(0.05);
-mith2.addItemOutput(<aoa3:wither_rune>*20);
-mith2.setChance(0.01);
-mith2.addItemOutput(<aoa3:fire_rune>*20);
-mith2.setChance(0.02);
-mith2.addItemOutput(<aoa3:nether_tokens>*10);
-mith2.setChance(0.05);
-mith2.addItemOutput(<divinerpg:molten_shards>*10);
-mith2.setChance(0.05);
+mith2.addItemOutput(<aoa3:sharp_claw>*30);
+mith2.setChance(0.35);
+mith2.addItemOutput(<aoa3:wither_rune>*30);
+mith2.setChance(0.1);
+mith2.addItemOutput(<aoa3:fire_rune>*30);
+mith2.setChance(0.1);
+mith2.addItemOutput(<aoa3:nether_tokens>*35);
+mith2.setChance(0.15);
+mith2.addItemOutput(<divinerpg:molten_shards>*30);
+mith2.setChance(0.45);
 mith2.addItemOutput(<divinerpg:purple_blaze>*10);
 mith2.setChance(0.2);
-mith2.addItemOutput(<aoa3:nethengeic_beast_spawner>);
-mith2.setChance(0.001);
 mith2.addItemOutput(<iceandfire:stymphalian_bird_feather>);
 mith2.setChance(0.1);
 mith2.addItemOutput(<projectex:power_flower:0>);
-mith2.setChance(0.05);
+mith2.setChance(0.15);
 mith2.addItemOutput(<abyssalcraft:shadowgem>);
 mith2.setChance(0.5);
 mith2.addItemOutput(<aoa3:limonite_bullet>*64);
 mith2.setChance(0.5);
 mith2.addItemOutput(<aoa3:metal_slug>*64);
 mith2.setChance(0.5);
+mith2.addItemOutput(<aoa3:raw_chimera_chop>*56);
+mith2.setChance(0.6);
 mith2.addItemOutput(<contenttweaker:tier2_token>);
 mith2.build();
 
@@ -140,41 +140,45 @@ cruc1.addItemInput(<aoa3:ghostly_powder>);
 cruc1.addFluidOutput(<fluid:dimensional_essence>*2000);
 cruc1.build();
 
-val mith3 = RecipeBuilder.newBuilder("mythicaltier3","mythical_resource_miner_tier3",800);
+val mith3 = RecipeBuilder.newBuilder("mythicaltier3","mythical_resource_miner_tier3",400);
 mith3.addEnergyPerTickInput(45000);
-mith3.addFluidInput(<fluid:dimensional_essence>*50);
+mith3.addFluidInput(<fluid:dimensional_essence>*25);
 mith3.addItemOutput(<aoa3:small_skill_crystal>);
 mith3.setChance(0.01);
 mith3.addItemOutput(<aoa3:gem_bag>);
 mith3.setChance(0.02);
-mith3.addItemOutput(<aoa3:void_scales>*10);
-mith3.setChance(0.1);
-mith3.addItemOutput(<aoa3:silver_coin>*10);
+mith3.addItemOutput(<aoa3:void_scales>*24);
+mith3.setChance(0.6);
+mith3.addItemOutput(<aoa3:silver_coin>*15);
 mith3.setChance(0.2);
 mith3.addItemOutput(<minecraft:end_stone>*4);
 mith3.setChance(0.5);
 mith3.addItemOutput(<minecraft:chorus_fruit>*10);
 mith3.setChance(0.2);
-mith3.addItemOutput(<minecraft:shulker_shell>*10);
-mith3.setChance(0.05);
-mith3.addItemOutput(<minecraft:end_crystal>*10);
-mith3.setChance(0.05);
-mith3.addItemOutput(<aoa3:copper_coin>*30);
-mith3.setChance(0.2);
-mith3.addItemOutput(<divinerpg:ender_shards>*10);
-mith3.setChance(0.05);
-mith3.addItemOutput(<divinerpg:watching_eye>*10);
-mith3.setChance(0.05);
+mith3.addItemOutput(<minecraft:shulker_shell>*55);
+mith3.setChance(0.65);
+mith3.addItemOutput(<minecraft:end_crystal>*30);
+mith3.setChance(0.75);
+mith3.addItemOutput(<aoa3:copper_coin>*50);
+mith3.setChance(0.6);
+mith3.addItemOutput(<divinerpg:ender_shards>*20);
+mith3.setChance(0.35);
+mith3.addItemOutput(<divinerpg:watching_eye>*60);
+mith3.setChance(0.9);
 mith3.addItemOutput(<mysticalagradditions:stuff:3>*30);
 mith3.setChance(0.5);
 mith3.addItemOutput(<projectex:power_flower:1>);
-mith3.setChance(0.05);
+mith3.setChance(0.15);
 mith3.addItemOutput(<biomesoplenty:crystal:0>*15);
 mith3.setChance(0.25);
 mith3.addItemOutput(<aoa3:limonite_bullet>*64);
 mith3.setChance(0.7);
 mith3.addItemOutput(<aoa3:metal_slug>*64);
 mith3.setChance(0.7);
+mith3.addItemOutput(<xreliquary:mob_ingredient:11>*32);
+mith3.setChance(0.7);
+mith3.addItemOutput(<minecraft:tnt>*64);
+mith3.setChance(0.4);
 mith3.addItemOutput(<contenttweaker:tier3_token>);
 mith3.build();
 
@@ -229,19 +233,19 @@ endston.build();
 
 
 
-val mith4 = RecipeBuilder.newBuilder("mythicaltier4","mythical_resource_miner_tier4",800);
+val mith4 = RecipeBuilder.newBuilder("mythicaltier4","mythical_resource_miner_tier4",400);
 mith4.addEnergyPerTickInput(50000);
-mith4.addFluidInput(<fluid:liquid_void>*50);
+mith4.addFluidInput(<fluid:liquid_void>*25);
 mith4.addItemOutput(<aoa3:amphibiyte_lung>*10);
 mith4.setChance(0.4);
-mith4.addItemOutput(<aoa3:storm_rune>*20);
-mith4.setChance(0.05);
-mith4.addItemOutput(<aoa3:water_rune>*20);
-mith4.setChance(0.05);
+mith4.addItemOutput(<aoa3:storm_rune>*30);
+mith4.setChance(0.1);
+mith4.addItemOutput(<aoa3:water_rune>*30);
+mith4.setChance(0.1);
 mith4.addItemOutput(<aoa3:silver_coin>*10);
-mith4.setChance(0.05);
-mith4.addItemOutput(<aoa3:copper_coin>*10);
-mith4.setChance(0.5);
+mith4.setChance(0.15);
+mith4.addItemOutput(<aoa3:copper_coin>*30);
+mith4.setChance(0.8);
 mith4.addItemOutput(<aoa3:raw_sapphire_strider>*10);
 mith4.setChance(0.2);
 mith4.addItemOutput(<aoa3:raw_violet_skipper>*10);
@@ -274,22 +278,26 @@ mith4.addItemOutput(<aoa3:raw_ironback>*10);
 mith4.setChance(0.2);
 mith4.addItemOutput(<aoa3:raw_fingerfish>*10);
 mith4.setChance(0.2);
-mith4.addItemOutput(<aoa3:ghostly_powder>*10);
-mith4.setChance(0.1);
+mith4.addItemOutput(<aoa3:ghostly_powder>*30);
+mith4.setChance(0.9);
 mith4.addItemOutput(<aoa3:flammable_dust>*10);
 mith4.setChance(0.1);
 mith4.addItemOutput(<aoa3:magic_repair_dust>*10);
-mith4.setChance(0.05);
-mith4.addItemOutput(<aoa3:wind_rune>*20);
-mith4.setChance(0.1);
+mith4.setChance(0.15);
+mith4.addItemOutput(<aoa3:wind_rune>*30);
+mith4.setChance(0.3);
 mith4.addItemOutput(<divinerpg:divine_shards>);
 mith4.setChance(0.01);
 mith4.addItemOutput(<projectex:power_flower:2>);
-mith4.setChance(0.05);
+mith4.setChance(0.15);
 mith4.addItemOutput(<aoa3:rune_box>);
 mith4.setChance(0.1);
 mith4.addItemOutput(<contenttweaker:calcite_gem>*20);
 mith4.setChance(0.6);
+mith4.addItemOutput(<minecraft:gunpowder>*64);
+mith4.setChance(0.8);
+mith4.addItemOutput(<mod_lavacow:sharptooth>*64);
+mith4.setChance(0.8);
 mith4.addItemOutput(<contenttweaker:tier4_token>);
 mith4.build();
 
@@ -379,53 +387,53 @@ recipes.addShaped(<contenttweaker:crimson_quartz>*4,
 [<aoa3:king_bambambam_statue>, <draconicevolution:wyvern_core>, <aoa3:king_bambambam_statue>],
 [<divinerpg:king_of_scorchers_statue>, <aoa3:nethengeic_wither_statue>, <divinerpg:the_watcher_statue>]]);
 
-val mith5 = RecipeBuilder.newBuilder("mythicaltier5","mythical_resource_miner_tier5",800);
+val mith5 = RecipeBuilder.newBuilder("mythicaltier5","mythical_resource_miner_tier5",400);
 mith5.addEnergyPerTickInput(65000);
-mith5.addFluidInput(<fluid:overworldian_fluid>*50);
-mith5.addItemOutput(<aoa3:nether_tokens>*15);
-mith5.setChance(0.1);
-mith5.addItemOutput(<aoa3:strike_rune>*20);
-mith5.setChance(0.05);
-mith5.addItemOutput(<aoa3:fire_rune>*20);
-mith5.setChance(0.1);
-mith5.addItemOutput(<aoa3:kinetic_rune>*20);
-mith5.setChance(0.05);
-mith5.addItemOutput(<aoa3:fiery_chops>*10);
-mith5.setChance(0.05);
+mith5.addFluidInput(<fluid:overworldian_fluid>*25);
+mith5.addItemOutput(<aoa3:nether_tokens>*35);
+mith5.setChance(0.8);
+mith5.addItemOutput(<aoa3:strike_rune>*30);
+mith5.setChance(0.2);
+mith5.addItemOutput(<aoa3:fire_rune>*30);
+mith5.setChance(0.2);
+mith5.addItemOutput(<aoa3:kinetic_rune>*30);
+mith5.setChance(0.2);
+mith5.addItemOutput(<aoa3:fiery_chops>*30);
+mith5.setChance(0.55);
 mith5.addItemOutput(<divinerpg:molten_shards>*50);
 mith5.setChance(0.5);
 mith5.addItemOutput(<divinerpg:purple_blaze>*20);
 mith5.setChance(0.5);
 // mith5.addItemOutput(<aoa3:grenade>*10);
 // mith5.setChance(0.05);
-mith5.addItemOutput(<aoa3:wither_rune>*20);
-mith5.setChance(0.05);
+mith5.addItemOutput(<aoa3:wither_rune>*30);
+mith5.setChance(0.2);
 mith5.addItemOutput(<contenttweaker:calcite_gem>*30);
 mith5.setChance(0.7);
 mith5.addItemOutput(<aoa3:small_skill_crystal>);
-mith5.setChance(0.05);
-mith5.addItemOutput(<aoa3:flammable_dust>*10);
-mith5.setChance(0.05);
+mith5.setChance(0.15);
+mith5.addItemOutput(<aoa3:flammable_dust>*40);
+mith5.setChance(0.65);
 mith5.addItemOutput(<aoa3:silver_coin>*20);
-mith5.setChance(0.05);
+mith5.setChance(0.15);
 mith5.addItemOutput(<aoa3:magic_repair_dust>);
-mith5.setChance(0.05);
-mith5.addItemOutput(<aoa3:enchanted_gunpowder>*10);
-mith5.setChance(0.05);
+mith5.setChance(0.15);
+mith5.addItemOutput(<aoa3:enchanted_gunpowder>*20);
+mith5.setChance(0.3);
 mith5.addItemOutput(<contenttweaker:hellspot_chop>*24);
 mith5.setChance(0.5);
 mith5.addItemOutput(<contenttweaker:better_hellfire>*10);
-mith5.setChance(0.05);
-mith5.addItemOutput(<aoa3:discharge_capsule>*10);
-mith5.setChance(0.05);
+mith5.setChance(0.15);
+mith5.addItemOutput(<aoa3:discharge_capsule>*60);
+mith5.setChance(0.85);
 mith5.addItemOutput(<divinerpg:fury_fire>*10);
 mith5.setChance(0.5);
 mith5.addItemOutput(<divinerpg:bluefire_stone>*10);
-mith5.setChance(0.05);
+mith5.setChance(0.15);
 mith5.addItemOutput(<divinerpg:divine_shards>);
 mith5.setChance(0.03);
 mith5.addItemOutput(<projectex:power_flower:3>);
-mith5.setChance(0.05);
+mith5.setChance(0.15);
 mith5.addItemOutput(<aoa3:rune_box>);
 mith5.setChance(0.3);
 mith5.addItemOutput(<contenttweaker:nethengeic_gem>*24);
@@ -433,6 +441,16 @@ mith5.setChance(0.5);
 mith5.addItemOutput(<contenttweaker:blue_matter>*3);
 mith5.setChance(0.2);
 mith5.addItemOutput(<bewitchment:owlets_wing>*32);
+mith5.setChance(0.6);
+mith5.addItemOutput(<xreliquary:mob_ingredient:3>*64);
+mith5.setChance(0.8);
+mith5.addItemOutput(<xreliquary:mob_ingredient:0>*64);
+mith5.setChance(0.8);
+mith5.addItemOutput(<mod_lavacow:undyingheart>*16);
+mith5.setChance(0.6);
+mith5.addItemOutput(<mod_lavacow:moltenbeef>*48);
+mith5.setChance(0.6);
+mith5.addItemOutput(<minecraft:tnt>*64);
 mith5.setChance(0.6);
 mith5.addItemOutput(<contenttweaker:tier5_token>);
 mith5.build();
@@ -487,38 +505,38 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:ayeraco_stone>,
 [<appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <mysticalagriculture:saltpeter_essence>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>]]);  
 
 
-val mith6 = RecipeBuilder.newBuilder("mythicaltier6","mythical_resource_miner_tier6",800);
+val mith6 = RecipeBuilder.newBuilder("mythicaltier6","mythical_resource_miner_tier6",400);
 mith6.addEnergyPerTickInput(65000);
-mith6.addFluidInput(<fluid:nethengeic_fluid>*50);
-mith6.addItemOutput(<draconicevolution:dragon_heart>);
-mith6.setChance(0.05);
+mith6.addFluidInput(<fluid:nethengeic_fluid>*25);
+mith6.addItemOutput(<draconicevolution:dragon_heart>*2);
+mith6.setChance(0.25);
 mith6.addItemOutput(<botania:manaresource:15>);
 mith6.setChance(0.6);
 mith6.addItemOutput(<minecraft:nether_star>*3);
-mith6.setChance(0.05);
+mith6.setChance(0.15);
 mith6.addItemOutput(<contenttweaker:calcite_gem>*40);
 mith6.setChance(0.7);
 mith6.addItemOutput(<divinerpg:divine_stone>*2);
-mith6.setChance(0.05);
+mith6.setChance(0.15);
 mith6.addItemOutput(<divinerpg:divine_shards>*4);
-mith6.setChance(0.05);
+mith6.setChance(0.35);
 mith6.addItemOutput(<contenttweaker:divine_star>);
-mith6.setChance(0.05);
-mith6.addItemOutput(<projectex:power_flower:4>);
-mith6.setChance(0.05);
-mith6.addItemOutput(<aoa3:copper_coin>*60);
 mith6.setChance(0.1);
+mith6.addItemOutput(<projectex:power_flower:4>);
+mith6.setChance(0.15);
+mith6.addItemOutput(<aoa3:copper_coin>*60);
+mith6.setChance(0.8);
 mith6.addItemOutput(<divinerpg:ender_shards>*50);
 mith6.setChance(0.5);
 mith6.addItemOutput(<aoa3:silver_coin>*20);
-mith6.setChance(0.1);
+mith6.setChance(0.3);
 mith6.addItemOutput(<aoa3:gold_coin>*10);
 mith6.setChance(0.1);
 mith6.addItemOutput(<aoa3:rune_box>);
 mith6.setChance(0.5);
 mith6.addItemOutput(<mysticalagradditions:stuff:3>*40);
 mith6.setChance(0.7);
-mith6.addItemOutput(<contenttweaker:dense_redstone>*15);
+mith6.addItemOutput(<contenttweaker:dense_redstone>*30);
 mith6.setChance(0.6);
 mith6.addItemOutput(<contenttweaker:blue_matter>*4);
 mith6.setChance(0.3);
@@ -526,6 +544,20 @@ mith6.addItemOutput(<aoa3:limonite_bullet>*64);
 mith6.setChance(0.9);
 mith6.addItemOutput(<aoa3:metal_slug>*64);
 mith6.setChance(0.9);
+mith6.addItemOutput(<xreliquary:mob_ingredient:11>*64);
+mith6.setChance(0.5);
+mith6.addItemOutput(<mod_lavacow:silky_sludge>*18);
+mith6.setChance(0.5);
+mith6.addItemOutput(<mod_lavacow:mossy_stick>*56);
+mith6.setChance(0.6);
+mith6.addItemOutput(<aoa3:rusted_iron_ingot>*30);
+mith6.setChance(0.8);
+mith6.addItemOutput(<divinerpg:watching_eye>*64);
+mith6.setChance(0.99);
+mith6.addItemOutput(<divinerpg:watching_eye>*64);
+mith6.setChance(0.99);
+mith6.addItemOutput(<minecraft:end_crystal>*60);
+mith6.setChance(0.95);
 mith6.addItemOutput(<contenttweaker:tier6_token>);
 mith6.build();
 
@@ -556,43 +588,53 @@ mods.forestry.Squeezer.addRecipe(<fluid:dragons_blood_plastic>*50, [<contenttwea
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:dragons_blood_plastic>, <fluid:dragons_blood_plastic>*50]);
 mods.thermalexpansion.Crucible.addRecipe(<fluid:dragons_blood_plastic>*50, <contenttweaker:dragons_blood_plastic>, 999);
 
-val mith7 = RecipeBuilder.newBuilder("mythicaltier7","mythical_resource_miner_tier7",800);
+val mith7 = RecipeBuilder.newBuilder("mythicaltier7","mythical_resource_miner_tier7",400);
 mith7.addEnergyPerTickInput(85000);
-mith7.addFluidInput(<fluid:spatial_matter>*50);
-mith7.addFluidInput(<fluid:dragons_blood_plastic>*50);
+mith7.addFluidInput(<fluid:spatial_matter>*25);
+mith7.addFluidInput(<fluid:dragons_blood_plastic>*25);
 mith7.addItemOutput(<aoa3:ivory>*30);
 mith7.setChance(0.2);
 mith7.addItemOutput(<aoa3:life_rune>*30);
-mith7.setChance(0.05);
+mith7.setChance(0.2);
 mith7.addItemOutput(<aoa3:sticky_slime>*30);
 mith7.setChance(0.15);
-mith7.addItemOutput(<aoa3:energy_rune>*10);
-mith7.setChance(0.02);
+mith7.addItemOutput(<aoa3:energy_rune>*60);
+mith7.setChance(0.2);
 mith7.addItemOutput(<aoa3:opteryx_feather>*30);
 mith7.setChance(0.15);
 mith7.addItemOutput(<aoa3:armour_plating>*30);
 mith7.setChance(0.15);
-mith7.addItemOutput(<aoa3:precasian_tokens>*10);
-mith7.setChance(0.1);
+mith7.addItemOutput(<aoa3:precasian_tokens>*50);
+mith7.setChance(0.9);
 mith7.addItemOutput(<aoa3:amphibiyte_lung>*20);
 mith7.setChance(0.5);
 mith7.addItemOutput(<aoa3:jungle_thorns>*30);
 mith7.setChance(0.5);
-mith7.addItemOutput(<aoa3:silver_coin>*5);
-mith7.setChance(0.1);
+mith7.addItemOutput(<aoa3:silver_coin>*15);
+mith7.setChance(0.15);
 mith7.addItemOutput(<aoa3:gold_coin>*3);
 mith7.setChance(0.01);
 mith7.addItemOutput(<contenttweaker:precasia_garnet>);
-mith7.setChance(0.5);
+mith7.setChance(0.25);
 mith7.addItemOutput(<botania:blacklotus:1>);
 mith7.setChance(0.1);
 mith7.addItemOutput(<projectex:matter:6>);
 mith7.setChance(0.1);
-mith7.addItemOutput(<extendedcrafting:material:40>*3);
-mith7.setChance(0.05);
+mith7.addItemOutput(<extendedcrafting:material:40>*8);
+mith7.setChance(0.75);
 mith7.addItemOutput(<contenttweaker:blue_matter>*5);
 mith7.setChance(0.4);
 mith7.addItemOutput(<advancedrocketry:crystal:2>*64);
+mith7.setChance(0.8);
+mith7.addItemOutput(<xreliquary:mob_ingredient:0>*64);
+mith7.setChance(0.99);
+mith7.addItemOutput(<xreliquary:mob_ingredient:0>*64);
+mith7.setChance(0.99);
+mith7.addItemOutput(<aoa3:chitin>*64);
+mith7.setChance(0.7);
+mith7.addItemOutput(<erebus:silk>*64);
+mith7.setChance(0.8);
+mith7.addItemOutput(<mod_lavacow:mossy_stick>*64);
 mith7.setChance(0.8);
 mith7.addItemOutput(<contenttweaker:tier7_token>);
 mith7.build();
@@ -611,34 +653,36 @@ mythassprecasia.build();
 
 mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:binnie.spirit.neutral>*500, <fluid:aerotheum>*500, <fluid:aerial_moonshine>*400, <fluid:water>*100]);
 
-val mith8 = RecipeBuilder.newBuilder("mythicaltier8","mythical_resource_miner_tier8",800);
+val mith8 = RecipeBuilder.newBuilder("mythicaltier8","mythical_resource_miner_tier8",400);
 mith8.addEnergyPerTickInput(85000);
-mith8.addFluidInput(<fluid:spatial_matter>*50);
-mith8.addFluidInput(<fluid:aerial_moonshine>*50);
+mith8.addFluidInput(<fluid:spatial_matter>*25);
+mith8.addFluidInput(<fluid:aerial_moonshine>*25);
 mith8.addItemOutput(<aoa3:zhinx_dust>*30);
 mith8.setChance(0.13);
 mith8.addItemOutput(<aoa3:yellow_spores>*30);
 mith8.setChance(0.15);
 mith8.addItemOutput(<contenttweaker:better_goo_ball>*30);
 mith8.setChance(0.1);
-mith8.addItemOutput(<aoa3:lelyetia_tokens>*10);
-mith8.setChance(0.1);
-mith8.addItemOutput(<aoa3:life_rune>*10);
-mith8.setChance(0.05);
-mith8.addItemOutput(<aoa3:strike_rune>*10);
-mith8.setChance(0.05);
-mith8.addItemOutput(<aoa3:power_rune>*10);
-mith8.setChance(0.02);
+mith8.addItemOutput(<aoa3:lelyetia_tokens>*50);
+mith8.setChance(0.9);
+mith8.addItemOutput(<aoa3:life_rune>*60);
+mith8.setChance(0.2);
+mith8.addItemOutput(<aoa3:strike_rune>*60);
+mith8.setChance(0.2);
+mith8.addItemOutput(<aoa3:power_rune>*60);
+mith8.setChance(0.2);
 // mith8.addItemOutput(<aoa3:goo_ball>*10);
 // mith8.setChance(0.05);
-mith8.addItemOutput(<aoa3:silver_coin>*5);
-mith8.setChance(0.1);
+mith8.addItemOutput(<aoa3:silver_coin>*15);
+mith8.setChance(0.15);
 mith8.addItemOutput(<aoa3:gold_coin>*5);
 mith8.setChance(0.01);
 mith8.addItemOutput(<aoa3:orange_spores>*30);
 mith8.setChance(0.15);
 mith8.addItemOutput(<contenttweaker:lelyetia_garnet>);
-mith8.setChance(0.5);
+mith8.setChance(0.25);
+mith8.addItemOutput(<extendedcrafting:material:40>*8);
+mith8.setChance(0.75);
 mith8.addItemOutput(<projectex:matter:7>);
 mith8.setChance(0.1);
 mith8.addItemOutput(<deepmoblearning:pristine_matter_thermal_elemental>*64);
@@ -649,6 +693,8 @@ mith8.addItemOutput(<contenttweaker:blue_matter>*5);
 mith8.setChance(0.4);
 mith8.addItemOutput(<advancedrocketry:crystal:5>*64);
 mith8.setChance(0.8);
+mith8.addItemOutput(<aoa3:rusted_iron_ingot>*64);
+mith8.setChance(0.6);
 mith8.addItemOutput(<contenttweaker:tier8_token>);
 mith8.build();
 
@@ -665,39 +711,45 @@ mythasslelyetia.build();
 
 mods.immersiveengineering.Mixer.addRecipe(<liquid:lving_gold_nak>*200, <fluid:gold_nak>*200, [<contenttweaker:living_gold>], 2048);
 
-val mith9 = RecipeBuilder.newBuilder("mythicaltier9","mythical_resource_miner_tier9",800);
+val mith9 = RecipeBuilder.newBuilder("mythicaltier9","mythical_resource_miner_tier9",400);
 mith9.addEnergyPerTickInput(85000);
-mith9.addFluidInput(<fluid:spatial_matter>*50);
-mith9.addFluidInput(<fluid:lving_gold_nak>*50);
-mith9.addItemOutput(<aoa3:power_rune>*10);
-mith9.setChance(0.05);
-mith9.addItemOutput(<aoa3:baron_tokens>*10);
-mith9.setChance(0.1);
-mith9.addItemOutput(<aoa3:enchanted_gunpowder>*30);
-mith9.setChance(0.15);
+mith9.addFluidInput(<fluid:spatial_matter>*25);
+mith9.addFluidInput(<fluid:lving_gold_nak>*25);
+mith9.addItemOutput(<aoa3:power_rune>*60);
+mith9.setChance(0.2);
+mith9.addItemOutput(<aoa3:baron_tokens>*50);
+mith9.setChance(0.9);
+mith9.addItemOutput(<aoa3:enchanted_gunpowder>*50);
+mith9.setChance(0.5);
 mith9.addItemOutput(<aoa3:hive_chunk>*30);
 mith9.setChance(0.15);
-mith9.addItemOutput(<aoa3:fire_rune>*10);
-mith9.setChance(0.03);
-mith9.addItemOutput(<aoa3:energy_rune>*10);
-mith9.setChance(0.03);
+mith9.addItemOutput(<aoa3:fire_rune>*60);
+mith9.setChance(0.2);
+mith9.addItemOutput(<aoa3:energy_rune>*60);
+mith9.setChance(0.2);
 mith9.addItemOutput(<aoa3:hive_egg>*30);
 mith9.setChance(0.1);
-mith9.addItemOutput(<aoa3:silver_coin>*10);
+mith9.addItemOutput(<aoa3:silver_coin>*20);
 mith9.setChance(0.1);
 mith9.addItemOutput(<aoa3:gold_coin>*2);
 mith9.setChance(0.01);
 mith9.addItemOutput(<aoa3:magic_repair_dust>);
 mith9.setChance(0.1);
 mith9.addItemOutput(<contenttweaker:barathos_garnet>);
-mith9.setChance(0.5);
+mith9.setChance(0.25);
 mith9.addItemOutput(<projectex:matter:6>);
 mith9.setChance(0.1);
 mith9.addItemOutput(<thaumictinkerer:energetic_nitor>);
 mith9.setChance(0.1);
 mith9.addItemOutput(<contenttweaker:blue_matter>*5);
 mith9.setChance(0.4);
+mith9.addItemOutput(<aoa3:void_scales>*50);
+mith9.setChance(0.4);
 mith9.addItemOutput(<advancedrocketry:crystal:3>*64);
+mith9.setChance(0.8);
+mith9.addItemOutput(<mod_lavacow:undyingheart>*16);
+mith9.setChance(0.8);
+mith9.addItemOutput(<mod_lavacow:moltenbeef>*48);
 mith9.setChance(0.8);
 mith9.addItemOutput(<contenttweaker:tier9_token>);
 mith9.build();
@@ -715,40 +767,58 @@ mythassbarathos.build();
 
 mods.thermalexpansion.Refinery.addRecipe(<liquid:weakened_cryotheoum> * 200, <minecraft:snowball> % 60, <fluid:cryotheum_nak> * 50, 50);
 
-val mith10 = RecipeBuilder.newBuilder("mythicaltier10","mythical_resource_miner_tier10",800);
+val mith10 = RecipeBuilder.newBuilder("mythicaltier10","mythical_resource_miner_tier10",400);
 mith10.addEnergyPerTickInput(85000);
-mith10.addFluidInput(<fluid:spatial_matter>*50);
-mith10.addFluidInput(<fluid:weakened_cryotheoum>*50);
-mith10.addItemOutput(<aoa3:unstable_gunpowder>*30);
-mith10.setChance(0.15);
-mith10.addItemOutput(<aoa3:creeponia_tokens>*10);
-mith10.setChance(0.1);
-mith10.addItemOutput(<aoa3:enchanted_gunpowder>*30);
-mith10.setChance(0.15);
-mith10.addItemOutput(<aoa3:kinetic_rune>*10);
-mith10.setChance(0.03);
-mith10.addItemOutput(<aoa3:strike_rune>*10);
-mith10.setChance(0.03);
-mith10.addItemOutput(<aoa3:energy_rune>*10);
-mith10.setChance(0.03);
-mith10.addItemOutput(<aoa3:silver_coin>*3);
-mith10.setChance(0.1);
+mith10.addFluidInput(<fluid:spatial_matter>*25);
+mith10.addFluidInput(<fluid:weakened_cryotheoum>*25);
+mith10.addItemOutput(<aoa3:unstable_gunpowder>*60);
+mith10.setChance(0.8);
+mith10.addItemOutput(<aoa3:unstable_gunpowder>*60);
+mith10.setChance(0.8);
+mith10.addItemOutput(<aoa3:unstable_gunpowder>*60);
+mith10.setChance(0.8);
+mith10.addItemOutput(<aoa3:creeponia_tokens>*50);
+mith10.setChance(0.9);
+mith10.addItemOutput(<aoa3:enchanted_gunpowder>*60);
+mith10.setChance(0.8);
+mith10.addItemOutput(<aoa3:kinetic_rune>*60);
+mith10.setChance(0.2);
+mith10.addItemOutput(<aoa3:strike_rune>*60);
+mith10.setChance(0.2);
+mith10.addItemOutput(<aoa3:energy_rune>*60);
+mith10.setChance(0.2);
+mith10.addItemOutput(<aoa3:silver_coin>*15);
+mith10.setChance(0.2);
 mith10.addItemOutput(<aoa3:gold_coin>*10);
-mith10.setChance(0.01);
+mith10.setChance(0.1);
 mith10.addItemOutput(<aoa3:magic_repair_dust>);
 mith10.setChance(0.1);
 mith10.addItemOutput(<contenttweaker:creeponia_garnet>);
-mith10.setChance(0.5);
+mith10.setChance(0.25);
 mith10.addItemOutput(<projectex:matter:6>);
 mith10.setChance(0.1);
 mith10.addItemOutput(<xreliquary:void_tear>*15);
 mith10.setChance(0.1);
 mith10.addItemOutput(<abyssalcraft:oc>);
-mith10.setChance(0.05);
+mith10.setChance(0.25);
 mith10.addItemOutput(<contenttweaker:blue_matter>*5);
 mith10.setChance(0.4);
 mith10.addItemOutput(<advancedrocketry:crystal:4>*64);
 mith10.setChance(0.8);
+mith10.addItemOutput(<minecraft:gunpowder>*64);
+mith10.setChance(0.99);
+mith10.addItemOutput(<minecraft:gunpowder>*64);
+mith10.setChance(0.99);
+mith10.addItemOutput(<minecraft:gunpowder>*64);
+mith10.setChance(0.99);
+mith10.addItemOutput(<minecraft:gunpowder>*64);
+mith10.setChance(0.99);
+mith10.addItemOutput(<xreliquary:mob_ingredient:3>*64);
+mith10.setChance(0.99);
+mith10.addItemOutput(<minecraft:tnt>*64);
+mith10.setChance(0.99);
+mith10.addItemOutput(<minecraft:tnt>*64);
+mith10.setChance(0.99);
 mith10.addItemOutput(<contenttweaker:tier10_token>);
 mith10.build();
 
@@ -764,41 +834,43 @@ mythasscreeponia.build();
 
 mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:crystallized_obsidian>*500, <fluid:lumium>*500, <fluid:luminous_lava>*400, <fluid:stone>*200]);
 
-val mith11 = RecipeBuilder.newBuilder("mythicaltier11","mythical_resource_miner_tier11",800);
+val mith11 = RecipeBuilder.newBuilder("mythicaltier11","mythical_resource_miner_tier11",400);
 mith11.addEnergyPerTickInput(85000);
-mith11.addFluidInput(<fluid:spatial_matter>*50);
-mith11.addFluidInput(<fluid:luminous_lava>*50);
-mith11.addItemOutput(<aoa3:dense_rock>*30);
+mith11.addFluidInput(<fluid:spatial_matter>*25);
+mith11.addFluidInput(<fluid:luminous_lava>*25);
+mith11.addItemOutput(<aoa3:dense_rock>*40);
 mith11.setChance(0.15);
-mith11.addItemOutput(<aoa3:deeplands_tokens>*10);
-mith11.setChance(0.1);
+mith11.addItemOutput(<aoa3:deeplands_tokens>*50);
+mith11.setChance(0.9);
 mith11.addItemOutput(<aoa3:mud_ball>*30);
 mith11.setChance(0.5);
 mith11.addItemOutput(<projecte:item.pe_matter:0>);
 mith11.setChance(0.1);
 mith11.addItemOutput(<divinerpg:bedrock_chunk>*10);
-mith11.setChance(0.03);
-mith11.addItemOutput(<aoa3:armour_plating>*10);
-mith11.setChance(0.03);
-mith11.addItemOutput(<aoa3:silver_coin>*10);
 mith11.setChance(0.1);
+mith11.addItemOutput(<aoa3:armour_plating>*10);
+mith11.setChance(0.3);
+mith11.addItemOutput(<aoa3:silver_coin>*20);
+mith11.setChance(0.2);
 mith11.addItemOutput(<aoa3:gold_coin>*10);
 mith11.setChance(0.02);
 mith11.addItemOutput(<contenttweaker:deeplands_garnet>);
-mith11.setChance(0.5);
+mith11.setChance(0.25);
 mith11.addItemOutput(<contenttweaker:deep_dark_matter>*35);
 mith11.setChance(0.8);
-mith11.addItemOutput(<aoa3:deep_case>*8);
-mith11.setChance(0.5);
+mith11.addItemOutput(<aoa3:deep_case>*64);
+mith11.setChance(0.9);
+mith11.addItemOutput(<aoa3:deep_case>*64);
+mith11.setChance(0.9);
 mith11.addItemOutput(<materialpart:dreaded_steel:ingot>*2);
 mith11.setChance(0.1);
 mith11.addItemOutput(<projectex:matter:6>);
 mith11.setChance(0.1);
 mith11.addItemOutput(<aoa3:chitin>*50);
-mith11.setChance(0.5);
+mith11.setChance(0.9);
 mith11.addItemOutput(<astralsorcery:blockworldilluminator>);
 mith11.setChance(0.1);
-mith11.addItemOutput(<contenttweaker:dense_redstone>*33);
+mith11.addItemOutput(<contenttweaker:dense_redstone>*48);
 mith11.setChance(0.8);
 mith11.addItemOutput(<contenttweaker:blue_matter>*5);
 mith11.setChance(0.4);
@@ -816,6 +888,8 @@ mith11.addItemOutput(<aoa3:carved_rune_power>*30);
 mith11.setChance(0.8);
 mith11.addItemOutput(<aoa3:carved_rune_empowering>*30);
 mith11.setChance(0.8);
+mith11.addItemOutput(<aoa3:ghostly_powder>*64);
+mith11.setChance(0.99);
 mith11.addItemOutput(<contenttweaker:tier11_token>);
 mith11.build();
 
@@ -829,30 +903,30 @@ mythassdeeplands.build();
 
 mods.thermalexpansion.Imbuer.addRecipe(<fluid:spicy_pyrotheum>*2000, <aoa3:chilli>, <fluid:pyrotheum>*2000, 5200);
 
-val mith12 = RecipeBuilder.newBuilder("mythicaltier12","mythical_resource_miner_tier12",800);
+val mith12 = RecipeBuilder.newBuilder("mythicaltier12","mythical_resource_miner_tier12",400);
 mith12.addEnergyPerTickInput(85000);
-mith12.addFluidInput(<fluid:spatial_matter>*50);
-mith12.addFluidInput(<fluid:spicy_pyrotheum>*50);
+mith12.addFluidInput(<fluid:spatial_matter>*25);
+mith12.addFluidInput(<fluid:spicy_pyrotheum>*25);
 mith12.addItemOutput(<aoa3:nightmare_flakes>*30);
 mith12.setChance(0.15);
-mith12.addItemOutput(<aoa3:abyss_tokens>*10);
-mith12.setChance(0.1);
-mith12.addItemOutput(<aoa3:distortion_rune>*10);
-mith12.setChance(0.02);
-mith12.addItemOutput(<aoa3:void_scales>*30);
-mith12.setChance(0.13);
-mith12.addItemOutput(<aoa3:wither_rune>*10);
-mith12.setChance(0.05);
+mith12.addItemOutput(<aoa3:abyss_tokens>*50);
+mith12.setChance(0.9);
+mith12.addItemOutput(<aoa3:distortion_rune>*60);
+mith12.setChance(0.2);
+mith12.addItemOutput(<aoa3:void_scales>*50);
+mith12.setChance(0.9);
+mith12.addItemOutput(<aoa3:wither_rune>*60);
+mith12.setChance(0.2);
 mith12.addItemOutput(<aoa3:eye_bulb>*20);
-mith12.setChance(0.05);
-mith12.addItemOutput(<aoa3:silver_coin>*10);
-mith12.setChance(0.1);
+mith12.setChance(0.25);
+mith12.addItemOutput(<aoa3:silver_coin>*20);
+mith12.setChance(0.3);
 mith12.addItemOutput(<aoa3:gold_coin>*10);
 mith12.setChance(0.02);
 mith12.addItemOutput(<aoa3:magic_repair_dust>);
 mith12.setChance(0.1);
 mith12.addItemOutput(<contenttweaker:abyss_garnet>);
-mith12.setChance(0.5);
+mith12.setChance(0.25);
 mith12.addItemOutput(<contenttweaker:hellspot_chop>*55);
 mith12.setChance(0.5);
 mith12.addItemOutput(<divinerpg:fury_fire>*50);
@@ -865,6 +939,8 @@ mith12.addItemOutput(<bloodarsenal:base_item:4>*100);
 mith12.setChance(0.01);
 mith12.addItemOutput(<minecraft:rotten_flesh>*64);
 mith12.setChance(0.9);
+mith12.addItemOutput(<abyssalcraft:ethaxiumingot>*2);
+mith12.setChance(0.4);
 mith12.addItemOutput(<contenttweaker:nethengeic_gem>*36);
 mith12.setChance(0.6);
 mith12.addItemOutput(<contenttweaker:blue_matter>*5);
@@ -1029,50 +1105,50 @@ mods.immersiveengineering.Mixer.addRecipe(<fluid:liquid_life>*500, <fluid:lifees
 
 mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:milk>*2000, <fluid:milk_chocolate>*100, <fluid:milkiest_chocolate>*200, null]);
 
-val mith13 = RecipeBuilder.newBuilder("mythicaltier13","mythical_resource_miner_tier13",800);
+val mith13 = RecipeBuilder.newBuilder("mythicaltier13","mythical_resource_miner_tier13",400);
 mith13.addEnergyPerTickInput(85000);
-mith13.addFluidInput(<fluid:cosmic_matter>*50);
-mith13.addFluidInput(<fluid:milkiest_chocolate>*50);
+mith13.addFluidInput(<fluid:cosmic_matter>*25);
+mith13.addFluidInput(<fluid:milkiest_chocolate>*25);
 mith13.addItemOutput(<aoa3:sour_gummy>*30);
 mith13.setChance(0.15);
-mith13.addItemOutput(<aoa3:candyland_tokens>*10);
-mith13.setChance(0.1);
-mith13.addItemOutput(<aoa3:energy_rune>*10);
-mith13.setChance(0.02);
-mith13.addItemOutput(<aoa3:life_rune>*10);
-mith13.setChance(0.02);
-mith13.addItemOutput(<aoa3:kinetic_rune>*10);
-mith13.setChance(0.03);
+mith13.addItemOutput(<aoa3:candyland_tokens>*50);
+mith13.setChance(0.9);
+mith13.addItemOutput(<aoa3:energy_rune>*60);
+mith13.setChance(0.2);
+mith13.addItemOutput(<aoa3:life_rune>*60);
+mith13.setChance(0.2);
+mith13.addItemOutput(<aoa3:kinetic_rune>*60);
+mith13.setChance(0.2);
 mith13.addItemOutput(<aoa3:candy_corn>*30);
-mith13.setChance(0.15);
+mith13.setChance(0.65);
 mith13.addItemOutput(<aoa3:sour_candy>*30);
 mith13.setChance(0.15);
-mith13.addItemOutput(<aoa3:gold_coin>*10);
-mith13.setChance(0.05);
-mith13.addItemOutput(<aoa3:aqua_cotton_candy>*10);
-mith13.setChance(0.05);
-mith13.addItemOutput(<aoa3:chocolate_block>*40);
-mith13.setChance(0.25);
-mith13.addItemOutput(<aoa3:dark_chocolate_block>*40);
-mith13.setChance(0.25);
-mith13.addItemOutput(<aoa3:white_chocolate_block>*40);
-mith13.setChance(0.25);
-mith13.addItemOutput(<aoa3:pink_cotton_candy>*10);
-mith13.setChance(0.05);
-mith13.addItemOutput(<aoa3:green_candy>*10);
-mith13.setChance(0.05);
-mith13.addItemOutput(<aoa3:red_candy>*10);
-mith13.setChance(0.05);
-mith13.addItemOutput(<aoa3:white_candy>*10);
-mith13.setChance(0.05);
-mith13.addItemOutput(<aoa3:peppermint_candy>*30);
-mith13.setChance(0.15);
-mith13.addItemOutput(<aoa3:spearmint_candy>*30);
-mith13.setChance(0.15);
-mith13.addItemOutput(<aoa3:sour_pop>*30);
-mith13.setChance(0.15);
+mith13.addItemOutput(<aoa3:gold_coin>*50);
+mith13.setChance(0.75);
+mith13.addItemOutput(<aoa3:aqua_cotton_candy>*50);
+mith13.setChance(0.75);
+mith13.addItemOutput(<aoa3:chocolate_block>*64);
+mith13.setChance(0.95);
+mith13.addItemOutput(<aoa3:dark_chocolate_block>*64);
+mith13.setChance(0.95);
+mith13.addItemOutput(<aoa3:white_chocolate_block>*64);
+mith13.setChance(0.95);
+mith13.addItemOutput(<aoa3:pink_cotton_candy>*50);
+mith13.setChance(0.75);
+mith13.addItemOutput(<aoa3:green_candy>*50);
+mith13.setChance(0.75);
+mith13.addItemOutput(<aoa3:red_candy>*50);
+mith13.setChance(0.75);
+mith13.addItemOutput(<aoa3:white_candy>*50);
+mith13.setChance(0.75);
+mith13.addItemOutput(<aoa3:peppermint_candy>*50);
+mith13.setChance(0.85);
+mith13.addItemOutput(<aoa3:spearmint_candy>*50);
+mith13.setChance(0.85);
+mith13.addItemOutput(<aoa3:sour_pop>*50);
+mith13.setChance(0.85);
 mith13.addItemOutput(<contenttweaker:candyland_garnet>);
-mith13.setChance(0.5);
+mith13.setChance(0.25);
 mith13.addItemOutput(<contenttweaker:blue_matter>*10);
 mith13.setChance(0.5);
 mith13.addItemOutput(<contenttweaker:tier13_token>);
@@ -1086,42 +1162,54 @@ mythasscandyland.addItemInput(<contenttweaker:recursion_fragment_candyland>);
 mythasscandyland.addItemOutput(<contenttweaker:candyland_garnet>*64);
 mythasscandyland.build();
 
-val mith14 = RecipeBuilder.newBuilder("mythicaltier14","mythical_resource_miner_tier14",800);
+val mith14 = RecipeBuilder.newBuilder("mythicaltier14","mythical_resource_miner_tier14",400);
 mith14.addEnergyPerTickInput(85000);
-mith14.addFluidInput(<fluid:cosmic_matter>*50);
-mith14.addFluidInput(<fluid:ghostly_matter>*50);
-mith14.addItemOutput(<aoa3:hardened_confetti_ball>*30);
-mith14.setChance(0.05);
-mith14.addItemOutput(<aoa3:celeve_tokens>*10);
-mith14.setChance(0.1);
+mith14.addFluidInput(<fluid:cosmic_matter>*25);
+mith14.addFluidInput(<fluid:ghostly_matter>*25);
+mith14.addItemOutput(<aoa3:hardened_confetti_ball>*64);
+mith14.setChance(0.8);
+mith14.addItemOutput(<aoa3:hardened_confetti_ball>*64);
+mith14.setChance(0.6);
+mith14.addItemOutput(<aoa3:celeve_tokens>*50);
+mith14.setChance(0.9);
 mith14.addItemOutput(<aoa3:circus_coin>*30);
 mith14.setChance(0.1);
-mith14.addItemOutput(<aoa3:compass_rune>*10);
-mith14.setChance(0.08);
+mith14.addItemOutput(<aoa3:compass_rune>*60);
+mith14.setChance(0.3);
 mith14.addItemOutput(<aoa3:balloon>*30);
 mith14.setChance(0.15);
 mith14.addItemOutput(<aoa3:gold_coin>*10);
-mith14.setChance(0.05);
+mith14.setChance(0.25);
 mith14.addItemOutput(<aoa3:celevians_red>*20);
-mith14.setChance(0.05);
+mith14.setChance(0.25);
 mith14.addItemOutput(<aoa3:celevians_blue>*20);
-mith14.setChance(0.05);
+mith14.setChance(0.25);
 mith14.addItemOutput(<aoa3:celevians_white>*20);
-mith14.setChance(0.05);
+mith14.setChance(0.25);
 mith14.addItemOutput(<aoa3:celevians_purple>*20);
-mith14.setChance(0.05);
+mith14.setChance(0.25);
 mith14.addItemOutput(<aoa3:circus_coin>*10);
 mith14.setChance(0.1);
 mith14.addItemOutput(<contenttweaker:celeve_garnet>);
-mith14.setChance(0.5);
+mith14.setChance(0.25);
 mith14.addItemOutput(<aoa3:magic_repair_dust>);
 mith14.setChance(0.1);
-mith14.addItemOutput(<contenttweaker:vial_of_ilarity>*33);
-mith14.setChance(0.3);
+mith14.addItemOutput(<contenttweaker:vial_of_ilarity>*64);
+mith14.setChance(0.8);
+mith14.addItemOutput(<aoa3:ghostly_powder>*64);
+mith14.setChance(0.95);
+mith14.addItemOutput(<aoa3:ghostly_powder>*64);
+mith14.setChance(0.95);
 mith14.addItemOutput(<contenttweaker:nethengeic_gem>*48);
 mith14.setChance(0.7);
 mith14.addItemOutput(<contenttweaker:blue_matter>*10);
 mith14.setChance(0.5);
+mith14.addItemOutput(<aoa3:void_scales>*48);
+mith14.setChance(0.7);
+mith14.addItemOutput(<mod_lavacow:undyingheart>*16);
+mith14.setChance(0.8);
+mith14.addItemOutput(<mod_lavacow:moltenbeef>*48);
+mith14.setChance(0.8);
 mith14.addItemOutput(<contenttweaker:tier14_token>);
 mith14.build();
 
@@ -1133,10 +1221,10 @@ mythassceleve.addItemInput(<contenttweaker:recursion_fragment_celeve>);
 mythassceleve.addItemOutput(<contenttweaker:celeve_garnet>*64);
 mythassceleve.build();
 
-val mith15 = RecipeBuilder.newBuilder("mythicaltier15","mythical_resource_miner_tier15",800);
+val mith15 = RecipeBuilder.newBuilder("mythicaltier15","mythical_resource_miner_tier15",400);
 mith15.addEnergyPerTickInput(85000);
-mith15.addFluidInput(<fluid:cosmic_matter>*50);
-mith15.addFluidInput(<fluid:liquid_life>*50);
+mith15.addFluidInput(<fluid:cosmic_matter>*25);
+mith15.addFluidInput(<fluid:liquid_life>*25);
 mith15.addItemOutput(<aoa3:small_blue_petal>*30);
 mith15.setChance(0.15);
 mith15.addItemOutput(<aoa3:small_green_petal>*30);
@@ -1147,36 +1235,40 @@ mith15.addItemOutput(<aoa3:small_purple_petal>*30);
 mith15.setChance(0.15);
 mith15.addItemOutput(<aoa3:small_red_petal>*30);
 mith15.setChance(0.15);
-mith15.addItemOutput(<aoa3:gardencia_tokens>*10);
-mith15.setChance(0.1);
-mith15.addItemOutput(<aoa3:kinetic_rune>*10);
-mith15.setChance(0.08);
-mith15.addItemOutput(<aoa3:water_rune>*10);
-mith15.setChance(0.02);
-mith15.addItemOutput(<aoa3:life_rune>*10);
-mith15.setChance(0.02);
+mith15.addItemOutput(<aoa3:gardencia_tokens>*50);
+mith15.setChance(0.9);
+mith15.addItemOutput(<aoa3:kinetic_rune>*60);
+mith15.setChance(0.4);
+mith15.addItemOutput(<aoa3:water_rune>*60);
+mith15.setChance(0.2);
+mith15.addItemOutput(<aoa3:life_rune>*60);
+mith15.setChance(0.2);
 mith15.addItemOutput(<aoa3:gold_coin>*10);
-mith15.setChance(0.05);
-mith15.addItemOutput(<aoa3:blue_petals>*20);
-mith15.setChance(0.05);
-mith15.addItemOutput(<aoa3:light_blue_petals>*20);
-mith15.setChance(0.05);
-mith15.addItemOutput(<aoa3:magenta_petals>*20);
-mith15.setChance(0.05);
-mith15.addItemOutput(<aoa3:purple_petals>*20);
-mith15.setChance(0.05);
-mith15.addItemOutput(<aoa3:red_petals>*20);
-mith15.setChance(0.05);
-mith15.addItemOutput(<aoa3:rose_petals>*20);
-mith15.setChance(0.05);
-mith15.addItemOutput(<aoa3:yellow_petals>*20);
-mith15.setChance(0.05);
-mith15.addItemOutput(<aoa3:goldicap_petals>*30);
-mith15.setChance(0.05);
-mith15.addItemOutput(<contenttweaker:gardencia_garnet>);
 mith15.setChance(0.5);
+mith15.addItemOutput(<aoa3:blue_petals>*20);
+mith15.setChance(0.5);
+mith15.addItemOutput(<aoa3:light_blue_petals>*20);
+mith15.setChance(0.5);
+mith15.addItemOutput(<aoa3:magenta_petals>*20);
+mith15.setChance(0.5);
+mith15.addItemOutput(<aoa3:purple_petals>*20);
+mith15.setChance(0.5);
+mith15.addItemOutput(<aoa3:red_petals>*20);
+mith15.setChance(0.5);
+mith15.addItemOutput(<aoa3:rose_petals>*20);
+mith15.setChance(0.5);
+mith15.addItemOutput(<aoa3:yellow_petals>*20);
+mith15.setChance(0.5);
+mith15.addItemOutput(<aoa3:goldicap_petals>*30);
+mith15.setChance(0.5);
+mith15.addItemOutput(<contenttweaker:gardencia_garnet>);
+mith15.setChance(0.25);
 mith15.addItemOutput(<contenttweaker:blue_matter>*10);
 mith15.setChance(0.5);
+mith15.addItemOutput(<erebus:silk>*64);
+mith15.setChance(0.9);
+mith15.addItemOutput(<mod_lavacow:mossy_stick>*48);
+mith15.setChance(0.8);
 mith15.addItemOutput(<contenttweaker:tier15_token>);
 mith15.build();
 
@@ -1188,24 +1280,36 @@ mythassgardencia.addItemInput(<contenttweaker:recursion_fragment_gardencia>);
 mythassgardencia.addItemOutput(<contenttweaker:gardencia_garnet>*64);
 mythassgardencia.build();
 
-val mith16 = RecipeBuilder.newBuilder("mythicaltier16","mythical_resource_miner_tier16",800);
+val mith16 = RecipeBuilder.newBuilder("mythicaltier16","mythical_resource_miner_tier16",400);
 mith16.addEnergyPerTickInput(85000);
-mith16.addFluidInput(<fluid:cosmic_matter>*50);
-mith16.addFluidInput(<fluid:seared_grave_stone>*50);
-mith16.addItemOutput(<aoa3:crystevia_tokens>*10);
-mith16.setChance(0.1);
+mith16.addFluidInput(<fluid:cosmic_matter>*25);
+mith16.addFluidInput(<fluid:seared_grave_stone>*25);
+mith16.addItemOutput(<aoa3:crystevia_tokens>*50);
+mith16.setChance(0.9);
 mith16.addItemOutput(<aoa3:blue_druse>*50);
-mith16.setChance(0.15);
+mith16.setChance(0.8);
 mith16.addItemOutput(<aoa3:green_druse>*50);
-mith16.setChance(0.15);
+mith16.setChance(0.8);
 mith16.addItemOutput(<aoa3:purple_druse>*50);
-mith16.setChance(0.15);
+mith16.setChance(0.8);
 mith16.addItemOutput(<aoa3:red_druse>*50);
-mith16.setChance(0.15);
+mith16.setChance(0.8);
 mith16.addItemOutput(<aoa3:white_druse>*50);
-mith16.setChance(0.15);
+mith16.setChance(0.8);
 mith16.addItemOutput(<aoa3:yellow_druse>*50);
-mith16.setChance(0.15);
+mith16.setChance(0.8);
+mith16.addItemOutput(<aoa3:blue_druse>*50);
+mith16.setChance(0.8);
+mith16.addItemOutput(<aoa3:green_druse>*50);
+mith16.setChance(0.8);
+mith16.addItemOutput(<aoa3:purple_druse>*50);
+mith16.setChance(0.8);
+mith16.addItemOutput(<aoa3:red_druse>*50);
+mith16.setChance(0.8);
+mith16.addItemOutput(<aoa3:white_druse>*50);
+mith16.setChance(0.8);
+mith16.addItemOutput(<aoa3:yellow_druse>*50);
+mith16.setChance(0.8);
 mith16.addItemOutput(<aoa3:blue_crystal_block>*20);
 mith16.setChance(0.3);
 mith16.addItemOutput(<aoa3:green_crystal_block>*20);
@@ -1231,12 +1335,12 @@ mith16.setChance(0.5);
 mith16.addItemOutput(<aoa3:red_crystal>*50);
 mith16.setChance(0.5);
 mith16.addItemOutput(<aoa3:gold_coin>*10);
-mith16.setChance(0.05);
+mith16.setChance(0.3);
 mith16.addItemOutput(<aoa3:medium_skill_crystal>*3);
-mith16.setChance(0.05);
+mith16.setChance(0.2);
 mith16.addItemOutput(<contenttweaker:crystevia_garnet>);
-mith16.setChance(0.5);
-mith16.addItemOutput(<contenttweaker:dense_redstone>*55);
+mith16.setChance(0.25);
+mith16.addItemOutput(<contenttweaker:dense_redstone>*64);
 mith16.setChance(0.9);
 mith16.addItemOutput(<contenttweaker:blue_matter>*10);
 mith16.setChance(0.5);
@@ -1251,42 +1355,44 @@ mythasscrystevia.addItemInput(<contenttweaker:recursion_fragment_crystevia>);
 mythasscrystevia.addItemOutput(<contenttweaker:crystevia_garnet>*64);
 mythasscrystevia.build();
 
-val mith17 = RecipeBuilder.newBuilder("mythicaltier17","mythical_resource_miner_tier17",800);
+val mith17 = RecipeBuilder.newBuilder("mythicaltier17","mythical_resource_miner_tier17",400);
 mith17.addEnergyPerTickInput(85000);
-mith17.addFluidInput(<fluid:cosmic_matter>*50);
-mith17.addFluidInput(<fluid:astral_water>*50);
-mith17.addItemOutput(<aoa3:haven_tokens>*10);
-mith17.setChance(0.1);
+mith17.addFluidInput(<fluid:cosmic_matter>*25);
+mith17.addFluidInput(<fluid:astral_water>*25);
+mith17.addItemOutput(<aoa3:haven_tokens>*50);
+mith17.setChance(0.9);
 mith17.addItemOutput(<aoa3:voliant_heart>*30);
 mith17.setChance(0.15);
 mith17.addItemOutput(<aoa3:floating_stone>*30);
 mith17.setChance(0.15);
-mith17.addItemOutput(<aoa3:strike_rune>*10);
-mith17.setChance(0.08);
-mith17.addItemOutput(<aoa3:life_rune>*10);
-mith17.setChance(0.05);
+mith17.addItemOutput(<aoa3:strike_rune>*60);
+mith17.setChance(0.2);
+mith17.addItemOutput(<aoa3:life_rune>*60);
+mith17.setChance(0.2);
 mith17.addItemOutput(<aoa3:havendales_blue>*30);
-mith17.setChance(0.05);
+mith17.setChance(0.2);
 mith17.addItemOutput(<aoa3:havendales_pink>*30);
-mith17.setChance(0.05);
+mith17.setChance(0.2);
 mith17.addItemOutput(<aoa3:havendales_yellow>*30);
-mith17.setChance(0.05);
-mith17.addItemOutput(<aoa3:fire_rune>*10);
-mith17.setChance(0.02);
-mith17.addItemOutput(<aoa3:energy_rune>*10);
-mith17.setChance(0.02);
-mith17.addItemOutput(<aoa3:water_rune>*10);
-mith17.setChance(0.02);
-mith17.addItemOutput(<aoa3:poison_rune>*10);
-mith17.setChance(0.02);
-mith17.addItemOutput(<aoa3:kinetic_rune>*10);
-mith17.setChance(0.02);
+mith17.setChance(0.2);
+mith17.addItemOutput(<aoa3:fire_rune>*60);
+mith17.setChance(0.2);
+mith17.addItemOutput(<aoa3:energy_rune>*60);
+mith17.setChance(0.2);
+mith17.addItemOutput(<aoa3:water_rune>*60);
+mith17.setChance(0.2);
+mith17.addItemOutput(<aoa3:poison_rune>*60);
+mith17.setChance(0.2);
+mith17.addItemOutput(<aoa3:kinetic_rune>*60);
+mith17.setChance(0.2);
 mith17.addItemOutput(<contenttweaker:calcite_gem>*60);
 mith17.setChance(0.8);
 mith17.addItemOutput(<contenttweaker:haven_garnet>);
-mith17.setChance(0.5);
+mith17.setChance(0.25);
 mith17.addItemOutput(<contenttweaker:blue_matter>*10);
 mith17.setChance(0.5);
+mith17.addItemOutput(<aoa3:ghostly_powder>*64);
+mith17.setChance(0.9);
 mith17.addItemOutput(<aoa3:carved_rune_travel>*60);
 mith17.setChance(0.9);
 mith17.addItemOutput(<aoa3:carved_rune_reality>*60);
@@ -1299,6 +1405,14 @@ mith17.addItemOutput(<aoa3:carved_rune_power>*60);
 mith17.setChance(0.9);
 mith17.addItemOutput(<aoa3:carved_rune_empowering>*60);
 mith17.setChance(0.9);
+mith17.addItemOutput(<aoa3:raw_furlion_chop>*64);
+mith17.setChance(0.99);
+mith17.addItemOutput(<aoa3:raw_chimera_chop>*64);
+mith17.setChance(0.99);
+mith17.addItemOutput(<aoa3:raw_charger_shank>*64);
+mith17.setChance(0.99);
+mith17.addItemOutput(<aoa3:raw_ursa_meat>*64);
+mith17.setChance(0.99);
 mith17.addItemOutput(<contenttweaker:tier17_token>);
 mith17.build();
 
@@ -1312,32 +1426,48 @@ mythasshaven.build();
 
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:blue_matter>, <fluid:sednanite>*144, <fluid:alchemical_goo>*100]);
 
-val mith18 = RecipeBuilder.newBuilder("mythicaltier18","mythical_resource_miner_tier18",800);
+val mith18 = RecipeBuilder.newBuilder("mythicaltier18","mythical_resource_miner_tier18",400);
 mith18.addEnergyPerTickInput(85000);
-mith18.addFluidInput(<fluid:cosmic_matter>*50);
-mith18.addFluidInput(<fluid:alchemical_goo>*50);
-mith18.addItemOutput(<aoa3:iromine_tokens>*10);
-mith18.setChance(0.1);
-mith18.addItemOutput(<aoa3:magnet_shard>*30);
-mith18.setChance(0.15);
-mith18.addItemOutput(<aoa3:mecha_gear>*30);
-mith18.setChance(0.15);
-mith18.addItemOutput(<aoa3:gold_spring>*30);
-mith18.setChance(0.15);
-mith18.addItemOutput(<aoa3:power_core>*30);
-mith18.setChance(0.15);
-mith18.addItemOutput(<aoa3:energy_rune>*10);
-mith18.setChance(0.08);
-mith18.addItemOutput(<aoa3:life_rune>*10);
-mith18.setChance(0.02);
-mith18.addItemOutput(<aoa3:kinetic_rune>*10);
-mith18.setChance(0.02);
+mith18.addFluidInput(<fluid:cosmic_matter>*25);
+mith18.addFluidInput(<fluid:alchemical_goo>*25);
+mith18.addItemOutput(<aoa3:iromine_tokens>*50);
+mith18.setChance(0.9);
+mith18.addItemOutput(<aoa3:magnet_shard>*64);
+mith18.setChance(0.8);
+mith18.addItemOutput(<aoa3:mecha_gear>*64);
+mith18.setChance(0.8);
+mith18.addItemOutput(<aoa3:gold_spring>*64);
+mith18.setChance(0.8);
+mith18.addItemOutput(<aoa3:power_core>*64);
+mith18.setChance(0.8);
+mith18.addItemOutput(<aoa3:magnet_shard>*64);
+mith18.setChance(0.8);
+mith18.addItemOutput(<aoa3:mecha_gear>*64);
+mith18.setChance(0.8);
+mith18.addItemOutput(<aoa3:gold_spring>*64);
+mith18.setChance(0.8);
+mith18.addItemOutput(<aoa3:power_core>*64);
+mith18.setChance(0.8);
+mith18.addItemOutput(<aoa3:energy_rune>*60);
+mith18.setChance(0.3);
+mith18.addItemOutput(<aoa3:life_rune>*60);
+mith18.setChance(0.2);
+mith18.addItemOutput(<aoa3:kinetic_rune>*60);
+mith18.setChance(0.2);
 mith18.addItemOutput(<contenttweaker:iromine_garnet>);
-mith18.setChance(0.5);
+mith18.setChance(0.25);
 mith18.addItemOutput(<aoa3:silvro_coin>*10);
 mith18.setChance(0.2);
 mith18.addItemOutput(<contenttweaker:blue_matter>*10);
 mith18.setChance(0.5);
+mith18.addItemOutput(<aoa3:rusted_iron_ingot>*64);
+mith18.setChance(0.9);
+mith18.addItemOutput(<aoa3:rusted_iron_ingot>*64);
+mith18.setChance(0.9);
+mith18.addItemOutput(<aoa3:rusted_iron_ingot>*64);
+mith18.setChance(0.9);
+mith18.addItemOutput(<minecraft:tnt>*64);
+mith18.setChance(0.9);
 mith18.addItemOutput(<contenttweaker:tier18_token>);
 mith18.build();
 
@@ -1349,50 +1479,56 @@ mythassiromine.addItemInput(<contenttweaker:recursion_fragment_iromine>);
 mythassiromine.addItemOutput(<contenttweaker:iromine_garnet>*64);
 mythassiromine.build();
 
-val mith19 = RecipeBuilder.newBuilder("mythicaltier19","mythical_resource_miner_tier19",800);
+val mith19 = RecipeBuilder.newBuilder("mythicaltier19","mythical_resource_miner_tier19",400);
 mith19.addEnergyPerTickInput(85000);
-mith19.addFluidInput(<fluid:cosmic_matter>*50);
-mith19.addFluidInput(<fluid:liquid_madness>*50);
-mith19.addItemOutput(<aoa3:mysterium_tokens>*10);
-mith19.setChance(0.1);
+mith19.addFluidInput(<fluid:cosmic_matter>*25);
+mith19.addFluidInput(<fluid:liquid_madness>*25);
+mith19.addItemOutput(<aoa3:mysterium_tokens>*50);
+mith19.setChance(0.9);
 mith19.addItemOutput(<aoa3:fungal_tea>*30);
 mith19.setChance(0.15);
 mith19.addItemOutput(<aoa3:blue_mushroom_outside>*30);
-mith19.setChance(0.05);
+mith19.setChance(0.4);
 mith19.addItemOutput(<aoa3:yellow_mushroom_outside>*30);
-mith19.setChance(0.05);
+mith19.setChance(0.4);
 mith19.addItemOutput(<aoa3:orange_mushroom_outside>*30);
-mith19.setChance(0.05);
+mith19.setChance(0.4);
 mith19.addItemOutput(<aoa3:green_mushroom_outside>*30);
-mith19.setChance(0.05);
+mith19.setChance(0.4);
 mith19.addItemOutput(<aoa3:blue_shroom>*30);
-mith19.setChance(0.05);
+mith19.setChance(0.04);
 mith19.addItemOutput(<aoa3:yellow_shroom>*30);
-mith19.setChance(0.05);
+mith19.setChance(0.4);
 mith19.addItemOutput(<aoa3:orange_shroom>*30);
-mith19.setChance(0.05);
+mith19.setChance(0.4);
 mith19.addItemOutput(<aoa3:green_shroom>*30);
-mith19.setChance(0.05);
+mith19.setChance(0.4);
 mith19.addItemOutput(<aoa3:mushroom_spores>*30);
 mith19.setChance(0.15);
 // mith19.addItemOutput(<aoa3:chakram>*30);
 // mith19.setChance(0.05);
-mith19.addItemOutput(<aoa3:distortion_rune>*10);
-mith19.setChance(0.08);
-mith19.addItemOutput(<aoa3:life_rune>*10);
-mith19.setChance(0.02);
-mith19.addItemOutput(<aoa3:poison_rune>*10);
-mith19.setChance(0.02);
-mith19.addItemOutput(<aoa3:water_rune>*10);
-mith19.setChance(0.02);
+mith19.addItemOutput(<aoa3:distortion_rune>*60);
+mith19.setChance(0.3);
+mith19.addItemOutput(<aoa3:life_rune>*60);
+mith19.setChance(0.2);
+mith19.addItemOutput(<aoa3:poison_rune>*60);
+mith19.setChance(0.2);
+mith19.addItemOutput(<aoa3:water_rune>*60);
+mith19.setChance(0.2);
 mith19.addItemOutput(<aoa3:amphibiyte_lung>*50);
 mith19.setChance(0.5);
 mith19.addItemOutput(<contenttweaker:mysterium_garnet>);
-mith19.setChance(0.5);
+mith19.setChance(0.25);
 mith19.addItemOutput(<aoa3:scream_shield>*48);
 mith19.setChance(0.7);
 mith19.addItemOutput(<contenttweaker:blue_matter>*10);
 mith19.setChance(0.5);
+mith19.addItemOutput(<aoa3:chitin>*64);
+mith19.setChance(0.9);
+mith19.addItemOutput(<mod_lavacow:sharptooth>*64);
+mith19.setChance(0.9);
+mith19.addItemOutput(<thebetweenlands:wight_heart>*32);
+mith19.setChance(0.8);
 mith19.addItemOutput(<contenttweaker:tier19_token>);
 mith19.build();
 
@@ -1404,34 +1540,36 @@ mythassmysterium.addItemInput(<contenttweaker:recursion_fragment_mysterium>);
 mythassmysterium.addItemOutput(<contenttweaker:mysterium_garnet>*64);
 mythassmysterium.build();
 
-val mith20 = RecipeBuilder.newBuilder("mythicaltier20","mythical_resource_miner_tier20",800);
+val mith20 = RecipeBuilder.newBuilder("mythicaltier20","mythical_resource_miner_tier20",400);
 mith20.addEnergyPerTickInput(85000);
-mith20.addFluidInput(<fluid:cosmic_matter>*50);
-mith20.addFluidInput(<fluid:ethereal_fabric>*50);
-mith20.addItemOutput(<aoa3:vox_ponds_tokens>*10);
-mith20.setChance(0.1);
-mith20.addItemOutput(<aoa3:toxic_lump>*30);
-mith20.setChance(0.15);
+mith20.addFluidInput(<fluid:cosmic_matter>*25);
+mith20.addFluidInput(<fluid:ethereal_fabric>*25);
+mith20.addItemOutput(<aoa3:vox_ponds_tokens>*50);
+mith20.setChance(0.9);
+mith20.addItemOutput(<aoa3:toxic_lump>*60);
+mith20.setChance(0.9);
 // mith20.addItemOutput(<aoa3:chakram>*30);
 // mith20.setChance(0.05);
 mith20.addItemOutput(<aoa3:vox_shroom>*30);
-mith20.setChance(0.05);
+mith20.setChance(0.3);
 mith20.addItemOutput(<aoa3:degraded_steel>*30);
-mith20.setChance(0.05);
-mith20.addItemOutput(<aoa3:poison_rune>*10);
-mith20.setChance(0.08);
-mith20.addItemOutput(<aoa3:storm_rune>*10);
-mith20.setChance(0.02);
-mith20.addItemOutput(<aoa3:compass_rune>*10);
-mith20.setChance(0.02);
+mith20.setChance(0.3);
+mith20.addItemOutput(<aoa3:poison_rune>*60);
+mith20.setChance(0.4);
+mith20.addItemOutput(<aoa3:storm_rune>*60);
+mith20.setChance(0.2);
+mith20.addItemOutput(<aoa3:compass_rune>*60);
+mith20.setChance(0.2);
 mith20.addItemOutput(<aoa3:gold_coin>*10);
 mith20.setChance(0.07);
 mith20.addItemOutput(<contenttweaker:deep_dark_matter>*45);
 mith20.setChance(0.9);
 mith20.addItemOutput(<contenttweaker:vox_ponds_garnet>);
-mith20.setChance(0.5);
+mith20.setChance(0.25);
 mith20.addItemOutput(<iceandfire:stymphalian_bird_feather>*16);
 mith20.setChance(0.5);
+mith20.addItemOutput(<aoa3:ghostly_powder>*64);
+mith20.setChance(0.9);
 mith20.addItemOutput(<contenttweaker:blue_matter>*10);
 mith20.setChance(0.5);
 mith20.addItemOutput(<aoa3:carved_rune_travel>*60);
@@ -1445,6 +1583,14 @@ mith20.setChance(0.9);
 mith20.addItemOutput(<aoa3:carved_rune_power>*60);
 mith20.setChance(0.9);
 mith20.addItemOutput(<aoa3:carved_rune_empowering>*60);
+mith20.setChance(0.9);
+mith20.addItemOutput(<mod_lavacow:sharptooth>*64);
+mith20.setChance(0.9);
+mith20.addItemOutput(<mod_lavacow:silky_sludge>*48);
+mith20.setChance(0.9);
+mith20.addItemOutput(<thebetweenlands:items_misc:24>*12);
+mith20.setChance(0.7);
+mith20.addItemOutput(<thebetweenlands:items_misc:26>*48);
 mith20.setChance(0.9);
 mith20.addItemOutput(<contenttweaker:tier20_token>);
 mith20.build();
@@ -1574,8 +1720,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:fine_mineral_dust>
 mods.nuclearcraft.dissolver.addRecipe([
 	<contenttweaker:fine_mineral_dust>, 
 	<fluid:ogerite>*144, 
-	<fluid:primal_ogerite>*144, 
-	0.2, 10.2, 0.5
+	<fluid:primal_ogerite>*144
 ]);
 
 
@@ -1605,8 +1750,9 @@ spatcruc2.build();
 
 mods.nuclearcraft.salt_fission.addRecipe([<fluid:primal_ogerite>*72, <fluid:lymph_of_pixonia>*72, 800.0, 300.0, 3.0]);
 mods.nuclearcraft.salt_fission.addRecipe([<fluid:vital_lymph>*50, <fluid:lymph_of_pixonia>*1000, 800.0, 300.0, 3.0]);
+mods.nuclearcraft.salt_fission.addRecipe([<fluid:gluttonous_lymph>*50, <fluid:lymph_of_pixonia>*1800, 800.0, 300.0, 3.0]);
 
-mods.nuclearcraft.infuser.addRecipe([<materialpart:vibranium:ingot>, <fluid:lymph_of_pixonia>*72, <contenttweaker:ethereal_infusion_stone>, 0.5, 0.5, 1.1]);
+mods.nuclearcraft.infuser.addRecipe([<materialpart:vibranium:ingot>, <fluid:lymph_of_pixonia>*72, <contenttweaker:ethereal_infusion_stone>]);
 
 recipes.addShaped(<contenttweaker:pixonia_infusion_key>*2,
 [[<aoa3:glistening_power_stone>],
@@ -1649,6 +1795,7 @@ hotvibraniumcrucible1.addItemInput(<materialpart:vibranium:ingot>);
 hotvibraniumcrucible1.addItemInput(<contenttweaker:arc_residue>*3);
 hotvibraniumcrucible1.addItemInput(<iceandfire:dragonsteel_ice_ingot>);
 hotvibraniumcrucible1.addItemInput(<iceandfire:dragonsteel_fire_ingot>);
+hotvibraniumcrucible1.addItemInput(<minecraft:iron_ingot>*6);
 hotvibraniumcrucible1.addItemOutput(<materialpart:hot_vibranium_alloy:ingot>*12);
 hotvibraniumcrucible1.build();
 
@@ -1664,22 +1811,22 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:complex_crank_shaf
 mods.techreborn.assemblingMachine.addRecipe(<contenttweaker:high_strength_transmission>, <contenttweaker:complex_gearbox>, <contenttweaker:complex_crank_shaft>, 60, 512);
 
 
-val mith21 = RecipeBuilder.newBuilder("mythicaltier21","mythical_resource_miner_tier23",800);
+val mith21 = RecipeBuilder.newBuilder("mythicaltier21","mythical_resource_miner_tier23",400);
 mith21.addEnergyPerTickInput(100000);
-mith21.addFluidInput(<fluid:galactic_matter>*50);
-mith21.addFluidInput(<fluid:lymph_of_pixonia>*12);
-mith21.addItemOutput(<aoa3:borean_tokens>*10);
-mith21.setChance(0.1);
+mith21.addFluidInput(<fluid:galactic_matter>*25);
+mith21.addFluidInput(<fluid:lymph_of_pixonia>*6);
+mith21.addItemOutput(<aoa3:borean_tokens>*50);
+mith21.setChance(0.9);
 mith21.addItemOutput(<aoa3:coral_stone>*30);
-mith21.setChance(0.05);
+mith21.setChance(0.5);
 mith21.addItemOutput(<aoa3:bubble_berries>*30);
 mith21.setChance(0.15);
-mith21.addItemOutput(<aoa3:water_rune>*10);
+mith21.addItemOutput(<aoa3:water_rune>*60);
 mith21.setChance(0.1);
-mith21.addItemOutput(<aoa3:storm_rune>*10);
-mith21.setChance(0.03);
-mith21.addItemOutput(<aoa3:kinetic_rune>*10);
-mith21.setChance(0.03);
+mith21.addItemOutput(<aoa3:storm_rune>*60);
+mith21.setChance(0.3);
+mith21.addItemOutput(<aoa3:kinetic_rune>*60);
+mith21.setChance(0.3);
 mith21.addItemOutput(<aoa3:gold_coin>*10);
 mith21.setChance(0.1);
 mith21.addItemOutput(<aoa3:magic_repair_dust>);
@@ -1701,11 +1848,21 @@ mith21.setChance(0.15);
 mith21.addItemOutput(<aoa3:hydro_stone>*50);
 mith21.setChance(0.15);
 mith21.addItemOutput(<contenttweaker:borean_garnet>);
-mith21.setChance(0.5);
+mith21.setChance(0.25);
 mith21.addItemOutput(<contenttweaker:nethengeic_gem>*64);
 mith21.setChance(0.9);
 mith21.addItemOutput(<contenttweaker:blue_matter>*20);
 mith21.setChance(0.6);
+mith21.addItemOutput(<abyssalcraft:ethaxiumingot>*32);
+mith21.setChance(0.7);
+mith21.addItemOutput(<aoa3:void_scales>*54);
+mith21.setChance(0.8);
+mith21.addItemOutput(<aoa3:chitin>*64);
+mith21.setChance(0.8);
+mith21.addItemOutput(<aoa3:armour_plating>*64);
+mith21.setChance(0.8);
+mith21.addItemOutput(<mod_lavacow:silky_sludge>*64);
+mith21.setChance(0.9);
 mith21.addItemOutput(<contenttweaker:tier21_token>);
 mith21.build();
 
@@ -1717,56 +1874,58 @@ mythassborean.addItemInput(<contenttweaker:recursion_fragment_borean>);
 mythassborean.addItemOutput(<contenttweaker:borean_garnet>*64);
 mythassborean.build();
 
-val mith22 = RecipeBuilder.newBuilder("mythicaltier22","mythical_resource_miner_tier21",800);
+val mith22 = RecipeBuilder.newBuilder("mythicaltier22","mythical_resource_miner_tier21",400);
 mith22.addEnergyPerTickInput(100000);
-mith22.addFluidInput(<fluid:galactic_matter>*50);
-mith22.addFluidInput(<fluid:lymph_of_pixonia>*12);
-mith22.addItemOutput(<aoa3:runandor_tokens>*10);
-mith22.setChance(0.1);
-mith22.addItemOutput(<aoa3:runic_energy>*30);
-mith22.setChance(0.15);
+mith22.addFluidInput(<fluid:galactic_matter>*25);
+mith22.addFluidInput(<fluid:lymph_of_pixonia>*6);
+mith22.addItemOutput(<aoa3:runandor_tokens>*50);
+mith22.setChance(0.9);
+mith22.addItemOutput(<aoa3:runic_energy>*64);
+mith22.setChance(0.9);
 mith22.addItemOutput(<aoa3:fragmented_anima_stone>*64);
 mith22.setChance(0.5);
-mith22.addItemOutput(<aoa3:water_rune>*10);
-mith22.setChance(0.08);
-mith22.addItemOutput(<aoa3:storm_rune>*10);
-mith22.setChance(0.08);
-mith22.addItemOutput(<aoa3:kinetic_rune>*10);
-mith22.setChance(0.08);
+mith22.addItemOutput(<aoa3:water_rune>*60);
+mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:storm_rune>*60);
+mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:kinetic_rune>*60);
+mith22.setChance(0.5);
 mith22.addItemOutput(<aoa3:gold_coin>*10);
 mith22.setChance(0.1);
 mith22.addItemOutput(<aoa3:magic_repair_dust>*10);
 mith22.setChance(0.1);
-mith22.addItemOutput(<aoa3:compass_rune>*10);
-mith22.setChance(0.08);
-mith22.addItemOutput(<aoa3:distortion_rune>*10);
-mith22.setChance(0.08);
-mith22.addItemOutput(<aoa3:energy_rune>*10);
-mith22.setChance(0.08);
-mith22.addItemOutput(<aoa3:fire_rune>*10);
-mith22.setChance(0.08);
-mith22.addItemOutput(<aoa3:life_rune>*10);
-mith22.setChance(0.08);
-mith22.addItemOutput(<aoa3:lunar_rune>*10);
-mith22.setChance(0.08);
-mith22.addItemOutput(<aoa3:poison_rune>*10);
-mith22.setChance(0.08);
-mith22.addItemOutput(<aoa3:power_rune>*10);
-mith22.setChance(0.08);
-mith22.addItemOutput(<aoa3:strike_rune>*10);
-mith22.setChance(0.08);
-mith22.addItemOutput(<aoa3:wind_rune>*10);
-mith22.setChance(0.08);
-mith22.addItemOutput(<aoa3:mega_rune_fragment_blue>*20);
-mith22.setChance(0.05);
-mith22.addItemOutput(<aoa3:mega_rune_fragment_yellow>*20);
-mith22.setChance(0.05);
-mith22.addItemOutput(<aoa3:mega_rune_fragment_green>*20);
-mith22.setChance(0.05);
-mith22.addItemOutput(<aoa3:mega_rune_fragment_red>*20);
-mith22.setChance(0.05);
-mith22.addItemOutput(<contenttweaker:runandor_garnet>);
+mith22.addItemOutput(<aoa3:compass_rune>*60);
 mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:distortion_rune>*60);
+mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:energy_rune>*60);
+mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:fire_rune>*60);
+mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:life_rune>*60);
+mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:lunar_rune>*60);
+mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:poison_rune>*60);
+mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:power_rune>*60);
+mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:strike_rune>*60);
+mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:wind_rune>*60);
+mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:mega_rune_fragment_blue>*20);
+mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:mega_rune_fragment_yellow>*20);
+mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:mega_rune_fragment_green>*20);
+mith22.setChance(0.5);
+mith22.addItemOutput(<aoa3:mega_rune_fragment_red>*20);
+mith22.setChance(0.5);
+mith22.addItemOutput(<contenttweaker:primordial_sliver>*48);
+mith22.setChance(0.8);
+mith22.addItemOutput(<contenttweaker:runandor_garnet>);
+mith22.setChance(0.25);
 mith22.addItemOutput(<contenttweaker:blue_matter>*20);
 mith22.setChance(0.6);
 mith22.addItemOutput(<contenttweaker:tier22_token>);
@@ -1780,32 +1939,32 @@ mythassrunandor.addItemInput(<contenttweaker:recursion_fragment_runandor>);
 mythassrunandor.addItemOutput(<contenttweaker:runandor_garnet>*64);
 mythassrunandor.build();
 
-val mith23 = RecipeBuilder.newBuilder("mythicaltier23","mythical_resource_miner_tier22",800);
+val mith23 = RecipeBuilder.newBuilder("mythicaltier23","mythical_resource_miner_tier22",400);
 mith23.addEnergyPerTickInput(100000);
-mith23.addFluidInput(<fluid:galactic_matter>*50);
-mith23.addFluidInput(<fluid:lymph_of_pixonia>*12);
-mith23.addItemOutput(<aoa3:lunar_tokens>*10);
-mith23.setChance(0.1);
+mith23.addFluidInput(<fluid:galactic_matter>*25);
+mith23.addFluidInput(<fluid:lymph_of_pixonia>*6);
+mith23.addItemOutput(<aoa3:lunar_tokens>*50);
+mith23.setChance(0.9);
 mith23.addItemOutput(<aoa3:orbulon>*30);
 mith23.setChance(0.15);
 mith23.addItemOutput(<aoa3:lunarade>*30);
 mith23.setChance(0.15);
-mith23.addItemOutput(<aoa3:lunar_rune>*10);
-mith23.setChance(0.15);
-mith23.addItemOutput(<aoa3:strike_rune>*10);
-mith23.setChance(0.08);
+mith23.addItemOutput(<aoa3:lunar_rune>*60);
+mith23.setChance(0.4);
+mith23.addItemOutput(<aoa3:strike_rune>*60);
+mith23.setChance(0.3);
 mith23.addItemOutput(<aoa3:lunaver_coin>*10);
-mith23.setChance(0.08);
+mith23.setChance(0.2);
 mith23.addItemOutput(<aoa3:gold_coin>*10);
 mith23.setChance(0.1);
 mith23.addItemOutput(<aoa3:magic_repair_dust>*10);
 mith23.setChance(0.1);
 mith23.addItemOutput(<aoa3:lunar_ingot>*40);
-mith23.setChance(0.15);
-mith23.addItemOutput(<aoa3:luntar>*20);
-mith23.setChance(0.05);
-mith23.addItemOutput(<aoa3:lunalip>*20);
-mith23.setChance(0.05);
+mith23.setChance(0.75);
+mith23.addItemOutput(<aoa3:luntar>*30);
+mith23.setChance(0.5);
+mith23.addItemOutput(<aoa3:lunalip>*30);
+mith23.setChance(0.5);
 mith23.addItemOutput(<aoa3:luna_globe>*30);
 mith23.setChance(0.1);
 mith23.addItemOutput(<divinerpg:ender_stone>*30);
@@ -1815,7 +1974,11 @@ mith23.setChance(0.9);
 mith23.addItemOutput(<actuallyadditions:item_solidified_experience>*48);
 mith23.setChance(0.1);
 mith23.addItemOutput(<contenttweaker:lunalus_garnet>);
-mith23.setChance(0.5);
+mith23.setChance(0.25);
+mith23.addItemOutput(<aoa3:ghostly_powder>*64);
+mith23.setChance(0.9);
+mith23.addItemOutput(<aoa3:ghostly_powder>*64);
+mith23.setChance(0.9);
 mith23.addItemOutput(<contenttweaker:blue_matter>*20);
 mith23.setChance(0.6);
 mith23.addItemOutput(<aoa3:carved_rune_travel>*60);
@@ -2023,10 +2186,10 @@ recipes.addShapeless(<contenttweaker:unidentified_gem>*2,
 [<aoa3:warlock_gem>,
 <contenttweaker:unidentified_gem>]);
 
-mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:imperfect_neutronium_nugget>, <fluid:fluix_plasma>*1000, <fluid:fluix_plasma>*1100, 0.9, 0.2, 0.0]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:imperfect_neutronium_nugget>, <fluid:fluix_plasma>*1000, <fluid:fluix_plasma>*1100]);
 
 
-mods.nuclearcraft.infuser.addRecipe([<contenttweaker:unidentified_gem>, <fluid:fluix_plasma>*100, <contenttweaker:reactive_fluix>, 0.5, 0.6, 0.0]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:unidentified_gem>, <fluid:fluix_plasma>*100, <contenttweaker:reactive_fluix>]);
 
 
 
@@ -2062,12 +2225,11 @@ spatcruc5.addItemInput(<draconicevolution:chaos_shard:3>);
 spatcruc5.addFluidOutput(<fluid:chaotic_matter>*8000);
 spatcruc5.build();
 
-mods.techreborn.rollingMachine.addShaped(<contenttweaker:matter_cluster>, 
-[[<bloodmagic:slate:4>,<materialpart:strontium:ingot>,<bloodmagic:slate:4>],
-[<materialpart:primal_ogerite:ingot>,<materialpart:caesium:ingot>,<materialpart:primal_ogerite:ingot>],
-[<thaumadditions:mithminite_plate>,<materialpart:rubidium:ingot>,<thaumadditions:mithminite_plate>]]);
+//mods.techreborn.rollingMachine.addShaped(<contenttweaker:matter_cluster>, 
+//[[<bloodmagic:slate:4>,<materialpart:strontium:ingot>,<bloodmagic:slate:4>],
+//[<materialpart:primal_ogerite:ingot>,<materialpart:caesium:ingot>,<materialpart:primal_ogerite:ingot>],
+//[<thaumadditions:mithminite_plate>,<materialpart:rubidium:ingot>,<thaumadditions:mithminite_plate>]]);
 
-mods.botania.ElvenTrade.addRecipe([<contenttweaker:lothlorien_dust>], [<contenttweaker:manastone_dust>]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:dream_cluster>, 
 50000, 
@@ -2077,6 +2239,65 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:dream_cluste
 <bloodmagic:demon_crystal:1>, <bloodmagic:demon_crystal:2>, 
 <bloodmagic:demon_crystal:3>, <bloodmagic:demon_crystal:4>, 
 <thaumicaugmentation:material:5>, <astralsorcery:itemusabledust:1>]);
+
+mods.techreborn.rollingMachine.addShaped(<contenttweaker:matter_cluster>, 
+[[<bloodmagic:slate:4>,<materialpart:strontium:ingot>,<bloodmagic:slate:4>],
+[<materialpart:primal_ogerite:ingot>,<materialpart:caesium:ingot>,<materialpart:primal_ogerite:ingot>],
+[<thaumadditions:mithminite_plate>,<materialpart:rubidium:ingot>,<thaumadditions:mithminite_plate>]]);
+
+mods.techreborn.rollingMachine.addShaped(<contenttweaker:matter_agglomeration>, 
+[[<ore:nuggetShyrestone>,<contenttweaker:matter_cluster>,<ore:nuggetShyrestone>],
+[<contenttweaker:matter_cluster>,<contenttweaker:infinity_fragment>,<contenttweaker:matter_cluster>],
+[<ore:nuggetShyrestone>,<contenttweaker:matter_cluster>,<ore:nuggetShyrestone>]]);
+
+mods.techreborn.rollingMachine.addShaped(<contenttweaker:matter_inflorescence>, 
+[[<ore:blockShyrestone>,<contenttweaker:matter_agglomeration>,<ore:blockShyrestone>],
+[<contenttweaker:matter_agglomeration>,<avaritiaitem:self_actualizing_stone>,<contenttweaker:matter_agglomeration>],
+[<ore:blockShyrestone>,<contenttweaker:matter_agglomeration>,<ore:blockShyrestone>]]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:dream_cluster>*4, 
+50000, 
+<contenttweaker:matter_agglomeration>, 
+[<aoa3:ghastly_block>, <aoa3:ghoulish_block>, 
+<contenttweaker:lothlorien_dust>, <contenttweaker:lothlorien_dust>,
+<contenttweaker:lothlorien_dust>, <contenttweaker:lothlorien_dust>,
+<bloodmagic:demon_crystal:0>, <bloodmagic:demon_crystal:0>, 
+<bloodmagic:demon_crystal:1>, <bloodmagic:demon_crystal:1>, 
+<bloodmagic:demon_crystal:2>, <bloodmagic:demon_crystal:2>, 
+<bloodmagic:demon_crystal:3>, <bloodmagic:demon_crystal:3>, 
+<bloodmagic:demon_crystal:4>, <bloodmagic:demon_crystal:4>, 
+<thaumicaugmentation:material:5>, <thaumicaugmentation:material:5>,
+<astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>,
+<astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:dream_cluster>*16, 
+50000, 
+<contenttweaker:matter_inflorescence>, 
+[<aoa3:ghastly_block>, <aoa3:ghoulish_block>, 
+<aoa3:ghastly_block>, <aoa3:ghoulish_block>, 
+<aoa3:ghastly_block>, <aoa3:ghoulish_block>, 
+<aoa3:ghastly_block>, <aoa3:ghoulish_block>, 
+<contenttweaker:lothlorien_silt>, <contenttweaker:lothlorien_silt>,
+<bloodmagic:demon_crystal:0>, <bloodmagic:demon_crystal:0>, 
+<bloodmagic:demon_crystal:0>, <bloodmagic:demon_crystal:0>, 
+<bloodmagic:demon_crystal:1>, <bloodmagic:demon_crystal:1>, 
+<bloodmagic:demon_crystal:1>, <bloodmagic:demon_crystal:1>, 
+<bloodmagic:demon_crystal:2>, <bloodmagic:demon_crystal:2>, 
+<bloodmagic:demon_crystal:2>, <bloodmagic:demon_crystal:2>, 
+<bloodmagic:demon_crystal:3>, <bloodmagic:demon_crystal:3>, 
+<bloodmagic:demon_crystal:3>, <bloodmagic:demon_crystal:3>, 
+<bloodmagic:demon_crystal:4>, <bloodmagic:demon_crystal:4>, 
+<bloodmagic:demon_crystal:4>, <bloodmagic:demon_crystal:4>, 
+<thaumicaugmentation:material:5>, <thaumicaugmentation:material:5>,
+<thaumicaugmentation:material:5>, <thaumicaugmentation:material:5>,
+<thaumicaugmentation:material:5>, <thaumicaugmentation:material:5>,
+<thaumicaugmentation:material:5>, <thaumicaugmentation:material:5>,
+<astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>,
+<astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>,
+<astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>,
+<astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>]);
+
+
 
 mods.appliedenergistics2.Inscriber.addRecipe(<contenttweaker:doge_coin>, <materialpart:vibranium_alloy:ingot>, true, <aoa3:bejewelled_lotto_banner>);
 
@@ -2212,32 +2433,34 @@ mods.nuclearcraft.dissolver.addRecipe([<forestry:bee_combs:8>, <fluid:chaos>*72,
 mods.nuclearcraft.dissolver.addRecipe([<magicbees:beecomb:9>, <fluid:chaos>*72, <fluid:chaotic_honey_4>*144]);
 
 
-val mith24 = RecipeBuilder.newBuilder("mythicaltier24","mythical_resource_miner_tier24",800);
+val mith24 = RecipeBuilder.newBuilder("mythicaltier24","mythical_resource_miner_tier24",400);
 mith24.addEnergyPerTickInput(200000);
-mith24.addFluidInput(<fluid:chaotic_matter>*50);
-mith24.addFluidInput(<fluid:chaotic_honey_1>*24);
-mith24.addItemOutput(<aoa3:life_rune>*10);
-mith24.setChance(0.1);
-mith24.addItemOutput(<aoa3:water_rune>*10);
-mith24.setChance(0.1);
-mith24.addItemOutput(<aoa3:energy_rune>*10);
-mith24.setChance(0.1);
-mith24.addItemOutput(<aoa3:power_rune>*10);
-mith24.setChance(0.1);
-mith24.addItemOutput(<aoa3:fire_rune>*10);
-mith24.setChance(0.1);
+mith24.addFluidInput(<fluid:chaotic_matter>*25);
+mith24.addFluidInput(<fluid:chaotic_honey_1>*12);
+mith24.addItemOutput(<aoa3:life_rune>*60);
+mith24.setChance(0.6);
+mith24.addItemOutput(<aoa3:water_rune>*60);
+mith24.setChance(0.6);
+mith24.addItemOutput(<aoa3:energy_rune>*60);
+mith24.setChance(0.6);
+mith24.addItemOutput(<aoa3:power_rune>*60);
+mith24.setChance(0.6);
+mith24.addItemOutput(<aoa3:fire_rune>*60);
+mith24.setChance(0.6);
 mith24.addItemOutput(<aoa3:gold_coin>*10);
-mith24.setChance(0.1);
+mith24.setChance(0.6);
 mith24.addItemOutput(<aoa3:magic_repair_dust>);
-mith24.setChance(0.1);
-mith24.addItemOutput(<draconicevolution:chaos_shard:3>);
-mith24.setChance(0.05);
+mith24.setChance(0.6);
+mith24.addItemOutput(<draconicevolution:chaos_shard:3>*5);
+mith24.setChance(0.35);
 mith24.addItemOutput(<aoa3:fragmented_anima_stone>*64);
 mith24.setChance(0.9);
 mith24.addItemOutput(<contenttweaker:ancient_cavern_garnet>);
-mith24.setChance(0.5);
+mith24.setChance(0.25);
 mith24.addItemOutput(<contenttweaker:blue_matter>*40);
 mith24.setChance(0.7);
+mith24.addItemOutput(<xreliquary:mob_ingredient:11>*64);
+mith24.setChance(0.9);
 mith24.addItemOutput(<aoa3:carved_rune_travel>*60);
 mith24.setChance(0.95);
 mith24.addItemOutput(<aoa3:carved_rune_reality>*60);
@@ -2250,6 +2473,24 @@ mith24.addItemOutput(<aoa3:carved_rune_power>*60);
 mith24.setChance(0.95);
 mith24.addItemOutput(<aoa3:carved_rune_empowering>*60);
 mith24.setChance(0.95);
+mith24.addItemOutput(<aoa3:ghostly_powder>*48);
+mith24.setChance(0.95);
+mith24.addItemOutput(<aoa3:ghostly_powder>*56);
+mith24.setChance(0.8);
+mith24.addItemOutput(<minecraft:gunpowder>*64);
+mith24.setChance(0.8);
+mith24.addItemOutput(<aoa3:chitin>*64);
+mith24.setChance(0.9);
+mith24.addItemOutput(<aoa3:armour_plating>*64);
+mith24.setChance(0.9);
+mith24.addItemOutput(<aoa3:raw_furlion_chop>*64);
+mith24.setChance(0.99);
+mith24.addItemOutput(<aoa3:raw_chimera_chop>*64);
+mith24.setChance(0.99);
+mith24.addItemOutput(<aoa3:raw_charger_shank>*64);
+mith24.setChance(0.99);
+mith24.addItemOutput(<aoa3:raw_ursa_meat>*64);
+mith24.setChance(0.99);
 mith24.addItemOutput(<contenttweaker:tier24_token>);
 mith24.build();
 
@@ -2261,26 +2502,26 @@ mythassancientcav.addItemInput(<contenttweaker:recursion_fragment_cavern>);
 mythassancientcav.addItemOutput(<contenttweaker:ancient_cavern_garnet>*64);
 mythassancientcav.build();
 
-val mith25 = RecipeBuilder.newBuilder("mythicaltier25","mythical_resource_miner_tier25",800);
+val mith25 = RecipeBuilder.newBuilder("mythicaltier25","mythical_resource_miner_tier25",400);
 mith25.addEnergyPerTickInput(200000);
-mith25.addFluidInput(<fluid:chaotic_matter>*50);
-mith25.addFluidInput(<fluid:chaotic_honey_2>*24);
+mith25.addFluidInput(<fluid:chaotic_matter>*25);
+mith25.addFluidInput(<fluid:chaotic_honey_2>*12);
 mith25.addItemOutput(<aoa3:gold_coin>*32);
-mith25.setChance(0.1);
-mith25.addItemOutput(<aoa3:silver_coin>*64);
-mith25.setChance(0.1);
-mith25.addItemOutput(<aoa3:copper_coin>*64);
 mith25.setChance(0.5);
+mith25.addItemOutput(<aoa3:silver_coin>*64);
+mith25.setChance(0.6);
+mith25.addItemOutput(<aoa3:copper_coin>*64);
+mith25.setChance(0.7);
 mith25.addItemOutput(<aoa3:magic_repair_dust>);
 mith25.setChance(0.1);
-mith25.addItemOutput(<draconicevolution:chaos_shard:3>);
-mith25.setChance(0.05);
+mith25.addItemOutput(<draconicevolution:chaos_shard:3>*5);
+mith25.setChance(0.35);
 mith25.addItemOutput(<contenttweaker:immortallis_garnet>);
-mith25.setChance(0.5);
+mith25.setChance(0.25);
 mith25.addItemOutput(<aoa3:fragmented_anima_stone>*64);
 mith25.setChance(0.9);
-mith25.addItemOutput(<aoa3:dungeon_tokens>*10);
-mith25.setChance(0.05);
+mith25.addItemOutput(<aoa3:dungeon_tokens>*50);
+mith25.setChance(0.9);
 mith25.addItemOutput(<contenttweaker:blue_matter>*40);
 mith25.setChance(0.7);
 mith25.addItemOutput(<aoa3:carved_rune_travel>*60);
@@ -2295,6 +2536,12 @@ mith25.addItemOutput(<aoa3:carved_rune_power>*60);
 mith25.setChance(0.95);
 mith25.addItemOutput(<aoa3:carved_rune_empowering>*60);
 mith25.setChance(0.95);
+mith25.addItemOutput(<contenttweaker:discolored_druse>*40);
+mith25.setChance(0.7);
+mith25.addItemOutput(<xreliquary:mob_ingredient:11>*64);
+mith25.setChance(0.8);
+mith25.addItemOutput(<aoa3:rusted_iron_ingot>*64);
+mith25.setChance(0.8);
 mith25.addItemOutput(<contenttweaker:tier25_token>);
 mith25.build();
 
@@ -2306,40 +2553,54 @@ mythassimmortallis.addItemInput(<contenttweaker:recursion_fragment_immortallis>)
 mythassimmortallis.addItemOutput(<contenttweaker:immortallis_garnet>*64);
 mythassimmortallis.build();
 
-val mith26 = RecipeBuilder.newBuilder("mythicaltier26","mythical_resource_miner_tier26",800);
+val mith26 = RecipeBuilder.newBuilder("mythicaltier26","mythical_resource_miner_tier26",400);
 mith26.addEnergyPerTickInput(200000);
-mith26.addFluidInput(<fluid:chaotic_matter>*50);
-mith26.addFluidInput(<fluid:chaotic_honey_3>*24);
-mith26.addItemOutput(<aoa3:greckon_tokens>*10);
-mith26.setChance(0.05);
+mith26.addFluidInput(<fluid:chaotic_matter>*25);
+mith26.addFluidInput(<fluid:chaotic_honey_3>*12);
+mith26.addItemOutput(<aoa3:greckon_tokens>*50);
+mith26.setChance(0.9);
 mith26.addItemOutput(<aoa3:haunted_flower>*30);
-mith26.setChance(0.05);
+mith26.setChance(0.45);
 mith26.addItemOutput(<aoa3:ghoulasm>*10);
 mith26.setChance(0.15);
-mith26.addItemOutput(<aoa3:distortion_rune>*10);
+mith26.addItemOutput(<aoa3:distortion_rune>*60);
 mith26.setChance(0.1);
-mith26.addItemOutput(<aoa3:strike_rune>*10);
+mith26.addItemOutput(<aoa3:strike_rune>*60);
 mith26.setChance(0.1);
 mith26.addItemOutput(<aoa3:copper_coin>*64);
-mith26.setChance(0.5);
+mith26.setChance(0.8);
+mith26.addItemOutput(<aoa3:copper_coin>*64);
+mith26.setChance(0.8);
 mith26.addItemOutput(<aoa3:lunar_ingot>*44);
+mith26.setChance(0.6);
+mith26.addItemOutput(<aoa3:lunar_ingot>*56);
 mith26.setChance(0.5);
-mith26.addItemOutput(<aoa3:silver_coin>*16);
+mith26.addItemOutput(<aoa3:lunar_ingot>*64);
+mith26.setChance(0.3);
+mith26.addItemOutput(<aoa3:silver_coin>*48);
 mith26.setChance(0.8);
 mith26.addItemOutput(<aoa3:fragmented_anima_stone>*64);
 mith26.setChance(0.9);
 mith26.addItemOutput(<aoa3:magic_repair_dust>);
 mith26.setChance(0.1);
-mith26.addItemOutput(<draconicevolution:chaos_shard:3>);
-mith26.setChance(0.05);
+mith26.addItemOutput(<draconicevolution:chaos_shard:3>*5);
+mith26.setChance(0.35);
 mith26.addItemOutput(<divinerpg:fury_fire>*60);
 mith26.setChance(0.8);
 mith26.addItemOutput(<contenttweaker:nethengeic_gem>*64);
 mith26.setChance(0.95);
 mith26.addItemOutput(<contenttweaker:greckon_garnet>);
-mith26.setChance(0.5);
+mith26.setChance(0.25);
 mith26.addItemOutput(<contenttweaker:blue_matter>*40);
 mith26.setChance(0.7);
+mith26.addItemOutput(<abyssalcraft:ethaxiumingot>*48);
+mith26.setChance(0.9);
+mith26.addItemOutput(<abyssalcraft:ethaxiumingot>*56);
+mith26.setChance(0.6);
+mith26.addItemOutput(<mod_lavacow:undyingheart>*16);
+mith26.setChance(0.9);
+mith26.addItemOutput(<mod_lavacow:moltenbeef>*48);
+mith26.setChance(0.9);
 mith26.addItemOutput(<contenttweaker:tier26_token>);
 mith26.build();
 
@@ -2351,33 +2612,57 @@ mythassgreckon.addItemInput(<contenttweaker:recursion_fragment_greckon>);
 mythassgreckon.addItemOutput(<contenttweaker:greckon_garnet>*64);
 mythassgreckon.build();
 
-val mith27 = RecipeBuilder.newBuilder("mythicaltier27","mythical_resource_miner_tier27",800);
+val mith27 = RecipeBuilder.newBuilder("mythicaltier27","mythical_resource_miner_tier27",400);
 mith27.addEnergyPerTickInput(200000);
-mith27.addFluidInput(<fluid:chaotic_matter>*50);
-mith27.addFluidInput(<fluid:chaotic_honey_4>*24);
-mith27.addItemOutput(<aoa3:dustopia_tokens>*10);
-mith27.setChance(0.05);
+mith27.addFluidInput(<fluid:chaotic_matter>*25);
+mith27.addFluidInput(<fluid:chaotic_honey_4>*12);
+mith27.addItemOutput(<aoa3:dustopia_tokens>*50);
+mith27.setChance(0.9);
 mith27.addItemOutput(<aoa3:dawn_bush>*40);
-mith27.setChance(0.05);
-mith27.addItemOutput(<aoa3:life_rune>*10);
+mith27.setChance(0.3);
+mith27.addItemOutput(<aoa3:life_rune>*60);
 mith27.setChance(0.5);
-mith27.addItemOutput(<aoa3:gold_coin>*8);
+mith27.addItemOutput(<aoa3:gold_coin>*32);
 mith27.setChance(0.7);
-mith27.addItemOutput(<aoa3:silver_coin>*16);
+mith27.addItemOutput(<aoa3:silver_coin>*64);
+mith27.setChance(0.8);
+mith27.addItemOutput(<aoa3:copper_coin>*64);
+mith27.setChance(0.8);
+mith27.addItemOutput(<aoa3:copper_coin>*64);
 mith27.setChance(0.8);
 mith27.addItemOutput(<aoa3:magic_repair_dust>*10);
 mith27.setChance(0.1);
 mith27.addItemOutput(<aoa3:fragmented_anima_stone>*64);
 mith27.setChance(0.9);
-mith27.addItemOutput(<draconicevolution:chaos_shard:3>);
-mith27.setChance(0.05);
+mith27.addItemOutput(<draconicevolution:chaos_shard:3>*5);
+mith27.setChance(0.35);
 mith27.addItemOutput(<contenttweaker:deep_dark_matter>*64);
 mith27.setChance(0.95);
 mith27.addItemOutput(<contenttweaker:dustopia_garnet>);
-mith27.setChance(0.5);
-mith27.addItemOutput(<contenttweaker:dense_redstone>*128);
+mith27.setChance(0.25);
+mith27.addItemOutput(<contenttweaker:dense_redstone>*64);
+mith27.setChance(0.9);
+mith27.addItemOutput(<contenttweaker:dense_redstone>*64);
+mith27.setChance(0.9);
+mith27.addItemOutput(<contenttweaker:dense_redstone>*64);
+mith27.setChance(0.9);
+mith27.addItemOutput(<xreliquary:mob_ingredient:0>*64);
+mith27.setChance(0.9);
+mith27.addItemOutput(<minecraft:bone>*64);
 mith27.setChance(0.9);
 mith27.addItemOutput(<contenttweaker:blue_matter>*40);
+mith27.setChance(0.7);
+mith27.addItemOutput(<abyssalcraft:ethaxiumingot>*32);
+mith27.setChance(0.9);
+mith27.addItemOutput(<thebetweenlands:items_misc:24>*16);
+mith27.setChance(0.9);
+mith27.addItemOutput(<thebetweenlands:items_misc:26>*64);
+mith27.setChance(0.95);
+mith27.addItemOutput(<thebetweenlands:wight_heart>*32);
+mith27.setChance(0.9);
+mith27.addItemOutput(<contenttweaker:primordial_sliver>*32);
+mith27.setChance(0.8);
+mith27.addItemOutput(<contenttweaker:primordial_sliver>*48);
 mith27.setChance(0.7);
 mith27.addItemOutput(<contenttweaker:tier27_token>);
 mith27.build();
@@ -2400,59 +2685,61 @@ spatcruc6.addItemInput(<contenttweaker:unidentified_ingot>);
 spatcruc6.addFluidOutput(<fluid:nightmarish_matter>*2000);
 spatcruc6.build();
 
-val mith28 = RecipeBuilder.newBuilder("mythicaltier28","mythical_resource_miner_tier28",800);
+val mith28 = RecipeBuilder.newBuilder("mythicaltier28","mythical_resource_miner_tier28",400);
 mith28.addEnergyPerTickInput(200000);
-mith28.addFluidInput(<fluid:nightmarish_matter>*50);
-mith28.addItemOutput(<divinerpg:teaker_lump>*5);
+mith28.addFluidInput(<fluid:nightmarish_matter>*25);
+mith28.addItemOutput(<divinerpg:teaker_lump>*64);
 mith28.setChance(1.0);
-mith28.addItemOutput(<divinerpg:amthirmis_lump>*5);
+mith28.addItemOutput(<divinerpg:amthirmis_lump>*64);
+mith28.setChance(0.9);
+mith28.addItemOutput(<divinerpg:darven_lump>*64);
+mith28.setChance(0.8);
+mith28.addItemOutput(<divinerpg:cermile_lump>*64);
+mith28.setChance(0.7);
+mith28.addItemOutput(<divinerpg:pardimal_lump>*64);
+mith28.setChance(0.65);
+mith28.addItemOutput(<divinerpg:quadrotic_lump>*64);
+mith28.setChance(0.6);
+mith28.addItemOutput(<divinerpg:karos_lump>*64);
+mith28.setChance(0.55);
+mith28.addItemOutput(<divinerpg:heliosis_lump>*64);
 mith28.setChance(0.5);
-mith28.addItemOutput(<divinerpg:darven_lump>*5);
+mith28.addItemOutput(<divinerpg:arksiane_lump>*64);
 mith28.setChance(0.3);
-mith28.addItemOutput(<divinerpg:cermile_lump>*5);
-mith28.setChance(0.2);
-mith28.addItemOutput(<divinerpg:pardimal_lump>*5);
-mith28.setChance(0.1);
-mith28.addItemOutput(<divinerpg:quadrotic_lump>*5);
-mith28.setChance(0.07);
-mith28.addItemOutput(<divinerpg:karos_lump>*5);
-mith28.setChance(0.06);
-mith28.addItemOutput(<divinerpg:heliosis_lump>*5);
-mith28.setChance(0.05);
-mith28.addItemOutput(<divinerpg:arksiane_lump>*5);
-mith28.setChance(0.03);
 mith28.addItemOutput(<aoa3:fragmented_anima_stone>*64);
 mith28.setChance(0.9);
 mith28.addItemOutput(<contenttweaker:vethea_garnet>);
-mith28.setChance(0.5);
+mith28.setChance(0.25);
 mith28.addItemOutput(<divinerpg:dream_melon>*10);
-mith28.setChance(0.2);
+mith28.setChance(0.6);
 mith28.addItemOutput(<divinerpg:dream_pie>*10);
-mith28.setChance(0.2);
+mith28.setChance(0.6);
 mith28.addItemOutput(<divinerpg:dream_cake>*10);
-mith28.setChance(0.2);
+mith28.setChance(0.6);
 mith28.addItemOutput(<divinerpg:dream_carrot>*10);
-mith28.setChance(0.2);
-mith28.addItemOutput(<divinerpg:honeychunk>*10);
-mith28.setChance(0.2);
-mith28.addItemOutput(<divinerpg:honeysuckle>*10);
-mith28.setChance(0.2);
+mith28.setChance(0.6);
+mith28.addItemOutput(<divinerpg:honeychunk>*64);
+mith28.setChance(0.9);
+mith28.addItemOutput(<divinerpg:honeysuckle>*64);
+mith28.setChance(0.9);
 mith28.addItemOutput(<divinerpg:dark_dream_bricks>*128);
 mith28.setChance(0.8);
 mith28.addItemOutput(<divinerpg:light_dream_bricks>*128);
 mith28.setChance(0.8);
 mith28.addItemOutput(<divinerpg:red_dream_bricks>*128);
 mith28.setChance(0.8);
-mith28.addItemOutput(<divinerpg:acid>*16);
-mith28.setChance(0.1);
+mith28.addItemOutput(<divinerpg:acid>*64);
+mith28.setChance(0.9);
 mith28.addItemOutput(<divinerpg:clean_pearls>*64);
-mith28.setChance(0.2);
+mith28.setChance(0.5);
 mith28.addItemOutput(<divinerpg:shiny_pearls>*64);
-mith28.setChance(0.05);
-mith28.addItemOutput(<divinerpg:polished_pearls>*64);
 mith28.setChance(0.1);
+mith28.addItemOutput(<divinerpg:polished_pearls>*64);
+mith28.setChance(0.3);
 mith28.addItemOutput(<divinerpg:dirty_pearls>*64);
-mith28.setChance(0.4);
+mith28.setChance(0.9);
+mith28.addItemOutput(<contenttweaker:pearlescent_cluster>*64);
+mith28.setChance(0.5);
 mith28.addItemOutput(<contenttweaker:blue_matter>*50);
 mith28.setChance(0.8);
 mith28.addItemOutput(<contenttweaker:tier28_token>);
@@ -2500,7 +2787,7 @@ true,
 game.setLocalization("ac.ritual.VetheaWhiteInfusion", "Vethea Negative Body Infusion"); 
 game.setLocalization("ac.ritual.VetheaWhiteInfusion.desc", "Bring a body with negative mass into existance through eldritch infusion!");
 
-val edendragonref = RecipeBuilder.newBuilder("edendragonref","dragonfire_crucible",100);
+val edendragonref = RecipeBuilder.newBuilder("edendragonref","dragonfire_crucible",20);
 edendragonref.addFluidInput(<fluid:twilight_fire>*1000);
 edendragonref.addItemInput(<divinerpg:eden_chunk>);
 edendragonref.addItemInput(<contenttweaker:precasia_garnet>);
@@ -2512,7 +2799,19 @@ edendragonref.addItemInput(<contenttweaker:abyss_garnet>);
 edendragonref.addItemOutput(<contenttweaker:eden_refined_gem>);
 edendragonref.build();
 
-val wildwooddragonref = RecipeBuilder.newBuilder("wildwooddragonref","dragonfire_crucible",100);
+val edendragonref2 = RecipeBuilder.newBuilder("edendragonref2","dragonfire_crucible",20);
+edendragonref2.addFluidInput(<fluid:sacred_spring_fire>*100);
+edendragonref2.addItemInput(<divinerpg:eden_chunk>*4);
+edendragonref2.addItemInput(<contenttweaker:precasia_garnet>*16);
+edendragonref2.addItemInput(<contenttweaker:lelyetia_garnet>*16);
+edendragonref2.addItemInput(<contenttweaker:barathos_garnet>*16);
+edendragonref2.addItemInput(<contenttweaker:creeponia_garnet>*16);
+edendragonref2.addItemInput(<contenttweaker:deeplands_garnet>*16);
+edendragonref2.addItemInput(<contenttweaker:abyss_garnet>*16);
+edendragonref2.addItemOutput(<contenttweaker:eden_refined_gem>*16);
+edendragonref2.build();
+
+val wildwooddragonref = RecipeBuilder.newBuilder("wildwooddragonref","dragonfire_crucible",20);
 wildwooddragonref.addFluidInput(<fluid:twilight_fire>*1000);
 wildwooddragonref.addItemInput(<divinerpg:wildwood_chunk>);
 wildwooddragonref.addItemInput(<contenttweaker:candyland_garnet>);
@@ -2526,7 +2825,21 @@ wildwooddragonref.addItemInput(<contenttweaker:vox_ponds_garnet>);
 wildwooddragonref.addItemOutput(<contenttweaker:wildwood_refined_gem>);
 wildwooddragonref.build();
 
-val apalachiadragonref = RecipeBuilder.newBuilder("apalachiadragonref","dragonfire_crucible",100);
+val wildwooddragonref2 = RecipeBuilder.newBuilder("wildwooddragonref2","dragonfire_crucible",20);
+wildwooddragonref2.addFluidInput(<fluid:sacred_spring_fire>*100);
+wildwooddragonref2.addItemInput(<divinerpg:wildwood_chunk>*4);
+wildwooddragonref2.addItemInput(<contenttweaker:candyland_garnet>*16);
+wildwooddragonref2.addItemInput(<contenttweaker:celeve_garnet>*16);
+wildwooddragonref2.addItemInput(<contenttweaker:gardencia_garnet>*16);
+wildwooddragonref2.addItemInput(<contenttweaker:crystevia_garnet>*16);
+wildwooddragonref2.addItemInput(<contenttweaker:haven_garnet>*16);
+wildwooddragonref2.addItemInput(<contenttweaker:iromine_garnet>*16);
+wildwooddragonref2.addItemInput(<contenttweaker:mysterium_garnet>*16);
+wildwooddragonref2.addItemInput(<contenttweaker:vox_ponds_garnet>*16);
+wildwooddragonref2.addItemOutput(<contenttweaker:wildwood_refined_gem>*16);
+wildwooddragonref2.build();
+
+val apalachiadragonref = RecipeBuilder.newBuilder("apalachiadragonref","dragonfire_crucible",20);
 apalachiadragonref.addFluidInput(<fluid:twilight_fire>*1000);
 apalachiadragonref.addItemInput(<divinerpg:apalachia_chunk>);
 apalachiadragonref.addItemInput(<contenttweaker:runandor_garnet>);
@@ -2535,7 +2848,16 @@ apalachiadragonref.addItemInput(<contenttweaker:borean_garnet>);
 apalachiadragonref.addItemOutput(<contenttweaker:apalachia_refined_gem>);
 apalachiadragonref.build();
 
-val skytherndragonref = RecipeBuilder.newBuilder("skytherndragonref","dragonfire_crucible",100);
+val apalachiadragonref2 = RecipeBuilder.newBuilder("apalachiadragonref2","dragonfire_crucible",20);
+apalachiadragonref2.addFluidInput(<fluid:sacred_spring_fire>*100);
+apalachiadragonref2.addItemInput(<divinerpg:apalachia_chunk>*4);
+apalachiadragonref2.addItemInput(<contenttweaker:runandor_garnet>*16);
+apalachiadragonref2.addItemInput(<contenttweaker:lunalus_garnet>*16);
+apalachiadragonref2.addItemInput(<contenttweaker:borean_garnet>*16);
+apalachiadragonref2.addItemOutput(<contenttweaker:apalachia_refined_gem>*16);
+apalachiadragonref2.build();
+
+val skytherndragonref = RecipeBuilder.newBuilder("skytherndragonref","dragonfire_crucible",20);
 skytherndragonref.addFluidInput(<fluid:twilight_fire>*1000);
 skytherndragonref.addItemInput(<divinerpg:skythern_chunk>);
 skytherndragonref.addItemInput(<contenttweaker:ancient_cavern_garnet>);
@@ -2544,6 +2866,16 @@ skytherndragonref.addItemInput(<contenttweaker:greckon_garnet>);
 skytherndragonref.addItemInput(<contenttweaker:dustopia_garnet>);
 skytherndragonref.addItemOutput(<contenttweaker:skythern_refined_gem>);
 skytherndragonref.build();
+
+val skytherndragonref2 = RecipeBuilder.newBuilder("skytherndragonref2","dragonfire_crucible",20);
+skytherndragonref2.addFluidInput(<fluid:sacred_spring_fire>*100);
+skytherndragonref2.addItemInput(<divinerpg:skythern_chunk>*4);
+skytherndragonref2.addItemInput(<contenttweaker:ancient_cavern_garnet>*16);
+skytherndragonref2.addItemInput(<contenttweaker:immortallis_garnet>*16);
+skytherndragonref2.addItemInput(<contenttweaker:greckon_garnet>*16);
+skytherndragonref2.addItemInput(<contenttweaker:dustopia_garnet>*16);
+skytherndragonref2.addItemOutput(<contenttweaker:skythern_refined_gem>*16);
+skytherndragonref2.build();
 
 mods.techreborn.implosionCompressor.addRecipe(<contenttweaker:unidentified_plate>, <techreborn:dust:15>*12, <contenttweaker:unidentified_ingot>, <projecte:nova_cataclysm>*32, 40, 512);
 
@@ -2586,43 +2918,6 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:collapser_casing>*
 <contenttweaker:nightmare_coil>, <materialpart:primal_ogerite:ingot>, <contenttweaker:nightmare_coil>]]);  
 
 
-
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:collapser_conduit>*2, 
-[[<nuclearcraft:electromagnet_supercooler_idle>, <nuclearcraft:fusion_electromagnet_idle>, <contenttweaker:primordial_star>, 
-<contenttweaker:primordial_star>, <contenttweaker:eden_refined_gem>, <contenttweaker:primordial_star>, 
-<contenttweaker:primordial_star>, <nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:electromagnet_supercooler_idle>], 
-
-[<nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:salt_fission_controller>, <materialpart:rhenium:ingot>, 
-<genetics:machine:0>, <contenttweaker:wildwood_refined_gem>, <genetics:machine:0>, 
-<materialpart:rhenium:ingot>, <nuclearcraft:salt_fission_controller>, <nuclearcraft:fusion_electromagnet_idle>], 
-
-[<contenttweaker:primordial_star>, <materialpart:rhenium:ingot>, <contenttweaker:unidentified_plate>, 
-<materialpart:rhenium:ingot>, <contenttweaker:apalachia_refined_gem>, <materialpart:rhenium:ingot>, 
-<contenttweaker:unidentified_plate>, <materialpart:rhenium:ingot>, <contenttweaker:primordial_star>], 
-
-[<contenttweaker:primordial_star>, <genetics:machine:0>, <materialpart:rhenium:ingot>, 
-<contenttweaker:mithrillium_catalyst>, <contenttweaker:skythern_refined_gem>, <contenttweaker:mithrillium_catalyst>, 
-<materialpart:rhenium:ingot>, <genetics:machine:0>, <contenttweaker:primordial_star>], 
-
-[<contenttweaker:eden_refined_gem>, <contenttweaker:wildwood_refined_gem>, <contenttweaker:apalachia_refined_gem>, 
-<contenttweaker:skythern_refined_gem>, <contenttweaker:mythic_excavation_reactor>, <contenttweaker:skythern_refined_gem>, 
-<contenttweaker:apalachia_refined_gem>, <contenttweaker:wildwood_refined_gem>, <contenttweaker:eden_refined_gem>], 
-
-[<contenttweaker:primordial_star>, <genetics:machine:0>, <materialpart:rhenium:ingot>, 
-<contenttweaker:mithrillium_catalyst>, <contenttweaker:skythern_refined_gem>, <contenttweaker:mithrillium_catalyst>, 
-<materialpart:rhenium:ingot>, <genetics:machine:0>, <contenttweaker:primordial_star>], 
-
-[<contenttweaker:primordial_star>, <materialpart:rhenium:ingot>, <contenttweaker:unidentified_plate>, 
-<materialpart:rhenium:ingot>, <contenttweaker:apalachia_refined_gem>, <materialpart:rhenium:ingot>, 
-<contenttweaker:unidentified_plate>, <materialpart:rhenium:ingot>, <contenttweaker:primordial_star>], 
-
-[<nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:salt_fission_controller>, <materialpart:rhenium:ingot>, 
-<genetics:machine:0>, <contenttweaker:wildwood_refined_gem>, <genetics:machine:0>, 
-<materialpart:rhenium:ingot>, <nuclearcraft:salt_fission_controller>, <nuclearcraft:fusion_electromagnet_idle>], 
-
-[<nuclearcraft:electromagnet_supercooler_idle>, <nuclearcraft:fusion_electromagnet_idle>, <contenttweaker:primordial_star>, 
-<contenttweaker:primordial_star>, <contenttweaker:eden_refined_gem>, <contenttweaker:primordial_star>, 
-<contenttweaker:primordial_star>, <nuclearcraft:fusion_electromagnet_idle>, <nuclearcraft:electromagnet_supercooler_idle>]]);  
 
 recipes.addShaped(<contenttweaker:fluctuatite_stabilizer>,
 [[<materialpart:fluctuatite:rod>, <materialpart:fluctuatite:rod>, makeVisCrystal(<aspect:fluctus> * 1)],
@@ -2813,26 +3108,28 @@ spatcruc7.addItemInput(<contenttweaker:universal_realgar>);
 spatcruc7.addFluidOutput(<fluid:universal_matter>*2000);
 spatcruc7.build();
 
-val mith29 = RecipeBuilder.newBuilder("mythicaltier29","mythical_resource_miner_tier29",800);
+val mith29 = RecipeBuilder.newBuilder("mythicaltier29","mythical_resource_miner_tier29",400);
 mith29.addEnergyPerTickInput(300000);
-mith29.addFluidInput(<fluid:universal_matter>*50);
+mith29.addFluidInput(<fluid:universal_matter>*25);
 mith29.addItemOutput(<aoa3:whitewashing_solution>*10);
 mith29.setChance(0.1);
-mith29.addItemOutput(<aoa3:shyrelands_tokens>*10);
-mith29.setChance(0.1);
-mith29.addItemOutput(<aoa3:shyre_weed>*10);
-mith29.setChance(0.05);
-mith29.addItemOutput(<aoa3:arcbulb>*10);
-mith29.setChance(0.05);
-mith29.addItemOutput(<aoa3:horizon_daisies>*10);
-mith29.setChance(0.05);
-mith29.addItemOutput(<aoa3:arcflower>*10);
-mith29.setChance(0.05);
-mith29.addItemOutput(<aoa3:shyre_cap>*10);
-mith29.setChance(0.05);
+mith29.addItemOutput(<aoa3:shyrelands_tokens>*50);
+mith29.setChance(0.9);
+mith29.addItemOutput(<aoa3:shyre_weed>*60);
+mith29.setChance(0.7);
+mith29.addItemOutput(<aoa3:arcbulb>*60);
+mith29.setChance(0.7);
+mith29.addItemOutput(<aoa3:horizon_daisies>*60);
+mith29.setChance(0.7);
+mith29.addItemOutput(<aoa3:arcflower>*60);
+mith29.setChance(0.7);
+mith29.addItemOutput(<aoa3:shyre_cap>*60);
+mith29.setChance(0.7);
 mith29.addItemOutput(<contenttweaker:shyrelands_garnet>);
-mith29.setChance(0.5);
-mith29.addItemOutput(<aoa3:fragmented_anima_stone>*128);
+mith29.setChance(0.25);
+mith29.addItemOutput(<aoa3:fragmented_anima_stone>*64);
+mith29.setChance(0.7);
+mith29.addItemOutput(<aoa3:fragmented_anima_stone>*64);
 mith29.setChance(0.7);
 mith29.addItemOutput(<contenttweaker:mother_pixon_soul>*10);
 mith29.setChance(0.3);
@@ -2842,6 +3139,20 @@ mith29.addItemOutput(<divinerpg:divine_stone>*40);
 mith29.setChance(0.8);
 mith29.addItemOutput(<contenttweaker:blue_matter>*60);
 mith29.setChance(0.9);
+mith29.addItemOutput(<aoa3:rusted_iron_ingot>*64);
+mith29.setChance(0.9);
+mith29.addItemOutput(<contenttweaker:primordial_sliver>*64);
+mith29.setChance(0.9);
+mith29.addItemOutput(<aoa3:armour_plating>*64);
+mith29.setChance(0.9);
+mith29.addItemOutput(<aoa3:raw_furlion_chop>*64);
+mith29.setChance(0.99);
+mith29.addItemOutput(<aoa3:raw_chimera_chop>*64);
+mith29.setChance(0.99);
+mith29.addItemOutput(<aoa3:raw_charger_shank>*64);
+mith29.setChance(0.99);
+mith29.addItemOutput(<aoa3:raw_ursa_meat>*64);
+mith29.setChance(0.99);
 mith29.addItemOutput(<contenttweaker:tier29_token>);
 mith29.build();
 
@@ -2871,18 +3182,18 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/alta
 
 
 
-val hassiumalloyinf = RecipeBuilder.newBuilder("hassiumalloyinf","dragonfire_crucible",300);
-hassiumalloyinf.addFluidInput(<fluid:eternal_dragon_fire>*500);
-hassiumalloyinf.addItemInput(<materialpart:hassium:ingot>);
-hassiumalloyinf.addItemInput(<divinerpg:mortum_chunk>);
-hassiumalloyinf.addItemInput(<aoa3:shyrestone_ingot>);
-hassiumalloyinf.addItemOutput(<contenttweaker:hassium_alloy_ingot>*3);
-hassiumalloyinf.build();
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:arbiterite_crystal>*4, 
 1000000, 
 <contenttweaker:bright_matter>, 
 [<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:arbiterite_crystal>*10, 
+1000000, 
+<contenttweaker:opalescent_matter>, 
+[<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>,
+<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>]);
+
 
 // mods.techreborn.implosionCompressor.addRecipe(<contenttweaker:defined_plate>, <minecraft:stone:0>, <contenttweaker:defined_ingot>, <contenttweaker:bloodmaster_block>*4, 60, 512);
 
@@ -2896,21 +3207,6 @@ recipes.addShaped(<contenttweaker:definer_core>,
 [<contenttweaker:defined_gear>, <contenttweaker:mortum_core>, <contenttweaker:defined_gear>],
 [<avaritia:resource:5>, <contenttweaker:defined_gear>, <avaritia:resource:5>]]);
 
-val eternbrightalloy = RecipeBuilder.newBuilder("eternbrightalloy","dragonfire_crucible",150);
-eternbrightalloy.addFluidInput(<fluid:eternal_dragon_fire>*2000);
-eternbrightalloy.addItemInput(<materialpart:chalcedony:ingot>);
-eternbrightalloy.addItemInput(<materialpart:lunastone:ingot>);
-eternbrightalloy.addItemInput(<materialpart:brightsteel:ingot>);
-eternbrightalloy.addItemOutput(<contenttweaker:brightsteel_alloy_ingot>*3);
-eternbrightalloy.build();
-
-val eternbrightalloybetter = RecipeBuilder.newBuilder("eternbrightalloybetter","dragonfire_crucible",150);
-eternbrightalloybetter.addFluidInput(<fluid:twilight_fire>*2000);
-eternbrightalloybetter.addItemInput(<materialpart:chalcedony:ingot>*8);
-eternbrightalloybetter.addItemInput(<materialpart:lunastone:ingot>*8);
-eternbrightalloybetter.addItemInput(<materialpart:brightsteel:ingot>*8);
-eternbrightalloybetter.addItemOutput(<contenttweaker:brightsteel_alloy_ingot>*24);
-eternbrightalloybetter.build();
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:defined_machine_case>*4, 
@@ -3059,44 +3355,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:planetary_es
 <biomesoplenty:earth>, 
 <biomesoplenty:earth>, 
 <biomesoplenty:earth>]);
-
-mods.avaritia.ExtremeCrafting.addShaped("makesupergemofthecosmos",
-<contenttweaker:perfected_gem_of_the_cosmos>, 
-[[<contenttweaker:paradigm_of_dominion>, <contenttweaker:recursive_powder>, <extrautils2:decorativesolid:8>,
-<contenttweaker:vethea_garnet>, <contenttweaker:cursed_sapphire>, <contenttweaker:vethea_garnet>,
-<extrautils2:decorativesolid:8>, <contenttweaker:recursive_powder>, <contenttweaker:paradigm_of_dominion>],
-
-[<contenttweaker:recursive_powder>, <contenttweaker:recursion_of_war>, <contenttweaker:big_slime>,
-<contenttweaker:tennessine_gem>, <contenttweaker:cursed_sapphire>, <contenttweaker:tennessine_gem>,
-<contenttweaker:big_slime>, <contenttweaker:recursion_of_war>, <contenttweaker:recursive_powder>],
-
-[<contenttweaker:clunky_chunky_brick>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:will_ensnaring_fabrial>,
-<contenttweaker:astral_lizardite>, <contenttweaker:corrupted_aragonite>, <contenttweaker:astral_lizardite>,
-<contenttweaker:will_ensnaring_fabrial>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:clunky_chunky_brick>],
-
-[<contenttweaker:stable_oganesson>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:astral_lizardite>,
-<contenttweaker:nightmare_block>, <contenttweaker:planetary_essence>, <contenttweaker:nightmare_block>,
-<contenttweaker:astral_lizardite>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:stable_oganesson>],
-
-[<contenttweaker:cursed_sapphire>, <contenttweaker:cosmic_fracture>, <contenttweaker:corrupted_aragonite>,
-<contenttweaker:planetary_essence>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:planetary_essence>,
-<contenttweaker:corrupted_aragonite>, <contenttweaker:cosmic_fracture>, <contenttweaker:cursed_sapphire>],
-
-[<contenttweaker:stable_oganesson>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:astral_lizardite>,
-<contenttweaker:nightmare_block>, <contenttweaker:planetary_essence>, <contenttweaker:nightmare_block>,
-<contenttweaker:astral_lizardite>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:stable_oganesson>],
-
-[<contenttweaker:clunky_chunky_brick>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:will_ensnaring_fabrial>,
-<contenttweaker:astral_lizardite>, <contenttweaker:corrupted_aragonite>, <contenttweaker:astral_lizardite>,
-<contenttweaker:will_ensnaring_fabrial>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:clunky_chunky_brick>],
-
-[<contenttweaker:recursive_powder>, <contenttweaker:recursion_of_war>, <contenttweaker:big_slime>,
-<contenttweaker:tennessine_gem>, <contenttweaker:cursed_sapphire>, <contenttweaker:tennessine_gem>,
-<contenttweaker:big_slime>, <contenttweaker:recursion_of_war>, <contenttweaker:recursive_powder>],
-
-[<contenttweaker:paradigm_of_dominion>, <contenttweaker:recursive_powder>, <extrautils2:decorativesolid:8>,
-<contenttweaker:vethea_garnet>, <contenttweaker:cursed_sapphire>, <contenttweaker:vethea_garnet>,
-<extrautils2:decorativesolid:8>, <contenttweaker:recursive_powder>, <contenttweaker:paradigm_of_dominion>]]);
 
 
 

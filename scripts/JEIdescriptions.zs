@@ -4891,17 +4891,29 @@ mods.jei.JEI.addDescription([
 mods.jei.JEI.addDescription([
     <contenttweaker:infusion_pseudo_automation>],
 [
-    "To help streamline repetitive Thaumcraft Infusion recipes, modular routers can be used as a tool to help with batch crafting.",
+    "Thaumcraft infusion can be automated using the Infusion Claw, alongside Modular Routers.",
+    "",
+    "The Infusion Claw, when placed above a Runic Matrix, enables the automation of thaumcraft infusion recipes using a redstone signal.",
     "",
     "The Sender Module can be bound to the central Arcane Pedestal, while all the surrounding Pedestals can be bound using Distributor Modules.",
     "",
     "Note that, depending on your setup, you want to coordinate the order of items inserted into the Router with the location of the Sender Module within the Router. If the Sender Module is first, the central item should always be done first.",
     "",
-    "Once all the items are positioned within the pedestals, you can just use your gauntlet to start the recipe. Just make sure you have enough essentia and stabilization.",
+    "Once all the items are positioned within the pedestals, you can just send a Redstone signal to the Claw to start the recipe. Just make sure you have enough essentia and stabilization.",
     "",
     "A method like this can be used together with recipes in ME Interfaces. Just make sure you don't send in multiple recipes on the same infusion setup.",
     "",
     "Also, if you took the time to read this, the Temporal Bee works with thaumcraft infusion ;)"
+]);
+
+mods.jei.JEI.addDescription([
+    <gadothaumy:infusion_claw>],
+[
+    "The infusion claw is a block that, when placed above a Runic Matrix, enables the automation of thaumcraft infusion recipes.",
+    "",
+    "If the right essentia and item ingredients are present, a redstone signal sent to the claw will start the infusion as if the Matrix had been clicked by a Gauntlet.",
+    "",
+    "Note that the infusion will still follow instability rules, as well as failure if the right essentia is not present."
 ]);
 
 
@@ -4942,5 +4954,7 @@ mods.jei.JEI.addDescription([
     "",
     "3. Being a crazy person; both limited item filters and retrievers will place the right amounts of each item, but not in the right place; just have systems that do not respect orders, and build a filtering system that throws away the shulker boxes with the wrong inventory :)"
 ]);
+
+
 
 

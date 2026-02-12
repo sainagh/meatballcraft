@@ -64,7 +64,18 @@ recipes.addShaped(<ebwizardry:novice_healing_wand>,
 
 
 
-mods.bloodmagic.AlchemyTable.addRecipe(<ebwizardry:grand_crystal>*4, [<bloodmagic:cutting_fluid:*>, <aoa3:crystallite>], 1, 5, 3);
+mods.bloodmagic.AlchemyTable.addRecipe(<ebwizardry:grand_crystal>*4, [<bloodmagic:cutting_fluid:*>, <aoa3:bloodstone>], 1, 5, 3);
+mods.bloodmagic.AlchemyTable.addRecipe(<ebwizardry:grand_crystal>*4, [<bloodmagic:cutting_fluid:*>, <aoa3:gemenyte>], 1, 5, 3);
+mods.bloodmagic.AlchemyTable.addRecipe(<ebwizardry:grand_crystal>*4, [<bloodmagic:cutting_fluid:*>, <aoa3:ornamyte>], 1, 5, 3);
+mods.bloodmagic.AlchemyTable.addRecipe(<ebwizardry:grand_crystal>*4, [<bloodmagic:cutting_fluid:*>, <aoa3:jewelyte>], 1, 5, 3);
+mods.bloodmagic.AlchemyTable.addRecipe(<ebwizardry:grand_crystal>*16, [<bloodmagic:cutting_fluid:*>, <aoa3:crystallite>], 1, 5, 3);
+mods.bloodmagic.AlchemyTable.addRecipe(<ebwizardry:grand_crystal>*16, [<bloodmagic:cutting_fluid:*>, <aoa3:blue_gemstones>], 1, 5, 3);
+mods.bloodmagic.AlchemyTable.addRecipe(<ebwizardry:grand_crystal>*16, [<bloodmagic:cutting_fluid:*>, <aoa3:green_gemstones>], 1, 5, 3);
+mods.bloodmagic.AlchemyTable.addRecipe(<ebwizardry:grand_crystal>*16, [<bloodmagic:cutting_fluid:*>, <aoa3:purple_gemstones>], 1, 5, 3);
+mods.bloodmagic.AlchemyTable.addRecipe(<ebwizardry:grand_crystal>*16, [<bloodmagic:cutting_fluid:*>, <aoa3:red_gemstones>], 1, 5, 3);
+mods.bloodmagic.AlchemyTable.addRecipe(<ebwizardry:grand_crystal>*16, [<bloodmagic:cutting_fluid:*>, <aoa3:white_gemstones>], 1, 5, 3);
+mods.bloodmagic.AlchemyTable.addRecipe(<ebwizardry:grand_crystal>*16, [<bloodmagic:cutting_fluid:*>, <aoa3:yellow_gemstones>], 1, 5, 3);
+mods.bloodmagic.AlchemyTable.addRecipe(<ebwizardry:grand_crystal>*64, [<bloodmagic:cutting_fluid:*>, <aoa3:shyregem>], 1, 5, 3);
 
 
 

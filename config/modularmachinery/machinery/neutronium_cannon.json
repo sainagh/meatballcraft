@@ -28,6 +28,19 @@
                 "operation": 1,
                 "multiplier": 0.05
             }]
+        },
+        {
+            "elements": "contenttweaker:eleint_neutronium_casing",
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "description": "Multiplies speed by 50",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.02
+            }]
         }
     ],
     "parts": [

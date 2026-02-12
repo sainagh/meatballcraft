@@ -34,8 +34,8 @@
   "products": {
     "products": [
       {
-        "min": 1,
-        "max": 5,
+        "min": 7,
+        "max": 15,
         "chance": 0.9,
         "required": true,
         "item": "mysticalagriculture:crafting",
@@ -52,7 +52,9 @@
     "max_light": 16,
     "soils": [
       "farmland_soil",
-      "fertilized_dirt_soil"
+      "fertilized_dirt_soil",
+      "loamy_dirt_soil",
+      "silty_dirt_soil"
     ],
     "conditions": []
   },

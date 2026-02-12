@@ -159,3 +159,11 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:storage:4>
 10000000, 100000, 
 <draconicevolution:chaos_shard:1>, 
 [<draconicevolution:draconic_ingot>, <draconicevolution:draconic_ingot>, <materialpart:vibranium:ingot>, <thaumadditions:mithrillium_ingot>, <biomesoplenty:terrestrial_artifact>]);
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<extendedcrafting:material:40>*4, 
+[[<ore:dustEnderium>, <minecraft:nether_star>, <ore:dustEnderium>], 
+[<minecraft:nether_star>, <contenttweaker:endergenic_sediment>, <minecraft:nether_star>], 
+[<ore:dustEnderium>, <minecraft:nether_star>, <ore:dustEnderium>]]); 

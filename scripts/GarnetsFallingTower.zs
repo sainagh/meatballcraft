@@ -54,7 +54,7 @@ mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:ethereal_fabric>*20, <fluid
 
 mods.nuclearcraft.electrolyser.addRecipe([<fluid:radioactive_ethereal_goo>*10, <fluid:neptunium_237>*72, <fluid:neptunium_236>*72, <fluid:thorium>*36, <fluid:astatine>*40]);
 
-mods.nuclearcraft.irradiator.addRecipe([<fluid:milkiest_chocolate>*20, <fluid:astral_water>*10, <fluid:theobromine>*10, <fluid:nitrogen_16>*30, 0.9, 0.4, 0.1]);
+mods.nuclearcraft.irradiator.addRecipe([<fluid:milkiest_chocolate>*20, <fluid:astral_water>*10, <fluid:theobromine>*10, <fluid:nitrogen_16>*30]);
 
 mods.nuclearcraft.ingot_former.addRecipe([<fluid:seared_grave_stone>*20, <contenttweaker:seared_rock>]);
 

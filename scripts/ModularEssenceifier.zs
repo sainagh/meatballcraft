@@ -194,7 +194,7 @@ essenceifier38.build();
 
 val essenceifier39 = RecipeBuilder.newBuilder("essenceifier39","innerved_essenceifier",2);
 essenceifier39.addItemInput(<mysticalagriculture:ruby_essence>*64);
-essenceifier39.addItemOutput(<techreborn:gem:1>*48);
+essenceifier39.addItemOutput(<biomesoplenty:gem:1>*48);
 essenceifier39.build();
 
 val essenceifier40 = RecipeBuilder.newBuilder("essenceifier40","innerved_essenceifier",2);
@@ -509,3 +509,28 @@ essenceifier101.addItemInput(<mysticalagradditions:neutronium_essence>*72);
 essenceifier101.addItemOutput(<avaritia:resource:2>*24);
 essenceifier101.build();
 
+val essenceifier102 = RecipeBuilder.newBuilder("essenceifier102","innerved_essenceifier",2);
+essenceifier102.addItemInput(<mysticalagradditions:awakened_draconium_essence>*81);
+essenceifier102.addItemInput(<ore:nuggetIron>);
+essenceifier102.addItemOutput(<draconicevolution:draconic_ingot>*3);
+essenceifier102.build();
+
+val essenceifier103 = RecipeBuilder.newBuilder("essenceifier103","innerved_essenceifier",2);
+essenceifier103.addItemInput(<mysticalagradditions:awakened_draconium_essence>*64);
+essenceifier103.addItemInput(<magicbees:resource:5>*8);
+essenceifier103.addItemInput(<ore:nuggetIron>);
+essenceifier103.addItemOutput(<draconicevolution:draconic_ingot>*8);
+essenceifier103.build();
+
+val essenceifier104 = RecipeBuilder.newBuilder("essenceifier104","innerved_essenceifier",2);
+essenceifier104.addItemInput(<mysticalagradditions:awakened_draconium_essence>*64);
+essenceifier104.addItemInput(<contenttweaker:ascended_draconium_ingot>*8);
+essenceifier104.addItemOutput(<contenttweaker:ascended_draconium_ingot>*32);
+essenceifier104.build();
+
+val essenceifier105 = RecipeBuilder.newBuilder("essenceifier105","innerved_essenceifier",2);
+essenceifier105.addItemInput(<mysticalagradditions:awakened_draconium_essence>*56);
+essenceifier105.addItemInput(<magicbees:resource:5>*8);
+essenceifier105.addItemInput(<contenttweaker:awakened_infusion_stone>*4);
+essenceifier105.addItemOutput(<draconicevolution:draconic_ingot>*48);
+essenceifier105.build();

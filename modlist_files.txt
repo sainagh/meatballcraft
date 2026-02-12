@@ -1,65 +1,365 @@
-d-----         6/21/2023  10:28 AM                .mixin.out
-d-----          8/1/2025   2:16 PM                AlternativeConfigs
-d-----          4/4/2025  12:01 PM                Arcana
-d-----         6/21/2023  10:28 AM                asm
-d-----         6/21/2023  10:28 AM                astralsorcery
-d-----        11/16/2025   9:42 PM                backups
-d-----         6/21/2023  10:29 AM                betweenlands_gallery
-d-----         6/21/2023  10:11 AM                caches
-d-----         9/23/2024   1:10 PM                classOut
-d-----        11/26/2025  11:08 AM                config
-d-----        11/16/2025  11:10 AM                crash-reports
-d-----         7/30/2022   1:39 PM                CustomDISkins
-d-----        11/26/2025  11:06 AM                datapacks
-d-----        11/26/2025  11:06 AM                downloads
-d-----         6/21/2023  10:15 AM                dumps
-d-----          5/5/2025   8:14 PM                ESM
-d-----         6/21/2023  10:16 AM                fonts
-d-----        11/26/2025  11:15 AM                journeymap
-d-----         6/21/2023  10:21 AM                llibrary
-d-----         6/21/2023  10:21 AM                local
-d-----        11/26/2025  11:07 AM                logs
-d-----        11/26/2025  11:06 AM                mods
-d-----         8/25/2025   5:54 PM                packagedauto
-d-----         7/30/2022   2:54 AM                patchouli_books
-d-----        10/16/2025   3:05 PM                pillar
-d-----        11/26/2025  11:06 AM                resourcepacks
-d-----         9/13/2025   1:59 PM                resources
-d-----        11/26/2025  11:06 AM                saves
-d-----        10/22/2025  10:52 AM                screenshots
-d-----        11/26/2025   9:58 AM                scripts
-d-----        11/26/2025  11:06 AM                shaderpacks
-d-----         8/15/2024  12:38 PM                simple-rpc
-d-----         7/30/2022   1:44 PM                snapshots-server
-d-----          6/4/2025   4:17 PM                tombstone
-d-----         8/20/2023   2:42 PM                vintagefix
-d-----        11/26/2025  10:29 AM                woot
--a----        11/26/2025  11:11 AM            438 .ReAuth.cfg
--a----         9/18/2022  12:10 PM           1055 BattletowerPositionsFile.txt
--a----         8/24/2022   1:41 PM           7129 BiomeDump.txt
--a----        11/26/2025  11:10 AM            141 BotaniaVars.dat
--a----         3/16/2025   5:57 PM            317 cleanroom-relauncher-v1.properties
--a----        11/26/2025  11:09 AM             24 concheckrmd
--a----        11/26/2025  11:08 AM              0 crafttweaker.log
--a----        11/26/2025  11:11 AM             24 ExtraBotanyVars.dat
--a----        11/26/2025   9:46 AM              0 hei_bookmarks.ini
--a----        10/27/2023   3:24 PM          47089 hs_err_pid14576.log
--a----         11/3/2022   3:00 PM          42804 hs_err_pid14676.log
--a----         8/18/2024   4:50 PM          46448 hs_err_pid15268.log
--a----         5/17/2024  12:40 PM          43913 hs_err_pid21632.log
--a----         7/14/2025   4:05 PM          50987 hs_err_pid21912.log
--a----        11/26/2025  11:16 AM           7005 knownkeys.txt
--a----        11/26/2025  11:06 AM        1625872 minecraftinstance.json
-------          8/1/2023   8:02 PM        1202688 OpenComputersMod-1.7.5.192-lua52-native.64.dll
-------          8/1/2023   8:02 PM        1676800 OpenComputersMod-1.7.5.192-lua53-native.64.dll
--a----        11/26/2025  11:11 AM         736347 OpenComputersMod-1.8.7-52-libjnlua52-windows-x86_64.dll
--a----        11/26/2025  11:11 AM         767714 OpenComputersMod-1.8.7-53-libjnlua53-windows-x86_64.dll
--a----        11/26/2025  11:11 AM         821673 OpenComputersMod-1.8.7-54-libjnlua54-windows-x86_64.dll
--a----        11/25/2025   2:01 PM          10132 options.txt
--a----         7/30/2022   2:54 AM             57 patchouli_data.json
--a----         8/18/2024   4:50 PM        4263389 replay_pid15268.log
--a----         11/3/2025  12:26 PM          18901 servers.dat
--a----        11/16/2025   9:50 PM        7843722 user-prefs.json
--a----        11/26/2025  10:59 AM           1080 usercache.json
--a----         7/30/2022   1:45 PM             61 usernamecache.json
--a----         8/19/2022   9:02 PM           1624 WailaErrorOutput.txt
+-a----         4/12/2024   1:20 PM           5201 !configanytime-3.0.jar
+-a----         10/6/2025  10:57 AM        2383999 !mixinbooter-10.7.jar
+-a----          1/2/2026   2:21 PM         149366 !Red-Core-MC-1.8-1.12-0.7.jar
+-a----        11/16/2025  10:44 AM         270289 +Fugue-0.21.0.jar
+-a----         8/28/2023   6:48 PM         507074 AbyssalCraft Integration-1.12.2-1.11.3.jar
+-a----         8/25/2025   3:07 PM       14474822 AbyssalCraft-1.12.2-1.11.2.jar
+-a----         6/21/2023   8:20 AM        2958699 ActuallyAdditions-1.12.2-r152.jar
+-a----         6/21/2023   8:19 AM          11604 ActuallyBaubles-1.12-1.1.jar
+-a----         1/29/2026   1:50 PM        7382632 AdvancedRocketry-1.12.2-2.2.2.jar
+-a----         6/21/2023   8:21 AM          77203 AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar
+-a----         5/28/2024   5:23 PM        4421801 ae2-uel-v0.56.5.jar
+-a----        10/19/2024   3:06 PM         140468 AE2CT-Legacy-0.1.2.jar
+-a----         8/19/2025  12:00 PM         161463 ae2exttable-v1.0.8.jar
+-a----         8/28/2025  10:53 AM         621163 ae2stuff-1.12.2-0.10.jar
+-a----         1/30/2026   9:21 PM          63415 ae2wut-1.0.5.jar
+-a----         6/21/2023   8:21 AM           6171 aerialaffinity-1.2.jar
+-a----         3/21/2025   7:04 PM       14740706 aether-1.12.2-v1.5.4.1.jar
+-a----         6/21/2023   8:22 AM        1457033 agricraft-2.12.0-1.12.2-b2.jar
+-a----         6/21/2023   8:19 AM          85307 AIReducer-1.12.2-0.3.0.jar
+-a----         6/21/2023   8:21 AM          44663 AkashicTome-1.2-12.jar
+-a----         2/12/2025   5:18 PM          70045 Alfheim-1.5.jar
+-a----         6/21/2023   8:20 AM         349684 Animus-1.12-2.1.7.jar
+-a----         6/21/2023   8:20 AM       88931463 AoA3-3.3.6.jar
+-a----         12/9/2025  11:53 AM          45520 apiarist-terminal-0.2.0.jar
+-a----         6/21/2023   8:21 AM          89615 AppleCore-mc1.12.2-3.4.0.jar
+-a----         6/21/2023   8:20 AM          33683 AppleSkin-mc1.12-1.0.14.jar
+-a----          4/3/2024   1:32 PM         182194 AquaAcrobatics-1.15.4.jar
+-a----         6/21/2023   8:21 AM        1333700 Arcane Essentials-1.0.0-alpha-11.jar
+-a----         6/21/2023   8:21 AM         925535 architecturecraft-1.12-3.108.jar
+-a----         9/18/2024   4:53 PM         537411 ARLib-17-09-2024.jar
+-a----         6/21/2023   8:20 AM          21855 armoreablemobs-1.12.2-1.1.8.jar
+-a----          1/4/2024   7:45 AM         398634 Aroma1997Core-1.12.2-2.0.0.2.jar
+-a----          1/4/2024   7:45 AM         139446 AromaBackup-1.12.2-2.1.1.4.jar
+-a----          9/3/2025  11:16 AM       25028160 astralsorcery-1.12.2-1.10.27.jar
+-a----         6/21/2023   8:21 AM         108306 AutoRegLib-1.3-32.jar
+-a----         6/21/2023   8:21 AM         975727 Avaritia-1.12.2-3.3.0.37-universal.jar
+-a----         11/7/2024   4:43 PM          84197 AvaritiaItem-1.0.3-beta.jar
+-a----         6/21/2023   8:22 AM          14818 BadMobs-1.12.2-1.1.40.jar
+-a----         6/21/2023   8:20 AM          10402 badwithernocookiereloaded-1.12.2-3.4.18.jar
+-a----          9/2/2023   4:38 PM         690000 base-1.12.2-3.14.0.jar
+-a----         6/21/2023   8:22 AM         886037 BattleTowers-1.12.2.jar
+-a----         6/21/2023   8:21 AM         108450 Baubles-1.12-1.5.2.jar
+-a----         6/21/2023   8:22 AM          68590 baubley-heart-canisters-1.12.2-2.0.3.jar
+-a----        10/28/2025   9:20 AM          42301 bc_ex_laser-2.1.2.jar
+-a----          8/1/2023   7:58 PM        2313893 bdlib-1.14.4.1-mc1.12.2.jar
+-a----          7/6/2023   3:08 AM          44806 beebetteratbees-1.12.2-2.0.3.jar
+-a----         6/21/2023   8:20 AM           3377 BetterBedrockGenerator-1.12-6.1.1.jar
+-a----         6/21/2023   8:21 AM          37657 betterbiomeblend-1.12.2-1.1.7-forge.jar
+-a----         10/9/2023   5:43 PM          77866 BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar
+-a----         1/21/2026  11:03 AM          41759 BetterBuildersWandsFix-1.2.8.jar
+-a----        11/25/2025   1:22 PM         251793 betterp2p-1.12.2-1.3.3.jar
+-a----          1/5/2026   1:26 PM        2029459 BetterQuestingUnofficial-4.2.7.jar
+-a----          4/9/2025  11:06 AM        4914477 bewitchment-1.12.2-0.0.22.65.jar
+-a----         6/21/2023   8:22 AM        5185177 BiblioCraft[v2.4.6][MC1.12.2].jar
+-a----         8/15/2024  12:53 PM        5860442 binnie-mods-1.12.2-2.5.1.212.jar
+-a----         7/16/2023  10:24 PM        4746208 BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar
+-a----         6/21/2023   8:20 AM         105052 blockcraftery-1.12.2-1.3.1.jar
+-a----         6/21/2023   8:21 AM           4656 bloodagricraft-1.0.0.jar
+-a----         6/21/2023   8:21 AM         686217 BloodArsenal-1.12.2-2.2.2-31.jar
+-a----         6/21/2023   8:20 AM        7208594 BloodMagic-1.12.2-2.4.3-105.jar
+-a----         6/21/2023   8:20 AM         266636 Bookshelf-1.12.2-2.3.590.jar
+-a----         6/21/2023   8:20 AM       13817704 Botania r1.10-364.4.jar
+-a----         10/8/2025   2:07 PM          43430 bpopener-1.1.0.jar
+-a----          8/1/2023   7:49 PM         827900 BrandonsCore-1.12.2-2.4.20.162-universal.jar
+-a----         6/21/2023   8:20 AM          24289 BringMeTheRings-0.4.jar
+-a----         6/21/2023   8:21 AM          39412 brokenwings-3.0.0.jar
+-a----         10/8/2023  12:47 PM          29749 BTFixes-1.12.2-1.2.0.jar
+-a----          4/9/2025  11:06 AM         509433 buildcraft-builders-8.0.0.jar
+-a----          4/9/2025  11:06 AM         117107 buildcraft-compat-8.0.0.jar
+-a----          4/9/2025  11:06 AM        3180686 buildcraft-core-8.0.0.jar
+-a----          4/9/2025  11:06 AM         269083 buildcraft-energy-8.0.0.jar
+-a----          4/9/2025  11:06 AM         247749 buildcraft-factory-8.0.0.jar
+-a----          4/9/2025  11:06 AM         308198 buildcraft-silicon-8.0.0.jar
+-a----          4/9/2025  11:06 AM         761423 buildcraft-transport-8.0.0.jar
+-a----         6/21/2023   8:19 AM         719492 BuildingGadgets-2.8.4.jar
+-a----         6/21/2023   8:19 AM          81749 capabilityadapter-1.1.3.jar
+-a----         6/21/2023   8:22 AM         676344 careerbees-0.4.0.jar
+-a----         6/21/2023   8:20 AM        1815047 cc-tweaked-1.12.2-1.89.2.jar
+-a----         6/21/2023   8:22 AM          96859 Chameleon-1.12-4.1.3.jar
+-a----        10/15/2023   5:43 PM         230539 champions-1.12.2-1.0.11.10.jar
+-a----         6/21/2023   8:21 AM         134367 ChickenChunks-1.12.2-2.4.2.74-universal.jar
+-a----         6/21/2023   8:20 AM         247347 chickens-6.0.4.jar
+-a----         6/21/2023   8:21 AM        4755282 Chisel-MC1.12.2-1.0.2.45.jar
+-a----        11/16/2025  10:41 AM          42700 citnbt-0.3.2.jar
+-a----          7/5/2023   7:11 AM           4038 clearwater-1.2.jar
+-a----         6/21/2023   8:21 AM         704330 CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+-a----         6/21/2023   8:19 AM         848187 CoFHCore-1.12.2-4.6.6.1-universal.jar
+-a----         6/21/2023   8:20 AM         505987 CoFHWorld-1.12.2-1.4.0.1-universal.jar
+-a----         6/21/2023   8:21 AM         361018 CommonCapabilities-1.12.2-2.4.8.jar
+-a----         6/21/2023   8:20 AM         730062 compactmachines3-1.12.2-3.0.18-b278.jar
+-a----         6/21/2023   8:20 AM         278152 ContentTweaker-1.12.2-4.10.0.jar
+-a----         7/19/2024   3:33 AM          34383 Controlling-3.0.12.4.jar
+-a----         6/21/2023   8:21 AM          72111 CosmeticArmorReworked-1.12.2-v5a.jar
+-a----         6/21/2023   8:22 AM         101956 CraftingTweaks_1.12.2-9.0.1.jar
+-a----          1/2/2026   2:22 PM        1608673 CraftTweaker2-1.12-4.1.20.711.jar
+-a----        10/13/2023   5:11 PM          22039 crafttweakerutils-0.7.jar
+-a----         6/21/2023   8:20 AM          26368 crimsonwarfare-1.5.jar
+-a----         10/9/2023   5:43 PM          78433 ctintegration-1.8.0.jar
+-a----         6/21/2023   8:21 AM         199045 CTM-MC1.12.2-1.0.2.31.jar
+-a----         6/21/2023   8:22 AM         126699 Cucumber-1.12.2-1.1.3.jar
+-a----          7/8/2023  12:36 PM          37381 customfov-1.12.2-1.0.1.jar
+-a----         6/21/2023   8:22 AM          91121 CustomMainMenu-MC1.12.2-2.0.9.1.jar
+-a----         7/18/2023   6:24 PM        3990921 Cyclic-1.12.2-1.20.14.jar
+-a----         6/21/2023   8:19 AM        1060985 CyclopsCore-1.12.2-1.6.7.jar
+-a----         6/21/2023   8:21 AM         327386 DankNull-1.12.2-1.7.101.jar
+-a----         6/21/2023   8:21 AM         136189 dankstorage-1.12.2-1.4-pre11.jar
+-a----         8/10/2023   3:34 PM         170038 DeepBloodEvolution-1.1.6-e.jar
+-a----        12/13/2024  12:47 PM         565897 DeepMobEvolution-1.12.2-1.2.3.jar
+-a----         10/9/2023   5:44 PM          15056 DefaultOptions_1.12.2-9.2.8.jar
+-a----          3/5/2024   5:23 PM          62280 demagnetize-1.12.2-1.1.2.jar
+-a----         5/23/2025   1:16 PM        8422511 Dimensional Doors-3.2.3.jar
+-a----         6/21/2023   8:19 AM          18251 DimensionStages-1.12.2-2.0.23.jar
+-a----         6/21/2023   8:21 AM       18732935 DivineRPG-1.7.1.jar
+-a----          8/1/2023   7:49 PM        5708839 Draconic-Evolution-1.12.2-2.3.28.354-universal.jar
+-a----        12/19/2023  10:51 AM         229831 draconicalchemy-0.2.jar
+-a----         6/21/2023   8:20 AM          43317 dynamistics-1.0.2.jar
+-a----        10/16/2023  12:49 PM       10931730 ElectroblobsWizardry-4.3.11.jar
+-a----          6/9/2024   1:38 PM          85500 EMCGadgets-1.1.1-universal.jar
+-a----         6/21/2023   8:22 AM         166133 enchcontrol-1.12.2-1.1.5-0.jar
+-a----        11/16/2025  10:42 AM         167227 enchlib-1.12.2-1.1.2.jar
+-a----         7/29/2023   3:27 PM         660062 EnderCore-1.12.2-0.5.78.jar
+-a----          8/1/2023   7:57 PM        8946588 EnderIO-1.12.2-5.3.72.jar
+-a----          8/1/2023   7:57 PM         118017 EnderIO-endergy-1.12.2-5.3.72.jar
+-a----         6/21/2023   8:20 AM         223250 EnderStorage-1.12.2-2.4.6.137-universal.jar
+-a----          8/1/2023   7:57 PM          31753 EnderTweaker-1.12.2-1.2.3.jar
+-a----         6/21/2023   8:22 AM        1730192 enderutilities-1.12.2-0.7.15.jar
+-a----        11/16/2025  10:41 AM          63926 EntityCulling-1.12.2-6.5.0.jar
+-a----         6/21/2023   8:22 AM        1001848 environmentaltech-1.12.2-2.0.20.1.jar
+-a----         6/21/2023   8:21 AM       12365648 Erebus-1.0.32.jar
+-a----         9/24/2025   2:13 PM         391726 esm-legacy-1.12.2-1.0.5.jar
+-a----         6/21/2023   8:19 AM          84687 ExpandedEquivalence-1.12.2-12.3.17.jar
+-a----         8/30/2023   3:17 PM         484416 ExtendedCrafting-Nomifactory-Edition-1.7.0.jar
+-a----         9/30/2023   1:41 PM        2721611 ExtraBotany-r1.1-60-beta-hotfix.jar
+-a----         6/21/2023   8:20 AM        2570450 ExtraCells-1.12.2-2.6.7.jar
+-a----         6/21/2023   8:20 AM          93682 ExtraSpells-1.12.2-1.2.0.jar
+-a----         6/21/2023   8:20 AM        3226408 extrautils2-1.12-1.9.9.jar
+-a----         6/21/2023   8:20 AM        1149733 ExtremeReactors-1.12.2-0.4.5.68.jar
+-a----         6/21/2023   8:19 AM          17601 findme-1.12.2-1.1.0-8.jar
+-a----         1/13/2026   3:11 PM        9011591 Fish's Undead Rising-1.6.0.jar
+-a----        10/14/2025   3:59 PM         219763 Fixeroo-2.3.6.jar
+-a----         9/24/2024   1:46 PM         686935 Fluid Craft for AE2-2.6.6-r.jar
+-a----         6/21/2023   8:19 AM         142536 fluiddrawers-1.12.2-1.0.7.jar
+-a----         6/21/2023   8:22 AM         475994 FluxNetworks-1.12.2-4.1.1.34.jar
+-a----          1/2/2026   2:22 PM        5399484 forestry_1.12.2-5.8.2.427.jar
+-a----         2/25/2025  12:33 PM        7054591 Forgelin-Continuous-2.1.10.0.jar
+-a----         6/21/2023   8:22 AM        1304958 ForgeMultipart-1.12.2-2.6.2.83-universal.jar
+-a----         6/21/2023   8:21 AM          79700 FpsReducer-mc1.12.2-1.20.jar
+-a----         6/21/2023   8:21 AM          90351 framedcompactdrawers-1.2.7.jar
+-a----         6/21/2023   8:21 AM         934370 FTBLib-5.4.7.2.jar
+-a----         6/21/2023   8:21 AM         425832 FTBUtilities-5.4.1.131.jar
+-a----         2/10/2026   3:14 PM         170194 Gadothaumy-1.1.3.jar
+-a----         6/21/2023   8:19 AM          54375 GameStages-1.12.2-2.0.123.jar
+-a----         6/21/2023   8:20 AM        1856305 gendustry-1.6.5.8-mc1.12.2.jar
+-a----         6/21/2023   8:20 AM          67472 gendustryjei-1.0.2.jar
+-a----        10/17/2024   8:12 PM          34280 glassential-1.12.2-1.1.0.jar
+-a----         6/21/2023   8:21 AM         169528 Guide-API-1.12-2.1.8-63.jar
+-a----         6/21/2023   8:21 AM          23153 GunpowderLib-1.12.2-1.1.jar
+-a----          9/1/2025   4:18 PM         696367 HadEnoughItems_1.12.2-4.28.1.jar
+-a----          6/9/2024   5:09 PM        2539358 HammerLib-1.12.2-12.2.50.jar
+-a----         6/21/2023   8:20 AM         674868 hatchery-1.12.2-2.2.2.jar
+-a----         7/26/2023   1:52 PM          43270 HoloInventory-1.12.2-2.1.1.151.jar
+-a----         9/23/2024  12:10 PM       24070361 IceAndFireRotN-1.9.1-1.3.4.jar
+-a----         6/21/2023   8:20 AM         581963 iChunUtil-1.12.2-7.2.2.jar
+-a----         6/21/2023   8:22 AM        6360959 ImmersiveEngineering-0.12-98.jar
+-a----         6/21/2023   8:20 AM         797724 immersivepetroleum-1.12.2-1.1.10.jar
+-a----         6/21/2023   8:20 AM         152687 incontrol-1.12-3.9.18.jar
+-a----         6/21/2023   8:19 AM        1603134 industrialforegoing-1.12.2-1.12.13-237.jar
+-a----         6/21/2023   8:19 AM         907292 infinitylib-1.12.1.jar
+-a----         6/21/2023   8:21 AM           7863 InitialInventory-3.0.0.jar
+-a----        11/11/2024   5:14 PM         133361 integratedderivative-1.1.1.jar
+-a----         6/21/2023   8:19 AM        3049509 IntegratedDynamics-1.12.2-1.1.11.jar
+-a----         6/21/2023   8:21 AM         114838 integratednbt-1.2.2.jar
+-a----         6/21/2023   8:22 AM         493503 IntegratedTunnels-1.12.2-1.6.14.jar
+-a----         6/21/2023   8:20 AM         220777 IntegrationForegoing-1.12.2-1.11.jar
+-a----         6/21/2023   8:21 AM         263258 InventoryTweaks-1.63.jar
+-a----         6/21/2023   8:20 AM         956692 ironchest-1.12.2-7.0.72.847.jar
+-a----         8/27/2023   4:55 PM          46403 ItemBlacklist-1.4.3.jar
+-a----          4/2/2024   5:14 PM          18076 ItemFavorites-[1.12.2]-1.2.2.jar
+-a----         6/21/2023   8:21 AM          78935 ItemFilters-1.0.4.2.jar
+-a----         6/21/2023   8:22 AM          43129 ItemStages-1.12.2-2.0.49.jar
+-a----         6/21/2023   8:19 AM          14649 itlt-1.12.x-1.0.4.jar
+-a----         5/15/2024   7:28 PM          97182 JEI-Utilities-1.12.2-0.2.12.jar
+-a----         6/21/2023   8:20 AM         117480 jeibees-0.9.0.5-mc1.12.2.jar
+-a----         6/21/2023   8:21 AM          25196 jeiintegration_1.12.2-1.6.0.jar
+-a----         6/21/2023   8:21 AM          26491 jeivillagers-1.12-1.0.2.jar
+-a----        11/12/2024   7:06 PM        6851584 journeymap-1.12.2-5.7.1p3.jar
+-a----         6/21/2023   8:21 AM         298222 JustEnoughCalculation-1.12.2-3.2.7.jar
+-a----         6/28/2023   4:06 AM          18945 JustEnoughPetroleum-0.1.jar
+-a----         6/21/2023   8:21 AM          53675 JustEnoughReactors-1.12.2-1.1.3.61.jar
+-a----         6/21/2023   8:20 AM         222270 JustEnoughResources-1.12.2-0.9.2.60.jar
+-a----         6/21/2023   8:20 AM         398411 lazy-ae2-1.12.2-1.1.26.jar
+-a----         9/23/2024  12:10 PM          36553 LegendaryTooltips-1.12.2-1.1.11.jar
+-a----         6/21/2023   8:20 AM        1319565 Leshen-1.2.jar
+-a----         6/21/2023   8:21 AM         413920 libnine-1.12.2-1.2.1.jar
+-a----         6/21/2023   8:22 AM         884550 llibrary-1.7.20-1.12.2.jar
+-a----        11/29/2025  11:50 AM        1657412 loliasm-5.30.jar
+-a----         6/21/2023   8:20 AM           9535 lootcapacitortooltips-1.3.jar
+-a----         6/21/2023   8:20 AM          25043 LootTableTweaker-1.12.2-1.1.14.jar
+-a----         7/19/2024   3:32 AM         136587 LootTweaker-0.4.1+MC1.12.2.jar
+-a----         8/12/2023  11:31 AM         789743 lostcities-1.12-2.0.22.jar
+-a----         6/21/2023   8:20 AM        1035863 MagicBees-1.12.2-3.1.10.jar
+-a----         6/21/2023   8:21 AM         156557 malisisblocks-1.12.2-6.1.0.jar
+-a----         6/21/2023   8:20 AM        1939783 malisiscore-1.12.2-6.5.1.jar
+-a----         6/21/2023   8:19 AM        1741669 malisisdoors-1.12.2-7.3.0.jar
+-a----         6/21/2023   8:21 AM         843486 Mantle-1.12-1.3.3.55.jar
+-a----         6/21/2023   8:19 AM          39973 matc-1.0.1-hotfix.jar
+-a----         6/21/2023   8:22 AM         544856 mcjtylib-1.12-3.5.4.jar
+-a----         3/21/2024  12:50 PM         917239 Megelium Blocks-1.12.2-0.6.jar
+-a----         6/21/2023   8:21 AM        8159420 MightyEnderChicken-1.12.2-7.3.0.jar
+-a----         5/28/2025  12:10 PM          27102 minieffects-2.3.2.jar
+-a----         5/15/2024   7:28 PM          33622 MmmMmmMmmMmm-1.12-1.14.jar
+-a----         10/6/2025  10:43 AM        1712557 MoarSigns-1.12.2-6.0.0.11.jar
+-a----         6/21/2023   8:21 AM          70754 moartinkers-0.6.0.jar
+-a----         6/21/2023   8:21 AM          24645 MobStages-1.12.2-2.0.8.jar
+-a----         6/21/2023   8:21 AM          12732 modnametooltip_1.12.2-1.10.1.jar
+-a----        10/13/2023   5:10 PM         157232 Modpack Configuration Checker-1.12.2-v1.9.5.jar
+-a----         6/21/2023   8:20 AM         493285 modtweaker-4.0.20.11.jar
+-a----         6/21/2023   8:20 AM         754883 modular-routers-1.12.2-3.3.0-33.jar
+-a----         9/16/2025   5:14 PM         329262 ModularMachinery-Addons-1.2.4.jar
+-a----          1/2/2026   2:21 PM        2142064 ModularMachinery-CE-2.3.2.jar
+-a----         6/21/2023   8:21 AM          51284 moreoverlays-1.15.1-mc1.12.2.jar
+-a----         6/21/2023   8:22 AM          27237 moresoundconfig-1.0.4.jar
+-a----         6/21/2023   8:21 AM          21508 Morpheus-1.12.2-3.5.106.jar
+-a----         8/25/2025   3:15 PM          10240 morphoverlay-1.0.1.jar
+-a----         11/5/2024  11:38 AM         201591 mousetweaks-1.12.2-3.1.5.jar
+-a----         8/30/2023   8:35 PM        5185246 mowziesmobs-1.5.8.jar
+-a----         6/21/2023   8:19 AM         803400 MrTJPCore-1.12.2-2.1.4.43-universal.jar
+-a----         6/21/2023   8:21 AM          30009 MTLib-3.0.7.jar
+-a----         6/21/2023   8:22 AM           7071 MultifarmCrops-1.2.0.jar
+-a----         6/21/2023   8:20 AM         134055 MysticalAgradditions-1.12.2-1.3.2.jar
+-a----         6/21/2023   8:20 AM        1536124 MysticalAgriculture-1.12.2-1.7.5.jar
+-a----         6/21/2023   8:21 AM         426226 mysticallib-1.12.2-1.13.0.jar
+-a----         5/29/2024  12:42 PM         546938 nae2-1.6.4.jar
+-a----         10/9/2023   5:43 PM        1142687 natura-1.12.2-4.3.2.69.jar
+-a----         6/21/2023   8:19 AM         196434 NaturesCompass-1.12.2-1.8.5.jar
+-a----        11/16/2025  10:42 AM          61250 naughthirium-2.3.0.jar
+-a----          6/1/2024   1:36 PM          19451 nbtperipheral-1.1.jar
+-a----         7/15/2025   2:30 PM          24157 NoiseThreader-1.1.0.jar
+-a----        11/16/2025  10:42 AM         207598 Nothirium-1.12.2-0.4.8-beta.jar
+-a----         2/12/2025   5:18 PM        6903578 nuclearcraft-1.12.2-2.19a.jar
+-a----         6/21/2023   8:19 AM          22262 ocxnetdriver-1.0.3-b17.jar
+-a----         1/21/2026  11:03 AM          39461 omniwand-1.12.2-2.0.4.jar
+-a----         12/5/2025  10:30 AM        5470837 OpenBlocksReopened-1.12.2-1.8.3.1.jar
+-a----         2/25/2025   1:53 PM       16630142 OpenComputers-MC1.12.2-1.8.7+2502094.jar
+-a----         1/21/2025   6:07 PM          33781 opeq-1.12.2-1.0.0.jar
+-a----         6/21/2023   8:20 AM          18649 overloadedarmorbar-1.0.4g.jar
+-a----         6/21/2023   8:22 AM         328793 p455w0rdslib-1.12.2-2.3.161.jar
+-a----        12/16/2025   4:30 AM         390433 PackagedAuto-1.12.2-1.0.24.73.jar
+-a----         8/19/2025  12:01 PM          49140 PackagedAvaritia-1.12.2-1.0.3.25.jar
+-a----          9/3/2025  10:23 AM         199503 PackagedExCrafting-1.12.2-1.0.3.33.jar
+-a----         9/23/2025  12:33 PM          96725 PackagedFluidCrafting-1.12.2-1.0.0.3.jar
+-a----        12/16/2025   4:30 AM          58233 PackagingProvider-1.12.2-1.0.0.2.jar
+-a----         5/17/2024   2:17 PM          17450 particleculling-1.12.2-v1.4.3.jar
+-a----         6/21/2023   8:20 AM         472464 Patchouli-1.0-23.6.jar
+-a----         6/21/2023   8:21 AM         124724 persistency-1.2.0.jar
+-a----        11/16/2025  11:39 AM          68413 peteams-1.12.2-1.4.0.jar
+-a----         10/6/2025  10:56 AM          38683 Pillar-1.3.3.jar
+-a----          8/1/2023   8:10 PM          77207 Placebo-1.12.2-1.6.1.jar
+-a----         6/21/2023   8:22 AM        1097627 plethora-1.12.2-1.2.3.jar
+-a----          9/5/2023   5:19 PM         546442 plustic-8.0.6.jar
+-a----         6/21/2023   8:21 AM        1812973 ProjectE-1.12.2-PE1.4.1.jar
+-a----        11/25/2025   7:00 PM         389201 ProjectEZ.jar
+-a----         6/21/2023   8:21 AM        2036136 ProjectRed-1.12.2-4.9.4.120-Base.jar
+-a----         6/21/2023   8:21 AM          67384 ProjectRed-1.12.2-4.9.4.120-compat.jar
+-a----         6/21/2023   8:22 AM        1894139 ProjectRed-1.12.2-4.9.4.120-fabrication.jar
+-a----         6/21/2023   8:21 AM        3923751 ProjectRed-1.12.2-4.9.4.120-integration.jar
+-a----         6/21/2023   8:20 AM         724477 ProjectRed-1.12.2-4.9.4.120-lighting.jar
+-a----         6/21/2023   8:19 AM        2596509 ProjectRed-1.12.2-4.9.4.120-mechanical.jar
+-a----         6/21/2023   8:20 AM         501169 ProjectRed-1.12.2-4.9.4.120-world.jar
+-a----          2/2/2026   5:25 PM        2945169 QuantumThings-MC-1.12.2-1.0.7.jar
+-a----          5/1/2024   8:04 PM        5761444 railcraft-12.1.0-beta-8.jar
+-a----         8/19/2025  12:01 PM          53508 RailwayDepotWorker-1.10.1+build.25.jar
+-a----          1/2/2026   2:21 PM         342183 RandomTweaker-1.4.10.jar
+-a----         6/21/2023   8:21 AM          21519 rangedpumps-0.5.jar
+-a----         6/14/2025   1:25 PM          98093 ReachFix-1.12.2-1.1.3.jar
+-a----         6/21/2023   8:22 AM         168847 ReAuth-1.12-Forge-4.0.7.jar
+-a----         9/17/2023   4:21 PM        2285145 RebornCore-FORK-1.12.2-3.19.5-universal.jar
+-a----          8/1/2023   8:10 PM          45386 RecipeStages-1.1.3.8.jar
+-a----         6/21/2023   8:20 AM         243859 RedstoneArsenal-1.12.2-2.6.6.1-universal.jar
+-a----         6/21/2023   8:22 AM          31802 RedstoneFlux-1.12-2.1.1.1-universal.jar
+-a----         7/11/2025   2:18 PM          33578 reim-0.2.jar
+-a----         6/21/2023   8:21 AM        1247278 Reliquary-1.12.2-1.3.4.796.jar
+-a----         6/14/2025   1:24 PM         290334 RenderLib-1.12.2-1.4.5.jar
+-a----         6/21/2023   8:19 AM          16612 ResourceLoader-MC1.12.1-1.5.3.jar
+-a----          1/8/2024   7:38 AM          21409 restrictplayerinterfaces-1.2.0.jar
+-a----         6/21/2023   8:20 AM        2895803 rftools-1.12-7.73.jar
+-a----         6/21/2023   8:21 AM        1682421 rftoolsdim-1.12-5.71.jar
+-a----         6/21/2023   8:21 AM         335854 roost-1.12.2-2.0.10.jar
+-a----        10/13/2023   5:11 PM          78024 rotm-1.12.2-1.1.4.jar
+-a----          2/3/2026  11:17 AM         787358 RoughlyEnoughIDs-2.2.4.jar
+-a----         9/27/2024  12:56 PM          20454 ScaffoldingBackported-1.0.1.jar
+-a----         8/19/2025  12:01 PM       25464431 Scalar Legacy-1.0.1.jar
+-a----         6/21/2023   8:21 AM         252718 Scannable-MC1.12.2-1.6.3.26.jar
+-a----         3/16/2024   3:33 PM         511085 serializationisbad-1.5.2.jar
+-a----         1/21/2026  11:03 AM        4995710 sfm-1.12.2-4.1.0.jar
+-a----         6/21/2023   8:21 AM          19865 Simple-Void-World-1.12-1.2.0.9-universal.jar
+-a----         6/21/2023   8:21 AM          51327 simpletrophies-1.2.2.1.jar
+-a----         6/21/2023   8:20 AM         728575 SimplyJetpacks2-1.12.2-2.2.20.0.jar
+-a----         5/28/2024   5:22 PM        1354215 Sledgehammer-1.12.2-2.0.26-thin.jar
+-a----         6/21/2023   8:22 AM         283749 SmoothFont-mc1.12.2-2.1.4.jar
+-a----         6/21/2023   8:22 AM         641217 solcarrot-1.12.2-1.8.4.jar
+-a----         6/21/2023   8:22 AM         201807 SoulShardsRespawn-1.12.2-1.1.1-13.jar
+-a----          2/6/2024   1:44 PM           6373 soundreloader-1.2-1.12.2.jar
+-a----        11/28/2023   6:31 PM        2228992 spark-forge1122.jar
+-a----         1/30/2026  10:48 AM         225967 spellarchives-0.5.5.jar
+-a----          1/3/2024   9:30 AM          11244 startuptimer-1.1.0.jar
+-a----          5/2/2025  11:41 AM        1342013 StellarCore-1.5.22.jar
+-a----         6/21/2023   8:19 AM          32409 storagecabinet-1.2.0.jar
+-a----        12/13/2024  12:47 PM         621871 StorageDrawers-1.12.2-5.5.3.jar
+-a----          2/3/2026  11:17 AM         282853 supermobtracker-1.2.4.jar
+-a----         6/21/2023   8:20 AM          80841 supersoundmuffler-revived_1.12.2_1.0.2.10.jar
+-a----         6/21/2023   8:21 AM       18696214 tardis-0.1.4A.jar
+-a----         6/21/2023   8:20 AM        2737024 TechReborn-1.12.2-2.27.3.1084-universal.jar
+-a----          8/1/2023   5:42 PM        1139012 tesla-core-lib-1.12.2-1.0.18.jar
+-a----         6/21/2023   8:20 AM         129448 Tesslocator-1.1.0.15.jar
+-a----         6/21/2023   8:20 AM         771958 TFSpellPack-1.1.0-MC1.12.2.jar
+-a----         6/21/2023   8:19 AM       11360786 Thaumcraft-1.12.2-6.1.BETA26.jar
+-a----         12/5/2025  10:30 AM         982209 ThaumcraftFix-1.12.2-1.1.9.jar
+-a----         3/21/2025   7:04 PM        1101878 thaumic-energistics-extended-life-1.12.2-2.3.5.jar
+-a----          6/9/2024   4:59 PM        5370199 ThaumicAdditions-1.12.2-12.7.9.jar
+-a----         1/10/2025   2:04 PM        8220792 ThaumicAugmentation-1.12.2-2.1.14.jar
+-a----         6/21/2023   8:21 AM          17224 ThaumicInventoryScanning_1.12.2-2.0.10.jar
+-a----          9/2/2024   1:42 PM          58100 ThaumicJEI-1.12.2-1.7.0.jar
+-a----        11/12/2025   1:40 PM        2643907 thaumictinkerer-1.12.2-5.9.15-Unofficial.jar
+-a----         1/12/2026  11:25 AM        2809284 thaumicwonders-2.2.3.jar
+-a----         6/21/2023   8:21 AM      141233401 TheBetweenlands-3.8.1-universal.jar
+-a----         6/21/2023   8:22 AM         301893 theoneprobe-1.12-1.4.28.jar
+-a----         6/21/2023   8:20 AM          98845 ThermalCultivation-1.12.2-0.3.6.1-universal.jar
+-a----         6/21/2023   8:22 AM         728082 ThermalDynamics-1.12.2-2.5.6.1-universal.jar
+-a----         6/22/2023  10:07 AM        2345139 ThermalExpansion-1.12.2-5.5.7.1-universal.jar
+-a----         6/21/2023   8:19 AM        2219736 ThermalFoundation-1.12.2-2.6.7.1-universal.jar
+-a----         6/21/2023   8:20 AM         182379 ThermalInnovation-1.12.2-0.3.6.1-universal.jar
+-a----        12/18/2025   3:24 AM        4559588 TinkersAntique-1.12.2-2.13.0.205.jar
+-a----         6/21/2023   8:20 AM          95850 TinkerToolLeveling-1.12.2-1.1.0.jar
+-a----         6/21/2023   8:20 AM        5770361 tinker_io-1.12.2-rw2.8.3.jar
+-a----         6/21/2023   8:21 AM          64220 TinyMobFarm-1.12.2-1.0.5.jar
+-a----         6/21/2023   8:20 AM          11641 TipTheScales-1.12.2-1.0.4.jar
+-a----         10/6/2023   1:51 PM          75451 togetherforever-1.12.2-1.0.12-22.jar
+-a----         5/11/2025   6:52 PM        1573568 tombstone-1.12.2-4.7.5.jar
+-a----         6/21/2023   8:21 AM         243603 topaddons-1.12.2-1.13.0.jar
+-a----         11/5/2024  11:53 AM         242273 torcherino-7.8.6.jar
+-a----         6/21/2023   8:20 AM         156406 torchmaster_1.12.2-1.8.5.0.jar
+-a----         6/21/2023   8:19 AM          66307 torohealth-1.12.2-11.jar
+-a----          5/5/2024  12:49 PM          78867 tweakedexcavation-2.0.1.jar
+-a----        10/19/2024   3:11 PM          46078 tweakedlib-2.0.1.jar
+-a----         6/21/2023   8:19 AM       28721862 twilightforest-1.12.2-3.11.1021-universal.jar
+-a----          1/4/2024   7:37 AM          41016 uberconduitprobe-1.0.3.jar
+-a----         6/21/2023   8:20 AM         225385 UniDict-1.12.2-3.0.10.jar
+-a----          1/2/2026   2:21 PM        1808058 UniversalTweaks-1.12.2-1.18.0.jar
+-a----          4/2/2024   5:14 PM          28300 UnknownLibs-1.1.2.jar
+-a----         6/21/2023   8:22 AM         124777 UnlimitedChiselWorks-0.3.5.jar
+-a----         1/23/2026   5:34 PM          35029 vajra-v0.1.1.jar
+-a----         6/21/2023   8:19 AM         733580 valkyrielib-1.12.2-2.0.20.1.jar
+-a----         6/21/2023   8:22 AM         206121 variegated-1.2.7.jar
+-a----          6/4/2025   3:36 PM        1034861 vintagefix-0.6.2.jar
+-a----         6/21/2023   8:20 AM         180135 WanionLib-1.12.2-2.5.jar
+-a----         6/21/2023   8:21 AM         879720 woot-1.12.2-1.4.11.jar
+-a----         6/21/2023   8:21 AM         364036 WR-CBE-1.12.2-2.3.2.33-universal.jar
+-a----          9/6/2025  11:28 AM         514419 XNet-1.8.17.jar
+-a----         6/21/2023   8:21 AM         456054 Xtones-1.2.2.jar
+-a----         5/29/2025   3:50 PM         104614 XU2-Patcher-1.0.2.jar
+-a----        11/16/2025  10:43 AM         703988 zenutils-1.26.5.jar
+-a----         6/21/2023   8:21 AM         227426 zerocore-1.12.2-0.1.2.9.jar
+-a----         5/17/2024   2:17 PM        1119478 _MixinBootstrap-1.1.0.jar
+-a----         7/18/2025  11:34 AM        1290474 `FermiumBooter-1.3.1.jar

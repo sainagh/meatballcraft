@@ -69,3 +69,15 @@ recipes.addShaped(<abyssalcraft:gatewaykeyjzh>,
 
 
 mods.thermalexpansion.EnervationDynamo.removeFuel(<plustic:laser_gun>);
+
+
+
+recipes.addShaped(<abyssalcraft:carboncluster>*8,
+[[null, <abyssalcraft:crystal:3>, null],
+[<abyssalcraft:crystal:3>, <extrabees:misc:18>, <abyssalcraft:crystal:3>],
+[null, <abyssalcraft:crystal:3>, null]]);
+
+recipes.addShaped(<abyssalcraft:carboncluster>*64,
+[[<extrabees:misc:18>, <abyssalcraft:crystal:3>, <extrabees:misc:18>],
+[<abyssalcraft:crystal:3>, <extrabees:misc:1>, <abyssalcraft:crystal:3>],
+[<extrabees:misc:18>, <abyssalcraft:crystal:3>, <extrabees:misc:18>]]);

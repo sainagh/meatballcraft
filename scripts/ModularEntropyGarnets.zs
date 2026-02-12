@@ -140,10 +140,10 @@ mods.botania.ManaInfusion.addInfusion(<contenttweaker:cracked_naquadah_chunk>, <
 
 mods.astralsorcery.StarlightInfusion.addInfusion(<contenttweaker:cracked_naquadah_chunk>, <contenttweaker:naquadah_core>, true, 0.1, 100);
 
-mods.nuclearcraft.infuser.addRecipe([<contenttweaker:naquadah_core>, <fluid:unholy_radioactive_mix>*2, <contenttweaker:irradiated_naquadah_core>, 1.0, 1.0, 0.1]);
-mods.nuclearcraft.infuser.addRecipe([<contenttweaker:naquadah_core>*16, <fluid:infinitely_unholy_radioactive_mix>*1, <contenttweaker:irradiated_naquadah_core>*16, 1.0, 1.0, 0.1]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:naquadah_core>, <fluid:unholy_radioactive_mix>*2, <contenttweaker:irradiated_naquadah_core>]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:naquadah_core>*16, <fluid:infinitely_unholy_radioactive_mix>*1, <contenttweaker:irradiated_naquadah_core>*16]);
 
-mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:irradiated_naquadah_core>, <ore:blockLead>*25, <contenttweaker:naquadah_ingot>, 1.0, 1.0, 0.1]);
+mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:irradiated_naquadah_core>, <ore:blockLead>*25, <contenttweaker:naquadah_ingot>]);
 
 mods.nuclearcraft.pressurizer.addRecipe([<contenttweaker:naquadah_ingot>, <contenttweaker:naquadah_plate>]);
 

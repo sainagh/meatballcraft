@@ -48,14 +48,13 @@ recipes.addShaped(<contenttweaker:unfathomable_breaker>,
 [<contenttweaker:compressed_mana_rune>, <erebus:antlion_egg>, <contenttweaker:compressed_mana_rune>],
 [<contenttweaker:compressed_mana_rune>, <contenttweaker:compressed_mana_rune>, <contenttweaker:compressed_mana_rune>]]);
 
-val cauldron9 = RecipeBuilder.newBuilder("autocauldronmanastone","terrestrial_cauldron",10);
-cauldron9.addFluidInput(<fluid:water>*1000);
-cauldron9.addFluidInput(<fluid:lava>*1000);
-cauldron9.addItemInput(<contenttweaker:demonic_manastone>);
-cauldron9.addItemInput(<bewitchment:sanguine_cloth>*4);
-cauldron9.addItemOutput(<contenttweaker:manastone_dust>);
-cauldron9.addItemOutput(<contenttweaker:demonic_manastone>);
-cauldron9.build();
+recipes.addShaped(<contenttweaker:everbloody_manastone>,
+[[<contenttweaker:berserker_steel_ingot>, <contenttweaker:bloodshed_fabric>, <contenttweaker:berserker_steel_ingot>],
+[<contenttweaker:bloodshed_fabric>, <contenttweaker:demonic_manastone>, <contenttweaker:bloodshed_fabric>],
+[<contenttweaker:berserker_steel_ingot>, <contenttweaker:bloodshed_fabric>, <contenttweaker:berserker_steel_ingot>]]);
+
+
+
 
 val makemanaez = RecipeBuilder.newBuilder("makemanaez","dragonfire_forge",100);
 makemanaez.addItemInput(<contenttweaker:manastone_dust>);
@@ -102,6 +101,11 @@ recipes.addShaped(<contenttweaker:vengeful_key>,
 [[<dimdoors:unravelled_fabric>, <dimdoors:unravelled_fabric>, <dimdoors:unravelled_fabric>],
 [<dimdoors:unravelled_fabric>, <contenttweaker:limbo_warper>.reuse(), <dimdoors:unravelled_fabric>],
 [<dimdoors:unravelled_fabric>, <dimdoors:unravelled_fabric>, <dimdoors:unravelled_fabric>]]);
+
+recipes.addShaped(<contenttweaker:vengeful_asgardian_crystal>,
+[[<contenttweaker:mortum_star>, <contenttweaker:rune_of_valhalla>, <contenttweaker:mortum_star>],
+[<contenttweaker:attuned_fluix_construct>, <contenttweaker:vengeful_key>.reuse(), <contenttweaker:attuned_fluix_construct>],
+[<contenttweaker:mortum_star>, <contenttweaker:terrasteel_crystal>, <contenttweaker:mortum_star>]]);
 
 recipes.addShaped(<contenttweaker:retaliation_key>,
 [[<contenttweaker:destructive_crystal_cluster>.reuse(), <bloodarsenal:blood_diamond:2>, <contenttweaker:steadfast_crystal_cluster>.reuse()],
@@ -536,10 +540,36 @@ recipes.addShaped(<enderio:item_basic_capacitor:3>.withTag({eiocap: {energy_buff
 [<contenttweaker:warren_shard>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:warren_shard>]]);
 
 
-recipes.addShaped(<enderio:item_basic_capacitor:3>.withTag({eiocap: {energy_buffer: 9.00 as float, level: 9.00 as float, energy_intake: 9.00 as float, "enderio:block_combustion_generator/gen": 3.983839 as float}, "enderio:capname": "Warren Capacitor",display:{Name:"Warren Capacitor"},"enderio:capno":1,"enderio:glinted":1}),
+recipes.addShaped(<enderio:item_basic_capacitor:3>.withTag({eiocap: {energy_buffer: 9.00 as float, level: 9.00 as float, energy_intake: 9.00 as float, "enderio:block_combustion_generator/gen": 3.983839 as float}, "enderio:capname": "Cosmic Fracture Capacitor",display:{Name:"Cosmic Fracture Capacitor"},"enderio:capno":1,"enderio:glinted":1}),
 [[<contenttweaker:cosmic_fracture>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:cosmic_fracture>],
 [<contenttweaker:dark_capacitor_shard>, <enderio:item_capacitor_stellar>, <contenttweaker:dark_capacitor_shard>],
 [<contenttweaker:cosmic_fracture>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:cosmic_fracture>]]);
+
+recipes.addShaped(<enderio:item_basic_capacitor:3>.withTag({eiocap: {energy_buffer: 12.00 as float, level: 12.00 as float, energy_intake: 12.00 as float, "enderio:block_combustion_generator/gen": 3.983839 as float}, "enderio:capname": "Sacred Cinders Capacitor",display:{Name:"Sacred Cinders Capacitor"},"enderio:capno":1,"enderio:glinted":1}),
+[[<contenttweaker:sacred_cinders_fruit>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:sacred_cinders_fruit>],
+[<contenttweaker:dark_capacitor_shard>, <enderio:item_capacitor_stellar>, <contenttweaker:dark_capacitor_shard>],
+[<contenttweaker:sacred_cinders_fruit>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:sacred_cinders_fruit>]]);
+
+recipes.addShaped(<enderio:item_basic_capacitor:3>.withTag({eiocap: {energy_buffer: 15.00 as float, level: 15.00 as float, energy_intake: 15.00 as float, "enderio:block_combustion_generator/gen": 3.983839 as float}, "enderio:capname": "Prophetic Capacitor",display:{Name:"Prophetic Capacitor"},"enderio:capno":1,"enderio:glinted":1}),
+[[<contenttweaker:prophetic_paper>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:prophetic_paper>],
+[<contenttweaker:dark_capacitor_shard>, <enderio:item_capacitor_stellar>, <contenttweaker:dark_capacitor_shard>],
+[<contenttweaker:prophetic_paper>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:prophetic_paper>]]);
+
+recipes.addShaped(<enderio:item_basic_capacitor:3>.withTag({eiocap: {energy_buffer: 20.00 as float, level: 20.00 as float, energy_intake: 20.00 as float, "enderio:block_combustion_generator/gen": 3.983839 as float}, "enderio:capname": "Defined Capacitor",display:{Name:"Defined Capacitor"},"enderio:capno":1,"enderio:glinted":1}),
+[[<contenttweaker:defined_ingot>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:defined_ingot>],
+[<contenttweaker:dark_capacitor_shard>, <enderio:item_capacitor_stellar>, <contenttweaker:dark_capacitor_shard>],
+[<contenttweaker:defined_ingot>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:defined_ingot>]]);
+
+recipes.addShaped(<enderio:item_basic_capacitor:3>.withTag({eiocap: {energy_buffer: 25.00 as float, level: 25.00 as float, energy_intake: 25.00 as float, "enderio:block_combustion_generator/gen": 3.983839 as float}, "enderio:capname": "Time Lord Capacitor",display:{Name:"Time Lord Capacitor"},"enderio:capno":1,"enderio:glinted":1}),
+[[<contenttweaker:perfected_gallifreyan_alloy>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:perfected_gallifreyan_alloy>],
+[<contenttweaker:dark_capacitor_shard>, <enderio:item_capacitor_stellar>, <contenttweaker:dark_capacitor_shard>],
+[<contenttweaker:perfected_gallifreyan_alloy>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:perfected_gallifreyan_alloy>]]);
+
+recipes.addShaped(<enderio:item_basic_capacitor:3>.withTag({eiocap: {energy_buffer: 30.00 as float, level: 30.00 as float, energy_intake: 30.00 as float, "enderio:block_combustion_generator/gen": 3.983839 as float}, "enderio:capname": "Spren Capacitor",display:{Name:"Spren Capacitor"},"enderio:capno":1,"enderio:glinted":1}),
+[[<contenttweaker:freedomsteel_ingot>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:freedomsteel_ingot>],
+[<contenttweaker:dark_capacitor_shard>, <enderio:item_capacitor_stellar>, <contenttweaker:dark_capacitor_shard>],
+[<contenttweaker:freedomsteel_ingot>, <contenttweaker:dark_capacitor_shard>, <contenttweaker:freedomsteel_ingot>]]);
+
 
 
 // hand core sample drill
@@ -548,4 +578,23 @@ recipes.addShaped(<contenttweaker:core_sample_hand_drill>,
 [[<ore:blockSheetmetalConstantan>, <extrabees:honey_comb:36>, <ore:blockSheetmetalConstantan>],
 [<immersiveengineering:coresample>, <immersiveengineering:metal_device1:7>, <immersiveengineering:coresample>],
 [<ore:blockSheetmetalConstantan>, <techreborn:advanceddrill>, <ore:blockSheetmetalConstantan>]]);
+
+
+
+// dense redstone
+
+recipes.addShapeless(<contenttweaker:crying_redstone>*5,
+[<contenttweaker:crying_obsidian_powder>,
+<contenttweaker:crying_obsidian_powder>,
+<contenttweaker:crying_obsidian_powder>,
+<contenttweaker:crying_obsidian_powder>,
+<minecraft:redstone>,
+<minecraft:redstone>,
+<minecraft:redstone>,
+<minecraft:redstone>,
+<minecraft:redstone>]);
+
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:crying_obsidian_powder>, <fluid:otherworldly_tears>*10, <contenttweaker:crying_obsidian_powder>*4]);
+
+mods.nuclearcraft.pressurizer.addRecipe([<contenttweaker:crying_redstone>*4, <contenttweaker:dense_redstone>]);
 

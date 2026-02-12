@@ -1843,5 +1843,155 @@
       "entityOffsetX": 10,
       "entityOffsetY": 20
     }
+  },
+  {
+    "id": "sunstorm",
+    "displayName": "Sunstorm",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "divinerpg:eden_heart,1,0"
+    ],
+    "associatedMobs": [
+      "divinerpg:sunstorm"
+    ],
+    "lootItems": [
+      "divinerpg:eden_heart,2,0",
+      "contenttweaker:bloodmaster_metal_chest",
+      "divinerpg:raw_empowered_meat,8,0",
+      "minecraft:rotten_flesh,32,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "First time?",
+        "Only the first Mythic Shell."
+      ],
+      "entity": "divinerpg:sunstorm",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "termasect",
+    "displayName": "Termasect",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "divinerpg:wildwood_heart,1,0"
+    ],
+    "associatedMobs": [
+      "divinerpg:termasect"
+    ],
+    "lootItems": [
+      "divinerpg:wildwood_heart,2,0",
+      "aoa3:rammerhead_hide,8,0",
+      "divinerpg:magic_meat,8,0",
+      "abyssalcraft:ethaxiumingot,4,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Lightning does not strike twice.",
+        "Or does it?"
+      ],
+      "entity": "divinerpg:termasect",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "eternalarcher",
+    "displayName": "Eternal Archer",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "divinerpg:apalachia_heart,1,0"
+    ],
+    "associatedMobs": [
+      "divinerpg:eternal_archer"
+    ],
+    "lootItems": [
+      "divinerpg:apalachia_heart,2,0",
+      "thebetweenlands:spirit_fruit,8,0",
+      "divinerpg:enriched_magic_meat,8,0",
+      "abyssalcraft:shadowgem,8,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Third time the charm?",
+        "Not even close!"
+      ],
+      "entity": "divinerpg:eternal_archer",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "experiencedcori",
+    "displayName": "Experienced Cori",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "divinerpg:skythern_heart,1,0"
+    ],
+    "associatedMobs": [
+      "divinerpg:experienced_cori"
+    ],
+    "lootItems": [
+      "divinerpg:skythern_heart,2,0",
+      "divinerpg:divine_stone,4,0",
+      "divinerpg:bluefire_stone,4,0",
+      "actuallyadditions:item_misc,60,20"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "404",
+        "Not found!"
+      ],
+      "entity": "divinerpg:experienced_cori",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "beastsofmortum",
+    "displayName": "Beasts of Mortum",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "divinerpg:mortum_heart,1,0"
+    ],
+    "associatedMobs": [
+      "divinerpg:vamacheron",
+      "divinerpg:karot",
+      "divinerpg:densos",
+      "divinerpg:reyvor",
+      "divinerpg:twilight_demon",
+      "divinerpg:soul_fiend"
+    ],
+    "lootItems": [
+      "divinerpg:mortum_heart,2,0",
+      "divinerpg:divine_stone,4,0",
+      "divinerpg:bluefire_stone,4,0",
+      "iceandfire:hydra_fang,40,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Rebound mythic shell?",
+        "...Sure!"
+      ],
+      "entity": "divinerpg:karot",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
   }
 ]

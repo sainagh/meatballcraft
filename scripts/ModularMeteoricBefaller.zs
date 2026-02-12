@@ -258,7 +258,7 @@ befaller10.addItemOutput(<aoa3:runium_ore>*64);
 befaller10.build();
 
 
-mods.bloodmagic.AlchemyTable.addRecipe(<aoa3:lunar_ingot>*4, [<bloodmagic:cutting_fluid:*>, <contenttweaker:bound_lunar_stone>], 1, 5, 3);
+mods.bloodmagic.AlchemyTable.addRecipe(<aoa3:lunar_ingot>*16, [<bloodmagic:cutting_fluid:*>, <contenttweaker:bound_lunar_stone>], 1, 5, 3);
 
 recipes.addShaped(<bloodmagic:cutting_fluid:0>,
 [[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 1}), <aoa3:magic_repair_dust>]]);

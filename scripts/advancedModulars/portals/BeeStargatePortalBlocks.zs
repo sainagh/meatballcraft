@@ -153,6 +153,11 @@ setPortalProps(homeboundportal);
 setPortalHomebound(homeboundportal);
 homeboundportal.register();
 
+var crepuscularportal = VanillaFactory.createExpandBlock("crepuscular_portal_block", <blockmaterial:glass>);
+setPortalProps(crepuscularportal);
+setPortalTwilightforest(crepuscularportal);
+crepuscularportal.register();
+
 
 function setPortalProps(block as Block) as Block {
   block.setBlockHardness(-1.0);
@@ -238,3 +243,23 @@ function setPortalHomebound(block as Block) as Block {
   return block;
 }
 
+
+// construct special teleport
+function setPortalTwilightforest(block as Block) as Block {
+  block.onEntityCollidedWithBlock = function(world, pos, state, entity) {
+    if (world.isRemote() || entity.world.time % 20 != 0 || !(entity instanceof IPlayer)) {
+      return;
+    }
+    var player as IPlayer = entity;
+    // CoT type -> native type
+    var blockPos as BlockPos = BlockPos(pos.x, pos.y, pos.z);
+    var entityBB = entity.native.getEntityBoundingBox();
+    // Ugly casting because of CoT types
+    var blockBB = (state as IBlockState).native.getBoundingBox(entity.world.native, blockPos);
+    if (!entity.isRiding && !entity.isBeingRidden && entityBB.intersects(blockBB.offset(blockPos))) {
+      Commands.call("tp @p ~ ~20 ~", player, world, true, true);
+      Commands.call("summon aoa3:realmshifter ~4 ~ ~4 {Invulnerable:1,PersistenceRequired:1,HandItems:[{Count:1,id:\"contenttweaker:unforgotten_summons\"},{}],HandDropChances:[0.0f,0.0f],CustomName:\"Heir of the Summoned Hero\"}", player, world, true, true);
+    }
+  };
+  return block;
+}

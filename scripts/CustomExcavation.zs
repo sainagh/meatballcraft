@@ -25,7 +25,7 @@ mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:matrix_ore>, <aoa3:sh
 val runicoredict = <ore:oreRunic>;
 runicoredict.add(<contenttweaker:runic_ore>);
 
-mods.immersiveengineering.Excavator.addMineral("Runic", 80, 0.0001, ["oreRunic"], [1.0], [819]);
+mods.immersiveengineering.Excavator.addMineral("Runic", 80, 0.0001, ["oreRunic", "oreLivingGold"], [0.5, 0.5], [819]);
 
 
 

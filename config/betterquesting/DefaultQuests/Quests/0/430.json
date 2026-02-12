@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Out of the things I expected to get out of this, a weapon was not what I thought of, but wow, this is nice!",
+      "desc:8": "Out of the things I expected to get out of this, a weapon was not what I thought of, but wow, this is nice!\nThe history of Creeponia is not as one-sided as I expected, given the horrible existence its inhabitants must endure.\nIn their own way, they tried to rebel.\nThrough unnoticingly small and incremental acts of magic, C.R.E.E.P, one of the few enduring members of Creeper society (if we can call it a society), changed some of its members, evolving their detonations into magic explosions, which were likely meant for the leaders of the Shyre Empire\nThis struggle for self determination, in its brutality, brings me quite a lot of hope, actually. Life, even when created artificially for heinous purposes, affims itself, affirms its own will. \n\"Look at me. I am a weapon. I will die. I must die. And yet, I will try change something.\"\nThis is the voice of Creeponia, the voice of its struggle.\nOne I will now carry, in the form of what I possibly the most powerful weapon I have seen until now.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "xreliquary:magicbane"
       },
-      "name:8": "Magicbane"
+      "name:8": "Magicbanner Explosives"
     }
   },
   "questID:3": 430,
@@ -20,6 +20,10 @@
         "0:10": {
           "Count:3": 1,
           "id:8": "xreliquary:magicbane"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:magicbane_callstone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

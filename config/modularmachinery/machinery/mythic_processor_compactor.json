@@ -20,6 +20,37 @@
                 "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 4
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 4
+            }]
+        },
+        {
+            "elements": "contenttweaker:mythic_coil_t3@0",
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "description": "16X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 16
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 16
             }]
         }
     ],
@@ -197,7 +228,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "generalized_output_item"
+                "both_item_fluid_output"
             ]
         },
         {

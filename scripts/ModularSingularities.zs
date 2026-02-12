@@ -633,6 +633,42 @@ quantumcondborax.addItemInput(<ore:dustBorax>*5056);
 quantumcondborax.addItemOutput(<extendedcrafting:singularity_custom:2054>);
 quantumcondborax.build();
 
+val quantumcondeverfusor = RecipeBuilder.newBuilder("quantumcondeverfusor","quantum_condenser",4);
+quantumcondeverfusor.addEnergyPerTickInput(500000);
+quantumcondeverfusor.addItemInput(<contenttweaker:everlasting_fusor>);
+quantumcondeverfusor.setChance(0.0);
+quantumcondeverfusor.addItemInput(<contenttweaker:stable_fusor>*100);
+quantumcondeverfusor.addItemOutput(<contenttweaker:everlasting_fusor>);
+quantumcondeverfusor.build();
 
+val quantumcondpetrifiedfluix = RecipeBuilder.newBuilder("quantumcondpetrifiedfluix","quantum_condenser",4);
+quantumcondpetrifiedfluix.addEnergyPerTickInput(500000);
+quantumcondpetrifiedfluix.addItemInput(<contenttweaker:petrified_fluix>*5056);
+quantumcondpetrifiedfluix.addItemOutput(<contenttweaker:condensed_petrified_fluix>*256);
+quantumcondpetrifiedfluix.build();
+
+val quantumcondenergetalloy = RecipeBuilder.newBuilder("quantumcondenergetalloy","quantum_condenser",4);
+quantumcondenergetalloy.addEnergyPerTickInput(500000);
+quantumcondenergetalloy.addItemInput(<ore:ingotEnergeticAlloy>*5056);
+quantumcondenergetalloy.addItemOutput(<extendedcrafting:singularity_custom:2055>);
+quantumcondenergetalloy.build();
+
+val quantumconddarksteel = RecipeBuilder.newBuilder("quantumconddarksteel","quantum_condenser",4);
+quantumconddarksteel.addEnergyPerTickInput(500000);
+quantumconddarksteel.addItemInput(<ore:ingotDarkSteel>*5056);
+quantumconddarksteel.addItemOutput(<extendedcrafting:singularity_custom:2056>);
+quantumconddarksteel.build();
+
+val quantumcondvibrantall = RecipeBuilder.newBuilder("quantumcondvibrantall","quantum_condenser",4);
+quantumcondvibrantall.addEnergyPerTickInput(500000);
+quantumcondvibrantall.addItemInput(<ore:ingotVibrantAlloy>*5056);
+quantumcondvibrantall.addItemOutput(<extendedcrafting:singularity_custom:2057>);
+quantumcondvibrantall.build();
+
+val quantumcondendsteel = RecipeBuilder.newBuilder("quantumcondendsteel","quantum_condenser",4);
+quantumcondendsteel.addEnergyPerTickInput(500000);
+quantumcondendsteel.addItemInput(<ore:ingotEndSteel>*5056);
+quantumcondendsteel.addItemOutput(<extendedcrafting:singularity_custom:2058>);
+quantumcondendsteel.build();
 
 

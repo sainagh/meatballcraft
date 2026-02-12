@@ -8,7 +8,7 @@
             "x": 0,
             "y": 6,
             "z": 1,
-            "description": "Replace top block for faster recipes, 5X faster",
+            "description": "5X speed",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -21,12 +21,25 @@
             "x": 0,
             "y": 6,
             "z": 1,
-            "description": "Replace top block for faster recipes, 20X faster",
+            "description": "20X speed",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.05
+            }
+        },
+        {
+            "elements": "avaritia:block_resource@1",
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "description": "50X speed",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.02
             }
         }
     ],
@@ -108,7 +121,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "generalized_output_item"
+                "both_item_fluid_output"
             ]
         },
         {

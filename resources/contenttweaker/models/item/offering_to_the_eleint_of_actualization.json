@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/offering_to_the_eleint_of_actualization"
+  }
+}

@@ -18,7 +18,7 @@ aesirresonator1.addEssentiaInput("permutatio",100);
 aesirresonator1.addItemInput(<contenttweaker:whisper_of_natureal_law>);
 aesirresonator1.addItemInput(<contenttweaker:fractal_fragment_natural_law>);
 aesirresonator1.addItemOutput(<contenttweaker:fractal_fragment_natural_law>*2);
-aesirresonator1.addItemOutput(<biomesoplenty:terrestrial_artifact>*16);
+aesirresonator1.addItemOutput(<biomesoplenty:terrestrial_artifact>*1);
 aesirresonator1.build();
 
 val aesirresonator2 = RecipeBuilder.newBuilder("aesirresonator2","aesir_resonator",2);
@@ -121,9 +121,75 @@ aesirresonator7.addEssentiaInput("permutatio",100);
 aesirresonator7.addItemInput(<contenttweaker:speech_of_natural_law>);
 aesirresonator7.addItemInput(<contenttweaker:fractal_fragment_natural_law>);
 aesirresonator7.addItemOutput(<contenttweaker:fractal_fragment_natural_law>*8);
-aesirresonator7.addItemOutput(<biomesoplenty:terrestrial_artifact>*16);
+aesirresonator7.addItemOutput(<biomesoplenty:terrestrial_artifact>*1);
 aesirresonator7.build();
 
+val aesirresonator8 = RecipeBuilder.newBuilder("aesirresonator8","aesir_resonator",2);
+aesirresonator8.addEssentiaInput("mortuus",4);
+aesirresonator8.addEssentiaInput("stellae",4);
+aesirresonator8.addEssentiaInput("vacuos",4);
+aesirresonator8.addEssentiaInput("permutatio",4);
+aesirresonator8.addItemInput(<contenttweaker:recursion_fragment_asgard>);
+aesirresonator8.addItemInput(<contenttweaker:galactic_dust>*64);
+aesirresonator8.addItemOutput(<contenttweaker:bifrost_warren_dust>*64);
+aesirresonator8.addItemOutput(<contenttweaker:bifrost_warren_dust>*64);
+aesirresonator8.build();
 
+
+val aesirresonator9 = RecipeBuilder.newBuilder("aesirresonator9","aesir_resonator",2);
+aesirresonator9.addEssentiaInput("terra",1);
+aesirresonator9.addItemInput(<contenttweaker:fiery_pyrite>*64);
+aesirresonator9.addItemInput(<contenttweaker:serpentine>*64);
+aesirresonator9.addItemOutput(<contenttweaker:serpentine>*64);
+aesirresonator9.addItemOutput(<contenttweaker:serpentine>*64);
+aesirresonator9.build();
+
+val aesirresonator10 = RecipeBuilder.newBuilder("aesirresonator10","aesir_resonator",2);
+aesirresonator10.addEssentiaInput("terra",1);
+aesirresonator10.addItemInput(<contenttweaker:fiery_pyrite>*64);
+aesirresonator10.addItemInput(<contenttweaker:travertine>*64);
+aesirresonator10.addItemOutput(<contenttweaker:travertine>*64);
+aesirresonator10.addItemOutput(<contenttweaker:travertine>*64);
+aesirresonator10.build();
+
+val aesirresonator11 = RecipeBuilder.newBuilder("aesirresonator11","aesir_resonator",2);
+aesirresonator11.addEssentiaInput("terra",1);
+aesirresonator11.addItemInput(<contenttweaker:fiery_pyrite>*64);
+aesirresonator11.addItemInput(<contenttweaker:pink_marble>*64);
+aesirresonator11.addItemOutput(<contenttweaker:pink_marble>*64);
+aesirresonator11.addItemOutput(<contenttweaker:pink_marble>*64);
+aesirresonator11.build();
+
+val aesirresonator12 = RecipeBuilder.newBuilder("aesirresonator12","aesir_resonator",2);
+aesirresonator12.addEssentiaInput("terra",1);
+aesirresonator12.addItemInput(<contenttweaker:fiery_pyrite>*64);
+aesirresonator12.addItemInput(<contenttweaker:onyx>*64);
+aesirresonator12.addItemOutput(<contenttweaker:onyx>*64);
+aesirresonator12.addItemOutput(<contenttweaker:onyx>*64);
+aesirresonator12.build();
+
+val aesirresonator13 = RecipeBuilder.newBuilder("aesirresonator13","aesir_resonator",2);
+aesirresonator13.addEssentiaInput("terra",1);
+aesirresonator13.addItemInput(<contenttweaker:fiery_pyrite>*64);
+aesirresonator13.addItemInput(<contenttweaker:agate>*64);
+aesirresonator13.addItemOutput(<contenttweaker:agate>*64);
+aesirresonator13.addItemOutput(<contenttweaker:agate>*64);
+aesirresonator13.build();
+
+val aesirresonator14 = RecipeBuilder.newBuilder("aesirresonator14","aesir_resonator",2);
+aesirresonator14.addEssentiaInput("terra",1);
+aesirresonator14.addItemInput(<contenttweaker:fiery_pyrite>*64);
+aesirresonator14.addItemInput(<contenttweaker:feldspar>*64);
+aesirresonator14.addItemOutput(<contenttweaker:feldspar>*64);
+aesirresonator14.addItemOutput(<contenttweaker:feldspar>*64);
+aesirresonator14.build();
+
+val aesirresonator15 = RecipeBuilder.newBuilder("aesirresonator15","aesir_resonator",2);
+aesirresonator15.addEssentiaInput("terra",1);
+aesirresonator15.addItemInput(<contenttweaker:fiery_pyrite>*64);
+aesirresonator15.addItemInput(<contenttweaker:metagabbro>*64);
+aesirresonator15.addItemOutput(<contenttweaker:metagabbro>*64);
+aesirresonator15.addItemOutput(<contenttweaker:metagabbro>*64);
+aesirresonator15.build();
 
 

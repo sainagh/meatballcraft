@@ -27,6 +27,7 @@ mods.nuclearcraft.infuser.addRecipe([<contenttweaker:fractal_stone>, <fluid:gala
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:fractal_stone>, <fluid:chaotic_matter>*1000, <contenttweaker:fractal_stone>*5]);
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:fractal_stone>, <fluid:nightmarish_matter>*1000, <contenttweaker:fractal_stone>*6]);
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:fractal_stone>, <fluid:universal_matter>*1000, <contenttweaker:fractal_stone>*7]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:fractal_stone>, <fluid:ultimate_fractallite_essence>*1000, <contenttweaker:fractal_stone>*8]);
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:possessed_sky_stone>, <fluid:whispering_starlight>*1000, <contenttweaker:possessed_sky_stone>*4]);
 
@@ -215,6 +216,39 @@ spatialcruciblekashan.addItemInput(<careerbees:ingredients:2>.withTag({species: 
 spatialcruciblekashan.addFluidOutput(<fluid:ultimate_fractallite_essence>*1000);
 spatialcruciblekashan.build();
 
+val spatialcruciblekashan2 = RecipeBuilder.newBuilder("spatialcruciblekashan2","spatial_crucible",100);
+spatialcruciblekashan2.addEnergyPerTickInput(500000000);
+spatialcruciblekashan2.addFluidInput(<fluid:actualizing_fluid>*100);
+spatialcruciblekashan2.addItemInput(<contenttweaker:naquadah_ingot>*16);
+spatialcruciblekashan2.addItemInput(<contenttweaker:core_of_the_mythic_shells>);
+spatialcruciblekashan2.addItemInput(<contenttweaker:gem_of_recursion>);
+spatialcruciblekashan2.addItemInput(<careerbees:ingredients:2>.withTag({species: "magicbees.speciesAESkystone"}));
+spatialcruciblekashan2.addItemInput(<careerbees:ingredients:2>.withTag({species: "gendustry.bee.TreeOfLife"}));
+spatialcruciblekashan2.addFluidOutput(<fluid:ultimate_fractallite_essence>*10000);
+spatialcruciblekashan2.build();
+
+val spatialcruciblekashan3 = RecipeBuilder.newBuilder("spatialcruciblekashan3","spatial_crucible",50);
+spatialcruciblekashan3.addEnergyPerTickInput(500000000);
+spatialcruciblekashan3.addFluidInput(<fluid:actualizing_fluid>*100);
+spatialcruciblekashan3.addItemInput(<contenttweaker:naquadah_ingot>*16);
+spatialcruciblekashan3.addItemInput(<contenttweaker:core_of_the_mythic_shells>);
+spatialcruciblekashan3.addItemInput(<contenttweaker:gem_of_recursion>);
+spatialcruciblekashan3.addItemInput(<careerbees:ingredients:2>.withTag({species: "magicbees.speciesAESkystone"}));
+spatialcruciblekashan3.addItemInput(<careerbees:ingredients:2>.withTag({species: "gendustry.bee.UniversalConstellation"}));
+spatialcruciblekashan3.addFluidOutput(<fluid:ultimate_fractallite_essence>*100000);
+spatialcruciblekashan3.build();
+
+val spatialcruciblekashan4 = RecipeBuilder.newBuilder("spatialcruciblekashan4","spatial_crucible",25);
+spatialcruciblekashan4.addEnergyPerTickInput(500000000);
+spatialcruciblekashan4.addFluidInput(<fluid:actualizing_fluid>*100);
+spatialcruciblekashan4.addItemInput(<contenttweaker:naquadah_ingot>*16);
+spatialcruciblekashan4.addItemInput(<contenttweaker:core_of_the_mythic_shells>);
+spatialcruciblekashan4.addItemInput(<contenttweaker:gem_of_recursion>);
+spatialcruciblekashan4.addItemInput(<careerbees:ingredients:2>.withTag({species: "magicbees.speciesAESkystone"}));
+spatialcruciblekashan4.addItemInput(<careerbees:ingredients:2>.withTag({species: "gendustry.bee.Ascendant"}));
+spatialcruciblekashan4.addFluidOutput(<fluid:ultimate_fractallite_essence>*1000000);
+spatialcruciblekashan4.build();
+
 recipes.remove(<projectex:final_star_shard>);
 
 recipes.addShaped(<projectex:power_flower:15>*2,
@@ -223,10 +257,10 @@ recipes.addShaped(<projectex:power_flower:15>*2,
 [<contenttweaker:botanic_alchemic_catalyst>, <projectex:final_star_shard>, <contenttweaker:botanic_alchemic_catalyst>]]);
 
 
-val mith30 = RecipeBuilder.newBuilder("mythicaltier30","mythical_resource_miner_tier30",800);
+val mith30 = RecipeBuilder.newBuilder("mythicaltier30","mythical_resource_miner_tier30",400);
 mith30.addEnergyPerTickInput(500000000);
-mith30.addFluidInput(<fluid:ultimate_fractallite_essence>*50);
-mith30.addFluidInput(<fluid:infinity>*72);
+mith30.addFluidInput(<fluid:ultimate_fractallite_essence>*25);
+mith30.addFluidInput(<fluid:infinity>*36);
 mith30.addItemOutput(<contenttweaker:opalescent_matter>*64);
 mith30.setChance(0.95);
 mith30.addItemOutput(<contenttweaker:opalescent_matter>*64);
@@ -241,8 +275,8 @@ mith30.addItemOutput(<projectex:matter:11>*10);
 mith30.setChance(0.5);
 mith30.addItemOutput(<contenttweaker:unbound_recursium_fragment>*64);
 mith30.setChance(0.5);
-mith30.addItemOutput(<contenttweaker:light_of_shadesmar>*30);
-mith30.setChance(0.1);
+mith30.addItemOutput(<contenttweaker:light_of_shadesmar>*50);
+mith30.setChance(0.8);
 mith30.addItemOutput(<contenttweaker:white_hole>*50);
 mith30.setChance(0.6);
 mith30.addItemOutput(<contenttweaker:cosmic_pot>*4);
@@ -385,6 +419,32 @@ recipes.addShaped(<contenttweaker:hyperuranion_actualizer_mythic_shell>,
 [<contenttweaker:recursive_convergence>, <contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:recursive_convergence>],
 [<ore:blockUltimate>, <extendedcrafting:singularity_custom:2044>, <ore:blockUltimate>]]);
 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hyperuranion_self_actualizer>, 
+[[<avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>], 
+[<avaritiaitem:self_actualizing_stone>, <glassential:glass_ghostly>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:plate_clump_fractal>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <glassential:glass_ghostly>, <avaritiaitem:self_actualizing_stone>], 
+[<avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>], 
+[<avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:actualizing_casing>, <contenttweaker:actualizing_casing>, <contenttweaker:actualizing_casing>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>], 
+[<avaritiaitem:self_actualizing_stone>, <contenttweaker:plate_clump_fractal>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:actualizing_casing>, <contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:actualizing_casing>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:plate_clump_fractal>, <avaritiaitem:self_actualizing_stone>], 
+[<avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:actualizing_casing>, <contenttweaker:actualizing_casing>, <contenttweaker:actualizing_casing>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>], 
+[<avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>], 
+[<avaritiaitem:self_actualizing_stone>, <glassential:glass_ghostly>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:plate_clump_fractal>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <glassential:glass_ghostly>, <avaritiaitem:self_actualizing_stone>], 
+[<avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>, <avaritiaitem:self_actualizing_stone>]]);  
+
+recipes.addShaped(<contenttweaker:hyperuranion_actualizer_botania>,
+[[<contenttweaker:living_gold>, <openblocks:tank>.withTag({tank: {FluidName: "orichalcum", Amount: 16000}}), <contenttweaker:living_gold>],
+[<contenttweaker:living_gold>, <contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:living_gold>],
+[<contenttweaker:living_gold>, <extendedcrafting:singularity_custom:1025>, <contenttweaker:living_gold>]]);
+
+recipes.addShaped(<contenttweaker:hyperuranion_actualizer_raremetals>,
+[[<techreborn:plates:38>, <bloodmagic:blood_tank:10>.withTag({Fluid: {FluidName: "titanium", Amount: 16384000}}), <techreborn:plates:38>],
+[<bloodmagic:blood_tank:10>.withTag({Fluid: {FluidName: "tungsten", Amount: 16384000}}), <contenttweaker:hyperuranon_actualizing_fabrial>, <bloodmagic:blood_tank:10>.withTag({Fluid: {FluidName: "iridium", Amount: 16384000}})],
+[<techreborn:plates:38>, <bloodmagic:blood_tank:10>.withTag({Fluid: {FluidName: "platinum", Amount: 16384000}}), <techreborn:plates:38>]]);
+
+recipes.addShaped(<contenttweaker:hyperuranion_actualizer_radioactive>,
+[[<ore:blockLudicrite>, <ore:blockLudicrite>, <ore:blockLudicrite>],
+[<bloodmagic:blood_tank:10>.withTag({Fluid: {FluidName: "uranium", Amount: 16384000}}), <contenttweaker:hyperuranon_actualizing_fabrial>, <bloodmagic:blood_tank:10>.withTag({Fluid: {FluidName: "uranium", Amount: 16384000}})],
+[<ore:blockLudicrite>, <ore:blockLudicrite>, <ore:blockLudicrite>]]);
+
 
 val infiniteactualizing = RecipeBuilder.newBuilder("infiniteactualizing","warren_extractor_actualizing_stone",2);
 infiniteactualizing.addItemOutput(<contenttweaker:actualizing_stone>*1024);
@@ -402,6 +462,19 @@ infiniteactualizingichor.build();
 val infinitenaquadah = RecipeBuilder.newBuilder("infinitenaquadah","warren_extractor_naquadah",2);
 infinitenaquadah.addItemOutput(<contenttweaker:naquadah_ore>*1024);
 infinitenaquadah.build();
+
+val infiniteraremetals = RecipeBuilder.newBuilder("infiniteraremetals","warren_extractor_raremetals",2);
+infiniteraremetals.addItemOutput(<libvulpes:ore0:8>*512);
+infiniteraremetals.addItemOutput(<techreborn:ore:9>*512);
+infiniteraremetals.addItemOutput(<techreborn:ore:8>*512);
+infiniteraremetals.addItemOutput(<thermalfoundation:ore:7>*512);
+infiniteraremetals.build();
+
+val infiniteradioactives = RecipeBuilder.newBuilder("infiniteradioactives","warren_extractor_radioactive",2);
+infiniteradioactives.addItemOutput(<nuclearcraft:ore:4>*512);
+infiniteradioactives.addItemOutput(<nuclearcraft:ore:3>*512);
+infiniteradioactives.addItemOutput(<bigreactors:oreyellorite>*512);
+infiniteradioactives.build();
 
 val infinitesilkyjewel = RecipeBuilder.newBuilder("infinitesilkyjewel","warren_extractor_silkyjewel",2);
 infinitesilkyjewel.addItemOutput(<tconstruct:metal:6>*512);
@@ -421,6 +494,16 @@ infiniterheniaproj.build();
 val infinitedimensionalshards = RecipeBuilder.newBuilder("infinitedimensionalshards","warren_extractor_dimensional_shards",2);
 infinitedimensionalshards.addItemOutput(<contenttweaker:dense_dimensional_shard_ore>*1024);
 infinitedimensionalshards.build();
+
+val infiniteselfactualization = RecipeBuilder.newBuilder("infiniteselfactualization","warren_extractor_self",2);
+infiniteselfactualization.addItemOutput(<avaritiaitem:self_actualizing_stone>*256);
+infiniteselfactualization.build();
+
+val infinitebotaniaores = RecipeBuilder.newBuilder("infinitebotaniaores","warren_extractor_botania",2);
+infinitebotaniaores.addItemOutput(<contenttweaker:living_gold_ore>*256);
+infinitebotaniaores.addItemOutput(<contenttweaker:arkenstone>*256);
+infinitebotaniaores.addItemOutput(<contenttweaker:etherium_ore>*256);
+infinitebotaniaores.build();
 
 
 
@@ -681,6 +764,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<glassential:glass_ethereal>*32,
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:actualizing_stone>, <fluid:hyperdense_plasma>*100, <fluid:high_entropy_hyperdense_plasma>*4000]);
 
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:irradiated_naquadah_core>, <fluid:brightsteel_alloy>*100, <fluid:naquadah_alloy>*1000]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:irradiated_naquadah_core>*16, <fluid:molten_abyssal_alloy>*12, <fluid:naquadah_alloy>*16000]);
 
 recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "essence_of_sane_thoughts", Amount: 1000}),
 [[<thaumictinkerer:kamiresource:3>, <thaumcraft:brain_box>.withTag({display: {Name: "ᚽᛠᛇᛒᚽᛃᛒᚶᚣᚽᚤᛠᚽᚥᛊ",Lore:["§d§oTrue Name§r"]}}), <thaumictinkerer:kamiresource:3>],
@@ -838,6 +922,19 @@ mods.thaumcraft.Infusion.registerRecipe("infusesuperwishfulcatalyst", "",
 <contenttweaker:ingot_of_infinite_wishes>, <avaritiaitem:cosmic_fractal_catalyzer>, 
 <contenttweaker:ingot_of_infinite_wishes>, <contenttweaker:cuendillar_seal>, 
 <contenttweaker:ingot_of_infinite_wishes>, <avaritiaitem:cosmic_fractal_catalyzer>]);
+
+mods.thaumcraft.Infusion.registerRecipe("infusesupereleintcatalyst", "", 
+<contenttweaker:ascended_eleint_catalyst>, 10,
+[<aspect:draco>*10000, <aspect:volatus>*10000, <aspect:perditio>*10000, <aspect:auram>*10000, <aspect:mythus>*10000, <aspect:victus>*10000, <aspect:cognitio>*10000], 
+<contenttweaker:infinitely_wishful_catalyst>, 
+[<contenttweaker:hopebringer_crystal>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_starvald_demelain", Amount: 1000}), 
+<contenttweaker:chunk_of_infinite_wishes>, <contenttweaker:eleint_scale>, 
+<contenttweaker:hopebringer_crystal>, <forge:bucketfilled>.withTag({FluidName: "eleint_dragonfire", Amount: 1000}), 
+<contenttweaker:chunk_of_infinite_wishes>, <contenttweaker:eleint_scale>, 
+<contenttweaker:hopebringer_crystal>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_starvald_demelain", Amount: 1000}), 
+<contenttweaker:chunk_of_infinite_wishes>, <contenttweaker:eleint_scale>, 
+<contenttweaker:hopebringer_crystal>, <forge:bucketfilled>.withTag({FluidName: "eleint_dragonfire", Amount: 1000}), 
+<contenttweaker:chunk_of_infinite_wishes>, <contenttweaker:eleint_scale>]);
 
 
 

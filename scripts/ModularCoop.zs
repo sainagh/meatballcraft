@@ -8,6 +8,13 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_woo
 [<contenttweaker:abominable_egg>, <contenttweaker:gem_of_recursion>, <contenttweaker:sacred_cinders_log>, <contenttweaker:gem_of_recursion>, <contenttweaker:abominable_egg>], 
 [<contenttweaker:abominable_egg>, <contenttweaker:abominable_egg>, null, <contenttweaker:abominable_egg>, <contenttweaker:abominable_egg>]]);  
 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:everloving_wood>, 
+[[<contenttweaker:earthly_salvation>, <contenttweaker:earthly_salvation>, null, <contenttweaker:earthly_salvation>, <contenttweaker:earthly_salvation>], 
+[<contenttweaker:earthly_salvation>, <contenttweaker:gem_of_recursion>, <contenttweaker:sacred_cinders_log>, <contenttweaker:gem_of_recursion>, <contenttweaker:earthly_salvation>], 
+[null, <contenttweaker:sacred_cinders_log>, <contenttweaker:sacred_cinders_wood>, <contenttweaker:sacred_cinders_log>, null], 
+[<contenttweaker:earthly_salvation>, <contenttweaker:gem_of_recursion>, <contenttweaker:sacred_cinders_log>, <contenttweaker:gem_of_recursion>, <contenttweaker:earthly_salvation>], 
+[<contenttweaker:earthly_salvation>, <contenttweaker:earthly_salvation>, null, <contenttweaker:earthly_salvation>, <contenttweaker:earthly_salvation>]]);  
+
 
 
 val chick1 = RecipeBuilder.newBuilder("chick1","mechanized_coop",480);

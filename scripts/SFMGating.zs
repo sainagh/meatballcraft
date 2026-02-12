@@ -14,3 +14,6 @@ recipes.addShaped(<superfactorymanager:cable>,
 [<minecraft:iron_ingot>, <contenttweaker:crystalized_emberstone>, <minecraft:iron_ingot>],
 [<ore:blockGlass>, <minecraft:light_weighted_pressure_plate>, <ore:blockGlass>]]);
 
+
+recipes.addShapeless(<superfactorymanager:manager>,
+[<superfactorymanager:manager_advanced>]);

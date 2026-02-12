@@ -130,11 +130,11 @@ infinityfurnacerefractall.addItemInput(<materialpart:vibranium_alloy:ingot>);
 infinityfurnacerefractall.addItemOutput(<contenttweaker:high_refraction_alloy_ingot>*8);
 infinityfurnacerefractall.build();
 
-mods.nuclearcraft.extractor.addRecipe([<aoa3:shyre_weed>, <forestry:mulch>, <fluid:shyre_weed_oil>*25, 0.1, 0.9, 0.2]);
+mods.nuclearcraft.extractor.addRecipe([<aoa3:shyre_weed>, <forestry:mulch>, <fluid:shyre_weed_oil>*25]);
 
-mods.nuclearcraft.irradiator.addRecipe([<fluid:shyre_weed_oil>*100, <fluid:neutron>*50, <fluid:energized_mulch>*500, <fluid:seed_oil>*100, 0.9, 0.4, 0.1]);
+mods.nuclearcraft.irradiator.addRecipe([<fluid:shyre_weed_oil>*100, <fluid:neutron>*50, <fluid:energized_mulch>*500, <fluid:seed_oil>*100]);
 
-mods.nuclearcraft.crystallizer.addRecipe([<fluid:energized_mulch>*250, <contenttweaker:shyre_mulch>, 0.1, 0.9, 0.5]);
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:energized_mulch>*250, <contenttweaker:shyre_mulch>]);
 
 mods.techreborn.rollingMachine.addShaped(<contenttweaker:infinity_plate>*4, 
 [[<contenttweaker:abyssal_alloy_ingot>,<contenttweaker:shyre_mulch>,<contenttweaker:between_alloy_ingot>],
@@ -175,13 +175,13 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:irradiator_casing>
 
 val hyperdenseplasmacent = RecipeBuilder.newBuilder("hyperdenseplasmacent","iron_centrifuge",2);
 hyperdenseplasmacent.addEnergyPerTickInput(1000000);
-hyperdenseplasmacent.addFluidInput(<fluid:chaotic_matter>*50);
-hyperdenseplasmacent.addFluidInput(<fluid:nightmarish_matter>*50);
-hyperdenseplasmacent.addFluidInput(<fluid:universal_matter>*50);
-hyperdenseplasmacent.addFluidInput(<fluid:spatial_matter>*50);
-hyperdenseplasmacent.addFluidInput(<fluid:cosmic_matter>*50);
-hyperdenseplasmacent.addFluidInput(<fluid:galactic_matter>*50);
-hyperdenseplasmacent.addFluidOutput(<fluid:hyperdense_plasma>*300);
+hyperdenseplasmacent.addFluidInput(<fluid:chaotic_matter>*500);
+hyperdenseplasmacent.addFluidInput(<fluid:nightmarish_matter>*500);
+hyperdenseplasmacent.addFluidInput(<fluid:universal_matter>*500);
+hyperdenseplasmacent.addFluidInput(<fluid:spatial_matter>*500);
+hyperdenseplasmacent.addFluidInput(<fluid:cosmic_matter>*500);
+hyperdenseplasmacent.addFluidInput(<fluid:galactic_matter>*500);
+hyperdenseplasmacent.addFluidOutput(<fluid:hyperdense_plasma>*3000);
 hyperdenseplasmacent.build();
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:starmetal_alloy_ingot>*2, 
@@ -688,6 +688,30 @@ spatialcruchalite.addItemInput(<contenttweaker:shyre_crystal>*24);
 spatialcruchalite.addItemInput(<tconstruct:large_plate>.withTag({Material: "infinity_avaritia_plustic"}));
 spatialcruchalite.addFluidOutput(<fluid:halite_fluid>*1000);
 spatialcruchalite.build();
+
+val spatialcruchalite2 = RecipeBuilder.newBuilder("spatialcruchalite2","spatial_crucible",100);
+spatialcruchalite2.addEnergyPerTickInput(120000);
+spatialcruchalite2.addFluidInput(<fluid:hyperdense_plasma>*600);
+spatialcruchalite2.addItemInput(<draconicevolution:awakened_core>*4);
+spatialcruchalite2.addItemInput(<contenttweaker:bright_matter>*64);
+spatialcruchalite2.addItemInput(<divinerpg:corrupted_stone>*64);
+spatialcruchalite2.addItemInput(<contenttweaker:defined_engine>);
+spatialcruchalite2.addItemInput(<contenttweaker:shyre_crystal>*24);
+spatialcruchalite2.addItemInput(<contenttweaker:infinite_recursive_plate>);
+spatialcruchalite2.addFluidOutput(<fluid:halite_fluid>*5000);
+spatialcruchalite2.build();
+
+val spatialcruchalite3 = RecipeBuilder.newBuilder("spatialcruchalite3","spatial_crucible",100);
+spatialcruchalite3.addEnergyPerTickInput(120000);
+spatialcruchalite3.addFluidInput(<fluid:high_entropy_hyperdense_plasma>*400);
+spatialcruchalite3.addItemInput(<draconicevolution:awakened_core>*4);
+spatialcruchalite3.addItemInput(<contenttweaker:bright_matter>*64);
+spatialcruchalite3.addItemInput(<divinerpg:corrupted_stone>*64);
+spatialcruchalite3.addItemInput(<contenttweaker:defined_engine>);
+spatialcruchalite3.addItemInput(<contenttweaker:shyre_crystal>*24);
+spatialcruchalite3.addItemInput(<contenttweaker:warren_plate>);
+spatialcruchalite3.addFluidOutput(<fluid:halite_fluid>*50000);
+spatialcruchalite3.build();
 
 
 // val halitewarrior = RecipeBuilder.newBuilder("halitewarrior","dyson_irradiator",200);

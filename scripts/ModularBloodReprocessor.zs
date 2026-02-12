@@ -18,3 +18,9 @@ superoilgenrep.addFluidInput(<fluid:refined_life_essence>*1000);
 superoilgenrep.addFluidInput(<fluid:lava>*4000);
 superoilgenrep.addFluidOutput(<fluid:crude_oil>*32000);
 superoilgenrep.build();
+
+val bloodglowgenrep = RecipeBuilder.newBuilder("bloodglowgenrep","blood_reprocessor",100);
+bloodglowgenrep.addFluidInput(<fluid:refined_life_essence>*250);
+bloodglowgenrep.addFluidInput(<fluid:glowstone>*5000);
+bloodglowgenrep.addFluidOutput(<fluid:blood_infused_glowstone>*5000);
+bloodglowgenrep.build();

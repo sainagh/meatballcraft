@@ -1901,6 +1901,169 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 }
 
 
+//	big dig
+{
+	var fulfilleddata as IData = {
+		display: {Lore:["§d§oFulfilled§r"]}
+	};
 
+	val enchlistBigDig as EnchantMap = EnchantMap()
+	.add("minecraft:efficiency",200)
+	.add("randomthings:magnetic",1)
+	.add("divinerpg:rive",3);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<twilightforest:giant_pickaxe>.withTag({display: {Name:"§6§oBig Dig§r",Lore:["§d§oSuper-Duper-Enchanted§r"]}}), enchlistBigDig).getItem(), 
+		[[<tconstruct:pick_head>.withTag({Material: "worthy"}), null, <avaritia:infinity_hoe>, null, <tconstruct:pick_head>.withTag({Material: "worthy"})],
+		[null, <contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata), <contenttweaker:ingot_of_infinite_wishes>, <contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata), null],
+		[null, <contenttweaker:ingot_of_infinite_wishes>, <twilightforest:giant_pickaxe>, <contenttweaker:ingot_of_infinite_wishes>, null],
+		[null, <contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata), <contenttweaker:ingot_of_infinite_wishes>, <contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata), null],
+		[<tconstruct:pick_head>.withTag({Material: "worthy"}), null, <avaritia:infinity_pickaxe>, null, <tconstruct:pick_head>.withTag({Material: "worthy"})]]); 
+
+}
+
+
+//	karma blade
+{
+
+
+	val enchlistKarmaBlade as EnchantMap = EnchantMap()
+	.add("enderio:witherweapon",200)
+	.add("cofhcore:vorpal",20)
+	.add("aoa3:sever",35);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:selyan_scythe>.withTag({display: {Name:"§6§oKarma Blade§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistKarmaBlade).getItem(), 
+		[[<ore:ingotInfinity>, null, <contenttweaker:warren_chunk>, null, <ore:ingotInfinity>],
+		[null, <openblocks:tank>.withTag({tank: {FluidName: "recursive_life_essence", Amount: 16000}}), <contenttweaker:fluit_of_flesh>, <openblocks:tank>.withTag({tank: {FluidName: "recursive_life_essence", Amount: 16000}}), null],
+		[<contenttweaker:warren_chunk>, <contenttweaker:fluit_of_flesh>, <aoa3:selyan_scythe>, <contenttweaker:fluit_of_flesh>, <contenttweaker:warren_chunk>],
+		[null, <openblocks:tank>.withTag({tank: {FluidName: "recursive_life_essence", Amount: 16000}}), <contenttweaker:fluit_of_flesh>, <openblocks:tank>.withTag({tank: {FluidName: "recursive_life_essence", Amount: 16000}}), null],
+		[<ore:ingotInfinity>, null, <contenttweaker:warren_chunk>, null, <ore:ingotInfinity>]]); 
+
+}
+
+
+
+
+//	gandiva
+{
+
+
+	val enchlistGandiva as EnchantMap = EnchantMap()
+	.add("cofhcore:multishot",25);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<bloodmagic:sentient_bow>.withTag({display: {Name:"§6§oGandiva§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistGandiva).getItem(), 
+		[[<ore:ingotFractalliteHalite>, null, <contenttweaker:actualizing_hyperuranion_ingot>, null, <ore:ingotFractalliteHalite>],
+		[null, <contenttweaker:sacred_cinders_honey>, <contenttweaker:runes_of_the_true_tongue>, <contenttweaker:sacred_cinders_honey>, null],
+		[<contenttweaker:actualizing_hyperuranion_ingot>, <contenttweaker:runes_of_the_true_tongue>, <bloodmagic:sentient_bow>, <contenttweaker:runes_of_the_true_tongue>, <contenttweaker:actualizing_hyperuranion_ingot>],
+		[null, <contenttweaker:sacred_cinders_honey>, <contenttweaker:runes_of_the_true_tongue>, <contenttweaker:sacred_cinders_honey>, null],
+		[<ore:ingotFractalliteHalite>, null, <contenttweaker:actualizing_hyperuranion_ingot>, null, <ore:ingotFractalliteHalite>]]); 
+
+}
+
+
+//	lurtz bow
+{
+
+
+	val enchlistLurtzBow as EnchantMap = EnchantMap()
+	.add("minecraft:power",30)
+	.add("enderio:witherarrow",100);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<thaumicwonders:bone_bow>.withTag({display: {Name:"§6§oLurtz Bow§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistLurtzBow).getItem(), 
+		[[<ore:ingotInfinity>, null, <extrabees:honey_comb:1>, null, <ore:ingotInfinity>],
+		[null, <contenttweaker:perfected_gallifreyan_alloy>, <aoa3:staring_eye>, <contenttweaker:perfected_gallifreyan_alloy>, null],
+		[<extrabees:honey_comb:1>, <aoa3:observing_eye>, <thaumicwonders:bone_bow>, <aoa3:observing_eye>, <extrabees:honey_comb:1>],
+		[null, <contenttweaker:perfected_gallifreyan_alloy>, <aoa3:staring_eye>, <contenttweaker:perfected_gallifreyan_alloy>, null],
+		[<ore:ingotInfinity>, null, <extrabees:honey_comb:1>, null, <ore:ingotInfinity>]]); 
+
+}
+
+
+//	heathland bow
+{
+
+
+	val enchlistHeathland as EnchantMap = EnchantMap()
+	.add("minecraft:power",30)
+	.add("minecraft:flame",100);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<divinerpg:arksiane_bow>.withTag({display: {Name:"§6§oHeathland Bow§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistHeathland).getItem(), 
+		[[<ore:ingotInfinity>, null, <tconstruct:sharpening_kit>.withTag({Material: "mod_lavacow.moltenbeef"}), null, <ore:ingotInfinity>],
+		[null, <contenttweaker:everburning_dust>, <extrabees:honey_comb:14>, <contenttweaker:everburning_dust>, null],
+		[<tconstruct:sharpening_kit>.withTag({Material: "mod_lavacow.moltenbeef"}), <extrabees:honey_comb:14>, <divinerpg:arksiane_bow>, <extrabees:honey_comb:14>, <tconstruct:sharpening_kit>.withTag({Material: "mod_lavacow.moltenbeef"})],
+		[null, <contenttweaker:everburning_dust>, <extrabees:honey_comb:14>, <contenttweaker:everburning_dust>, null],
+		[<ore:ingotInfinity>, null, <tconstruct:sharpening_kit>.withTag({Material: "mod_lavacow.moltenbeef"}), null, <ore:ingotInfinity>]]); 
+
+}
+
+
+//	scaramanga gun
+{
+
+
+	val enchlistScaramanga as EnchantMap = EnchantMap()
+	.add("aoa3:shell",16);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:golden_fury>.withTag({display: {Name:"§6§oScaramanga Gadget§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistScaramanga).getItem(), 
+		[[<aoa3:wither_rune>, null, <extrabees:honey_comb:16>, null, <aoa3:wither_rune>],
+		[null, <minecraft:dragon_breath>, <extendedcrafting:singularity:5>, <minecraft:dragon_breath>, null],
+		[<extrabees:honey_comb:16>, <extendedcrafting:singularity:5>, <aoa3:golden_fury>, <extendedcrafting:singularity:5>, <extrabees:honey_comb:16>],
+		[null, <minecraft:dragon_breath>, <extendedcrafting:singularity:5>, <minecraft:dragon_breath>, null],
+		[<aoa3:wither_rune>, null, <extrabees:honey_comb:16>, null, <aoa3:wither_rune>]]); 
+
+}
+
+
+//	athens cannon
+{
+
+
+	val enchlistAthens as EnchantMap = EnchantMap()
+	.add("aoa3:shell",18);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:golder_bomber>.withTag({display: {Name:"§6§oAthens Cannon§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistAthens).getItem(), 
+		[[<contenttweaker:deep_metamorphic_rock>, null, <extrabees:honey_comb:16>, null, <contenttweaker:deep_metamorphic_rock>],
+		[null, <ore:ingotSednanite>, <contenttweaker:jeweled_runium>, <ore:ingotSednanite>, null],
+		[<extrabees:honey_comb:16>, <contenttweaker:jeweled_runium>, <aoa3:golder_bomber>, <contenttweaker:jeweled_runium>, <extrabees:honey_comb:16>],
+		[null, <ore:ingotSednanite>, <contenttweaker:jeweled_runium>, <ore:ingotSednanite>, null],
+		[<contenttweaker:deep_metamorphic_rock>, null, <extrabees:honey_comb:16>, null, <contenttweaker:deep_metamorphic_rock>]]); 
+
+}
+
+
+
+//	the shieldbreaker
+{
+
+
+	val enchlistShieldbreaker as EnchantMap = EnchantMap()
+	.add("minecraft:sharpness",350)
+	.add("cofhcore:vorpal",18)
+	.add("enderio:witherweapon",100)
+	.add("minecraft:fire_aspect",20);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<extrabotany:firstfractal>.withTag({display: {Name:"§6§oThe Shieldbreaker§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistShieldbreaker).getItem(), 
+		[[<ore:blockInfinity>, null, <contenttweaker:stone_of_universal_balance>, null, <ore:blockInfinity>],
+		[null, <tardis:dalek_hull>, <magicbees:beecomb:9>, <tardis:dalek_hull>, null],
+		[<contenttweaker:stone_of_universal_balance>, <magicbees:beecomb:9>, <extrabotany:firstfractal>, <magicbees:beecomb:9>, <contenttweaker:stone_of_universal_balance>],
+		[null, <tardis:dalek_hull>, <magicbees:beecomb:9>, <tardis:dalek_hull>, null],
+		[<ore:blockInfinity>, null, <contenttweaker:stone_of_universal_balance>, null, <ore:blockInfinity>]]); 
+
+}
+
+//	disruptor
+{
+
+
+	val enchlistDisruptor as EnchantMap = EnchantMap()
+	.add("aoa3:shell",20);
+	
+		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:gold_bringer>.withTag({display: {Name:"§6§oDisruptor§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistDisruptor).getItem(), 
+		[[<extendedcrafting:singularity:5>, <extendedcrafting:singularity:5>, <contenttweaker:nugget_of_midas>, <extendedcrafting:singularity:5>, <extendedcrafting:singularity:5>],
+		[<extendedcrafting:singularity:5>, <contenttweaker:stargate_sand>, <contenttweaker:warren_shard>, <contenttweaker:stargate_sand>, <extendedcrafting:singularity:5>],
+		[<contenttweaker:nugget_of_midas>, <contenttweaker:warren_shard>, <aoa3:gold_bringer>, <contenttweaker:warren_shard>, <contenttweaker:nugget_of_midas>],
+		[<extendedcrafting:singularity:5>, <contenttweaker:stargate_sand>, <contenttweaker:warren_shard>, <contenttweaker:stargate_sand>, <extendedcrafting:singularity:5>],
+		[<extendedcrafting:singularity:5>, <extendedcrafting:singularity:5>, <contenttweaker:nugget_of_midas>, <extendedcrafting:singularity:5>, <extendedcrafting:singularity:5>]]); 
+
+}
 
 

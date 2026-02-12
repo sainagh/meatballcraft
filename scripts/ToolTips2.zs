@@ -1,111 +1,19 @@
+#reloadable
+
 import crafttweaker.item.IItemCondition;
 
 
-<contenttweaker:alien_material_manual>.addTooltip(format.red("The world may become a little harder..."));
-
 <contenttweaker:primordial_star>.addTooltip(format.red("Texture by Zuckerburger, thanks!"));
 
-<contenttweaker:lore_of_the_meatball_man>.addTooltip(format.red("This will activate a (reversible) hard mode"));
 
-<contenttweaker:lore_of_the_meatball_man>.addTooltip(format.red("Texture by Zuckerburger, thanks!"));
-
-<contenttweaker:controller_manual>.addTooltip(format.red("The world may become a little harder..."));
-
-<contenttweaker:bloodmaster_tome>.addTooltip(format.red("The world may become a little harder..."));
-
-<contenttweaker:singularity_master>.addTooltip(format.red("The world may become a little harder..."));
-
-<contenttweaker:draconic_key>.addTooltip(format.red("The world may become a little harder..."));
-
-<contenttweaker:minor_vethea_binding>.addTooltip(format.red("The world may become a little harder..."));
-
-<contenttweaker:ancient_elven_knowledge>.addTooltip(format.red("The world may become a little harder..."));
-
-<modularmachinery:blockcontroller>.addTooltip(format.red("Requires the Controller Manual to become craftable"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("Cannot be crafted using AE2, use a crafter instead (RECURSIVE RECIPE ONLY)"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("IMPORTANT: you should make the specific controller for each machine using the blueprint recipe"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("The resulting controllers can be auto-built if right clicked with a Multiblock Sticc"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("This controller block will work for all machines, but it will make things way more laggy, and multiblock may bug out if on chunk boundaries"));
-<modularmachinery:blockcontroller>.addTooltip(format.red("A huge thanks to Kasumi_Nova & Domi for working on and testing Modular Machinery Community Edition!"));
-
-
-<contenttweaker:nethersky_amber>.addTooltip(format.red("Requires the Bloodmaster Tome to become craftable"));
-
-<extendedcrafting:table_basic>.addTooltip(format.red("Requires the Alien Material Manual to become craftable"));
-
-<contenttweaker:realmstone>.addTooltip(format.red("Requires the Singularity Master Manual to become craftable"));
-
-<divinerpg:twilight_clock>.addTooltip(format.red("Requires the Singularity Master Manual to become craftable"));
-
-<draconicevolution:fusion_crafting_core>.addTooltip(format.red("Requires the Draconic Key to become craftable"));
-
-
-<avaritia:resource:0>.addTooltip(format.red("Requires Ancient Elven knowledge to become craftable"));
-
-<contenttweaker:brightsteel_chest>.addTooltip(format.red("Requires Ancient Elven knowledge to become craftable"));
-
-<contenttweaker:brightsteel_feet>.addTooltip(format.red("Requires Ancient Elven knowledge to become craftable"));
-
-<contenttweaker:brightsteel_head>.addTooltip(format.red("Requires Ancient Elven knowledge to become craftable"));
-
-<contenttweaker:brightsteel_legs>.addTooltip(format.red("Requires Ancient Elven knowledge to become craftable"));
-
-<contenttweaker:corrosive_crystal_cluster>.addTooltip(format.green("Reusable"));
-<contenttweaker:destructive_crystal_cluster>.addTooltip(format.green("Reusable"));
-<contenttweaker:steadfast_crystal_cluster>.addTooltip(format.green("Reusable"));
-<contenttweaker:demonic_crystal_cluster>.addTooltip(format.green("Reusable"));
-<contenttweaker:vengeful_crystal_cluster>.addTooltip(format.green("Reusable"));
 
 <aoa3:bejewelled_lotto_banner>.addTooltip(format.green("Reusable"));
-
-<contenttweaker:recursion_fear>.addTooltip(format.red("Found in the Towerwood Fortress on Pauram - reusable"));
-<contenttweaker:recursion_fear>.addTooltip(format.green("Reusable"));
-
-<contenttweaker:recursion_solitude>.addTooltip(format.red("Found in the Platinum Gyro on Zoi - reusable"));
-<contenttweaker:recursion_solitude>.addTooltip(format.green("Reusable"));
-
-<contenttweaker:recursion_darkness>.addTooltip(format.red("Found in the Eldritch Pyramid on Akathartos"));
-<contenttweaker:recursion_darkness>.addTooltip(format.green("Reusable"));
-
-<contenttweaker:recursion_helplessness>.addTooltip(format.red("Found in the Menger Monument on Nero"));
-<contenttweaker:recursion_helplessness>.addTooltip(format.green("Reusable"));
-
-<contenttweaker:unidentified_body>.addTooltip(format.red("Found in the proxima belt"));
-
-<contenttweaker:white_fuel>.addTooltip(format.red("Found on Alkemia"));
-
-
-<contenttweaker:sedna_artifact>.addTooltip(format.red("Used in the Warp controller"));
-
-<contenttweaker:rhenia_artifact>.addTooltip(format.red("Used in the Warp controller"));
-
-<contenttweaker:myrmex_artifact>.addTooltip(format.red("Used in the Warp controller"));
-
-<contenttweaker:pixonia_artifact>.addTooltip(format.red("Used in the Warp controller"));
-
-<contenttweaker:proxima_artifact>.addTooltip(format.red("Used in the Warp controller"));
-
-<contenttweaker:dynatos_artifact>.addTooltip(format.red("Used in the Warp controller"));
-
-<contenttweaker:alkemia_artifact>.addTooltip(format.red("Used in the Warp controller"));
-
-<minecraft:elytra>.addTooltip(format.red("Found in the Coke Library in the Overworld"));
 
 <contenttweaker:ayeraco_heart>.addTooltip(format.red("Found in the Shulker Altar in the End"));
 
 <minecraft:totem_of_undying>.addTooltip(format.red("Recursive papers are your friend"));
 
 <thaumcraft:curio:6>.addTooltip(format.red("Crimson Portals can be found in the overworld"));
-
-<thermalfoundation:storage:8>.addTooltip(format.red("Found in the Elemental Chamber in the Nether"));
-
-<thermalfoundation:material:136>.addTooltip(format.red("Found in the Elemental Chamber in the Nether"));
-
-<thermalfoundation:ore:8>.addTooltip(format.red("Found in the Elemental Chamber in the Nether"));
-
-
-
-
 
 
 <contenttweaker:pixonia_infusion_key>.addTooltip(format.red("Found in the swamp tower on Pixonia"));
@@ -269,7 +177,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:ogerite_ore>.addTooltip(format.red("Found inside a special tree in Pixonia, follow the Ayeraco!"));
 <contenttweaker:ogerite_ore>.addTooltip(format.red("Craftable in the plasmatic condenser after completing the Swamp Tower in Pixonia"));
 
-<extendedcrafting:table_basic>.addTooltip(format.red("Use the Basic Package Crafter to automate basic crafting recipes"));
 
 <extendedcrafting:table_advanced>.addTooltip(format.red("Use the Advanced Package Crafter to automate advanced crafting recipes"));
 
@@ -285,7 +192,6 @@ import crafttweaker.item.IItemCondition;
 
 <extrautils2:goldenlasso>.addTooltip(format.red("Use a Mob Imprisonment Tool if you want to transport mobs"));
 
-<contenttweaker:sedna_artifact>.addTooltip(format.red("Start warping from the closest planet"));
 
 
 <forestry:planks.1:6>.addTooltip(format.red("Log is craftable"));
@@ -324,7 +230,6 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:skythern_block>.addTooltip(format.red("Used in a full portal frame (4x5) to enter Mortum"));
 
-<divinerpg:twilight_clock>.addTooltip(format.red("Used to light DivineRPG portals like a flint and steel"));
 
 <ore:dragonScaleItem>.addTooltip(format.red("Craftable with Deep Mob Learning"));
 
@@ -404,15 +309,6 @@ import crafttweaker.item.IItemCondition;
 
 <dimdoors:fabric:*>.addTooltip(format.red("Fabric of reality is found in Dimensional Doors - mined with silk touch"));
 
-<contenttweaker:demonic_crystal_cluster>.addTooltip(format.red("Found in the Will Crystal Monolith in the Nether roof"));
-
-<contenttweaker:destructive_crystal_cluster>.addTooltip(format.red("Found in the Will Crystal Monolith in the Nether roof"));
-
-<contenttweaker:vengeful_crystal_cluster>.addTooltip(format.red("Found in the Will Crystal Monolith in the Nether roof"));
-
-<contenttweaker:steadfast_crystal_cluster>.addTooltip(format.red("Found in the Will Crystal Monolith in the Nether roof"));
-
-<contenttweaker:corrosive_crystal_cluster>.addTooltip(format.red("Found in the Will Crystal Monolith in the Nether roof"));
 
 <contenttweaker:forgotten_will>.addTooltip(format.green("reusable"));
 
@@ -431,7 +327,6 @@ import crafttweaker.item.IItemCondition;
 
 <mysticalagriculture:fiery_ingot_essence>.addTooltip(format.red("Thanks to Birch8101 for the crop script"));
 
-<contenttweaker:unidentified_body>.addTooltip(format.red("Broken texture is intended, otherwise it wouldn't be unidentified..."));
 
 <aoa3:xxeus_statue>.addTooltip(format.red("Can be duplicated in a crafting core"));
 
@@ -726,7 +621,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:staff_of_iceika>.addTooltip(format.green("Reusable"));
 
-<extendedcrafting:table_basic>.addTooltip(format.red("If you're confused by the basic table recipe, follow the quests!"));
 
 <iceandfire:stymphalian_bird_feather>.addTooltip(format.red("Stymphalian bird spawn eggs are craftable"));
 
@@ -869,7 +763,6 @@ import crafttweaker.item.IItemCondition;
 
 <ae2stuff:grower>.addTooltip(format.red("Needs AE energy from an energy acceptor"));
 
-<extendedcrafting:table_basic>.addTooltip(format.red("Cannot be crafted using AE2, use a crafter instead (RECURSIVE RECIPE ONLY)"));
 
 
 <contenttweaker:runandor_wormhole>.addTooltip(format.red("Combine a filled openblocks tank of elecanium with the right eight runes"));
@@ -1022,19 +915,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:ender_feather>.addTooltip(format.red("Dropped by the Mighty Ender Chicken in Furatto"));
 
-<contenttweaker:sedna_artifact>.addTooltip(format.red("Right click before entering the planet"));
-
-<contenttweaker:rhenia_artifact>.addTooltip(format.red("Right click before entering the planet"));
-
-<contenttweaker:myrmex_artifact>.addTooltip(format.red("Right click before entering the planet"));
-
-<contenttweaker:pixonia_artifact>.addTooltip(format.red("Right click before entering the planet"));
-
-<contenttweaker:proxima_artifact>.addTooltip(format.red("Right click before entering the planet"));
-
-<contenttweaker:dynatos_artifact>.addTooltip(format.red("Right click before entering the planet"));
-
-<contenttweaker:alkemia_artifact>.addTooltip(format.red("Right click before entering the planet"));
 
 <appliedenergistics2:grindstone>.addTooltip(format.red("To be used with a crank"));
 
@@ -1317,13 +1197,9 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:sacrifice_metal_legs>.addTooltip(format.red("Can be super-enchanted"));
 
-<contenttweaker:brightsteel_head>.addTooltip(format.red("Can be super-enchanted"));
 
-<contenttweaker:brightsteel_feet>.addTooltip(format.red("Can be super-enchanted"));
 
-<contenttweaker:brightsteel_legs>.addTooltip(format.red("Can be super-enchanted"));
 
-<contenttweaker:brightsteel_chest>.addTooltip(format.red("Can be super-enchanted"));
 
 <extrautils2:lawsword>.addTooltip(format.red("Can be super-enchanted"));
 
@@ -1353,9 +1229,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:heuf_fuel>.addTooltip(format.red("How do I make it?? Oi holds the answer"));
 
-<contenttweaker:singularity_master>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
 
-<contenttweaker:bloodmaster_tome>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
 
 <contenttweaker:universal_realgar>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
 
@@ -1365,9 +1239,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:triple_compressed_realgar>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
 
-<contenttweaker:ancient_elven_knowledge>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
 
-<contenttweaker:controller_manual>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
 
 <contenttweaker:imperfect_gem_of_the_cosmos>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
 
@@ -1392,8 +1264,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:finem_warper>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
 
 <soulshardsrespawn:vile_sword>.addTooltip(format.red("Thanks to ChaosStrikez for fixing the script!"));
-
-<contenttweaker:mythic_coil_t2>.addTooltip(format.red("Thanks to Sandman366 for fixing the upgrade script!"));
 
 <aoa3:rosidian_greatblade>.addTooltip(format.red("Can be super-enchanted"));
 
@@ -1497,10 +1367,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:miniature_star>.addTooltip(format.red("Use the star core"));
 
-<contenttweaker:defined_block>.addTooltip(format.red("You don't have to craft this if you don't want to..."));
-
-<contenttweaker:vibrating_stone>.addTooltip(format.red("Found on Vibe"));
-
 <contenttweaker:resonating_stone>.addTooltip(format.red("Found on Apichisi"));
 
 <contenttweaker:superconducting_mithril>.addTooltip(format.red("Automate this, to make the next accelerators easier"));
@@ -1523,15 +1389,10 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:meatball_attuned_crystal>.addTooltip(format.red("Whispering starlight can be duped after making the initial batch in a salt reactor"));
 
-<contenttweaker:singularity_master>.addTooltip(format.red("Increases the astral level cap to 35"));
 
-<contenttweaker:draconic_key>.addTooltip(format.red("Increases the astral level cap to 40"));
 
-<contenttweaker:draconic_key>.addTooltip(format.red("You need to use the rift in a jar from the special infusion recipe"));
 
-<contenttweaker:ancient_elven_knowledge>.addTooltip(format.red("Increases the astral level cap to 45"));
 
-<contenttweaker:minor_vethea_binding>.addTooltip(format.red("Increases the astral level cap to 60"));
 
 <aoa3:primed_ghoulasm>.addTooltip(format.red("Use a ghoulasm on a haunting table"));
 
@@ -1812,15 +1673,6 @@ import crafttweaker.item.IItemCondition;
 
 <ore:ingotOgerite>.addTooltip(format.red("Have you crafted the artifact??"));
 
-<contenttweaker:unidentified_body>.addTooltip(format.red("Have you crafted the artifact??"));
-
-<contenttweaker:recursion_darkness>.addTooltip(format.red("Have you crafted the artifact??"));
-
-<contenttweaker:recursion_fear>.addTooltip(format.red("Have you crafted the artifact??"));
-
-<contenttweaker:recursion_helplessness>.addTooltip(format.red("Have you crafted the artifact??"));
-
-<contenttweaker:recursion_solitude>.addTooltip(format.red("Have you crafted the artifact??"));
 
 <thaumicaugmentation:gauntlet:0>.addTooltip(format.red("Do not put in bibliocraft display blocks"));
 
@@ -2149,20 +2001,6 @@ import crafttweaker.item.IItemCondition;
 
 <appliedenergistics2:part:1024>.addTooltip(format.red("Look at you! You just found a lost relic of the past..."));
 
-<contenttweaker:yttrium_oxide>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<contenttweaker:rhodium_mixture>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<contenttweaker:barium_chunk>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<contenttweaker:barium_oxide>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<contenttweaker:yttrium_ruthenium_cluster>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<contenttweaker:meatane_pellet>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<contenttweaker:krypton_capture>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<contenttweaker:ogerite_crystal_matrix>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<contenttweaker:ethereal_infusion_stone>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<contenttweaker:naquadah_ingot>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<contenttweaker:mutated_meatball>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<contenttweaker:meatane_pellet>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<materialpart:primal_ogerite:ingot>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<contenttweaker:stable_fusor>.addTooltip(format.red("Warning: this crafting chain produces radiation!"));
 
 <contenttweaker:gem_of_the_sleeping_city>.addTooltip(format.red("Found in L'Borean"));
 <contenttweaker:stone_of_the_sleeping_city>.addTooltip(format.red("Found in L'Borean"));
@@ -2569,7 +2407,7 @@ import crafttweaker.item.IItemCondition;
 <bloodmagic:blood_rune:10>.addTooltip(format.red("Part of the blood altar ziggurat"));
 
 
-<bloodmagic:blood_rune:9>.addTooltip(format.red("Increases the tick frequency for all altar operations, effect caps at 19"));
+<bloodmagic:blood_rune:9>.addTooltip(format.red("Increases LP extraction and insertion speed using fluid transfer"));
 <bloodmagic:blood_rune:7>.addTooltip(format.red("Increases the LP storage of the altar multiplicatively by 10%, for 15 runes or less it's better to use base runes of capacity"));
 <bloodmagic:blood_rune:1>.addTooltip(format.red("Increases altar speed by 20%"));
 <bloodmagic:blood_rune:3>.addTooltip(format.red("Increases LP made from each mob killed (both dagger and rituals)"));
@@ -2596,7 +2434,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:mk1_power_flower>.addTooltip(format.red("Replace the collectors and condensers with higher tiers for faster EMC"));
 
-<contenttweaker:realmstone>.addTooltip(format.red("Fox wanted to know how to make it"));
 
 <forestry:sapling:0>.withTag({Genome: {Chromosomes: [{UID1: "forestry.treeBirch", UID0: "forestry.treeBirch", Slot: 0 as byte}]}}).addTooltip(format.red("Place a birch sapling in a Portable Analyzer"));
 
@@ -2609,8 +2446,6 @@ import crafttweaker.item.IItemCondition;
 <akashictome:tome>.addTooltip(format.red("WARNING: don't combine with Astral Tome, Thaumonomicon, Lexica botania, Necronomicon, Alkahestry"));
 
 <thaumicenergistics:arcane_terminal>.addTooltip(format.red("WARNINGS: This is very crashy, you shouldn't need to use it much"));
-
-<libvulpes:advstructuremachine>.addTooltip(format.red("HiaggTM had to upgrade his hatch"));
 
 <thaumcraft:vishroom>.addTooltip(format.red("Found in magic forest biomes in the overworld"));
 
@@ -2850,34 +2685,6 @@ import crafttweaker.item.IItemCondition;
 <forge:bucketfilled>.withTag({FluidName: "arbiterium", Amount: 1000}).addTooltip(format.red("Used to make the Defined Ingot"));
 
 
-<forge:bucketfilled>.withTag({FluidName: "noble_gas_mix", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "rhodium", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "thallium", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "primal_ogerite", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "supercooled_noble_gas_mix", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "krypton_xenon_mix", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "neon", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "fluidcalcium", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "coal", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "molten_scandium", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "hydrogenchloride", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "fluidchlorite", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "hydrochloric_acid", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "yttrium_oxide", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "yttrium_fluoride", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "yttrium", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "molten_molybdenum", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "triple_point_fluid", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "meitnerium", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "radium", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "rutherfordium_chloride", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "radon", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "rutherfordium", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "einstenium_254", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "einstenium_253", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "mendelevium", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "energetic_ogerite", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
-<forge:bucketfilled>.withTag({FluidName: "hydra_juices", Amount: 1000}).addTooltip(format.red("Warning: this crafting chain produces radiation!"));
 
 <tinker_io:smart_output>.addTooltip(format.red("Upgraded version of the casting table with a GUI and upgrages"));
 
@@ -2984,17 +2791,12 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:crown_of_the_energy_queen>.addTooltip(format.red("Thank you NerdySpider for the texture!"));
 
-<contenttweaker:minor_vethea_binding>.addTooltip(format.red("Thank you NerdySpider for the texture!"));
 
 <contenttweaker:active_cursed_jewel>.addTooltip(format.red("Thank you NerdySpider for the texture!"));
 <contenttweaker:inert_cursed_jewel>.addTooltip(format.red("Thank you NerdySpider for the texture!"));
 
 <contenttweaker:object_of_great_mass>.addTooltip(format.red("WARNING: this has a chance of disappearing if hoppered into a metal press"));
 
-<bewitchment:scorned_brick_lilith_statue>.addTooltip(format.red("WARNING: do not auto-place this multiblock!"));
-<bewitchment:nether_brick_baphomet_statue>.addTooltip(format.red("WARNING: do not auto-place this multiblock!"));
-<bewitchment:stone_herne_statue>.addTooltip(format.red("WARNING: do not auto-place this multiblock!"));
-<bewitchment:gold_moloch_statue>.addTooltip(format.red("WARNING: do not auto-place this multiblock!"));
 
 <contenttweaker:defined_gear>.addTooltip(format.red("Ikea Bear wanted a real challenge"));
 
@@ -3170,8 +2972,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:haven_wormhole>.addTooltip(format.red("Found in Haven"));
 
 <botania:lokiring>.addTooltip(format.red("WARNING: this may mess up your ability to right click"));
-
-<contenttweaker:energy_hive>.addTooltip(format.red("From the orbital callstone"));
 
 <twilightforest:seeker_bow>.addTooltip(format.red("Dropped by the snow queen in the Twilight Forest"));
 
@@ -3356,8 +3156,6 @@ import crafttweaker.item.IItemCondition;
 <thaumcraft:brain_box>.addTooltip(format.red("Place on the side of a thaumatorium to encode an extra recipe!"));
 
 <thaumadditions:mithrillium_smelter>.addTooltip(format.red("Does not produce any flux"));
-<thaumadditions:adaminite_smelter>.addTooltip(format.red("Does not produce any flux, and has a 120% yield"));
-<thaumadditions:mithminite_smelter>.addTooltip(format.red("Does not produce any flux, and has a 150% yield"));
 
 <thaumcraft:goggles>.addTooltip(format.red("These will let you see essentia in thaumcraft machines, make sure you wear them at all times!"));
 
@@ -3605,35 +3403,11 @@ import crafttweaker.item.IItemCondition;
 <aoa3:hydrangic_chestplate>.addTooltip(format.red("Found in gardencia"));
 <aoa3:hydrangic_helmet>.addTooltip(format.red("Found in gardencia"));
 
-<contenttweaker:flying_gunpowder>.addTooltip(format.red("Found in creeponia"));
 
-<contenttweaker:call_of_the_full_moon>.addTooltip(format.red("Right click for a free cookie"));
-<contenttweaker:call_of_the_bloodhunt>.addTooltip(format.red("Right click for a free cookie"));
-<contenttweaker:mark_of_the_soul_scurry>.addTooltip(format.red("Right click for a free cookie"));
-<contenttweaker:signal_beacon>.addTooltip(format.red("Right click for a free cookie"));
-<contenttweaker:call_of_the_death_games>.addTooltip(format.red("Right click for a free cookie"));
-<contenttweaker:creepy_explosive>.addTooltip(format.red("Right click for a free cookie"));
-<contenttweaker:embiggener>.addTooltip(format.red("Right click for a free cookie"));
 
-<contenttweaker:parafrosynium>.addTooltip(format.red("Obtained from the Nero Callstone"));
-
-<contenttweaker:crazed_marble>.addTooltip(format.red("To complete the Twelve Gates of Heaven, place twelve of the blue celestial collector crystals on top of each pillar"));
-<contenttweaker:darkstar_catalyst>.addTooltip(format.red("To complete the Twelve Gates of Heaven, place twelve of the blue celestial collector crystals on top of each pillar"));
-
-<contenttweaker:abyssal_flesh>.addTooltip(format.red("Found in the Abyss"));
-
-<immersiveengineering:railgun>.addTooltip(format.red("Upgrades can be added in the engineer's workbench, it accepts shaders, additional capacitors, and the precision scope."));
-<immersiveengineering:railgun>.addTooltip(format.red("Requires any of the following ammunmition (from best to worst):"));
-<immersiveengineering:railgun>.addTooltip(format.red("Graphite Electrodes"));
-<immersiveengineering:railgun>.addTooltip(format.red("Steel Rods"));
-<immersiveengineering:railgun>.addTooltip(format.red("Aluminum Rods"));
-<immersiveengineering:railgun>.addTooltip(format.red("Iron Rods"));
-
-<contenttweaker:clunky_chunky_brick>.addTooltip(format.red("Obtained from the runic key"));
 
 <astralsorcery:blockaltar:3>.addTooltip(format.red("You will be able to make more after making the modular machinery multiblock"));
 
-<deepmoblearning:data_model_slime>.addTooltip(format.red("Also works with magma cubes and nether slimes"));
 
 <contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("Use the modular controllers in these recipes to auto-build reactor interiors for each fuel!"));
 <contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("Thanks to cry for coming up with the idea!"));
@@ -3642,11 +3416,8 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("Replace this with an active cooler from nuclearcraft!"));
 <contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("Use buffers on the reactor wall instead of casing, pipe your fluids in there!"));
 
-<contenttweaker:polar_catalyst>.addTooltip(format.red("Found in Apichisi"));
 
-<contenttweaker:stormlight_fragment>.addTooltip(format.red("From the stormborn callstone"));
 
-<divinerpg:storm_sword>.addTooltip(format.red("Traded from Captain Merik in Arcana"));
 
 
 

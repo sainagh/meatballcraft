@@ -109,9 +109,14 @@
 <contenttweaker:dying_constellation_callstone>.addTooltip(format.red("Use in this dimension:  Fuhai"));
 <contenttweaker:hopeful_return_callstone>.addTooltip(format.red("Use in this dimension:  Arcana Roof"));
 <contenttweaker:hollow_stag_callstone>.addTooltip(format.red("Use in this dimension:  Erebus"));
-<contenttweaker:broken_oath>.addTooltip(format.red("Use in this dimension:  Twilight Forest"));
+<contenttweaker:broken_oath>.addTooltip(format.red("Use in this dimension:  Twilight Forest Final Plateau"));
 <contenttweaker:rite_of_unhollowing>.addTooltip(format.red("Use in this dimension:  Erebus"));
 <contenttweaker:summon_of_the_gatekeeper>.addTooltip(format.red("Use in this dimension:  Deep Dark"));
+<contenttweaker:valhalla_callstone>.addTooltip(format.red("Use in this dimension:  Arcana"));
+<contenttweaker:dragon_reborn_callstone>.addTooltip(format.red("Use in this dimension:  Overworld"));
+<contenttweaker:key_of_actualization>.addTooltip(format.red("Use in this dimension:  Kashan"));
+<contenttweaker:magicbane_callstone>.addTooltip(format.red("Use in this dimension:  Creeponia"));
+<contenttweaker:time_lords_callstone>.addTooltip(format.red("Use in this dimension:  Gallifrey"));
 
 
 

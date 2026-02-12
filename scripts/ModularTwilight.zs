@@ -121,3 +121,23 @@ reci12.addItemInput(<twilightforest:magic_log:2>*64);
 reci12.addItemInput(<extrabees:honey_comb:0>*4);
 reci12.addItemOutput(<twilightforest:magic_log_core:2>);
 reci12.build();
+
+val reci13 = RecipeBuilder.newBuilder("twiweap13","carminite_empowerer",1200);
+reci13.addEnergyPerTickInput(5000);
+reci13.addAspectInput("victus",50);
+reci13.addItemInput(<contenttweaker:sundered_crimson_heart>);
+reci13.addItemInput(<twilightforest:twilight_sapling:9>*4);
+reci13.addItemInput(<careerbees:ingredients:2>.withTag({species: "gendustry.bee.Crepuscular"}));
+reci13.addItemInput(<twilightforest:transformation_powder>);
+reci13.addItemOutput(<contenttweaker:crimson_sundering_powder>);
+reci13.build();
+
+val reci14 = RecipeBuilder.newBuilder("twiweap14","carminite_empowerer",1200);
+reci14.addEnergyPerTickInput(5000);
+reci14.addAspectInput("victus",50);
+reci14.addItemInput(<contenttweaker:crimson_sundering_powder>);
+reci14.addItemInput(<twilightforest:twilight_sapling:9>*4);
+reci14.addItemInput(<careerbees:ingredients:2>.withTag({species: "gendustry.bee.Crepuscular"}));
+reci14.addItemInput(<twilightforest:transformation_powder>);
+reci14.addItemOutput(<contenttweaker:crimson_sundering_powder>*2);
+reci14.build();

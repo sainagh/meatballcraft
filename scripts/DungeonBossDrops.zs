@@ -576,6 +576,9 @@ recipes.addShapeless(<gendustry:honey_comb:14008>,
 recipes.addShapeless(<contenttweaker:superconducting_sednanite>, 
 [<contenttweaker:dungeon_drop>, <contenttweaker:space_station>, <contenttweaker:rhenia_artifact>, <contenttweaker:rhenia_warper>]);
 
+recipes.addShapeless(<gendustry:honey_comb:14009>, 
+[<contenttweaker:dungeon_drop>, <contenttweaker:space_station>, <contenttweaker:sedna_artifact>, <contenttweaker:sedna_warper>]);
+
 recipes.addShapeless(<contenttweaker:inert_spatial_phaser>, 
 [<contenttweaker:dungeon_drop>, <contenttweaker:space_station>, <contenttweaker:rhenia_artifact>, <contenttweaker:rhenia_warper>]);
 
@@ -883,6 +886,12 @@ recipes.addShapeless(<contenttweaker:celestial_shield_fragment>,
 recipes.addShapeless(<contenttweaker:cursed_dragon_egg>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
 
+recipes.addShapeless(<contenttweaker:investiture_of_the_direwolf>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
+recipes.addShapeless(<contenttweaker:crying_obsidian_powder>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
 recipes.addShapeless(<avaritia:resource:0>, 
 [<contenttweaker:gamestage_recipe>, <contenttweaker:ancient_elven_knowledge>]);
 
@@ -1090,6 +1099,10 @@ recipes.addShapeless(<contenttweaker:recursive_paper_illager>,
 recipes.addShapeless(<contenttweaker:recursive_paper_abyssal>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
 recipes.addShapeless(<contenttweaker:recursive_paper_buggy>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<contenttweaker:recursive_paper_faithfulundead>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+recipes.addShapeless(<contenttweaker:recursive_paper_flying>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
 
 recipes.addShapeless(<erebus:materials:0>,
@@ -1840,17 +1853,75 @@ recipes.addShapeless(<contenttweaker:spark_of_unhallowing>,
 [<contenttweaker:boss_drop>, <contenttweaker:rite_of_unhollowing>]);
 
 
+recipes.addShapeless(<contenttweaker:pharos_imbuement>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:space_station>, <contenttweaker:ptah_warper>]);
+
+recipes.addShapeless(<contenttweaker:breath_of_ragnarok>,
+[<contenttweaker:trader_drop>, <contenttweaker:summons_of_ragnarok>]);
+
+recipes.addShapeless(<contenttweaker:gratitude_of_loki>,
+[<contenttweaker:trader_drop>, <contenttweaker:valhalla_callstone>]);
+recipes.addShapeless(<contenttweaker:gratitude_of_odin>,
+[<contenttweaker:trader_drop>, <contenttweaker:valhalla_callstone>]);
+recipes.addShapeless(<contenttweaker:gratitude_of_thor>,
+[<contenttweaker:trader_drop>, <contenttweaker:valhalla_callstone>]);
+
+recipes.addShapeless(<contenttweaker:standard_of_the_dragon_reborn>,
+[<contenttweaker:trader_drop>, <contenttweaker:dragon_reborn_callstone>]);
 
 
 
 
 
+recipes.addShapeless(<contenttweaker:whisper_of_freedom_raven>, 
+[<contenttweaker:trader_drop>, <contenttweaker:crimson_sundering_pebble>]);
+recipes.addShapeless(<contenttweaker:whisper_of_freedom_hedge>, 
+[<contenttweaker:trader_drop>, <contenttweaker:crimson_sundering_pebble>]);
+recipes.addShapeless(<contenttweaker:whisper_of_freedom_tome>, 
+[<contenttweaker:trader_drop>, <contenttweaker:crimson_sundering_pebble>]);
+recipes.addShapeless(<contenttweaker:whisper_of_freedom_redcap>, 
+[<contenttweaker:trader_drop>, <contenttweaker:crimson_sundering_pebble>]);
+recipes.addShapeless(<contenttweaker:whisper_of_freedom_minotaur>, 
+[<contenttweaker:trader_drop>, <contenttweaker:crimson_sundering_pebble>]);
+recipes.addShapeless(<contenttweaker:whisper_of_freedom_troll>, 
+[<contenttweaker:trader_drop>, <contenttweaker:crimson_sundering_pebble>]);
+recipes.addShapeless(<contenttweaker:whisper_of_freedom_crab>, 
+[<contenttweaker:trader_drop>, <contenttweaker:crimson_sundering_pebble>]);
+recipes.addShapeless(<contenttweaker:whisper_of_freedom_giant>, 
+[<contenttweaker:trader_drop>, <contenttweaker:crimson_sundering_pebble>]);
+
+recipes.addShapeless(<contenttweaker:unforgotten_summons>, 
+[<contenttweaker:trader_drop>, <contenttweaker:twilit_freedom_fabrial>, <contenttweaker:summons_of_the_twilit_hero>, <twilightforest:fiery_sword>]);
+
+
+recipes.addShapeless(<contenttweaker:hyperuranion_staff>, 
+[<contenttweaker:boss_drop>, <contenttweaker:key_of_actualization>]);
+recipes.addShapeless(<contenttweaker:hyperuranion_sphere>, 
+[<contenttweaker:boss_drop>, <contenttweaker:key_of_actualization>]);
+recipes.addShapeless(<contenttweaker:hyperuranion_bow>, 
+[<contenttweaker:boss_drop>, <contenttweaker:key_of_actualization>]);
+recipes.addShapeless(<contenttweaker:hyperuranion_plate>, 
+[<contenttweaker:boss_drop>, <contenttweaker:key_of_actualization>]);
+recipes.addShapeless(<contenttweaker:hyperuranion_disk>, 
+[<contenttweaker:boss_drop>, <contenttweaker:key_of_actualization>]);
+recipes.addShapeless(<contenttweaker:hyperuranion_ring>, 
+[<contenttweaker:boss_drop>, <contenttweaker:key_of_actualization>]);
+
+
+recipes.addShapeless(<aoa3:gauge_rifle>,
+[<contenttweaker:trader_drop>, <aoa3:lelyetia_realmstone>]);
+
+recipes.addShapeless(<aoa3:weapon_parts>,
+[<contenttweaker:dungeon_drop>, <aoa3:lelyetia_realmstone>]);
 
 
 
+recipes.addShapeless(<contenttweaker:bane_of_recursion>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:magicbane_callstone>]);
 
 
-
+recipes.addShapeless(<tardis:dalek_hull>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:time_lords_callstone>]);
 
 
 

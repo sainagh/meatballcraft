@@ -43,6 +43,18 @@ plasmahalite.addItemInput(<extrabotany:lens:6>);
 plasmahalite.addItemOutput(<contenttweaker:gallifrey_fabrial>);
 plasmahalite.build();
 
+val plasmahalite2 = RecipeBuilder.newBuilder("plasmahalite2","plasmatic_condenser",20);
+plasmahalite2.addFluidInput(<fluid:halite_fluid>*500);
+plasmahalite2.addItemInput(<contenttweaker:definer_core>*8);
+plasmahalite2.addItemInput(<contenttweaker:lawrencium_262>*8);
+plasmahalite2.addItemInput(<contenttweaker:time_crystal>*8);
+plasmahalite2.addItemInput(<contenttweaker:horcrux>*4);
+plasmahalite2.addItemInput(<contenttweaker:recursium_ingot>*2);
+plasmahalite2.addItemInput(<contenttweaker:optical_event_horizon>);
+plasmahalite2.addItemInput(<contenttweaker:superconductor_artifact>);
+plasmahalite2.addItemOutput(<contenttweaker:gallifrey_fabrial>);
+plasmahalite2.build();
+
 val creationwarren = RecipeBuilder.newBuilder("creationwarren","creation_altar",20);
 creationwarren.addEnergyPerTickInput(400000);
 creationwarren.addFluidInput(<fluid:darkstarlight>*100);
@@ -116,6 +128,22 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:greater_gaia
 <extrabotany:blockphotonium>, <extrabotany:blockshadowium>,
 <extrabotany:blockphotonium>, <extrabotany:blockshadowium>,
 <contenttweaker:whisp_of_asgard>, <contenttweaker:whisp_of_asgard>]);
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:greater_gaia_spirit>*8, 
+100000, <contenttweaker:lesser_mana_core>, 
+[<contenttweaker:gaia_spirit_block>, <contenttweaker:gaia_spirit_block>,
+<contenttweaker:gaia_spirit_block>, <contenttweaker:gaia_spirit_block>,
+<aoa3:shyregem_block>, <aoa3:shyregem_block>,
+<aoa3:shyregem_block>, <aoa3:shyregem_block>,
+<extrabotany:blockphotonium>, <extrabotany:blockshadowium>,
+<extrabotany:blockphotonium>, <extrabotany:blockshadowium>,
+<extrabotany:blockphotonium>, <extrabotany:blockshadowium>,
+<extrabotany:blockphotonium>, <extrabotany:blockshadowium>,
+<extrabotany:blockphotonium>, <extrabotany:blockshadowium>,
+<extrabotany:blockphotonium>, <extrabotany:blockshadowium>,
+<contenttweaker:whisp_of_asgard>, <contenttweaker:whisp_of_asgard>,
+<contenttweaker:yggdrasil_wood>, <contenttweaker:yggdrasil_wood>]);
 
 
 

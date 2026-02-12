@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    455764625
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:flame_of_actualization"
+      },
+      "name:8": "The Eleint of Actualization"
+    }
+  },
+  "questID:3": 1671943841,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:key_of_actualization"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:offering_to_the_eleint_of_actualization"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:flame_of_actualization"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

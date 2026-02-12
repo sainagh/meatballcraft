@@ -13,17 +13,17 @@ mods.nuclearcraft.melter.addRecipe([<ore:dustCharcoal>, <fluid:fluidcarbon> * 25
 
 // making krypton, neon, argon, and xenon
 
-mods.nuclearcraft.centrifuge.addRecipe([<fluid:aerotheum>*100, <fluid:nitrogen>*70, <fluid:oxygen>*20, <fluid:noble_gas_mix>*10, <fluid:argon>*10, 0.1, 6.1, 0.2]);
+mods.nuclearcraft.centrifuge.addRecipe([<fluid:aerotheum>*100, <fluid:nitrogen>*70, <fluid:oxygen>*20, <fluid:noble_gas_mix>*10, <fluid:argon>*10]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:noble_gas_mix>*10, <fluid:cryotheum>*50, <fluid:supercooled_noble_gas_mix>*10, <fluid:helium>*10, 0.1, 2.5, 0.2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:noble_gas_mix>*10, <fluid:cryotheum>*50, <fluid:supercooled_noble_gas_mix>*10, <fluid:helium>*10]);
 
-mods.nuclearcraft.centrifuge.addRecipe([<fluid:supercooled_noble_gas_mix>*100, <fluid:krypton_xenon_mix>*50, <fluid:neon>*50, null, null, 0.1, 6.1, 0.2]);
+mods.nuclearcraft.centrifuge.addRecipe([<fluid:supercooled_noble_gas_mix>*100, <fluid:krypton_xenon_mix>*50, <fluid:neon>*50, null, null]);
 
 mods.nuclearcraft.rock_crusher.addRecipe([<abyssalcraft:crystal:21>, <contenttweaker:silica_dust>*4, null, null]);
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:silica_dust>, <fluid:hydrated_gelatin>*72, <contenttweaker:silica_gelatin>*4]);
 
-mods.nuclearcraft.infuser.addRecipe([<contenttweaker:silica_gelatin>, <fluid:krypton_xenon_mix>*10, <contenttweaker:krypton_xenon_capture>, 0.5, 0.6, 0.4]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:silica_gelatin>, <fluid:krypton_xenon_mix>*10, <contenttweaker:krypton_xenon_capture>]);
 
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:krypton_xenon_capture>, <contenttweaker:krypton_capture>, <fluid:xenon>*100]);
 
@@ -46,13 +46,13 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:phosphorous_crystal>, <fluid
 
 // making chlorine, francium, and bromine
 
-mods.nuclearcraft.dissolver.addRecipe([<ore:dustSalt>, <fluid:water>*100, <fluid:salt_water>*100, 0.9, 0.2, 0.0]);
+mods.nuclearcraft.dissolver.addRecipe([<ore:dustSalt>, <fluid:water>*100, <fluid:salt_water>*100]);
 
-mods.nuclearcraft.electrolyser.addRecipe([<fluid:salt_water>*2000, <fluid:chlorine>*400, <fluid:sodium>*400, <fluid:mineral_water>*1200, null, 0.1, 0.9, 0.0]);
+mods.nuclearcraft.electrolyser.addRecipe([<fluid:salt_water>*2000, <fluid:chlorine>*400, <fluid:sodium>*400, <fluid:mineral_water>*1200, null]);
 
-mods.nuclearcraft.electrolyser.addRecipe([<fluid:brine>*200, <fluid:chlorine>*40, <fluid:sodium>*40, <fluid:saline_remains>*120, null, 0.1, 0.9, 0.0]);
+mods.nuclearcraft.electrolyser.addRecipe([<fluid:brine>*200, <fluid:chlorine>*40, <fluid:sodium>*40, <fluid:saline_remains>*120, null]);
 
-mods.nuclearcraft.electrolyser.addRecipe([<fluid:saline_remains>*100, <fluid:francium>*50, <fluid:bromine>*50, null, null, 0.1, 0.9, 0.0]);
+mods.nuclearcraft.electrolyser.addRecipe([<fluid:saline_remains>*100, <fluid:francium>*50, <fluid:bromine>*50, null, null]);
 
 mods.nuclearcraft.melter.removeRecipeWithOutput([<fluid:brine>]);
 
@@ -65,11 +65,11 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:calcite_gem>, <fluid:molten_
 
 mods.nuclearcraft.melter.addRecipe([<ore:dustCalcite>*2, <fluid:molten_calcite>*100]);
 
-mods.nuclearcraft.electrolyser.addRecipe([<fluid:molten_calcite>*100, <fluid:fluidcalcium>*100, <fluid:coal>*10, <fluid:oxygen>*40, null, 0.3, 0.9, 0.2]);
+mods.nuclearcraft.electrolyser.addRecipe([<fluid:molten_calcite>*100, <fluid:fluidcalcium>*100, <fluid:coal>*10, <fluid:oxygen>*40, null]);
 
 // making scandium
 
-mods.nuclearcraft.electrolyser.addRecipe([<fluid:depleted_fuel_leu_235>*100, <fluid:molten_scandium>*30, <fluid:uranium_235>*20, <fluid:uranium_238>*40, <fluid:plutonium_238>*1, 1.0, 1.0, 0.9]);
+mods.nuclearcraft.electrolyser.addRecipe([<fluid:depleted_fuel_leu_235>*100, <fluid:molten_scandium>*30, <fluid:uranium_235>*20, <fluid:uranium_238>*40, <fluid:plutonium_238>*1]);
 
 // making vanadium
 
@@ -101,17 +101,17 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:selenium_dust>, <fluid:selen
 
 mods.nuclearcraft.chemical_reactor.removeRecipeWithInput([<fluid:hydrogen>, <fluid:chlorine>]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:hydrogen>*500, <fluid:chlorine>*1000, <fluid:fluidchlorite>*100, <fluid:hydrogenchloride>*1000, 0.1, 2.5, 0.2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:hydrogen>*500, <fluid:chlorine>*1000, <fluid:fluidchlorite>*100, <fluid:hydrogenchloride>*1000]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:salt_water>*10, <fluid:hydrogenchloride>*10, <fluid:fluidchlorite>*10, <fluid:hydrochloric_acid>*10, 0.1, 2.5, 0.2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:salt_water>*10, <fluid:hydrogenchloride>*10, <fluid:fluidchlorite>*10, <fluid:hydrochloric_acid>*10]);
 
 mods.nuclearcraft.rock_crusher.addRecipe([<thaumcraft:nugget:10>, <contenttweaker:yttrium_oxide>, <contenttweaker:barium_oxide>, null]);
 
-mods.nuclearcraft.melter.addRecipe([<contenttweaker:yttrium_oxide>, <fluid:yttrium_oxide>*50, 0.6, 1.4, 0.1]);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:yttrium_oxide>, <fluid:yttrium_oxide>*50]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:yttrium_oxide>*10, <fluid:hydrofluoric_acid>*2, <fluid:yttrium_fluoride>*10, <fluid:water>*5, 0.1, 2.5, 0.2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:yttrium_oxide>*10, <fluid:hydrofluoric_acid>*2, <fluid:yttrium_fluoride>*10, <fluid:water>*5]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:hydrochloric_acid>*10, <fluid:yttrium_fluoride>*10, <fluid:yttrium>*20, <fluid:water>*5, 0.1, 2.5, 0.2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:hydrochloric_acid>*10, <fluid:yttrium_fluoride>*10, <fluid:yttrium>*20, <fluid:water>*5]);
 
 mods.techreborn.industrialElectrolyzer.addRecipe(<contenttweaker:barium_chunk>, <abyssalcraft:crystalfragment:4>, null, null, null, <contenttweaker:barium_oxide>, 30, 40);
 
@@ -144,7 +144,7 @@ mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:55>, <contenttweake
 
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:tungsten_molybdenum_dust>, <fluid:manyullyn>*144, <fluid:tungsten_molybdenum_mix>*144]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:tungsten_molybdenum_mix>*144, <fluid:boric_acid>*50, <fluid:molten_molybdenum>*72, <fluid:tungsten>*72, 0.1, 2.5, 0.0]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:tungsten_molybdenum_mix>*144, <fluid:boric_acid>*50, <fluid:molten_molybdenum>*72, <fluid:tungsten>*72]);
 
 // making einstenium
 
@@ -168,9 +168,9 @@ mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:lanthanum_salt>, <fluid:f
 
 // making meitnerium
 
-mods.nuclearcraft.supercooler.addRecipe([<fluid:dense_plasma>*1000, <fluid:triple_point_fluid>*10, 0.1, 1.5, 6.0]);
+mods.nuclearcraft.supercooler.addRecipe([<fluid:dense_plasma>*1000, <fluid:triple_point_fluid>*10]);
 
-mods.nuclearcraft.irradiator.addRecipe([<fluid:atomic_nuclei>*10, <fluid:unbalanced_negative_matter>*50, <fluid:meitnerium>*50, <fluid:neutron>*100, 0.2, 1.8, 2.5]);
+mods.nuclearcraft.irradiator.addRecipe([<fluid:atomic_nuclei>*10, <fluid:unbalanced_negative_matter>*50, <fluid:meitnerium>*50, <fluid:neutron>*100]);
 
 // making ruthenium
 
@@ -252,7 +252,7 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:ruthenium_ingot>, <fluid:mol
 
 mods.techreborn.industrialElectrolyzer.addRecipe(<contenttweaker:rhodium_mixture>, <techreborn:smalldust:10>, null, null, null, <nuclearcraft:gem:0>, 30, 40);
 
-mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:rhodium_mixture>, <fluid:sulfuric_acid>*500, <fluid:rhodium>*100, 0.2, 1.4, 0.0]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:rhodium_mixture>, <fluid:sulfuric_acid>*500, <fluid:rhodium>*100]);
 
 // making cadmium
 
@@ -345,7 +345,7 @@ mods.nuclearcraft.melter.addRecipe([<ore:dustCinnabar>, <fluid:fluidmercury>*100
 mods.nuclearcraft.dissolver.addRecipe([<nuclearcraft:dust:11>, <fluid:hot_spring_water>*1000, <fluid:manganese_thallium_mix>*1000]);
 mods.nuclearcraft.dissolver.addRecipe([<techreborn:dust:31>, <fluid:hot_spring_water>*1000, <fluid:manganese_thallium_mix>*1000]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:manganese_thallium_mix>*200, <fluid:sulfur_trioxide>*200, <fluid:sulfuric_acid>*1000, <fluid:thallium>*500, 0.1, 2.5, 0.2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:manganese_thallium_mix>*200, <fluid:sulfur_trioxide>*200, <fluid:sulfuric_acid>*1000, <fluid:thallium>*500]);
 
 // making bismuth
 
@@ -360,9 +360,9 @@ mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:bismuth_cluster>, <fluid:
 
 mods.nuclearcraft.dissolver.addRecipe([<nuclearcraft:thorium:1>, <fluid:plasma>*10, <fluid:fastly_dacaying_thorium>*10]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:fastly_dacaying_thorium>*12, <fluid:oxygen>*1000, <fluid:oxygen>*800, <fluid:radium>*100, 0.1, 2.5, 0.2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:fastly_dacaying_thorium>*12, <fluid:oxygen>*1000, <fluid:oxygen>*800, <fluid:radium>*100]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:radium>*100, <fluid:oxygen>*1000, <fluid:oxygen>*800, <fluid:radon>*100, 0.1, 2.5, 0.2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:radium>*100, <fluid:oxygen>*1000, <fluid:oxygen>*800, <fluid:radon>*100]);
 
 // making actinium
 
@@ -372,9 +372,9 @@ mods.nuclearcraft.irradiator.addRecipe([<fluid:decomposed_matter>*50, <fluid:neu
 
 mods.nuclearcraft.dissolver.addRecipe([<nuclearcraft:plutonium:12>, <fluid:plasma>*10, <fluid:fastly_dacaying_plutonium>*10]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:fastly_dacaying_plutonium>*10, <fluid:chlorine>*40, <fluid:rutherfordium_chloride>*100, null, 0.1, 2.5, 0.2]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:fastly_dacaying_plutonium>*10, <fluid:chlorine>*40, <fluid:rutherfordium_chloride>*100, null]);
 
-mods.nuclearcraft.electrolyser.addRecipe([<fluid:rutherfordium_chloride>*50, <fluid:chlorine>*10, <fluid:rutherfordium>*40, null, null, 0.1, 0.9, 0.2]);
+mods.nuclearcraft.electrolyser.addRecipe([<fluid:rutherfordium_chloride>*50, <fluid:chlorine>*10, <fluid:rutherfordium>*40, null, null]);
 
 // making dubnium
 
@@ -462,7 +462,7 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:terbium_crystal>, <fluid:ter
 
 // making fermium
 
-mods.nuclearcraft.centrifuge.addRecipe([<fluid:einstenium>*100, <fluid:einstenium_253>*50, <fluid:einstenium_254>*50, null, null, 0.1, 0.9, 0.2]);
+mods.nuclearcraft.centrifuge.addRecipe([<fluid:einstenium>*100, <fluid:einstenium_253>*50, <fluid:einstenium_254>*50, null, null]);
 
 mods.nuclearcraft.crystallizer.addRecipe([<fluid:einstenium_253>*50, <contenttweaker:einstenium_253>]);
 
@@ -492,7 +492,7 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:proactinium_dust>, <fluid:pr
 
 // making mendelevium
 
-mods.nuclearcraft.irradiator.addRecipe([<fluid:einstenium>*10, <fluid:atomic_nuclei>*50, <fluid:mendelevium>*100, null, 0.2, 1.8, 1.3]);
+mods.nuclearcraft.irradiator.addRecipe([<fluid:einstenium>*10, <fluid:atomic_nuclei>*50, <fluid:mendelevium>*100, null]);
 
 // making oganesson
 
@@ -621,7 +621,7 @@ roentgeniumaccelerator.build();
 
 // making copernicium
 
-mods.nuclearcraft.centrifuge.addRecipe([<fluid:primal_ogerite>*144, <fluid:decay_inducing_matter>*72, <fluid:energetic_ogerite>*72, null, null, 0.1, 0.1, 0.002]);
+mods.nuclearcraft.centrifuge.addRecipe([<fluid:primal_ogerite>*144, <fluid:decay_inducing_matter>*72, <fluid:energetic_ogerite>*72, null, null]);
 
 mods.nuclearcraft.dissolver.addRecipe([<projecte:item.pe_fuel:2>, <fluid:decay_inducing_matter>*50, <fluid:copernicium>*50]);
 

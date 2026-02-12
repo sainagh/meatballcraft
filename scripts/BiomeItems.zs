@@ -1,3 +1,4 @@
+
 #loader contenttweaker
 // exerts of this piece of code are taken from Jivine Journey 2, by Atricos
 
@@ -13,6 +14,11 @@ import mods.contenttweaker.World;
 import mods.contenttweaker.IItemUpdate;
 import mods.contenttweaker.Player;
 import crafttweaker.player.IPlayer;
+import crafttweaker.block.IBlock;
+import crafttweaker.data.IData;
+import crafttweaker.util.Position3f;
+import crafttweaker.block.IBlockState;
+
 
 
 
@@ -43,101 +49,54 @@ markofthesamurai.itemRightClick = function(stack, world, player, hand) {
 
     // check if player is in right dimension
     if(player.getDimension() != 163) {
-        player.sendChat("This item needs to be used in Rhenia");
+        player.sendChat("You gotta be in rhenia in a volcanic biome");
         return "FAIL";
     }
-
-	// initial message
-	player.sendChat("To use this item, you'll need to do some biome editing using Thaumcraft");
-	player.sendChat("These are the tools you'll need:");
-	player.sendChat("- An Arcane Terraformer");
-	player.sendChat("- Some Essentia Tubes, or 5 emptying essential transfusers");
-	player.sendChat("- Essentia Jars for Ignis, Aer, Aqua, Terra, Permutatio (maybe a handful for each type)");
-	player.sendChat("- Some Impetus Relays");
-	player.sendChat("- An Impetus Drainer, with some way of making a rift, like the good old crucible and compressed cobblestone, or the Eldritch Impetus Catalyzer multiblock");
-	player.sendChat("- A Thaumium-tier and above Casting Gauntlet");
-	player.sendChat("- An Impetus Resonator");
-	player.sendChat("- A Biome Checker");
-	player.sendChat("- Biome Foci for Ominous Woods, Magical Forest");
-	player.sendChat("For more info, check the Info Boxes for the Arcane Terraformer");
-	player.sendChat("=====================================");
-	player.sendChat("Ok the biome puzzle starts here!");
-
-
-	// step 1
 
     // obtain position under player
 	var playerpos = player.position as crafttweaker.util.Position3f;
 
     // locations to place biomes
-	val VolcanicBiomeLocations = [[5,5],[5,-5],[-5,5],[-5,-5],[0,5],[5,0],[-5,0],[0,-5]] as int[][];
+    val OminousBiomeLocations = [[0,0],
+								[1,0],[0,1],[-1,0],[0,-1],
+								[2,0],[0,2],[-2,0],[0,-2],
+								[3,0],[0,3],[-3,0],[0,-3]] as int[][];
+	val VolcanicBiomeLocations = [[1,1],[1,-1],[-1,1],[-1,-1],
+								  [2,2],[2,-2],[-2,2],[-2,-2],
+								  [3,3],[3,-3],[-3,3],[-3,-3],
+								  [1,2],[-1,2],[1,-2],[-1,-2],
+								  [2,1],[-2,1],[2,-1],[-2,-1],
+								  [1,3],[-1,3],[1,-3],[-1,-3],
+								  [3,1],[-3,1],[3,-1],[-3,-1],
+								  [2,3],[-2,3],[2,-3],[-2,-3],
+								  [3,2],[-3,2],[3,-2],[-3,-2]] as int[][];
 
     // biome to pattern
+    val OminousBiomeName = "Ominous Woods" as string;
 	val VolcanicBiomeName = "Volcanic" as string;
 
 
     // get number of matches
+    val OminousMatches = checkBiomesAtPositions(OminousBiomeName, playerpos, OminousBiomeLocations, world) as int;
 	val VolcanicMatches = checkBiomesAtPositions(VolcanicBiomeName, playerpos, VolcanicBiomeLocations, world) as int;
 
-	// step 1 message
-	player.sendChat("Step 1: Go find a 11x11 area of Volcanic Biome, place your Arcane Terraformer at the center, and reuse this item while standing on the Terraformer");
+    player.sendChat("Use the Terraformer from Extra Utilities to create a plus sign of Ominous Woods biome blocks surrounded by volcanic biome (not volcanic barren or volcanic lowlands)");
+	player.sendChat("Stand in the center and use this item!");
 
-	// check step 1
-	if (VolcanicMatches != 8){
-		player.sendChat("	Not all edges of the 11x11 area are Volcanic, go find a better place!");
+	player.sendChat(" - - - ");
+	player.sendChat("Scanning 7x7 area around you");
+
+	player.sendChat("Ominous Woods : " ~ OminousMatches ~ " out of 13");
+	player.sendChat("Volcanic : " ~ VolcanicMatches ~ " out of 36");
+
+    if((OminousMatches+VolcanicMatches) == 49) {
+		Commands.call("give @p contenttweaker:sword_shield", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} else {
+		player.sendChat("Shape is incomplete!");
 		return "FAIL";
 	}
-	player.sendChat("	Step 1 complete! You are in an 11x11 area of Volcanic Biome");
-	player.sendChat("	As an additional help with debugging, you can cover the 11x11 area with grass, it will change color as the biomes change");
-	player.sendChat("	Place the Arcane Terraformer and its setup in the center");
-	player.sendChat("	To keep things neater, place your impetus generation setup outside the 11x11, and use relays to transfer it to the terraformer");
-	
-	
-	
-	player.sendChat("---");
-	player.sendChat("Step 2: Run the Terraformer to make a 7x7 of Ominous Woods, and reuse this item while standing on the Terraformer");
-	player.sendChat("	Use these settings, 'Square', 'Radius 24', this is because of a bug in the mod");
-	player.sendChat("	Feel free to try 'Square', 'Radius 4' or other values if you are feeling lucky, but those may bug out");
-	player.sendChat("	Depending on your impetus generation, you will have to run the Terraformer multiple times to convert the entirety of the area");
-
-	// step 2
-	val OminousBiomeLocations = [
-		[3,3],[3,-3],[-3,3],[-3,-3],
-		[0,3],[0,-3],[3,0],[-3,0]
-		] as int[][];
-	val OminousBiomeName = "Ominous Woods" as string;
-	val OminousMatches = checkBiomesAtPositions(OminousBiomeName, playerpos, OminousBiomeLocations, world) as int;
-    player.sendChat("Ominous Woods : " ~ OminousMatches ~ " out of 8");
-
-	if (OminousMatches != 8){
-		player.sendChat("	7x7 of Ominous Woods is incomplete");
-		return "FAIL";
-	}
-
-	player.sendChat("	Step 2 complete! You are in a 7x7 area of Ominous woods");
-
-	player.sendChat("---");
-	player.sendChat("Step 3: Run the Terraformer to change the center block to Magical Forest, and reuse this item while standing on the Terraformer");
-	player.sendChat("	Use these settings, 'Square', 'Radius 2'");
-
-	// step 3
-	val MagicBiomeLocations = [
-		[0,0]
-		] as int[][];
-	val MagicBiomeName = "Magical Forest" as string;
-	val MagicMatches = checkBiomesAtPositions(MagicBiomeName, playerpos, MagicBiomeLocations, world) as int;
-    player.sendChat("Magical Forest : " ~ MagicMatches ~ " out of 1");
-
-	if (MagicMatches != 1){
-		player.sendChat("	Center block is not Magical Forest");
-		return "FAIL";
-	}
-
-	player.sendChat("	Step 3 complete!");
-	Commands.call("summon Item ~ ~100 ~ {Item:{id:\"contenttweaker:sword_shield\",Count:1b}}", player, world, false, true);
-	stack.shrink(1);
-	return "Pass";
-
 
 };
 markofthesamurai.register();
@@ -296,7 +255,7 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 
 
 
-	if((NumberOfMatches) == 25) {
+	if((NumberOfMatches) == 113) {
 		Commands.call("give @p contenttweaker:crown_of_the_energy_queen", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
@@ -1393,3 +1352,13 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
 
 };
 oathoftheundeadlords.register();
+
+
+
+
+
+
+
+
+
+

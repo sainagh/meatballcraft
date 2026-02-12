@@ -5,6 +5,13 @@ recipes.addShaped(<contenttweaker:plated_photonium>,
 [<contenttweaker:eldritch_metal_plate>, <extrabotany:blockphotonium>, <contenttweaker:eldritch_metal_plate>],
 [<contenttweaker:eldritch_metal_plate>, <contenttweaker:eldritch_metal_plate>, <contenttweaker:eldritch_metal_plate>]]);
 
+recipes.addShaped(<contenttweaker:extant_photonium>*4,
+[[<contenttweaker:thaumic_citrus>, <contenttweaker:plated_photonium>, <contenttweaker:thaumic_citrus>],
+[<contenttweaker:plated_photonium>, <contenttweaker:recursive_convergence>, <contenttweaker:plated_photonium>],
+[<contenttweaker:thaumic_citrus>, <contenttweaker:plated_photonium>, <contenttweaker:thaumic_citrus>]]);
+
+
+
 val fortree1 = RecipeBuilder.newBuilder("fortree1","enchanted_greenhouse",1000);
 fortree1.addItemInput(<forestry:sapling>.withTag({Genome: {Chromosomes: [{UID1: "forestry.treeChestnut", UID0: "forestry.treeChestnut", Slot: 0 as byte}]}}));
 fortree1.setChance(0.0);
@@ -1049,77 +1056,77 @@ fortree138.addItemOutput(<abyssalcraft:charcoal>*64);
 fortree138.build();
 
 
-val fortree139a = RecipeBuilder.newBuilder("fortree139a","enchanted_greenhouse",50);
+val fortree139a = RecipeBuilder.newBuilder("fortree139a","enchanted_greenhouse",500);
 fortree139a.addItemInput(<contenttweaker:thaumic_brush>);
 fortree139a.setChance(0.0);
 fortree139a.addItemInput(<forestry:peat>);
 fortree139a.addItemOutput(<contenttweaker:thaumic_citrus>*1);
 fortree139a.build();
 
-val fortree139b = RecipeBuilder.newBuilder("fortree139b","enchanted_greenhouse",50);
+val fortree139b = RecipeBuilder.newBuilder("fortree139b","enchanted_greenhouse",500);
 fortree139b.addItemInput(<contenttweaker:thaumic_brush>);
 fortree139b.setChance(0.0);
 fortree139b.addItemInput(<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§MThel§r"]}}));
 fortree139b.addItemOutput(<contenttweaker:thaumic_citrus>*6);
 fortree139b.build();
 
-val fortree139c = RecipeBuilder.newBuilder("fortree139c","enchanted_greenhouse",50);
+val fortree139c = RecipeBuilder.newBuilder("fortree139c","enchanted_greenhouse",500);
 fortree139c.addItemInput(<contenttweaker:thaumic_brush>);
 fortree139c.setChance(0.0);
 fortree139c.addItemInput(<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§MAhkrast Korvalain§r"]}}));
 fortree139c.addItemOutput(<contenttweaker:thaumic_citrus>*36);
 fortree139c.build();
 
-val fortree139d = RecipeBuilder.newBuilder("fortree139d","enchanted_greenhouse",50);
+val fortree139d = RecipeBuilder.newBuilder("fortree139d","enchanted_greenhouse",500);
 fortree139d.addItemInput(<contenttweaker:thaumic_brush>);
 fortree139d.setChance(0.0);
 fortree139d.addItemInput(<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§MVerdith Anath§r"]}}));
 fortree139d.addItemOutput(<contenttweaker:thaumic_citrus>*216);
 fortree139d.build();
 
-val fortree139e = RecipeBuilder.newBuilder("fortree139e","enchanted_greenhouse",50);
+val fortree139e = RecipeBuilder.newBuilder("fortree139e","enchanted_greenhouse",500);
 fortree139e.addItemInput(<contenttweaker:thaumic_brush>);
 fortree139e.setChance(0.0);
 fortree139e.addItemInput(<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§MOmtose Phellack§r"]}}));
 fortree139e.addItemOutput(<contenttweaker:thaumic_citrus>*1296);
 fortree139e.build();
 
-val fortree139f = RecipeBuilder.newBuilder("fortree139f","enchanted_greenhouse",50);
+val fortree139f = RecipeBuilder.newBuilder("fortree139f","enchanted_greenhouse",500);
 fortree139f.addItemInput(<contenttweaker:thaumic_brush>);
 fortree139f.setChance(0.0);
 fortree139f.addItemInput(<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§MDonaeth Rusen§r"]}}));
 fortree139f.addItemOutput(<contenttweaker:thaumic_citrus>*7776);
 fortree139f.build();
 
-val fortree139g = RecipeBuilder.newBuilder("fortree139g","enchanted_greenhouse",50);
+val fortree139g = RecipeBuilder.newBuilder("fortree139g","enchanted_greenhouse",500);
 fortree139g.addItemInput(<contenttweaker:thaumic_brush>);
 fortree139g.setChance(0.0);
 fortree139g.addItemInput(<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§MTellan§r"]}}));
 fortree139g.addItemOutput(<contenttweaker:thaumic_citrus>*46656);
 fortree139g.build();
 
-val fortree139h = RecipeBuilder.newBuilder("fortree139h","enchanted_greenhouse",50);
+val fortree139h = RecipeBuilder.newBuilder("fortree139h","enchanted_greenhouse",500);
 fortree139h.addItemInput(<contenttweaker:thaumic_brush>);
 fortree139h.setChance(0.0);
 fortree139h.addItemInput(<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§MKurald Thyrllan§r"]}}));
 fortree139h.addItemOutput(<contenttweaker:thaumic_citrus>*279936);
 fortree139h.build();
 
-val fortree139i = RecipeBuilder.newBuilder("fortree139i","enchanted_greenhouse",50);
+val fortree139i = RecipeBuilder.newBuilder("fortree139i","enchanted_greenhouse",500);
 fortree139i.addItemInput(<contenttweaker:thaumic_brush>);
 fortree139i.setChance(0.0);
 fortree139i.addItemInput(<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§MKurald Emurlahn§r"]}}));
 fortree139i.addItemOutput(<contenttweaker:thaumic_citrus>*1679616);
 fortree139i.build();
 
-val fortree139j = RecipeBuilder.newBuilder("fortree139j","enchanted_greenhouse",50);
+val fortree139j = RecipeBuilder.newBuilder("fortree139j","enchanted_greenhouse",500);
 fortree139j.addItemInput(<contenttweaker:thaumic_brush>);
 fortree139j.setChance(0.0);
 fortree139j.addItemInput(<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§MKurald Galain§r"]}}));
 fortree139j.addItemOutput(<contenttweaker:thaumic_citrus>*10077696);
 fortree139j.build();
 
-val fortree139k = RecipeBuilder.newBuilder("fortree139k","enchanted_greenhouse",50);
+val fortree139k = RecipeBuilder.newBuilder("fortree139k","enchanted_greenhouse",500);
 fortree139k.addItemInput(<contenttweaker:thaumic_brush>);
 fortree139k.setChance(0.0);
 fortree139k.addItemInput(<contenttweaker:warren_peat>.withTag({display: {Lore: ["§d§MStarvald Demelain§r"]}}));

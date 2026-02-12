@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    1777
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "deepmoblearning:pristine_matter_sunstorm"
+      },
+      "name:8": "Sunstorm (Required)"
+    }
+  },
+  "questID:3": 1483854701,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "deepmoblearning:pristine_matter_sunstorm"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:bloodmaster_metal_chest"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:rotten_flesh"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:raw_empowered_meat"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:eden_heart"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

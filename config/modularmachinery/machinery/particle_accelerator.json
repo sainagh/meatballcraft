@@ -28,6 +28,19 @@
                 "operation": 1,
                 "multiplier": 0.05
             }]
+        },
+        {
+            "elements": "contenttweaker:space_time_beam",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "Multiplies speed by 50",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.02
+            }]
         }
     ],
     "parts": [

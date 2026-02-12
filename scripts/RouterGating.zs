@@ -25,9 +25,83 @@ recipes.addShaped(<contenttweaker:petrified_fluix>,
 [<iceandfire:gorgon_head>, <ore:crystalPureFluix>, <iceandfire:gorgon_head>],
 [<contenttweaker:essence_of_petrification>, <iceandfire:gorgon_head>, <contenttweaker:essence_of_petrification>]]);
 
+
+mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/fluixfossilfab", <contenttweaker:fluix_fossilization_fabrial>, 4500, 400, [
+	<contenttweaker:condensed_petrified_fluix>, <contenttweaker:fluix_medal>, <contenttweaker:condensed_petrified_fluix>,
+    <contenttweaker:fluix_medal>, <contenttweaker:digital_matter_transmission_module>, <contenttweaker:fluix_medal>, 
+    <contenttweaker:condensed_petrified_fluix>, <contenttweaker:fluix_medal>, <contenttweaker:condensed_petrified_fluix>,
+    <contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>, <contenttweaker:unidentified_ingot>,
+    <contenttweaker:chaotic_gem>, <contenttweaker:chaotic_gem>,
+	<contenttweaker:chaotic_gem>, <contenttweaker:chaotic_gem>, 
+    <contenttweaker:chaotic_gem>, <contenttweaker:chaotic_gem>,
+    <contenttweaker:chaotic_gem>, <contenttweaker:chaotic_gem>,
+    <avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>,
+	//Outer Items, indices 25+
+	<appliedenergistics2:fluix_block>, <contenttweaker:innerved_sky_stone>, <appliedenergistics2:fluix_block>, <contenttweaker:innerved_sky_stone>, <appliedenergistics2:fluix_block>, <contenttweaker:innerved_sky_stone>, <appliedenergistics2:fluix_block>, <contenttweaker:innerved_sky_stone>
+],
+"astralsorcery.constellation.lucerna");
+
+recipes.addShaped(<contenttweaker:fluix_fossilization_fabrial>*4,
+[[<contenttweaker:unidentified_ingot>, <contenttweaker:petrified_fluix>, <contenttweaker:unidentified_ingot>],
+[<contenttweaker:petrified_fluix>, <contenttweaker:fluix_fossilization_fabrial>, <contenttweaker:petrified_fluix>],
+[<contenttweaker:unidentified_ingot>, <contenttweaker:petrified_fluix>, <contenttweaker:unidentified_ingot>]]);
+
+
+recipes.addShaped(<contenttweaker:unidentified_fluix_fossil>*4,
+[[<contenttweaker:condensed_petrified_fluix>, <contenttweaker:unidentified_egg>, <contenttweaker:condensed_petrified_fluix>],
+[<contenttweaker:unidentified_egg>, <contenttweaker:fluix_fossilization_fabrial>.reuse(), <contenttweaker:unidentified_egg>],
+[<contenttweaker:condensed_petrified_fluix>, <contenttweaker:unidentified_egg>, <contenttweaker:condensed_petrified_fluix>]]);
+
+recipes.addShaped(<contenttweaker:unidentifying_fluix_fossil>*4,
+[[<contenttweaker:condensed_petrified_fluix>, <contenttweaker:unidentifying_egg>, <contenttweaker:condensed_petrified_fluix>],
+[<contenttweaker:unidentifying_egg>, <contenttweaker:fluix_fossilization_fabrial>.reuse(), <contenttweaker:unidentifying_egg>],
+[<contenttweaker:condensed_petrified_fluix>, <contenttweaker:unidentifying_egg>, <contenttweaker:condensed_petrified_fluix>]]);
+
+recipes.addShaped(<contenttweaker:paradoxical_fluix_fossil>*4,
+[[<contenttweaker:condensed_petrified_fluix>, <contenttweaker:paradoxical_egg>, <contenttweaker:condensed_petrified_fluix>],
+[<contenttweaker:paradoxical_egg>, <contenttweaker:fluix_fossilization_fabrial>.reuse(), <contenttweaker:paradoxical_egg>],
+[<contenttweaker:condensed_petrified_fluix>, <contenttweaker:paradoxical_egg>, <contenttweaker:condensed_petrified_fluix>]]);
+
+
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:master_wizardry_catalyst>, 
 100000, 
 <contenttweaker:petrified_fluix>, 
+[<ebwizardry:master_lightning_wand>,
+ <ebwizardry:master_sorcery_wand>,
+ <ebwizardry:master_earth_wand>,
+ <ebwizardry:master_fire_wand>,
+ <ebwizardry:master_ice_wand>,
+ <ebwizardry:master_healing_wand>,
+ <ebwizardry:master_necromancy_wand>,
+ <ebwizardry:master_wand>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:master_wizardry_catalyst>*4, 
+100000, 
+<contenttweaker:unidentified_fluix_fossil>, 
+[<ebwizardry:master_lightning_wand>,
+ <ebwizardry:master_sorcery_wand>,
+ <ebwizardry:master_earth_wand>,
+ <ebwizardry:master_fire_wand>,
+ <ebwizardry:master_ice_wand>,
+ <ebwizardry:master_healing_wand>,
+ <ebwizardry:master_necromancy_wand>,
+ <ebwizardry:master_wand>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:master_wizardry_catalyst>*16, 
+100000, 
+<contenttweaker:unidentifying_fluix_fossil>, 
+[<ebwizardry:master_lightning_wand>,
+ <ebwizardry:master_sorcery_wand>,
+ <ebwizardry:master_earth_wand>,
+ <ebwizardry:master_fire_wand>,
+ <ebwizardry:master_ice_wand>,
+ <ebwizardry:master_healing_wand>,
+ <ebwizardry:master_necromancy_wand>,
+ <ebwizardry:master_wand>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:master_wizardry_catalyst>*64, 
+100000, 
+<contenttweaker:paradoxical_fluix_fossil>, 
 [<ebwizardry:master_lightning_wand>,
  <ebwizardry:master_sorcery_wand>,
  <ebwizardry:master_earth_wand>,

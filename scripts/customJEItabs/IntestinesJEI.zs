@@ -189,6 +189,9 @@ intestinesloot33.addInput(<mod_lavacow:intestine>);
 intestinesloot33.setOutputs([<enderio:item_capacitor_grainy>]);
 intestinesloot33.build();
 
-
+val intestinesloot34 = JEI.createJeiRecipe("intestines_loot_table");
+intestinesloot34.addInput(<mod_lavacow:intestine>);
+intestinesloot34.setOutputs([<contenttweaker:recursive_paper_flying>]);
+intestinesloot34.build();
 
 

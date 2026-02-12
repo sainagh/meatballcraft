@@ -506,7 +506,7 @@ cra53.addItemInput(<abyssalcraft:ethaxiumingot>*24);
 cra53.addItemOutput(<abyssalcraft:essence:2>);
 cra53.build();
 
-val cra54 = RecipeBuilder.newBuilder("cra54","sterilized_altar",120);
+val cra54 = RecipeBuilder.newBuilder("cra54","sterilized_altar",60);
 cra54.addEnergyPerTickInput(1200);
 cra54.addFluidInput(<fluid:liquid_pe>*200);
 cra54.addItemInput(<abyssalcraft:shadowgem>);
@@ -638,3 +638,162 @@ cra65.addItemInput(<contenttweaker:demonic_remains>*128);
 cra65.addItemInput(<contenttweaker:demon_stone>*128);
 cra65.addItemOutput(<contenttweaker:demonic_remains>*256);
 cra65.build();
+
+val cra66 = RecipeBuilder.newBuilder("cra66","sterilized_altar",120);
+cra66.addEnergyPerTickInput(1200);
+cra66.addFluidInput(<fluid:liquid_pe>*5000);
+cra66.addFluidInput(<fluid:liquid_lp>*1000);
+cra66.addItemInput(<abyssalcraft:oblivionshard>*16);
+cra66.addItemInput(<minecraft:redstone>*64);
+cra66.addItemInput(<divinerpg:cyclops_eye>);
+cra66.addItemOutput(<abyssalcraft:oc>*16);
+cra66.build();
+
+val cra67 = RecipeBuilder.newBuilder("cra67","sterilized_altar",120);
+cra67.addEnergyPerTickInput(1200);
+cra67.addFluidInput(<fluid:liquid_pe>*5000);
+cra67.addFluidInput(<fluid:liquid_lp>*1000);
+cra67.addItemInput(<abyssalcraft:oblivionshard>*64);
+cra67.addItemInput(<minecraft:redstone>*256);
+cra67.addItemInput(<divinerpg:watching_eye>);
+cra67.addItemOutput(<abyssalcraft:oc>*64);
+cra67.build();
+
+val cra68 = RecipeBuilder.newBuilder("cra68","sterilized_altar",120);
+cra68.addEnergyPerTickInput(1200);
+cra68.addFluidInput(<fluid:liquid_pe>*5000);
+cra68.addFluidInput(<fluid:liquid_lp>*1000);
+cra68.addItemInput(<abyssalcraft:oblivionshard>*64);
+cra68.addItemInput(<minecraft:redstone>*256);
+cra68.addItemInput(<magicbees:resource:11>);
+cra68.addItemOutput(<abyssalcraft:oc>*64);
+cra68.build();
+
+
+
+val cra69 = RecipeBuilder.newBuilder("cra69","sterilized_altar",30);
+cra69.addEnergyPerTickInput(1200);
+cra69.addFluidInput(<fluid:liquid_lp>*200);
+cra69.addItemInput(<abyssalcraft:shadowgem>*16);
+cra69.addItemOutput(<abyssalcraft:oblivionshard>*16);
+cra69.build();
+
+val cra70 = RecipeBuilder.newBuilder("cra70","sterilized_altar",30);
+cra70.addEnergyPerTickInput(1200);
+cra70.addFluidInput(<fluid:liquid_pe>*200);
+cra70.addFluidInput(<fluid:liquid_lp>*200);
+cra70.addItemInput(<contenttweaker:aeldunari>);
+cra70.setChance(0.0);
+cra70.addItemInput(<aoa3:ivory>*16);
+cra70.addItemOutput(<iceandfire:dragonscales_silver>*48);
+cra70.build();
+
+val cra71 = RecipeBuilder.newBuilder("cra71","sterilized_altar",30);
+cra71.addEnergyPerTickInput(1200);
+cra71.addFluidInput(<fluid:liquid_pe>*200);
+cra71.addFluidInput(<fluid:liquid_lp>*200);
+cra71.addItemInput(<contenttweaker:aeldunari>);
+cra71.setChance(0.0);
+cra71.addItemInput(<divinerpg:crab_claw>*16);
+cra71.addItemOutput(<iceandfire:dragonscales_red>*48);
+cra71.build();
+
+val cra72 = RecipeBuilder.newBuilder("cra72","sterilized_altar",30);
+cra72.addEnergyPerTickInput(1200);
+cra72.addFluidInput(<fluid:liquid_pe>*200);
+cra72.addFluidInput(<fluid:liquid_lp>*200);
+cra72.addItemInput(<contenttweaker:aeldunari>);
+cra72.setChance(0.0);
+cra72.addItemInput(<divinerpg:terran_shards>*16);
+cra72.addItemOutput(<iceandfire:dragonscales_green>*48);
+cra72.build();
+
+val cra73 = RecipeBuilder.newBuilder("cra73","sterilized_altar",30);
+cra73.addEnergyPerTickInput(1200);
+cra73.addFluidInput(<fluid:liquid_pe>*200);
+cra73.addFluidInput(<fluid:liquid_lp>*200);
+cra73.addItemInput(<contenttweaker:aeldunari>);
+cra73.setChance(0.0);
+cra73.addItemInput(<aoa3:chitin>*16);
+cra73.addItemOutput(<iceandfire:dragonscales_bronze>*48);
+cra73.build();
+
+val cra74 = RecipeBuilder.newBuilder("cra74","sterilized_altar",30);
+cra74.addEnergyPerTickInput(1200);
+cra74.addFluidInput(<fluid:liquid_pe>*200);
+cra74.addFluidInput(<fluid:liquid_lp>*200);
+cra74.addItemInput(<contenttweaker:aeldunari>);
+cra74.setChance(0.0);
+cra74.addItemInput(<aoa3:rusted_iron_ingot>*16);
+cra74.addItemOutput(<iceandfire:dragonscales_gray>*48);
+cra74.build();
+
+val cra75 = RecipeBuilder.newBuilder("cra75","sterilized_altar",30);
+cra75.addEnergyPerTickInput(1200);
+cra75.addFluidInput(<fluid:liquid_pe>*200);
+cra75.addFluidInput(<fluid:liquid_lp>*200);
+cra75.addItemInput(<contenttweaker:aeldunari>);
+cra75.setChance(0.0);
+cra75.addItemInput(<aoa3:ice_crystal>*16);
+cra75.addItemOutput(<iceandfire:dragonscales_blue>*48);
+cra75.build();
+
+val cra76 = RecipeBuilder.newBuilder("cra76","sterilized_altar",30);
+cra76.addEnergyPerTickInput(1200);
+cra76.addFluidInput(<fluid:liquid_pe>*200);
+cra76.addFluidInput(<fluid:liquid_lp>*200);
+cra76.addItemInput(<contenttweaker:aeldunari>);
+cra76.setChance(0.0);
+cra76.addItemInput(<aoa3:rammerhead_hide>*16);
+cra76.addItemOutput(<iceandfire:dragonscales_white>*48);
+cra76.build();
+
+val cra77 = RecipeBuilder.newBuilder("cra77","sterilized_altar",30);
+cra77.addEnergyPerTickInput(1200);
+cra77.addFluidInput(<fluid:liquid_pe>*200);
+cra77.addFluidInput(<fluid:liquid_lp>*200);
+cra77.addItemInput(<contenttweaker:aeldunari>);
+cra77.setChance(0.0);
+cra77.addItemInput(<divinerpg:aquatic_pellets>*16);
+cra77.addItemOutput(<iceandfire:dragonscales_sapphire>*48);
+cra77.build();
+
+val cra78 = RecipeBuilder.newBuilder("cra78","sterilized_altar",30);
+cra78.addEnergyPerTickInput(1200);
+cra78.addFluidInput(<fluid:liquid_pe>*200);
+cra78.addFluidInput(<fluid:liquid_lp>*200);
+cra78.addItemInput(<contenttweaker:aeldunari>);
+cra78.setChance(0.0);
+cra78.addItemInput(<aoa3:ghostly_powder>*16);
+cra78.addItemOutput(<iceandfire:dragonscales_electric>*48);
+cra78.build();
+
+val cra79 = RecipeBuilder.newBuilder("cra79","sterilized_altar",30);
+cra79.addEnergyPerTickInput(1200);
+cra79.addFluidInput(<fluid:liquid_pe>*200);
+cra79.addFluidInput(<fluid:liquid_lp>*200);
+cra79.addItemInput(<contenttweaker:aeldunari>);
+cra79.setChance(0.0);
+cra79.addItemInput(<aoa3:fragmented_anima_stone>*16);
+cra79.addItemOutput(<iceandfire:dragonscales_amythest>*48);
+cra79.build();
+
+val cra80 = RecipeBuilder.newBuilder("cra80","sterilized_altar",30);
+cra80.addEnergyPerTickInput(1200);
+cra80.addFluidInput(<fluid:liquid_pe>*200);
+cra80.addFluidInput(<fluid:liquid_lp>*200);
+cra80.addItemInput(<contenttweaker:aeldunari>);
+cra80.setChance(0.0);
+cra80.addItemInput(<aoa3:copper_coin>*16);
+cra80.addItemOutput(<iceandfire:dragonscales_copper>*48);
+cra80.build();
+
+val cra81 = RecipeBuilder.newBuilder("cra81","sterilized_altar",30);
+cra81.addEnergyPerTickInput(1200);
+cra81.addFluidInput(<fluid:liquid_pe>*200);
+cra81.addFluidInput(<fluid:liquid_lp>*200);
+cra81.addItemInput(<contenttweaker:aeldunari>);
+cra81.setChance(0.0);
+cra81.addItemInput(<aoa3:void_scales>*16);
+cra81.addItemOutput(<iceandfire:dragonscales_black>*48);
+cra81.build();

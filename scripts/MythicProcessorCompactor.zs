@@ -1,5 +1,195 @@
 import mods.modularmachinery.RecipeBuilder;
 
+
+val mythsqueez1 = RecipeBuilder.newBuilder("mythsqueez1","mythic_processor_compactor",2);
+mythsqueez1.addEnergyPerTickInput(60000);
+mythsqueez1.addItemInput(<minecraft:apple>*10);
+mythsqueez1.addFluidOutput(<fluid:binnie.juice.apple>*2000);
+mythsqueez1.build();
+
+val mythsqueez2 = RecipeBuilder.newBuilder("mythsqueez2","mythic_processor_compactor",2);
+mythsqueez2.addEnergyPerTickInput(60000);
+mythsqueez2.addItemInput(<extratrees:food:10>*10);
+mythsqueez2.addFluidOutput(<fluid:binnie.juice.apricot>*1500);
+mythsqueez2.build();
+
+val mythsqueez3 = RecipeBuilder.newBuilder("mythsqueez3","mythic_processor_compactor",2);
+mythsqueez3.addEnergyPerTickInput(60000);
+mythsqueez3.addItemInput(<extratrees:food:28>*10);
+mythsqueez3.addFluidOutput(<fluid:binnie.juice.banana>*1000);
+mythsqueez3.build();
+
+val mythsqueez4 = RecipeBuilder.newBuilder("mythsqueez4","mythic_processor_compactor",2);
+mythsqueez4.addEnergyPerTickInput(60000);
+mythsqueez4.addItemInput(<extratrees:food:29>*10);
+mythsqueez4.addFluidOutput(<fluid:binnie.juice.banana>*1000);
+mythsqueez4.build();
+
+val mythsqueez5 = RecipeBuilder.newBuilder("mythsqueez5","mythic_processor_compactor",2);
+mythsqueez5.addEnergyPerTickInput(60000);
+mythsqueez5.addItemInput(<extratrees:food:4>*10);
+mythsqueez5.addFluidOutput(<fluid:binnie.juice.cherry>*500);
+mythsqueez5.build();
+
+val mythsqueez6 = RecipeBuilder.newBuilder("mythsqueez6","mythic_processor_compactor",2);
+mythsqueez6.addEnergyPerTickInput(60000);
+mythsqueez6.addItemInput(<extratrees:food:5>*10);
+mythsqueez6.addFluidOutput(<fluid:binnie.juice.cherry>*500);
+mythsqueez6.build();
+
+val mythsqueez7 = RecipeBuilder.newBuilder("mythsqueez7","mythic_processor_compactor",2);
+mythsqueez7.addEnergyPerTickInput(60000);
+mythsqueez7.addItemInput(<extratrees:food:6>*10);
+mythsqueez7.addFluidOutput(<fluid:binnie.juice.cherry>*500);
+mythsqueez7.build();
+
+
+
+val mythsqueez8 = RecipeBuilder.newBuilder("mythsqueez8","mythic_processor_compactor",2);
+mythsqueez8.addEnergyPerTickInput(60000);
+mythsqueez8.addItemInput(<extratrees:food:34>*10);
+mythsqueez8.addFluidOutput(<fluid:binnie.juice.elderberry>*1000);
+mythsqueez8.build();
+
+val mythsqueez9 = RecipeBuilder.newBuilder("mythsqueez9","mythic_processor_compactor",2);
+mythsqueez9.addEnergyPerTickInput(60000);
+mythsqueez9.addItemInput(<forestry:fruits:3>*10);
+mythsqueez9.addFluidOutput(<fluid:binnie.juice.lemon>*4000);
+mythsqueez9.build();
+
+val mythsqueez10 = RecipeBuilder.newBuilder("mythsqueez10","mythic_processor_compactor",2);
+mythsqueez10.addEnergyPerTickInput(60000);
+mythsqueez10.addItemInput(<extratrees:food:3>*10);
+mythsqueez10.addFluidOutput(<fluid:binnie.juice.lime>*3000);
+mythsqueez10.build();
+
+
+val mythsqueez11 = RecipeBuilder.newBuilder("mythsqueez11","mythic_processor_compactor",2);
+mythsqueez11.addEnergyPerTickInput(60000);
+mythsqueez11.addItemInput(<extratrees:food:16>*10);
+mythsqueez11.addFluidOutput(<fluid:binnie.juice.lime>*3000);
+mythsqueez11.build();
+
+val mythsqueez12 = RecipeBuilder.newBuilder("mythsqueez12","mythic_processor_compactor",2);
+mythsqueez12.addEnergyPerTickInput(60000);
+mythsqueez12.addItemInput(<extratrees:food:17>*10);
+mythsqueez12.addFluidOutput(<fluid:binnie.juice.lime>*3000);
+mythsqueez12.build();
+
+val mythsqueez13 = RecipeBuilder.newBuilder("mythsqueez13","mythic_processor_compactor",2);
+mythsqueez13.addEnergyPerTickInput(60000);
+mythsqueez13.addItemInput(<extratrees:food:1>*10);
+mythsqueez13.addFluidOutput(<fluid:binnie.juice.orange>*4000);
+mythsqueez13.build();
+
+val mythsqueez14 = RecipeBuilder.newBuilder("mythsqueez14","mythic_processor_compactor",2);
+mythsqueez14.addEnergyPerTickInput(60000);
+mythsqueez14.addItemInput(<extratrees:food:13>*10);
+mythsqueez14.addFluidOutput(<fluid:binnie.juice.orange>*4000);
+mythsqueez14.build();
+
+val mythsqueez15 = RecipeBuilder.newBuilder("mythsqueez15","mythic_processor_compactor",2);
+mythsqueez15.addEnergyPerTickInput(60000);
+mythsqueez15.addItemInput(<extratrees:food:18>*10);
+mythsqueez15.addFluidOutput(<fluid:binnie.juice.orange>*4000);
+mythsqueez15.build();
+
+val mythsqueez16 = RecipeBuilder.newBuilder("mythsqueez16","mythic_processor_compactor",2);
+mythsqueez16.addEnergyPerTickInput(60000);
+mythsqueez16.addItemInput(<extratrees:food:21>*10);
+mythsqueez16.addFluidOutput(<fluid:binnie.juice.orange>*4000);
+mythsqueez16.build();
+
+val mythsqueez17 = RecipeBuilder.newBuilder("mythsqueez17","mythic_processor_compactor",2);
+mythsqueez17.addEnergyPerTickInput(60000);
+mythsqueez17.addItemInput(<extratrees:food:12>*10);
+mythsqueez17.addFluidOutput(<fluid:binnie.juice.peach>*1500);
+mythsqueez17.build();
+
+val mythsqueez18 = RecipeBuilder.newBuilder("mythsqueez18","mythic_processor_compactor",2);
+mythsqueez18.addEnergyPerTickInput(60000);
+mythsqueez18.addItemInput(<extratrees:food:19>*10);
+mythsqueez18.addFluidOutput(<fluid:binnie.juice.peach>*1500);
+mythsqueez18.build();
+
+val mythsqueez19 = RecipeBuilder.newBuilder("mythsqueez19","mythic_processor_compactor",2);
+mythsqueez19.addEnergyPerTickInput(60000);
+mythsqueez19.addItemInput(<biomesoplenty:peach>*10);
+mythsqueez19.addFluidOutput(<fluid:binnie.juice.peach>*1500);
+mythsqueez19.build();
+
+val mythsqueez20 = RecipeBuilder.newBuilder("mythsqueez20","mythic_processor_compactor",2);
+mythsqueez20.addEnergyPerTickInput(60000);
+mythsqueez20.addItemInput(<extratrees:food:8>*10);
+mythsqueez20.addFluidOutput(<fluid:binnie.juice.plum>*1000);
+mythsqueez20.build();
+
+val mythsqueez21 = RecipeBuilder.newBuilder("mythsqueez21","mythic_processor_compactor",2);
+mythsqueez21.addEnergyPerTickInput(60000);
+mythsqueez21.addItemInput(<forestry:fruits:4>*10);
+mythsqueez21.addFluidOutput(<fluid:binnie.juice.plum>*1000);
+mythsqueez21.build();
+
+val mythsqueez22 = RecipeBuilder.newBuilder("mythsqueez22","mythic_processor_compactor",2);
+mythsqueez22.addEnergyPerTickInput(60000);
+mythsqueez22.addItemInput(<minecraft:carrot>*10);
+mythsqueez22.addFluidOutput(<fluid:binnie.juice.carrot>*2000);
+mythsqueez22.build();
+
+val mythsqueez23 = RecipeBuilder.newBuilder("mythsqueez23","mythic_processor_compactor",2);
+mythsqueez23.addEnergyPerTickInput(60000);
+mythsqueez23.addItemInput(<minecraft:wheat_seeds>*10);
+mythsqueez23.addFluidOutput(<fluid:seed.oil>*1000);
+mythsqueez23.build();
+
+val mythsqueez24 = RecipeBuilder.newBuilder("mythsqueez24","mythic_processor_compactor",2);
+mythsqueez24.addEnergyPerTickInput(60000);
+mythsqueez24.addItemInput(<extratrees:food:46>*10);
+mythsqueez24.addFluidOutput(<fluid:binnie.juice.cranberry>*500);
+mythsqueez24.build();
+
+val mythsqueez25 = RecipeBuilder.newBuilder("mythsqueez25","mythic_processor_compactor",2);
+mythsqueez25.addEnergyPerTickInput(60000);
+mythsqueez25.addItemInput(<extratrees:food:1>*10);
+mythsqueez25.addFluidOutput(<fluid:binnie.juice.grapefruit>*500);
+mythsqueez25.build();
+
+val mythsqueez26 = RecipeBuilder.newBuilder("mythsqueez26","mythic_processor_compactor",2);
+mythsqueez26.addEnergyPerTickInput(60000);
+mythsqueez26.addItemInput(<ore:cropPear>*10);
+mythsqueez26.addFluidOutput(<fluid:binnie.juice.pear>*2000);
+mythsqueez26.build();
+
+val mythsqueez27 = RecipeBuilder.newBuilder("mythsqueez27","mythic_processor_compactor",2);
+mythsqueez27.addEnergyPerTickInput(60000);
+mythsqueez27.addItemInput(<forestry:fruits:0>*10);
+mythsqueez27.addFluidOutput(<fluid:binnie.juice.cherry>*500);
+mythsqueez27.build();
+
+val mythsqueez28 = RecipeBuilder.newBuilder("mythsqueez28","mythic_processor_compactor",2);
+mythsqueez28.addEnergyPerTickInput(60000);
+mythsqueez28.addItemInput(<extrabees:propolis:1>*10);
+mythsqueez28.addFluidOutput(<fluid:oil>*5000);
+mythsqueez28.build();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 val mythcomp1 = RecipeBuilder.newBuilder("mythcomp1","mythic_processor_compactor",2);
 mythcomp1.addEnergyPerTickInput(60000);
 mythcomp1.addItemInput(<ore:gemSapphire> * 16);
@@ -477,9 +667,9 @@ mythcomp82.build();
 
 val mythcomp83 = RecipeBuilder.newBuilder("mythcomp83","mythic_processor_compactor",2);
 mythcomp83.addEnergyPerTickInput(60000);
-mythcomp83.addItemInput(<contenttweaker:unidentified_ingot>);
+mythcomp83.addItemInput(<contenttweaker:unidentified_ingot>*16);
 mythcomp83.addItemInput(<projecte:nova_cataclysm>*4);
-mythcomp83.addItemOutput(<contenttweaker:unidentified_plate>);
+mythcomp83.addItemOutput(<contenttweaker:unidentified_plate>*16);
 mythcomp83.addItemOutput(<techreborn:dust:15>*12);
 mythcomp83.build();
 
@@ -526,3 +716,39 @@ mythcomp90.addItemInput(<contenttweaker:deep_metamorphic_rock>*8);
 mythcomp90.addItemInput(<aoa3:runium_chunk>*64);
 mythcomp90.addItemOutput(<contenttweaker:deep_metamorphic_rock>*16);
 mythcomp90.build();
+
+val mythcomp91 = RecipeBuilder.newBuilder("mythcomp91","mythic_processor_compactor",2);
+mythcomp91.addEnergyPerTickInput(60000);
+mythcomp91.addItemInput(<contenttweaker:thrice_coated_organic_mythic_board>);
+mythcomp91.addItemOutput(<contenttweaker:fixed_organic_mythic_board>);
+mythcomp91.build();
+
+val mythcomp92 = RecipeBuilder.newBuilder("mythcomp92","mythic_processor_compactor",2);
+mythcomp92.addEnergyPerTickInput(60000);
+mythcomp92.addItemInput(<avaritiaitem:self_actualizing_stone>);
+mythcomp92.addItemOutput(<extendedcrafting:singularity_ultimate>);
+mythcomp92.build();
+
+val mythcomp93 = RecipeBuilder.newBuilder("mythcomp93","mythic_processor_compactor",2);
+mythcomp93.addEnergyPerTickInput(60000);
+mythcomp93.addItemInput(<contenttweaker:crying_redstone>*40);
+mythcomp93.addItemOutput(<contenttweaker:dense_redstone>*10);
+mythcomp93.build();
+
+
+
+val mythcomp94 = RecipeBuilder.newBuilder("mythcomp94","mythic_processor_compactor",2);
+mythcomp94.addEnergyPerTickInput(60000);
+mythcomp94.addItemInput(<minecraft:potato>);
+mythcomp94.addItemInput(<contenttweaker:gold_leaf>*2);
+mythcomp94.addItemOutput(<extrabotany:material:2>);
+mythcomp94.build();
+
+
+
+
+
+
+
+
+

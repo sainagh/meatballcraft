@@ -600,26 +600,18 @@
         ]
     },
     {
-        "mode": "ADD",
-        "result": "draconicevolution:awakened_core,4,0",
-        "catalyst": "minecraft:nether_star",
-        "energy": 9000000,
-        "tier": 2,
-        "ingredients": [
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:draconic_ingot",
-            "draconicevolution:draconic_ingot",
-            "draconicevolution:draconic_ingot",
-            "draconicevolution:draconic_ingot",
-            "contenttweaker:recursive_feather"
-        ]
+        "mode": "REMOVE",
+        "result": "draconicevolution:reactor_core",
+        "catalyst": "draconicevolution:chaos_shard,1,0"
     },
     {
         "mode": "REMOVE",
-        "result": "draconicevolution:reactor_core",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:chaotic_core",
         "catalyst": "draconicevolution:chaos_shard,1,0"
     },
     {
@@ -637,6 +629,71 @@
             "draconicevolution:draconic_block",
             "draconicevolution:draconic_block",
             "draconicevolution:draconic_block"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:awakened_mithril,4,0",
+        "catalyst": "thermalfoundation:material,4,136",
+        "energy": 100000,
+        "tier": 1,
+        "ingredients": [
+            "ore:dragonScaleItem",
+            "ore:dragonScaleItem",
+            "divinerpg:eden_heart",
+            "divinerpg:eden_heart"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:awakened_mithril,8,0",
+        "catalyst": "thermalfoundation:material,8,136",
+        "energy": 100000,
+        "tier": 2,
+        "ingredients": [
+            "ore:dragonScaleItem",
+            "ore:dragonScaleItem",
+            "divinerpg:wildwood_heart",
+            "divinerpg:wildwood_heart"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:awakened_mithril,16,0",
+        "catalyst": "thermalfoundation:material,16,136",
+        "energy": 100000,
+        "tier": 2,
+        "ingredients": [
+            "ore:dragonScaleItem",
+            "ore:dragonScaleItem",
+            "divinerpg:apalachia_heart",
+            "divinerpg:apalachia_heart"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:awakened_mithril,32,0",
+        "catalyst": "thermalfoundation:material,32,136",
+        "energy": 100000,
+        "tier": 3,
+        "ingredients": [
+            "ore:dragonScaleItem",
+            "ore:dragonScaleItem",
+            "divinerpg:skythern_heart",
+            "divinerpg:skythern_heart"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:awakened_mithril,64,0",
+        "catalyst": "thermalfoundation:material,64,136",
+        "energy": 100000,
+        "tier": 3,
+        "ingredients": [
+            "ore:dragonScaleItem",
+            "ore:dragonScaleItem",
+            "divinerpg:mortum_heart",
+            "divinerpg:mortum_heart"
         ]
     },
     {
@@ -680,24 +737,6 @@
             "contenttweaker:recursive_convergence",
             "contenttweaker:recursive_convergence",
             "contenttweaker:recursive_convergence"
-        ]
-    },
-    {
-        "mode": "ADD",
-        "result": "draconicevolution:awakened_core,16,0",
-        "catalyst": "minecraft:nether_star",
-        "energy": 9000000,
-        "tier": 3,
-        "ingredients": [
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:draconic_ingot",
-            "draconicevolution:draconic_ingot",
-            "draconicevolution:draconic_ingot",
-            "draconicevolution:draconic_ingot",
-            "contenttweaker:eye_of_gallifrey"
         ]
     },
     {
@@ -817,19 +856,78 @@
     },
     {
         "mode": "ADD",
-        "result": "draconicevolution:chaotic_core,4,0",
-        "catalyst": "draconicevolution:chaos_shard,1,0",
-        "energy": 800000000,
+        "result": "avaritia:resource,12,0",
+        "catalyst": "contenttweaker:unidentified_ingot,3,0",
+        "energy": 30000000,
         "tier": 3,
         "ingredients": [
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:draconic_ingot",
-            "draconicevolution:draconic_ingot",
-            "draconicevolution:draconic_ingot",
-            "avaritiaitem:self_actualizing_stone"
+            "nae2:material,1,1",
+            "contenttweaker:brightsteel_alloy_ingot",
+            "ore:ingotBrightsteel",
+            "contenttweaker:orichalcum_sliver",
+            "contenttweaker:orichalcum_sliver",
+            "contenttweaker:orichalcum_sliver",
+            "contenttweaker:neodymium_magnetic_alloy",
+            "contenttweaker:neodymium_magnetic_alloy",
+            "contenttweaker:neodymium_magnetic_alloy",
+            "contenttweaker:neodymium_magnetic_alloy"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "avaritia:resource,36,0",
+        "catalyst": "contenttweaker:unidentified_ingot,9,0",
+        "energy": 30000000,
+        "tier": 3,
+        "ingredients": [
+            "nae2:material,1,2",
+            "contenttweaker:brightsteel_alloy_ingot",
+            "contenttweaker:hassium_alloy_ingot",
+            "contenttweaker:orichalcum_sliver",
+            "contenttweaker:orichalcum_sliver",
+            "contenttweaker:orichalcum_sliver",
+            "contenttweaker:neodymium_magnetic_alloy",
+            "contenttweaker:neodymium_magnetic_alloy",
+            "contenttweaker:neodymium_magnetic_alloy",
+            "contenttweaker:neodymium_magnetic_alloy"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:diamond_matrix,3,0",
+        "catalyst": "contenttweaker:unidentified_ingot,27,0",
+        "energy": 30000000,
+        "tier": 3,
+        "ingredients": [
+            "nae2:material,1,3",
+            "contenttweaker:brightseel_alloy_plate",
+            "contenttweaker:brightseel_alloy_plate",
+            "contenttweaker:hassium_alloy_ingot",
+            "contenttweaker:hassium_alloy_ingot",
+            "contenttweaker:orichalcum_sliver",
+            "contenttweaker:orichalcum_sliver",
+            "contenttweaker:neodymium_magnetic_alloy",
+            "contenttweaker:neodymium_magnetic_alloy",
+            "contenttweaker:neodymium_magnetic_alloy"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:diamond_matrix,9,0",
+        "catalyst": "contenttweaker:unidentified_ingot,64,0",
+        "energy": 30000000,
+        "tier": 3,
+        "ingredients": [
+            "nae2:material,1,4",
+            "contenttweaker:brightseel_alloy_plate",
+            "contenttweaker:brightseel_alloy_plate",
+            "contenttweaker:hassium_alloy_ingot",
+            "contenttweaker:hassium_alloy_ingot",
+            "contenttweaker:orichalcum_sliver",
+            "contenttweaker:orichalcum_sliver",
+            "contenttweaker:defined_ingot",
+            "contenttweaker:neodymium_magnetic_alloy",
+            "contenttweaker:neodymium_magnetic_alloy"
         ]
     },
     {
@@ -1125,6 +1223,27 @@
     },
     {
         "mode": "ADD",
+        "result": "draconicevolution:crafting_injector,16,1",
+        "catalyst": "draconicevolution:crafting_injector,16,0",
+        "energy": 256000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:wyvern_fulcrum",
+            "contenttweaker:wyvern_fulcrum",
+            "contenttweaker:wyvern_fulcrum",
+            "contenttweaker:draconic_fulcrum",
+            "contenttweaker:draconic_fulcrum",
+            "contenttweaker:draconic_fulcrum",
+            "contenttweaker:draconic_fulcrum",
+            "contenttweaker:draconic_fulcrum",
+            "contenttweaker:draconic_fulcrum",
+            "ore:ingotInfinity",
+            "contenttweaker:cursed_sapphire",
+            "contenttweaker:cursed_sapphire"
+        ]
+    },
+    {
+        "mode": "ADD",
         "result": "draconicevolution:crafting_injector,4,2",
         "catalyst": "draconicevolution:crafting_injector,4,1",
         "energy": 128000,
@@ -1167,112 +1286,9 @@
     },
     {
         "mode": "ADD",
-        "result": "contenttweaker:wyvern_fulcrum,8,0",
-        "catalyst": "contenttweaker:cori_experience",
-        "energy": 1024,
-        "tier": 3,
-        "ingredients": [
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core",
-            "draconicevolution:wyvern_core"
-        ]
-    },
-    {
-        "mode": "ADD",
-        "result": "contenttweaker:draconic_fulcrum,8,0",
-        "catalyst": "contenttweaker:cori_experience",
-        "energy": 1024,
-        "tier": 3,
-        "ingredients": [
-            "draconicevolution:draconic_core",
-            "draconicevolution:draconic_core",
-            "draconicevolution:draconic_core",
-            "draconicevolution:draconic_core",
-            "draconicevolution:draconic_core",
-            "draconicevolution:draconic_core",
-            "draconicevolution:draconic_core",
-            "draconicevolution:draconic_core",
-            "draconicevolution:draconic_core",
-            "draconicevolution:draconic_core",
-            "draconicevolution:draconic_core",
-            "draconicevolution:draconic_core"
-        ]
-    },
-    {
-        "mode": "ADD",
-        "result": "contenttweaker:awakened_fulcrum,8,0",
-        "catalyst": "contenttweaker:cori_experience",
-        "energy": 1024,
-        "tier": 3,
-        "ingredients": [
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core"
-        ]
-    },
-    {
-        "mode": "ADD",
-        "result": "contenttweaker:chaotic_fulcrum,8,0",
-        "catalyst": "contenttweaker:cori_experience",
-        "energy": 1024,
-        "tier": 3,
-        "ingredients": [
-            "draconicevolution:chaotic_core",
-            "draconicevolution:chaotic_core",
-            "draconicevolution:chaotic_core",
-            "draconicevolution:chaotic_core",
-            "draconicevolution:chaotic_core",
-            "draconicevolution:chaotic_core",
-            "draconicevolution:chaotic_core",
-            "draconicevolution:chaotic_core",
-            "draconicevolution:chaotic_core",
-            "draconicevolution:chaotic_core",
-            "draconicevolution:chaotic_core",
-            "draconicevolution:chaotic_core"
-        ]
-    },
-    {
-        "mode": "ADD",
-        "result": "draconicevolution:chaotic_core,8,0",
-        "catalyst": "draconicevolution:chaos_shard,2,0",
-        "energy": 800000000,
-        "tier": 3,
-        "ingredients": [
-            "contenttweaker:awakened_fulcrum",
-            "contenttweaker:awakened_fulcrum",
-            "contenttweaker:awakened_fulcrum",
-            "contenttweaker:awakened_fulcrum",
-            "draconicevolution:draconic_ingot",
-            "draconicevolution:draconic_ingot",
-            "draconicevolution:draconic_ingot",
-            "draconicevolution:draconic_ingot",
-            "contenttweaker:dust_of_infinite_wishes",
-            "avaritiaitem:self_actualizing_stone"
-        ]
-    },
-    {
-        "mode": "ADD",
-        "result": "draconicevolution:awakened_core,64,0",
-        "catalyst": "minecraft:nether_star",
-        "energy": 9000000,
+        "result": "draconicevolution:crafting_injector,16,2",
+        "catalyst": "draconicevolution:crafting_injector,16,1",
+        "energy": 256000,
         "tier": 3,
         "ingredients": [
             "contenttweaker:wyvern_fulcrum",
@@ -1281,12 +1297,12 @@
             "contenttweaker:wyvern_fulcrum",
             "contenttweaker:wyvern_fulcrum",
             "contenttweaker:wyvern_fulcrum",
-            "contenttweaker:wyvern_fulcrum",
-            "contenttweaker:wyvern_fulcrum",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-            "contenttweaker:opalescent_matter",
-            "contenttweaker:eye_of_gallifrey"
+            "contenttweaker:trinity_nugget",
+            "contenttweaker:corrupted_aragonite",
+            "contenttweaker:jeweled_runium",
+            "contenttweaker:jeweled_runium",
+            "contenttweaker:jeweled_runium",
+            "contenttweaker:jeweled_runium"
         ]
     },
     {
@@ -1329,6 +1345,27 @@
             "contenttweaker:trinity_nugget",
             "contenttweaker:opalescent_matter",
             "contenttweaker:opalescent_matter"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:crafting_injector,16,3",
+        "catalyst": "draconicevolution:crafting_injector,16,2",
+        "energy": 256000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:chaotic_fulcrum",
+            "contenttweaker:chaotic_fulcrum",
+            "contenttweaker:chaotic_fulcrum",
+            "contenttweaker:chaotic_fulcrum",
+            "minecraft:dragon_egg",
+            "minecraft:dragon_egg",
+            "rftools:infused_diamond",
+            "rftools:infused_diamond",
+            "contenttweaker:trinity_nugget",
+            "contenttweaker:trinity_nugget",
+            "contenttweaker:dust_of_infinite_wishes",
+            "contenttweaker:dust_of_infinite_wishes"
         ]
     },
     {

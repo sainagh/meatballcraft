@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1883
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oBreaks blocks very fast with left click, and mines single blocks with right click.\n\nFor AE2 buses, it will break them as if it were a wrench.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "vajra:vajra"
+      },
+      "name:8": "Vajra"
+    }
+  },
+  "questID:3": 1968263035,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "vajra:vajra"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

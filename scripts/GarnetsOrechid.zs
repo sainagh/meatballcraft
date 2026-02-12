@@ -2,6 +2,8 @@ import mods.modularmachinery.RecipeBuilder;
 
 mods.botania.Orechid.addOre(<ore:oreArkenstone>, 1000);
 
+mods.botania.Orechid.addOre(<ore:oreLivingGold>, 2000);
+
 // mods.botania.Orechid.addOre(<ore:oreChargedRunium>, 5000);
 
 mods.botania.Orechid.addOre(<ore:oreLiquifiedCoralium>, 3000);
@@ -13,7 +15,7 @@ mods.botania.ElvenTrade.addRecipe([<botania:specialflower>.withTag({type: "orech
 
 mods.botania.PureDaisy.addRecipe(<contenttweaker:purity_offer>, <contenttweaker:ragnarok_sigil>);
 
-val mythasspurityoffer = RecipeBuilder.newBuilder("mythasspurityoffer","me_mythic_assembler",10000);
+val mythasspurityoffer = RecipeBuilder.newBuilder("mythasspurityoffer","me_mythic_assembler",100);
 mythasspurityoffer.addEnergyPerTickInput(600000);
 mythasspurityoffer.addFluidInput(<fluid:terrasteel>*10000);
 mythasspurityoffer.addFluidInput(<fluid:short.mead>*10000);

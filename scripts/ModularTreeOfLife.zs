@@ -407,3 +407,18 @@ treeoflifebee.addItemOutput(<contenttweaker:energetic_prison_key>);
 treeoflifebee.build();
 
 mods.botania.PureDaisy.addRecipe(<ore:treeLeaves>,<contenttweaker:leaves_of_life>);
+
+
+
+val treeoflifefragnatlaw = RecipeBuilder.newBuilder("treeoflifefragnatlaw","tree_of_life",600);
+treeoflifefragnatlaw.addEnergyPerTickInput(1000000000);
+treeoflifefragnatlaw.addItemInput(<botania:rune:8>*1024);
+treeoflifefragnatlaw.addItemInput(<contenttweaker:yggdrasil_wood>*64);
+treeoflifefragnatlaw.addItemInput(<contenttweaker:recursion_of_natural_law>*18);
+treeoflifefragnatlaw.addItemInput(<contenttweaker:greater_gaia_spirit>*32);
+treeoflifefragnatlaw.addItemInput(<contenttweaker:eleint_scale>*24);
+treeoflifefragnatlaw.addItemInput(<extrabotany:terrasteelshield>);
+treeoflifefragnatlaw.addItemOutput(<contenttweaker:recursion_fragment_asgard>);
+treeoflifefragnatlaw.build();
+
+

@@ -1202,6 +1202,105 @@ areatedcalif250.register();
 var unholynukecatalyst = VanillaFactory.createFluid("unholy_nuke_catalyst", Color.fromHex("489c6b"));
 unholynukecatalyst.register();
 
+var marginalpearlizedessence = VanillaFactory.createFluid("marginal_pearlized_essence", Color.fromHex("096e00"));
+marginalpearlizedessence.register();
+
+var marginalpearlizedcatalyst = VanillaFactory.createFluid("marginal_pearlized_catalyst", Color.fromHex("096e00"));
+marginalpearlizedcatalyst.register();
+
+var weakpearlizedessence = VanillaFactory.createFluid("weak_pearlized_essence", Color.fromHex("7a6c00"));
+weakpearlizedessence.register();
+
+var weakpearlizedcatalyst = VanillaFactory.createFluid("weak_pearlized_catalyst", Color.fromHex("7a6c00"));
+weakpearlizedcatalyst.register();
+
+var moderatepearlizedessence = VanillaFactory.createFluid("moderate_pearlized_essence", Color.fromHex("40017a"));
+moderatepearlizedessence.register();
+
+var moderatepearlizedcatalyst = VanillaFactory.createFluid("moderate_pearlized_catalyst", Color.fromHex("40017a"));
+moderatepearlizedcatalyst.register();
+
+var strongpearlizedessence = VanillaFactory.createFluid("strong_pearlized_essence", Color.fromHex("40017a"));
+strongpearlizedessence.register();
+
+var strongpearlizedcatalyst = VanillaFactory.createFluid("strong_pearlized_catalyst", Color.fromHex("40017a"));
+strongpearlizedcatalyst.register();
+
+var moltendefined = VanillaFactory.createFluid("molten_defined", Color.fromHex("e3d1e3"));
+moltendefined.register();
+
+var moltenabyssalalloy = VanillaFactory.createFluid("molten_abyssal_alloy", Color.fromHex("eb7fa6"));
+moltenabyssalalloy.register();
+
+var nidhogdragonfire = VanillaFactory.createFluid("nidhogg_dragonfire", Color.fromHex("660d05"));
+nidhogdragonfire.register();
+
+var purefluixessence = VanillaFactory.createFluid("pure_fluix_matter", Color.fromHex("1c047d"));
+purefluixessence.register();
+
+var tangibleordo = VanillaFactory.createFluid("tangible_ordo", Color.fromHex("c9c9c9"));
+tangibleordo.register();
+
+var tangibleperditio = VanillaFactory.createFluid("tangible_perditio", Color.fromHex("2e2e2e"));
+tangibleperditio.register();
+
+var twilightresin = VanillaFactory.createFluid("twilight_resin", Color.fromHex("4e825c"));
+twilightresin.register();
+
+var protodermis = VanillaFactory.createFluid("protodermis", Color.fromHex("6e3749"));
+protodermis.register();
+
+var sacredspringfire = VanillaFactory.createFluid("sacred_spring_fire", Color.fromHex("69cdff"));
+sacredspringfire.register();
+
+var hassiumalloy = VanillaFactory.createFluid("molten_hassium_alloy", Color.fromHex("20304f"));
+hassiumalloy.register();
+
+var fractalarkencrushermix = VanillaFactory.createFluid("fractal_arkencrusher_mix", Color.fromHex("20304f"));
+fractalarkencrushermix.register();
+
+var neutrhassiumalloy = VanillaFactory.createFluid("neutrhassium_alloy", Color.fromHex("484b54"));
+neutrhassiumalloy.register();
+
+var tangibleaer = VanillaFactory.createFluid("tangible_aer", Color.fromHex("e6db6c"));
+tangibleaer.register();
+
+var tangibleignis = VanillaFactory.createFluid("tangible_ignis", Color.fromHex("b85040"));
+tangibleignis.register();
+
+var tangibleaqua = VanillaFactory.createFluid("tangible_aqua", Color.fromHex("3027db"));
+tangibleaqua.register();
+
+var tangibleterra = VanillaFactory.createFluid("tangible_terra", Color.fromHex("5edb3b"));
+tangibleterra.register();
+
+var inquiringprotodermis = VanillaFactory.createFluid("inquiring_protodermis", Color.fromHex("6e1a3a"));
+inquiringprotodermis.register();
+
+var divinationcatalyst = VanillaFactory.createFluid("divination_catalyst", Color.fromHex("1a5f7d"));
+divinationcatalyst.register();
+
+var hopebringermetal = VanillaFactory.createFluid("hopebringer_metal", Color.fromHex("3bad82"));
+hopebringermetal.register();
+
+var whisperofrightandjustcreation = VanillaFactory.createFluid("whisper_of_right_and_just_creation", Color.fromHex("ffffff"));
+whisperofrightandjustcreation.register();
+
+
+var bloodinfusedglowstone = VanillaFactory.createFluid("blood_infused_glowstone", Color.fromHex("d44f35"));
+bloodinfusedglowstone.register();
+
+
+var nothing = VanillaFactory.createFluid("nothing", Color.fromHex("000000"));
+nothing.register();
+
+var voidgivenfocus = VanillaFactory.createFluid("void_given_focus", Color.fromHex("000000"));
+voidgivenfocus.register();
+
+
+var gluttonouslymph = VanillaFactory.createFluid("gluttonous_lymph", Color.fromHex("bed173"));
+gluttonouslymph.register();
+
 
 
 

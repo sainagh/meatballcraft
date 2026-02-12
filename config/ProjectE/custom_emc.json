@@ -23411,6 +23411,18 @@
     {
       "item": "tardis:gallifreyan_sand|0",
       "emc": 1
+    },
+    {
+      "item": "contenttweaker:running_bandana|0",
+      "emc": 512
+    },
+    {
+      "item": "contenttweaker:nuclear_engineers_goggles|0",
+      "emc": 512
+    },
+    {
+      "item": "moarsigns:moar_sign|1",
+      "emc": 0
     }
   ]
 }

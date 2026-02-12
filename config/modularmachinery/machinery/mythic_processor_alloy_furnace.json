@@ -21,6 +21,25 @@
                 "operation": 1,
                 "multiplier": 16
             }]
+        },
+        {
+            "elements": "contenttweaker:mythic_coil_t3@0",
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "description": "16X parallelization",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64
+            }]
         }
     ],
     "parts": [

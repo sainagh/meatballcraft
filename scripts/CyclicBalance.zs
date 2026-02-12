@@ -78,3 +78,18 @@ recipes.addShaped(<cyclicmagic:block_forester>,
 [[<minecraft:daylight_detector>, <minecraft:dispenser>, <minecraft:daylight_detector>],
 [<industrialforegoing:plastic>, <ore:blockDiamond>, <industrialforegoing:plastic>],
 [<thermalexpansion:frame:0>, <thermalexpansion:frame:0>, <thermalexpansion:frame:0>]]);
+
+
+recipes.remove(<cyclicmagic:dynamite_safe>);
+recipes.addShaped(<cyclicmagic:dynamite_safe>*2,
+[[<minecraft:gunpowder>, <minecraft:sugar>, <minecraft:gunpowder>],
+[<minecraft:brown_mushroom>, <minecraft:clay_ball>, <minecraft:brown_mushroom>],
+[<contenttweaker:chorus_seedling>, <minecraft:wheat_seeds>, <contenttweaker:chorus_seedling>]]);
+
+
+recipes.addShaped(<contenttweaker:chorus_sprout>,
+[[<contenttweaker:chorus_seedling>, <contenttweaker:chorus_seedling>, <contenttweaker:chorus_seedling>],
+[<contenttweaker:chorus_seedling>, <contenttweaker:chorus_seedling>, <contenttweaker:chorus_seedling>],
+[<contenttweaker:chorus_seedling>, <contenttweaker:chorus_seedling>, <contenttweaker:chorus_seedling>]]);
+
+

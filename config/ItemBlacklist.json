@@ -13,10 +13,6 @@
       "damage": "*"
     },
     {
-      "item": "rftools:storage_scanner",
-      "damage": "*"
-    },
-    {
       "item": "rftoolsdim:dimension_builder",
       "damage": "*"
     },
@@ -135,10 +131,6 @@
       "damage": "*"
     },
     {
-      "item": "rftools:storage_scanner",
-      "damage": "*"
-    },
-    {
       "item": "rftoolsdim:dimension_builder",
       "damage": "*"
     },
@@ -239,10 +231,6 @@
       "damage": "*"
     },
     {
-      "item": "rftools:storage_scanner",
-      "damage": "*"
-    },
-    {
       "item": "rftoolsdim:dimension_builder",
       "damage": "*"
     },
@@ -266,10 +254,6 @@
     },
     {
       "item": "abyssalcraft:unique_scroll",
-      "damage": "*"
-    },
-    {
-      "item": "rftools:storage_scanner",
       "damage": "*"
     },
     {
@@ -358,10 +342,6 @@
     },
     {
       "item": "abyssalcraft:unique_scroll",
-      "damage": "*"
-    },
-    {
-      "item": "rftools:storage_scanner",
       "damage": "*"
     },
     {
@@ -998,10 +978,6 @@
     }
   ],
   "163": [
-    {
-      "item": "extrautils2:terraformer",
-      "damage": "*"
-    },
     {
       "item": "rftools:storage_scanner",
       "damage": "*"

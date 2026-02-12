@@ -104,6 +104,14 @@ cauldron10.addItemOutput(<contenttweaker:everbloody_flask>);
 cauldron10.build();
 
 
+val autocauldron11 = RecipeBuilder.newBuilder("autocauldron11","terrestrial_cauldron",10);
+autocauldron11.addFluidInput(<fluid:water>*1000);
+autocauldron11.addFluidInput(<fluid:lava>*1000);
+autocauldron11.addItemInput(<contenttweaker:demonic_manastone>);
+autocauldron11.addItemInput(<bewitchment:sanguine_cloth>*4);
+autocauldron11.addItemOutput(<contenttweaker:manastone_dust>);
+autocauldron11.addItemOutput(<contenttweaker:demonic_manastone>);
+autocauldron11.build();
 
 
 
@@ -222,7 +230,41 @@ autocauldronup12.addItemOutput(<contenttweaker:fearmongerer_fabric>*64);
 autocauldronup12.addItemOutput(<contenttweaker:fearmongerer_fabric>*64);
 autocauldronup12.build();
 
+val autocauldronup13 = RecipeBuilder.newBuilder("autocauldronup13","terrestrial_cauldron",4);
+autocauldronup13.addFluidInput(<fluid:essence_of_ilarity>*3);
+autocauldronup13.addFluidInput(<fluid:matter_of_restraining>*3);
+autocauldronup13.addItemInput(<contenttweaker:demonic_manastone>);
+autocauldronup13.addItemInput(<bewitchment:sanguine_cloth>*4);
+autocauldronup13.addItemOutput(<contenttweaker:manastone_dust>);
+autocauldronup13.addItemOutput(<contenttweaker:demonic_manastone>);
+autocauldronup13.build();
 
+val autocauldronup14 = RecipeBuilder.newBuilder("autocauldronup14","terrestrial_cauldron",4);
+autocauldronup14.addFluidInput(<fluid:hint_of_divinity>*3);
+autocauldronup14.addFluidInput(<fluid:hint_of_insanity>*3);
+autocauldronup14.addItemInput(<contenttweaker:everbloody_manastone>);
+autocauldronup14.addItemInput(<bewitchment:sanguine_cloth>*256);
+autocauldronup14.addItemOutput(<contenttweaker:manastone_dust>*64);
+autocauldronup14.addItemOutput(<contenttweaker:everbloody_manastone>);
+autocauldronup14.build();
+
+val autocauldronup15 = RecipeBuilder.newBuilder("autocauldronup15","terrestrial_cauldron",4);
+autocauldronup15.addFluidInput(<fluid:infinite_insane_wish>*3);
+autocauldronup15.addFluidInput(<fluid:infinite_divine_wish>*3);
+autocauldronup15.addItemInput(<contenttweaker:everbloody_manastone>);
+autocauldronup15.addItemInput(<bewitchment:sanguine_cloth>*1024);
+autocauldronup15.addItemOutput(<contenttweaker:manastone_dust>*256);
+autocauldronup15.addItemOutput(<contenttweaker:everbloody_manastone>);
+autocauldronup15.build();
+
+val autocauldronup16 = RecipeBuilder.newBuilder("autocauldronup16","terrestrial_cauldron",4);
+autocauldronup16.addFluidInput(<fluid:essence_of_ilarity>*3);
+autocauldronup16.addFluidInput(<fluid:matter_of_restraining>*3);
+autocauldronup16.addItemInput(<contenttweaker:everbloody_manastone>);
+autocauldronup16.addItemInput(<bewitchment:sanguine_cloth>*64);
+autocauldronup16.addItemOutput(<contenttweaker:manastone_dust>*16);
+autocauldronup16.addItemOutput(<contenttweaker:everbloody_manastone>);
+autocauldronup16.build();
 
 
 

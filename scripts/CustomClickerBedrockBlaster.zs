@@ -21,7 +21,40 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
       return;
     }
 
-    Commands.call("fill ~-2 ~-3 ~-2 ~2 ~2 ~2 air 0 replace bedrock 0 destroy", event.player, event.world, true, true);
+    if(isNull(event.player.getInventoryStack(39))){
+			event.player.sendChat("Wear a set of Foraging Armor");
+			return;
+		}
+		if(isNull(event.player.getInventoryStack(38))){
+			event.player.sendChat("Wear a set of Foraging Armor");
+			return;
+		}
+		if(isNull(event.player.getInventoryStack(37))){
+			event.player.sendChat("Wear a set of Foraging Armor");
+			return;
+		}
+		if(isNull(event.player.getInventoryStack(36))){
+			event.player.sendChat("Wear a set of Foraging Armor");
+			return;
+		}
+		if(!(event.player.getInventoryStack(39).definition.id.matches(<aoa3:foraging_helmet>.definition.id))) {
+			event.player.sendChat("Wear a set of Foraging Armor");
+			return;
+		}
+		if(!(event.player.getInventoryStack(38).definition.id.matches(<aoa3:foraging_chestplate>.definition.id))) {
+			event.player.sendChat("Wear a set of Foraging Armor");
+			return;
+		}
+		if(!(event.player.getInventoryStack(37).definition.id.matches(<aoa3:foraging_legs>.definition.id))) {
+			event.player.sendChat("Wear a set of Foraging Armor");
+			return;
+		}
+		if(!(event.player.getInventoryStack(36).definition.id.matches(<aoa3:foraging_boots>.definition.id))) {
+			event.player.sendChat("Wear a set of Foraging Armor");
+			return;
+		}
+
+    Commands.call("fill ~-2 ~-1 ~-2 ~2 ~2 ~2 air 0 replace bedrock 0 destroy", event.player, event.world, true, true);
     Commands.call("summon Item ~ ~ ~ {Item:{id:\"minecraft:bedrock\",Count:1b}}", event.player, event.world, true, true);
 
   }

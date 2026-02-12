@@ -239,7 +239,7 @@ val inffurnechowarrenalloy2 = RecipeBuilder.newBuilder("inffurnechowarrenalloy2"
 inffurnechowarrenalloy2.addFluidInput(<fluid:recursive_computing_matter>*1000);
 inffurnechowarrenalloy2.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
 inffurnechowarrenalloy2.addItemInput(<ore:ingotFractalliteHalite>);
-inffurnechowarrenalloy2.addItemInput(<avaritia:resource:6>*2);
+inffurnechowarrenalloy2.addItemInput(<avaritia:resource:6>*4);
 inffurnechowarrenalloy2.addItemInput(<contenttweaker:warren_shard>);
 inffurnechowarrenalloy2.addItemOutput(<contenttweaker:echo_warren_alloy>*4);
 inffurnechowarrenalloy2.build();
@@ -248,10 +248,32 @@ val inffurnechowarrenalloy3 = RecipeBuilder.newBuilder("inffurnechowarrenalloy3"
 inffurnechowarrenalloy3.addFluidInput(<fluid:recursive_computing_matter>*1000);
 inffurnechowarrenalloy3.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
 inffurnechowarrenalloy3.addItemInput(<ore:ingotFractalliteHalite>);
-inffurnechowarrenalloy3.addItemInput(<avaritia:resource:6>*2);
+inffurnechowarrenalloy3.addItemInput(<avaritia:resource:6>*8);
 inffurnechowarrenalloy3.addItemInput(<contenttweaker:gem_of_the_birthing_nebula>);
 inffurnechowarrenalloy3.addItemOutput(<contenttweaker:echo_warren_alloy>*8);
 inffurnechowarrenalloy3.build();
+
+
+
+val protodermixmix = RecipeBuilder.newBuilder("protodermixmix","iron_centrifuge",5);
+protodermixmix.addEnergyPerTickInput(10000);
+protodermixmix.addFluidInput(<fluid:recursive_computing_matter>*1000);
+protodermixmix.addFluidInput(<fluid:protodermis>*10);
+protodermixmix.addFluidOutput(<fluid:inquiring_protodermis>*1000);
+protodermixmix.build();
+
+
+
+val inffurnechowarrenalloy4 = RecipeBuilder.newBuilder("inffurnechowarrenalloy4","infinity_furnace",20);
+inffurnechowarrenalloy4.addFluidInput(<fluid:inquiring_protodermis>*100);
+inffurnechowarrenalloy4.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
+inffurnechowarrenalloy4.addItemInput(<ore:ingotFractalliteHalite>*2);
+inffurnechowarrenalloy4.addItemInput(<avaritia:resource:6>*16);
+inffurnechowarrenalloy4.addItemInput(<contenttweaker:gem_of_the_birthing_nebula>);
+inffurnechowarrenalloy4.addItemOutput(<contenttweaker:echo_warren_alloy>*16);
+inffurnechowarrenalloy4.build();
+
+
 
 val inffurnfinalwarrenalloy = RecipeBuilder.newBuilder("inffurnfinalwarrenalloy","infinity_furnace",20);
 inffurnfinalwarrenalloy.addFluidInput(<fluid:recursive_computing_matter>*5000000);
@@ -346,15 +368,6 @@ mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:quasar_screen>,
 10);  
 
 
-recipes.addShaped(<contenttweaker:ascended_fluix_etcher>,
-[[<contenttweaker:opalescent_matter>, <plustic:laser_medium>.withTag({Material: "fluixcrystal_plustic"}), <contenttweaker:opalescent_matter>],
-[<avaritiaitem:spatial_processor>, <contenttweaker:fluix_etcher>, <avaritiaitem:spatial_processor>],
-[<contenttweaker:opalescent_matter>, <plustic:laser_medium>.withTag({Material: "starmetal"}), <contenttweaker:opalescent_matter>]]);
-
-recipes.addShaped(<contenttweaker:universal_fluix_etcher>,
-[[<contenttweaker:quasar_charged_gem>, <contenttweaker:fractallite_quantum>, <contenttweaker:quasar_charged_gem>],
-[<contenttweaker:ingot_of_infinite_wishes>, <contenttweaker:ascended_fluix_etcher>, <contenttweaker:ingot_of_infinite_wishes>],
-[<contenttweaker:quasar_charged_gem>, <contenttweaker:fractallite_quantum>, <contenttweaker:quasar_charged_gem>]]);
 
 recipes.addShaped(<contenttweaker:naquadah_casing>,
 [[<contenttweaker:opalescent_matter>, <contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:opalescent_matter>],
@@ -417,6 +430,10 @@ recipes.addShapeless(<contenttweaker:defined_bar>,
 recipes.addShapeless(<contenttweaker:sashimi_of_the_gate_of_darkness>,
 [<aoa3:shadow_sword>.withTag({display: {Lore:["§d§oSuper-Duper-Enchanted§r"]}}).reuse(),
 <minecraft:fish:1>]);
+
+recipes.addShapeless(<contenttweaker:ichor_taint_catalyzer>,
+[<aoa3:shadow_sword>.withTag({display: {Lore:["§d§oSuper-Duper-Enchanted§r"]}}).reuse(),
+<contenttweaker:ichor_taint_condensate>]);
 
 
 val dysondynamizer = RecipeBuilder.newBuilder("dysondynamizer","dyson_dynamizer",100);
@@ -538,12 +555,35 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:trinity_neut
 <contenttweaker:trinity_ingot>, <contenttweaker:cuendillar_plate>]);
 
 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:eleint_neutronium_casing>, 
+100000000, <contenttweaker:trinity_neutronium_casing>, 
+[<contenttweaker:ingot_of_infinite_wishes>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_starvald_demelain", Amount: 1000}),
+<contenttweaker:eleint_scale>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_starvald_demelain", Amount: 1000}),
+<contenttweaker:ingot_of_infinite_wishes>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_starvald_demelain", Amount: 1000}),
+<contenttweaker:eleint_scale>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_starvald_demelain", Amount: 1000}),
+<contenttweaker:ingot_of_infinite_wishes>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_starvald_demelain", Amount: 1000}),
+<contenttweaker:eleint_scale>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_starvald_demelain", Amount: 1000}),
+<contenttweaker:ingot_of_infinite_wishes>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_starvald_demelain", Amount: 1000}),
+<contenttweaker:eleint_scale>, <forge:bucketfilled>.withTag({FluidName: "whisper_of_starvald_demelain", Amount: 1000})]);
+
+
+
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:quark_cosmic_module>, 
 [[<contenttweaker:light_of_shadesmar>, <contenttweaker:cuendillar_plate>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:cuendillar_plate>, <contenttweaker:light_of_shadesmar>], 
 [<contenttweaker:cuendillar_plate>, <contenttweaker:shard_of_the_cosmos>, <minecraft:bedrock>, <contenttweaker:shard_of_the_cosmos>, <contenttweaker:cuendillar_plate>], 
 [<avaritiaitem:self_actualizing_stone>, <minecraft:bedrock>, <contenttweaker:quark_neutronium_module>, <minecraft:bedrock>, <avaritiaitem:self_actualizing_stone>], 
 [<contenttweaker:cuendillar_plate>, <contenttweaker:shard_of_the_cosmos>, <minecraft:bedrock>, <contenttweaker:shard_of_the_cosmos>, <contenttweaker:cuendillar_plate>], 
 [<contenttweaker:light_of_shadesmar>, <contenttweaker:cuendillar_plate>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:cuendillar_plate>, <contenttweaker:light_of_shadesmar>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:discontinuous_void_module>, 
+[[<contenttweaker:warren_plate>, <contenttweaker:pure_void>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:pure_void>, <contenttweaker:warren_plate>], 
+[<contenttweaker:pure_void>, <avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:cuendillar_seal>, <avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:pure_void>], 
+[<avaritiaitem:self_actualizing_stone>, <contenttweaker:cuendillar_seal>, <contenttweaker:quark_cosmic_module>, <contenttweaker:cuendillar_seal>, <avaritiaitem:self_actualizing_stone>], 
+[<contenttweaker:pure_void>, <avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:cuendillar_seal>, <avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:pure_void>], 
+[<contenttweaker:warren_plate>, <contenttweaker:pure_void>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:pure_void>, <contenttweaker:warren_plate>]]);  
+
+
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:cosmic_string_module>*8, 
@@ -721,19 +761,25 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:dying_constellatio
 // summon villager ~ ~3 ~ {Invulnerable:1, CustomName:"Will of Gaia",Offers:{Recipes:[{buy:{id:"contenttweaker:gem_of_cyclical_hope",Count:16},sell:{id:"contenttweaker:construct_of_natural_balance",Count:1},rewardExp:0b,maxUses:9999999}]},Profession:2,Career:1,CareerLevel:3,ActiveEffects:[{Id:24,Amplifier:0,Duration:999999},{Id:14,Amplifier:0,Duration:999999}]}
 
 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hopebringer_fabrial>*4, 
+[[<contenttweaker:self_actualizing_metal>, <contenttweaker:pale_metal>, <contenttweaker:hopebringer_metal>, <contenttweaker:pale_metal>, <contenttweaker:self_actualizing_metal>], 
+[<contenttweaker:pale_metal>, <contenttweaker:gem_of_cyclical_hope>, <forge:bucketfilled>.withTag({FluidName: "inquiring_protodermis", Amount: 1000}), <contenttweaker:gem_of_cyclical_hope>, <contenttweaker:pale_metal>], 
+[<contenttweaker:hopebringer_metal>, <forge:bucketfilled>.withTag({FluidName: "actualization_hope", Amount: 1000}), <contenttweaker:mask_of_the_free_stag>, <forge:bucketfilled>.withTag({FluidName: "actualization_hope", Amount: 1000}), <contenttweaker:hopebringer_metal>], 
+[<contenttweaker:pale_metal>, <contenttweaker:gem_of_cyclical_hope>, <forge:bucketfilled>.withTag({FluidName: "inquiring_protodermis", Amount: 1000}), <contenttweaker:gem_of_cyclical_hope>, <contenttweaker:pale_metal>], 
+[<contenttweaker:self_actualizing_metal>, <contenttweaker:pale_metal>, <contenttweaker:hopebringer_metal>, <contenttweaker:pale_metal>, <contenttweaker:self_actualizing_metal>]]);  
 
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_casing>, 
-[[<contenttweaker:catalyst_of_natural_law>, <contenttweaker:pale_metal>, <contenttweaker:wyvernium_matrix>, <contenttweaker:space_time_beam>, <contenttweaker:space_time_beam>, <contenttweaker:space_time_beam>, <contenttweaker:wyvernium_matrix>, <contenttweaker:pale_metal>, <contenttweaker:catalyst_of_natural_law>], 
-[<contenttweaker:pale_metal>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:pale_metal>], 
+[[<contenttweaker:catalyst_of_natural_law>, <contenttweaker:hopebringer_fabrial>, <contenttweaker:wyvernium_matrix>, <contenttweaker:space_time_beam>, <contenttweaker:space_time_beam>, <contenttweaker:space_time_beam>, <contenttweaker:wyvernium_matrix>, <contenttweaker:hopebringer_fabrial>, <contenttweaker:catalyst_of_natural_law>], 
+[<contenttweaker:dodecuple_compressed_alchemical_fractal>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:dodecuple_compressed_alchemical_fractal>], 
 [<contenttweaker:wyvernium_matrix>, <contenttweaker:balanced_machine_casing>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:balanced_machine_casing>, <contenttweaker:wyvernium_matrix>], 
 [<contenttweaker:space_time_beam>, <contenttweaker:naquadah_casing>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:cosmic_string_conduit>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:naquadah_casing>, <contenttweaker:space_time_beam>], 
 [<contenttweaker:space_time_beam>, <contenttweaker:naquadah_casing>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:galactic_power_unit>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:naquadah_casing>, <contenttweaker:space_time_beam>], 
 [<contenttweaker:space_time_beam>, <contenttweaker:naquadah_casing>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:cosmic_string_conduit>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:naquadah_casing>, <contenttweaker:space_time_beam>], 
 [<contenttweaker:wyvernium_matrix>, <contenttweaker:balanced_machine_casing>, <ore:ingotFractalliteHalite>, <contenttweaker:dark_matter_node>, <contenttweaker:cosmic_string_conduit>, <contenttweaker:dark_matter_node>, <ore:ingotFractalliteHalite>, <contenttweaker:balanced_machine_casing>, <contenttweaker:wyvernium_matrix>], 
-[<contenttweaker:pale_metal>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:pale_metal>], 
-[<contenttweaker:catalyst_of_natural_law>, <contenttweaker:pale_metal>, <contenttweaker:wyvernium_matrix>, <contenttweaker:space_time_beam>, <contenttweaker:space_time_beam>, <contenttweaker:space_time_beam>, <contenttweaker:wyvernium_matrix>, <contenttweaker:pale_metal>, <contenttweaker:catalyst_of_natural_law>]]);  
+[<contenttweaker:dodecuple_compressed_alchemical_fractal>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:naquadah_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:balanced_machine_casing>, <contenttweaker:dodecuple_compressed_alchemical_fractal>], 
+[<contenttweaker:catalyst_of_natural_law>, <contenttweaker:hopebringer_fabrial>, <contenttweaker:wyvernium_matrix>, <contenttweaker:space_time_beam>, <contenttweaker:space_time_beam>, <contenttweaker:space_time_beam>, <contenttweaker:wyvernium_matrix>, <contenttweaker:hopebringer_fabrial>, <contenttweaker:catalyst_of_natural_law>]]);  
 
 
 
@@ -779,20 +825,22 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_stem>,
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_branch>, 
-[[<contenttweaker:self_actualizing_warren_rift>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:self_actualizing_warren_rift>], 
-[<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:herba_vis_condensate>, <contenttweaker:tardis_casing>, <contenttweaker:herba_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
-[<contenttweaker:black_hole_alloy_ingot>, <contenttweaker:tardis_casing>, <contenttweaker:tardis_stem>, <contenttweaker:tardis_casing>, <contenttweaker:black_hole_alloy_ingot>], 
-[<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:herba_vis_condensate>, <contenttweaker:tardis_casing>, <contenttweaker:herba_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
-[<contenttweaker:self_actualizing_warren_rift>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:self_actualizing_warren_rift>]]);  
+[[<contenttweaker:discontinuous_void_module>, <contenttweaker:catalyst_of_universal_balance>, <contenttweaker:roaring_warren_alloy>, <contenttweaker:protodermis_casing>, <contenttweaker:roaring_warren_alloy>, <contenttweaker:catalyst_of_universal_balance>, <contenttweaker:discontinuous_void_module>],
+[<contenttweaker:catalyst_of_universal_balance>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:catalyst_of_universal_balance>], 
+[<contenttweaker:roaring_warren_alloy>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:herba_vis_condensate>, <contenttweaker:tardis_casing>, <contenttweaker:herba_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:roaring_warren_alloy>], 
+[<contenttweaker:protodermis_casing>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:tardis_casing>, <contenttweaker:tardis_stem>, <contenttweaker:tardis_casing>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:protodermis_casing>], 
+[<contenttweaker:roaring_warren_alloy>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:herba_vis_condensate>, <contenttweaker:tardis_casing>, <contenttweaker:herba_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:roaring_warren_alloy>], 
+[<contenttweaker:catalyst_of_universal_balance>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:catalyst_of_universal_balance>],
+[<contenttweaker:discontinuous_void_module>, <contenttweaker:catalyst_of_universal_balance>, <contenttweaker:roaring_warren_alloy>, <contenttweaker:protodermis_casing>, <contenttweaker:roaring_warren_alloy>, <contenttweaker:catalyst_of_universal_balance>, <contenttweaker:discontinuous_void_module>]]);  
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_polyp>, 
 [[<contenttweaker:cosmic_string_module>, <contenttweaker:singular_fractal>, <contenttweaker:eye_of_gallifrey>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:eye_of_gallifrey>, <contenttweaker:singular_fractal>, <contenttweaker:cosmic_string_module>], 
-[<contenttweaker:singular_fractal>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:singular_fractal>], 
+[<contenttweaker:singular_fractal>, <contenttweaker:eleint_neutronium_casing>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:eleint_neutronium_casing>, <contenttweaker:singular_fractal>], 
 [<contenttweaker:eye_of_gallifrey>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:tardis_branch>, <contenttweaker:balanced_machine_casing>, <contenttweaker:tardis_branch>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:eye_of_gallifrey>], 
 [<contenttweaker:black_hole_alloy_ingot>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:balanced_machine_casing>, <contenttweaker:tardis_branch>, <contenttweaker:balanced_machine_casing>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:black_hole_alloy_ingot>], 
 [<contenttweaker:eye_of_gallifrey>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:tardis_branch>, <contenttweaker:balanced_machine_casing>, <contenttweaker:tardis_branch>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:eye_of_gallifrey>], 
-[<contenttweaker:singular_fractal>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:singular_fractal>], 
+[<contenttweaker:singular_fractal>, <contenttweaker:eleint_neutronium_casing>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:eleint_neutronium_casing>, <contenttweaker:singular_fractal>], 
 [<contenttweaker:cosmic_string_module>, <contenttweaker:singular_fractal>, <contenttweaker:eye_of_gallifrey>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:eye_of_gallifrey>, <contenttweaker:singular_fractal>, <contenttweaker:cosmic_string_module>]]);  
 
 
@@ -854,7 +902,7 @@ blackholejuice.addFluidOutput(<fluid:black_hole_juice>*10);
 blackholejuice.build();
 
 
-mods.nuclearcraft.infuser.addRecipe([<minecraft:bucket>, <fluid:black_hole_juice>*500, <contenttweaker:black_hole_juice>, 1.0, 1.0, 1.0]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:bucket>, <fluid:black_hole_juice>*500, <contenttweaker:black_hole_juice>]);
 
 
 recipes.addShaped(<contenttweaker:whisper_of_natureal_law>,
@@ -973,3 +1021,200 @@ easiereverburning4.addFluidInput(<fluid:high_grade_space_time_fuel>*2);
 easiereverburning4.addItemInput(<contenttweaker:sacred_cinders_log>*64);
 easiereverburning4.addItemOutput(<contenttweaker:everburning_seed>);
 easiereverburning4.build();
+
+
+
+recipes.addShaped(<contenttweaker:evertainted_pebble>,
+[[<contenttweaker:fractallite_taint>, <contenttweaker:pale_sky_stone_pebble>, <contenttweaker:fractallite_taint>]]);
+
+recipes.addShaped(<contenttweaker:crimson_sundering_pebble>,
+[[<contenttweaker:crimson_sundering_powder>, <contenttweaker:crimson_sundering_powder>, <contenttweaker:crimson_sundering_powder>],
+[<contenttweaker:crimson_sundering_powder>, <contenttweaker:pale_sky_stone_pebble>, <contenttweaker:crimson_sundering_powder>],
+[<contenttweaker:crimson_sundering_powder>, <contenttweaker:crimson_sundering_powder>, <contenttweaker:crimson_sundering_powder>]]);
+
+
+
+
+mods.thaumcraft.Infusion.registerRecipe("infsunderingofthetwilitcurse", "", 
+<contenttweaker:sundering_of_the_twilit_curse>, 10,
+[<aspect:terra>*10000, <aspect:herba>*10000, <aspect:praecantatio>*10000, <aspect:humanus>*10000, <aspect:exitium>*10000, <aspect:spiritus>*10000, <aspect:victus>*10000, <aspect:stellae>*10000], 
+<contenttweaker:scroll_of_truth_twilightforest>, 
+[<contenttweaker:whisper_of_freedom_minotaur>, <contenttweaker:whisper_of_freedom_troll>,
+<contenttweaker:whisper_of_freedom_crab>, <contenttweaker:whisper_of_freedom_giant>,
+<avaritiaitem:cosmic_balance>,
+<contenttweaker:whisper_of_freedom_redcap>, <contenttweaker:whisper_of_freedom_tome>,
+<contenttweaker:whisper_of_freedom_hedge>, <contenttweaker:whisper_of_freedom_raven>,
+<avaritiaitem:cosmic_balance>]);
+
+recipes.addShapeless(<contenttweaker:crimson_warren_remains>*4,
+[<contenttweaker:crimson_warren_remains>, 
+<twilightforest:transformation_powder>]);
+
+
+val fracfurngalacplasdust1 = RecipeBuilder.newBuilder("fracfurngalacplasdust1","fractallite_furnace",2);
+fracfurngalacplasdust1.addFluidInput(<fluid:low_grade_space_time_fuel>*1);
+fracfurngalacplasdust1.addItemInput(<contenttweaker:trinity_nugget>*8);
+fracfurngalacplasdust1.addItemInput(<contenttweaker:dust_of_infinite_wishes>*8);
+fracfurngalacplasdust1.addItemInput(<contenttweaker:quasar_charged_dust>*64);
+fracfurngalacplasdust1.addItemOutput(<contenttweaker:galactic_dust>*64);
+fracfurngalacplasdust1.build();
+
+val fracfurngalacplasdust2 = RecipeBuilder.newBuilder("fracfurngalacplasdust2","fractallite_furnace",2);
+fracfurngalacplasdust2.addFluidInput(<fluid:medium_grade_space_time_fuel>*1);
+fracfurngalacplasdust2.addItemInput(<contenttweaker:trinity_nugget>*4);
+fracfurngalacplasdust2.addItemInput(<contenttweaker:dust_of_infinite_wishes>*4);
+fracfurngalacplasdust2.addItemInput(<contenttweaker:quasar_charged_dust>*64);
+fracfurngalacplasdust2.addItemOutput(<contenttweaker:galactic_dust>*64);
+fracfurngalacplasdust2.build();
+
+val fracfurngalacplasdust3 = RecipeBuilder.newBuilder("fracfurngalacplasdust3","fractallite_furnace",2);
+fracfurngalacplasdust3.addFluidInput(<fluid:high_grade_space_time_fuel>*1);
+fracfurngalacplasdust3.addItemInput(<contenttweaker:trinity_nugget>*2);
+fracfurngalacplasdust3.addItemInput(<contenttweaker:dust_of_infinite_wishes>*2);
+fracfurngalacplasdust3.addItemInput(<contenttweaker:quasar_charged_dust>*64);
+fracfurngalacplasdust3.addItemOutput(<contenttweaker:galactic_dust>*64);
+fracfurngalacplasdust3.build();
+
+val fracfurngalacplasdust4 = RecipeBuilder.newBuilder("fracfurngalacplasdust4","fractallite_furnace",2);
+fracfurngalacplasdust4.addFluidInput(<fluid:galactic_plasma>*1000);
+fracfurngalacplasdust4.addItemInput(<contenttweaker:trinity_nugget>);
+fracfurngalacplasdust4.addItemInput(<contenttweaker:dust_of_infinite_wishes>);
+fracfurngalacplasdust4.addItemInput(<contenttweaker:quasar_charged_dust>*64);
+fracfurngalacplasdust4.addItemOutput(<contenttweaker:galactic_dust>*64);
+fracfurngalacplasdust4.build();
+
+recipes.addShaped(<contenttweaker:recursion_fragment_asgard>*16,
+[[<botania:rune:8>, <botania:rune:8>, <botania:rune:8>],
+[<botania:rune:8>, <contenttweaker:recursion_fragment_asgard>, <botania:rune:8>],
+[<botania:rune:8>, <botania:rune:8>, <botania:rune:8>]]);
+
+
+val treeofliferagarokstuffs = RecipeBuilder.newBuilder("treeofliferagarokstuffs","tree_of_life",2);
+treeofliferagarokstuffs.addItemInput(<contenttweaker:construct_of_natural_balance>);
+treeofliferagarokstuffs.setChance(0.0);
+treeofliferagarokstuffs.addItemInput(<contenttweaker:recursion_of_natural_law>*12);
+treeofliferagarokstuffs.addItemInput(<contenttweaker:recursive_powder>*64);
+treeofliferagarokstuffs.addItemInput(<contenttweaker:ingot_of_infinite_wishes>*8);
+treeofliferagarokstuffs.addItemInput(<contenttweaker:draco_vis_condensate>*4);
+treeofliferagarokstuffs.addItemOutput(<contenttweaker:summons_of_ragnarok>);
+treeofliferagarokstuffs.build();
+
+mods.botania.RuneAltar.addRecipe(<contenttweaker:rune_of_valhalla>*3, 
+[<contenttweaker:gratitude_of_loki>, <contenttweaker:gratitude_of_odin>, <contenttweaker:gratitude_of_thor>, <contenttweaker:rune_of_freedom>, <contenttweaker:rune_of_freedom>, <contenttweaker:rune_of_freedom>], 50);
+
+val divcombrunevalhalla = RecipeBuilder.newBuilder("divcombrunevalhalla","divine_combiner",2);
+divcombrunevalhalla.addFluidInput(<fluid:divine_resonance>*4);
+divcombrunevalhalla.addItemInput(<contenttweaker:rune_of_valhalla>);
+divcombrunevalhalla.addItemInput(<contenttweaker:ragnarok_warren_dust>*512);
+divcombrunevalhalla.addItemOutput(<contenttweaker:rune_of_valhalla>);
+divcombrunevalhalla.addItemOutput(<contenttweaker:valhalla_warren_dust>*512);
+divcombrunevalhalla.build();
+
+
+
+
+recipes.addShaped(<contenttweaker:twilit_freedom_fabrial>,
+[[<contenttweaker:universal_constellation>, <avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:universal_constellation>],
+[<contenttweaker:crimson_warren_remains>, <contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:crimson_warren_remains>],
+[<contenttweaker:universal_constellation>, <avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:universal_constellation>]]);
+
+
+
+mods.thaumcraft.Infusion.registerRecipe("infsummonstwilithero", "", 
+<contenttweaker:summons_of_the_twilit_hero>, 10,
+[<aspect:permutatio>*10000, <aspect:stellae>*10000, <aspect:praecantatio>*10000, <aspect:humanus>*10000, <aspect:victus>*10000, <aspect:cognitio>*10000], 
+<contenttweaker:wormhole_catalyst>, 
+[<avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:crimson_warren_remains>,
+<avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:twilight_diamond>,
+<avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:crimson_warren_remains>,
+<avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:twilight_diamond>]);
+
+
+recipes.addShaped(<contenttweaker:hopebringer_crystal>*8,
+[[<contenttweaker:harbinger_crystal>, <contenttweaker:harbinger_crystal>, <contenttweaker:harbinger_crystal>],
+[<contenttweaker:harbinger_crystal>, <contenttweaker:unforgotten_summons>.reuse(), <contenttweaker:harbinger_crystal>],
+[<contenttweaker:harbinger_crystal>, <contenttweaker:harbinger_crystal>, <contenttweaker:harbinger_crystal>]]);
+
+
+val fracfurhopebringermetal = RecipeBuilder.newBuilder("fracfurhopebringermetal","fractallite_furnace",10);
+fracfurhopebringermetal.addFluidInput(<fluid:whisper_of_starvald_demelain>*100);
+fracfurhopebringermetal.addItemInput(<contenttweaker:hopebringer_crystal>*16);
+fracfurhopebringermetal.addItemInput(<contenttweaker:infinite_tainted_plate>*4);
+fracfurhopebringermetal.addItemInput(<contenttweaker:trinity_ingot>);
+fracfurhopebringermetal.addItemOutput(<contenttweaker:hopebringer_metal>*1);
+fracfurhopebringermetal.build();
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:act_of_restored_balance>*1, 
+[[<ore:ingotFractalliteHalite>, null, null, null, <ore:ingotFractalliteHalite>], 
+[null, <contenttweaker:well_defined_machine_case>, <twilightforest:ironwood_raw>, <contenttweaker:well_defined_machine_case>, null], 
+[null, <contenttweaker:hopebringer_crystal>, <contenttweaker:token_of_the_meatball_man>, <contenttweaker:hopebringer_crystal>, null], 
+[null, <contenttweaker:well_defined_machine_case>, <openblocks:tank>.withTag({tank: {FluidName: "recursive_computing_matter", Amount: 16000}}), <contenttweaker:well_defined_machine_case>, null], 
+[<ore:ingotFractalliteHalite>, null, null, null, <ore:ingotFractalliteHalite>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:act_of_restored_balance>*2, 
+[[<ore:ingotFractalliteHalite>, null, <ore:ingotFractalliteHalite>, null, <ore:ingotFractalliteHalite>], 
+[null, <contenttweaker:well_defined_machine_case>, <contenttweaker:delicate_flower>, <contenttweaker:well_defined_machine_case>, null], 
+[<ore:ingotFractalliteHalite>, <contenttweaker:hopebringer_crystal>, <contenttweaker:token_of_the_meatball_man>, <contenttweaker:hopebringer_crystal>, <ore:ingotFractalliteHalite>], 
+[null, <contenttweaker:well_defined_machine_case>, <openblocks:tank>.withTag({tank: {FluidName: "recursive_computing_matter", Amount: 16000}}), <contenttweaker:well_defined_machine_case>, null], 
+[<ore:ingotFractalliteHalite>, null, <ore:ingotFractalliteHalite>, null, <ore:ingotFractalliteHalite>]]);  
+
+
+
+
+
+
+
+
+
+
+
+mods.thaumcraft.Infusion.registerRecipe("infvoidshriek", "", 
+<contenttweaker:void_shriek>, 10,
+[<aspect:vacuos>*40000], 
+<contenttweaker:uncanny_void_cluster>, 
+[<contenttweaker:shrieking_soul>, <contenttweaker:bane_of_recursion>,
+<contenttweaker:shrieking_soul>, <contenttweaker:ichor_taint_catalyzer>,
+<contenttweaker:shrieking_soul>, <contenttweaker:bane_of_recursion>,
+<contenttweaker:shrieking_soul>, <contenttweaker:ichor_taint_catalyzer>]);
+
+
+
+mods.abyssalcraft.InfusionRitual.addRitual("VoidNothingnessInf", 
+4, 0, 
+100000, 
+true, 
+<contenttweaker:silencing_nothingness>, 
+<contenttweaker:hollow_soul>, 
+[<contenttweaker:pure_void>,<contenttweaker:vacuos_vis_condensate>,<contenttweaker:pure_void>,<contenttweaker:vacuos_vis_condensate>,
+<contenttweaker:pure_void>,<contenttweaker:vacuos_vis_condensate>,<contenttweaker:pure_void>,<contenttweaker:vacuos_vis_condensate>]);
+game.setLocalization("ac.ritual.VoidNothingnessInf", "Nothing"); 
+game.setLocalization("ac.ritual.VoidNothingnessInf.desc", "Nothing at all");
+
+
+val voidgivenform = RecipeBuilder.newBuilder("voidgivenform","abyssal_entropic_catalyzer",2);
+voidgivenform.addItemInput(<avaritia:infinity_helmet>);
+voidgivenform.addItemInput(<avaritia:infinity_chestplate>);
+voidgivenform.addItemInput(<avaritia:infinity_pants>);
+voidgivenform.addItemInput(<avaritia:infinity_boots>);
+voidgivenform.addFluidInput(<fluid:nothing>*10000);
+voidgivenform.addFluidOutput(<fluid:void_given_focus>*10000);
+voidgivenform.build();
+
+
+
+recipes.addShaped(<contenttweaker:mask_of_the_free_stag>,
+[[<erebus:materials:66>, <contenttweaker:mask_of_definition>, <erebus:materials:66>],
+[<contenttweaker:defined_bar>, <forge:bucketfilled>.withTag({FluidName: "void_given_focus", Amount: 1000}), <contenttweaker:defined_bar>],
+[<contenttweaker:defined_bar>, <contenttweaker:delicate_pollen>, <contenttweaker:defined_bar>]]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:protodermis_casing>, 
+[[<contenttweaker:gravitational_time_crystal>, <contenttweaker:infinite_resonator>, <contenttweaker:kanohi_mask>, <contenttweaker:infinite_resonator>, <contenttweaker:gravitational_time_crystal>], 
+[<contenttweaker:infinite_resonator>, <contenttweaker:mythic_coil_t4>, <contenttweaker:defined_disk>, <contenttweaker:mythic_coil_t4>, <contenttweaker:infinite_resonator>], 
+[<contenttweaker:kanohi_mask>, <contenttweaker:defined_disk>, <contenttweaker:naquadah_casing>, <contenttweaker:defined_disk>, <contenttweaker:kanohi_mask>], 
+[<contenttweaker:infinite_resonator>, <contenttweaker:mythic_coil_t4>, <contenttweaker:defined_disk>, <contenttweaker:mythic_coil_t4>, <contenttweaker:infinite_resonator>], 
+[<contenttweaker:gravitational_time_crystal>, <contenttweaker:infinite_resonator>, <contenttweaker:kanohi_mask>, <contenttweaker:infinite_resonator>, <contenttweaker:gravitational_time_crystal>]]);  
+
