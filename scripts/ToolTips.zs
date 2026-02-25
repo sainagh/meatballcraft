@@ -464,7 +464,7 @@
 
 <contenttweaker:headstone>.addTooltip(format.red("通过远古飞龙召唤石获得"));
 
-<contenttweaker:silky_forester_leaf>.addTooltip(format.red("通过使用精准采集破坏世界中林业和Binnie模组的树获得"));
+<contenttweaker:silky_forester_leaf>.addTooltip(format.red("通过使用精准采集破坏世界中自然生成的林业和Binnie模组的树获得"));
 
 <contenttweaker:runic_key>.addTooltip(format.red("召唤石"));
 <contenttweaker:key_of_flesh_dominion>.addTooltip(format.red("召唤石"));
