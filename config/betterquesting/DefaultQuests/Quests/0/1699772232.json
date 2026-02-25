@@ -1,33 +1,29 @@
 {
   "preRequisites:11": [
-    1777
+    544292152
   ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "deepmoblearning:pristine_matter_immortalfractallites"
+        "id:8": "contenttweaker:rune_of_valhalla"
       },
-      "name:8": "不朽分形者（流程必需）"
+      "name:8": "瓦尔哈拉"
     }
   },
-  "questID:3": 1798,
+  "questID:3": 1699772232,
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "deepmoblearning:pristine_matter_immortalfractallites"
+          "id:8": "contenttweaker:valhalla_callstone"
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "bigreactors:mineralbenitoite"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "id:8": "contenttweaker:immortal_recursion"
+          "id:8": "contenttweaker:rune_of_valhalla"
         }
       },
       "taskID:8": "bq_standard:retrieval"

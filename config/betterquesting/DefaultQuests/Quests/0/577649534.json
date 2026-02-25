@@ -1,33 +1,33 @@
 {
   "preRequisites:11": [
-    1777
+    104577917
   ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "deepmoblearning:pristine_matter_immortalfractallites"
+        "id:8": "contenttweaker:standard_of_the_dragon_reborn"
       },
-      "name:8": "不朽分形者（流程必需）"
+      "name:8": "理序主化身"
     }
   },
-  "questID:3": 1798,
+  "questID:3": 577649534,
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "deepmoblearning:pristine_matter_immortalfractallites"
+          "id:8": "contenttweaker:dragon_reborn_callstone"
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "bigreactors:mineralbenitoite"
+          "id:8": "contenttweaker:standard_of_the_dragon_reborn"
         },
         "2:10": {
           "Count:3": 1,
-          "id:8": "contenttweaker:immortal_recursion"
+          "id:8": "minecraft:stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

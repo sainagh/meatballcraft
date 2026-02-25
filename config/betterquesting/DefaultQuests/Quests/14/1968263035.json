@@ -1,26 +1,25 @@
 {
   "preRequisites:11": [
-    1809800621,
-    471525021
+    1883
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o使用左键点击以极快速度破坏方块，右键点击挖掘单个方块。\n\n对于AE2部件，破坏效果与扳手相同。",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "divinerpg:fractite_cannon"
+        "id:8": "vajra:vajra"
       },
-      "name:8": "碎冰炮"
+      "name:8": "金刚杵"
     }
   },
-  "questID:3": 1382527061,
+  "questID:3": 1968263035,
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "divinerpg:fractite_cannon"
+          "id:8": "vajra:vajra"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -64,10 +64,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "contenttweaker:cleansed_brightsteel_alloy_plate"
-        },
-        "1:10": {
-          "Count:3": 1,
           "id:8": "contenttweaker:cleansed_cinnamon_apple"
         }
       },

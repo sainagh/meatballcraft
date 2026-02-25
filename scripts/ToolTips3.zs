@@ -130,7 +130,7 @@ import crafttweaker.item.IItemCondition;
 <botania:rainbowrod>.addTooltip(format.green("可重复使用"));
 
 <contenttweaker:tracker_binoculars>.addTooltip(format.red("找不到某个特定生物？"));
-<contenttweaker:tracker_binoculars>.addTooltip(format.red("点击物品栏中的“超级生物追踪器”按钮，然后搜索你想要的生物"));
+<contenttweaker:tracker_binoculars>.addTooltip(format.red("点击物品栏中的“超级生物追踪器”按钮，然后搜索你想要寻找的生物"));
 <contenttweaker:tracker_binoculars>.addTooltip(format.red("双击目标生物的名字，如果周围100格范围内存在匹配实体，这些实体便会高亮显示"));
 <contenttweaker:tracker_binoculars>.addTooltip(format.red("再次双击来停止追踪"));
 

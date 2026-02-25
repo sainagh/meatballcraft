@@ -24,6 +24,39 @@
         "1:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:holographic_ore"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ichor"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "tconstruct:metal"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:ultimate_ore"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:matrix_ore"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:living_gold_ore"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:arkenstone"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:etherium_ore"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "id:8": "avaritiaitem:self_actualizing_stone"
         }
       },
       "taskID:8": "bq_standard:retrieval"

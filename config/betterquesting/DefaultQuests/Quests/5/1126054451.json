@@ -7,27 +7,35 @@
       "desc:8": "",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "deepmoblearning:pristine_matter_immortalfractallites"
+        "id:8": "deepmoblearning:pristine_matter_termasect"
       },
-      "name:8": "不朽分形者（流程必需）"
+      "name:8": "原始树虫"
     }
   },
-  "questID:3": 1798,
+  "questID:3": 1126054451,
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "deepmoblearning:pristine_matter_immortalfractallites"
+          "id:8": "deepmoblearning:pristine_matter_termasect"
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "bigreactors:mineralbenitoite"
+          "id:8": "aoa3:rammerhead_hide"
         },
         "2:10": {
           "Count:3": 1,
-          "id:8": "contenttweaker:immortal_recursion"
+          "id:8": "divinerpg:magic_meat"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "abyssalcraft:ethaxiumingot"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:wildwood_heart"
         }
       },
       "taskID:8": "bq_standard:retrieval"
