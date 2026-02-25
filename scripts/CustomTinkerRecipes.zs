@@ -43,6 +43,21 @@ recipes.addShapeless(<contenttweaker:vibranium_chunk>,
 recipes.addShapeless(<contenttweaker:vibraniumalloy_chunk>, 
 [<materialpart:vibranium_alloy:ingot>, <ore:dustPetrotheum>]);
 
+recipes.addShapeless(<contenttweaker:vibraniumalloy_chunk>*9, 
+[<contenttweaker:vibranium_alloy_cluster>]);
+
+recipes.addShapeless(<contenttweaker:vibranium_alloy_cluster>, 
+[<contenttweaker:vibraniumalloy_chunk>,
+<contenttweaker:vibraniumalloy_chunk>,
+<contenttweaker:vibraniumalloy_chunk>,
+<contenttweaker:vibraniumalloy_chunk>,
+<contenttweaker:vibraniumalloy_chunk>,
+<contenttweaker:vibraniumalloy_chunk>,
+<contenttweaker:vibraniumalloy_chunk>,
+<contenttweaker:vibraniumalloy_chunk>,
+<contenttweaker:vibraniumalloy_chunk>]);
+
+
 mods.tconstruct.Melting.addRecipe(<liquid:vibranium> * 144,<contenttweaker:vibranium_chunk>);
 mods.tconstruct.Melting.addRecipe(<liquid:molten_vibranium_alloy> * 144,<contenttweaker:vibraniumalloy_chunk>);
 
@@ -73,6 +88,14 @@ mods.immersiveengineering.Excavator.addMineral("psivein", 150, 0.1, ["orePsi"], 
 
 mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:psimetal>*2,[<contenttweaker:psichic_stone>, <redstonearsenal:material:32>, <extrautils2:magicapple>, <thaumicwonders:panacea:1>], 100,10);
 mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:psigem>*2,[<contenttweaker:psichic_stone>, <redstonearsenal:material:160>, <extrautils2:magicapple>, <thaumicwonders:panacea:1>], 100,10);
+
+recipes.addShapeless(<contenttweaker:psimetal_block>,
+[<contenttweaker:psimetal>,<contenttweaker:psimetal>,<contenttweaker:psimetal>,<contenttweaker:psimetal>,<contenttweaker:psimetal>,<contenttweaker:psimetal>,<contenttweaker:psimetal>,<contenttweaker:psimetal>,<contenttweaker:psimetal>]);
+
+recipes.addShapeless(<contenttweaker:psimetal>*9,
+[<contenttweaker:psimetal_block>]);
+
+mods.storagedrawers.Compaction.add(<contenttweaker:psimetal_block>, <contenttweaker:psimetal>, 9);
 
 mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:psimetal>, <extrabotany:material:8>, <contenttweaker:ivory_psimetal>*2]);
 mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:psimetal>, <extrabotany:material:5>, <contenttweaker:ebony_psimetal>*2]);
@@ -294,3 +317,12 @@ recipes.addShaped(<contenttweaker:bloodhunter_modifier>,
 [[<ore:obsidian>, <aoa3:rosite_ingot>, <ore:obsidian>],
 [<aoa3:rosite_ingot>, <contenttweaker:bloodhunter_droplet>, <aoa3:rosite_ingot>],
 [<ore:obsidian>, <aoa3:rosite_ingot>, <ore:obsidian>]]);
+
+
+
+mods.tconstruct.Melting.addRecipe(<liquid:hopebringer_metal> * 144,<contenttweaker:hopebringer_metal>);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:hopebringer_metal>, <tconstruct:cast_custom:0>, <liquid:hopebringer_metal>, 144, false, 80);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:hopebringer_metal>, <fluid:hopebringer_metal>*144]);
+
+
+

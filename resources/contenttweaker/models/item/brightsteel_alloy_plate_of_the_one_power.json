@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/brightsteel_alloy_plate_of_the_one_power"
+  }
+}

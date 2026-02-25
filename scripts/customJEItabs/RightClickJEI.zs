@@ -104,6 +104,31 @@ rightclick16.addInput(<contenttweaker:investiture_of_the_eleint>);
 rightclick16.setOutputs([<forge:bucketfilled>.withTag({FluidName: "eleint_dragonfire", Amount: 1000})]);
 rightclick16.build();
 
+val rightclick17 = JEI.createJeiRecipe("right_click_meatball");
+rightclick17.addInput(<contenttweaker:evertainted_pebble>);
+rightclick17.setOutputs([<contenttweaker:sundered_crimson_heart>]);
+rightclick17.build();
+
+val rightclick18 = JEI.createJeiRecipe("right_click_meatball");
+rightclick18.addInput(<contenttweaker:sundering_of_the_twilit_curse>);
+rightclick18.setOutputs([<contenttweaker:crimson_warren_remains>]);
+rightclick18.build();
+
+val rightclick19 = JEI.createJeiRecipe("right_click_meatball");
+rightclick19.addInput(<contenttweaker:offering_to_the_eleint_of_actualization>);
+rightclick19.setOutputs([<contenttweaker:flame_of_actualization>]);
+rightclick19.build();
+
+val rightclick20 = JEI.createJeiRecipe("right_click_meatball");
+rightclick20.addInput(<contenttweaker:void_shriek>);
+rightclick20.setOutputs([<contenttweaker:hollow_soul>]);
+rightclick20.build();
+
+
+val rightclick21 = JEI.createJeiRecipe("right_click_meatball");
+rightclick21.addInput(<contenttweaker:void_shriek>);
+rightclick21.setOutputs([<contenttweaker:pure_void>]);
+rightclick21.build();
 
 
 

@@ -72,6 +72,25 @@
                 "operation": 1,
                 "multiplier": 0.025
             }]
+        },
+        {
+            "elements": "contenttweaker:ascended_eleint_catalyst",
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "description": "产出x500，速度x160",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:fluid",
+                "operation": 1,
+                "multiplier": 500
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.0625
+            }]
         }
     ],
     "parts": [

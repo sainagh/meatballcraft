@@ -29,6 +29,19 @@
                 "operation": 1,
                 "multiplier": 0.05
             }]
+        },
+        {
+            "elements": "contenttweaker:protodermis_casing",
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "description": "速度x50",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.02
+            }]
         }
     ],
     "parts": [

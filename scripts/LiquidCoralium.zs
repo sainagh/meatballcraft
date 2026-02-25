@@ -2,6 +2,9 @@ mods.thermalexpansion.Crucible.addRecipe(<fluid:liquidcoralium>*250,
 <abyssalcraft:cchunk>,
 20000);
 
+mods.nuclearcraft.melter.addRecipe([<abyssalcraft:cchunk>, <fluid:liquidcoralium>*250]);
+
+
 mods.tconstruct.Alloy.addRecipe(<fluid:liquidcoralium>*250, 
 [<fluid:moltenrefinedcoralium>*288, <fluid:gold>*144]);
 

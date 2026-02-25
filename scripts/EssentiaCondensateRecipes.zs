@@ -209,3 +209,4 @@ makeVisCrystal(<aspect:instrumentum> * 1),
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:motus_vis_condensate>, 
 makeVisCrystal(<aspect:motus> * 1), 
 4096, <extendedcrafting:material:11>, 9999);
+

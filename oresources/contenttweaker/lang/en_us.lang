@@ -2077,7 +2077,7 @@ item.contenttweaker.gem_of_aura.name=Gem of Aura
 item.contenttweaker.kaiyu_bone.name=Kaiyu Bone
 item.contenttweaker.skeletal_kaiyu_bone.name=Skeletal Kaiyu Bone
 item.contenttweaker.safe_lymph_of_pixonia.name=Safe Lymph of Pixonia Salt Reactor
-item.contenttweaker.safe_einstenium.name=Safe Einstenium Salt Reactor
+item.contenttweaker.safe_einstenium.name=Safe Einsteinium Salt Reactor
 item.contenttweaker.safe_meatballstarlight.name=Safe Whispering Starlight Salt Reactor
 item.contenttweaker.safe_polonium.name=Safe Polonium Salt Reactor
 item.contenttweaker.fill_vessel_with_fluid.name=Fill Vessel with this Fluid
@@ -2316,7 +2316,7 @@ item.contenttweaker.recursium_fragment_iter3.name=Recursium Fragment: III
 item.contenttweaker.recursium_fragment_iter4.name=Recursium Fragment: IV
 item.contenttweaker.recursium_fragment_iter5.name=Recursium Fragment: V
 item.contenttweaker.pack_supporter_token.name=Pack Constribution Token
-item.contenttweaker.cosmic_gem.name=Cosmic Gem
+item.contenttweaker.cosmic_gem.name=Meteoric Cosmic Crystal
 item.contenttweaker.cosmic_fragment_iron.name=Cosmic Fragment: Iron
 item.contenttweaker.cosmic_fragment_gold.name=Cosmic Fragment: Gold
 item.contenttweaker.cosmic_fragment_lapis.name=Cosmic Fragment: Lapis
@@ -2602,7 +2602,7 @@ item.contenttweaker.hellspot_chop.name=Hellspot Chop
 item.contenttweaker.gaia_guardian_arena.name=Gaia Guardian Arena
 item.contenttweaker.chaosstrikium_cluster.name=Chaosstrikium Cluster
 item.contenttweaker.crownite_chunk.name=Crownite Chunk
-item.contenttweaker.thrallium_fragment.name=Thrallium Fragment
+item.contenttweaker.thrallium_fragment.name=Aedialite Fragment
 item.contenttweaker.cactium_sliver.name=Kurrycatcium Sliver
 item.contenttweaker.puzzle_solution_biomeritual.name=Puzzle Solution: Biome Ritual
 item.contenttweaker.prophetic_paper.name=Prophetic Paper
@@ -3338,7 +3338,7 @@ item.contenttweaker.mythic_radiation_shielding.name=Mythic Radiation Shielding
 item.contenttweaker.recursive_radiation_shielding.name=Recursive Radiation Shielding
 item.contenttweaker.fractallite_radiation_shielding.name=Fractallite Radiation Shielding
 item.contenttweaker.cursed_cradle.name=Cursed Cradle
-item.contenttweaker.infusion_pseudo_automation.name=Infusion Pseudo-Automatic Setup
+item.contenttweaker.infusion_pseudo_automation.name=Infusion Automation
 item.contenttweaker.puzzle_solution_rainbowcore.name=Puzzle Solution: Rainbow Core
 item.contenttweaker.recursion_sharpening_lens.name=Recursion Sharpening Lens
 item.contenttweaker.valkyrie_construct.name=Valkyrie Construct
@@ -3491,7 +3491,7 @@ tile.contenttweaker.everwondering_megelium.name=Everwondering Megelium
 tile.contenttweaker.ascended_sky_stone.name=Ascended Sky Stone
 tile.contenttweaker.yggdrasil_wood.name=Yggdrasil Wood
 tile.contenttweaker.resounding_warren_alloy_block.name=Resounding Warren Alloy Block
-tile.contenttweaker.universal_fluix_etcher.name=Universal Fluix Etcher
+tile.contenttweaker.universal_fluix_etcher.name=Everwishful Fluix Etcher
 item.contenttweaker.arcane_terraformer_noob.name=Arcane Terraformer Tutorial
 item.contenttweaker.summons_of_the_cursed_wyvern.name=Summons of the Cursed Wyvern
 item.contenttweaker.dying_constellation_callstone.name=Dying Constellation Callstone
@@ -3931,8 +3931,8 @@ item.contenttweaker.trait_willoftheaesir.name=Trait Description: Will of the Aes
 item.contenttweaker.trait_tearofarcana.name=Trait Description: Tear of Arcana
 item.contenttweaker.trait_giggity.name=Trait Description: Giggity
 
-
 item.contenttweaker.investiture_of_the_direwolf.name=Investiture of the Direwolf
 item.contenttweaker.master_spell_bestia.name=Master Spell Bestia
+
 
 

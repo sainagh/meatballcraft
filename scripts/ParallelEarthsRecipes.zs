@@ -668,3 +668,4 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:homebound_warper>,
 [<contenttweaker:shattered_mythic_matter>, <mowziesmobs:naga_fang>, <contenttweaker:stormlight_infused_crystal>, 
 <aoa3:rosidons>, <aoa3:opteryx_feather>, <aoa3:rosidons>, 
 <contenttweaker:stormlight_infused_crystal>, <mowziesmobs:naga_fang>, <contenttweaker:shattered_mythic_matter>]]);  
+

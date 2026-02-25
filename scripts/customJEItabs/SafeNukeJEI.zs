@@ -43,4 +43,3 @@ safenuke3.addOutput(<fluid:cold_plasma>*1000);
 safenuke3.build();
 
 
-

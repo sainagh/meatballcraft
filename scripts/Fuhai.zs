@@ -95,12 +95,68 @@ forgewyvhungerflesh.addItemInput(<contenttweaker:hungering_flesh_ingot>);
 forgewyvhungerflesh.addFluidOutput(<fluid:hungering_flesh_essence>*144);
 forgewyvhungerflesh.build();
 
+val forgewyvhungerflesh1 = RecipeBuilder.newBuilder("forgewyvhungerflesh1","forge_of_the_wyvern",2);
+forgewyvhungerflesh1.addItemInput(<contenttweaker:chaotic_fulcrum>);
+forgewyvhungerflesh1.setChance(0.0);
+forgewyvhungerflesh1.addItemInput(<contenttweaker:hungering_flesh_ingot>*10);
+forgewyvhungerflesh1.addFluidOutput(<fluid:hungering_flesh_essence>*1440);
+forgewyvhungerflesh1.build();
+
+val forgewyvhungerflesh2 = RecipeBuilder.newBuilder("forgewyvhungerflesh2","forge_of_the_wyvern",2);
+forgewyvhungerflesh2.addItemInput(<contenttweaker:chaotic_nexus>);
+forgewyvhungerflesh2.setChance(0.0);
+forgewyvhungerflesh2.addItemInput(<contenttweaker:hungering_flesh_ingot>*100);
+forgewyvhungerflesh2.addFluidOutput(<fluid:hungering_flesh_essence>*14400);
+forgewyvhungerflesh2.build();
+
+val forgewyvhungerflesh3 = RecipeBuilder.newBuilder("forgewyvhungerflesh3","forge_of_the_wyvern",2);
+forgewyvhungerflesh3.addItemInput(<contenttweaker:offer_of_restored_balance>);
+forgewyvhungerflesh3.setChance(0.0);
+forgewyvhungerflesh3.addItemInput(<contenttweaker:hungering_flesh_ingot>*1000);
+forgewyvhungerflesh3.addFluidOutput(<fluid:hungering_flesh_essence>*144000);
+forgewyvhungerflesh3.build();
+
+val forgewyvhungerflesh4 = RecipeBuilder.newBuilder("forgewyvhungerflesh4","forge_of_the_wyvern",2);
+forgewyvhungerflesh4.addItemInput(<contenttweaker:act_of_restored_balance>);
+forgewyvhungerflesh4.setChance(0.0);
+forgewyvhungerflesh4.addItemInput(<contenttweaker:hungering_flesh_ingot>*10000);
+forgewyvhungerflesh4.addFluidOutput(<fluid:hungering_flesh_essence>*1440000);
+forgewyvhungerflesh4.build();
+
 val forgewyvascendedfluix = RecipeBuilder.newBuilder("forgewyvascendedfluix","forge_of_the_wyvern",2);
 forgewyvascendedfluix.addItemInput(<draconicevolution:chaos_shard:0>);
 forgewyvascendedfluix.setChance(0.0);
 forgewyvascendedfluix.addItemInput(<contenttweaker:ascended_fluix_crystal>);
 forgewyvascendedfluix.addFluidOutput(<fluid:ascended_fluix_essence>*250);
 forgewyvascendedfluix.build();
+
+val forgewyvascendedfluix1 = RecipeBuilder.newBuilder("forgewyvascendedfluix1","forge_of_the_wyvern",2);
+forgewyvascendedfluix1.addItemInput(<contenttweaker:chaotic_fulcrum>);
+forgewyvascendedfluix1.setChance(0.0);
+forgewyvascendedfluix1.addItemInput(<contenttweaker:ascended_fluix_crystal>*10);
+forgewyvascendedfluix1.addFluidOutput(<fluid:ascended_fluix_essence>*2500);
+forgewyvascendedfluix1.build();
+
+val forgewyvascendedfluix2 = RecipeBuilder.newBuilder("forgewyvascendedfluix2","forge_of_the_wyvern",2);
+forgewyvascendedfluix2.addItemInput(<contenttweaker:chaotic_nexus>);
+forgewyvascendedfluix2.setChance(0.0);
+forgewyvascendedfluix2.addItemInput(<contenttweaker:ascended_fluix_crystal>*100);
+forgewyvascendedfluix2.addFluidOutput(<fluid:ascended_fluix_essence>*25000);
+forgewyvascendedfluix2.build();
+
+val forgewyvascendedfluix3 = RecipeBuilder.newBuilder("forgewyvascendedfluix3","forge_of_the_wyvern",2);
+forgewyvascendedfluix3.addItemInput(<contenttweaker:offer_of_restored_balance>);
+forgewyvascendedfluix3.setChance(0.0);
+forgewyvascendedfluix3.addItemInput(<contenttweaker:ascended_fluix_crystal>*1000);
+forgewyvascendedfluix3.addFluidOutput(<fluid:ascended_fluix_essence>*250000);
+forgewyvascendedfluix3.build();
+
+val forgewyvascendedfluix4 = RecipeBuilder.newBuilder("forgewyvascendedfluix4","forge_of_the_wyvern",2);
+forgewyvascendedfluix4.addItemInput(<contenttweaker:act_of_restored_balance>);
+forgewyvascendedfluix4.setChance(0.0);
+forgewyvascendedfluix4.addItemInput(<contenttweaker:ascended_fluix_crystal>*10000);
+forgewyvascendedfluix4.addFluidOutput(<fluid:ascended_fluix_essence>*2500000);
+forgewyvascendedfluix4.build();
 
 
 
@@ -250,3 +306,4 @@ mods.thaumcraft.Infusion.registerRecipe("infastralmasterymax", "",
 
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:seal_of_freedom>, <fluid:whisper_of_starvald_demelain>*1000, <contenttweaker:eleint_stone>]);
+

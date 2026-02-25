@@ -735,3 +735,12 @@ inf68.addItemInput(<contenttweaker:master_spell_focus>);
 inf68.addItemInput(<thaumadditions:mithminite_fabric>);
 inf68.addItemOutput(<contenttweaker:master_spell_bestia>);
 inf68.build();
+
+val inf69 = RecipeBuilder.newBuilder("inf69","arcane_autoinfuser",120);
+inf69.addEnergyPerTickInput(100);
+inf69.addItemInput(<contenttweaker:vinculum_vis_condensate>);
+inf69.addItemInput(<contenttweaker:harbinger_crystal>);
+inf69.addItemInput(<contenttweaker:master_spell_focus>);
+inf69.addItemInput(<thaumadditions:mithminite_fabric>);
+inf69.addItemOutput(<contenttweaker:master_spell_vinculum>);
+inf69.build();

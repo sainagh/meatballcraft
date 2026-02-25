@@ -236,3 +236,4 @@ mods.extendedcrafting.TableCrafting.addShaped(<bewitchment:sigil_sentinel>,
 
 
 
+

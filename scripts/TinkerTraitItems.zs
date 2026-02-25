@@ -179,3 +179,4 @@ var trait_omotholharvesting = VanillaFactory.createItem("trait_omotholharvesting
 var trait_willoftheaesir = VanillaFactory.createItem("trait_willoftheaesir");	trait_willoftheaesir.textureLocation = instanceTEX;  trait_willoftheaesir.register();
 var trait_tearofarcana = VanillaFactory.createItem("trait_tearofarcana");	trait_tearofarcana.textureLocation = instanceTEX;  trait_tearofarcana.register();
 var trait_giggity = VanillaFactory.createItem("trait_giggity");	trait_giggity.textureLocation = instanceTEX;  trait_giggity.register();
+

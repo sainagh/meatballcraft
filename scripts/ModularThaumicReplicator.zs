@@ -346,3 +346,25 @@ thaumrepl17me.addItemInput(<projectex:matter:10>);
 thaumrepl17me.addItemInput(<contenttweaker:resonating_stone>*32);
 thaumrepl17me.addFluidOutput(<fluid:resonating_matter>*5000);
 thaumrepl17me.build();
+
+
+val thaumrepl18 = RecipeBuilder.newBuilder("thaumrepl18","thaumic_replicator",800);
+thaumrepl18.addAspectInput("caeles",20);
+thaumrepl18.addFluidInput(<fluid:pre_baryonic_plasma>*100);
+thaumrepl18.addFluidInput(<fluid:divine_resonance>*100);
+thaumrepl18.addItemInput(<contenttweaker:freedomsteel_ingot>*4);
+thaumrepl18.addItemInput(<contenttweaker:infinite_loving_plate>);
+thaumrepl18.addFluidOutput(<fluid:whisper_of_right_and_just_creation>*100);
+thaumrepl18.build();
+
+
+val thaumrepl18me = RecipeBuilder.newBuilder("thaumrepl18me","thaumic_replicator",800);
+thaumrepl18me.addAspectInput("caeles",20);
+thaumrepl18me.addFluidInput(<fluid:pre_baryonic_plasma>*100);
+thaumrepl18me.addFluidInput(<fluid:divine_resonance>*100);
+thaumrepl18me.addItemInput(<contenttweaker:freedomsteel_ingot>*4);
+thaumrepl18me.addItemInput(<contenttweaker:infinite_loving_plate>);
+thaumrepl18me.addFluidOutput(<fluid:whisper_of_right_and_just_creation>*100);
+thaumrepl18me.build();
+
+

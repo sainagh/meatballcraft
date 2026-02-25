@@ -31,6 +31,7 @@ mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:hostile_computing_unit_controller>);
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:philosophers_unifier_controller>);
 mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:aesir_resonator_controller>);
+mods.chisel.Carving.addVariation("modularblueprintcontroller", <modularmachinery:seared_caster_controller>);
 
 
 
@@ -137,6 +138,7 @@ mods.chisel.Carving.addVariation("mythicvoidminercontroller", <modularmachinery:
 mods.chisel.Carving.addVariation("mythicvoidminercontroller", <modularmachinery:mythical_resource_miner_tier29_controller>);
 mods.chisel.Carving.addVariation("mythicvoidminercontroller", <modularmachinery:mythical_resource_miner_tier30_controller>);
 mods.chisel.Carving.addVariation("mythicvoidminercontroller", <modularmachinery:me_mythic_assembler_controller>);
+mods.chisel.Carving.addVariation("mythicvoidminercontroller", <modularmachinery:stellar_diviner_controller>);
 
 
 
@@ -180,6 +182,9 @@ mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_revolver_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:dyson_abater_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:black_hole_juicer_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:ligature_of_the_three_oaths_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:vengeance_tesseract_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:presbytery_of_the_threefold_love_controller>);
 
 
 
@@ -228,6 +233,8 @@ mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_rock_crusher_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_centrifuge_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:innerved_essenceifier_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_infuser_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_chemical_reactor_controller>);
 
 
 mods.chisel.Carving.addGroup("bigresourcegeneratorscontroller");
@@ -243,6 +250,10 @@ mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmach
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_ichor_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_silkyjewel_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_mythic_shell_controller>);
+mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_self_controller>);
+mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_botania_controller>);
+mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_raremetals_controller>);
+mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:warren_extractor_radioactive_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:recursive_brain_in_a_vat_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:recursive_brain_in_a_vat_ahkrast_korvalain_controller>);
 mods.chisel.Carving.addVariation("bigresourcegeneratorscontroller", <modularmachinery:recursive_brain_in_a_vat_donaeth_rusen_controller>);

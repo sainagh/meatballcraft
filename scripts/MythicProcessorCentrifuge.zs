@@ -138,3 +138,93 @@ mythproccentsep117.addItemOutput(<divinerpg:bloodgem_ore>*8);
 mythproccentsep117.addItemOutput(<minecraft:dirt>);	
 mythproccentsep117.addItemOutput(<minecraft:dirt>);	
 mythproccentsep117.build();
+
+
+
+
+
+val mythproccentsep118 = RecipeBuilder.newBuilder("mythproccentsep118","mythic_processor_centrifuge",2);	
+mythproccentsep118.addEnergyPerTickInput(70000);	
+mythproccentsep118.addItemInput(<ae2fc:fluid_drop>.withTag({Fluid: "boron"})*144);	
+mythproccentsep118.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "boron11"})*144);	
+mythproccentsep118.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "boron10"})*48);	
+mythproccentsep118.build();
+
+val mythproccentsep119 = RecipeBuilder.newBuilder("mythproccentsep119","mythic_processor_centrifuge",2);	
+mythproccentsep119.addEnergyPerTickInput(70000);	
+mythproccentsep119.addItemInput(<ae2fc:fluid_drop>.withTag({Fluid: "lithium"})*144);	
+mythproccentsep119.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "lithium7"})*144);	
+mythproccentsep119.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "lithium6"})*48);	
+mythproccentsep119.build();
+
+val mythproccentsep120 = RecipeBuilder.newBuilder("mythproccentsep120","mythic_processor_centrifuge",2);	
+mythproccentsep120.addEnergyPerTickInput(70000);	
+mythproccentsep120.addItemInput(<ae2fc:fluid_drop>.withTag({Fluid: "fluidlithium"})*144);	
+mythproccentsep120.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "lithium7"})*144);	
+mythproccentsep120.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "lithium6"})*48);	
+mythproccentsep120.build();
+
+val mythproccentsep121 = RecipeBuilder.newBuilder("mythproccentsep121","mythic_processor_centrifuge",2);	
+mythproccentsep121.addEnergyPerTickInput(70000);	
+mythproccentsep121.addItemInput(<ae2fc:fluid_drop>.withTag({Fluid: "sednanite"})*288);	
+mythproccentsep121.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "dimensional_essence"})*1000);	
+mythproccentsep121.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "liquid_void"})*1000);	
+mythproccentsep121.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "overworldian_fluid"})*1000);	
+mythproccentsep121.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "nethengeic_fluid"})*1000);	
+mythproccentsep121.build();
+
+val mythproccentsep122 = RecipeBuilder.newBuilder("mythproccentsep122","mythic_processor_centrifuge",2);	
+mythproccentsep122.addEnergyPerTickInput(70000);	
+mythproccentsep122.addItemInput(<ae2fc:fluid_drop>.withTag({Fluid: "mildly_recursive_goo"})*100);	
+mythproccentsep122.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "dimensional_essence"})*1000);	
+mythproccentsep122.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "liquid_void"})*1000);	
+mythproccentsep122.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "overworldian_fluid"})*1000);	
+mythproccentsep122.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "nethengeic_fluid"})*1000);	
+mythproccentsep122.build();
+
+val mythproccentsep123 = RecipeBuilder.newBuilder("mythproccentsep123","mythic_processor_centrifuge",2);	
+mythproccentsep123.addEnergyPerTickInput(70000);	
+mythproccentsep123.addItemInput(<ae2fc:fluid_drop>.withTag({Fluid: "supercooled_noble_gas_mix"})*100);	
+mythproccentsep123.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "krypton_xenon_mix"})*50);	
+mythproccentsep123.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "neon"})*50);	
+mythproccentsep123.build();
+
+val mythproccentsep124 = RecipeBuilder.newBuilder("mythproccentsep124","mythic_processor_centrifuge",2);	
+mythproccentsep124.addEnergyPerTickInput(70000);	
+mythproccentsep124.addItemInput(<ae2fc:fluid_drop>.withTag({Fluid: "einstenium"})*100);	
+mythproccentsep124.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "einstenium_253"})*50);	
+mythproccentsep124.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "einstenium_254"})*50);	
+mythproccentsep124.build();
+
+val mythproccentsep125 = RecipeBuilder.newBuilder("mythproccentsep125","mythic_processor_centrifuge",2);	
+mythproccentsep125.addEnergyPerTickInput(70000);	
+mythproccentsep125.addItemInput(<ae2fc:fluid_drop>.withTag({Fluid: "primal_ogerite"})*144);	
+mythproccentsep125.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "decay_inducing_matter"})*72);	
+mythproccentsep125.addItemOutput(<ae2fc:fluid_drop>.withTag({Fluid: "energetic_ogerite"})*72);	
+mythproccentsep125.build();
+
+val mythproccentsep126 = RecipeBuilder.newBuilder("mythproccentsep126","mythic_processor_centrifuge",2);	
+mythproccentsep126.addEnergyPerTickInput(70000);	
+mythproccentsep126.addItemInput(<gendustry:honey_comb:13337>);	
+mythproccentsep126.addItemOutput(<gendustry:honey_drop:13337>);	
+mythproccentsep126.addItemOutput(<forestry:beeswax>);	
+mythproccentsep126.build();
+
+val mythproccentsep127 = RecipeBuilder.newBuilder("mythproccentsep127","mythic_processor_centrifuge",2);	
+mythproccentsep127.addEnergyPerTickInput(70000);	
+mythproccentsep127.addItemInput(<extrabees:honey_comb:3>);	
+mythproccentsep127.addItemOutput(<extrabees:propolis:1>);	
+mythproccentsep127.addItemOutput(<forestry:honey_drop:0>);	
+mythproccentsep127.build();
+
+
+
+
+
+
+
+
+
+
+
+

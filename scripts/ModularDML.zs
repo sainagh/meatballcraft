@@ -528,6 +528,50 @@ hnnpris57.addFluidInput(<fluid:cloud_seed>*1);
 hnnpris57.addItemOutput(<deepmoblearning:pristine_matter_primordialfractallites>*64);
 hnnpris57.build();
 
+val hnnpris58 = RecipeBuilder.newBuilder("hnnpris58","hostile_computing_unit",20);
+hnnpris58.addEnergyPerTickInput(1000000);
+hnnpris58.addItemInput(<deepmoblearning:data_model_eternalarcher>);
+hnnpris58.setChance(0.0);
+hnnpris58.addFluidInput(<fluid:vapor_of_levity>*1);
+hnnpris58.addFluidInput(<fluid:cloud_seed>*1);
+hnnpris58.addItemOutput(<deepmoblearning:pristine_matter_eternalarcher>*64);
+hnnpris58.build();
+
+val hnnpris59 = RecipeBuilder.newBuilder("hnnpris59","hostile_computing_unit",20);
+hnnpris59.addEnergyPerTickInput(1000000);
+hnnpris59.addItemInput(<deepmoblearning:data_model_sunstorm>);
+hnnpris59.setChance(0.0);
+hnnpris59.addFluidInput(<fluid:vapor_of_levity>*1);
+hnnpris59.addFluidInput(<fluid:cloud_seed>*1);
+hnnpris59.addItemOutput(<deepmoblearning:pristine_matter_sunstorm>*64);
+hnnpris59.build();
+
+val hnnpris60 = RecipeBuilder.newBuilder("hnnpris60","hostile_computing_unit",20);
+hnnpris60.addEnergyPerTickInput(1000000);
+hnnpris60.addItemInput(<deepmoblearning:data_model_termasect>);
+hnnpris60.setChance(0.0);
+hnnpris60.addFluidInput(<fluid:vapor_of_levity>*1);
+hnnpris60.addFluidInput(<fluid:cloud_seed>*1);
+hnnpris60.addItemOutput(<deepmoblearning:pristine_matter_termasect>*64);
+hnnpris60.build();
+
+val hnnpris61 = RecipeBuilder.newBuilder("hnnpris61","hostile_computing_unit",20);
+hnnpris61.addEnergyPerTickInput(1000000);
+hnnpris61.addItemInput(<deepmoblearning:data_model_experiencedcori>);
+hnnpris61.setChance(0.0);
+hnnpris61.addFluidInput(<fluid:vapor_of_levity>*1);
+hnnpris61.addFluidInput(<fluid:cloud_seed>*1);
+hnnpris61.addItemOutput(<deepmoblearning:pristine_matter_experiencedcori>*64);
+hnnpris61.build();
+
+val hnnpris62 = RecipeBuilder.newBuilder("hnnpris62","hostile_computing_unit",20);
+hnnpris62.addEnergyPerTickInput(1000000);
+hnnpris62.addItemInput(<deepmoblearning:data_model_beastsofmortum>);
+hnnpris62.setChance(0.0);
+hnnpris62.addFluidInput(<fluid:vapor_of_levity>*1);
+hnnpris62.addFluidInput(<fluid:cloud_seed>*1);
+hnnpris62.addItemOutput(<deepmoblearning:pristine_matter_beastsofmortum>*64);
+hnnpris62.build();
 
 
 
@@ -605,3 +649,18 @@ val hnnlootr54 = RecipeBuilder.newBuilder("hnnlootr54","hostile_computing_unit",
 val hnnlootr55 = RecipeBuilder.newBuilder("hnnlootr55","hostile_computing_unit",20);	hnnlootr55.addEnergyPerTickInput(1000000);	hnnlootr55.addItemInput(<deepmoblearning:data_model_immortalfractallites>);	hnnlootr55.setChance(0.0);	hnnlootr55.addFluidInput(<fluid:vapor_of_levity>*1);	hnnlootr55.addFluidInput(<fluid:cloud_seed_concentrated>*1);	hnnlootr55.addItemOutput(<bigreactors:mineralbenitoite>*256);	hnnlootr55.addItemOutput(<contenttweaker:immortal_recursion>*128);	hnnlootr55.addItemOutput(<aoa3:proshield_statue>*64);	hnnlootr55.addItemOutput(<aoa3:flash_statue>*64);	hnnlootr55.addItemOutput(<aoa3:klobber_statue>*64);	hnnlootr55.addItemOutput(<aoa3:mirage_statue>*64);	hnnlootr55.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr55.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr55.build();
 val hnnlootr56 = RecipeBuilder.newBuilder("hnnlootr56","hostile_computing_unit",20);	hnnlootr56.addEnergyPerTickInput(1000000);	hnnlootr56.addItemInput(<deepmoblearning:data_model_temporalfractallites>);	hnnlootr56.setChance(0.0);	hnnlootr56.addFluidInput(<fluid:vapor_of_levity>*1);	hnnlootr56.addFluidInput(<fluid:cloud_seed_concentrated>*1);	hnnlootr56.addItemOutput(<extrabotany:material:5>*256);	hnnlootr56.addItemOutput(<contenttweaker:temporal_recursion>*128);	hnnlootr56.addItemOutput(<aoa3:bane_statue>*64);	hnnlootr56.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr56.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr56.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr56.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr56.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr56.build();
 val hnnlootr57 = RecipeBuilder.newBuilder("hnnlootr57","hostile_computing_unit",20);	hnnlootr57.addEnergyPerTickInput(1000000);	hnnlootr57.addItemInput(<deepmoblearning:data_model_primordialfractallites>);	hnnlootr57.setChance(0.0);	hnnlootr57.addFluidInput(<fluid:vapor_of_levity>*1);	hnnlootr57.addFluidInput(<fluid:cloud_seed_concentrated>*1);	hnnlootr57.addItemOutput(<extrabotany:material:8>*256);	hnnlootr57.addItemOutput(<contenttweaker:primordial_recursion>*128);	hnnlootr57.addItemOutput(<aoa3:kajaros_statue>*64);	hnnlootr57.addItemOutput(<aoa3:harkos_statue>*64);	hnnlootr57.addItemOutput(<aoa3:miskel_statue>*64);	hnnlootr57.addItemOutput(<aoa3:okazor_statue>*64);	hnnlootr57.addItemOutput(<aoa3:raxxan_statue>*64);	hnnlootr57.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr57.build();
+
+
+
+
+
+
+
+
+
+
+val hnnlootr58 = RecipeBuilder.newBuilder("hnnlootr58","hostile_computing_unit",20);	hnnlootr58.addEnergyPerTickInput(1000000);	hnnlootr58.addItemInput(<deepmoblearning:data_model_sunstorm>);	hnnlootr58.setChance(0.0);	hnnlootr58.addFluidInput(<fluid:vapor_of_levity>*1);	hnnlootr58.addFluidInput(<fluid:cloud_seed_concentrated>*1);	hnnlootr58.addItemOutput(<divinerpg:eden_heart>*128);	hnnlootr58.addItemOutput(<contenttweaker:bloodmaster_metal_chest>*64);	hnnlootr58.addItemOutput(<divinerpg:raw_empowered_meat>*1024);	hnnlootr58.addItemOutput(<minecraft:rotten_flesh>*4096);	hnnlootr58.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr58.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr58.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr58.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr58.build();
+val hnnlootr59 = RecipeBuilder.newBuilder("hnnlootr59","hostile_computing_unit",20);	hnnlootr59.addEnergyPerTickInput(1000000);	hnnlootr59.addItemInput(<deepmoblearning:data_model_termasect>);	hnnlootr59.setChance(0.0);	hnnlootr59.addFluidInput(<fluid:vapor_of_levity>*1);	hnnlootr59.addFluidInput(<fluid:cloud_seed_concentrated>*1);	hnnlootr59.addItemOutput(<divinerpg:wildwood_heart>*128);	hnnlootr59.addItemOutput(<aoa3:rammerhead_hide>*512);	hnnlootr59.addItemOutput(<divinerpg:magic_meat>*512);	hnnlootr59.addItemOutput(<abyssalcraft:ethaxiumingot>*256);	hnnlootr59.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr59.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr59.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr59.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr59.build();
+val hnnlootr60 = RecipeBuilder.newBuilder("hnnlootr60","hostile_computing_unit",20);	hnnlootr60.addEnergyPerTickInput(1000000);	hnnlootr60.addItemInput(<deepmoblearning:data_model_eternalarcher>);	hnnlootr60.setChance(0.0);	hnnlootr60.addFluidInput(<fluid:vapor_of_levity>*1);	hnnlootr60.addFluidInput(<fluid:cloud_seed_concentrated>*1);	hnnlootr60.addItemOutput(<divinerpg:apalachia_heart>*128);	hnnlootr60.addItemOutput(<thebetweenlands:spirit_fruit>*512);	hnnlootr60.addItemOutput(<divinerpg:enriched_magic_meat>*512);	hnnlootr60.addItemOutput(<abyssalcraft:shadowgem>*512);	hnnlootr60.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr60.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr60.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr60.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr60.build();
+val hnnlootr61 = RecipeBuilder.newBuilder("hnnlootr61","hostile_computing_unit",20);	hnnlootr61.addEnergyPerTickInput(1000000);	hnnlootr61.addItemInput(<deepmoblearning:data_model_experiencedcori>);	hnnlootr61.setChance(0.0);	hnnlootr61.addFluidInput(<fluid:vapor_of_levity>*1);	hnnlootr61.addFluidInput(<fluid:cloud_seed_concentrated>*1);	hnnlootr61.addItemOutput(<divinerpg:skythern_heart>*128);	hnnlootr61.addItemOutput(<divinerpg:divine_stone>*8);	hnnlootr61.addItemOutput(<divinerpg:bluefire_stone>*8);	hnnlootr61.addItemOutput(<actuallyadditions:item_misc:20>*3840);	hnnlootr61.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr61.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr61.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr61.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr61.build();
+val hnnlootr62 = RecipeBuilder.newBuilder("hnnlootr62","hostile_computing_unit",20);	hnnlootr62.addEnergyPerTickInput(1000000);	hnnlootr62.addItemInput(<deepmoblearning:data_model_beastsofmortum>);	hnnlootr62.setChance(0.0);	hnnlootr62.addFluidInput(<fluid:vapor_of_levity>*1);	hnnlootr62.addFluidInput(<fluid:cloud_seed_concentrated>*1);	hnnlootr62.addItemOutput(<divinerpg:mortum_heart>*128);	hnnlootr62.addItemOutput(<divinerpg:divine_stone>*8);	hnnlootr62.addItemOutput(<divinerpg:bluefire_stone>*8);	hnnlootr62.addItemOutput(<iceandfire:hydra_fang>*2560);	hnnlootr62.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr62.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr62.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr62.addItemOutput(<deepmoblearning:living_matter_extraterrestrial>*16);	hnnlootr62.build();

@@ -108,6 +108,11 @@ recipes.addShaped(<contenttweaker:world_corrupting_sentient_meatball>*8,
 [<contenttweaker:ichor_taint_condensate>, <contenttweaker:world_corrupting_sentient_meatball>, <contenttweaker:ichor_taint_condensate>],
 [<contenttweaker:sentient_meatball>, <contenttweaker:planetary_essence>, <contenttweaker:sentient_meatball>]]);
 
+recipes.addShaped(<contenttweaker:world_corrupting_sentient_meatball>*12,
+[[<contenttweaker:sentient_meatball>, <contenttweaker:planetary_essence>, <contenttweaker:sentient_meatball>],
+[<contenttweaker:ichor_taint_catalyzer>, <contenttweaker:world_corrupting_sentient_meatball>, <contenttweaker:ichor_taint_catalyzer>],
+[<contenttweaker:sentient_meatball>, <contenttweaker:planetary_essence>, <contenttweaker:sentient_meatball>]]);
+
 
 mods.thaumcraft.Infusion.registerRecipe("infmeatballtitan", "", 
 <contenttweaker:summons_of_the_meatball_titan>, 10,
@@ -240,6 +245,29 @@ hungeringsoulmeatball2.addItemOutput(<contenttweaker:hungering_world_soul>*15);
 hungeringsoulmeatball2.build();
 
 
+recipes.addShaped(<contenttweaker:jewel_of_pure_void>*4,
+[[<contenttweaker:pale_metal>, <contenttweaker:gem_of_the_dying_constellation>, <contenttweaker:pale_metal>],
+[<contenttweaker:gem_of_the_dying_constellation>, <contenttweaker:mask_of_the_free_stag>, <contenttweaker:gem_of_the_dying_constellation>],
+[<contenttweaker:pale_metal>, <contenttweaker:gem_of_the_dying_constellation>, <contenttweaker:pale_metal>]]);
+
+val hungeringsoulmeatball3 = RecipeBuilder.newBuilder("hungeringsoulmeatball3","shrine_of_the_sentient_meatballs",80);
+hungeringsoulmeatball3.addEnergyPerTickInput(2000000000);
+hungeringsoulmeatball3.addWillInput("DEFAULT", 95,0,1000000);
+hungeringsoulmeatball3.addWillInput("CORROSIVE", 95,0,1000000);
+hungeringsoulmeatball3.addWillInput("DESTRUCTIVE", 95,0,1000000);
+hungeringsoulmeatball3.addWillInput("VENGEFUL", 95,0,1000000);
+hungeringsoulmeatball3.addWillInput("STEADFAST", 95,0,1000000);
+hungeringsoulmeatball3.addFluidInput(<fluid:flesh_world_ichor>*72000);
+hungeringsoulmeatball3.addFluidInput(<fluid:imperial_abyssite>*1200);
+hungeringsoulmeatball3.addItemInput(<contenttweaker:jewel_of_pure_void>*10);
+hungeringsoulmeatball3.addItemInput(<contenttweaker:shrieking_soul>*4);
+hungeringsoulmeatball3.addItemInput(<extrabotany:cocoondesire>*15);
+hungeringsoulmeatball3.addItemInput(<contenttweaker:abyssal_flesh>*60);
+hungeringsoulmeatball3.addItemInput(<contenttweaker:world_corrupting_sentient_meatball>*20);
+hungeringsoulmeatball3.addItemOutput(<contenttweaker:hungering_world_soul>*30);
+hungeringsoulmeatball3.build();
+
+
 
 mods.nuclearcraft.infuser.addRecipe([<avaritia:resource:5>, <fluid:fractallite_halite>*12, <avaritiaitem:fractallite_halite_catalyst>]);
 
@@ -310,6 +338,10 @@ recipes.addShaped(<contenttweaker:true_chaos>,
 [<contenttweaker:stone_of_universal_balance>, <contenttweaker:staff_of_the_lord_of_gluttony>.reuse(), <contenttweaker:stone_of_universal_balance>],
 [<draconicevolution:chaotic_core>, <contenttweaker:stone_of_universal_balance>, <draconicevolution:chaotic_core>]]);
 
+recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "gluttonous_lymph", Amount: 1000}),
+[[<draconicevolution:chaos_shard:3>, <contenttweaker:radiant_fissile_dust>, <draconicevolution:chaos_shard:3>],
+[<contenttweaker:meatballium_ingot>, <contenttweaker:staff_of_the_lord_of_gluttony>.reuse(), <contenttweaker:meatballium_ingot>],
+[<draconicevolution:chaos_shard:3>, <forge:bucketfilled>.withTag({FluidName: "vital_lymph", Amount: 1000}), <draconicevolution:chaos_shard:3>]]);
 
 mods.abyssalcraft.InfusionRitual.addRitual("KashanWarperInf", 
 4, 0, 

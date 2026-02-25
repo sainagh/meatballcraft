@@ -768,6 +768,14 @@ hypergrowth104.setChance(0.0);
 hypergrowth104.addItemOutput(<erebus:materials:3>*64);
 hypergrowth104.build();
 
+val hypergrowth105 = RecipeBuilder.newBuilder("hypergrowth105","hypergrowth_insolator",10);
+hypergrowth105.addFluidInput(<fluid:hot_spring_water>*100);
+hypergrowth105.addItemInput(<aoa3:rosidon_seeds>);
+hypergrowth105.setChance(0.0);
+hypergrowth105.addItemOutput(<aoa3:rosidons>*64);
+hypergrowth105.build();
+
+
 
 
 

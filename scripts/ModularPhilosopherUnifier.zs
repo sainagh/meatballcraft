@@ -325,3 +325,19 @@ philounit33.addItemInput(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTa
 philounit33.addItemInput(<contenttweaker:opalescent_matter>*8);
 philounit33.addItemOutput(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["乳白"]}}));
 philounit33.build();
+
+
+
+val philounit34 = RecipeBuilder.newBuilder("philounit34","philosophers_unifier",2);
+philounit34.addEnergyPerTickInput(100);
+philounit34.addItemInput(<minecraft:tnt>);
+philounit34.addItemInput(<projecte:item.pe_fuel:1>);
+philounit34.addItemOutput(<projecte:nova_catalyst>*2);
+philounit34.build();
+
+val philounit35 = RecipeBuilder.newBuilder("philounit35","philosophers_unifier",2);
+philounit35.addEnergyPerTickInput(100);
+philounit35.addItemInput(<projecte:nova_catalyst>);
+philounit35.addItemInput(<projecte:item.pe_fuel:2>);
+philounit35.addItemOutput(<projecte:nova_cataclysm>*2);
+philounit35.build();

@@ -109,8 +109,13 @@
 <contenttweaker:dying_constellation_callstone>.addTooltip(format.red("需在指定维度使用：衰腐界"));
 <contenttweaker:hopeful_return_callstone>.addTooltip(format.red("需在指定维度使用：秘界天花板"));
 <contenttweaker:hollow_stag_callstone>.addTooltip(format.red("需在指定维度使用：混沌之地"));
-<contenttweaker:broken_oath>.addTooltip(format.red("需在指定维度使用：暮色森林"));
+<contenttweaker:broken_oath>.addTooltip(format.red("需在指定维度使用：暮色森林的终焉高原"));
 <contenttweaker:rite_of_unhollowing>.addTooltip(format.red("需在指定维度使用：混沌之地"));
 <contenttweaker:summon_of_the_gatekeeper>.addTooltip(format.red("需在指定维度使用：漆黑世界"));
+<contenttweaker:valhalla_callstone>.addTooltip(format.red("需在指定维度使用：秘界"));
+<contenttweaker:dragon_reborn_callstone>.addTooltip(format.red("需在指定维度使用：主世界"));
+<contenttweaker:key_of_actualization>.addTooltip(format.red("需在指定维度使用：卡尚"));
+<contenttweaker:magicbane_callstone>.addTooltip(format.red("需在指定维度使用：蠕变维度"));
+<contenttweaker:time_lords_callstone>.addTooltip(format.red("需在指定维度使用：伽里弗雷"));
 
 

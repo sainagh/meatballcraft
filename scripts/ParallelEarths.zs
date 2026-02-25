@@ -926,3 +926,4 @@ warrencreationfabrial.itemRightClick = function(stack, world, player, hand) {
 
 };
 warrencreationfabrial.register();
+

@@ -966,8 +966,8 @@ twophas69.addFluidOutput(<fluid:high_pressure_steam>*10000);
 twophas69.addFluidOutput(<fluid:nak_hot>*10);
 twophas69.addFluidOutput(<fluid:spent_flibe>*10);
 twophas69.addFluidOutput(<fluid:hot_fluorine>*10);
-twophas69.addItemInput(<bigreactors:ingotyellorium>*4);
-twophas69.addItemOutput(<bigreactors:ingotcyanite>*4);
+twophas69.addItemInput(<bigreactors:ingotyellorium>*64);
+twophas69.addItemOutput(<bigreactors:ingotcyanite>*64);
 twophas69.build();
 
 val twophas70 = RecipeBuilder.newBuilder("twophas70","two_phase_fission_reactor",20);
@@ -1061,3 +1061,15 @@ twophas76.addItemInput(<contenttweaker:herrr_fuel>*4);
 twophas76.addItemOutput(<contenttweaker:depleted_herrr_fuel>*4);
 twophas76.build();
 
+val twophas77 = RecipeBuilder.newBuilder("twophas77","two_phase_fission_reactor",20);
+twophas77.addFluidInput(<fluid:nak>*10);
+twophas77.addFluidInput(<fluid:flibe>*10);
+twophas77.addFluidInput(<fluid:fluorine>*10);
+twophas77.addFluidInput(<fluid:water>*10000);
+twophas77.addFluidOutput(<fluid:high_pressure_steam>*10000);
+twophas77.addFluidOutput(<fluid:nak_hot>*10);
+twophas77.addFluidOutput(<fluid:spent_flibe>*10);
+twophas77.addFluidOutput(<fluid:hot_fluorine>*10);
+twophas77.addItemInput(<bigreactors:blockyellorium>*32);
+twophas77.addItemOutput(<bigreactors:blockcyanite>*32);
+twophas77.build();

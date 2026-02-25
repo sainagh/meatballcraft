@@ -328,3 +328,12 @@ recipes.addShaped(<contenttweaker:terraformassiflora>,
 [<contenttweaker:bubbell_banner>, <botania:specialflower>.withTag({type: "orechid"}), <contenttweaker:bubbell_banner>],
 [<contenttweaker:spinel_ring>, <contenttweaker:bubbell_banner>, <contenttweaker:spinel_ring>]]);
 
+
+
+// pharos lingering potions
+
+
+recipes.addShaped(<xreliquary:potion>.withTag({lingering: 1 as byte, effects: [{duration: 500, potency: 3, name: "minecraft:wither"}], hasPotion: 1 as byte}),
+[[<xreliquary:mob_ingredient:1>, <contenttweaker:pharos_imbuement>, <xreliquary:mob_ingredient:1>],
+[<minecraft:dragon_breath>, <xreliquary:potion>, <minecraft:dragon_breath>],
+[<xreliquary:mob_ingredient:1>, <contenttweaker:pharos_imbuement>, <xreliquary:mob_ingredient:1>]]);

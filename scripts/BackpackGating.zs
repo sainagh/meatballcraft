@@ -96,3 +96,4 @@ recipes.addShaped(<thermalexpansion:satchel:0>,
 // [[<contenttweaker:alchemical_mushroom>, <enderstorage:ender_storage:0>, <contenttweaker:alchemical_mushroom>],
 // [<enderutilities:enderpart:2>, <retro_sophisticated_backpacks:upgrade_base>, <enderutilities:enderpart:2>],
 // [<contenttweaker:alchemical_mushroom>, <enderstorage:ender_pouch>, <contenttweaker:alchemical_mushroom>]]);
+

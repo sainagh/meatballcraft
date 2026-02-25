@@ -929,8 +929,16 @@ zincingot.remove(<railcraft:ingot:8>);
 
 
 //==================================================================
-// silver
+// alumite
 val alumiteingot = <ore:ingotAlumite>;
 alumiteingot.remove(<plustic:alumiteingot>);
+
+recipes.remove(<plustic:alumiteingot>);
+
+recipes.addShaped(<tconstruct:ingots:6>*4,
+[[<mysticalagriculture:alumite_essence>, <mysticalagriculture:alumite_essence>, <mysticalagriculture:alumite_essence>],
+[<mysticalagriculture:alumite_essence>, null, <mysticalagriculture:alumite_essence>],
+[<mysticalagriculture:alumite_essence>, <mysticalagriculture:alumite_essence>, <mysticalagriculture:alumite_essence>]]);
+
 
 

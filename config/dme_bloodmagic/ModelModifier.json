@@ -22,5 +22,25 @@
   {
     "id": "wither_skeleton",
     "modifier": 0.2
+  },
+  {
+    "id": "sunstorm",
+    "modifier": 1.7
+  },
+  {
+    "id": "termasect",
+    "modifier": 1.8
+  },
+  {
+    "id": "eternalarcher",
+    "modifier": 1.9
+  },
+  {
+    "id": "experiencedcori",
+    "modifier": 2.0
+  },
+  {
+    "id": "beastsofmortum",
+    "modifier": 2.2
   }
 ]

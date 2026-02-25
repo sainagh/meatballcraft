@@ -65,3 +65,15 @@ creation3.addItemInput(<bloodmagic:item_demon_crystal:3>);
 creation3.addItemInput(<bloodmagic:item_demon_crystal:4>);
 creation3.addItemOutput(<contenttweaker:bloodmaster_block>*8);
 creation3.build();
+
+
+val creation4 = RecipeBuilder.newBuilder("creation4","creation_altar",100);
+creation4.addEnergyPerTickInput(400000);
+creation4.addFluidInput(<fluid:ascended_fluix_essence>*2000000);
+creation4.addFluidInput(<fluid:hungering_flesh_essence>*2000000);
+creation4.addItemInput(<contenttweaker:catalyst_of_natural_law>*4);
+creation4.addItemInput(<contenttweaker:hopebringer_metal>*4);
+creation4.addItemInput(<contenttweaker:stone_of_universal_balance>*32);
+creation4.addItemInput(<contenttweaker:cuendillar_plate>*32);
+creation4.addItemOutput(<contenttweaker:catalyst_of_universal_balance>*4);
+creation4.build();

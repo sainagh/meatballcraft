@@ -5,6 +5,17 @@ mods.extendedcrafting.TableCrafting.addShaped(<immersiveengineering:stone_decora
 [<tconstruct:materials:2>, <minecraft:sandstone>, <tconstruct:materials:2>], 
 [<minecraft:clay_ball>, <tconstruct:materials:2>, <minecraft:clay_ball>]]); 
 
+mods.extendedcrafting.TableCrafting.addShaped(<immersiveengineering:stone_decoration:0>*12, 
+[[<aoa3:baron_ground>, <tconstruct:materials:2>, <aoa3:baron_ground>], 
+[<tconstruct:materials:2>, <minecraft:sandstone>, <tconstruct:materials:2>], 
+[<aoa3:baron_ground>, <tconstruct:materials:2>, <aoa3:baron_ground>]]); 
+
+mods.extendedcrafting.TableCrafting.addShaped(<immersiveengineering:stone_decoration:0>*48, 
+[[<tardis:gallifreyan_sand>, <tconstruct:materials:2>, <tardis:gallifreyan_sand>], 
+[<tconstruct:materials:2>, <minecraft:sandstone>, <tconstruct:materials:2>], 
+[<tardis:gallifreyan_sand>, <tconstruct:materials:2>, <tardis:gallifreyan_sand>]]); 
+
+
 recipes.removeShaped(<immersiveengineering:stone_decoration:1>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<immersiveengineering:stone_decoration:1>*3, 

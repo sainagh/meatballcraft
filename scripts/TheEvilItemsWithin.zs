@@ -289,7 +289,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon1 = posbeacon1.asBlockPos();
     var blockBelow1 = world.getBlockState(blockposbeacon1);
     if(blockBelow1 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("站在1级信标上");
+        player.sendChat("站在1级钻石信标上");
         return "FAIL";
     }
 	var posbeacon2 = player.position.asPosition3f();
@@ -299,7 +299,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon2 = posbeacon2.asBlockPos();
     var blockBelow2 = world.getBlockState(blockposbeacon2);
     if(blockBelow2 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("站在1级信标上");
+        player.sendChat("站在1级钻石信标上");
         return "FAIL";
     }
 	var posbeacon3 = player.position.asPosition3f();
@@ -309,7 +309,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon3 = posbeacon3.asBlockPos();
     var blockBelow3 = world.getBlockState(blockposbeacon3);
     if(blockBelow3 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("站在1级信标上");
+        player.sendChat("站在1级钻石信标上");
         return "FAIL";
     }
 	var posbeacon4 = player.position.asPosition3f();
@@ -319,7 +319,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon4 = posbeacon4.asBlockPos();
     var blockBelow4 = world.getBlockState(blockposbeacon4);
     if(blockBelow4 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("站在1级信标上");
+        player.sendChat("站在1级钻石信标上");
         return "FAIL";
     }
 	var posbeacon5 = player.position.asPosition3f();
@@ -329,7 +329,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon5 = posbeacon5.asBlockPos();
     var blockBelow5 = world.getBlockState(blockposbeacon5);
     if(blockBelow5 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("站在1级信标上");
+        player.sendChat("站在1级钻石信标上");
         return "FAIL";
     }
 	var posbeacon6 = player.position.asPosition3f();
@@ -339,7 +339,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon6 = posbeacon6.asBlockPos();
     var blockBelow6 = world.getBlockState(blockposbeacon6);
     if(blockBelow6 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("站在1级信标上");
+        player.sendChat("站在1级钻石信标上");
         return "FAIL";
     }
 	var posbeacon7 = player.position.asPosition3f();
@@ -349,7 +349,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon7 = posbeacon7.asBlockPos();
     var blockBelow7 = world.getBlockState(blockposbeacon7);
     if(blockBelow7 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("站在1级信标上");
+        player.sendChat("站在1级钻石信标上");
         return "FAIL";
     }
 	var posbeacon8 = player.position.asPosition3f();
@@ -359,7 +359,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon8 = posbeacon8.asBlockPos();
     var blockBelow8 = world.getBlockState(blockposbeacon8);
     if(blockBelow8 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("站在1级信标上");
+        player.sendChat("站在1级钻石信标上");
         return "FAIL";
     }
 	var posbeacon9 = player.position.asPosition3f();
@@ -369,7 +369,7 @@ nightmareincense.itemRightClick = function(stack, world, player, hand) {
     var blockposbeacon9 = posbeacon9.asBlockPos();
     var blockBelow9 = world.getBlockState(blockposbeacon9);
     if(blockBelow9 != <blockstate:minecraft:diamond_block>) {
-        player.sendChat("站在1级信标上");
+        player.sendChat("站在1级钻石信标上");
         return "FAIL";
     }
 

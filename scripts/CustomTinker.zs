@@ -670,3 +670,72 @@ heavybone.itemLocalizer = function(thisMaterial, itemName){return "硬骨 " + it
 heavybone.localizedName = "硬骨";
 heavybone.register();
 
+
+val hopebringercrystal = mods.contenttweaker.tconstruct.MaterialBuilder.create("hopebringer_metal");
+hopebringercrystal.color = 0x3bad82;
+hopebringercrystal.craftable = false;
+hopebringercrystal.liquid = <fluid:hopebringer_metal>;
+hopebringercrystal.castable = true;
+hopebringercrystal.addItem(<item:contenttweaker:hopebringer_metal>,1,2500);
+hopebringercrystal.representativeItem = <item:contenttweaker:hopebringer_metal>;
+hopebringercrystal.addHeadMaterialStats(2000, 7.5, 6.0f, 6);
+hopebringercrystal.addHandleMaterialStats(2.0, 2000);
+hopebringercrystal.addExtraMaterialStats(2000);
+hopebringercrystal.addProjectileMaterialStats();
+hopebringercrystal.addBowMaterialStats(0.3, 10.54, 4.0);
+hopebringercrystal.addMaterialTrait("twilit");
+hopebringercrystal.itemLocalizer = function(thisMaterial, itemName){return "希望使者金属 " + itemName;};
+hopebringercrystal.localizedName = "希望使者金属";
+hopebringercrystal.register();
+
+
+val crimsonwarrenremains = mods.contenttweaker.tconstruct.MaterialBuilder.create("crimson_warren_remains");
+crimsonwarrenremains.color = 0x730b1b;
+crimsonwarrenremains.craftable = true;
+crimsonwarrenremains.castable = false;
+crimsonwarrenremains.addItem(<item:contenttweaker:crimson_warren_remains>,1,144);
+crimsonwarrenremains.representativeItem = <item:contenttweaker:crimson_warren_remains>;
+crimsonwarrenremains.addHeadMaterialStats(2, 2.5, 3.0f, 6);
+crimsonwarrenremains.addHandleMaterialStats(2.0, 3);
+crimsonwarrenremains.addExtraMaterialStats(1);
+crimsonwarrenremains.addProjectileMaterialStats();
+crimsonwarrenremains.addBowMaterialStats(0.3, 2.4, 1.0);
+crimsonwarrenremains.addMaterialTrait("stopbeingselfish");
+crimsonwarrenremains.itemLocalizer = function(thisMaterial, itemName){return "血腥迷道残留物 " + itemName;};
+crimsonwarrenremains.localizedName = "血腥迷道残留物";
+crimsonwarrenremains.register();
+
+
+val omnivolent = mods.contenttweaker.tconstruct.MaterialBuilder.create("omnibenevolent");
+omnivolent.color = 0x730b1b;
+omnivolent.craftable = true;
+omnivolent.castable = false;
+omnivolent.addItem(<item:contenttweaker:crimson_warren_remains>,1,144);
+omnivolent.representativeItem = <item:contenttweaker:crimson_warren_remains>;
+omnivolent.addHeadMaterialStats(20, 2.5, 3.0f, 15);
+omnivolent.addHandleMaterialStats(2.0, 3);
+omnivolent.addExtraMaterialStats(1);
+omnivolent.addProjectileMaterialStats();
+omnivolent.addBowMaterialStats(0.3, 2.4, 1.0);
+omnivolent.addMaterialTrait("overflow");
+omnivolent.itemLocalizer = function(thisMaterial, itemName){return "全善 " + itemName;};
+omnivolent.localizedName = "全善";
+omnivolent.register();
+
+
+
+val nothingness = mods.contenttweaker.tconstruct.MaterialBuilder.create("nothingness");
+nothingness.color = 0x000000;
+nothingness.craftable = false;
+nothingness.castable = true;
+nothingness.liquid = <fluid:nothing>;
+nothingness.addItem(<item:contenttweaker:shard_of_nothingness>,1,144);
+nothingness.representativeItem = <item:contenttweaker:shard_of_nothingness>;
+nothingness.addHeadMaterialStats(1, 1.0, 1.0f, 1);
+nothingness.addHandleMaterialStats(1.0, 1);
+nothingness.addExtraMaterialStats(1);
+nothingness.addProjectileMaterialStats();
+nothingness.addBowMaterialStats(1.0, 1.0, 1.0);
+nothingness.itemLocalizer = function(thisMaterial, itemName){return "虚无之 " + itemName;};
+nothingness.localizedName = "虚无";
+nothingness.register();

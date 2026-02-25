@@ -47,7 +47,7 @@
         "mods":
         {
             "text" : "fml.menu.mods",
-            "hoverText" : "AoAÎªÖ÷¿ò¼Ü",
+            "hoverText" : "AoAÎªï¿½ï¿½ï¿½ï¿½ï¿½",
             "posX" : -100,
             "posY" : 96,
             "width" : 200,
@@ -62,7 +62,7 @@
         "options":
         {
             "text" : "menu.options",
-            "hoverText" : "²é¿´°´¼ü°ó¶¨£¡",
+            "hoverText" : "ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½ó¶¨£ï¿½",
             "posX" : -100,
             "posY" : 144,
             "width" : 98,
@@ -76,8 +76,8 @@
         
         "performance":
         {
-            "text" : "¸Ä½øÐÔÄÜ",
-            "hoverText" : "¼ÓÔØËÙ¶È¸ü¿ì£¡",
+            "text" : "ï¿½Ä½ï¿½ï¿½ï¿½ï¿½ï¿½",
+            "hoverText" : "ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶È¸ï¿½ï¿½ì£¡",
             "posX" : -100,
             "posY" : 192,
             "width" : 200,
@@ -92,7 +92,7 @@
         "quit":
         {
             "text" : "menu.quit",
-            "hoverText" : "ÔÙ¼û£¡",
+            "hoverText" : "ï¿½Ù¼ï¿½ï¿½ï¿½",
             "posX" : 2,
             "posY" : 144,
             "width" : 98,
@@ -136,7 +136,7 @@
         "discord":
         {
             "text" : "Discord",
-            "hoverText" : "¼ÓÈëÈâÍè£¡",
+            "hoverText" : "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è£¡",
             "posX" : -100,
             "posY" : 120,
             "width" : 200,
@@ -152,8 +152,8 @@
     {
         "mojang":
         {
-            "text" : "? Mojang AB ÇëÎð¶þ´Î·Ö·¢£¡",
-            "hoverText" : "?n? Mojang AB ÇëÎð¶þ´Î·Ö·¢£¡",
+            "text" : "? Mojang AB ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î·Ö·ï¿½ï¿½ï¿½",
+            "hoverText" : "?n? Mojang AB ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î·Ö·ï¿½ï¿½ï¿½",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -166,8 +166,8 @@
         },
         "soundtrack":
         {
-            "text" : "ÅäÀÖ£º\n It's not over - Darren Curtis Music",
-            "hoverText" : "ÅäÀÖ£º\n AhAhAhAHAHH",
+            "text" : "ï¿½ï¿½ï¿½Ö£ï¿½\n It's not over - Darren Curtis Music",
+            "hoverText" : "ï¿½ï¿½ï¿½Ö£ï¿½\n AhAhAhAHAHH",
             "posX" : -197,
             "posY" : -30,
             "color" : -1,
@@ -231,7 +231,8 @@
                     "menu:back39.png",
                     "menu:back40.png",
                     "menu:back41.png",
-                    "menu:back42.png"],
+                    "menu:back42.png",
+                    "menu:back43.png"],
                 "displayDuration" : 100,
                 "shuffle": true,
                 "fadeDuration" : 40

@@ -167,67 +167,270 @@ chaosstrikezentropy4.addItemInput(<contenttweaker:entropyum_ingot>);
 chaosstrikezentropy4.addItemOutput(<contenttweaker:infinite_entropic_plate>*8);
 chaosstrikezentropy4.build();
 
-val chaosstrikeztaint = RecipeBuilder.newBuilder("chaosstrikeztaint","chaotic_striker",10);
-chaosstrikeztaint.addEnergyPerTickInput(1000000000);
-chaosstrikeztaint.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["silver", "thaumium", "blood_infused_glitch", "brass"]}, Traits: ["holy", "thaumic", "overflow", "toolleveling"]}));
-chaosstrikeztaint.setChance(0.0);
-chaosstrikeztaint.addItemInput(<contenttweaker:infinite_plate_stamp>);
-chaosstrikeztaint.setChance(0.0);
-chaosstrikeztaint.addItemInput(<contenttweaker:fractallite_taint>);
-chaosstrikeztaint.addItemOutput(<contenttweaker:infinite_tainted_plate>*16);
-chaosstrikeztaint.build();
+val chaosstrikeztaint1 = RecipeBuilder.newBuilder("chaosstrikeztaint1","chaotic_striker",10);
+chaosstrikeztaint1.addEnergyPerTickInput(1000000000);
+chaosstrikeztaint1.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["silver", "thaumium", "blood_infused_glitch", "brass"]}, Traits: ["holy", "thaumic", "overflow", "toolleveling"]}));
+chaosstrikeztaint1.setChance(0.0);
+chaosstrikeztaint1.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikeztaint1.setChance(0.0);
+chaosstrikeztaint1.addItemInput(<contenttweaker:fractallite_taint>);
+chaosstrikeztaint1.addItemOutput(<contenttweaker:infinite_tainted_plate>*16);
+chaosstrikeztaint1.build();
+
+val chaosstrikeztaint2 = RecipeBuilder.newBuilder("chaosstrikeztaint2","chaotic_striker",10);
+chaosstrikeztaint2.addEnergyPerTickInput(1000000000);
+chaosstrikeztaint2.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["hopebringer_metal", "hopebringer_metal", "hopebringer_metal", "hopebringer_metal"]}, Traits: ["twilit"]}));
+chaosstrikeztaint2.setChance(0.0);
+chaosstrikeztaint2.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikeztaint2.setChance(0.0);
+chaosstrikeztaint2.addItemInput(<contenttweaker:fractallite_taint>);
+chaosstrikeztaint2.addItemOutput(<contenttweaker:infinite_tainted_plate>*32);
+chaosstrikeztaint2.build();
+
+val chaosstrikeztrinity1 = RecipeBuilder.newBuilder("chaosstrikeztrinity1","chaotic_striker",10);
+chaosstrikeztrinity1.addEnergyPerTickInput(1000000000);
+chaosstrikeztrinity1.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["cosmic_balance", "cosmic_balance", "cosmic_balance", "cosmic_balance"]}, Traits: ["hailhydra", "vindictive", "holy", "toolleveling"]}));
+chaosstrikeztrinity1.setChance(0.0);
+chaosstrikeztrinity1.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikeztrinity1.setChance(0.0);
+chaosstrikeztrinity1.addItemInput(<contenttweaker:trinity_ingot>*8);
+chaosstrikeztrinity1.addItemOutput(<contenttweaker:infinite_loving_plate>*12);
+chaosstrikeztrinity1.build();
+
+val chaosstrikeztrinity2 = RecipeBuilder.newBuilder("chaosstrikeztrinity2","chaotic_striker",10);
+chaosstrikeztrinity2.addEnergyPerTickInput(1000000000);
+chaosstrikeztrinity2.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["crimson_warren_remains", "crimson_warren_remains", "crimson_warren_remains", "crimson_warren_remains"]}, Traits: ["stopbeingselfish"]}));
+chaosstrikeztrinity2.setChance(0.0);
+chaosstrikeztrinity2.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikeztrinity2.setChance(0.0);
+chaosstrikeztrinity2.addItemInput(<contenttweaker:trinity_ingot>*8);
+chaosstrikeztrinity2.addItemOutput(<contenttweaker:infinite_loving_plate>*16);
+chaosstrikeztrinity2.build();
+
+val chaosstrikeztrinity3 = RecipeBuilder.newBuilder("chaosstrikeztrinity3","chaotic_striker",10);
+chaosstrikeztrinity3.addEnergyPerTickInput(1000000000);
+chaosstrikeztrinity3.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["cosmic_balance", "cosmic_balance", "cosmic_balance", "cosmic_balance"]}, Traits: ["hailhydra", "vindictive", "holy", "toolleveling"]}));
+chaosstrikeztrinity3.setChance(0.0);
+chaosstrikeztrinity3.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikeztrinity3.setChance(0.0);
+chaosstrikeztrinity3.addItemInput(<contenttweaker:ingot_of_omnibelevolence>*8);
+chaosstrikeztrinity3.addItemOutput(<contenttweaker:infinite_loving_plate>*24);
+chaosstrikeztrinity3.build();
+
+val chaosstrikeztrinity4 = RecipeBuilder.newBuilder("chaosstrikeztrinity4","chaotic_striker",10);
+chaosstrikeztrinity4.addEnergyPerTickInput(1000000000);
+chaosstrikeztrinity4.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["crimson_warren_remains", "crimson_warren_remains", "crimson_warren_remains", "crimson_warren_remains"]}, Traits: ["stopbeingselfish"]}));
+chaosstrikeztrinity4.setChance(0.0);
+chaosstrikeztrinity4.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikeztrinity4.setChance(0.0);
+chaosstrikeztrinity4.addItemInput(<contenttweaker:ingot_of_omnibelevolence>*8);
+chaosstrikeztrinity4.addItemOutput(<contenttweaker:infinite_loving_plate>*32);
+chaosstrikeztrinity4.build();
 
 
+val chaosstrikezvoid1 = RecipeBuilder.newBuilder("chaosstrikezvoid1","chaotic_striker",10);
+chaosstrikezvoid1.addEnergyPerTickInput(1000000000);
+chaosstrikezvoid1.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["nothingness", "nothingness", "nothingness", "nothingness"]}}));
+chaosstrikezvoid1.setChance(0.0);
+chaosstrikezvoid1.addItemInput(<contenttweaker:infinite_mask_stamp>);
+chaosstrikezvoid1.setChance(0.0);
+chaosstrikezvoid1.addItemInput(<contenttweaker:defined_disk>);
+chaosstrikezvoid1.addItemOutput(<contenttweaker:mask_of_definition>);
+chaosstrikezvoid1.build();
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>, 
-1000000, 
-<contenttweaker:brightseel_alloy_plate>, 
-[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
-<contenttweaker:infinite_alchemical_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:projectile_protection>.makeEnchantment(20)), <contenttweaker:infinite_entropic_plate>, 
-<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
-itemUtils.createEnchantedBook(<enchantment:minecraft:smite>.makeEnchantment(20)), <contenttweaker:infinite_recursive_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:unbreaking>.makeEnchantment(75))]);
+//mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>, 
+//1000000, 
+//<contenttweaker:brightseel_alloy_plate>, 
+//[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
+//<contenttweaker:infinite_alchemical_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:projectile_protection>.makeEnchantment(20)), <contenttweaker:infinite_entropic_plate>, 
+//<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
+//itemUtils.createEnchantedBook(<enchantment:minecraft:smite>.makeEnchantment(20)), <contenttweaker:infinite_recursive_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:unbreaking>.makeEnchantment(75))]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>, 
-1000000, 
-<contenttweaker:brightseel_alloy_plate>, 
-[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
-<contenttweaker:infinite_alchemical_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 17}]}), <contenttweaker:infinite_entropic_plate>, 
-<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
-<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 4}]}), <contenttweaker:infinite_recursive_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 75 as short, id: 34}]})]);
-
-
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>*10, 
-1000000, 
-<contenttweaker:power_wrought_brightsteel_alloy_plate>, 
-[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
-<contenttweaker:infinite_alchemical_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:projectile_protection>.makeEnchantment(20)), <contenttweaker:infinite_entropic_plate>, 
-<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
-itemUtils.createEnchantedBook(<enchantment:minecraft:smite>.makeEnchantment(20)), <contenttweaker:infinite_recursive_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:unbreaking>.makeEnchantment(75))]);
-
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>*10, 
-1000000, 
-<contenttweaker:power_wrought_brightsteel_alloy_plate>, 
-[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
-<contenttweaker:infinite_alchemical_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 17}]}), <contenttweaker:infinite_entropic_plate>, 
-<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
-<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 4}]}), <contenttweaker:infinite_recursive_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 75 as short, id: 34}]})]);
+val ligaturethree1 = RecipeBuilder.newBuilder("ligaturethree1","ligature_of_the_three_oaths",2);
+ligaturethree1.addEnergyPerTickInput(2000000000);
+ligaturethree1.addFluidInput(<fluid:tangible_ordo>*50);
+ligaturethree1.addFluidInput(<fluid:tangible_perditio>*50);
+ligaturethree1.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree1.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree1.addItemInput(<careerbees:ingredients:12>);
+ligaturethree1.addItemInput(<careerbees:ingredients:11>);
+ligaturethree1.addItemInput(<contenttweaker:infinite_alchemical_plate>);
+ligaturethree1.addItemInput(itemUtils.createEnchantedBook(<enchantment:minecraft:projectile_protection>.makeEnchantment(20)));
+ligaturethree1.addItemInput(<contenttweaker:infinite_entropic_plate>);
+ligaturethree1.addItemInput(itemUtils.createEnchantedBook(<enchantment:minecraft:smite>.makeEnchantment(20)));
+ligaturethree1.addItemInput(<contenttweaker:infinite_recursive_plate>);
+ligaturethree1.addItemInput(itemUtils.createEnchantedBook(<enchantment:minecraft:unbreaking>.makeEnchantment(75)));
+ligaturethree1.addItemInput(<contenttweaker:brightseel_alloy_plate>);
+ligaturethree1.addItemOutput(<contenttweaker:cuendillar_plate>);
+ligaturethree1.build();
 
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>*40, 
-1000000, 
-<contenttweaker:cleansed_brightsteel_alloy_plate>, 
-[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
-<contenttweaker:infinite_alchemical_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:projectile_protection>.makeEnchantment(20)), <contenttweaker:infinite_entropic_plate>, 
-<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
-itemUtils.createEnchantedBook(<enchantment:minecraft:smite>.makeEnchantment(20)), <contenttweaker:infinite_recursive_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:unbreaking>.makeEnchantment(75))]);
+//mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>, 
+//1000000, 
+//<contenttweaker:brightseel_alloy_plate>, 
+//[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
+//<contenttweaker:infinite_alchemical_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 17}]}), <contenttweaker:infinite_entropic_plate>, 
+//<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
+//<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 4}]}), <contenttweaker:infinite_recursive_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 75 as short, id: 34}]})]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>*40, 
-1000000, 
-<contenttweaker:cleansed_brightsteel_alloy_plate>, 
-[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
-<contenttweaker:infinite_alchemical_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 17}]}), <contenttweaker:infinite_entropic_plate>, 
-<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
-<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 4}]}), <contenttweaker:infinite_recursive_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 75 as short, id: 34}]})]);
+val ligaturethree2 = RecipeBuilder.newBuilder("ligaturethree2","ligature_of_the_three_oaths",2);
+ligaturethree2.addEnergyPerTickInput(2000000000);
+ligaturethree2.addFluidInput(<fluid:tangible_ordo>*50);
+ligaturethree2.addFluidInput(<fluid:tangible_perditio>*50);
+ligaturethree2.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree2.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree2.addItemInput(<careerbees:ingredients:12>);
+ligaturethree2.addItemInput(<careerbees:ingredients:11>);
+ligaturethree2.addItemInput(<contenttweaker:infinite_alchemical_plate>);
+ligaturethree2.addItemInput(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 17}]}));
+ligaturethree2.addItemInput(<contenttweaker:infinite_entropic_plate>);
+ligaturethree2.addItemInput(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 4}]}));
+ligaturethree2.addItemInput(<contenttweaker:infinite_recursive_plate>);
+ligaturethree2.addItemInput(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 75 as short, id: 34}]}));
+ligaturethree2.addItemInput(<contenttweaker:brightseel_alloy_plate>);
+ligaturethree2.addItemOutput(<contenttweaker:cuendillar_plate>);
+ligaturethree2.build();
+
+//mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>*10, 
+//1000000, 
+//<contenttweaker:power_wrought_brightsteel_alloy_plate>, 
+//[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
+//<contenttweaker:infinite_alchemical_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:projectile_protection>.makeEnchantment(20)), <contenttweaker:infinite_entropic_plate>, 
+//<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
+//itemUtils.createEnchantedBook(<enchantment:minecraft:smite>.makeEnchantment(20)), <contenttweaker:infinite_recursive_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:unbreaking>.makeEnchantment(75))]);
+
+val ligaturethree3 = RecipeBuilder.newBuilder("ligaturethree3","ligature_of_the_three_oaths",2);
+ligaturethree3.addEnergyPerTickInput(2000000000);
+ligaturethree3.addFluidInput(<fluid:tangible_ordo>*50);
+ligaturethree3.addFluidInput(<fluid:tangible_perditio>*50);
+ligaturethree3.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree3.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree3.addItemInput(<careerbees:ingredients:12>);
+ligaturethree3.addItemInput(<careerbees:ingredients:11>);
+ligaturethree3.addItemInput(<contenttweaker:infinite_alchemical_plate>);
+ligaturethree3.addItemInput(itemUtils.createEnchantedBook(<enchantment:minecraft:projectile_protection>.makeEnchantment(20)));
+ligaturethree3.addItemInput(<contenttweaker:infinite_entropic_plate>);
+ligaturethree3.addItemInput(itemUtils.createEnchantedBook(<enchantment:minecraft:smite>.makeEnchantment(20)));
+ligaturethree3.addItemInput(<contenttweaker:infinite_recursive_plate>);
+ligaturethree3.addItemInput(itemUtils.createEnchantedBook(<enchantment:minecraft:unbreaking>.makeEnchantment(75)));
+ligaturethree3.addItemInput(<contenttweaker:power_wrought_brightsteel_alloy_plate>);
+ligaturethree3.addItemOutput(<contenttweaker:cuendillar_plate>*10);
+ligaturethree3.build();
+
+//mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>*10, 
+//1000000, 
+//<contenttweaker:power_wrought_brightsteel_alloy_plate>, 
+//[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
+//<contenttweaker:infinite_alchemical_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 17}]}), <contenttweaker:infinite_entropic_plate>, 
+//<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
+//<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 4}]}), <contenttweaker:infinite_recursive_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 75 as short, id: 34}]})]);
+
+val ligaturethree4 = RecipeBuilder.newBuilder("ligaturethree4","ligature_of_the_three_oaths",2);
+ligaturethree4.addEnergyPerTickInput(2000000000);
+ligaturethree4.addFluidInput(<fluid:tangible_ordo>*50);
+ligaturethree4.addFluidInput(<fluid:tangible_perditio>*50);
+ligaturethree4.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree4.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree4.addItemInput(<careerbees:ingredients:12>);
+ligaturethree4.addItemInput(<careerbees:ingredients:11>);
+ligaturethree4.addItemInput(<contenttweaker:infinite_alchemical_plate>);
+ligaturethree4.addItemInput(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 17}]}));
+ligaturethree4.addItemInput(<contenttweaker:infinite_entropic_plate>);
+ligaturethree4.addItemInput(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 4}]}));
+ligaturethree4.addItemInput(<contenttweaker:infinite_recursive_plate>);
+ligaturethree4.addItemInput(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 75 as short, id: 34}]}));
+ligaturethree4.addItemInput(<contenttweaker:power_wrought_brightsteel_alloy_plate>);
+ligaturethree4.addItemOutput(<contenttweaker:cuendillar_plate>*10);
+ligaturethree4.build();
+
+//mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>*40, 
+//1000000, 
+//<contenttweaker:cleansed_brightsteel_alloy_plate>, 
+//[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
+//<contenttweaker:infinite_alchemical_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:projectile_protection>.makeEnchantment(20)), <contenttweaker:infinite_entropic_plate>, 
+//<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
+//itemUtils.createEnchantedBook(<enchantment:minecraft:smite>.makeEnchantment(20)), <contenttweaker:infinite_recursive_plate>, itemUtils.createEnchantedBook(<enchantment:minecraft:unbreaking>.makeEnchantment(75))]);
+
+val ligaturethree5 = RecipeBuilder.newBuilder("ligaturethree5","ligature_of_the_three_oaths",2);
+ligaturethree5.addEnergyPerTickInput(2000000000);
+ligaturethree5.addFluidInput(<fluid:tangible_ordo>*50);
+ligaturethree5.addFluidInput(<fluid:tangible_perditio>*50);
+ligaturethree5.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree5.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree5.addItemInput(<careerbees:ingredients:12>);
+ligaturethree5.addItemInput(<careerbees:ingredients:11>);
+ligaturethree5.addItemInput(<contenttweaker:infinite_alchemical_plate>);
+ligaturethree5.addItemInput(itemUtils.createEnchantedBook(<enchantment:minecraft:projectile_protection>.makeEnchantment(20)));
+ligaturethree5.addItemInput(<contenttweaker:infinite_entropic_plate>);
+ligaturethree5.addItemInput(itemUtils.createEnchantedBook(<enchantment:minecraft:smite>.makeEnchantment(20)));
+ligaturethree5.addItemInput(<contenttweaker:infinite_recursive_plate>);
+ligaturethree5.addItemInput(itemUtils.createEnchantedBook(<enchantment:minecraft:unbreaking>.makeEnchantment(75)));
+ligaturethree5.addItemInput(<contenttweaker:cleansed_brightsteel_alloy_plate>);
+ligaturethree5.addItemOutput(<contenttweaker:cuendillar_plate>*40);
+ligaturethree5.build();
+
+//mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_plate>*40, 
+//1000000, 
+//<contenttweaker:cleansed_brightsteel_alloy_plate>, 
+//[<contenttweaker:cuendillar_primer>, <careerbees:ingredients:12>,
+//<contenttweaker:infinite_alchemical_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 17}]}), <contenttweaker:infinite_entropic_plate>, 
+//<contenttweaker:cuendillar_primer>, <careerbees:ingredients:11>, 
+//<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 4}]}), <contenttweaker:infinite_recursive_plate>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 75 as short, id: 34}]})]);
+
+val ligaturethree6 = RecipeBuilder.newBuilder("ligaturethree6","ligature_of_the_three_oaths",2);
+ligaturethree6.addEnergyPerTickInput(2000000000);
+ligaturethree6.addFluidInput(<fluid:tangible_ordo>*50);
+ligaturethree6.addFluidInput(<fluid:tangible_perditio>*50);
+ligaturethree6.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree6.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree6.addItemInput(<careerbees:ingredients:12>);
+ligaturethree6.addItemInput(<careerbees:ingredients:11>);
+ligaturethree6.addItemInput(<contenttweaker:infinite_alchemical_plate>);
+ligaturethree6.addItemInput(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 17}]}));
+ligaturethree6.addItemInput(<contenttweaker:infinite_entropic_plate>);
+ligaturethree6.addItemInput(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 4}]}));
+ligaturethree6.addItemInput(<contenttweaker:infinite_recursive_plate>);
+ligaturethree6.addItemInput(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 75 as short, id: 34}]}));
+ligaturethree6.addItemInput(<contenttweaker:cleansed_brightsteel_alloy_plate>);
+ligaturethree6.addItemOutput(<contenttweaker:cuendillar_plate>*40);
+ligaturethree6.build();
+
+
+val ligaturethree7 = RecipeBuilder.newBuilder("ligaturethree7","ligature_of_the_three_oaths",2);
+ligaturethree7.addEnergyPerTickInput(2000000000);
+ligaturethree7.addFluidInput(<fluid:tangible_ordo>*50);
+ligaturethree7.addFluidInput(<fluid:tangible_perditio>*50);
+ligaturethree7.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree7.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree7.addItemInput(<careerbees:ingredients:12>);
+ligaturethree7.addItemInput(<careerbees:ingredients:11>);
+ligaturethree7.addItemInput(<contenttweaker:infinite_alchemical_plate>);
+ligaturethree7.addItemInput(itemUtils.createEnchantedBook(<enchantment:minecraft:projectile_protection>.makeEnchantment(20)));
+ligaturethree7.addItemInput(<contenttweaker:infinite_entropic_plate>);
+ligaturethree7.addItemInput(itemUtils.createEnchantedBook(<enchantment:minecraft:smite>.makeEnchantment(20)));
+ligaturethree7.addItemInput(<contenttweaker:infinite_recursive_plate>);
+ligaturethree7.addItemInput(itemUtils.createEnchantedBook(<enchantment:minecraft:unbreaking>.makeEnchantment(75)));
+ligaturethree7.addItemInput(<contenttweaker:brightsteel_alloy_plate_of_the_one_power>);
+ligaturethree7.addItemOutput(<contenttweaker:cuendillar_plate>*120);
+ligaturethree7.build();
+
+val ligaturethree8 = RecipeBuilder.newBuilder("ligaturethree8","ligature_of_the_three_oaths",2);
+ligaturethree8.addEnergyPerTickInput(2000000000);
+ligaturethree8.addFluidInput(<fluid:tangible_ordo>*50);
+ligaturethree8.addFluidInput(<fluid:tangible_perditio>*50);
+ligaturethree8.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree8.addItemInput(<contenttweaker:cuendillar_primer>);
+ligaturethree8.addItemInput(<careerbees:ingredients:12>);
+ligaturethree8.addItemInput(<careerbees:ingredients:11>);
+ligaturethree8.addItemInput(<contenttweaker:infinite_alchemical_plate>);
+ligaturethree8.addItemInput(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 17}]}));
+ligaturethree8.addItemInput(<contenttweaker:infinite_entropic_plate>);
+ligaturethree8.addItemInput(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 4}]}));
+ligaturethree8.addItemInput(<contenttweaker:infinite_recursive_plate>);
+ligaturethree8.addItemInput(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 75 as short, id: 34}]}));
+ligaturethree8.addItemInput(<contenttweaker:brightsteel_alloy_plate_of_the_one_power>);
+ligaturethree8.addItemOutput(<contenttweaker:cuendillar_plate>*120);
+ligaturethree8.build();
 
 
 // <tconstruct:hammer>.withTag({TinkerData: {Materials: ["parafrosynium", "barathosynium", "wrought_iron", "adamantium"]}, Traits: ["darktraveler", "runic1", "stalwart", "thunder2", "flame2", "frost2", "hailhydra", "unnamed", "sharp", "magnetic2", "toolleveling"]})
@@ -237,15 +440,97 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:cuendillar_p
 // <tconstruct:hammer>.withTag({TinkerData: {Materials: ["chaotic_plustic", "infinity_avaritia_plustic", "ascended_draconic_alloy", "vibranium_alloy"]}, Traits: ["darktraveler", "global", "brownmagic", "apocalypse", "spiky", "prickly", "ghastly", "endspeed", "toolleveling"]})
 
 
+mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/kashangauntlet", 
+<contenttweaker:key_of_actualization>, 
+5000, 500, 
+[
+    <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:recursion_of_dimensional_ascension>, <contenttweaker:self_actualizing_warren_rift>,
+    <contenttweaker:recursion_of_dimensional_ascension>, <contenttweaker:hyperuranon_actualizing_fabrial>, <contenttweaker:recursion_of_dimensional_ascension>,
+    <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:recursion_of_dimensional_ascension>, <contenttweaker:self_actualizing_warren_rift>,
+    <contenttweaker:actualization_aspected_eleint_scale>, <contenttweaker:actualization_aspected_eleint_scale>, <contenttweaker:actualization_aspected_eleint_scale>, <contenttweaker:actualization_aspected_eleint_scale>,
+    <contenttweaker:hopebringer_metal>, <contenttweaker:hopebringer_metal>,
+    <contenttweaker:hopebringer_metal>, <contenttweaker:hopebringer_metal>,
+    <contenttweaker:hopebringer_metal>, <contenttweaker:hopebringer_metal>,
+    <contenttweaker:hopebringer_metal>, <contenttweaker:hopebringer_metal>,
+    <openblocks:tank>.withTag({tank: {FluidName: "whisper_of_starvald_demelain", Amount: 16000}}), <openblocks:tank>.withTag({tank: {FluidName: "whisper_of_starvald_demelain", Amount: 16000}}), <openblocks:tank>.withTag({tank: {FluidName: "whisper_of_starvald_demelain", Amount: 16000}}), <openblocks:tank>.withTag({tank: {FluidName: "whisper_of_starvald_demelain", Amount: 16000}}),
+    <contenttweaker:actualization_of_balance>, <contenttweaker:actualization_of_glory>,
+    <contenttweaker:actualization_of_hope>, <contenttweaker:actualization_of_knowledge>
+], 
+"astralsorcery.constellation.fornax");
 
-val chaosstrikezwarrens = RecipeBuilder.newBuilder("chaosstrikezwarrens","chaotic_striker",10);
-chaosstrikezwarrens.addEnergyPerTickInput(1000000000);
-chaosstrikezwarrens.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["yggdrasil_wood", "yggdrasil_wood", "yggdrasil_wood", "yggdrasil_wood"]}, Traits: ["will_of_the_aesir", "toolleveling"]}));
-chaosstrikezwarrens.setChance(0.0);
-chaosstrikezwarrens.addItemInput(<contenttweaker:infinite_plate_stamp>);
-chaosstrikezwarrens.setChance(0.0);
-chaosstrikezwarrens.addItemInput(<contenttweaker:self_actualizing_warren_rift>);
-chaosstrikezwarrens.addItemOutput(<contenttweaker:warren_plate>*7);
-chaosstrikezwarrens.build();
+mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/kashangauntlet", 
+<contenttweaker:offering_to_the_eleint_of_actualization>, 
+5000, 500, 
+[
+    <contenttweaker:hyperuranion_ring>, <contenttweaker:hyperuranion_staff>, <contenttweaker:hyperuranion_ring>,
+    <contenttweaker:hyperuranion_staff>, <contenttweaker:warren_plate>, <contenttweaker:hyperuranion_staff>,
+    <contenttweaker:hyperuranion_ring>, <contenttweaker:hyperuranion_staff>, <contenttweaker:hyperuranion_ring>,
+    <contenttweaker:hyperuranion_bow>, <contenttweaker:hyperuranion_bow>, <contenttweaker:hyperuranion_bow>, <contenttweaker:hyperuranion_bow>,
+    <contenttweaker:hyperuranion_sphere>, <contenttweaker:hyperuranion_sphere>,
+    <contenttweaker:hyperuranion_plate>, <contenttweaker:hyperuranion_plate>,
+    <contenttweaker:hyperuranion_plate>, <contenttweaker:hyperuranion_plate>,
+    <contenttweaker:hyperuranion_sphere>, <contenttweaker:hyperuranion_sphere>,
+    <contenttweaker:hyperuranion_disk>, <contenttweaker:hyperuranion_disk>, <contenttweaker:hyperuranion_disk>, <contenttweaker:hyperuranion_disk>,
+    <forge:bucketfilled>.withTag({FluidName: "eleint_dragonfire", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "eleint_dragonfire", Amount: 1000}),
+    <forge:bucketfilled>.withTag({FluidName: "eleint_dragonfire", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "eleint_dragonfire", Amount: 1000})
+], 
+"astralsorcery.constellation.fornax");
+
+
+
+
+val chaosstrikezwarrens1 = RecipeBuilder.newBuilder("chaosstrikezwarrens1","chaotic_striker",10);
+chaosstrikezwarrens1.addEnergyPerTickInput(1000000000);
+chaosstrikezwarrens1.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["yggdrasil_wood", "yggdrasil_wood", "yggdrasil_wood", "yggdrasil_wood"]}, Traits: ["will_of_the_aesir", "toolleveling"]}));
+chaosstrikezwarrens1.setChance(0.0);
+chaosstrikezwarrens1.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezwarrens1.setChance(0.0);
+chaosstrikezwarrens1.addItemInput(<contenttweaker:self_actualizing_warren_rift>);
+chaosstrikezwarrens1.addItemOutput(<contenttweaker:warren_plate>*8);
+chaosstrikezwarrens1.build();
+
+val chaosstrikezwarrens2 = RecipeBuilder.newBuilder("chaosstrikezwarrens2","chaotic_striker",10);
+chaosstrikezwarrens2.addEnergyPerTickInput(1000000000);
+chaosstrikezwarrens2.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["omnibenevolent", "omnibenevolent", "omnibenevolent", "omnibenevolent"]}, Traits: ["overflow", "toolleveling"]}));
+chaosstrikezwarrens2.setChance(0.0);
+chaosstrikezwarrens2.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezwarrens2.setChance(0.0);
+chaosstrikezwarrens2.addItemInput(<contenttweaker:self_actualizing_warren_rift>);
+chaosstrikezwarrens2.addItemOutput(<contenttweaker:warren_plate>*12);
+chaosstrikezwarrens2.build();
+
+val chaosstrikezwarrens3 = RecipeBuilder.newBuilder("chaosstrikezwarrens3","chaotic_striker",10);
+chaosstrikezwarrens3.addEnergyPerTickInput(1000000000);
+chaosstrikezwarrens3.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["yggdrasil_wood", "yggdrasil_wood", "yggdrasil_wood", "yggdrasil_wood"]}, Traits: ["will_of_the_aesir", "toolleveling"]}));
+chaosstrikezwarrens3.setChance(0.0);
+chaosstrikezwarrens3.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezwarrens3.setChance(0.0);
+chaosstrikezwarrens3.addItemInput(<contenttweaker:self_actualizing_metal>);
+chaosstrikezwarrens3.addItemOutput(<contenttweaker:warren_plate>*16);
+chaosstrikezwarrens3.build();
+
+val chaosstrikezwarrens4 = RecipeBuilder.newBuilder("chaosstrikezwarrens4","chaotic_striker",10);
+chaosstrikezwarrens4.addEnergyPerTickInput(1000000000);
+chaosstrikezwarrens4.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["omnibenevolent", "omnibenevolent", "omnibenevolent", "omnibenevolent"]}, Traits: ["overflow", "toolleveling"]}));
+chaosstrikezwarrens4.setChance(0.0);
+chaosstrikezwarrens4.addItemInput(<contenttweaker:infinite_plate_stamp>);
+chaosstrikezwarrens4.setChance(0.0);
+chaosstrikezwarrens4.addItemInput(<contenttweaker:self_actualizing_metal>);
+chaosstrikezwarrens4.addItemOutput(<contenttweaker:warren_plate>*24);
+chaosstrikezwarrens4.build();
+
+
+val creataltarbrightpl = RecipeBuilder.newBuilder("creataltarbrightpl","creation_altar",10);
+creataltarbrightpl.addEnergyPerTickInput(1000000000);
+creataltarbrightpl.addFluidInput(<fluid:tangible_aer>*50);
+creataltarbrightpl.addFluidInput(<fluid:tangible_ignis>*50);
+creataltarbrightpl.addFluidInput(<fluid:tangible_aqua>*50);
+creataltarbrightpl.addFluidInput(<fluid:tangible_terra>*50);
+creataltarbrightpl.addItemInput(<contenttweaker:standard_of_the_dragon_reborn>);
+creataltarbrightpl.setChance(0.0);
+creataltarbrightpl.addItemInput(<contenttweaker:cleansed_brightsteel_alloy_plate>);
+creataltarbrightpl.addItemOutput(<contenttweaker:brightsteel_alloy_plate_of_the_one_power>);
+creataltarbrightpl.build();
+
 
 

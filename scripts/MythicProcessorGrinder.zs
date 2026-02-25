@@ -334,8 +334,326 @@ mythindgrind44.addItemInput(<contenttweaker:pale_metal>*16);
 mythindgrind44.addItemOutput(<contenttweaker:pale_metal_dust>*16);
 mythindgrind44.build();
 
+val mythindgrind45 = RecipeBuilder.newBuilder("mythindgrind45","mythic_processor_grinder",2);
+mythindgrind45.addEnergyPerTickInput(2000000);
+mythindgrind45.addFluidInput(<fluid:recursive_life_essence>*1);
+mythindgrind45.addItemInput(<contenttweaker:pulsating_fluix>*16);
+mythindgrind45.addItemOutput(<contenttweaker:pulsating_fluix_powder>*256);
+mythindgrind45.build();
+
+val mythindgrind46 = RecipeBuilder.newBuilder("mythindgrind46","mythic_processor_grinder",2);
+mythindgrind46.addEnergyPerTickInput(2000000);
+mythindgrind46.addFluidInput(<fluid:arbiterium>*1);
+mythindgrind46.addItemInput(<contenttweaker:pulsating_fluix>*16);
+mythindgrind46.addItemOutput(<contenttweaker:pulsating_fluix_powder>*1024);
+mythindgrind46.build();
+
+val mythindgrind47 = RecipeBuilder.newBuilder("mythindgrind47","mythic_processor_grinder",2);
+mythindgrind47.addEnergyPerTickInput(2000000);
+mythindgrind47.addFluidInput(<fluid:molten_defined>*1);
+mythindgrind47.addItemInput(<contenttweaker:pulsating_fluix>*16);
+mythindgrind47.addItemOutput(<contenttweaker:pulsating_fluix_powder>*4096);
+mythindgrind47.build();
+
+val mythindgrind48 = RecipeBuilder.newBuilder("mythindgrind48","mythic_processor_grinder",2);
+mythindgrind48.addEnergyPerTickInput(2000000);
+mythindgrind48.addFluidInput(<fluid:fractallite_halite>*1);
+mythindgrind48.addItemInput(<contenttweaker:pulsating_fluix>*16);
+mythindgrind48.addItemOutput(<contenttweaker:pulsating_fluix_powder>*16384);
+mythindgrind48.build();
+
+val mythindgrind49 = RecipeBuilder.newBuilder("mythindgrind49","mythic_processor_grinder",2);
+mythindgrind49.addEnergyPerTickInput(2000000);
+mythindgrind49.addFluidInput(<fluid:mana>*5);
+mythindgrind49.addItemInput(<contenttweaker:living_gold_ore>*16);
+mythindgrind49.addItemOutput(<contenttweaker:living_gold>*1024);
+mythindgrind49.build();
+
+val mythindgrind50 = RecipeBuilder.newBuilder("mythindgrind50","mythic_processor_grinder",2);
+mythindgrind50.addEnergyPerTickInput(2000000);
+mythindgrind50.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindgrind50.addItemInput(<contenttweaker:living_gold_ore>*512);
+mythindgrind50.addItemOutput(<contenttweaker:living_gold>*32768);
+mythindgrind50.build();
+
+val mythindgrind51 = RecipeBuilder.newBuilder("mythindgrind51","mythic_processor_grinder",2);
+mythindgrind51.addEnergyPerTickInput(2000000);
+mythindgrind51.addFluidInput(<fluid:ultimate_fractallite_essence>*10);
+mythindgrind51.addItemInput(<contenttweaker:etherium_saw_blade>);
+mythindgrind51.setChance(0.0);
+mythindgrind51.addItemInput(<contenttweaker:etherium_ore>*1024);
+mythindgrind51.addItemOutput(<contenttweaker:etherium_dust>*4096);
+mythindgrind51.build();
+
+val mythindgrind52 = RecipeBuilder.newBuilder("mythindgrind52","mythic_processor_grinder",2);
+mythindgrind52.addEnergyPerTickInput(2000000);
+mythindgrind52.addFluidInput(<fluid:ultimate_fractallite_essence>*10);
+mythindgrind52.addItemInput(<contenttweaker:etherium_saw_blade>);
+mythindgrind52.setChance(0.0);
+mythindgrind52.addItemInput(<contenttweaker:arkenstone>*1024);
+mythindgrind52.addItemOutput(<contenttweaker:arkengem>*4096);
+mythindgrind52.build();
+
+val mythindgrind53 = RecipeBuilder.newBuilder("mythindgrind53","mythic_processor_grinder",2);
+mythindgrind53.addEnergyPerTickInput(2000000);
+mythindgrind53.addFluidInput(<fluid:recursive_life_essence>*10);
+mythindgrind53.addItemInput(<contenttweaker:strange_phasing_meat>*16);
+mythindgrind53.addItemOutput(<contenttweaker:strange_phasing_mince>*128);
+mythindgrind53.build();
+
+val mythindgrind54 = RecipeBuilder.newBuilder("mythindgrind54","mythic_processor_grinder",2);
+mythindgrind54.addEnergyPerTickInput(2000000);
+mythindgrind54.addFluidInput(<fluid:actualizing_fluid>*10);
+mythindgrind54.addItemInput(<contenttweaker:strange_phasing_meat>*16);
+mythindgrind54.addItemOutput(<contenttweaker:strange_phasing_mince>*256);
+mythindgrind54.build();
+
+val mythindgrind55 = RecipeBuilder.newBuilder("mythindgrind55","mythic_processor_grinder",2);
+mythindgrind55.addEnergyPerTickInput(2000000);
+mythindgrind55.addFluidInput(<fluid:recursive_life_essence>*10);
+mythindgrind55.addItemInput(<ore:oreRutile>*1024);
+mythindgrind55.addItemOutput(<techreborn:dust:54>*4608);
+mythindgrind55.addItemOutput(<contenttweaker:vanadium_dust>*2048);
+mythindgrind55.build();
+
+val mythindgrind56 = RecipeBuilder.newBuilder("mythindgrind56","mythic_processor_grinder",2);
+mythindgrind56.addEnergyPerTickInput(2000000);
+mythindgrind56.addFluidInput(<fluid:recursive_computing_matter>*1);
+mythindgrind56.addItemInput(<ore:oreRutile>*8192);
+mythindgrind56.addItemOutput(<techreborn:dust:54>*36864);
+mythindgrind56.addItemOutput(<contenttweaker:vanadium_dust>*16384);
+mythindgrind56.build();
+
+val mythindgrind57 = RecipeBuilder.newBuilder("mythindgrind57","mythic_processor_grinder",2);
+mythindgrind57.addEnergyPerTickInput(2000000);
+mythindgrind57.addFluidInput(<fluid:steam>*1000);
+mythindgrind57.addItemInput(<ore:oreSheldonite>*16);
+mythindgrind57.addItemOutput(<thermalfoundation:material:70>*64);
+mythindgrind57.addItemOutput(<thermalfoundation:material:69>*32);
+mythindgrind57.addItemOutput(<thermalfoundation:material:71>*16);
+mythindgrind57.build();
+
+val mythindgrind58 = RecipeBuilder.newBuilder("mythindgrind58","mythic_processor_grinder",2);
+mythindgrind58.addEnergyPerTickInput(2000000);
+mythindgrind58.addFluidInput(<fluid:recursive_life_essence>*10);
+mythindgrind58.addItemInput(<ore:oreSheldonite>*1024);
+mythindgrind58.addItemOutput(<thermalfoundation:material:70>*4096);
+mythindgrind58.addItemOutput(<thermalfoundation:material:69>*2048);
+mythindgrind58.addItemOutput(<thermalfoundation:material:71>*1024);
+mythindgrind58.build();
+
+val mythindgrind59 = RecipeBuilder.newBuilder("mythindgrind59","mythic_processor_grinder",2);
+mythindgrind59.addEnergyPerTickInput(2000000);
+mythindgrind59.addFluidInput(<fluid:recursive_computing_matter>*1);
+mythindgrind59.addItemInput(<ore:oreSheldonite>*8192);
+mythindgrind59.addItemOutput(<thermalfoundation:material:70>*32768);
+mythindgrind59.addItemOutput(<thermalfoundation:material:69>*16384);
+mythindgrind59.addItemOutput(<thermalfoundation:material:71>*8192);
+mythindgrind59.build();
+
+val mythindgrind60 = RecipeBuilder.newBuilder("mythindgrind60","mythic_processor_grinder",2);
+mythindgrind60.addEnergyPerTickInput(2000000);
+mythindgrind60.addFluidInput(<fluid:steam>*1000);
+mythindgrind60.addItemInput(<ore:oreTungsten>*16);
+mythindgrind60.addItemOutput(<techreborn:dust:55>*256);
+mythindgrind60.addItemOutput(<techreborn:dust:31>*16);
+mythindgrind60.build();
+
+val mythindgrind61 = RecipeBuilder.newBuilder("mythindgrind61","mythic_processor_grinder",2);
+mythindgrind61.addEnergyPerTickInput(2000000);
+mythindgrind61.addFluidInput(<fluid:recursive_life_essence>*10);
+mythindgrind61.addItemInput(<ore:oreTungsten>*1024);
+mythindgrind61.addItemOutput(<techreborn:dust:55>*16384);
+mythindgrind61.addItemOutput(<techreborn:dust:31>*1024);
+mythindgrind61.build();
+
+val mythindgrind62 = RecipeBuilder.newBuilder("mythindgrind62","mythic_processor_grinder",2);
+mythindgrind62.addEnergyPerTickInput(2000000);
+mythindgrind62.addFluidInput(<fluid:recursive_computing_matter>*1);
+mythindgrind62.addItemInput(<ore:oreTungsten>*8192);
+mythindgrind62.addItemOutput(<techreborn:dust:55>*131072);
+mythindgrind62.addItemOutput(<techreborn:dust:31>*8192);
+mythindgrind62.build();
+
+val mythindgrind63 = RecipeBuilder.newBuilder("mythindgrind63","mythic_processor_grinder",2);
+mythindgrind63.addEnergyPerTickInput(2000000);
+mythindgrind63.addFluidInput(<fluid:steam>*1000);
+mythindgrind63.addItemInput(<ore:oreIridium>*16);
+mythindgrind63.addItemOutput(<thermalfoundation:material:71>*64);
+mythindgrind63.addItemOutput(<thermalfoundation:material:70>*16);
+mythindgrind63.build();
+
+val mythindgrind64 = RecipeBuilder.newBuilder("mythindgrind64","mythic_processor_grinder",2);
+mythindgrind64.addEnergyPerTickInput(2000000);
+mythindgrind64.addFluidInput(<fluid:recursive_life_essence>*10);
+mythindgrind64.addItemInput(<ore:oreIridium>*1024);
+mythindgrind64.addItemOutput(<thermalfoundation:material:71>*4096);
+mythindgrind64.addItemOutput(<thermalfoundation:material:70>*1024);
+mythindgrind64.build();
+
+val mythindgrind65 = RecipeBuilder.newBuilder("mythindgrind65","mythic_processor_grinder",2);
+mythindgrind65.addEnergyPerTickInput(2000000);
+mythindgrind65.addFluidInput(<fluid:recursive_computing_matter>*1);
+mythindgrind65.addItemInput(<ore:oreIridium>*8192);
+mythindgrind65.addItemOutput(<thermalfoundation:material:71>*32768);
+mythindgrind65.addItemOutput(<thermalfoundation:material:70>*8192);
+mythindgrind65.build();
+
+val mythindgrind66 = RecipeBuilder.newBuilder("mythindgrind66","mythic_processor_grinder",2);
+mythindgrind66.addEnergyPerTickInput(2000000);
+mythindgrind66.addFluidInput(<fluid:steam>*1000);
+mythindgrind66.addItemInput(<ore:oreUranium>*16);
+mythindgrind66.addItemOutput(<immersiveengineering:metal:14>*64);
+mythindgrind66.addItemOutput(<techreborn:dust:67>*32);
+mythindgrind66.build();
+
+val mythindgrind67 = RecipeBuilder.newBuilder("mythindgrind67","mythic_processor_grinder",2);
+mythindgrind67.addEnergyPerTickInput(2000000);
+mythindgrind67.addFluidInput(<fluid:recursive_life_essence>*10);
+mythindgrind67.addItemInput(<ore:oreUranium>*1024);
+mythindgrind67.addItemOutput(<immersiveengineering:metal:14>*4096);
+mythindgrind67.addItemOutput(<techreborn:dust:67>*2048);
+mythindgrind67.build();
+
+val mythindgrind68 = RecipeBuilder.newBuilder("mythindgrind68","mythic_processor_grinder",2);
+mythindgrind68.addEnergyPerTickInput(2000000);
+mythindgrind68.addFluidInput(<fluid:recursive_computing_matter>*1);
+mythindgrind68.addItemInput(<ore:oreUranium>*8192);
+mythindgrind68.addItemOutput(<immersiveengineering:metal:14>*32768);
+mythindgrind68.addItemOutput(<techreborn:dust:67>*16384);
+mythindgrind68.build();
 
 
+val mythindgrind69 = RecipeBuilder.newBuilder("mythindgrind69","mythic_processor_grinder",2);
+mythindgrind69.addEnergyPerTickInput(2000000);
+mythindgrind69.addFluidInput(<fluid:steam>*1000);
+mythindgrind69.addItemInput(<ore:oreThorium>*16);
+mythindgrind69.addItemOutput(<nuclearcraft:dust:3>*64);
+mythindgrind69.addItemOutput(<techreborn:dust:67>*8);
+mythindgrind69.build();
+
+val mythindgrind70 = RecipeBuilder.newBuilder("mythindgrind70","mythic_processor_grinder",2);
+mythindgrind70.addEnergyPerTickInput(2000000);
+mythindgrind70.addFluidInput(<fluid:recursive_life_essence>*10);
+mythindgrind70.addItemInput(<ore:oreThorium>*1024);
+mythindgrind70.addItemOutput(<nuclearcraft:dust:3>*4096);
+mythindgrind70.addItemOutput(<techreborn:dust:67>*512);
+mythindgrind70.build();
+
+val mythindgrind71 = RecipeBuilder.newBuilder("mythindgrind71","mythic_processor_grinder",2);
+mythindgrind71.addEnergyPerTickInput(2000000);
+mythindgrind71.addFluidInput(<fluid:recursive_computing_matter>*1);
+mythindgrind71.addItemInput(<ore:oreThorium>*8192);
+mythindgrind71.addItemOutput(<nuclearcraft:dust:3>*32768);
+mythindgrind71.addItemOutput(<techreborn:dust:67>*4096);
+mythindgrind71.build();
 
 
+val mythindgrind72 = RecipeBuilder.newBuilder("mythindgrind72","mythic_processor_grinder",2);
+mythindgrind72.addEnergyPerTickInput(2000000);
+mythindgrind72.addFluidInput(<fluid:recursive_life_essence>*10);
+mythindgrind72.addItemInput(<ore:oreYellorium>*1024);
+mythindgrind72.addItemOutput(<bigreactors:dustyellorium>*4096);
+mythindgrind72.addItemOutput(<contenttweaker:proactinium_dust>*1024);
+mythindgrind72.build();
 
+val mythindgrind73 = RecipeBuilder.newBuilder("mythindgrind73","mythic_processor_grinder",2);
+mythindgrind73.addEnergyPerTickInput(2000000);
+mythindgrind73.addFluidInput(<fluid:recursive_computing_matter>*1);
+mythindgrind73.addItemInput(<ore:oreYellorium>*8192);
+mythindgrind73.addItemOutput(<bigreactors:dustyellorium>*32768);
+mythindgrind73.addItemOutput(<contenttweaker:proactinium_dust>*8192);
+mythindgrind73.build();
+
+
+val mythindgrind74 = RecipeBuilder.newBuilder("mythindgrind74","mythic_processor_grinder",2);
+mythindgrind74.addEnergyPerTickInput(2000000);
+mythindgrind74.addFluidInput(<fluid:dense_plasma>*1000);
+mythindgrind74.addItemInput(<contenttweaker:freed_sky_stone>*16);
+mythindgrind74.addItemOutput(<contenttweaker:freed_sky_stone_dust>*32);
+mythindgrind74.build();
+
+val mythindgrind75 = RecipeBuilder.newBuilder("mythindgrind75","mythic_processor_grinder",2);
+mythindgrind75.addEnergyPerTickInput(2000000);
+mythindgrind75.addFluidInput(<fluid:recursive_life_essence>*100);
+mythindgrind75.addItemInput(<contenttweaker:freed_sky_stone>*16);
+mythindgrind75.addItemOutput(<contenttweaker:freed_sky_stone_dust>*64);
+mythindgrind75.build();
+
+val mythindgrind76 = RecipeBuilder.newBuilder("mythindgrind76","mythic_processor_grinder",2);
+mythindgrind76.addEnergyPerTickInput(2000000);
+mythindgrind76.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindgrind76.addItemInput(<contenttweaker:freed_sky_stone>*16);
+mythindgrind76.addItemOutput(<contenttweaker:freed_sky_stone_dust>*128);
+mythindgrind76.build();
+
+val mythindgrind77 = RecipeBuilder.newBuilder("mythindgrind77","mythic_processor_grinder",2);
+mythindgrind77.addEnergyPerTickInput(2000000);
+mythindgrind77.addFluidInput(<fluid:whisper_of_thel>*10);
+mythindgrind77.addItemInput(<contenttweaker:freed_sky_stone>*16);
+mythindgrind77.addItemOutput(<contenttweaker:freed_sky_stone_dust>*256);
+mythindgrind77.build();
+
+val mythindgrind78 = RecipeBuilder.newBuilder("mythindgrind78","mythic_processor_grinder",2);
+mythindgrind78.addEnergyPerTickInput(2000000);
+mythindgrind78.addFluidInput(<fluid:whisper_of_ahkrast_korvalain>*10);
+mythindgrind78.addItemInput(<contenttweaker:freed_sky_stone>*16);
+mythindgrind78.addItemOutput(<contenttweaker:freed_sky_stone_dust>*512);
+mythindgrind78.build();
+
+val mythindgrind79 = RecipeBuilder.newBuilder("mythindgrind79","mythic_processor_grinder",2);
+mythindgrind79.addEnergyPerTickInput(2000000);
+mythindgrind79.addFluidInput(<fluid:whisper_of_verdith_anath>*10);
+mythindgrind79.addItemInput(<contenttweaker:freed_sky_stone>*16);
+mythindgrind79.addItemOutput(<contenttweaker:freed_sky_stone_dust>*1024);
+mythindgrind79.build();
+
+val mythindgrind80 = RecipeBuilder.newBuilder("mythindgrind80","mythic_processor_grinder",2);
+mythindgrind80.addEnergyPerTickInput(2000000);
+mythindgrind80.addFluidInput(<fluid:whisper_of_omtose_phellack>*10);
+mythindgrind80.addItemInput(<contenttweaker:freed_sky_stone>*16);
+mythindgrind80.addItemOutput(<contenttweaker:freed_sky_stone_dust>*2048);
+mythindgrind80.build();
+
+val mythindgrind81 = RecipeBuilder.newBuilder("mythindgrind81","mythic_processor_grinder",2);
+mythindgrind81.addEnergyPerTickInput(2000000);
+mythindgrind81.addFluidInput(<fluid:whisper_of_donaeth_rusen>*10);
+mythindgrind81.addItemInput(<contenttweaker:freed_sky_stone>*16);
+mythindgrind81.addItemOutput(<contenttweaker:freed_sky_stone_dust>*4096);
+mythindgrind81.build();
+
+val mythindgrind82 = RecipeBuilder.newBuilder("mythindgrind82","mythic_processor_grinder",2);
+mythindgrind82.addEnergyPerTickInput(2000000);
+mythindgrind82.addFluidInput(<fluid:whisper_of_tellan>*10);
+mythindgrind82.addItemInput(<contenttweaker:freed_sky_stone>*16);
+mythindgrind82.addItemOutput(<contenttweaker:freed_sky_stone_dust>*8192);
+mythindgrind82.build();
+
+val mythindgrind83 = RecipeBuilder.newBuilder("mythindgrind83","mythic_processor_grinder",2);
+mythindgrind83.addEnergyPerTickInput(2000000);
+mythindgrind83.addFluidInput(<fluid:whisper_of_kurald_thyrllan>*10);
+mythindgrind83.addItemInput(<contenttweaker:freed_sky_stone>*16);
+mythindgrind83.addItemOutput(<contenttweaker:freed_sky_stone_dust>*16384);
+mythindgrind83.build();
+
+
+val mythindgrind84 = RecipeBuilder.newBuilder("mythindgrind84","mythic_processor_grinder",2);
+mythindgrind84.addEnergyPerTickInput(2000000);
+mythindgrind84.addFluidInput(<fluid:whisper_of_kurald_emurlahn>*10);
+mythindgrind84.addItemInput(<contenttweaker:freed_sky_stone>*16);
+mythindgrind84.addItemOutput(<contenttweaker:freed_sky_stone_dust>*32768);
+mythindgrind84.build();
+
+val mythindgrind85 = RecipeBuilder.newBuilder("mythindgrind85","mythic_processor_grinder",2);
+mythindgrind85.addEnergyPerTickInput(2000000);
+mythindgrind85.addFluidInput(<fluid:whisper_of_kurald_galain>*10);
+mythindgrind85.addItemInput(<contenttweaker:freed_sky_stone>*16);
+mythindgrind85.addItemOutput(<contenttweaker:freed_sky_stone_dust>*65536);
+mythindgrind85.build();
+
+val mythindgrind86 = RecipeBuilder.newBuilder("mythindgrind86","mythic_processor_grinder",2);
+mythindgrind86.addEnergyPerTickInput(2000000);
+mythindgrind86.addFluidInput(<fluid:whisper_of_starvald_demelain>*10);
+mythindgrind86.addItemInput(<contenttweaker:freed_sky_stone>*16);
+mythindgrind86.addItemOutput(<contenttweaker:freed_sky_stone_dust>*131072);
+mythindgrind86.build();

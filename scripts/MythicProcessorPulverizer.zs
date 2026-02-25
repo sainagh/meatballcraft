@@ -1358,3 +1358,42 @@ mythpulv216.setChance(0.0);
 mythpulv216.addItemInput(<libvulpes:productboule:3>);
 mythpulv216.addItemOutput(<advancedrocketry:wafer:0>*2);
 mythpulv216.build();
+
+val mythpulv217 = RecipeBuilder.newBuilder("mythpulv217","mythic_processor_pulverizer",2);
+mythpulv217.addEnergyPerTickInput(60000);
+mythpulv217.addItemInput(<aoa3:armour_plating>*4);
+mythpulv217.addItemOutput(<aoa3:chitin>*16);
+mythpulv217.build();
+
+val mythpulv218 = RecipeBuilder.newBuilder("mythpulv218","mythic_processor_pulverizer",2);
+mythpulv218.addEnergyPerTickInput(60000);
+mythpulv218.addItemInput(<contenttweaker:pulsating_fluix>*16);
+mythpulv218.addItemOutput(<contenttweaker:pulsating_fluix_powder>*64);
+mythpulv218.build();
+
+val mythpulv219 = RecipeBuilder.newBuilder("mythpulv219","mythic_processor_pulverizer",2);
+mythpulv219.addEnergyPerTickInput(60000);
+mythpulv219.addItemInput(<contenttweaker:living_gold_ore>*16);
+mythpulv219.addItemOutput(<contenttweaker:living_gold>*512);
+mythpulv219.build();
+
+val mythpulv220 = RecipeBuilder.newBuilder("mythpulv220","mythic_processor_pulverizer",2);
+mythpulv220.addEnergyPerTickInput(60000);
+mythpulv220.addItemInput(<contenttweaker:strange_phasing_meat>*16);
+mythpulv220.addItemOutput(<contenttweaker:strange_phasing_mince>*64);
+mythpulv220.build();
+
+val mythpulv221 = RecipeBuilder.newBuilder("mythpulv221","mythic_processor_pulverizer",2);
+mythpulv221.addEnergyPerTickInput(60000);
+mythpulv221.addItemInput(<minecraft:dye:15>*16);
+mythpulv221.addItemInput(<minecraft:sugar>*16);
+mythpulv221.addItemOutput(<genetics:misc:4>*32);
+mythpulv221.build();
+
+
+val mythpulv222 = RecipeBuilder.newBuilder("mythpulv222","mythic_processor_pulverizer",2);
+mythpulv222.addEnergyPerTickInput(60000);
+mythpulv222.addItemInput(<contenttweaker:crying_obsidian_powder>*16);
+mythpulv222.addItemInput(<minecraft:redstone>*20);
+mythpulv222.addItemOutput(<contenttweaker:crying_redstone>*20);
+mythpulv222.build();

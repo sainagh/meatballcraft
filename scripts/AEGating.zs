@@ -316,7 +316,7 @@ mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:6
 mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:1200>, <minecraft:glowstone_dust>);
 mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:0>, <minecraft:glowstone_dust>);
 
-mods.nuclearcraft.crystallizer.addRecipe([<fluid:energetic_ogerite>*10, <contenttweaker:ogerite_crystal_matrix>, 0.1, 0.1, 0.0]);
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:energetic_ogerite>*10, <contenttweaker:ogerite_crystal_matrix>]);
 
 recipes.addShaped(<appliedenergistics2:material:35>*6,
 [[<minecraft:redstone>, <contenttweaker:ogerite_crystal_matrix>, <minecraft:redstone>],
@@ -738,5 +738,6 @@ mods.extendedcrafting.TableCrafting.addShaped(<packagingprovider:packaging_provi
 [<extendedcrafting:material:13>, <packagedauto:unpackager>, <contenttweaker:spatial_processing_unit>, <packagedauto:unpackager>, <extendedcrafting:material:13>], 
 [<contenttweaker:spatial_processing_unit>, <threng:material:4>, <packagedauto:packager>, <threng:material:4>, <contenttweaker:spatial_processing_unit>], 
 [<appliedenergistics2:material:47>, <contenttweaker:spatial_processing_unit>, <extendedcrafting:material:13>, <contenttweaker:spatial_processing_unit>, <appliedenergistics2:material:47>]]);  
+
 
 

@@ -34,9 +34,16 @@ mods.thermalexpansion.Insolator.addRecipeMonoculture(<thebetweenlands:forbidden_
  <thebetweenlands:forbidden_fig>, 
  15);
  
-mods.thermalexpansion.Insolator.addRecipeMonoculture(<ebwizardry:magic_crystal>,
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<ebwizardry:magic_crystal>*4,
  <ebwizardry:crystal_flower>, 
  <thermalfoundation:material:1028>, 
+ 25000, 
+ <ebwizardry:crystal_flower>, 
+ 105);
+
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<ebwizardry:magic_crystal>*64,
+ <ebwizardry:crystal_flower>, 
+ <contenttweaker:jeweled_dust>, 
  25000, 
  <ebwizardry:crystal_flower>, 
  105);
@@ -495,14 +502,14 @@ mods.thermalexpansion.Insolator.addRecipeMonoculture(<aether_legacy:blue_berry>*
 <aether_legacy:berry_bush_stem>, 
 110);
 
-mods.thermalexpansion.Insolator.addRecipeMonoculture(<contenttweaker:eldritch_will_crystal>, 
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<contenttweaker:eldritch_will_crystal>*2, 
 <contenttweaker:eldritch_will_crystal_seeds>, 
 <extrautils2:ingredients:5>, 
 25000, 
 <contenttweaker:eldritch_will_crystal_seeds>, 
 105);
 
-mods.thermalexpansion.Insolator.addRecipeMonoculture(<contenttweaker:eldritch_will_crystal>*4, 
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<contenttweaker:eldritch_will_crystal>*12, 
 <contenttweaker:eldritch_will_crystal_seeds>, 
 <contenttweaker:lunar_star>, 
 25000, 
@@ -963,6 +970,28 @@ mods.thermalexpansion.Insolator.addRecipeMonoculture(<aoa3:eye_bulb>*12,
 <aoa3:eye_bulb>, 
 105);
 
+
+
+
+
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<contenttweaker:chorus_seedling>*8,
+<contenttweaker:chorus_sprout>, 
+<thermalfoundation:fertilizer:0>, 
+25000, 
+<contenttweaker:chorus_sprout>, 
+105);
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<contenttweaker:chorus_seedling>*12,
+<contenttweaker:chorus_sprout>, 
+<thermalfoundation:fertilizer:1>, 
+25000, 
+<contenttweaker:chorus_sprout>, 
+105);
+mods.thermalexpansion.Insolator.addRecipeMonoculture(<contenttweaker:chorus_seedling>*16,
+<contenttweaker:chorus_sprout>, 
+<thermalfoundation:fertilizer:2>, 
+25000, 
+<contenttweaker:chorus_sprout>, 
+105);
 
 
 

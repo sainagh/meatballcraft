@@ -65,16 +65,16 @@ mythroll8.addItemInput(<ore:ingotCandyte>*3);
 mythroll8.addItemOutput(<contenttweaker:lyonite_plate>);
 mythroll8.build();
 
-val mythroll9 = RecipeBuilder.newBuilder("mythroll9","mythic_processor_rolling_machine",2);
-mythroll9.addEnergyPerTickInput(60000);
-mythroll9.addItemInput(<bloodmagic:slate:4>*2);
-mythroll9.addItemInput(<ore:ingotPrimalOgerite>*2);
-mythroll9.addItemInput(<ore:plateMithminite>*2);
-mythroll9.addItemInput(<ore:ingotRubidium>);
-mythroll9.addItemInput(<ore:ingotCaesium>);
-mythroll9.addItemInput(<ore:ingotStrontium>);
-mythroll9.addItemOutput(<contenttweaker:matter_cluster>);
-mythroll9.build();
+//val mythroll9 = RecipeBuilder.newBuilder("mythroll9","mythic_processor_rolling_machine",2);
+//mythroll9.addEnergyPerTickInput(60000);
+//mythroll9.addItemInput(<bloodmagic:slate:4>*2);
+//mythroll9.addItemInput(<ore:ingotPrimalOgerite>*2);
+//mythroll9.addItemInput(<ore:plateMithminite>*2);
+//mythroll9.addItemInput(<ore:ingotRubidium>);
+//mythroll9.addItemInput(<ore:ingotCaesium>);
+//mythroll9.addItemInput(<ore:ingotStrontium>);
+//mythroll9.addItemOutput(<contenttweaker:matter_cluster>);
+//mythroll9.build();
 
 val mythroll10 = RecipeBuilder.newBuilder("mythroll10","mythic_processor_rolling_machine",2);
 mythroll10.addEnergyPerTickInput(60000);
@@ -138,3 +138,20 @@ mythroll18.addItemInput(<contenttweaker:everburning_recursion_fragment>);
 mythroll18.addItemInput(<contenttweaker:infinity_plate>*4);
 mythroll18.addItemOutput(<contenttweaker:everburning_plating>);
 mythroll18.build();
+
+
+val mythroll19 = RecipeBuilder.newBuilder("mythroll19","mythic_processor_rolling_machine",2);
+mythroll19.addEnergyPerTickInput(60000);
+mythroll19.addItemInput(<contenttweaker:infinity_fragment>);
+mythroll19.addItemInput(<contenttweaker:matter_cluster>*4);
+mythroll19.addItemInput(<ore:nuggetShyrestone>*4);
+mythroll19.addItemOutput(<contenttweaker:matter_agglomeration>);
+mythroll19.build();
+
+val mythroll20 = RecipeBuilder.newBuilder("mythroll20","mythic_processor_rolling_machine",2);
+mythroll20.addEnergyPerTickInput(60000);
+mythroll20.addItemInput(<avaritiaitem:self_actualizing_stone>);
+mythroll20.addItemInput(<contenttweaker:matter_agglomeration>*4);
+mythroll20.addItemInput(<ore:blockShyrestone>*4);
+mythroll20.addItemOutput(<contenttweaker:matter_inflorescence>);
+mythroll20.build();

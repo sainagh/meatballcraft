@@ -17,6 +17,22 @@ This is to keep the recipe available in the research page.
 */
 var tcAdditions = "thaumadditions";
 var tcTinkerer = "thaumictinkerer";
+var tcGado = "gadothaumy";
+# infusion claw
+registerInfusionRecipeFromAddon(`${tcGado}:infusion_claw`, "INFUSION_CLAW",
+  <gadothaumy:infusion_claw>, 32, 
+  [
+    <aspect:alienis> * 120, <aspect:machina> * 70, <aspect:ordo> * 70,
+    <aspect:praecantatio> * 60, <aspect:tenebrae> * 40
+  ], 
+  <thaumcraft:stabilizer>, 
+  [
+    <thaumcraft:brain>, <thaumcraft:stone_arcane>,
+    <thaumadditions:adaminite_ingot>, <thaumcraft:stone_arcane>,
+    <thaumcraft:caster_basic>, <thaumcraft:stone_arcane>,
+    <thaumadditions:adaminite_ingot>, <thaumcraft:stone_arcane>
+  ]
+);
 # KAMI armor
 registerInfusionRecipeFromAddon(`${tcTinkerer}:kami_helm`, "TT_KAMIHELM",
   <thaumictinkerer:kami_helm>, 32, 

@@ -55,6 +55,19 @@ sterilizedparafrosynium3.addItemInput(<contenttweaker:ichor_taint_condensate>);
 sterilizedparafrosynium3.addItemOutput(<contenttweaker:parafrosynium>*30);
 sterilizedparafrosynium3.build();
 
+val sterilizedparafrosynium4 = RecipeBuilder.newBuilder("sterilizedparafrosynium4","sterilized_altar",200);
+sterilizedparafrosynium4.addEnergyPerTickInput(10000000);
+sterilizedparafrosynium4.addFluidInput(<fluid:liquid_pe>*10000);
+sterilizedparafrosynium4.addFluidInput(<fluid:liquid_lp>*10000);
+sterilizedparafrosynium4.addItemInput(<contenttweaker:darkstar_compound>);
+sterilizedparafrosynium4.addItemInput(<contenttweaker:dynatos_catalyst>);
+sterilizedparafrosynium4.addItemInput(<materialpart:abyssite:ingot>*4);
+sterilizedparafrosynium4.addItemInput(<ore:blockEthaxium>*64);
+sterilizedparafrosynium4.addItemInput(<contenttweaker:eldritch_will_crystal>*16);
+sterilizedparafrosynium4.addItemInput(<contenttweaker:ichor_taint_catalyzer>);
+sterilizedparafrosynium4.addItemOutput(<contenttweaker:parafrosynium>*60);
+sterilizedparafrosynium4.build();
+
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:dense_helpless_honey>, <gendustry:honey_comb:14014>, 200, <extendedcrafting:material:11>, 10000000);
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:dense_dark_honey>, <gendustry:honey_comb:14015>, 200, <extendedcrafting:material:11>, 10000000);
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:dense_fearful_honey>, <gendustry:honey_comb:14016>, 200, <extendedcrafting:material:11>, 10000000);
@@ -305,6 +318,25 @@ makeichorium3.addItemInput(<contenttweaker:ichor_taint_condensate>);
 makeichorium3.addItemOutput(<materialpart:ichorium:ingot>*15);
 makeichorium3.build();
 
+val makeichorium4 = RecipeBuilder.newBuilder("makeichorium4","arcane_autoinfuser",200);
+makeichorium4.addEnergyPerTickInput(150000000);
+makeichorium4.addItemInput(makeVisCrystal(<aspect:alkimia> * 1)*300);
+makeichorium4.addItemInput(makeVisCrystal(<aspect:mythus> * 1)*100);
+makeichorium4.addItemInput(makeVisCrystal(<aspect:desiderium> * 1)*200);
+makeichorium4.addItemInput(makeVisCrystal(<aspect:alienis> * 1)*100);
+makeichorium4.addItemInput(makeVisCrystal(<aspect:potentia> * 1)*100);
+makeichorium4.addItemInput(makeVisCrystal(<aspect:spiritus> * 1)*50);
+makeichorium4.addItemInput(makeVisCrystal(<aspect:aversio> * 1)*50);
+makeichorium4.addItemInput(<contenttweaker:crimson_ichor>*8);
+makeichorium4.addItemInput(<thaumadditions:mithminite_block>*2);
+makeichorium4.addItemInput(<thaumicaugmentation:material:5>*16);
+makeichorium4.addItemInput(<thaumcraft:focus_3>);
+makeichorium4.addItemInput(<thaumcraft:focus_3>);
+makeichorium4.addItemInput(<contenttweaker:ichor_taint_catalyzer>);
+makeichorium4.addItemOutput(<materialpart:ichorium:ingot>*30);
+makeichorium4.build();
+
+
 
 
 mods.thaumcraft.Infusion.registerRecipe("infusionichoriumcatalyst", "", 
@@ -320,6 +352,20 @@ mods.thaumcraft.Crucible.registerRecipe("crucibleichoriumgem",
 "", <contenttweaker:ichorium_gem>, 
 <ore:ingotIchorium>, 
 [<aspect:mortuus>*15, <aspect:vitreus>*10, <aspect:victus>*10]);
+
+mods.thaumcraft.Crucible.registerRecipe("crucibleichoriumgem2", 
+"", <contenttweaker:ichorium_gem>*9, 
+<contenttweaker:ichorium_block>, 
+[<aspect:mortuus>*60, <aspect:vitreus>*40, <aspect:victus>*40]);
+
+recipes.addShapeless(<contenttweaker:ichorium_block>,
+[<ore:ingotIchorium>,<ore:ingotIchorium>,<ore:ingotIchorium>,<ore:ingotIchorium>,<ore:ingotIchorium>,<ore:ingotIchorium>,<ore:ingotIchorium>,<ore:ingotIchorium>,<ore:ingotIchorium>]);
+
+recipes.addShapeless(<materialpart:ichorium:ingot>*9,
+[<contenttweaker:ichorium_block>]);
+
+
+mods.storagedrawers.Compaction.add(<contenttweaker:ichorium_block>, <materialpart:ichorium:ingot>, 9);
 
 
 val infiniteimpetus = RecipeBuilder.newBuilder("infiniteimpetus","impetus_syphon",200);
@@ -445,7 +491,7 @@ makeVisCrystal(<aspect:imperium> * 1),
 
 // zoi
 
-mods.nuclearcraft.alloy_furnace.addRecipe([<nuclearcraft:depleted_fuel_mixed_oxide:0>, <nuclearcraft:depleted_fuel_mixed_oxide:1>, <nuclearcraft:depleted_fuel_ic2:1>, 1.0, 1.0, 0.005]);
+mods.nuclearcraft.alloy_furnace.addRecipe([<nuclearcraft:depleted_fuel_mixed_oxide:0>, <nuclearcraft:depleted_fuel_mixed_oxide:1>, <nuclearcraft:depleted_fuel_ic2:1>]);
 mods.thermalexpansion.InductionSmelter.addRecipe(<nuclearcraft:depleted_fuel_ic2:1>, <nuclearcraft:depleted_fuel_mixed_oxide:1>, <nuclearcraft:depleted_fuel_mixed_oxide:0>, 1000);
 
 mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:fluidcompressedair>*10, <fluid:californium_250>*1000, <fluid:areated_molten_californium_250>*1000, <fluid:oxygen>*2]);
@@ -609,6 +655,15 @@ dragonfireorichalcum3.addItemInput(<contenttweaker:ichor_taint_condensate>);
 dragonfireorichalcum3.addItemOutput(<contenttweaker:orichalcum>*15);
 dragonfireorichalcum3.build();
 
+val dragonfireorichalcum4 = RecipeBuilder.newBuilder("dragonfireorichalcum4","dragonfire_crucible",200);
+dragonfireorichalcum4.addFluidInput(<fluid:eternal_dragon_fire>*25000);
+dragonfireorichalcum4.addItemInput(<contenttweaker:orichalcum_sliver>*8);
+dragonfireorichalcum4.addItemInput(<extrabotany:material:1>*4);
+dragonfireorichalcum4.addItemInput(<contenttweaker:infused_dread_shard>*12);
+dragonfireorichalcum4.addItemInput(<contenttweaker:ichor_taint_catalyzer>);
+dragonfireorichalcum4.addItemOutput(<contenttweaker:orichalcum>*30);
+dragonfireorichalcum4.build();
+
 
 
 
@@ -696,6 +751,18 @@ carminitehihiirokane3.addItemInput(<contenttweaker:harbinger_crystal>*16);
 carminitehihiirokane3.addItemInput(<contenttweaker:ichor_taint_condensate>);
 carminitehihiirokane3.addItemOutput(<contenttweaker:hihi_irokane>*15);
 carminitehihiirokane3.build();
+
+val carminitehihiirokane4 = RecipeBuilder.newBuilder("carminitehihiirokane4","carminite_empowerer",200);
+carminitehihiirokane4.addEnergyPerTickInput(10000000);
+carminitehihiirokane4.addAspectInput("victus",50);
+carminitehihiirokane4.addItemInput(<contenttweaker:droplet_of_the_great_snake>*2);
+carminitehihiirokane4.addItemInput(<bloodmagic:blood_shard:1>*12);
+carminitehihiirokane4.addItemInput(<twilightforest:block_storage:4>*12);
+carminitehihiirokane4.addItemInput(<bloodarsenal:base_item:4>*32);
+carminitehihiirokane4.addItemInput(<contenttweaker:harbinger_crystal>*16);
+carminitehihiirokane4.addItemInput(<contenttweaker:ichor_taint_catalyzer>);
+carminitehihiirokane4.addItemOutput(<contenttweaker:hihi_irokane>*30);
+carminitehihiirokane4.build();
 
 
 mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:hihi_irokane_block>, [<contenttweaker:hihi_irokane>, <contenttweaker:nethersky_amber>, <bloodmagic:decorative_brick:3>, <contenttweaker:slate_of_endless_hunger>], 10000.0, 1000.0);

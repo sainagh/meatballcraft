@@ -1236,3 +1236,4 @@ thaum116.addItemInput(<contenttweaker:stormlight_sphere>);
 thaum116.addItemInput(<thaumcraft:mechanism_complex>*8);
 thaum116.addItemOutput(<contenttweaker:fire_construct>*8);
 thaum116.build();
+

@@ -2,19 +2,31 @@
     "registryname": "enchanted_greenhouse",
     "localizedname": "Enchanted Greenhouse",
 	"color": "ffffcf",
-    "has-factory": true,
     "modifiers": [
         {
             "elements": "contenttweaker:plated_photonium",
             "x": 0,
             "y": 5,
             "z": 3,
-            "description": "替换顶部方块以获得速度x10",
+            "description": "替换顶部方块以令速度x10",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.1
+            }
+        },
+        {
+            "elements": "contenttweaker:extant_photonium",
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "description": "替换顶部方块以令速度x100",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.01
             }
         }
     ],

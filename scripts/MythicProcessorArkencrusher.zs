@@ -12,6 +12,13 @@ steelmixarkenfluid.addFluidInput(<fluid:spicy_pyrotheum>*500);
 steelmixarkenfluid.addFluidOutput(<fluid:arkencrusher_mix>*500);
 steelmixarkenfluid.build();
 
+val steelmixarkenfluid2 = RecipeBuilder.newBuilder("steelmixarkenfluid2","iron_centrifuge",2);
+steelmixarkenfluid2.addEnergyPerTickInput(1000000);
+steelmixarkenfluid2.addFluidInput(<fluid:ultimate_fractallite_essence>*500);
+steelmixarkenfluid2.addFluidInput(<fluid:arkencrusher_mix>*500);
+steelmixarkenfluid2.addFluidOutput(<fluid:fractal_arkencrusher_mix>*1000);
+steelmixarkenfluid2.build();
+
 
 val mytharken1 = RecipeBuilder.newBuilder("mytharken1","mythic_processor_arkencrusher",2);
 mytharken1.addEnergyPerTickInput(1000000);
@@ -197,3 +204,152 @@ mytharken19.setChance(0.3);
 mytharken19.addItemOutput(<contenttweaker:cosmic_fragment_beryllium>);
 mytharken19.setChance(0.3);
 mytharken19.build();
+
+
+
+
+
+val mytharken20 = RecipeBuilder.newBuilder("mytharken20","mythic_processor_arkencrusher",2);
+mytharken20.addEnergyPerTickInput(1000000);
+mytharken20.addFluidInput(<fluid:twilight_fire>*5);
+mytharken20.addItemInput(<contenttweaker:pearlescent_cluster>);
+mytharken20.addItemOutput(<divinerpg:dirty_pearls>*16);
+mytharken20.addItemOutput(<divinerpg:clean_pearls>*16);
+mytharken20.addItemOutput(<divinerpg:polished_pearls>*16);
+mytharken20.addItemOutput(<divinerpg:shiny_pearls>*16);
+mytharken20.addFluidOutput(<fluid:marginal_pearlized_essence>*10);
+mytharken20.build();
+
+
+
+val mytharken21 = RecipeBuilder.newBuilder("mytharken21","mythic_processor_arkencrusher",2);
+mytharken21.addEnergyPerTickInput(1000000);
+mytharken21.addFluidInput(<fluid:weak_pearlized_catalyst>*100);
+mytharken21.addItemInput(<contenttweaker:pearlescent_cluster>);
+mytharken21.addItemOutput(<divinerpg:dirty_pearls>*64);
+mytharken21.addItemOutput(<divinerpg:clean_pearls>*64);
+mytharken21.addItemOutput(<divinerpg:polished_pearls>*64);
+mytharken21.addItemOutput(<divinerpg:shiny_pearls>*64);
+mytharken21.addFluidOutput(<fluid:moderate_pearlized_essence>*50);
+mytharken21.build();
+
+val mytharken22 = RecipeBuilder.newBuilder("mytharken22","mythic_processor_arkencrusher",2);
+mytharken22.addEnergyPerTickInput(1000000);
+mytharken22.addFluidInput(<fluid:moderate_pearlized_catalyst>*100);
+mytharken22.addItemInput(<contenttweaker:pearlescent_cluster>);
+mytharken22.addItemOutput(<divinerpg:dirty_pearls>*256);
+mytharken22.addItemOutput(<divinerpg:clean_pearls>*256);
+mytharken22.addItemOutput(<divinerpg:polished_pearls>*256);
+mytharken22.addItemOutput(<divinerpg:shiny_pearls>*256);
+mytharken22.addFluidOutput(<fluid:strong_pearlized_essence>*50);
+mytharken22.build();
+
+val mytharken23 = RecipeBuilder.newBuilder("mytharken23","mythic_processor_arkencrusher",2);
+mytharken23.addEnergyPerTickInput(1000000);
+mytharken23.addFluidInput(<fluid:strong_pearlized_catalyst>*100);
+mytharken23.addItemInput(<contenttweaker:pearlescent_cluster>);
+mytharken23.addItemOutput(<divinerpg:dirty_pearls>*512);
+mytharken23.addItemOutput(<divinerpg:clean_pearls>*512);
+mytharken23.addItemOutput(<divinerpg:polished_pearls>*512);
+mytharken23.addItemOutput(<divinerpg:shiny_pearls>*512);
+mytharken23.build();
+
+val mytharken24 = RecipeBuilder.newBuilder("mytharken24","mythic_processor_arkencrusher",2);
+mytharken24.addEnergyPerTickInput(1000000);
+mytharken24.addFluidInput(<fluid:marginal_pearlized_catalyst>*100);
+mytharken24.addItemInput(<contenttweaker:pearlescent_cluster>);
+mytharken24.addItemOutput(<divinerpg:dirty_pearls>*16);
+mytharken24.addItemOutput(<divinerpg:clean_pearls>*16);
+mytharken24.addFluidOutput(<fluid:weak_pearlized_essence>*50);
+mytharken24.build();
+
+val mytharken25 = RecipeBuilder.newBuilder("mytharken25","mythic_processor_arkencrusher",2);
+mytharken25.addEnergyPerTickInput(1000000);
+mytharken25.addFluidInput(<fluid:mana>*1000);
+mytharken25.addItemInput(<contenttweaker:lothlorien_silt>*8);
+mytharken25.addItemOutput(<contenttweaker:lothlorien_dust>*512);
+mytharken25.build();
+
+
+val mytharken26 = RecipeBuilder.newBuilder("mytharken26","mythic_processor_arkencrusher",2);
+mytharken26.addEnergyPerTickInput(1000000);
+mytharken26.addFluidInput(<fluid:fractal_arkencrusher_mix>*200);
+mytharken26.addItemInput(<contenttweaker:arkenstone>*128);
+mytharken26.addItemOutput(<contenttweaker:bifrost_gem>*1280);
+mytharken26.addItemOutput(<contenttweaker:recursive_powder>*7680);
+mytharken26.addItemOutput(<divinerpg:rupee_ingot>*2048);
+mytharken26.addItemOutput(<divinerpg:arlemite_ingot>*2048);
+mytharken26.addItemOutput(<divinerpg:realmite_ingot>*2048);
+mytharken26.addItemOutput(<aoa3:rosite_ingot>*2048);
+mytharken26.addItemOutput(<aoa3:emberstone_ingot>*2048);
+mytharken26.addItemOutput(<aoa3:runium_chunk>*2048);
+mytharken26.addItemOutput(<materialpart:sednanite:dust>*4096);
+mytharken26.addItemOutput(<magicbees:resource:5>*8192);
+mytharken26.addFluidOutput(<fluid:evanescent_bifrost>*2048000);
+mytharken26.build();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+val mytharken27 = RecipeBuilder.newBuilder("mytharken27","mythic_processor_arkencrusher",2);
+mytharken27.addEnergyPerTickInput(1000000);
+mytharken27.addFluidInput(<fluid:recursive_computing_matter>*1);
+mytharken27.addItemInput(<contenttweaker:corrupted_divine_ore>*64);
+mytharken27.addItemOutput(<divinerpg:corrupted_stone>*4096);
+mytharken27.build();
+
+val mytharken28 = RecipeBuilder.newBuilder("mytharken28","mythic_processor_arkencrusher",2);
+mytharken28.addEnergyPerTickInput(1000000);
+mytharken28.addFluidInput(<fluid:recursive_computing_matter>*1);
+mytharken28.addItemInput(<contenttweaker:ender_divine_ore>*64);
+mytharken28.addItemOutput(<divinerpg:ender_stone>*4096);
+mytharken28.build();
+
+val mytharken29 = RecipeBuilder.newBuilder("mytharken29","mythic_processor_arkencrusher",2);
+mytharken29.addEnergyPerTickInput(1000000);
+mytharken29.addFluidInput(<fluid:recursive_computing_matter>*1);
+mytharken29.addItemInput(<contenttweaker:ice_divine_ore>*64);
+mytharken29.addItemOutput(<divinerpg:ice_stone>*4096);
+mytharken29.build();
+
+val mytharken30 = RecipeBuilder.newBuilder("mytharken30","mythic_processor_arkencrusher",2);
+mytharken30.addEnergyPerTickInput(1000000);
+mytharken30.addFluidInput(<fluid:recursive_computing_matter>*1);
+mytharken30.addItemInput(<contenttweaker:jungle_divine_ore>*64);
+mytharken30.addItemOutput(<divinerpg:jungle_stone>*4096);
+mytharken30.build();
+
+val mytharken31 = RecipeBuilder.newBuilder("mytharken31","mythic_processor_arkencrusher",2);
+mytharken31.addEnergyPerTickInput(1000000);
+mytharken31.addFluidInput(<fluid:recursive_computing_matter>*1);
+mytharken31.addItemInput(<contenttweaker:molten_divine_ore>*64);
+mytharken31.addItemOutput(<divinerpg:molten_stone>*4096);
+mytharken31.build();
+
+val mytharken32 = RecipeBuilder.newBuilder("mytharken32","mythic_processor_arkencrusher",2);
+mytharken32.addEnergyPerTickInput(1000000);
+mytharken32.addFluidInput(<fluid:recursive_computing_matter>*1);
+mytharken32.addItemInput(<contenttweaker:shadow_divine_ore>*64);
+mytharken32.addItemOutput(<divinerpg:shadow_stone>*4096);
+mytharken32.build();
+
+val mytharken33 = RecipeBuilder.newBuilder("mytharken33","mythic_processor_arkencrusher",2);
+mytharken33.addEnergyPerTickInput(1000000);
+mytharken33.addFluidInput(<fluid:recursive_computing_matter>*1);
+mytharken33.addItemInput(<contenttweaker:terran_divine_ore>*64);
+mytharken33.addItemOutput(<divinerpg:terran_stone>*4096);
+mytharken33.build();
+
