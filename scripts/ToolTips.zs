@@ -2955,7 +2955,7 @@
 
 <contenttweaker:notes_of_a_mines_yearner>.addTooltip(format.red("你是否正在为怪物和战斗所困扰？"));
 <contenttweaker:notes_of_a_mines_yearner>.addTooltip(format.red("装备打造或许需要投入一些精力，但这一切都是值得的！"));
-<contenttweaker:notes_of_a_mines_yearner>.addTooltip(format.red("如需建议，可查看装甲库与「Faber Ferrarius」中的任务！"));
+<contenttweaker:notes_of_a_mines_yearner>.addTooltip(format.red("如需建议，可查看装甲库与冶铁锻工中的任务！"));
 
 
 <contenttweaker:bound_lunar_stone>.addTooltip(format.red("切削油的修复过程可自动化  ;)"));
