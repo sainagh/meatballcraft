@@ -601,15 +601,15 @@
 <contenttweaker:dyson_extruder>.addTooltip(format.white("     机器速度x20"));
 
 <contenttweaker:focused_plasma_collider>.addTooltip(format.gold("多方块升级："));
-<contenttweaker:focused_plasma_collider>.addTooltip(format.aqua("  线性等离子加速器"));
+<contenttweaker:focused_plasma_collider>.addTooltip(format.aqua("  直线等离子加速器"));
 <contenttweaker:focused_plasma_collider>.addTooltip(format.white("     x10并行"));
 
 <contenttweaker:superfocused_plasma_collider>.addTooltip(format.gold("多方块升级："));
-<contenttweaker:superfocused_plasma_collider>.addTooltip(format.aqua("  线性等离子加速器"));
+<contenttweaker:superfocused_plasma_collider>.addTooltip(format.aqua("  直线等离子加速器"));
 <contenttweaker:superfocused_plasma_collider>.addTooltip(format.white("     x100并行"));
 
 <contenttweaker:hyperfocused_plasma_collider>.addTooltip(format.gold("多方块升级："));
-<contenttweaker:hyperfocused_plasma_collider>.addTooltip(format.aqua("  线性等离子加速器"));
+<contenttweaker:hyperfocused_plasma_collider>.addTooltip(format.aqua("  直线等离子加速器"));
 <contenttweaker:hyperfocused_plasma_collider>.addTooltip(format.white("     x1,000并行"));
 <contenttweaker:hyperfocused_plasma_collider>.addTooltip(format.white("------------------------"));
 <contenttweaker:hyperfocused_plasma_collider>.addTooltip(format.green("感谢NerdySpider为这些多方块升级绘制的纹理！"));
