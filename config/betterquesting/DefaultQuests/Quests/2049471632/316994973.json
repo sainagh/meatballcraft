@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    602492158,
+    81569973
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "xreliquary:magicbane"
+      },
+      "name:8": "神魔克星"
+    }
+  },
+  "questID:3": 316994973,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "xreliquary:magicbane"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
