@@ -310,3 +310,4 @@ recipes.addShaped(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweake
 [[<agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>],
 [<soulshardsrespawn:materials:1>, <minecraft:egg>, <soulshardsrespawn:materials:1>],
 [<agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>]]);
+

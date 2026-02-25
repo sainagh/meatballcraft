@@ -8,7 +8,7 @@
             "x": 0,
             "y": 0,
             "z": 2,
-            "description": "输出x10",
+            "description": "产出x10",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",
@@ -21,7 +21,7 @@
             "x": 0,
             "y": 0,
             "z": 2,
-            "description": "输出x100",
+            "description": "产出x100",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",

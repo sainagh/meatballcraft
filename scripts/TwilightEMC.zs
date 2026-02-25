@@ -372,3 +372,10 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:skythern_core>*2,
 [<contenttweaker:starlight_sphere>, <contenttweaker:empowerment_core>, <contenttweaker:muon_crystal>, <aoa3:ambient_infusion_stone>, <contenttweaker:muon_crystal>, <contenttweaker:empowerment_core>, <contenttweaker:starlight_sphere>], 
 [<contenttweaker:starlight_sphere>, <avaritia:block_resource:2>, <contenttweaker:empowerment_core>, <bloodmagic:blood_tank:7>.withTag({Fluid: {FluidName: "iron", Amount: 2048000}}), <contenttweaker:empowerment_core>, <avaritia:block_resource:2>, <contenttweaker:starlight_sphere>], 
 [<divinerpg:experienced_cori_statue>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:skythern_heart>, <contenttweaker:starlight_sphere>, <contenttweaker:starlight_sphere>, <divinerpg:experienced_cori_statue>]]);  
+
+
+
+recipes.addShaped(<divinerpg:mortum_heart>,
+[[<divinerpg:mortum_gem>, <divinerpg:mortum_gem>, <divinerpg:mortum_gem>],
+[<divinerpg:mortum_gem>, <contenttweaker:mortum_core>, <divinerpg:mortum_gem>],
+[<divinerpg:mortum_gem>, <divinerpg:mortum_gem>, <divinerpg:mortum_gem>]]);

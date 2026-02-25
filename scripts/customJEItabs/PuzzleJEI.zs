@@ -400,3 +400,4 @@ witherswarthpuzzle.setOutputs([<contenttweaker:medallion_of_undead_repellence>])
 witherswarthpuzzle.build();
 
 
+

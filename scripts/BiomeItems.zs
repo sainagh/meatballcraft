@@ -1247,8 +1247,8 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
     // check if player is in right dimension
     if(player.getDimension() != 193) {
 		if(player.getDimension() != 192) {
-        player.sendChat("“需”位于争竞界");
-        return "FAIL";
+        	player.sendChat("“需”位于争竞界");
+        	return "FAIL";
 		}
     }
 
@@ -1284,7 +1284,7 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
     val BarathosMatches = checkBiomesAtPositions(BarathosBiomeName, playerpos, BarathosBiomeLocations, world) as int;
     val MysteriumMatches = checkBiomesAtPositions(MysteriumBiomeName, playerpos, MysteriumBiomeLocations, world) as int;
     val IcespikesMatches = checkBiomesAtPositions(IcespikesBiomeName, playerpos, IcespikesBiomeLocations, world) as int;
-	val OuterLandsMatches = checkBiomesAtPositions(OuterlandsBiomeName, playerpos, OuterLandsBiomeLocations, world) as int;
+    val OuterLandsMatches = checkBiomesAtPositions(OuterlandsBiomeName, playerpos, OuterLandsBiomeLocations, world) as int;
 
 	if((OuterLandsMatches) == 1) {
 		var pos3 = player.position.asPosition3f();
