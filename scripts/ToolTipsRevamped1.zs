@@ -329,7 +329,7 @@
 <extendedcrafting:table_basic>.addTooltip(format.aqua("  - 使用异星材料手册解锁配方，并按照任务书指引完成  ;)"));
 <extendedcrafting:table_basic>.addTooltip(format.aqua("  - 手动合成第一个后，可使用自动合成机或循环装配台自动化递归配方"));
 <extendedcrafting:table_basic>.addTooltip(format.gold("使用："));
-<extendedcrafting:table_basic>.addTooltip(format.yellow("  可使用自动化接口和基础封包合成器[推荐]自动化基础工作台配方"));
+<extendedcrafting:table_basic>.addTooltip(format.yellow("  可使用自动化接口或基础封包合成器[推荐]自动化基础工作台配方"));
 <extendedcrafting:table_basic>.addTooltip(format.white("------------------"));
 <extendedcrafting:table_basic>.addTooltip(format.green("Mei在工具提示的改进方面帮了大忙，谢谢！"));
 
