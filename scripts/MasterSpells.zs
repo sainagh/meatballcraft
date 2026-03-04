@@ -232,7 +232,7 @@ masterspelldreadia.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:bloodmaster_metal_chest\",Count:1b}}", player, world, false, true);
 	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:bloodmaster_metal_feet\",Count:1b}}", player, world, false, true);
 	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:bloodmaster_metal_legs\",Count:1b}}", player, world, false, true);
-	Commands.call("summon abyssalcraft:dreaded_abyssalnite_golem ~ ~3 ~ {Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:300.0}],Health:10000f}", player, world, false, true);
+	Commands.call("summon abyssalcraft:dreadgolem ~ ~3 ~ {Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:300.0}],Health:10000f}", player, world, false, true);
 	return "Pass";
 };
 masterspelldreadia.register();
