@@ -98,7 +98,7 @@ import crafttweaker.item.IItemCondition;
 
 <bloodmagic:lava_crystal>.addTooltip(format.red("警告：不要使用流体装配室进行合成，会删除气血宝珠"));
 
-<contenttweaker:crimson_warren_remains>.addTooltip(format.red("在暮色森林的血腥教团结构附近，右击暮光诅咒的裂解"));
+<contenttweaker:crimson_warren_remains>.addTooltip(format.red("在暮色森林的血腥教团结构附近，右击暮色诅咒的裂解"));
 
 <contenttweaker:sundering_of_the_twilit_curse>.addTooltip(format.red("在暮色森林的血腥教团结构附近右击"));
 
@@ -147,10 +147,10 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:tracker_binoculars>.addTooltip(format.red("双击目标生物的名字，如果周围100格范围内存在匹配实体，这些实体便会高亮显示"));
 <contenttweaker:tracker_binoculars>.addTooltip(format.red("再次双击来停止追踪"));
 
-<contenttweaker:twilit_freedom_fabrial>.addTooltip(format.red("将黄昏召唤石结构顶部中心的传送门方块替换为暮光自由法器"));
+<contenttweaker:twilit_freedom_fabrial>.addTooltip(format.red("将黄昏召唤石结构顶部中心的传送门方块替换为暮色自由法器"));
 <contenttweaker:twilit_freedom_fabrial>.addTooltip(format.red("站在其上方，使用暮色英雄召唤物"));
 
-<contenttweaker:summons_of_the_twilit_hero>.addTooltip(format.red("将黄昏召唤石结构顶部中心的传送门方块替换为暮光自由法器"));
+<contenttweaker:summons_of_the_twilit_hero>.addTooltip(format.red("将黄昏召唤石结构顶部中心的传送门方块替换为暮色自由法器"));
 <contenttweaker:summons_of_the_twilit_hero>.addTooltip(format.red("站在其上方，使用暮色英雄召唤物"));
 
 <contenttweaker:unforgotten_summons>.addTooltip(format.green("可重复使用"));

@@ -2176,25 +2176,25 @@ summonsofthetwilithero.itemRightClick = function(stack, world, player, hand) {
     playerPos.z = playerPos.z;
 
     if(player.getDimension() != 7) {
-        player.sendChat("将黄昏召唤石结构顶部中心的传送门方块替换为暮光自由法器，然后站在上面");
+        player.sendChat("将黄昏召唤石结构顶部中心的传送门方块替换为暮色自由法器，然后站在上面");
         return "FAIL";
     }
 
     if (getBlockMatchAtPosition("contenttweaker:twilit_freedom_fabrial", playerPos, [0,0,0], world) == 0){
-        player.sendChat("将黄昏召唤石结构顶部中心的传送门方块替换为暮光自由法器，然后站在上面");
+        player.sendChat("将黄昏召唤石结构顶部中心的传送门方块替换为暮色自由法器，然后站在上面");
         return "FAIL";
     }
 
     if (getBlockMatchAtPosition("twilightforest:auroralized_glass", playerPos, [0,-1,0], world) == 0){
-        player.sendChat("将黄昏召唤石结构顶部中心的传送门方块替换为暮光自由法器，然后站在上面");
+        player.sendChat("将黄昏召唤石结构顶部中心的传送门方块替换为暮色自由法器，然后站在上面");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("twilightforest:auroralized_glass", playerPos, [0,-2,0], world) == 0){
-        player.sendChat("将黄昏召唤石结构顶部中心的传送门方块替换为暮光自由法器，然后站在上面");
+        player.sendChat("将黄昏召唤石结构顶部中心的传送门方块替换为暮色自由法器，然后站在上面");
         return "FAIL";
     }
     if (getBlockMatchAtPosition("twilightforest:auroralized_glass", playerPos, [0,-3,0], world) == 0){
-        player.sendChat("将黄昏召唤石结构顶部中心的传送门方块替换为暮光自由法器，然后站在上面");
+        player.sendChat("将黄昏召唤石结构顶部中心的传送门方块替换为暮色自由法器，然后站在上面");
         return "FAIL";
     }
 

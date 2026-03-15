@@ -328,7 +328,7 @@
 <contenttweaker:realmstone>.addTooltip(format.green("Fox想知道怎么做这玩意"));
 
 
-<contenttweaker:rune_of_valhalla>.addTooltip(format.green("reusable for Stone of Natural Might"));
+<contenttweaker:rune_of_valhalla>.addTooltip(format.green("在自然宏威之石配方中可重复使用"));
 
 <divinerpg:twilight_clock>.addTooltip(format.darkAqua("获取："));
 <divinerpg:twilight_clock>.addTooltip(format.aqua("  使用奇点大师解锁配方"));
