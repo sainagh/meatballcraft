@@ -364,7 +364,7 @@ val castcouch38 = RecipeBuilder.newBuilder("castcouch38","seared_caster",20);
 castcouch38.addFluidInput(<fluid:berserker_steel>*72);
 castcouch38.addItemInput(<tconstruct:cast>.withTag({PartType: "tconstruct:shard"}));
 castcouch38.setChance(0.0);
-castcouch38.addItemOutput(<tconstruct:shard>.withTag({Material: "barserk_steel"}));
+castcouch38.addItemOutput(<tconstruct:shard>.withTag({Material: "berserk_steel"}));
 castcouch38.build();
 
 val castcouch39 = RecipeBuilder.newBuilder("castcouch39","seared_caster",20);

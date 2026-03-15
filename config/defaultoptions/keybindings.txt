@@ -248,11 +248,11 @@ key_Rotate Vehicle Left:0:NONE
 key_Move Vehicle Up:0:NONE
 key_Move Vehicle Down:0:NONE
 key_bogosort.key.move_all_same:-100:ALT
-key_bogosort.key.move_all:-100:NONE
+key_bogosort.key.move_all:0:NONE
 key_bogosort.key.move_single:-100:CONTROL
 key_bogosort.key.move_single_empty:-99:CONTROL
-key_bogosort.key.throw_all_same:16:ALT
-key_bogosort.key.throw_all:16:NONE
+key_bogosort.key.throw_all_same:0:NONE
+key_bogosort.key.throw_all:0:NONE
 key_bogosort.key.sort_config:49:NONE
 key_bogosort.key.sort:-98:NONE
 key_bogosort.key.lock_slot:19:CONTROL

@@ -1199,6 +1199,15 @@ voidgivenform.addFluidInput(<fluid:nothing>*20000);
 voidgivenform.addFluidOutput(<fluid:void_given_focus>*20000);
 voidgivenform.build();
 
+val distillatelevity = RecipeBuilder.newBuilder("distillatelevity","abyssal_entropic_catalyzer",2);
+distillatelevity.addItemInput(<contenttweaker:cuendillar_primer>);
+distillatelevity.addItemInput(<minecraft:bedrock>);
+distillatelevity.addFluidInput(<fluid:vapor_of_levity>*1000);
+distillatelevity.addFluidOutput(<fluid:distillate_of_levity>*16000);
+distillatelevity.build();
+
+
+
 
 
 recipes.addShaped(<contenttweaker:mask_of_the_free_stag>,

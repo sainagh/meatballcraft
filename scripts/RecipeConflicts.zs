@@ -2550,6 +2550,8 @@ recipes.addShapeless(<contenttweaker:infinitely_wishful_catalyst>,
 recipes.addShapeless(<contenttweaker:ascended_eleint_catalyst>,
 [<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
+recipes.addShapeless(<thaumcraft:elemental_pick>,
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 
 recipes.addShaped(<erebus:materials:66>*64,

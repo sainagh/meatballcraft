@@ -287,6 +287,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:chaotic_nexus>.addTooltip(format.red("使用装有以下3级升级的神龙之力权杖：攻击伤害、挖掘速度、范围挖掘、RF容量、范围攻击"));
 
+<contenttweaker:blue_matter>.addTooltip(format.red("首个物品通过英玫之门获得"));
 
 
 

@@ -170,7 +170,7 @@ mythinfus24.build();
 
 val mythinfus25 = RecipeBuilder.newBuilder("mythinfus25","mythic_processor_infuser",2);
 mythinfus25.addEnergyPerTickInput(1000000);
-mythinfus25.addFluidInput(<fluid:whisper_of_starvald_demelain>*100);
+mythinfus25.addFluidInput(<fluid:whisper_of_starvald_demelain>*1);
 mythinfus25.addItemInput(<contenttweaker:gem_of_dimensional_ascension>);
 mythinfus25.addItemOutput(<contenttweaker:gem_of_dimensional_ascension>*32);
 mythinfus25.build();
@@ -999,8 +999,209 @@ mythinfus118.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: 
 mythinfus118.build();
 
 
+val mythinfus119 = RecipeBuilder.newBuilder("mythinfus119","mythic_processor_infuser",2);
+mythinfus119.addEnergyPerTickInput(1000000);
+mythinfus119.addFluidInput(<fluid:hellfire>*1000);
+mythinfus119.addItemInput(<minecraft:glass_bottle>*1);
+mythinfus119.addItemOutput(<bewitchment:bottled_hellfire>);
+mythinfus119.build();
+
+val mythinfus120 = RecipeBuilder.newBuilder("mythinfus120","mythic_processor_infuser",2);
+mythinfus120.addEnergyPerTickInput(1000000);
+mythinfus120.addFluidInput(<fluid:spruce_heart>*1000);
+mythinfus120.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus120.addItemOutput(<bewitchment:spruce_heart>);
+mythinfus120.build();
+
+val mythinfus121 = RecipeBuilder.newBuilder("mythinfus121","mythic_processor_infuser",2);
+mythinfus121.addEnergyPerTickInput(1000000);
+mythinfus121.addFluidInput(<fluid:cloudy_oil>*1000);
+mythinfus121.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus121.addItemOutput(<bewitchment:cloudy_oil>);
+mythinfus121.build();
+
+val mythinfus122 = RecipeBuilder.newBuilder("mythinfus122","mythic_processor_infuser",2);
+mythinfus122.addEnergyPerTickInput(1000000);
+mythinfus122.addFluidInput(<fluid:acacia_resin>*1000);
+mythinfus122.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus122.addItemOutput(<bewitchment:acacia_resin>);
+mythinfus122.build();
+
+val mythinfus123 = RecipeBuilder.newBuilder("mythinfus123","mythic_processor_infuser",2);
+mythinfus123.addEnergyPerTickInput(1000000);
+mythinfus123.addFluidInput(<fluid:ebb_of_death>*1000);
+mythinfus123.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus123.addItemOutput(<bewitchment:ebb_of_death>);
+mythinfus123.build();
+
+val mythinfus124 = RecipeBuilder.newBuilder("mythinfus124","mythic_processor_infuser",2);
+mythinfus124.addEnergyPerTickInput(1000000);
+mythinfus124.addFluidInput(<fluid:droplet_of_wisdom>*1000);
+mythinfus124.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus124.addItemOutput(<bewitchment:droplet_of_wisdom>);
+mythinfus124.build();
+
+val mythinfus125 = RecipeBuilder.newBuilder("mythinfus125","mythic_processor_infuser",2);
+mythinfus125.addEnergyPerTickInput(1000000);
+mythinfus125.addFluidInput(<fluid:liquid_witchcraft>*1000);
+mythinfus125.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus125.addItemOutput(<bewitchment:liquid_witchcraft>);
+mythinfus125.build();
+
+val mythinfus126 = RecipeBuilder.newBuilder("mythinfus126","mythic_processor_infuser",2);
+mythinfus126.addEnergyPerTickInput(1000000);
+mythinfus126.addFluidInput(<fluid:essence_of_vitality>*1000);
+mythinfus126.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus126.addItemOutput(<bewitchment:essence_of_vitality>);
+mythinfus126.build();
+
+val mythinfus127 = RecipeBuilder.newBuilder("mythinfus127","mythic_processor_infuser",2);
+mythinfus127.addEnergyPerTickInput(1000000);
+mythinfus127.addFluidInput(<fluid:cleansing_balm>*1000);
+mythinfus127.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus127.addItemOutput(<bewitchment:cleansing_balm>);
+mythinfus127.build();
+
+val mythinfus128 = RecipeBuilder.newBuilder("mythinfus128","mythic_processor_infuser",2);
+mythinfus128.addEnergyPerTickInput(1000000);
+mythinfus128.addFluidInput(<fluid:demonic_elixir>*1000);
+mythinfus128.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus128.addItemOutput(<bewitchment:demonic_elixir>);
+mythinfus128.build();
+
+val mythinfus129 = RecipeBuilder.newBuilder("mythinfus129","mythic_processor_infuser",2);
+mythinfus129.addEnergyPerTickInput(1000000);
+mythinfus129.addFluidInput(<fluid:fiery_unguent>*1000);
+mythinfus129.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus129.addItemOutput(<bewitchment:fiery_unguent>);
+mythinfus129.build();
+
+val mythinfus130 = RecipeBuilder.newBuilder("mythinfus130","mythic_processor_infuser",2);
+mythinfus130.addEnergyPerTickInput(1000000);
+mythinfus130.addFluidInput(<fluid:swirl_of_depths>*1000);
+mythinfus130.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus130.addItemOutput(<bewitchment:swirl_of_depths>);
+mythinfus130.build();
+
+val mythinfus131 = RecipeBuilder.newBuilder("mythinfus131","mythic_processor_infuser",2);
+mythinfus131.addEnergyPerTickInput(1000000);
+mythinfus131.addFluidInput(<fluid:oil_of_vitriol>*1000);
+mythinfus131.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus131.addItemOutput(<bewitchment:oil_of_vitriol>);
+mythinfus131.build();
+
+val mythinfus132 = RecipeBuilder.newBuilder("mythinfus132","mythic_processor_infuser",2);
+mythinfus132.addEnergyPerTickInput(1000000);
+mythinfus132.addFluidInput(<fluid:otherworldly_tears>*1000);
+mythinfus132.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus132.addItemOutput(<bewitchment:otherworldly_tears>);
+mythinfus132.build();
+
+val mythinfus133 = RecipeBuilder.newBuilder("mythinfus133","mythic_processor_infuser",2);
+mythinfus133.addEnergyPerTickInput(1000000);
+mythinfus133.addFluidInput(<fluid:heaven_extract>*1000);
+mythinfus133.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus133.addItemOutput(<bewitchment:heaven_extract>);
+mythinfus133.build();
+
+val mythinfus134 = RecipeBuilder.newBuilder("mythinfus134","mythic_processor_infuser",2);
+mythinfus134.addEnergyPerTickInput(1000000);
+mythinfus134.addFluidInput(<fluid:stone_ichor>*1000);
+mythinfus134.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus134.addItemOutput(<bewitchment:stone_ichor>);
+mythinfus134.build();
+
+val mythinfus135 = RecipeBuilder.newBuilder("mythinfus135","mythic_processor_infuser",2);
+mythinfus135.addEnergyPerTickInput(1000000);
+mythinfus135.addFluidInput(<fluid:birch_soul>*1000);
+mythinfus135.addItemInput(<bewitchment:empty_jar>*1);
+mythinfus135.addItemOutput(<bewitchment:birch_soul>);
+mythinfus135.build();
 
 
+val mythinfus136 = RecipeBuilder.newBuilder("mythinfus136","mythic_processor_infuser",2);
+mythinfus136.addEnergyPerTickInput(1000000);
+mythinfus136.addFluidInput(<fluid:cloudy_oil>*1000);
+mythinfus136.addItemInput(<minecraft:glass_bottle>*1);
+mythinfus136.addItemOutput(<contenttweaker:cloudy_oil_bottle>);
+mythinfus136.build();
+
+val mythinfus137 = RecipeBuilder.newBuilder("mythinfus137","mythic_processor_infuser",2);
+mythinfus137.addEnergyPerTickInput(1000000);
+mythinfus137.addFluidInput(<fluid:acacia_resin>*1000);
+mythinfus137.addItemInput(<minecraft:glass_bottle>*1);
+mythinfus137.addItemOutput(<contenttweaker:acacia_resin_bottle>);
+mythinfus137.build();
+
+val mythinfus138 = RecipeBuilder.newBuilder("mythinfus138","mythic_processor_infuser",2);
+mythinfus138.addEnergyPerTickInput(1000000);
+mythinfus138.addFluidInput(<fluid:liquid_witchcraft>*1000);
+mythinfus138.addItemInput(<minecraft:glass_bottle>*1);
+mythinfus138.addItemOutput(<contenttweaker:liquid_witchcraft_bottle>);
+mythinfus138.build();
+
+val mythinfus139 = RecipeBuilder.newBuilder("mythinfus139","mythic_processor_infuser",2);
+mythinfus139.addEnergyPerTickInput(1000000);
+mythinfus139.addFluidInput(<fluid:cleansing_balm>*1000);
+mythinfus139.addItemInput(<minecraft:glass_bottle>*1);
+mythinfus139.addItemOutput(<contenttweaker:cleansing_balm_bottle>);
+mythinfus139.build();
+
+val mythinfus140 = RecipeBuilder.newBuilder("mythinfus140","mythic_processor_infuser",2);
+mythinfus140.addEnergyPerTickInput(1000000);
+mythinfus140.addFluidInput(<fluid:demonic_elixir>*1000);
+mythinfus140.addItemInput(<minecraft:glass_bottle>*1);
+mythinfus140.addItemOutput(<contenttweaker:demonic_elixir_bottle>);
+mythinfus140.build();
+
+val mythinfus141 = RecipeBuilder.newBuilder("mythinfus141","mythic_processor_infuser",2);
+mythinfus141.addEnergyPerTickInput(1000000);
+mythinfus141.addFluidInput(<fluid:fiery_unguent>*1000);
+mythinfus141.addItemInput(<minecraft:glass_bottle>*1);
+mythinfus141.addItemOutput(<contenttweaker:fiery_unguent_bottle>);
+mythinfus141.build();
+
+val mythinfus142 = RecipeBuilder.newBuilder("mythinfus142","mythic_processor_infuser",2);
+mythinfus142.addEnergyPerTickInput(1000000);
+mythinfus142.addFluidInput(<fluid:swirl_of_depths>*1000);
+mythinfus142.addItemInput(<minecraft:glass_bottle>*1);
+mythinfus142.addItemOutput(<contenttweaker:swirl_depths_bottle>);
+mythinfus142.build();
+
+val mythinfus143 = RecipeBuilder.newBuilder("mythinfus143","mythic_processor_infuser",2);
+mythinfus143.addEnergyPerTickInput(1000000);
+mythinfus143.addFluidInput(<fluid:otherworldly_tears>*1000);
+mythinfus143.addItemInput(<minecraft:glass_bottle>*1);
+mythinfus143.addItemOutput(<contenttweaker:otherwordly_tears_bottle>);
+mythinfus143.build();
+
+val mythinfus144 = RecipeBuilder.newBuilder("mythinfus144","mythic_processor_infuser",2);
+mythinfus144.addEnergyPerTickInput(1000000);
+mythinfus144.addFluidInput(<fluid:heaven_extract>*1000);
+mythinfus144.addItemInput(<minecraft:glass_bottle>*1);
+mythinfus144.addItemOutput(<contenttweaker:heaven_extract_bottle>);
+mythinfus144.build();
+
+val mythinfus145 = RecipeBuilder.newBuilder("mythinfus145","mythic_processor_infuser",2);
+mythinfus145.addEnergyPerTickInput(1000000);
+mythinfus145.addFluidInput(<fluid:stone_ichor>*1000);
+mythinfus145.addItemInput(<minecraft:glass_bottle>*1);
+mythinfus145.addItemOutput(<contenttweaker:stone_ichor_bottle>);
+mythinfus145.build();
+
+val mythinfus146 = RecipeBuilder.newBuilder("mythinfus146","mythic_processor_infuser",2);
+mythinfus146.addEnergyPerTickInput(1000000);
+mythinfus146.addFluidInput(<fluid:tear_of_nature>*1000);
+mythinfus146.addItemInput(<minecraft:glass_bottle>*1);
+mythinfus146.addItemOutput(<contenttweaker:tear_of_nature_bottle>);
+mythinfus146.build();
+
+val mythinfus147 = RecipeBuilder.newBuilder("mythinfus147","mythic_processor_infuser",2);
+mythinfus147.addEnergyPerTickInput(1000000);
+mythinfus147.addFluidInput(<fluid:distillate_of_levity>*16000);
+mythinfus147.addItemInput(<openblocks:tank>);
+mythinfus147.addItemOutput(<openblocks:tank>.withTag({tank: {FluidName: "distillate_of_levity", Amount: 16000}}));
+mythinfus147.build();
 
 
 
@@ -1259,6 +1460,232 @@ mythextrac34.addFluidOutput(<fluid:energetic_ogerite>*1000);
 mythextrac34.build();
 
 
+val mythextrac35 = RecipeBuilder.newBuilder("mythextrac35","mythic_processor_infuser",2);
+mythextrac35.addEnergyPerTickInput(1000000);
+mythextrac35.addItemInput(<bewitchment:oak_spirit>);
+mythextrac35.addItemOutput(<bewitchment:empty_jar>);
+mythextrac35.addFluidOutput(<fluid:oak_spirit>*1000);
+mythextrac35.build();
+
+val mythextrac36 = RecipeBuilder.newBuilder("mythextrac36","mythic_processor_infuser",2);
+mythextrac36.addEnergyPerTickInput(1000000);
+mythextrac36.addItemInput(<bewitchment:spruce_heart>);
+mythextrac36.addItemOutput(<bewitchment:empty_jar>);
+mythextrac36.addFluidOutput(<fluid:spruce_heart>*1000);
+mythextrac36.build();
+
+val mythextrac37 = RecipeBuilder.newBuilder("mythextrac37","mythic_processor_infuser",2);
+mythextrac37.addEnergyPerTickInput(1000000);
+mythextrac37.addItemInput(<bewitchment:cloudy_oil>);
+mythextrac37.addItemOutput(<bewitchment:empty_jar>);
+mythextrac37.addFluidOutput(<fluid:cloudy_oil>*1000);
+mythextrac37.build();
+
+val mythextrac38 = RecipeBuilder.newBuilder("mythextrac38","mythic_processor_infuser",2);
+mythextrac38.addEnergyPerTickInput(1000000);
+mythextrac38.addItemInput(<bewitchment:acacia_resin>);
+mythextrac38.addItemOutput(<bewitchment:empty_jar>);
+mythextrac38.addFluidOutput(<fluid:acacia_resin>*1000);
+mythextrac38.build();
+
+val mythextrac39 = RecipeBuilder.newBuilder("mythextrac39","mythic_processor_infuser",2);
+mythextrac39.addEnergyPerTickInput(1000000);
+mythextrac39.addItemInput(<bewitchment:liquid_witchcraft>);
+mythextrac39.addItemOutput(<bewitchment:empty_jar>);
+mythextrac39.addFluidOutput(<fluid:liquid_witchcraft>*1000);
+mythextrac39.build();
+
+val mythextrac40 = RecipeBuilder.newBuilder("mythextrac40","mythic_processor_infuser",2);
+mythextrac40.addEnergyPerTickInput(1000000);
+mythextrac40.addItemInput(<bewitchment:ebb_of_death>);
+mythextrac40.addItemOutput(<bewitchment:empty_jar>);
+mythextrac40.addFluidOutput(<fluid:ebb_of_death>*1000);
+mythextrac40.build();
+
+val mythextrac41 = RecipeBuilder.newBuilder("mythextrac41","mythic_processor_infuser",2);
+mythextrac41.addEnergyPerTickInput(1000000);
+mythextrac41.addItemInput(<bewitchment:droplet_of_wisdom>);
+mythextrac41.addItemOutput(<bewitchment:empty_jar>);
+mythextrac41.addFluidOutput(<fluid:droplet_of_wisdom>*1000);
+mythextrac41.build();
+
+val mythextrac42 = RecipeBuilder.newBuilder("mythextrac42","mythic_processor_infuser",2);
+mythextrac42.addEnergyPerTickInput(1000000);
+mythextrac42.addItemInput(<bewitchment:essence_of_vitality>);
+mythextrac42.addItemOutput(<bewitchment:empty_jar>);
+mythextrac42.addFluidOutput(<fluid:essence_of_vitality>*1000);
+mythextrac42.build();
+
+val mythextrac43 = RecipeBuilder.newBuilder("mythextrac43","mythic_processor_infuser",2);
+mythextrac43.addEnergyPerTickInput(1000000);
+mythextrac43.addItemInput(<bewitchment:cleansing_balm>);
+mythextrac43.addItemOutput(<bewitchment:empty_jar>);
+mythextrac43.addFluidOutput(<fluid:cleansing_balm>*1000);
+mythextrac43.build();
+
+val mythextrac44 = RecipeBuilder.newBuilder("mythextrac44","mythic_processor_infuser",2);
+mythextrac44.addEnergyPerTickInput(1000000);
+mythextrac44.addItemInput(<bewitchment:demonic_elixir>);
+mythextrac44.addItemOutput(<bewitchment:empty_jar>);
+mythextrac44.addFluidOutput(<fluid:demonic_elixir>*1000);
+mythextrac44.build();
+
+val mythextrac45 = RecipeBuilder.newBuilder("mythextrac45","mythic_processor_infuser",2);
+mythextrac45.addEnergyPerTickInput(1000000);
+mythextrac45.addItemInput(<bewitchment:fiery_unguent>);
+mythextrac45.addItemOutput(<bewitchment:empty_jar>);
+mythextrac45.addFluidOutput(<fluid:fiery_unguent>*1000);
+mythextrac45.build();
+
+val mythextrac46 = RecipeBuilder.newBuilder("mythextrac46","mythic_processor_infuser",2);
+mythextrac46.addEnergyPerTickInput(1000000);
+mythextrac46.addItemInput(<bewitchment:swirl_of_depths>);
+mythextrac46.addItemOutput(<bewitchment:empty_jar>);
+mythextrac46.addFluidOutput(<fluid:swirl_of_depths>*1000);
+mythextrac46.build();
+
+val mythextrac47 = RecipeBuilder.newBuilder("mythextrac47","mythic_processor_infuser",2);
+mythextrac47.addEnergyPerTickInput(1000000);
+mythextrac47.addItemInput(<bewitchment:oil_of_vitriol>);
+mythextrac47.addItemOutput(<bewitchment:empty_jar>);
+mythextrac47.addFluidOutput(<fluid:oil_of_vitriol>*1000);
+mythextrac47.build();
+
+val mythextrac48 = RecipeBuilder.newBuilder("mythextrac48","mythic_processor_infuser",2);
+mythextrac48.addEnergyPerTickInput(1000000);
+mythextrac48.addItemInput(<bewitchment:otherworldly_tears>);
+mythextrac48.addItemOutput(<bewitchment:empty_jar>);
+mythextrac48.addFluidOutput(<fluid:otherworldly_tears>*1000);
+mythextrac48.build();
+
+val mythextrac49 = RecipeBuilder.newBuilder("mythextrac49","mythic_processor_infuser",2);
+mythextrac49.addEnergyPerTickInput(1000000);
+mythextrac49.addItemInput(<bewitchment:heaven_extract>);
+mythextrac49.addItemOutput(<bewitchment:empty_jar>);
+mythextrac49.addFluidOutput(<fluid:heaven_extract>*1000);
+mythextrac49.build();
+
+val mythextrac50 = RecipeBuilder.newBuilder("mythextrac50","mythic_processor_infuser",2);
+mythextrac50.addEnergyPerTickInput(1000000);
+mythextrac50.addItemInput(<bewitchment:stone_ichor>);
+mythextrac50.addItemOutput(<bewitchment:empty_jar>);
+mythextrac50.addFluidOutput(<fluid:stone_ichor>*1000);
+mythextrac50.build();
+
+val mythextrac51 = RecipeBuilder.newBuilder("mythextrac51","mythic_processor_infuser",2);
+mythextrac51.addEnergyPerTickInput(1000000);
+mythextrac51.addItemInput(<bewitchment:birch_soul>);
+mythextrac51.addItemOutput(<bewitchment:empty_jar>);
+mythextrac51.addFluidOutput(<fluid:birch_soul>*1000);
+mythextrac51.build();
+
+val mythextrac52 = RecipeBuilder.newBuilder("mythextrac52","mythic_processor_infuser",2);
+mythextrac52.addEnergyPerTickInput(1000000);
+mythextrac52.addItemInput(<bewitchment:bottled_hellfire>);
+mythextrac52.addItemOutput(<minecraft:glass_bottle>);
+mythextrac52.addFluidOutput(<fluid:hellfire>*1000);
+mythextrac52.build();
+
+val mythextrac53 = RecipeBuilder.newBuilder("mythextrac53","mythic_processor_infuser",2);
+mythextrac53.addEnergyPerTickInput(1000000);
+mythextrac53.addItemInput(<contenttweaker:cloudy_oil_bottle>);
+mythextrac53.addItemOutput(<minecraft:glass_bottle>);
+mythextrac53.addFluidOutput(<fluid:cloudy_oil>*1000);
+mythextrac53.build();
+
+val mythextrac54 = RecipeBuilder.newBuilder("mythextrac54","mythic_processor_infuser",2);
+mythextrac54.addEnergyPerTickInput(1000000);
+mythextrac54.addItemInput(<contenttweaker:acacia_resin_bottle>);
+mythextrac54.addItemOutput(<minecraft:glass_bottle>);
+mythextrac54.addFluidOutput(<fluid:acacia_resin>*1000);
+mythextrac54.build();
+
+val mythextrac55 = RecipeBuilder.newBuilder("mythextrac55","mythic_processor_infuser",2);
+mythextrac55.addEnergyPerTickInput(1000000);
+mythextrac55.addItemInput(<contenttweaker:liquid_witchcraft_bottle>);
+mythextrac55.addItemOutput(<minecraft:glass_bottle>);
+mythextrac55.addFluidOutput(<fluid:liquid_witchcraft>*1000);
+mythextrac55.build();
+
+val mythextrac56 = RecipeBuilder.newBuilder("mythextrac56","mythic_processor_infuser",2);
+mythextrac56.addEnergyPerTickInput(1000000);
+mythextrac56.addItemInput(<contenttweaker:cleansing_balm_bottle>);
+mythextrac56.addItemOutput(<minecraft:glass_bottle>);
+mythextrac56.addFluidOutput(<fluid:cleansing_balm>*1000);
+mythextrac56.build();
+
+val mythextrac57 = RecipeBuilder.newBuilder("mythextrac57","mythic_processor_infuser",2);
+mythextrac57.addEnergyPerTickInput(1000000);
+mythextrac57.addItemInput(<contenttweaker:demonic_elixir_bottle>);
+mythextrac57.addItemOutput(<minecraft:glass_bottle>);
+mythextrac57.addFluidOutput(<fluid:demonic_elixir>*1000);
+mythextrac57.build();
+
+val mythextrac58 = RecipeBuilder.newBuilder("mythextrac58","mythic_processor_infuser",2);
+mythextrac58.addEnergyPerTickInput(1000000);
+mythextrac58.addItemInput(<contenttweaker:fiery_unguent_bottle>);
+mythextrac58.addItemOutput(<minecraft:glass_bottle>);
+mythextrac58.addFluidOutput(<fluid:fiery_unguent>*1000);
+mythextrac58.build();
+
+val mythextrac59 = RecipeBuilder.newBuilder("mythextrac59","mythic_processor_infuser",2);
+mythextrac59.addEnergyPerTickInput(1000000);
+mythextrac59.addItemInput(<contenttweaker:swirl_depths_bottle>);
+mythextrac59.addItemOutput(<minecraft:glass_bottle>);
+mythextrac59.addFluidOutput(<fluid:swirl_of_depths>*1000);
+mythextrac59.build();
+
+val mythextrac60 = RecipeBuilder.newBuilder("mythextrac60","mythic_processor_infuser",2);
+mythextrac60.addEnergyPerTickInput(1000000);
+mythextrac60.addItemInput(<contenttweaker:otherwordly_tears_bottle>);
+mythextrac60.addItemOutput(<minecraft:glass_bottle>);
+mythextrac60.addFluidOutput(<fluid:otherworldly_tears>*1000);
+mythextrac60.build();
+
+val mythextrac61 = RecipeBuilder.newBuilder("mythextrac61","mythic_processor_infuser",2);
+mythextrac61.addEnergyPerTickInput(1000000);
+mythextrac61.addItemInput(<contenttweaker:heaven_extract_bottle>);
+mythextrac61.addItemOutput(<minecraft:glass_bottle>);
+mythextrac61.addFluidOutput(<fluid:heaven_extract>*1000);
+mythextrac61.build();
+
+val mythextrac62 = RecipeBuilder.newBuilder("mythextrac62","mythic_processor_infuser",2);
+mythextrac62.addEnergyPerTickInput(1000000);
+mythextrac62.addItemInput(<contenttweaker:stone_ichor_bottle>);
+mythextrac62.addItemOutput(<minecraft:glass_bottle>);
+mythextrac62.addFluidOutput(<fluid:stone_ichor>*1000);
+mythextrac62.build();
+
+val mythextrac63 = RecipeBuilder.newBuilder("mythextrac63","mythic_processor_infuser",2);
+mythextrac63.addEnergyPerTickInput(1000000);
+mythextrac63.addItemInput(<contenttweaker:tear_of_nature_bottle>);
+mythextrac63.addItemOutput(<minecraft:glass_bottle>);
+mythextrac63.addFluidOutput(<fluid:tear_of_nature>*1000);
+mythextrac63.build();
+
+val mythextrac64 = RecipeBuilder.newBuilder("mythextrac64","mythic_processor_infuser",2);
+mythextrac64.addEnergyPerTickInput(1000000);
+mythextrac64.addItemInput(<openblocks:tank>.withTag({tank: {FluidName: "essence_of_sane_thoughts", Amount: 16000}}));
+mythextrac64.addItemOutput(<openblocks:tank>);
+mythextrac64.addFluidOutput(<fluid:essence_of_sane_thoughts>*16000);
+mythextrac64.build();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1435,6 +1862,7 @@ mythenrich24.build();
 val mythenrich25 = RecipeBuilder.newBuilder("mythenrich25","mythic_processor_infuser",2);
 mythenrich25.addEnergyPerTickInput(1000000);
 mythenrich25.addItemInput(<contenttweaker:neutronium_pearl>*1);
+mythenrich25.addItemInput(<contenttweaker:cosmic_string_primer>*1);
 mythenrich25.addFluidInput(<fluid:molten_hassium_alloy>*100000);
 mythenrich25.addFluidOutput(<fluid:neutrhassium_alloy>*100000);
 mythenrich25.build();
@@ -1693,7 +2121,6 @@ mythenrich61.addItemInput(<contenttweaker:actualization_aspected_eleint_scale>);
 mythenrich61.addFluidInput(<fluid:actualizing_fluid>*1000);
 mythenrich61.addFluidOutput(<fluid:breath_of_actualization>*1000);
 mythenrich61.build();
-
 
 
 

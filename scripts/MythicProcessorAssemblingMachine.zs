@@ -503,7 +503,7 @@ mythassmac65.build();
 
 val mythassmac66 = RecipeBuilder.newBuilder("mythassmac66","mythic_processor_assembling_machine",2);
 mythassmac66.addEnergyPerTickInput(40000);
-mythassmac66.addItemInput(<techreborn:plates>*4);
+mythassmac66.addItemInput(<techreborn:plates:36>*4);
 mythassmac66.addItemInput(<libvulpes:productrod:6>*48);
 mythassmac66.addItemOutput(<advancedrocketry:structuretower>*4);
 mythassmac66.build();

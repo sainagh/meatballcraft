@@ -135,3 +135,30 @@ recipes.addShaped(<contenttweaker:lively_tree_callstone>,
 [<tardis:gallifreyan_stone>, <contenttweaker:everburning_seed>, <tardis:gallifreyan_stone>],
 [<contenttweaker:infinity_egg>, <tardis:gallifreyan_stone>, <contenttweaker:infinity_egg>]]);
 
+
+
+recipes.addShaped(<deepmoblearning:data_model_sunstorm>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_sunstorm>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_termasect>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_termasect>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_eternalarcher>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_eternalarcher>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_experiencedcori>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_experiencedcori>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+
+recipes.addShaped(<deepmoblearning:data_model_beastsofmortum>.withTag({tier: 4, totalKillCount: 1300, dataCount: 0}),
+[[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <deepmoblearning:data_model_beastsofmortum>, <gendustry:honey_comb:14018>],
+[<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
+

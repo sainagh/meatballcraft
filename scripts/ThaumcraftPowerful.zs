@@ -218,3 +218,10 @@ mods.thaumcraft.Infusion.registerRecipe("combinealtarscrabinf", "",
 <crimsonwarfare:boss_activator>, <crimsonwarfare:boss_activator>, 
 <crimsonwarfare:boss_activator>, <crimsonwarfare:boss_activator>, 
 <crimsonwarfare:boss_activator>, <crimsonwarfare:boss_activator>]);
+
+
+
+recipes.addShaped(<minecraft:bedrock>*8,
+[[<divinerpg:bedrock_chunk>, <minecraft:bedrock>, <divinerpg:bedrock_chunk>],
+[<minecraft:bedrock>, <thaumcraft:elemental_pick>, <minecraft:bedrock>],
+[<divinerpg:bedrock_chunk>, <minecraft:bedrock>, <divinerpg:bedrock_chunk>]]);

@@ -22,7 +22,7 @@ mods.abyssalcraft.Crystallizer.addCrystallization(<contenttweaker:cosmic_fragmen
 
 mods.abyssalcraft.Crystallizer.addCrystallization(<contenttweaker:cosmic_fragment_dread>, <abyssalcraft:crystal:14> * 64, <abyssalcraft:crystal:15> * 64, 0.5);
 
-mods.abyssalcraft.Crystallizer.addCrystallization(<contenttweaker:cosmic_fragment_tin>, <abyssalcraft:crystal:64> * 64, <abyssalcraft:crystal:64> * 64, 0.5);
+mods.abyssalcraft.Crystallizer.addCrystallization(<contenttweaker:cosmic_fragment_tin>, <abyssalcraft:crystal:16> * 64, <abyssalcraft:crystal:16> * 64, 0.5);
 
 mods.abyssalcraft.Crystallizer.addCrystallization(<contenttweaker:cosmic_fragment_copper>, <abyssalcraft:crystal:17> * 64, <abyssalcraft:crystal:17> * 64, 0.5);
 

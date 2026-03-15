@@ -1316,6 +1316,8 @@ breathofactualization.register();
 
 
 
+var distillateoflevity = VanillaFactory.createFluid("distillate_of_levity", Color.fromHex("82a88c"));
+distillateoflevity.register();
 
 
 

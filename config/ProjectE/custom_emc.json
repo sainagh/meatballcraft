@@ -23295,6 +23295,10 @@
     {
       "item": "contenttweaker:beekeper_archive|0",
       "emc": 100
+    },
+    {
+      "item": "contenttweaker:strange_stone_essence|0",
+      "emc": 0
     }
   ]
 }

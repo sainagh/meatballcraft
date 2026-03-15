@@ -917,7 +917,7 @@ recipes.addShaped(<cells:compressed_logic_print:3>,
 
 
 recipes.removeShaped(<cells:compressed_silicon_print:0>);
-recipes.addShaped(<cells:compressed_logic_print:0>,
+recipes.addShaped(<cells:compressed_silicon_print:0>,
 [[<appliedenergistics2:material:20>, <appliedenergistics2:material:20>, <appliedenergistics2:material:20>],
 [<appliedenergistics2:material:20>, <minecraft:redstone>, <appliedenergistics2:material:20>],
 [<appliedenergistics2:material:20>, <appliedenergistics2:material:20>, <appliedenergistics2:material:20>]]);
@@ -974,4 +974,49 @@ recipes.addShaped(<contenttweaker:monouse_universal_press>,
 [[<mysticalagriculture:certus_quartz_essence>, <appliedenergistics2:material:15>, <mysticalagriculture:certus_quartz_essence>],
 [<appliedenergistics2:material:19>, <extrabees:honey_comb:81>, <appliedenergistics2:material:14>],
 [<mysticalagriculture:certus_quartz_essence>, <appliedenergistics2:material:13>, <mysticalagriculture:certus_quartz_essence>]]);
+
+
+recipes.addShapeless(<ae2stuff:wireless_hub:1>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeWhite>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:2>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeOrange>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:3>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeMagenta>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:4>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeLightBlue>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:5>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeYellow>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:6>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeLime>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:7>,
+[<ae2stuff:wireless_hub:*>, <ore:dyePink>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:8>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeGray>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:9>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeLightGray>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:10>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeCyan>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:11>,
+[<ae2stuff:wireless_hub:*>, <ore:dyePurple>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:12>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeBlue>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:13>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeBrown>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:14>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeGreen>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:15>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeRed>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:16>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeBlack>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:0>,
+[<ae2stuff:wireless_hub:*>, <minecraft:water_bucket>]);
+
+
+
+
+
+
+
+
+
 

@@ -810,6 +810,13 @@ recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "essence_of_sane_thou
 [makeVisCrystal(<aspect:cognitio> * 1), <forge:bucketfilled>.withTag({FluidName: "vapor_of_levity", Amount: 1000}), makeVisCrystal(<aspect:cognitio> * 1)],
 [<thaumictinkerer:kamiresource:3>, <botania:incensestick>.withTag({brewKey: "warpWard"}), <thaumictinkerer:kamiresource:3>]]);
 
+recipes.addShaped(<openblocks:tank>.withTag({tank: {FluidName: "essence_of_sane_thoughts", Amount: 16000}}),
+[[<thaumictinkerer:kamiresource:3>, <thaumcraft:brain_box>.withTag({display: {Name: "ᚽᛠᛇᛒᚽᛃᛒᚶᚣᚽᚤᛠᚽᚥᛊ",Lore:["§d§o真名§r"]}}), <thaumictinkerer:kamiresource:3>],
+[makeVisCrystal(<aspect:cognitio> * 1), <openblocks:tank>.withTag({tank: {FluidName: "distillate_of_levity", Amount: 16000}}), makeVisCrystal(<aspect:cognitio> * 1)],
+[<thaumictinkerer:kamiresource:3>, <botania:incensestick>.withTag({brewKey: "warpWard"}), <thaumictinkerer:kamiresource:3>]]);
+
+
+
 recipes.addShaped(<thaumcraft:mechanism_simple>*4,
 [[<aoa3:carved_rune_travel>, <aoa3:rusted_iron_ingot>, <aoa3:carved_rune_direction>],
 [<thaumadditions:mithrillium_ingot>, <aoa3:carved_rune_power>, <ore:gearBronze>],
@@ -1865,7 +1872,7 @@ creatdonaeth7.addFluidInput(<fluid:ogerite>*409600);
 creatdonaeth7.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 7§r"]}}));
 creatdonaeth7.setChance(0.0);
 creatdonaeth7.addItemInput(<aoa3:heart_fruit>*4096);
-creatdonaeth7.addItemInput(<bewitchment:garnet>*14096024);
+creatdonaeth7.addItemInput(<bewitchment:garnet>*4096);
 creatdonaeth7.addFluidOutput(<fluid:whisper_of_donaeth_rusen>*1000000);
 creatdonaeth7.build();
 

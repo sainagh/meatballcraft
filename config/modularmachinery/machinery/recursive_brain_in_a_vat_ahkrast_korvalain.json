@@ -1705,7 +1705,7 @@
             "y": 0,
             "z": 14,
             "elements": [
-                "modularmachinery:blockmefluidoutputbus"
+                "generalized_output_fluid"
             ]
         },
         {

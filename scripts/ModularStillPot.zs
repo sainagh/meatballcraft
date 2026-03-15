@@ -351,6 +351,7 @@ mods.nuclearcraft.extractor.addRecipe([<bewitchment:otherworldly_tears>, <bewitc
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:heaven_extract>, <bewitchment:empty_jar>, <fluid:heaven_extract>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:stone_ichor>, <bewitchment:empty_jar>, <fluid:stone_ichor>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:bottled_hellfire>, <minecraft:glass_bottle>, <fluid:hellfire>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:birch_soul>, <bewitchment:empty_jar>, <fluid:birch_soul>*1000]);
 
 
 
@@ -364,6 +365,7 @@ mods.nuclearcraft.extractor.addRecipe([<contenttweaker:swirl_depths_bottle>, <mi
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:otherwordly_tears_bottle>, <minecraft:glass_bottle>, <fluid:otherworldly_tears>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:heaven_extract_bottle>, <minecraft:glass_bottle>, <fluid:heaven_extract>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:stone_ichor_bottle>, <minecraft:glass_bottle>, <fluid:stone_ichor>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:tear_of_nature_bottle>, <minecraft:glass_bottle>, <fluid:tear_of_nature>*1000]);
 
 
 
@@ -385,6 +387,7 @@ mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:oil_of_vitr
 mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:otherworldly_tears>*1000, <bewitchment:otherworldly_tears>]);
 mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:heaven_extract>*1000, <bewitchment:heaven_extract>]);
 mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:stone_ichor>*1000, <bewitchment:stone_ichor>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:birch_soul>*1000, <bewitchment:birch_soul>]);
 
 
 
@@ -398,6 +401,7 @@ mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:swirl_of_d
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:otherworldly_tears>*1000, <contenttweaker:otherwordly_tears_bottle>]);
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:heaven_extract>*1000, <contenttweaker:heaven_extract_bottle>]);
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:stone_ichor>*1000, <contenttweaker:stone_ichor_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:tear_of_nature>*1000, <contenttweaker:tear_of_nature_bottle>]);
 
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:pyrotheum>*1000, <contenttweaker:bottle_of_pyrotheum>]);
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:petrotheum>*1000, <contenttweaker:bottle_of_petrotheum>]);
