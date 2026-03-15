@@ -38,7 +38,7 @@
 
 <contenttweaker:paparazzi_camera>.addTooltip(format.red("右击解锁额外植物学模组的强力遗物"));
 
-<extrabotany:buddhistrelics>.addTooltip(format.red("使用狗仔队相机来解锁该物品"));
+<extrabotany:buddhistrelics>.addTooltip(format.red("使用星辉真解来解锁该物品"));
 <extrabotany:camera>.addTooltip(format.red("使用狗仔队相机来解锁该物品"));
 
 <contenttweaker:pixonia_infusion_key>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
@@ -686,7 +686,7 @@
 <contenttweaker:ordo_vis_condensate>.addTooltip(format.red("感谢NerdySpider绘制的要素聚合物纹理！"));
 <contenttweaker:perditio_vis_condensate>.addTooltip(format.red("感谢NerdySpider绘制的要素聚合物纹理！"));
 
-<contenttweaker:cotton_candy_withering_spray>.addTooltip(format.red("右击糖果巨人对其造成600点伤害，需使用5次"));
+<contenttweaker:cotton_candy_withering_spray>.addTooltip(format.red("右击糖果巨人对其造成1000点伤害，需使用3次"));
 
 <contenttweaker:starlight_sphere>.addTooltip(format.red("只有法咒主宰才能获得！"));
 <contenttweaker:lively_twilight_gem>.addTooltip(format.red("只有法咒主宰才能获得！"));
@@ -1846,7 +1846,6 @@
 
 <divinerpg:serenade_striker>.addTooltip(format.green("在磨珠配方中可重复使用"));
 
-<contenttweaker:multithreading_controller_upgrade>.addTooltip(format.red("一些多方块可以用集成控制器替换普通控制器，以获得10线程并行处理能力"));
 
 <contenttweaker:mark_of_the_samurai>.addTooltip(format.red("ChaotikKiller犯了个小错"));
 
@@ -2193,13 +2192,9 @@
 <contenttweaker:diary_of_a_realmshifter>.addTooltip(format.red("要避免该情况，每次切换维度时等待30秒"));
 
 
-<threng:machine:4>.addTooltip(format.red("注意：若存在于AE2主网络中，仍可能造成卡顿"));
-<threng:machine:4>.addTooltip(format.red("但在某些子网设置中依旧很实用"));
-<threng:machine:4>.addTooltip(format.red("感谢kurrycat对其性能的优化"));
+<threng:machine:4>.addTooltip(format.red("注意：该方块已弃用，请转用更好的缓存指令器"));
+<ae2fc:fluid_level_maintainer>.addTooltip(format.red("注意：该方块已弃用，请转用更好的缓存指令器"));
 
-<ae2fc:fluid_level_maintainer>.addTooltip(format.red("注意：若存在于AE2主网络中，仍可能造成卡顿"));
-<ae2fc:fluid_level_maintainer>.addTooltip(format.red("但在某些子网设置中依旧很实用"));
-<ae2fc:fluid_level_maintainer>.addTooltip(format.red("感谢kurrycat对其性能的优化"));
 
 <contenttweaker:warren_creation_fabrial>.addTooltip(format.red("跃迁器"));
 <contenttweaker:warren_creation_fabrial>.addTooltip(format.red("站在JEI中显示的结构中心来激活"));
@@ -2491,11 +2486,6 @@
 <contenttweaker:sacred_cinders_apiary>.addTooltip(format.red("手动放置你喜欢的浮空花"));
 
 
-<supersoundmuffler:sound_muffler>.addTooltip(format.red("注意：会造成卡顿，后续可能会从整合包中移除"));
-<supersoundmuffler:sound_muffler>.addTooltip(format.red("可使用物品栏界面的“Muffler”按钮来关闭特定声音"));
-
-<supersoundmuffler:sound_muffler_bauble>.addTooltip(format.red("注意：会造成卡顿，后续可能会从整合包中移除"));
-<supersoundmuffler:sound_muffler_bauble>.addTooltip(format.red("可使用物品栏界面的“Muffler”按钮来关闭特定声音"));
 
 <appliedenergistics2:part:261>.addTooltip(format.red("感谢Alecsio在ME流体处理方面的帮助！"));
 
@@ -2684,9 +2674,6 @@
 
 
 
-<malisisdoors:door_factory>.addTooltip(format.red("警告：Malisis模组的门很卡，可能会在将来的更新中被移除"));
-<malisisdoors:garage_door>.addTooltip(format.red("警告：Malisis模组的门很卡，可能会在将来的更新中被移除"));
-
 <contenttweaker:charged_signalum>.addTooltip(format.red("通量链接集合升级会很有用"));
 
 <rf-capability-adapter:aecapabilityadapter>.addTooltip(format.red("警告：不要与任何非压缩空间机械的方块相邻放置"));
@@ -2785,7 +2772,6 @@
 <aether_legacy:valkyrie_leggings>.addTooltip(format.green("可重复使用"));
 <aether_legacy:valkyrie_boots>.addTooltip(format.green("可重复使用"));
 
-<contenttweaker:blade_of_the_samurai_queen>.addTooltip(format.green("可重复使用"));
 
 <modularmachineryaddons:blockmeteorprovideroutput>.addTooltip(format.red("注意：要避免陨石造成的破坏，在输出仓上方10到15格放置一个方块（随便哪种你喜欢的就行）"));
 <modularmachineryaddons:blockmeteorprovideroutput>.addTooltip(format.red("要进行自动化，确保自动挖掘系统不会破坏你放置的方块，并确保陨石不会生成该方块"));
@@ -2927,8 +2913,6 @@
 <contenttweaker:high_capacity_heat_exchanger>.addTooltip(format.red("如果你的熔盐反应堆很大（超级大），可使用该物品"));
 
 <advancedrocketry:oxygencharger>.addTooltip(format.red("警告：若破坏该方块，气体装填台内的物品可能会被删除"));
-
-<contenttweaker:arcane_terraformer_noob>.addTooltip(format.red("如果实在搞不明白铼界的生物群系谜题，可使用该物品"));
 
 <botania:manaresource:9>.addTooltip(format.red("注意：后续有能直接合成整块的更好配方"));
 <botania:manaresource:7>.addTooltip(format.red("注意：后续有能直接合成整块的更好配方"));

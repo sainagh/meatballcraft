@@ -43,7 +43,7 @@ castcons7.addItemOutput(<contenttweaker:impetus_gemstone>);
 castcons7.build();
 
 val castcons8 = RecipeBuilder.newBuilder("castcons8","seared_caster",20);
-castcons8.addFluidInput(<fluid:nothing>*6400);
+castcons8.addFluidInput(<fluid:nothing>*3000);
 castcons8.addItemInput(<contenttweaker:vacuos_vis_condensate>);
 castcons8.addItemOutput(<contenttweaker:pure_void>*64);
 castcons8.build();
@@ -54,6 +54,44 @@ castcons9.addFluidInput(<fluid:infinity>*144000);
 castcons9.addItemInput(<contenttweaker:kanohi_mask>);
 castcons9.addItemOutput(<contenttweaker:infinite_mask_stamp>);
 castcons9.build();
+
+val castcons10 = RecipeBuilder.newBuilder("castcons10","seared_caster",20);
+castcons10.addFluidInput(<fluid:protodermis>*1);
+castcons10.addItemInput(<contenttweaker:divine_star>*1);
+castcons10.addItemOutput(<contenttweaker:bionic_divine_star>*1);
+castcons10.build();
+
+val castcons11 = RecipeBuilder.newBuilder("castcons11","seared_caster",20);
+castcons11.addFluidInput(<fluid:protodermis>*1);
+castcons11.addItemInput(<contenttweaker:eden_star>*1);
+castcons11.addItemOutput(<contenttweaker:bionic_eden_star>*1);
+castcons11.build();
+
+val castcons12 = RecipeBuilder.newBuilder("castcons12","seared_caster",20);
+castcons12.addFluidInput(<fluid:protodermis>*1);
+castcons12.addItemInput(<contenttweaker:wildwood_star>*1);
+castcons12.addItemOutput(<contenttweaker:bionic_wildwood_star>*1);
+castcons12.build();
+
+val castcons13 = RecipeBuilder.newBuilder("castcons13","seared_caster",20);
+castcons13.addFluidInput(<fluid:protodermis>*1);
+castcons13.addItemInput(<contenttweaker:apalachia_star>*1);
+castcons13.addItemOutput(<contenttweaker:bionic_apalachia_star>*1);
+castcons13.build();
+
+val castcons14 = RecipeBuilder.newBuilder("castcons14","seared_caster",20);
+castcons14.addFluidInput(<fluid:protodermis>*1);
+castcons14.addItemInput(<contenttweaker:skythern_star>*1);
+castcons14.addItemOutput(<contenttweaker:bionic_skythern_star>*1);
+castcons14.build();
+
+val castcons15 = RecipeBuilder.newBuilder("castcons15","seared_caster",20);
+castcons15.addFluidInput(<fluid:protodermis>*1);
+castcons15.addItemInput(<contenttweaker:mortum_star>*1);
+castcons15.addItemOutput(<contenttweaker:bionic_mortum_star>*1);
+castcons15.build();
+
+
 
 
 
@@ -428,6 +466,19 @@ castcouch52.addItemOutput(<nuclearcraft:compound:0>);
 castcouch52.build();
 
 
+val castcouch53 = RecipeBuilder.newBuilder("castcouch53","seared_caster",20);
+castcouch53.addFluidInput(<fluid:molten_adamantium>*432);
+castcouch53.addItemInput(<tconstruct:cast>.withTag({PartType: "tconstruct:tough_tool_rod"}));
+castcouch53.setChance(0.0);
+castcouch53.addItemOutput(<tconstruct:tough_tool_rod>.withTag({Material: "adamantium"}));
+castcouch53.build();
+
+val castcouch54 = RecipeBuilder.newBuilder("castcouch54","seared_caster",20);
+castcouch54.addFluidInput(<fluid:molten_vibranium_alloy>*432);
+castcouch54.addItemInput(<tconstruct:cast>.withTag({PartType: "tconstruct:tough_tool_rod"}));
+castcouch54.setChance(0.0);
+castcouch54.addItemOutput(<tconstruct:tough_tool_rod>.withTag({Material: "vibranium_alloy"}));
+castcouch54.build();
 
 
 

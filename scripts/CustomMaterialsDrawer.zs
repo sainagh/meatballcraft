@@ -70,3 +70,12 @@ mods.storagedrawers.Compaction.add(<extendedcrafting:storage:5>, <extendedcrafti
 
 
 mods.storagedrawers.Compaction.add(<appliedenergistics2:material:46>, <enderio:item_material:28>, 9);
+
+
+recipes.addShapeless(<contenttweaker:carbon_condensate>,
+[<abyssalcraft:densecarboncluster>, <abyssalcraft:densecarboncluster>, <abyssalcraft:densecarboncluster>, <abyssalcraft:densecarboncluster>]);
+recipes.addShapeless(<abyssalcraft:densecarboncluster>*4,
+[<contenttweaker:carbon_condensate>]);
+
+mods.storagedrawers.Compaction.add(<contenttweaker:carbon_condensate>, <abyssalcraft:densecarboncluster>, 4);
+

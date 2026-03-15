@@ -1302,7 +1302,17 @@ var gluttonouslymph = VanillaFactory.createFluid("gluttonous_lymph", Color.fromH
 gluttonouslymph.register();
 
 
+var glimmerdyingconstellation = VanillaFactory.createFluid("glimmer_of_the_dying_constellation", Color.fromHex("4d4b1d"));
+glimmerdyingconstellation.register();
 
+var echosevenundeadlords = VanillaFactory.createFluid("echo_of_the_seven_undead_lords", Color.fromHex("183438"));
+echosevenundeadlords.register();
+
+var allureofthevoid = VanillaFactory.createFluid("allure_of_the_void", Color.fromHex("b0b0b0"));
+allureofthevoid.register();
+
+var breathofactualization = VanillaFactory.createFluid("breath_of_actualization", Color.fromHex("74c2bb"));
+breathofactualization.register();
 
 
 

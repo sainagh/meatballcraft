@@ -6,7 +6,12 @@ mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:dark_soul_machine_
 mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:dark_soul_machine_chassis>*2,
 [[<contenttweaker:gemenyte_dust>, <contenttweaker:fire_construct>, <contenttweaker:gemenyte_dust>],
 [<contenttweaker:jewelyte_dust>, <enderio:item_material:55>, <contenttweaker:jewelyte_dust>],
-[<contenttweaker:ornamyte_dust>, <contenttweaker:ice_construct>, <contenttweaker:ornamyte_dust>]], 6);
+[<contenttweaker:ornamyte_dust>, <contenttweaker:ice_construct>, <contenttweaker:ornamyte_dust>]], 3);
+
+mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:dark_soul_machine_chassis>*6,
+[[<contenttweaker:phasing_alloy_ingot>, <contenttweaker:fire_construct>, <contenttweaker:phasing_alloy_ingot>],
+[<enderio:item_material:55>, <enderio:item_material:55>, <enderio:item_material:55>],
+[<contenttweaker:phasing_alloy_ingot>, <contenttweaker:ice_construct>, <contenttweaker:phasing_alloy_ingot>]], 1);
 
 mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:gemenyte_dust>, <aoa3:gemenyte>, 1999);
 mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:jewelyte_dust>, <aoa3:jewelyte>, 1999);

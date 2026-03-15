@@ -1397,3 +1397,16 @@ mythpulv222.addItemInput(<contenttweaker:crying_obsidian_powder>*16);
 mythpulv222.addItemInput(<minecraft:redstone>*20);
 mythpulv222.addItemOutput(<contenttweaker:crying_redstone>*20);
 mythpulv222.build();
+
+val mythpulv223 = RecipeBuilder.newBuilder("mythpulv223","mythic_processor_pulverizer",2);
+mythpulv223.addEnergyPerTickInput(60000);
+mythpulv223.addItemInput(<extendedcrafting:singularity_custom:998>);
+mythpulv223.addItemOutput(<contenttweaker:reprocessed_cosmic_meatball>*128);
+mythpulv223.build();
+
+val mythpulv224 = RecipeBuilder.newBuilder("mythpulv224","mythic_processor_pulverizer",2);
+mythpulv224.addEnergyPerTickInput(60000);
+mythpulv224.addItemInput(<contenttweaker:hypercharged_wool>*16);
+mythpulv224.addItemInput(<minecraft:redstone>*4);
+mythpulv224.addItemOutput(<contenttweaker:hypercharged_redstone>*4);
+mythpulv224.build();

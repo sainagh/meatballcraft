@@ -95,5 +95,18 @@ erefor13.addItemInput(<contenttweaker:shard_of_nothingness>);
 erefor13.addItemOutput(<contenttweaker:shard_of_nothingness>*5);
 erefor13.build();
 
+val erefor14 = RecipeBuilder.newBuilder("erefor14","cold_iron_forge",40);
+erefor14.addItemInput(<contenttweaker:pale_metal>*4);
+erefor14.addItemInput(<contenttweaker:gem_of_the_dying_constellation>*16);
+erefor14.addItemInput(<contenttweaker:mask_of_the_free_stag>*1);
+erefor14.addItemOutput(<contenttweaker:jewel_of_pure_void>*16);
+erefor14.build();
+
+val erefor15 = RecipeBuilder.newBuilder("erefor15","cold_iron_forge",40);
+erefor15.addItemInput(<contenttweaker:whispering_meatball>);
+erefor15.setChance(0.0);
+erefor15.addItemInput(<appliedenergistics2:material:12>*64);
+erefor15.addItemOutput(<contenttweaker:possessed_fluix>*64);
+erefor15.build();
 
 

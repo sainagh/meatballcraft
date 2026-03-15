@@ -31,7 +31,10 @@ static dmg_SkeletalSword as float    = 37.0f;
 static dmg_SupremacySword as float   = 54.0f;
 static dmg_SweetSword as float       = 54.0f;
 
-// Ranged Weapons
+// staffs
+static dmg_waterStaff as float       = 300.0d;
+
+// guns and co
 static dmg_ChilliChugger as double      = 40.0d;
 static dmg_DartGun as double            = 100.0d;
 static dmg_FlamingFury as double        = 200.0d;
@@ -101,7 +104,6 @@ static dmg_HaunterRifle as double       = 850.0d;
 static dmg_Dustometer as double       = 380.0d;
 static dmg_Sublimus as double       = 1000.0d;
 static dmg_HuntersRifle as double       = 444.0d;
-
 
 
 static energyCost_WithersWrath as float = 8.0f;

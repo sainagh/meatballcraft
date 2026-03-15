@@ -111,6 +111,10 @@ recipes.addShaped(<contenttweaker:speech_of_natural_law>*2,
 [<contenttweaker:greater_gaia_spirit>, <contenttweaker:star_core>, <contenttweaker:greater_gaia_spirit>],
 [<botania:manaresource:4>, <contenttweaker:gem_of_the_dying_constellation>, <botania:manaresource:4>]]);
 
+recipes.addShaped(<contenttweaker:speech_of_natural_law>*4,
+[[<contenttweaker:living_construct_soul>, <contenttweaker:greater_gaia_spirit>, <contenttweaker:living_construct_soul>],
+[<contenttweaker:gem_of_the_dying_constellation>, <contenttweaker:star_core>, <contenttweaker:gem_of_the_birthing_nebula>],
+[<botania:storage:1>, <contenttweaker:greater_gaia_spirit>, <botania:storage:1>]]);
 
 
 val aesirresonator7 = RecipeBuilder.newBuilder("aesirresonator7","aesir_resonator",2);

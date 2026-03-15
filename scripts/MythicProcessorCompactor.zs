@@ -723,11 +723,7 @@ mythcomp91.addItemInput(<contenttweaker:thrice_coated_organic_mythic_board>);
 mythcomp91.addItemOutput(<contenttweaker:fixed_organic_mythic_board>);
 mythcomp91.build();
 
-val mythcomp92 = RecipeBuilder.newBuilder("mythcomp92","mythic_processor_compactor",2);
-mythcomp92.addEnergyPerTickInput(60000);
-mythcomp92.addItemInput(<avaritiaitem:self_actualizing_stone>);
-mythcomp92.addItemOutput(<extendedcrafting:singularity_ultimate>);
-mythcomp92.build();
+
 
 val mythcomp93 = RecipeBuilder.newBuilder("mythcomp93","mythic_processor_compactor",2);
 mythcomp93.addEnergyPerTickInput(60000);

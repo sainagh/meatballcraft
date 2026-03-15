@@ -2441,8 +2441,6 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:horde_horn>.addTooltip(format.red("警告：用张好点的弓！"));
 
-<appliedenergistics2:material:60>.addTooltip(format.red("警告：存在bug，有可能不起作用！"));
-
 <akashictome:tome>.addTooltip(format.red("警告：不要与星芒宝典、魔导手册、植物魔法辞典、死灵之书以及万能溶剂之经合成"));
 
 <thaumicenergistics:arcane_terminal>.addTooltip(format.red("警告：可能引起崩溃，应避免过多使用"));
@@ -3109,7 +3107,6 @@ import crafttweaker.item.IItemCondition;
 
 <nuclearcraft:radiation_scrubber>.addTooltip(format.red("可以直接在高空放9个，用通灵线圈供能"));
 
-<malisisdoors:hitechdoor>.addTooltip(format.red("警告：放置后可能会导致显示错误"));
 
 <botania:magnetring>.addTooltip(format.red("弱磁兰可阻止该磁铁工作"));
 <botania:magnetringgreater>.addTooltip(format.red("弱磁兰可阻止该磁铁工作"));
@@ -3254,7 +3251,7 @@ import crafttweaker.item.IItemCondition;
 
 <extrabotany:failnaught>.addTooltip(format.red("造成穿透伤害"));
 
-<extrabotany:buddhistrelics>.addTooltip(format.red("使用狗仔队相机后才能使用该物品"));
+<extrabotany:buddhistrelics>.addTooltip(format.red("使用星辉真解后才能使用该物品"));
 <extrabotany:buddhistrelics>.addTooltip(format.red("Shift右击将其转变为其他遗物"));
 
 <extrabotany:achilleshield>.addTooltip(format.red("不需要按住右键也能防御，按住右键时给予强效荆棘效果"));

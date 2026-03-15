@@ -148,6 +148,10 @@ recipes.addShaped(<contenttweaker:object_of_great_mass>,
 [<projectred-core:resource_item:104>, <contenttweaker:soul_of_the_grand_wizard>.reuse(), <projectred-core:resource_item:104>],
 [<projectred-core:resource_item:104>, <contenttweaker:staff_of_iceika>.reuse(), <projectred-core:resource_item:104>]]);
 
+
+mods.thermalexpansion.Compactor.addGearRecipe(<storagedrawers:upgrade_creative:0>, <contenttweaker:object_of_great_mass>*2, 10);
+
+
 mods.immersiveengineering.MetalPress.addRecipe(<storagedrawers:upgrade_creative:0>, <contenttweaker:object_of_great_mass>, <immersiveengineering:mold:1>, 800, 1);
 
 recipes.addShaped(<dankstorage:dank_7>,

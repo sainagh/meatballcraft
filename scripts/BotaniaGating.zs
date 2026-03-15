@@ -739,6 +739,11 @@ recipes.addShaped(<contenttweaker:terrasteel_infused_stone>*4,
 [<botania:manaresource:5>, <contenttweaker:terrasteel_crystal>.reuse(), <botania:manaresource:5>],
 [<contenttweaker:warren_petal>, <contenttweaker:actualizing_stone>, <contenttweaker:warren_petal>]]);
 
+recipes.addShaped(<contenttweaker:terrasteel_infused_stone>*16,
+[[<contenttweaker:warren_petal>, <contenttweaker:pure_void>, <contenttweaker:warren_petal>],
+[<botania:manaresource:5>, <contenttweaker:terrasteel_crystal>.reuse(), <botania:manaresource:5>],
+[<contenttweaker:warren_petal>, <contenttweaker:pure_void>, <contenttweaker:warren_petal>]]);
+
 
 mods.botania.ManaInfusion.addAlchemy(<botania:manaresource:4>*64, <contenttweaker:terrasteel_infused_stone>, 5000);
 
@@ -809,3 +814,10 @@ recipes.addShaped(<contenttweaker:superconductor_artifact>*2,
 [<contenttweaker:greater_gaia_spirit>, <contenttweaker:superconductor_artifact>, <contenttweaker:greater_gaia_spirit>],
 [<botania:manaresource:18>, <contenttweaker:greater_gaia_spirit>, <botania:manaresource:18>]]);
 
+
+
+mods.botania.RuneAltar.addRecipe(<extrabotany:material:1>*4, 
+[<botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>, <contenttweaker:corrupted_aragonite>, <extrabotany:material:3>], 50);
+
+mods.botania.RuneAltar.addRecipe(<extrabotany:firstfractal>, 
+[<extrabotany:excaliber>, <extrabotany:gildedmashedpotato>, <botania:manasteelsword>, <botania:thundersword>, <botania:elementiumsword>, <botania:starsword>, <botania:terrasword>, <minecraft:wooden_sword>, <extrabotany:shadowkatana>, <contenttweaker:first_order_mythic_fractal>], 50);

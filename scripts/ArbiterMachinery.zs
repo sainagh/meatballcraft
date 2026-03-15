@@ -275,14 +275,16 @@ mith30.addItemOutput(<projectex:matter:11>*10);
 mith30.setChance(0.5);
 mith30.addItemOutput(<contenttweaker:unbound_recursium_fragment>*64);
 mith30.setChance(0.5);
-mith30.addItemOutput(<contenttweaker:light_of_shadesmar>*50);
-mith30.setChance(0.8);
+mith30.addItemOutput(<contenttweaker:light_of_shadesmar>*60);
+mith30.setChance(0.9);
+mith30.addItemOutput(<contenttweaker:light_of_shadesmar>*60);
+mith30.setChance(0.9);
 mith30.addItemOutput(<contenttweaker:white_hole>*50);
 mith30.setChance(0.6);
 mith30.addItemOutput(<contenttweaker:cosmic_pot>*4);
 mith30.setChance(0.8);
 mith30.addItemOutput(<contenttweaker:stormlight_stone>*64);
-mith30.setChance(0.1);
+mith30.setChance(0.9);
 mith30.addItemOutput(<contenttweaker:soul_of_kashan>*64);
 mith30.setChance(0.6);
 mith30.addItemOutput(<contenttweaker:deep_dark_matter>*64);
@@ -301,6 +303,11 @@ recipes.addShaped(<contenttweaker:stone_of_the_resurrected_shard>*2,
 [[<contenttweaker:meteoric_draconic_stone>, <contenttweaker:meteoric_draconic_stone>, <contenttweaker:meteoric_draconic_stone>],
 [<contenttweaker:stone_of_shadesmar>, <contenttweaker:warren_shard>, <contenttweaker:stone_of_shadesmar>],
 [<contenttweaker:meteoric_draconic_stone>, <contenttweaker:meteoric_draconic_stone>, <contenttweaker:meteoric_draconic_stone>]]);
+
+recipes.addShaped(<contenttweaker:stone_of_the_resurrected_shard>*4,
+[[<contenttweaker:meteoric_draconic_stone>, <contenttweaker:stone_of_shadesmar>, <contenttweaker:meteoric_draconic_stone>],
+[<contenttweaker:stone_of_shadesmar>, <contenttweaker:actualization_aspected_eleint_scale>, <contenttweaker:stone_of_shadesmar>],
+[<contenttweaker:meteoric_draconic_stone>, <contenttweaker:stone_of_shadesmar>, <contenttweaker:meteoric_draconic_stone>]]);
 
 
 recipes.addShaped(<contenttweaker:pure_twilight_matter>*1,
@@ -626,62 +633,77 @@ mods.nuclearcraft.infuser.addRecipe([<contenttweaker:shard_of_humble_education>,
 
 
 recipes.addShaped(<contenttweaker:stormlight_sphere>*2,
+[[<aoa3:green_crystal>, <contenttweaker:shard_of_a_fallen_spren>, <aoa3:blue_crystal>],
+[<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
+[<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
+
+recipes.addShaped(<contenttweaker:stormlight_sphere>*3,
+[[<aoa3:green_crystal>, <contenttweaker:stormlight_stone>, <aoa3:blue_crystal>],
+[<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
+[<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
+
+recipes.addShaped(<contenttweaker:stormlight_sphere>*6,
 [[<aoa3:green_crystal>, <contenttweaker:shard_of_forgotten_fear_of_death>, <aoa3:blue_crystal>],
 [<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
 [<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
 
-recipes.addShaped(<contenttweaker:stormlight_sphere>*2,
+recipes.addShaped(<contenttweaker:stormlight_sphere>*6,
 [[<aoa3:green_crystal>, <contenttweaker:shard_of_forgiven_lost_time>, <aoa3:blue_crystal>],
 [<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
 [<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
 
-recipes.addShaped(<contenttweaker:stormlight_sphere>*2,
+recipes.addShaped(<contenttweaker:stormlight_sphere>*6,
 [[<aoa3:green_crystal>, <contenttweaker:shard_of_rekindled_heritage>, <aoa3:blue_crystal>],
 [<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
 [<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
 
-recipes.addShaped(<contenttweaker:stormlight_sphere>*2,
+recipes.addShaped(<contenttweaker:stormlight_sphere>*6,
 [[<aoa3:green_crystal>, <contenttweaker:shard_of_restored_faith>, <aoa3:blue_crystal>],
 [<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
 [<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
 
-recipes.addShaped(<contenttweaker:stormlight_sphere>*3,
+recipes.addShaped(<contenttweaker:stormlight_sphere>*8,
 [[<aoa3:green_crystal>, <contenttweaker:shard_of_no_hidden_intentions>, <aoa3:blue_crystal>],
 [<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
 [<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
 
-recipes.addShaped(<contenttweaker:stormlight_sphere>*3,
+recipes.addShaped(<contenttweaker:stormlight_sphere>*8,
 [[<aoa3:green_crystal>, <contenttweaker:shard_of_physical_healing>, <aoa3:blue_crystal>],
 [<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
 [<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
 
-recipes.addShaped(<contenttweaker:stormlight_sphere>*3,
+recipes.addShaped(<contenttweaker:stormlight_sphere>*8,
 [[<aoa3:green_crystal>, <contenttweaker:shard_of_realized_worth>, <aoa3:blue_crystal>],
 [<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
 [<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
 
-recipes.addShaped(<contenttweaker:stormlight_sphere>*3,
+recipes.addShaped(<contenttweaker:stormlight_sphere>*8,
 [[<aoa3:green_crystal>, <contenttweaker:shard_of_restored_relationship>, <aoa3:blue_crystal>],
 [<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
 [<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
 
-recipes.addShaped(<contenttweaker:stormlight_sphere>*4,
+recipes.addShaped(<contenttweaker:stormlight_sphere>*10,
 [[<aoa3:green_crystal>, <contenttweaker:shard_of_individual_freedom>, <aoa3:blue_crystal>],
 [<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
 [<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
 
-recipes.addShaped(<contenttweaker:stormlight_sphere>*4,
+recipes.addShaped(<contenttweaker:stormlight_sphere>*10,
 [[<aoa3:green_crystal>, <contenttweaker:shard_of_surrender>, <aoa3:blue_crystal>],
 [<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
 [<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
 
-recipes.addShaped(<contenttweaker:stormlight_sphere>*5,
+recipes.addShaped(<contenttweaker:stormlight_sphere>*12,
 [[<aoa3:green_crystal>, <contenttweaker:shard_of_controlled_gluttony>, <aoa3:blue_crystal>],
 [<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
 [<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
 
-recipes.addShaped(<contenttweaker:stormlight_sphere>*5,
+recipes.addShaped(<contenttweaker:stormlight_sphere>*12,
 [[<aoa3:green_crystal>, <contenttweaker:shard_of_humble_education>, <aoa3:blue_crystal>],
+[<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
+[<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
+
+recipes.addShaped(<contenttweaker:stormlight_sphere>*18,
+[[<aoa3:green_crystal>, <contenttweaker:living_shard_of_shadesmar>, <aoa3:blue_crystal>],
 [<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
 [<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
 
@@ -702,6 +724,23 @@ inffurnaceshardofshadesmar.addItemInput(<contenttweaker:shard_of_controlled_glut
 inffurnaceshardofshadesmar.addItemInput(<contenttweaker:shard_of_humble_education>);
 inffurnaceshardofshadesmar.addItemOutput(<contenttweaker:living_shard_of_shadesmar>);
 inffurnaceshardofshadesmar.build();
+
+val inffurnaceshardofshadesmar2 = RecipeBuilder.newBuilder("inffurnaceshardofshadesmar2","infinity_furnace",40);
+inffurnaceshardofshadesmar2.addFluidInput(<fluid:breath_of_actualization>*100);
+inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_restored_faith>);
+inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_forgotten_fear_of_death>);
+inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_forgiven_lost_time>);
+inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_rekindled_heritage>);
+inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_no_hidden_intentions>);
+inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_physical_healing>);
+inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_realized_worth>);
+inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_restored_relationship>);
+inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_surrender>);
+inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_individual_freedom>);
+inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_controlled_gluttony>);
+inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_humble_education>);
+inffurnaceshardofshadesmar2.addItemOutput(<contenttweaker:living_shard_of_shadesmar>*4);
+inffurnaceshardofshadesmar2.build();
 
 
 
@@ -950,6 +989,15 @@ spatialcruc_better.addFluidInput(<fluid:liquid_uu_matter>*300);
 spatialcruc_better.addFluidOutput(<fluid:spatial_matter>*120000);
 spatialcruc_better.build();
 
+
+val spatialcruc_better1 = RecipeBuilder.newBuilder("spatialcruc_better1","spatial_crucible",10);
+spatialcruc_better1.addEnergyPerTickInput(1000000000);
+spatialcruc_better1.addItemInput(<contenttweaker:bionic_divine_star>);
+spatialcruc_better1.addItemInput(<contenttweaker:opalescent_matter>);
+spatialcruc_better1.addFluidInput(<fluid:liquid_uu_matter>*300);
+spatialcruc_better1.addFluidOutput(<fluid:spatial_matter>*1200000);
+spatialcruc_better1.build();
+
 val spatialcruc1_better = RecipeBuilder.newBuilder("spatialcruc1_better","spatial_crucible",10);
 spatialcruc1_better.addEnergyPerTickInput(1000000000);
 spatialcruc1_better.addItemInput(<contenttweaker:eden_star>);
@@ -958,6 +1006,15 @@ spatialcruc1_better.addFluidInput(<fluid:binnie.dna.raw>*100);
 spatialcruc1_better.addFluidOutput(<fluid:cosmic_matter>*160000);
 spatialcruc1_better.build();
 
+val spatialcruc1_better1 = RecipeBuilder.newBuilder("spatialcruc1_better1","spatial_crucible",10);
+spatialcruc1_better1.addEnergyPerTickInput(1000000000);
+spatialcruc1_better1.addItemInput(<contenttweaker:bionic_eden_star>);
+spatialcruc1_better1.addItemInput(<contenttweaker:opalescent_matter>);
+spatialcruc1_better1.addFluidInput(<fluid:binnie.dna.raw>*100);
+spatialcruc1_better1.addFluidOutput(<fluid:cosmic_matter>*1600000);
+spatialcruc1_better1.build();
+
+
 val spatialcruc2_better = RecipeBuilder.newBuilder("spatialcruc2_better","spatial_crucible",10);
 spatialcruc2_better.addEnergyPerTickInput(1000000000);
 spatialcruc2_better.addItemInput(<contenttweaker:wildwood_star>);
@@ -965,6 +1022,14 @@ spatialcruc2_better.addItemInput(<contenttweaker:opalescent_matter>);
 spatialcruc2_better.addFluidInput(<fluid:depleted_fuel_lep_239_fluoride_flibe>*6);
 spatialcruc2_better.addFluidOutput(<fluid:galactic_matter>*60000);
 spatialcruc2_better.build();
+
+val spatialcruc2_better1 = RecipeBuilder.newBuilder("spatialcruc2_better1","spatial_crucible",10);
+spatialcruc2_better1.addEnergyPerTickInput(1000000000);
+spatialcruc2_better1.addItemInput(<contenttweaker:bionic_wildwood_star>);
+spatialcruc2_better1.addItemInput(<contenttweaker:opalescent_matter>);
+spatialcruc2_better1.addFluidInput(<fluid:depleted_fuel_lep_239_fluoride_flibe>*6);
+spatialcruc2_better1.addFluidOutput(<fluid:galactic_matter>*600000);
+spatialcruc2_better1.build();
 
 val spatialcruc5_better = RecipeBuilder.newBuilder("spatialcruc5_better","spatial_crucible",10);
 spatialcruc5_better.addEnergyPerTickInput(1000000000);
@@ -975,6 +1040,15 @@ spatialcruc5_better.addItemInput(<draconicevolution:chaos_shard:3>);
 spatialcruc5_better.addFluidOutput(<fluid:chaotic_matter>*80000);
 spatialcruc5_better.build();
 
+val spatialcruc5_better1 = RecipeBuilder.newBuilder("spatialcruc5_better1","spatial_crucible",10);
+spatialcruc5_better1.addEnergyPerTickInput(1000000000);
+spatialcruc5_better1.addItemInput(<contenttweaker:bionic_apalachia_star>);
+spatialcruc5_better1.addItemInput(<contenttweaker:opalescent_matter>);
+spatialcruc5_better1.addItemInput(<contenttweaker:rainbow_petal>);
+spatialcruc5_better1.addItemInput(<draconicevolution:chaos_shard:3>);
+spatialcruc5_better1.addFluidOutput(<fluid:chaotic_matter>*800000);
+spatialcruc5_better1.build();
+
 val spatialcruc6_better = RecipeBuilder.newBuilder("spatialcruc6_better","spatial_crucible",10);
 spatialcruc6_better.addEnergyPerTickInput(1000000000);
 spatialcruc6_better.addItemInput(<contenttweaker:skythern_star>);
@@ -984,7 +1058,16 @@ spatialcruc6_better.addItemInput(<contenttweaker:unidentified_ingot>);
 spatialcruc6_better.addFluidOutput(<fluid:nightmarish_matter>*60000);
 spatialcruc6_better.build();
 
-val spatialcruc7_better = RecipeBuilder.newBuilder("spatialcruc7_better","spatial_crucible",200);
+val spatialcruc6_better1 = RecipeBuilder.newBuilder("spatialcruc6_better1","spatial_crucible",10);
+spatialcruc6_better1.addEnergyPerTickInput(1000000000);
+spatialcruc6_better1.addItemInput(<contenttweaker:bionic_skythern_star>);
+spatialcruc6_better1.addItemInput(<contenttweaker:opalescent_matter>);
+spatialcruc6_better1.addItemInput(<materialpart:chaos:ingot>);
+spatialcruc6_better1.addItemInput(<contenttweaker:unidentified_ingot>);
+spatialcruc6_better1.addFluidOutput(<fluid:nightmarish_matter>*600000);
+spatialcruc6_better1.build();
+
+val spatialcruc7_better = RecipeBuilder.newBuilder("spatialcruc7_better","spatial_crucible",10);
 spatialcruc7_better.addEnergyPerTickInput(1000000000);
 spatialcruc7_better.addItemInput(<contenttweaker:mortum_star>);
 spatialcruc7_better.addItemInput(<contenttweaker:opalescent_matter>);
@@ -994,7 +1077,17 @@ spatialcruc7_better.addItemInput(<contenttweaker:universal_realgar>);
 spatialcruc7_better.addFluidOutput(<fluid:universal_matter>*60000);
 spatialcruc7_better.build();
 
-recipes.addShaped(<contenttweaker:blade_of_the_samurai_queen>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 4000},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]}),
+val spatialcruc7_better1 = RecipeBuilder.newBuilder("spatialcruc7_better1","spatial_crucible",10);
+spatialcruc7_better1.addEnergyPerTickInput(1000000000);
+spatialcruc7_better1.addItemInput(<contenttweaker:bionic_mortum_star>);
+spatialcruc7_better1.addItemInput(<contenttweaker:opalescent_matter>);
+spatialcruc7_better1.addItemInput(<contenttweaker:dynatos_catalyst>);
+spatialcruc7_better1.addItemInput(<materialpart:sednanite:dust>*16);
+spatialcruc7_better1.addItemInput(<contenttweaker:universal_realgar>);
+spatialcruc7_better1.addFluidOutput(<fluid:universal_matter>*600000);
+spatialcruc7_better1.build();
+
+recipes.addShaped(<contenttweaker:blade_of_the_samurai_queen>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 100},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]}),
 [[null, <contenttweaker:sword_shield>, null],
 [<projectex:final_star_shard>, <contenttweaker:sword_shield>, <projectex:final_star_shard>],
 [null, <immersiveengineering:material:0>, null]]);
@@ -1018,6 +1111,7 @@ mods.chisel.Carving.addVariation("warrenconfig", <contenttweaker:warren_configur
 mods.chisel.Carving.addVariation("warrenconfig", <contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 4§r"]}}));
 mods.chisel.Carving.addVariation("warrenconfig", <contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 5§r"]}}));
 mods.chisel.Carving.addVariation("warrenconfig", <contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 6§r"]}}));
+mods.chisel.Carving.addVariation("warrenconfig", <contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 7§r"]}}));
 
 
 
@@ -1319,6 +1413,21 @@ creatthel6.addItemInput(<contenttweaker:terrestrial_catalyst>*1024);
 creatthel6.addFluidOutput(<fluid:whisper_of_thel>*1000000);
 creatthel6.build();
 
+val creatthel7 = RecipeBuilder.newBuilder("creatthel7","creation_altar",2);
+creatthel7.addEnergyPerTickInput(1000000000);
+creatthel7.addFluidInput(<fluid:recursive_computing_matter>*1000000);
+creatthel7.addFluidInput(<fluid:actualizing_fluid>*409600);
+creatthel7.addFluidInput(<fluid:sideral_life_essence>*409600);
+creatthel7.addFluidInput(<fluid:recursive_life_essence>*409600);
+creatthel7.addFluidInput(<fluid:stormlight>*409600);
+creatthel7.addFluidInput(<fluid:chaos>*409600);
+creatthel7.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 7§r"]}}));
+creatthel7.setChance(0.0);
+creatthel7.addItemInput(<contenttweaker:thaumic_citrus>*4096);
+creatthel7.addItemInput(<contenttweaker:terrestrial_catalyst>*4096);
+creatthel7.addFluidOutput(<fluid:whisper_of_thel>*10000000);
+creatthel7.build();
+
 
 
 
@@ -1411,6 +1520,21 @@ creatahkrast6.addItemInput(<extratrees:food:40>*1024);
 creatahkrast6.addItemInput(<contenttweaker:alchemical_crystal>*1024);
 creatahkrast6.addFluidOutput(<fluid:whisper_of_ahkrast_korvalain>*100000);
 creatahkrast6.build();
+
+val creatahkrast7 = RecipeBuilder.newBuilder("creatahkrast7","creation_altar",2);
+creatahkrast7.addEnergyPerTickInput(1000000000);
+creatahkrast7.addFluidInput(<fluid:whisper_of_thel>*5000000);
+creatahkrast7.addFluidInput(<fluid:dragons_blood_plastic>*409600);
+creatahkrast7.addFluidInput(<fluid:aerial_moonshine>*409600);
+creatahkrast7.addFluidInput(<fluid:lving_gold_nak>*409600);
+creatahkrast7.addFluidInput(<fluid:spatial_matter>*409600);
+creatahkrast7.addFluidInput(<fluid:sednanite>*409600);
+creatahkrast7.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 7§r"]}}));
+creatahkrast7.setChance(0.0);
+creatahkrast7.addItemInput(<extratrees:food:40>*4096);
+creatahkrast7.addItemInput(<contenttweaker:alchemical_crystal>*4096);
+creatahkrast7.addFluidOutput(<fluid:whisper_of_ahkrast_korvalain>*1000000);
+creatahkrast7.build();
 
 
 
@@ -1510,6 +1634,21 @@ creatverdith6.addItemInput(<tconstruct:materials:16>*1024);
 creatverdith6.addFluidOutput(<fluid:whisper_of_verdith_anath>*100000);
 creatverdith6.build();
 
+val creatverdith7 = RecipeBuilder.newBuilder("creatverdith7","creation_altar",2);
+creatverdith7.addEnergyPerTickInput(1000000000);
+creatverdith7.addFluidInput(<fluid:whisper_of_ahkrast_korvalain>*5000000);
+creatverdith7.addFluidInput(<fluid:weakened_cryotheoum>*409600);
+creatverdith7.addFluidInput(<fluid:luminous_lava>*409600);
+creatverdith7.addFluidInput(<fluid:spicy_pyrotheum>*409600);
+creatverdith7.addFluidInput(<fluid:myrmitite>*409600);
+creatverdith7.addFluidInput(<fluid:rhenium>*409600);
+creatverdith7.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 7§r"]}}));
+creatverdith7.setChance(0.0);
+creatverdith7.addItemInput(<contenttweaker:sacred_cinders_fruit>*4096);
+creatverdith7.addItemInput(<tconstruct:materials:16>*4096);
+creatverdith7.addFluidOutput(<fluid:whisper_of_verdith_anath>*1000000);
+creatverdith7.build();
+
 
 
 
@@ -1606,6 +1745,21 @@ creatomtose6.addItemInput(<erebus:materials:1>*1024);
 creatomtose6.addFluidOutput(<fluid:whisper_of_omtose_phellack>*100000);
 creatomtose6.build();
 
+val creatomtose7 = RecipeBuilder.newBuilder("creatomtose7","creation_altar",2);
+creatomtose7.addEnergyPerTickInput(1000000000);
+creatomtose7.addFluidInput(<fluid:whisper_of_verdith_anath>*5000000);
+creatomtose7.addFluidInput(<fluid:milkiest_chocolate>*409600);
+creatomtose7.addFluidInput(<fluid:ghostly_matter>*409600);
+creatomtose7.addFluidInput(<fluid:liquid_life>*409600);
+creatomtose7.addFluidInput(<fluid:cosmic_matter>*409600);
+creatomtose7.addFluidInput(<fluid:seared_grave_stone>*409600);
+creatomtose7.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 7§r"]}}));
+creatomtose7.setChance(0.0);
+creatomtose7.addItemInput(<aoa3:bubble_berries>*4096);
+creatomtose7.addItemInput(<erebus:materials:1>*4096);
+creatomtose7.addFluidOutput(<fluid:whisper_of_omtose_phellack>*1000000);
+creatomtose7.build();
+
 
 
 
@@ -1698,6 +1852,22 @@ creatdonaeth6.addItemInput(<aoa3:heart_fruit>*1024);
 creatdonaeth6.addItemInput(<bewitchment:garnet>*1024);
 creatdonaeth6.addFluidOutput(<fluid:whisper_of_donaeth_rusen>*100000);
 creatdonaeth6.build();
+
+
+val creatdonaeth7 = RecipeBuilder.newBuilder("creatdonaeth7","creation_altar",2);
+creatdonaeth7.addEnergyPerTickInput(1000000000);
+creatdonaeth7.addFluidInput(<fluid:whisper_of_omtose_phellack>*5000000);
+creatdonaeth7.addFluidInput(<fluid:astral_water>*409600);
+creatdonaeth7.addFluidInput(<fluid:alchemical_goo>*409600);
+creatdonaeth7.addFluidInput(<fluid:liquid_madness>*409600);
+creatdonaeth7.addFluidInput(<fluid:ethereal_fabric>*409600);
+creatdonaeth7.addFluidInput(<fluid:ogerite>*409600);
+creatdonaeth7.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 7§r"]}}));
+creatdonaeth7.setChance(0.0);
+creatdonaeth7.addItemInput(<aoa3:heart_fruit>*4096);
+creatdonaeth7.addItemInput(<bewitchment:garnet>*14096024);
+creatdonaeth7.addFluidOutput(<fluid:whisper_of_donaeth_rusen>*1000000);
+creatdonaeth7.build();
 
 
 
@@ -1793,6 +1963,21 @@ creattellan6.addItemInput(<aoa3:bloodstone>*1024);
 creattellan6.addFluidOutput(<fluid:whisper_of_tellan>*100000);
 creattellan6.build();
 
+val creattellan7 = RecipeBuilder.newBuilder("creattellan7","creation_altar",2);
+creattellan7.addEnergyPerTickInput(1000000000);
+creattellan7.addFluidInput(<fluid:whisper_of_donaeth_rusen>*5000000);
+creattellan7.addFluidInput(<fluid:galactic_matter>*409600);
+creattellan7.addFluidInput(<fluid:purifying_fluid>*409600);
+creattellan7.addFluidInput(<fluid:arcane_fissile_matter>*409600);
+creattellan7.addFluidInput(<fluid:ardite>*409600);
+creattellan7.addFluidInput(<fluid:cobalt>*409600);
+creattellan7.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 7§r"]}}));
+creattellan7.setChance(0.0);
+creattellan7.addItemInput(<aoa3:holly_top_petals>*4096);
+creattellan7.addItemInput(<aoa3:bloodstone>*4096);
+creattellan7.addFluidOutput(<fluid:whisper_of_tellan>*1000000);
+creattellan7.build();
+
 
 
 
@@ -1887,6 +2072,21 @@ creatthyrlan6.addItemInput(<divinerpg:tomato>*1024);
 creatthyrlan6.addItemInput(<astralsorcery:itemcraftingcomponent:0>*1024);
 creatthyrlan6.addFluidOutput(<fluid:whisper_of_kurald_thyrllan>*100000);
 creatthyrlan6.build();
+
+val creatthyrlan7 = RecipeBuilder.newBuilder("creatthyrlan7","creation_altar",2);
+creatthyrlan7.addEnergyPerTickInput(1000000000);
+creatthyrlan7.addFluidInput(<fluid:whisper_of_tellan>*5000000);
+creatthyrlan7.addFluidInput(<fluid:mana>*409600);
+creatthyrlan7.addFluidInput(<fluid:apothecary_fissile_matter>*409600);
+creatthyrlan7.addFluidInput(<fluid:nightmarish_matter>*409600);
+creatthyrlan7.addFluidInput(<fluid:knightmetal>*409600);
+creatthyrlan7.addFluidInput(<fluid:fierymetal>*409600);
+creatthyrlan7.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 7§r"]}}));
+creatthyrlan7.setChance(0.0);
+creatthyrlan7.addItemInput(<divinerpg:tomato>*4096);
+creatthyrlan7.addItemInput(<astralsorcery:itemcraftingcomponent:0>*4096);
+creatthyrlan7.addFluidOutput(<fluid:whisper_of_kurald_thyrllan>*1000000);
+creatthyrlan7.build();
 
 
 
@@ -1984,6 +2184,21 @@ createmurlan6.addItemInput(<biomesoplenty:gem:0>*1024);
 createmurlan6.addFluidOutput(<fluid:whisper_of_kurald_emurlahn>*100000);
 createmurlan6.build();
 
+val createmurlan7 = RecipeBuilder.newBuilder("createmurlan7","creation_altar",2);
+createmurlan7.addEnergyPerTickInput(1000000000);
+createmurlan7.addFluidInput(<fluid:whisper_of_kurald_thyrllan>*5000000);
+createmurlan7.addFluidInput(<fluid:purified_titanium>*409600);
+createmurlan7.addFluidInput(<fluid:starmetal_alloy>*409600);
+createmurlan7.addFluidInput(<fluid:silvan_fissile_matter>*409600);
+createmurlan7.addFluidInput(<fluid:dark_steel>*409600);
+createmurlan7.addFluidInput(<fluid:end_steel>*409600);
+createmurlan7.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 7§r"]}}));
+createmurlan7.setChance(0.0);
+createmurlan7.addItemInput(<divinerpg:marsine>*4096);
+createmurlan7.addItemInput(<biomesoplenty:gem:0>*4096);
+createmurlan7.addFluidOutput(<fluid:whisper_of_kurald_emurlahn>*1000000);
+createmurlan7.build();
+
 
 
 
@@ -2080,6 +2295,21 @@ creatgalain6.addItemInput(<thaumcraft:amber>*1024);
 creatgalain6.addFluidOutput(<fluid:whisper_of_kurald_galain>*100000);
 creatgalain6.build();
 
+val creatgalain7 = RecipeBuilder.newBuilder("creatgalain7","creation_altar",2);
+creatgalain7.addEnergyPerTickInput(1000000000);
+creatgalain7.addFluidInput(<fluid:whisper_of_kurald_emurlahn>*5000000);
+creatgalain7.addFluidInput(<fluid:twilight_matter>*409600);
+creatgalain7.addFluidInput(<fluid:innerved_fissile_matter>*409600);
+creatgalain7.addFluidInput(<fluid:for.honey>*409600);
+creatgalain7.addFluidInput(<fluid:limonite>*409600);
+creatgalain7.addFluidInput(<fluid:rosite>*409600);
+creatgalain7.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 7§r"]}}));
+creatgalain7.setChance(0.0);
+creatgalain7.addItemInput(<divinerpg:white_mushroom>*4096);
+creatgalain7.addItemInput(<thaumcraft:amber>*4096);
+creatgalain7.addFluidOutput(<fluid:whisper_of_kurald_galain>*1000000);
+creatgalain7.build();
+
 
 
 
@@ -2174,6 +2404,21 @@ creatstarvald6.addItemInput(<divinerpg:moonbulb>*1024);
 creatstarvald6.addItemInput(<minecraft:diamond>*1024);
 creatstarvald6.addFluidOutput(<fluid:whisper_of_starvald_demelain>*100000);
 creatstarvald6.build();
+
+val creatstarvald7 = RecipeBuilder.newBuilder("creatstarvald7","creation_altar",2);
+creatstarvald7.addEnergyPerTickInput(1000000000);
+creatstarvald7.addFluidInput(<fluid:whisper_of_kurald_galain>*5000000);
+creatstarvald7.addFluidInput(<fluid:radiant_fissile_matter>*409600);
+creatstarvald7.addFluidInput(<fluid:molten_rupee>*409600);
+creatstarvald7.addFluidInput(<fluid:molten_arlemite>*409600);
+creatstarvald7.addFluidInput(<fluid:molten_realmite>*409600);
+creatstarvald7.addFluidInput(<fluid:molten_netherite>*409600);
+creatstarvald7.addItemInput(<contenttweaker:warren_configurator>.withTag({display: {Lore: ["§d§M模式 7§r"]}}));
+creatstarvald7.setChance(0.0);
+creatstarvald7.addItemInput(<divinerpg:moonbulb>*4096);
+creatstarvald7.addItemInput(<minecraft:diamond>*4096);
+creatstarvald7.addFluidOutput(<fluid:whisper_of_starvald_demelain>*1000000);
+creatstarvald7.build();
 
 
 

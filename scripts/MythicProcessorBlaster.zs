@@ -282,3 +282,5 @@ mythindblast42.addFluidInput(<fluid:recursive_computing_matter>*2);
 mythindblast42.addItemInput(<ore:dustYellorium>*8192);
 mythindblast42.addItemOutput(<bigreactors:ingotyellorium>*8192);
 mythindblast42.build();
+
+

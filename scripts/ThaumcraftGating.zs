@@ -8,6 +8,8 @@ mods.thaumcraft.Crucible.registerRecipe("crucibledupeimpetus3", "", <thaumicaugm
 mods.thaumcraft.Crucible.registerRecipe("crucibledupeprimordialgrains", "", <thaumicwonders:primordial_grain>*7, <thaumicwonders:primordial_grain>, [<aspect:aer>*5, <aspect:aqua>*5, <aspect:ignis>*5, <aspect:terra>*5, <aspect:ordo>*5, <aspect:perditio>*5]);
 
 
+mods.thaumcraft.Crucible.registerRecipe("cruciblebetterbathsalts", "", <thaumcraft:bath_salts>*4, <aoa3:zhinx_dust>, [<aspect:cognitio>*20, <aspect:aer>*20, <aspect:ordo>*20, <aspect:victus>*20]);
+
 
 recipes.removeShaped(<thaumcraft:table_wood>);
 

@@ -102,3 +102,9 @@ mods.storagedrawers.Compaction.add(<contenttweaker:double_compressed_pink_slime_
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:pink_slime_block>, <fluid:if.pink_slime>*900]);
 
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:compressed_pink_slime_block>, <fluid:if.pink_slime>*8100]);
+
+
+recipes.addShaped(<forestry:portable_alyzer>,
+[[<ore:ingotTin>, <ore:paneGlass>, <ore:ingotTin>],
+[<ore:ingotTin>, <ore:paneGlass>, <ore:ingotTin>],
+[<ore:dustRedstone>, <ore:gemDiamond>, <ore:dustRedstone>]]);

@@ -296,6 +296,43 @@ pulsestilldemonelixir.build();
 
 
 
+val pulsestilldeathofstars = RecipeBuilder.newBuilder("pulsestilldeathofstars","phasing_still_pot",5);
+pulsestilldeathofstars.addItemInput(<contenttweaker:gem_of_the_dying_constellation>);
+pulsestilldeathofstars.addFluidInput(<fluid:liquid_death>*32000);
+pulsestilldeathofstars.addFluidInput(<fluid:otherworldly_tears>*32000);
+pulsestilldeathofstars.addFluidInput(<fluid:ebb_of_death>*32000);
+pulsestilldeathofstars.addFluidInput(<fluid:swirl_of_depths>*32000);
+pulsestilldeathofstars.addFluidOutput(<fluid:glimmer_of_the_dying_constellation>*48000);
+pulsestilldeathofstars.addFluidOutput(<fluid:otherworldly_tears>*16000);
+pulsestilldeathofstars.addFluidOutput(<fluid:ebb_of_death>*16000);
+pulsestilldeathofstars.addFluidOutput(<fluid:swirl_of_depths>*16000);
+pulsestilldeathofstars.build();
+
+val pulsestillsevenundeadlords = RecipeBuilder.newBuilder("pulsestillsevenundeadlords","phasing_still_pot",5);
+pulsestillsevenundeadlords.addItemInput(<contenttweaker:respect_of_death>);
+pulsestillsevenundeadlords.addFluidInput(<fluid:glimmer_of_the_dying_constellation>*32000);
+pulsestillsevenundeadlords.addFluidInput(<fluid:liquidantimatter>*32000);
+pulsestillsevenundeadlords.addFluidInput(<fluid:chaotic_honey_4>*32000);
+pulsestillsevenundeadlords.addFluidInput(<fluid:infinity>*32000);
+pulsestillsevenundeadlords.addFluidOutput(<fluid:echo_of_the_seven_undead_lords>*48000);
+pulsestillsevenundeadlords.addFluidOutput(<fluid:liquidantimatter>*16000);
+pulsestillsevenundeadlords.addFluidOutput(<fluid:chaotic_honey_4>*16000);
+pulsestillsevenundeadlords.addFluidOutput(<fluid:infinity>*32000);
+pulsestillsevenundeadlords.build();
+
+val pulsestillvoidacceptance = RecipeBuilder.newBuilder("pulsestillvoidacceptance","phasing_still_pot",5);
+pulsestillvoidacceptance.addItemInput(<contenttweaker:fabrial_of_pure_void>);
+pulsestillvoidacceptance.addFluidInput(<fluid:echo_of_the_seven_undead_lords>*8000);
+pulsestillvoidacceptance.addFluidInput(<fluid:glimmer_of_the_dying_constellation>*8000);
+pulsestillvoidacceptance.addFluidInput(<fluid:void_given_focus>*2000);
+pulsestillvoidacceptance.addFluidInput(<fluid:inquiring_protodermis>*2000);
+pulsestillvoidacceptance.addFluidOutput(<fluid:allure_of_the_void>*8000);
+pulsestillvoidacceptance.addFluidOutput(<fluid:void_given_focus>*1000);
+pulsestillvoidacceptance.addFluidOutput(<fluid:inquiring_protodermis>*1000);
+pulsestillvoidacceptance.build();
+
+
+
 
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:oak_spirit>, <bewitchment:empty_jar>, <fluid:oak_spirit>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:spruce_heart>, <bewitchment:empty_jar>, <fluid:spruce_heart>*1000]);

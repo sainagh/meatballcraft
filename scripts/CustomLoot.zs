@@ -101,7 +101,7 @@ polarursaroll.addItemEntry(<aoa3:rosite_ingot>, 5);
 
 val deepcase = LootTweaker.getTable("aoa3:blocks/deep_case");
 val deepcasemain = deepcase.getPool("main");
-deepcasemain.addItemEntry(<contenttweaker:alchemical_deep_rock>*4, 50);
+deepcasemain.addItemEntry(<contenttweaker:alchemical_deep_rock>*64, 50);
 deepcasemain.addItemEntry(<projecte:item.pe_fuel:2>*64, 20);
 deepcasemain.addItemEntry(<contenttweaker:botanic_alchemic_catalyst>*16, 20);
 deepcasemain.addItemEntry(<extrabees:honey_comb:11>*64, 30);

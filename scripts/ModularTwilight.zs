@@ -141,3 +141,15 @@ reci14.addItemInput(<careerbees:ingredients:2>.withTag({species: "gendustry.bee.
 reci14.addItemInput(<twilightforest:transformation_powder>);
 reci14.addItemOutput(<contenttweaker:crimson_sundering_powder>*2);
 reci14.build();
+
+
+val reci15 = RecipeBuilder.newBuilder("twiweap15","carminite_empowerer",20);
+reci15.addEnergyPerTickInput(5000);
+reci15.addAspectInput("vitreus",80);
+reci15.addItemInput(<contenttweaker:unforgotten_summons>);
+reci15.setChance(0.0);
+reci15.addItemInput(<contenttweaker:harbinger_crystal>*12);
+reci15.addItemOutput(<contenttweaker:hopebringer_crystal>*12);
+reci15.build();
+
+

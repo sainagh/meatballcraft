@@ -19,7 +19,7 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
       return;
     }      
     // [edit damage here]
-    val DAMAGE = 600.0f;
+    val DAMAGE = 1000.0f;
     // [can remove this var if reusuable]
     val oldHealth = target.health;
     // Handle kill as if by player

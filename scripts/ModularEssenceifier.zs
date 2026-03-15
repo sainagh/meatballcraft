@@ -518,7 +518,7 @@ essenceifier102.build();
 val essenceifier103 = RecipeBuilder.newBuilder("essenceifier103","innerved_essenceifier",2);
 essenceifier103.addItemInput(<mysticalagradditions:awakened_draconium_essence>*64);
 essenceifier103.addItemInput(<magicbees:resource:5>*8);
-essenceifier103.addItemInput(<ore:nuggetIron>);
+essenceifier103.addItemInput(<ore:nuggetGold>);
 essenceifier103.addItemOutput(<draconicevolution:draconic_ingot>*8);
 essenceifier103.build();
 

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o高级内存卡可高效连接P2P通道！\n\n使用P2P时一定记得要用这个！",
+      "desc:8": "§7§o高级内存卡可高效连接P2P通道！\n\n使用P2P时更推荐用这个而不是普通内存卡！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "betterp2p:advanced_memory_card",
@@ -16,6 +16,19 @@
     }
   },
   "questID:3": 667,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "id:8": "appliedenergistics2:material"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
@@ -24,7 +37,8 @@
           "Count:3": 1,
           "id:8": "betterp2p:advanced_memory_card",
           "tag:10": {
-            "selectedIndex:3": -1
+            "gui:1": 3,
+            "selectedIndex:10": {}
           }
         }
       },

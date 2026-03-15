@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    90131
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2powertools:network_health_scanner",
+        "tag:10": {
+          "DeviceId:4": 545950059577500
+        }
+      },
+      "name:8": "网络健康扫描器"
+    }
+  },
+  "questID:3": 1567439526,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "id:8": "appliedenergistics2:material"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2powertools:network_health_scanner",
+          "tag:10": {
+            "DeviceId:4": 545950059577500
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

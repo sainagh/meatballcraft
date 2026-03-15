@@ -1050,3 +1050,28 @@ mythallo143.addItemInput(<contenttweaker:hypercharged_wool>);
 mythallo143.addItemInput(<aoa3:charged_runium_chunk>*8);
 mythallo143.addItemOutput(<contenttweaker:hypercharged_runium_chunk>*8);
 mythallo143.build();
+
+
+val mythallo144 = RecipeBuilder.newBuilder("mythallo144","mythic_processor_alloy_furnace",2);
+mythallo144.addEnergyPerTickInput(80000);
+mythallo144.addItemInput(<contenttweaker:hearty_meatball>*16);
+mythallo144.addItemInput(<enderio:item_material:20>*64);
+mythallo144.addItemInput(<fluxnetworks:flux>*64);
+mythallo144.addItemOutput(<avaritia:cosmic_meatballs>*16);
+mythallo144.build();
+
+
+
+val mythallo145 = RecipeBuilder.newBuilder("mythallo145","mythic_processor_alloy_furnace",2);
+mythallo145.addEnergyPerTickInput(80000);
+mythallo145.addItemInput(<contenttweaker:polar_catalyst>*8);
+mythallo145.addItemInput(<contenttweaker:neodymium_magnetic_alloy>*2);
+mythallo145.addItemOutput(<contenttweaker:diametric_catalyst>*8);
+mythallo145.build();
+
+val mythallo146 = RecipeBuilder.newBuilder("mythallo146","mythic_processor_alloy_furnace",2);
+mythallo146.addEnergyPerTickInput(80000);
+mythallo146.addItemInput(<contenttweaker:diametric_catalyst>*24);
+mythallo146.addItemInput(<contenttweaker:magnetic_monopole>*1);
+mythallo146.addItemOutput(<contenttweaker:monopolar_catalyst>*24);
+mythallo146.build();

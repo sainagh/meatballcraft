@@ -58,9 +58,11 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:will_ensnaring_fabrial>.addTooltip(format.red("抗性提升：地狱疣、末影珍珠、黑曜石、荧石粉"));
 
 
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("达成永恒荣耀的玩家："));
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("TheWizardHaxer (单人)"));
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("adrin58 (单人)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("< ᛊᚢᛉᛗᛞ > (单人) (首个被动达成)"));
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("ElaDiDu (单人)"));
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("Mine_Antoine (自动化大师) (单人)"));
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("Paronity & Kherune (下单合成挑战) (团队)"));
@@ -71,6 +73,13 @@ import crafttweaker.item.IItemCondition;
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("KawaiiPotatoKing & RandTheGrayMan (团队)"));
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("HadlC & Laino21 (团队)"));
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("talentgoesby (单人)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("ラルセイ, FireDreadlord, JrffK (团队)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("whox1, wydao, ChineseboyXLB (团队)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("Kevin Incorporated & Bemvaras (团队)"));
+
+<contenttweaker:black_hole_juice>.addTooltip(format.red("达成永恒荣耀的玩家："));
+<contenttweaker:black_hole_juice>.addTooltip(format.red("Morph & Shinko (团队)"));
+<contenttweaker:black_hole_juice>.addTooltip(format.red("Origami10004 & _TheOrangeJuice_ (团队)"));
 
 
 <avaritia:infinity_sword>.addTooltip(format.red("达成永恒荣耀的玩家："));
@@ -108,6 +117,10 @@ import crafttweaker.item.IItemCondition;
 <superfactorymanager:manager>.addTooltip(format.red("mewmaister真的很想要这个！"));
 <superfactorymanager:manager>.addTooltip(format.red("NerdySpider撰写了说明文档，感谢！"));
 <superfactorymanager:manager>.addTooltip(format.red("感谢Mei移植了SFM4的特性！"));
+
+<cells:import_interface>.addTooltip(format.red("感谢Aedial为我们带来了更多的AE2好物！"));
+<ae2powertools:better_level_maintainer>.addTooltip(format.red("感谢Aedial为我们带来了更多的AE2好物！"));
+<ae2powertools:auto_crafter>.addTooltip(format.red("感谢Aedial为我们带来了更多的AE2好物！"));
 
 
 <minecraft:fish>.addTooltip(format.red("shiraori_gd太会讲笑话了"));
@@ -151,7 +164,9 @@ import crafttweaker.item.IItemCondition;
 
 <aoa3:gauge_rifle>.addTooltip(format.red("与赫尔维蒂的商人交易获得"));
 
-<contenttweaker:mythic_processor_centrifuge>.addTooltip(format.red("神话处理器：离心机处理的是流体液滴"));
+<contenttweaker:mythic_processor_centrifuge>.addTooltip(format.red("神话处理器：离心机可处理流体单元"));
+
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "sednanite", Amount: 1000}}).addTooltip(format.red("Mewmeister不让我们好过（感谢发现了一个bug）"));
 
 <abyssalcraft:dreadaltarbottom>.addTooltip(format.red("放在恐惧之地山脉（Dreadlands Mountains）群系的Y=40处"));
 
@@ -217,6 +232,60 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:nuclear_engineers_goggles>.addTooltip(format.red("核泄漏之地（Nuclear Wastelands）有辐射！"));
 <contenttweaker:nuclear_engineers_goggles>.addTooltip(format.red("目前还是离远点为好！"));
 
+<contenttweaker:hyperuranion_ingot>.addTooltip(format.red("感谢GalcticSilver绘制的纹理！"));
+<contenttweaker:actualizing_hyperuranion_ingot>.addTooltip(format.red("感谢GalcticSilver绘制的纹理！"));
+
+<contenttweaker:ingot_of_infinite_wishes>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+
+<contenttweaker:mana_antenna>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+
+<contenttweaker:awakened_mithril>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:awakened_mithril_alloy>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+
+<contenttweaker:bifrost_warren_dust>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:brightsteel_alloy_plate_of_the_one_power>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:chaotic_mithril_alloy>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:flame_of_actualization>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:hopebringer_metal>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:offering_to_the_eleint_of_actualization>.addTooltip(format.red("感谢NerdySpider绘制的超越天部件纹理！"));
+<contenttweaker:kanohi_mask>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:ragnarok_warren_dust>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:valhalla_warren_dust>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:roaring_warren_alloy>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:self_actualizing_metal>.addTooltip(format.red("感谢NerdySpider绘制的锭纹理！"));
+<contenttweaker:crying_obsidian_powder>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:nuclear_engineers_goggles>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:running_bandana>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:hollow_soul>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:hopebringer_fabrial>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:mask_of_definition>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:defined_disk>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:impetus_gemstone>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:tracker_binoculars>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:sundered_crimson_heart>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:galactic_dust>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:infinite_loving_plate>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:ingot_of_omnibelevolence>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:summons_of_ragnarok>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+
+<contenttweaker:stone_of_the_divine_love>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
+<contenttweaker:stone_of_natural_might>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
+<contenttweaker:stone_of_infinite_creativity>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
+<contenttweaker:stone_of_endowed_free_will>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
+<contenttweaker:stone_of_boundless_curiosity>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
+
+<contenttweaker:flood_stone>.addTooltip(format.red("你去过强能界吗？"));
+
+<extrabotany:firstfractal>.addTooltip(format.red("我们喜欢困难模式，也喜欢犬牙钓竿"));
+
+<contenttweaker:astral_mastery_tome>.addTooltip(format.red("达成永恒荣耀的玩家："));
+<contenttweaker:astral_mastery_tome>.addTooltip(format.red("legoman187 (单人)"));
+
+<woot:exporter>.addTooltip(format.red("使用装有过滤销毁卡的输出接口来优化性能"));
+
+<tinymobfarm:ultimate_farm>.addTooltip(format.red("使用装有过滤销毁卡的输出接口来优化性能"));
+
+<contenttweaker:chaotic_nexus>.addTooltip(format.red("使用装有以下3级升级的神龙之力权杖：攻击伤害、挖掘速度、范围挖掘、RF容量、范围攻击"));
 
 
 
@@ -227,47 +296,7 @@ import crafttweaker.item.IItemCondition;
 
 
 
-<contenttweaker:avaritia_extended_life>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
 
-<contenttweaker:batter_awakened_in_essenceifier>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:mana_buffer_recipe_issue>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:thaumcraftcrucible>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:checkbucketcrashmaybevajra>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:getaoaxplevelsfromusingspecifictools>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:shaderbagloot>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:electroblobtimestopamulet>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:thaumcraftcloudspells>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:checkae2mixinperformancebeforeupdate>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:enchantquests>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:lottototemJEIpage>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn"));
-
-<contenttweaker:neromaticprimeveins>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn"));
-
-<contenttweaker:astralcullingstrikelocalization>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:itemblacklists>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:soulvaillostcities>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:laststandformula>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:alecsioandcobees>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:blueprints>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:apothecarybeemorestuffs>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:aoadimensionsrandomloot>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
 
 
 

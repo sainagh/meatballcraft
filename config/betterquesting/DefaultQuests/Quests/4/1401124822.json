@@ -1,0 +1,77 @@
+{
+  "preRequisites:11": [
+    1229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o对于超高密度元件，均分卡可令分区物品的容量限制在相同数量上，以避免溢出。\n\n使用2x均分卡时，每个分区物品的存储量上限为元件总容量的一半；使用4x均分卡时，每个分区物品的存储量上限为元件总容量的四分之一，以此类推。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "cells:equal_distribution_card"
+      },
+      "name:8": "均分卡"
+    }
+  },
+  "questID:3": 1401124822,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "cells:equal_distribution_card"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cells:equal_distribution_card"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "cells:equal_distribution_card"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "cells:equal_distribution_card"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "cells:equal_distribution_card"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "cells:equal_distribution_card"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "cells:equal_distribution_card"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "cells:equal_distribution_card"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "cells:equal_distribution_card"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

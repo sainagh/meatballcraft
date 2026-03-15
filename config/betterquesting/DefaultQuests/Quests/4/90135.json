@@ -4,16 +4,30 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o存储器或ME箱子中的存储元件决定了你ME网络的存储容量。\n\n可在元件终端（推荐）或元件工作台中为元件分区。分区后的元件只允许存储分区设定的物品。\n\n元件名称开头的数字代表它可存储的字节数。除非另有说明，1字节大致对应1个物品、1 mB流体，或1单位源质。\n\n物品原件存储物品，每个元件最多支持63种物品类型。\n\n流体元件存储流体，每个元件最多支持5种流体类型。\n\n源质元件存储源质，每个元件最多支持12种源质类型。\n\n压缩元件存储物品，并可像压缩抽屉一样对物品进行压缩与解压。可安装压缩/解压登记卡，来获得更多压缩/解压等级。\n\n超高密度元件可存储海量的物品与流体。",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "appliedenergistics2:storage_cell_16k",
+        "Damage:2": 2,
+        "id:8": "cells:compacting_cell",
         "tag:10": {}
       },
       "name:8": "16k-ME存储元件"
     }
   },
   "questID:3": 90135,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "cells:compacting_component"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "ignoreNBT:1": 1,
@@ -38,12 +52,27 @@
         },
         "3:10": {
           "Count:3": 1,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "crazyae:energy_cell_16k",
-            "orig_meta:3": 0,
-            "orig_tag:10": {}
-          }
+          "Damage:2": 2,
+          "id:8": "cells:compacting_cell",
+          "tag:10": {}
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "cells:hyper_density_cell",
+          "tag:10": {}
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "cells:hyper_density_compacting_cell",
+          "tag:10": {}
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "cells:hyper_density_fluid_cell",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:retrieval"

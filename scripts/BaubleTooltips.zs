@@ -230,7 +230,6 @@
 <xreliquary:fortune_coin>.addTooltip(format.red("磁铁，按住右键范围x3"));
 <xreliquary:mob_charm_belt>.addTooltip(format.red("容纳怪物护符"));
 <xreliquary:twilight_cloak>.addTooltip(format.red("使玩家在低亮度下隐身"));
-<supersoundmuffler:sound_muffler_bauble>.addTooltip(format.red("消除黑名单内的声音"));
 <thaumcraft:goggles>.addTooltip(format.red("能看到神秘时代机器的额外信息，例如所需源质"));
 <thaumcraft:baubles:0>.addTooltip(format.red("合成材料"));
 <thaumcraft:baubles:1>.addTooltip(format.red("合成材料"));

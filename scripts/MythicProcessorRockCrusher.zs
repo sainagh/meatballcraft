@@ -141,7 +141,7 @@ mythrockcrush17.build();
 val mythrockcrush18 = RecipeBuilder.newBuilder("mythrockcrush18","mythic_processor_rock_crusher",2);
 mythrockcrush18.addEnergyPerTickInput(80000);
 mythrockcrush18.addItemInput(<abyssalcraft:crystal:21> * 1);
-mythrockcrush18.addItemOutput(<contenttweaker:silica_dust>);
+mythrockcrush18.addItemOutput(<contenttweaker:silica_dust>*4);
 mythrockcrush18.build();
 
 val mythrockcrush19 = RecipeBuilder.newBuilder("mythrockcrush19","mythic_processor_rock_crusher",2);

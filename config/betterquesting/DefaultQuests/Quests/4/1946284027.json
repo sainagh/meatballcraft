@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    1236
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "id:8": "cells:compacting_cell",
+        "tag:10": {}
+      },
+      "name:8": "1G-ME存储元件"
+    }
+  },
+  "questID:3": 1946284027,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "cells:compacting_component"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "cells:compacting_cell",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "cells:hyper_density_cell",
+          "tag:10": {}
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "cells:hyper_density_compacting_cell",
+          "tag:10": {}
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "cells:hyper_density_fluid_cell",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

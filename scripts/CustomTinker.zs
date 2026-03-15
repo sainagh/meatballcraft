@@ -710,8 +710,8 @@ val omnivolent = mods.contenttweaker.tconstruct.MaterialBuilder.create("omnibene
 omnivolent.color = 0x730b1b;
 omnivolent.craftable = true;
 omnivolent.castable = false;
-omnivolent.addItem(<item:contenttweaker:crimson_warren_remains>,1,144);
-omnivolent.representativeItem = <item:contenttweaker:crimson_warren_remains>;
+omnivolent.addItem(<item:contenttweaker:ingot_of_omnibelevolence>,1,144);
+omnivolent.representativeItem = <item:contenttweaker:ingot_of_omnibelevolence>;
 omnivolent.addHeadMaterialStats(20, 2.5, 3.0f, 15);
 omnivolent.addHandleMaterialStats(2.0, 3);
 omnivolent.addExtraMaterialStats(1);

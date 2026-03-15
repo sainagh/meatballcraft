@@ -28,6 +28,32 @@
 <contenttweaker:tabula_rasa>.addTooltip(format.green("致谢和梗"));
 
 
+<contenttweaker:whisper_of_freedom_troll>.addTooltip(format.darkAqua("谜题："));
+<contenttweaker:whisper_of_freedom_troll>.addTooltip(format.aqua("  有巨大黑曜石的地方，……脸"));
+
+<contenttweaker:whisper_of_freedom_giant>.addTooltip(format.darkAqua("谜题："));
+<contenttweaker:whisper_of_freedom_giant>.addTooltip(format.aqua("  九霄之上"));
+
+<contenttweaker:whisper_of_freedom_crab>.addTooltip(format.darkAqua("谜题："));
+<contenttweaker:whisper_of_freedom_crab>.addTooltip(format.aqua("  要塞里的某些东西真的很喜欢它们的头盔"));
+
+<contenttweaker:whisper_of_freedom_minotaur>.addTooltip(format.darkAqua("谜题："));
+<contenttweaker:whisper_of_freedom_minotaur>.addTooltip(format.aqua("  哞"));
+
+<contenttweaker:whisper_of_freedom_redcap>.addTooltip(format.darkAqua("谜题："));
+<contenttweaker:whisper_of_freedom_redcap>.addTooltip(format.aqua("  某个空心的地方，资源很多"));
+
+<contenttweaker:whisper_of_freedom_raven>.addTooltip(format.darkAqua("谜题："));
+<contenttweaker:whisper_of_freedom_raven>.addTooltip(format.aqua("  你有魔法地图对吧？"));
+
+<contenttweaker:whisper_of_freedom_hedge>.addTooltip(format.darkAqua("谜题："));
+<contenttweaker:whisper_of_freedom_hedge>.addTooltip(format.aqua("  某个迷宫，但是不是那种迷宫"));
+
+<contenttweaker:whisper_of_freedom_tome>.addTooltip(format.darkAqua("谜题："));
+<contenttweaker:whisper_of_freedom_tome>.addTooltip(format.aqua("  能找到鞘翅的地方"));
+
+
+
 <contenttweaker:recursive_paper_illager>.addTooltip(format.gold("使用："));
 <contenttweaker:recursive_paper_illager>.addTooltip(format.yellow("  右击获得免费曲奇"));
 
@@ -302,10 +328,17 @@
 <contenttweaker:realmstone>.addTooltip(format.green("Fox想知道怎么做这玩意"));
 
 
+<contenttweaker:rune_of_valhalla>.addTooltip(format.green("reusable for Stone of Natural Might"));
+
 <divinerpg:twilight_clock>.addTooltip(format.darkAqua("获取："));
 <divinerpg:twilight_clock>.addTooltip(format.aqua("  使用奇点大师解锁配方"));
 <divinerpg:twilight_clock>.addTooltip(format.gold("使用："));
 <divinerpg:twilight_clock>.addTooltip(format.yellow("  用于激活神圣RPG模组的传送门，和打火石一样"));
+
+<contenttweaker:beekeper_archive>.addTooltip(format.gold("使用："));
+<contenttweaker:beekeper_archive>.addTooltip(format.yellow("  右击访问可交互的林业蜜蜂育种树在线页面！"));
+<contenttweaker:beekeper_archive>.addTooltip(format.white("------------------"));
+<contenttweaker:beekeper_archive>.addTooltip(format.green("ATL4S喜欢清晰的沟通，感谢制作这个物品！"));
 
 
 <modularmachinery:blockcontroller>.addTooltip(format.darkAqua("获取："));
@@ -442,6 +475,11 @@
 
 <aoa3:utopian_boots>.addTooltip(format.darkAqua("获取："));
 <aoa3:utopian_boots>.addTooltip(format.aqua("  战斗高塔的宝藏箱中获得"));
+
+
+<contenttweaker:blade_of_the_samurai_queen>.addTooltip(format.gray("100 基础攻击"));
+<contenttweaker:blade_of_the_samurai_queen>.addTooltip(format.gray("无限 攻击速度"));
+<contenttweaker:blade_of_the_samurai_queen>.addTooltip(format.green("可重复使用"));
 
 
 <contenttweaker:holyshimmer_sword>.addTooltip(format.gray("200 基础攻击"));
@@ -591,6 +629,7 @@
 <contenttweaker:gallifreyan_irradiator>.addTooltip(format.gold("多方块升级："));
 <contenttweaker:gallifreyan_irradiator>.addTooltip(format.aqua("  两相裂变堆"));
 <contenttweaker:gallifreyan_irradiator>.addTooltip(format.white("     机器速度x10"));
+<contenttweaker:gallifreyan_irradiator>.addTooltip(format.white("     流体输入&输出x5"));
 
 <contenttweaker:hungering_machine_case>.addTooltip(format.gold("多方块升级："));
 <contenttweaker:hungering_machine_case>.addTooltip(format.aqua("  ME神话装配室"));

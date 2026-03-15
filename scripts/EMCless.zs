@@ -159,8 +159,8 @@ recipes.addShapeless(<contenttweaker:double_compressed_aeternalis_fuel>, [<proje
 
 // 3
 mods.abyssalcraft.Crystallizer.addCrystallization(<contenttweaker:alchemical_deposit>, <contenttweaker:alchemical_sediment>, <contenttweaker:alchemical_sediment>, 0.2);
-mods.abyssalcraft.Crystallizer.addCrystallization(<contenttweaker:compressed_alchemical_deposit>, <contenttweaker:compressed_alchemical_sediment>, <contenttweaker:alchemical_sediment>, 0.5);
-mods.abyssalcraft.Crystallizer.addCrystallization(<contenttweaker:double_compressed_alchemical_deposit>, <contenttweaker:double_compressed_alchemical_sediment>, <contenttweaker:alchemical_sediment>, 0.9);
+mods.abyssalcraft.Crystallizer.addCrystallization(<contenttweaker:compressed_alchemical_deposit>, <contenttweaker:compressed_alchemical_sediment>, <contenttweaker:compressed_alchemical_sediment>, 0.5);
+mods.abyssalcraft.Crystallizer.addCrystallization(<contenttweaker:double_compressed_alchemical_deposit>, <contenttweaker:double_compressed_alchemical_sediment>, <contenttweaker:double_compressed_alchemical_sediment>, 0.9);
 
 mods.storagedrawers.Compaction.add(<contenttweaker:compressed_alchemical_sediment>, <contenttweaker:alchemical_sediment>, 9);
 mods.storagedrawers.Compaction.add(<contenttweaker:double_compressed_alchemical_sediment>, <contenttweaker:compressed_alchemical_sediment>, 9);

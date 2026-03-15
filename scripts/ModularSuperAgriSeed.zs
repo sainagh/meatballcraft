@@ -776,6 +776,12 @@ hypergrowth105.addItemOutput(<aoa3:rosidons>*64);
 hypergrowth105.build();
 
 
+val hypergrowth106 = RecipeBuilder.newBuilder("hypergrowth106","hypergrowth_insolator",10);
+hypergrowth106.addFluidInput(<fluid:hot_spring_water>*100);
+hypergrowth106.addItemInput(<thaumadditions:void_seed>);
+hypergrowth106.setChance(0.0);
+hypergrowth106.addItemOutput(<thaumcraft:void_seed>*64);
+hypergrowth106.build();
 
 
 

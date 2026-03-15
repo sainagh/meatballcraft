@@ -1034,6 +1034,23 @@
     },
     {
         "mode": "ADD",
+        "result": "contenttweaker:catalyst_of_balance",
+        "catalyst": "contenttweaker:balanced_machine_casing",
+        "energy": 20000000000,
+        "tier": 3,
+        "ingredients": [
+            "avaritiaitem:cosmic_balance",
+            "avaritiaitem:cosmic_balance",
+            "avaritiaitem:cosmic_balance",
+            "avaritiaitem:cosmic_balance",
+            "avaritiaitem:univocal_halite_cluster",
+            "avaritiaitem:univocal_halite_cluster",
+            "avaritiaitem:univocal_halite_cluster",
+            "avaritiaitem:univocal_halite_cluster"
+        ]
+    },
+    {
+        "mode": "ADD",
         "result": "contenttweaker:cosmic_string_conduit",
         "catalyst": "contenttweaker:cosmic_string",
         "energy": 40000000000,

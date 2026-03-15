@@ -10,6 +10,11 @@ recipes.addShaped(<contenttweaker:lord_summoner>,
 [<ore:manaPearl>, <botania:storage:0>, <ore:manaPearl>], 
 [<divinerpg:arcanium>, <ore:manaPearl>, <divinerpg:arcanium>]]); 
 
+recipes.addShaped(<contenttweaker:captaimerik_summoner>, 
+[[<divinerpg:arcanium>, <ore:manaPearl>, <divinerpg:arcanium>], 
+[<ore:manaPearl>, <botania:storage:2>, <ore:manaPearl>], 
+[<divinerpg:arcanium>, <ore:manaPearl>, <divinerpg:arcanium>]]); 
+
 recipes.addShaped(<contenttweaker:wargeneral_summoner>, 
 [[<divinerpg:arcanium>, <ore:manaPearl>, <divinerpg:arcanium>], 
 [<ore:manaPearl>, <botania:manasteelsword>, <ore:manaPearl>], 

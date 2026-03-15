@@ -657,3 +657,19 @@ mythindgrind86.addFluidInput(<fluid:whisper_of_starvald_demelain>*10);
 mythindgrind86.addItemInput(<contenttweaker:freed_sky_stone>*16);
 mythindgrind86.addItemOutput(<contenttweaker:freed_sky_stone_dust>*131072);
 mythindgrind86.build();
+
+
+val mythindgrind87 = RecipeBuilder.newBuilder("mythindgrind87","mythic_processor_grinder",2);
+mythindgrind87.addEnergyPerTickInput(2000000);
+mythindgrind87.addFluidInput(<fluid:moltendreadium>*50000);
+mythindgrind87.addItemInput(<contenttweaker:tartarite_ore>*16);
+mythindgrind87.addItemOutput(<materialpart:tartarite:dust>*128);
+mythindgrind87.build();
+
+val mythindgrind88 = RecipeBuilder.newBuilder("mythindgrind88","mythic_processor_grinder",2);
+mythindgrind88.addEnergyPerTickInput(2000000);
+mythindgrind88.addFluidInput(<fluid:dreaded_steel>*1000);
+mythindgrind88.addItemInput(<contenttweaker:tartarite_ore>*16);
+mythindgrind88.addItemOutput(<materialpart:tartarite:dust>*256);
+mythindgrind88.build();
+

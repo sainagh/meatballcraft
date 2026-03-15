@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "凋灵，被解放为它们本该成为的武器——对抗肉丸人的最后屏障。\n它们的遗骸中，藏着一道印记，如同巨龙血脉中的印记，与生俱来。\n一道引我走向真相的印记。一道引我前往某处的印记，离理序主留下讯息之地不远。我抵达泰拉后不久便已寻获那则讯息。\n一道指向足以永远改写泰拉命运的秘密的印记。\n一道指向理序主之墓的印记。秩序之主与混沌之主的决战早已落幕，除了肉丸人本人，无人知晓结局。\n而在祂的墓中，藏着一段讯息。一段看似矛盾的讯息。\n我从中看见了自己旅途的终点。\n泰斯提斐人排斥我，他们看见我施展他们神明的魔法，那必然令他们恐惧。他们看见我执掌熵之力，用以铸就秩序。这合乎情理。换作是我，我也会恐惧；看见自己神明——一位你以为未曾陨落的神明——的力量从一个陌生人手中涌出。他们误会了我，但他们的排斥也情有可原。\n而此刻，我终于理解了巨龙。我与它们扭曲熵的力量产生共鸣。我能读懂它们。而它们，似乎也认出了我。没错，这是征兆。一道证明我已然准备就绪的征兆。\n我将成为新的秩序之主。我将成为理序主。\n是的，预言理应如此应验。我曾心存疑虑，但此刻已是最终的确认。\n这就是肉丸人一面与我为敌，一面又放任我对抗祂的原因。\n这就是祂不断嘲讽我、逼我变强的原因。这就是祂初次面对我时，抱怨挑战无趣的原因。\n这就是祂派来的亡灵，会随我一同变强的原因。\n祂一直在注视着我的脚步。祂想要他的宿敌归来。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:entropic_channeling_fabrial"
@@ -19,18 +19,32 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "contenttweaker:entropic_channeling_stone"
+          "id:8": "contenttweaker:requiem_of_the_arbiter"
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "contenttweaker:entropic_channeling_fabrial"
+          "id:8": "contenttweaker:entropic_channeling_stone"
         },
         "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:entropic_channeling_fabrial"
+        },
+        "3:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:soul_of_entropy"
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_chaoticchanneling"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

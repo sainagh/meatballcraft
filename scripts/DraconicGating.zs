@@ -1,3 +1,12 @@
+import mods.modularmachinery.RecipeBuilder;
+
+
+
+
+
+
+
+
 recipes.removeShaped(<draconicevolution:crafting_injector:0>);
 
 recipes.addShaped(<draconicevolution:crafting_injector:0>,
@@ -218,10 +227,6 @@ mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:draconic_core>,
 [<extendedcrafting:material:24>, <divinerpg:corrupted_stone>, <extendedcrafting:material:24>], 
 [<draconicevolution:draconium_block>, <extendedcrafting:material:24>, <draconicevolution:draconium_block>]]);  
 
-mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:draconic_core>*16, 
-[[<draconicevolution:draconium_block>, <extendedcrafting:material:24>, <draconicevolution:draconium_block>], 
-[<contenttweaker:eye_of_gallifrey>, <divinerpg:corrupted_stone>, <contenttweaker:eye_of_gallifrey>], 
-[<draconicevolution:draconium_block>, <extendedcrafting:material:24>, <draconicevolution:draconium_block>]]);  
 
 recipes.removeShaped(<draconicevolution:wyvern_core>);
 
@@ -432,5 +437,98 @@ mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:chaotic_core>*6
 [<contenttweaker:chaotic_mithril_alloy>, null, <contenttweaker:awakened_fulcrum>, null, <contenttweaker:awakened_fulcrum>, null, <contenttweaker:awakened_fulcrum>, null, <contenttweaker:chaotic_mithril_alloy>], 
 [<contenttweaker:chaotic_mithril_alloy>, <ore:ingotDarkSteel>, null, <draconicevolution:chaos_shard:0>, <contenttweaker:quasar_charged_dust>, <draconicevolution:chaos_shard:0>, null, <ore:ingotDarkSteel>, <contenttweaker:chaotic_mithril_alloy>], 
 [<contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>, <divinerpg:shadow_bar>, <draconicevolution:draconic_block>, <divinerpg:shadow_bar>, <contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>]]);  
+
+
+
+
+
+
+val divinecombinerdraconiccore1 = RecipeBuilder.newBuilder("divinecombinerdraconiccore1","divine_combiner",2);
+divinecombinerdraconiccore1.addFluidInput(<fluid:hint_of_divinity>*1);
+divinecombinerdraconiccore1.addItemInput(<draconicevolution:draconium_block>*16);
+divinecombinerdraconiccore1.addItemInput(<extendedcrafting:material:24>*16);
+divinecombinerdraconiccore1.addItemInput(<divinerpg:corrupted_stone>*4);
+divinecombinerdraconiccore1.addItemInput(<minecraft:ender_eye>*1);
+divinecombinerdraconiccore1.addItemOutput(<draconicevolution:draconic_core>*4);
+divinecombinerdraconiccore1.build();
+
+val divinecombinerdraconiccore2 = RecipeBuilder.newBuilder("divinecombinerdraconiccore2","divine_combiner",2);
+divinecombinerdraconiccore2.addFluidInput(<fluid:hint_of_divinity>*1);
+divinecombinerdraconiccore2.addItemInput(<draconicevolution:draconium_block>*16);
+divinecombinerdraconiccore2.addItemInput(<extendedcrafting:material:24>*16);
+divinecombinerdraconiccore2.addItemInput(<divinerpg:corrupted_stone>*4);
+divinecombinerdraconiccore2.addItemInput(<divinerpg:watching_eye>*1);
+divinecombinerdraconiccore2.addItemOutput(<draconicevolution:draconic_core>*8);
+divinecombinerdraconiccore2.build();
+
+val divinecombinerdraconiccore3 = RecipeBuilder.newBuilder("divinecombinerdraconiccore3","divine_combiner",2);
+divinecombinerdraconiccore3.addFluidInput(<fluid:hint_of_divinity>*1);
+divinecombinerdraconiccore3.addItemInput(<draconicevolution:draconium_block>*16);
+divinecombinerdraconiccore3.addItemInput(<extendedcrafting:material:24>*16);
+divinecombinerdraconiccore3.addItemInput(<divinerpg:corrupted_stone>*4);
+divinecombinerdraconiccore3.addItemInput(<contenttweaker:everwatching_eye>*1);
+divinecombinerdraconiccore3.addItemOutput(<draconicevolution:draconic_core>*16);
+divinecombinerdraconiccore3.build();
+
+val divinecombinerdraconiccore4 = RecipeBuilder.newBuilder("divinecombinerdraconiccore4","divine_combiner",2);
+divinecombinerdraconiccore4.addFluidInput(<fluid:hint_of_divinity>*1);
+divinecombinerdraconiccore4.addItemInput(<draconicevolution:draconium_block>*16);
+divinecombinerdraconiccore4.addItemInput(<extendedcrafting:material:24>*16);
+divinecombinerdraconiccore4.addItemInput(<divinerpg:corrupted_stone>*4);
+divinecombinerdraconiccore4.addItemInput(<contenttweaker:coralium_eye>*1);
+divinecombinerdraconiccore4.addItemOutput(<draconicevolution:draconic_core>*32);
+divinecombinerdraconiccore4.build();
+
+val divinecombinerdraconiccore5 = RecipeBuilder.newBuilder("divinecombinerdraconiccore5","divine_combiner",2);
+divinecombinerdraconiccore5.addFluidInput(<fluid:hint_of_divinity>*1);
+divinecombinerdraconiccore5.addItemInput(<draconicevolution:draconium_block>*16);
+divinecombinerdraconiccore5.addItemInput(<extendedcrafting:material:24>*16);
+divinecombinerdraconiccore5.addItemInput(<divinerpg:corrupted_stone>*4);
+divinecombinerdraconiccore5.addItemInput(<contenttweaker:eye_of_gallifrey>*1);
+divinecombinerdraconiccore5.addItemOutput(<draconicevolution:draconic_core>*64);
+divinecombinerdraconiccore5.build();
+
+
+
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:0>*2,
+[<draconicevolution:tool_upgrade:0>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:1>*2,
+[<draconicevolution:tool_upgrade:1>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:2>*2,
+[<draconicevolution:tool_upgrade:2>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:3>*2,
+[<draconicevolution:tool_upgrade:3>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:4>*2,
+[<draconicevolution:tool_upgrade:4>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:5>*2,
+[<draconicevolution:tool_upgrade:5>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:6>*2,
+[<draconicevolution:tool_upgrade:6>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:7>*2,
+[<draconicevolution:tool_upgrade:7>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:8>*2,
+[<draconicevolution:tool_upgrade:8>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:9>*2,
+[<draconicevolution:tool_upgrade:9>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:10>*2,
+[<draconicevolution:tool_upgrade:10>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:11>*2,
+[<draconicevolution:tool_upgrade:11>, <contenttweaker:energetic_draconium_ingot>]);
+
+
+
+
 
 

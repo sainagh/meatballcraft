@@ -32,6 +32,10 @@
         "3:10": {
           "Count:3": 1,
           "id:8": "divinerpg:mortum_heart"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:hydra_fang"
         }
       },
       "taskID:8": "bq_standard:retrieval"

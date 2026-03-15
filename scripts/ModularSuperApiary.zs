@@ -422,3 +422,14 @@ superbee_awakened.addFluidInput(<fluid:liquid_sunshine>*25);
 superbee_awakened.addItemOutput(<contenttweaker:awakening_bloom>*64);	
 superbee_awakened.addItemOutput(<contenttweaker:awakening_bloom>*64);	
 superbee_awakened.build();
+
+
+val superbee_doctoral = RecipeBuilder.newBuilder("superbee_doctoral","sacred_cinders_apiary",10);	
+superbee_doctoral.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "magicbees.speciesDoctoral", UID0: "magicbees.speciesDoctoral"}]}}));	
+superbee_doctoral.setChance(0.0);	
+superbee_doctoral.addFluidInput(<fluid:liquid_sunshine>*25);	
+superbee_doctoral.addItemOutput(<magicbees:beecomb:9>*64);	
+superbee_doctoral.addItemOutput(<magicbees:beecomb:9>*64);	
+superbee_doctoral.build();
+
+

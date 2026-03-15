@@ -309,6 +309,7 @@ mods.nuclearcraft.melter.addRecipe([<contenttweaker:antimony_crystal>, <fluid:an
 // making tellurium
 
 mods.thaumcraft.Crucible.registerRecipe("maketellurium", "", <contenttweaker:tellurium_crystal>, <abyssalcraft:densecarboncluster>, [<aspect:dreadia>*15]);
+mods.thaumcraft.Crucible.registerRecipe("maketelluriumcompact", "", <contenttweaker:tellurium_crystal>*4, <contenttweaker:carbon_condensate>, [<aspect:dreadia>*30]);
 
 mods.nuclearcraft.melter.addRecipe([<contenttweaker:tellurium_crystal>, <fluid:tellurium>*144]);
 

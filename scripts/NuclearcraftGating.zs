@@ -444,6 +444,16 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_wall>
 [<nuclearcraft:alloy:11>, <railcraft:tank_iron_wall>, null, <contenttweaker:ogerite_crystal_lattice>, null, <railcraft:tank_iron_wall>, <nuclearcraft:alloy:11>], 
 [<ore:blockSteel>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <ore:blockSteel>]]);  
 
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_wall>*18, 
+[[<ore:blockSteel>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <ore:blockSteel>], 
+[<nuclearcraft:alloy:11>, <railcraft:tank_iron_wall>, <avaritia:resource:5>, <contenttweaker:ogerite_crystal_lattice>, <avaritia:resource:5>, <railcraft:tank_iron_wall>, <nuclearcraft:alloy:11>], 
+[<nuclearcraft:alloy:11>, <avaritia:resource:5>, <thebetweenlands:items_misc:24>, <thaumicaugmentation:impetus_drainer>, <thebetweenlands:items_misc:24>, <avaritia:resource:5>, <nuclearcraft:alloy:11>], 
+[<forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <contenttweaker:ogerite_crystal_lattice>, <thaumicaugmentation:impetus_drainer>, <contenttweaker:restless_steel_frame>, <thaumicaugmentation:impetus_drainer>, <contenttweaker:ogerite_crystal_lattice>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000})], 
+[<nuclearcraft:alloy:11>, <avaritia:resource:5>, <thebetweenlands:items_misc:24>, <thaumicaugmentation:impetus_drainer>, <thebetweenlands:items_misc:24>, <avaritia:resource:5>, <nuclearcraft:alloy:11>], 
+[<nuclearcraft:alloy:11>, <railcraft:tank_iron_wall>, <avaritia:resource:5>, <contenttweaker:ogerite_crystal_lattice>, <avaritia:resource:5>, <railcraft:tank_iron_wall>, <nuclearcraft:alloy:11>], 
+[<ore:blockSteel>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <ore:blockSteel>]]);  
+
+
 recipes.addShaped(<contenttweaker:stellar_alloy_shaft>,
 [[<ore:blockSoularium>, <ore:blockStellarAlloy>, <ore:blockSoularium>],
 [<ore:blockSoularium>, <ore:blockStellarAlloy>, <ore:blockSoularium>],
@@ -724,6 +734,45 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_
 <aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <contenttweaker:adamantium_plate>]]);  
 
 
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_thermoconducting>*20, 
+[[<contenttweaker:adamantium_plate>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
+<contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
+<aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <contenttweaker:adamantium_plate>], 
+
+[<nuclearcraft:part:3>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <contenttweaker:defined_ingot>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:part:3>], 
+
+[<aoa3:radiant_infusion_stone>, <nuclearcraft:alloy:11>, <contenttweaker:krypton_capture>, 
+<contenttweaker:imperfect_neutronium_nugget>, <contenttweaker:superconducting_thread>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:krypton_capture>, <nuclearcraft:alloy:11>, <aoa3:radiant_infusion_stone>], 
+
+[<contenttweaker:inert_crystal>, <nuclearcraft:alloy:11>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:mythic_machine_case>, <libvulpes:advstructuremachine>, <contenttweaker:mythic_machine_case>, 
+<contenttweaker:imperfect_neutronium_nugget>, <nuclearcraft:alloy:11>, <contenttweaker:inert_crystal>], 
+
+[<openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <nuclearcraft:alloy:11>, <libvulpes:advstructuremachine>, 
+<contenttweaker:superconducting_thread>, <contenttweaker:arc_reactor_coil>, <contenttweaker:superconducting_thread>, 
+<libvulpes:advstructuremachine>, <nuclearcraft:alloy:11>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}})], 
+
+[<contenttweaker:inert_crystal>, <nuclearcraft:alloy:11>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:mythic_machine_case>, <libvulpes:advstructuremachine>, <contenttweaker:mythic_machine_case>, 
+<contenttweaker:imperfect_neutronium_nugget>, <nuclearcraft:alloy:11>, <contenttweaker:inert_crystal>], 
+
+[<aoa3:radiant_infusion_stone>, <nuclearcraft:alloy:11>, <contenttweaker:krypton_capture>, 
+<contenttweaker:imperfect_neutronium_nugget>, <contenttweaker:superconducting_thread>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:krypton_capture>, <nuclearcraft:alloy:11>, <aoa3:radiant_infusion_stone>], 
+
+[<nuclearcraft:part:3>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <contenttweaker:defined_ingot>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:part:3>], 
+
+[<contenttweaker:adamantium_plate>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
+<contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
+<aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <contenttweaker:adamantium_plate>]]);  
+
+
 recipes.removeShaped(<nuclearcraft:buffer>);
 
 recipes.addShaped(<nuclearcraft:buffer>*4,
@@ -825,6 +874,7 @@ recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:5>,
 [<nuclearcraft:alloy:15>, <nuclearcraft:turbine_wall>, <nuclearcraft:alloy:15>],
 [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]]);
 
+mods.nuclearcraft.heat_exchanger.removeRecipeWithOutput([<fluid:steam>*1000]);
 
 mods.nuclearcraft.heat_exchanger.addRecipe([<fluid:high_pressure_steam>*1000, <fluid:supercritical_steam>*1000, 80000.0, 300, 700]);
 
