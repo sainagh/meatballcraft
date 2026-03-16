@@ -731,13 +731,13 @@
 <contenttweaker:cosmic_hypergrowth_component>.addTooltip(format.aqua("  超高速生长灌注器"));
 <contenttweaker:cosmic_hypergrowth_component>.addTooltip(format.white("     物品/流体产出x64"));
 
-<contenttweaker:freedom_定义器>.addTooltip(format.gold("多方块升级："));
-<contenttweaker:freedom_定义器>.addTooltip(format.aqua("  定义器"));
-<contenttweaker:freedom_定义器>.addTooltip(format.white("     物品/流体产出x16"));
+<contenttweaker:freedom_definer>.addTooltip(format.gold("多方块升级："));
+<contenttweaker:freedom_definer>.addTooltip(format.aqua("  定义器"));
+<contenttweaker:freedom_definer>.addTooltip(format.white("     物品/流体产出x16"));
 
-<contenttweaker:wishful_定义器>.addTooltip(format.gold("多方块升级："));
-<contenttweaker:wishful_定义器>.addTooltip(format.aqua("  定义器"));
-<contenttweaker:wishful_定义器>.addTooltip(format.white("     物品/流体产出x64"));
+<contenttweaker:wishful_definer>.addTooltip(format.gold("多方块升级："));
+<contenttweaker:wishful_definer>.addTooltip(format.aqua("  定义器"));
+<contenttweaker:wishful_definer>.addTooltip(format.white("     物品/流体产出x64"));
 
 <contenttweaker:quasar_charged_core_of_definition>.addTooltip(format.gold("多方块升级："));
 <contenttweaker:quasar_charged_core_of_definition>.addTooltip(format.aqua("  定义器"));
