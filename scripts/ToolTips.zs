@@ -932,7 +932,7 @@
 
 <appliedenergistics2:material:59>.addTooltip(format.red("放入量子链接仓以获得无限访问范围"));
 
-<contenttweaker:etherium_saw_blade>.addTooltip(format.red("警告：在神话处理器：磨粉机中使用时搭配T1 神话线圈"));
+<contenttweaker:etherium_saw_blade>.addTooltip(format.red("警告：在神话处理器：磨粉机中使用时搭配1级神话线圈"));
 
 <contenttweaker:droplet_of_the_great_snake>.addTooltip(format.red("通过惧惮界召唤石获得"));
 
