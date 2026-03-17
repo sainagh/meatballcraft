@@ -719,3 +719,9 @@ mithchemreac96.addFluidInput(<fluid:fluid_crystal_matrix>*1000);
 mithchemreac96.addFluidOutput(<fluid:fluid_californium_lattice>*1000);
 mithchemreac96.build();
 
+val mithchemreac97 = RecipeBuilder.newBuilder("mithchemreac97","mythic_processor_chemical_reactor",2);
+mithchemreac97.addEnergyPerTickInput(200000);
+mithchemreac97.addFluidInput(<fluid:inquiring_abyssite>*1000);
+mithchemreac97.addFluidInput(<fluid:trinity_ingot>*12);
+mithchemreac97.addFluidOutput(<fluid:everloving_abyssite>*1000);
+mithchemreac97.build();

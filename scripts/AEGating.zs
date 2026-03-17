@@ -769,6 +769,21 @@ mods.extendedcrafting.TableCrafting.addShaped(<cells:import_fluid_interface>,
 [null, null, <appliedenergistics2:part:241>, null, null], 
 [<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
 
+recipes.removeShaped(<cells:export_interface>);
+mods.extendedcrafting.TableCrafting.addShaped(<cells:export_interface>, 
+[[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>], 
+[null, null, <extendedcrafting:material:8>, null, null], 
+[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>, <appliedenergistics2:quartz_glass>], 
+[null, null, <appliedenergistics2:part:260>, null, null], 
+[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
+
+recipes.removeShaped(<cells:export_fluid_interface>);
+mods.extendedcrafting.TableCrafting.addShaped(<cells:export_fluid_interface>, 
+[[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>], 
+[null, null, <extendedcrafting:material:8>, null, null], 
+[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>, <appliedenergistics2:quartz_glass>], 
+[null, null, <appliedenergistics2:part:261>, null, null], 
+[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
 
 
 val divcombinacceptor1 = RecipeBuilder.newBuilder("divcombinacceptor1","divine_combiner",2);

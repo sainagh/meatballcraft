@@ -121,7 +121,7 @@ key_key.dankstorage.void:0:NONE
 key_key.dankstorage.construction:0:NONE
 key_key.xtones.scroll:42:NONE
 key_smoothfont.key.guiOpen:199:NONE
-key_key.jei.toggleOverlay:24:CONTROL
+key_key.jei.toggleOverlay:0:NONE
 key_key.jei.focusSearch:33:NONE
 key_key.jei.toggleCheatMode:0:NONE
 key_key.jei.toggleEditMode:0:NONE

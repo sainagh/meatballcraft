@@ -228,12 +228,7 @@ fractallitefurnacehyperuranion.addItemInput(<extendedcrafting:singularity_custom
 fractallitefurnacehyperuranion.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>);
 fractallitefurnacehyperuranion.build();
 
-val fractallitefurnacehyperuranion2 = RecipeBuilder.newBuilder("fractallitefurnacehyperuranion2","fractallite_furnace",2);
-fractallitefurnacehyperuranion2.addFluidInput(<fluid:aeternalis_fuel>*10);
-fractallitefurnacehyperuranion2.addItemInput(<contenttweaker:hyperuranion_ingot>);
-fractallitefurnacehyperuranion2.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
-fractallitefurnacehyperuranion2.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>);
-fractallitefurnacehyperuranion2.build();
+
 
 val fractallitefurnacehyperuranion3 = RecipeBuilder.newBuilder("fractallitefurnacehyperuranion3","fractallite_furnace",2);
 fractallitefurnacehyperuranion3.addFluidInput(<fluid:aeternalis_fuel>*10);

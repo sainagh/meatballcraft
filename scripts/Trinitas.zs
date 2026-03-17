@@ -478,7 +478,7 @@ trinityingot4b.build();
 
 val trinityingot5 = RecipeBuilder.newBuilder("trinityingot5","presbytery_of_the_threefold_love",3);
 trinityingot5.addFluidInput(<fluid:divine_resonance>*2000);
-trinityingot5.addFluidInput(<fluid:molten_vibranium_alloy>*5000);
+trinityingot5.addFluidInput(<fluid:molten_vibranium_alloy>*20000);
 trinityingot5.addItemInput(<contenttweaker:halite_warrior>);
 trinityingot5.setChance(0.1);
 trinityingot5.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
@@ -496,7 +496,7 @@ trinityingot5.build();
 
 val trinityingot5a = RecipeBuilder.newBuilder("trinityingot5a","presbytery_of_the_threefold_love",3);
 trinityingot5a.addFluidInput(<fluid:divine_resonance>*2000);
-trinityingot5a.addFluidInput(<fluid:molten_vibranium_alloy>*5000);
+trinityingot5a.addFluidInput(<fluid:molten_vibranium_alloy>*20000);
 trinityingot5a.addItemInput(<contenttweaker:essence_of_the_balanced_warrior>);
 trinityingot5a.setChance(0.1);
 trinityingot5a.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*4);
@@ -514,7 +514,7 @@ trinityingot5a.build();
 
 val trinityingot5b = RecipeBuilder.newBuilder("trinityingot5b","presbytery_of_the_threefold_love",3);
 trinityingot5b.addFluidInput(<fluid:divine_resonance>*2000);
-trinityingot5b.addFluidInput(<fluid:molten_vibranium_alloy>*5000);
+trinityingot5b.addFluidInput(<fluid:molten_vibranium_alloy>*20000);
 trinityingot5b.addItemInput(<contenttweaker:essence_of_the_kanohi_warrior>);
 trinityingot5b.setChance(0.1);
 trinityingot5b.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*16);
@@ -533,7 +533,7 @@ trinityingot5b.build();
 
 val trinityingot6 = RecipeBuilder.newBuilder("trinityingot6","presbytery_of_the_threefold_love",3);
 trinityingot6.addFluidInput(<fluid:divine_resonance>*1000);
-trinityingot6.addFluidInput(<fluid:brightsteel_alloy>*5000);
+trinityingot6.addFluidInput(<fluid:brightsteel_alloy>*20000);
 trinityingot6.addItemInput(<contenttweaker:halite_warrior>);
 trinityingot6.setChance(0.05);
 trinityingot6.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
@@ -551,7 +551,7 @@ trinityingot6.build();
 
 val trinityingot6a = RecipeBuilder.newBuilder("trinityingot6a","presbytery_of_the_threefold_love",3);
 trinityingot6a.addFluidInput(<fluid:divine_resonance>*1000);
-trinityingot6a.addFluidInput(<fluid:brightsteel_alloy>*5000);
+trinityingot6a.addFluidInput(<fluid:brightsteel_alloy>*20000);
 trinityingot6a.addItemInput(<contenttweaker:essence_of_the_balanced_warrior>);
 trinityingot6a.setChance(0.05);
 trinityingot6a.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*4);
@@ -569,7 +569,7 @@ trinityingot6a.build();
 
 val trinityingot6b = RecipeBuilder.newBuilder("trinityingot6b","presbytery_of_the_threefold_love",3);
 trinityingot6b.addFluidInput(<fluid:divine_resonance>*1000);
-trinityingot6b.addFluidInput(<fluid:brightsteel_alloy>*5000);
+trinityingot6b.addFluidInput(<fluid:brightsteel_alloy>*20000);
 trinityingot6b.addItemInput(<contenttweaker:essence_of_the_kanohi_warrior>);
 trinityingot6b.setChance(0.05);
 trinityingot6b.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*16);
@@ -587,7 +587,7 @@ trinityingot6b.build();
 
 val trinityingot7 = RecipeBuilder.newBuilder("trinityingot7","presbytery_of_the_threefold_love",3);
 trinityingot7.addFluidInput(<fluid:divine_resonance>*1000);
-trinityingot7.addFluidInput(<fluid:molten_hassium_alloy>*5000);
+trinityingot7.addFluidInput(<fluid:molten_hassium_alloy>*20000);
 trinityingot7.addItemInput(<contenttweaker:halite_warrior>);
 trinityingot7.setChance(0.01);
 trinityingot7.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
@@ -605,7 +605,7 @@ trinityingot7.build();
 
 val trinityingot7a = RecipeBuilder.newBuilder("trinityingot7a","presbytery_of_the_threefold_love",3);
 trinityingot7a.addFluidInput(<fluid:divine_resonance>*1000);
-trinityingot7a.addFluidInput(<fluid:molten_hassium_alloy>*5000);
+trinityingot7a.addFluidInput(<fluid:molten_hassium_alloy>*20000);
 trinityingot7a.addItemInput(<contenttweaker:essence_of_the_balanced_warrior>);
 trinityingot7a.setChance(0.01);
 trinityingot7a.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*4);
@@ -623,7 +623,7 @@ trinityingot7a.build();
 
 val trinityingot7b = RecipeBuilder.newBuilder("trinityingot7b","presbytery_of_the_threefold_love",3);
 trinityingot7b.addFluidInput(<fluid:divine_resonance>*1000);
-trinityingot7b.addFluidInput(<fluid:molten_hassium_alloy>*5000);
+trinityingot7b.addFluidInput(<fluid:molten_hassium_alloy>*20000);
 trinityingot7b.addItemInput(<contenttweaker:essence_of_the_kanohi_warrior>);
 trinityingot7b.setChance(0.01);
 trinityingot7b.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*16);
@@ -643,7 +643,7 @@ trinityingot7b.build();
 
 val trinityingot8 = RecipeBuilder.newBuilder("trinityingot9","presbytery_of_the_threefold_love",3);
 trinityingot8.addFluidInput(<fluid:divine_resonance>*1000);
-trinityingot8.addFluidInput(<fluid:neutrhassium_alloy>*5000);
+trinityingot8.addFluidInput(<fluid:neutrhassium_alloy>*20000);
 trinityingot8.addItemInput(<contenttweaker:halite_warrior>);
 trinityingot8.setChance(0.001);
 trinityingot8.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
@@ -661,7 +661,7 @@ trinityingot8.build();
 
 val trinityingot8a = RecipeBuilder.newBuilder("trinityingot9a","presbytery_of_the_threefold_love",3);
 trinityingot8a.addFluidInput(<fluid:divine_resonance>*1000);
-trinityingot8a.addFluidInput(<fluid:neutrhassium_alloy>*5000);
+trinityingot8a.addFluidInput(<fluid:neutrhassium_alloy>*20000);
 trinityingot8a.addItemInput(<contenttweaker:essence_of_the_balanced_warrior>);
 trinityingot8a.setChance(0.001);
 trinityingot8a.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*4);
@@ -680,7 +680,7 @@ trinityingot8a.build();
 
 val trinityingot8b = RecipeBuilder.newBuilder("trinityingot9b","presbytery_of_the_threefold_love",3);
 trinityingot8b.addFluidInput(<fluid:divine_resonance>*1000);
-trinityingot8b.addFluidInput(<fluid:neutrhassium_alloy>*5000);
+trinityingot8b.addFluidInput(<fluid:neutrhassium_alloy>*20000);
 trinityingot8b.addItemInput(<contenttweaker:essence_of_the_kanohi_warrior>);
 trinityingot8b.setChance(0.001);
 trinityingot8b.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*16);

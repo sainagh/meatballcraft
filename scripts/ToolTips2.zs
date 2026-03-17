@@ -312,7 +312,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:forgotten_will>.addTooltip(format.green("可重复使用"));
 
-<contenttweaker:divine_star>.addTooltip(format.red("使用末地种神话虚空资源采掘机来获取第一个，聚合配方实际无用（random51试过了）"));
+<contenttweaker:divine_star>.addTooltip(format.red("使用末地种神话虚空资源采掘机来获取第一个"));
 
 <contenttweaker:soul_of_the_grand_wizard>.addTooltip(format.red("在城堡内部使用冰晶雪原之杖以打开大门"));
 <contenttweaker:soul_of_the_grand_wizard>.addTooltip(format.green("可重复使用"));

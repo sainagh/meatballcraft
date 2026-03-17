@@ -725,6 +725,13 @@ inffurnaceshardofshadesmar.addItemInput(<contenttweaker:shard_of_humble_educatio
 inffurnaceshardofshadesmar.addItemOutput(<contenttweaker:living_shard_of_shadesmar>);
 inffurnaceshardofshadesmar.build();
 
+
+
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:actualization_aspected_eleint_scale>, <fluid:actualizing_fluid>*1000, <fluid:breath_of_actualization>*1000]);
+
+
+
 val inffurnaceshardofshadesmar2 = RecipeBuilder.newBuilder("inffurnaceshardofshadesmar2","infinity_furnace",40);
 inffurnaceshardofshadesmar2.addFluidInput(<fluid:breath_of_actualization>*100);
 inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_restored_faith>);
