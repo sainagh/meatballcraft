@@ -157,8 +157,8 @@
   },
   {
     "id": "guardian",
-    "displayName": "守护者",
-    "displayNamePlural": "守护者",
+    "displayName": "守卫者",
+    "displayNamePlural": "守卫者",
     "livingMatter": "overworldian",
     "simulationRFCost": 1500,
     "craftingIngredients": [

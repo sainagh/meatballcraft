@@ -1203,7 +1203,12 @@ mythinfus147.addItemInput(<openblocks:tank>);
 mythinfus147.addItemOutput(<openblocks:tank>.withTag({tank: {FluidName: "distillate_of_levity", Amount: 16000}}));
 mythinfus147.build();
 
-
+val mythinfus148 = RecipeBuilder.newBuilder("mythinfus148","mythic_processor_infuser",2);
+mythinfus148.addEnergyPerTickInput(1000000);
+mythinfus148.addFluidInput(<fluid:aerotheum>*1000);
+mythinfus148.addItemInput(<techreborn:dynamiccell>*1);
+mythinfus148.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "aerotheum", Amount: 1000}}));
+mythinfus148.build();
 
 
 
@@ -1670,7 +1675,33 @@ mythextrac64.addItemOutput(<openblocks:tank>);
 mythextrac64.addFluidOutput(<fluid:essence_of_sane_thoughts>*16000);
 mythextrac64.build();
 
+val mythextrac65 = RecipeBuilder.newBuilder("mythextrac65","mythic_processor_infuser",2);
+mythextrac65.addEnergyPerTickInput(1000000);
+mythextrac65.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "nitrogen", Amount: 1000}}));
+mythextrac65.addItemOutput(<techreborn:dynamiccell>);
+mythextrac65.addFluidOutput(<fluid:nitrogen>*1000);
+mythextrac65.build();
 
+val mythextrac66 = RecipeBuilder.newBuilder("mythextrac66","mythic_processor_infuser",2);
+mythextrac66.addEnergyPerTickInput(1000000);
+mythextrac66.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "oxygen", Amount: 1000}}));
+mythextrac66.addItemOutput(<techreborn:dynamiccell>);
+mythextrac66.addFluidOutput(<fluid:oxygen>*1000);
+mythextrac66.build();
+
+val mythextrac67 = RecipeBuilder.newBuilder("mythextrac67","mythic_processor_infuser",2);
+mythextrac67.addEnergyPerTickInput(1000000);
+mythextrac67.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "noble_gas_mix", Amount: 1000}}));
+mythextrac67.addItemOutput(<techreborn:dynamiccell>);
+mythextrac67.addFluidOutput(<fluid:noble_gas_mix>*1000);
+mythextrac67.build();
+
+val mythextrac68 = RecipeBuilder.newBuilder("mythextrac68","mythic_processor_infuser",2);
+mythextrac68.addEnergyPerTickInput(1000000);
+mythextrac68.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "argon", Amount: 1000}}));
+mythextrac68.addItemOutput(<techreborn:dynamiccell>);
+mythextrac68.addFluidOutput(<fluid:argon>*1000);
+mythextrac68.build();
 
 
 

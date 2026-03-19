@@ -11,13 +11,13 @@
             "description": "x16并行",
             "modifiers": [{
                 "io": "output",
-                "target": "modularmachinery:item",
+                "target": "modularmachinery:fluid",
                 "operation": 1,
                 "multiplier": 16
             },
             {
                 "io": "input",
-                "target": "modularmachinery:item",
+                "target": "modularmachinery:fluid",
                 "operation": 1,
                 "multiplier": 16
             }]

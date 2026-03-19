@@ -223,7 +223,15 @@ mythproccentsep127.addItemOutput(<forestry:honey_drop:0>);
 mythproccentsep127.build();
 
 
-
+val mythproccentsep128 = RecipeBuilder.newBuilder("mythproccentsep128","mythic_processor_centrifuge",2);	
+mythproccentsep128.addEnergyPerTickInput(70000);	
+mythproccentsep128.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "aerotheum", Amount: 1000}})*10);	
+mythproccentsep128.addItemInput(<techreborn:dynamiccell>);	
+mythproccentsep128.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "nitrogen", Amount: 1000}})*7);	
+mythproccentsep128.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "oxygen", Amount: 1000}})*2);	
+mythproccentsep128.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "noble_gas_mix", Amount: 1000}})*1);	
+mythproccentsep128.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "argon", Amount: 1000}})*1);	
+mythproccentsep128.build();
 
 
 
