@@ -27,7 +27,7 @@
               "Lore:9": {
                 "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oRadiation-Absorbing Helmet§r"
+              "Name:8": "§6§o辐射吸收头盔§r"
             },
             "ncRadiationResistance:6": 100.0
           }
@@ -40,7 +40,7 @@
               "Lore:9": {
                 "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oRadiation-Absorbing Chestplate§r"
+              "Name:8": "§6§o辐射吸收胸甲§r"
             },
             "ncRadiationResistance:6": 100.0
           }
@@ -53,7 +53,7 @@
               "Lore:9": {
                 "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oRadiation-Absorbing Leggings§r"
+              "Name:8": "§6§o辐射吸收护腿§r"
             },
             "ncRadiationResistance:6": 100.0
           }
@@ -66,7 +66,7 @@
               "Lore:9": {
                 "0:8": "§d§o超限附魔§r"
               },
-              "Name:8": "§6§oRadiation-Absorbing Boots§r"
+              "Name:8": "§6§o辐射吸收靴子§r"
             },
             "ncRadiationResistance:6": 100.0
           }

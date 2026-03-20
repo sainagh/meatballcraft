@@ -338,7 +338,7 @@ dragoncruc23.addItemOutput(<contenttweaker:eternal_dragonfire_gem>);
 dragoncruc23.build();
 
 var fulfilleddata as IData = {
-	display: {Lore:["§d§oFulfilled§r"]}
+	display: {Lore:["§d§o终锻完满§r"]}
 };
 
 val dragoncruc24 = RecipeBuilder.newBuilder("dragoncruc24","dragonfire_crucible",40);
