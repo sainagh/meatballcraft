@@ -1970,7 +1970,7 @@ import crafttweaker.item.IItemCondition;
 
 <thermalexpansion:satchel:0>.addTooltip(format.red("基础等级的不怎么好用，但配合升级和扩容魔咒就很好用了！"));
 
-<enderio:item_alloy_endergy_ingot:0>.addTooltip(format.red("核电工艺提供的配方更好，所以会产生辐射"));
+<enderio:item_alloy_endergy_ingot:0>.addTooltip(format.red("核电工艺提供的配方更好"));
 
 <techreborn:chemical_reactor>.addTooltip(format.red("该机器已禁用"));
 
