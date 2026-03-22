@@ -66,6 +66,7 @@ key_key.cellterminal.quick_partition_auto.desc:0:NONE
 key_key.cellterminal.quick_partition_item.desc:0:NONE
 key_key.cellterminal.quick_partition_fluid.desc:0:NONE
 key_key.cellterminal.quick_partition_essentia.desc:0:NONE
+key_key.cellterminal.quick_partition_gas.desc:0:NONE
 key_key.cellterminal.add_to_storage_bus.desc:0:NONE
 key_key.cells.memory_card_include_filters.desc:29:NONE
 key_key.cells.quick_add_to_filter.desc:0:NONE
@@ -103,7 +104,7 @@ key_openblocks.keybind.vario_vol_down:0:NONE
 key_key.sfm.more_info:42:NONE
 key_key.sfm.toggle_label_view_key:56:NONE
 key_key.sfm.toggle_network_tool_overlay:56:NONE
-key_key.sfm.container_inspector.activation_key:53:NONE
+key_key.sfm.container_inspector.activation_key:0:NONE
 key_key.sfm.item_inspector.activation_key:0:NONE
 key_key.sfm.label_gun.pick_block_modifier:56:NONE
 key_key.sfm.label_gun.contiguous_modifier:29:NONE

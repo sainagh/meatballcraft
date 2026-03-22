@@ -14,7 +14,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<modularmachinery:blockcasing:0>,
 [<modularmachinery:itemmodularium>, <buildcraftsilicon:redstone_chipset:3>, <contenttweaker:fiery_unguent_bottle>, <buildcraftsilicon:redstone_chipset:3>, <modularmachinery:itemmodularium>], 
 [<fluxnetworks:fluxcore>, <modularmachinery:itemmodularium>, <redstonearsenal:material:224>, <modularmachinery:itemmodularium>, <fluxnetworks:fluxcore>]]); 
 
-recipes.addShapeless(<contenttweaker:fiery_unguent_bottle>,[<bewitchment:fiery_unguent>, <minecraft:glass_bottle>]);
+
+
+
 
 val fieryrhenium = RecipeBuilder.newBuilder("fieryrhenium","dragonfire_crucible",100);
 fieryrhenium.addFluidInput(<fluid:eternal_dragon_fire>*100);

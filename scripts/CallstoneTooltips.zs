@@ -87,7 +87,7 @@
 <contenttweaker:lucky_box_aether_gold>.addTooltip(format.red("需在指定维度使用：主世界"));
 <contenttweaker:lucky_box_twilight_books>.addTooltip(format.red("需在指定维度使用：主世界"));
 <contenttweaker:lucky_box_twilight_weapons>.addTooltip(format.red("需在指定维度使用：主世界"));
-<contenttweaker:dread_cleansing_callstone>.addTooltip(format.red("需在指定维度使用：基岩维度"));
+<contenttweaker:dread_cleansing_callstone>.addTooltip(format.red("需在指定维度使用：虚域"));
 <contenttweaker:guardians_of_shadesmar_callstone>.addTooltip(format.red("需在指定维度使用：卡尚"));
 <contenttweaker:trinitas_callstone>.addTooltip(format.red("需在指定维度使用：叁壹界"));
 <contenttweaker:tainted_prison_key>.addTooltip(format.red("需在指定维度使用：衰腐界"));

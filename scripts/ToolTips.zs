@@ -1828,7 +1828,7 @@
 
 <tinker_io:smart_output>.addTooltip(format.red("感谢Lashmak，智能输出端速度已被增强！"));
 
-<thaumictinkerer:ichorium_pick_adv>.addTooltip(format.red("在主世界底部左击基岩来进入基岩维度"));
+// <thaumictinkerer:ichorium_pick_adv>.addTooltip(format.red("在主世界底部左击基岩来进入基岩维度"));
 
 <mowziesmobs:naga_fang>.addTooltip(format.red("树龙界的飞龙掉落"));
 <mowziesmobs:naga_fang>.addTooltip(format.red("小概率自然生成，可在特定结构中发现 ;)"));

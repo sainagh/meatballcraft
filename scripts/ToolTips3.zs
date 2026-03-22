@@ -191,9 +191,9 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:bedrock_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得10点采掘经验"));
 
-<thaumictinkerer:ichorium_pick:*>.addTooltip(format.red("每破坏一个方块，获得100点采掘经验"));
+// <thaumictinkerer:ichorium_pick:*>.addTooltip(format.red("每破坏一个方块，获得100点采掘经验"));
 
-<thaumictinkerer:ichorium_pick_adv:*>.addTooltip(format.red("每破坏一个方块，获得200点采掘经验"));
+// <thaumictinkerer:ichorium_pick_adv:*>.addTooltip(format.red("每破坏一个方块，获得200点采掘经验"));
 
 <aoa3:rock_pick_sword:*>.addTooltip(format.red("每破坏一个方块，获得150点采掘经验"));
 
@@ -267,6 +267,9 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:infinite_loving_plate>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:ingot_of_omnibelevolence>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:summons_of_ragnarok>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:kamium_ingot>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:kami_cloth>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:kamium_essence>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 
 <contenttweaker:stone_of_the_divine_love>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
 <contenttweaker:stone_of_natural_might>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
@@ -288,6 +291,24 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:chaotic_nexus>.addTooltip(format.red("使用装有以下3级升级的神龙之力权杖：攻击伤害、挖掘速度、范围挖掘、RF容量、范围攻击"));
 
 <contenttweaker:blue_matter>.addTooltip(format.red("首个物品通过英玫之门获得"));
+
+<bewitchment:oak_spirit>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:spruce_heart>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:birch_soul>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:cloudy_oil>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:acacia_resin>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:ebb_of_death>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:droplet_of_wisdom>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:liquid_witchcraft>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:essence_of_vitality>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:cleansing_balm>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:demonic_elixir>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:fiery_unguent>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:swirl_of_depths>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:oil_of_vitriol>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:otherworldly_tears>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:heaven_extract>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
+<bewitchment:stone_ichor>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
 
 
 

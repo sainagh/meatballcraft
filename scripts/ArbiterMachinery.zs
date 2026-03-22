@@ -813,14 +813,14 @@ mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:irradiated_naquadah_core>
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:irradiated_naquadah_core>*16, <fluid:molten_abyssal_alloy>*12, <fluid:naquadah_alloy>*16000]);
 
 recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "essence_of_sane_thoughts", Amount: 1000}),
-[[<thaumictinkerer:kamiresource:3>, <thaumcraft:brain_box>.withTag({display: {Name: "ᚽᛠᛇᛒᚽᛃᛒᚶᚣᚽᚤᛠᚽᚥᛊ",Lore:["§d§o真名§r"]}}), <thaumictinkerer:kamiresource:3>],
+[[<contenttweaker:kamium_ingot>, <thaumcraft:brain_box>.withTag({display: {Name: "ᚽᛠᛇᛒᚽᛃᛒᚶᚣᚽᚤᛠᚽᚥᛊ",Lore:["§d§o真名§r"]}}), <contenttweaker:kamium_ingot>],
 [makeVisCrystal(<aspect:cognitio> * 1), <forge:bucketfilled>.withTag({FluidName: "vapor_of_levity", Amount: 1000}), makeVisCrystal(<aspect:cognitio> * 1)],
-[<thaumictinkerer:kamiresource:3>, <botania:incensestick>.withTag({brewKey: "warpWard"}), <thaumictinkerer:kamiresource:3>]]);
+[<contenttweaker:kamium_ingot>, <botania:incensestick>.withTag({brewKey: "warpWard"}), <contenttweaker:kamium_ingot>]]);
 
 recipes.addShaped(<openblocks:tank>.withTag({tank: {FluidName: "essence_of_sane_thoughts", Amount: 16000}}),
-[[<thaumictinkerer:kamiresource:3>, <thaumcraft:brain_box>.withTag({display: {Name: "ᚽᛠᛇᛒᚽᛃᛒᚶᚣᚽᚤᛠᚽᚥᛊ",Lore:["§d§o真名§r"]}}), <thaumictinkerer:kamiresource:3>],
+[[<contenttweaker:kamium_ingot>, <thaumcraft:brain_box>.withTag({display: {Name: "ᚽᛠᛇᛒᚽᛃᛒᚶᚣᚽᚤᛠᚽᚥᛊ",Lore:["§d§o真名§r"]}}), <contenttweaker:kamium_ingot>],
 [makeVisCrystal(<aspect:cognitio> * 1), <openblocks:tank>.withTag({tank: {FluidName: "distillate_of_levity", Amount: 16000}}), makeVisCrystal(<aspect:cognitio> * 1)],
-[<thaumictinkerer:kamiresource:3>, <botania:incensestick>.withTag({brewKey: "warpWard"}), <thaumictinkerer:kamiresource:3>]]);
+[<contenttweaker:kamium_ingot>, <botania:incensestick>.withTag({brewKey: "warpWard"}), <contenttweaker:kamium_ingot>]]);
 
 
 

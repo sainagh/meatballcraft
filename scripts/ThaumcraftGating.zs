@@ -1,6 +1,7 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.thaumcraft.Infusion;
 import mods.thaumcraft.Crucible;
+import mods.thaumcraft.ArcaneWorkbench;
 
 mods.thaumcraft.Crucible.registerRecipe("crucibledupeimpetus", "", <thaumicaugmentation:material:5>*7, <thaumicaugmentation:material:5>, [<aspect:potentia>*10, <aspect:ordo>*20, <aspect:vitium>*5]);
 mods.thaumcraft.Crucible.registerRecipe("crucibledupeimpetus2", "", <thaumicaugmentation:material:5>*15, <contenttweaker:impetus_crystal>, [<aspect:potentia>*10, <aspect:ordo>*20, <aspect:vitium>*5]);
@@ -118,22 +119,22 @@ mods.thaumcraft.Infusion.registerRecipe("infuseshimmerleaf", "",
 <aoa3:holly_top_seeds>, 
 [<thaumcraft:quicksilver>, <thaumcraft:quicksilver>, <thaumcraft:quicksilver>, <thaumcraft:quicksilver>]);
 
-recipes.addShaped(<thaumictinkerer:kamiresource:3>,
+recipes.addShaped(<contenttweaker:kamium_ingot>,
 [[null, <aoa3:blazium_ingot>, null],
-[<thaumictinkerer:kamiresource:2>, <thaumcraft:ingot:0>, <thaumictinkerer:kamiresource:2>],
+[<contenttweaker:kamium_essence>, <thaumcraft:ingot:0>, <contenttweaker:kamium_essence>],
 [null, <aoa3:varsium_ingot>, null]]);
 
-recipes.addShaped(<thaumictinkerer:ichor_block>,
+recipes.addShaped(<contenttweaker:kami_essence_block>,
 [[null, <aoa3:bloodstone>, null],
-[<thaumictinkerer:kamiresource:0>, <minecraft:nether_star>, <thaumictinkerer:kamiresource:1>],
+[<contenttweaker:ender_terran_cluster>, <minecraft:nether_star>, <contenttweaker:nether_terran_cluster>],
 [null, <aoa3:bloodstone>, null]]);
 
-recipes.addShaped(<thaumictinkerer:kamiresource:0>*2,
+recipes.addShaped(<contenttweaker:ender_terran_cluster>*2,
 [[<divinerpg:ender_shards>, <divinerpg:ender_shards>, <divinerpg:ender_shards>],
 [<divinerpg:ender_shards>, <contenttweaker:divine_wisp>, <divinerpg:ender_shards>],
 [<divinerpg:ender_shards>, <divinerpg:ender_shards>, <divinerpg:ender_shards>]]);
 
-recipes.addShaped(<thaumictinkerer:kamiresource:1>*2,
+recipes.addShaped(<contenttweaker:nether_terran_cluster>*2,
 [[<divinerpg:molten_shards>, <divinerpg:molten_shards>, <divinerpg:molten_shards>],
 [<divinerpg:molten_shards>, <contenttweaker:divine_wisp>, <divinerpg:molten_shards>],
 [<divinerpg:molten_shards>, <divinerpg:molten_shards>, <divinerpg:molten_shards>]]);
@@ -151,3 +152,35 @@ makefluxcontrolled.addFluxOutput(10.0);
 makefluxcontrolled.build();
 
 
+mods.thaumcraft.Infusion.registerRecipe("makekamiumblockinf", "", 
+<contenttweaker:kami_essence_block>, 6, 
+[<aspect:spiritus>*250, <aspect:lux>*125, <aspect:humanus>*125], 
+<minecraft:nether_star>, 
+[<minecraft:diamond>, <minecraft:ender_eye>, <contenttweaker:nether_terran_cluster>, <contenttweaker:ender_terran_cluster>]);
+
+
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("makekamicloth", "", 20, 
+[<aspect:aer>*10, <aspect:ignis>*10, <aspect:terra>*10, <aspect:aqua>*10, <aspect:ordo>*10, <aspect:perditio>*10], 
+<contenttweaker:kami_cloth>*3, 
+[[<thaumcraft:fabric>, <thaumcraft:fabric>, <thaumcraft:fabric>], 
+[<contenttweaker:kamium_essence>, <contenttweaker:kamium_essence>, <contenttweaker:kamium_essence>], 
+[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
+
+
+recipes.addShapeless(<contenttweaker:kamium_essence>*8,
+[<contenttweaker:kami_essence_block>]);
+
+recipes.addShaped(<contenttweaker:kami_essence_block>,
+[[<contenttweaker:kamium_essence>, <contenttweaker:kamium_essence>, <contenttweaker:kamium_essence>],
+[<contenttweaker:kamium_essence>, null, <contenttweaker:kamium_essence>],
+[<contenttweaker:kamium_essence>, <contenttweaker:kamium_essence>, <contenttweaker:kamium_essence>]]);
+
+mods.storagedrawers.Compaction.add(<contenttweaker:kami_essence_block>, <contenttweaker:kamium_essence>, 8);
+
+
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("makekamiingot", "", 5, 
+[<aspect:aer>*5, <aspect:ignis>*5, <aspect:terra>*5, <aspect:aqua>*5, <aspect:ordo>*5, <aspect:perditio>*5], 
+<contenttweaker:kamium_ingot>, 
+[[null, <thaumcraft:ingot:0>, null], 
+[<contenttweaker:kamium_essence>, <contenttweaker:kamium_essence>, <contenttweaker:kamium_essence>], 
+[null, <minecraft:diamond>, null]]);

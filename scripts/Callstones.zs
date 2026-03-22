@@ -4744,8 +4744,8 @@ dreadcleansingcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if(player.getDimension() != 19) {
-        player.sendChat("需位于基岩维度");
+    if(player.getDimension() != 14676) {
+        player.sendChat("需位于虚域");
         return "FAIL";
     }
 

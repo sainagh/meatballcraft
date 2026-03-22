@@ -417,7 +417,7 @@ castcouch45.addItemOutput(<tconstruct:sword_blade>.withTag({Material: "baronyte"
 castcouch45.build();
 
 val castcouch46 = RecipeBuilder.newBuilder("castcouch46","seared_caster",20);
-castcouch46.addFluidInput(<fluid:baronyte>*432);
+castcouch46.addFluidInput(<fluid:skeletal>*432);
 castcouch46.addItemInput(<tconstruct:cast>.withTag({PartType: "tconstruct:sign_head"}));
 castcouch46.setChance(0.0);
 castcouch46.addItemOutput(<tconstruct:sign_head>.withTag({Material: "skeletal"}));

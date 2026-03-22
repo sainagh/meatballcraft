@@ -366,6 +366,11 @@ mods.nuclearcraft.extractor.addRecipe([<contenttweaker:otherwordly_tears_bottle>
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:heaven_extract_bottle>, <minecraft:glass_bottle>, <fluid:heaven_extract>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:stone_ichor_bottle>, <minecraft:glass_bottle>, <fluid:stone_ichor>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:tear_of_nature_bottle>, <minecraft:glass_bottle>, <fluid:tear_of_nature>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:ebb_of_death_bottle>, <minecraft:glass_bottle>, <fluid:ebb_of_death>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:droplet_of_wisdom_bottle>, <minecraft:glass_bottle>, <fluid:droplet_of_wisdom>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:essence_of_vitality_bottle>, <minecraft:glass_bottle>, <fluid:essence_of_vitality>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:oak_spirit_bottle>, <minecraft:glass_bottle>, <fluid:oak_spirit>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:oil_of_vitriol_bottle>, <minecraft:glass_bottle>, <fluid:oil_of_vitriol>*1000]);
 
 
 
@@ -402,6 +407,15 @@ mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:otherworld
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:heaven_extract>*1000, <contenttweaker:heaven_extract_bottle>]);
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:stone_ichor>*1000, <contenttweaker:stone_ichor_bottle>]);
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:tear_of_nature>*1000, <contenttweaker:tear_of_nature_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:ebb_of_death>*1000, <contenttweaker:ebb_of_death_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:droplet_of_wisdom>*1000, <contenttweaker:droplet_of_wisdom_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:essence_of_vitality>*1000, <contenttweaker:essence_of_vitality_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:oak_spirit>*1000, <contenttweaker:oak_spirit_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:spruce_heart>*1000, <contenttweaker:spruce_heart_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:oil_of_vitriol>*1000, <contenttweaker:oil_of_vitriol_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:birch_soul>*1000, <contenttweaker:birch_soul_bottle>]);
+
+
 
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:pyrotheum>*1000, <contenttweaker:bottle_of_pyrotheum>]);
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:petrotheum>*1000, <contenttweaker:bottle_of_petrotheum>]);
@@ -633,7 +647,6 @@ pulsestillimmersive.addFluidOutput(<fluid:gasoline>*390);
 pulsestillimmersive.addFluidOutput(<fluid:diesel>*270);
 pulsestillimmersive.addFluidOutput(<fluid:lubricant>*300);
 pulsestillimmersive.build();
-
 
 
 

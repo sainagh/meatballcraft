@@ -725,3 +725,17 @@ mithchemreac97.addFluidInput(<fluid:inquiring_abyssite>*1000);
 mithchemreac97.addFluidInput(<fluid:trinity_ingot>*12);
 mithchemreac97.addFluidOutput(<fluid:everloving_abyssite>*1000);
 mithchemreac97.build();
+
+val mithchemreac98 = RecipeBuilder.newBuilder("mithchemreac98","mythic_processor_chemical_reactor",2);
+mithchemreac98.addEnergyPerTickInput(200000);
+mithchemreac98.addFluidInput(<fluid:fluidpotassium>*288);
+mithchemreac98.addFluidInput(<fluid:sodium>*72);
+mithchemreac98.addFluidOutput(<fluid:nak>*144);
+mithchemreac98.build();
+
+val mithchemreac99 = RecipeBuilder.newBuilder("mithchemreac99","mythic_processor_chemical_reactor",2);
+mithchemreac99.addEnergyPerTickInput(200000);
+mithchemreac99.addFluidInput(<fluid:fluidpotassium>*144);
+mithchemreac99.addFluidInput(<fluid:mineral_oil>*10);
+mithchemreac99.addFluidOutput(<fluid:diluted_potassium>*144);
+mithchemreac99.build();

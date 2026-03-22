@@ -1,0 +1,91 @@
+
+mods.jei.JEI.addDescription([
+    <gadothaumy:infusion_claw>],
+[
+    "将注魔爪这种方块放置在符文矩阵上方时，可实现神秘时代注魔配方的自动化。",
+    "",
+    "若供应有正确的源质与物品原料，向注魔爪发送红石信号即可启动注魔，效果等同于用法师护手点击符文矩阵。",
+    "",
+    "注意：注魔过程仍遵循不稳定度规则，若缺少正确的源质，注魔依然会失败。"
+]);
+
+
+
+
+
+
+
+
+# infusion claw
+registerInfusionRecipeFromAddon(`${tcGado}:infusion_claw`, "INFUSION_CLAW",
+  <gadothaumy:infusion_claw>, 32, 
+  [
+    <aspect:alienis> * 120, <aspect:machina> * 70, <aspect:ordo> * 70,
+    <aspect:praecantatio> * 60, <aspect:tenebrae> * 40
+  ], 
+  <thaumcraft:stabilizer>, 
+  [
+    <thaumcraft:brain>, <thaumcraft:stone_arcane>,
+    <thaumadditions:adaminite_ingot>, <thaumcraft:stone_arcane>,
+    <thaumcraft:caster_basic>, <thaumcraft:stone_arcane>,
+    <thaumadditions:adaminite_ingot>, <thaumcraft:stone_arcane>
+  ]
+);
+# KAMI armor
+registerInfusionRecipeFromAddon(`${tcTinkerer}:kami_helm`, "TT_KAMIHELM",
+  <thaumictinkerer:kami_helm>, 32, 
+  [
+    <aspect:aqua> * 150, <aspect:auram> * 125, <aspect:cognitio> * 125,
+    <aspect:victus> * 60, <aspect:lux> * 250, <aspect:praemunio> * 125
+  ], 
+  <thaumictinkerer:ichor_helm>, 
+  [
+    <thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>, <thaumictinkerer:kamiresource:2>,
+    <thaumictinkerer:kamiresource:2>, <minecraft:chorus_fruit_popped>, <minecraft:golden_helmet>,
+    <minecraft:potion>.withTag({Potion: "minecraft:night_vision"}), <thaumcraft:goggles>, <minecraft:ghast_tear>,
+    <minecraft:fish>, <minecraft:cake>, <minecraft:ender_eye>
+  ]
+);
+registerInfusionRecipeFromAddon(`${tcTinkerer}:kami_chest`, "TT_KAMICHEST",
+  <thaumictinkerer:kami_chest>, 32, 
+  [
+    <aspect:aer> * 150, <aspect:praemunio> * 125, <aspect:volatus> * 125,
+    <aspect:ordo> * 125, <aspect:lux> * 250, <aspect:alienis> * 60
+  ], 
+  <thaumictinkerer:ichor_chest>, 
+  [
+    <thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>, <thaumictinkerer:kamiresource:2>,
+    <thaumictinkerer:kamiresource:2>, <minecraft:chorus_fruit_popped>, <minecraft:golden_chestplate>,
+    <thaumcraft:cloud_ring>, <minecraft:elytra>, <minecraft:shield>,
+    <minecraft:feather>, <minecraft:ghast_tear>, <minecraft:arrow>
+  ]
+);
+registerInfusionRecipeFromAddon(`${tcTinkerer}:kami_legs`, "TT_KAMILEGS",
+  <thaumictinkerer:kami_legs>, 32, 
+  [
+    <aspect:aer> * 150, <aspect:praemunio> * 125, <aspect:volatus> * 125,
+    <aspect:ordo> * 125, <aspect:lux> * 250, <aspect:alienis> * 60
+  ], 
+  <thaumictinkerer:ichor_legs>, 
+  [
+    <thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>, <thaumictinkerer:kamiresource:2>,
+    <thaumictinkerer:kamiresource:2>, <minecraft:chorus_fruit_popped>, <minecraft:golden_leggings>,
+    <minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}), <thaumictinkerer:energetic_nitor>, <thaumcraft:lamp_arcane>,
+    <minecraft:lava_bucket>, <minecraft:fire_charge>, <minecraft:blaze_rod>
+  ]
+);
+registerInfusionRecipeFromAddon(`${tcTinkerer}:kami_boots`, "TT_KAMIBOOTS",
+  <thaumictinkerer:kami_boots>, 32, 
+  [
+    <aspect:terra> * 150, <aspect:praemunio> * 125, <aspect:instrumentum> * 125,
+    <aspect:motus> * 125, <aspect:lux> * 250, <aspect:herba> * 60,
+    <aspect:volatus> * 60
+  ], 
+  <thaumictinkerer:ichor_boots>, 
+  [
+    <thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>, <thaumictinkerer:kamiresource:2>,
+    <thaumictinkerer:kamiresource:2>, <minecraft:chorus_fruit_popped>, <minecraft:golden_boots>,
+    <minecraft:grass>, <minecraft:wheat_seeds>, <thaumcraft:lamp_growth>,
+    <thaumcraft:turret:2>, <minecraft:wool:0>, <minecraft:lead>
+  ]
+);

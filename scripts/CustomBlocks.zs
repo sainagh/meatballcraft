@@ -3308,6 +3308,12 @@ protodermiscasing.setToolClass("pickaxe");
 protodermiscasing.setToolLevel(3);
 protodermiscasing.register();
 
+var kamiessenceblock = VanillaFactory.createBlock("kami_essence_block", <blockmaterial:iron>);
+kamiessenceblock.setBlockHardness(1.0);
+kamiessenceblock.setBlockResistance(2.5);
+kamiessenceblock.setToolClass("pickaxe");
+kamiessenceblock.setToolLevel(3);
+kamiessenceblock.register();
 
 
 

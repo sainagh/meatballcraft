@@ -4633,5 +4633,80 @@ bionicmortumstar.maxStackSize = 64;
 bionicmortumstar.beaconPayment = false;
 bionicmortumstar.register();
 
+var ebbofdeathbottle = VanillaFactory.createItem("ebb_of_death_bottle");
+ebbofdeathbottle.maxStackSize = 64;
+ebbofdeathbottle.beaconPayment = false;
+ebbofdeathbottle.register();
+
+var dropletofwisdombottle = VanillaFactory.createItem("droplet_of_wisdom_bottle");
+dropletofwisdombottle.maxStackSize = 64;
+dropletofwisdombottle.beaconPayment = false;
+dropletofwisdombottle.register();
+
+var essenceofvitalitybottle = VanillaFactory.createItem("essence_of_vitality_bottle");
+essenceofvitalitybottle.maxStackSize = 64;
+essenceofvitalitybottle.beaconPayment = false;
+essenceofvitalitybottle.register();
+
+var oakspiritbottle = VanillaFactory.createItem("oak_spirit_bottle");
+oakspiritbottle.maxStackSize = 64;
+oakspiritbottle.beaconPayment = false;
+oakspiritbottle.register();
+
+var spruceheartbottle = VanillaFactory.createItem("spruce_heart_bottle");
+spruceheartbottle.maxStackSize = 64;
+spruceheartbottle.beaconPayment = false;
+spruceheartbottle.register();
+
+var oilofvitriolbottle = VanillaFactory.createItem("oil_of_vitriol_bottle");
+oilofvitriolbottle.maxStackSize = 64;
+oilofvitriolbottle.beaconPayment = false;
+oilofvitriolbottle.register();
+
+var birchsoulbottle = VanillaFactory.createItem("birch_soul_bottle");
+birchsoulbottle.maxStackSize = 64;
+birchsoulbottle.beaconPayment = false;
+birchsoulbottle.register();
+
+var kamicloth = VanillaFactory.createItem("kami_cloth");
+kamicloth.maxStackSize = 64;
+kamicloth.beaconPayment = false;
+kamicloth.register();
+
+var kamiumessence = VanillaFactory.createItem("kamium_essence");
+kamiumessence.maxStackSize = 64;
+kamiumessence.beaconPayment = false;
+kamiumessence.register();
+
+var kamiumingot = VanillaFactory.createItem("kamium_ingot");
+kamiumingot.maxStackSize = 64;
+kamiumingot.beaconPayment = false;
+kamiumingot.register();
+
+var enderterrancluster = VanillaFactory.createItem("ender_terran_cluster");
+enderterrancluster.maxStackSize = 64;
+enderterrancluster.beaconPayment = false;
+enderterrancluster.register();
+
+var netherterrancluster = VanillaFactory.createItem("nether_terran_cluster");
+netherterrancluster.maxStackSize = 64;
+netherterrancluster.beaconPayment = false;
+netherterrancluster.register();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

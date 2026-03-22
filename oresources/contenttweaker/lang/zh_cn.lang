@@ -4156,6 +4156,20 @@ fluid.blood_infused_glowstone=注血荧石
 fluid.tangible_aqua=实形Aqua
 fluid.distillate_of_levity=轻盈之精粹
 
+item.contenttweaker.essence_of_vitality_bottle.name=瓶装生命精髓
+item.contenttweaker.ebb_of_death_bottle.name=瓶装死亡低潮
+item.contenttweaker.droplet_of_wisdom_bottle.name=瓶装智慧液滴
+item.contenttweaker.oak_spirit_bottle.name=瓶装橡木之精
+item.contenttweaker.spruce_heart_bottle.name=瓶装云杉之心
+item.contenttweaker.birch_soul_bottle.name=瓶装白桦之灵
+item.contenttweaker.oil_of_vitriol_bottle.name=瓶装浓硫酸
+item.contenttweaker.kamium_essence.name=神灵精华
+item.contenttweaker.kami_cloth.name=神布
+item.contenttweaker.kamium_ingot.name=神灵素锭
+tile.contenttweaker.kami_essence_block.name=神灵精华块
+item.contenttweaker.nether_terran_cluster.name=下界大地晶簇
+item.contenttweaker.ender_terran_cluster.name=末影大地晶簇
+
 
 
 # Custom Materials

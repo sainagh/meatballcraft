@@ -4,9 +4,9 @@ import mods.thaumcraft.Infusion;
 
 
 recipes.addShaped(<contenttweaker:cuendillar_primer>,
-[[<thaumictinkerer:kamiresource:3>, <extrabotany:material:8>, <thaumictinkerer:kamiresource:3>],
+[[<contenttweaker:kamium_ingot>, <extrabotany:material:8>, <contenttweaker:kamium_ingot>],
 [<extrabotany:material:5>, <thaumadditions:mithminite_ingot>, <extrabotany:material:5>],
-[<thaumictinkerer:kamiresource:3>, <extrabotany:material:8>, <thaumictinkerer:kamiresource:3>]]);
+[<contenttweaker:kamium_ingot>, <extrabotany:material:8>, <contenttweaker:kamium_ingot>]]);
 
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:infinite_plate_stamp>, <tconstruct:large_plate>.withTag({Material: "infinity_avaritia_plustic"}), <fluid:orichalcum>, 720, true, 10);
 

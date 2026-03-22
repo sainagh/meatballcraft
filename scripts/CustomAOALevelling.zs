@@ -81,27 +81,27 @@ events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
 	}
 });
 
-events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
-  if (event.world.isRemote()) {
-    	return;
-  }
-	if(!isNull(event.player) && !isNull(event.player.currentItem)){
-		if (event.player.currentItem.definition.id.matches(<thaumictinkerer:ichorium_pick>.definition.id)) {
-			Commands.call("/aoaskill addxp foraging @p 100", event.player, event.world, false, true);		
-		}
-	}
-});
+// events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
+//   if (event.world.isRemote()) {
+//     	return;
+//   }
+// 	if(!isNull(event.player) && !isNull(event.player.currentItem)){
+// 		if (event.player.currentItem.definition.id.matches(<thaumictinkerer:ichorium_pick>.definition.id)) {
+// 			Commands.call("/aoaskill addxp foraging @p 100", event.player, event.world, false, true);		
+// 		}
+// 	}
+// });
 
-events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
-  if (event.world.isRemote()) {
-    	return;
-  }
-	if(!isNull(event.player) && !isNull(event.player.currentItem)){
-		if (event.player.currentItem.definition.id.matches(<thaumictinkerer:ichorium_pick_adv>.definition.id)) {
-			Commands.call("/aoaskill addxp foraging @p 200", event.player, event.world, false, true);		
-		}
-	}
-});
+// events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
+//   if (event.world.isRemote()) {
+//     	return;
+//   }
+// 	if(!isNull(event.player) && !isNull(event.player.currentItem)){
+// 		if (event.player.currentItem.definition.id.matches(<thaumictinkerer:ichorium_pick_adv>.definition.id)) {
+// 			Commands.call("/aoaskill addxp foraging @p 200", event.player, event.world, false, true);		
+// 		}
+// 	}
+// });
 
 events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
   if (event.world.isRemote()) {

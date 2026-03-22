@@ -4156,4 +4156,16 @@ fluid.blood_infused_glowstone=Blood Infused Glowstone
 fluid.tangible_aqua=Tangible Aqua
 fluid.distillate_of_levity=Distillate of Levity
 
-
+item.contenttweaker.essence_of_vitality_bottle.name=Essence of Vitality Bottle
+item.contenttweaker.ebb_of_death_bottle.name=Ebb of Death Bottle
+item.contenttweaker.droplet_of_wisdom_bottle.name=Droplet of Wisdom Bottle
+item.contenttweaker.oak_spirit_bottle.name=Oak Spirit Bottle
+item.contenttweaker.spruce_heart_bottle.name=Spruce Heart Bottle
+item.contenttweaker.birch_soul_bottle.name=Birch Soul Bottle
+item.contenttweaker.oil_of_vitriol_bottle.name=Oil of Vitriol Bottle
+item.contenttweaker.kamium_essence.name=kamium Essence
+item.contenttweaker.kami_cloth.name=Kami Cloth
+item.contenttweaker.kamium_ingot.name=Kamium Ingot
+tile.contenttweaker.kami_essence_block.name=Kamium Essence Block
+item.contenttweaker.nether_terran_cluster.name=Nether Terran Cluster
+item.contenttweaker.ender_terran_cluster.name=Ender Terran Cluster

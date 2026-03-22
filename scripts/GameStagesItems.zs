@@ -1,7 +1,7 @@
 import mods.recipestages.Recipes;
 mods.ItemStages.stageEnchant("draconicstage", <enchantment:cofhcore:vorpal>);
 
-mods.ItemStages.stageEnchant("draconicstage", <enchantment:thaumictinkerer:valiance>);
+//mods.ItemStages.stageEnchant("draconicstage", <enchantment:thaumictinkerer:valiance>);
 
 mods.ItemStages.stageEnchant("divinestage", <enchantment:tombstone:magic_siphon>);
 
@@ -11,9 +11,9 @@ mods.ItemStages.stageEnchant("bloodmasterstage", <enchantment:cofhcore:multishot
 
 mods.ItemStages.stageEnchant("brightsteelforging", <enchantment:tombstone:shadow_step>);
 
-mods.ItemStages.stageEnchant("brightsteelforging", <enchantment:thaumictinkerer:pounce>);
+//mods.ItemStages.stageEnchant("brightsteelforging", <enchantment:thaumictinkerer:pounce>);
 
-mods.ItemStages.stageEnchant("camerastage", <enchantment:thaumictinkerer:finalstrike>);
+//mods.ItemStages.stageEnchant("camerastage", <enchantment:thaumictinkerer:finalstrike>);
 
 mods.ItemStages.addItemStage("camerastage", <extrabotany:camera>);
 mods.ItemStages.addItemStage("camerastage", <enderutilities:syringe:1>);

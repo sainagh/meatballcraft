@@ -1193,9 +1193,9 @@ thaum113.addItemInput(makeVisCrystal(<aspect:aqua> * 1)*10);
 thaum113.addItemInput(makeVisCrystal(<aspect:ordo> * 1)*10);
 thaum113.addItemInput(makeVisCrystal(<aspect:terra> * 1)*10);
 thaum113.addItemInput(<thaumcraft:fabric>*3);
-thaum113.addItemInput(<thaumictinkerer:kamiresource:2>*3);
+thaum113.addItemInput(<contenttweaker:kamium_essence>*3);
 thaum113.addItemInput(<minecraft:diamond>*3);
-thaum113.addItemOutput(<thaumictinkerer:kamiresource:4>*3);
+thaum113.addItemOutput(<contenttweaker:kami_cloth>*3);
 thaum113.build();
 
 val thaum114 = RecipeBuilder.newBuilder("thaum114","arcane_autoworkbench",120);
@@ -1207,9 +1207,9 @@ thaum114.addItemInput(makeVisCrystal(<aspect:aqua> * 1)*5);
 thaum114.addItemInput(makeVisCrystal(<aspect:ordo> * 1)*5);
 thaum114.addItemInput(makeVisCrystal(<aspect:terra> * 1)*5);
 thaum114.addItemInput(<thaumcraft:ingot:0>);
-thaum114.addItemInput(<thaumictinkerer:kamiresource:2>*3);
+thaum114.addItemInput(<contenttweaker:kamium_essence>*3);
 thaum114.addItemInput(<minecraft:diamond>*1);
-thaum114.addItemOutput(<thaumictinkerer:kamiresource:3>);
+thaum114.addItemOutput(<contenttweaker:kamium_ingot>);
 thaum114.build();
 
 

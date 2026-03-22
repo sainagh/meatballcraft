@@ -918,7 +918,7 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/alta
 scripts.PuzzleUtil.addPuzzleShaped("truetongue", <contenttweaker:memory_restoration_ritual>,
 [[<minecraft:blaze_powder>.withTag({display: {Name: "ᚠᚣ",Lore:["§d§o真名§r"]}}), <abyssalcraft:abyingot>.withTag({display: {Name: "ᛔᚣᛕᛛᛂᚡᛁᛁ",Lore:["§d§o真名§r"]}}), <abyssalcraft:odb>.withTag({display: {Name: "ᛒᛟᛟᛦ᛫ᛒᛟᛟᛦ",Lore:["§d§o真名§r"]}})],
 [<appliedenergistics2:material:42>.withTag({display: {Name: "ᛡᛒ",Lore:["§d§o真名§r"]}}), <contenttweaker:will_ensnaring_fabrial>, <aoa3:raw_charger_shank>.withTag({display: {Name: "ᛈᚺᚽᚥᛕᚽᚤ",Lore:["§d§o真名§r"]}})],
-[<contenttweaker:defined_ingot>.withTag({display: {Name: "ᛑᛂᚠᛁᚿᛂᛑ᛫ᚧ",Lore:["§d§o真名§r"]}}), <thaumictinkerer:kamiresource:4>.withTag({display: {Name: "ᚵᛊᛠᛔᛟᚤᛕᛊᚧ",Lore:["§d§o真名§r"]}}), <botania:rune:13>.withTag({display: {Name: "ᚥᚱᚣᛠᚻ",Lore:["§d§o真名§r"]}})]]);
+[<contenttweaker:defined_ingot>.withTag({display: {Name: "ᛑᛂᚠᛁᚿᛂᛑ᛫ᚧ",Lore:["§d§o真名§r"]}}), <contenttweaker:kami_cloth>.withTag({display: {Name: "ᚵᛊᛠᛔᛟᚤᛕᛊᚧ",Lore:["§d§o真名§r"]}}), <botania:rune:13>.withTag({display: {Name: "ᚥᚱᚣᛠᚻ",Lore:["§d§o真名§r"]}})]]);
 
 
 recipes.addShaped(<contenttweaker:dread_cleansing_callstone>,
