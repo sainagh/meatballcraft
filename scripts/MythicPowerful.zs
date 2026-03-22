@@ -1825,7 +1825,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 
 	val enchlistLightbringer as EnchantMap = EnchantMap()
 	.add("cofhcore:smelting",20000)
-	.add("enchantment:openblocks:flim_flam",10000);
+	.add("openblocks:flim_flam",10000);
 	
 		mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<avaritia:infinity_pickaxe>.withTag({display: {Name:"§6§o裂光者§r",Lore:["§d§o极・超限附魔§r"]}}), enchlistLightbringer).getItem(), 
 		[[<contenttweaker:ascended_starlight_sphere>, <contenttweaker:lux_vis_condensate>, <twilightforest:mazebreaker_pickaxe>, <contenttweaker:lux_vis_condensate>, <contenttweaker:ascended_starlight_sphere>],

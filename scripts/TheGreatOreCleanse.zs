@@ -26,7 +26,7 @@ recipes.addShapeless(<thermalfoundation:material:772>*2,
 
 mods.abyssalcraft.Materializer.removeMaterialization(<abyssalcraft:nitre>);
 
-mods.abyssalcraft.Materializer.addMaterialization(<thermalfoundation:material:772>, [<abyssalcraft:crystal:8>, <abyssalcraft:crystal:9>]);
+mods.abyssalcraft.Materializer.addMaterialization(<thermalfoundation:material:772>*1, [<abyssalcraft:crystal:8>, <abyssalcraft:crystal:9>]);
 
 recipes.remove(<immersiveengineering:material:24>);
 recipes.addShapeless(<thermalfoundation:material:772>, [<ore:oreSaltpeter>, <immersiveengineering:tool:0>]);

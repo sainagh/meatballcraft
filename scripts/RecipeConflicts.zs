@@ -2010,7 +2010,7 @@ mods.nuclearcraft.manufactory.addRecipe([<ore:ingotSilicon>, <libvulpes:productd
 
 mods.nuclearcraft.manufactory.addRecipe([<ore:stickWood>, <thermalfoundation:material:800>]);
 
-mods.nuclearcraft.manufactory.addRecipe([<ore:ingotLunar>, <extrautils2:ingredients:3>]);
+mods.nuclearcraft.manufactory.addRecipe([<aoa3:lunar_ingot>, <extrautils2:ingredients:3>]);
 
 mods.nuclearcraft.manufactory.addRecipe([<ore:gemQuartzBlack>, <actuallyadditions:item_dust:7>]);
 
