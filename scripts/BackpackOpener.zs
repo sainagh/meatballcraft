@@ -50,8 +50,8 @@ var Opened as IItemStack[] = [
     <railcraft:backpack_trackman_t2>,
     <rftools:storage_module_tablet>,
     <thermalexpansion:satchel:*>,
+    <thaumcraft:focus_pouch>,
     <thaumcraft:hand_mirror>,
-    <thaumictinkerer:focus_pouch>,
     <thaumadditions:crystal_bag>,
     <thebetweenlands:lurker_skin_pouch:*>
 ];
