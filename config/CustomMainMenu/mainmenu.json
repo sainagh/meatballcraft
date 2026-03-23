@@ -47,7 +47,7 @@
         "mods":
         {
             "text" : "fml.menu.mods",
-            "hoverText" : "AoAΪ�����",
+            "hoverText" : "AoA为主框架",
             "posX" : -100,
             "posY" : 96,
             "width" : 200,
@@ -62,7 +62,7 @@
         "options":
         {
             "text" : "menu.options",
-            "hoverText" : "�鿴�����󶨣�",
+            "hoverText" : "查看按键绑定！",
             "posX" : -100,
             "posY" : 144,
             "width" : 98,
@@ -76,8 +76,8 @@
         
         "performance":
         {
-            "text" : "�Ľ�����",
-            "hoverText" : "�����ٶȸ��죡",
+            "text" : "改进性能",
+            "hoverText" : "加载速度更快！",
             "posX" : -100,
             "posY" : 192,
             "width" : 200,
@@ -92,7 +92,7 @@
         "quit":
         {
             "text" : "menu.quit",
-            "hoverText" : "�ټ���",
+            "hoverText" : "再见！",
             "posX" : 2,
             "posY" : 144,
             "width" : 98,
@@ -136,7 +136,7 @@
         "discord":
         {
             "text" : "Discord",
-            "hoverText" : "�������裡",
+            "hoverText" : "加入肉丸！",
             "posX" : -100,
             "posY" : 120,
             "width" : 200,
@@ -152,8 +152,8 @@
     {
         "mojang":
         {
-            "text" : "? Mojang AB ������ηַ���",
-            "hoverText" : "?n? Mojang AB ������ηַ���",
+            "text" : "? Mojang AB 请勿二次分发！",
+            "hoverText" : "?n? Mojang AB 请勿二次分发！",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -166,8 +166,8 @@
         },
         "soundtrack":
         {
-            "text" : "���֣�\n It's not over - Darren Curtis Music",
-            "hoverText" : "���֣�\n AhAhAhAHAHH",
+            "text" : "配乐：\n It's not over - Darren Curtis Music",
+            "hoverText" : "配乐：\n AhAhAhAHAHH",
             "posX" : -197,
             "posY" : -30,
             "color" : -1,
