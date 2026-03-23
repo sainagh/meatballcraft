@@ -19,9 +19,9 @@
     "deepLearnerDisplay": {
       "hearts": 10,
       "mobTrivia": [
-        "Bring buckets of water, and watch in despair",
-        "as it evaporates, and everything is on fire.",
-        "You are on fire."
+        "拎水来灭火",
+        "水烧干了全着火",
+        "你也烧着了"
       ],
       "entity": "minecraft:blaze",
       "entityScale": 48,
@@ -49,8 +49,8 @@
     "deepLearnerDisplay": {
       "hearts": 10,
       "mobTrivia": [
-        "Will blow up your base if",
-        "left unattended."
+        "要是放着不管，",
+        "会炸烂你的基地。"
       ],
       "entity": "minecraft:creeper",
       "entityScale": 42,
@@ -80,8 +80,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Resides in the End, does not harbor treasure.",
-        "Destroy its crystals and break the cycle!"
+        "栖息于末地，并没有守着宝藏。",
+        "摧毁它的水晶，打破这个循环！"
       ],
       "entity": "minecraft:ender_dragon",
       "entityScale": 7,
@@ -118,8 +118,8 @@
     "deepLearnerDisplay": {
       "hearts": 20,
       "mobTrivia": [
-        "Friendly unless provoked, dislikes rain.",
-        "Teleports short distances."
+        "只要不招惹就很友善，讨厌下雨。",
+        "能短距离传送。"
       ],
       "entity": "minecraft:enderman",
       "entityScale": 30,
@@ -146,8 +146,8 @@
     "deepLearnerDisplay": {
       "hearts": 10,
       "mobTrivia": [
-        "If you hear something that sounds like",
-        "a crying llama, you're probably hearing a ghast."
+        "如果听到类似羊驼哭泣的声音，",
+        "那大概率是恶魂在叫。"
       ],
       "entity": "minecraft:ghast",
       "entityScale": 10,
@@ -178,9 +178,9 @@
     "deepLearnerDisplay": {
       "hearts": 15,
       "mobTrivia": [
-        "Lurking in the oceans.",
-        "Uses some sort of sonar beam as",
-        "a means of attack."
+        "潜藏于深海之中。",
+        "会用某种声呐光束",
+        "发动攻击。"
       ],
       "entity": "minecraft:guardian",
       "entityScale": 36,
@@ -207,8 +207,8 @@
     "deepLearnerDisplay": {
       "hearts": 15,
       "mobTrivia": [
-        "Found in End cities.",
-        "Sneaky little buggers."
+        "出没于末地城。",
+        "鬼鬼祟祟的小出生。"
       ],
       "entity": "minecraft:shulker",
       "entityScale": 36,
@@ -248,9 +248,9 @@
     "deepLearnerDisplay": {
       "hearts": 10,
       "mobTrivia": [
-        "A formidable archer, which seems to be running",
-        "some sort of cheat engine.",
-        "A shield could prove useful."
+        "强大的弓箭手，",
+        "疑似开了。",
+        "盾牌会很有用。"
       ],
       "entity": "minecraft:skeleton",
       "entityHeldItem": "minecraft:bow",
@@ -286,9 +286,9 @@
     "deepLearnerDisplay": {
       "hearts": 8,
       "mobTrivia": [
-        "The bouncing bouncer",
-        "bounces, bounces and bounces",
-        "Bounces and bou- squish! -\"A new slime haiku\""
+        "蹦跳弹力球",
+        "弹弹弹弹弹不停",
+        "弹弹——啪叽噗 ——《一首新的史莱姆俳句》"
       ],
       "entity": "minecraft:slime",
       "entityScale": 60,
@@ -329,8 +329,8 @@
     "deepLearnerDisplay": {
       "hearts": 8,
       "mobTrivia": [
-        "Nocturnal douchebags, beware!",
-        "Drops strands of string for some reason."
+        "夜行的烦人精，小心点！",
+        "不知为何会掉落几根线。"
       ],
       "entity": "minecraft:spider",
       "entityScale": 30,
@@ -369,9 +369,9 @@
     "deepLearnerDisplay": {
       "hearts": 13,
       "mobTrivia": [
-        "Affinity with potions and concoctions.",
-        "Likes cats.",
-        "Beware!"
+        "精通药水与合剂。",
+        "喜欢猫咪。",
+        "小心！"
       ],
       "entity": "minecraft:witch",
       "entityHeldItem": "minecraft:potion",
@@ -402,9 +402,9 @@
     "deepLearnerDisplay": {
       "hearts": 150,
       "mobTrivia": [
-        "Do not approach this enemy. Run!",
-        "I mean it has 3 heads, what could",
-        "possibly go wrong?"
+        "别靠近这个敌人，快跑！",
+        "我说它都长了三个头了，",
+        "还能有什么好事？"
       ],
       "entity": "minecraft:wither",
       "entityScale": 22,
@@ -440,8 +440,8 @@
     "deepLearnerDisplay": {
       "hearts": 10,
       "mobTrivia": [
-        "Inflicts the Wither effect.",
-        "Bring milk!"
+        "会施加凋零效果。",
+        "记得带牛奶！"
       ],
       "entity": "minecraft:wither_skeleton",
       "entityHeldItem": "minecraft:stone_sword",
@@ -488,9 +488,9 @@
     "deepLearnerDisplay": {
       "hearts": 10,
       "mobTrivia": [
-        "They go moan in the night.",
-        "Does not understand the need for",
-        "personal space."
+        "它们整夜呻吟。",
+        "完全不懂什么是",
+        "个人空间。"
       ],
       "entity": "minecraft:zombie",
       "entityScale": 35,
@@ -530,9 +530,9 @@
     "deepLearnerDisplay": {
       "hearts": 10,
       "mobTrivia": [
-        "Blizzes, Blitzes and Basalzes.",
-        "Siblings of the Blaze.",
-        "Their master really liked words starting with B."
+        "暴雪、狂风和岩石人。",
+        "烈焰人的同门兄弟。",
+        "它们的主人格外喜欢B开头的单词。"
       ],
       "entity": "thermalfoundation:blizz",
       "entityScale": 48,
@@ -568,8 +568,8 @@
     "deepLearnerDisplay": {
       "hearts": 0,
       "mobTrivia": [
-        "Nagas, Liches and flying books.",
-        "What the hell have you walked into?"
+        "娜迦、巫妖还有会飞的书。",
+        "你到底闯进了什么鬼地方？"
       ],
       "entity": "twilightforest:lich",
       "entityScale": 35,
@@ -610,9 +610,9 @@
     "deepLearnerDisplay": {
       "hearts": 0,
       "mobTrivia": [
-        "This realm sure could use some building regulations.",
-        "How are you even allowed to build a huge maze",
-        "in your basement!?"
+        "这地方得设点建筑规范。",
+        "谁允许你在地下室",
+        "建这么大一座迷宫的！？"
       ],
       "entity": "minecraft:minotaur",
       "entityHeldItem": "twilightforest:minotaur_axe",
@@ -655,9 +655,9 @@
     "deepLearnerDisplay": {
       "hearts": 0,
       "mobTrivia": [
-        "Here you'll find caves with ancient beasts",
-        "and Elsa's wicked distant cousin Aurora.",
-        "(Elsa might \"let it go\", but Aurora sure won't!)"
+        "在这里你会遇到藏着古老巨兽的洞穴，",
+        "还有艾尔莎那个性格恶劣的远房表妹Aurora。",
+        "（艾尔莎或许会“随它吧（let it go）”，但Aurora绝对不会！）"
       ],
       "entity": "minecraft:snow_queen",
       "entityScale": 33,
@@ -702,9 +702,9 @@
     "deepLearnerDisplay": {
       "hearts": 0,
       "mobTrivia": [
-        "Spooky scary strongholds send shivers down",
-        "your spine, the Ur-Ghast will shock your",
-        "soul and seal your doom tonight!"
+        "阴森可怖的要塞让你脊背发凉，",
+        "暮色恶魂会震碎你的灵魂，",
+        "今晚就要你的命！"
       ],
       "entity": "twilightforest:ur_ghast",
       "entityScale": 3,
@@ -736,9 +736,9 @@
     "deepLearnerDisplay": {
       "hearts": 10,
       "mobTrivia": [
-        "The elusive blue slime. Seemingly a",
-        "part of some sort of power hierarchy,",
-        "since there's a bunch of \"King slimes\" around."
+        "难以捉摸的蓝色史莱姆。",
+        "它似乎身处某种权力层级之中，",
+        "毕竟周围到处都是“史莱姆王”之类的家伙。"
       ],
       "entity": "tconstruct:blueslime",
       "entityScale": 60,
@@ -770,8 +770,8 @@
     "deepLearnerDisplay": {
       "hearts": 10,
       "mobTrivia": [
-        "It's not simply an android.",
-        "It's a life form, entirely unique.",
+        "它不只是一个普通的机械人。",
+        "它是独一无二的生命体。",
         "Meep morp."
       ],
       "entity": "matteroverdrive:rogue_android",
@@ -802,8 +802,8 @@
     "deepLearnerDisplay": {
       "hearts": 10,
       "mobTrivia": [
-        "They are corrupted by a mysterious force.",
-        "They work under a united front."
+        "被一股神秘力量腐化。",
+        "它们结成一伙行动。"
       ],
       "entity": "minecraft:evocation_illager",
       "entityScale": 48,
@@ -830,8 +830,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "A dangerous swamp dweller.",
-        "Fire is its enemy."
+        "危险的沼泽栖息者。",
+        "火焰是它的天敌。"
       ],
       "entity": "iceandfire:if_hydra",
       "entityScale": 48,
@@ -864,8 +864,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Powerful alien beings.",
-        "The horde beckons."
+        "强大的外星存在。",
+        "部落在召唤。"
       ],
       "entity": "divinerpg:ayeraco_purple",
       "entityScale": 48,
@@ -892,8 +892,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "A firey beast.",
-        "So nethengeic."
+        "一头炽热的野兽。",
+        "非常的纳德吉克。"
       ],
       "entity": "aoa3:nethengeic_beast",
       "entityScale": 48,
@@ -920,8 +920,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "He likes 'em big.",
-        "He likes 'em chunky."
+        "他就爱大块头。",
+        "他就喜欢壮实的。"
       ],
       "entity": "aoa3:king_bambambam",
       "entityScale": 48,
@@ -951,8 +951,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Smash.",
-        "Smash."
+        "砸碎。",
+        "砸碎。"
       ],
       "entity": "aoa3:smash",
       "entityScale": 48,
@@ -981,8 +981,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "He controls the seas.",
-        "And da police too."
+        "他掌控着整片海洋。",
+        "连条子都归他管。"
       ],
       "entity": "aoa3:corallus",
       "entityScale": 48,
@@ -1011,8 +1011,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Wither++.",
-        "BetterWither."
+        "调灵++",
+        "加强版凋灵"
       ],
       "entity": "aoa3:nethengeic_wither",
       "entityScale": 48,
@@ -1040,7 +1040,7 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "The mother of the void walkers."
+        "所有虚空步行者的母体。"
       ],
       "entity": "aoa3:mother_void_walker",
       "entityScale": 48,
@@ -1069,8 +1069,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "They lurk down there.",
-        "The monsters of sludge."
+        "它们潜伏在深处。",
+        "泥沼中的怪物。"
       ],
       "entity": "thebetweenlands:large_sludge_worm",
       "entityScale": 48,
@@ -1099,8 +1099,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Much elusion.",
-        "Such sneakyness."
+        "神出鬼没。",
+        "极度狡猾。"
       ],
       "entity": "aoa3:elusive",
       "entityScale": 48,
@@ -1129,8 +1129,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "The lord of shadows.",
-        "Very edgy I see."
+        "暗影之主。",
+        "瞧这中二劲儿。"
       ],
       "entity": "aoa3:shadowlord",
       "entityScale": 48,
@@ -1160,8 +1160,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Gravity mechanics are fun.",
-        "On God frfr no cap."
+        "引力机制还挺有意思。",
+        "说真的，一点不吹牛。"
       ],
       "entity": "aoa3:graw",
       "entityScale": 1,
@@ -1190,8 +1190,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Big dino.",
-        "On the meteor vibes."
+        "大恐龙。",
+        "自带陨石降临的气场。"
       ],
       "entity": "aoa3:tyrosaur",
       "entityScale": 48,
@@ -1219,8 +1219,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Skele-dino.",
-        "And the skele-homies."
+        "骷髅恐龙。",
+        "还有它的骷髅兄弟。"
       ],
       "entity": "aoa3:skeletron",
       "entityScale": 48,
@@ -1249,8 +1249,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Gaslight. Gatekeep.",
-        "Girlboss."
+        "话术洗脑。圈地自嗨。",
+        "独立女性。"
       ],
       "entity": "aoa3:baroness",
       "entityScale": 48,
@@ -1279,8 +1279,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "He controls the hive.",
-        "And da police."
+        "他掌控着整个蜂群。",
+        "连条子都归他管。"
       ],
       "entity": "aoa3:hive_king",
       "entityScale": 48,
@@ -1308,8 +1308,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "He's not a creep.",
-        "He's C.R.E.E.P.."
+        "他不是爬行者。",
+        "他是C.R.E.E.P."
       ],
       "entity": "aoa3:creep",
       "entityScale": 48,
@@ -1338,8 +1338,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Rock boi vibes intensify.",
-        "He's the rockiest of them all."
+        "岩石小子的气场拉满了。",
+        "它是最有“石”气的。"
       ],
       "entity": "aoa3:kror",
       "entityScale": 48,
@@ -1369,8 +1369,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Spicy air is spicy.",
-        "So spicy."
+        "空气太呛了。",
+        "呛死了。"
       ],
       "entity": "aoa3:voxxulon",
       "entityScale": 48,
@@ -1399,8 +1399,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "The mystery of the mushroom world.",
-        "Why is it the mushroom world?"
+        "蘑菇世界的奥秘。",
+        "为什么是蘑菇世界？"
       ],
       "entity": "aoa3:king_shroomus",
       "entityScale": 48,
@@ -1428,8 +1428,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Just like a rabbot's foot.",
-        "But unlucky."
+        "就像兔子脚。",
+        "却并不带来好运。"
       ],
       "entity": "aoa3:silverfoot",
       "entityScale": 48,
@@ -1457,8 +1457,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Is that a mech? Is that a bot?",
-        "It's mechbot!"
+        "那是机甲？还是机器人？",
+        "是机甲战士！"
       ],
       "entity": "aoa3:mechbot",
       "entityScale": 48,
@@ -1489,8 +1489,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "What are they guarding?",
-        "IDK."
+        "它们在守护什么？",
+        "不知道。"
       ],
       "entity": "aoa3:blue_guardian",
       "entityScale": 48,
@@ -1518,8 +1518,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "He rides rocks.",
-        "Yes, he rides rocks."
+        "他骑着石头。",
+        "没错，他就骑着石头。"
       ],
       "entity": "aoa3:rockrider",
       "entityScale": 48,
@@ -1547,8 +1547,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "He rides rocks.",
-        "Yes, he rides rocks."
+        "他骑着石头。",
+        "没错，他就骑着石头。"
       ],
       "entity": "aoa3:cotton_candor",
       "entityScale": 48,
@@ -1576,8 +1576,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Clowns are never funny.",
-        "Never."
+        "小丑从来都不好笑。",
+        "从来都不。"
       ],
       "entity": "aoa3:gyro",
       "entityScale": 48,
@@ -1605,8 +1605,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "If the lorax went violent.",
-        "Or something like that."
+        "当老雷斯变得暴力。",
+        "大概就是这样。"
       ],
       "entity": "aoa3:vinocorne",
       "entityScale": 48,
@@ -1634,8 +1634,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Let me be crystal clear.",
-        "Crystals are cool."
+        "我把话说得透亮点。",
+        "水晶超酷的。"
       ],
       "entity": "aoa3:crystocore",
       "entityScale": 48,
@@ -1664,8 +1664,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "But those eyes.",
-        "Those damn eyes."
+        "可那些眼睛。",
+        "那些该死的眼睛。"
       ],
       "entity": "aoa3:visualent",
       "entityScale": 48,
@@ -1694,8 +1694,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "He like 'em big.",
-        "He like 'em clunky."
+        "他就爱大块头。",
+        "他就喜欢壮实的。"
       ],
       "entity": "aoa3:clunkhead",
       "entityScale": 48,
@@ -1724,8 +1724,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Not a dragon.",
-        "But I'll allow it."
+        "不是龙。",
+        "但我姑且算它是。"
       ],
       "entity": "aoa3:dracyon",
       "entityScale": 48,
@@ -1753,8 +1753,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Water lizard.",
-        "Water lizard."
+        "水栖蜥蜴。",
+        "水栖蜥蜴。"
       ],
       "entity": "aoa3:hydrolisk",
       "entityScale": 48,
@@ -1788,8 +1788,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Four of 'em.",
-        "Four of 'em things."
+        "一共四个。",
+        "四个这玩意儿。"
       ],
       "entity": "aoa3:penumbra",
       "entityScale": 48,
@@ -1823,8 +1823,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "They got the drip.",
-        "The drip of a monochrome dimension."
+        "它们超有范儿。",
+        "单色维度的范儿。"
       ],
       "entity": "aoa3:flash",
       "entityScale": 48,
@@ -1852,8 +1852,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "The bane of my existance.",
-        "Is not Bane."
+        "我人生的灾星。",
+        "不是贝恩。"
       ],
       "entity": "aoa3:bane",
       "entityScale": 48,
@@ -1889,8 +1889,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "What's so primordial about this?",
-        "The primordiality."
+        "这玩意儿原初在哪？",
+        "原初感吧大概。"
       ],
       "entity": "aoa3:raxxan",
       "entityScale": 48,
@@ -1919,8 +1919,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "First time?",
-        "Only the first Mythic Shell."
+        "第一次？",
+        "这只是第一个神话叠壳。"
       ],
       "entity": "divinerpg:sunstorm",
       "entityScale": 48,
@@ -1949,8 +1949,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Lightning does not strike twice.",
-        "Or does it?"
+        "闪电从不会击中两次。",
+        "真的不会吗？"
       ],
       "entity": "divinerpg:termasect",
       "entityScale": 48,
@@ -1979,8 +1979,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Third time the charm?",
-        "Not even close!"
+        "事不过三？",
+        "差得远呢！"
       ],
       "entity": "divinerpg:eternal_archer",
       "entityScale": 48,
@@ -2044,8 +2044,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "Rebound mythic shell?",
-        "...Sure!"
+        "反弹神话叠壳？",
+        "……当然！"
       ],
       "entity": "divinerpg:karot",
       "entityScale": 48,

@@ -152,8 +152,8 @@
     {
         "mojang":
         {
-            "text" : "? Mojang AB 请勿二次分发！",
-            "hoverText" : "?n? Mojang AB 请勿二次分发！",
+            "text" : "Mojang AB 请勿二次分发！",
+            "hoverText" : "© Mojang AB 请勿二次分发！",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
