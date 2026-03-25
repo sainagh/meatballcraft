@@ -13,6 +13,26 @@
     }
   },
   "questID:3": 1244,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "ae2fc:dual_interface"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "appliedenergistics2:interface"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "ae2fc:large_ingredient_buffer"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
@@ -36,22 +56,6 @@
         "4:10": {
           "Count:3": 1,
           "id:8": "ae2fc:large_ingredient_buffer"
-        },
-        "5:10": {
-          "Count:3": 1,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "crazyae:patterns_interface",
-            "orig_meta:3": 0
-          }
-        },
-        "6:10": {
-          "Count:3": 1,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "crazyae:perfect_interface",
-            "orig_meta:3": 0
-          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

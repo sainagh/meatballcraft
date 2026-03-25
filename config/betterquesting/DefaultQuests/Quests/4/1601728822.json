@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    1227
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oThe Import Interface allows for item and fluid transfer methods to import items and fluids directly into your ME network.\n\nThe Import Interface only accepts items and fluids that are filtered. \n\nCards can be used to add the ability to void unfiltered items, or to void overflow.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cells:import_interface"
+      },
+      "name:8": "Import Interface"
+    }
+  },
+  "questID:3": 1601728822,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "cells:import_interface"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "cells:import_fluid_interface"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cells:import_fluid_interface"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "cells:import_interface"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

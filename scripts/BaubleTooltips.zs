@@ -230,7 +230,6 @@
 <xreliquary:fortune_coin>.addTooltip(format.red("Magnet, can triple range by holding and right clicking"));
 <xreliquary:mob_charm_belt>.addTooltip(format.red("Holds mob charms"));
 <xreliquary:twilight_cloak>.addTooltip(format.red("Makes the user invisible in low light"));
-<supersoundmuffler:sound_muffler_bauble>.addTooltip(format.red("Prevents any sound on the blacklist from being heard by the player"));
 <thaumcraft:goggles>.addTooltip(format.red("Allows user to see extra information about Thaumcraft machine, like required essentia"));
 <thaumcraft:baubles:0>.addTooltip(format.red("Crafting material"));
 <thaumcraft:baubles:1>.addTooltip(format.red("Crafting material"));

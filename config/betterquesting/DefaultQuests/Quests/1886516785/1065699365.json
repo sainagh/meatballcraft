@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    1045015237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:itemcrystalpickaxe",
+        "tag:10": {
+          "astralsorcery:10": {
+            "collect:3": 100,
+            "fract:3": 0,
+            "purity:3": 100,
+            "size:3": 2700,
+            "sizeOverride:3": -1
+          }
+        }
+      },
+      "name:8": "Levelling Upgrade: Crystal Pickaxe"
+    }
+  },
+  "questID:3": 1065699365,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:itemcrystalpickaxe",
+          "tag:10": {
+            "astralsorcery:10": {
+              "collect:3": 100,
+              "fract:3": 0,
+              "purity:3": 100,
+              "size:3": 2700,
+              "sizeOverride:3": -1
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

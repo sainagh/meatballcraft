@@ -14,6 +14,7 @@ mods.tconstruct.Melting.addRecipe(<fluid:fluctuatite> * 144,<materialpart:fluctu
 
 furnace.addRecipe(<materialpart:rhenium:ingot>,<contenttweaker:rhenium_ore>);
 mods.thermalexpansion.Pulverizer.addRecipe(<materialpart:rhenium:dust>*2, <contenttweaker:rhenium_ore>, 666);
+mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:rhenium_ore>, <materialpart:rhenium:dust>*2]);
 
 furnace.addRecipe(<materialpart:ogerite:ingot>,<contenttweaker:ogerite_ore>);
 mods.thermalexpansion.Pulverizer.addRecipe(<materialpart:ogerite:dust>*2, <contenttweaker:ogerite_ore>, 666);

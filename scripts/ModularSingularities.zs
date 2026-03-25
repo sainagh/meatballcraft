@@ -671,4 +671,12 @@ quantumcondendsteel.addItemInput(<ore:ingotEndSteel>*5056);
 quantumcondendsteel.addItemOutput(<extendedcrafting:singularity_custom:2058>);
 quantumcondendsteel.build();
 
+val quantumconaesing = RecipeBuilder.newBuilder("quantumconaesing","quantum_condenser",4);
+quantumconaesing.addEnergyPerTickInput(500000);
+quantumconaesing.addItemInput(<nae2:material:4>);
+quantumconaesing.setChance(0.0);
+quantumconaesing.addItemInput(<extrautils2:compressedcobblestone:5>*1);
+quantumconaesing.addItemOutput(<appliedenergistics2:material:47>*2);
+quantumconaesing.build();
+
 

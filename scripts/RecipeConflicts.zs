@@ -267,36 +267,6 @@ recipes.addShaped(<bewitchment:dragons_blood_trapdoor>*2,
 [<bewitchment:dragons_blood_planks>, <minecraft:trapdoor>, <bewitchment:dragons_blood_planks>],
 [null, <bewitchment:dragons_blood_planks>, null]]);
 
-recipes.addShaped(<malisisdoors:trapdoor_acacia>*2,
-[[null, <minecraft:planks:4>, null],
-[<minecraft:planks:4>, <minecraft:trapdoor>, <minecraft:planks:4>],
-[null, <minecraft:planks:4>, null]]);
-
-recipes.addShaped(<malisisdoors:trapdoor_birch>*2,
-[[null, <minecraft:planks:2>, null],
-[<minecraft:planks:2>, <minecraft:trapdoor>, <minecraft:planks:2>],
-[null, <minecraft:planks:2>, null]]);
-
-recipes.addShaped(<malisisdoors:trapdoor_dark_oak>*2,
-[[null, <minecraft:planks:5>, null],
-[<minecraft:planks:5>, <minecraft:trapdoor>, <minecraft:planks:5>],
-[null, <minecraft:planks:5>, null]]);
-
-recipes.addShaped(<malisisdoors:trapdoor_jungle>*2,
-[[null, <minecraft:planks:3>, null],
-[<minecraft:planks:3>, <minecraft:trapdoor>, <minecraft:planks:3>],
-[null, <minecraft:planks:3>, null]]);
-
-recipes.addShaped(<malisisdoors:trapdoor_spruce>*2,
-[[null, <minecraft:planks:1>, null],
-[<minecraft:planks:1>, <minecraft:trapdoor>, <minecraft:planks:1>],
-[null, <minecraft:planks:1>, null]]);
-
-recipes.addShaped(<malisisdoors:trapdoor_birch>*2,
-[[null, <minecraft:planks:2>, null],
-[<minecraft:planks:2>, <minecraft:trapdoor>, <minecraft:planks:2>],
-[null, <minecraft:planks:2>, null]]);
-
 recipes.addShaped(<thebetweenlands:weedwood_trapdoor>*2,
 [[null, <thebetweenlands:weedwood_planks>, null],
 [<thebetweenlands:weedwood_planks>, <minecraft:trapdoor>, <thebetweenlands:weedwood_planks>],
@@ -2418,6 +2388,10 @@ recipes.addShapeless(<contenttweaker:hiddenpowercallstone_loot>,
 
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:hiddenpowercallstone_loot>, <fluid:water>, <fluid:recursive_life_essence>]);
 
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:diamerisma_jackpump>, <fluid:water>, <fluid:pulsating_starlight>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:hiddenpowercallstone_loot>, <fluid:water>, <fluid:pulsating_starlight>]);
+
 mods.nuclearcraft.dissolver.addRecipe([<immersivepetroleum:metal_multiblock:3>, <fluid:water>, <fluid:stormlight>]);
 
 
@@ -2559,23 +2533,25 @@ recipes.addShapeless(<divinerpg:halite_phaser>,
 
 
 recipes.addShapeless(<thaumadditions:mithrillium_ingot>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<contenttweaker:halite_bejewelled_ichorium_catalyst>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<contenttweaker:catalyst_of_the_warrens>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<contenttweaker:trinuum_catalyst>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<contenttweaker:infinitely_wishful_catalyst>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<contenttweaker:ascended_eleint_catalyst>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
+recipes.addShapeless(<thaumcraft:elemental_pick>,
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 
 recipes.addShaped(<erebus:materials:66>*64,
@@ -2731,3 +2707,24 @@ recipes.addShaped(<contenttweaker:sympan_spirit>*2,
 
 
 mods.thaumcraft.Crucible.registerRecipe("cruciblefromcrucible", "", <thaumcraft:crucible>, <minecraft:cauldron>, [<aspect:metallum>*15, <aspect:ordo>*10, <aspect:aqua>*5, <aspect:ignis>*5]);
+
+
+recipes.addShaped(<contenttweaker:beekeper_archive>,
+[[<ore:bookshelf>, <ore:bookshelf>, <ore:bookshelf>],
+[<ore:bookshelf>, <ore:beeComb>, <ore:bookshelf>],
+[<ore:bookshelf>, <ore:bookshelf>, <ore:bookshelf>]]);
+
+
+recipes.addShapeless(<contenttweaker:respect_of_death>*2,
+[<contenttweaker:oath_of_the_lord_of_gluttony>, <contenttweaker:respect_of_death>]);
+
+
+recipes.addShapeless(<contenttweaker:oath_of_the_lord_of_gluttony>*6,
+[<contenttweaker:harbinger_sentient_flesh>, <contenttweaker:harbinger_sentient_flesh>, <contenttweaker:harbinger_sentient_flesh>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+
+
+recipes.remove(<chisel:paper:0>);
+recipes.addShaped(<chisel:paper:0>*16,
+[[<ore:paper>, <ore:paper>, <ore:paper>],
+[<ore:paper>, <ore:stickWood>, <ore:paper>],
+[<ore:paper>, <ore:paper>, <ore:paper>]]);

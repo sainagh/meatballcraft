@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1979802923
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Bees are yet again bearing a gift to me. A relic of, the only remaining relic, of the Time Lords.\nA time capsule, containing artifacts of various kinds. \nMany of them do not quite make sense. It seems like Time Lord technology was built on assumptions very different than my own. With science, I can start to understand the mechanics of Sacred Cinders magic, even though my affinity to it is extremely limited. With some of these artifacts, that is not nearly enough. This was a people that thought and operated in a manner completely different than my own. \nIn a way, they remind me of the Elder Ones, with minds so alien that even understanding them is hard.\nSome other artifacts, thankfully, are more intuitive. Weapons. Not from the Time Lords, but from their enemies; enemies that tried, over and over to take over the Gallifrey of old, in a way not unlike the Shyre Empire did with Terra.\nIt is quite interesting to see how power, desire, and knowledge, despite the people, the places, and the time, end up playing similar roles. Gallifrey, Lyndenwyrm, Terra; echoes of a common story, a story that has been told, and will be told, through death and devastation, forever and ever. \nA story I am now being told, in no undertain terms, by the bees of Gallifrey. Despite their ingenuity, there is a clear purpose to this telling, and to this showing. \nThey beleive, I think, I will one day be in a position similar to the Time Lords. How will I act then? ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:time_lords_callstone"
+      },
+      "name:8": "A Time Capsule"
+    }
+  },
+  "questID:3": 923658620,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:time_lords_callstone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "tardis:dalek_hull"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

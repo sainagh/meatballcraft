@@ -144,7 +144,8 @@ var seedsToAnalyze as IItemStack[] = [
     <mysticalagriculture:fluix_seeds>,
     <actuallyadditions:item_flax_seed>,
     <actuallyadditions:item_rice_seed>,
-    <immersiveengineering:seed:0>
+    <immersiveengineering:seed:0>,
+    <actuallyadditions:item_canola_seed>
 ];
 
 // Add analysis recipes for all defined seeds

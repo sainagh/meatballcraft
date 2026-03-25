@@ -14,6 +14,17 @@ recipes.addShapeless(<contenttweaker:stone_ichor_bottle>,
 [<minecraft:glass_bottle>,
 <bewitchment:stone_ichor>]);
 
+
+recipes.addShapeless(<contenttweaker:fiery_unguent_bottle>,[<bewitchment:fiery_unguent>, <minecraft:glass_bottle>]);
+recipes.addShapeless(<contenttweaker:ebb_of_death_bottle>,[<bewitchment:ebb_of_death>, <minecraft:glass_bottle>]);
+recipes.addShapeless(<contenttweaker:droplet_of_wisdom_bottle>,[<bewitchment:droplet_of_wisdom>, <minecraft:glass_bottle>]);
+recipes.addShapeless(<contenttweaker:essence_of_vitality_bottle>,[<bewitchment:essence_of_vitality>, <minecraft:glass_bottle>]);
+recipes.addShapeless(<contenttweaker:oak_spirit_bottle>,[<bewitchment:oak_spirit>, <minecraft:glass_bottle>]);
+recipes.addShapeless(<contenttweaker:spruce_heart_bottle>,[<bewitchment:spruce_heart>, <minecraft:glass_bottle>]);
+recipes.addShapeless(<contenttweaker:oil_of_vitriol_bottle>,[<bewitchment:oil_of_vitriol>, <minecraft:glass_bottle>]);
+recipes.addShapeless(<contenttweaker:birch_soul_bottle>,[<bewitchment:birch_soul>, <minecraft:glass_bottle>]);
+
+
 val spinnyboi1 = RecipeBuilder.newBuilder("spinnyboi1","sparkled_spinning_wheel",100);
 spinnyboi1.addFluidInput(<fluid:mana>*1000);
 spinnyboi1.addFluidInput(<fluid:dragons_blood_plastic>*100);

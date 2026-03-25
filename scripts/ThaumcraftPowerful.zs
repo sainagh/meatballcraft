@@ -93,7 +93,7 @@ recipes.addShaped(<contenttweaker:ineffable_light>*4,
 
 recipes.addShaped(<contenttweaker:ineffable_sun>,
 [[<thaumadditions:adaminite_nugget>, <thaumadditions:adaminite_nugget>, <thaumadditions:adaminite_nugget>],
-[<thaumadditions:adaminite_nugget>, <contenttweaker:ineffable_light>.reuse(), <thaumadditions:adaminite_nugget>],
+[<thaumadditions:adaminite_nugget>, <contenttweaker:ineffable_light>, <thaumadditions:adaminite_nugget>],
 [<thaumadditions:adaminite_nugget>, <thaumadditions:adaminite_nugget>, <thaumadditions:adaminite_nugget>]]);
 
 <contenttweaker:ineffable_sun>.setAspects([<aspect:ignis>*50, <aspect:aer>*50, <aspect:terra>*50, <aspect:aqua>*50, <aspect:ordo>*50, <aspect:perditio>*50, <aspect:auram>*50, <aspect:vitium>*50]);
@@ -218,3 +218,10 @@ mods.thaumcraft.Infusion.registerRecipe("combinealtarscrabinf", "",
 <crimsonwarfare:boss_activator>, <crimsonwarfare:boss_activator>, 
 <crimsonwarfare:boss_activator>, <crimsonwarfare:boss_activator>, 
 <crimsonwarfare:boss_activator>, <crimsonwarfare:boss_activator>]);
+
+
+
+recipes.addShaped(<minecraft:bedrock>*8,
+[[<divinerpg:bedrock_chunk>, <minecraft:bedrock>, <divinerpg:bedrock_chunk>],
+[<minecraft:bedrock>, <thaumcraft:elemental_pick>, <minecraft:bedrock>],
+[<divinerpg:bedrock_chunk>, <minecraft:bedrock>, <divinerpg:bedrock_chunk>]]);

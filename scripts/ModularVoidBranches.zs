@@ -1265,3 +1265,255 @@ divinecombinermattercluster3.build();
 
 
 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:defined_machine_case>*4, 
+[[<contenttweaker:twilight_alloy_ingot>, null, null, 
+null, <contenttweaker:abyssal_alloy_ingot>, null, 
+null, null, <contenttweaker:twilight_alloy_ingot>], 
+
+[null, null, null, 
+null, <contenttweaker:dark_soul_machine_chassis>, null, 
+null, null, null], 
+
+[null, null, <contenttweaker:thermionic_alloy_ingot>, 
+null, <contenttweaker:between_alloy_ingot>, null, 
+<contenttweaker:thermionic_alloy_ingot>, null, null], 
+
+[null, null, null, 
+null, <contenttweaker:nightmare_machine_case>, null, 
+null, null, null], 
+
+[<contenttweaker:abyssal_alloy_ingot>, <contenttweaker:dark_soul_machine_chassis>, <contenttweaker:between_alloy_ingot>, 
+<contenttweaker:nightmare_machine_case>, <contenttweaker:shyre_crystal>, <contenttweaker:nightmare_machine_case>, 
+<contenttweaker:between_alloy_ingot>, <contenttweaker:dark_soul_machine_chassis>, <contenttweaker:abyssal_alloy_ingot>], 
+
+[null, null, null, 
+null, <contenttweaker:nightmare_machine_case>, null, 
+null, null, null], 
+
+[null, null, <contenttweaker:thermionic_alloy_ingot>, 
+null, <contenttweaker:between_alloy_ingot>, null, 
+<contenttweaker:thermionic_alloy_ingot>, null, null], 
+
+[null, null, null, 
+null, <contenttweaker:dark_soul_machine_chassis>, null, 
+null, null, null], 
+
+[<contenttweaker:twilight_alloy_ingot>, null, null, 
+null, <contenttweaker:abyssal_alloy_ingot>, null, 
+null, null, <contenttweaker:twilight_alloy_ingot>]]);  
+
+
+
+
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:defined_machine_case>*10, 
+[[<contenttweaker:twilight_alloy_ingot>, <contenttweaker:abyssal_alloy_ingot>, null, 
+<contenttweaker:shyre_crystal>, <contenttweaker:twilight_alloy_ingot>, <contenttweaker:shyre_crystal>, 
+null, <contenttweaker:abyssal_alloy_ingot>, <contenttweaker:twilight_alloy_ingot>], 
+
+[<contenttweaker:abyssal_alloy_ingot>, <contenttweaker:dark_soul_machine_chassis>, <contenttweaker:thermionic_alloy_ingot>, 
+null, <contenttweaker:dark_soul_machine_chassis>, null, 
+<contenttweaker:thermionic_alloy_ingot>, <contenttweaker:dark_soul_machine_chassis>, <contenttweaker:abyssal_alloy_ingot>], 
+
+[null, <contenttweaker:thermionic_alloy_ingot>, null, 
+<contenttweaker:between_alloy_ingot>, null, <contenttweaker:between_alloy_ingot>, 
+null, <contenttweaker:thermionic_alloy_ingot>, null], 
+
+[<contenttweaker:shyre_crystal>, null, <contenttweaker:between_alloy_ingot>, 
+<contenttweaker:nightmare_machine_case>, <contenttweaker:nightmare_machine_case>, <contenttweaker:nightmare_machine_case>, 
+<contenttweaker:between_alloy_ingot>, null, <contenttweaker:shyre_crystal>], 
+
+[<contenttweaker:twilight_alloy_ingot>, <contenttweaker:dark_soul_machine_chassis>, null, 
+<contenttweaker:nightmare_machine_case>, <contenttweaker:rare_metals_relativistic_condensate>, <contenttweaker:nightmare_machine_case>, 
+null, <contenttweaker:dark_soul_machine_chassis>, <contenttweaker:twilight_alloy_ingot>], 
+
+[<contenttweaker:shyre_crystal>, null, <contenttweaker:between_alloy_ingot>, 
+<contenttweaker:nightmare_machine_case>, <contenttweaker:nightmare_machine_case>, <contenttweaker:nightmare_machine_case>, 
+<contenttweaker:between_alloy_ingot>, null, <contenttweaker:shyre_crystal>], 
+
+[null, <contenttweaker:thermionic_alloy_ingot>, null, 
+<contenttweaker:between_alloy_ingot>, null, <contenttweaker:between_alloy_ingot>, 
+null, <contenttweaker:thermionic_alloy_ingot>, null], 
+
+[<contenttweaker:abyssal_alloy_ingot>, <contenttweaker:dark_soul_machine_chassis>, <contenttweaker:thermionic_alloy_ingot>, 
+null, <contenttweaker:dark_soul_machine_chassis>, null, 
+<contenttweaker:thermionic_alloy_ingot>, <contenttweaker:dark_soul_machine_chassis>, <contenttweaker:abyssal_alloy_ingot>], 
+
+[<contenttweaker:twilight_alloy_ingot>, <contenttweaker:abyssal_alloy_ingot>, null, 
+<contenttweaker:shyre_crystal>, <contenttweaker:twilight_alloy_ingot>, <contenttweaker:shyre_crystal>, 
+null, <contenttweaker:abyssal_alloy_ingot>, <contenttweaker:twilight_alloy_ingot>]]);  
+
+
+
+recipes.addShaped(<divinerpg:dark_dream_bricks>*64,
+[[null, <contenttweaker:dream_brick>, null],
+[<contenttweaker:dream_brick>, <ore:dyeBlue>, <contenttweaker:dream_brick>],
+[null, <contenttweaker:dream_brick>, null]]);
+
+recipes.addShaped(<divinerpg:light_dream_bricks>*64,
+[[null, <contenttweaker:dream_brick>, null],
+[<contenttweaker:dream_brick>, <ore:dyeLightBlue>, <contenttweaker:dream_brick>],
+[null, <contenttweaker:dream_brick>, null]]);
+
+recipes.addShaped(<divinerpg:red_dream_bricks>*64,
+[[null, <contenttweaker:dream_brick>, null],
+[<contenttweaker:dream_brick>, <ore:dyeRed>, <contenttweaker:dream_brick>],
+[null, <contenttweaker:dream_brick>, null]]);
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:nightmare_machine_case>, 
+[[<divinerpg:dark_dream_bricks>, <divinerpg:dark_dream_bricks>, <draconicevolution:awakened_core>, <divinerpg:dark_dream_bricks>, <divinerpg:dark_dream_bricks>], 
+[<divinerpg:dark_dream_bricks>, <contenttweaker:draconium_electromagnet>, <extrabotany:quantummanabuffer>, <contenttweaker:draconium_electromagnet>, <divinerpg:dark_dream_bricks>], 
+[<draconicevolution:awakened_core>, <contenttweaker:brightsteel_alloy_ingot>, <contenttweaker:mythic_machine_case>, <contenttweaker:brightsteel_alloy_ingot>, <draconicevolution:awakened_core>], 
+[<divinerpg:dark_dream_bricks>, <contenttweaker:draconium_electromagnet>, <extrabotany:quantummanabuffer>, <contenttweaker:draconium_electromagnet>, <divinerpg:dark_dream_bricks>], 
+[<divinerpg:dark_dream_bricks>, <divinerpg:dark_dream_bricks>, <draconicevolution:awakened_core>, <divinerpg:dark_dream_bricks>, <divinerpg:dark_dream_bricks>]]);
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:nightmare_machine_case>*4, 
+[[<contenttweaker:brightsteel_alloy_ingot>, <contenttweaker:draconium_electromagnet>, <contenttweaker:awakened_fulcrum>, <contenttweaker:mythic_machine_case>, <contenttweaker:awakened_fulcrum>, <contenttweaker:draconium_electromagnet>, <contenttweaker:brightsteel_alloy_ingot>],
+[<contenttweaker:draconium_electromagnet>, <divinerpg:dark_dream_bricks>, <divinerpg:dark_dream_bricks>, <contenttweaker:draconium_electromagnet>, <divinerpg:dark_dream_bricks>, <divinerpg:dark_dream_bricks>, <contenttweaker:draconium_electromagnet>], 
+[<contenttweaker:awakened_fulcrum>, <divinerpg:dark_dream_bricks>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "iron", Amount: 2147483647}), <extrabotany:quantummanabuffer>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "iron", Amount: 2147483647}), <divinerpg:dark_dream_bricks>, <contenttweaker:awakened_fulcrum>], 
+[<extrabotany:quantummanabuffer>, <contenttweaker:draconium_electromagnet>, <extrabotany:quantummanabuffer>, <contenttweaker:mythic_machine_case>, <extrabotany:quantummanabuffer>, <contenttweaker:draconium_electromagnet>, <extrabotany:quantummanabuffer>], 
+[<contenttweaker:awakened_fulcrum>, <divinerpg:dark_dream_bricks>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "iron", Amount: 2147483647}), <extrabotany:quantummanabuffer>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "iron", Amount: 2147483647}), <divinerpg:dark_dream_bricks>, <contenttweaker:awakened_fulcrum>], 
+[<contenttweaker:draconium_electromagnet>, <divinerpg:dark_dream_bricks>, <divinerpg:dark_dream_bricks>, <contenttweaker:draconium_electromagnet>, <divinerpg:dark_dream_bricks>, <divinerpg:dark_dream_bricks>, <contenttweaker:draconium_electromagnet>],
+[<contenttweaker:brightsteel_alloy_ingot>, <contenttweaker:draconium_electromagnet>, <contenttweaker:awakened_fulcrum>, <contenttweaker:mythic_machine_case>, <contenttweaker:awakened_fulcrum>, <contenttweaker:draconium_electromagnet>, <contenttweaker:brightsteel_alloy_ingot>]]);
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:nightmare_machine_case>*8, 
+[[<contenttweaker:draconium_electromagnet>, <contenttweaker:draconium_electromagnet>, <contenttweaker:awakened_fulcrum>, <contenttweaker:mythic_machine_case>, <contenttweaker:draconium_electromagnet>, <contenttweaker:mythic_machine_case>, <contenttweaker:awakened_fulcrum>, <contenttweaker:draconium_electromagnet>, <contenttweaker:draconium_electromagnet>],
+[<contenttweaker:draconium_electromagnet>, <contenttweaker:brightsteel_alloy_ingot>, <contenttweaker:draconium_electromagnet>, <contenttweaker:awakened_fulcrum>, <contenttweaker:mythic_machine_case>, <contenttweaker:awakened_fulcrum>, <contenttweaker:draconium_electromagnet>, <contenttweaker:brightsteel_alloy_ingot>, <contenttweaker:draconium_electromagnet>],
+[<contenttweaker:awakened_fulcrum>, <contenttweaker:draconium_electromagnet>, <divinerpg:dark_dream_bricks>, <divinerpg:dark_dream_bricks>, <contenttweaker:awakened_fulcrum>, <divinerpg:dark_dream_bricks>, <divinerpg:dark_dream_bricks>, <contenttweaker:draconium_electromagnet>, <contenttweaker:awakened_fulcrum>], 
+[<extrabotany:quantummanabuffer>, <contenttweaker:awakened_fulcrum>, <divinerpg:dark_dream_bricks>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "iron", Amount: 2147483647}), <extrabotany:quantummanabuffer>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "iron", Amount: 2147483647}), <divinerpg:dark_dream_bricks>, <contenttweaker:awakened_fulcrum>, <extrabotany:quantummanabuffer>], 
+[<extrabotany:quantummanabuffer>, <extrabotany:quantummanabuffer>, <contenttweaker:awakened_fulcrum>, <extrabotany:quantummanabuffer>, <contenttweaker:ragnarok_warren_dust>, <extrabotany:quantummanabuffer>, <contenttweaker:awakened_fulcrum>, <extrabotany:quantummanabuffer>, <extrabotany:quantummanabuffer>], 
+[<extrabotany:quantummanabuffer>, <contenttweaker:awakened_fulcrum>, <divinerpg:dark_dream_bricks>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "iron", Amount: 2147483647}), <extrabotany:quantummanabuffer>, <industrialforegoing:black_hole_tank>.withTag({FluidName: "iron", Amount: 2147483647}), <divinerpg:dark_dream_bricks>, <contenttweaker:awakened_fulcrum>, <extrabotany:quantummanabuffer>], 
+[<contenttweaker:awakened_fulcrum>, <contenttweaker:draconium_electromagnet>, <divinerpg:dark_dream_bricks>, <divinerpg:dark_dream_bricks>, <contenttweaker:awakened_fulcrum>, <divinerpg:dark_dream_bricks>, <divinerpg:dark_dream_bricks>, <contenttweaker:draconium_electromagnet>, <contenttweaker:awakened_fulcrum>],
+[<contenttweaker:draconium_electromagnet>, <contenttweaker:brightsteel_alloy_ingot>, <contenttweaker:draconium_electromagnet>, <contenttweaker:awakened_fulcrum>, <contenttweaker:mythic_machine_case>, <contenttweaker:awakened_fulcrum>, <contenttweaker:draconium_electromagnet>, <contenttweaker:brightsteel_alloy_ingot>, <contenttweaker:draconium_electromagnet>],
+[<contenttweaker:draconium_electromagnet>, <contenttweaker:draconium_electromagnet>, <contenttweaker:awakened_fulcrum>, <contenttweaker:mythic_machine_case>, <contenttweaker:draconium_electromagnet>, <contenttweaker:mythic_machine_case>, <contenttweaker:awakened_fulcrum>, <contenttweaker:draconium_electromagnet>, <contenttweaker:draconium_electromagnet>]]);
+
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:brightseel_alloy_plate>*2, 
+[[<bigreactors:mineralanglesite>, <contenttweaker:brightsteel_alloy_ingot>, <bigreactors:mineralbenitoite>], 
+[<contenttweaker:tungsten_molybdenum_dust>, <materialpart:brightsteel:ingot>, <contenttweaker:tungsten_molybdenum_dust>], 
+[<bigreactors:mineralbenitoite>, <contenttweaker:brightsteel_alloy_ingot>, <bigreactors:mineralanglesite>]]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:brightseel_alloy_plate>*4, 
+[[null, <bigreactors:mineralbenitoite>, <contenttweaker:brightsteel_alloy_ingot>, <bigreactors:mineralbenitoite>, null],
+[<bigreactors:mineralanglesite>, null, <contenttweaker:brightsteel_alloy_ingot>, null, <bigreactors:mineralanglesite>], 
+[<contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:tungsten_molybdenum_dust>, <ore:ingotHassium>, <contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:tungsten_molybdenum_dust>], 
+[<bigreactors:mineralanglesite>, null, <contenttweaker:brightsteel_alloy_ingot>, null, <bigreactors:mineralanglesite>],
+[null, <bigreactors:mineralbenitoite>, <contenttweaker:brightsteel_alloy_ingot>, <bigreactors:mineralbenitoite>, null]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:brightseel_alloy_plate>*6, 
+[[null, <bigreactors:mineralbenitoite>, null, <contenttweaker:brightsteel_alloy_ingot>, null, <bigreactors:mineralbenitoite>, null],
+[<bigreactors:mineralanglesite>, null, <bigreactors:mineralbenitoite>, <contenttweaker:brightsteel_alloy_ingot>, <bigreactors:mineralbenitoite>, null, <bigreactors:mineralanglesite>],
+[null, <bigreactors:mineralanglesite>, null, <contenttweaker:brightsteel_alloy_ingot>, null, <bigreactors:mineralanglesite>, null], 
+[<contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:defined_ingot>, <contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:tungsten_molybdenum_dust>], 
+[null, <bigreactors:mineralanglesite>, null, <contenttweaker:brightsteel_alloy_ingot>, null, <bigreactors:mineralanglesite>, null],
+[<bigreactors:mineralanglesite>, null, <bigreactors:mineralbenitoite>, <contenttweaker:brightsteel_alloy_ingot>, <bigreactors:mineralbenitoite>, null, <bigreactors:mineralanglesite>],
+[null, <bigreactors:mineralbenitoite>, null, <contenttweaker:brightsteel_alloy_ingot>, null, <bigreactors:mineralbenitoite>, null]]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:brightseel_alloy_plate>*8, 
+[[null, <bigreactors:mineralbenitoite>, null, null, <contenttweaker:brightsteel_alloy_ingot>, null, null, <bigreactors:mineralbenitoite>, null],
+[<bigreactors:mineralanglesite>, null, <bigreactors:mineralbenitoite>, null, <contenttweaker:brightsteel_alloy_ingot>, null, <bigreactors:mineralbenitoite>, null, <bigreactors:mineralanglesite>],
+[null, <bigreactors:mineralanglesite>, null, <bigreactors:mineralbenitoite>, <contenttweaker:brightsteel_alloy_ingot>, <bigreactors:mineralbenitoite>, null, <bigreactors:mineralanglesite>, null],
+[null, null, <bigreactors:mineralanglesite>, null, <contenttweaker:brightsteel_alloy_ingot>, null, <bigreactors:mineralanglesite>, null, null], 
+[<contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:defined_bar>, <contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:tungsten_molybdenum_dust>, <contenttweaker:tungsten_molybdenum_dust>], 
+[null, null, <bigreactors:mineralanglesite>, null, <contenttweaker:brightsteel_alloy_ingot>, null, <bigreactors:mineralanglesite>, null, null],
+[null, <bigreactors:mineralanglesite>, null, <bigreactors:mineralbenitoite>, <contenttweaker:brightsteel_alloy_ingot>, <bigreactors:mineralbenitoite>, null, <bigreactors:mineralanglesite>, null],
+[<bigreactors:mineralanglesite>, null, <bigreactors:mineralbenitoite>, null, <contenttweaker:brightsteel_alloy_ingot>, null, <bigreactors:mineralbenitoite>, null, <bigreactors:mineralanglesite>],
+[null, <bigreactors:mineralbenitoite>, null, null, <contenttweaker:brightsteel_alloy_ingot>, null, null, <bigreactors:mineralbenitoite>, null]]);
+
+
+
+
+val divinecombinerdracelectro1 = RecipeBuilder.newBuilder("divinecombinerdracelectro1","divine_combiner",2);
+divinecombinerdracelectro1.addFluidInput(<fluid:hint_of_divinity>*100);
+divinecombinerdracelectro1.addItemInput(<ore:blockDraconium>*4);
+divinecombinerdracelectro1.addItemInput(<contenttweaker:magnetic_monopole>*4);
+divinecombinerdracelectro1.addItemInput(<nuclearcraft:fusion_electromagnet_idle>*2);
+divinecombinerdracelectro1.addItemInput(<extendedcrafting:storage:4>*4);
+divinecombinerdracelectro1.addItemInput(<techreborn:fusion_coil>*2);
+divinecombinerdracelectro1.addItemInput(<advancedrocketry:structuretower>*8);
+divinecombinerdracelectro1.addItemInput(<contenttweaker:mythic_machine_case>*1);
+divinecombinerdracelectro1.addItemOutput(<contenttweaker:draconium_electromagnet>*4);
+divinecombinerdracelectro1.build();
+
+val divinecombinerdracelectro2 = RecipeBuilder.newBuilder("divinecombinerdracelectro2","divine_combiner",2);
+divinecombinerdracelectro2.addFluidInput(<fluid:divine_resonant_hint>*100);
+divinecombinerdracelectro2.addItemInput(<ore:blockDraconium>*8);
+divinecombinerdracelectro2.addItemInput(<contenttweaker:magnetic_monopole>*8);
+divinecombinerdracelectro2.addItemInput(<nuclearcraft:fusion_electromagnet_idle>*4);
+divinecombinerdracelectro2.addItemInput(<extendedcrafting:storage:4>*8);
+divinecombinerdracelectro2.addItemInput(<techreborn:fusion_coil>*4);
+divinecombinerdracelectro2.addItemInput(<advancedrocketry:structuretower>*16);
+divinecombinerdracelectro2.addItemInput(<contenttweaker:mythic_machine_case>*2);
+divinecombinerdracelectro2.addItemOutput(<contenttweaker:draconium_electromagnet>*8);
+divinecombinerdracelectro2.build();
+
+val divinecombinerdracelectro3 = RecipeBuilder.newBuilder("divinecombinerdracelectro3","divine_combiner",2);
+divinecombinerdracelectro3.addFluidInput(<fluid:divine_resonance>*100);
+divinecombinerdracelectro3.addItemInput(<ore:blockDraconium>*16);
+divinecombinerdracelectro3.addItemInput(<contenttweaker:magnetic_monopole>*16);
+divinecombinerdracelectro3.addItemInput(<nuclearcraft:fusion_electromagnet_idle>*8);
+divinecombinerdracelectro3.addItemInput(<extendedcrafting:storage:4>*16);
+divinecombinerdracelectro3.addItemInput(<techreborn:fusion_coil>*8);
+divinecombinerdracelectro3.addItemInput(<advancedrocketry:structuretower>*32);
+divinecombinerdracelectro3.addItemInput(<contenttweaker:mythic_machine_case>*4);
+divinecombinerdracelectro3.addItemOutput(<contenttweaker:draconium_electromagnet>*16);
+divinecombinerdracelectro3.build();
+
+
+
+val divinecombinerawakelectro1 = RecipeBuilder.newBuilder("divinecombinerawakelectro1","divine_combiner",2);
+divinecombinerawakelectro1.addFluidInput(<fluid:hint_of_divinity>*100);
+divinecombinerawakelectro1.addItemInput(<ore:blockDraconiumAwakened>*4);
+divinecombinerawakelectro1.addItemInput(<contenttweaker:magnetic_monopole>*4);
+divinecombinerawakelectro1.addItemInput(<nuclearcraft:fusion_electromagnet_idle>*2);
+divinecombinerawakelectro1.addItemInput(<extendedcrafting:storage:4>*4);
+divinecombinerawakelectro1.addItemInput(<techreborn:fusion_coil>*2);
+divinecombinerawakelectro1.addItemInput(<advancedrocketry:structuretower>*8);
+divinecombinerawakelectro1.addItemInput(<contenttweaker:mythic_machine_case>*1);
+divinecombinerawakelectro1.addItemOutput(<contenttweaker:awakened_electromagnet>*4);
+divinecombinerawakelectro1.build();
+
+val divinecombinerawakelectro2 = RecipeBuilder.newBuilder("divinecombinerawakelectro2","divine_combiner",2);
+divinecombinerawakelectro2.addFluidInput(<fluid:divine_resonant_hint>*100);
+divinecombinerawakelectro2.addItemInput(<ore:blockDraconiumAwakened>*8);
+divinecombinerawakelectro2.addItemInput(<contenttweaker:magnetic_monopole>*8);
+divinecombinerawakelectro2.addItemInput(<nuclearcraft:fusion_electromagnet_idle>*4);
+divinecombinerawakelectro2.addItemInput(<extendedcrafting:storage:4>*8);
+divinecombinerawakelectro2.addItemInput(<techreborn:fusion_coil>*4);
+divinecombinerawakelectro2.addItemInput(<advancedrocketry:structuretower>*16);
+divinecombinerawakelectro2.addItemInput(<contenttweaker:mythic_machine_case>*2);
+divinecombinerawakelectro2.addItemOutput(<contenttweaker:awakened_electromagnet>*8);
+divinecombinerawakelectro2.build();
+
+val divinecombinerawakelectro3 = RecipeBuilder.newBuilder("divinecombinerawakelectro3","divine_combiner",2);
+divinecombinerawakelectro3.addFluidInput(<fluid:divine_resonance>*100);
+divinecombinerawakelectro3.addItemInput(<ore:blockDraconiumAwakened>*16);
+divinecombinerawakelectro3.addItemInput(<contenttweaker:magnetic_monopole>*16);
+divinecombinerawakelectro3.addItemInput(<nuclearcraft:fusion_electromagnet_idle>*8);
+divinecombinerawakelectro3.addItemInput(<extendedcrafting:storage:4>*16);
+divinecombinerawakelectro3.addItemInput(<techreborn:fusion_coil>*8);
+divinecombinerawakelectro3.addItemInput(<advancedrocketry:structuretower>*32);
+divinecombinerawakelectro3.addItemInput(<contenttweaker:mythic_machine_case>*4);
+divinecombinerawakelectro3.addItemOutput(<contenttweaker:awakened_electromagnet>*16);
+divinecombinerawakelectro3.build();
+
+
+
+
+

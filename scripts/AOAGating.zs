@@ -240,3 +240,7 @@ recipes.addShaped(<aoa3:haunter_rifle>,
 [<contenttweaker:cosmic_fracture>, <aoa3:hunters_rifle>, <contenttweaker:cosmic_fracture>],
 [<contenttweaker:ghoul_spirit>, <aoa3:primordial_skull>, <contenttweaker:ghoul_spirit>]]);
 
+recipes.addShaped(<aoa3:divine_station>,
+[[<aoa3:fragmented_anima_stone>, <divinerpg:divine_shards>, <aoa3:fragmented_anima_stone>],
+[<divinerpg:divine_shards>, <contenttweaker:alchemical_mushroom>, <divinerpg:divine_shards>],
+[<aoa3:fragmented_anima_stone>, <divinerpg:divine_shards>, <aoa3:fragmented_anima_stone>]]);

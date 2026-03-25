@@ -27,7 +27,7 @@
             "x": 0,
             "y": 3,
             "z": 1,
-            "description": "16X parallelization",
+            "description": "64X parallelization",
             "modifiers": [{
                 "io": "output",
                 "target": "modularmachinery:item",

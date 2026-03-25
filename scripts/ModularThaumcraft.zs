@@ -1193,9 +1193,9 @@ thaum113.addItemInput(makeVisCrystal(<aspect:aqua> * 1)*10);
 thaum113.addItemInput(makeVisCrystal(<aspect:ordo> * 1)*10);
 thaum113.addItemInput(makeVisCrystal(<aspect:terra> * 1)*10);
 thaum113.addItemInput(<thaumcraft:fabric>*3);
-thaum113.addItemInput(<thaumictinkerer:kamiresource:2>*3);
+thaum113.addItemInput(<contenttweaker:kamium_essence>*3);
 thaum113.addItemInput(<minecraft:diamond>*3);
-thaum113.addItemOutput(<thaumictinkerer:kamiresource:4>*3);
+thaum113.addItemOutput(<contenttweaker:kami_cloth>*3);
 thaum113.build();
 
 val thaum114 = RecipeBuilder.newBuilder("thaum114","arcane_autoworkbench",120);
@@ -1207,9 +1207,9 @@ thaum114.addItemInput(makeVisCrystal(<aspect:aqua> * 1)*5);
 thaum114.addItemInput(makeVisCrystal(<aspect:ordo> * 1)*5);
 thaum114.addItemInput(makeVisCrystal(<aspect:terra> * 1)*5);
 thaum114.addItemInput(<thaumcraft:ingot:0>);
-thaum114.addItemInput(<thaumictinkerer:kamiresource:2>*3);
+thaum114.addItemInput(<contenttweaker:kamium_essence>*3);
 thaum114.addItemInput(<minecraft:diamond>*1);
-thaum114.addItemOutput(<thaumictinkerer:kamiresource:3>);
+thaum114.addItemOutput(<contenttweaker:kamium_ingot>);
 thaum114.build();
 
 
@@ -1237,3 +1237,44 @@ thaum116.addItemInput(<thaumcraft:mechanism_complex>*8);
 thaum116.addItemOutput(<contenttweaker:fire_construct>*8);
 thaum116.build();
 
+val thaum117 = RecipeBuilder.newBuilder("thaum117","arcane_autoworkbench",120);
+thaum117.addEnergyPerTickInput(100);
+thaum117.addItemInput(makeVisCrystal(<aspect:ignis> * 1)*5);
+thaum117.addItemInput(makeVisCrystal(<aspect:aqua> * 1)*5);
+thaum117.addItemInput(makeVisCrystal(<aspect:aer> * 1)*5);
+thaum117.addItemInput(makeVisCrystal(<aspect:terra> * 1)*5);
+thaum117.addItemInput(makeVisCrystal(<aspect:ordo> * 1)*5);
+thaum117.addItemInput(makeVisCrystal(<aspect:perditio> * 1)*5);
+thaum117.addItemInput(<minecraft:bucket>*4);
+thaum117.addItemInput(<contenttweaker:abyssal_wasteland_matter>*4);
+thaum117.addItemInput(<thaumcraft:void_seed>*4);
+thaum117.addItemOutput(<forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000})*4);
+thaum117.build();
+
+val thaum118 = RecipeBuilder.newBuilder("thaum118","arcane_autoworkbench",120);
+thaum118.addEnergyPerTickInput(100);
+thaum118.addItemInput(makeVisCrystal(<aspect:ignis> * 1)*60);
+thaum118.addItemInput(makeVisCrystal(<aspect:aqua> * 1)*60);
+thaum118.addItemInput(makeVisCrystal(<aspect:aer> * 1)*60);
+thaum118.addItemInput(makeVisCrystal(<aspect:terra> * 1)*60);
+thaum118.addItemInput(makeVisCrystal(<aspect:ordo> * 1)*60);
+thaum118.addItemInput(makeVisCrystal(<aspect:perditio> * 1)*60);
+thaum118.addItemInput(<minecraft:bucket>*32);
+thaum118.addItemInput(<contenttweaker:omothol_matter>*32);
+thaum118.addItemInput(<thaumcraft:void_seed>*32);
+thaum118.addItemOutput(<forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000})*32);
+thaum118.build();
+
+val thaum119 = RecipeBuilder.newBuilder("thaum119","arcane_autoworkbench",120);
+thaum119.addEnergyPerTickInput(100);
+thaum119.addItemInput(makeVisCrystal(<aspect:ignis> * 1)*20);
+thaum119.addItemInput(makeVisCrystal(<aspect:aqua> * 1)*20);
+thaum119.addItemInput(makeVisCrystal(<aspect:aer> * 1)*20);
+thaum119.addItemInput(makeVisCrystal(<aspect:terra> * 1)*20);
+thaum119.addItemInput(makeVisCrystal(<aspect:ordo> * 1)*20);
+thaum119.addItemInput(makeVisCrystal(<aspect:perditio> * 1)*20);
+thaum119.addItemInput(<minecraft:bucket>*16);
+thaum119.addItemInput(<contenttweaker:dreadlands_matter>*16);
+thaum119.addItemInput(<thaumcraft:void_seed>*16);
+thaum119.addItemOutput(<forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000})*16);
+thaum119.build();

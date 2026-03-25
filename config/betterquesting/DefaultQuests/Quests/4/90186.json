@@ -13,6 +13,34 @@
     }
   },
   "questID:3": 90186,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "ae2stuff:wireless"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "ae2stuff:wireless_hub"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "ae2stuff:wireless_kit"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "ae2stuff:adv_wireless_kit",
+          "tag:10": {
+            "loc:10": {},
+            "mode:3": 0
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
@@ -23,7 +51,7 @@
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "ae2stuff:wireless_kit"
+          "id:8": "ae2stuff:wireless_hub"
         }
       },
       "taskID:8": "bq_standard:retrieval"

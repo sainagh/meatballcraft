@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "The Withers, unleashed as the weapon they were meant to be, as the final barrier against the Meatball Man.\nTheir remains, carry a trace, one that is part of their very being, like the one carried by the Dragons.\nA trace leading me to answers. A trace leading me to a place not far from where the Arbiter left a message, a message I discovered not long after my coming to Terra.\nA trace to a secret that will change Terra\u0027s trajectory forever.\nA trace to the tomb of the Arbiter. The fight between the Master of Order and the Lord of Chaos was concluded, unbeknown to everyone but the Meatball Man himself.\nAnd in his tomb, a message. One that seems contradictory.\nAnd yet one where I see the conclusion of my journey.\nThe Testificates rejected me, they saw me perform the magic of their god, and that must have scared them. They saw me wield the power of entropy, to exact order. That would make sense. I would be scared too; seeing the powers of your god, a god you do not know to be dead, coming from another person. They were mistaken, but it is understandable that they rejected me.\nAnd now I understand the Dragons. I resonate with their entropy-warping powers. I can understand them. And they seem to recognize me. Yes, this is a sign. A sign that indeed I am ready.\nI will be the new Master of Order. I will be the Arbiter.\nyes, that is how the prophecies must play out. I had my suspicions, but this is the final confirmation.\nThat is why the Meatball Man opposed me, while allowing me to freely act against him.\nThat is why he taunted me, pushing me to become stronger. That is why he voiced is boredom about a challenge when he first faced me.\nThat is why the undead he would send around me became stronger as I did.\nHe was following my steps, he wanted his nemesis back.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:entropic_channeling_fabrial"
@@ -19,18 +19,32 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "contenttweaker:entropic_channeling_stone"
+          "id:8": "contenttweaker:requiem_of_the_arbiter"
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "contenttweaker:entropic_channeling_fabrial"
+          "id:8": "contenttweaker:entropic_channeling_stone"
         },
         "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:entropic_channeling_fabrial"
+        },
+        "3:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:soul_of_entropy"
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_chaoticchanneling"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe advanced memory card is used to link p2p buses in an organized matter!\n\nYou should use this if you are using p2p!",
+      "desc:8": "§7§oThe advanced memory card is used to link p2p buses in an organized matter!\n\nIt is recommended over the normal Memory Card if you are using p2p!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "betterp2p:advanced_memory_card",
@@ -16,6 +16,19 @@
     }
   },
   "questID:3": 667,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "id:8": "appliedenergistics2:material"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
@@ -24,7 +37,8 @@
           "Count:3": 1,
           "id:8": "betterp2p:advanced_memory_card",
           "tag:10": {
-            "selectedIndex:3": -1
+            "gui:1": 3,
+            "selectedIndex:10": {}
           }
         }
       },

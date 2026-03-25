@@ -205,7 +205,6 @@ mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:inertial_confinement_reactor_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:linear_fusion_accelerator_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:aluminum_lathe_controller>);
-mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:blood_god_altar_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:plated_carpenter_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:plated_thermofabricator_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:salt_repolarizer_controller>);

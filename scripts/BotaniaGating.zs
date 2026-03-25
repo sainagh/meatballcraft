@@ -297,37 +297,37 @@ mods.botania.RuneAltar.addRecipe(<botania:rune:6>*8192,
 [<botania:rune:1>, <botania:rune:3>, <contenttweaker:valhalla_warren_dust>, <minecraft:spider_eye>, <ore:treeLeaves>, <ore:treeLeaves>], 50);
 
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*2, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:fiery_pyrite>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:fiery_pyrite>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*4, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:projector_gem>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:projector_gem>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*6, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:ender_dolomite_dust>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:ender_dolomite_dust>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*10, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:nugget_of_midas>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:nugget_of_midas>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*16, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:unidentified_gem>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:unidentified_gem>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*24, 
-[<botania:rune:0>, <botania:rune:2>, <divinerpg:acid>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <divinerpg:acid>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*36, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:imperial_diamond_powder>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:imperial_diamond_powder>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*44, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:strange_stone_essence>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:strange_stone_essence>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*66, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:actualizing_stone>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:actualizing_stone>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*128, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:trinity_nugget>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:trinity_nugget>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*256, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:dust_of_infinite_wishes>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:dust_of_infinite_wishes>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*512, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:quasar_charged_dust>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:quasar_charged_dust>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*1024, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:galactic_dust>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:galactic_dust>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*2048, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:bifrost_warren_dust>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:bifrost_warren_dust>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*4096, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:ragnarok_warren_dust>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:ragnarok_warren_dust>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 mods.botania.RuneAltar.addRecipe(<botania:rune:7>*8192, 
-[<botania:rune:0>, <botania:rune:2>, <contenttweaker:valhalla_warren_dust>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:*>], 50);
+[<botania:rune:0>, <botania:rune:2>, <contenttweaker:valhalla_warren_dust>, <minecraft:cake>, <minecraft:snow>, <minecraft:wool:0>], 50);
 
 
 mods.botania.RuneAltar.addRecipe(<botania:rune:9>*2, 
@@ -739,6 +739,11 @@ recipes.addShaped(<contenttweaker:terrasteel_infused_stone>*4,
 [<botania:manaresource:5>, <contenttweaker:terrasteel_crystal>.reuse(), <botania:manaresource:5>],
 [<contenttweaker:warren_petal>, <contenttweaker:actualizing_stone>, <contenttweaker:warren_petal>]]);
 
+recipes.addShaped(<contenttweaker:terrasteel_infused_stone>*16,
+[[<contenttweaker:warren_petal>, <contenttweaker:pure_void>, <contenttweaker:warren_petal>],
+[<botania:manaresource:5>, <contenttweaker:terrasteel_crystal>.reuse(), <botania:manaresource:5>],
+[<contenttweaker:warren_petal>, <contenttweaker:pure_void>, <contenttweaker:warren_petal>]]);
+
 
 mods.botania.ManaInfusion.addAlchemy(<botania:manaresource:4>*64, <contenttweaker:terrasteel_infused_stone>, 5000);
 
@@ -809,3 +814,10 @@ recipes.addShaped(<contenttweaker:superconductor_artifact>*2,
 [<contenttweaker:greater_gaia_spirit>, <contenttweaker:superconductor_artifact>, <contenttweaker:greater_gaia_spirit>],
 [<botania:manaresource:18>, <contenttweaker:greater_gaia_spirit>, <botania:manaresource:18>]]);
 
+
+
+mods.botania.RuneAltar.addRecipe(<extrabotany:material:1>*4, 
+[<botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>, <contenttweaker:corrupted_aragonite>, <extrabotany:material:3>], 50);
+
+mods.botania.RuneAltar.addRecipe(<extrabotany:firstfractal>, 
+[<extrabotany:excaliber>, <extrabotany:gildedmashedpotato>, <botania:manasteelsword>, <botania:thundersword>, <botania:elementiumsword>, <botania:starsword>, <botania:terrasword>, <minecraft:wooden_sword>, <extrabotany:shadowkatana>, <contenttweaker:first_order_mythic_fractal>], 50);

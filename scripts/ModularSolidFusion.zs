@@ -272,6 +272,15 @@ bettersolidfusion9.addItemInput(<ore:ingotZirconium>);
 bettersolidfusion9.addItemOutput(<contenttweaker:ruthenium_ingot>);
 bettersolidfusion9.build();
 
+val bettersolidfusion10 = RecipeBuilder.newBuilder("bettersolidfusion10","inertial_confinement_reactor",10);
+bettersolidfusion10.addEnergyPerTickInput(1000000);
+bettersolidfusion10.addItemInput(<contenttweaker:dream_brick>);
+bettersolidfusion10.addItemInput(<ore:ingotSednanite>*2);
+bettersolidfusion10.addItemOutput(<contenttweaker:magnetic_monopole>*10);
+bettersolidfusion10.build();
+
+
+
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hohlraum>, 
 [[<materialpart:sednanite:ingot>, <enderio:block_enlightened_fused_glass:0>, <contenttweaker:superconducting_sednanite>, <enderio:block_enlightened_fused_glass:0>, <materialpart:sednanite:ingot>], 

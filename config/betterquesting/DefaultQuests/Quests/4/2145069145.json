@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFor the Import Interface, deletes items that are pushed into it that are not selected in the Import Interface GUI.\n\nQuite useful for mob farm or woot output.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cells:trash_unselected_card"
+      },
+      "name:8": "Trash Unselected Card"
+    }
+  },
+  "questID:3": 2145069145,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "cells:trash_unselected_card"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cells:trash_unselected_card"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

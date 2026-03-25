@@ -54,6 +54,12 @@ mods.extendedcrafting.EnderCrafting.addShaped(<libvulpes:advstructuremachine>,
 [<contenttweaker:purified_titanium_ingot>, <techreborn:plates:38>, <contenttweaker:purified_titanium_ingot>]], 
 6);  
 
+recipes.addShaped(<libvulpes:advstructuremachine>,
+[[<contenttweaker:purified_titanium_ingot>,<techreborn:plates:38>,<contenttweaker:purified_titanium_ingot>],
+[<techreborn:plates:38>,<libvulpes:structuremachine>,<techreborn:plates:38>],
+[<contenttweaker:purified_titanium_ingot>,<contenttweaker:brightseel_alloy_plate>,<contenttweaker:purified_titanium_ingot>]]);
+
+
 recipes.addShaped(<contenttweaker:purified_titanium_ingot>,
 [[null,<ore:ingotTitanium>,null],
 [<ore:ingotTitanium>,<bewitchment:sigil_purity>.reuse(),<ore:ingotTitanium>],

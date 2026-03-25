@@ -47,26 +47,68 @@ mods.nuclearcraft.salt_mixer.addRecipe([<fluid:potassium>*144, <fluid:mineral_oi
 mods.nuclearcraft.salt_mixer.addRecipe([<fluid:fluidpotassium>*144, <fluid:mineral_oil>*10, <fluid:diluted_potassium>*144]);
 mods.nuclearcraft.salt_mixer.addRecipe([<fluid:diluted_sodium>*144, <fluid:diluted_potassium>*288, <fluid:diluted_nak_mix>*144]);
 
-val saltup1 = RecipeBuilder.newBuilder("saltup1","salt_repolarizer",20);
-saltup1.addEnergyPerTickInput(2000000);
-saltup1.addFluidInput(<fluid:diluted_flibe_mix>*144);
-saltup1.addFluidOutput(<fluid:flibe>*576);
-saltup1.addItemInput(<contenttweaker:polar_catalyst>);
-saltup1.build();
+val saltupflibe1 = RecipeBuilder.newBuilder("saltupflibe1","salt_repolarizer",20);
+saltupflibe1.addEnergyPerTickInput(2000000);
+saltupflibe1.addFluidInput(<fluid:diluted_flibe_mix>*144);
+saltupflibe1.addFluidOutput(<fluid:flibe>*576);
+saltupflibe1.addItemInput(<contenttweaker:polar_catalyst>);
+saltupflibe1.build();
 
-val saltup2 = RecipeBuilder.newBuilder("saltup2","salt_repolarizer",20);
-saltup2.addEnergyPerTickInput(2000000);
-saltup2.addFluidInput(<fluid:diluted_nak_mix>*144);
-saltup2.addFluidOutput(<fluid:nak>*576);
-saltup2.addItemInput(<contenttweaker:polar_catalyst>);
-saltup2.build();
+val saltupflibe2 = RecipeBuilder.newBuilder("saltupflibe2","salt_repolarizer",10);
+saltupflibe2.addEnergyPerTickInput(2000000);
+saltupflibe2.addFluidInput(<fluid:diluted_flibe_mix>*576);
+saltupflibe2.addFluidOutput(<fluid:flibe>*3456);
+saltupflibe2.addItemInput(<contenttweaker:diametric_catalyst>);
+saltupflibe2.build();
 
-val saltrecycle = RecipeBuilder.newBuilder("saltrecycle","salt_repolarizer",20);
-saltrecycle.addEnergyPerTickInput(2000000);
-saltrecycle.addFluidInput(<fluid:spent_flibe>*100);
-saltrecycle.addFluidOutput(<fluid:flibe>*100);
-saltrecycle.addItemInput(<contenttweaker:polar_catalyst>);
-saltrecycle.build();
+val saltupflibe3 = RecipeBuilder.newBuilder("saltupflibe3","salt_repolarizer",2);
+saltupflibe3.addEnergyPerTickInput(2000000);
+saltupflibe3.addFluidInput(<fluid:diluted_flibe_mix>*576);
+saltupflibe3.addFluidOutput(<fluid:flibe>*4608);
+saltupflibe3.addItemInput(<contenttweaker:monopolar_catalyst>);
+saltupflibe3.build();
+
+val saltupnak1 = RecipeBuilder.newBuilder("saltupnak1","salt_repolarizer",20);
+saltupnak1.addEnergyPerTickInput(2000000);
+saltupnak1.addFluidInput(<fluid:diluted_nak_mix>*144);
+saltupnak1.addFluidOutput(<fluid:nak>*576);
+saltupnak1.addItemInput(<contenttweaker:polar_catalyst>);
+saltupnak1.build();
+
+val saltupnak2 = RecipeBuilder.newBuilder("saltupnak2","salt_repolarizer",10);
+saltupnak2.addEnergyPerTickInput(2000000);
+saltupnak2.addFluidInput(<fluid:diluted_nak_mix>*576);
+saltupnak2.addFluidOutput(<fluid:nak>*3456);
+saltupnak2.addItemInput(<contenttweaker:diametric_catalyst>);
+saltupnak2.build();
+
+val saltupnak3 = RecipeBuilder.newBuilder("saltupnak3","salt_repolarizer",2);
+saltupnak3.addEnergyPerTickInput(2000000);
+saltupnak3.addFluidInput(<fluid:diluted_nak_mix>*576);
+saltupnak3.addFluidOutput(<fluid:nak>*4608);
+saltupnak3.addItemInput(<contenttweaker:monopolar_catalyst>);
+saltupnak3.build();
+
+val saltrecycle1 = RecipeBuilder.newBuilder("saltrecycle1","salt_repolarizer",20);
+saltrecycle1.addEnergyPerTickInput(2000000);
+saltrecycle1.addFluidInput(<fluid:spent_flibe>*100);
+saltrecycle1.addFluidOutput(<fluid:flibe>*100);
+saltrecycle1.addItemInput(<contenttweaker:polar_catalyst>);
+saltrecycle1.build();
+
+val saltrecycle2 = RecipeBuilder.newBuilder("saltrecycle2","salt_repolarizer",10);
+saltrecycle2.addEnergyPerTickInput(2000000);
+saltrecycle2.addFluidInput(<fluid:spent_flibe>*500);
+saltrecycle2.addFluidOutput(<fluid:flibe>*500);
+saltrecycle2.addItemInput(<contenttweaker:diametric_catalyst>);
+saltrecycle2.build();
+
+val saltrecycle3 = RecipeBuilder.newBuilder("saltrecycle3","salt_repolarizer",2);
+saltrecycle3.addEnergyPerTickInput(2000000);
+saltrecycle3.addFluidInput(<fluid:spent_flibe>*2500);
+saltrecycle3.addFluidOutput(<fluid:flibe>*2500);
+saltrecycle3.addItemInput(<contenttweaker:monopolar_catalyst>);
+saltrecycle3.build();
 
 mods.nuclearcraft.supercooler.addRecipe([<fluid:hot_fluorine>*100, <fluid:fluorine>*100]);
 

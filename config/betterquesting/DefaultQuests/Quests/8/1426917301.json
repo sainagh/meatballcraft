@@ -4,10 +4,10 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oLeft click bedrock at the bottom of the overworld using an Awakened Kamium Pickaxe",
+      "desc:8": "§7§o#sorrykeletu\n\nThis dimension is a relic of the past, but it may come back...",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "thaumictinkerer:ichor_block"
+        "id:8": "contenttweaker:kami_essence_block"
       },
       "name:8": "Bedrock Dimension"
     }
@@ -15,9 +15,8 @@
   "questID:3": 1426917301,
   "tasks:9": {
     "0:10": {
-      "dimension:3": 19,
       "index:3": 0,
-      "name:8": "Bedrock Dimension",
+      "name:8": "Bedrock Dimension (gone but not forgotten)",
       "taskID:8": "bq_standard:location"
     },
     "1:10": {
@@ -25,7 +24,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "thaumictinkerer:ichor_block"
+          "id:8": "contenttweaker:kami_essence_block"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

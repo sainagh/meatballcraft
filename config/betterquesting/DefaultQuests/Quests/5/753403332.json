@@ -32,6 +32,11 @@
         "3:10": {
           "Count:3": 1,
           "id:8": "divinerpg:skythern_heart"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 20,
+          "id:8": "actuallyadditions:item_misc"
         }
       },
       "taskID:8": "bq_standard:retrieval"

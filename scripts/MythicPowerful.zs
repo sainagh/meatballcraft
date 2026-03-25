@@ -1394,8 +1394,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 {
 
 	val enchlistChoedanKal as EnchantMap = EnchantMap()
-	.add("thaumictinkerer:finalstrike",20000)
-	.add("thaumictinkerer:valiance",20000);
+	.add("cofhcore:vorpal",30000);
 	
 
 
@@ -1457,7 +1456,6 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 {
 
 	val enchlistAnduril as EnchantMap = EnchantMap()
-	.add("thaumictinkerer:valiance",30)
 	.add("minecraft:smite",100);
 	
 
@@ -1476,7 +1474,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 {
 
 	val enchlistScarlet as EnchantMap = EnchantMap()
-	.add("thaumictinkerer:valiance",20);
+	.add("cofhcore:vorpal",12);
 	
 
 	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<thaumcraft:crimson_blade>.withTag({display: {Name:"§6§oScarlet§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistScarlet).getItem(), 
@@ -1508,7 +1506,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 {
 
 	val enchlistFirstKing as EnchantMap = EnchantMap()
-	.add("thaumictinkerer:finalstrike",20);
+	.add("cofhcore:vorpal",31);
 	
 
 
@@ -1834,7 +1832,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 		[<contenttweaker:exitium_vis_condensate>, <contenttweaker:ignis_vis_condensate>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:ignis_vis_condensate>, <contenttweaker:exitium_vis_condensate>],
 		[<aoa3:occult_pickaxe>, <contenttweaker:self_actualizing_warren_rift>, <avaritia:infinity_pickaxe>, <contenttweaker:self_actualizing_warren_rift>, <aoa3:energistic_pickaxe>],
 		[<contenttweaker:exitium_vis_condensate>, <contenttweaker:ignis_vis_condensate>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:ignis_vis_condensate>, <contenttweaker:exitium_vis_condensate>],
-		[<contenttweaker:ascended_starlight_sphere>, <contenttweaker:lux_vis_condensate>, <thaumictinkerer:ichorium_pick_adv>, <contenttweaker:lux_vis_condensate>, <contenttweaker:ascended_starlight_sphere>]]); 
+		[<contenttweaker:ascended_starlight_sphere>, <contenttweaker:lux_vis_condensate>, <thaumadditions:void_elemental_pickaxe>, <contenttweaker:lux_vis_condensate>, <contenttweaker:ascended_starlight_sphere>]]); 
 
 }
 

@@ -2441,8 +2441,6 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:horde_horn>.addTooltip(format.red("Warning: bring a good bow!"));
 
-<appliedenergistics2:material:60>.addTooltip(format.red("WARNING: this is quite buggy and it probably will not work!"));
-
 <akashictome:tome>.addTooltip(format.red("WARNING: don't combine with Astral Tome, Thaumonomicon, Lexica botania, Necronomicon, Alkahestry"));
 
 <thaumicenergistics:arcane_terminal>.addTooltip(format.red("WARNINGS: This is very crashy, you shouldn't need to use it much"));
@@ -3109,7 +3107,6 @@ import crafttweaker.item.IItemCondition;
 
 <nuclearcraft:radiation_scrubber>.addTooltip(format.red("For an optimal setup, place 9 of these in the sky with spectre coils"));
 
-<malisisdoors:hitechdoor>.addTooltip(format.red("WARNING: placing this may cause visual bugs"));
 
 <botania:magnetring>.addTooltip(format.red("The solegnolia flower prevents this magnet from working nearby"));
 <botania:magnetringgreater>.addTooltip(format.red("The solegnolia flower prevents this magnet from working nearby"));
@@ -3254,7 +3251,7 @@ import crafttweaker.item.IItemCondition;
 
 <extrabotany:failnaught>.addTooltip(format.red("Does piercing damage"));
 
-<extrabotany:buddhistrelics>.addTooltip(format.red("Use the paparazzi camera to be able to use this"));
+<extrabotany:buddhistrelics>.addTooltip(format.red("Use the Astral Mastery Tome to be able to use this"));
 <extrabotany:buddhistrelics>.addTooltip(format.red("Shift right click to turn it into other relics"));
 
 <extrabotany:achilleshield>.addTooltip(format.red("Works even when not right clicking, gives a high thorns effect while holding right click"));

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    90131
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUse this to speed up the process of assigning priority to the various ME blocks.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2powertools:priority_tuner"
+      },
+      "name:8": "Priority Tool"
+    }
+  },
+  "questID:3": 1938847159,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2powertools:priority_tuner"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

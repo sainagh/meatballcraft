@@ -549,3 +549,194 @@ mithchemreac72.addFluidInput(<fluid:fuel_len_236>*144);
 mithchemreac72.addFluidInput(<fluid:fluorine>*1000);
 mithchemreac72.addFluidOutput(<fluid:fuel_len_236_fluoride>*144);
 mithchemreac72.build();
+
+
+val mithchemreac73 = RecipeBuilder.newBuilder("mithchemreac73","mythic_processor_chemical_reactor",2);
+mithchemreac73.addEnergyPerTickInput(200000);
+mithchemreac73.addFluidInput(<fluid:lif>*288);
+mithchemreac73.addFluidInput(<fluid:bef2>*144);
+mithchemreac73.addFluidOutput(<fluid:flibe>*144);
+mithchemreac73.build();
+
+val mithchemreac74 = RecipeBuilder.newBuilder("mithchemreac74","mythic_processor_chemical_reactor",2);
+mithchemreac74.addEnergyPerTickInput(200000);
+mithchemreac74.addFluidInput(<fluid:sodium>*72);
+mithchemreac74.addFluidInput(<fluid:potassium>*288);
+mithchemreac74.addFluidOutput(<fluid:nak>*144);
+mithchemreac74.build();
+
+val mithchemreac75 = RecipeBuilder.newBuilder("mithchemreac75","mythic_processor_chemical_reactor",2);
+mithchemreac75.addEnergyPerTickInput(200000);
+mithchemreac75.addFluidInput(<fluid:gelatin>*144);
+mithchemreac75.addFluidInput(<fluid:water>*500);
+mithchemreac75.addFluidOutput(<fluid:hydrated_gelatin>*576);
+mithchemreac75.build();
+
+val mithchemreac76 = RecipeBuilder.newBuilder("mithchemreac76","mythic_processor_chemical_reactor",2);
+mithchemreac76.addEnergyPerTickInput(200000);
+mithchemreac76.addFluidInput(<fluid:redstone>*1000);
+mithchemreac76.addFluidInput(<fluid:nak>*576);
+mithchemreac76.addFluidOutput(<fluid:redstone_nak>*576);
+mithchemreac76.build();
+
+val mithchemreac77 = RecipeBuilder.newBuilder("mithchemreac77","mythic_processor_chemical_reactor",2);
+mithchemreac77.addEnergyPerTickInput(200000);
+mithchemreac77.addFluidInput(<fluid:quartz>*4662);
+mithchemreac77.addFluidInput(<fluid:nak>*576);
+mithchemreac77.addFluidOutput(<fluid:quartz_nak>*576);
+mithchemreac77.build();
+
+val mithchemreac78 = RecipeBuilder.newBuilder("mithchemreac78","mythic_processor_chemical_reactor",2);
+mithchemreac78.addEnergyPerTickInput(200000);
+mithchemreac78.addFluidInput(<fluid:gold>*576);
+mithchemreac78.addFluidInput(<fluid:nak>*576);
+mithchemreac78.addFluidOutput(<fluid:gold_nak>*576);
+mithchemreac78.build();
+
+val mithchemreac79 = RecipeBuilder.newBuilder("mithchemreac79","mythic_processor_chemical_reactor",2);
+mithchemreac79.addEnergyPerTickInput(200000);
+mithchemreac79.addFluidInput(<fluid:glowstone>*1750);
+mithchemreac79.addFluidInput(<fluid:nak>*576);
+mithchemreac79.addFluidOutput(<fluid:glowstone_nak>*576);
+mithchemreac79.build();
+
+val mithchemreac80 = RecipeBuilder.newBuilder("mithchemreac80","mythic_processor_chemical_reactor",2);
+mithchemreac80.addEnergyPerTickInput(200000);
+mithchemreac80.addFluidInput(<fluid:lapis>*5994);
+mithchemreac80.addFluidInput(<fluid:nak>*576);
+mithchemreac80.addFluidOutput(<fluid:lapis_nak>*576);
+mithchemreac80.build();
+
+val mithchemreac81 = RecipeBuilder.newBuilder("mithchemreac81","mythic_processor_chemical_reactor",2);
+mithchemreac81.addEnergyPerTickInput(200000);
+mithchemreac81.addFluidInput(<fluid:diamond>*2664);
+mithchemreac81.addFluidInput(<fluid:nak>*576);
+mithchemreac81.addFluidOutput(<fluid:lapis_nak>*576);
+mithchemreac81.build();
+
+val mithchemreac82 = RecipeBuilder.newBuilder("mithchemreac82","mythic_processor_chemical_reactor",2);
+mithchemreac82.addEnergyPerTickInput(200000);
+mithchemreac82.addFluidInput(<fluid:liquidhelium>*500);
+mithchemreac82.addFluidInput(<fluid:nak>*576);
+mithchemreac82.addFluidOutput(<fluid:liquidhelium_nak>*576);
+mithchemreac82.build();
+
+val mithchemreac83 = RecipeBuilder.newBuilder("mithchemreac83","mythic_processor_chemical_reactor",2);
+mithchemreac83.addEnergyPerTickInput(200000);
+mithchemreac83.addFluidInput(<fluid:ender>*1000);
+mithchemreac83.addFluidInput(<fluid:nak>*576);
+mithchemreac83.addFluidOutput(<fluid:ender_nak>*576);
+mithchemreac83.build();
+
+val mithchemreac84 = RecipeBuilder.newBuilder("mithchemreac84","mythic_processor_chemical_reactor",2);
+mithchemreac84.addEnergyPerTickInput(200000);
+mithchemreac84.addFluidInput(<fluid:cryotheum>*1000);
+mithchemreac84.addFluidInput(<fluid:nak>*576);
+mithchemreac84.addFluidOutput(<fluid:cryotheum_nak>*576);
+mithchemreac84.build();
+
+val mithchemreac85 = RecipeBuilder.newBuilder("mithchemreac85","mythic_processor_chemical_reactor",2);
+mithchemreac85.addEnergyPerTickInput(200000);
+mithchemreac85.addFluidInput(<fluid:iron>*576);
+mithchemreac85.addFluidInput(<fluid:nak>*576);
+mithchemreac85.addFluidOutput(<fluid:iron_nak>*576);
+mithchemreac85.build();
+
+val mithchemreac86 = RecipeBuilder.newBuilder("mithchemreac86","mythic_processor_chemical_reactor",2);
+mithchemreac86.addEnergyPerTickInput(200000);
+mithchemreac86.addFluidInput(<fluid:emerald>*1998);
+mithchemreac86.addFluidInput(<fluid:nak>*576);
+mithchemreac86.addFluidOutput(<fluid:emerald_nak>*576);
+mithchemreac86.build();
+
+val mithchemreac87 = RecipeBuilder.newBuilder("mithchemreac87","mythic_processor_chemical_reactor",2);
+mithchemreac87.addEnergyPerTickInput(200000);
+mithchemreac87.addFluidInput(<fluid:copper>*576);
+mithchemreac87.addFluidInput(<fluid:nak>*576);
+mithchemreac87.addFluidOutput(<fluid:copper_nak>*576);
+mithchemreac87.build();
+
+val mithchemreac88 = RecipeBuilder.newBuilder("mithchemreac88","mythic_processor_chemical_reactor",2);
+mithchemreac88.addEnergyPerTickInput(200000);
+mithchemreac88.addFluidInput(<fluid:tin>*576);
+mithchemreac88.addFluidInput(<fluid:nak>*576);
+mithchemreac88.addFluidOutput(<fluid:tin_nak>*576);
+mithchemreac88.build();
+
+val mithchemreac89 = RecipeBuilder.newBuilder("mithchemreac89","mythic_processor_chemical_reactor",2);
+mithchemreac89.addEnergyPerTickInput(200000);
+mithchemreac89.addFluidInput(<fluid:magnesium>*576);
+mithchemreac89.addFluidInput(<fluid:nak>*576);
+mithchemreac89.addFluidOutput(<fluid:magnesium_nak>*576);
+mithchemreac89.build();
+
+val mithchemreac90 = RecipeBuilder.newBuilder("mithchemreac90","mythic_processor_chemical_reactor",2);
+mithchemreac90.addEnergyPerTickInput(200000);
+mithchemreac90.addFluidInput(<fluid:diluted_sodium>*144);
+mithchemreac90.addFluidInput(<fluid:diluted_potassium>*288);
+mithchemreac90.addFluidOutput(<fluid:diluted_nak_mix>*144);
+mithchemreac90.build();
+
+val mithchemreac91 = RecipeBuilder.newBuilder("mithchemreac91","mythic_processor_chemical_reactor",2);
+mithchemreac91.addEnergyPerTickInput(200000);
+mithchemreac91.addFluidInput(<fluid:potassium>*144);
+mithchemreac91.addFluidInput(<fluid:mineral_oil>*10);
+mithchemreac91.addFluidOutput(<fluid:diluted_potassium>*144);
+mithchemreac91.build();
+
+val mithchemreac92 = RecipeBuilder.newBuilder("mithchemreac92","mythic_processor_chemical_reactor",2);
+mithchemreac92.addEnergyPerTickInput(200000);
+mithchemreac92.addFluidInput(<fluid:sodium>*144);
+mithchemreac92.addFluidInput(<fluid:mineral_oil>*10);
+mithchemreac92.addFluidOutput(<fluid:diluted_sodium>*144);
+mithchemreac92.build();
+
+val mithchemreac93 = RecipeBuilder.newBuilder("mithchemreac93","mythic_processor_chemical_reactor",2);
+mithchemreac93.addEnergyPerTickInput(200000);
+mithchemreac93.addFluidInput(<fluid:diluted_beryllium_fluoride>*144);
+mithchemreac93.addFluidInput(<fluid:diluted_lithium_fluoride>*288);
+mithchemreac93.addFluidOutput(<fluid:diluted_flibe_mix>*144);
+mithchemreac93.build();
+
+val mithchemreac94 = RecipeBuilder.newBuilder("mithchemreac94","mythic_processor_chemical_reactor",2);
+mithchemreac94.addEnergyPerTickInput(200000);
+mithchemreac94.addFluidInput(<fluid:bef2>*144);
+mithchemreac94.addFluidInput(<fluid:mineral_oil>*10);
+mithchemreac94.addFluidOutput(<fluid:diluted_beryllium_fluoride>*144);
+mithchemreac94.build();
+
+val mithchemreac95 = RecipeBuilder.newBuilder("mithchemreac95","mythic_processor_chemical_reactor",2);
+mithchemreac95.addEnergyPerTickInput(200000);
+mithchemreac95.addFluidInput(<fluid:lif>*144);
+mithchemreac95.addFluidInput(<fluid:mineral_oil>*10);
+mithchemreac95.addFluidOutput(<fluid:diluted_lithium_fluoride>*144);
+mithchemreac95.build();
+
+val mithchemreac96 = RecipeBuilder.newBuilder("mithchemreac96","mythic_processor_chemical_reactor",2);
+mithchemreac96.addEnergyPerTickInput(200000);
+mithchemreac96.addFluidInput(<fluid:californium_256>*1000);
+mithchemreac96.addFluidInput(<fluid:fluid_crystal_matrix>*1000);
+mithchemreac96.addFluidOutput(<fluid:fluid_californium_lattice>*1000);
+mithchemreac96.build();
+
+val mithchemreac97 = RecipeBuilder.newBuilder("mithchemreac97","mythic_processor_chemical_reactor",2);
+mithchemreac97.addEnergyPerTickInput(200000);
+mithchemreac97.addFluidInput(<fluid:inquiring_abyssite>*1000);
+mithchemreac97.addFluidInput(<fluid:trinity_ingot>*12);
+mithchemreac97.addFluidOutput(<fluid:everloving_abyssite>*1000);
+mithchemreac97.build();
+
+val mithchemreac98 = RecipeBuilder.newBuilder("mithchemreac98","mythic_processor_chemical_reactor",2);
+mithchemreac98.addEnergyPerTickInput(200000);
+mithchemreac98.addFluidInput(<fluid:fluidpotassium>*288);
+mithchemreac98.addFluidInput(<fluid:sodium>*72);
+mithchemreac98.addFluidOutput(<fluid:nak>*144);
+mithchemreac98.build();
+
+val mithchemreac99 = RecipeBuilder.newBuilder("mithchemreac99","mythic_processor_chemical_reactor",2);
+mithchemreac99.addEnergyPerTickInput(200000);
+mithchemreac99.addFluidInput(<fluid:fluidpotassium>*144);
+mithchemreac99.addFluidInput(<fluid:mineral_oil>*10);
+mithchemreac99.addFluidOutput(<fluid:diluted_potassium>*144);
+mithchemreac99.build();
+

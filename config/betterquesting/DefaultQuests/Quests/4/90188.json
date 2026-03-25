@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oP2P buses are used to connect transport of items, redstone, fluids, light, energy, and AE2 channels using AE2.\n\nRight click with the following items to change mode:\nBucket for fluid mode,\nChest for item mode,\nSmart cable for channel mode,\nEnergy cell for energy mode,\nRedstone for redstone mode.\n\nTwo or more P2P buses are connected between each other using the advanced memory card. P2P connections can be renamed using a quartz knife, making it easy to keep track of stuff!\n\nThese buses can be used to move a lot of channels using a lot fewer cables, making it easier to manage the logistics in your base. The best way to do this is by using a smaller AE2 network, called a subnet, that consists only of P2P connections used to connect your main controller with other parts of your base. This way a single Dense Smart Cable can transport up to 1024 channels.\n\nThe multiblock preview shows how P2P can be used to move channels. The main network is in white, the subnet is in purple.\nThe center controller is the main controller, P2P buses can be placed directly on it, or through a dense cable. This is the input side.\nThe output side can be placed anywhere on the same subnet used for the input side (the purple ones).\nSubnets can be powered by using external controllers, or by connecting to the main network using quartz fiber.\nNOTE: you should not connect the main net and the subnet together with any ME cable outside of quartz fiber.",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 460,
@@ -14,6 +14,19 @@
     }
   },
   "questID:3": 90188,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 460,
+          "id:8": "appliedenergistics2:part"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

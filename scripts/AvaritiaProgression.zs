@@ -784,12 +784,12 @@ recipes.addShapeless(
 
 val creataltaspeleint = RecipeBuilder.newBuilder("creataltaspeleint","creation_altar",5);
 creataltaspeleint.addEnergyPerTickInput(500000000);
-creataltaspeleint.addFluidInput(<fluid:molten_echo_warren>*1);
-creataltaspeleint.addFluidInput(<fluid:recursive_computing_matter>*1);
-creataltaspeleint.addFluidInput(<fluid:actualizing_fluid>*1);
-creataltaspeleint.addFluidInput(<fluid:eleint_dragonfire>*1);
-creataltaspeleint.addItemInput(<contenttweaker:eleint_scale>);
-creataltaspeleint.addItemOutput(<contenttweaker:actualization_aspected_eleint_scale>);
+creataltaspeleint.addFluidInput(<fluid:molten_echo_warren>*32);
+creataltaspeleint.addFluidInput(<fluid:recursive_computing_matter>*32);
+creataltaspeleint.addFluidInput(<fluid:actualizing_fluid>*32);
+creataltaspeleint.addFluidInput(<fluid:eleint_dragonfire>*32);
+creataltaspeleint.addItemInput(<contenttweaker:eleint_scale>*32);
+creataltaspeleint.addItemOutput(<contenttweaker:actualization_aspected_eleint_scale>*32);
 creataltaspeleint.build();
 
 

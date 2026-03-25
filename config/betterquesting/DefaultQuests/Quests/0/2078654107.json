@@ -1,10 +1,10 @@
 {
   "preRequisites:11": [
-    324
+    325
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "To be completely honest, my investigation of Infinity was mostly motivated by curiosity. I wanted to know more about recursion, this power that has so deeply touched my life. I was not really looking for a use...\nAnd yet, new insight came along a lot of useful knowledge. Investigating the basis for recursion ended up revealing quite a lot about the mechanisms involved in a given magical field to emerge.\nAnd as I started inspecting the mechanisms of Alchemy, something else emerged. A new field. A new branch of magic.\nThe One Power, a shaping of the elements. Not as aspected at Thaumaturgy. A more raw, more basic way to interface with reality.\nAnd the power to imbue matter with indestructibility. Not just high resistance. True indestructibility.\nThis comes with its own advantages and disadvantages; after all, how do you work a material that cannot be destroyed, that cannot be deformed.\nI am sure that delving deeper into this magic may provide some answers. My abilities with the One Power are still quite limited, and I am not sure I possess a particular talent at sensing its field...",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:cuendillar_plate"

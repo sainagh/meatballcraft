@@ -58,6 +58,18 @@ dreadcruc5.addItemInput(<ore:ingotAluminum>*6);
 dreadcruc5.addItemOutput(<materialpart:dreaded_steel:ingot>*12);
 dreadcruc5.build();
 
+val dreadcruc6 = RecipeBuilder.newBuilder("dreaditecrucible6","dragonfire_crucible",100);
+dreadcruc6.addFluidInput(<fluid:eleint_dragonfire>*12);
+dreadcruc6.addItemInput(<materialpart:dreadite:ingot>*8);
+dreadcruc6.addItemInput(<aoa3:varsium_ingot>*8);
+dreadcruc6.addItemInput(<aoa3:blazium_ingot>*8);
+dreadcruc6.addItemInput(<aoa3:lyon_ingot>*8);
+dreadcruc6.addItemInput(<aoa3:elecanium_ingot>*8);
+dreadcruc6.addItemInput(<aoa3:shyrestone_ingot>*8);
+dreadcruc6.addItemInput(<ore:ingotAluminum>*48);
+dreadcruc6.addItemOutput(<materialpart:dreaded_steel:ingot>*96);
+dreadcruc6.build();
+
 
 
 
@@ -498,3 +510,57 @@ dragoncruc40.addItemInput(<contenttweaker:awakening_bloom>*32);
 dragoncruc40.addItemInput(<aoa3:blooming_infusion_stone>);
 dragoncruc40.addItemOutput(<contenttweaker:awakened_infusion_stone>*32);
 dragoncruc40.build();
+
+
+val dragoncruc41 = RecipeBuilder.newBuilder("dragoncruc41","dragonfire_crucible",40);
+dragoncruc41.addFluidInput(<fluid:eleint_dragonfire>*4000);
+dragoncruc41.addItemInput(<contenttweaker:flame_of_actualization>);
+dragoncruc41.setChance(0.0);
+dragoncruc41.addItemInput(<contenttweaker:sand_of_universal_balance>*16);
+dragoncruc41.addItemOutput(<contenttweaker:stone_of_universal_balance>*1024);
+dragoncruc41.build();
+
+val dragoncruc42 = RecipeBuilder.newBuilder("dragoncruc42","dragonfire_crucible",40);
+dragoncruc42.addFluidInput(<fluid:twilight_fire>*200);
+dragoncruc42.addItemInput(<contenttweaker:awakening_bloom>*128);
+dragoncruc42.addItemInput(<aoa3:blooming_infusion_stone>*4);
+dragoncruc42.addItemOutput(<contenttweaker:awakened_infusion_stone>*128);
+dragoncruc42.build();
+
+val dragoncruc43 = RecipeBuilder.newBuilder("dragoncruc43","dragonfire_crucible",40);
+dragoncruc43.addFluidInput(<fluid:sacred_spring_fire>*200);
+dragoncruc43.addItemInput(<contenttweaker:awakening_bloom>*512);
+dragoncruc43.addItemInput(<aoa3:blooming_infusion_stone>*16);
+dragoncruc43.addItemOutput(<contenttweaker:awakened_infusion_stone>*512);
+dragoncruc43.build();
+
+
+val dragoncruc44 = RecipeBuilder.newBuilder("dragoncruc44","dragonfire_crucible",40);
+dragoncruc44.addFluidInput(<fluid:eternal_dragon_fire>*200);
+dragoncruc44.addItemInput(<contenttweaker:dust_of_infinite_wishes>*256);
+dragoncruc44.addItemInput(<contenttweaker:reality_pebble>*16);
+dragoncruc44.addItemOutput(<contenttweaker:stone_of_infinite_wishes>*16);
+dragoncruc44.build();
+
+val dragoncruc45 = RecipeBuilder.newBuilder("dragoncruc45","dragonfire_crucible",40);
+dragoncruc45.addFluidInput(<fluid:eleint_dragonfire>*100);
+dragoncruc45.addItemInput(<contenttweaker:dust_of_infinite_wishes>*64);
+dragoncruc45.addItemInput(<contenttweaker:reality_pebble>*16);
+dragoncruc45.addItemOutput(<contenttweaker:stone_of_infinite_wishes>*16);
+dragoncruc45.build();
+
+val dragoncruc46 = RecipeBuilder.newBuilder("dragoncruc46","dragonfire_crucible",40);
+dragoncruc46.addFluidInput(<fluid:nidhogg_dragonfire>*50);
+dragoncruc46.addItemInput(<contenttweaker:dust_of_infinite_wishes>*16);
+dragoncruc46.addItemInput(<contenttweaker:reality_pebble>*16);
+dragoncruc46.addItemOutput(<contenttweaker:stone_of_infinite_wishes>*16);
+dragoncruc46.build();
+
+
+val dragoncruc47 = RecipeBuilder.newBuilder("dragoncruc47","dragonfire_crucible",40);
+dragoncruc47.addFluidInput(<fluid:eleint_dragonfire>*4000);
+dragoncruc47.addItemInput(<contenttweaker:flame_of_actualization>);
+dragoncruc47.setChance(0.0);
+dragoncruc47.addItemInput(<avaritiaitem:self_actualizing_stone>*64);
+dragoncruc47.addItemOutput(<extendedcrafting:singularity_ultimate>*1);
+dragoncruc47.build();

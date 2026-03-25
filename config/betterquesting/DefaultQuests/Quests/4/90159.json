@@ -14,6 +14,33 @@
     }
   },
   "questID:3": 90159,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 260,
+          "id:8": "appliedenergistics2:part"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 261,
+          "id:8": "appliedenergistics2:part"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 12,
+          "id:8": "extracells:part.base"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "id:8": "thaumicenergistics:essentia_export"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
@@ -34,30 +61,8 @@
         },
         "3:10": {
           "Count:3": 1,
-          "Damage:2": 1,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "crazyae:part",
-            "orig_meta:3": 1
-          }
-        },
-        "4:10": {
-          "Count:3": 1,
-          "Damage:2": 3,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "crazyae:part",
-            "orig_meta:3": 3
-          }
-        },
-        "5:10": {
-          "Count:3": 1,
-          "Damage:2": 8,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "crazyae:part",
-            "orig_meta:3": 8
-          }
+          "Damage:2": 12,
+          "id:8": "extracells:part.base"
         }
       },
       "taskID:8": "bq_standard:retrieval"

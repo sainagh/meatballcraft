@@ -1,4 +1,5 @@
 import mods.appliedenergistics2.Inscriber;
+import mods.modularmachinery.RecipeBuilder;
 
 
 recipes.removeShaped(<appliedenergistics2:energy_acceptor>);
@@ -563,6 +564,17 @@ recipes.addShaped(<appliedenergistics2:material:54>*18,
 [<minecraft:dye:4>, <contenttweaker:fractal_stone>, <minecraft:dye:4>]]);
 
 
+recipes.removeShaped(<threng:machine:4>);
+recipes.removeShaped(<ae2fc:fluid_level_maintainer>);
+
+
+recipes.removeShaped(<ae2powertools:better_level_maintainer>);
+recipes.addShaped(<ae2powertools:better_level_maintainer>,
+[[<threng:material:0>, <ore:itemIlluminatedPanel>, <threng:material:0>],
+[<appliedenergistics2:material:9>, <appliedenergistics2:quartz_pillar>, <appliedenergistics2:material:9>],
+[<appliedenergistics2:material:53>, <appliedenergistics2:material:38>, <appliedenergistics2:material:53>]]);
+
+
 /*
 
 
@@ -738,6 +750,289 @@ mods.extendedcrafting.TableCrafting.addShaped(<packagingprovider:packaging_provi
 [<extendedcrafting:material:13>, <packagedauto:unpackager>, <contenttweaker:spatial_processing_unit>, <packagedauto:unpackager>, <extendedcrafting:material:13>], 
 [<contenttweaker:spatial_processing_unit>, <threng:material:4>, <packagedauto:packager>, <threng:material:4>, <contenttweaker:spatial_processing_unit>], 
 [<appliedenergistics2:material:47>, <contenttweaker:spatial_processing_unit>, <extendedcrafting:material:13>, <contenttweaker:spatial_processing_unit>, <appliedenergistics2:material:47>]]);  
+
+
+
+recipes.removeShaped(<cells:import_interface>);
+mods.extendedcrafting.TableCrafting.addShaped(<cells:import_interface>, 
+[[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>], 
+[null, null, <extendedcrafting:material:8>, null, null], 
+[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:44>, <appliedenergistics2:material:12>, <appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>], 
+[null, null, <appliedenergistics2:part:240>, null, null], 
+[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
+
+recipes.removeShaped(<cells:import_fluid_interface>);
+mods.extendedcrafting.TableCrafting.addShaped(<cells:import_fluid_interface>, 
+[[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>], 
+[null, null, <extendedcrafting:material:8>, null, null], 
+[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:44>, <appliedenergistics2:material:12>, <appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>], 
+[null, null, <appliedenergistics2:part:241>, null, null], 
+[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
+
+recipes.removeShaped(<cells:export_interface>);
+mods.extendedcrafting.TableCrafting.addShaped(<cells:export_interface>, 
+[[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>], 
+[null, null, <extendedcrafting:material:8>, null, null], 
+[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>, <appliedenergistics2:quartz_glass>], 
+[null, null, <appliedenergistics2:part:260>, null, null], 
+[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
+
+recipes.removeShaped(<cells:export_fluid_interface>);
+mods.extendedcrafting.TableCrafting.addShaped(<cells:export_fluid_interface>, 
+[[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>], 
+[null, null, <extendedcrafting:material:8>, null, null], 
+[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>, <appliedenergistics2:quartz_glass>], 
+[null, null, <appliedenergistics2:part:261>, null, null], 
+[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
+
+
+val divcombinacceptor1 = RecipeBuilder.newBuilder("divcombinacceptor1","divine_combiner",2);
+divcombinacceptor1.addFluidInput(<fluid:hint_of_divinity>*100);
+divcombinacceptor1.addItemInput(<techreborn:ingot:19>*16);
+divcombinacceptor1.addItemInput(<tconstruct:ingots:2>*32);
+divcombinacceptor1.addItemInput(<buildcraftsilicon:redstone_chipset:0>*16);
+divcombinacceptor1.addItemInput(<buildcraftsilicon:redstone_chipset:3>*16);
+divcombinacceptor1.addItemInput(<appliedenergistics2:material:7>*4);
+divcombinacceptor1.addItemOutput(<appliedenergistics2:energy_acceptor>*4);
+divcombinacceptor1.build();
+
+val divcombinacceptor2 = RecipeBuilder.newBuilder("divcombinacceptor2","divine_combiner",2);
+divcombinacceptor2.addFluidInput(<fluid:divine_resonant_hint>*200);
+divcombinacceptor2.addItemInput(<techreborn:ingot:19>*64);
+divcombinacceptor2.addItemInput(<tconstruct:ingots:2>*128);
+divcombinacceptor2.addItemInput(<buildcraftsilicon:redstone_chipset:0>*64);
+divcombinacceptor2.addItemInput(<buildcraftsilicon:redstone_chipset:3>*64);
+divcombinacceptor2.addItemInput(<appliedenergistics2:material:7>*16);
+divcombinacceptor2.addItemOutput(<appliedenergistics2:energy_acceptor>*16);
+divcombinacceptor2.build();
+
+val divcombinacceptor3 = RecipeBuilder.newBuilder("divcombinacceptor3","divine_combiner",2);
+divcombinacceptor3.addFluidInput(<fluid:divine_resonance>*400);
+divcombinacceptor3.addItemInput(<techreborn:ingot:19>*256);
+divcombinacceptor3.addItemInput(<tconstruct:ingots:2>*512);
+divcombinacceptor3.addItemInput(<buildcraftsilicon:redstone_chipset:0>*256);
+divcombinacceptor3.addItemInput(<buildcraftsilicon:redstone_chipset:3>*256);
+divcombinacceptor3.addItemInput(<appliedenergistics2:material:7>*64);
+divcombinacceptor3.addItemOutput(<appliedenergistics2:energy_acceptor>*64);
+divcombinacceptor3.build();
+
+
+val divcombmecontrol1 = RecipeBuilder.newBuilder("divcombmecontrol1","divine_combiner",2);
+divcombmecontrol1.addFluidInput(<fluid:hint_of_divinity>*100);
+divcombmecontrol1.addItemInput(<appliedenergistics2:energy_acceptor>*4);
+divcombmecontrol1.addItemInput(<appliedenergistics2:smooth_sky_stone_block>*32);
+divcombmecontrol1.addItemInput(<divinerpg:netherite_ingot>*32);
+divcombmecontrol1.addItemInput(<appliedenergistics2:material:12>*48);
+divcombmecontrol1.addItemInput(<tconstruct:ingots:2>*16);
+divcombmecontrol1.addItemInput(<buildcraftsilicon:redstone_chipset:0>*16);
+divcombmecontrol1.addItemInput(<buildcraftsilicon:redstone_chipset:4>*16);
+divcombmecontrol1.addItemOutput(<appliedenergistics2:controller>*4);
+divcombmecontrol1.build();
+
+val divcombmecontrol2 = RecipeBuilder.newBuilder("divcombmecontrol2","divine_combiner",2);
+divcombmecontrol2.addFluidInput(<fluid:divine_resonant_hint>*200);
+divcombmecontrol2.addItemInput(<appliedenergistics2:energy_acceptor>*16);
+divcombmecontrol2.addItemInput(<appliedenergistics2:smooth_sky_stone_block>*128);
+divcombmecontrol2.addItemInput(<divinerpg:netherite_ingot>*128);
+divcombmecontrol2.addItemInput(<appliedenergistics2:material:12>*192);
+divcombmecontrol2.addItemInput(<tconstruct:ingots:2>*64);
+divcombmecontrol2.addItemInput(<buildcraftsilicon:redstone_chipset:0>*64);
+divcombmecontrol2.addItemInput(<buildcraftsilicon:redstone_chipset:4>*64);
+divcombmecontrol2.addItemOutput(<appliedenergistics2:controller>*16);
+divcombmecontrol2.build();
+
+val divcombmecontrol3 = RecipeBuilder.newBuilder("divcombmecontrol3","divine_combiner",2);
+divcombmecontrol3.addFluidInput(<fluid:divine_resonance>*400);
+divcombmecontrol3.addItemInput(<appliedenergistics2:energy_acceptor>*64);
+divcombmecontrol3.addItemInput(<appliedenergistics2:smooth_sky_stone_block>*512);
+divcombmecontrol3.addItemInput(<divinerpg:netherite_ingot>*512);
+divcombmecontrol3.addItemInput(<appliedenergistics2:material:12>*768);
+divcombmecontrol3.addItemInput(<tconstruct:ingots:2>*512);
+divcombmecontrol3.addItemInput(<buildcraftsilicon:redstone_chipset:0>*512);
+divcombmecontrol3.addItemInput(<buildcraftsilicon:redstone_chipset:4>*512);
+divcombmecontrol3.addItemOutput(<appliedenergistics2:controller>*64);
+divcombmecontrol3.build();
+
+
+recipes.removeShaped(<cells:compressed_calculation_print:0>);
+recipes.addShaped(<cells:compressed_calculation_print:0>,
+[[<appliedenergistics2:material:16>, <appliedenergistics2:material:16>, <appliedenergistics2:material:16>],
+[<appliedenergistics2:material:16>, <mysticalagradditions:stuff:0>, <appliedenergistics2:material:16>],
+[<appliedenergistics2:material:16>, <appliedenergistics2:material:16>, <appliedenergistics2:material:16>]]);
+
+recipes.removeShaped(<cells:compressed_calculation_print:1>);
+recipes.addShaped(<cells:compressed_calculation_print:1>,
+[[<cells:compressed_calculation_print:0>, <cells:compressed_calculation_print:0>, <cells:compressed_calculation_print:0>],
+[<cells:compressed_calculation_print:0>, <mysticalagradditions:stuff:0>, <cells:compressed_calculation_print:0>],
+[<cells:compressed_calculation_print:0>, <cells:compressed_calculation_print:0>, <cells:compressed_calculation_print:0>]]);
+
+recipes.removeShaped(<cells:compressed_calculation_print:2>);
+recipes.addShaped(<cells:compressed_calculation_print:2>,
+[[<cells:compressed_calculation_print:1>, <cells:compressed_calculation_print:1>, <cells:compressed_calculation_print:1>],
+[<cells:compressed_calculation_print:1>, <mysticalagradditions:stuff:0>, <cells:compressed_calculation_print:1>],
+[<cells:compressed_calculation_print:1>, <cells:compressed_calculation_print:1>, <cells:compressed_calculation_print:1>]]);
+
+recipes.removeShaped(<cells:compressed_calculation_print:3>);
+recipes.addShaped(<cells:compressed_calculation_print:3>,
+[[<cells:compressed_calculation_print:2>, <cells:compressed_calculation_print:2>, <cells:compressed_calculation_print:2>],
+[<cells:compressed_calculation_print:2>, <storagedrawers:upgrade_creative:0>, <cells:compressed_calculation_print:2>],
+[<cells:compressed_calculation_print:2>, <cells:compressed_calculation_print:2>, <cells:compressed_calculation_print:2>]]);
+
+
+
+recipes.removeShaped(<cells:compressed_engineering_print:0>);
+recipes.addShaped(<cells:compressed_engineering_print:0>,
+[[<appliedenergistics2:material:17>, <appliedenergistics2:material:17>, <appliedenergistics2:material:17>],
+[<appliedenergistics2:material:17>, <mysticalagradditions:stuff:0>, <appliedenergistics2:material:17>],
+[<appliedenergistics2:material:17>, <appliedenergistics2:material:17>, <appliedenergistics2:material:17>]]);
+
+recipes.removeShaped(<cells:compressed_engineering_print:1>);
+recipes.addShaped(<cells:compressed_engineering_print:1>,
+[[<cells:compressed_engineering_print:0>, <cells:compressed_engineering_print:0>, <cells:compressed_engineering_print:0>],
+[<cells:compressed_engineering_print:0>, <mysticalagradditions:stuff:0>, <cells:compressed_engineering_print:0>],
+[<cells:compressed_engineering_print:0>, <cells:compressed_engineering_print:0>, <cells:compressed_engineering_print:0>]]);
+
+recipes.removeShaped(<cells:compressed_engineering_print:2>);
+recipes.addShaped(<cells:compressed_engineering_print:2>,
+[[<cells:compressed_engineering_print:1>, <cells:compressed_engineering_print:1>, <cells:compressed_engineering_print:1>],
+[<cells:compressed_engineering_print:1>, <mysticalagradditions:stuff:0>, <cells:compressed_engineering_print:1>],
+[<cells:compressed_engineering_print:1>, <cells:compressed_engineering_print:1>, <cells:compressed_engineering_print:1>]]);
+
+recipes.removeShaped(<cells:compressed_engineering_print:3>);
+recipes.addShaped(<cells:compressed_engineering_print:3>,
+[[<cells:compressed_engineering_print:2>, <cells:compressed_engineering_print:2>, <cells:compressed_engineering_print:2>],
+[<cells:compressed_engineering_print:2>, <storagedrawers:upgrade_creative:0>, <cells:compressed_engineering_print:2>],
+[<cells:compressed_engineering_print:2>, <cells:compressed_engineering_print:2>, <cells:compressed_engineering_print:2>]]);
+
+
+
+recipes.removeShaped(<cells:compressed_logic_print:0>);
+recipes.addShaped(<cells:compressed_logic_print:0>,
+[[<appliedenergistics2:material:18>, <appliedenergistics2:material:18>, <appliedenergistics2:material:18>],
+[<appliedenergistics2:material:18>, <mysticalagradditions:stuff:0>, <appliedenergistics2:material:18>],
+[<appliedenergistics2:material:18>, <appliedenergistics2:material:18>, <appliedenergistics2:material:18>]]);
+
+recipes.removeShaped(<cells:compressed_logic_print:1>);
+recipes.addShaped(<cells:compressed_logic_print:1>,
+[[<cells:compressed_logic_print:0>, <cells:compressed_logic_print:0>, <cells:compressed_logic_print:0>],
+[<cells:compressed_logic_print:0>, <mysticalagradditions:stuff:0>, <cells:compressed_logic_print:0>],
+[<cells:compressed_logic_print:0>, <cells:compressed_logic_print:0>, <cells:compressed_logic_print:0>]]);
+
+recipes.removeShaped(<cells:compressed_logic_print:2>);
+recipes.addShaped(<cells:compressed_logic_print:2>,
+[[<cells:compressed_logic_print:1>, <cells:compressed_logic_print:1>, <cells:compressed_logic_print:1>],
+[<cells:compressed_logic_print:1>, <mysticalagradditions:stuff:0>, <cells:compressed_logic_print:1>],
+[<cells:compressed_logic_print:1>, <cells:compressed_logic_print:1>, <cells:compressed_logic_print:1>]]);
+
+recipes.removeShaped(<cells:compressed_logic_print:3>);
+recipes.addShaped(<cells:compressed_logic_print:3>,
+[[<cells:compressed_logic_print:2>, <cells:compressed_logic_print:2>, <cells:compressed_logic_print:2>],
+[<cells:compressed_logic_print:2>, <storagedrawers:upgrade_creative:0>, <cells:compressed_logic_print:2>],
+[<cells:compressed_logic_print:2>, <cells:compressed_logic_print:2>, <cells:compressed_logic_print:2>]]);
+
+
+recipes.removeShaped(<cells:compressed_silicon_print:0>);
+recipes.addShaped(<cells:compressed_silicon_print:0>,
+[[<appliedenergistics2:material:20>, <appliedenergistics2:material:20>, <appliedenergistics2:material:20>],
+[<appliedenergistics2:material:20>, <minecraft:redstone>, <appliedenergistics2:material:20>],
+[<appliedenergistics2:material:20>, <appliedenergistics2:material:20>, <appliedenergistics2:material:20>]]);
+
+recipes.removeShaped(<cells:compressed_silicon_print:1>);
+recipes.addShaped(<cells:compressed_silicon_print:1>,
+[[<cells:compressed_silicon_print:0>, <cells:compressed_silicon_print:0>, <cells:compressed_silicon_print:0>],
+[<cells:compressed_silicon_print:0>, <minecraft:redstone>, <cells:compressed_silicon_print:0>],
+[<cells:compressed_silicon_print:0>, <cells:compressed_silicon_print:0>, <cells:compressed_silicon_print:0>]]);
+
+recipes.removeShaped(<cells:compressed_silicon_print:2>);
+recipes.addShaped(<cells:compressed_silicon_print:2>,
+[[<cells:compressed_silicon_print:1>, <cells:compressed_silicon_print:1>, <cells:compressed_silicon_print:1>],
+[<cells:compressed_silicon_print:1>, <minecraft:redstone>, <cells:compressed_silicon_print:1>],
+[<cells:compressed_silicon_print:1>, <cells:compressed_silicon_print:1>, <cells:compressed_silicon_print:1>]]);
+
+recipes.removeShaped(<cells:compressed_silicon_print:3>);
+recipes.addShaped(<cells:compressed_silicon_print:3>,
+[[<cells:compressed_silicon_print:2>, <cells:compressed_silicon_print:2>, <cells:compressed_silicon_print:2>],
+[<cells:compressed_silicon_print:2>, <minecraft:redstone>, <cells:compressed_silicon_print:2>],
+[<cells:compressed_silicon_print:2>, <cells:compressed_silicon_print:2>, <cells:compressed_silicon_print:2>]]);
+
+
+
+recipes.removeShaped(<ae2powertools:auto_crafter>);
+recipes.addShaped(<ae2powertools:auto_crafter>*16,
+[[<appliedenergistics2:molecular_assembler>, <nae2:storage_crafting_16384k>, <appliedenergistics2:molecular_assembler>],
+[<nae2:coprocessor_64x>, <ae2powertools:better_level_maintainer>, <nae2:coprocessor_64x>],
+[<appliedenergistics2:material:12>, <cells:singularity_processor:0>, <appliedenergistics2:material:12>]]);
+
+recipes.addShaped(<contenttweaker:multithreading_controller_upgrade>*4,
+[[<appliedenergistics2:molecular_assembler>, <ore:ingotPromethium>, <appliedenergistics2:molecular_assembler>],
+[<ore:ingotPromethium>, <appliedenergistics2:material:30>, <ore:ingotPromethium>],
+[<appliedenergistics2:molecular_assembler>, <ore:ingotPromethium>, <appliedenergistics2:molecular_assembler>]]);
+
+recipes.removeShaped(<ae2powertools:crafter_speed_upgrade:0>);
+recipes.addShaped(<ae2powertools:crafter_speed_upgrade:0>,
+[[<appliedenergistics2:molecular_assembler>, <appliedenergistics2:crafting_storage_64k>, <appliedenergistics2:molecular_assembler>],
+[<appliedenergistics2:crafting_accelerator>, <contenttweaker:multithreading_controller_upgrade>, <appliedenergistics2:crafting_accelerator>],
+[<appliedenergistics2:molecular_assembler>, <appliedenergistics2:crafting_storage_64k>, <appliedenergistics2:molecular_assembler>]]);
+
+recipes.removeShaped(<ae2powertools:crafter_speed_upgrade:1>);
+recipes.addShaped(<ae2powertools:crafter_speed_upgrade:1>,
+[[<contenttweaker:promethium_shard>, <ae2powertools:crafter_speed_upgrade:0>, <contenttweaker:promethium_shard>],
+[<ae2powertools:crafter_speed_upgrade:0>, <contenttweaker:multithreading_controller_upgrade>, <ae2powertools:crafter_speed_upgrade:0>],
+[<contenttweaker:promethium_shard>, <ae2powertools:crafter_speed_upgrade:0>, <contenttweaker:promethium_shard>]]);
+
+recipes.removeShaped(<ae2powertools:crafter_speed_upgrade:2>);
+
+recipes.removeShaped(<ae2powertools:crafter_speed_upgrade:3>);
+
+
+recipes.addShaped(<contenttweaker:monouse_universal_press>,
+[[<mysticalagriculture:certus_quartz_essence>, <appliedenergistics2:material:15>, <mysticalagriculture:certus_quartz_essence>],
+[<appliedenergistics2:material:19>, <extrabees:honey_comb:81>, <appliedenergistics2:material:14>],
+[<mysticalagriculture:certus_quartz_essence>, <appliedenergistics2:material:13>, <mysticalagriculture:certus_quartz_essence>]]);
+
+
+recipes.addShapeless(<ae2stuff:wireless_hub:1>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeWhite>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:2>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeOrange>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:3>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeMagenta>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:4>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeLightBlue>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:5>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeYellow>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:6>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeLime>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:7>,
+[<ae2stuff:wireless_hub:*>, <ore:dyePink>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:8>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeGray>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:9>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeLightGray>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:10>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeCyan>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:11>,
+[<ae2stuff:wireless_hub:*>, <ore:dyePurple>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:12>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeBlue>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:13>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeBrown>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:14>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeGreen>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:15>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeRed>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:16>,
+[<ae2stuff:wireless_hub:*>, <ore:dyeBlack>]);
+recipes.addShapeless(<ae2stuff:wireless_hub:0>,
+[<ae2stuff:wireless_hub:*>, <minecraft:water_bucket>]);
+
+
+
+
+
+
+
+
 
 
 

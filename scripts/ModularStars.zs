@@ -298,3 +298,13 @@ collapsermythicrareearths.addItemInput(<extendedcrafting:singularity_custom:2044
 collapsermythicrareearths.addItemInput(<contenttweaker:everlasting_fusor>);
 collapsermythicrareearths.addItemOutput(<contenttweaker:mythic_rare_earths_relativistic_condensate>);
 collapsermythicrareearths.build();
+
+val collapserraremetals = RecipeBuilder.newBuilder("collapserraremetals","relativistic_collapser",1000);
+collapserraremetals.addEnergyPerTickInput(70000000);
+collapserraremetals.addItemInput(<extendedcrafting:singularity:31>*16);
+collapserraremetals.addItemInput(<extendedcrafting:singularity:35>*16);
+collapserraremetals.addItemInput(<extendedcrafting:singularity:34>*16);
+collapserraremetals.addItemInput(<extendedcrafting:singularity:30>*16);
+collapserraremetals.addItemInput(<contenttweaker:everlasting_fusor>);
+collapserraremetals.addItemOutput(<contenttweaker:rare_metals_relativistic_condensate>);
+collapserraremetals.build();

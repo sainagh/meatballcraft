@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "Truth; spoken, shared in secret, screamed out loud.\nTruth; origin of oppression, conflict, and war.\nTruth that can kill, but must nevertheless be spoken.\nThe immediate desire to share a newly acquired truth is one of the paramount aspects of the conscious experience. A truth that may be invonvenient, or hard to reconcile. A truth that could start a war.\nAnd yet, a truth that must be shared, if only because it is a truth.\nAnd being able to speak that truth, and to accept its consequences, that too is worthiness.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:cactium_sliver"
       },
-      "name:8": "The Master of Camouflage"
+      "name:8": "The Voice of Truth"
     }
   },
   "questID:3": 2277,

@@ -11,13 +11,13 @@
             "description": "16X parallelization",
             "modifiers": [{
                 "io": "output",
-                "target": "modularmachinery:item",
+                "target": "modularmachinery:fluid",
                 "operation": 1,
                 "multiplier": 16
             },
             {
                 "io": "input",
-                "target": "modularmachinery:item",
+                "target": "modularmachinery:fluid",
                 "operation": 1,
                 "multiplier": 16
             }]
@@ -733,7 +733,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "modularmachinery:blockenergyinputhatch@3"
+                "modularmachinery:blockenergyinputhatch"
             ]
         },
         {
@@ -789,7 +789,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "nuclearcraft:chemical_reactor_idle@5"
+                "nuclearcraft:chemical_reactor_idle"
             ]
         },
         {

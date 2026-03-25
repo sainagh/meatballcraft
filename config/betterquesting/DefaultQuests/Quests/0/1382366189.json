@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "As I acquire more knowledge of the True Tongue, many of the things I witnessed gain more context.\nSome is good, and some is quite bad.\nWhen I said that the True Tongue belongs to the Arbiter, that is not quite right. No, this power was not his alone, it belonged to the Dragons as well. Creatures capable of witnessing chaos, and extrapolating order from it.\nThat is the origin of the relationship between the Dragons and the Testificates. A common understanding, born of the True Tongue, and broken as knowledge in this language, this magic, faded with time.\nAn ability that generated no small amounts of envy in many other creatures, including very powerful ones, who attempted to claim this power for themselves.\nI do not know wether this event was the cause of the fall into bestiality experineced by many of the Dragons on Terra, or if it is is a consequence of this fall, but I now know that one of the Elder Ones acting here was capable of turning a Dragon, willingly or not, into an agent of Chaos.\nThe True Tongue, twisted into an instrument of destruction. \nThe heart of this beast, long after its demise, still retaining its fell power.\nAnd yet, within this corruption, a light of hope. A feeling, not unlike the feelings of \u0027rightness\u0027 that pushed my actions in certain ways until now, that I can now trace to the True Tongue. I was not aware of it, but I felt the rightness of things, I partially understood some aspects of their True Names, and doing so, I walked in the path that led me here.\nA path that now brings to another powerful Dragon heart, a pure Eldunari, retaining the soul of a Master of the True Tongue; someone who can instruct me, who can lead me into the magic I was made for.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:master_of_the_true_tongue_callstone"
@@ -31,6 +31,16 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:puzzle_solution_truepowerabomination"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

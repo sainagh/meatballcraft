@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    1045015237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:elemental_pick",
+        "tag:10": {
+          "infench:9": {
+            "0:10": {
+              "id:2": 4,
+              "lvl:2": 1
+            },
+            "1:10": {
+              "id:2": 3,
+              "lvl:2": 2
+            }
+          }
+        }
+      },
+      "name:8": "Levelling Upgrade: Pickaxe of the Core"
+    }
+  },
+  "questID:3": 1251720866,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:elemental_pick",
+          "tag:10": {
+            "infench:9": {
+              "0:10": {
+                "id:2": 4,
+                "lvl:2": 1
+              },
+              "1:10": {
+                "id:2": 3,
+                "lvl:2": 2
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

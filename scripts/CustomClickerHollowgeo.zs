@@ -33,8 +33,13 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
     val target as IEntityLivingBase = event.target;
     if ((target.definition.id != "erebus:erebus.stag_beetle") || !target.isAlive()) {
       return;
-    }  
+    }
+    if(isNull(target.mainHandHeldItem)){
+			event.player.sendChat("The mob is the correct one, you may need a special, pale, version ;)");
+      return;
+    }
     if (!(target.mainHandHeldItem.matches(<contenttweaker:geo_fragment>))) {
+			event.player.sendChat("The mob is the correct one, you may need a special, pale, version ;)");
       return;
     } 
 

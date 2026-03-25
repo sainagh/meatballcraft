@@ -24,6 +24,11 @@ recipes.addShaped(<contenttweaker:abyssal_flesh>*12,
 [<minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"}), <contenttweaker:abyssal_flesh>, <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"})],
 [<bewitchment:bottle_of_blood>, <contenttweaker:living_flesh>, <bewitchment:bottle_of_blood>]]);
 
+recipes.addShaped(<contenttweaker:abyssal_flesh>*20,
+[[<bewitchment:bottle_of_blood>, <contenttweaker:oath_of_the_lord_of_gluttony>, <bewitchment:bottle_of_blood>],
+[<minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"}), <contenttweaker:abyssal_flesh>, <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"})],
+[<bewitchment:bottle_of_blood>, <contenttweaker:living_flesh>, <bewitchment:bottle_of_blood>]]);
+
 
 recipes.addShaped(<contenttweaker:flying_gunpowder>*2,
 [[<aoa3:enchanted_gunpowder>, <aoa3:unstable_gunpowder>, <aoa3:enchanted_gunpowder>],
@@ -54,7 +59,7 @@ recipes.addShaped(<contenttweaker:phasing_gem>*4,
 
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:first_order_mythic_fractal>, 
-1000, 1000, 
+1000000, 1000000, 
 <contenttweaker:plate_clump_mythic>, 
 [<contenttweaker:jeweled_runium>, <ore:ingotVibranium>,
 <contenttweaker:living_myrmitite_ingot>, <contenttweaker:abyssal_flesh>,
@@ -204,7 +209,7 @@ recipes.addShaped(<contenttweaker:runic_rhenium_catalyst>*4,
 
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:second_order_mythic_fractal>, 
-1000, 1000, 
+1000000, 1000000, 
 <contenttweaker:plate_clump_mythic>, 
 [<contenttweaker:rainbow_lens>, <contenttweaker:arc_coil>,
 <contenttweaker:lyonite_plate>, <contenttweaker:vibranium_servo>,
@@ -356,7 +361,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:eldritch_wil
 <materialpart:steadfast_steel:ingot>]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:third_order_mythic_fractal>, 
-1000, 1000, 
+1000000, 1000000, 
 <contenttweaker:plate_clump_mythic>, 
 [<contenttweaker:eldritch_will_ingot>, <avaritia:block_resource:0>,
 <contenttweaker:runandium_ingot>, <contenttweaker:fragment_of_creation>,
@@ -421,7 +426,7 @@ divcombpearlescentart3.build();
 
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:fourth_order_mythic_fractal>, 
-1000, 1000, 
+1000000, 1000000, 
 <contenttweaker:plate_clump_mythic>, 
 [<contenttweaker:will_ensnaring_fabrial>, <contenttweaker:clunky_chunky_brick>,
 <contenttweaker:dream_cluster>, <contenttweaker:big_slime>,
@@ -648,7 +653,7 @@ recipes.addShaped(<contenttweaker:soulsucking_callstone>,
 // chaos poppet
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:fifth_order_mythic_fractal>, 
-1000, 1000, 
+1000000, 1000000, 
 <contenttweaker:plate_clump_mythic>, 
 [<contenttweaker:chaotic_poppet>,
 <contenttweaker:master_wizardry_catalyst>,

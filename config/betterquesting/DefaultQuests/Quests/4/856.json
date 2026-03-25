@@ -4,31 +4,47 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe use of this bus is discouraged!\n\nThe level mantainer will keep a set amount of certain items and fluids in storage, acts as multiple crafting cards in one. ",
+      "desc:8": "§7§oNOTE: The use of this bus is discouraged in your main network, but it is quite useful if used on smaller sub-networks!\n\nFollow the info in \u0027Passive Autocrafting Subnets\u0027 guide for more info.\n\nThe level mantainer will keep a set amount of certain items and fluids in storage, acts as multiple crafting cards in one. ",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 4,
-        "id:8": "threng:machine"
+        "id:8": "ae2powertools:better_level_maintainer"
       },
       "name:8": "ME Level Mantainer"
     }
   },
   "questID:3": 856,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2powertools:better_level_maintainer"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 4,
-          "id:8": "threng:machine"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "id:8": "ae2fc:fluid_level_maintainer"
+          "id:8": "ae2powertools:better_level_maintainer"
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:passive_crafting_subnets"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

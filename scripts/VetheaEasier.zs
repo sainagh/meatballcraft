@@ -842,13 +842,6 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:secret_lurker_call
 <contenttweaker:paradigm_of_dominion>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:recursion_of_war>]]);  
 
 
-recipes.addShaped(<supersoundmuffler:sound_muffler_bauble>,
-[[null, <divinerpg:dream_stone>, null],
-[<divinerpg:dream_stone>, <divinerpg:dirty_pearls>, <divinerpg:dream_stone>],
-[null, <divinerpg:dream_stone>, null]]);
-
-recipes.addShapeless(<supersoundmuffler:sound_muffler>,
-[<supersoundmuffler:sound_muffler_bauble>]);
 
 
 

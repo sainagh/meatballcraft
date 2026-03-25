@@ -50,3 +50,5 @@ mythfurn7.addItemInput(<ore:logWood>);
 mythfurn7.addItemOutput(<minecraft:coal:1>);
 mythfurn7.build();
 
+
+

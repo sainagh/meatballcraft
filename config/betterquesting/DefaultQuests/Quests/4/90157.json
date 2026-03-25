@@ -4,16 +4,28 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oCells in a Drive or ME Chest determine the storage capacity of you ME Network.\n\nCells can be partitioned at the Cell Terminal (recommended) or at the Cell Workbench. Partitioned cells are only allowed to store the items set as partition.\n\nThe number at the start of the Cell name indicates how many bytes it can store. Unless otherwise specified, a byte roughly corresponds to one item, millibucket, or essentia amount.\n\nItem Cells store items, with a maximum of 63 different item types for each cell.\n\nFluid Cells store fluids, with a maximum of 5 fluid types for each cell.\n\nEssentia Cells store Thaumcraft essentia, with a maximum of 12 essentia types for each cell.\n\nCompacting Cells store items, and allow compression and decompression as if the items were stored in a Compacting Drawer. They can be upgraded for additional compression and decompression tiers using Compression and Decompression Cards.\n\nHyper-Density Cells store extremely large amount of items and fluids.",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "appliedenergistics2:storage_cell_1k",
+        "id:8": "cells:compacting_cell",
         "tag:10": {}
       },
       "name:8": "1k ME Storage Cell"
     }
   },
   "questID:3": 90157,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cells:compacting_component"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "ignoreNBT:1": 1,
@@ -38,12 +50,23 @@
         },
         "3:10": {
           "Count:3": 1,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "crazyae:energy_cell_1k",
-            "orig_meta:3": 0,
-            "orig_tag:10": {}
-          }
+          "id:8": "cells:compacting_cell",
+          "tag:10": {}
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "cells:hyper_density_cell",
+          "tag:10": {}
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "cells:hyper_density_compacting_cell",
+          "tag:10": {}
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "cells:hyper_density_fluid_cell",
+          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:retrieval"

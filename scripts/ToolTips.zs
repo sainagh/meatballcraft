@@ -38,7 +38,7 @@
 
 <contenttweaker:paparazzi_camera>.addTooltip(format.red("Right click to unlock powerful extra botany artifacts"));
 
-<extrabotany:buddhistrelics>.addTooltip(format.red("Use the paparazzi camera to unlock this"));
+<extrabotany:buddhistrelics>.addTooltip(format.red("Use the Astral Mastery Tome to unlock this"));
 <extrabotany:camera>.addTooltip(format.red("Use the paparazzi camera to unlock this"));
 
 <contenttweaker:pixonia_infusion_key>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
@@ -686,7 +686,7 @@
 <contenttweaker:ordo_vis_condensate>.addTooltip(format.red("Thanks to NerdySpider for drawing all condensate textures!"));
 <contenttweaker:perditio_vis_condensate>.addTooltip(format.red("Thanks to NerdySpider for drawing all condensate textures!"));
 
-<contenttweaker:cotton_candy_withering_spray>.addTooltip(format.red("Right click on Cotton Candor to deal 600 damage to it - 5 are needed"));
+<contenttweaker:cotton_candy_withering_spray>.addTooltip(format.red("Right click on Cotton Candor to deal 1000 damage to it - 3 are needed"));
 
 <contenttweaker:starlight_sphere>.addTooltip(format.red("For masters of spellcraft!"));
 <contenttweaker:lively_twilight_gem>.addTooltip(format.red("For masters of spellcraft!"));
@@ -1828,7 +1828,7 @@
 
 <tinker_io:smart_output>.addTooltip(format.red("Now faster thanks to Lashmak"));
 
-<thaumictinkerer:ichorium_pick_adv>.addTooltip(format.red("Left click bedrock at the bottom of the overworld to enter the bedrock dimension"));
+//<thaumictinkerer:ichorium_pick_adv>.addTooltip(format.red("Left click bedrock at the bottom of the overworld to enter the bedrock dimension"));
 
 <mowziesmobs:naga_fang>.addTooltip(format.red("Dropped by Wyverns in Lyndenwym"));
 <mowziesmobs:naga_fang>.addTooltip(format.red("Rare natural spawns, and found around a certain structure ;)"));
@@ -1846,7 +1846,6 @@
 
 <divinerpg:serenade_striker>.addTooltip(format.green("Reusable for Grinding Balls"));
 
-<contenttweaker:multithreading_controller_upgrade>.addTooltip(format.red("The Integration Controller can replace normal Controllers in some machines to give them the ability to process up to 10 recipes at the same time"));
 
 <contenttweaker:mark_of_the_samurai>.addTooltip(format.red("ChaotikKiller did an oopsie"));
 
@@ -2184,7 +2183,7 @@
 <contenttweaker:freed_sky_stone>.addTooltip(format.red("Mechanical User friendly :)"));
 
 
-<bewitchment:bottled_hellfire>.addTooltip(format.red("WARNING: if the output of the Distillery has only one free slot, crafting this will cause a crash"));
+//<bewitchment:bottled_hellfire>.addTooltip(format.red("WARNING: if the output of the Distillery has only one free slot, crafting this will cause a crash"));
 
 <contenttweaker:sword_shield>.addTooltip(format.red("To automate the duplication recipe, use the Sequential Fabricator"));
 
@@ -2193,13 +2192,9 @@
 <contenttweaker:diary_of_a_realmshifter>.addTooltip(format.red("To avoid this, wait 30 seconds in between every time you change dimensions"));
 
 
-<threng:machine:4>.addTooltip(format.red("NOTE: this can still get laggy if present in your main AE2 network"));
-<threng:machine:4>.addTooltip(format.red("It still can be useful for some setups in subnets"));
-<threng:machine:4>.addTooltip(format.red("Thanks to kurrycat for improving its performance"));
+<threng:machine:4>.addTooltip(format.red("NOTE: this block is deprecated, use the Better Level Maintainer instead"));
+<ae2fc:fluid_level_maintainer>.addTooltip(format.red("NOTE: this block is deprecated, use the Better Level Maintainer instead"));
 
-<ae2fc:fluid_level_maintainer>.addTooltip(format.red("NOTE: this can still get laggy if present in your main AE2 network"));
-<ae2fc:fluid_level_maintainer>.addTooltip(format.red("It still can be useful for some setups in subnets"));
-<ae2fc:fluid_level_maintainer>.addTooltip(format.red("Thanks to kurrycat for improving its performance"));
 
 <contenttweaker:warren_creation_fabrial>.addTooltip(format.red("Warper"));
 <contenttweaker:warren_creation_fabrial>.addTooltip(format.red("Stand in the middle of the structure shown in JEI to activate it"));
@@ -2491,11 +2486,6 @@
 <contenttweaker:sacred_cinders_apiary>.addTooltip(format.red("Place your desired floating flower manually"));
 
 
-<supersoundmuffler:sound_muffler>.addTooltip(format.red("NOTE: this can get laggy, and will likely be removed from the pack"));
-<supersoundmuffler:sound_muffler>.addTooltip(format.red("You can use the 'Muffler' button in your inventory to mute sounds you don't like"));
-
-<supersoundmuffler:sound_muffler_bauble>.addTooltip(format.red("NOTE: this can get laggy, and will likely be removed from the pack"));
-<supersoundmuffler:sound_muffler_bauble>.addTooltip(format.red("You can use the 'Muffler' button in your inventory to mute sounds you don't like"));
 
 <appliedenergistics2:part:261>.addTooltip(format.red("Thanks to Alecsio for his help on ME fluid handling!"));
 
@@ -2684,9 +2674,6 @@
 
 
 
-<malisisdoors:door_factory>.addTooltip(format.red("WARNING: the doors from Malisis are very laggy, and may get removed from the pack in a future update"));
-<malisisdoors:garage_door>.addTooltip(format.red("WARNING: the doors from Malisis are very laggy, and may get removed from the pack in a future update"));
-
 <contenttweaker:charged_signalum>.addTooltip(format.red("The Flux Linkage Concentrator is your friend"));
 
 <rf-capability-adapter:aecapabilityadapter>.addTooltip(format.red("WARNING: DO NOT place next to any block that is not a compact machine"));
@@ -2785,7 +2772,6 @@
 <aether_legacy:valkyrie_leggings>.addTooltip(format.green("Reusable"));
 <aether_legacy:valkyrie_boots>.addTooltip(format.green("Reusable"));
 
-<contenttweaker:blade_of_the_samurai_queen>.addTooltip(format.green("Reusable"));
 
 <modularmachineryaddons:blockmeteorprovideroutput>.addTooltip(format.red("NOTE: to avoid damage from the meteors, place a block (anything you like) 10 to 15 blocks above the hatch"));
 <modularmachineryaddons:blockmeteorprovideroutput>.addTooltip(format.red("For automation, make sure that the automated mining system will not break that specific block, and that it does not show up in any meteors"));
@@ -2927,8 +2913,6 @@
 <contenttweaker:high_capacity_heat_exchanger>.addTooltip(format.red("Use this if you have big (BIG) salt reactors"));
 
 <advancedrocketry:oxygencharger>.addTooltip(format.red("WARNING: items inside the Gas Charge Pad may get deleted if it is broken"));
-
-<contenttweaker:arcane_terraformer_noob>.addTooltip(format.red("Right click this if you are struggling with the Rhenia biome puzzle"));
 
 <botania:manaresource:9>.addTooltip(format.red("NOTE: there are better recipes that make full blocks later on"));
 <botania:manaresource:7>.addTooltip(format.red("NOTE: there are better recipes that make full blocks later on"));

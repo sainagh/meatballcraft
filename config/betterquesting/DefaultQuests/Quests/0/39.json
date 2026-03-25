@@ -21,6 +21,10 @@
         "0:10": {
           "Count:3": 12,
           "id:8": "aoa3:raw_charger_shank"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "randomthings:universaldiviningrod"
         }
       }
     }

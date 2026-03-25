@@ -1,0 +1,63 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    995,
+    944
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:gold_bringer",
+        "tag:10": {
+          "HideFlags:1": 2,
+          "display:10": {
+            "Lore:9": {
+              "0:8": "§d§oSuper-Enchanted§r"
+            },
+            "Name:8": "§6§oDisruptor§r"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:3": 64,
+              "lvl:3": 20
+            }
+          }
+        }
+      },
+      "name:8": "Disruptor"
+    }
+  },
+  "questID:3": 1911121783,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:gold_bringer",
+          "tag:10": {
+            "HideFlags:1": 2,
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§oSuper-Enchanted§r"
+              },
+              "Name:8": "§6§oDisruptor§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 64,
+                "lvl:3": 20
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

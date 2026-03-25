@@ -13,6 +13,18 @@
     }
   },
   "questID:3": 90143,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "appliedenergistics2:drive"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
@@ -20,14 +32,6 @@
         "0:10": {
           "Count:3": 1,
           "id:8": "appliedenergistics2:drive"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "crazyae:improved_drive",
-            "orig_meta:3": 0
-          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

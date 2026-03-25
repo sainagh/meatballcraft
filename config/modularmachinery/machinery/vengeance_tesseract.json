@@ -4,14 +4,6 @@
 	"color": "cbcca5",
     "parts": [
         {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcontroller@2"
-            ]
-        },
-        {
             "x": 3,
             "y": 14,
             "z": 6,
@@ -33,14 +25,6 @@
             "z": -5,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
             ]
         },
         {
@@ -92,17 +76,17 @@
             ]
         },
         {
-            "x": -4,
-            "y": 19,
-            "z": 4,
+            "x": -2,
+            "y": 7,
+            "z": -5,
             "elements": [
                 "botania:elfglass@0"
             ]
         },
         {
-            "x": -2,
-            "y": 7,
-            "z": -5,
+            "x": -4,
+            "y": 19,
+            "z": 4,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -172,17 +156,17 @@
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": 0,
+            "x": -4,
+            "y": 19,
+            "z": -3,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
             ]
         },
         {
-            "x": -4,
-            "y": 19,
-            "z": -3,
+            "x": 1,
+            "y": 0,
+            "z": 0,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
             ]
@@ -241,14 +225,6 @@
             "z": 5,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
             ]
         },
         {
@@ -332,14 +308,6 @@
             ]
         },
         {
-            "x": 2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
-            ]
-        },
-        {
             "x": -4,
             "y": 8,
             "z": 5,
@@ -391,6 +359,38 @@
             "x": 0,
             "y": 17,
             "z": 8,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 12,
+            "z": -4,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 7,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": -3,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 10,
+            "z": 3,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -404,67 +404,11 @@
             ]
         },
         {
-            "x": 3,
-            "y": 12,
-            "z": -4,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 12,
-            "z": 7,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 7,
-            "y": 11,
-            "z": 2,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 13,
-            "z": -3,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 6,
-            "y": 10,
-            "z": 3,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 6,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@1"
-            ]
-        },
-        {
             "x": 6,
             "y": 0,
             "z": -1,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 12,
-            "z": 6,
-            "elements": [
-                "botania:elfglass@0"
             ]
         },
         {
@@ -508,9 +452,9 @@
             ]
         },
         {
-            "x": 1,
-            "y": 15,
-            "z": 2,
+            "x": 3,
+            "y": 12,
+            "z": 6,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -540,11 +484,11 @@
             ]
         },
         {
-            "x": -3,
-            "y": 19,
-            "z": 6,
+            "x": 1,
+            "y": 15,
+            "z": 2,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -556,11 +500,11 @@
             ]
         },
         {
-            "x": -7,
-            "y": -1,
-            "z": 1,
+            "x": -3,
+            "y": 19,
+            "z": 6,
             "elements": [
-                "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
+                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
             ]
         },
         {
@@ -574,9 +518,9 @@
         {
             "x": -7,
             "y": -1,
-            "z": -1,
+            "z": 1,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
+                "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
             ]
         },
         {
@@ -596,11 +540,11 @@
             ]
         },
         {
-            "x": 0,
-            "y": 0,
-            "z": 5,
+            "x": -7,
+            "y": -1,
+            "z": -1,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@3"
+                "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
             ]
         },
         {
@@ -609,6 +553,14 @@
             "z": -5,
             "elements": [
                 "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "botania:elfglass@0"
             ]
         },
         {
@@ -628,14 +580,6 @@
             ]
         },
         {
-            "x": 3,
-            "y": 13,
-            "z": 6,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 5,
             "z": -3,
@@ -645,10 +589,10 @@
         },
         {
             "x": 3,
-            "y": 0,
-            "z": 3,
+            "y": 13,
+            "z": 6,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -788,14 +732,6 @@
             ]
         },
         {
-            "x": 4,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
-            ]
-        },
-        {
             "x": 3,
             "y": 7,
             "z": 6,
@@ -868,14 +804,6 @@
             ]
         },
         {
-            "x": 7,
-            "y": 12,
-            "z": 2,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": -3,
             "y": 0,
             "z": -4,
@@ -892,19 +820,19 @@
             ]
         },
         {
-            "x": -3,
-            "y": 10,
-            "z": 6,
+            "x": 7,
+            "y": 12,
+            "z": 2,
             "elements": [
                 "botania:elfglass@0"
             ]
         },
         {
-            "x": 0,
-            "y": 0,
-            "z": -4,
+            "x": -3,
+            "y": 10,
+            "z": 6,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@2"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -1004,14 +932,6 @@
             ]
         },
         {
-            "x": 5,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@3"
-            ]
-        },
-        {
             "x": 3,
             "y": 9,
             "z": 6,
@@ -1049,14 +969,6 @@
             "z": -5,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
             ]
         },
         {
@@ -1172,14 +1084,6 @@
             ]
         },
         {
-            "x": -2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
-            ]
-        },
-        {
             "x": 0,
             "y": 11,
             "z": 6,
@@ -1244,14 +1148,6 @@
             ]
         },
         {
-            "x": 6,
-            "y": 11,
-            "z": -1,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": -3,
             "y": 14,
             "z": 6,
@@ -1268,11 +1164,11 @@
             ]
         },
         {
-            "x": -1,
-            "y": 0,
-            "z": 5,
+            "x": 6,
+            "y": 11,
+            "z": -1,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -1369,14 +1265,6 @@
             "z": 4,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@3"
             ]
         },
         {
@@ -1404,19 +1292,19 @@
             ]
         },
         {
-            "x": 2,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
-            ]
-        },
-        {
             "x": 1,
             "y": 14,
             "z": -6,
             "elements": [
                 "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
             ]
         },
         {
@@ -1433,14 +1321,6 @@
             "z": 6,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -6,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@1"
             ]
         },
         {
@@ -1513,14 +1393,6 @@
             "z": 1,
             "elements": [
                 "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
             ]
         },
         {
@@ -1644,14 +1516,6 @@
             ]
         },
         {
-            "x": 6,
-            "y": 13,
-            "z": -1,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": -3,
             "y": 10,
             "z": -4,
@@ -1669,8 +1533,8 @@
         },
         {
             "x": 6,
-            "y": 12,
-            "z": 1,
+            "y": 13,
+            "z": -1,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -1684,11 +1548,11 @@
             ]
         },
         {
-            "x": 4,
-            "y": 0,
-            "z": 3,
+            "x": 6,
+            "y": 12,
+            "z": 1,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -1825,14 +1689,6 @@
             "z": 1,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
             ]
         },
         {
@@ -1924,27 +1780,11 @@
             ]
         },
         {
-            "x": 3,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
-            ]
-        },
-        {
             "x": 4,
             "y": 19,
             "z": 1,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
             ]
         },
         {
@@ -2076,14 +1916,6 @@
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@3"
-            ]
-        },
-        {
             "x": 7,
             "y": 12,
             "z": 1,
@@ -2104,7 +1936,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@0"
+                "contenttweaker:vengeful_steel_molten"
             ]
         },
         {
@@ -2124,27 +1956,11 @@
             ]
         },
         {
-            "x": -5,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
-            ]
-        },
-        {
             "x": 4,
             "y": -1,
             "z": -3,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
             ]
         },
         {
@@ -2209,14 +2025,6 @@
             "z": -3,
             "elements": [
                 "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
             ]
         },
         {
@@ -2337,14 +2145,6 @@
             "z": -4,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
             ]
         },
         {
@@ -2468,14 +2268,6 @@
             ]
         },
         {
-            "x": -1,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@3"
-            ]
-        },
-        {
             "x": 6,
             "y": 9,
             "z": 1,
@@ -2513,14 +2305,6 @@
             "z": -3,
             "elements": [
                 "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@7"
             ]
         },
         {
@@ -2596,19 +2380,19 @@
             ]
         },
         {
-            "x": 1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
-            ]
-        },
-        {
             "x": -4,
             "y": 9,
             "z": -3,
             "elements": [
                 "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
             ]
         },
         {
@@ -2620,27 +2404,11 @@
             ]
         },
         {
-            "x": 4,
-            "y": 14,
-            "z": 1,
-            "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
-            ]
-        },
-        {
             "x": 3,
             "y": 15,
             "z": 6,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
             ]
         },
         {
@@ -2684,6 +2452,14 @@
             ]
         },
         {
+            "x": 4,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
+            ]
+        },
+        {
             "x": -7,
             "y": -1,
             "z": 2,
@@ -2692,19 +2468,19 @@
             ]
         },
         {
-            "x": -1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
-            ]
-        },
-        {
             "x": 0,
             "y": -1,
             "z": -3,
             "elements": [
                 "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "botania:elfglass@0"
             ]
         },
         {
@@ -2713,14 +2489,6 @@
             "z": 9,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 8,
-            "elements": [
-                "botania:elfglass@0"
             ]
         },
         {
@@ -2817,14 +2585,6 @@
             "z": -1,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@7"
             ]
         },
         {
@@ -2996,14 +2756,6 @@
             ]
         },
         {
-            "x": 4,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
-            ]
-        },
-        {
             "x": -2,
             "y": 9,
             "z": 2,
@@ -3068,14 +2820,6 @@
             ]
         },
         {
-            "x": 4,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
-            ]
-        },
-        {
             "x": -2,
             "y": 15,
             "z": 2,
@@ -3128,7 +2872,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@0"
+                "contenttweaker:vengeful_steel_molten"
             ]
         },
         {
@@ -3145,14 +2889,6 @@
             "z": 2,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@7"
             ]
         },
         {
@@ -3180,19 +2916,19 @@
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
-            ]
-        },
-        {
             "x": -5,
             "y": 19,
             "z": 2,
             "elements": [
                 "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
             ]
         },
         {
@@ -3268,14 +3004,6 @@
             ]
         },
         {
-            "x": 2,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
-            ]
-        },
-        {
             "x": 4,
             "y": 12,
             "z": 5,
@@ -3292,19 +3020,19 @@
             ]
         },
         {
-            "x": 1,
-            "y": 10,
-            "z": -2,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": -5,
             "y": 19,
             "z": 4,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": -2,
+            "elements": [
+                "botania:elfglass@0"
             ]
         },
         {
@@ -3425,14 +3153,6 @@
             "z": 1,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
             ]
         },
         {
@@ -3492,14 +3212,6 @@
             ]
         },
         {
-            "x": 4,
-            "y": 19,
-            "z": -1,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": -5,
             "y": 15,
             "z": 4,
@@ -3517,10 +3229,10 @@
         },
         {
             "x": 4,
-            "y": 0,
-            "z": 1,
+            "y": 19,
+            "z": -1,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@3"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -3540,17 +3252,17 @@
             ]
         },
         {
-            "x": 1,
-            "y": 11,
-            "z": 4,
+            "x": -3,
+            "y": 5,
+            "z": 2,
             "elements": [
                 "botania:elfglass@0"
             ]
         },
         {
-            "x": -3,
-            "y": 5,
-            "z": 2,
+            "x": 1,
+            "y": 11,
+            "z": 4,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -3596,17 +3308,17 @@
             ]
         },
         {
-            "x": 1,
-            "y": 12,
-            "z": 4,
+            "x": -2,
+            "y": 19,
+            "z": 3,
             "elements": [
                 "botania:elfglass@0"
             ]
         },
         {
-            "x": -2,
-            "y": 19,
-            "z": 3,
+            "x": 1,
+            "y": 12,
+            "z": 4,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -3617,14 +3329,6 @@
             "z": 2,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
             ]
         },
         {
@@ -3684,14 +3388,6 @@
             ]
         },
         {
-            "x": 7,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
-            ]
-        },
-        {
             "x": 1,
             "y": 19,
             "z": -1,
@@ -3700,19 +3396,19 @@
             ]
         },
         {
+            "x": 7,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
+            ]
+        },
+        {
             "x": 4,
             "y": -1,
             "z": -1,
             "elements": [
                 "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@2"
             ]
         },
         {
@@ -3780,14 +3476,6 @@
             ]
         },
         {
-            "x": 4,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 17,
             "z": -5,
@@ -3804,11 +3492,11 @@
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": -2,
+            "x": 4,
+            "y": 5,
+            "z": 3,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -3957,14 +3645,6 @@
         },
         {
             "x": -2,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
-            ]
-        },
-        {
-            "x": -2,
             "y": 17,
             "z": 7,
             "elements": [
@@ -4009,14 +3689,6 @@
             "z": -1,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
             ]
         },
         {
@@ -4204,27 +3876,11 @@
             ]
         },
         {
-            "x": 0,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@2"
-            ]
-        },
-        {
             "x": 3,
             "y": -1,
             "z": 2,
             "elements": [
                 "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
             ]
         },
         {
@@ -4388,19 +4044,19 @@
             ]
         },
         {
-            "x": 1,
-            "y": 10,
-            "z": 8,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": -6,
             "y": -1,
             "z": 2,
             "elements": [
                 "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 8,
+            "elements": [
+                "botania:elfglass@0"
             ]
         },
         {
@@ -4441,14 +4097,6 @@
             "z": 2,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
             ]
         },
         {
@@ -4497,14 +4145,6 @@
             "z": -6,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
             ]
         },
         {
@@ -4565,8 +4205,8 @@
         },
         {
             "x": -6,
-            "y": 8,
-            "z": 1,
+            "y": 9,
+            "z": -1,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -4581,8 +4221,8 @@
         },
         {
             "x": -6,
-            "y": 9,
-            "z": -1,
+            "y": 8,
+            "z": 1,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -4612,14 +4252,6 @@
             ]
         },
         {
-            "x": 8,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
-            ]
-        },
-        {
             "x": 6,
             "y": -1,
             "z": -1,
@@ -4636,17 +4268,17 @@
             ]
         },
         {
-            "x": 4,
-            "y": 9,
-            "z": 5,
+            "x": 0,
+            "y": 15,
+            "z": 2,
             "elements": [
                 "botania:elfglass@0"
             ]
         },
         {
-            "x": 0,
-            "y": 15,
-            "z": 2,
+            "x": 4,
+            "y": 9,
+            "z": 5,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -4657,14 +4289,6 @@
             "z": -4,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
             ]
         },
         {
@@ -4688,7 +4312,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@0"
+                "contenttweaker:vengeful_steel_molten"
             ]
         },
         {
@@ -4708,11 +4332,11 @@
             ]
         },
         {
-            "x": -1,
-            "y": 0,
-            "z": 6,
+            "x": 8,
+            "y": -1,
+            "z": 2,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@3"
+                "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
             ]
         },
         {
@@ -4809,14 +4433,6 @@
             "z": 0,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@3"
             ]
         },
         {
@@ -4908,14 +4524,6 @@
             ]
         },
         {
-            "x": -1,
-            "y": 0,
-            "z": -5,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@2"
-            ]
-        },
-        {
             "x": 0,
             "y": 14,
             "z": 9,
@@ -5025,14 +4633,6 @@
             "z": -1,
             "elements": [
                 "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
             ]
         },
         {
@@ -5156,22 +4756,6 @@
             ]
         },
         {
-            "x": 4,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
-            ]
-        },
-        {
             "x": 1,
             "y": -1,
             "z": -6,
@@ -5188,11 +4772,11 @@
             ]
         },
         {
-            "x": 2,
+            "x": 4,
             "y": 0,
-            "z": 1,
+            "z": 5,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
+                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
             ]
         },
         {
@@ -5244,17 +4828,17 @@
             ]
         },
         {
-            "x": 1,
-            "y": 5,
-            "z": -6,
+            "x": -7,
+            "y": 6,
+            "z": 1,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
             ]
         },
         {
-            "x": -7,
-            "y": 6,
-            "z": 1,
+            "x": 1,
+            "y": 5,
+            "z": -6,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
             ]
@@ -5345,14 +4929,6 @@
             "z": 0,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@2"
             ]
         },
         {
@@ -5660,22 +5236,6 @@
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@3"
-            ]
-        },
-        {
-            "x": 7,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
-            ]
-        },
-        {
             "x": 5,
             "y": 5,
             "z": 1,
@@ -5689,6 +5249,14 @@
             "z": -6,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
             ]
         },
         {
@@ -5708,14 +5276,6 @@
             ]
         },
         {
-            "x": -4,
-            "y": 7,
-            "z": 5,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": -2,
             "y": -1,
             "z": 0,
@@ -5724,11 +5284,11 @@
             ]
         },
         {
-            "x": 0,
-            "y": 0,
-            "z": -5,
+            "x": -4,
+            "y": 7,
+            "z": 5,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@1"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -5801,14 +5361,6 @@
             "z": 4,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
             ]
         },
         {
@@ -6084,11 +5636,11 @@
             ]
         },
         {
-            "x": 1,
-            "y": -1,
+            "x": -1,
+            "y": 5,
             "z": 5,
             "elements": [
-                "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -6116,11 +5668,11 @@
             ]
         },
         {
-            "x": -1,
-            "y": 5,
+            "x": 1,
+            "y": -1,
             "z": 5,
             "elements": [
-                "botania:elfglass@0"
+                "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
             ]
         },
         {
@@ -6129,14 +5681,6 @@
             "z": 8,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@7"
             ]
         },
         {
@@ -6177,14 +5721,6 @@
             "z": 0,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@7"
             ]
         },
         {
@@ -6273,14 +5809,6 @@
             "z": 4,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
             ]
         },
         {
@@ -6564,14 +6092,6 @@
             ]
         },
         {
-            "x": 5,
-            "y": 9,
-            "z": 1,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": 3,
             "y": 5,
             "z": 3,
@@ -6596,11 +6116,11 @@
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": -5,
+            "x": 5,
+            "y": 9,
+            "z": 1,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@2"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -6636,14 +6156,6 @@
             ]
         },
         {
-            "x": 3,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
-            ]
-        },
-        {
             "x": 0,
             "y": 10,
             "z": -3,
@@ -6652,11 +6164,11 @@
             ]
         },
         {
-            "x": -4,
-            "y": 0,
-            "z": 4,
+            "x": 3,
+            "y": -1,
+            "z": 3,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
+                "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
             ]
         },
         {
@@ -6692,11 +6204,11 @@
             ]
         },
         {
-            "x": -5,
-            "y": 0,
-            "z": -2,
+            "x": -7,
+            "y": 17,
+            "z": 2,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -6708,11 +6220,11 @@
             ]
         },
         {
-            "x": -7,
-            "y": 17,
-            "z": 2,
+            "x": -5,
+            "y": 0,
+            "z": -2,
             "elements": [
-                "botania:elfglass@0"
+                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
             ]
         },
         {
@@ -6761,14 +6273,6 @@
             "z": 7,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 8,
-            "y": 16,
-            "z": 1,
-            "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
             ]
         },
         {
@@ -6796,19 +6300,11 @@
             ]
         },
         {
-            "x": -1,
-            "y": 0,
-            "z": 4,
+            "x": 8,
+            "y": 16,
+            "z": 1,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
+                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
             ]
         },
         {
@@ -6844,11 +6340,11 @@
             ]
         },
         {
-            "x": 2,
-            "y": 0,
-            "z": 2,
+            "x": 5,
+            "y": -1,
+            "z": 5,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
+                "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
             ]
         },
         {
@@ -6881,14 +6377,6 @@
             "z": 0,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
             ]
         },
         {
@@ -7076,17 +6564,17 @@
             ]
         },
         {
-            "x": -7,
-            "y": 13,
-            "z": 2,
+            "x": -2,
+            "y": 11,
+            "z": 3,
             "elements": [
                 "botania:elfglass@0"
             ]
         },
         {
-            "x": -2,
-            "y": 11,
-            "z": 3,
+            "x": -7,
+            "y": 13,
+            "z": 2,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -7148,11 +6636,11 @@
             ]
         },
         {
-            "x": -6,
-            "y": -1,
-            "z": 3,
+            "x": -2,
+            "y": 5,
+            "z": -4,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -7164,17 +6652,17 @@
             ]
         },
         {
-            "x": -7,
-            "y": 15,
-            "z": 2,
+            "x": -6,
+            "y": -1,
+            "z": 3,
             "elements": [
-                "botania:elfglass@0"
+                "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
             ]
         },
         {
-            "x": -2,
-            "y": 5,
-            "z": -4,
+            "x": -7,
+            "y": 15,
+            "z": 2,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -7196,27 +6684,11 @@
             ]
         },
         {
-            "x": 5,
-            "y": 16,
-            "z": 1,
-            "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
-            ]
-        },
-        {
             "x": 2,
             "y": 5,
             "z": 5,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
             ]
         },
         {
@@ -7228,11 +6700,11 @@
             ]
         },
         {
-            "x": -2,
-            "y": 0,
-            "z": 4,
+            "x": 2,
+            "y": -1,
+            "z": 5,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
+                "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
             ]
         },
         {
@@ -7261,10 +6733,10 @@
         },
         {
             "x": 5,
-            "y": 0,
-            "z": 2,
+            "y": 16,
+            "z": 1,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@3"
+                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
             ]
         },
         {
@@ -7329,14 +6801,6 @@
             "z": 3,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@3"
             ]
         },
         {
@@ -7508,14 +6972,6 @@
             ]
         },
         {
-            "x": 3,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
-            ]
-        },
-        {
             "x": -4,
             "y": -1,
             "z": 3,
@@ -7612,14 +7068,6 @@
             ]
         },
         {
-            "x": 1,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": -3,
             "y": -1,
             "z": 3,
@@ -7628,11 +7076,11 @@
             ]
         },
         {
-            "x": 2,
-            "y": 0,
-            "z": -3,
+            "x": 1,
+            "y": 9,
+            "z": 0,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -7681,14 +7129,6 @@
             "z": -4,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
             ]
         },
         {
@@ -7788,14 +7228,6 @@
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
-            ]
-        },
-        {
             "x": -2,
             "y": -1,
             "z": 3,
@@ -7833,14 +7265,6 @@
             "z": 5,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
             ]
         },
         {
@@ -7913,14 +7337,6 @@
             "z": 1,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -6,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@2"
             ]
         },
         {
@@ -8001,14 +7417,6 @@
             "z": -3,
             "elements": [
                 "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
             ]
         },
         {
@@ -8092,14 +7500,6 @@
             ]
         },
         {
-            "x": 5,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
-            ]
-        },
-        {
             "x": 2,
             "y": 0,
             "z": 7,
@@ -8148,14 +7548,6 @@
             ]
         },
         {
-            "x": 7,
-            "y": 13,
-            "z": 0,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": -2,
             "y": 12,
             "z": -1,
@@ -8164,11 +7556,11 @@
             ]
         },
         {
-            "x": 3,
-            "y": 0,
-            "z": 2,
+            "x": 7,
+            "y": 13,
+            "z": 0,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -8185,14 +7577,6 @@
             "z": 3,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
             ]
         },
         {
@@ -8249,14 +7633,6 @@
             "z": -4,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@2"
             ]
         },
         {
@@ -8268,14 +7644,6 @@
             ]
         },
         {
-            "x": 7,
-            "y": 17,
-            "z": 0,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": 0,
             "y": 10,
             "z": -6,
@@ -8289,14 +7657,6 @@
             "z": -3,
             "elements": [
                 "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@7"
             ]
         },
         {
@@ -8356,6 +7716,14 @@
             ]
         },
         {
+            "x": 7,
+            "y": 17,
+            "z": 0,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
             "x": 2,
             "y": -1,
             "z": -2,
@@ -8369,14 +7737,6 @@
             "z": -2,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
             ]
         },
         {
@@ -8505,14 +7865,6 @@
             "z": 3,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
             ]
         },
         {
@@ -8700,14 +8052,6 @@
             ]
         },
         {
-            "x": 5,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
-            ]
-        },
-        {
             "x": 3,
             "y": 13,
             "z": 0,
@@ -8769,14 +8113,6 @@
             "z": -2,
             "elements": [
                 "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
             ]
         },
         {
@@ -8940,14 +8276,6 @@
             ]
         },
         {
-            "x": -4,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
-            ]
-        },
-        {
             "x": -5,
             "y": 15,
             "z": 1,
@@ -9060,11 +8388,11 @@
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": 2,
+            "x": -3,
+            "y": 19,
+            "z": 0,
             "elements": [
-                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -9076,11 +8404,11 @@
             ]
         },
         {
-            "x": -3,
-            "y": 19,
-            "z": 0,
+            "x": 1,
+            "y": 0,
+            "z": 2,
             "elements": [
-                "botania:elfglass@0"
+                "unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1@1"
             ]
         },
         {
@@ -9196,27 +8524,11 @@
             ]
         },
         {
-            "x": 2,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@7"
-            ]
-        },
-        {
             "x": 1,
             "y": 15,
             "z": 8,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@2"
             ]
         },
         {
@@ -9272,7 +8584,7 @@
             "y": 0,
             "z": -6,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@0"
+                "contenttweaker:vengeful_steel_molten"
             ]
         },
         {
@@ -9297,14 +8609,6 @@
             "z": 2,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@3"
             ]
         },
         {
@@ -9428,14 +8732,6 @@
             ]
         },
         {
-            "x": 1,
-            "y": 10,
-            "z": -6,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": -7,
             "y": 13,
             "z": 1,
@@ -9444,17 +8740,9 @@
             ]
         },
         {
-            "x": 5,
-            "y": 12,
-            "z": 4,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 0,
+            "x": 1,
+            "y": 10,
+            "z": -6,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -9476,19 +8764,19 @@
             ]
         },
         {
+            "x": 5,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
             "x": 2,
             "y": -1,
             "z": 6,
             "elements": [
                 "unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1@7"
-            ]
-        },
-        {
-            "x": -6,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@2"
             ]
         },
         {
@@ -9524,25 +8812,17 @@
             ]
         },
         {
-            "x": -3,
-            "y": 0,
-            "z": -1,
+            "x": 3,
+            "y": 5,
+            "z": 0,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
+                "botania:elfglass@0"
             ]
         },
         {
             "x": 2,
             "y": 13,
             "z": 3,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 18,
-            "z": 4,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -9565,7 +8845,7 @@
         },
         {
             "x": 5,
-            "y": 17,
+            "y": 18,
             "z": 4,
             "elements": [
                 "botania:elfglass@0"
@@ -9575,6 +8855,14 @@
             "x": -2,
             "y": 16,
             "z": -5,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 17,
+            "z": 4,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -9591,14 +8879,6 @@
             "x": 3,
             "y": 11,
             "z": 0,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": -2,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -9628,6 +8908,14 @@
             ]
         },
         {
+            "x": 2,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
             "x": -3,
             "y": 15,
             "z": 0,
@@ -9641,14 +8929,6 @@
             "z": 1,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
             ]
         },
         {
@@ -9724,9 +9004,9 @@
             ]
         },
         {
-            "x": 1,
-            "y": 11,
-            "z": 8,
+            "x": -3,
+            "y": 14,
+            "z": 0,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -9740,9 +9020,9 @@
             ]
         },
         {
-            "x": -3,
-            "y": 14,
-            "z": 0,
+            "x": 1,
+            "y": 11,
+            "z": 8,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -9764,14 +9044,6 @@
             ]
         },
         {
-            "x": 6,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": -2,
             "y": 6,
             "z": 7,
@@ -9780,9 +9052,9 @@
             ]
         },
         {
-            "x": 4,
-            "y": 16,
-            "z": -3,
+            "x": 6,
+            "y": 5,
+            "z": 0,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -9805,16 +9077,16 @@
         },
         {
             "x": 4,
-            "y": 15,
+            "y": 16,
             "z": -3,
             "elements": [
                 "botania:elfglass@0"
             ]
         },
         {
-            "x": 1,
-            "y": 13,
-            "z": 8,
+            "x": 4,
+            "y": 15,
+            "z": -3,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -9876,11 +9148,11 @@
             ]
         },
         {
-            "x": -1,
-            "y": 0,
-            "z": -1,
+            "x": 1,
+            "y": 13,
+            "z": 8,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -10020,27 +9292,19 @@
             ]
         },
         {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "generalized_input_fluid"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@7"
-            ]
-        },
-        {
             "x": 0,
             "y": 9,
             "z": 1,
             "elements": [
                 "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "generalized_input_fluid"
             ]
         },
         {
@@ -10092,14 +9356,6 @@
             ]
         },
         {
-            "x": 6,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@2"
-            ]
-        },
-        {
             "x": 0,
             "y": 6,
             "z": -6,
@@ -10113,14 +9369,6 @@
             "z": 3,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
             ]
         },
         {
@@ -10185,14 +9433,6 @@
             "z": 1,
             "elements": [
                 "unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@6"
             ]
         },
         {
@@ -10276,14 +9516,6 @@
             ]
         },
         {
-            "x": 6,
-            "y": 13,
-            "z": 3,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": -6,
             "y": 17,
             "z": 1,
@@ -10293,10 +9525,10 @@
         },
         {
             "x": 6,
-            "y": 0,
-            "z": 0,
+            "y": 13,
+            "z": 3,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@2"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -10356,6 +9588,14 @@
             ]
         },
         {
+            "x": -2,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
             "x": 6,
             "y": 12,
             "z": 3,
@@ -10367,30 +9607,6 @@
             "x": 5,
             "y": 19,
             "z": 3,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 10,
-            "z": -1,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 11,
-            "z": -2,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 10,
-            "z": 4,
             "elements": [
                 "botania:elfglass@0"
             ]
@@ -10412,19 +9628,19 @@
             ]
         },
         {
-            "x": 4,
-            "y": 0,
-            "z": 2,
+            "x": 5,
+            "y": 11,
+            "z": -2,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
+                "botania:elfglass@0"
             ]
         },
         {
-            "x": 4,
-            "y": 0,
-            "z": -1,
+            "x": 5,
+            "y": 10,
+            "z": 4,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
+                "botania:elfglass@0"
             ]
         },
         {
@@ -10473,14 +9689,6 @@
             "z": 4,
             "elements": [
                 "botania:elfglass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@5"
             ]
         },
         {
@@ -10564,14 +9772,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "contenttweaker:vengeful_steel_molten@1"
-            ]
-        },
-        {
             "x": 1,
             "y": 5,
             "z": 8,
@@ -10612,14 +9812,6 @@
             ]
         },
         {
-            "x": 5,
-            "y": 9,
-            "z": -2,
-            "elements": [
-                "botania:elfglass@0"
-            ]
-        },
-        {
             "x": 4,
             "y": -1,
             "z": 1,
@@ -10636,11 +9828,11 @@
             ]
         },
         {
-            "x": -5,
-            "y": 0,
-            "z": -1,
+            "x": 5,
+            "y": 9,
+            "z": -2,
             "elements": [
-                "contenttweaker:vengeful_steel_molten@4"
+                "botania:elfglass@0"
             ]
         }
     ]}

@@ -730,6 +730,15 @@ multihellfire61.addItemInput(<contenttweaker:actualized_chunk>*12);
 multihellfire61.addItemOutput(<contenttweaker:shyre_crystal>*12);
 multihellfire61.build();
 
+val multihellfire62 = RecipeBuilder.newBuilder("multihellfire62","berserker_forge",2);
+multihellfire62.addWillInput("DEFAULT", 50,1,2000000);
+multihellfire62.addItemInput(<abyssalcraft:stone:5>*24);
+multihellfire62.addItemInput(<ore:dustTartarite>*8);
+multihellfire62.addItemInput(<contenttweaker:demon_stone>*8);
+multihellfire62.addItemInput(<contenttweaker:cosmic_fracture>*1);
+multihellfire62.addItemOutput(<contenttweaker:tartarite_ore>*24);
+multihellfire62.build();
+
 
 
 

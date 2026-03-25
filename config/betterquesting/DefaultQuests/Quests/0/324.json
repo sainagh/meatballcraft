@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe three multiblocks that make Infinity Ingot can be wallshared to have each torus branching from the same center cylindrical piece, and using just one Miniature Pulsar.\n\nCheck the compact machines preview to see how to place the three controllers relative to each other.",
+      "desc:8": "§7§oThe three multiblocks that make Infinity Ingot can be wallshared to have each torus branching from the same center cylindrical piece, and using just one Miniature Pulsar.\n\nCheck the compact machines preview to see how to place the three controllers relative to each other.\n\n§fMhh, the ability to gravitationally constrain matter is actually quite useful. This is absolutely a breakthrough!\nNot just stellar light, the electromagnetic energy of a pulsar! A natural clock, more precise than anything that could be built on earth, true periodicity, this is what is needed to delve deeper into recursion, to peer into Infinity.\nSomeone with different attitudes shoauld be able to achieve the same I am doing here without the need to Sednanite technology, using powerful Warren magic. But I am wearing my engineer pants, and I am having fun building more dyson spheres.\nWell, this one is not just a sphere. More of a cylinder; the axis of rotation of the pulsar has to remain unconstrained for this machine to work.\nOn its rotation plane, the strong pulsing magnetic field can be exploited to accelerate matter, while the light bursts from the poles act as perfect pulse-modulated irradiators.\nA crazy contraption to be sure...",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:miniature_pulsar"

@@ -7,13 +7,26 @@
       "desc:8": "§7§oIn applied energistics, cables let you transfer channels and energy to the various buses and machines used by AE2.",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 4,
-        "id:8": "techreborn:cable"
+        "Damage:2": 140,
+        "id:8": "appliedenergistics2:part"
       },
       "name:8": "Network Cables"
     }
   },
   "questID:3": 1221,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "id:8": "appliedenergistics2:material"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

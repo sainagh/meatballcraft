@@ -28,6 +28,32 @@
 <contenttweaker:tabula_rasa>.addTooltip(format.green("Thanks and meme tooltips go here"));
 
 
+<contenttweaker:whisper_of_freedom_troll>.addTooltip(format.darkAqua("Puzzle:"));
+<contenttweaker:whisper_of_freedom_troll>.addTooltip(format.aqua("  Where the obsidian is giant, ...face"));
+
+<contenttweaker:whisper_of_freedom_giant>.addTooltip(format.darkAqua("Puzzle:"));
+<contenttweaker:whisper_of_freedom_giant>.addTooltip(format.aqua("  On clound 9"));
+
+<contenttweaker:whisper_of_freedom_crab>.addTooltip(format.darkAqua("Puzzle:"));
+<contenttweaker:whisper_of_freedom_crab>.addTooltip(format.aqua("  Someone in the stronghold really likes their helmet"));
+
+<contenttweaker:whisper_of_freedom_minotaur>.addTooltip(format.darkAqua("Puzzle:"));
+<contenttweaker:whisper_of_freedom_minotaur>.addTooltip(format.aqua("  Moooooo"));
+
+<contenttweaker:whisper_of_freedom_redcap>.addTooltip(format.darkAqua("Puzzle:"));
+<contenttweaker:whisper_of_freedom_redcap>.addTooltip(format.aqua("  In a hollow place, where sapping happens"));
+
+<contenttweaker:whisper_of_freedom_raven>.addTooltip(format.darkAqua("Puzzle:"));
+<contenttweaker:whisper_of_freedom_raven>.addTooltip(format.aqua("  You have a magic map right?"));
+
+<contenttweaker:whisper_of_freedom_hedge>.addTooltip(format.darkAqua("Puzzle:"));
+<contenttweaker:whisper_of_freedom_hedge>.addTooltip(format.aqua("  A maze, but not that kind of maze"));
+
+<contenttweaker:whisper_of_freedom_tome>.addTooltip(format.darkAqua("Puzzle:"));
+<contenttweaker:whisper_of_freedom_tome>.addTooltip(format.aqua("  Where can I get some Elytra"));
+
+
+
 <contenttweaker:recursive_paper_illager>.addTooltip(format.gold("Use:"));
 <contenttweaker:recursive_paper_illager>.addTooltip(format.yellow("  Right click for a free cookie"));
 
@@ -302,10 +328,17 @@
 <contenttweaker:realmstone>.addTooltip(format.green("Fox wanted to know how to make it"));
 
 
+<contenttweaker:rune_of_valhalla>.addTooltip(format.green("reusable for Stone of Natural Might"));
+
 <divinerpg:twilight_clock>.addTooltip(format.darkAqua("Obtained:"));
 <divinerpg:twilight_clock>.addTooltip(format.aqua("  Recipe unlocked with the Singularity Master Manual"));
 <divinerpg:twilight_clock>.addTooltip(format.gold("Use:"));
 <divinerpg:twilight_clock>.addTooltip(format.yellow("  Opens DivineRPG portals like a flint and steel"));
+
+<contenttweaker:beekeper_archive>.addTooltip(format.gold("Use:"));
+<contenttweaker:beekeper_archive>.addTooltip(format.yellow("  Right click to access an online interactive version of the forestry bee breeding tree!"));
+<contenttweaker:beekeper_archive>.addTooltip(format.white("------------------"));
+<contenttweaker:beekeper_archive>.addTooltip(format.green("ATL4S likes clear communication, thanks for making this!"));
 
 
 <modularmachinery:blockcontroller>.addTooltip(format.darkAqua("Obtained:"));
@@ -442,6 +475,11 @@
 
 <aoa3:utopian_boots>.addTooltip(format.darkAqua("Obtained:"));
 <aoa3:utopian_boots>.addTooltip(format.aqua("  Dropped by treasure boxes in battle towers"));
+
+
+<contenttweaker:blade_of_the_samurai_queen>.addTooltip(format.gray("100 base attack damage"));
+<contenttweaker:blade_of_the_samurai_queen>.addTooltip(format.gray("Unlimited attack speed"));
+<contenttweaker:blade_of_the_samurai_queen>.addTooltip(format.green("Reusable"));
 
 
 <contenttweaker:holyshimmer_sword>.addTooltip(format.gray("200 base attack damage"));
@@ -591,6 +629,7 @@
 <contenttweaker:gallifreyan_irradiator>.addTooltip(format.gold("Multiblock Upgrade:"));
 <contenttweaker:gallifreyan_irradiator>.addTooltip(format.aqua("  Two-Phase Fission Reactor"));
 <contenttweaker:gallifreyan_irradiator>.addTooltip(format.white("     Machine Speed x10"));
+<contenttweaker:gallifreyan_irradiator>.addTooltip(format.white("     Fluid Input & Output x5"));
 
 <contenttweaker:hungering_machine_case>.addTooltip(format.gold("Multiblock Upgrade:"));
 <contenttweaker:hungering_machine_case>.addTooltip(format.aqua("  ME Mythic Assembler"));

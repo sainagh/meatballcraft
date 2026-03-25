@@ -52,7 +52,6 @@ var Opened as IItemStack[] = [
     <thermalexpansion:satchel:*>,
     <thaumcraft:focus_pouch>,
     <thaumcraft:hand_mirror>,
-    <thaumictinkerer:focus_pouch>,
     <thaumadditions:crystal_bag>,
     <thebetweenlands:lurker_skin_pouch:*>
 ];

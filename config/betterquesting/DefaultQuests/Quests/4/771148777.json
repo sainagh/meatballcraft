@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    90342
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oWorks like the RFTools Crafter or the Sequential Fabricator, but it auto-pulls and auto-pushes inputs and outputs directly into the network it is part of.\n\n",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2powertools:auto_crafter"
+      },
+      "name:8": "AE2 Autocrafter (Recommended)"
+    }
+  },
+  "questID:3": 771148777,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2powertools:auto_crafter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2powertools:crafter_speed_upgrade"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "ae2powertools:crafter_speed_upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

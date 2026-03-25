@@ -1309,6 +1309,8 @@ recipes.addShapeless(<contenttweaker:respect_of_the_lord_of_greed>,
 recipes.addShapeless(<contenttweaker:oath_of_the_lord_of_gluttony>,
 [<contenttweaker:boss_drop>, <contenttweaker:oath_of_the_seven_undead_lords>]);
 
+
+
 recipes.addShapeless(<contenttweaker:respect_of_death>,
 [<contenttweaker:boss_drop>, <contenttweaker:mission_of_undeath_callstone>, <contenttweaker:vow_to_death>]);
 
@@ -1924,6 +1926,12 @@ recipes.addShapeless(<tardis:dalek_hull>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:time_lords_callstone>]);
 
 
+recipes.addShapeless(<contenttweaker:sacred_cinders_honey>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:sacred_callstone>]);
+
+
+recipes.addShapeless(<twilightforest:cinder_log>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:sacred_callstone>]);
 
 
 

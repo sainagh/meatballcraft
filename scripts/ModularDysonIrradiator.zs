@@ -215,7 +215,7 @@ irradiationultimatechicktop.addItemInput(<contenttweaker:infinity_egg>);
 irradiationultimatechicktop.addItemInput(<contenttweaker:infinity_stone>);
 irradiationultimatechicktop.addItemInput(<appliedenergistics2:material:47>);
 irradiationultimatechicktop.addItemOutput(<avaritia:resource:6>*12);
-irradiationultimatechicktop.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationultimatechicktop.addItemOutput(<extendedcrafting:singularity_ultimate>*2);
 irradiationultimatechicktop.build();
 
 val irradiationultimatekashtop = RecipeBuilder.newBuilder("irradiationultimatekashtop","dyson_irradiator_top",200);
@@ -225,7 +225,7 @@ irradiationultimatekashtop.addItemInput(<contenttweaker:infinity_egg>);
 irradiationultimatekashtop.addItemInput(<contenttweaker:infinity_stone>);
 irradiationultimatekashtop.addItemInput(<avaritiaitem:self_actualizing_stone>);
 irradiationultimatekashtop.addItemOutput(<avaritia:resource:6>*27);
-irradiationultimatekashtop.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationultimatekashtop.addItemOutput(<extendedcrafting:singularity_ultimate>*3);
 irradiationultimatekashtop.build();
 
 
@@ -237,7 +237,7 @@ irradiationultimatechickbot.addItemInput(<contenttweaker:infinity_egg>);
 irradiationultimatechickbot.addItemInput(<contenttweaker:infinity_stone>);
 irradiationultimatechickbot.addItemInput(<appliedenergistics2:material:47>);
 irradiationultimatechickbot.addItemOutput(<avaritia:resource:6>*12);
-irradiationultimatechickbot.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationultimatechickbot.addItemOutput(<extendedcrafting:singularity_ultimate>*2);
 irradiationultimatechickbot.build();
 
 val irradiationultimatekashbot = RecipeBuilder.newBuilder("irradiationultimatekashbot","dyson_irradiator_bottom",200);
@@ -247,7 +247,7 @@ irradiationultimatekashbot.addItemInput(<contenttweaker:infinity_egg>);
 irradiationultimatekashbot.addItemInput(<contenttweaker:infinity_stone>);
 irradiationultimatekashbot.addItemInput(<avaritiaitem:self_actualizing_stone>);
 irradiationultimatekashbot.addItemOutput(<avaritia:resource:6>*27);
-irradiationultimatekashbot.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationultimatekashbot.addItemOutput(<extendedcrafting:singularity_ultimate>*3);
 irradiationultimatekashbot.build();
 
 val irradiationblockbot1 = RecipeBuilder.newBuilder("irradiationblockbot1","dyson_irradiator_bottom",200);
@@ -257,7 +257,7 @@ irradiationblockbot1.addItemInput(<contenttweaker:infinity_egg>);
 irradiationblockbot1.addItemInput(<contenttweaker:infinity_stone>);
 irradiationblockbot1.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell I§r"]}}));
 irradiationblockbot1.addItemOutput(<avaritia:block_resource:1>*6);
-irradiationblockbot1.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblockbot1.addItemOutput(<extendedcrafting:singularity_ultimate>*4);
 irradiationblockbot1.build();
 
 val irradiationblockbot2 = RecipeBuilder.newBuilder("irradiationblockbot2","dyson_irradiator_bottom",200);
@@ -267,7 +267,7 @@ irradiationblockbot2.addItemInput(<contenttweaker:infinity_egg>);
 irradiationblockbot2.addItemInput(<contenttweaker:infinity_stone>);
 irradiationblockbot2.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell II§r"]}}));
 irradiationblockbot2.addItemOutput(<avaritia:block_resource:1>*12);
-irradiationblockbot2.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblockbot2.addItemOutput(<extendedcrafting:singularity_ultimate>*5);
 irradiationblockbot2.build();
 
 val irradiationblockbot3 = RecipeBuilder.newBuilder("irradiationblockbot3","dyson_irradiator_bottom",200);
@@ -277,7 +277,7 @@ irradiationblockbot3.addItemInput(<contenttweaker:infinity_egg>);
 irradiationblockbot3.addItemInput(<contenttweaker:infinity_stone>);
 irradiationblockbot3.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell III§r"]}}));
 irradiationblockbot3.addItemOutput(<avaritia:block_resource:1>*18);
-irradiationblockbot3.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblockbot3.addItemOutput(<extendedcrafting:singularity_ultimate>*6);
 irradiationblockbot3.build();
 
 val irradiationblockbot4 = RecipeBuilder.newBuilder("irradiationblockbot4","dyson_irradiator_bottom",200);
@@ -287,7 +287,7 @@ irradiationblockbot4.addItemInput(<contenttweaker:infinity_egg>);
 irradiationblockbot4.addItemInput(<contenttweaker:infinity_stone>);
 irradiationblockbot4.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell IV§r"]}}));
 irradiationblockbot4.addItemOutput(<avaritia:block_resource:1>*24);
-irradiationblockbot4.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblockbot4.addItemOutput(<extendedcrafting:singularity_ultimate>*7);
 irradiationblockbot4.build();
 
 val irradiationblockbot5 = RecipeBuilder.newBuilder("irradiationblockbot5","dyson_irradiator_bottom",200);
@@ -297,7 +297,7 @@ irradiationblockbot5.addItemInput(<contenttweaker:infinity_egg>);
 irradiationblockbot5.addItemInput(<contenttweaker:infinity_stone>);
 irradiationblockbot5.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell V§r"]}}));
 irradiationblockbot5.addItemOutput(<avaritia:block_resource:1>*32);
-irradiationblockbot5.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblockbot5.addItemOutput(<extendedcrafting:singularity_ultimate>*8);
 irradiationblockbot5.build();
 
 val irradiationrainbowtop = RecipeBuilder.newBuilder("irradiationrainbowtop","dyson_irradiator_top",200);
@@ -341,7 +341,7 @@ irradiationblocktop1.addItemInput(<contenttweaker:infinity_egg>);
 irradiationblocktop1.addItemInput(<contenttweaker:infinity_stone>);
 irradiationblocktop1.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell I§r"]}}));
 irradiationblocktop1.addItemOutput(<avaritia:block_resource:1>*6);
-irradiationblocktop1.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblocktop1.addItemOutput(<extendedcrafting:singularity_ultimate>*4);
 irradiationblocktop1.build();
 
 val irradiationblocktop2 = RecipeBuilder.newBuilder("irradiationblocktop2","dyson_irradiator_top",200);
@@ -351,7 +351,7 @@ irradiationblocktop2.addItemInput(<contenttweaker:infinity_egg>);
 irradiationblocktop2.addItemInput(<contenttweaker:infinity_stone>);
 irradiationblocktop2.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell II§r"]}}));
 irradiationblocktop2.addItemOutput(<avaritia:block_resource:1>*12);
-irradiationblocktop2.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblocktop2.addItemOutput(<extendedcrafting:singularity_ultimate>*5);
 irradiationblocktop2.build();
 
 val irradiationblocktop3 = RecipeBuilder.newBuilder("irradiationblocktop3","dyson_irradiator_top",200);
@@ -361,7 +361,7 @@ irradiationblocktop3.addItemInput(<contenttweaker:infinity_egg>);
 irradiationblocktop3.addItemInput(<contenttweaker:infinity_stone>);
 irradiationblocktop3.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell III§r"]}}));
 irradiationblocktop3.addItemOutput(<avaritia:block_resource:1>*18);
-irradiationblocktop3.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblocktop3.addItemOutput(<extendedcrafting:singularity_ultimate>*6);
 irradiationblocktop3.build();
 
 val irradiationblocktop4 = RecipeBuilder.newBuilder("irradiationblocktop4","dyson_irradiator_top",200);
@@ -371,7 +371,7 @@ irradiationblocktop4.addItemInput(<contenttweaker:infinity_egg>);
 irradiationblocktop4.addItemInput(<contenttweaker:infinity_stone>);
 irradiationblocktop4.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell IV§r"]}}));
 irradiationblocktop4.addItemOutput(<avaritia:block_resource:1>*24);
-irradiationblocktop4.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblocktop4.addItemOutput(<extendedcrafting:singularity_ultimate>*7);
 irradiationblocktop4.build();
 
 val irradiationblocktop5 = RecipeBuilder.newBuilder("irradiationblocktop5","dyson_irradiator_top",200);
@@ -381,7 +381,7 @@ irradiationblocktop5.addItemInput(<contenttweaker:infinity_egg>);
 irradiationblocktop5.addItemInput(<contenttweaker:infinity_stone>);
 irradiationblocktop5.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell V§r"]}}));
 irradiationblocktop5.addItemOutput(<avaritia:block_resource:1>*32);
-irradiationblocktop5.addItemOutput(<extendedcrafting:singularity_ultimate>);
+irradiationblocktop5.addItemOutput(<extendedcrafting:singularity_ultimate>*8);
 irradiationblocktop5.build();
 
 

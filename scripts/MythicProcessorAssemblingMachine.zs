@@ -503,7 +503,7 @@ mythassmac65.build();
 
 val mythassmac66 = RecipeBuilder.newBuilder("mythassmac66","mythic_processor_assembling_machine",2);
 mythassmac66.addEnergyPerTickInput(40000);
-mythassmac66.addItemInput(<techreborn:plates>*4);
+mythassmac66.addItemInput(<techreborn:plates:36>*4);
 mythassmac66.addItemInput(<libvulpes:productrod:6>*48);
 mythassmac66.addItemOutput(<advancedrocketry:structuretower>*4);
 mythassmac66.build();
@@ -551,6 +551,35 @@ mythassmac72.addItemInput(<tconstruct:materials:2>*25);
 mythassmac72.addItemInput(<immersiveengineering:stone_decoration:0>*24);
 mythassmac72.addItemOutput(<advancedrocketry:blastbrick>*1);
 mythassmac72.build();
+
+val mythassmac73 = RecipeBuilder.newBuilder("mythassmac73","mythic_processor_assembling_machine",2);
+mythassmac73.addEnergyPerTickInput(40000);
+mythassmac73.addItemInput(<ore:dustTin>*4);
+mythassmac73.addItemInput(<ore:dustCoal>*4);
+mythassmac73.addItemInput(<ore:plateCopper>*1);
+mythassmac73.addItemOutput(<techreborn:part:26>*1);
+mythassmac73.build();
+
+val mythassmac74 = RecipeBuilder.newBuilder("mythassmac74","mythic_processor_assembling_machine",2);
+mythassmac74.addEnergyPerTickInput(40000);
+mythassmac74.addItemInput(<techreborn:part:26>*4);
+mythassmac74.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidberylium", Amount: 1000}}));
+mythassmac74.addItemOutput(<techreborn:part:28>*1);
+mythassmac74.build();
+
+val mythassmac75 = RecipeBuilder.newBuilder("mythassmac75","mythic_processor_assembling_machine",2);
+mythassmac75.addEnergyPerTickInput(40000);
+mythassmac75.addItemInput(<techreborn:part:26>*4);
+mythassmac75.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "beryllium", Amount: 1000}}));
+mythassmac75.addItemOutput(<techreborn:part:28>*1);
+mythassmac75.build();
+
+val mythassmac76 = RecipeBuilder.newBuilder("mythassmac76","mythic_processor_assembling_machine",2);
+mythassmac76.addEnergyPerTickInput(40000);
+mythassmac76.addItemInput(<techreborn:part:28>*8);
+mythassmac76.addItemInput(<ore:ingotIridium>);
+mythassmac76.addItemOutput(<techreborn:iridiumneutronreflector>*1);
+mythassmac76.build();
 
 
 

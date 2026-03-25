@@ -993,7 +993,7 @@ mythmelt700.build();
 
 val mythmelt701 = RecipeBuilder.newBuilder("mythmelt701","mythic_processor_melter",2);
 mythmelt701.addEnergyPerTickInput(60000);
-mythmelt701.addItemInput(<ore:blocknetherite>);
+mythmelt701.addItemInput(<ore:blockNetherite>);
 mythmelt701.addFluidOutput(<fluid:molten_netherite> * 1296);
 mythmelt701.build();
 
@@ -1093,5 +1093,31 @@ mythmelt717.addEnergyPerTickInput(60000);
 mythmelt717.addItemInput(<extendedcrafting:singularity:65>);
 mythmelt717.addFluidOutput(<fluid:cobalt> * 728064);
 mythmelt717.build();
+
+val mythmelt718 = RecipeBuilder.newBuilder("mythmelt718","mythic_processor_melter",2);
+mythmelt718.addEnergyPerTickInput(60000);
+mythmelt718.addItemInput(<avaritiaitem:self_actualizing_stone>);
+mythmelt718.addItemInput(<contenttweaker:stone_of_infinite_wishes>);
+mythmelt718.addFluidOutput(<fluid:actualizing_fluid> * 500000);
+mythmelt718.build();
+
+val mythmelt719 = RecipeBuilder.newBuilder("mythmelt719","mythic_processor_melter",2);
+mythmelt719.addEnergyPerTickInput(60000);
+mythmelt719.addItemInput(<ore:ingotDreadedSteel>);
+mythmelt719.addFluidOutput(<fluid:dreaded_steel> * 144);
+mythmelt719.build();
+
+val mythmelt720 = RecipeBuilder.newBuilder("mythmelt720","mythic_processor_melter",2);
+mythmelt720.addEnergyPerTickInput(60000);
+mythmelt720.addItemInput(<contenttweaker:helium_3_crystal>);
+mythmelt720.addFluidOutput(<fluid:helium3> * 4000);
+mythmelt720.build();
+
+val mythmelt721 = RecipeBuilder.newBuilder("mythmelt721","mythic_processor_melter",2);
+mythmelt721.addEnergyPerTickInput(60000);
+mythmelt721.addItemInput(<contenttweaker:demonic_ember>);
+mythmelt721.addFluidOutput(<fluid:molten_demonic_ember> * 144);
+mythmelt721.build();
+
 
 

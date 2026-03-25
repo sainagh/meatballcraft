@@ -26,6 +26,10 @@
           "tag:10": {
             "charge:3": 5000
           }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:beekeper_archive"
         }
       }
     }

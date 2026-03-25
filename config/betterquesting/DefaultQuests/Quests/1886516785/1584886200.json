@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1797790861
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oHurt mobs sometimes drop items that heals you, the more you do it, the better the healing.\n\nThis skill is levelled by using heart stones, found in battle towers!\n\n§fEssence is something I know, so I am trying to compare my discoveries to it. While some of the mechanics are similar, this magic is very much different in its origin.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "mod_lavacow:mootenheart"
+      },
+      "name:8": "Innervation"
+    }
+  },
+  "questID:3": 1584886200,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:heart_stone"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:bone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

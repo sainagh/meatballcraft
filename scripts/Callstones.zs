@@ -1527,6 +1527,26 @@ lordsummoner.itemRightClick = function(stack, world, player, hand) {
 };
 lordsummoner.register();
 
+var captainmeriksummoner = VanillaFactory.createItem("captaimerik_summoner");
+captainmeriksummoner.maxStackSize = 1;
+captainmeriksummoner.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 426) {
+        player.sendChat("You gotta be in Arcana");
+        return "FAIL";
+    }
+
+    Commands.call("summon divinerpg:captain_merik ~ ~1 ~", player, world, false, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+captainmeriksummoner.register();
+
 var strangecharm = VanillaFactory.createItem("strange_charm");
 strangecharm.maxStackSize = 1;
 strangecharm.itemRightClick = function(stack, world, player, hand) {
@@ -4724,8 +4744,8 @@ dreadcleansingcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if(player.getDimension() != 19) {
-        player.sendChat("You gotta be in the Bedrock Dimension");
+    if(player.getDimension() != 14676) {
+        player.sendChat("You gotta be in the Emptiness");
         return "FAIL";
     }
 
@@ -5478,19 +5498,19 @@ summonstothearmyofdarkness.register();
 
 
 
-var arcaneterraformernoob = VanillaFactory.createItem("arcane_terraformer_noob");
-arcaneterraformernoob.maxStackSize = 1;
-arcaneterraformernoob.itemRightClick = function(stack, world, player, hand) {
+var beekeperarchive = VanillaFactory.createItem("beekeper_archive");
+beekeperarchive.maxStackSize = 1;
+beekeperarchive.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
 
-    Commands.call("/tellraw @a {\"text\":\"Click here to see a walkthrough on how to set up the biomes for this puzzle\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=-_5BU87Gnjs\"}}", player, world, false, true);
+    Commands.call("/tellraw @a {\"text\":\"Click here to access the online version of the bee breeding tree!\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://at-l4s.github.io/BeeBreeding/\"}}", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
 };
-arcaneterraformernoob.register();
+beekeperarchive.register();
 
 
 

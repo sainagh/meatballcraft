@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1045015237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:rock_pick_sword"
+      },
+      "name:8": "Levelling Upgrade: Rock-Pick Sword"
+    }
+  },
+  "questID:3": 1304090843,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:rock_pick_sword"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

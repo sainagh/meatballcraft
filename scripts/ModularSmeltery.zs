@@ -6,7 +6,7 @@ import mods.modularmachinery.RecipeBuilder;
 
 recipes.addShaped(<contenttweaker:chaotic_nexus>,
 [[<contenttweaker:chaotic_fulcrum>, <contenttweaker:chaotic_fulcrum>, <contenttweaker:chaotic_fulcrum>],
-[<contenttweaker:chaotic_fulcrum>, <draconicevolution:draconic_staff_of_power>.withTag({DEUpgrades: {attackDmg: 3 as byte, digSpeed: 3 as byte, digAOE: 3 as byte, rfCap: 3 as byte, attackAOE: 3 as byte}}), <contenttweaker:chaotic_fulcrum>],
+[<contenttweaker:chaotic_fulcrum>, <draconicevolution:draconic_staff_of_power>.withTag({DEUpgrades: {attackDmg: 3 as byte, digSpeed: 3 as byte, digAOE: 3 as byte, rfCap: 3 as byte, attackAOE: 3 as byte}}).reuse(), <contenttweaker:chaotic_fulcrum>],
 [<contenttweaker:chaotic_fulcrum>, <contenttweaker:chaotic_fulcrum>, <contenttweaker:chaotic_fulcrum>]]);
 
 val forgewyvinf1 = RecipeBuilder.newBuilder("forgewyvinf1","forge_of_the_wyvern",2);
@@ -22,6 +22,20 @@ forgewyvinf2.setChance(0.0);
 forgewyvinf2.addItemInput(<ore:blockInfinity>);
 forgewyvinf2.addFluidOutput(<fluid:infinity>*1296);
 forgewyvinf2.build();
+
+val forgewyvinf3 = RecipeBuilder.newBuilder("forgewyvinf3","forge_of_the_wyvern",2);
+forgewyvinf3.addItemInput(<contenttweaker:chaotic_fulcrum>);
+forgewyvinf3.setChance(0.0);
+forgewyvinf3.addItemInput(<ore:blockInfinity>*10);
+forgewyvinf3.addFluidOutput(<fluid:infinity>*12960);
+forgewyvinf3.build();
+
+val forgewyvinf4 = RecipeBuilder.newBuilder("forgewyvinf4","forge_of_the_wyvern",2);
+forgewyvinf4.addItemInput(<contenttweaker:chaotic_nexus>);
+forgewyvinf4.setChance(0.0);
+forgewyvinf4.addItemInput(<ore:blockInfinity>*100);
+forgewyvinf4.addFluidOutput(<fluid:infinity>*129600);
+forgewyvinf4.build();
 
 val forgewyvbri1 = RecipeBuilder.newBuilder("forgewyvbri1","forge_of_the_wyvern",2);
 forgewyvbri1.addItemInput(<draconicevolution:chaos_shard:0>);
@@ -330,9 +344,68 @@ forgewyvspring3.build();
 
 
 
-val forgewyvoidshard = RecipeBuilder.newBuilder("forgewyvoidshard","forge_of_the_wyvern",2);
-forgewyvoidshard.addItemInput(<contenttweaker:chaotic_nexus>);
-forgewyvoidshard.setChance(0.0);
-forgewyvoidshard.addItemInput(<contenttweaker:shard_of_nothingness>);
-forgewyvoidshard.addFluidOutput(<fluid:nothing>*1000);
-forgewyvoidshard.build();
+val forgewyvoidshard1 = RecipeBuilder.newBuilder("forgewyvoidshard1","forge_of_the_wyvern",2);
+forgewyvoidshard1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvoidshard1.setChance(0.0);
+forgewyvoidshard1.addItemInput(<contenttweaker:shard_of_nothingness>*1);
+forgewyvoidshard1.addFluidOutput(<fluid:nothing>*1000);
+forgewyvoidshard1.build();
+
+val forgewyvoidshard2 = RecipeBuilder.newBuilder("forgewyvoidshard2","forge_of_the_wyvern",2);
+forgewyvoidshard2.addItemInput(<contenttweaker:chaotic_fulcrum>);
+forgewyvoidshard2.setChance(0.0);
+forgewyvoidshard2.addItemInput(<contenttweaker:shard_of_nothingness>*10);
+forgewyvoidshard2.addFluidOutput(<fluid:nothing>*10000);
+forgewyvoidshard2.build();
+
+val forgewyvoidshard3 = RecipeBuilder.newBuilder("forgewyvoidshard3","forge_of_the_wyvern",2);
+forgewyvoidshard3.addItemInput(<contenttweaker:chaotic_nexus>);
+forgewyvoidshard3.setChance(0.0);
+forgewyvoidshard3.addItemInput(<contenttweaker:shard_of_nothingness>*100);
+forgewyvoidshard3.addFluidOutput(<fluid:nothing>*100000);
+forgewyvoidshard3.build();
+
+
+val forgewyvsednanite1 = RecipeBuilder.newBuilder("forgewyvsednanite1","forge_of_the_wyvern",2);
+forgewyvsednanite1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvsednanite1.setChance(0.0);
+forgewyvsednanite1.addItemInput(<extendedcrafting:singularity_custom:630>*1);
+forgewyvsednanite1.addFluidOutput(<fluid:sednanite>*728064);
+forgewyvsednanite1.build();
+
+val forgewyvsednanite2 = RecipeBuilder.newBuilder("forgewyvsednanite2","forge_of_the_wyvern",2);
+forgewyvsednanite2.addItemInput(<contenttweaker:chaotic_fulcrum>);
+forgewyvsednanite2.setChance(0.0);
+forgewyvsednanite2.addItemInput(<extendedcrafting:singularity_custom:630>*10);
+forgewyvsednanite2.addFluidOutput(<fluid:sednanite>*7280640);
+forgewyvsednanite2.build();
+
+
+val forgewyvmyrmitite1 = RecipeBuilder.newBuilder("forgewyvmyrmitite1","forge_of_the_wyvern",2);
+forgewyvmyrmitite1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvmyrmitite1.setChance(0.0);
+forgewyvmyrmitite1.addItemInput(<extendedcrafting:singularity_custom:2047>*1);
+forgewyvmyrmitite1.addFluidOutput(<fluid:myrmitite>*728064);
+forgewyvmyrmitite1.build();
+
+val forgewyvmyrmitite2 = RecipeBuilder.newBuilder("forgewyvmyrmitite2","forge_of_the_wyvern",2);
+forgewyvmyrmitite2.addItemInput(<contenttweaker:chaotic_fulcrum>);
+forgewyvmyrmitite2.setChance(0.0);
+forgewyvmyrmitite2.addItemInput(<extendedcrafting:singularity_custom:2047>*10);
+forgewyvmyrmitite2.addFluidOutput(<fluid:myrmitite>*7280640);
+forgewyvmyrmitite2.build();
+
+
+val forgewyvrhenium1 = RecipeBuilder.newBuilder("forgewyvrhenium1","forge_of_the_wyvern",2);
+forgewyvrhenium1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvrhenium1.setChance(0.0);
+forgewyvrhenium1.addItemInput(<extendedcrafting:singularity_custom:2046>*1);
+forgewyvrhenium1.addFluidOutput(<fluid:rhenium>*728064);
+forgewyvrhenium1.build();
+
+val forgewyvrhenium2 = RecipeBuilder.newBuilder("forgewyvrhenium2","forge_of_the_wyvern",2);
+forgewyvrhenium2.addItemInput(<contenttweaker:chaotic_fulcrum>);
+forgewyvrhenium2.setChance(0.0);
+forgewyvrhenium2.addItemInput(<extendedcrafting:singularity_custom:2046>*10);
+forgewyvrhenium2.addFluidOutput(<fluid:rhenium>*7280640);
+forgewyvrhenium2.build();

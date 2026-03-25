@@ -27,6 +27,16 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:stone_of_universal
 [<careerbees:ingredients:11>, null, <contenttweaker:dust_of_infinite_wishes>, null, <careerbees:ingredients:12>], 
 [<contenttweaker:quasar_charged_dust>, <contenttweaker:chaos_wood>, <contenttweaker:yggdrasil_wood>, <contenttweaker:chaos_wood>, <contenttweaker:quasar_charged_dust>]]);  
 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sand_of_universal_balance>*4, 
+[[<contenttweaker:ascended_fluix_crystal>, <contenttweaker:ragnarok_warren_dust>, <contenttweaker:valhalla_warren_dust>, <contenttweaker:living_construct_soul>, <contenttweaker:valhalla_warren_dust>, <contenttweaker:ragnarok_warren_dust>, <contenttweaker:ascended_fluix_crystal>],
+[<contenttweaker:hungering_flesh_ingot>, <contenttweaker:quasar_charged_dust>, <contenttweaker:order_wood>, <contenttweaker:yggdrasil_wood>, <contenttweaker:order_wood>, <contenttweaker:quasar_charged_dust>, <contenttweaker:hungering_flesh_ingot>], 
+[<contenttweaker:ascended_fluix_crystal>, <careerbees:ingredients:12>, <contenttweaker:hopebringer_crystal>, <contenttweaker:dust_of_infinite_wishes>, <contenttweaker:hopebringer_crystal>, <careerbees:ingredients:11>, <contenttweaker:ascended_fluix_crystal>], 
+[<contenttweaker:pure_void>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:trinity_nugget>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:pure_void>], 
+[<contenttweaker:ascended_fluix_crystal>, <careerbees:ingredients:11>, <contenttweaker:hopebringer_crystal>, <contenttweaker:dust_of_infinite_wishes>, <contenttweaker:hopebringer_crystal>, <careerbees:ingredients:12>, <contenttweaker:ascended_fluix_crystal>], 
+[<contenttweaker:hungering_flesh_ingot>, <contenttweaker:quasar_charged_dust>, <contenttweaker:chaos_wood>, <contenttweaker:yggdrasil_wood>, <contenttweaker:chaos_wood>, <contenttweaker:quasar_charged_dust>, <contenttweaker:hungering_flesh_ingot>],
+[<contenttweaker:ascended_fluix_crystal>, <contenttweaker:ragnarok_warren_dust>, <contenttweaker:valhalla_warren_dust>, <contenttweaker:living_construct_soul>, <contenttweaker:valhalla_warren_dust>, <contenttweaker:ragnarok_warren_dust>, <contenttweaker:ascended_fluix_crystal>]]);  
+
+
 
 val hungeringfleshgear = RecipeBuilder.newBuilder("hungeringfleshgear","mythic_processor_gearworking_die",1);
 hungeringfleshgear.addEnergyPerTickInput(1000000);
@@ -196,7 +206,7 @@ hungeringsoulmeatball.addItemOutput(<contenttweaker:hungering_world_soul>);
 hungeringsoulmeatball.build();
 
 
-val dupegemdyingconst = RecipeBuilder.newBuilder("dupegemdyingconst","gaia_altar",60);
+val dupegemdyingconst = RecipeBuilder.newBuilder("dupegemdyingconst","gaia_altar",30);
 dupegemdyingconst.addEnergyPerTickInput(40000);
 dupegemdyingconst.addItemInput(<contenttweaker:gem_of_the_dying_constellation>*8);
 dupegemdyingconst.addItemInput(<botania:rune:10>*256);
@@ -245,10 +255,15 @@ hungeringsoulmeatball2.addItemOutput(<contenttweaker:hungering_world_soul>*15);
 hungeringsoulmeatball2.build();
 
 
-recipes.addShaped(<contenttweaker:jewel_of_pure_void>*4,
-[[<contenttweaker:pale_metal>, <contenttweaker:gem_of_the_dying_constellation>, <contenttweaker:pale_metal>],
-[<contenttweaker:gem_of_the_dying_constellation>, <contenttweaker:mask_of_the_free_stag>, <contenttweaker:gem_of_the_dying_constellation>],
-[<contenttweaker:pale_metal>, <contenttweaker:gem_of_the_dying_constellation>, <contenttweaker:pale_metal>]]);
+//recipes.addShaped(<contenttweaker:jewel_of_pure_void>*4,
+//[[<contenttweaker:pale_metal>, <contenttweaker:gem_of_the_dying_constellation>, <contenttweaker:pale_metal>],
+//[<contenttweaker:gem_of_the_dying_constellation>, <contenttweaker:mask_of_the_free_stag>, <contenttweaker:gem_of_the_dying_constellation>],
+//[<contenttweaker:pale_metal>, <contenttweaker:gem_of_the_dying_constellation>, <contenttweaker:pale_metal>]]);
+
+recipes.addShaped(<contenttweaker:fabrial_of_pure_void>*4,
+[[<thaumcraft:metal_void>, <contenttweaker:purified_titanium_ingot>, <thaumcraft:metal_void>],
+[<contenttweaker:purified_titanium_ingot>, <contenttweaker:jewel_of_pure_void>, <contenttweaker:purified_titanium_ingot>],
+[<thaumcraft:metal_void>, <contenttweaker:purified_titanium_ingot>, <thaumcraft:metal_void>]]);
 
 val hungeringsoulmeatball3 = RecipeBuilder.newBuilder("hungeringsoulmeatball3","shrine_of_the_sentient_meatballs",80);
 hungeringsoulmeatball3.addEnergyPerTickInput(2000000000);

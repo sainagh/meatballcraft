@@ -1,0 +1,22 @@
+#modloaded aoa3
+#loader mixin
+
+
+import scripts.mixin.aoa3.StatsConfig as CFG;
+
+
+
+#mixin Mixin
+#{targets: "net.tslat.aoa3.item.weapon.staff.WaterStaff"}
+zenClass MixinWaterStaff {
+  #mixin ModifyConstant
+  #{
+  #  method: "<init>",
+  #  constant: {floatValue: 5}
+  #}
+  function mbc_modify_dmg_waterStaff(original as float) as float {
+    return CFG.dmg_waterStaff;
+  }
+}
+
+

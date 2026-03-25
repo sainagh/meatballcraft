@@ -296,6 +296,43 @@ pulsestilldemonelixir.build();
 
 
 
+val pulsestilldeathofstars = RecipeBuilder.newBuilder("pulsestilldeathofstars","phasing_still_pot",5);
+pulsestilldeathofstars.addItemInput(<contenttweaker:gem_of_the_dying_constellation>);
+pulsestilldeathofstars.addFluidInput(<fluid:liquid_death>*32000);
+pulsestilldeathofstars.addFluidInput(<fluid:otherworldly_tears>*32000);
+pulsestilldeathofstars.addFluidInput(<fluid:ebb_of_death>*32000);
+pulsestilldeathofstars.addFluidInput(<fluid:swirl_of_depths>*32000);
+pulsestilldeathofstars.addFluidOutput(<fluid:glimmer_of_the_dying_constellation>*48000);
+pulsestilldeathofstars.addFluidOutput(<fluid:otherworldly_tears>*16000);
+pulsestilldeathofstars.addFluidOutput(<fluid:ebb_of_death>*16000);
+pulsestilldeathofstars.addFluidOutput(<fluid:swirl_of_depths>*16000);
+pulsestilldeathofstars.build();
+
+val pulsestillsevenundeadlords = RecipeBuilder.newBuilder("pulsestillsevenundeadlords","phasing_still_pot",5);
+pulsestillsevenundeadlords.addItemInput(<contenttweaker:respect_of_death>);
+pulsestillsevenundeadlords.addFluidInput(<fluid:glimmer_of_the_dying_constellation>*32000);
+pulsestillsevenundeadlords.addFluidInput(<fluid:liquidantimatter>*32000);
+pulsestillsevenundeadlords.addFluidInput(<fluid:chaotic_honey_4>*32000);
+pulsestillsevenundeadlords.addFluidInput(<fluid:infinity>*32000);
+pulsestillsevenundeadlords.addFluidOutput(<fluid:echo_of_the_seven_undead_lords>*48000);
+pulsestillsevenundeadlords.addFluidOutput(<fluid:liquidantimatter>*16000);
+pulsestillsevenundeadlords.addFluidOutput(<fluid:chaotic_honey_4>*16000);
+pulsestillsevenundeadlords.addFluidOutput(<fluid:infinity>*32000);
+pulsestillsevenundeadlords.build();
+
+val pulsestillvoidacceptance = RecipeBuilder.newBuilder("pulsestillvoidacceptance","phasing_still_pot",5);
+pulsestillvoidacceptance.addItemInput(<contenttweaker:fabrial_of_pure_void>);
+pulsestillvoidacceptance.addFluidInput(<fluid:echo_of_the_seven_undead_lords>*8000);
+pulsestillvoidacceptance.addFluidInput(<fluid:glimmer_of_the_dying_constellation>*8000);
+pulsestillvoidacceptance.addFluidInput(<fluid:void_given_focus>*2000);
+pulsestillvoidacceptance.addFluidInput(<fluid:inquiring_protodermis>*2000);
+pulsestillvoidacceptance.addFluidOutput(<fluid:allure_of_the_void>*8000);
+pulsestillvoidacceptance.addFluidOutput(<fluid:void_given_focus>*1000);
+pulsestillvoidacceptance.addFluidOutput(<fluid:inquiring_protodermis>*1000);
+pulsestillvoidacceptance.build();
+
+
+
 
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:oak_spirit>, <bewitchment:empty_jar>, <fluid:oak_spirit>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:spruce_heart>, <bewitchment:empty_jar>, <fluid:spruce_heart>*1000]);
@@ -314,6 +351,7 @@ mods.nuclearcraft.extractor.addRecipe([<bewitchment:otherworldly_tears>, <bewitc
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:heaven_extract>, <bewitchment:empty_jar>, <fluid:heaven_extract>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:stone_ichor>, <bewitchment:empty_jar>, <fluid:stone_ichor>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:bottled_hellfire>, <minecraft:glass_bottle>, <fluid:hellfire>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:birch_soul>, <bewitchment:empty_jar>, <fluid:birch_soul>*1000]);
 
 
 
@@ -327,6 +365,12 @@ mods.nuclearcraft.extractor.addRecipe([<contenttweaker:swirl_depths_bottle>, <mi
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:otherwordly_tears_bottle>, <minecraft:glass_bottle>, <fluid:otherworldly_tears>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:heaven_extract_bottle>, <minecraft:glass_bottle>, <fluid:heaven_extract>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:stone_ichor_bottle>, <minecraft:glass_bottle>, <fluid:stone_ichor>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:tear_of_nature_bottle>, <minecraft:glass_bottle>, <fluid:tear_of_nature>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:ebb_of_death_bottle>, <minecraft:glass_bottle>, <fluid:ebb_of_death>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:droplet_of_wisdom_bottle>, <minecraft:glass_bottle>, <fluid:droplet_of_wisdom>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:essence_of_vitality_bottle>, <minecraft:glass_bottle>, <fluid:essence_of_vitality>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:oak_spirit_bottle>, <minecraft:glass_bottle>, <fluid:oak_spirit>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:oil_of_vitriol_bottle>, <minecraft:glass_bottle>, <fluid:oil_of_vitriol>*1000]);
 
 
 
@@ -348,6 +392,7 @@ mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:oil_of_vitr
 mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:otherworldly_tears>*1000, <bewitchment:otherworldly_tears>]);
 mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:heaven_extract>*1000, <bewitchment:heaven_extract>]);
 mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:stone_ichor>*1000, <bewitchment:stone_ichor>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:birch_soul>*1000, <bewitchment:birch_soul>]);
 
 
 
@@ -361,6 +406,16 @@ mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:swirl_of_d
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:otherworldly_tears>*1000, <contenttweaker:otherwordly_tears_bottle>]);
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:heaven_extract>*1000, <contenttweaker:heaven_extract_bottle>]);
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:stone_ichor>*1000, <contenttweaker:stone_ichor_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:tear_of_nature>*1000, <contenttweaker:tear_of_nature_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:ebb_of_death>*1000, <contenttweaker:ebb_of_death_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:droplet_of_wisdom>*1000, <contenttweaker:droplet_of_wisdom_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:essence_of_vitality>*1000, <contenttweaker:essence_of_vitality_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:oak_spirit>*1000, <contenttweaker:oak_spirit_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:spruce_heart>*1000, <contenttweaker:spruce_heart_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:oil_of_vitriol>*1000, <contenttweaker:oil_of_vitriol_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:birch_soul>*1000, <contenttweaker:birch_soul_bottle>]);
+
+
 
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:pyrotheum>*1000, <contenttweaker:bottle_of_pyrotheum>]);
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:petrotheum>*1000, <contenttweaker:bottle_of_petrotheum>]);

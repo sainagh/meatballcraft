@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWow, you actually went ahead and crafted this! You are crazy!",
+      "desc:8": "§7§oWow, you actually went ahead and crafted this! You are crazy!\n\n§fReality, brought to the forefront, defined.\nIs it possible to describe the entirety of creation with a single word? Well, Probably not. \nThis material, this alloy (if you can call it an alloy), though, seems to share many of the traits I would expect from a of a \u0027universal\u0027 object.\nIt is distinct, and it possesses distinct properties, and yet it encompasses the properties of everything else. Not just a sum of its parts. Neither more or less than a sum of its parts. Just, different, and yet alike.\nLike a gerat and original book drawing inspiration from prior works. You can see the similarities, the echoes, of other things, and yet, it is distinctly unique.\nThe Arbiter was (is?) a genious, likely the smarterst to ever live. I feel humbled and proud to follow in their steps.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:defined_ingot"

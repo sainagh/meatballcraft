@@ -1,0 +1,91 @@
+{
+  "preRequisites:11": [
+    1229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFor the Compacting Cells, these allow to increase the amount of compression and decompression tiers that are allowed by a given Cell.\n\nA 3x card, for example, allows for nugget, ingot, block, and compressed block.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "cells:compression_tier_card"
+      },
+      "name:8": "Compression \u0026 Decompression Card"
+    }
+  },
+  "questID:3": 517488311,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "cells:decompression_tier_card"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "cells:compression_tier_card"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cells:compression_tier_card"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "cells:compression_tier_card"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "cells:compression_tier_card"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "cells:compression_tier_card"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "cells:compression_tier_card"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "cells:decompression_tier_card"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "cells:decompression_tier_card"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "cells:decompression_tier_card"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "cells:decompression_tier_card"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "cells:decompression_tier_card"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

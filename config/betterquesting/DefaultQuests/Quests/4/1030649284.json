@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFor partitioned Storage Buses and Cells, forces incoming items and fluids to be placed directly in the storage with the sticky card.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 61,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Sticky Card"
+    }
+  },
+  "questID:3": 1030649284,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 61,
+          "id:8": "appliedenergistics2:material"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 61,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

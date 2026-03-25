@@ -162,7 +162,7 @@ moltenchaosentropic6.build();
 
 
 
-val catalystbalance0 = RecipeBuilder.newBuilder("catalystbalance0","catalyst_of_balance",20);
+val catalystbalance0 = RecipeBuilder.newBuilder("catalystbalance0","catalyst_of_balance",4);
 catalystbalance0.addEnergyPerTickInput(2000000000);
 catalystbalance0.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
 catalystbalance0.addItemInput(<contenttweaker:ascended_fluix_crystal>);
@@ -172,7 +172,7 @@ catalystbalance0.build();
 
 
 
-val catalystbalance1 = RecipeBuilder.newBuilder("catalystbalance1","catalyst_of_balance",20);
+val catalystbalance1 = RecipeBuilder.newBuilder("catalystbalance1","catalyst_of_balance",4);
 catalystbalance1.addEnergyPerTickInput(2000000000);
 catalystbalance1.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
 catalystbalance1.addItemInput(<aoa3:abyss_tokens>*4);
@@ -185,7 +185,7 @@ catalystbalance1.addItemOutput(<contenttweaker:recursion_of_dimensional_ascensio
 catalystbalance1.build();
 
 
-val catalystbalance2 = RecipeBuilder.newBuilder("catalystbalance2","catalyst_of_balance",20);
+val catalystbalance2 = RecipeBuilder.newBuilder("catalystbalance2","catalyst_of_balance",4);
 catalystbalance2.addEnergyPerTickInput(2000000000);
 catalystbalance2.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell I§r"]}}));
 catalystbalance2.addItemInput(<aoa3:vox_ponds_tokens>*4);
@@ -200,7 +200,7 @@ catalystbalance2.addItemOutput(<contenttweaker:recursion_of_dimensional_ascensio
 catalystbalance2.build();
 
 
-val catalystbalance3 = RecipeBuilder.newBuilder("catalystbalance3","catalyst_of_balance",20);
+val catalystbalance3 = RecipeBuilder.newBuilder("catalystbalance3","catalyst_of_balance",4);
 catalystbalance3.addEnergyPerTickInput(2000000000);
 catalystbalance3.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell II§r"]}}));
 catalystbalance3.addItemInput(<aoa3:runandor_tokens>*4);
@@ -209,7 +209,7 @@ catalystbalance3.addItemInput(<aoa3:borean_tokens>*4);
 catalystbalance3.addItemOutput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell III§r"]}}));
 catalystbalance3.build();
 
-val catalystbalance4 = RecipeBuilder.newBuilder("catalystbalance4","catalyst_of_balance",20);
+val catalystbalance4 = RecipeBuilder.newBuilder("catalystbalance4","catalyst_of_balance",4);
 catalystbalance4.addEnergyPerTickInput(2000000000);
 catalystbalance4.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell III§r"]}}));
 catalystbalance4.addItemInput(<aoa3:dungeon_tokens>*4);
@@ -218,7 +218,7 @@ catalystbalance4.addItemInput(<aoa3:greckon_tokens>*4);
 catalystbalance4.addItemOutput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell IV§r"]}}));
 catalystbalance4.build();
 
-val catalystbalance5 = RecipeBuilder.newBuilder("catalystbalance5","catalyst_of_balance",20);
+val catalystbalance5 = RecipeBuilder.newBuilder("catalystbalance5","catalyst_of_balance",4);
 catalystbalance5.addEnergyPerTickInput(2000000000);
 catalystbalance5.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§oShell IV§r"]}}));
 catalystbalance5.addItemInput(<aoa3:shyrelands_tokens>*4);
@@ -786,7 +786,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_casing>,
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_stem>, 
 
 [[<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
-<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:catalyst_of_universal_balance>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
 <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
 
 [<contenttweaker:adamantium_reinforced_petrified_wood>, <avaritiaitem:cosmic_balance>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
@@ -794,7 +794,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_stem>,
 <contenttweaker:adamantium_reinforced_petrified_wood>, <avaritiaitem:cosmic_balance>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
 
 [<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
-<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:everburning_seed>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:rare_metals_relativistic_condensate>, <contenttweaker:everburning_seed>, <contenttweaker:rare_metals_relativistic_condensate>, 
 <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
 
 [<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
@@ -810,7 +810,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_stem>,
 <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
 
 [<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
-<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:everburning_seed>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:rare_metals_relativistic_condensate>, <contenttweaker:everburning_seed>, <contenttweaker:rare_metals_relativistic_condensate>, 
 <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
 
 [<contenttweaker:adamantium_reinforced_petrified_wood>, <avaritiaitem:cosmic_balance>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
@@ -818,7 +818,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_stem>,
 <contenttweaker:adamantium_reinforced_petrified_wood>, <avaritiaitem:cosmic_balance>, <contenttweaker:adamantium_reinforced_petrified_wood>], 
 
 [<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
-<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
+<contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:catalyst_of_universal_balance>, <contenttweaker:adamantium_reinforced_petrified_wood>, 
 <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>]]);  
 
 
@@ -1130,10 +1130,6 @@ mods.thaumcraft.Infusion.registerRecipe("infsummonstwilithero", "",
 <avaritiaitem:cosmic_fractal_catalyzer>, <contenttweaker:twilight_diamond>]);
 
 
-recipes.addShaped(<contenttweaker:hopebringer_crystal>*8,
-[[<contenttweaker:harbinger_crystal>, <contenttweaker:harbinger_crystal>, <contenttweaker:harbinger_crystal>],
-[<contenttweaker:harbinger_crystal>, <contenttweaker:unforgotten_summons>.reuse(), <contenttweaker:harbinger_crystal>],
-[<contenttweaker:harbinger_crystal>, <contenttweaker:harbinger_crystal>, <contenttweaker:harbinger_crystal>]]);
 
 
 val fracfurhopebringermetal = RecipeBuilder.newBuilder("fracfurhopebringermetal","fractallite_furnace",10);
@@ -1199,9 +1195,18 @@ voidgivenform.addItemInput(<avaritia:infinity_helmet>);
 voidgivenform.addItemInput(<avaritia:infinity_chestplate>);
 voidgivenform.addItemInput(<avaritia:infinity_pants>);
 voidgivenform.addItemInput(<avaritia:infinity_boots>);
-voidgivenform.addFluidInput(<fluid:nothing>*10000);
-voidgivenform.addFluidOutput(<fluid:void_given_focus>*10000);
+voidgivenform.addFluidInput(<fluid:nothing>*20000);
+voidgivenform.addFluidOutput(<fluid:void_given_focus>*20000);
 voidgivenform.build();
+
+val distillatelevity = RecipeBuilder.newBuilder("distillatelevity","abyssal_entropic_catalyzer",2);
+distillatelevity.addItemInput(<contenttweaker:cuendillar_primer>);
+distillatelevity.addItemInput(<minecraft:bedrock>);
+distillatelevity.addFluidInput(<fluid:vapor_of_levity>*1000);
+distillatelevity.addFluidOutput(<fluid:distillate_of_levity>*16000);
+distillatelevity.build();
+
+
 
 
 

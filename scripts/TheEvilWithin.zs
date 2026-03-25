@@ -85,22 +85,44 @@ recipes.addShaped(<draconicevolution:draconic_spawner>.withTag({BCTileData: {BCM
 
 
 
-val spatcrucinsanity = RecipeBuilder.newBuilder("spatcrucinsanity","spatial_crucible",20);
-spatcrucinsanity.addEnergyPerTickInput(100000);
-spatcrucinsanity.addItemInput(<contenttweaker:clausurae>);
-spatcrucinsanity.addFluidOutput(<fluid:hint_of_insanity>*4000);
-spatcrucinsanity.build();
+val spatcrucinsanity1 = RecipeBuilder.newBuilder("spatcrucinsanity1","spatial_crucible",20);
+spatcrucinsanity1.addEnergyPerTickInput(100000);
+spatcrucinsanity1.addItemInput(<contenttweaker:clausurae>);
+spatcrucinsanity1.addFluidOutput(<fluid:hint_of_insanity>*4000);
+spatcrucinsanity1.build();
 
 recipes.addShaped(<contenttweaker:finis>*4,
 [[<contenttweaker:clausurae>, <contenttweaker:sentient_meatball>, <contenttweaker:clausurae>],
 [<contenttweaker:sentient_meatball>, <contenttweaker:staff_of_the_lord_of_gluttony>.reuse(), <contenttweaker:sentient_meatball>],
 [<contenttweaker:clausurae>, <contenttweaker:sentient_meatball>, <contenttweaker:clausurae>]]);
 
-val spatcrucinsanitybetter = RecipeBuilder.newBuilder("spatcrucinsanitybetter","spatial_crucible",10);
-spatcrucinsanitybetter.addEnergyPerTickInput(100000);
-spatcrucinsanitybetter.addItemInput(<contenttweaker:finis>);
-spatcrucinsanitybetter.addFluidOutput(<fluid:hint_of_insanity>*32000);
-spatcrucinsanitybetter.build();
+val spatcrucinsanity2 = RecipeBuilder.newBuilder("spatcrucinsanity2","spatial_crucible",10);
+spatcrucinsanity2.addEnergyPerTickInput(100000);
+spatcrucinsanity2.addFluidInput(<fluid:liquid_death>*10);
+spatcrucinsanity2.addItemInput(<contenttweaker:finis>);
+spatcrucinsanity2.addFluidOutput(<fluid:hint_of_insanity>*32000);
+spatcrucinsanity2.build();
+
+val spatcrucinsanity3 = RecipeBuilder.newBuilder("spatcrucinsanity3","spatial_crucible",10);
+spatcrucinsanity3.addEnergyPerTickInput(100000);
+spatcrucinsanity3.addFluidInput(<fluid:glimmer_of_the_dying_constellation>*2000);
+spatcrucinsanity3.addItemInput(<contenttweaker:finis>);
+spatcrucinsanity3.addFluidOutput(<fluid:hint_of_insanity>*128000);
+spatcrucinsanity3.build();
+
+val spatcrucinsanity4 = RecipeBuilder.newBuilder("spatcrucinsanity4","spatial_crucible",10);
+spatcrucinsanity4.addEnergyPerTickInput(100000);
+spatcrucinsanity4.addFluidInput(<fluid:echo_of_the_seven_undead_lords>*2000);
+spatcrucinsanity4.addItemInput(<contenttweaker:finis>);
+spatcrucinsanity4.addFluidOutput(<fluid:hint_of_insanity>*512000);
+spatcrucinsanity4.build();
+
+val spatcrucinsanity5 = RecipeBuilder.newBuilder("spatcrucinsanity5","spatial_crucible",10);
+spatcrucinsanity5.addEnergyPerTickInput(100000);
+spatcrucinsanity5.addFluidInput(<fluid:allure_of_the_void>*2000);
+spatcrucinsanity5.addItemInput(<contenttweaker:finis>);
+spatcrucinsanity5.addFluidOutput(<fluid:hint_of_insanity>*2048000);
+spatcrucinsanity5.build();
 
 
 val twilightdivineiron = RecipeBuilder.newBuilder("twilightdivineiron","carminite_empowerer",20);
@@ -111,27 +133,99 @@ twilightdivineiron.addItemOutput(<contenttweaker:divine_ironwood_ingot>);
 twilightdivineiron.build();
 
 
-val spatcrucdivinity = RecipeBuilder.newBuilder("spatcrucdivinity","spatial_crucible",20);
-spatcrucdivinity.addEnergyPerTickInput(100000);
-spatcrucdivinity.addItemInput(<divinerpg:divine_stone>);
-spatcrucdivinity.addItemInput(<aoa3:gold_coin>*2);
-spatcrucdivinity.addItemInput(<aoa3:silver_coin>*8);
-spatcrucdivinity.addItemInput(<contenttweaker:divine_ironwood_ingot>);
-spatcrucdivinity.addFluidOutput(<fluid:hint_of_divinity>*4000);
-spatcrucdivinity.build();
+val spatcrucdivinity1 = RecipeBuilder.newBuilder("spatcrucdivinity1","spatial_crucible",20);
+spatcrucdivinity1.addEnergyPerTickInput(100000);
+spatcrucdivinity1.addItemInput(<divinerpg:divine_stone>);
+spatcrucdivinity1.addItemInput(<aoa3:gold_coin>*2);
+spatcrucdivinity1.addItemInput(<aoa3:silver_coin>*8);
+spatcrucdivinity1.addItemInput(<contenttweaker:divine_ironwood_ingot>);
+spatcrucdivinity1.addFluidOutput(<fluid:hint_of_divinity>*4000);
+spatcrucdivinity1.build();
 
 recipes.addShaped(<contenttweaker:token_of_the_meatball_man>,
 [[<aoa3:gold_coin>, <contenttweaker:sentient_meatball>, <aoa3:gold_coin>],
 [<contenttweaker:sentient_meatball>, <contenttweaker:staff_of_the_lord_of_gluttony>.reuse(), <contenttweaker:sentient_meatball>],
 [<aoa3:gold_coin>, <contenttweaker:sentient_meatball>, <aoa3:gold_coin>]]);
 
-val spatcrucdivinitybetter = RecipeBuilder.newBuilder("spatcrucdivinitybetter","spatial_crucible",10);
-spatcrucdivinitybetter.addEnergyPerTickInput(500000000);
-spatcrucdivinitybetter.addItemInput(<divinerpg:divine_stone>);
-spatcrucdivinitybetter.addItemInput(<contenttweaker:token_of_the_meatball_man>*8);
-spatcrucdivinitybetter.addItemInput(<contenttweaker:divine_ironwood_ingot>);
-spatcrucdivinitybetter.addFluidOutput(<fluid:hint_of_divinity>*32000);
-spatcrucdivinitybetter.build();
+
+
+val spatcrucdivinity2 = RecipeBuilder.newBuilder("spatcrucdivinity2","spatial_crucible",10);
+spatcrucdivinity2.addEnergyPerTickInput(500000000);
+spatcrucdivinity2.addItemInput(<divinerpg:divine_stone>);
+spatcrucdivinity2.addItemInput(<contenttweaker:token_of_the_meatball_man>*8);
+spatcrucdivinity2.addItemInput(<contenttweaker:divine_ironwood_ingot>);
+spatcrucdivinity2.addFluidOutput(<fluid:hint_of_divinity>*32000);
+spatcrucdivinity2.build();
+
+
+recipes.addShaped(<contenttweaker:stone_of_the_divine_love>,
+[[<divinerpg:arcanium_block>, <contenttweaker:trinity_nugget>, <divinerpg:arcanium_block>],
+[<contenttweaker:trinity_nugget>, <divinerpg:divine_stone>, <contenttweaker:trinity_nugget>],
+[<divinerpg:arcanium_block>, <contenttweaker:trinity_nugget>, <divinerpg:arcanium_block>]]);
+
+val spatcrucdivinity3 = RecipeBuilder.newBuilder("spatcrucdivinity3","spatial_crucible",10);
+spatcrucdivinity3.addEnergyPerTickInput(500000000);
+spatcrucdivinity3.addItemInput(<contenttweaker:stone_of_the_divine_love>);
+spatcrucdivinity3.addItemInput(<contenttweaker:token_of_the_meatball_man>*12);
+spatcrucdivinity3.addItemInput(<contenttweaker:divine_ironwood_ingot>*2);
+spatcrucdivinity3.addFluidOutput(<fluid:hint_of_divinity>*64000);
+spatcrucdivinity3.build();
+
+recipes.addShaped(<contenttweaker:stone_of_natural_might>*2,
+[[<botania:storage:1>, <contenttweaker:dust_of_infinite_wishes>, <botania:storage:1>],
+[<contenttweaker:stone_of_the_divine_love>, <contenttweaker:rune_of_valhalla>.reuse(), <contenttweaker:stone_of_the_divine_love>],
+[<botania:storage:1>, <contenttweaker:dust_of_infinite_wishes>, <botania:storage:1>]]);
+
+
+val spatcrucdivinity4 = RecipeBuilder.newBuilder("spatcrucdivinity4","spatial_crucible",10);
+spatcrucdivinity4.addEnergyPerTickInput(500000000);
+spatcrucdivinity4.addItemInput(<contenttweaker:stone_of_natural_might>);
+spatcrucdivinity4.addItemInput(<contenttweaker:token_of_the_meatball_man>*18);
+spatcrucdivinity4.addItemInput(<contenttweaker:divine_ironwood_ingot>*4);
+spatcrucdivinity4.addFluidOutput(<fluid:hint_of_divinity>*128000);
+spatcrucdivinity4.build();
+
+recipes.addShaped(<contenttweaker:stone_of_infinite_creativity>,
+[[<contenttweaker:solid_high_grade_space_time_fuel>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:solid_high_grade_space_time_fuel>],
+[<contenttweaker:scale_of_rahk>, <contenttweaker:stone_of_natural_might>, <contenttweaker:scale_of_rahk>],
+[<contenttweaker:solid_high_grade_space_time_fuel>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:solid_high_grade_space_time_fuel>]]);
+
+
+val spatcrucdivinity5 = RecipeBuilder.newBuilder("spatcrucdivinity5","spatial_crucible",10);
+spatcrucdivinity5.addEnergyPerTickInput(500000000);
+spatcrucdivinity5.addItemInput(<contenttweaker:stone_of_infinite_creativity>);
+spatcrucdivinity5.addItemInput(<contenttweaker:token_of_the_meatball_man>*24);
+spatcrucdivinity5.addItemInput(<contenttweaker:divine_ironwood_ingot>*6);
+spatcrucdivinity5.addFluidOutput(<fluid:hint_of_divinity>*256000);
+spatcrucdivinity5.build();
+
+recipes.addShaped(<contenttweaker:stone_of_endowed_free_will>,
+[[<contenttweaker:pure_void>, <forge:bucketfilled>.withTag({FluidName: "neutrhassium_alloy", Amount: 1000}), <contenttweaker:pure_void>],
+[<contenttweaker:hopebringer_crystal>, <contenttweaker:stone_of_infinite_creativity>, <contenttweaker:hopebringer_crystal>],
+[<contenttweaker:pure_void>, <forge:bucketfilled>.withTag({FluidName: "neutrhassium_alloy", Amount: 1000}), <contenttweaker:pure_void>]]);
+
+
+val spatcrucdivinity6 = RecipeBuilder.newBuilder("spatcrucdivinity6","spatial_crucible",10);
+spatcrucdivinity6.addEnergyPerTickInput(500000000);
+spatcrucdivinity6.addItemInput(<contenttweaker:stone_of_endowed_free_will>);
+spatcrucdivinity6.addItemInput(<contenttweaker:token_of_the_meatball_man>*32);
+spatcrucdivinity6.addItemInput(<contenttweaker:divine_ironwood_ingot>*10);
+spatcrucdivinity6.addFluidOutput(<fluid:hint_of_divinity>*512000);
+spatcrucdivinity6.build();
+
+recipes.addShaped(<contenttweaker:stone_of_boundless_curiosity>,
+[[<avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:astral_insight_10>, <avaritiaitem:fractallite_halite_catalyst>],
+[<thaumcraft:curio:1>, <contenttweaker:stone_of_endowed_free_will>, <thaumcraft:curio:1>],
+[<avaritiaitem:fractallite_halite_catalyst>, <contenttweaker:astral_insight_10>, <avaritiaitem:fractallite_halite_catalyst>]]);
+
+
+val spatcrucdivinity7 = RecipeBuilder.newBuilder("spatcrucdivinity7","spatial_crucible",10);
+spatcrucdivinity7.addEnergyPerTickInput(500000000);
+spatcrucdivinity7.addItemInput(<contenttweaker:stone_of_boundless_curiosity>);
+spatcrucdivinity7.addItemInput(<contenttweaker:token_of_the_meatball_man>*40);
+spatcrucdivinity7.addItemInput(<contenttweaker:divine_ironwood_ingot>*16);
+spatcrucdivinity7.addFluidOutput(<fluid:hint_of_divinity>*1024000);
+spatcrucdivinity7.build();
 
 
 mods.thermalexpansion.Enchanter.addRecipe(<contenttweaker:polonium_encrusted_egg>, <contenttweaker:vox_ponds_garnet>, <contenttweaker:polonium_egg>, 1000, 1, false);

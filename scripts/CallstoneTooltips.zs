@@ -87,7 +87,7 @@
 <contenttweaker:lucky_box_aether_gold>.addTooltip(format.red("Use in this dimension:  Overworld"));
 <contenttweaker:lucky_box_twilight_books>.addTooltip(format.red("Use in this dimension:  Overworld"));
 <contenttweaker:lucky_box_twilight_weapons>.addTooltip(format.red("Use in this dimension:  Overworld"));
-<contenttweaker:dread_cleansing_callstone>.addTooltip(format.red("Use in this dimension:  Bedrock Dimension"));
+<contenttweaker:dread_cleansing_callstone>.addTooltip(format.red("Use in this dimension:  Emptiness"));
 <contenttweaker:guardians_of_shadesmar_callstone>.addTooltip(format.red("Use in this dimension:  Kashan"));
 <contenttweaker:trinitas_callstone>.addTooltip(format.red("Use in this dimension:  Trinitas"));
 <contenttweaker:tainted_prison_key>.addTooltip(format.red("Use in this dimension:  Fuhai"));
