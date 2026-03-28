@@ -133,10 +133,10 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:bionic_construct>.addTooltip(format.green("可重复使用"));
 
 <contenttweaker:chunk_of_infinite_wishes>.addTooltip(format.red("泰拉粉碎者的等级越高，掉落物的数量就越多"));
-<contenttweaker:chunk_of_infinite_wishes>.addTooltip(format.red("Max with Dragon Scale: 8"));
-<contenttweaker:chunk_of_infinite_wishes>.addTooltip(format.red("Max with Eleint Scale: 12"));
-<contenttweaker:chunk_of_infinite_wishes>.addTooltip(format.red("Max with Aspected Eleint Scale: 24"));
-<contenttweaker:chunk_of_infinite_wishes>.addTooltip(format.red("Max with Scale of Rahk: 48"));
+<contenttweaker:chunk_of_infinite_wishes>.addTooltip(format.red("搭配龙鳞的产出上限：8"));
+<contenttweaker:chunk_of_infinite_wishes>.addTooltip(format.red("搭配伊莱鳞片的产出上限：12"));
+<contenttweaker:chunk_of_infinite_wishes>.addTooltip(format.red("搭配面相伊莱鳞片的产出上限：24"));
+<contenttweaker:chunk_of_infinite_wishes>.addTooltip(format.red("搭配Rahk鳞片的产出上限：48"));
 <contenttweaker:chunk_of_infinite_wishes>.addTooltip(format.red("使用循环装配台进行自动化"));
 
 
