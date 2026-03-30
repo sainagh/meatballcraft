@@ -537,7 +537,7 @@
 <contenttweaker:balanced_machine_casing>.addTooltip(format.aqua("  电弧反应堆"));
 <contenttweaker:balanced_machine_casing>.addTooltip(format.white("    物品/流体产出x256"));
 
-<contenttweaker:vibrating_stone>.addTooltip(format.gray("Found on Vibe"));
+<contenttweaker:vibrating_stone>.addTooltip(format.gray("发现于谐律界"));
 <contenttweaker:vibrating_stone>.addTooltip(format.gold("多方块升级："));
 <contenttweaker:vibrating_stone>.addTooltip(format.aqua("  源质结晶器"));
 <contenttweaker:vibrating_stone>.addTooltip(format.white("     物品/流体产出x4"));
