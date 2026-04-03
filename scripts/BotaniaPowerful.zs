@@ -27,3 +27,5 @@ recipes.addShaped(<extrabotany:rewardbag943>*2,
 [[null, <botania:manaresource:4>, null],
 [<contenttweaker:greater_mana_core>, <botania:dice>, <contenttweaker:greater_mana_core>],
 [null, <botania:rune:15>, null]]);
+
+mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:living_gold_ore>, <contenttweaker:living_gold>*16]);

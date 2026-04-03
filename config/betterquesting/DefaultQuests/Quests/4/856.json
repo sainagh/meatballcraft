@@ -4,31 +4,47 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o不推荐使用该设备！\n\n缓存指令器可将网络中的指定物品和流体维持在指定数量，其功能相当于将多个制作卡片整合于一体。",
+      "desc:8": "§7§o注意：不推荐在主网络中使用该设备，但在小型子网络中很有用！\n\n查看\u0027被动式合成子网\u0027的指南以获取更多信息。\n\n缓存指令器可将网络中的指定物品和流体维持在指定数量，其功能相当于将多个制作卡片整合于一体。",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 4,
-        "id:8": "threng:machine"
+        "id:8": "ae2powertools:better_level_maintainer"
       },
       "name:8": "ME缓存指令器"
     }
   },
   "questID:3": 856,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2powertools:better_level_maintainer"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 4,
-          "id:8": "threng:machine"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "id:8": "ae2fc:fluid_level_maintainer"
+          "id:8": "ae2powertools:better_level_maintainer"
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:passive_crafting_subnets"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

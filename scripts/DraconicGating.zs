@@ -1,3 +1,12 @@
+import mods.modularmachinery.RecipeBuilder;
+
+
+
+
+
+
+
+
 recipes.removeShaped(<draconicevolution:crafting_injector:0>);
 
 recipes.addShaped(<draconicevolution:crafting_injector:0>,
@@ -218,10 +227,6 @@ mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:draconic_core>,
 [<extendedcrafting:material:24>, <divinerpg:corrupted_stone>, <extendedcrafting:material:24>], 
 [<draconicevolution:draconium_block>, <extendedcrafting:material:24>, <draconicevolution:draconium_block>]]);  
 
-mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:draconic_core>*16, 
-[[<draconicevolution:draconium_block>, <extendedcrafting:material:24>, <draconicevolution:draconium_block>], 
-[<contenttweaker:eye_of_gallifrey>, <divinerpg:corrupted_stone>, <contenttweaker:eye_of_gallifrey>], 
-[<draconicevolution:draconium_block>, <extendedcrafting:material:24>, <draconicevolution:draconium_block>]]);  
 
 recipes.removeShaped(<draconicevolution:wyvern_core>);
 
@@ -312,5 +317,218 @@ recipes.addShaped(<contenttweaker:draconian_boots_core>,
 [[<contenttweaker:headstone>, null, <contenttweaker:headstone>],
 [<enderio:block_alloy_endergy:3>, null, <enderio:block_alloy_endergy:3>],
 [null, null, null]]);
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:awakened_core>, 
+[[<draconicevolution:draconic_ingot>, <ore:ingotRealmite>, <ore:ingotRealmite>, <ore:ingotRealmite>, <contenttweaker:awakened_mithril_alloy>, <ore:ingotRealmite>, <ore:ingotRealmite>, <ore:ingotRealmite>, <draconicevolution:draconic_ingot>], 
+[<ore:ingotRealmite>, null, null, null, <aoa3:runium_chunk>, null, null, null, <ore:ingotRealmite>], 
+[<ore:ingotRealmite>, null, <minecraft:nether_star>, null, <draconicevolution:wyvern_core>, null, <minecraft:nether_star>, null, <ore:ingotRealmite>], 
+[<ore:ingotRealmite>, null, null, <divinerpg:shadow_bar>, <aoa3:runium_chunk>, <divinerpg:shadow_bar>, null, null, <ore:ingotRealmite>], 
+[<contenttweaker:awakened_mithril_alloy>, <aoa3:runium_chunk>, <draconicevolution:wyvern_core>, <aoa3:runium_chunk>, null, <aoa3:runium_chunk>, <draconicevolution:wyvern_core>, <aoa3:runium_chunk>, <contenttweaker:awakened_mithril_alloy>], 
+[<ore:ingotRealmite>, null, null, <divinerpg:shadow_bar>, <aoa3:runium_chunk>, <divinerpg:shadow_bar>, null, null, <ore:ingotRealmite>], 
+[<ore:ingotRealmite>, null, <minecraft:nether_star>, null, <draconicevolution:wyvern_core>, null, <minecraft:nether_star>, null, <ore:ingotRealmite>], 
+[<ore:ingotRealmite>, null, null, null, <aoa3:runium_chunk>, null, null, null, <ore:ingotRealmite>], 
+[<draconicevolution:draconic_ingot>, <ore:ingotRealmite>, <ore:ingotRealmite>, <ore:ingotRealmite>, <contenttweaker:awakened_mithril_alloy>, <ore:ingotRealmite>, <ore:ingotRealmite>, <ore:ingotRealmite>, <draconicevolution:draconic_ingot>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:awakened_core>*4, 
+[[<draconicevolution:draconic_ingot>, <ore:ingotRealmite>, <ore:ingotRealmite>, <contenttweaker:awakened_mithril_alloy>, <contenttweaker:awakened_mithril_alloy>, <contenttweaker:awakened_mithril_alloy>, <ore:ingotRealmite>, <ore:ingotRealmite>, <draconicevolution:draconic_ingot>], 
+[<ore:ingotRealmite>, null, null, null, <draconicevolution:wyvern_core>, null, null, null, <ore:ingotRealmite>], 
+[<ore:ingotRealmite>, null, <minecraft:nether_star>, null, <aoa3:runium_chunk>, null, <minecraft:nether_star>, null, <ore:ingotRealmite>], 
+[<ore:ingotRealmite>, null, null, <divinerpg:shadow_bar>, <draconicevolution:wyvern_core>, <divinerpg:shadow_bar>, null, null, <ore:ingotRealmite>], 
+[<contenttweaker:awakened_mithril_alloy>, <draconicevolution:wyvern_core>, <aoa3:runium_chunk>, <draconicevolution:wyvern_core>, <contenttweaker:recursive_feather>, <draconicevolution:wyvern_core>, <aoa3:runium_chunk>, <draconicevolution:wyvern_core>, <contenttweaker:awakened_mithril_alloy>], 
+[<ore:ingotRealmite>, null, null, <divinerpg:shadow_bar>, <draconicevolution:wyvern_core>, <divinerpg:shadow_bar>, null, null, <ore:ingotRealmite>], 
+[<ore:ingotRealmite>, null, <minecraft:nether_star>, null, <aoa3:runium_chunk>, null, <minecraft:nether_star>, null, <ore:ingotRealmite>], 
+[<ore:ingotRealmite>, null, null, null, <draconicevolution:wyvern_core>, null, null, null, <ore:ingotRealmite>], 
+[<draconicevolution:draconic_ingot>, <ore:ingotRealmite>, <ore:ingotRealmite>, <contenttweaker:awakened_mithril_alloy>, <contenttweaker:awakened_mithril_alloy>, <contenttweaker:awakened_mithril_alloy>, <ore:ingotRealmite>, <ore:ingotRealmite>, <draconicevolution:draconic_ingot>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:awakened_core>*16, 
+[[<draconicevolution:draconic_block>, <ore:ingotRealmite>, <ore:ingotRealmite>, <contenttweaker:awakened_mithril_alloy>, <contenttweaker:awakened_mithril_alloy>, <contenttweaker:awakened_mithril_alloy>, <ore:ingotRealmite>, <ore:ingotRealmite>, <draconicevolution:draconic_block>], 
+[<ore:ingotRealmite>, null, null, null, <contenttweaker:wyvern_fulcrum>, null, null, null, <ore:ingotRealmite>], 
+[<ore:ingotRealmite>, null, <minecraft:nether_star>, null, <aoa3:runium_chunk>, null, <minecraft:nether_star>, null, <ore:ingotRealmite>], 
+[<contenttweaker:awakened_mithril_alloy>, null, null, <divinerpg:shadow_bar>, <contenttweaker:wyvern_fulcrum>, <divinerpg:shadow_bar>, null, null, <contenttweaker:awakened_mithril_alloy>], 
+[<contenttweaker:awakened_mithril_alloy>, <contenttweaker:wyvern_fulcrum>, <aoa3:runium_chunk>, <contenttweaker:wyvern_fulcrum>, <contenttweaker:eye_of_gallifrey>, <contenttweaker:wyvern_fulcrum>, <aoa3:runium_chunk>, <contenttweaker:wyvern_fulcrum>, <contenttweaker:awakened_mithril_alloy>], 
+[<contenttweaker:awakened_mithril_alloy>, null, null, <divinerpg:shadow_bar>, <contenttweaker:wyvern_fulcrum>, <divinerpg:shadow_bar>, null, null, <contenttweaker:awakened_mithril_alloy>], 
+[<ore:ingotRealmite>, null, <minecraft:nether_star>, null, <aoa3:runium_chunk>, null, <minecraft:nether_star>, null, <ore:ingotRealmite>], 
+[<ore:ingotRealmite>, null, null, null, <contenttweaker:wyvern_fulcrum>, null, null, null, <ore:ingotRealmite>], 
+[<draconicevolution:draconic_block>, <ore:ingotRealmite>, <ore:ingotRealmite>, <contenttweaker:awakened_mithril_alloy>, <contenttweaker:awakened_mithril_alloy>, <contenttweaker:awakened_mithril_alloy>, <ore:ingotRealmite>, <ore:ingotRealmite>, <draconicevolution:draconic_block>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:awakened_core>*64, 
+[[<draconicevolution:draconic_block>, <contenttweaker:awakened_mithril_alloy>, <ore:ingotRealmite>, <contenttweaker:awakened_mithril_alloy>, <contenttweaker:awakened_mithril_alloy>, <contenttweaker:awakened_mithril_alloy>, <ore:ingotRealmite>, <contenttweaker:awakened_mithril_alloy>, <draconicevolution:draconic_block>], 
+[<contenttweaker:awakened_mithril_alloy>, <contenttweaker:wyvern_fulcrum>, null, null, <contenttweaker:wyvern_fulcrum>, null, null, <contenttweaker:wyvern_fulcrum>, <contenttweaker:awakened_mithril_alloy>], 
+[<ore:ingotRealmite>, null, <minecraft:nether_star>, null, <contenttweaker:wyvern_fulcrum>, null, <minecraft:nether_star>, null, <ore:ingotRealmite>], 
+[<contenttweaker:awakened_mithril_alloy>, null, null, <divinerpg:shadow_bar>, <contenttweaker:wyvern_fulcrum>, <divinerpg:shadow_bar>, null, null, <contenttweaker:awakened_mithril_alloy>], 
+[<contenttweaker:awakened_mithril_alloy>, <contenttweaker:wyvern_fulcrum>, <contenttweaker:wyvern_fulcrum>, <contenttweaker:wyvern_fulcrum>, <contenttweaker:opalescent_matter>, <contenttweaker:wyvern_fulcrum>, <contenttweaker:wyvern_fulcrum>, <contenttweaker:wyvern_fulcrum>, <contenttweaker:awakened_mithril_alloy>], 
+[<contenttweaker:awakened_mithril_alloy>, null, null, <divinerpg:shadow_bar>, <contenttweaker:wyvern_fulcrum>, <divinerpg:shadow_bar>, null, null, <contenttweaker:awakened_mithril_alloy>], 
+[<ore:ingotRealmite>, null, <minecraft:nether_star>, null, <contenttweaker:wyvern_fulcrum>, null, <minecraft:nether_star>, null, <ore:ingotRealmite>], 
+[<contenttweaker:awakened_mithril_alloy>, <contenttweaker:wyvern_fulcrum>, null, null, <contenttweaker:wyvern_fulcrum>, null, null, <contenttweaker:wyvern_fulcrum>, <contenttweaker:awakened_mithril_alloy>], 
+[<draconicevolution:draconic_block>, <contenttweaker:awakened_mithril_alloy>, <ore:ingotRealmite>, <contenttweaker:awakened_mithril_alloy>, <contenttweaker:awakened_mithril_alloy>, <contenttweaker:awakened_mithril_alloy>, <ore:ingotRealmite>, <contenttweaker:awakened_mithril_alloy>, <draconicevolution:draconic_block>]]);  
+
+
+recipes.addShaped(<contenttweaker:megelium_draconium_stone>,
+[[<draconicevolution:chaos_shard:0>, <contenttweaker:meteoric_draconic_stone>, <draconicevolution:chaos_shard:0>],
+[<bnkrblks:megelium_stone>, <contenttweaker:charged_draconium_block>, <bnkrblks:megelium_stone>],
+[<draconicevolution:chaos_shard:0>, <contenttweaker:meteoric_draconic_stone>, <draconicevolution:chaos_shard:0>]]);
+
+
+
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:chaotic_core>, 
+[[<contenttweaker:chaotic_mithril_alloy>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <draconicevolution:draconic_ingot>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <contenttweaker:chaotic_mithril_alloy>], 
+[<divinerpg:shadow_bar>, <ore:ingotDarkSteel>, null, null, null, null, null, <ore:ingotDarkSteel>, <divinerpg:shadow_bar>], 
+[<divinerpg:shadow_bar>, null, <ore:ingotDarkSteel>, null, null, null, <ore:ingotDarkSteel>, null, <divinerpg:shadow_bar>], 
+[<divinerpg:shadow_bar>, null, null, <draconicevolution:awakened_core>, null, <draconicevolution:awakened_core>, null, null, <divinerpg:shadow_bar>], 
+[<draconicevolution:draconic_ingot>, null, null, null, <draconicevolution:chaos_shard:0>, null, null, null, <draconicevolution:draconic_ingot>], 
+[<divinerpg:shadow_bar>, null, null, <draconicevolution:awakened_core>, null, <draconicevolution:awakened_core>, null, null, <divinerpg:shadow_bar>], 
+[<divinerpg:shadow_bar>, null, <ore:ingotDarkSteel>, null, null, null, <ore:ingotDarkSteel>, null, <divinerpg:shadow_bar>], 
+[<divinerpg:shadow_bar>, <ore:ingotDarkSteel>, null, null, null, null, null, <ore:ingotDarkSteel>, <divinerpg:shadow_bar>], 
+[<contenttweaker:chaotic_mithril_alloy>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <draconicevolution:draconic_ingot>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <contenttweaker:chaotic_mithril_alloy>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:chaotic_core>*4, 
+[[<contenttweaker:chaotic_mithril_alloy>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <draconicevolution:draconic_ingot>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <contenttweaker:chaotic_mithril_alloy>], 
+[<contenttweaker:chaotic_mithril_alloy>, <draconicevolution:awakened_core>, null, null, <draconicevolution:chaos_shard:0>, null, null, <draconicevolution:awakened_core>, <contenttweaker:chaotic_mithril_alloy>], 
+[<divinerpg:shadow_bar>, null, <ore:ingotDarkSteel>, null, null, null, <ore:ingotDarkSteel>, null, <divinerpg:shadow_bar>], 
+[<divinerpg:shadow_bar>, null, null, <draconicevolution:awakened_core>, null, <draconicevolution:awakened_core>, null, null, <divinerpg:shadow_bar>], 
+[<draconicevolution:draconic_ingot>, null, null, null, <contenttweaker:infinity_fragment>, null, null, null, <draconicevolution:draconic_ingot>], 
+[<divinerpg:shadow_bar>, null, null, <draconicevolution:awakened_core>, null, <draconicevolution:awakened_core>, null, null, <divinerpg:shadow_bar>], 
+[<divinerpg:shadow_bar>, null, <ore:ingotDarkSteel>, null, null, null, <ore:ingotDarkSteel>, null, <divinerpg:shadow_bar>], 
+[<contenttweaker:chaotic_mithril_alloy>, <draconicevolution:awakened_core>, null, null, <draconicevolution:chaos_shard:0>, null, null, <draconicevolution:awakened_core>, <contenttweaker:chaotic_mithril_alloy>], 
+[<contenttweaker:chaotic_mithril_alloy>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <draconicevolution:draconic_ingot>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <contenttweaker:chaotic_mithril_alloy>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:chaotic_core>*8, 
+[[<contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <draconicevolution:draconic_block>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>], 
+[<contenttweaker:chaotic_mithril_alloy>, <ore:ingotDarkSteel>, null, null, <draconicevolution:chaos_shard:0>, null, null, <ore:ingotDarkSteel>, <contenttweaker:chaotic_mithril_alloy>], 
+[<divinerpg:shadow_bar>, null, <contenttweaker:awakened_fulcrum>, null, null, null, <contenttweaker:awakened_fulcrum>, null, <divinerpg:shadow_bar>], 
+[<divinerpg:shadow_bar>, null, null, <ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>, null, null, <divinerpg:shadow_bar>], 
+[<draconicevolution:draconic_block>, <draconicevolution:chaos_shard:0>, null, null, <avaritiaitem:self_actualizing_stone>, null, null, <draconicevolution:chaos_shard:0>, <draconicevolution:draconic_block>], 
+[<divinerpg:shadow_bar>, null, null, <ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>, null, null, <divinerpg:shadow_bar>], 
+[<divinerpg:shadow_bar>, null, <contenttweaker:awakened_fulcrum>, null, null, null, <contenttweaker:awakened_fulcrum>, null, <divinerpg:shadow_bar>], 
+[<contenttweaker:chaotic_mithril_alloy>, <ore:ingotDarkSteel>, null, null, <draconicevolution:chaos_shard:0>, null, null, <ore:ingotDarkSteel>, <contenttweaker:chaotic_mithril_alloy>], 
+[<contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <draconicevolution:draconic_block>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:chaotic_core>*16, 
+[[<contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <draconicevolution:draconic_block>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>], 
+[<contenttweaker:chaotic_mithril_alloy>, <ore:ingotDarkSteel>, null, null, <contenttweaker:awakened_fulcrum>, null, null, <ore:ingotDarkSteel>, <contenttweaker:chaotic_mithril_alloy>], 
+[<contenttweaker:chaotic_mithril_alloy>, null, <contenttweaker:awakened_fulcrum>, null, null, null, <contenttweaker:awakened_fulcrum>, null, <contenttweaker:chaotic_mithril_alloy>], 
+[<divinerpg:shadow_bar>, <draconicevolution:chaos_shard:0>, null, <ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>, null, <draconicevolution:chaos_shard:0>, <divinerpg:shadow_bar>], 
+[<draconicevolution:draconic_block>, <contenttweaker:dust_of_infinite_wishes>, <draconicevolution:chaos_shard:0>, null, <avaritiaitem:self_actualizing_stone>, null, <draconicevolution:chaos_shard:0>, <contenttweaker:dust_of_infinite_wishes>, <draconicevolution:draconic_block>], 
+[<divinerpg:shadow_bar>, <draconicevolution:chaos_shard:0>, null, <ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>, null, <draconicevolution:chaos_shard:0>, <divinerpg:shadow_bar>], 
+[<contenttweaker:chaotic_mithril_alloy>, null, <contenttweaker:awakened_fulcrum>, null, null, null, <contenttweaker:awakened_fulcrum>, null, <contenttweaker:chaotic_mithril_alloy>], 
+[<contenttweaker:chaotic_mithril_alloy>, <ore:ingotDarkSteel>, null, null, <contenttweaker:awakened_fulcrum>, null, null, <ore:ingotDarkSteel>, <contenttweaker:chaotic_mithril_alloy>], 
+[<contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <draconicevolution:draconic_block>, <divinerpg:shadow_bar>, <divinerpg:shadow_bar>, <contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:chaotic_core>*64, 
+[[<contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>, <divinerpg:shadow_bar>, <draconicevolution:draconic_block>, <divinerpg:shadow_bar>, <contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>], 
+[<contenttweaker:chaotic_mithril_alloy>, <ore:ingotDarkSteel>, null, <draconicevolution:chaos_shard:0>, <contenttweaker:quasar_charged_dust>, <draconicevolution:chaos_shard:0>, null, <ore:ingotDarkSteel>, <contenttweaker:chaotic_mithril_alloy>], 
+[<contenttweaker:chaotic_mithril_alloy>, null, <contenttweaker:awakened_fulcrum>, null, <contenttweaker:awakened_fulcrum>, null, <contenttweaker:awakened_fulcrum>, null, <contenttweaker:chaotic_mithril_alloy>], 
+[<divinerpg:shadow_bar>, <draconicevolution:chaos_shard:0>, null, <ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>, null, <draconicevolution:chaos_shard:0>, <divinerpg:shadow_bar>], 
+[<draconicevolution:draconic_block>, <contenttweaker:dust_of_infinite_wishes>, null, <contenttweaker:awakened_fulcrum>, <avaritiaitem:self_actualizing_stone>, <contenttweaker:awakened_fulcrum>, null, <contenttweaker:dust_of_infinite_wishes>, <draconicevolution:draconic_block>], 
+[<divinerpg:shadow_bar>, <draconicevolution:chaos_shard:0>, null, <ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>, null, <draconicevolution:chaos_shard:0>, <divinerpg:shadow_bar>], 
+[<contenttweaker:chaotic_mithril_alloy>, null, <contenttweaker:awakened_fulcrum>, null, <contenttweaker:awakened_fulcrum>, null, <contenttweaker:awakened_fulcrum>, null, <contenttweaker:chaotic_mithril_alloy>], 
+[<contenttweaker:chaotic_mithril_alloy>, <ore:ingotDarkSteel>, null, <draconicevolution:chaos_shard:0>, <contenttweaker:quasar_charged_dust>, <draconicevolution:chaos_shard:0>, null, <ore:ingotDarkSteel>, <contenttweaker:chaotic_mithril_alloy>], 
+[<contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>, <divinerpg:shadow_bar>, <draconicevolution:draconic_block>, <divinerpg:shadow_bar>, <contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>, <contenttweaker:chaotic_mithril_alloy>]]);  
+
+
+
+
+
+
+val divinecombinerdraconiccore1 = RecipeBuilder.newBuilder("divinecombinerdraconiccore1","divine_combiner",2);
+divinecombinerdraconiccore1.addFluidInput(<fluid:hint_of_divinity>*1);
+divinecombinerdraconiccore1.addItemInput(<draconicevolution:draconium_block>*16);
+divinecombinerdraconiccore1.addItemInput(<extendedcrafting:material:24>*16);
+divinecombinerdraconiccore1.addItemInput(<divinerpg:corrupted_stone>*4);
+divinecombinerdraconiccore1.addItemInput(<minecraft:ender_eye>*1);
+divinecombinerdraconiccore1.addItemOutput(<draconicevolution:draconic_core>*4);
+divinecombinerdraconiccore1.build();
+
+val divinecombinerdraconiccore2 = RecipeBuilder.newBuilder("divinecombinerdraconiccore2","divine_combiner",2);
+divinecombinerdraconiccore2.addFluidInput(<fluid:hint_of_divinity>*1);
+divinecombinerdraconiccore2.addItemInput(<draconicevolution:draconium_block>*16);
+divinecombinerdraconiccore2.addItemInput(<extendedcrafting:material:24>*16);
+divinecombinerdraconiccore2.addItemInput(<divinerpg:corrupted_stone>*4);
+divinecombinerdraconiccore2.addItemInput(<divinerpg:watching_eye>*1);
+divinecombinerdraconiccore2.addItemOutput(<draconicevolution:draconic_core>*8);
+divinecombinerdraconiccore2.build();
+
+val divinecombinerdraconiccore3 = RecipeBuilder.newBuilder("divinecombinerdraconiccore3","divine_combiner",2);
+divinecombinerdraconiccore3.addFluidInput(<fluid:hint_of_divinity>*1);
+divinecombinerdraconiccore3.addItemInput(<draconicevolution:draconium_block>*16);
+divinecombinerdraconiccore3.addItemInput(<extendedcrafting:material:24>*16);
+divinecombinerdraconiccore3.addItemInput(<divinerpg:corrupted_stone>*4);
+divinecombinerdraconiccore3.addItemInput(<contenttweaker:everwatching_eye>*1);
+divinecombinerdraconiccore3.addItemOutput(<draconicevolution:draconic_core>*16);
+divinecombinerdraconiccore3.build();
+
+val divinecombinerdraconiccore4 = RecipeBuilder.newBuilder("divinecombinerdraconiccore4","divine_combiner",2);
+divinecombinerdraconiccore4.addFluidInput(<fluid:hint_of_divinity>*1);
+divinecombinerdraconiccore4.addItemInput(<draconicevolution:draconium_block>*16);
+divinecombinerdraconiccore4.addItemInput(<extendedcrafting:material:24>*16);
+divinecombinerdraconiccore4.addItemInput(<divinerpg:corrupted_stone>*4);
+divinecombinerdraconiccore4.addItemInput(<contenttweaker:coralium_eye>*1);
+divinecombinerdraconiccore4.addItemOutput(<draconicevolution:draconic_core>*32);
+divinecombinerdraconiccore4.build();
+
+val divinecombinerdraconiccore5 = RecipeBuilder.newBuilder("divinecombinerdraconiccore5","divine_combiner",2);
+divinecombinerdraconiccore5.addFluidInput(<fluid:hint_of_divinity>*1);
+divinecombinerdraconiccore5.addItemInput(<draconicevolution:draconium_block>*16);
+divinecombinerdraconiccore5.addItemInput(<extendedcrafting:material:24>*16);
+divinecombinerdraconiccore5.addItemInput(<divinerpg:corrupted_stone>*4);
+divinecombinerdraconiccore5.addItemInput(<contenttweaker:eye_of_gallifrey>*1);
+divinecombinerdraconiccore5.addItemOutput(<draconicevolution:draconic_core>*64);
+divinecombinerdraconiccore5.build();
+
+
+
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:0>*2,
+[<draconicevolution:tool_upgrade:0>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:1>*2,
+[<draconicevolution:tool_upgrade:1>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:2>*2,
+[<draconicevolution:tool_upgrade:2>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:3>*2,
+[<draconicevolution:tool_upgrade:3>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:4>*2,
+[<draconicevolution:tool_upgrade:4>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:5>*2,
+[<draconicevolution:tool_upgrade:5>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:6>*2,
+[<draconicevolution:tool_upgrade:6>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:7>*2,
+[<draconicevolution:tool_upgrade:7>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:8>*2,
+[<draconicevolution:tool_upgrade:8>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:9>*2,
+[<draconicevolution:tool_upgrade:9>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:10>*2,
+[<draconicevolution:tool_upgrade:10>, <contenttweaker:energetic_draconium_ingot>]);
+
+recipes.addShapeless(<draconicevolution:tool_upgrade:11>*2,
+[<draconicevolution:tool_upgrade:11>, <contenttweaker:energetic_draconium_ingot>]);
+
+
+
+
 
 

@@ -993,3 +993,85 @@ mythallo135.addItemInput(<nuclearcraft:plutonium:8>*16);
 mythallo135.addItemOutput(<nuclearcraft:plutonium:9>*16);
 mythallo135.build();
 
+val mythallo136 = RecipeBuilder.newBuilder("mythallo136","mythic_processor_alloy_furnace",2);
+mythallo136.addEnergyPerTickInput(80000);
+mythallo136.addItemInput(<abyssalcraft:ccluster9>*64);
+mythallo136.addItemInput(<abyssalcraft:stone:1>*8);
+mythallo136.addItemOutput(<abyssalcraft:cchunk>*8);
+mythallo136.build();
+
+val mythallo137 = RecipeBuilder.newBuilder("mythallo137","mythic_processor_alloy_furnace",2);
+mythallo137.addEnergyPerTickInput(80000);
+mythallo137.addItemInput(<abyssalcraft:coralium>*576);
+mythallo137.addItemInput(<abyssalcraft:stone:1>*8);
+mythallo137.addItemOutput(<abyssalcraft:cchunk>*8);
+mythallo137.build();
+
+
+val mythallo138 = RecipeBuilder.newBuilder("mythallo138","mythic_processor_alloy_furnace",2);
+mythallo138.addEnergyPerTickInput(80000);
+mythallo138.addItemInput(<contenttweaker:chaosstrikium_cluster>*4);
+mythallo138.addItemInput(<divinerpg:shadow_stone>*8);
+mythallo138.addItemOutput(<contenttweaker:chaosstrikium_cluster>*5);
+mythallo138.build();
+
+val mythallo139 = RecipeBuilder.newBuilder("mythallo139","mythic_processor_alloy_furnace",2);
+mythallo139.addEnergyPerTickInput(80000);
+mythallo139.addItemInput(<contenttweaker:cactium_sliver>*1);
+mythallo139.addItemInput(<divinerpg:terran_stone>*8);
+mythallo139.addItemOutput(<contenttweaker:cactium_sliver>*2);
+mythallo139.build();
+
+val mythallo140 = RecipeBuilder.newBuilder("mythallo140","mythic_processor_alloy_furnace",2);
+mythallo140.addEnergyPerTickInput(80000);
+mythallo140.addItemInput(<contenttweaker:crownite_chunk>*1);
+mythallo140.addItemInput(<divinerpg:jungle_stone>*8);
+mythallo140.addItemOutput(<contenttweaker:crownite_chunk>*2);
+mythallo140.build();
+
+val mythallo141 = RecipeBuilder.newBuilder("mythallo141","mythic_processor_alloy_furnace",2);
+mythallo141.addEnergyPerTickInput(80000);
+mythallo141.addItemInput(<contenttweaker:thrallium_fragment>*1);
+mythallo141.addItemInput(<divinerpg:corrupted_stone>*8);
+mythallo141.addItemOutput(<contenttweaker:thrallium_fragment>*2);
+mythallo141.build();
+
+val mythallo142 = RecipeBuilder.newBuilder("mythallo142","mythic_processor_alloy_furnace",2);
+mythallo142.addEnergyPerTickInput(80000);
+mythallo142.addItemInput(<contenttweaker:catalyzed_runic_ore>);
+mythallo142.addItemInput(<aoa3:elecanium_block>);
+mythallo142.addItemInput(<contenttweaker:hypercharged_runium_chunk>*9);
+mythallo142.addItemOutput(<contenttweaker:runandium_ingot>*9);
+mythallo142.build();
+
+val mythallo143 = RecipeBuilder.newBuilder("mythallo143","mythic_processor_alloy_furnace",2);
+mythallo143.addEnergyPerTickInput(80000);
+mythallo143.addItemInput(<contenttweaker:hypercharged_wool>);
+mythallo143.addItemInput(<aoa3:charged_runium_chunk>*8);
+mythallo143.addItemOutput(<contenttweaker:hypercharged_runium_chunk>*8);
+mythallo143.build();
+
+
+val mythallo144 = RecipeBuilder.newBuilder("mythallo144","mythic_processor_alloy_furnace",2);
+mythallo144.addEnergyPerTickInput(80000);
+mythallo144.addItemInput(<contenttweaker:hearty_meatball>*16);
+mythallo144.addItemInput(<enderio:item_material:20>*64);
+mythallo144.addItemInput(<fluxnetworks:flux>*64);
+mythallo144.addItemOutput(<avaritia:cosmic_meatballs>*16);
+mythallo144.build();
+
+
+
+val mythallo145 = RecipeBuilder.newBuilder("mythallo145","mythic_processor_alloy_furnace",2);
+mythallo145.addEnergyPerTickInput(80000);
+mythallo145.addItemInput(<contenttweaker:polar_catalyst>*8);
+mythallo145.addItemInput(<contenttweaker:neodymium_magnetic_alloy>*2);
+mythallo145.addItemOutput(<contenttweaker:diametric_catalyst>*8);
+mythallo145.build();
+
+val mythallo146 = RecipeBuilder.newBuilder("mythallo146","mythic_processor_alloy_furnace",2);
+mythallo146.addEnergyPerTickInput(80000);
+mythallo146.addItemInput(<contenttweaker:diametric_catalyst>*24);
+mythallo146.addItemInput(<contenttweaker:magnetic_monopole>*1);
+mythallo146.addItemOutput(<contenttweaker:monopolar_catalyst>*24);
+mythallo146.build();

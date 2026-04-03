@@ -454,6 +454,136 @@ mythassmac59.addItemInput(<appliedenergistics2:material:24>*64);
 mythassmac59.addItemOutput(<contenttweaker:spatial_processing_unit>*32);
 mythassmac59.build();
 
+val mythassmac60 = RecipeBuilder.newBuilder("mythassmac60","mythic_processor_assembling_machine",2);
+mythassmac60.addEnergyPerTickInput(40000);
+mythassmac60.addItemInput(<aoa3:warlock_gem>*10);
+mythassmac60.addItemInput(<contenttweaker:unidentified_gem>*10);
+mythassmac60.addItemOutput(<contenttweaker:unidentified_gem>*20);
+mythassmac60.build();
+
+val mythassmac61 = RecipeBuilder.newBuilder("mythassmac61","mythic_processor_assembling_machine",2);
+mythassmac61.addEnergyPerTickInput(40000);
+mythassmac61.addItemInput(<projectred-core:resource_item:0>*20);
+mythassmac61.addItemInput(<techreborn:scrapbox>*2);
+mythassmac61.addItemInput(<ore:platePeridot>*14);
+mythassmac61.addItemInput(<xnet:netcable:4>*4);
+mythassmac61.addItemInput(<bewitchment:owlets_wing>*4);
+mythassmac61.addItemInput(<contenttweaker:reprocessed_cosmic_meatball>*8);
+mythassmac61.addItemOutput(<contenttweaker:uncured_organic_mythic_board>);
+mythassmac61.build();
+
+val mythassmac62 = RecipeBuilder.newBuilder("mythassmac62","mythic_processor_assembling_machine",2);
+mythassmac62.addEnergyPerTickInput(40000);
+mythassmac62.addItemInput(<ore:ingotTin>*6);
+mythassmac62.addItemInput(<ore:ingotCopper>*1);
+mythassmac62.addItemInput(<techreborn:part:8>*2);
+mythassmac62.addItemOutput(<techreborn:part:9>*1);
+mythassmac62.build();
+
+val mythassmac63 = RecipeBuilder.newBuilder("mythassmac63","mythic_processor_assembling_machine",2);
+mythassmac63.addEnergyPerTickInput(40000);
+mythassmac63.addItemInput(<ore:ingotTin>*6);
+mythassmac63.addItemInput(<techreborn:part:7>*3);
+mythassmac63.addItemOutput(<techreborn:part:8>*1);
+mythassmac63.build();
+
+val mythassmac64 = RecipeBuilder.newBuilder("mythassmac64","mythic_processor_assembling_machine",2);
+mythassmac64.addEnergyPerTickInput(40000);
+mythassmac64.addItemInput(<ore:ingotTin>*4);
+mythassmac64.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "helium", Amount: 1000}}));
+mythassmac64.addItemOutput(<techreborn:part:7>*1);
+mythassmac64.build();
+
+val mythassmac65 = RecipeBuilder.newBuilder("mythassmac65","mythic_processor_assembling_machine",2);
+mythassmac65.addEnergyPerTickInput(40000);
+mythassmac65.addItemInput(<ore:ingotTin>*4);
+mythassmac65.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidhelium", Amount: 1000}}));
+mythassmac65.addItemOutput(<techreborn:part:7>*1);
+mythassmac65.build();
+
+val mythassmac66 = RecipeBuilder.newBuilder("mythassmac66","mythic_processor_assembling_machine",2);
+mythassmac66.addEnergyPerTickInput(40000);
+mythassmac66.addItemInput(<techreborn:plates:36>*4);
+mythassmac66.addItemInput(<libvulpes:productrod:6>*48);
+mythassmac66.addItemOutput(<advancedrocketry:structuretower>*4);
+mythassmac66.build();
+
+val mythassmac67 = RecipeBuilder.newBuilder("mythassmac67","mythic_processor_assembling_machine",2);
+mythassmac67.addEnergyPerTickInput(40000);
+mythassmac67.addItemInput(<contenttweaker:cori_experience>);
+mythassmac67.addItemInput(<draconicevolution:draconic_core>*12);
+mythassmac67.addItemOutput(<contenttweaker:draconic_fulcrum>*8);
+mythassmac67.build();
+
+val mythassmac68 = RecipeBuilder.newBuilder("mythassmac68","mythic_processor_assembling_machine",2);
+mythassmac68.addEnergyPerTickInput(40000);
+mythassmac68.addItemInput(<contenttweaker:cori_experience>);
+mythassmac68.addItemInput(<draconicevolution:wyvern_core>*12);
+mythassmac68.addItemOutput(<contenttweaker:wyvern_fulcrum>*8);
+mythassmac68.build();
+
+val mythassmac69 = RecipeBuilder.newBuilder("mythassmac69","mythic_processor_assembling_machine",2);
+mythassmac69.addEnergyPerTickInput(40000);
+mythassmac69.addItemInput(<contenttweaker:cori_experience>);
+mythassmac69.addItemInput(<draconicevolution:awakened_core>*12);
+mythassmac69.addItemOutput(<contenttweaker:awakened_fulcrum>*8);
+mythassmac69.build();
+
+val mythassmac70 = RecipeBuilder.newBuilder("mythassmac70","mythic_processor_assembling_machine",2);
+mythassmac70.addEnergyPerTickInput(40000);
+mythassmac70.addItemInput(<contenttweaker:cori_experience>);
+mythassmac70.addItemInput(<draconicevolution:chaotic_core>*12);
+mythassmac70.addItemOutput(<contenttweaker:chaotic_fulcrum>*8);
+mythassmac70.build();
+
+val mythassmac71 = RecipeBuilder.newBuilder("mythassmac71","mythic_processor_assembling_machine",2);
+mythassmac71.addEnergyPerTickInput(40000);
+mythassmac71.addItemInput(<nuclearcraft:gem_dust:1>*16);
+mythassmac71.addItemInput(<nuclearcraft:compound:0>*16);
+mythassmac71.addItemInput(<ore:dustObsidian>*16);
+mythassmac71.addItemInput(<ore:dustMagnesium>*16);
+mythassmac71.addItemOutput(<nuclearcraft:compound:1>*32);
+mythassmac71.build();
+
+val mythassmac72 = RecipeBuilder.newBuilder("mythassmac72","mythic_processor_assembling_machine",2);
+mythassmac72.addEnergyPerTickInput(40000);
+mythassmac72.addItemInput(<tconstruct:materials:2>*25);
+mythassmac72.addItemInput(<immersiveengineering:stone_decoration:0>*24);
+mythassmac72.addItemOutput(<advancedrocketry:blastbrick>*1);
+mythassmac72.build();
+
+val mythassmac73 = RecipeBuilder.newBuilder("mythassmac73","mythic_processor_assembling_machine",2);
+mythassmac73.addEnergyPerTickInput(40000);
+mythassmac73.addItemInput(<ore:dustTin>*4);
+mythassmac73.addItemInput(<ore:dustCoal>*4);
+mythassmac73.addItemInput(<ore:plateCopper>*1);
+mythassmac73.addItemOutput(<techreborn:part:26>*1);
+mythassmac73.build();
+
+val mythassmac74 = RecipeBuilder.newBuilder("mythassmac74","mythic_processor_assembling_machine",2);
+mythassmac74.addEnergyPerTickInput(40000);
+mythassmac74.addItemInput(<techreborn:part:26>*4);
+mythassmac74.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidberylium", Amount: 1000}}));
+mythassmac74.addItemOutput(<techreborn:part:28>*1);
+mythassmac74.build();
+
+val mythassmac75 = RecipeBuilder.newBuilder("mythassmac75","mythic_processor_assembling_machine",2);
+mythassmac75.addEnergyPerTickInput(40000);
+mythassmac75.addItemInput(<techreborn:part:26>*4);
+mythassmac75.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "beryllium", Amount: 1000}}));
+mythassmac75.addItemOutput(<techreborn:part:28>*1);
+mythassmac75.build();
+
+val mythassmac76 = RecipeBuilder.newBuilder("mythassmac76","mythic_processor_assembling_machine",2);
+mythassmac76.addEnergyPerTickInput(40000);
+mythassmac76.addItemInput(<techreborn:part:28>*8);
+mythassmac76.addItemInput(<ore:ingotIridium>);
+mythassmac76.addItemOutput(<techreborn:iridiumneutronreflector>*1);
+mythassmac76.build();
+
+
+
+
 
 
 

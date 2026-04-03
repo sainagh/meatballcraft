@@ -29,17 +29,17 @@ mythrockcrush3.build();
 val mythrockcrush4 = RecipeBuilder.newBuilder("mythrockcrush4","mythic_processor_rock_crusher",2);
 mythrockcrush4.addEnergyPerTickInput(80000);
 mythrockcrush4.addItemInput(<contenttweaker:mortum_livingrock> * 1);
-mythrockcrush4.addItemOutput(<botania:livingrock>*8);
-mythrockcrush4.addItemOutput(<botania:livingrock>*4);
-mythrockcrush4.addItemOutput(<botania:livingrock>*2);
+mythrockcrush4.addItemOutput(<botania:livingrock>*64);
+mythrockcrush4.addItemOutput(<botania:livingrock>*32);
+mythrockcrush4.addItemOutput(<botania:livingrock>*16);
 mythrockcrush4.build();
 
 val mythrockcrush5 = RecipeBuilder.newBuilder("mythrockcrush5","mythic_processor_rock_crusher",2);
 mythrockcrush5.addEnergyPerTickInput(80000);
 mythrockcrush5.addItemInput(<contenttweaker:mortum_livingwood> * 1);
-mythrockcrush5.addItemOutput(<botania:livingwood:0>*8);
-mythrockcrush5.addItemOutput(<botania:livingwood:0>*4);
-mythrockcrush5.addItemOutput(<botania:livingwood:0>*2);
+mythrockcrush5.addItemOutput(<botania:livingwood:0>*64);
+mythrockcrush5.addItemOutput(<botania:livingwood:0>*32);
+mythrockcrush5.addItemOutput(<botania:livingwood:0>*16);
 mythrockcrush5.build();
 
 val mythrockcrush6 = RecipeBuilder.newBuilder("mythrockcrush6","mythic_processor_rock_crusher",2);
@@ -141,7 +141,7 @@ mythrockcrush17.build();
 val mythrockcrush18 = RecipeBuilder.newBuilder("mythrockcrush18","mythic_processor_rock_crusher",2);
 mythrockcrush18.addEnergyPerTickInput(80000);
 mythrockcrush18.addItemInput(<abyssalcraft:crystal:21> * 1);
-mythrockcrush18.addItemOutput(<contenttweaker:silica_dust>);
+mythrockcrush18.addItemOutput(<contenttweaker:silica_dust>*4);
 mythrockcrush18.build();
 
 val mythrockcrush19 = RecipeBuilder.newBuilder("mythrockcrush19","mythic_processor_rock_crusher",2);
@@ -154,7 +154,7 @@ mythrockcrush19.build();
 val mythrockcrush20 = RecipeBuilder.newBuilder("mythrockcrush20","mythic_processor_rock_crusher",2);
 mythrockcrush20.addEnergyPerTickInput(80000);
 mythrockcrush20.addItemInput(<techreborn:dust:39>);
-mythrockcrush20.addItemOutput(<contenttweaker:tiny_gallium_dust>);
+mythrockcrush20.addItemOutput(<contenttweaker:tiny_germanium_dust>);
 mythrockcrush20.addItemOutput(<thermalfoundation:material:0>);
 mythrockcrush20.build();
 
@@ -189,5 +189,17 @@ mythrockcrush24.addItemOutput(<thaumcraft:cluster:0>);
 mythrockcrush24.addItemOutput(<thaumcraft:salis_mundus>);
 mythrockcrush24.build();
 
+
+val mythrockcrush25 = RecipeBuilder.newBuilder("mythrockcrush25","mythic_processor_rock_crusher",2);
+mythrockcrush25.addEnergyPerTickInput(80000);
+mythrockcrush25.addItemInput(<contenttweaker:warren_livingrock>);
+mythrockcrush25.addItemOutput(<botania:livingrock:0>*512);
+mythrockcrush25.build();
+
+val mythrockcrush26 = RecipeBuilder.newBuilder("mythrockcrush26","mythic_processor_rock_crusher",2);
+mythrockcrush26.addEnergyPerTickInput(80000);
+mythrockcrush26.addItemInput(<contenttweaker:warren_livingwood>);
+mythrockcrush26.addItemOutput(<botania:livingwood:0>*512);
+mythrockcrush26.build();
 
 

@@ -1,26 +1,26 @@
 [
   {
     "id": "overworldian",
-    "displayName": "Ö÷ÊÀ½ç",
+    "displayName": "ä¸»ä¸–ç•Œ",
     "displayColor": "green",
     "xpValue": 1
   },
   {
     "id": "hellish",
-    "displayName": "µØÓü",
+    "displayName": "åœ°ç‹±",
     "displayColor": "red",
     "xpValue": 1
   },
   {
     "id": "extraterrestrial",
-    "displayName": "µØÍâ",
+    "displayName": "åœ°å¤–",
     "displayColor": "light_purple",
     "xpValue": 1
   },
   {
     "id": "twilight",
     "mod": "twilightforest",
-    "displayName": "ÄºÉ«",
+    "displayName": "æš®è‰²",
     "displayColor": "blue",
     "xpValue": 1
   }

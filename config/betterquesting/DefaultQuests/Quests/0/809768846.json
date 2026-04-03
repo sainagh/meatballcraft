@@ -15,7 +15,7 @@
             "Lore:9": {
               "0:8": "§d§o超限附魔§r"
             },
-            "Name:8": "§6§oCallandor§r"
+            "Name:8": "§6§o凯兰铎§r"
           },
           "ench:9": {
             "0:10": {
@@ -63,10 +63,6 @@
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "id:8": "contenttweaker:cleansed_brightsteel_alloy_plate"
-        },
-        "1:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:cleansed_cinnamon_apple"
         }

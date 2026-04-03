@@ -228,12 +228,45 @@ fractallitefurnacehyperuranion.addItemInput(<extendedcrafting:singularity_custom
 fractallitefurnacehyperuranion.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>);
 fractallitefurnacehyperuranion.build();
 
-val fractallitefurnacehyperuranion2 = RecipeBuilder.newBuilder("fractallitefurnacehyperuranion2","fractallite_furnace",2);
-fractallitefurnacehyperuranion2.addFluidInput(<fluid:aeternalis_fuel>*10);
-fractallitefurnacehyperuranion2.addItemInput(<contenttweaker:hyperuranion_ingot>);
-fractallitefurnacehyperuranion2.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>);
-fractallitefurnacehyperuranion2.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>);
-fractallitefurnacehyperuranion2.build();
+
+
+val fractallitefurnacehyperuranion3 = RecipeBuilder.newBuilder("fractallitefurnacehyperuranion3","fractallite_furnace",2);
+fractallitefurnacehyperuranion3.addFluidInput(<fluid:aeternalis_fuel>*10);
+fractallitefurnacehyperuranion3.addItemInput(<contenttweaker:hyperuranion_ingot>*4);
+fractallitefurnacehyperuranion3.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 I§r"]}}));
+fractallitefurnacehyperuranion3.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>*4);
+fractallitefurnacehyperuranion3.build();
+
+val fractallitefurnacehyperuranion4 = RecipeBuilder.newBuilder("fractallitefurnacehyperuranion4","fractallite_furnace",2);
+fractallitefurnacehyperuranion4.addFluidInput(<fluid:aeternalis_fuel>*10);
+fractallitefurnacehyperuranion4.addItemInput(<contenttweaker:hyperuranion_ingot>*16);
+fractallitefurnacehyperuranion4.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 II§r"]}}));
+fractallitefurnacehyperuranion4.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>*16);
+fractallitefurnacehyperuranion4.build();
+
+val fractallitefurnacehyperuranion5 = RecipeBuilder.newBuilder("fractallitefurnacehyperuranion5","fractallite_furnace",2);
+fractallitefurnacehyperuranion5.addFluidInput(<fluid:aeternalis_fuel>*10);
+fractallitefurnacehyperuranion5.addItemInput(<contenttweaker:hyperuranion_ingot>*64);
+fractallitefurnacehyperuranion5.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 III§r"]}}));
+fractallitefurnacehyperuranion5.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>*64);
+fractallitefurnacehyperuranion5.build();
+
+val fractallitefurnacehyperuranion6 = RecipeBuilder.newBuilder("fractallitefurnacehyperuranion6","fractallite_furnace",2);
+fractallitefurnacehyperuranion6.addFluidInput(<fluid:aeternalis_fuel>*10);
+fractallitefurnacehyperuranion6.addItemInput(<contenttweaker:hyperuranion_ingot>*256);
+fractallitefurnacehyperuranion6.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 IV§r"]}}));
+fractallitefurnacehyperuranion6.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>*256);
+fractallitefurnacehyperuranion6.build();
+
+val fractallitefurnacehyperuranion7 = RecipeBuilder.newBuilder("fractallitefurnacehyperuranion7","fractallite_furnace",2);
+fractallitefurnacehyperuranion7.addFluidInput(<fluid:aeternalis_fuel>*10);
+fractallitefurnacehyperuranion7.addItemInput(<contenttweaker:hyperuranion_ingot>*1024);
+fractallitefurnacehyperuranion7.addItemInput(<contenttweaker:recursion_of_dimensional_ascension>.withTag({display: {Lore: ["§d§o叠壳 V§r"]}}));
+fractallitefurnacehyperuranion7.addItemOutput(<contenttweaker:actualizing_hyperuranion_ingot>*1024);
+fractallitefurnacehyperuranion7.build();
+
+
+
 
 var unfulfilleddata as IData = {
 	display: {Lore:["§d§o原初未锻§r"]}
@@ -263,14 +296,106 @@ fractallitefurnacetrinity.addItemInput(<ore:ingotMithril>*32);
 fractallitefurnacetrinity.addItemOutput(<contenttweaker:ascended_gallifreyan_alloy>.withTag(unfulfilleddata)*32);
 fractallitefurnacetrinity.build();
 
+
+
+val fracfurnvibran1 = RecipeBuilder.newBuilder("fracfurnvibran1","fractallite_furnace",10);
+fracfurnvibran1.addFluidInput(<fluid:aeternalis_fuel>*1000);
+fracfurnvibran1.addItemInput(<materialpart:vibranium:ingot>*10);
+fracfurnvibran1.addItemInput(<materialpart:myrmitite:ingot>*10);
+fracfurnvibran1.addItemInput(<draconicevolution:draconic_ingot>*40);
+fracfurnvibran1.addItemInput(<iceandfire:dragonsteel_ice_ingot>*10);
+fracfurnvibran1.addItemInput(<iceandfire:dragonsteel_fire_ingot>*10);
+fracfurnvibran1.addItemOutput(<materialpart:hot_vibranium_alloy:ingot>*60);
+fracfurnvibran1.build();
+
+val fracfurnvibran2 = RecipeBuilder.newBuilder("fracfurnvibran2","fractallite_furnace",10);
+fracfurnvibran2.addFluidInput(<fluid:aeternalis_fuel>*1000);
+fracfurnvibran2.addItemInput(<materialpart:vibranium:ingot>*10);
+fracfurnvibran2.addItemInput(<contenttweaker:arc_residue>*30);
+fracfurnvibran2.addItemInput(<iceandfire:dragonsteel_ice_ingot>*10);
+fracfurnvibran2.addItemInput(<iceandfire:dragonsteel_fire_ingot>*10);
+fracfurnvibran2.addItemInput(<minecraft:iron_ingot>*60);
+fracfurnvibran2.addItemOutput(<materialpart:hot_vibranium_alloy:ingot>*120);
+fracfurnvibran2.build();
+
+val fracfurnvibran3 = RecipeBuilder.newBuilder("fracfurnvibran3","fractallite_furnace",10);
+fracfurnvibran3.addFluidInput(<fluid:aeternalis_fuel>*1000);
+fracfurnvibran3.addItemInput(<materialpart:vibranium:ingot>*10);
+fracfurnvibran3.addItemInput(<contenttweaker:arc_residue>*10);
+fracfurnvibran3.addItemInput(<iceandfire:dragonsteel_ice_ingot>*10);
+fracfurnvibran3.addItemInput(<iceandfire:dragonsteel_fire_ingot>*10);
+fracfurnvibran3.addItemInput(<iceandfire:dragonsteel_lightning_ingot>*10);
+fracfurnvibran3.addItemInput(<contenttweaker:strange_stone_essence>*10);
+fracfurnvibran3.addItemInput(<divinerpg:arlemite_ingot>*100);
+fracfurnvibran3.addItemOutput(<materialpart:hot_vibranium_alloy:ingot>*180);
+fracfurnvibran3.build();
+
+val fracfurnvibran4 = RecipeBuilder.newBuilder("fracfurnvibran4","fractallite_furnace",10);
+fracfurnvibran4.addFluidInput(<fluid:aeternalis_fuel>*1000);
+fracfurnvibran4.addItemInput(<materialpart:vibranium:ingot>*10);
+fracfurnvibran4.addItemInput(<contenttweaker:arc_residue>*10);
+fracfurnvibran4.addItemInput(<iceandfire:dragonsteel_ice_ingot>*10);
+fracfurnvibran4.addItemInput(<iceandfire:dragonsteel_fire_ingot>*10);
+fracfurnvibran4.addItemInput(<iceandfire:dragonsteel_lightning_ingot>*10);
+fracfurnvibran4.addItemInput(<avaritiaitem:self_actualizing_stone>*10);
+fracfurnvibran4.addItemInput(<divinerpg:divine_stone>*180);
+fracfurnvibran4.addItemOutput(<materialpart:hot_vibranium_alloy:ingot>*240);
+fracfurnvibran4.build();
+
+
+
+val fracfurndynatosstar1 = RecipeBuilder.newBuilder("fracfurndynatosstar1","fractallite_furnace",10);
+fracfurndynatosstar1.addFluidInput(<fluid:aeternalis_fuel>*100);
+fracfurndynatosstar1.addItemInput(<contenttweaker:infinity_fragment>*64);
+fracfurndynatosstar1.addItemInput(<minecraft:nether_star>*64);
+fracfurndynatosstar1.addItemOutput(<contenttweaker:dynatos_star>*64);
+fracfurndynatosstar1.build();
+
+val fracfurndynatosstar2 = RecipeBuilder.newBuilder("fracfurndynatosstar2","fractallite_furnace",10);
+fracfurndynatosstar2.addFluidInput(<fluid:infinity>*50);
+fracfurndynatosstar2.addItemInput(<contenttweaker:infinity_fragment>*512);
+fracfurndynatosstar2.addItemInput(<minecraft:nether_star>*512);
+fracfurndynatosstar2.addItemOutput(<contenttweaker:dynatos_star>*512);
+fracfurndynatosstar2.build();
+
+
+
+
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:ascended_gallifreyan_alloy>.withTag(unfulfilleddata), <fluid:vityte>*288, <contenttweaker:ascended_gallifreyan_alloy>.withTag(livelydata)]);
+
+val mythinfusascgal1 = RecipeBuilder.newBuilder("mythinfusascgal1","mythic_processor_infuser",2);
+mythinfusascgal1.addEnergyPerTickInput(1000000);
+mythinfusascgal1.addFluidInput(<fluid:vityte>*288);
+mythinfusascgal1.addItemInput(<contenttweaker:ascended_gallifreyan_alloy>.withTag(unfulfilleddata));
+mythinfusascgal1.addItemOutput(<contenttweaker:ascended_gallifreyan_alloy>.withTag(livelydata));
+mythinfusascgal1.build();
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:ascended_gallifreyan_alloy>.withTag(livelydata), <fluid:candyte>*288, <contenttweaker:ascended_gallifreyan_alloy>.withTag(brimmingdata)]);
 
+val mythinfusascgal2 = RecipeBuilder.newBuilder("mythinfusascgal2","mythic_processor_infuser",2);
+mythinfusascgal2.addEnergyPerTickInput(1000000);
+mythinfusascgal2.addFluidInput(<fluid:candyte>*288);
+mythinfusascgal2.addItemInput(<contenttweaker:ascended_gallifreyan_alloy>.withTag(livelydata));
+mythinfusascgal2.addItemOutput(<contenttweaker:ascended_gallifreyan_alloy>.withTag(brimmingdata));
+mythinfusascgal2.build();
+
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:ascended_gallifreyan_alloy>.withTag(brimmingdata), <fluid:brightsteel_alloy>*288, <contenttweaker:ascended_gallifreyan_alloy>.withTag(energicdata)]);
+
+val mythinfusascgal3 = RecipeBuilder.newBuilder("mythinfusascgal3","mythic_processor_infuser",2);
+mythinfusascgal3.addEnergyPerTickInput(1000000);
+mythinfusascgal3.addFluidInput(<fluid:brightsteel_alloy>*288);
+mythinfusascgal3.addItemInput(<contenttweaker:ascended_gallifreyan_alloy>.withTag(brimmingdata));
+mythinfusascgal3.addItemOutput(<contenttweaker:ascended_gallifreyan_alloy>.withTag(energicdata));
+mythinfusascgal3.build();
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:ascended_gallifreyan_alloy>.withTag(energicdata), <fluid:infinity>*288, <contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata)]);
 
+val mythinfusascgal4 = RecipeBuilder.newBuilder("mythinfusascgal4","mythic_processor_infuser",2);
+mythinfusascgal4.addEnergyPerTickInput(1000000);
+mythinfusascgal4.addFluidInput(<fluid:infinity>*288);
+mythinfusascgal4.addItemInput(<contenttweaker:ascended_gallifreyan_alloy>.withTag(energicdata));
+mythinfusascgal4.addItemOutput(<contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata));
+mythinfusascgal4.build();
 
 recipes.addShaped(<contenttweaker:matter_digitalization_fabrial>,
 [[<appliedenergistics2:part:140>, <contenttweaker:recursion_of_clarity>, <appliedenergistics2:part:140>],
@@ -485,6 +610,13 @@ bastionofflesh4.addFluidInput(<fluid:hungering_flesh_catalyst>*100);
 bastionofflesh4.addFluidOutput(<fluid:essence_of_betrayal>*100);
 bastionofflesh4.build();
 
+val bastionofflesh5 = RecipeBuilder.newBuilder("bastionofflesh5","bastion_of_flesh",100);
+bastionofflesh5.addItemInput(<contenttweaker:roaring_warren_alloy>*4);
+bastionofflesh5.addItemOutput(<contenttweaker:hungering_flesh_ingot>*1024);
+bastionofflesh5.addFluidInput(<fluid:hungering_flesh_catalyst>*100);
+bastionofflesh5.addFluidOutput(<fluid:essence_of_betrayal>*100);
+bastionofflesh5.build();
+
 
 
 recipes.addShaped(<contenttweaker:withering_fabrial>,
@@ -587,9 +719,72 @@ nameofnamesingotbeegnatlaw.addFluidInput(<fluid:high_entropy_hyperdense_plasma>*
 nameofnamesingotbeegnatlaw.addFluidInput(<fluid:infinite_divine_wish>*16000);
 nameofnamesingotbeegnatlaw.addFluidInput(<fluid:infinite_insane_wish>*16000);
 nameofnamesingotbeegnatlaw.addItemInput(<contenttweaker:defined_bar>);
-nameofnamesingotbeegnatlaw.addItemInput(<contenttweaker:recursion_of_natural_law>*2);
+nameofnamesingotbeegnatlaw.addItemInput(<contenttweaker:recursion_of_natural_law>);
 nameofnamesingotbeegnatlaw.addItemOutput(<contenttweaker:hyperuranion_ingot>*16);
 nameofnamesingotbeegnatlaw.build();
+
+val nameofnamesingotbeegbionicle = RecipeBuilder.newBuilder("nameofnamesingotbeegbionicle","altar_to_the_name_of_names",5);
+nameofnamesingotbeegbionicle.addEnergyPerTickInput(2000000000);
+nameofnamesingotbeegbionicle.addFluidInput(<fluid:naquadah_alloy>*16000);
+nameofnamesingotbeegbionicle.addFluidInput(<fluid:dragonsteel_fire>*16000);
+nameofnamesingotbeegbionicle.addFluidInput(<fluid:dragonsteel_ice>*16000);
+nameofnamesingotbeegbionicle.addFluidInput(<fluid:dragonsteel_lightning>*16000);
+nameofnamesingotbeegbionicle.addFluidInput(<fluid:mildly_recursive_goo>*16000);
+nameofnamesingotbeegbionicle.addFluidInput(<fluid:high_entropy_hyperdense_plasma>*16000);
+nameofnamesingotbeegbionicle.addFluidInput(<fluid:infinite_divine_wish>*16000);
+nameofnamesingotbeegbionicle.addFluidInput(<fluid:infinite_insane_wish>*16000);
+nameofnamesingotbeegbionicle.addItemInput(<contenttweaker:defined_disk>);
+nameofnamesingotbeegbionicle.addItemInput(<contenttweaker:recursion_of_natural_law>);
+nameofnamesingotbeegbionicle.addItemOutput(<contenttweaker:hyperuranion_ingot>*32);
+nameofnamesingotbeegbionicle.build();
+
+val nameofnamesingotbeegmasks = RecipeBuilder.newBuilder("nameofnamesingotbeegmasks","altar_to_the_name_of_names",5);
+nameofnamesingotbeegmasks.addEnergyPerTickInput(2000000000);
+nameofnamesingotbeegmasks.addFluidInput(<fluid:naquadah_alloy>*16000);
+nameofnamesingotbeegmasks.addFluidInput(<fluid:dragonsteel_fire>*16000);
+nameofnamesingotbeegmasks.addFluidInput(<fluid:dragonsteel_ice>*16000);
+nameofnamesingotbeegmasks.addFluidInput(<fluid:dragonsteel_lightning>*16000);
+nameofnamesingotbeegmasks.addFluidInput(<fluid:mildly_recursive_goo>*16000);
+nameofnamesingotbeegmasks.addFluidInput(<fluid:high_entropy_hyperdense_plasma>*16000);
+nameofnamesingotbeegmasks.addFluidInput(<fluid:infinite_divine_wish>*16000);
+nameofnamesingotbeegmasks.addFluidInput(<fluid:infinite_insane_wish>*16000);
+nameofnamesingotbeegmasks.addItemInput(<contenttweaker:mask_of_definition>);
+nameofnamesingotbeegmasks.addItemInput(<contenttweaker:recursion_of_natural_law>*2);
+nameofnamesingotbeegmasks.addItemOutput(<contenttweaker:hyperuranion_ingot>*64);
+nameofnamesingotbeegmasks.build();
+
+recipes.addShapeless(<contenttweaker:defined_disk>,
+[<contenttweaker:bionic_construct>.reuse(),
+<contenttweaker:defined_bar>,
+<tconstruct:cast>.withTag({PartType: "tconstruct:pan_head"}),
+<forge:bucketfilled>.withTag({FluidName: "eternal_dragon_fire", Amount: 1000})]);
+
+
+
+
+
+
+
+
+
+
+// stuff from twilight forest freedom
+recipes.addShaped(<contenttweaker:bionic_construct>,
+[[<contenttweaker:hopebringer_metal>, <contenttweaker:essence_of_the_kanohi_warrior>, <contenttweaker:hopebringer_metal>],
+[<contenttweaker:delicate_pollen>, <contenttweaker:golem_core>, <contenttweaker:delicate_pollen>],
+[<contenttweaker:golem_core>, <thaumcraft:golem>.withTag({props: 288512963541729280 as long}), <contenttweaker:golem_core>]]);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/requemofthearbiter", <contenttweaker:requiem_of_the_arbiter>, 4500, 400, [
@@ -723,7 +918,7 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/alta
 scripts.PuzzleUtil.addPuzzleShaped("truetongue", <contenttweaker:memory_restoration_ritual>,
 [[<minecraft:blaze_powder>.withTag({display: {Name: "ᚠᚣ",Lore:["§d§o真名§r"]}}), <abyssalcraft:abyingot>.withTag({display: {Name: "ᛔᚣᛕᛛᛂᚡᛁᛁ",Lore:["§d§o真名§r"]}}), <abyssalcraft:odb>.withTag({display: {Name: "ᛒᛟᛟᛦ᛫ᛒᛟᛟᛦ",Lore:["§d§o真名§r"]}})],
 [<appliedenergistics2:material:42>.withTag({display: {Name: "ᛡᛒ",Lore:["§d§o真名§r"]}}), <contenttweaker:will_ensnaring_fabrial>, <aoa3:raw_charger_shank>.withTag({display: {Name: "ᛈᚺᚽᚥᛕᚽᚤ",Lore:["§d§o真名§r"]}})],
-[<contenttweaker:defined_ingot>.withTag({display: {Name: "ᛑᛂᚠᛁᚿᛂᛑ᛫ᚧ",Lore:["§d§o真名§r"]}}), <thaumictinkerer:kamiresource:4>.withTag({display: {Name: "ᚵᛊᛠᛔᛟᚤᛕᛊᚧ",Lore:["§d§o真名§r"]}}), <botania:rune:13>.withTag({display: {Name: "ᚥᚱᚣᛠᚻ",Lore:["§d§o真名§r"]}})]]);
+[<contenttweaker:defined_ingot>.withTag({display: {Name: "ᛑᛂᚠᛁᚿᛂᛑ᛫ᚧ",Lore:["§d§o真名§r"]}}), <contenttweaker:kami_cloth>.withTag({display: {Name: "ᚵᛊᛠᛔᛟᚤᛕᛊᚧ",Lore:["§d§o真名§r"]}}), <botania:rune:13>.withTag({display: {Name: "ᚥᚱᚣᛠᚻ",Lore:["§d§o真名§r"]}})]]);
 
 
 recipes.addShaped(<contenttweaker:dread_cleansing_callstone>,
@@ -817,6 +1012,13 @@ plithofascension4.addItemInput(<contenttweaker:flawless_fluix_crystal>*4);
 plithofascension4.addItemOutput(<contenttweaker:ascended_fluix_crystal>*256);
 plithofascension4.build();
 
+val plithofascension5 = RecipeBuilder.newBuilder("plithofascension5","plith_of_ascension",100);
+plithofascension5.addFluidInput(<fluid:ascended_draconic_alloy>*12);
+plithofascension5.addItemInput(<contenttweaker:roaring_warren_alloy>*4);
+plithofascension5.addItemInput(<contenttweaker:flawless_fluix_crystal>*4);
+plithofascension5.addItemOutput(<contenttweaker:ascended_fluix_crystal>*1024);
+plithofascension5.build();
+
 
 
 
@@ -890,7 +1092,7 @@ mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:infused_dread_shard>, <fl
 
 
 
-recipes.addShaped(<contenttweaker:fractallite_furnace>,
+recipes.addShaped(<contenttweaker:fractallite_furnace>*5,
 [[<extendedcrafting:singularity_custom:651>, <contenttweaker:recursium_ingot>, <extendedcrafting:singularity_custom:651>],
 [<contenttweaker:recursium_ingot>, <contenttweaker:fractallite_furnace>, <contenttweaker:recursium_ingot>],
 [<extendedcrafting:singularity_custom:651>, <contenttweaker:recursium_ingot>, <extendedcrafting:singularity_custom:651>]]);

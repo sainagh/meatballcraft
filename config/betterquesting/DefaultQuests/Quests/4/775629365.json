@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o将AE网络中的所有内容暴露出来用于物品或流体传输。\n\n若不进行过滤，会造成严重卡顿，但很适合用于子网构建。",
+      "desc:8": "§7§o将AE网络中的所有内容暴露出来用于物品或流体传输。\n\n若不进行过滤，会造成严重卡顿，但可用于子网划分。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nae2:exposer"
@@ -13,6 +13,18 @@
     }
   },
   "questID:3": 775629365,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nae2:exposer"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

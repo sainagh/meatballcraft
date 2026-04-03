@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    1797790861
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o造成大额伤害会增加暴击率并增加战斗怒火。\n\n战斗高塔中发现的嗜血硬币也可提升该技能等级！\n\n§f我本以为这是单一的魔法形式，但实际上这是个多面系统。\n尽管这些力量有着共同的起源，但其独特性也是不争的事实。给我的感觉十分近似于精华，但又不同，非常不同。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "randomthings:rezstone",
+          "orig_meta:3": 0
+        }
+      },
+      "name:8": "嗜血"
+    }
+  },
+  "questID:3": 669243475,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:bloodlust_coin"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:beef"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

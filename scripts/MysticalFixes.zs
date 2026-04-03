@@ -19,6 +19,11 @@ recipes.addShaped(<draconicevolution:draconic_ingot>,
 [<mysticalagradditions:awakened_draconium_essence>, <magicbees:resource:5>, <mysticalagradditions:awakened_draconium_essence>],
 [<mysticalagradditions:awakened_draconium_essence>, <mysticalagradditions:awakened_draconium_essence>, <mysticalagradditions:awakened_draconium_essence>]]);
 
+recipes.removeShaped(<libvulpes:productingot:7>,
+[[<mysticalagriculture:titanium_essence>, <mysticalagriculture:titanium_essence>, <mysticalagriculture:titanium_essence>],
+[<mysticalagriculture:titanium_essence>, null, <mysticalagriculture:titanium_essence>],
+[<mysticalagriculture:titanium_essence>, <mysticalagriculture:titanium_essence>, <mysticalagriculture:titanium_essence>]]);
+
 recipes.addShaped(<techreborn:ingot:14>*2,
 [[<mysticalagriculture:titanium_essence>, <mysticalagriculture:titanium_essence>, <mysticalagriculture:titanium_essence>],
 [<mysticalagriculture:titanium_essence>, null, <mysticalagriculture:titanium_essence>],
@@ -33,3 +38,10 @@ recipes.addShaped(<avaritia:resource:2>*3,
 [[<mysticalagradditions:neutronium_essence>, <mysticalagradditions:neutronium_essence>, <mysticalagradditions:neutronium_essence>],
 [<mysticalagradditions:neutronium_essence>, <mysticalagradditions:neutronium_essence>, <mysticalagradditions:neutronium_essence>],
 [<mysticalagradditions:neutronium_essence>, <mysticalagradditions:neutronium_essence>, <mysticalagradditions:neutronium_essence>]]);
+
+recipes.removeByRecipeName("mysticalagriculture:ingotzinc");
+
+recipes.addShaped(<techreborn:ingot:18>*4,
+[[<mysticalagriculture:zinc_essence>, <mysticalagriculture:zinc_essence>, <mysticalagriculture:zinc_essence>],
+[<mysticalagriculture:zinc_essence>, null, <mysticalagriculture:zinc_essence>],
+[<mysticalagriculture:zinc_essence>, <mysticalagriculture:zinc_essence>, <mysticalagriculture:zinc_essence>]]);

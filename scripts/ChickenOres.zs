@@ -169,6 +169,7 @@ creationunidentified2.build();
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<deepmoblearning:glitch_infused_ingot>, <contenttweaker:glitch_infused_egg>, <extrabees:honey_comb:27>, 5000);
 
+mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:glitch_infused_egg>, <extrabees:honey_comb:27>, <deepmoblearning:glitch_infused_ingot>]);
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<materialpart:rhenium:ingot>*2, <contenttweaker:rhenium_egg>, <aoa3:fragmented_anima_stone>, 1000);
 
@@ -310,3 +311,4 @@ recipes.addShaped(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweake
 [[<agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>],
 [<soulshardsrespawn:materials:1>, <minecraft:egg>, <soulshardsrespawn:materials:1>],
 [<agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>, <agricraft:agri_nugget:11>]]);
+

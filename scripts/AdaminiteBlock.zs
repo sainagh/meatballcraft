@@ -40,10 +40,10 @@ mods.thaumcraft.Crucible.registerRecipe("mythusgem", "", <contenttweaker:mythus_
 
 // val supergemsinfusion = RecipeBuilder.newBuilder("supergemsinfusion","arcane_autoinfuser",1200);
 // supergemsinfusion.addEnergyPerTickInput(100);
-// supergemsinfusion.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}));
-// supergemsinfusion.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}));
-// supergemsinfusion.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}));
-// supergemsinfusion.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}));
+// supergemsinfusion.addItemInput(makeVisCrystal(<aspect:aer> * 1));
+// supergemsinfusion.addItemInput(makeVisCrystal(<aspect:terra> * 1));
+// supergemsinfusion.addItemInput(makeVisCrystal(<aspect:ignis> * 1));
+// supergemsinfusion.addItemInput(makeVisCrystal(<aspect:aqua> * 1));
 // supergemsinfusion.addItemInput(<contenttweaker:mythus_gem>);
 // supergemsinfusion.addItemInput(<contenttweaker:vitium_gem>);
 // supergemsinfusion.addItemInput(<contenttweaker:caeles_gem>);
@@ -59,6 +59,55 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:primordial_s
 <contenttweaker:vitium_gem>,
 <contenttweaker:caeles_gem>,
 <contenttweaker:dreadia_gem>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:primordial_star>*2, 
+300, 
+<contenttweaker:eden_star>, 
+[<contenttweaker:mythus_gem>, 
+<contenttweaker:vitium_gem>,
+<contenttweaker:caeles_gem>,
+<contenttweaker:dreadia_gem>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:primordial_star>*4, 
+300, 
+<contenttweaker:wildwood_star>, 
+[<contenttweaker:mythus_gem>, 
+<contenttweaker:vitium_gem>,
+<contenttweaker:caeles_gem>,
+<contenttweaker:dreadia_gem>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:primordial_star>*8, 
+300, 
+<contenttweaker:apalachia_star>, 
+[<contenttweaker:mythus_gem>, 
+<contenttweaker:vitium_gem>,
+<contenttweaker:caeles_gem>,
+<contenttweaker:dreadia_gem>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:primordial_star>*16, 
+300, 
+<contenttweaker:skythern_star>, 
+[<contenttweaker:mythus_gem>, 
+<contenttweaker:vitium_gem>,
+<contenttweaker:caeles_gem>,
+<contenttweaker:dreadia_gem>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:primordial_star>*32, 
+300, 
+<contenttweaker:mortum_star>, 
+[<contenttweaker:mythus_gem>, 
+<contenttweaker:vitium_gem>,
+<contenttweaker:caeles_gem>,
+<contenttweaker:dreadia_gem>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:primordial_star>*64, 
+300, 
+<contenttweaker:star_of_betrayal>, 
+[<contenttweaker:mythus_gem>, 
+<contenttweaker:vitium_gem>,
+<contenttweaker:caeles_gem>,
+<contenttweaker:dreadia_gem>]);
+
 
 recipes.addShaped(<thaumadditions:adaminite_block>,
 [[<contenttweaker:vibrating_stone>, <materialpart:dreaded_steel:ingot>, <contenttweaker:vibrating_stone>],

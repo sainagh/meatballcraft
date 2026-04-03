@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1045015237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bloodmagic:bound_pickaxe",
+        "tag:10": {
+          "Unbreakable:1": 1,
+          "activated:1": 0
+        }
+      },
+      "name:8": "升级加成：约束之镐"
+    }
+  },
+  "questID:3": 1527904378,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bloodmagic:bound_pickaxe",
+          "tag:10": {
+            "Unbreakable:1": 1,
+            "activated:1": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -33,9 +33,9 @@ recipes.addShaped(<abyssalcraft:dreadfragment>*4,
 [null, <minecraft:rotten_flesh>, null]]);
 
 recipes.addShaped(<abyssalcraft:coraliumore>,
-[[<xreliquary:witch_hat>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]}), <xreliquary:witch_hat>],
+[[<xreliquary:witch_hat>, makeVisCrystal(<aspect:vitium> * 1), <xreliquary:witch_hat>],
 [<abyssalcraft:shoggothflesh:0>, <minecraft:emerald_ore>, <abyssalcraft:shoggothflesh:0>],
-[<xreliquary:witch_hat>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]}), <xreliquary:witch_hat>]]);
+[<xreliquary:witch_hat>, makeVisCrystal(<aspect:vitium> * 1), <xreliquary:witch_hat>]]);
 
 recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "abyssalcraft:shadowcreature"}}),
 [[<aoa3:void_scales>, <thaumcraft:crystal_essence>, <aoa3:void_scales>],
@@ -69,3 +69,15 @@ recipes.addShaped(<abyssalcraft:gatewaykeyjzh>,
 
 
 mods.thermalexpansion.EnervationDynamo.removeFuel(<plustic:laser_gun>);
+
+
+
+recipes.addShaped(<abyssalcraft:carboncluster>*8,
+[[null, <abyssalcraft:crystal:3>, null],
+[<abyssalcraft:crystal:3>, <extrabees:misc:18>, <abyssalcraft:crystal:3>],
+[null, <abyssalcraft:crystal:3>, null]]);
+
+recipes.addShaped(<abyssalcraft:carboncluster>*64,
+[[<extrabees:misc:18>, <abyssalcraft:crystal:3>, <extrabees:misc:18>],
+[<abyssalcraft:crystal:3>, <extrabees:misc:1>, <abyssalcraft:crystal:3>],
+[<extrabees:misc:18>, <abyssalcraft:crystal:3>, <extrabees:misc:18>]]);

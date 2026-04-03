@@ -26,7 +26,7 @@ recipes.addShapeless(<thermalfoundation:material:772>*2,
 
 mods.abyssalcraft.Materializer.removeMaterialization(<abyssalcraft:nitre>);
 
-mods.abyssalcraft.Materializer.addMaterialization(<thermalfoundation:material:772>, [<abyssalcraft:crystal:8>, <abyssalcraft:crystal:9>]);
+mods.abyssalcraft.Materializer.addMaterialization(<thermalfoundation:material:772>*1, [<abyssalcraft:crystal:8>, <abyssalcraft:crystal:9>]);
 
 recipes.remove(<immersiveengineering:material:24>);
 recipes.addShapeless(<thermalfoundation:material:772>, [<ore:oreSaltpeter>, <immersiveengineering:tool:0>]);
@@ -899,20 +899,20 @@ recipes.addShapeless(<nuclearcraft:dust:7>,
 
 
 //==================================================================
-// magnesium
+// ichorium
 
-val ichoriumingot = <ore:ingotIchorium>;
-ichoriumingot.remove(<thaumictinkerer:kamiresource:3>);
+// val ichoriumingot = <ore:ingotIchorium>;
+// ichoriumingot.remove(<thaumictinkerer:kamiresource:3>);
 
-val ichoriumnugget = <ore:nuggetIchorium>;
-ichoriumnugget.remove(<thaumictinkerer:kamiresource:5>);
+// val ichoriumnugget = <ore:nuggetIchorium>;
+// ichoriumnugget.remove(<thaumictinkerer:kamiresource:5>);
 
-mods.nuclearcraft.manufactory.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
+// mods.nuclearcraft.manufactory.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
 
-mods.nuclearcraft.melter.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
-mods.nuclearcraft.melter.removeRecipeWithInput([<thaumictinkerer:kamiresource:5>]);
+// mods.nuclearcraft.melter.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
+// mods.nuclearcraft.melter.removeRecipeWithInput([<thaumictinkerer:kamiresource:5>]);
 
-mods.nuclearcraft.pressurizer.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
+// mods.nuclearcraft.pressurizer.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
 
 
 
@@ -926,3 +926,19 @@ siliconball.remove(<enderio:item_material:5>);
 // silver
 val zincingot = <ore:ingotZinc>;
 zincingot.remove(<railcraft:ingot:8>);
+
+
+//==================================================================
+// alumite
+val alumiteingot = <ore:ingotAlumite>;
+alumiteingot.remove(<plustic:alumiteingot>);
+
+recipes.remove(<plustic:alumiteingot>);
+
+recipes.addShaped(<tconstruct:ingots:6>*4,
+[[<mysticalagriculture:alumite_essence>, <mysticalagriculture:alumite_essence>, <mysticalagriculture:alumite_essence>],
+[<mysticalagriculture:alumite_essence>, null, <mysticalagriculture:alumite_essence>],
+[<mysticalagriculture:alumite_essence>, <mysticalagriculture:alumite_essence>, <mysticalagriculture:alumite_essence>]]);
+
+
+

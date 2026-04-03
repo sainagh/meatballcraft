@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1797790861
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o狩猎生物会带有剑形标记。如果剑为红色，说明你的狩猎等级不足以伤害对方，如果剑为绿色，说明可以攻击对方以获得狩猎经验。推荐从热带群系开始练级！\n\n§f一个可能的线索：这种魔法与暴力直接绑定。几乎像是某人或某物希望我们互相争斗直至有“胜者”出现。这显然不符合自然法则的特征，其或许具有神话起源。\n不过，我还需要更多的信息来确定。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:diamond_sword"
+      },
+      "name:8": "狩猎"
+    }
+  },
+  "questID:3": 1382348754,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 6,
+          "id:8": "contenttweaker:recursive_paper_flying"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:gunpowder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

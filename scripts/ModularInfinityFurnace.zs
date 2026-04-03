@@ -168,6 +168,13 @@ infinityfurnacemegelium4.addItemInput(<contenttweaker:quasar_charged_dust>*8);
 infinityfurnacemegelium4.addItemOutput(<contenttweaker:everwondering_megelium>);
 infinityfurnacemegelium4.build();
 
+val infinityfurnacemegelium5 = RecipeBuilder.newBuilder("infinityfurnacemegelium5","infinity_furnace",10);
+infinityfurnacemegelium5.addFluidInput(<fluid:neutrhassium_alloy>*2);
+infinityfurnacemegelium5.addItemInput(<contenttweaker:everwondering_megelium>);
+infinityfurnacemegelium5.addItemInput(<contenttweaker:delicate_pollen>*1);
+infinityfurnacemegelium5.addItemOutput(<contenttweaker:immaculate_megelium>);
+infinityfurnacemegelium5.build();
+
 
 
 val infinityfurnacecyclicalstarlight = RecipeBuilder.newBuilder("infinityfurnacecyclicalstarlight","infinity_furnace",10);
@@ -184,12 +191,13 @@ val infinityfurnacedemantoid2 = RecipeBuilder.newBuilder("infinityfurnacedemanto
 infinityfurnacedemantoid2.addFluidInput(<fluid:shyrestone>*72);
 infinityfurnacedemantoid2.addItemInput(<contenttweaker:recursive_demantoid>*4);
 infinityfurnacedemantoid2.addItemInput(<contenttweaker:shyre_chunk>);
-infinityfurnacedemantoid2.addItemOutput(<contenttweaker:ascending_demantoid>*2);
+infinityfurnacedemantoid2.addItemOutput(<contenttweaker:ascending_demantoid>*4);
 infinityfurnacedemantoid2.build();
 
 val infinityfurnacedemantoid3 = RecipeBuilder.newBuilder("infinityfurnacedemantoid3","infinity_furnace",10);
 infinityfurnacedemantoid3.addFluidInput(<fluid:infinity>*8);
 infinityfurnacedemantoid3.addItemInput(<contenttweaker:ascending_demantoid>*4);
 infinityfurnacedemantoid3.addItemInput(<contenttweaker:strange_stone_essence>);
-infinityfurnacedemantoid3.addItemOutput(<contenttweaker:fractallite_demantoid>*2);
+infinityfurnacedemantoid3.addItemOutput(<contenttweaker:fractallite_demantoid>*4);
 infinityfurnacedemantoid3.build();
+

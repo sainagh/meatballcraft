@@ -1,3 +1,4 @@
+
 #loader contenttweaker
 // exerts of this piece of code are taken from Jivine Journey 2, by Atricos
 
@@ -13,6 +14,11 @@ import mods.contenttweaker.World;
 import mods.contenttweaker.IItemUpdate;
 import mods.contenttweaker.Player;
 import crafttweaker.player.IPlayer;
+import crafttweaker.block.IBlock;
+import crafttweaker.data.IData;
+import crafttweaker.util.Position3f;
+import crafttweaker.block.IBlockState;
+
 
 
 
@@ -43,101 +49,54 @@ markofthesamurai.itemRightClick = function(stack, world, player, hand) {
 
     // check if player is in right dimension
     if(player.getDimension() != 163) {
-        player.sendChat("该物品需在铼界使用");
+        player.sendChat("需位于铼界的火山带（Volcanic）群系");
         return "FAIL";
     }
-
-	// initial message
-	player.sendChat("要使用该物品，需要先通过神秘时代模组编辑一些生物群系");
-	player.sendChat("需要以下工具：");
-	player.sendChat("- 一台奥术群系转换仪");
-	player.sendChat("- 一些源质管道，或者5个源质注入装置");
-	player.sendChat("- 装有Ignis、Aer、Aqua、Terra、Permutatio源质的源质罐子（每种大概几个）");
-	player.sendChat("- 一些元动中继器");
-	player.sendChat("- 一台元动汲取仪，以及制造裂隙的方法，比如经典的坩埚+压缩圆石，或者邪术元动催化器多方块结构");
-	player.sendChat("- 一个神秘锭或更高等级的法师护手");
-	player.sendChat("- 一个元动谐振器");
-	player.sendChat("- 一个生物群系检查器");
-	player.sendChat("- 装有不详森林（Ominous Woods）和魔法森林（Magical Forest）群系的群系核心");
-	player.sendChat("更多信息，请查阅奥术群系转换仪的信息框");
-	player.sendChat("=====================================");
-	player.sendChat("好了，群系谜题现在开始！");
-
-
-	// step 1
 
     // obtain position under player
 	var playerpos = player.position as crafttweaker.util.Position3f;
 
     // locations to place biomes
-	val VolcanicBiomeLocations = [[5,5],[5,-5],[-5,5],[-5,-5],[0,5],[5,0],[-5,0],[0,-5]] as int[][];
+    val OminousBiomeLocations = [[0,0],
+								[1,0],[0,1],[-1,0],[0,-1],
+								[2,0],[0,2],[-2,0],[0,-2],
+								[3,0],[0,3],[-3,0],[0,-3]] as int[][];
+	val VolcanicBiomeLocations = [[1,1],[1,-1],[-1,1],[-1,-1],
+								  [2,2],[2,-2],[-2,2],[-2,-2],
+								  [3,3],[3,-3],[-3,3],[-3,-3],
+								  [1,2],[-1,2],[1,-2],[-1,-2],
+								  [2,1],[-2,1],[2,-1],[-2,-1],
+								  [1,3],[-1,3],[1,-3],[-1,-3],
+								  [3,1],[-3,1],[3,-1],[-3,-1],
+								  [2,3],[-2,3],[2,-3],[-2,-3],
+								  [3,2],[-3,2],[3,-2],[-3,-2]] as int[][];
 
     // biome to pattern
+    val OminousBiomeName = "Ominous Woods" as string;
 	val VolcanicBiomeName = "Volcanic" as string;
 
 
     // get number of matches
+    val OminousMatches = checkBiomesAtPositions(OminousBiomeName, playerpos, OminousBiomeLocations, world) as int;
 	val VolcanicMatches = checkBiomesAtPositions(VolcanicBiomeName, playerpos, VolcanicBiomeLocations, world) as int;
 
-	// step 1 message
-	player.sendChat("步骤一：寻找一个11x11的火山带（Volcanic）群系区域，将奥术群系转换仪放置在中心点，然后站在转换仪上再次使用该物品");
+    player.sendChat("使用更多实用设备模组的地形转化仪，创建一个由火山带（Volcanic）群系（不是火山带荒地（Volcanic Barren）或者火山带低地（Volcanic Lowlands））环绕不祥森林（Ominous Woods）群系构成的加号形状");
+	player.sendChat("站在中心使用该物品！");
 
-	// check step 1
-	if (VolcanicMatches != 8){
-		player.sendChat("	该11x11区域的边缘并非全是火山带（Volcanic）群系，请另寻合适位置！");
+	player.sendChat(" - - - ");
+	player.sendChat("正在扫描你周围的7x7区域");
+
+	player.sendChat("不祥森林（Ominous Woods）：" ~ OminousMatches ~ " / 13");
+	player.sendChat("火山带（Volcanic）：" ~ VolcanicMatches ~ " / 36");
+
+    if((OminousMatches+VolcanicMatches) == 49) {
+		Commands.call("give @p contenttweaker:sword_shield", player, world, false, true);
+		stack.shrink(1);
+		return "PASS";
+	} else {
+		player.sendChat("形状不完整！");
 		return "FAIL";
 	}
-	player.sendChat("	步骤一完成！你正处于11x11火山带（Volcanic）群系区域内");
-	player.sendChat("	调试辅助提示：可用草覆盖11x11区域，其颜色将随群系变化而改变");
-	player.sendChat("	将奥术群系转换仪及其装置放置在中心点");
-	player.sendChat("	为保持整洁，请将元动能量产出设备放置在11x11区域外，并通过中继器传输至转换仪");
-	
-	
-	
-	player.sendChat("---");
-	player.sendChat("步骤二：运行转换仪，创建7x7的不详森林（Ominous Woods）区域，完成后站在转换仪上再次使用该物品");
-	player.sendChat("	使用以下设置：“方形”，“半径 24”，如此设置是因为模组本身的一个bug");
-	player.sendChat("	当然，如果你觉得自己运气够好，也可以试试：“方形”，“半径 4”，但这样有可能出bug");
-	player.sendChat("	根据元动能量产出速度，可能需要多次运行转换仪才能完成整个区域转换");
-
-	// step 2
-	val OminousBiomeLocations = [
-		[3,3],[3,-3],[-3,3],[-3,-3],
-		[0,3],[0,-3],[3,0],[-3,0]
-		] as int[][];
-	val OminousBiomeName = "Ominous Woods" as string;
-	val OminousMatches = checkBiomesAtPositions(OminousBiomeName, playerpos, OminousBiomeLocations, world) as int;
-    player.sendChat("不详森林（Ominous Woods）：" ~ OminousMatches ~ " / 8");
-
-	if (OminousMatches != 8){
-		player.sendChat("	7x7的不详森林（Ominous Woods）区域不完整");
-		return "FAIL";
-	}
-
-	player.sendChat("	步骤二完成！你正处于7x7的不详森林（Ominous Woods）区域内");
-
-	player.sendChat("---");
-	player.sendChat("步骤三：运行转换仪，将中心方块变为魔法森林（Magical Forest），完成后站在转换仪上再次使用该物品");
-	player.sendChat("	Use these settings, 'Square', 'Radius 2'");
-
-	// step 3
-	val MagicBiomeLocations = [
-		[0,0]
-		] as int[][];
-	val MagicBiomeName = "Magical Forest" as string;
-	val MagicMatches = checkBiomesAtPositions(MagicBiomeName, playerpos, MagicBiomeLocations, world) as int;
-    player.sendChat("魔法森林（Magical Forest）：" ~ MagicMatches ~ " / 1");
-
-	if (MagicMatches != 1){
-		player.sendChat("	中心方块不是魔法森林（Magical Forest）");
-		return "FAIL";
-	}
-
-	player.sendChat("	步骤三完成！");
-	Commands.call("summon Item ~ ~100 ~ {Item:{id:\"contenttweaker:sword_shield\",Count:1b}}", player, world, false, true);
-	stack.shrink(1);
-	return "Pass";
-
 
 };
 markofthesamurai.register();
@@ -296,7 +255,7 @@ terraformassiflora.itemRightClick = function(stack, world, player, hand) {
 
 
 
-	if((NumberOfMatches) == 25) {
+	if((NumberOfMatches) == 113) {
 		Commands.call("give @p contenttweaker:crown_of_the_energy_queen", player, world, false, true);
 		stack.shrink(1);
 		return "PASS";
@@ -1288,8 +1247,8 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
     // check if player is in right dimension
     if(player.getDimension() != 193) {
 		if(player.getDimension() != 192) {
-        player.sendChat("“需”位于争竞界");
-        return "FAIL";
+        	player.sendChat("“需”位于争竞界");
+        	return "FAIL";
 		}
     }
 
@@ -1325,7 +1284,7 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
     val BarathosMatches = checkBiomesAtPositions(BarathosBiomeName, playerpos, BarathosBiomeLocations, world) as int;
     val MysteriumMatches = checkBiomesAtPositions(MysteriumBiomeName, playerpos, MysteriumBiomeLocations, world) as int;
     val IcespikesMatches = checkBiomesAtPositions(IcespikesBiomeName, playerpos, IcespikesBiomeLocations, world) as int;
-	val OuterLandsMatches = checkBiomesAtPositions(OuterlandsBiomeName, playerpos, OuterLandsBiomeLocations, world) as int;
+    val OuterLandsMatches = checkBiomesAtPositions(OuterlandsBiomeName, playerpos, OuterLandsBiomeLocations, world) as int;
 
 	if((OuterLandsMatches) == 1) {
 		var pos3 = player.position.asPosition3f();
@@ -1393,3 +1352,13 @@ oathoftheundeadlords.itemRightClick = function(stack, world, player, hand) {
 
 };
 oathoftheundeadlords.register();
+
+
+
+
+
+
+
+
+
+

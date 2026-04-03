@@ -17,64 +17,8 @@ This is to keep the recipe available in the research page.
 */
 var tcAdditions = "thaumadditions";
 var tcTinkerer = "thaumictinkerer";
-# KAMI armor
-registerInfusionRecipeFromAddon(`${tcTinkerer}:kami_helm`, "TT_KAMIHELM",
-  <thaumictinkerer:kami_helm>, 32, 
-  [
-    <aspect:aqua> * 150, <aspect:auram> * 125, <aspect:cognitio> * 125,
-    <aspect:victus> * 60, <aspect:lux> * 250, <aspect:praemunio> * 125
-  ], 
-  <thaumictinkerer:ichor_helm>, 
-  [
-    <thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>, <thaumictinkerer:kamiresource:2>,
-    <thaumictinkerer:kamiresource:2>, <minecraft:chorus_fruit_popped>, <minecraft:golden_helmet>,
-    <minecraft:potion>.withTag({Potion: "minecraft:night_vision"}), <thaumcraft:goggles>, <minecraft:ghast_tear>,
-    <minecraft:fish>, <minecraft:cake>, <minecraft:ender_eye>
-  ]
-);
-registerInfusionRecipeFromAddon(`${tcTinkerer}:kami_chest`, "TT_KAMICHEST",
-  <thaumictinkerer:kami_chest>, 32, 
-  [
-    <aspect:aer> * 150, <aspect:praemunio> * 125, <aspect:volatus> * 125,
-    <aspect:ordo> * 125, <aspect:lux> * 250, <aspect:alienis> * 60
-  ], 
-  <thaumictinkerer:ichor_chest>, 
-  [
-    <thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>, <thaumictinkerer:kamiresource:2>,
-    <thaumictinkerer:kamiresource:2>, <minecraft:chorus_fruit_popped>, <minecraft:golden_chestplate>,
-    <thaumcraft:cloud_ring>, <minecraft:elytra>, <minecraft:shield>,
-    <minecraft:feather>, <minecraft:ghast_tear>, <minecraft:arrow>
-  ]
-);
-registerInfusionRecipeFromAddon(`${tcTinkerer}:kami_legs`, "TT_KAMILEGS",
-  <thaumictinkerer:kami_legs>, 32, 
-  [
-    <aspect:aer> * 150, <aspect:praemunio> * 125, <aspect:volatus> * 125,
-    <aspect:ordo> * 125, <aspect:lux> * 250, <aspect:alienis> * 60
-  ], 
-  <thaumictinkerer:ichor_legs>, 
-  [
-    <thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>, <thaumictinkerer:kamiresource:2>,
-    <thaumictinkerer:kamiresource:2>, <minecraft:chorus_fruit_popped>, <minecraft:golden_leggings>,
-    <minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}), <thaumictinkerer:energetic_nitor>, <thaumcraft:lamp_arcane>,
-    <minecraft:lava_bucket>, <minecraft:fire_charge>, <minecraft:blaze_rod>
-  ]
-);
-registerInfusionRecipeFromAddon(`${tcTinkerer}:kami_boots`, "TT_KAMIBOOTS",
-  <thaumictinkerer:kami_boots>, 32, 
-  [
-    <aspect:terra> * 150, <aspect:praemunio> * 125, <aspect:instrumentum> * 125,
-    <aspect:motus> * 125, <aspect:lux> * 250, <aspect:herba> * 60,
-    <aspect:volatus> * 60
-  ], 
-  <thaumictinkerer:ichor_boots>, 
-  [
-    <thaumadditions:mithrillium_ingot>, <thaumadditions:mithrillium_ingot>, <thaumictinkerer:kamiresource:2>,
-    <thaumictinkerer:kamiresource:2>, <minecraft:chorus_fruit_popped>, <minecraft:golden_boots>,
-    <minecraft:grass>, <minecraft:wheat_seeds>, <thaumcraft:lamp_growth>,
-    <thaumcraft:turret:2>, <minecraft:wool:0>, <minecraft:lead>
-  ]
-);
+var tcGado = "gadothaumy";
+
 
 # Fix crystal crusher in JEI
 registerInfusionRecipeFromAddon(`${tcAdditions}:crystal_crusher`, "TAR_CRYSTAL_CRUSHER", 

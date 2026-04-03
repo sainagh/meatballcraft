@@ -111,6 +111,17 @@ null, <forestry:alveary.hygro>, null,
 <careerbees:eternalframe>, <contenttweaker:sacred_cinders_fruit>, <contenttweaker:sacred_cinders_fruit>]]);  
 
 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacrosanct_cinders_apiary>, 
+[[<contenttweaker:sacred_cinders_honey>, <contenttweaker:sacred_cinders_honey>, <contenttweaker:sacred_cinders_honey>, <contenttweaker:sacred_cinders_honey>, <contenttweaker:sacred_cinders_honey>, <contenttweaker:sacred_cinders_honey>, <contenttweaker:sacred_cinders_honey>], 
+[<contenttweaker:sacred_cinders_honey>, <contenttweaker:gem_of_recursion>, <forestry:royal_jelly>, <contenttweaker:gem_of_recursion>, <forestry:royal_jelly>, <contenttweaker:gem_of_recursion>, <contenttweaker:sacred_cinders_honey>], 
+[<contenttweaker:sacred_cinders_honey>, <forestry:royal_jelly>, <gendustry:honey_comb:13349>, <extrabees:alveary:3>, <gendustry:honey_comb:13349>, <forestry:royal_jelly>, <contenttweaker:sacred_cinders_honey>], 
+[<contenttweaker:sacred_cinders_honey>, <contenttweaker:gem_of_recursion>, <extrabees:alveary:3>, <contenttweaker:sacred_cinders_apiary>, <extrabees:alveary:3>, <contenttweaker:gem_of_recursion>, <contenttweaker:sacred_cinders_honey>], 
+[<contenttweaker:sacred_cinders_honey>, <forestry:royal_jelly>, <gendustry:honey_comb:13349>, <extrabees:alveary:3>, <gendustry:honey_comb:13349>, <forestry:royal_jelly>, <contenttweaker:sacred_cinders_honey>], 
+[<contenttweaker:sacred_cinders_honey>, <contenttweaker:gem_of_recursion>, <forestry:royal_jelly>, <contenttweaker:gem_of_recursion>, <forestry:royal_jelly>, <contenttweaker:gem_of_recursion>, <contenttweaker:sacred_cinders_honey>], 
+[<contenttweaker:sacred_cinders_honey>, <contenttweaker:sacred_cinders_honey>, <contenttweaker:sacred_cinders_honey>, <contenttweaker:sacred_cinders_honey>, <contenttweaker:sacred_cinders_honey>, <contenttweaker:sacred_cinders_honey>, <contenttweaker:sacred_cinders_honey>]]);  
+
+
+
 
 val superbee_desolate = RecipeBuilder.newBuilder("superbee_desolate","sacred_cinders_apiary",10);	superbee_desolate.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "extrabees.species.desolate", UID0: "extrabees.species.desolate"}]}}));	superbee_desolate.setChance(0.0);	superbee_desolate.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_desolate.addItemOutput(<extrabees:honey_comb:0>*64);	superbee_desolate.addItemOutput(<forestry:bee_combs:0>*64);	superbee_desolate.build();
 val superbee_rotten = RecipeBuilder.newBuilder("superbee_rotten","sacred_cinders_apiary",10);	superbee_rotten.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "extrabees.species.rotten", UID0: "extrabees.species.rotten"}]}}));	superbee_rotten.setChance(0.0);	superbee_rotten.addFluidInput(<fluid:liquid_sunshine>*25);	superbee_rotten.addItemOutput(<extrabees:honey_comb:1>*64);	superbee_rotten.addItemOutput(<forestry:bee_combs:0>*64);	superbee_rotten.build();
@@ -378,3 +389,47 @@ superbee_fissile.addFluidInput(<fluid:liquid_sunshine>*25);
 superbee_fissile.addItemOutput(<contenttweaker:heuf_fuel>*64);	
 superbee_fissile.addItemOutput(<contenttweaker:heuf_fuel>*64);	
 superbee_fissile.build();
+
+val superbee_sacredhoney = RecipeBuilder.newBuilder("superbee_sacredhoney","sacred_cinders_apiary",10);	
+superbee_sacredhoney.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Sacredhoney", UID0: "gendustry.bee.Sacredhoney"}]}}));	
+superbee_sacredhoney.setChance(0.0);	
+superbee_sacredhoney.addFluidInput(<fluid:liquid_sunshine>*25);	
+superbee_sacredhoney.addItemOutput(<twilightforest:cinder_log>*64);	
+superbee_sacredhoney.addItemOutput(<contenttweaker:sacred_cinders_honey>*64);	
+superbee_sacredhoney.build();
+
+val superbee_chunkychunk = RecipeBuilder.newBuilder("superbee_chunkychunk","sacred_cinders_apiary",10);	
+superbee_chunkychunk.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Chunky", UID0: "gendustry.bee.Chunky"}]}}));	
+superbee_chunkychunk.setChance(0.0);	
+superbee_chunkychunk.addFluidInput(<fluid:liquid_sunshine>*25);	
+superbee_chunkychunk.addItemOutput(<contenttweaker:warren_chunk>*64);	
+superbee_chunkychunk.addItemOutput(<contenttweaker:warren_chunk>*64);	
+superbee_chunkychunk.build();
+
+
+val superbee_prosperous = RecipeBuilder.newBuilder("superbee_prosperous","sacred_cinders_apiary",10);	
+superbee_prosperous.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Prosperous", UID0: "gendustry.bee.Prosperous"}]}}));	
+superbee_prosperous.setChance(0.0);	
+superbee_prosperous.addFluidInput(<fluid:liquid_sunshine>*25);	
+superbee_prosperous.addItemOutput(<contenttweaker:prosperous_rock>*64);	
+superbee_prosperous.addItemOutput(<contenttweaker:prosperous_rock>*64);	
+superbee_prosperous.build();
+
+val superbee_awakened = RecipeBuilder.newBuilder("superbee_awakened","sacred_cinders_apiary",10);	
+superbee_awakened.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Awakened", UID0: "gendustry.bee.Awakened"}]}}));	
+superbee_awakened.setChance(0.0);	
+superbee_awakened.addFluidInput(<fluid:liquid_sunshine>*25);	
+superbee_awakened.addItemOutput(<contenttweaker:awakening_bloom>*64);	
+superbee_awakened.addItemOutput(<contenttweaker:awakening_bloom>*64);	
+superbee_awakened.build();
+
+
+val superbee_doctoral = RecipeBuilder.newBuilder("superbee_doctoral","sacred_cinders_apiary",10);	
+superbee_doctoral.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "magicbees.speciesDoctoral", UID0: "magicbees.speciesDoctoral"}]}}));	
+superbee_doctoral.setChance(0.0);	
+superbee_doctoral.addFluidInput(<fluid:liquid_sunshine>*25);	
+superbee_doctoral.addItemOutput(<magicbees:beecomb:9>*64);	
+superbee_doctoral.addItemOutput(<magicbees:beecomb:9>*64);	
+superbee_doctoral.build();
+
+

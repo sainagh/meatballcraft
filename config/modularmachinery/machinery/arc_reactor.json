@@ -8,7 +8,7 @@
             "x": 0,
             "y": 4,
             "z": 1,
-            "description": "输出x4",
+            "description": "产出x4",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",
@@ -21,7 +21,7 @@
             "x": 0,
             "y": 4,
             "z": 1,
-            "description": "输出x16",
+            "description": "产出x16",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",
@@ -34,7 +34,7 @@
             "x": 0,
             "y": 4,
             "z": 1,
-            "description": "输出x64",
+            "description": "产出x64",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",
@@ -47,7 +47,7 @@
             "x": 0,
             "y": 4,
             "z": 1,
-            "description": "输出x256",
+            "description": "产出x256",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",

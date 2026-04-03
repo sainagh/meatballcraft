@@ -151,7 +151,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("thaumictinkerer:ichor_block", playerPos, [4,0,20], world) == 0) {
+    if (getBlockMatchAtPosition("contenttweaker:kami_essence_block", playerPos, [4,0,20], world) == 0) {
         player.sendChat("在腐化虚空石壤的南侧，间隔一格放置一个神灵精华块 [4,0,20]");
         return "FAIL";
     }
@@ -257,13 +257,13 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
 
     if (getBlockMatchAtPosition("divinerpg:eden_grass", playerPos, [12,0,-2], world) == 0) {
         player.sendChat("没错！获得第一块塞德娜金属的感觉很棒吧？第四章开始才是真正的挑战，不是吗？");
-        player.sendChat("现在我们要前往伊甸，下一个方块在黑曜石晶体的东北侧，间隔一格 [12,0,-2]");
+        player.sendChat("现在我们要前往伊甸，下一个方块在水晶方块的东北侧，间隔一格 [12,0,-2]");
         return "FAIL";
     }
 
     if (getBlockMatchAtPosition("aoa3:precasia_grass", playerPos, [12,0,2], world) == 0) {
         player.sendChat("神圣RPG是我玩过的第一个有高难度怪物的模组。当时游戏版本还是1.4.6呢！");
-        player.sendChat("是时候进入第一神话叠壳的传说维度了，下一个方块在黑曜石晶体的东南侧，间隔一格 [12,0,2]");
+        player.sendChat("是时候进入第一神话叠壳的传说维度了，下一个方块在水晶方块的东南侧，间隔一格 [12,0,2]");
         return "FAIL";
     }
 
@@ -311,7 +311,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
 
     if (getBlockMatchAtPosition("projectred-exploration:stone", playerPos, [14,0,0], world) == 0) {
         player.sendChat("末结地有*一点点*卡，但我实在忍不住不在整个维度里塞满激光鸡！");
-        player.sendChat("接下来是铼界，其方块在末影白云石的东侧，间隔三格 [14,0,0]");
+        player.sendChat("接下来是铼界，其方块在蓝色水晶方块的东侧，间隔三格 [14,0,0]");
         return "FAIL";
     }
 
@@ -323,13 +323,13 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
 
     if (getBlockMatchAtPosition("divinerpg:wildwood_grass", playerPos, [18,0,-2], world) == 0) {
         player.sendChat("恐蚁界里的冰火传说模组生物很酷，就是有点卡。所以我为它们只做了专属维度来参与到流程中，算是某种程度上的妥协。");
-        player.sendChat("现在我们要前往原始森林了，下一个方块在轻树原木的东北侧，间隔一格 [18,0,-2]");
+        player.sendChat("现在我们要前往原始森林了，下一个方块在轻树木的东北侧，间隔一格 [18,0,-2]");
         return "FAIL";
     }
 
     if (getBlockMatchAtPosition("aoa3:candyland_grass", playerPos, [18,0,2], world) == 0 ) {
         player.sendChat("我发现神圣RPG模组的维度看起来有点千篇一律，希望添加的自定义结构能带来一些多样性。");
-        player.sendChat("第二神话叠壳！从轻树原木的东南侧开始，间隔一格 [18,0,2]");
+        player.sendChat("第二神话叠壳！从轻树木的东南侧开始，间隔一格 [18,0,2]");
         return "FAIL";
     }
 
@@ -383,7 +383,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
 
     if (getBlockMatchAtPosition("bewitchment:scorned_bricks", playerPos, [20,0,0], world) == 0) {
         player.sendChat("在制作共鸣界时，我突然意识到：许多在原版自定义冒险地图中通过命令方块实现的效果，同样可以运用在模组包里！自那以后，我开始在各个自定义结构中大规模使用命令方块！");
-        player.sendChat("下一站是光精界，其方块在轻树原木的东侧，间隔三格 [20,0,0]");
+        player.sendChat("下一站是光精界，其方块在轻树木的东侧，间隔三格 [20,0,0]");
         return "FAIL";
     }
 
@@ -575,9 +575,9 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
     }
 
     if (getBlockMatchAtPosition("contenttweaker:recursive_stone", playerPos, [4,-1,2], world) == 0) {
-        player.sendChat("不管怎么说，我既然花时间写下了这些，说明我内心还是希望你能成功的。");
+        player.sendChat("不管怎么说，既然花时间写下了这些，说明我内心还是希望你能成功的。");
         player.sendChat("玩得开心，大概吧……");
-        player.sendChat("还记得你在哪用的递归监狱钥匙吗？没错，如果你是咒法主宰，也许能尝试破坏那里的某种方块，然后将其放置在对应维度方块的下方");
+        player.sendChat("还记得你在哪用的递归监狱钥匙吗？没错，如果你是法咒主宰，也许能尝试破坏那里的某种方块，然后将其放置在对应维度方块的下方");
         return "FAIL";
     }
 

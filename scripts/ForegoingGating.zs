@@ -69,3 +69,42 @@ recipes.addShaped(<industrialforegoing:enchantment_invoker>,
 [[<industrialforegoing:plastic>, <minecraft:book>, <industrialforegoing:plastic>],
 [<minecraft:diamond>, <thermalexpansion:frame:0>, <minecraft:diamond>],
 [<minecraft:obsidian>, <divinerpg:altar_of_corruption>, <minecraft:obsidian>]]);
+
+recipes.addShaped(<contenttweaker:pink_slime_block>,
+[[<industrialforegoing:pink_slime>, <industrialforegoing:pink_slime>, <industrialforegoing:pink_slime>],
+[<industrialforegoing:pink_slime>, <industrialforegoing:pink_slime>, <industrialforegoing:pink_slime>],
+[<industrialforegoing:pink_slime>, <industrialforegoing:pink_slime>, <industrialforegoing:pink_slime>]]);
+
+recipes.addShapeless(<industrialforegoing:pink_slime>*9,
+[<contenttweaker:pink_slime_block>]);
+
+recipes.addShaped(<contenttweaker:compressed_pink_slime_block>,
+[[<contenttweaker:pink_slime_block>, <contenttweaker:pink_slime_block>, <contenttweaker:pink_slime_block>],
+[<contenttweaker:pink_slime_block>, <contenttweaker:pink_slime_block>, <contenttweaker:pink_slime_block>],
+[<contenttweaker:pink_slime_block>, <contenttweaker:pink_slime_block>, <contenttweaker:pink_slime_block>]]);
+
+recipes.addShaped(<contenttweaker:double_compressed_pink_slime_block>,
+[[<contenttweaker:compressed_pink_slime_block>, <contenttweaker:compressed_pink_slime_block>, <contenttweaker:compressed_pink_slime_block>],
+[<contenttweaker:compressed_pink_slime_block>, <contenttweaker:compressed_pink_slime_block>, <contenttweaker:compressed_pink_slime_block>],
+[<contenttweaker:compressed_pink_slime_block>, <contenttweaker:compressed_pink_slime_block>, <contenttweaker:compressed_pink_slime_block>]]);
+
+recipes.addShapeless(<contenttweaker:pink_slime_block>*9,
+[<contenttweaker:compressed_pink_slime_block>]);
+
+recipes.addShapeless(<contenttweaker:compressed_pink_slime_block>*9,
+[<contenttweaker:double_compressed_pink_slime_block>]);
+
+
+mods.storagedrawers.Compaction.add(<contenttweaker:pink_slime_block>, <industrialforegoing:pink_slime>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:compressed_pink_slime_block>, <contenttweaker:pink_slime_block>, 9);
+mods.storagedrawers.Compaction.add(<contenttweaker:double_compressed_pink_slime_block>, <contenttweaker:compressed_pink_slime_block>, 9);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:pink_slime_block>, <fluid:if.pink_slime>*900]);
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:compressed_pink_slime_block>, <fluid:if.pink_slime>*8100]);
+
+
+recipes.addShaped(<forestry:portable_alyzer>,
+[[<ore:ingotTin>, <ore:paneGlass>, <ore:ingotTin>],
+[<ore:ingotTin>, <ore:paneGlass>, <ore:ingotTin>],
+[<ore:dustRedstone>, <ore:gemDiamond>, <ore:dustRedstone>]]);

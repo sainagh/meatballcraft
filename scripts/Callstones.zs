@@ -1527,6 +1527,26 @@ lordsummoner.itemRightClick = function(stack, world, player, hand) {
 };
 lordsummoner.register();
 
+var captainmeriksummoner = VanillaFactory.createItem("captaimerik_summoner");
+captainmeriksummoner.maxStackSize = 1;
+captainmeriksummoner.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 426) {
+        player.sendChat("需位于秘界");
+        return "FAIL";
+    }
+
+    Commands.call("summon divinerpg:captain_merik ~ ~1 ~", player, world, false, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+captainmeriksummoner.register();
+
 var strangecharm = VanillaFactory.createItem("strange_charm");
 strangecharm.maxStackSize = 1;
 strangecharm.itemRightClick = function(stack, world, player, hand) {
@@ -3847,7 +3867,7 @@ thirdrecursivelock.itemRightClick = function(stack, world, player, hand) {
 
 
     Commands.call("summon aoa3:dracyon ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_borean\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
-    Commands.call("summon aoa3:visualent ~2 ~ ~2 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_lunalus\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
+    Commands.call("summon aoa3:visualent ~1 ~1 ~1 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_lunalus\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
     Commands.call("summon aoa3:clunkhead ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_runandor\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
     Commands.call("summon divinerpg:sunstorm ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_eden\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
     Commands.call("summon divinerpg:termasect ~3 ~1 ~3 {HandItems:[{Count:1,id:\"contenttweaker:warren_shard_wildwood\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f}", player, world, false, true);
@@ -4381,6 +4401,27 @@ recursivepaperfaithfulundead.itemRightClick = function(stack, world, player, han
 recursivepaperfaithfulundead.register();
 
 
+var recursivepaperflyer= VanillaFactory.createItem("recursive_paper_flying");
+recursivepaperflyer.maxStackSize = 16;
+recursivepaperflyer.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    // Commands.call("time set night", player, world, false, true);
+
+    Commands.call("summon aoa3:rammerhead ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:rammerhead ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:rammerhead ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:rammerhead ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:rammerhead ~ ~3 ~", player, world, false, true);
+    Commands.call("summon aoa3:rammerhead ~ ~3 ~", player, world, false, true);
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+recursivepaperflyer.register();
 
 var weaponsmithcallstone = VanillaFactory.createItem("weaponsmith_callstone");
 weaponsmithcallstone.maxStackSize = 1;
@@ -4703,8 +4744,8 @@ dreadcleansingcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if(player.getDimension() != 19) {
-        player.sendChat("需位于基岩维度");
+    if(player.getDimension() != 14676) {
+        player.sendChat("需位于虚域");
         return "FAIL";
     }
 
@@ -5457,19 +5498,19 @@ summonstothearmyofdarkness.register();
 
 
 
-var arcaneterraformernoob = VanillaFactory.createItem("arcane_terraformer_noob");
-arcaneterraformernoob.maxStackSize = 1;
-arcaneterraformernoob.itemRightClick = function(stack, world, player, hand) {
+var beekeperarchive = VanillaFactory.createItem("beekeper_archive");
+beekeperarchive.maxStackSize = 1;
+beekeperarchive.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
 
-    Commands.call("/tellraw @a {\"text\":\"点击此处查看该谜题群系的设置教程\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=-_5BU87Gnjs\"}}", player, world, false, true);
+    Commands.call("/tellraw @a {\"text\":\"点击此处查看在线版本的蜜蜂育种树！\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://at-l4s.github.io/BeeBreeding/\"}}", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
 };
-arcaneterraformernoob.register();
+beekeperarchive.register();
 
 
 
@@ -5809,3 +5850,187 @@ riteofunhollowing.itemRightClick = function(stack, world, player, hand) {
 
 };
 riteofunhollowing.register();
+
+
+
+
+var sunderingofthetwilitcurse = VanillaFactory.createItem("sundering_of_the_twilit_curse");
+sunderingofthetwilitcurse.maxStackSize = 1;
+sunderingofthetwilitcurse.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 7) {
+        player.sendChat("在暮色森林的血腥教团结构中使用");
+        return "FAIL";
+    }
+    player.sendChat("在暮色森林的血腥教团结构中使用");
+
+	Commands.call("fill ~-5 ~-5 ~-5 ~5 ~5 ~5 contenttweaker:crimson_warren_remains 0 replace chisel:arcane_stone1", player, world, false, true);
+
+    return "PASS";
+
+};
+sunderingofthetwilitcurse.register();
+
+
+
+var valhallacallstone = VanillaFactory.createItem("valhalla_callstone");
+valhallacallstone.maxStackSize = 1;
+valhallacallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 426) {
+        player.sendChat("需位于秘界");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn norsegods_callstone", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+valhallacallstone.register();
+
+
+var dragonreborncallstone = VanillaFactory.createItem("dragon_reborn_callstone");
+dragonreborncallstone.maxStackSize = 1;
+dragonreborncallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 0) {
+        player.sendChat("需位于主世界");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn callstone_dragonreborn", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+dragonreborncallstone.register();
+
+
+
+//summon thaumcraft:cultistknight ~ ~6 ~ {Invulnerable:1, HandItems:[{Count:1,id:"aoa3:shadow_sword"},{Count:1,id:"erebus:rhino_exoskeleton_shield"}],HandDropChances:[0.0f,0.0f],ArmorItems:[{Count:1,id:"iceandfire:armor_black_boots"},{Count:1,id:"iceandfire:armor_black_leggings"},{Count:1,id:"iceandfire:armor_black_chestplate"},{Count:1,id:"iceandfire:armor_black_helmet"}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],PersistenceRequired:1,CustomName:"Rahk, Eleint of Actualization",Tags:["kashaneleint"]}
+
+//summon thaumcraft:cultistcleric ~ ~6 ~ {PersistenceRequired:1,ArmorItems:[{},{},{},{Count:1,id:"contenttweaker:hyperuranion_staff"}],ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}],ForgeCaps:{"twilightforest:cap_shield":{tempshields:100,permshields:100}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:30000.0}],Health:1000000f,CustomName:"Avatar of Kashan"}
+//summon thaumcraft:cultistcleric ~ ~6 ~ {PersistenceRequired:1,ArmorItems:[{},{},{},{Count:1,id:"contenttweaker:hyperuranion_ring"}],ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}],ForgeCaps:{"twilightforest:cap_shield":{tempshields:100,permshields:100}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:30000.0}],Health:1000000f,CustomName:"Avatar of Kashan"}
+//summon thaumcraft:cultistcleric ~ ~6 ~ {PersistenceRequired:1,ArmorItems:[{},{},{},{Count:1,id:"contenttweaker:hyperuranion_bow"}],ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}],ForgeCaps:{"twilightforest:cap_shield":{tempshields:100,permshields:100}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:30000.0}],Health:1000000f,CustomName:"Avatar of Kashan"}
+//summon thaumcraft:cultistcleric ~ ~6 ~ {PersistenceRequired:1,ArmorItems:[{},{},{},{Count:1,id:"contenttweaker:hyperuranion_plate"}],ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}],ForgeCaps:{"twilightforest:cap_shield":{tempshields:100,permshields:100}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:30000.0}],Health:1000000f,CustomName:"Avatar of Kashan"}
+//summon thaumcraft:cultistcleric ~ ~6 ~ {PersistenceRequired:1,ArmorItems:[{},{},{},{Count:1,id:"contenttweaker:hyperuranion_sphere"}],ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}],ForgeCaps:{"twilightforest:cap_shield":{tempshields:100,permshields:100}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:30000.0}],Health:1000000f,CustomName:"Avatar of Kashan"}
+//summon thaumcraft:cultistcleric ~ ~6 ~ {PersistenceRequired:1,ArmorItems:[{},{},{},{Count:1,id:"contenttweaker:hyperuranion_disk"}],ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b},{Id:24,Amplifier:0,Duration:999999,ShowParticles:0b}],ForgeCaps:{"twilightforest:cap_shield":{tempshields:100,permshields:100}},Attributes:[{Name:generic.maxHealth, Base:1000000.0},{Name:generic.attackDamage, Base:30000.0}],Health:1000000f,CustomName:"Avatar of Kashan"}
+
+
+var keyofactualization = VanillaFactory.createItem("key_of_actualization");
+keyofactualization.maxStackSize = 1;
+keyofactualization.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 190) {
+        player.sendChat("需位于卡尚");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn kashan_callstone_aspecteleint", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+keyofactualization.register();
+
+
+
+var magicbanecallstone = VanillaFactory.createItem("magicbane_callstone");
+magicbanecallstone.maxStackSize = 1;
+magicbanecallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 805) {
+        player.sendChat("需位于蠕变维度");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn creeponia_callstone_creepermagicbane", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+magicbanecallstone.register();
+
+
+
+var timelordscallstone = VanillaFactory.createItem("time_lords_callstone");
+timelordscallstone.maxStackSize = 1;
+timelordscallstone.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    if(player.getDimension() != 624) {
+        player.sendChat("需位于伽里弗雷");
+        return "FAIL";
+    }
+
+    Commands.call("pillar-spawn gallifrey_callstone_timelordsrelics", player, world, false, true);
+
+
+    stack.shrink(1);
+    return "PASS";
+
+};
+timelordscallstone.register();
+
+
+
+
+
+
+
+
+var silencingnothingness = VanillaFactory.createItem("silencing_nothingness");
+silencingnothingness.maxStackSize = 1;
+silencingnothingness.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+    // obtain position under player
+	var pos = player.position.asPosition3f();
+
+	// check if player is standing on beacon
+    var posChange = player.position.asPosition3f();
+    posChange.y = pos.y;
+   
+    if(player.getDimension() != 66) {
+        player.sendChat("需位于混沌之地");
+        return "FAIL";
+    }
+
+    if(posChange.y > -100) {
+        player.sendChat("继续往下，更深一些");
+        return "FAIL";
+    }
+
+    Commands.call("give @p contenttweaker:shard_of_nothingness", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+silencingnothingness.register();

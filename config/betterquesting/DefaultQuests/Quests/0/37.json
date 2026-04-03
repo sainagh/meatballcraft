@@ -25,12 +25,7 @@
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "minecraft:paper",
-          "tag:10": {
-            "display:10": {
-              "Name:8": "远离核泄漏之地（Nuclear Wastelands）"
-            }
-          }
+          "id:8": "contenttweaker:nuclear_engineers_goggles"
         },
         "2:10": {
           "Count:3": 1,

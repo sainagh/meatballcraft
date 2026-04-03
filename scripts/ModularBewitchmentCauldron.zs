@@ -64,6 +64,7 @@ val cauldron6 = RecipeBuilder.newBuilder("autocauldron6","terrestrial_cauldron",
 cauldron6.addFluidInput(<fluid:water>*1000);
 cauldron6.addFluidInput(<fluid:lava>*1000);
 cauldron6.addItemInput(<bewitchment:adders_fork>*4);
+cauldron6.addItemInput(<minecraft:glass_bottle>);
 cauldron6.addItemOutput(<bewitchment:bottle_of_blood>);
 cauldron6.build();
 
@@ -71,6 +72,7 @@ val cauldron7 = RecipeBuilder.newBuilder("autocauldron7","terrestrial_cauldron",
 cauldron7.addFluidInput(<fluid:water>*1000);
 cauldron7.addFluidInput(<fluid:lava>*1000);
 cauldron7.addItemInput(<bewitchment:tongue_of_dog>);
+cauldron7.addItemInput(<minecraft:glass_bottle>);
 cauldron7.addItemOutput(<bewitchment:bottle_of_blood>);
 cauldron7.build();
 
@@ -102,6 +104,14 @@ cauldron10.addItemOutput(<contenttweaker:everbloody_flask>);
 cauldron10.build();
 
 
+val autocauldron11 = RecipeBuilder.newBuilder("autocauldron11","terrestrial_cauldron",10);
+autocauldron11.addFluidInput(<fluid:water>*1000);
+autocauldron11.addFluidInput(<fluid:lava>*1000);
+autocauldron11.addItemInput(<contenttweaker:demonic_manastone>);
+autocauldron11.addItemInput(<bewitchment:sanguine_cloth>*4);
+autocauldron11.addItemOutput(<contenttweaker:manastone_dust>);
+autocauldron11.addItemOutput(<contenttweaker:demonic_manastone>);
+autocauldron11.build();
 
 
 
@@ -162,6 +172,7 @@ val autocauldronup6 = RecipeBuilder.newBuilder("autocauldronup6","terrestrial_ca
 autocauldronup6.addFluidInput(<fluid:essence_of_ilarity>*5);
 autocauldronup6.addFluidInput(<fluid:matter_of_restraining>*5);
 autocauldronup6.addItemInput(<bewitchment:adders_fork>*4);
+autocauldronup6.addItemInput(<minecraft:glass_bottle>);
 autocauldronup6.addItemOutput(<bewitchment:bottle_of_blood>);
 autocauldronup6.build();
 
@@ -169,6 +180,7 @@ val autocauldronup7 = RecipeBuilder.newBuilder("autocauldronup7","terrestrial_ca
 autocauldronup7.addFluidInput(<fluid:essence_of_ilarity>*5);
 autocauldronup7.addFluidInput(<fluid:matter_of_restraining>*5);
 autocauldronup7.addItemInput(<bewitchment:tongue_of_dog>);
+autocauldronup7.addItemInput(<minecraft:glass_bottle>);
 autocauldronup7.addItemOutput(<bewitchment:bottle_of_blood>);
 autocauldronup7.build();
 
@@ -218,8 +230,72 @@ autocauldronup12.addItemOutput(<contenttweaker:fearmongerer_fabric>*64);
 autocauldronup12.addItemOutput(<contenttweaker:fearmongerer_fabric>*64);
 autocauldronup12.build();
 
+val autocauldronup13 = RecipeBuilder.newBuilder("autocauldronup13","terrestrial_cauldron",4);
+autocauldronup13.addFluidInput(<fluid:essence_of_ilarity>*3);
+autocauldronup13.addFluidInput(<fluid:matter_of_restraining>*3);
+autocauldronup13.addItemInput(<contenttweaker:demonic_manastone>);
+autocauldronup13.addItemInput(<bewitchment:sanguine_cloth>*4);
+autocauldronup13.addItemOutput(<contenttweaker:manastone_dust>);
+autocauldronup13.addItemOutput(<contenttweaker:demonic_manastone>);
+autocauldronup13.build();
+
+val autocauldronup14 = RecipeBuilder.newBuilder("autocauldronup14","terrestrial_cauldron",4);
+autocauldronup14.addFluidInput(<fluid:hint_of_divinity>*3);
+autocauldronup14.addFluidInput(<fluid:hint_of_insanity>*3);
+autocauldronup14.addItemInput(<contenttweaker:everbloody_manastone>);
+autocauldronup14.addItemInput(<bewitchment:sanguine_cloth>*256);
+autocauldronup14.addItemOutput(<contenttweaker:manastone_dust>*64);
+autocauldronup14.addItemOutput(<contenttweaker:everbloody_manastone>);
+autocauldronup14.build();
+
+val autocauldronup15 = RecipeBuilder.newBuilder("autocauldronup15","terrestrial_cauldron",4);
+autocauldronup15.addFluidInput(<fluid:infinite_insane_wish>*3);
+autocauldronup15.addFluidInput(<fluid:infinite_divine_wish>*3);
+autocauldronup15.addItemInput(<contenttweaker:everbloody_manastone>);
+autocauldronup15.addItemInput(<bewitchment:sanguine_cloth>*1024);
+autocauldronup15.addItemOutput(<contenttweaker:manastone_dust>*256);
+autocauldronup15.addItemOutput(<contenttweaker:everbloody_manastone>);
+autocauldronup15.build();
+
+val autocauldronup16 = RecipeBuilder.newBuilder("autocauldronup16","terrestrial_cauldron",4);
+autocauldronup16.addFluidInput(<fluid:essence_of_ilarity>*3);
+autocauldronup16.addFluidInput(<fluid:matter_of_restraining>*3);
+autocauldronup16.addItemInput(<contenttweaker:everbloody_manastone>);
+autocauldronup16.addItemInput(<bewitchment:sanguine_cloth>*64);
+autocauldronup16.addItemOutput(<contenttweaker:manastone_dust>*16);
+autocauldronup16.addItemOutput(<contenttweaker:everbloody_manastone>);
+autocauldronup16.build();
 
 
+val autocauldronup17 = RecipeBuilder.newBuilder("autocauldronup17","terrestrial_cauldron",4);
+autocauldronup17.addFluidInput(<fluid:essence_of_ilarity>*10);
+autocauldronup17.addFluidInput(<fluid:matter_of_restraining>*10);
+autocauldronup17.addItemInput(<contenttweaker:baroness_brain>);
+autocauldronup17.addItemInput(<minecraft:glass_bottle>*4);
+autocauldronup17.addItemOutput(<bewitchment:bottle_of_blood>*4);
+autocauldronup17.build();
 
+val autocauldronup18 = RecipeBuilder.newBuilder("autocauldronup18","terrestrial_cauldron",4);
+autocauldronup18.addFluidInput(<fluid:essence_of_ilarity>*20);
+autocauldronup18.addFluidInput(<fluid:matter_of_restraining>*20);
+autocauldronup18.addItemInput(<contenttweaker:horon_tendon>);
+autocauldronup18.addItemInput(<minecraft:glass_bottle>*8);
+autocauldronup18.addItemOutput(<bewitchment:bottle_of_blood>*8);
+autocauldronup18.build();
 
+val autocauldronup19 = RecipeBuilder.newBuilder("autocauldronup19","terrestrial_cauldron",4);
+autocauldronup19.addFluidInput(<fluid:essence_of_ilarity>*30);
+autocauldronup19.addFluidInput(<fluid:matter_of_restraining>*30);
+autocauldronup19.addItemInput(<contenttweaker:abominable_egg>);
+autocauldronup19.addItemInput(<minecraft:glass_bottle>*16);
+autocauldronup19.addItemOutput(<bewitchment:bottle_of_blood>*16);
+autocauldronup19.build();
+
+val autocauldronup20 = RecipeBuilder.newBuilder("autocauldronup20","terrestrial_cauldron",4);
+autocauldronup20.addFluidInput(<fluid:essence_of_ilarity>*40);
+autocauldronup20.addFluidInput(<fluid:matter_of_restraining>*40);
+autocauldronup20.addItemInput(<contenttweaker:harbinger_hungering_flesh>);
+autocauldronup20.addItemInput(<minecraft:glass_bottle>*64);
+autocauldronup20.addItemOutput(<bewitchment:bottle_of_blood>*64);
+autocauldronup20.build();
 

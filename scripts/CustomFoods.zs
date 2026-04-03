@@ -389,3 +389,4 @@ strangephasingmeat.onItemFoodEaten = function(stack, world, player) {
 	player.sendChat("谨记，你并非独自来到这个世界，存在本身就应该心怀感恩  :)");
 };
 strangephasingmeat.register();
+

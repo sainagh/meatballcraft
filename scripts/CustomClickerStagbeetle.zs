@@ -1,4 +1,4 @@
-#modloaded iceandfire
+#modloaded erebus
 
 import crafttweaker.damage.IDamageSource;
 import crafttweaker.entity.IEntityLivingBase;

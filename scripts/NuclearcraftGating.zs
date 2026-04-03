@@ -324,11 +324,11 @@ mods.nuclearcraft.fission.addRecipe([<contenttweaker:emox_239_fuel>, <nuclearcra
 mods.nuclearcraft.fission.addRecipe([<contenttweaker:emox_241_fuel>, <nuclearcraft:depleted_fuel_mixed_oxide:1>, 56004.0, 1500.5, 97.5, "bettermox1fission", 0.000008]);
 
 
-mods.nuclearcraft.extractor.addRecipe([<twilightforest:hydra_chop>, <minecraft:rotten_flesh>, <fluid:hydra_juices>*100, 0.5, 1.5, 0.1]);
+mods.nuclearcraft.extractor.addRecipe([<twilightforest:hydra_chop>, <minecraft:rotten_flesh>, <fluid:hydra_juices>*100]);
 
-mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:hydra_juices>*100, <fluid:charger>*10, <fluid:meatane>*15, <fluid:biomass>*150, 0.9, 1.0, 0.1]);
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:hydra_juices>*100, <fluid:charger>*10, <fluid:meatane>*15, <fluid:biomass>*150]);
 
-mods.nuclearcraft.alloy_furnace.addRecipe([<avaritia:cosmic_meatballs>, <bigreactors:dustcyanite>, <contenttweaker:mutated_meatball>, 1.0, 2.0, 0.2]);
+mods.nuclearcraft.alloy_furnace.addRecipe([<avaritia:cosmic_meatballs>, <bigreactors:dustcyanite>, <contenttweaker:mutated_meatball>]);
 
 mods.nuclearcraft.ingot_former.addRecipe([<fluid:meatane>*5, <contenttweaker:meatane_pellet>]);
 
@@ -339,7 +339,7 @@ recipes.addShaped(<contenttweaker:lefhm_fuel>,
 
 mods.nuclearcraft.fission.addRecipe([<contenttweaker:lefhm_fuel>, <contenttweaker:depleted_lefhm_fuel>, 32000.0, 100.0, 10.0, "horganicfissionmeatball", 0.4]);
 
-mods.nuclearcraft.fuel_reprocessor.addRecipe([<contenttweaker:depleted_lefhm_fuel>, <contenttweaker:meatballium_322>*35, <contenttweaker:meatballium_324>*10, <contenttweaker:meatballium_328>*20, <nuclearcraft:plutonium:6>*2, 1.0, 2.0, 0.1]);
+mods.nuclearcraft.fuel_reprocessor.addRecipe([<contenttweaker:depleted_lefhm_fuel>, <contenttweaker:meatballium_322>*35, <contenttweaker:meatballium_324>*10, <contenttweaker:meatballium_328>*20, <nuclearcraft:plutonium:6>*2]);
 
 recipes.removeShaped(<nuclearcraft:fission_block:0>);
 
@@ -408,7 +408,7 @@ mods.nuclearcraft.salt_fission.addRecipe([<fluid:possessed_starlight>*10, <fluid
 
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:possessed_fluix>, <fluid:whispering_starlight>*2000, <fluid:whispering_starlight>*4000]);
 
-mods.nuclearcraft.crystallizer.addRecipe([<fluid:whispering_starlight>*100, <contenttweaker:meatball_attuned_crystal>, 1.0, 1.4, 0.8]);
+mods.nuclearcraft.crystallizer.addRecipe([<fluid:whispering_starlight>*100, <contenttweaker:meatball_attuned_crystal>]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:salt_fission_vessel>*2, 
 [[<nuclearcraft:part:3>, <nuclearcraft:part:3>, <contenttweaker:fiery_rhenium_ingot>, <contenttweaker:meatball_attuned_crystal>, <contenttweaker:fiery_rhenium_ingot>, <nuclearcraft:part:3>, <nuclearcraft:part:3>], 
@@ -443,6 +443,16 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_wall>
 [<nuclearcraft:alloy:11>, null, <thebetweenlands:items_misc:24>, <thaumicaugmentation:impetus_drainer>, <thebetweenlands:items_misc:24>, null, <nuclearcraft:alloy:11>], 
 [<nuclearcraft:alloy:11>, <railcraft:tank_iron_wall>, null, <contenttweaker:ogerite_crystal_lattice>, null, <railcraft:tank_iron_wall>, <nuclearcraft:alloy:11>], 
 [<ore:blockSteel>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <ore:blockSteel>]]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_wall>*18, 
+[[<ore:blockSteel>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <ore:blockSteel>], 
+[<nuclearcraft:alloy:11>, <railcraft:tank_iron_wall>, <avaritia:resource:5>, <contenttweaker:ogerite_crystal_lattice>, <avaritia:resource:5>, <railcraft:tank_iron_wall>, <nuclearcraft:alloy:11>], 
+[<nuclearcraft:alloy:11>, <avaritia:resource:5>, <thebetweenlands:items_misc:24>, <thaumicaugmentation:impetus_drainer>, <thebetweenlands:items_misc:24>, <avaritia:resource:5>, <nuclearcraft:alloy:11>], 
+[<forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <contenttweaker:ogerite_crystal_lattice>, <thaumicaugmentation:impetus_drainer>, <contenttweaker:restless_steel_frame>, <thaumicaugmentation:impetus_drainer>, <contenttweaker:ogerite_crystal_lattice>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000})], 
+[<nuclearcraft:alloy:11>, <avaritia:resource:5>, <thebetweenlands:items_misc:24>, <thaumicaugmentation:impetus_drainer>, <thebetweenlands:items_misc:24>, <avaritia:resource:5>, <nuclearcraft:alloy:11>], 
+[<nuclearcraft:alloy:11>, <railcraft:tank_iron_wall>, <avaritia:resource:5>, <contenttweaker:ogerite_crystal_lattice>, <avaritia:resource:5>, <railcraft:tank_iron_wall>, <nuclearcraft:alloy:11>], 
+[<ore:blockSteel>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}), <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <ore:blockSteel>]]);  
+
 
 recipes.addShaped(<contenttweaker:stellar_alloy_shaft>,
 [[<ore:blockSoularium>, <ore:blockStellarAlloy>, <ore:blockSoularium>],
@@ -649,7 +659,7 @@ scripts.PuzzleUtil.addPuzzleShapeless("undeadfuelpuzzle",<contenttweaker:heuf_fu
 
 mods.nuclearcraft.fission.addRecipe([<contenttweaker:heuf_fuel>, <contenttweaker:depleted_heuf_fuel>, 72000.0, 40.0, 200.0, "undeadfuelfission", 0.8]);
 
-mods.nuclearcraft.fuel_reprocessor.addRecipe([<contenttweaker:depleted_heuf_fuel>, <contenttweaker:meatballium_324>*20, <contenttweaker:meatballium_323>*25, null, null, 1.0, 2.0, 0.3]);
+mods.nuclearcraft.fuel_reprocessor.addRecipe([<contenttweaker:depleted_heuf_fuel>, <contenttweaker:meatballium_324>*20, <contenttweaker:meatballium_323>*25, null, null]);
 
 mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:meatballium_323>, <contenttweaker:meatballium_328>, <contenttweaker:meatballium_ingot>]);
 
@@ -717,6 +727,45 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_
 
 [<nuclearcraft:part:3>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:alloy:11>, 
 <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:part:3>], 
+
+[<contenttweaker:adamantium_plate>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
+<contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
+<aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <contenttweaker:adamantium_plate>]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:heat_exchanger_tube_thermoconducting>*20, 
+[[<contenttweaker:adamantium_plate>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
+<contenttweaker:inert_crystal>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <contenttweaker:inert_crystal>, 
+<aoa3:radiant_infusion_stone>, <nuclearcraft:part:3>, <contenttweaker:adamantium_plate>], 
+
+[<nuclearcraft:part:3>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <contenttweaker:defined_ingot>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:part:3>], 
+
+[<aoa3:radiant_infusion_stone>, <nuclearcraft:alloy:11>, <contenttweaker:krypton_capture>, 
+<contenttweaker:imperfect_neutronium_nugget>, <contenttweaker:superconducting_thread>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:krypton_capture>, <nuclearcraft:alloy:11>, <aoa3:radiant_infusion_stone>], 
+
+[<contenttweaker:inert_crystal>, <nuclearcraft:alloy:11>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:mythic_machine_case>, <libvulpes:advstructuremachine>, <contenttweaker:mythic_machine_case>, 
+<contenttweaker:imperfect_neutronium_nugget>, <nuclearcraft:alloy:11>, <contenttweaker:inert_crystal>], 
+
+[<openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}}), <nuclearcraft:alloy:11>, <libvulpes:advstructuremachine>, 
+<contenttweaker:superconducting_thread>, <contenttweaker:arc_reactor_coil>, <contenttweaker:superconducting_thread>, 
+<libvulpes:advstructuremachine>, <nuclearcraft:alloy:11>, <openblocks:tank>.withTag({tank: {FluidName: "borax_solution", Amount: 16000}})], 
+
+[<contenttweaker:inert_crystal>, <nuclearcraft:alloy:11>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:mythic_machine_case>, <libvulpes:advstructuremachine>, <contenttweaker:mythic_machine_case>, 
+<contenttweaker:imperfect_neutronium_nugget>, <nuclearcraft:alloy:11>, <contenttweaker:inert_crystal>], 
+
+[<aoa3:radiant_infusion_stone>, <nuclearcraft:alloy:11>, <contenttweaker:krypton_capture>, 
+<contenttweaker:imperfect_neutronium_nugget>, <contenttweaker:superconducting_thread>, <contenttweaker:imperfect_neutronium_nugget>, 
+<contenttweaker:krypton_capture>, <nuclearcraft:alloy:11>, <aoa3:radiant_infusion_stone>], 
+
+[<nuclearcraft:part:3>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:alloy:11>, 
+<nuclearcraft:alloy:11>, <contenttweaker:defined_ingot>, <nuclearcraft:alloy:11>, 
 <nuclearcraft:alloy:11>, <contenttweaker:yttrium_ruthenium_cluster>, <nuclearcraft:part:3>], 
 
 [<contenttweaker:adamantium_plate>, <nuclearcraft:part:3>, <aoa3:radiant_infusion_stone>, 
@@ -825,6 +874,7 @@ recipes.addShaped(<nuclearcraft:turbine_dynamo_coil:5>,
 [<nuclearcraft:alloy:15>, <nuclearcraft:turbine_wall>, <nuclearcraft:alloy:15>],
 [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]]);
 
+mods.nuclearcraft.heat_exchanger.removeRecipeWithOutput([<fluid:steam>*1000]);
 
 mods.nuclearcraft.heat_exchanger.addRecipe([<fluid:high_pressure_steam>*1000, <fluid:supercritical_steam>*1000, 80000.0, 300, 700]);
 

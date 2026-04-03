@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o流体终端可查看AE网络中的所有流体！\n\n使用桶和其他流体容器从终端中提取流体！\n\n警告：若计划使用AE2来管理流体，应当用单独的子网来存储、传输流体，避免通过主网访问。这样可减少很多卡顿！",
+      "desc:8": "§7§o流体终端可查看AE网络中的所有流体！\n\n使用桶和其他流体容器从终端中提取流体！\n\n",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 520,
@@ -14,6 +14,19 @@
     }
   },
   "questID:3": 90177,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 180,
+          "id:8": "appliedenergistics2:part"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

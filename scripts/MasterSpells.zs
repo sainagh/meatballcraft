@@ -183,12 +183,12 @@ masterspeldiabolus.itemRightClick = function(stack, world, player, hand) {
     }
 	Commands.call("summon bewitchment:hellhound ~5 ~ ~ {Passengers:[{id:\"bewitchment:demon\",ActiveEffects:[{Id:10,Amplifier:8,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}]}", player, world, false, true);
 	Commands.call("summon bewitchment:hellhound ~-5 ~ ~ {Passengers:[{id:\"bewitchment:demon\",ActiveEffects:[{Id:10,Amplifier:8,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}]}", player, world, false, true);
-	Commands.call("summon bewitchment:leonard ~10 ~ ~ {ActiveEffects:[{Id:10,Amplifier:10,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}", player, world, false, true);
-	Commands.call("summon bewitchment:leonard ~-10 ~ ~ {ActiveEffects:[{Id:10,Amplifier:10,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}", player, world, false, true);
-	Commands.call("summon bewitchment:baphomet ~ ~ ~5 {ActiveEffects:[{Id:10,Amplifier:10,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}", player, world, false, true);
-	Commands.call("summon bewitchment:baphomet ~ ~ ~-5 {ActiveEffects:[{Id:10,Amplifier:10,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}", player, world, false, true);
-	Commands.call("summon zombie ~ ~ ~10 {ArmorItems:[{Count:1,id:\"thaumadditions:adaminite_boots\"},{Count:1,id:\"thaumadditions:adaminite_belt\"},{Count:1,id:\"thaumadditions:adaminite_robe\"},{Count:1,id:\"thaumadditions:adaminite_hood\"}],ActiveEffects:[{Id:10,Amplifier:10,Duration:999999},{Id:11,Amplifier:2,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}", player, world, false, true);
-	Commands.call("summon zombie ~ ~ ~-10 {ArmorItems:[{Count:1,id:\"thaumadditions:adaminite_boots\"},{Count:1,id:\"thaumadditions:adaminite_belt\"},{Count:1,id:\"thaumadditions:adaminite_robe\"},{Count:1,id:\"thaumadditions:adaminite_hood\"}],ActiveEffects:[{Id:10,Amplifier:10,Duration:999999},{Id:11,Amplifier:2,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}", player, world, false, true);
+	Commands.call("summon bewitchment:hellhound ~ ~ ~5 {Passengers:[{id:\"bewitchment:demoness\",ActiveEffects:[{Id:10,Amplifier:8,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}]}", player, world, false, true);
+	Commands.call("summon bewitchment:hellhound ~ ~ ~-5 {Passengers:[{id:\"bewitchment:demoness\",ActiveEffects:[{Id:10,Amplifier:8,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}]}", player, world, false, true);
+	Commands.call("summon bewitchment:imp ~10 ~ ~ {ActiveEffects:[{Id:10,Amplifier:10,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}", player, world, false, true);
+	Commands.call("summon bewitchment:imp ~-10 ~ ~ {ActiveEffects:[{Id:10,Amplifier:10,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}", player, world, false, true);
+	Commands.call("summon bewitchment:imp ~10 ~ ~ {ActiveEffects:[{Id:10,Amplifier:10,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}", player, world, false, true);
+	Commands.call("summon bewitchment:imp ~-10 ~ ~ {ActiveEffects:[{Id:10,Amplifier:10,Duration:999999},{Id:22,Amplifier:200,Duration:999999}]}", player, world, false, true);
 	return "Pass";
 };
 masterspeldiabolus.register();
@@ -232,7 +232,7 @@ masterspelldreadia.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:bloodmaster_metal_chest\",Count:1b}}", player, world, false, true);
 	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:bloodmaster_metal_feet\",Count:1b}}", player, world, false, true);
 	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"contenttweaker:bloodmaster_metal_legs\",Count:1b}}", player, world, false, true);
-	Commands.call("summon abyssalcraft:dreaded_abyssalnite_golem ~ ~3 ~ {Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:300.0}],Health:10000f}", player, world, false, true);
+	Commands.call("summon abyssalcraft:dreadgolem ~ ~3 ~ {Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:300.0}],Health:10000f}", player, world, false, true);
 	return "Pass";
 };
 masterspelldreadia.register();
@@ -353,7 +353,7 @@ masterspellordo.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-	player.sendChat("或许在冥界、天外天，能为失落附魂之石派上用场");
+	player.sendChat("或许在冥界、苍穹之外，能为失落附魂之石派上用场");
 	Commands.call("fill ~-5 ~-5 ~-5 ~5 ~5 ~5 draconicevolution:draconium_ore 2 replace minecraft:end_stone", player, world, false, true);
 	Commands.call("fill ~-5 ~-5 ~-5 ~5 ~5 ~5 appliedenergistics2:sky_stone_block 0 replace minecraft:stone", player, world, false, true);
 	Commands.call("fill ~-5 ~-5 ~-5 ~5 ~5 ~5 draconicevolution:draconium_ore 1 replace minecraft:netherrack", player, world, false, true);
@@ -433,12 +433,12 @@ masterspellaversio.itemRightClick = function(stack, world, player, hand) {
 	if(world.remote) {
         return "FAIL";
     }
-	Commands.call("/summon minecraft:zombie ~ ~ ~ {HandItems:[{Count:1,id:\"aoa3:baron_greatblade\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"堕落狂战士\",Attributes:[{Name:generic.maxHealth, Base:5000.0},{Name:generic.attackDamage, Base:100.0}],Health:5000f}", player, world, false, true);
+	Commands.call("summon thaumcraft:cultistknight ~ ~4 ~ {HandItems:[{Count:1,id:\"aoa3:bloodstone_sword\"},{}],HandDropChances:[0.2f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:30.0}],Health:10000f,CustomName:\"堕落狂战士\",ArmorItems:[{Count:1,id:\"iceandfire:armor_red_boots\"},{Count:1,id:\"iceandfire:armor_red_leggings\"},{Count:1,id:\"iceandfire:armor_red_chestplate\"},{Count:1,id:\"iceandfire:armor_red_helmet\"}],ArmorDropChances:[0.1f,0.1f,0.1f,0.1f]}", player, world, false, true);
 	return "Pass";
 };
 masterspellaversio.register();
 
-
+//summon thaumcraft:cultistknight ~ ~4 ~ {HandItems:[{Count:1,id:"aoa3:bloodstone_sword"},{}],HandDropChances:[0.2f,0.0f],Attributes:[{Name:generic.maxHealth, Base:10000.0},{Name:generic.attackDamage, Base:30.0}],Health:10000f,CustomName:"堕落狂战士",ArmorItems:[{Count:1,id:"iceandfire:armor_red_boots"},{Count:1,id:"iceandfire:armor_red_leggings"},{Count:1,id:"iceandfire:armor_red_chestplate"},{Count:1,id:"iceandfire:armor_red_helmet"}],ArmorDropChances:[0.1f,0.1f,0.1f,0.1f]}
 
 var masterspellinfernum = VanillaFactory.createItem("master_spell_infernum");
 masterspellinfernum.maxStackSize = 1;
@@ -513,3 +513,32 @@ masterspelltenebrae.itemRightClick = function(stack, world, player, hand) {
 	return "Pass";
 };
 masterspelltenebrae.register();
+
+
+
+var masterspellmestia = VanillaFactory.createItem("master_spell_bestia");
+masterspellmestia.maxStackSize = 1;
+masterspellmestia.glowing = true;
+masterspellmestia.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	Commands.call("/summon twilightforest:mist_wolf ~5 ~3 ~5 {HandItems:[{Count:1,id:\"contenttweaker:investiture_of_the_direwolf\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"野性冰原狼\",ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:40,permshields:40}},Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:50.0}],Health:2000f}", player, world, false, true);
+	return "Pass";
+};
+masterspellmestia.register();
+
+
+var masterspellvinculum = VanillaFactory.createItem("master_spell_vinculum");
+masterspellvinculum.maxStackSize = 1;
+masterspellvinculum.glowing = true;
+masterspellvinculum.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	Commands.call("summon bewitchment:demoness ~ ~3 ~ {CustomName:\"埃默吉亚，受缚者\",recipeList:{Recipes:[{buy:{id:\"contenttweaker:divine_star\",Count:1},sell:{id:\"contenttweaker:crying_obsidian_powder\",Count:1},rewardExp:0b,maxUses:9999999}]},HandItems:[{Count:4,id:\"contenttweaker:crystaltine_dust\"},{}],HandDropChances:[1.0f,0.0f],ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:4,permshields:4}},Attributes:[{Name:generic.maxHealth, Base:2000.0},{Name:generic.attackDamage, Base:10.0}],Health:2000f}", player, world, false, true);
+	return "Pass";
+};
+masterspellvinculum.register();
+
+

@@ -1,0 +1,17 @@
+{
+  "preRequisites:11": [
+    1045015237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "divinerpg:dream_pickaxe"
+      },
+      "name:8": "升级加成：梦境镐"
+    }
+  },
+  "questID:3": 450373168,
+  "tasks:9": {}
+}

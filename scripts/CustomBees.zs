@@ -31,8 +31,10 @@ recipes.addShaped(<contenttweaker:thorium_honey_cluster>*8,
 [<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]]);
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:uranium_honey_cluster>, <fluid:magnesium>*12, <contenttweaker:infused_uranium>*4]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:uranium_honey_cluster>, <fluid:seared_grave_stone>*250, <nuclearcraft:ore:4>]);
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:thorium_honey_cluster>, <fluid:magnesium>*12, <contenttweaker:infused_thorium>*4]);
+mods.nuclearcraft.infuser.addRecipe([<contenttweaker:thorium_honey_cluster>, <fluid:seared_grave_stone>*250, <nuclearcraft:ore:3>]);
 
 mods.nuclearcraft.rock_crusher.addRecipe([<contenttweaker:infused_thorium>, <nuclearcraft:dust:3>*12, <nuclearcraft:dust:3>*6, <nuclearcraft:dust:3>*4]);
 
@@ -134,7 +136,7 @@ mods.thermalexpansion.Centrifuge.addRecipe(
     [
     (<divinerpg:netherite_ore>*8) % 90, 
     (<divinerpg:bloodgem_ore>*8) % 90], 
-    (<gendustry:honey_comb:13379>*8), null, 2000);
+    (<gendustry:honey_comb:13379>), null, 2000);
 
 recipes.addShaped(<contenttweaker:water_doped_egg>*8,
 [[<minecraft:egg>, <minecraft:egg>, <minecraft:egg>],
@@ -1516,3 +1518,4 @@ recipes.addShapeless(<gendustry:honey_comb:14010>*4,
 recipes.addShapeless(<gendustry:honey_comb:14010>*4,
 [<contenttweaker:nomnomnomicon>.reuse(),
 <abyssalcraft:necronomicon_omt>]);
+

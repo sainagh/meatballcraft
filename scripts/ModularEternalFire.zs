@@ -25,10 +25,10 @@ opdra3.addFluidOutput(<fluid:eternal_dragon_fire>*30);
 opdra3.build();
 
 val opdra4 = RecipeBuilder.newBuilder("dragonsword4","dragonfire_forge",50);
-opdra4.addItemInput(<aoa3:nether_tokens>*32);
+opdra4.addItemInput(<aoa3:nether_tokens>*10);
 opdra4.addItemInput(<aoa3:hellfire>);
 opdra4.addItemInput(<minecraft:diamond>*64);
-opdra4.addItemInput(<extratrees:food:55>*32);
+opdra4.addItemInput(<extratrees:food:55>*4);
 opdra4.addFluidOutput(<fluid:eternal_dragon_fire>*80);
 opdra4.build();
 
@@ -47,19 +47,19 @@ opdra6.addFluidOutput(<fluid:eternal_dragon_fire>*50);
 opdra6.build();
 
 val opdra7 = RecipeBuilder.newBuilder("dragonsword7","dragonfire_forge",50);
-opdra7.addItemInput(<aoa3:chestbone_fragment>*16);
-opdra7.addItemInput(<aoa3:footbone_fragment>*16);
-opdra7.addItemInput(<aoa3:legbone_fragment>*16);
-opdra7.addItemInput(<aoa3:skullbone_fragment>*16);
-opdra7.addItemInput(<projecte:item.pe_fuel:2>*32);
+opdra7.addItemInput(<aoa3:chestbone_fragment>*1);
+opdra7.addItemInput(<aoa3:footbone_fragment>*1);
+opdra7.addItemInput(<aoa3:legbone_fragment>*1);
+opdra7.addItemInput(<aoa3:skullbone_fragment>*1);
+opdra7.addItemInput(<projecte:item.pe_fuel:2>*4);
 opdra7.addFluidOutput(<fluid:eternal_dragon_fire>*600);
 opdra7.build();
 
 val opdra8 = RecipeBuilder.newBuilder("dragonsword8","dragonfire_forge",50);
-opdra8.addItemInput(<aoa3:blazium_ingot>*32);
-opdra8.addItemInput(<aoa3:varsium_ingot>*32);
-opdra8.addItemInput(<projecte:item.pe_fuel:2>*32);
-opdra8.addFluidOutput(<fluid:eternal_dragon_fire>*300);
+opdra8.addItemInput(<aoa3:blazium_ingot>*2);
+opdra8.addItemInput(<aoa3:varsium_ingot>*2);
+opdra8.addItemInput(<projecte:item.pe_fuel:2>*4);
+opdra8.addFluidOutput(<fluid:eternal_dragon_fire>*400);
 opdra8.build();
 
 val opdra9 = RecipeBuilder.newBuilder("dragonsword9","dragonfire_forge",100);
@@ -127,6 +127,7 @@ val nightmarefire9 = RecipeBuilder.newBuilder("nightmarefire9","dragonfire_forge
 nightmarefire9.addItemInput(<divinerpg:arksiane_lump>*4);
 nightmarefire9.addFluidOutput(<fluid:twilight_fire>*4444);
 nightmarefire9.build();
+
 
 
 

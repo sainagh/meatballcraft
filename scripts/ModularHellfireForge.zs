@@ -537,7 +537,7 @@ multihellfire54a.addItemInput(<contenttweaker:blank_slate_catalyst>);
 multihellfire54a.addItemInput(<aoa3:crystallite>);
 multihellfire54a.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire54a.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire54a.addItemOutput(<bloodmagic:slate:0>*8);
+multihellfire54a.addItemOutput(<bloodmagic:slate:0>*16);
 multihellfire54a.build();
 
 val multihellfire54b = RecipeBuilder.newBuilder("multihellfire54b","berserker_forge",2);
@@ -546,7 +546,7 @@ multihellfire54b.addItemInput(<contenttweaker:blank_slate_catalyst>);
 multihellfire54b.addItemInput(<aoa3:shyregem>);
 multihellfire54b.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire54b.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire54b.addItemOutput(<bloodmagic:slate:0>*16);
+multihellfire54b.addItemOutput(<bloodmagic:slate:0>*64);
 multihellfire54b.build();
 
 val multihellfire54c = RecipeBuilder.newBuilder("multihellfire54c","berserker_forge",2);
@@ -555,7 +555,7 @@ multihellfire54c.addItemInput(<contenttweaker:blank_slate_catalyst>);
 multihellfire54c.addItemInput(<contenttweaker:eternal_dragonfire_gem>);
 multihellfire54c.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire54c.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire54c.addItemOutput(<bloodmagic:slate:0>*64);
+multihellfire54c.addItemOutput(<bloodmagic:slate:0>*256);
 multihellfire54c.build();
 
 val multihellfire55 = RecipeBuilder.newBuilder("multihellfire55","berserker_forge",2);
@@ -573,7 +573,7 @@ multihellfire55a.addItemInput(<contenttweaker:reinforced_slate_catalyst>);
 multihellfire55a.addItemInput(<aoa3:crystallite>);
 multihellfire55a.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire55a.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire55a.addItemOutput(<bloodmagic:slate:1>*8);
+multihellfire55a.addItemOutput(<bloodmagic:slate:1>*16);
 multihellfire55a.build();
 
 val multihellfire55b = RecipeBuilder.newBuilder("multihellfire55b","berserker_forge",2);
@@ -582,7 +582,7 @@ multihellfire55b.addItemInput(<contenttweaker:reinforced_slate_catalyst>);
 multihellfire55b.addItemInput(<aoa3:shyregem>);
 multihellfire55b.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire55b.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire55b.addItemOutput(<bloodmagic:slate:1>*16);
+multihellfire55b.addItemOutput(<bloodmagic:slate:1>*64);
 multihellfire55b.build();
 
 val multihellfire55c = RecipeBuilder.newBuilder("multihellfire55c","berserker_forge",2);
@@ -591,7 +591,7 @@ multihellfire55c.addItemInput(<contenttweaker:reinforced_slate_catalyst>);
 multihellfire55c.addItemInput(<contenttweaker:eternal_dragonfire_gem>);
 multihellfire55c.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire55c.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire55c.addItemOutput(<bloodmagic:slate:1>*64);
+multihellfire55c.addItemOutput(<bloodmagic:slate:1>*256);
 multihellfire55c.build();
 
 val multihellfire56 = RecipeBuilder.newBuilder("multihellfire56","berserker_forge",2);
@@ -609,7 +609,7 @@ multihellfire56a.addItemInput(<contenttweaker:imbued_slate_catalyst>);
 multihellfire56a.addItemInput(<aoa3:crystallite>);
 multihellfire56a.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire56a.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire56a.addItemOutput(<bloodmagic:slate:2>*8);
+multihellfire56a.addItemOutput(<bloodmagic:slate:2>*16);
 multihellfire56a.build();
 
 val multihellfire56b = RecipeBuilder.newBuilder("multihellfire56b","berserker_forge",2);
@@ -618,7 +618,7 @@ multihellfire56b.addItemInput(<contenttweaker:imbued_slate_catalyst>);
 multihellfire56b.addItemInput(<aoa3:shyregem>);
 multihellfire56b.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire56b.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire56b.addItemOutput(<bloodmagic:slate:2>*16);
+multihellfire56b.addItemOutput(<bloodmagic:slate:2>*64);
 multihellfire56b.build();
 
 val multihellfire56c = RecipeBuilder.newBuilder("multihellfire56c","berserker_forge",2);
@@ -627,7 +627,7 @@ multihellfire56c.addItemInput(<contenttweaker:imbued_slate_catalyst>);
 multihellfire56c.addItemInput(<contenttweaker:eternal_dragonfire_gem>);
 multihellfire56c.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire56c.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire56c.addItemOutput(<bloodmagic:slate:2>*64);
+multihellfire56c.addItemOutput(<bloodmagic:slate:2>*256);
 multihellfire56c.build();
 
 val multihellfire57 = RecipeBuilder.newBuilder("multihellfire57","berserker_forge",2);
@@ -645,7 +645,7 @@ multihellfire57a.addItemInput(<contenttweaker:demonic_slate_catalyst>);
 multihellfire57a.addItemInput(<aoa3:crystallite>);
 multihellfire57a.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire57a.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire57a.addItemOutput(<bloodmagic:slate:3>*8);
+multihellfire57a.addItemOutput(<bloodmagic:slate:3>*16);
 multihellfire57a.build();
 
 val multihellfire57b = RecipeBuilder.newBuilder("multihellfire57b","berserker_forge",2);
@@ -654,7 +654,7 @@ multihellfire57b.addItemInput(<contenttweaker:demonic_slate_catalyst>);
 multihellfire57b.addItemInput(<aoa3:shyregem>);
 multihellfire57b.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire57b.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire57b.addItemOutput(<bloodmagic:slate:3>*16);
+multihellfire57b.addItemOutput(<bloodmagic:slate:3>*64);
 multihellfire57b.build();
 
 val multihellfire57c = RecipeBuilder.newBuilder("multihellfire57c","berserker_forge",2);
@@ -663,7 +663,7 @@ multihellfire57c.addItemInput(<contenttweaker:demonic_slate_catalyst>);
 multihellfire57c.addItemInput(<contenttweaker:eternal_dragonfire_gem>);
 multihellfire57c.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire57c.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire57c.addItemOutput(<bloodmagic:slate:3>*64);
+multihellfire57c.addItemOutput(<bloodmagic:slate:3>*256);
 multihellfire57c.build();
 
 val multihellfire58 = RecipeBuilder.newBuilder("multihellfire58","berserker_forge",2);
@@ -681,7 +681,7 @@ multihellfire58a.addItemInput(<contenttweaker:ethereal_slate_catalyst>);
 multihellfire58a.addItemInput(<aoa3:crystallite>);
 multihellfire58a.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire58a.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire58a.addItemOutput(<bloodmagic:slate:4>*8);
+multihellfire58a.addItemOutput(<bloodmagic:slate:4>*16);
 multihellfire58a.build();
 
 val multihellfire58b = RecipeBuilder.newBuilder("multihellfire58b","berserker_forge",2);
@@ -690,7 +690,7 @@ multihellfire58b.addItemInput(<contenttweaker:ethereal_slate_catalyst>);
 multihellfire58b.addItemInput(<aoa3:shyregem>);
 multihellfire58b.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire58b.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire58b.addItemOutput(<bloodmagic:slate:4>*16);
+multihellfire58b.addItemOutput(<bloodmagic:slate:4>*64);
 multihellfire58b.build();
 
 val multihellfire58c = RecipeBuilder.newBuilder("multihellfire58c","berserker_forge",2);
@@ -699,8 +699,55 @@ multihellfire58c.addItemInput(<contenttweaker:ethereal_slate_catalyst>);
 multihellfire58c.addItemInput(<contenttweaker:eternal_dragonfire_gem>);
 multihellfire58c.addItemInput(<ore:nuggetBloodmasterMetal>);
 multihellfire58c.addItemInput(<tombstone:crafting_ingredient:3>);
-multihellfire58c.addItemOutput(<bloodmagic:slate:4>*64);
+multihellfire58c.addItemOutput(<bloodmagic:slate:4>*256);
 multihellfire58c.build();
+
+
+val multihellfire59 = RecipeBuilder.newBuilder("multihellfire59","berserker_forge",2);
+multihellfire59.addWillInput("DEFAULT", 10,1,2000000);
+multihellfire59.addItemInput(<contenttweaker:psichic_stone>);
+multihellfire59.addItemInput(<ore:blockElectrumFlux>);
+multihellfire59.addItemInput(<extrautils2:magicapple>*12);
+multihellfire59.addItemInput(<thaumicwonders:panacea:1>*4);
+multihellfire59.addItemOutput(<contenttweaker:psimetal>*18);
+multihellfire59.build();
+
+val multihellfire60 = RecipeBuilder.newBuilder("multihellfire60","berserker_forge",2);
+multihellfire60.addWillInput("DEFAULT", 50,1,2000000);
+multihellfire60.addItemInput(<contenttweaker:xxeus_stone>);
+multihellfire60.addItemInput(<contenttweaker:eldritch_will_crystal>);
+multihellfire60.addItemInput(<divinerpg:mortum_heart>);
+multihellfire60.addItemInput(<contenttweaker:warren_chunk>*4);
+multihellfire60.addItemOutput(<contenttweaker:shyre_crystal>*4);
+multihellfire60.build();
+
+val multihellfire61 = RecipeBuilder.newBuilder("multihellfire61","berserker_forge",2);
+multihellfire61.addWillInput("DEFAULT", 50,1,2000000);
+multihellfire61.addItemInput(<contenttweaker:xxeus_stone>);
+multihellfire61.addItemInput(<contenttweaker:eldritch_will_crystal>);
+multihellfire61.addItemInput(<divinerpg:mortum_heart>);
+multihellfire61.addItemInput(<contenttweaker:actualized_chunk>*12);
+multihellfire61.addItemOutput(<contenttweaker:shyre_crystal>*12);
+multihellfire61.build();
+
+val multihellfire62 = RecipeBuilder.newBuilder("multihellfire62","berserker_forge",2);
+multihellfire62.addWillInput("DEFAULT", 50,1,2000000);
+multihellfire62.addItemInput(<abyssalcraft:stone:5>*24);
+multihellfire62.addItemInput(<ore:dustTartarite>*8);
+multihellfire62.addItemInput(<contenttweaker:demon_stone>*8);
+multihellfire62.addItemInput(<contenttweaker:cosmic_fracture>*1);
+multihellfire62.addItemOutput(<contenttweaker:tartarite_ore>*24);
+multihellfire62.build();
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -966,3 +1013,4 @@ berserkercrucible10b.setChance(0.0);
 berserkercrucible10b.addItemInput(<contenttweaker:steadfast_will_sliver>*9);
 berserkercrucible10b.addWillOutput(0, 90, 0, 9000, "STEADFAST");
 berserkercrucible10b.build();
+

@@ -27,6 +27,16 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:stone_of_universal
 [<careerbees:ingredients:11>, null, <contenttweaker:dust_of_infinite_wishes>, null, <careerbees:ingredients:12>], 
 [<contenttweaker:quasar_charged_dust>, <contenttweaker:chaos_wood>, <contenttweaker:yggdrasil_wood>, <contenttweaker:chaos_wood>, <contenttweaker:quasar_charged_dust>]]);  
 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sand_of_universal_balance>*4, 
+[[<contenttweaker:ascended_fluix_crystal>, <contenttweaker:ragnarok_warren_dust>, <contenttweaker:valhalla_warren_dust>, <contenttweaker:living_construct_soul>, <contenttweaker:valhalla_warren_dust>, <contenttweaker:ragnarok_warren_dust>, <contenttweaker:ascended_fluix_crystal>],
+[<contenttweaker:hungering_flesh_ingot>, <contenttweaker:quasar_charged_dust>, <contenttweaker:order_wood>, <contenttweaker:yggdrasil_wood>, <contenttweaker:order_wood>, <contenttweaker:quasar_charged_dust>, <contenttweaker:hungering_flesh_ingot>], 
+[<contenttweaker:ascended_fluix_crystal>, <careerbees:ingredients:12>, <contenttweaker:hopebringer_crystal>, <contenttweaker:dust_of_infinite_wishes>, <contenttweaker:hopebringer_crystal>, <careerbees:ingredients:11>, <contenttweaker:ascended_fluix_crystal>], 
+[<contenttweaker:pure_void>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:trinity_nugget>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:hungering_flesh_ingot>, <contenttweaker:pure_void>], 
+[<contenttweaker:ascended_fluix_crystal>, <careerbees:ingredients:11>, <contenttweaker:hopebringer_crystal>, <contenttweaker:dust_of_infinite_wishes>, <contenttweaker:hopebringer_crystal>, <careerbees:ingredients:12>, <contenttweaker:ascended_fluix_crystal>], 
+[<contenttweaker:hungering_flesh_ingot>, <contenttweaker:quasar_charged_dust>, <contenttweaker:chaos_wood>, <contenttweaker:yggdrasil_wood>, <contenttweaker:chaos_wood>, <contenttweaker:quasar_charged_dust>, <contenttweaker:hungering_flesh_ingot>],
+[<contenttweaker:ascended_fluix_crystal>, <contenttweaker:ragnarok_warren_dust>, <contenttweaker:valhalla_warren_dust>, <contenttweaker:living_construct_soul>, <contenttweaker:valhalla_warren_dust>, <contenttweaker:ragnarok_warren_dust>, <contenttweaker:ascended_fluix_crystal>]]);  
+
+
 
 val hungeringfleshgear = RecipeBuilder.newBuilder("hungeringfleshgear","mythic_processor_gearworking_die",1);
 hungeringfleshgear.addEnergyPerTickInput(1000000);
@@ -83,9 +93,9 @@ mods.avaritia.ExtremeCrafting.addShaped("returningpointdire",
 
 
 recipes.addShaped(<contenttweaker:all_seeing_sentient_meatball>*2,
-[[<contenttweaker:sentient_meatball>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "visum"}]}), <contenttweaker:sentient_meatball>],
-[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "visum"}]}), <contenttweaker:all_seeing_sentient_meatball>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "visum"}]})],
-[<contenttweaker:sentient_meatball>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "visum"}]}), <contenttweaker:sentient_meatball>]]);
+[[<contenttweaker:sentient_meatball>, makeVisCrystal(<aspect:visum> * 1), <contenttweaker:sentient_meatball>],
+[makeVisCrystal(<aspect:visum> * 1), <contenttweaker:all_seeing_sentient_meatball>, makeVisCrystal(<aspect:visum> * 1)],
+[<contenttweaker:sentient_meatball>, makeVisCrystal(<aspect:visum> * 1), <contenttweaker:sentient_meatball>]]);
 
 recipes.addShaped(<contenttweaker:spreading_sentient_meatball>*2,
 [[<contenttweaker:sentient_meatball>, <thaumcraft:taint_soil>, <contenttweaker:sentient_meatball>],
@@ -106,6 +116,11 @@ recipes.addShaped(<contenttweaker:world_corrupting_sentient_meatball>*4,
 recipes.addShaped(<contenttweaker:world_corrupting_sentient_meatball>*8,
 [[<contenttweaker:sentient_meatball>, <contenttweaker:planetary_essence>, <contenttweaker:sentient_meatball>],
 [<contenttweaker:ichor_taint_condensate>, <contenttweaker:world_corrupting_sentient_meatball>, <contenttweaker:ichor_taint_condensate>],
+[<contenttweaker:sentient_meatball>, <contenttweaker:planetary_essence>, <contenttweaker:sentient_meatball>]]);
+
+recipes.addShaped(<contenttweaker:world_corrupting_sentient_meatball>*12,
+[[<contenttweaker:sentient_meatball>, <contenttweaker:planetary_essence>, <contenttweaker:sentient_meatball>],
+[<contenttweaker:ichor_taint_catalyzer>, <contenttweaker:world_corrupting_sentient_meatball>, <contenttweaker:ichor_taint_catalyzer>],
 [<contenttweaker:sentient_meatball>, <contenttweaker:planetary_essence>, <contenttweaker:sentient_meatball>]]);
 
 
@@ -191,7 +206,7 @@ hungeringsoulmeatball.addItemOutput(<contenttweaker:hungering_world_soul>);
 hungeringsoulmeatball.build();
 
 
-val dupegemdyingconst = RecipeBuilder.newBuilder("dupegemdyingconst","gaia_altar",60);
+val dupegemdyingconst = RecipeBuilder.newBuilder("dupegemdyingconst","gaia_altar",30);
 dupegemdyingconst.addEnergyPerTickInput(40000);
 dupegemdyingconst.addItemInput(<contenttweaker:gem_of_the_dying_constellation>*8);
 dupegemdyingconst.addItemInput(<botania:rune:10>*256);
@@ -238,6 +253,34 @@ hungeringsoulmeatball2.addItemInput(<contenttweaker:abyssal_flesh>*40);
 hungeringsoulmeatball2.addItemInput(<contenttweaker:world_corrupting_sentient_meatball>*10);
 hungeringsoulmeatball2.addItemOutput(<contenttweaker:hungering_world_soul>*15);
 hungeringsoulmeatball2.build();
+
+
+//recipes.addShaped(<contenttweaker:jewel_of_pure_void>*4,
+//[[<contenttweaker:pale_metal>, <contenttweaker:gem_of_the_dying_constellation>, <contenttweaker:pale_metal>],
+//[<contenttweaker:gem_of_the_dying_constellation>, <contenttweaker:mask_of_the_free_stag>, <contenttweaker:gem_of_the_dying_constellation>],
+//[<contenttweaker:pale_metal>, <contenttweaker:gem_of_the_dying_constellation>, <contenttweaker:pale_metal>]]);
+
+recipes.addShaped(<contenttweaker:fabrial_of_pure_void>*4,
+[[<thaumcraft:metal_void>, <contenttweaker:purified_titanium_ingot>, <thaumcraft:metal_void>],
+[<contenttweaker:purified_titanium_ingot>, <contenttweaker:jewel_of_pure_void>, <contenttweaker:purified_titanium_ingot>],
+[<thaumcraft:metal_void>, <contenttweaker:purified_titanium_ingot>, <thaumcraft:metal_void>]]);
+
+val hungeringsoulmeatball3 = RecipeBuilder.newBuilder("hungeringsoulmeatball3","shrine_of_the_sentient_meatballs",80);
+hungeringsoulmeatball3.addEnergyPerTickInput(2000000000);
+hungeringsoulmeatball3.addWillInput("DEFAULT", 95,0,1000000);
+hungeringsoulmeatball3.addWillInput("CORROSIVE", 95,0,1000000);
+hungeringsoulmeatball3.addWillInput("DESTRUCTIVE", 95,0,1000000);
+hungeringsoulmeatball3.addWillInput("VENGEFUL", 95,0,1000000);
+hungeringsoulmeatball3.addWillInput("STEADFAST", 95,0,1000000);
+hungeringsoulmeatball3.addFluidInput(<fluid:flesh_world_ichor>*72000);
+hungeringsoulmeatball3.addFluidInput(<fluid:imperial_abyssite>*1200);
+hungeringsoulmeatball3.addItemInput(<contenttweaker:jewel_of_pure_void>*10);
+hungeringsoulmeatball3.addItemInput(<contenttweaker:shrieking_soul>*4);
+hungeringsoulmeatball3.addItemInput(<extrabotany:cocoondesire>*15);
+hungeringsoulmeatball3.addItemInput(<contenttweaker:abyssal_flesh>*60);
+hungeringsoulmeatball3.addItemInput(<contenttweaker:world_corrupting_sentient_meatball>*20);
+hungeringsoulmeatball3.addItemOutput(<contenttweaker:hungering_world_soul>*30);
+hungeringsoulmeatball3.build();
 
 
 
@@ -310,6 +353,10 @@ recipes.addShaped(<contenttweaker:true_chaos>,
 [<contenttweaker:stone_of_universal_balance>, <contenttweaker:staff_of_the_lord_of_gluttony>.reuse(), <contenttweaker:stone_of_universal_balance>],
 [<draconicevolution:chaotic_core>, <contenttweaker:stone_of_universal_balance>, <draconicevolution:chaotic_core>]]);
 
+recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "gluttonous_lymph", Amount: 1000}),
+[[<draconicevolution:chaos_shard:3>, <contenttweaker:radiant_fissile_dust>, <draconicevolution:chaos_shard:3>],
+[<contenttweaker:meatballium_ingot>, <contenttweaker:staff_of_the_lord_of_gluttony>.reuse(), <contenttweaker:meatballium_ingot>],
+[<draconicevolution:chaos_shard:3>, <forge:bucketfilled>.withTag({FluidName: "vital_lymph", Amount: 1000}), <draconicevolution:chaos_shard:3>]]);
 
 mods.abyssalcraft.InfusionRitual.addRitual("KashanWarperInf", 
 4, 0, 

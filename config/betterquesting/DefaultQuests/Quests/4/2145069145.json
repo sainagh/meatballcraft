@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o对于输入接口，会销毁被送入接口、但未在输入接口GUI中设置过滤的物品。\n\n非常适合用来处理生物农场或Woot的产物。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cells:trash_unselected_card"
+      },
+      "name:8": "过滤销毁卡"
+    }
+  },
+  "questID:3": 2145069145,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "cells:trash_unselected_card"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cells:trash_unselected_card"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

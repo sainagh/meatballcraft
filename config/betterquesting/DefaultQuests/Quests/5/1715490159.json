@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    1777
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "deepmoblearning:pristine_matter_beastsofmortum"
+      },
+      "name:8": "死域野兽"
+    }
+  },
+  "questID:3": 1715490159,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "deepmoblearning:pristine_matter_beastsofmortum"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:bluefire_stone"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:divine_stone"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "divinerpg:mortum_heart"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:hydra_fang"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

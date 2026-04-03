@@ -11,7 +11,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 
 
 val inffurnacecosmosshard = RecipeBuilder.newBuilder("inffurnacecosmosshard","infinity_furnace",20);
-inffurnacecosmosshard.addFluidInput(<fluid:pre_baryonic_plasma>*300);
+inffurnacecosmosshard.addFluidInput(<fluid:pre_baryonic_plasma>*100);
 inffurnacecosmosshard.addItemInput(<contenttweaker:upper_fragment_cosmos>);
 inffurnacecosmosshard.addItemInput(<contenttweaker:lower_fragment_cosmos>);
 inffurnacecosmosshard.addItemInput(<contenttweaker:perfected_gem_of_the_cosmos>);
@@ -103,21 +103,21 @@ mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:shard_of_the_cosmos>,
 
 
 val inffurnacesupermithril1 = RecipeBuilder.newBuilder("inffurnacesupermithril1","infinity_furnace",20);
-inffurnacesupermithril1.addFluidInput(<fluid:pre_baryonic_plasma>*100);
+inffurnacesupermithril1.addFluidInput(<fluid:pre_baryonic_plasma>*50);
 inffurnacesupermithril1.addItemInput(<extendedcrafting:singularity:29>);
 inffurnacesupermithril1.addItemInput(<contenttweaker:call_of_the_lover>);
 inffurnacesupermithril1.addItemOutput(<contenttweaker:unleashed_mithril_1>);
 inffurnacesupermithril1.build();
 
 val inffurnacesupermithril2 = RecipeBuilder.newBuilder("inffurnacesupermithril2","infinity_furnace",20);
-inffurnacesupermithril2.addFluidInput(<fluid:pre_baryonic_plasma>*100);
+inffurnacesupermithril2.addFluidInput(<fluid:pre_baryonic_plasma>*50);
 inffurnacesupermithril2.addItemInput(<extendedcrafting:singularity:29>);
 inffurnacesupermithril2.addItemInput(<contenttweaker:call_of_the_loved>);
 inffurnacesupermithril2.addItemOutput(<contenttweaker:unleashed_mithril_2>);
 inffurnacesupermithril2.build();
 
 val inffurnacesupermithril3 = RecipeBuilder.newBuilder("inffurnacesupermithril3","infinity_furnace",20);
-inffurnacesupermithril3.addFluidInput(<fluid:pre_baryonic_plasma>*100);
+inffurnacesupermithril3.addFluidInput(<fluid:pre_baryonic_plasma>*50);
 inffurnacesupermithril3.addItemInput(<extendedcrafting:singularity:29>);
 inffurnacesupermithril3.addItemInput(<contenttweaker:call_of_the_love>);
 inffurnacesupermithril3.addItemOutput(<contenttweaker:unleashed_mithril_3>);
@@ -157,8 +157,11 @@ recipes.addShaped(<contenttweaker:prayer_to_the_trinity_of_love>,
 [<contenttweaker:stone_of_universal_balance>, <contenttweaker:ascended_spatial_chassis>, <contenttweaker:stone_of_universal_balance>]]);
 
 
+
+
+
 val inffurncuendillar1 = RecipeBuilder.newBuilder("inffurncuendillar1","infinity_furnace",20);
-inffurncuendillar1.addFluidInput(<fluid:pre_baryonic_plasma>*100);
+inffurncuendillar1.addFluidInput(<fluid:pre_baryonic_plasma>*50);
 inffurncuendillar1.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
 inffurncuendillar1.addItemInput(<contenttweaker:ascended_fluix_crystal>);
 inffurncuendillar1.addItemInput(<contenttweaker:hungering_flesh_ingot>);
@@ -166,8 +169,17 @@ inffurncuendillar1.addItemInput(<contenttweaker:cuendillar_plate>);
 inffurncuendillar1.addItemOutput(<contenttweaker:cuendillar_catalyst_1>*8);
 inffurncuendillar1.build();
 
+val inffurncuendillar1a = RecipeBuilder.newBuilder("inffurncuendillar1a","infinity_furnace",20);
+inffurncuendillar1a.addFluidInput(<fluid:whisper_of_right_and_just_creation>*50);
+inffurncuendillar1a.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+inffurncuendillar1a.addItemInput(<contenttweaker:ascended_fluix_crystal>);
+inffurncuendillar1a.addItemInput(<contenttweaker:hungering_flesh_ingot>);
+inffurncuendillar1a.addItemInput(<contenttweaker:cuendillar_plate>);
+inffurncuendillar1a.addItemOutput(<contenttweaker:cuendillar_catalyst_1>*16);
+inffurncuendillar1a.build();
+
 val inffurncuendillar2 = RecipeBuilder.newBuilder("inffurncuendillar2","infinity_furnace",20);
-inffurncuendillar2.addFluidInput(<fluid:pre_baryonic_plasma>*100);
+inffurncuendillar2.addFluidInput(<fluid:pre_baryonic_plasma>*50);
 inffurncuendillar2.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
 inffurncuendillar2.addItemInput(<contenttweaker:ascended_fluix_crystal>);
 inffurncuendillar2.addItemInput(<contenttweaker:hungering_flesh_ingot>);
@@ -175,8 +187,17 @@ inffurncuendillar2.addItemInput(<contenttweaker:cuendillar_plate>);
 inffurncuendillar2.addItemOutput(<contenttweaker:cuendillar_catalyst_2>*8);
 inffurncuendillar2.build();
 
+val inffurncuendillar2a = RecipeBuilder.newBuilder("inffurncuendillar2a","infinity_furnace",20);
+inffurncuendillar2a.addFluidInput(<fluid:whisper_of_right_and_just_creation>*50);
+inffurncuendillar2a.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+inffurncuendillar2a.addItemInput(<contenttweaker:ascended_fluix_crystal>);
+inffurncuendillar2a.addItemInput(<contenttweaker:hungering_flesh_ingot>);
+inffurncuendillar2a.addItemInput(<contenttweaker:cuendillar_plate>);
+inffurncuendillar2a.addItemOutput(<contenttweaker:cuendillar_catalyst_2>*16);
+inffurncuendillar2a.build();
+
 val inffurncuendillar3 = RecipeBuilder.newBuilder("inffurncuendillar3","infinity_furnace",20);
-inffurncuendillar3.addFluidInput(<fluid:pre_baryonic_plasma>*100);
+inffurncuendillar3.addFluidInput(<fluid:pre_baryonic_plasma>*50);
 inffurncuendillar3.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
 inffurncuendillar3.addItemInput(<contenttweaker:ascended_fluix_crystal>);
 inffurncuendillar3.addItemInput(<contenttweaker:hungering_flesh_ingot>);
@@ -184,6 +205,35 @@ inffurncuendillar3.addItemInput(<contenttweaker:cuendillar_plate>);
 inffurncuendillar3.addItemOutput(<contenttweaker:cuendillar_catalyst_3>*8);
 inffurncuendillar3.build();
 
+val inffurncuendillar3a = RecipeBuilder.newBuilder("inffurncuendillar3a","infinity_furnace",20);
+inffurncuendillar3a.addFluidInput(<fluid:whisper_of_right_and_just_creation>*50);
+inffurncuendillar3a.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+inffurncuendillar3a.addItemInput(<contenttweaker:ascended_fluix_crystal>);
+inffurncuendillar3a.addItemInput(<contenttweaker:hungering_flesh_ingot>);
+inffurncuendillar3a.addItemInput(<contenttweaker:cuendillar_plate>);
+inffurncuendillar3a.addItemOutput(<contenttweaker:cuendillar_catalyst_3>*16);
+inffurncuendillar3a.build();
+
+
+
+mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/altar/trinitascallstone", 
+<contenttweaker:dragon_reborn_callstone>, 
+5000, 500, 
+[
+    <contenttweaker:cleansed_brightsteel_alloy_plate>, <contenttweaker:cuendillar_primer>, <contenttweaker:cleansed_brightsteel_alloy_plate>,
+    <contenttweaker:cuendillar_primer>, <avaritiaitem:cosmic_balance>, <contenttweaker:cuendillar_primer>,
+    <contenttweaker:cleansed_brightsteel_alloy_plate>, <contenttweaker:cuendillar_primer>, <contenttweaker:cleansed_brightsteel_alloy_plate>,
+    <contenttweaker:earthly_salvation>, <contenttweaker:earthly_salvation>, <contenttweaker:earthly_salvation>, <contenttweaker:earthly_salvation>,
+    <contenttweaker:cuendillar_seal>, <contenttweaker:cuendillar_seal>,
+    <contenttweaker:cuendillar_seal>, <contenttweaker:cuendillar_seal>,
+    <contenttweaker:cuendillar_seal>, <contenttweaker:cuendillar_seal>,
+    <contenttweaker:cuendillar_seal>, <contenttweaker:cuendillar_seal>,
+    <contenttweaker:scroll_of_truth_terra>, <contenttweaker:scroll_of_truth_terra>, <contenttweaker:scroll_of_truth_terra>, <contenttweaker:scroll_of_truth_terra>,
+    <contenttweaker:ascended_fluix_crystal>, <contenttweaker:ascended_fluix_crystal>,
+    <contenttweaker:ascended_fluix_crystal>, <contenttweaker:ascended_fluix_crystal>,
+    <contenttweaker:ascended_fluix_crystal>, <contenttweaker:ascended_fluix_crystal>
+], 
+"astralsorcery.constellation.lucerna");
 
 
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:singular_fractal>, <contenttweaker:singular_recursion>, 100, <extendedcrafting:material:11>, 100000);
@@ -202,12 +252,449 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:seal_of_free
 <contenttweaker:unleashed_triquetra>, <contenttweaker:cuendillar_catalyst_2>, <contenttweaker:freedomsteel_ingot>,
 <contenttweaker:unleashed_triquetra>, <contenttweaker:cuendillar_catalyst_3>, <contenttweaker:freedomsteel_ingot>]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:trinity_ingot>, 
-1000000, 
-<contenttweaker:actualizing_hyperuranion_ingot>, 
-[<contenttweaker:unleashed_triquetra>, <contenttweaker:cuendillar_catalyst_1>, <contenttweaker:freedomsteel_ingot>,
-<contenttweaker:unleashed_triquetra>, <contenttweaker:cuendillar_catalyst_2>, <contenttweaker:freedomsteel_ingot>,
-<contenttweaker:unleashed_triquetra>, <contenttweaker:cuendillar_catalyst_3>, <contenttweaker:freedomsteel_ingot>]);
+//mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:trinity_ingot>, 
+//1000000, 
+//<contenttweaker:actualizing_hyperuranion_ingot>, 
+//[<contenttweaker:unleashed_triquetra>, <contenttweaker:cuendillar_catalyst_1>, <contenttweaker:freedomsteel_ingot>,
+//<contenttweaker:unleashed_triquetra>, <contenttweaker:cuendillar_catalyst_2>, <contenttweaker:freedomsteel_ingot>,
+//<contenttweaker:unleashed_triquetra>, <contenttweaker:cuendillar_catalyst_3>, <contenttweaker:freedomsteel_ingot>]);
+
+val trinityingot1 = RecipeBuilder.newBuilder("trinityingot1","presbytery_of_the_threefold_love",3);
+trinityingot1.addFluidInput(<fluid:divine_resonance>*10000);
+trinityingot1.addFluidInput(<fluid:molten_rupee>*5000);
+trinityingot1.addItemInput(<contenttweaker:halite_warrior>);
+trinityingot1.setChance(0.95);
+trinityingot1.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
+trinityingot1.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot1.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot1.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot1.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot1.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot1.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot1.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot1.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot1.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot1.addItemOutput(<contenttweaker:trinity_ingot>);
+trinityingot1.build();
+
+val trinityingot1a = RecipeBuilder.newBuilder("trinityingot1a","presbytery_of_the_threefold_love",3);
+trinityingot1a.addFluidInput(<fluid:divine_resonance>*10000);
+trinityingot1a.addFluidInput(<fluid:molten_rupee>*5000);
+trinityingot1a.addItemInput(<contenttweaker:essence_of_the_balanced_warrior>);
+trinityingot1a.setChance(0.95);
+trinityingot1a.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*4);
+trinityingot1a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot1a.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot1a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot1a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot1a.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot1a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot1a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot1a.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot1a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot1a.addItemOutput(<contenttweaker:trinity_ingot>*4);
+trinityingot1a.build();
+
+val trinityingot1b = RecipeBuilder.newBuilder("trinityingot1b","presbytery_of_the_threefold_love",3);
+trinityingot1b.addFluidInput(<fluid:divine_resonance>*10000);
+trinityingot1b.addFluidInput(<fluid:molten_rupee>*5000);
+trinityingot1b.addItemInput(<contenttweaker:essence_of_the_kanohi_warrior>);
+trinityingot1b.setChance(0.95);
+trinityingot1b.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*16);
+trinityingot1b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot1b.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot1b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot1b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot1b.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot1b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot1b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot1b.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot1b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot1b.addItemOutput(<contenttweaker:trinity_ingot>*16);
+trinityingot1b.build();
+
+val trinityingot2 = RecipeBuilder.newBuilder("trinityingot2","presbytery_of_the_threefold_love",3);
+trinityingot2.addFluidInput(<fluid:divine_resonance>*8000);
+trinityingot2.addFluidInput(<fluid:molten_netherite>*5000);
+trinityingot2.addItemInput(<contenttweaker:halite_warrior>);
+trinityingot2.setChance(0.8);
+trinityingot2.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
+trinityingot2.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot2.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot2.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot2.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot2.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot2.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot2.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot2.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot2.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot2.addItemOutput(<contenttweaker:trinity_ingot>);
+trinityingot2.build();
+
+val trinityingot2a = RecipeBuilder.newBuilder("trinityingot2a","presbytery_of_the_threefold_love",3);
+trinityingot2a.addFluidInput(<fluid:divine_resonance>*8000);
+trinityingot2a.addFluidInput(<fluid:molten_netherite>*5000);
+trinityingot2a.addItemInput(<contenttweaker:essence_of_the_balanced_warrior>);
+trinityingot2a.setChance(0.8);
+trinityingot2a.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*4);
+trinityingot2a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot2a.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot2a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot2a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot2a.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot2a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot2a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot2a.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot2a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot2a.addItemOutput(<contenttweaker:trinity_ingot>*4);
+trinityingot2a.build();
+
+val trinityingot2b = RecipeBuilder.newBuilder("trinityingot2b","presbytery_of_the_threefold_love",3);
+trinityingot2b.addFluidInput(<fluid:divine_resonance>*8000);
+trinityingot2b.addFluidInput(<fluid:molten_netherite>*5000);
+trinityingot2b.addItemInput(<contenttweaker:essence_of_the_kanohi_warrior>);
+trinityingot2b.setChance(0.8);
+trinityingot2b.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*16);
+trinityingot2b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot2b.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot2b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot2b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot2b.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot2b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot2b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot2b.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot2b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot2b.addItemOutput(<contenttweaker:trinity_ingot>*16);
+trinityingot2b.build();
+
+val trinityingot3 = RecipeBuilder.newBuilder("trinityingot3","presbytery_of_the_threefold_love",3);
+trinityingot3.addFluidInput(<fluid:divine_resonance>*6000);
+trinityingot3.addFluidInput(<fluid:enderium>*5000);
+trinityingot3.addItemInput(<contenttweaker:halite_warrior>);
+trinityingot3.setChance(0.5);
+trinityingot3.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
+trinityingot3.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot3.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot3.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot3.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot3.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot3.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot3.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot3.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot3.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot3.addItemOutput(<contenttweaker:trinity_ingot>);
+trinityingot3.build();
+
+val trinityingot3a = RecipeBuilder.newBuilder("trinityingot3a","presbytery_of_the_threefold_love",3);
+trinityingot3a.addFluidInput(<fluid:divine_resonance>*6000);
+trinityingot3a.addFluidInput(<fluid:enderium>*5000);
+trinityingot3a.addItemInput(<contenttweaker:essence_of_the_balanced_warrior>);
+trinityingot3a.setChance(0.5);
+trinityingot3a.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*4);
+trinityingot3a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot3a.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot3a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot3a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot3a.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot3a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot3a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot3a.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot3a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot3a.addItemOutput(<contenttweaker:trinity_ingot>*4);
+trinityingot3a.build();
+
+val trinityingot3b = RecipeBuilder.newBuilder("trinityingot3b","presbytery_of_the_threefold_love",3);
+trinityingot3b.addFluidInput(<fluid:divine_resonance>*6000);
+trinityingot3b.addFluidInput(<fluid:enderium>*5000);
+trinityingot3b.addItemInput(<contenttweaker:essence_of_the_kanohi_warrior>);
+trinityingot3b.setChance(0.5);
+trinityingot3b.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*16);
+trinityingot3b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot3b.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot3b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot3b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot3b.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot3b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot3b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot3b.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot3b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot3b.addItemOutput(<contenttweaker:trinity_ingot>*16);
+trinityingot3b.build();
+
+val trinityingot4 = RecipeBuilder.newBuilder("trinityingot4","presbytery_of_the_threefold_love",3);
+trinityingot4.addFluidInput(<fluid:divine_resonance>*4000);
+trinityingot4.addFluidInput(<fluid:psi>*5000);
+trinityingot4.addItemInput(<contenttweaker:halite_warrior>);
+trinityingot4.setChance(0.3);
+trinityingot4.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
+trinityingot4.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot4.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot4.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot4.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot4.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot4.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot4.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot4.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot4.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot4.addItemOutput(<contenttweaker:trinity_ingot>);
+trinityingot4.build();
+
+val trinityingot4a = RecipeBuilder.newBuilder("trinityingot4a","presbytery_of_the_threefold_love",3);
+trinityingot4a.addFluidInput(<fluid:divine_resonance>*4000);
+trinityingot4a.addFluidInput(<fluid:psi>*5000);
+trinityingot4a.addItemInput(<contenttweaker:essence_of_the_balanced_warrior>);
+trinityingot4a.setChance(0.3);
+trinityingot4a.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*4);
+trinityingot4a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot4a.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot4a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot4a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot4a.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot4a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot4a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot4a.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot4a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot4a.addItemOutput(<contenttweaker:trinity_ingot>*4);
+trinityingot4a.build();
+
+val trinityingot4b = RecipeBuilder.newBuilder("trinityingot4b","presbytery_of_the_threefold_love",3);
+trinityingot4b.addFluidInput(<fluid:divine_resonance>*4000);
+trinityingot4b.addFluidInput(<fluid:psi>*5000);
+trinityingot4b.addItemInput(<contenttweaker:essence_of_the_kanohi_warrior>);
+trinityingot4b.setChance(0.3);
+trinityingot4b.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*16);
+trinityingot4b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot4b.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot4b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot4b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot4b.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot4b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot4b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot4b.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot4b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot4b.addItemOutput(<contenttweaker:trinity_ingot>*16);
+trinityingot4b.build();
+
+
+val trinityingot5 = RecipeBuilder.newBuilder("trinityingot5","presbytery_of_the_threefold_love",3);
+trinityingot5.addFluidInput(<fluid:divine_resonance>*2000);
+trinityingot5.addFluidInput(<fluid:molten_vibranium_alloy>*20000);
+trinityingot5.addItemInput(<contenttweaker:halite_warrior>);
+trinityingot5.setChance(0.1);
+trinityingot5.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
+trinityingot5.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot5.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot5.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot5.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot5.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot5.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot5.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot5.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot5.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot5.addItemOutput(<contenttweaker:trinity_ingot>);
+trinityingot5.build();
+
+val trinityingot5a = RecipeBuilder.newBuilder("trinityingot5a","presbytery_of_the_threefold_love",3);
+trinityingot5a.addFluidInput(<fluid:divine_resonance>*2000);
+trinityingot5a.addFluidInput(<fluid:molten_vibranium_alloy>*20000);
+trinityingot5a.addItemInput(<contenttweaker:essence_of_the_balanced_warrior>);
+trinityingot5a.setChance(0.1);
+trinityingot5a.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*4);
+trinityingot5a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot5a.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot5a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot5a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot5a.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot5a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot5a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot5a.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot5a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot5a.addItemOutput(<contenttweaker:trinity_ingot>*4);
+trinityingot5a.build();
+
+val trinityingot5b = RecipeBuilder.newBuilder("trinityingot5b","presbytery_of_the_threefold_love",3);
+trinityingot5b.addFluidInput(<fluid:divine_resonance>*2000);
+trinityingot5b.addFluidInput(<fluid:molten_vibranium_alloy>*20000);
+trinityingot5b.addItemInput(<contenttweaker:essence_of_the_kanohi_warrior>);
+trinityingot5b.setChance(0.1);
+trinityingot5b.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*16);
+trinityingot5b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot5b.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot5b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot5b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot5b.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot5b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot5b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot5b.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot5b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot5b.addItemOutput(<contenttweaker:trinity_ingot>*16);
+trinityingot5b.build();
+
+
+val trinityingot6 = RecipeBuilder.newBuilder("trinityingot6","presbytery_of_the_threefold_love",3);
+trinityingot6.addFluidInput(<fluid:divine_resonance>*1000);
+trinityingot6.addFluidInput(<fluid:brightsteel_alloy>*20000);
+trinityingot6.addItemInput(<contenttweaker:halite_warrior>);
+trinityingot6.setChance(0.05);
+trinityingot6.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
+trinityingot6.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot6.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot6.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot6.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot6.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot6.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot6.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot6.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot6.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot6.addItemOutput(<contenttweaker:trinity_ingot>);
+trinityingot6.build();
+
+val trinityingot6a = RecipeBuilder.newBuilder("trinityingot6a","presbytery_of_the_threefold_love",3);
+trinityingot6a.addFluidInput(<fluid:divine_resonance>*1000);
+trinityingot6a.addFluidInput(<fluid:brightsteel_alloy>*20000);
+trinityingot6a.addItemInput(<contenttweaker:essence_of_the_balanced_warrior>);
+trinityingot6a.setChance(0.05);
+trinityingot6a.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*4);
+trinityingot6a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot6a.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot6a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot6a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot6a.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot6a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot6a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot6a.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot6a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot6a.addItemOutput(<contenttweaker:trinity_ingot>*4);
+trinityingot6a.build();
+
+val trinityingot6b = RecipeBuilder.newBuilder("trinityingot6b","presbytery_of_the_threefold_love",3);
+trinityingot6b.addFluidInput(<fluid:divine_resonance>*1000);
+trinityingot6b.addFluidInput(<fluid:brightsteel_alloy>*20000);
+trinityingot6b.addItemInput(<contenttweaker:essence_of_the_kanohi_warrior>);
+trinityingot6b.setChance(0.05);
+trinityingot6b.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*16);
+trinityingot6b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot6b.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot6b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot6b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot6b.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot6b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot6b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot6b.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot6b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot6b.addItemOutput(<contenttweaker:trinity_ingot>*16);
+trinityingot6b.build();
+
+val trinityingot7 = RecipeBuilder.newBuilder("trinityingot7","presbytery_of_the_threefold_love",3);
+trinityingot7.addFluidInput(<fluid:divine_resonance>*1000);
+trinityingot7.addFluidInput(<fluid:molten_hassium_alloy>*20000);
+trinityingot7.addItemInput(<contenttweaker:halite_warrior>);
+trinityingot7.setChance(0.01);
+trinityingot7.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
+trinityingot7.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot7.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot7.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot7.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot7.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot7.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot7.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot7.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot7.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot7.addItemOutput(<contenttweaker:trinity_ingot>);
+trinityingot7.build();
+
+val trinityingot7a = RecipeBuilder.newBuilder("trinityingot7a","presbytery_of_the_threefold_love",3);
+trinityingot7a.addFluidInput(<fluid:divine_resonance>*1000);
+trinityingot7a.addFluidInput(<fluid:molten_hassium_alloy>*20000);
+trinityingot7a.addItemInput(<contenttweaker:essence_of_the_balanced_warrior>);
+trinityingot7a.setChance(0.01);
+trinityingot7a.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*4);
+trinityingot7a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot7a.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot7a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot7a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot7a.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot7a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot7a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot7a.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot7a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot7a.addItemOutput(<contenttweaker:trinity_ingot>*4);
+trinityingot7a.build();
+
+val trinityingot7b = RecipeBuilder.newBuilder("trinityingot7b","presbytery_of_the_threefold_love",3);
+trinityingot7b.addFluidInput(<fluid:divine_resonance>*1000);
+trinityingot7b.addFluidInput(<fluid:molten_hassium_alloy>*20000);
+trinityingot7b.addItemInput(<contenttweaker:essence_of_the_kanohi_warrior>);
+trinityingot7b.setChance(0.01);
+trinityingot7b.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*16);
+trinityingot7b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot7b.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot7b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot7b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot7b.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot7b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot7b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot7b.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot7b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot7b.addItemOutput(<contenttweaker:trinity_ingot>*16);
+trinityingot7b.build();
+
+
+
+val trinityingot8 = RecipeBuilder.newBuilder("trinityingot9","presbytery_of_the_threefold_love",3);
+trinityingot8.addFluidInput(<fluid:divine_resonance>*1000);
+trinityingot8.addFluidInput(<fluid:neutrhassium_alloy>*20000);
+trinityingot8.addItemInput(<contenttweaker:halite_warrior>);
+trinityingot8.setChance(0.001);
+trinityingot8.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
+trinityingot8.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot8.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot8.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot8.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot8.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot8.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot8.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot8.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot8.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot8.addItemOutput(<contenttweaker:trinity_ingot>);
+trinityingot8.build();
+
+val trinityingot8a = RecipeBuilder.newBuilder("trinityingot9a","presbytery_of_the_threefold_love",3);
+trinityingot8a.addFluidInput(<fluid:divine_resonance>*1000);
+trinityingot8a.addFluidInput(<fluid:neutrhassium_alloy>*20000);
+trinityingot8a.addItemInput(<contenttweaker:essence_of_the_balanced_warrior>);
+trinityingot8a.setChance(0.001);
+trinityingot8a.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*4);
+trinityingot8a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot8a.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot8a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot8a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot8a.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot8a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot8a.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot8a.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot8a.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot8a.addItemOutput(<contenttweaker:trinity_ingot>*4);
+trinityingot8a.build();
+
+
+val trinityingot8b = RecipeBuilder.newBuilder("trinityingot9b","presbytery_of_the_threefold_love",3);
+trinityingot8b.addFluidInput(<fluid:divine_resonance>*1000);
+trinityingot8b.addFluidInput(<fluid:neutrhassium_alloy>*20000);
+trinityingot8b.addItemInput(<contenttweaker:essence_of_the_kanohi_warrior>);
+trinityingot8b.setChance(0.001);
+trinityingot8b.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>*16);
+trinityingot8b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot8b.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
+trinityingot8b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot8b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot8b.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
+trinityingot8b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot8b.addItemInput(<contenttweaker:unleashed_triquetra>);
+trinityingot8b.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
+trinityingot8b.addItemInput(<contenttweaker:freedomsteel_ingot>);
+trinityingot8b.addItemOutput(<contenttweaker:trinity_ingot>*16);
+trinityingot8b.build();
 
 // recipes.addShapeless(<contenttweaker:trinity_nugget>*9,
 // [<contenttweaker:trinity_ingot>]);
@@ -220,26 +707,88 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:trinity_ingo
 recipes.addShapeless(<contenttweaker:trinity_nugget>*9,
 [<divinerpg:arlemite_shickaxe>.reuse(),
 <contenttweaker:trinity_ingot>]);
+recipes.addShapeless(<contenttweaker:trinity_nugget>*9,
+[<divinerpg:arlemite_shickaxe>.reuse(),
+<contenttweaker:trinity_bar>]);
 
 recipes.addShapeless(<contenttweaker:trinity_nugget>*16,
 [<twilightforest:mazebreaker_pickaxe>.reuse(),
 <contenttweaker:trinity_ingot>]);
+recipes.addShapeless(<contenttweaker:trinity_nugget>*16,
+[<twilightforest:mazebreaker_pickaxe>.reuse(),
+<contenttweaker:trinity_bar>]);
 
 recipes.addShapeless(<contenttweaker:trinity_nugget>*25,
 [<aoa3:occult_pickaxe>.reuse(),
 <contenttweaker:trinity_ingot>]);
+recipes.addShapeless(<contenttweaker:trinity_nugget>*25,
+[<aoa3:occult_pickaxe>.reuse(),
+<contenttweaker:trinity_bar>]);
 
 recipes.addShapeless(<contenttweaker:trinity_nugget>*36,
 [<aoa3:energistic_pickaxe>.reuse(),
 <contenttweaker:trinity_ingot>]);
+recipes.addShapeless(<contenttweaker:trinity_nugget>*36,
+[<aoa3:energistic_pickaxe>.reuse(),
+<contenttweaker:trinity_bar>]);
 
 recipes.addShapeless(<contenttweaker:trinity_nugget>*49,
 [<avaritia:infinity_pickaxe>.withTag({display: {Lore:["§d§o极・超限附魔§r"]}}).reuse(),
 <contenttweaker:trinity_ingot>]);
+recipes.addShapeless(<contenttweaker:trinity_nugget>*49,
+[<avaritia:infinity_pickaxe>.withTag({display: {Lore:["§d§o极・超限附魔§r"]}}).reuse(),
+<contenttweaker:trinity_bar>]);
+
+recipes.addShapeless(<contenttweaker:trinity_nugget>*64,
+[<twilightforest:giant_pickaxe>.withTag({display: {Lore:["§d§o极・超限附魔§r"]}}).reuse(),
+<contenttweaker:trinity_ingot>]);
+recipes.addShapeless(<contenttweaker:trinity_nugget>*64,
+[<twilightforest:giant_pickaxe>.withTag({display: {Lore:["§d§o极・超限附魔§r"]}}).reuse(),
+<contenttweaker:trinity_bar>]);
+
+mods.avaritia.ExtremeCrafting.addShaped("makesupergemofthecosmos",
+<contenttweaker:perfected_gem_of_the_cosmos>, 
+[[<contenttweaker:paradigm_of_dominion>, <contenttweaker:recursive_powder>, <extrautils2:decorativesolid:8>,
+<contenttweaker:vethea_garnet>, <contenttweaker:cursed_sapphire>, <contenttweaker:vethea_garnet>,
+<extrautils2:decorativesolid:8>, <contenttweaker:recursive_powder>, <contenttweaker:paradigm_of_dominion>],
+
+[<contenttweaker:recursive_powder>, <contenttweaker:recursion_of_war>, <contenttweaker:big_slime>,
+<contenttweaker:tennessine_gem>, <contenttweaker:cursed_sapphire>, <contenttweaker:tennessine_gem>,
+<contenttweaker:big_slime>, <contenttweaker:recursion_of_war>, <contenttweaker:recursive_powder>],
+
+[<contenttweaker:clunky_chunky_brick>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:will_ensnaring_fabrial>,
+<contenttweaker:astral_lizardite>, <contenttweaker:corrupted_aragonite>, <contenttweaker:astral_lizardite>,
+<contenttweaker:will_ensnaring_fabrial>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:clunky_chunky_brick>],
+
+[<contenttweaker:stable_oganesson>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:astral_lizardite>,
+<contenttweaker:nightmare_block>, <contenttweaker:planetary_essence>, <contenttweaker:nightmare_block>,
+<contenttweaker:astral_lizardite>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:stable_oganesson>],
+
+[<contenttweaker:cursed_sapphire>, <contenttweaker:cosmic_fracture>, <contenttweaker:corrupted_aragonite>,
+<contenttweaker:planetary_essence>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:planetary_essence>,
+<contenttweaker:corrupted_aragonite>, <contenttweaker:cosmic_fracture>, <contenttweaker:cursed_sapphire>],
+
+[<contenttweaker:stable_oganesson>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:astral_lizardite>,
+<contenttweaker:nightmare_block>, <contenttweaker:planetary_essence>, <contenttweaker:nightmare_block>,
+<contenttweaker:astral_lizardite>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:stable_oganesson>],
+
+[<contenttweaker:clunky_chunky_brick>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:will_ensnaring_fabrial>,
+<contenttweaker:astral_lizardite>, <contenttweaker:corrupted_aragonite>, <contenttweaker:astral_lizardite>,
+<contenttweaker:will_ensnaring_fabrial>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:clunky_chunky_brick>],
+
+[<contenttweaker:recursive_powder>, <contenttweaker:recursion_of_war>, <contenttweaker:big_slime>,
+<contenttweaker:tennessine_gem>, <contenttweaker:cursed_sapphire>, <contenttweaker:tennessine_gem>,
+<contenttweaker:big_slime>, <contenttweaker:recursion_of_war>, <contenttweaker:recursive_powder>],
+
+[<contenttweaker:paradigm_of_dominion>, <contenttweaker:recursive_powder>, <extrautils2:decorativesolid:8>,
+<contenttweaker:vethea_garnet>, <contenttweaker:cursed_sapphire>, <contenttweaker:vethea_garnet>,
+<extrautils2:decorativesolid:8>, <contenttweaker:recursive_powder>, <contenttweaker:paradigm_of_dominion>]]);
+
+
 
 
 mods.avaritia.ExtremeCrafting.addShaped("makesupergemofthecosmosbb",
-<contenttweaker:perfected_gem_of_the_cosmos>*2, 
+<contenttweaker:perfected_gem_of_the_cosmos>*4, 
 [[<contenttweaker:paradigm_of_dominion>, <contenttweaker:recursive_powder>, <extrautils2:decorativesolid:8>,
 <contenttweaker:freedomsteel_ingot>, <contenttweaker:cursed_sapphire>, <contenttweaker:freedomsteel_ingot>,
 <extrautils2:decorativesolid:8>, <contenttweaker:recursive_powder>, <contenttweaker:paradigm_of_dominion>],
@@ -305,6 +854,64 @@ mods.avaritia.ExtremeCrafting.addShaped("makesupergemofthecosmosff",
 
 [<contenttweaker:stable_oganesson>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:astral_lizardite>,
 <contenttweaker:nightmare_block>, <contenttweaker:planetary_essence>, <contenttweaker:nightmare_block>,
+<contenttweaker:astral_lizardite>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:stable_oganesson>],
+
+[<contenttweaker:clunky_chunky_brick>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:will_ensnaring_fabrial>,
+<contenttweaker:astral_lizardite>, <contenttweaker:corrupted_aragonite>, <contenttweaker:astral_lizardite>,
+<contenttweaker:will_ensnaring_fabrial>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:clunky_chunky_brick>],
+
+[<contenttweaker:recursive_powder>, <contenttweaker:recursion_of_war>, <contenttweaker:big_slime>,
+<contenttweaker:tennessine_gem>, <contenttweaker:cursed_sapphire>, <contenttweaker:tennessine_gem>,
+<contenttweaker:big_slime>, <contenttweaker:recursion_of_war>, <contenttweaker:recursive_powder>],
+
+[<contenttweaker:paradigm_of_dominion>, <contenttweaker:recursive_powder>, <extrautils2:decorativesolid:8>,
+<contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata), <contenttweaker:cursed_sapphire>, <contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata),
+<extrautils2:decorativesolid:8>, <contenttweaker:recursive_powder>, <contenttweaker:paradigm_of_dominion>]]);
+
+
+
+val vengtessproto = RecipeBuilder.newBuilder("vengtessproto","vengeance_tesseract",10);
+vengtessproto.addBiomeInput("divinerpg:mortum");
+vengtessproto.addManaInput(20000, false);
+vengtessproto.addFluidInput(<fluid:terrasteel>*5000);
+vengtessproto.addFluidInput(<fluid:rosidian>*5000);
+vengtessproto.addItemInput(<botania:rune:7>*512);
+vengtessproto.addItemInput(<botania:rune:5>*512);
+vengtessproto.addItemInput(<botania:rune:4>*512);
+vengtessproto.addItemInput(<botania:rune:6>*512);
+vengtessproto.addItemInput(<divinerpg:twilight_demon_statue>);
+vengtessproto.addItemInput(<divinerpg:soul_fiend_statue>);
+vengtessproto.addFluidOutput(<fluid:protodermis>*10000);
+vengtessproto.build();
+
+mods.nuclearcraft.infuser.addRecipe([<divinerpg:mortum_soul>, <fluid:protodermis>*250, <contenttweaker:living_construct_soul>]);
+
+
+
+mods.avaritia.ExtremeCrafting.addShaped("makesupergemofthecosmosxxx",
+<contenttweaker:perfected_gem_of_the_cosmos>*24, 
+[[<contenttweaker:paradigm_of_dominion>, <contenttweaker:recursive_powder>, <extrautils2:decorativesolid:8>,
+<contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata), <contenttweaker:cursed_sapphire>, <contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata),
+<extrautils2:decorativesolid:8>, <contenttweaker:recursive_powder>, <contenttweaker:paradigm_of_dominion>],
+
+[<contenttweaker:recursive_powder>, <contenttweaker:recursion_of_war>, <contenttweaker:big_slime>,
+<contenttweaker:tennessine_gem>, <contenttweaker:cursed_sapphire>, <contenttweaker:tennessine_gem>,
+<contenttweaker:big_slime>, <contenttweaker:recursion_of_war>, <contenttweaker:recursive_powder>],
+
+[<contenttweaker:clunky_chunky_brick>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:will_ensnaring_fabrial>,
+<contenttweaker:astral_lizardite>, <contenttweaker:corrupted_aragonite>, <contenttweaker:astral_lizardite>,
+<contenttweaker:will_ensnaring_fabrial>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:clunky_chunky_brick>],
+
+[<contenttweaker:stable_oganesson>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:astral_lizardite>,
+<contenttweaker:nightmare_block>, <contenttweaker:planetary_living_construct>, <contenttweaker:nightmare_block>,
+<contenttweaker:astral_lizardite>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:stable_oganesson>],
+
+[<contenttweaker:cursed_sapphire>, <contenttweaker:cosmic_fracture>, <contenttweaker:corrupted_aragonite>,
+<contenttweaker:planetary_living_construct>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:planetary_living_construct>,
+<contenttweaker:corrupted_aragonite>, <contenttweaker:cosmic_fracture>, <contenttweaker:cursed_sapphire>],
+
+[<contenttweaker:stable_oganesson>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:astral_lizardite>,
+<contenttweaker:nightmare_block>, <contenttweaker:planetary_living_construct>, <contenttweaker:nightmare_block>,
 <contenttweaker:astral_lizardite>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:stable_oganesson>],
 
 [<contenttweaker:clunky_chunky_brick>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:will_ensnaring_fabrial>,
@@ -868,8 +1475,99 @@ mods.avaritia.ExtremeCrafting.addShaped("canonendingdire",
 
 [null, null, <ore:blockInfinity>, <avaritiaitem:fractallite_halite_catalyst>, <avaritiaitem:fractallite_halite_catalyst>, <avaritiaitem:fractallite_halite_catalyst>, <ore:blockInfinity>, null, null]]);
 
+mods.avaritia.ExtremeCrafting.addShaped("cosmicbalanceez",
+<avaritiaitem:cosmic_balance>, 
+[[null, null, null, <contenttweaker:bewitched_cord>, <contenttweaker:act_of_restored_balance>, <contenttweaker:bewitched_cord>, null, null, null],
+
+[null, null, <contenttweaker:bewitched_cord>, null, <avaritiaitem:fractallite_halite_catalyst>, null, <contenttweaker:bewitched_cord>, null, null],
+
+[null, <contenttweaker:bewitched_cord>, null, null, <avaritiaitem:fractallite_halite_catalyst>, null, null, <contenttweaker:bewitched_cord>, null],
+
+[null, <contenttweaker:hungering_flesh_ingot>, null, null, <avaritiaitem:fractallite_halite_catalyst>, null, null, <contenttweaker:ascended_fluix_crystal>, null],
+
+[null, <contenttweaker:balanced_machine_casing>, null, null, <avaritiaitem:fractallite_halite_catalyst>, null, null, <contenttweaker:balanced_machine_casing>, null],
+
+[null, <contenttweaker:hungering_flesh_ingot>, null, null, <avaritiaitem:fractallite_halite_catalyst>, null, null, <contenttweaker:ascended_fluix_crystal>, null],
+
+[null, null, null, null, <avaritiaitem:fractallite_halite_catalyst>, null, null, null, null],
+
+[null, null, null, <ore:blockInfinity>, <avaritiaitem:fractallite_halite_catalyst>, <ore:blockInfinity>, null, null, null],
+
+[null, null, <ore:blockInfinity>, <avaritiaitem:fractallite_halite_catalyst>, <avaritiaitem:fractallite_halite_catalyst>, <avaritiaitem:fractallite_halite_catalyst>, <ore:blockInfinity>, null, null]]);
+
 
 recipes.addShaped(<contenttweaker:earthly_salvation>*5,
 [[null, <contenttweaker:trinity_nugget>, null],
 [<contenttweaker:trinity_nugget>, <contenttweaker:earthly_salvation>, <contenttweaker:trinity_nugget>],
 [null, <contenttweaker:trinity_nugget>, null]]);
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:essence_of_the_balanced_warrior>*4, 
+[[null, null, null, <minecraft:double_plant:0>, <divinerpg:awakened_halite_helmet>, <minecraft:double_plant:0>, null, null, null], 
+[null, <contenttweaker:earthly_salvation>, null, <minecraft:double_plant:0>, <divinerpg:awakened_halite_chestplate>, <minecraft:double_plant:0>, null, <contenttweaker:earthly_salvation>, null], 
+[null, null, null, <minecraft:double_plant:0>, <divinerpg:awakened_halite_leggings>, <minecraft:double_plant:0>, null, null, null], 
+[<minecraft:double_plant:0>, <minecraft:double_plant:0>, <minecraft:double_plant:0>, <divinerpg:eden_shield>, <divinerpg:awakened_halite_boots>, <divinerpg:eden_shield>, <minecraft:double_plant:0>, <minecraft:double_plant:0>, <minecraft:double_plant:0>], 
+[<divinerpg:awakened_halite_helmet>, <divinerpg:awakened_halite_chestplate>, <divinerpg:awakened_halite_leggings>, <divinerpg:awakened_halite_boots>, <contenttweaker:cuendillar_seal>, <divinerpg:awakened_halite_boots>, <divinerpg:awakened_halite_leggings>, <divinerpg:awakened_halite_chestplate>, <divinerpg:awakened_halite_helmet>], 
+[<minecraft:double_plant:0>, <minecraft:double_plant:0>, <minecraft:double_plant:0>, <divinerpg:eden_shield>, <divinerpg:awakened_halite_boots>, <divinerpg:eden_shield>, <minecraft:double_plant:0>, <minecraft:double_plant:0>, <minecraft:double_plant:0>], 
+[null, null, null, <minecraft:double_plant:0>, <divinerpg:awakened_halite_leggings>, <minecraft:double_plant:0>, null, null, null], 
+[null, <contenttweaker:earthly_salvation>, null, <minecraft:double_plant:0>, <divinerpg:awakened_halite_chestplate>, <minecraft:double_plant:0>, null, <contenttweaker:earthly_salvation>, null], 
+[null, null, null, <minecraft:double_plant:0>, <divinerpg:awakened_halite_helmet>, <minecraft:double_plant:0>, null, null, null]]);  
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:essence_of_the_kanohi_warrior>, 
+[[null, null, null, null, <contenttweaker:kanohi_mask>, null, null, null, null], 
+[null, null, null, null, <aoa3:mecha_gear>, null, null, null, null], 
+[null, <aoa3:magnet_shard>, <aoa3:magnet_shard>, <aoa3:gold_spring>, <contenttweaker:mechbot_cpu>, <aoa3:gold_spring>, <aoa3:magnet_shard>, <aoa3:magnet_shard>, null], 
+[<contenttweaker:infinite_alchemical_plate>, null, null, null, <projecte:item.pe_life_stone>, null, null, null, <contenttweaker:infinite_alchemical_plate>], 
+[<contenttweaker:infinite_alchemical_plate>, null, null, null, <contenttweaker:essence_of_the_balanced_warrior>, null, null, null, <contenttweaker:infinite_alchemical_plate>], 
+[null, null, null, null, <aoa3:mecha_gear>, null, null, null, null], 
+[null, null, null, <aoa3:gold_spring>, <aoa3:gold_spring>, <aoa3:gold_spring>, null, null, null], 
+[null, null, <contenttweaker:infinite_alchemical_plate>, null, null, null, <contenttweaker:infinite_alchemical_plate>, null, null], 
+[null, null, <contenttweaker:infinite_alchemical_plate>, null, null, null, <contenttweaker:infinite_alchemical_plate>, null, null]]);  
+
+
+
+
+mods.avaritia.ExtremeCrafting.addShaped("makesupergemofthecosmosasdf",
+<contenttweaker:perfected_gem_of_the_cosmos>*36, 
+[[<contenttweaker:paradigm_of_dominion>, <contenttweaker:recursive_powder>, <extrautils2:decorativesolid:8>,
+<contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata), <contenttweaker:cursed_sapphire>, <contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata),
+<extrautils2:decorativesolid:8>, <contenttweaker:recursive_powder>, <contenttweaker:paradigm_of_dominion>],
+
+[<contenttweaker:recursive_powder>, <contenttweaker:recursion_of_war>, <contenttweaker:big_slime>,
+<contenttweaker:tennessine_gem>, <contenttweaker:hopebringer_crystal>, <contenttweaker:tennessine_gem>,
+<contenttweaker:big_slime>, <contenttweaker:recursion_of_war>, <contenttweaker:recursive_powder>],
+
+[<contenttweaker:clunky_chunky_brick>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:will_ensnaring_fabrial>,
+<contenttweaker:astral_lizardite>, <contenttweaker:corrupted_aragonite>, <contenttweaker:astral_lizardite>,
+<contenttweaker:will_ensnaring_fabrial>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:clunky_chunky_brick>],
+
+[<contenttweaker:stable_oganesson>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:astral_lizardite>,
+<contenttweaker:nightmare_block>, <contenttweaker:planetary_living_construct>, <contenttweaker:nightmare_block>,
+<contenttweaker:astral_lizardite>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:stable_oganesson>],
+
+[<contenttweaker:cursed_sapphire>, <contenttweaker:cosmic_fracture>, <contenttweaker:corrupted_aragonite>,
+<contenttweaker:planetary_living_construct>, <contenttweaker:imperfect_gem_of_the_cosmos>, <contenttweaker:planetary_living_construct>,
+<contenttweaker:corrupted_aragonite>, <contenttweaker:cosmic_fracture>, <contenttweaker:cursed_sapphire>],
+
+[<contenttweaker:stable_oganesson>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:astral_lizardite>,
+<contenttweaker:nightmare_block>, <contenttweaker:planetary_living_construct>, <contenttweaker:nightmare_block>,
+<contenttweaker:astral_lizardite>, <contenttweaker:will_ensnaring_fabrial>, <contenttweaker:stable_oganesson>],
+
+[<contenttweaker:clunky_chunky_brick>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:will_ensnaring_fabrial>,
+<contenttweaker:astral_lizardite>, <contenttweaker:corrupted_aragonite>, <contenttweaker:astral_lizardite>,
+<contenttweaker:will_ensnaring_fabrial>, <contenttweaker:warren_splitter_fabrial>, <contenttweaker:clunky_chunky_brick>],
+
+[<contenttweaker:recursive_powder>, <contenttweaker:recursion_of_war>, <contenttweaker:big_slime>,
+<contenttweaker:tennessine_gem>, <contenttweaker:hopebringer_crystal>, <contenttweaker:tennessine_gem>,
+<contenttweaker:big_slime>, <contenttweaker:recursion_of_war>, <contenttweaker:recursive_powder>],
+
+[<contenttweaker:paradigm_of_dominion>, <contenttweaker:recursive_powder>, <extrautils2:decorativesolid:8>,
+<contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata), <contenttweaker:cursed_sapphire>, <contenttweaker:ascended_gallifreyan_alloy>.withTag(fulfilleddata),
+<extrautils2:decorativesolid:8>, <contenttweaker:recursive_powder>, <contenttweaker:paradigm_of_dominion>]]);
+
+
+
+

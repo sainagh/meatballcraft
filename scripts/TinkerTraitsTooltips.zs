@@ -168,3 +168,4 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:trait_willoftheaesir>.addTooltip(format.red("破坏方块时有概率掉落灵魂碎片"));
 <contenttweaker:trait_tearofarcana>.addTooltip(format.red("破坏方块时有概率掉落秘金块（概率随等级提升，最高至10级）；小概率掉落秘金簇"));
 <contenttweaker:trait_giggity>.addTooltip(format.red("击中生物时有概率掉落硬骨"));
+

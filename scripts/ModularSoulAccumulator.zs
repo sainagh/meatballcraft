@@ -38,6 +38,15 @@ soulcollectorinferium.addItemInput(<enderio:item_broken_spawner>.withTag({entity
 soulcollectorinferium.addItemOutput(<mysticalagradditions:insanium:0>*5);
 soulcollectorinferium.build();
 
+val soulcollectorinferium2 = RecipeBuilder.newBuilder("soulcollectorinferium2","soul_accumulator",60);
+soulcollectorinferium2.addEnergyPerTickInput(100000);
+soulcollectorinferium2.addFluidInput(<fluid:essence>*1000);
+soulcollectorinferium2.addFluidInput(<fluid:shyre_weed_oil>*1000);
+soulcollectorinferium2.addItemInput(<thebetweenlands:rock_snot_pearl>*4);
+soulcollectorinferium2.addItemInput(<enderio:item_broken_spawner>.withTag({entityId: "divinerpg:rainbour"}));
+soulcollectorinferium2.addItemOutput(<mysticalagradditions:insanium:0>*15);
+soulcollectorinferium2.build();
+
 val soulcollectorcrops = RecipeBuilder.newBuilder("soulcollectorcrops","soul_accumulator",60);
 soulcollectorcrops.addEnergyPerTickInput(100000);
 soulcollectorcrops.addFluidInput(<fluid:essence>*1000);
@@ -61,6 +70,31 @@ soulcollectorcrops.addItemOutput(<immersiveengineering:material:4>*64);
 soulcollectorcrops.addItemOutput(<thebetweenlands:weeping_blue_petal>*64);
 soulcollectorcrops.addItemOutput(<thebetweenlands:spirit_fruit>*64);
 soulcollectorcrops.build();
+
+
+val soulcollectorcrops2 = RecipeBuilder.newBuilder("soulcollectorcrops2","soul_accumulator",60);
+soulcollectorcrops2.addEnergyPerTickInput(100000);
+soulcollectorcrops2.addFluidInput(<fluid:essence>*1000);
+soulcollectorcrops2.addFluidInput(<fluid:shyre_weed_oil>*100);
+soulcollectorcrops2.addItemInput(<thebetweenlands:rock_snot_pearl>*4);
+soulcollectorcrops2.addItemInput(<enderio:item_broken_spawner>.withTag({entityId: "aoa3:rammerhead"}));
+soulcollectorcrops2.addItemOutput(<natura:materials:3>*128);
+soulcollectorcrops2.addItemOutput(<actuallyadditions:item_misc:13>*128);
+soulcollectorcrops2.addItemOutput(<aoa3:chilli>*128);
+soulcollectorcrops2.addItemOutput(<aoa3:holly_top_petals>*128);
+soulcollectorcrops2.addItemOutput(<aoa3:mystic_shrooms>*128);
+soulcollectorcrops2.addItemOutput(<bewitchment:aconitum>*128);
+soulcollectorcrops2.addItemOutput(<bewitchment:belladonna>*128);
+soulcollectorcrops2.addItemOutput(<bewitchment:garlic>*128);
+soulcollectorcrops2.addItemOutput(<bewitchment:hellebore>*128);
+soulcollectorcrops2.addItemOutput(<bewitchment:mandrake_root>*128);
+soulcollectorcrops2.addItemOutput(<bewitchment:white_sage>*128);
+soulcollectorcrops2.addItemOutput(<bewitchment:wormwood>*128);
+soulcollectorcrops2.addItemOutput(<bewitchment:spanish_moss>*128);
+soulcollectorcrops2.addItemOutput(<immersiveengineering:material:4>*128);
+soulcollectorcrops2.addItemOutput(<thebetweenlands:weeping_blue_petal>*128);
+soulcollectorcrops2.addItemOutput(<thebetweenlands:spirit_fruit>*128);
+soulcollectorcrops2.build();
 
 
 val soulcollectorfertilizedefinedseed = RecipeBuilder.newBuilder("soulcollectorfertilizedefinedseed","soul_accumulator",60);

@@ -8,6 +8,12 @@ recipes.addShaped(<aoa3:baron_sword>,
 [null, <contenttweaker:barathosynium_ingot>, null],
 [<contenttweaker:hive_king_tendril>, <ore:stickWood>, <contenttweaker:hive_king_tendril>]]);
 
+recipes.removeShaped(<aoa3:supremacy_sword>);
+recipes.addShaped(<aoa3:supremacy_sword>,
+[[null, <aoa3:sharp_claw>, null],
+[null, <minecraft:iron_ingot>, null],
+[<forge:bucketfilled>.withTag({FluidName: "essence_of_ilarity", Amount: 1000}), <ore:stickWood>, <aoa3:confetti_pile>]]);
+
 
 
 recipes.addShaped(<contenttweaker:call_of_the_berserker>,
@@ -22,7 +28,10 @@ recipes.addShaped(<contenttweaker:holy_sludge_callstone>,
 [<aether_legacy:holystone>, <contenttweaker:recursive_meatball>, <aether_legacy:holystone>]]);
 
 
-recipes.addShaped(<aoa3:holy_sword>,
+val holyshimmersword = <contenttweaker:holyshimmer_sword>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 400},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]});
+
+
+recipes.addShaped(holyshimmersword,
 [[null, <aoa3:crystallite_block>, null],
 [null, <aoa3:crystallite_block>, null],
 [<contenttweaker:holy_shimmer>, <tconstruct:tool_rod>.withTag({Material: "rosidian"}), <contenttweaker:holy_shimmer>]]);
@@ -150,3 +159,88 @@ recipes.addShaped(<aoa3:withers_wrath>,
 [[<extendedcrafting:storage:2>, <aoa3:wither_rune>, <extendedcrafting:storage:2>],
 [<contenttweaker:medallion_of_undead_repellence>, <aoa3:blaster_frame>, <contenttweaker:medallion_of_undead_repellence>],
 [<extendedcrafting:storage:2>, <aoa3:wither_rune>, <extendedcrafting:storage:2>]]);
+
+
+
+
+
+
+recipes.addShapeless(<aoa3:tipped_holly_arrow>.withTag({Potion: "cohfcore:wither6+"})*7,
+[<contenttweaker:pharos_imbuement>,
+<iceandfire:witherbone>,
+<aoa3:holly_arrow>,
+<aoa3:holly_arrow>,
+<aoa3:holly_arrow>,
+<aoa3:holly_arrow>,
+<aoa3:holly_arrow>,
+<aoa3:holly_arrow>,
+<aoa3:holly_arrow>]);
+
+
+
+recipes.addShaped(<aoa3:boulder_bomber>,
+[[<aoa3:dense_rock>, <contenttweaker:deep_metamorphic_rock>, <aoa3:dense_rock>],
+[<contenttweaker:kror_sediment>, <aoa3:cannon_frame>, <contenttweaker:kror_sediment>],
+[<aoa3:dense_rock>, <contenttweaker:deep_metamorphic_rock>, <aoa3:dense_rock>]]);
+
+var ferranumseed = <agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "resource:ferranium_plant", agri_growth: 1 as byte});
+
+recipes.addShaped(<aoa3:gardener>,
+[[<aoa3:holly_top_seeds>, ferranumseed, <aoa3:holly_top_seeds>],
+[ferranumseed, <aoa3:gun_frame>, ferranumseed],
+[<aoa3:holly_top_seeds>, <contenttweaker:bloodhunter_droplet>, <aoa3:holly_top_seeds>]]);
+
+
+recipes.addShaped(<aoa3:overshot>,
+[[<aoa3:armour_plating>, <contenttweaker:lyonite_plate>, <aoa3:armour_plating>],
+[<contenttweaker:mechbot_cpu>, <aoa3:gun_frame>, <contenttweaker:mechbot_cpu>],
+[<aoa3:armour_plating>, <contenttweaker:rosidian_ingot>, <aoa3:armour_plating>]]);
+
+
+
+recipes.addShaped(<aoa3:cyclone>,
+[[<aoa3:armour_plating>, <contenttweaker:vial_of_ilarity>, <aoa3:armour_plating>],
+[<contenttweaker:naquadah_chunk>, <aoa3:gun_frame>, <contenttweaker:naquadah_chunk>],
+[<aoa3:armour_plating>, <contenttweaker:empowered_apothecary_stone>, <aoa3:armour_plating>]]);
+
+recipes.addShaped(<aoa3:dragilator>,
+[[<draconicevolution:dragon_heart>, <contenttweaker:fragment_of_creation>, <draconicevolution:dragon_heart>],
+[<contenttweaker:stormlight_fragment>, <aoa3:gun_frame>, <contenttweaker:stormlight_fragment>],
+[<draconicevolution:dragon_heart>, <aoa3:mega_rune_fragment_red>, <draconicevolution:dragon_heart>]]);
+
+recipes.addShaped(<aoa3:frosticator>,
+[[<draconicevolution:dragon_heart>, <contenttweaker:fragment_of_creation>, <draconicevolution:dragon_heart>],
+[<contenttweaker:stormlight_fragment>, <aoa3:gun_frame>, <contenttweaker:stormlight_fragment>],
+[<draconicevolution:dragon_heart>, <aoa3:mega_rune_fragment_blue>, <draconicevolution:dragon_heart>]]);
+
+recipes.addShaped(<aoa3:electinator>,
+[[<draconicevolution:dragon_heart>, <contenttweaker:fragment_of_creation>, <draconicevolution:dragon_heart>],
+[<contenttweaker:stormlight_fragment>, <aoa3:gun_frame>, <contenttweaker:stormlight_fragment>],
+[<draconicevolution:dragon_heart>, <aoa3:mega_rune_fragment_yellow>, <draconicevolution:dragon_heart>]]);
+
+recipes.addShaped(<aoa3:germinator>,
+[[<draconicevolution:dragon_heart>, <contenttweaker:fragment_of_creation>, <draconicevolution:dragon_heart>],
+[<contenttweaker:stormlight_fragment>, <aoa3:gun_frame>, <contenttweaker:stormlight_fragment>],
+[<draconicevolution:dragon_heart>, <aoa3:mega_rune_fragment_green>, <draconicevolution:dragon_heart>]]);
+
+
+recipes.addShaped(<aoa3:coral_clogger>,
+[[<aoa3:pink_coral>, <contenttweaker:coralium_eye>, <aoa3:pink_coral>],
+[<contenttweaker:gem_of_the_sleeping_city>, <aoa3:gun_frame>, <contenttweaker:gem_of_the_sleeping_city>],
+[<aoa3:pink_coral>, <contenttweaker:coralium_eye>, <aoa3:pink_coral>]]);
+
+recipes.addShaped(<aoa3:draco>,
+[[<aoa3:white_coral>, <contenttweaker:dracyon_tooth>, <aoa3:white_coral>],
+[<contenttweaker:draco_vis_condensate>, <aoa3:gun_frame>, <contenttweaker:draco_vis_condensate>],
+[<aoa3:white_coral>, <contenttweaker:dracyon_tooth>, <aoa3:white_coral>]]);
+
+
+recipes.addShaped(<aoa3:haunter_rifle>,
+[[<contenttweaker:ghoul_spirit>, <contenttweaker:bane_tusk>, <contenttweaker:ghoul_spirit>],
+[<contenttweaker:cosmic_fracture>, <aoa3:hunters_rifle>, <contenttweaker:cosmic_fracture>],
+[<contenttweaker:ghoul_spirit>, <aoa3:primordial_skull>, <contenttweaker:ghoul_spirit>]]);
+
+recipes.addShaped(<aoa3:divine_station>,
+[[<aoa3:fragmented_anima_stone>, <divinerpg:divine_shards>, <aoa3:fragmented_anima_stone>],
+[<divinerpg:divine_shards>, <contenttweaker:alchemical_mushroom>, <divinerpg:divine_shards>],
+[<aoa3:fragmented_anima_stone>, <divinerpg:divine_shards>, <aoa3:fragmented_anima_stone>]]);

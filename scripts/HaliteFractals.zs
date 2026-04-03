@@ -14,6 +14,22 @@ recipes.addShaped(<contenttweaker:abyssal_flesh>*2,
 [<minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"}), <contenttweaker:abyssal_flesh>, <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"})],
 [<bewitchment:tongue_of_dog>, <contenttweaker:living_flesh>, <bewitchment:adders_fork>]]);
 
+recipes.addShaped(<contenttweaker:abyssal_flesh>*8,
+[[<bewitchment:adders_fork>, <contenttweaker:harbinger_sentient_flesh>, <bewitchment:tongue_of_dog>],
+[<minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"}), <contenttweaker:abyssal_flesh>, <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"})],
+[<bewitchment:tongue_of_dog>, <contenttweaker:living_flesh>, <bewitchment:adders_fork>]]);
+
+recipes.addShaped(<contenttweaker:abyssal_flesh>*12,
+[[<bewitchment:bottle_of_blood>, <contenttweaker:harbinger_sentient_flesh>, <bewitchment:bottle_of_blood>],
+[<minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"}), <contenttweaker:abyssal_flesh>, <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"})],
+[<bewitchment:bottle_of_blood>, <contenttweaker:living_flesh>, <bewitchment:bottle_of_blood>]]);
+
+recipes.addShaped(<contenttweaker:abyssal_flesh>*20,
+[[<bewitchment:bottle_of_blood>, <contenttweaker:oath_of_the_lord_of_gluttony>, <bewitchment:bottle_of_blood>],
+[<minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"}), <contenttweaker:abyssal_flesh>, <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"})],
+[<bewitchment:bottle_of_blood>, <contenttweaker:living_flesh>, <bewitchment:bottle_of_blood>]]);
+
+
 recipes.addShaped(<contenttweaker:flying_gunpowder>*2,
 [[<aoa3:enchanted_gunpowder>, <aoa3:unstable_gunpowder>, <aoa3:enchanted_gunpowder>],
 [<aoa3:unstable_gunpowder>, <contenttweaker:flying_gunpowder>, <aoa3:unstable_gunpowder>],
@@ -43,7 +59,7 @@ recipes.addShaped(<contenttweaker:phasing_gem>*4,
 
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:first_order_mythic_fractal>, 
-1000000000, 1000000000, 
+1000000, 1000000, 
 <contenttweaker:plate_clump_mythic>, 
 [<contenttweaker:jeweled_runium>, <ore:ingotVibranium>,
 <contenttweaker:living_myrmitite_ingot>, <contenttweaker:abyssal_flesh>,
@@ -54,14 +70,14 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:first_order_
 
 scripts.PuzzleUtil.addPuzzleShapeless("infusethatstormhoms",<contenttweaker:infuser_fabrial>,
 [<contenttweaker:gemheart>,
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "motus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitreus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ventus"}]}),
-<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})
+makeVisCrystal(<aspect:motus> * 1),
+makeVisCrystal(<aspect:perditio> * 1),
+makeVisCrystal(<aspect:terra> * 1),
+makeVisCrystal(<aspect:aqua> * 1),
+makeVisCrystal(<aspect:aer> * 1),
+makeVisCrystal(<aspect:vitreus> * 1),
+makeVisCrystal(<aspect:ventus> * 1),
+makeVisCrystal(<aspect:luna> * 1)
 ]);
 
 recipes.addShaped(<contenttweaker:stormlight_sphere>,
@@ -144,6 +160,14 @@ recipes.addShaped(<contenttweaker:stone_of_endless_hunger>*2,
 
 mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:slate_of_endless_hunger>, <contenttweaker:stone_of_endless_hunger>, 4, 1000000, 5000, 10000);
 
+recipes.addShaped(<contenttweaker:stone_of_unbound_hunger>*8,
+[[<contenttweaker:stone_of_endless_hunger>, <contenttweaker:stone_of_endless_hunger>, <contenttweaker:stone_of_endless_hunger>],
+[<contenttweaker:stone_of_endless_hunger>, <contenttweaker:droplet_of_the_great_snake>, <contenttweaker:stone_of_endless_hunger>],
+[<contenttweaker:stone_of_endless_hunger>, <contenttweaker:stone_of_endless_hunger>, <contenttweaker:stone_of_endless_hunger>]]);
+
+
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:slate_of_endless_hunger>, <contenttweaker:stone_of_unbound_hunger>, 5, 100000, 100000, 100000);
+
 scripts.PuzzleUtil.addPuzzleShapeless('combopotionsicy',<contenttweaker:dreadful_shard>,
 [<contenttweaker:icy_dreadful_shard>,
 <xreliquary:potion_essence>.withTag({effects: [{duration: 10000, potency: 4, name: "xreliquary:flight_potion"}]}),
@@ -185,7 +209,7 @@ recipes.addShaped(<contenttweaker:runic_rhenium_catalyst>*4,
 
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:second_order_mythic_fractal>, 
-1000000000, 1000000000, 
+1000000, 1000000, 
 <contenttweaker:plate_clump_mythic>, 
 [<contenttweaker:rainbow_lens>, <contenttweaker:arc_coil>,
 <contenttweaker:lyonite_plate>, <contenttweaker:vibranium_servo>,
@@ -218,7 +242,7 @@ scripts.PuzzleUtil.addPuzzleShapeless("pressspice",<contenttweaker:pressed_spice
 <openblocks:stencil:10>.reuse()]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:recursive_imprisonment_gem>, 
-500000, 500000, 
+1000, 1000, 
 <contenttweaker:lunar_star>, 
 [<contenttweaker:pressed_spice>, <animus:component:1>,
 <ore:ingotUltimate>, <ore:ingotUltimate>]);
@@ -330,14 +354,14 @@ recipes.addShapeless(<abyssalcraft:essence:2>*4,
 <ore:ingotEthaxium>]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:eldritch_will_ingot>, 
-1000000000, 1000000000, 
+1000, 1000, 
 <avaritia:block_resource:2>, 
 [<materialpart:vengeful_steel:ingot>, <materialpart:corrosive_steel:ingot>,
 <materialpart:destructive_steel:ingot>, <materialpart:demonic_steel:ingot>,
 <materialpart:steadfast_steel:ingot>]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:third_order_mythic_fractal>, 
-1000000000, 1000000000, 
+1000000, 1000000, 
 <contenttweaker:plate_clump_mythic>, 
 [<contenttweaker:eldritch_will_ingot>, <avaritia:block_resource:0>,
 <contenttweaker:runandium_ingot>, <contenttweaker:fragment_of_creation>,
@@ -356,8 +380,8 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:third_order_
 // ensnaring fabrial
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:pearlescent_artifact>, 
-100000000, 100000000, 
-<biomesoplenty:terrestrial_artifact>, 
+1000, 1000, 
+<contenttweaker:terrestrial_catalyst>, 
 [<divinerpg:dirty_pearls>, <divinerpg:dirty_pearls>,
 <divinerpg:dirty_pearls>, <divinerpg:dirty_pearls>,
 <divinerpg:dirty_pearls>, <divinerpg:dirty_pearls>,
@@ -369,7 +393,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:pearlescent_
 
 val divcombpearlescentart1 = RecipeBuilder.newBuilder("divcombpearlescentart1","divine_combiner",2);
 divcombpearlescentart1.addFluidInput(<fluid:hint_of_divinity>*10);
-divcombpearlescentart1.addItemInput(<biomesoplenty:terrestrial_artifact>*4);
+divcombpearlescentart1.addItemInput(<contenttweaker:terrestrial_catalyst>*4);
 divcombpearlescentart1.addItemInput(<divinerpg:dirty_pearls>*32);
 divcombpearlescentart1.addItemInput(<divinerpg:clean_pearls>*16);
 divcombpearlescentart1.addItemInput(<divinerpg:polished_pearls>*8);
@@ -379,7 +403,7 @@ divcombpearlescentart1.build();
 
 val divcombpearlescentart2 = RecipeBuilder.newBuilder("divcombpearlescentart2","divine_combiner",2);
 divcombpearlescentart2.addFluidInput(<fluid:divine_resonant_hint>*8);
-divcombpearlescentart2.addItemInput(<biomesoplenty:terrestrial_artifact>*16);
+divcombpearlescentart2.addItemInput(<contenttweaker:terrestrial_catalyst>*16);
 divcombpearlescentart2.addItemInput(<divinerpg:dirty_pearls>*128);
 divcombpearlescentart2.addItemInput(<divinerpg:clean_pearls>*64);
 divcombpearlescentart2.addItemInput(<divinerpg:polished_pearls>*32);
@@ -389,7 +413,7 @@ divcombpearlescentart2.build();
 
 val divcombpearlescentart3 = RecipeBuilder.newBuilder("divcombpearlescentart3","divine_combiner",2);
 divcombpearlescentart3.addFluidInput(<fluid:divine_resonance>*6);
-divcombpearlescentart3.addItemInput(<biomesoplenty:terrestrial_artifact>*64);
+divcombpearlescentart3.addItemInput(<contenttweaker:terrestrial_catalyst>*64);
 divcombpearlescentart3.addItemInput(<divinerpg:dirty_pearls>*512);
 divcombpearlescentart3.addItemInput(<divinerpg:clean_pearls>*256);
 divcombpearlescentart3.addItemInput(<divinerpg:polished_pearls>*128);
@@ -402,7 +426,7 @@ divcombpearlescentart3.build();
 
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:fourth_order_mythic_fractal>, 
-1000000000, 1000000000, 
+1000000, 1000000, 
 <contenttweaker:plate_clump_mythic>, 
 [<contenttweaker:will_ensnaring_fabrial>, <contenttweaker:clunky_chunky_brick>,
 <contenttweaker:dream_cluster>, <contenttweaker:big_slime>,
@@ -539,6 +563,11 @@ recipes.addShaped(<contenttweaker:warren_splitter_fabrial>*2,
 [null, <contenttweaker:core_of_mirroring>, null],
 [<botania:brewflask>.withTag({brewKey: "shell"}), <contenttweaker:fluctuatite_stabilizer>, <botania:brewflask>.withTag({brewKey: "emptiness"})]]);
 
+recipes.addShaped(<contenttweaker:warren_splitter_fabrial>*8,
+[[<contenttweaker:fluctuatite_stabilizer>, <botania:brewflask>.withTag({brewKey: "oneforall"}), <contenttweaker:fluctuatite_stabilizer>],
+[<contenttweaker:warren_petal>, <contenttweaker:core_of_mirroring>, <contenttweaker:warren_petal>],
+[<botania:brewflask>.withTag({brewKey: "shell"}), <contenttweaker:fluctuatite_stabilizer>, <botania:brewflask>.withTag({brewKey: "emptiness"})]]);
+
 
 mods.astralsorcery.Altar.addTraitAltarRecipe("mypackname:shaped/internal/altar/makeskytherncallstone", <contenttweaker:horde_domination_callstone>, 4500, 100, [
 	<extrabotany:material:1>, <contenttweaker:hand_of_dominion>, <extrabotany:material:1>,
@@ -574,10 +603,17 @@ mods.thaumcraft.Infusion.registerRecipe("combinehordesigil", "",
 <contenttweaker:ensnaring_soul>, <contenttweaker:ensnaring_soul>,
 <contenttweaker:ensnaring_soul>, <contenttweaker:ensnaring_soul>]);
 
+//recipes.addShaped(<contenttweaker:will_ensnaring_fabrial>,
+//[[<minecraft:potion>.withTag({Potion: "minecraft:water_breathing"}), <thaumcraft:metal_alchemical_advanced>, <minecraft:potion>.withTag({Potion: "cofhcore:resistance+"})],
+//[<enderio:block_alloy:6>, <contenttweaker:twilight_sigil_of_dominion>.reuse(), <enderio:block_alloy:6>],
+//[<minecraft:potion>.withTag({Potion: "cofhcore:haste2"}), <contenttweaker:restless_steel_frame>, <minecraft:potion>.withTag({Potion: "minecraft:long_leaping"})]]);
+
 recipes.addShaped(<contenttweaker:will_ensnaring_fabrial>,
-[[<minecraft:potion>.withTag({Potion: "minecraft:water_breathing"}), <thaumcraft:metal_alchemical_advanced>, <minecraft:potion>.withTag({Potion: "cofhcore:resistance+"})],
+[[<minecraft:potion>.withTag({Potion: "minecraft:leaping"}), <thaumcraft:metal_alchemical_advanced>, <minecraft:potion>.withTag({Potion: "cyclicmagic:haste2"})],
 [<enderio:block_alloy:6>, <contenttweaker:twilight_sigil_of_dominion>.reuse(), <enderio:block_alloy:6>],
-[<minecraft:potion>.withTag({Potion: "cofhcore:haste2"}), <contenttweaker:restless_steel_frame>, <minecraft:potion>.withTag({Potion: "minecraft:long_leaping"})]]);
+[<minecraft:potion>.withTag({Potion: "cyclicmagic:resistance2"}), <contenttweaker:restless_steel_frame>, <minecraft:potion>.withTag({Potion: "minecraft:water_breathing"})]]);
+
+
 
 recipes.addShaped(<contenttweaker:horrific_callstone>,
 [[<contenttweaker:enhanced_chaos_shard>, <contenttweaker:enhanced_chaos_shard>, <contenttweaker:enhanced_chaos_shard>],
@@ -617,7 +653,7 @@ recipes.addShaped(<contenttweaker:soulsucking_callstone>,
 // chaos poppet
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:fifth_order_mythic_fractal>, 
-10000000, 10000000, 
+1000000, 1000000, 
 <contenttweaker:plate_clump_mythic>, 
 [<contenttweaker:chaotic_poppet>,
 <contenttweaker:master_wizardry_catalyst>,
@@ -694,6 +730,22 @@ packsupportercauldron.addItemInput(<unlimitedchiselworks:chisel_stonebrick_appli
 packsupportercauldron.addItemInput(<contenttweaker:chaos_wood>);
 packsupportercauldron.addItemOutput(<contenttweaker:monumentally_sentient_meatball>);
 packsupportercauldron.build();
+
+val packsupportercauldron2 = RecipeBuilder.newBuilder("packsupportercauldron2","terrestrial_cauldron",4);
+packsupportercauldron2.addFluidInput(<fluid:essence_of_ilarity>*10);
+packsupportercauldron2.addFluidInput(<fluid:matter_of_restraining>*10);
+packsupportercauldron2.addItemInput(<chisel:temple:2>.withTag(mapmeatballmonument));
+packsupportercauldron2.addItemInput(<chisel:futura:4>.withTag(mapmeatballmonument));
+packsupportercauldron2.addItemInput(<bewitchment:scorned_bricks>.withTag(mapmeatballmonument));
+packsupportercauldron2.addItemInput(<chisel:voidstone:5>.withTag(mapmeatballmonument));
+packsupportercauldron2.addItemInput(<compactmachines3:wallbreakable>.withTag(mapmeatballmonument));
+packsupportercauldron2.addItemInput(<chisel:futura:2>.withTag(mapmeatballmonument));
+packsupportercauldron2.addItemInput(<chisel:valentines:9>.withTag(mapmeatballmonument));
+packsupportercauldron2.addItemInput(<chisel:glowstone1:12>.withTag(mapmeatballmonument));
+packsupportercauldron2.addItemInput(<unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0:4>.withTag(mapmeatballmonument));
+packsupportercauldron2.addItemInput(<contenttweaker:chaos_wood>);
+packsupportercauldron2.addItemOutput(<contenttweaker:monumentally_sentient_meatball>);
+packsupportercauldron2.build();
 
 
 recipes.addShaped(<contenttweaker:bewitched_cord>,

@@ -163,3 +163,4 @@ astralmasterytome.itemRightClick = function(stack, world, player, hand) {
 	return "Pass";
 };
 astralmasterytome.register();
+

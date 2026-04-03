@@ -8,7 +8,7 @@
             "x": 0,
             "y": 6,
             "z": 1,
-            "description": "替换顶部方块以使用更快的配方，速度x5",
+            "description": "速度x5",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -21,12 +21,25 @@
             "x": 0,
             "y": 6,
             "z": 1,
-            "description": "替换顶部方块以使用更快的配方，速度x20",
+            "description": "速度x20",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.05
+            }
+        },
+        {
+            "elements": "avaritia:block_resource@1",
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "description": "速度x50",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.02
             }
         }
     ],
@@ -108,7 +121,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "generalized_output_item"
+                "both_item_fluid_output"
             ]
         },
         {

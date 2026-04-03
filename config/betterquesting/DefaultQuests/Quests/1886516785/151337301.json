@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1797790861
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o砍得木头越多，掉落的物品越好！\n\n§f这些新发现的魔法现象不仅与我的生命本源相关，更涉及不同生命间的互动——树木亦在此列。\n这种能量（这词用的合适吗？）是一种创造之力，能达成“无中生有”的物质转化。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:emberstone_axe"
+      },
+      "name:8": "砍伐"
+    }
+  },
+  "questID:3": 151337301,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:large_skill_crystal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "logWood",
+          "id:8": "minecraft:log"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

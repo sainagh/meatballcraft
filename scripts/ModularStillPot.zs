@@ -43,6 +43,10 @@ mods.thermalexpansion.Transposer.addFillRecipe(<bewitchment:stone_ichor>, <bewit
 mods.thermalexpansion.Transposer.addFillRecipe(<bewitchment:bottled_hellfire>, <minecraft:glass_bottle>, <fluid:hellfire> * 1000, 100);
 
 
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:bottle_of_pyrotheum>, <minecraft:glass_bottle>, <fluid:pyrotheum> * 1000, 100);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:bottle_of_petrotheum>, <minecraft:glass_bottle>, <fluid:petrotheum> * 1000, 100);
+
+
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:tear_of_nature_bottle>, <minecraft:glass_bottle>, <fluid:tear_of_nature> * 1000, 100);
 
 
@@ -99,14 +103,7 @@ restincturesdemon.addItemInput(<bewitchment:demon_heart>*32);
 restincturesdemon.addFluidOutput(<fluid:demonic_tincture>*32000);
 restincturesdemon.build();
 
-val pulsestilldemelixir = RecipeBuilder.newBuilder("pulsestilldemelixir","phasing_still_pot",5);
-pulsestilldemelixir.addItemInput(<contenttweaker:tear_of_nature_bottle>);
-pulsestilldemelixir.addFluidInput(<fluid:fiery_unguent>*8000);
-pulsestilldemelixir.addFluidInput(<fluid:demonic_tincture>*32000);
-pulsestilldemelixir.addFluidOutput(<fluid:cleansing_balm>*32000);
-pulsestilldemelixir.addFluidOutput(<fluid:demonic_tincture>*8000);
-pulsestilldemelixir.addFluidOutput(<fluid:fiery_unguent>*1000);
-pulsestilldemelixir.build();
+
 
 
 val restincturesblazing = RecipeBuilder.newBuilder("restincturesblazing","resonance_dissolver",5);
@@ -299,6 +296,43 @@ pulsestilldemonelixir.build();
 
 
 
+val pulsestilldeathofstars = RecipeBuilder.newBuilder("pulsestilldeathofstars","phasing_still_pot",5);
+pulsestilldeathofstars.addItemInput(<contenttweaker:gem_of_the_dying_constellation>);
+pulsestilldeathofstars.addFluidInput(<fluid:liquid_death>*32000);
+pulsestilldeathofstars.addFluidInput(<fluid:otherworldly_tears>*32000);
+pulsestilldeathofstars.addFluidInput(<fluid:ebb_of_death>*32000);
+pulsestilldeathofstars.addFluidInput(<fluid:swirl_of_depths>*32000);
+pulsestilldeathofstars.addFluidOutput(<fluid:glimmer_of_the_dying_constellation>*48000);
+pulsestilldeathofstars.addFluidOutput(<fluid:otherworldly_tears>*16000);
+pulsestilldeathofstars.addFluidOutput(<fluid:ebb_of_death>*16000);
+pulsestilldeathofstars.addFluidOutput(<fluid:swirl_of_depths>*16000);
+pulsestilldeathofstars.build();
+
+val pulsestillsevenundeadlords = RecipeBuilder.newBuilder("pulsestillsevenundeadlords","phasing_still_pot",5);
+pulsestillsevenundeadlords.addItemInput(<contenttweaker:respect_of_death>);
+pulsestillsevenundeadlords.addFluidInput(<fluid:glimmer_of_the_dying_constellation>*32000);
+pulsestillsevenundeadlords.addFluidInput(<fluid:liquidantimatter>*32000);
+pulsestillsevenundeadlords.addFluidInput(<fluid:chaotic_honey_4>*32000);
+pulsestillsevenundeadlords.addFluidInput(<fluid:infinity>*32000);
+pulsestillsevenundeadlords.addFluidOutput(<fluid:echo_of_the_seven_undead_lords>*48000);
+pulsestillsevenundeadlords.addFluidOutput(<fluid:liquidantimatter>*16000);
+pulsestillsevenundeadlords.addFluidOutput(<fluid:chaotic_honey_4>*16000);
+pulsestillsevenundeadlords.addFluidOutput(<fluid:infinity>*32000);
+pulsestillsevenundeadlords.build();
+
+val pulsestillvoidacceptance = RecipeBuilder.newBuilder("pulsestillvoidacceptance","phasing_still_pot",5);
+pulsestillvoidacceptance.addItemInput(<contenttweaker:fabrial_of_pure_void>);
+pulsestillvoidacceptance.addFluidInput(<fluid:echo_of_the_seven_undead_lords>*8000);
+pulsestillvoidacceptance.addFluidInput(<fluid:glimmer_of_the_dying_constellation>*8000);
+pulsestillvoidacceptance.addFluidInput(<fluid:void_given_focus>*2000);
+pulsestillvoidacceptance.addFluidInput(<fluid:inquiring_protodermis>*2000);
+pulsestillvoidacceptance.addFluidOutput(<fluid:allure_of_the_void>*8000);
+pulsestillvoidacceptance.addFluidOutput(<fluid:void_given_focus>*1000);
+pulsestillvoidacceptance.addFluidOutput(<fluid:inquiring_protodermis>*1000);
+pulsestillvoidacceptance.build();
+
+
+
 
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:oak_spirit>, <bewitchment:empty_jar>, <fluid:oak_spirit>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:spruce_heart>, <bewitchment:empty_jar>, <fluid:spruce_heart>*1000]);
@@ -317,6 +351,7 @@ mods.nuclearcraft.extractor.addRecipe([<bewitchment:otherworldly_tears>, <bewitc
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:heaven_extract>, <bewitchment:empty_jar>, <fluid:heaven_extract>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:stone_ichor>, <bewitchment:empty_jar>, <fluid:stone_ichor>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<bewitchment:bottled_hellfire>, <minecraft:glass_bottle>, <fluid:hellfire>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<bewitchment:birch_soul>, <bewitchment:empty_jar>, <fluid:birch_soul>*1000]);
 
 
 
@@ -330,6 +365,12 @@ mods.nuclearcraft.extractor.addRecipe([<contenttweaker:swirl_depths_bottle>, <mi
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:otherwordly_tears_bottle>, <minecraft:glass_bottle>, <fluid:otherworldly_tears>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:heaven_extract_bottle>, <minecraft:glass_bottle>, <fluid:heaven_extract>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:stone_ichor_bottle>, <minecraft:glass_bottle>, <fluid:stone_ichor>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:tear_of_nature_bottle>, <minecraft:glass_bottle>, <fluid:tear_of_nature>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:ebb_of_death_bottle>, <minecraft:glass_bottle>, <fluid:ebb_of_death>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:droplet_of_wisdom_bottle>, <minecraft:glass_bottle>, <fluid:droplet_of_wisdom>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:essence_of_vitality_bottle>, <minecraft:glass_bottle>, <fluid:essence_of_vitality>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:oak_spirit_bottle>, <minecraft:glass_bottle>, <fluid:oak_spirit>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:oil_of_vitriol_bottle>, <minecraft:glass_bottle>, <fluid:oil_of_vitriol>*1000]);
 
 
 
@@ -351,6 +392,7 @@ mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:oil_of_vitr
 mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:otherworldly_tears>*1000, <bewitchment:otherworldly_tears>]);
 mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:heaven_extract>*1000, <bewitchment:heaven_extract>]);
 mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:stone_ichor>*1000, <bewitchment:stone_ichor>]);
+mods.nuclearcraft.infuser.addRecipe([<bewitchment:empty_jar>, <fluid:birch_soul>*1000, <bewitchment:birch_soul>]);
 
 
 
@@ -364,3 +406,258 @@ mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:swirl_of_d
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:otherworldly_tears>*1000, <contenttweaker:otherwordly_tears_bottle>]);
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:heaven_extract>*1000, <contenttweaker:heaven_extract_bottle>]);
 mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:stone_ichor>*1000, <contenttweaker:stone_ichor_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:tear_of_nature>*1000, <contenttweaker:tear_of_nature_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:ebb_of_death>*1000, <contenttweaker:ebb_of_death_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:droplet_of_wisdom>*1000, <contenttweaker:droplet_of_wisdom_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:essence_of_vitality>*1000, <contenttweaker:essence_of_vitality_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:oak_spirit>*1000, <contenttweaker:oak_spirit_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:spruce_heart>*1000, <contenttweaker:spruce_heart_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:oil_of_vitriol>*1000, <contenttweaker:oil_of_vitriol_bottle>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:birch_soul>*1000, <contenttweaker:birch_soul_bottle>]);
+
+
+
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:pyrotheum>*1000, <contenttweaker:bottle_of_pyrotheum>]);
+mods.nuclearcraft.infuser.addRecipe([<minecraft:glass_bottle>, <fluid:petrotheum>*1000, <contenttweaker:bottle_of_petrotheum>]);
+
+
+
+
+val pulsestillfractionation1 = RecipeBuilder.newBuilder("pulsestillfractionation1","phasing_still_pot",5);
+pulsestillfractionation1.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation1.addFluidInput(<fluid:oil>*2000);
+pulsestillfractionation1.addFluidOutput(<fluid:refined_oil>*1500);
+pulsestillfractionation1.build();
+
+val pulsestillfractionation2 = RecipeBuilder.newBuilder("pulsestillfractionation2","phasing_still_pot",5);
+pulsestillfractionation2.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation2.addFluidInput(<fluid:coal>*2000);
+pulsestillfractionation2.addFluidOutput(<fluid:refined_oil>*1500);
+pulsestillfractionation2.build();
+
+val pulsestillfractionation3 = RecipeBuilder.newBuilder("pulsestillfractionation3","phasing_still_pot",5);
+pulsestillfractionation3.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation3.addFluidInput(<fluid:crude_oil>*2000);
+pulsestillfractionation3.addFluidOutput(<fluid:refined_oil>*1500);
+pulsestillfractionation3.build();
+
+val pulsestillfractionation4 = RecipeBuilder.newBuilder("pulsestillfractionation4","phasing_still_pot",5);
+pulsestillfractionation4.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation4.addFluidInput(<fluid:binnie.wine.carrot>*5000);
+pulsestillfractionation4.addFluidOutput(<fluid:binnie.brandy.fruit>*2000);
+pulsestillfractionation4.build();
+
+val pulsestillfractionation5 = RecipeBuilder.newBuilder("pulsestillfractionation5","phasing_still_pot",5);
+pulsestillfractionation5.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation5.addFluidInput(<fluid:binnie.brandy.apricot>*5000);
+pulsestillfractionation5.addFluidOutput(<fluid:binnie.liquor.apricot>*2000);
+pulsestillfractionation5.build();
+
+val pulsestillfractionation6 = RecipeBuilder.newBuilder("pulsestillfractionation6","phasing_still_pot",5);
+pulsestillfractionation6.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation6.addFluidInput(<fluid:binnie.wine.cranberry>*5000);
+pulsestillfractionation6.addFluidOutput(<fluid:binnie.brandy.fruit>*2000);
+pulsestillfractionation6.build();
+
+val pulsestillfractionation7 = RecipeBuilder.newBuilder("pulsestillfractionation7","phasing_still_pot",5);
+pulsestillfractionation7.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation7.addFluidInput(<fluid:binnie.liquor.elderberry>*5000);
+pulsestillfractionation7.addFluidOutput(<fluid:binnie.spirit.neutral>*2000);
+pulsestillfractionation7.build();
+
+val pulsestillfractionation8 = RecipeBuilder.newBuilder("pulsestillfractionation8","phasing_still_pot",5);
+pulsestillfractionation8.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation8.addFluidInput(<fluid:binnie.brandy.apple>*5000);
+pulsestillfractionation8.addFluidOutput(<fluid:binnie.liquor.apple>*2000);
+pulsestillfractionation8.build();
+
+val pulsestillfractionation9 = RecipeBuilder.newBuilder("pulsestillfractionation9","phasing_still_pot",5);
+pulsestillfractionation9.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation9.addFluidInput(<fluid:cryotheum_nak>*500);
+pulsestillfractionation9.addFluidOutput(<fluid:weakened_cryotheoum>*2000);
+pulsestillfractionation9.build();
+
+val pulsestillfractionation10 = RecipeBuilder.newBuilder("pulsestillfractionation10","phasing_still_pot",5);
+pulsestillfractionation10.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation10.addFluidInput(<fluid:binnie.wine.cherry>*5000);
+pulsestillfractionation10.addFluidOutput(<fluid:binnie.brandy.cherry>*2000);
+pulsestillfractionation10.build();
+
+val pulsestillfractionation11 = RecipeBuilder.newBuilder("pulsestillfractionation11","phasing_still_pot",5);
+pulsestillfractionation11.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation11.addFluidInput(<fluid:binnie.liquor.apricot>*5000);
+pulsestillfractionation11.addFluidOutput(<fluid:binnie.spirit.neutral>*2000);
+pulsestillfractionation11.build();
+
+val pulsestillfractionation12 = RecipeBuilder.newBuilder("pulsestillfractionation12","phasing_still_pot",5);
+pulsestillfractionation12.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation12.addFluidInput(<fluid:binnie.brandy.citrus>*5000);
+pulsestillfractionation12.addFluidOutput(<fluid:binnie.liquor.fruit>*2000);
+pulsestillfractionation12.build();
+
+val pulsestillfractionation13 = RecipeBuilder.newBuilder("pulsestillfractionation13","phasing_still_pot",5);
+pulsestillfractionation13.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation13.addFluidInput(<fluid:binnie.wine.elderberry>*5000);
+pulsestillfractionation13.addFluidOutput(<fluid:binnie.brandy.elderberry>*2000);
+pulsestillfractionation13.build();
+
+val pulsestillfractionation14 = RecipeBuilder.newBuilder("pulsestillfractionation14","phasing_still_pot",5);
+pulsestillfractionation14.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation14.addFluidInput(<fluid:binnie.brandy.pear>*5000);
+pulsestillfractionation14.addFluidOutput(<fluid:binnie.liquor.pear>*2000);
+pulsestillfractionation14.build();
+
+val pulsestillfractionation15 = RecipeBuilder.newBuilder("pulsestillfractionation15","phasing_still_pot",5);
+pulsestillfractionation15.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation15.addFluidInput(<fluid:binnie.wine.apricot>*5000);
+pulsestillfractionation15.addFluidOutput(<fluid:binnie.brandy.apricot>*2000);
+pulsestillfractionation15.build();
+
+val pulsestillfractionation16 = RecipeBuilder.newBuilder("pulsestillfractionation16","phasing_still_pot",5);
+pulsestillfractionation16.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation16.addFluidInput(<fluid:binnie.brandy.fruit>*5000);
+pulsestillfractionation16.addFluidOutput(<fluid:binnie.liquor.fruit>*2000);
+pulsestillfractionation16.build();
+
+val pulsestillfractionation17 = RecipeBuilder.newBuilder("pulsestillfractionation17","phasing_still_pot",5);
+pulsestillfractionation17.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation17.addFluidInput(<fluid:binnie.brandy.elderberry>*5000);
+pulsestillfractionation17.addFluidOutput(<fluid:binnie.liquor.elderberry>*2000);
+pulsestillfractionation17.build();
+
+val pulsestillfractionation18 = RecipeBuilder.newBuilder("pulsestillfractionation18","phasing_still_pot",5);
+pulsestillfractionation18.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation18.addFluidInput(<fluid:binnie.liquor.cherry>*5000);
+pulsestillfractionation18.addFluidOutput(<fluid:binnie.spirit.neutral>*2000);
+pulsestillfractionation18.build();
+
+val pulsestillfractionation19 = RecipeBuilder.newBuilder("pulsestillfractionation19","phasing_still_pot",5);
+pulsestillfractionation19.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation19.addFluidInput(<fluid:binnie.brandy.plum>*5000);
+pulsestillfractionation19.addFluidOutput(<fluid:binnie.liquor.fruit>*2000);
+pulsestillfractionation19.build();
+
+val pulsestillfractionation20 = RecipeBuilder.newBuilder("pulsestillfractionation20","phasing_still_pot",5);
+pulsestillfractionation20.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation20.addFluidInput(<fluid:binnie.cider.peach>*5000);
+pulsestillfractionation20.addFluidOutput(<fluid:binnie.brandy.fruit>*2000);
+pulsestillfractionation20.build();
+
+val pulsestillfractionation21 = RecipeBuilder.newBuilder("pulsestillfractionation21","phasing_still_pot",5);
+pulsestillfractionation21.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation21.addFluidInput(<fluid:binnie.wine.plum>*5000);
+pulsestillfractionation21.addFluidOutput(<fluid:binnie.brandy.plum>*2000);
+pulsestillfractionation21.build();
+
+val pulsestillfractionation22 = RecipeBuilder.newBuilder("pulsestillfractionation22","phasing_still_pot",5);
+pulsestillfractionation22.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation22.addFluidInput(<fluid:binnie.liquor.pear>*5000);
+pulsestillfractionation22.addFluidOutput(<fluid:binnie.spirit.neutral>*2000);
+pulsestillfractionation22.build();
+
+val pulsestillfractionation23 = RecipeBuilder.newBuilder("pulsestillfractionation23","phasing_still_pot",5);
+pulsestillfractionation23.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation23.addFluidInput(<fluid:binnie.wine.citrus>*5000);
+pulsestillfractionation23.addFluidOutput(<fluid:binnie.brandy.citrus>*2000);
+pulsestillfractionation23.build();
+
+val pulsestillfractionation24 = RecipeBuilder.newBuilder("pulsestillfractionation24","phasing_still_pot",5);
+pulsestillfractionation24.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation24.addFluidInput(<fluid:binnie.liquor.fruit>*5000);
+pulsestillfractionation24.addFluidOutput(<fluid:binnie.spirit.neutral>*2000);
+pulsestillfractionation24.build();
+
+val pulsestillfractionation25 = RecipeBuilder.newBuilder("pulsestillfractionation25","phasing_still_pot",5);
+pulsestillfractionation25.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation25.addFluidInput(<fluid:binnie.brandy.cherry>*5000);
+pulsestillfractionation25.addFluidOutput(<fluid:binnie.liquor.cherry>*2000);
+pulsestillfractionation25.build();
+
+val pulsestillfractionation26 = RecipeBuilder.newBuilder("pulsestillfractionation26","phasing_still_pot",5);
+pulsestillfractionation26.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation26.addFluidInput(<fluid:binnie.wine.banana>*5000);
+pulsestillfractionation26.addFluidOutput(<fluid:binnie.brandy.fruit>*2000);
+pulsestillfractionation26.build();
+
+val pulsestillfractionation27 = RecipeBuilder.newBuilder("pulsestillfractionation27","phasing_still_pot",5);
+pulsestillfractionation27.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation27.addFluidInput(<fluid:binnie.ciderpear>*5000);
+pulsestillfractionation27.addFluidOutput(<fluid:binnie.brandy.pear>*2000);
+pulsestillfractionation27.build();
+
+val pulsestillfractionation28 = RecipeBuilder.newBuilder("pulsestillfractionation28","phasing_still_pot",5);
+pulsestillfractionation28.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation28.addFluidInput(<fluid:binnie.cider.apple>*5000);
+pulsestillfractionation28.addFluidOutput(<fluid:binnie.brandy.apple>*2000);
+pulsestillfractionation28.build();
+
+val pulsestillfractionation29 = RecipeBuilder.newBuilder("pulsestillfractionation29","phasing_still_pot",5);
+pulsestillfractionation29.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation29.addFluidInput(<fluid:refined_fuel>*2000);
+pulsestillfractionation29.addFluidOutput(<fluid:fossile_refined_oil>*2000);
+pulsestillfractionation29.build();
+
+val pulsestillfractionation30 = RecipeBuilder.newBuilder("pulsestillfractionation30","phasing_still_pot",5);
+pulsestillfractionation30.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation30.addFluidInput(<fluid:resin>*2000);
+pulsestillfractionation30.addFluidOutput(<fluid:tree_oil>*1000);
+pulsestillfractionation30.build();
+
+val pulsestillfractionation31 = RecipeBuilder.newBuilder("pulsestillfractionation31","phasing_still_pot",5);
+pulsestillfractionation31.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation31.addFluidInput(<fluid:binnie.resin>*5000);
+pulsestillfractionation31.addFluidOutput(<fluid:binnie.turpentine>*3000);
+pulsestillfractionation31.build();
+
+val pulsestillfractionation32 = RecipeBuilder.newBuilder("pulsestillfractionation32","phasing_still_pot",5);
+pulsestillfractionation32.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation32.addFluidInput(<fluid:biocrude>*2000);
+pulsestillfractionation32.addFluidOutput(<fluid:refined_biofuel>*1000);
+pulsestillfractionation32.build();
+
+val pulsestillfractionation33 = RecipeBuilder.newBuilder("pulsestillfractionation33","phasing_still_pot",5);
+pulsestillfractionation33.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation33.addFluidInput(<fluid:canolaoil>*1000);
+pulsestillfractionation33.addFluidOutput(<fluid:refinedcanolaoil>*1000);
+pulsestillfractionation33.build();
+
+val pulsestillfractionation34 = RecipeBuilder.newBuilder("pulsestillfractionation34","phasing_still_pot",5);
+pulsestillfractionation34.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation34.addFluidInput(<fluid:refined_oil>*1500);
+pulsestillfractionation34.addFluidOutput(<fluid:refined_fuel>*1000);
+pulsestillfractionation34.build();
+
+val pulsestillfractionation35 = RecipeBuilder.newBuilder("pulsestillfractionation35","phasing_still_pot",5);
+pulsestillfractionation35.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation35.addFluidInput(<fluid:biomass>*1000);
+pulsestillfractionation35.addFluidOutput(<fluid:bio.ethanol>*300);
+pulsestillfractionation35.build();
+
+val pulsestillfractionation36 = RecipeBuilder.newBuilder("pulsestillfractionation36","phasing_still_pot",5);
+pulsestillfractionation36.addItemInput(<contenttweaker:bottle_of_pyrotheum>);
+pulsestillfractionation36.addFluidInput(<fluid:binnie.liquor.apple>*5000);
+pulsestillfractionation36.addFluidOutput(<fluid:binnie.spirit.neutral>*2000);
+pulsestillfractionation36.build();
+
+
+val pulsestillimmersive = RecipeBuilder.newBuilder("pulsestillimmersive","phasing_still_pot",5);
+pulsestillimmersive.addItemInput(<contenttweaker:bottle_of_petrotheum>);
+pulsestillimmersive.addFluidInput(<fluid:crude_oil>*750);
+pulsestillimmersive.addFluidOutput(<fluid:gasoline>*390);
+pulsestillimmersive.addFluidOutput(<fluid:diesel>*270);
+pulsestillimmersive.addFluidOutput(<fluid:lubricant>*300);
+pulsestillimmersive.build();
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -161,7 +161,7 @@ null, <contenttweaker:spinel_ring>, null,
 
 val infusesacredeucaly = RecipeBuilder.newBuilder("infusesacredeucaly","arcane_autoinfuser",20);
 infusesacredeucaly.addEnergyPerTickInput(1000);
-infusesacredeucaly.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]})*10);
+infusesacredeucaly.addItemInput(makeVisCrystal(<aspect:herba> * 1)*10);
 infusesacredeucaly.addItemInput(<biomesoplenty:log_3:7>);
 infusesacredeucaly.addItemOutput(<contenttweaker:sacred_eucalyptus>);
 infusesacredeucaly.build();
@@ -393,6 +393,15 @@ treeoflifecinders5.addItemInput(<contenttweaker:dust_of_infinite_wishes>);
 treeoflifecinders5.addItemOutput(<contenttweaker:sacred_cinders_fruit>*1024);
 treeoflifecinders5.build();
 
+val treeoflifecinders6 = RecipeBuilder.newBuilder("treeoflifecinders6","tree_of_life",2);
+treeoflifecinders6.addEnergyPerTickInput(50000000);
+treeoflifecinders6.addItemInput(<contenttweaker:sacred_cinders_seed>);
+treeoflifecinders6.setChance(0.0);
+treeoflifecinders6.addItemInput(<contenttweaker:agricultural_propolis>);
+treeoflifecinders6.addItemInput(<contenttweaker:galactic_dust>);
+treeoflifecinders6.addItemOutput(<contenttweaker:sacred_cinders_fruit>*2048);
+treeoflifecinders6.build();
+
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:alchemical_particle>, <projectex:matter:11>, 100000, <extendedcrafting:material:11>, 100);
 
 val treeoflifebee = RecipeBuilder.newBuilder("treeoflifebee","tree_of_life",600);
@@ -407,3 +416,25 @@ treeoflifebee.addItemOutput(<contenttweaker:energetic_prison_key>);
 treeoflifebee.build();
 
 mods.botania.PureDaisy.addRecipe(<ore:treeLeaves>,<contenttweaker:leaves_of_life>);
+
+
+
+val treeoflifefragnatlaw = RecipeBuilder.newBuilder("treeoflifefragnatlaw","tree_of_life",600);
+treeoflifefragnatlaw.addEnergyPerTickInput(1000000000);
+treeoflifefragnatlaw.addItemInput(<botania:rune:8>*1024);
+treeoflifefragnatlaw.addItemInput(<contenttweaker:yggdrasil_wood>*64);
+treeoflifefragnatlaw.addItemInput(<contenttweaker:recursion_of_natural_law>*18);
+treeoflifefragnatlaw.addItemInput(<contenttweaker:greater_gaia_spirit>*32);
+treeoflifefragnatlaw.addItemInput(<contenttweaker:eleint_scale>*24);
+treeoflifefragnatlaw.addItemInput(<extrabotany:terrasteelshield>);
+treeoflifefragnatlaw.addItemOutput(<contenttweaker:recursion_fragment_asgard>);
+treeoflifefragnatlaw.build();
+
+val treeoflifepapahimar = RecipeBuilder.newBuilder("treeoflifepapahimar","tree_of_life",2);
+treeoflifepapahimar.addEnergyPerTickInput(100000);
+treeoflifepapahimar.addItemInput(<extratrees:food:40>);
+treeoflifepapahimar.addItemInput(<forestry:fruits:6>*512);
+treeoflifepapahimar.addItemInput(<contenttweaker:sacred_cinders_fruit>*512);
+treeoflifepapahimar.addItemOutput(<extratrees:food:40>*2048);
+treeoflifepapahimar.build();
+

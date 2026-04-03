@@ -470,9 +470,34 @@ addController(<modularmachinery:plith_of_ascension_controller>, "modularmachiner
 
 addController(<modularmachinery:philosophers_unifier_controller>, "modularmachinery:philosophers_unifier");
 
+addController(<modularmachinery:mythic_processor_infuser_controller>, "modularmachinery:mythic_processor_infuser");
+
+addController(<modularmachinery:seared_caster_controller>, "modularmachinery:seared_caster");
+
+addController(<modularmachinery:warren_extractor_self_controller>, "modularmachinery:warren_extractor_self");
+
+addController(<modularmachinery:ligature_of_the_three_oaths_controller>, "modularmachinery:ligature_of_the_three_oaths");
+
+addController(<modularmachinery:vengeance_tesseract_controller>, "modularmachinery:vengeance_tesseract");
+
+addController(<modularmachinery:presbytery_of_the_threefold_love_controller>, "modularmachinery:presbytery_of_the_threefold_love");
+
+addController(<modularmachinery:warren_extractor_botania_controller>, "modularmachinery:warren_extractor_botania");
+
+addController(<modularmachinery:stellar_diviner_controller>, "modularmachinery:stellar_diviner");
+
+addController(<modularmachinery:mythic_processor_chemical_reactor_controller>, "modularmachinery:mythic_processor_chemical_reactor");
+
+addController(<modularmachinery:warren_extractor_radioactive_controller>, "modularmachinery:warren_extractor_radioactive");
+
+addController(<modularmachinery:warren_extractor_raremetals_controller>, "modularmachinery:warren_extractor_raremetals");
+
+addController(<modularmachinery:mythic_processor_centrifuge_controller>, "modularmachinery:mythic_processor_centrifuge");
+
 
 // Leave this at the bottom of the file, as it depends on the oredict being filled
 furnace.addRecipe(<modularmachinery:blockcontroller>, anyBlockControllerDict);
+
 
 
 
