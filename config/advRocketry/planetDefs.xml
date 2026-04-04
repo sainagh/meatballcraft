@@ -36,9 +36,6 @@
             <orbitalDistance>800</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>10</orbitalPhi>
-			<OreGen>
-				<ore block="libvulpes:ore0" meta="0" minHeight="20" maxHeight="80" clumpSize="32" chancePerChunk="64" />
-			</OreGen>
             <rotationalPeriod>30000</rotationalPeriod>
             <biomeIds>minecraft:mushroom_island</biomeIds>
         </planet>
@@ -50,10 +47,6 @@
             <orbitalDistance>900</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>5</orbitalPhi>
-			<OreGen>
-				<ore block="nuclearcraft:block_depleted_plutonium" minHeight="10" maxHeight="80" clumpSize="32" chancePerChunk="10" />
-				<ore block="contenttweaker:sednanite_ore" minHeight="10" maxHeight="40" clumpSize="5" chancePerChunk="3" />
-			</OreGen>
             <rotationalPeriod>60000</rotationalPeriod>
 			<fillerBlock>minecraft:stone</fillerBlock>
             <biomeIds>advancedrocketry:crystalchasms</biomeIds>
@@ -67,10 +60,6 @@
             <orbitalDistance>10</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>0</orbitalPhi>
-			<OreGen>
-				<ore block="minecraft:iron_block" minHeight="20" maxHeight="80" clumpSize="20" chancePerChunk="64" />
-				<ore block="thermalfoundation:storage" meta="5" minHeight="20" maxHeight="80" clumpSize="20" chancePerChunk="64" />
-			</OreGen>
             <rotationalPeriod>20000</rotationalPeriod>
             <biomeIds>advancedrocketry:hotdryrock,nuclearcraft:nuclear_wasteland</biomeIds>
 		</planet>
@@ -82,9 +71,6 @@
             <orbitalDistance>50</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>0</orbitalPhi>
-			<OreGen>
-				<ore block="abyssalcraft:coraliumstone" minHeight="10" maxHeight="80" clumpSize="32" chancePerChunk="64" />
-			</OreGen>
             <rotationalPeriod>20000</rotationalPeriod>
 			<fillerBlock>minecraft:obsidian</fillerBlock>
             <biomeIds>advancedrocketry:hotdryrock</biomeIds>
@@ -97,9 +83,6 @@
             <orbitalDistance>150</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>0</orbitalPhi>
-			<OreGen>
-				<ore block="minecraft:bone_block" minHeight="20" maxHeight="80" clumpSize="32" chancePerChunk="64" />
-			</OreGen>
             <rotationalPeriod>36000</rotationalPeriod>
 			<fillerBlock>minecraft:stone</fillerBlock>
 			<oceanBlock>Minecraft:lava</oceanBlock>
@@ -133,9 +116,6 @@
                 <orbitalPhi>0</orbitalPhi>
                 <rotationalPeriod>72000</rotationalPeriod>
                 <atmosphereDensity>100</atmosphereDensity>
-				<OreGen>
-					<ore block="nuclearcraft:ore" meta="4" minHeight="10" maxHeight="80" clumpSize="32" chancePerChunk="25" />
-				</OreGen>
                 <biomeIds>nuclearcraft:nuclear_wasteland,biomesoplenty:wasteland</biomeIds>
             </planet>
 		</planet>
@@ -172,9 +152,6 @@
             <orbitalDistance>700</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>30</orbitalPhi>
-			<OreGen>
-				<ore block="rftools:dimensional_shard_ore" meta="0" minHeight="10" maxHeight="50" clumpSize="25" chancePerChunk="15" />
-			</OreGen>
             <rotationalPeriod>10000</rotationalPeriod>
             <biomeIds>advancedrocketry:volcanicbarren</biomeIds>
 			<planet name="Orcus" DIMID="161" customIcon="moon">
@@ -214,9 +191,6 @@
             <orbitalDistance>50</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>0</orbitalPhi>
-			<OreGen>
-				<ore block="contenttweaker:rhenium_ore" minHeight="20" maxHeight="80" clumpSize="2" chancePerChunk="1" />
-			</OreGen>
             <rotationalPeriod>72000</rotationalPeriod>
 			<biomeIds>advancedrocketry:volcanic,advancedrocketry:volcanicbarren</biomeIds>
 			<artifact>contenttweaker:rhenia_artifact</artifact>
@@ -230,9 +204,6 @@
             <orbitalDistance>400</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>25</orbitalPhi>
-			<OreGen>
-				<ore block="contenttweaker:myrmitite_ore" minHeight="20" maxHeight="80" clumpSize="2" chancePerChunk="1" />
-			</OreGen>
             <rotationalPeriod>72000</rotationalPeriod>
 			<biomeIds>advancedrocketry:alien_forest,thaumcraft:magical_forest,biomesoplenty:cherry_blossom_grove</biomeIds>
 			<artifact>contenttweaker:myrmex_artifact</artifact>
@@ -249,9 +220,6 @@
             <spawnable weight="1" groupMin="1" groupMax="1">thaumcraft:giantbrainyzombie</spawnable>
             <spawnable weight="2" groupMin="1" groupMax="1">aoa3:wood_giant</spawnable>
             <spawnable weight="2" groupMin="1" groupMax="1">aoa3:leafy_giant</spawnable>
-            <OreGen>
-				<ore block="contenttweaker:ogerite_ore" minHeight="5" maxHeight="50" clumpSize="4" chancePerChunk="3" />
-			</OreGen>
             <rotationalPeriod>72000</rotationalPeriod>
 			<biomeIds>advancedrocketry:marsh,advancedrocketry:deepswamp,minecraft:swampland,biomesoplenty:bog,biomesoplenty:lush_swamp,twilightforest:twilight_swamp</biomeIds>
 			<artifact>contenttweaker:pixonia_artifact</artifact>
@@ -355,10 +323,6 @@
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>36000</rotationalPeriod>
-            <OreGen>
-				<ore block="abyssalcraft:coralliumore" minHeight="5" maxHeight="100" clumpSize="50" chancePerChunk="7" />
-                <ore block="abyssalcraft:abyore" minHeight="5" maxHeight="100" clumpSize="50" chancePerChunk="7" />
-			</OreGen>
 			<biomeIds>biomesoplenty:cherry_blossom_grove</biomeIds>
 			<artifact>contenttweaker:unreachable</artifact>
 		</planet>
@@ -371,10 +335,7 @@
             <orbitalTheta>30</orbitalTheta>
 			<orbitalPhi>30</orbitalPhi>
             <rotationalPeriod>36000</rotationalPeriod>
-            <OreGen>
-				<ore block="astralsorcery:blockcustomore" meta="0" minHeight="5" maxHeight="100" clumpSize="55" chancePerChunk="6" />
-			</OreGen>
-			<biomeIds>biomesoplenty:woodland</biomeIds>
+ 			<biomeIds>biomesoplenty:woodland</biomeIds>
 			<artifact>contenttweaker:unreachable</artifact>
 		</planet>
         <planet name="Vibe" DIMID="183" customIcon="WaterWorld">
@@ -386,9 +347,6 @@
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>36000</rotationalPeriod>
-            <OreGen>
-				<ore block="contenttweaker:vibrating_stone" meta="0" minHeight="5" maxHeight="100" clumpSize="55" chancePerChunk="6" />
-			</OreGen>
 			<biomeIds>biomesoplenty:woodland</biomeIds>
 			<artifact>contenttweaker:unreachable</artifact>
 		</planet>
@@ -401,9 +359,6 @@
             <orbitalTheta>50</orbitalTheta>
 			<orbitalPhi>50</orbitalPhi>
             <rotationalPeriod>36000</rotationalPeriod>
-            <OreGen>
-				<ore block="contenttweaker:resonating_stone" meta="0" minHeight="5" maxHeight="100" clumpSize="55" chancePerChunk="6" />
-			</OreGen>
 			<biomeIds>minecraft:desert_hills</biomeIds>
 			<artifact>contenttweaker:unreachable</artifact>
 		</planet>
