@@ -41,6 +41,44 @@
                 "operation": 1,
                 "multiplier": 0.02
             }
+        },
+        {
+            "elements": "deepmoblearningbm:block_blood_infused_glitch_ingot",
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "description": "100X speed",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.01
+            }
+        },
+        {
+            "elements": "contenttweaker:screaming_blood_infused_glitch_block",
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "description": "100X speed, 6X parallel",
+            "modifiers": [{
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.01
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 6
+            },
+            {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 6
+            }]
         }
     ],
     "parts": [

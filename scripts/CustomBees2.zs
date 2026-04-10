@@ -79,6 +79,11 @@ recipes.addShaped(<actuallyadditions:item_canola_seed>.withTag({agri_analyzed: 0
 [<gendustry:honey_comb:14012>, <actuallyadditions:item_canola_seed>, <gendustry:honey_comb:14012>],
 [<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
 
+recipes.addShaped(<aoa3:holly_top_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "actuallyadditions:canola_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <aoa3:holly_top_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
 
 
 mods.forestry.Squeezer.addRecipe(<fluid:hot_spring_water>*1000, 

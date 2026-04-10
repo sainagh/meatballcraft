@@ -29,6 +29,18 @@ plasmasednasuperduper.addItemInput(<contenttweaker:opalescent_matter>);
 plasmasednasuperduper.addItemOutput(<contenttweaker:sednanite_ore>*1024);
 plasmasednasuperduper.build();
 
+val plasmasednahyper = RecipeBuilder.newBuilder("plasmasednahyper","plasmatic_condenser",20);
+plasmasednahyper.addFluidInput(<fluid:dense_plasma>*160000);
+plasmasednahyper.addItemInput(<advancedrocketry:crystal:0>*2);
+plasmasednahyper.addItemInput(<advancedrocketry:crystal:1>*2);
+plasmasednahyper.addItemInput(<advancedrocketry:crystal:2>*2);
+plasmasednahyper.addItemInput(<advancedrocketry:crystal:3>*2);
+plasmasednahyper.addItemInput(<advancedrocketry:crystal:4>*2);
+plasmasednahyper.addItemInput(<advancedrocketry:crystal:5>*2);
+plasmasednahyper.addItemInput(<contenttweaker:gilded_matter>);
+plasmasednahyper.addItemOutput(<contenttweaker:sednanite_ore>*8192);
+plasmasednahyper.build();
+
 val plasmaeden = RecipeBuilder.newBuilder("plasmaeden","plasmatic_condenser",20);
 plasmaeden.addFluidInput(<fluid:dense_plasma>*160000);
 plasmaeden.addItemInput(<contenttweaker:eden_core>);
@@ -142,6 +154,14 @@ plasmamyrmexsuperduper.addItemInput(<aoa3:chitin>*16);
 plasmamyrmexsuperduper.addItemInput(<contenttweaker:opalescent_matter>);
 plasmamyrmexsuperduper.addItemOutput(<contenttweaker:myrmitite_ore>*1024);
 plasmamyrmexsuperduper.build();
+
+val plasmamyrmexhyper = RecipeBuilder.newBuilder("plasmamyrmexhyper","plasmatic_condenser",20);
+plasmamyrmexhyper.addFluidInput(<fluid:dense_plasma>*160000);
+plasmamyrmexhyper.addItemInput(<advancedrocketry:aliensapling>*64);
+plasmamyrmexhyper.addItemInput(<aoa3:chitin>*16);
+plasmamyrmexhyper.addItemInput(<contenttweaker:gilded_matter>);
+plasmamyrmexhyper.addItemOutput(<contenttweaker:myrmitite_ore>*8192);
+plasmamyrmexhyper.build();
 
 val plasmacandyland1 = RecipeBuilder.newBuilder("plasmacandyland1","plasmatic_condenser",20);
 plasmacandyland1.addFluidInput(<fluid:dense_plasma>*160000);
@@ -272,6 +292,14 @@ plasmapixoniasuperduper.addItemInput(<contenttweaker:fragment_madness>);
 plasmapixoniasuperduper.addItemInput(<contenttweaker:universal_booster>);
 plasmapixoniasuperduper.addItemOutput(<contenttweaker:ogerite_ore>*1024);
 plasmapixoniasuperduper.build();
+
+val plasmapixoniahyper = RecipeBuilder.newBuilder("plasmapixoniahyper","plasmatic_condenser",20);
+plasmapixoniahyper.addFluidInput(<fluid:dense_plasma>*160000);
+plasmapixoniahyper.addItemInput(<contenttweaker:gilded_matter>);
+plasmapixoniahyper.addItemInput(<contenttweaker:fragment_madness>);
+plasmapixoniahyper.addItemInput(<contenttweaker:universal_booster>);
+plasmapixoniahyper.addItemOutput(<contenttweaker:ogerite_ore>*8192);
+plasmapixoniahyper.build();
 
 val plasmaapalachia = RecipeBuilder.newBuilder("plasmaapalachia","plasmatic_condenser",20);
 plasmaapalachia.addFluidInput(<fluid:dense_plasma>*160000);

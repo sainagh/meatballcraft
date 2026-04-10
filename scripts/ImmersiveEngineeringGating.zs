@@ -15,6 +15,21 @@ mods.extendedcrafting.TableCrafting.addShaped(<immersiveengineering:stone_decora
 [<tconstruct:materials:2>, <minecraft:sandstone>, <tconstruct:materials:2>], 
 [<tardis:gallifreyan_sand>, <tconstruct:materials:2>, <tardis:gallifreyan_sand>]]); 
 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:stargate_brick_base>*32, 
+[[<tardis:gallifreyan_sand>, <tconstruct:dried_clay:1>, <tardis:gallifreyan_sand>], 
+[<tconstruct:dried_clay:1>, <contenttweaker:stargate_sand>, <tconstruct:dried_clay:1>], 
+[<tardis:gallifreyan_sand>, <tconstruct:dried_clay:1>, <tardis:gallifreyan_sand>]]); 
+
+mods.extendedcrafting.TableCrafting.addShaped(<immersiveengineering:stone_decoration:0>*64, 
+[[<contenttweaker:ichorium_void_stone>, <tconstruct:materials:2>, <contenttweaker:ichorium_void_stone>], 
+[<tconstruct:materials:2>, <minecraft:sandstone>, <tconstruct:materials:2>], 
+[<contenttweaker:ichorium_void_stone>, <tconstruct:materials:2>, <contenttweaker:ichorium_void_stone>]]); 
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:stargate_brick_base>*48, 
+[[<contenttweaker:ichorium_void_stone>, <tconstruct:dried_clay:1>, <contenttweaker:ichorium_void_stone>], 
+[<tconstruct:dried_clay:1>, <contenttweaker:stargate_sand>, <tconstruct:dried_clay:1>], 
+[<contenttweaker:ichorium_void_stone>, <tconstruct:dried_clay:1>, <contenttweaker:ichorium_void_stone>]]); 
+
 
 recipes.removeShaped(<immersiveengineering:stone_decoration:1>);
 

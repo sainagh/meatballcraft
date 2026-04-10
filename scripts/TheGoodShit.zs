@@ -602,3 +602,14 @@ mods.nuclearcraft.infuser.addRecipe([<contenttweaker:crying_obsidian_powder>, <f
 
 mods.nuclearcraft.pressurizer.addRecipe([<contenttweaker:crying_redstone>*4, <contenttweaker:dense_redstone>]);
 
+
+
+
+// snake venom
+
+recipes.addShaped(<contenttweaker:twilit_venom>*64,
+[[<twilightforest:naga_scale>, <twilightforest:naga_scale>, <twilightforest:naga_scale>],
+[<twilightforest:naga_scale>, <contenttweaker:twilit_venom>, <twilightforest:naga_scale>],
+[<twilightforest:naga_scale>, <enderio:item_soul_vial:1>.withTag({entityId: "bewitchment:snake"}), <twilightforest:naga_scale>]]);
+
+

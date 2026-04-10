@@ -673,3 +673,17 @@ mythindgrind88.addItemInput(<contenttweaker:tartarite_ore>*16);
 mythindgrind88.addItemOutput(<materialpart:tartarite:dust>*256);
 mythindgrind88.build();
 
+val mythindgrind89 = RecipeBuilder.newBuilder("mythindgrind89","mythic_processor_grinder",2);
+mythindgrind89.addEnergyPerTickInput(2000000);
+mythindgrind89.addFluidInput(<fluid:harmonic_fluid_lattice>*1);
+mythindgrind89.addItemInput(<contenttweaker:bluefire_divine_ore>*1);
+mythindgrind89.addItemOutput(<divinerpg:bluefire_stone>*4096);
+mythindgrind89.build();
+
+val mythindgrind90 = RecipeBuilder.newBuilder("mythindgrind90","mythic_processor_grinder",2);
+mythindgrind90.addEnergyPerTickInput(2000000);
+mythindgrind90.addFluidInput(<fluid:harmonic_fluid_lattice>*1);
+mythindgrind90.addItemInput(<contenttweaker:unleashed_divine_ore>*1);
+mythindgrind90.addItemOutput(<divinerpg:divine_stone>*4096);
+mythindgrind90.build();
+

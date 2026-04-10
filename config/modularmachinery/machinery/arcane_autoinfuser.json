@@ -8,12 +8,25 @@
             "x": 0,
             "y": 0,
             "z": 4,
-            "description": "Replace middle block to increase machine speed by 80%",
+            "description": "5X Speed",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.2
+            }
+        },
+        {
+            "elements": "contenttweaker:void_ichorium_rift_cap",
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "description": "20X Speed",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.05
             }
         }
     ],

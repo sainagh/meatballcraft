@@ -641,11 +641,11 @@ pulsestillfractionation36.build();
 
 
 val pulsestillimmersive = RecipeBuilder.newBuilder("pulsestillimmersive","phasing_still_pot",5);
-pulsestillimmersive.addItemInput(<contenttweaker:bottle_of_petrotheum>);
-pulsestillimmersive.addFluidInput(<fluid:crude_oil>*750);
-pulsestillimmersive.addFluidOutput(<fluid:gasoline>*390);
-pulsestillimmersive.addFluidOutput(<fluid:diesel>*270);
-pulsestillimmersive.addFluidOutput(<fluid:lubricant>*300);
+pulsestillimmersive.addItemInput(<contenttweaker:bottle_of_petrotheum>*10);
+pulsestillimmersive.addFluidInput(<fluid:crude_oil>*7500);
+pulsestillimmersive.addFluidOutput(<fluid:gasoline>*3900);
+pulsestillimmersive.addFluidOutput(<fluid:diesel>*2700);
+pulsestillimmersive.addFluidOutput(<fluid:lubricant>*3000);
 pulsestillimmersive.build();
 
 

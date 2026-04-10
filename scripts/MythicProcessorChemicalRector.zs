@@ -740,3 +740,83 @@ mithchemreac99.addFluidInput(<fluid:mineral_oil>*10);
 mithchemreac99.addFluidOutput(<fluid:diluted_potassium>*144);
 mithchemreac99.build();
 
+val mithchemreac100 = RecipeBuilder.newBuilder("mithchemreac100","mythic_processor_chemical_reactor",2);
+mithchemreac100.addEnergyPerTickInput(200000);
+mithchemreac100.addFluidInput(<fluid:fluidsodium>*144);
+mithchemreac100.addFluidInput(<fluid:mineral_oil>*10);
+mithchemreac100.addFluidOutput(<fluid:diluted_sodium>*144);
+mithchemreac100.build();
+
+val mithchemreac101 = RecipeBuilder.newBuilder("mithchemreac101","mythic_processor_chemical_reactor",2);
+mithchemreac101.addEnergyPerTickInput(200000);
+mithchemreac101.addFluidInput(<fluid:water>*1);
+mithchemreac101.addFluidInput(<fluid:whisper_of_ahkrast_korvalain>*1);
+mithchemreac101.addFluidOutput(<fluid:warren_binder_oxygen>*1000);
+mithchemreac101.addFluidOutput(<fluid:warren_binder_hydrogen>*1000);
+mithchemreac101.build();
+
+val mithchemreac102 = RecipeBuilder.newBuilder("mithchemreac102","mythic_processor_chemical_reactor",2);
+mithchemreac102.addEnergyPerTickInput(200000);
+mithchemreac102.addFluidInput(<fluid:hot_spring_water>*1);
+mithchemreac102.addFluidInput(<fluid:whisper_of_ahkrast_korvalain>*1);
+mithchemreac102.addFluidOutput(<fluid:warren_binder_deuterium>*1000);
+mithchemreac102.addFluidOutput(<fluid:warren_binder_tritium>*1000);
+mithchemreac102.build();
+
+val mithchemreac103 = RecipeBuilder.newBuilder("mithchemreac103","mythic_processor_chemical_reactor",2);
+mithchemreac103.addEnergyPerTickInput(200000);
+mithchemreac103.addFluidInput(<fluid:moltenabyssalnite>*1);
+mithchemreac103.addFluidInput(<fluid:whisper_of_ahkrast_korvalain>*1);
+mithchemreac103.addFluidOutput(<fluid:warren_binder_iron>*1000);
+mithchemreac103.addFluidOutput(<fluid:warren_binder_nickel>*1000);
+mithchemreac103.build();
+
+val mithchemreac104 = RecipeBuilder.newBuilder("mithchemreac104","mythic_processor_chemical_reactor",2);
+mithchemreac104.addEnergyPerTickInput(200000);
+mithchemreac104.addFluidInput(<fluid:moltendreadium>*1);
+mithchemreac104.addFluidInput(<fluid:whisper_of_ahkrast_korvalain>*1);
+mithchemreac104.addFluidOutput(<fluid:warren_binder_lead>*1000);
+mithchemreac104.addFluidOutput(<fluid:warren_binder_mercury>*1000);
+mithchemreac104.build();
+
+val mithchemreac105 = RecipeBuilder.newBuilder("mithchemreac105","mythic_processor_chemical_reactor",2);
+mithchemreac105.addEnergyPerTickInput(200000);
+mithchemreac105.addFluidInput(<fluid:knightmetal>*1);
+mithchemreac105.addFluidInput(<fluid:whisper_of_ahkrast_korvalain>*1);
+mithchemreac105.addFluidOutput(<fluid:warren_binder_tin>*1000);
+mithchemreac105.build();
+
+val mithchemreac106 = RecipeBuilder.newBuilder("mithchemreac106","mythic_processor_chemical_reactor",2);
+mithchemreac106.addEnergyPerTickInput(200000);
+mithchemreac106.addFluidInput(<fluid:catalyzed_actualization>*1000);
+mithchemreac106.addFluidInput(<fluid:gluttonous_lymph>*1000);
+mithchemreac106.addFluidOutput(<fluid:lymph_of_pixonia>*10000);
+mithchemreac106.addFluidOutput(<fluid:stationary_actualization>*1500);
+mithchemreac106.build();
+
+val mithchemreac107 = RecipeBuilder.newBuilder("mithchemreac107","mythic_processor_chemical_reactor",2);
+mithchemreac107.addEnergyPerTickInput(200000);
+mithchemreac107.addFluidInput(<fluid:excited_actualization>*1000);
+mithchemreac107.addFluidInput(<fluid:blazing_tincture>*100);
+mithchemreac107.addFluidOutput(<fluid:lymph_of_pixonia>*20000);
+mithchemreac107.addFluidOutput(<fluid:exuberant_actualization>*1500);
+mithchemreac107.build();
+
+
+val mithchemreac108 = RecipeBuilder.newBuilder("mithchemreac108","mythic_processor_chemical_reactor",2);
+mithchemreac108.addEnergyPerTickInput(200000);
+mithchemreac108.addFluidInput(<fluid:resting_actualization>*1000);
+mithchemreac108.addFluidInput(<fluid:glowing_tincture>*100);
+mithchemreac108.addFluidOutput(<fluid:lymph_of_pixonia>*40000);
+mithchemreac108.addFluidOutput(<fluid:hyperactive_actualization>*1500);
+mithchemreac108.build();
+
+val mithchemreac109 = RecipeBuilder.newBuilder("mithchemreac109","mythic_processor_chemical_reactor",2);
+mithchemreac109.addEnergyPerTickInput(200000);
+mithchemreac109.addFluidInput(<fluid:acting_actualization>*1000);
+mithchemreac109.addFluidInput(<fluid:gunpowder_tincture>*100);
+mithchemreac109.addFluidOutput(<fluid:lymph_of_pixonia>*80000);
+mithchemreac109.addFluidOutput(<fluid:explosive_actualization>*1500);
+mithchemreac109.build();
+
+

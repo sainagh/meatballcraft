@@ -772,6 +772,35 @@ obsidiandust.remove(<railcraft:dust:0>);
 obsidiandust.remove(<nuclearcraft:gem_dust:3>);
 obsidiandust.remove(<enderio:item_material:29>);
 
+recipes.remove(<randomthings:ingredient:14>);
+recipes.addShaped(<randomthings:spectresword>,
+[[<randomthings:ingredient:3>],[<randomthings:ingredient:3>],[<wrcbe:material:0>]]);
+recipes.addShaped(<randomthings:spectreshovel>,
+[[<randomthings:ingredient:3>],[<wrcbe:material:0>],[<wrcbe:material:0>]]);
+
+recipes.addShaped(<randomthings:spectrepickaxe>,
+[[<randomthings:ingredient:3>, <randomthings:ingredient:3>, <randomthings:ingredient:3>],
+[null, <wrcbe:material:0>, null],
+[null, <wrcbe:material:0>, null]]);
+
+recipes.addShaped(<randomthings:spectrehoe>,
+[[<randomthings:ingredient:3>, <randomthings:ingredient:3>, null],
+[null, <wrcbe:material:0>, null],
+[null, <wrcbe:material:0>, null]]);
+
+recipes.addShaped(<randomthings:spectreaxe>,
+[[<randomthings:ingredient:3>, <randomthings:ingredient:3>, null],
+[<randomthings:ingredient:3>, <wrcbe:material:0>, null],
+[null, <wrcbe:material:0>, null]]);
+
+recipes.addShaped(<randomthings:biomepainter>,
+[[<randomthings:biomecrystal>],
+[<ore:blockWool>],
+[<wrcbe:material:0>]]);
+
+
+
+
 //==================================================================
 // slime
 val slimeball = <ore:slimeball>;
@@ -901,18 +930,18 @@ recipes.addShapeless(<nuclearcraft:dust:7>,
 //==================================================================
 // ichorium
 
-//val ichoriumingot = <ore:ingotIchorium>;
-//ichoriumingot.remove(<thaumictinkerer:kamiresource:3>);
+val ichoriumingot = <ore:ingotIchorium>;
+ichoriumingot.remove(<thaumictinkerer:kamiresource:3>);
 
-//val ichoriumnugget = <ore:nuggetIchorium>;
-//ichoriumnugget.remove(<thaumictinkerer:kamiresource:5>);
+val ichoriumnugget = <ore:nuggetIchorium>;
+ichoriumnugget.remove(<thaumictinkerer:kamiresource:5>);
 
-//mods.nuclearcraft.manufactory.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
+mods.nuclearcraft.manufactory.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
 
-//mods.nuclearcraft.melter.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
-//mods.nuclearcraft.melter.removeRecipeWithInput([<thaumictinkerer:kamiresource:5>]);
+mods.nuclearcraft.melter.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
+mods.nuclearcraft.melter.removeRecipeWithInput([<thaumictinkerer:kamiresource:5>]);
 
-//mods.nuclearcraft.pressurizer.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
+mods.nuclearcraft.pressurizer.removeRecipeWithInput([<thaumictinkerer:kamiresource:3>]);
 
 
 
@@ -923,9 +952,25 @@ siliconball.remove(<enderio:item_material:5>);
 
 
 //==================================================================
-// silver
+// zinc
 val zincingot = <ore:ingotZinc>;
 zincingot.remove(<railcraft:ingot:8>);
+
+furnace.remove(<railcraft:ingot:8>, <ore:oreZinc>);
+furnace.addRecipe(<techreborn:ingot:18>, <ore:oreZinc>);
+
+recipes.remove(<railcraft:ingot:8>);
+
+recipes.addShaped(<techreborn:ingot:18>,
+[[<ore:nuggetZinc>, <ore:nuggetZinc>, <ore:nuggetZinc>],
+[<ore:nuggetZinc>, <ore:nuggetZinc>, <ore:nuggetZinc>],
+[<ore:nuggetZinc>, <ore:nuggetZinc>, <ore:nuggetZinc>]]);
+
+
+mods.immersiveengineering.ArcFurnace.removeRecipe(<railcraft:ingot:8>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:18>, <ore:dustZinc>, null, 100, 512);
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:18>*2, <ore:oreZinc>, <immersiveengineering:material:7>, 100, 512);
+
 
 
 //==================================================================

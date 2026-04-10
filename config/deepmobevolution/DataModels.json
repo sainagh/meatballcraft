@@ -1504,8 +1504,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "He rides rocks.",
-        "Yes, he rides rocks."
+        "Name's Candor.",
+        "Cotton Candor."
       ],
       "entity": "aoa3:cotton_candor",
       "entityScale": 48,

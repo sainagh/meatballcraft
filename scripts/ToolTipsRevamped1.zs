@@ -499,6 +499,15 @@
 <avaritia:block_resource:0>.addTooltip(format.aqua("  Mythic Excavation Reactor"));
 <avaritia:block_resource:0>.addTooltip(format.white("     Machine Speed x5"));
 
+<deepmoblearningbm:block_blood_infused_glitch_ingot>.addTooltip(format.gold("Multiblock Upgrade:"));
+<deepmoblearningbm:block_blood_infused_glitch_ingot>.addTooltip(format.aqua("  Mythic Excavation Reactor"));
+<deepmoblearningbm:block_blood_infused_glitch_ingot>.addTooltip(format.white("     Machine Speed x100"));
+
+<contenttweaker:screaming_blood_infused_glitch_block>.addTooltip(format.gold("Multiblock Upgrade:"));
+<contenttweaker:screaming_blood_infused_glitch_block>.addTooltip(format.aqua("  Mythic Excavation Reactor"));
+<contenttweaker:screaming_blood_infused_glitch_block>.addTooltip(format.white("     Machine Speed x100"));
+<contenttweaker:screaming_blood_infused_glitch_block>.addTooltip(format.white("     6x Parallelization"));
+
 <avaritia:block_resource:1>.addTooltip(format.gold("Multiblock Upgrade:"));
 <avaritia:block_resource:1>.addTooltip(format.aqua("  Steel Thermal Mixer"));
 <avaritia:block_resource:1>.addTooltip(format.white("     10x Parallelization"));
@@ -1079,6 +1088,11 @@
 <aoa3:holy_sword>.addTooltip(format.aqua("  Max out all Gods tribute on the same day"));
 
 
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.gold("Multiblock Upgrade:"));
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.aqua("  Arcane Autoworkbench"));
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.white("     Machine Speed x60"));
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.aqua("  Arcane Autoinfuser"));
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.white("     Machine Speed x20"));
 
 
 

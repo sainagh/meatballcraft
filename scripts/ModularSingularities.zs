@@ -680,3 +680,22 @@ quantumconaesing.addItemOutput(<appliedenergistics2:material:47>*2);
 quantumconaesing.build();
 
 
+val quantumcondcyanite = RecipeBuilder.newBuilder("quantumcondcyanite","quantum_condenser",4);
+quantumcondcyanite.addEnergyPerTickInput(500000);
+quantumcondcyanite.addItemInput(<bigreactors:ingotcyanite>*5056);
+quantumcondcyanite.addItemOutput(<extendedcrafting:singularity_custom:2059>);
+quantumcondcyanite.build();
+
+val quantumcondbluefire = RecipeBuilder.newBuilder("quantumcondbluefire","quantum_condenser",4);
+quantumcondbluefire.addEnergyPerTickInput(500000);
+quantumcondbluefire.addItemInput(<divinerpg:bluefire_stone>*5056);
+quantumcondbluefire.addItemOutput(<extendedcrafting:singularity_custom:2061>);
+quantumcondbluefire.build();
+
+val quantumconddivinerpgd = RecipeBuilder.newBuilder("quantumconddivinerpgd","quantum_condenser",4);
+quantumconddivinerpgd.addEnergyPerTickInput(500000);
+quantumconddivinerpgd.addItemInput(<divinerpg:divine_stone>*5056);
+quantumconddivinerpgd.addItemOutput(<extendedcrafting:singularity_custom:2060>);
+quantumconddivinerpgd.build();
+
+

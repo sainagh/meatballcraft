@@ -409,3 +409,17 @@ forgewyvrhenium2.setChance(0.0);
 forgewyvrhenium2.addItemInput(<extendedcrafting:singularity_custom:2046>*10);
 forgewyvrhenium2.addFluidOutput(<fluid:rhenium>*7280640);
 forgewyvrhenium2.build();
+
+val forgewyvtrinity = RecipeBuilder.newBuilder("forgewyvtrinity","forge_of_the_wyvern",2);
+forgewyvtrinity.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvtrinity.setChance(0.0);
+forgewyvtrinity.addItemInput(<contenttweaker:trinity_ingot>*1);
+forgewyvtrinity.addFluidOutput(<fluid:trinity_ingot>*144);
+forgewyvtrinity.build();
+
+
+
+
+
+
+

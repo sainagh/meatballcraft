@@ -279,6 +279,13 @@ bettersolidfusion10.addItemInput(<ore:ingotSednanite>*2);
 bettersolidfusion10.addItemOutput(<contenttweaker:magnetic_monopole>*10);
 bettersolidfusion10.build();
 
+val bettersolidfusion11 = RecipeBuilder.newBuilder("bettersolidfusion11","inertial_confinement_reactor",10);
+bettersolidfusion11.addEnergyPerTickInput(1000000);
+bettersolidfusion11.addItemInput(<contenttweaker:threefold_stellar_ingot>*1);
+bettersolidfusion11.addItemInput(<nuclearcraft:lithium:2>*8);
+bettersolidfusion11.addItemOutput(<materialpart:promethium:ingot>*6);
+bettersolidfusion11.build();
+
 
 
 

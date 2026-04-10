@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Meatballcraft",
-  "version": "prerelease-0.18.4-hotfix6",
+  "version": "prerelease-0.18.5",
   "author": "",
   "files": [
     {
@@ -191,7 +191,7 @@
     },
     {
       "projectID": 1038780,
-      "fileID": 5732205,
+      "fileID": 7873132,
       "required": true,
       "isLocked": false
     },
@@ -245,7 +245,7 @@
     },
     {
       "projectID": 1335763,
-      "fileID": 6937672,
+      "fileID": 7864055,
       "required": true,
       "isLocked": false
     },
@@ -312,6 +312,12 @@
     {
       "projectID": 237701,
       "fileID": 4408001,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 965811,
+      "fileID": 7162391,
       "required": true,
       "isLocked": false
     },
@@ -394,6 +400,12 @@
       "isLocked": false
     },
     {
+      "projectID": 1195285,
+      "fileID": 7583361,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 363543,
       "fileID": 3081433,
       "required": true,
@@ -431,7 +443,7 @@
     },
     {
       "projectID": 1443615,
-      "fileID": 7770145,
+      "fileID": 7812586,
       "required": true,
       "isLocked": false
     },
@@ -665,7 +677,7 @@
     },
     {
       "projectID": 1024225,
-      "fileID": 7739110,
+      "fileID": 7905438,
       "required": true,
       "isLocked": false
     },
@@ -719,7 +731,7 @@
     },
     {
       "projectID": 629629,
-      "fileID": 7779333,
+      "fileID": 7859791,
       "required": true,
       "isLocked": false
     },
@@ -797,7 +809,7 @@
     },
     {
       "projectID": 1387363,
-      "fileID": 7756748,
+      "fileID": 7889767,
       "required": true,
       "isLocked": false
     },
@@ -809,7 +821,7 @@
     },
     {
       "projectID": 1470965,
-      "fileID": 7768212,
+      "fileID": 7897724,
       "required": true,
       "isLocked": false
     },
@@ -887,7 +899,7 @@
     },
     {
       "projectID": 1444328,
-      "fileID": 7731728,
+      "fileID": 7831472,
       "required": true,
       "isLocked": false
     },
@@ -988,12 +1000,6 @@
       "isLocked": false
     },
     {
-      "projectID": 75598,
-      "fileID": 2957213,
-      "required": true,
-      "isLocked": false
-    },
-    {
       "projectID": 308383,
       "fileID": 6904337,
       "required": true,
@@ -1085,7 +1091,7 @@
     },
     {
       "projectID": 1475753,
-      "fileID": 7708951,
+      "fileID": 7793461,
       "required": true,
       "isLocked": false
     },
@@ -1475,7 +1481,7 @@
     },
     {
       "projectID": 629017,
-      "fileID": 7571353,
+      "fileID": 7801299,
       "required": true,
       "isLocked": false
     },
@@ -1559,7 +1565,7 @@
     },
     {
       "projectID": 1052470,
-      "fileID": 7026689,
+      "fileID": 7894473,
       "required": true,
       "isLocked": false
     },
@@ -1703,7 +1709,7 @@
     },
     {
       "projectID": 1398067,
-      "fileID": 7539422,
+      "fileID": 7887144,
       "required": true,
       "isLocked": false
     },
@@ -1733,7 +1739,7 @@
     },
     {
       "projectID": 817377,
-      "fileID": 6945422,
+      "fileID": 7372951,
       "required": true,
       "isLocked": false
     },
@@ -1745,7 +1751,7 @@
     },
     {
       "projectID": 705000,
-      "fileID": 7403701,
+      "fileID": 7849634,
       "required": true,
       "isLocked": false
     },

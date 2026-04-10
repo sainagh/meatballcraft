@@ -89,12 +89,43 @@ recipes.addShaped(<contenttweaker:hypercharged_redstone>,
 [<contenttweaker:hypercharged_wool>, <minecraft:redstone>, <contenttweaker:hypercharged_wool>],
 [null, <contenttweaker:hypercharged_wool>, null]]);
 
-val mythallsuperfluix = RecipeBuilder.newBuilder("mythallsuperfluix","mythic_processor_alloy_furnace",2);
-mythallsuperfluix.addEnergyPerTickInput(60000);
-mythallsuperfluix.addItemInput(<contenttweaker:superconducting_mithril>);
-mythallsuperfluix.addItemInput(<appliedenergistics2:material:7>);
-mythallsuperfluix.addItemOutput(<contenttweaker:superconducting_fluix>);
-mythallsuperfluix.build();
+val mythallsuperfluix1 = RecipeBuilder.newBuilder("mythallsuperfluix1","mythic_processor_alloy_furnace",2);
+mythallsuperfluix1.addEnergyPerTickInput(60000);
+mythallsuperfluix1.addItemInput(<contenttweaker:superconducting_mithril>);
+mythallsuperfluix1.addItemInput(<appliedenergistics2:material:7>);
+mythallsuperfluix1.addItemOutput(<contenttweaker:superconducting_fluix>);
+mythallsuperfluix1.build();
+
+val mythallsuperfluix2 = RecipeBuilder.newBuilder("mythallsuperfluix2","mythic_processor_alloy_furnace",2);
+mythallsuperfluix2.addEnergyPerTickInput(60000);
+mythallsuperfluix2.addItemInput(<contenttweaker:superconducting_mithril>*2);
+mythallsuperfluix2.addItemInput(<contenttweaker:petrified_fluix>*3);
+mythallsuperfluix2.addItemOutput(<contenttweaker:superconducting_fluix>*3);
+mythallsuperfluix2.build();
+
+val mythallsuperfluix3 = RecipeBuilder.newBuilder("mythallsuperfluix3","mythic_processor_alloy_furnace",2);
+mythallsuperfluix3.addEnergyPerTickInput(60000);
+mythallsuperfluix3.addItemInput(<contenttweaker:superconducting_mithril>*20);
+mythallsuperfluix3.addItemInput(<contenttweaker:unidentified_fluix_fossil>*2);
+mythallsuperfluix3.addItemInput(<contenttweaker:bright_matter>*1);
+mythallsuperfluix3.addItemOutput(<contenttweaker:superconducting_fluix>*40);
+mythallsuperfluix3.build();
+
+val mythallsuperfluix4 = RecipeBuilder.newBuilder("mythallsuperfluix4","mythic_processor_alloy_furnace",2);
+mythallsuperfluix4.addEnergyPerTickInput(60000);
+mythallsuperfluix4.addItemInput(<contenttweaker:superconducting_mithril>*20);
+mythallsuperfluix4.addItemInput(<contenttweaker:unidentifying_fluix_fossil>*3);
+mythallsuperfluix4.addItemInput(<contenttweaker:opalescent_matter>*1);
+mythallsuperfluix4.addItemOutput(<contenttweaker:superconducting_fluix>*60);
+mythallsuperfluix4.build();
+
+val mythallsuperfluix5 = RecipeBuilder.newBuilder("mythallsuperfluix5","mythic_processor_alloy_furnace",2);
+mythallsuperfluix5.addEnergyPerTickInput(60000);
+mythallsuperfluix5.addItemInput(<contenttweaker:superconducting_mithril>*20);
+mythallsuperfluix5.addItemInput(<contenttweaker:paradoxical_fluix_fossil>*4);
+mythallsuperfluix5.addItemInput(<contenttweaker:gilded_matter>*1);
+mythallsuperfluix5.addItemOutput(<contenttweaker:superconducting_fluix>*80);
+mythallsuperfluix5.build();
 
 
 
@@ -279,8 +310,10 @@ mith30.addItemOutput(<contenttweaker:light_of_shadesmar>*60);
 mith30.setChance(0.9);
 mith30.addItemOutput(<contenttweaker:light_of_shadesmar>*60);
 mith30.setChance(0.9);
-mith30.addItemOutput(<contenttweaker:white_hole>*50);
-mith30.setChance(0.6);
+mith30.addItemOutput(<contenttweaker:white_hole>*60);
+mith30.setChance(0.9);
+mith30.addItemOutput(<contenttweaker:white_hole>*40);
+mith30.setChance(0.8);
 mith30.addItemOutput(<contenttweaker:cosmic_pot>*4);
 mith30.setChance(0.8);
 mith30.addItemOutput(<contenttweaker:stormlight_stone>*64);
@@ -707,6 +740,16 @@ recipes.addShaped(<contenttweaker:stormlight_sphere>*18,
 [<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
 [<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
 
+recipes.addShaped(<contenttweaker:stormlight_sphere>*24,
+[[<aoa3:green_crystal>, <contenttweaker:fulfilled_shard_of_shadesmar>, <aoa3:blue_crystal>],
+[<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
+[<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
+
+recipes.addShaped(<contenttweaker:stormlight_sphere>*32,
+[[<aoa3:green_crystal>, <contenttweaker:hopeful_shard_of_shadesmar>, <aoa3:blue_crystal>],
+[<aoa3:yellow_crystal>, <contenttweaker:infuser_fabrial>.reuse(), <aoa3:purple_crystal>],
+[<aoa3:red_crystal>, <contenttweaker:stormlight_fragment>, <aoa3:white_crystal>]]);
+
 
 val inffurnaceshardofshadesmar = RecipeBuilder.newBuilder("inffurnaceshardofshadesmar","infinity_furnace",40);
 inffurnaceshardofshadesmar.addFluidInput(<fluid:actualizing_fluid>*100);
@@ -728,7 +771,11 @@ inffurnaceshardofshadesmar.build();
 
 
 
+
+
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:actualization_aspected_eleint_scale>, <fluid:actualizing_fluid>*1000, <fluid:breath_of_actualization>*1000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:gilded_matter>, <fluid:breath_of_actualization>*1000, <fluid:tale_of_actualization>*1000]);
 
 
 
@@ -748,6 +795,44 @@ inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_controlled_glu
 inffurnaceshardofshadesmar2.addItemInput(<contenttweaker:shard_of_humble_education>);
 inffurnaceshardofshadesmar2.addItemOutput(<contenttweaker:living_shard_of_shadesmar>*4);
 inffurnaceshardofshadesmar2.build();
+
+val inffurnaceshardofshadesmar3 = RecipeBuilder.newBuilder("inffurnaceshardofshadesmar3","infinity_furnace",40);
+inffurnaceshardofshadesmar3.addFluidInput(<fluid:tale_of_actualization>*100);
+inffurnaceshardofshadesmar3.addItemInput(<contenttweaker:shard_of_restored_faith>);
+inffurnaceshardofshadesmar3.addItemInput(<contenttweaker:shard_of_forgotten_fear_of_death>);
+inffurnaceshardofshadesmar3.addItemInput(<contenttweaker:shard_of_forgiven_lost_time>);
+inffurnaceshardofshadesmar3.addItemInput(<contenttweaker:shard_of_rekindled_heritage>);
+inffurnaceshardofshadesmar3.addItemInput(<contenttweaker:shard_of_no_hidden_intentions>);
+inffurnaceshardofshadesmar3.addItemInput(<contenttweaker:shard_of_physical_healing>);
+inffurnaceshardofshadesmar3.addItemInput(<contenttweaker:shard_of_realized_worth>);
+inffurnaceshardofshadesmar3.addItemInput(<contenttweaker:shard_of_restored_relationship>);
+inffurnaceshardofshadesmar3.addItemInput(<contenttweaker:shard_of_surrender>);
+inffurnaceshardofshadesmar3.addItemInput(<contenttweaker:shard_of_individual_freedom>);
+inffurnaceshardofshadesmar3.addItemInput(<contenttweaker:shard_of_controlled_gluttony>);
+inffurnaceshardofshadesmar3.addItemInput(<contenttweaker:shard_of_humble_education>);
+inffurnaceshardofshadesmar3.addItemOutput(<contenttweaker:living_shard_of_shadesmar>*12);
+inffurnaceshardofshadesmar3.build();
+
+val inffurnacefulfillshadesmar = RecipeBuilder.newBuilder("inffurnacefulfillshadesmar","infinity_furnace",40);
+inffurnacefulfillshadesmar.addFluidInput(<fluid:breath_of_actualization>*100);
+inffurnacefulfillshadesmar.addItemInput(<contenttweaker:living_shard_of_shadesmar>*32);
+inffurnacefulfillshadesmar.addItemInput(<contenttweaker:recursion_of_history>);
+inffurnacefulfillshadesmar.addItemInput(<aoa3:blue_crystal>*8);
+inffurnacefulfillshadesmar.addItemInput(<aoa3:green_crystal>*8);
+inffurnacefulfillshadesmar.addItemInput(<aoa3:purple_crystal>*8);
+inffurnacefulfillshadesmar.addItemInput(<aoa3:yellow_crystal>*8);
+inffurnacefulfillshadesmar.addItemInput(<aoa3:white_crystal>*8);
+inffurnacefulfillshadesmar.addItemInput(<aoa3:red_crystal>*8);
+inffurnacefulfillshadesmar.addItemOutput(<contenttweaker:fulfilled_shard_of_shadesmar>*32);
+inffurnacefulfillshadesmar.build();
+
+val inffurnacehopefulshadesmar = RecipeBuilder.newBuilder("inffurnacehopefulshadesmar","infinity_furnace",40);
+inffurnacehopefulshadesmar.addFluidInput(<fluid:actualization_hope>*50);
+inffurnacehopefulshadesmar.addItemInput(<contenttweaker:fulfilled_shard_of_shadesmar>*64);
+inffurnacehopefulshadesmar.addItemInput(<contenttweaker:sand_of_universal_balance>*1);
+inffurnacehopefulshadesmar.addItemInput(<contenttweaker:gem_of_cyclical_hope>*1);
+inffurnacehopefulshadesmar.addItemOutput(<contenttweaker:hopeful_shard_of_shadesmar>*64);
+inffurnacehopefulshadesmar.build();
 
 
 
@@ -813,14 +898,14 @@ mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:irradiated_naquadah_core>
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:irradiated_naquadah_core>*16, <fluid:molten_abyssal_alloy>*12, <fluid:naquadah_alloy>*16000]);
 
 recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "essence_of_sane_thoughts", Amount: 1000}),
-[[<contenttweaker:kamium_ingot>, <thaumcraft:brain_box>.withTag({display: {Name: "ᚽᛠᛇᛒᚽᛃᛒᚶᚣᚽᚤᛠᚽᚥᛊ",Lore:["§d§oTrue Name§r"]}}), <contenttweaker:kamium_ingot>],
+[[<thaumictinkerer:kamiresource:3>, <thaumcraft:brain_box>.withTag({display: {Name: "ᚽᛠᛇᛒᚽᛃᛒᚶᚣᚽᚤᛠᚽᚥᛊ",Lore:["§d§oTrue Name§r"]}}), <thaumictinkerer:kamiresource:3>],
 [makeVisCrystal(<aspect:cognitio> * 1), <forge:bucketfilled>.withTag({FluidName: "vapor_of_levity", Amount: 1000}), makeVisCrystal(<aspect:cognitio> * 1)],
-[<contenttweaker:kamium_ingot>, <botania:incensestick>.withTag({brewKey: "warpWard"}), <contenttweaker:kamium_ingot>]]);
+[<thaumictinkerer:kamiresource:3>, <botania:incensestick>.withTag({brewKey: "warpWard"}), <thaumictinkerer:kamiresource:3>]]);
 
 recipes.addShaped(<openblocks:tank>.withTag({tank: {FluidName: "essence_of_sane_thoughts", Amount: 16000}}),
-[[<contenttweaker:kamium_ingot>, <thaumcraft:brain_box>.withTag({display: {Name: "ᚽᛠᛇᛒᚽᛃᛒᚶᚣᚽᚤᛠᚽᚥᛊ",Lore:["§d§oTrue Name§r"]}}), <contenttweaker:kamium_ingot>],
+[[<thaumictinkerer:kamiresource:3>, <thaumcraft:brain_box>.withTag({display: {Name: "ᚽᛠᛇᛒᚽᛃᛒᚶᚣᚽᚤᛠᚽᚥᛊ",Lore:["§d§oTrue Name§r"]}}), <thaumictinkerer:kamiresource:3>],
 [makeVisCrystal(<aspect:cognitio> * 1), <openblocks:tank>.withTag({tank: {FluidName: "distillate_of_levity", Amount: 16000}}), makeVisCrystal(<aspect:cognitio> * 1)],
-[<contenttweaker:kamium_ingot>, <botania:incensestick>.withTag({brewKey: "warpWard"}), <contenttweaker:kamium_ingot>]]);
+[<thaumictinkerer:kamiresource:3>, <botania:incensestick>.withTag({brewKey: "warpWard"}), <thaumictinkerer:kamiresource:3>]]);
 
 
 
@@ -1103,10 +1188,10 @@ spatialcruc7_better1.build();
 
 recipes.addShaped(<contenttweaker:blade_of_the_samurai_queen>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 100},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]}),
 [[null, <contenttweaker:sword_shield>, null],
-[<projectex:final_star_shard>, <contenttweaker:sword_shield>, <projectex:final_star_shard>],
+[<contenttweaker:projector_gem>, <contenttweaker:sword_shield>, <contenttweaker:projector_gem>],
 [null, <immersiveengineering:material:0>, null]]);
 
-recipes.addShapeless(<materialpart:rhenium:ingot>*64,
+recipes.addShapeless(<materialpart:rhenium:ingot>*24,
 [<contenttweaker:blade_of_the_samurai_queen>.reuse(), <ore:oreRhenium>]);
 
 
@@ -2436,7 +2521,10 @@ creatstarvald7.build();
 
 
 
-
+recipes.addShaped(<contenttweaker:one_power_unleashed_emerald>,
+[[null, <contenttweaker:stone_of_universal_balance>, null],
+[<contenttweaker:stone_of_universal_balance>, <contenttweaker:one_power_aspected_emerald>, <contenttweaker:stone_of_universal_balance>],
+[null, <contenttweaker:stone_of_universal_balance>, null]]);
 
 
 

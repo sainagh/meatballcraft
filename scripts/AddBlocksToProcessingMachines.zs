@@ -1,6 +1,6 @@
 
-mods.nuclearcraft.melter.addRecipe([<ore:blockFiery>, <fluid:fierymetal>*1296]);
-mods.nuclearcraft.melter.addRecipe([<ore:blockNetherite>, <fluid:molten_netherite>*1296]);
+mods.nuclearcraft.melter.addRecipe([<twilightforest:block_storage:1>, <fluid:fierymetal>*1296]);
+mods.nuclearcraft.melter.addRecipe([<divinerpg:netherite_block>, <fluid:molten_netherite>*1296]);
 
 
 mods.nuclearcraft.infuser.addRecipe([<ore:blockElectrum>, <fluid:redstone>*1800, <redstonearsenal:storage:0>]);
@@ -83,7 +83,7 @@ mods.nuclearcraft.manufactory.addRecipe([<ore:stoneGranite>, <techreborn:dust:63
 mods.thermalexpansion.Pulverizer.addRecipe(<techreborn:dust:63>, <minecraft:stone:5>, 2000);
 
 //ender eye and ender pearl dusts
-mods.nuclearcraft.manufactory.addRecipe([<ore:pearlEnderEye>, <techreborn:dust:19>]);
+mods.nuclearcraft.manufactory.addRecipe([<minecraft:ender_eye>, <techreborn:dust:19>]);
 mods.nuclearcraft.manufactory.addRecipe([<ore:materialEnderPearl>, <techreborn:dust:20>]);
 
 //charcoal dust

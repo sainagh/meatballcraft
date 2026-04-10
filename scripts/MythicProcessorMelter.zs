@@ -1119,5 +1119,174 @@ mythmelt721.addItemInput(<contenttweaker:demonic_ember>);
 mythmelt721.addFluidOutput(<fluid:molten_demonic_ember> * 144);
 mythmelt721.build();
 
+val mythmelt722 = RecipeBuilder.newBuilder("mythmelt722","mythic_processor_melter",2);
+mythmelt722.addEnergyPerTickInput(60000);
+mythmelt722.addItemInput(<contenttweaker:phasing_alloy_ingot>);
+mythmelt722.addFluidOutput(<fluid:phasing_alloy> * 144);
+mythmelt722.build();
+
+val mythmelt723 = RecipeBuilder.newBuilder("mythmelt723","mythic_processor_melter",2);
+mythmelt723.addEnergyPerTickInput(60000);
+mythmelt723.addItemInput(<contenttweaker:bloodmaster_block>);
+mythmelt723.addFluidOutput(<fluid:bloodmaster_metal> * 144);
+mythmelt723.build();
+
+val mythmelt724 = RecipeBuilder.newBuilder("mythmelt724","mythic_processor_melter",2);
+mythmelt724.addEnergyPerTickInput(60000);
+mythmelt724.addItemInput(<contenttweaker:barathosynium_ingot>);
+mythmelt724.addFluidOutput(<fluid:molten_barathosynium> * 144);
+mythmelt724.build();
+
+val mythmelt725 = RecipeBuilder.newBuilder("mythmelt725","mythic_processor_melter",2);
+mythmelt725.addEnergyPerTickInput(60000);
+mythmelt725.addItemInput(<extrautils2:ingredients:12>);
+mythmelt725.addFluidOutput(<fluid:xu_enchanted_metal> * 144);
+mythmelt725.build();
+
+val mythmelt726 = RecipeBuilder.newBuilder("mythmelt726","mythic_processor_melter",2);
+mythmelt726.addEnergyPerTickInput(60000);
+mythmelt726.addItemInput(<extrautils2:ingredients:17>);
+mythmelt726.addFluidOutput(<fluid:xu_evil_metal> * 144);
+mythmelt726.build();
+
+val mythmelt727 = RecipeBuilder.newBuilder("mythmelt727","mythic_processor_melter",2);
+mythmelt727.addEnergyPerTickInput(60000);
+mythmelt727.addItemInput(<extrautils2:simpledecorative:2>);
+mythmelt727.addFluidOutput(<fluid:xu_evil_metal> * 1296);
+mythmelt727.build();
+
+val mythmelt728 = RecipeBuilder.newBuilder("mythmelt728","mythic_processor_melter",2);
+mythmelt728.addEnergyPerTickInput(60000);
+mythmelt728.addItemInput(<extrautils2:simpledecorative:0>);
+mythmelt728.addFluidOutput(<fluid:xu_enchanted_metal> * 1296);
+mythmelt728.build();
+
+val mythmelt729 = RecipeBuilder.newBuilder("mythmelt729","mythic_processor_melter",2);
+mythmelt729.addEnergyPerTickInput(60000);
+mythmelt729.addItemInput(<astralsorcery:itemcraftingcomponent:1>);
+mythmelt729.addFluidOutput(<fluid:starmetal> * 144);
+mythmelt729.build();
+
+val mythmelt730 = RecipeBuilder.newBuilder("mythmelt730","mythic_processor_melter",2);
+mythmelt730.addEnergyPerTickInput(60000);
+mythmelt730.addItemInput(<astralsorcery:blockcustomore:1>);
+mythmelt730.addFluidOutput(<fluid:starmetal> * 288);
+mythmelt730.build();
+
+val mythmelt731 = RecipeBuilder.newBuilder("mythmelt731","mythic_processor_melter",2);
+mythmelt731.addEnergyPerTickInput(60000);
+mythmelt731.addItemInput(<deepmoblearningbm:blood_infused_glitch_ingot>);
+mythmelt731.addFluidOutput(<fluid:blood_infused_glitch> * 144);
+mythmelt731.build();
+
+val mythmelt732 = RecipeBuilder.newBuilder("mythmelt732","mythic_processor_melter",2);
+mythmelt732.addEnergyPerTickInput(60000);
+mythmelt732.addItemInput(<deepmoblearningbm:block_blood_infused_glitch_ingot>);
+mythmelt732.addFluidOutput(<fluid:blood_infused_glitch> * 1296);
+mythmelt732.build();
+
+val mythmelt733 = RecipeBuilder.newBuilder("mythmelt733","mythic_processor_melter",2);
+mythmelt733.addEnergyPerTickInput(60000);
+mythmelt733.addItemInput(<extrautils2:simpledecorative:1>);
+mythmelt733.addFluidOutput(<fluid:xu_demonic_metal> * 1296);
+mythmelt733.build();
+
+val mythmelt734 = RecipeBuilder.newBuilder("mythmelt734","mythic_processor_melter",2);
+mythmelt734.addEnergyPerTickInput(60000);
+mythmelt734.addItemInput(<extrautils2:ingredients:11>);
+mythmelt734.addFluidOutput(<fluid:xu_demonic_metal> * 144);
+mythmelt734.build();
+
+val mythmelt735 = RecipeBuilder.newBuilder("mythmelt735","mythic_processor_melter",2);
+mythmelt735.addEnergyPerTickInput(60000);
+mythmelt735.addItemInput(<mysticalagriculture:crafting:38>);
+mythmelt735.addFluidOutput(<fluid:soulium> * 144);
+mythmelt735.build();
+
+val mythmelt736 = RecipeBuilder.newBuilder("mythmelt736","mythic_processor_melter",2);
+mythmelt736.addEnergyPerTickInput(60000);
+mythmelt736.addItemInput(<mysticalagriculture:ingot_storage:6>);
+mythmelt736.addFluidOutput(<fluid:soulium> * 1296);
+mythmelt736.build();
+
+val mythmelt737 = RecipeBuilder.newBuilder("mythmelt737","mythic_processor_melter",2);
+mythmelt737.addEnergyPerTickInput(60000);
+mythmelt737.addItemInput(<contenttweaker:wrought_iron_plate>);
+mythmelt737.addFluidOutput(<fluid:molten_wrought_iron> * 144);
+mythmelt737.build();
+
+val mythmelt738 = RecipeBuilder.newBuilder("mythmelt738","mythic_processor_melter",2);
+mythmelt738.addEnergyPerTickInput(60000);
+mythmelt738.addItemInput(<contenttweaker:berserker_steel_ingot>);
+mythmelt738.addFluidOutput(<fluid:berserker_steel> * 144);
+mythmelt738.build();
+
+val mythmelt739 = RecipeBuilder.newBuilder("mythmelt739","mythic_processor_melter",2);
+mythmelt739.addEnergyPerTickInput(60000);
+mythmelt739.addItemInput(<thermalfoundation:storage:8>);
+mythmelt739.addFluidOutput(<fluid:mithril> * 1296);
+mythmelt739.build();
+
+val mythmelt740 = RecipeBuilder.newBuilder("mythmelt740","mythic_processor_melter",2);
+mythmelt740.addEnergyPerTickInput(60000);
+mythmelt740.addItemInput(<thermalfoundation:material:136>);
+mythmelt740.addFluidOutput(<fluid:mithril> * 144);
+mythmelt740.build();
+
+val mythmelt741 = RecipeBuilder.newBuilder("mythmelt741","mythic_processor_melter",2);
+mythmelt741.addEnergyPerTickInput(60000);
+mythmelt741.addItemInput(<contenttweaker:trinity_ingot>);
+mythmelt741.addFluidOutput(<fluid:trinity_ingot> * 144);
+mythmelt741.build();
+
+val mythmelt742 = RecipeBuilder.newBuilder("mythmelt742","mythic_processor_melter",2);
+mythmelt742.addEnergyPerTickInput(60000);
+mythmelt742.addItemInput(<extendedcrafting:singularity_custom:2059>);
+mythmelt742.addFluidOutput(<fluid:cyanite> * 728064);
+mythmelt742.build();
+
+val mythmelt743 = RecipeBuilder.newBuilder("mythmelt743","mythic_processor_melter",2);
+mythmelt743.addEnergyPerTickInput(60000);
+mythmelt743.addItemInput(<contenttweaker:double_compressed_aeternalis_fuel>);
+mythmelt743.addFluidOutput(<fluid:aeternalis_fuel> * 8100);
+mythmelt743.build();
+
+val mythmelt744 = RecipeBuilder.newBuilder("mythmelt744","mythic_processor_melter",2);
+mythmelt744.addEnergyPerTickInput(60000);
+mythmelt744.addItemInput(<contenttweaker:triple_compressed_aeternalis_fuel>);
+mythmelt744.addFluidOutput(<fluid:aeternalis_fuel> * 72900);
+mythmelt744.build();
+
+val mythmelt745 = RecipeBuilder.newBuilder("mythmelt745","mythic_processor_melter",2);
+mythmelt745.addEnergyPerTickInput(60000);
+mythmelt745.addItemInput(<contenttweaker:quadruple_compressed_aeternalis_fuel>);
+mythmelt745.addFluidOutput(<fluid:aeternalis_fuel> * 656100);
+mythmelt745.build();
+
+val mythmelt746 = RecipeBuilder.newBuilder("mythmelt746","mythic_processor_melter",2);
+mythmelt746.addEnergyPerTickInput(60000);
+mythmelt746.addItemInput(<contenttweaker:quintuple_compressed_aeternalis_fuel>);
+mythmelt746.addFluidOutput(<fluid:aeternalis_fuel> * 5904900);
+mythmelt746.build();
+
+val mythmelt747 = RecipeBuilder.newBuilder("mythmelt747","mythic_processor_melter",2);
+mythmelt747.addEnergyPerTickInput(60000);
+mythmelt747.addItemInput(<divinerpg:arlemite_block>);
+mythmelt747.addFluidOutput(<fluid:molten_arlemite> * 1296);
+mythmelt747.build();
+
+val mythmelt748 = RecipeBuilder.newBuilder("mythmelt748","mythic_processor_melter",2);
+mythmelt748.addEnergyPerTickInput(60000);
+mythmelt748.addItemInput(<divinerpg:realmite_block>);
+mythmelt748.addFluidOutput(<fluid:molten_realmite> * 1296);
+mythmelt748.build();
+
+val mythmelt749 = RecipeBuilder.newBuilder("mythmelt749","mythic_processor_melter",2);
+mythmelt749.addEnergyPerTickInput(60000);
+mythmelt749.addItemInput(<aoa3:shyrestone_block>);
+mythmelt749.addFluidOutput(<fluid:shyrestone> * 1296);
+mythmelt749.build();
+
+
 
 

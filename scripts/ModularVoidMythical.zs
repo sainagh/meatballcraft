@@ -198,15 +198,15 @@ mods.nuclearcraft.infuser.addRecipe([<ore:ingotLunastone>,
 <fluid:dimensional_essence>*100, 
 <contenttweaker:nethersky_steel_ingot>*4]);
 
-mods.nuclearcraft.infuser.addRecipe([<ore:ingotGhastly>, 
+mods.nuclearcraft.infuser.addRecipe([<aoa3:ghastly_ingot>, 
 <fluid:dimensional_essence>*100, 
 <contenttweaker:nethersky_steel_ingot>*5]);
 
-mods.nuclearcraft.infuser.addRecipe([<ore:ingotGhoulish>, 
+mods.nuclearcraft.infuser.addRecipe([<aoa3:ghoulish_ingot>, 
 <fluid:dimensional_essence>*100, 
 <contenttweaker:nethersky_steel_ingot>*5]);
 
-mods.nuclearcraft.infuser.addRecipe([<ore:ingotShyrestone>, 
+mods.nuclearcraft.infuser.addRecipe([<aoa3:shyrestone_ingot>, 
 <fluid:dimensional_essence>*100, 
 <contenttweaker:nethersky_steel_ingot>*6]);
 
@@ -1362,18 +1362,18 @@ mith16.addItemOutput(<aoa3:white_crystal_block>*20);
 mith16.setChance(0.3);
 mith16.addItemOutput(<aoa3:red_crystal_block>*20);
 mith16.setChance(0.3);
-mith16.addItemOutput(<aoa3:blue_crystal>*50);
-mith16.setChance(0.5);
-mith16.addItemOutput(<aoa3:green_crystal>*50);
-mith16.setChance(0.5);
-mith16.addItemOutput(<aoa3:purple_crystal>*50);
-mith16.setChance(0.5);
-mith16.addItemOutput(<aoa3:yellow_crystal>*50);
-mith16.setChance(0.5);
-mith16.addItemOutput(<aoa3:white_crystal>*50);
-mith16.setChance(0.5);
-mith16.addItemOutput(<aoa3:red_crystal>*50);
-mith16.setChance(0.5);
+mith16.addItemOutput(<aoa3:blue_crystal>*60);
+mith16.setChance(0.9);
+mith16.addItemOutput(<aoa3:green_crystal>*60);
+mith16.setChance(0.9);
+mith16.addItemOutput(<aoa3:purple_crystal>*60);
+mith16.setChance(0.9);
+mith16.addItemOutput(<aoa3:yellow_crystal>*60);
+mith16.setChance(0.9);
+mith16.addItemOutput(<aoa3:white_crystal>*60);
+mith16.setChance(0.9);
+mith16.addItemOutput(<aoa3:red_crystal>*60);
+mith16.setChance(0.9);
 mith16.addItemOutput(<aoa3:gold_coin>*10);
 mith16.setChance(0.3);
 mith16.addItemOutput(<aoa3:medium_skill_crystal>*3);
@@ -3287,6 +3287,14 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:arbiterite_c
 1000000, 
 <contenttweaker:opalescent_matter>, 
 [<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>,
+<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:arbiterite_crystal>*24, 
+1000000, 
+<contenttweaker:gilded_matter>, 
+[<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>,
+<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>,
+<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>,
 <contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>]);
 
 

@@ -855,7 +855,7 @@ import crafttweaker.item.IItemCondition;
 
 <tconstruct:materials:50>.addTooltip(format.red("Tinker Modifier: adds one extra modifier"));
 
-<bloodarsenal:glass_shards>.addTooltip(format.red("Tinker Modifier: bleeding"));
+<bloodarsenal:base_item:0>.addTooltip(format.red("Tinker Modifier: bleeding"));
 
 <iceandfire:ice_dragon_blood>.addTooltip(format.red("Tinker Modifier: slows targets and ice damage"));
 
@@ -1918,8 +1918,8 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:tainted_callstone>.addTooltip(format.red("It will spawn a very tough boss - You should be extremely careful with this one!"));
 
-<contenttweaker:enchdesc_sharpness>.addTooltip(format.red("A huge thanks to Tom and Quantum Chromodynamic Charge for adding these descriptions"));
-<contenttweaker:enchdesc_protection>.addTooltip(format.red("A huge thanks to Tom and Quantum Chromodynamic Charge for adding these descriptions"));
+<contenttweaker:enchdesc_sharpness>.addTooltip(format.red("A huge thanks to Tom4455 and Quantum Chromodynamic Charge for adding these descriptions"));
+<contenttweaker:enchdesc_protection>.addTooltip(format.red("A huge thanks to Tom4455 and Quantum Chromodynamic Charge for adding these descriptions"));
 <contenttweaker:enchdesc_smite>.addTooltip(format.red("It's DOCTOR PROFESSOR PATRICK!"));
 <contenttweaker:enchdesc_withering>.addTooltip(format.red("Use powered spawners"));
 
@@ -1970,7 +1970,6 @@ import crafttweaker.item.IItemCondition;
 
 <thermalexpansion:satchel:0>.addTooltip(format.red("Base tier is not great, but upgrades and the holding enchant can make these very good!"));
 
-<enderio:item_alloy_endergy_ingot:0>.addTooltip(format.red("The nuclearcraft recipe is sooo much better, that's why it will produce radiation"));
 
 <techreborn:chemical_reactor>.addTooltip(format.red("This machine is disabled"));
 
@@ -2145,7 +2144,7 @@ import crafttweaker.item.IItemCondition;
 
 <gendustry:honey_comb:13341>.addTooltip(format.red("Obtained from the fluix callstone"));
 
-<ore:ingotIridium>.addTooltip(format.red("Thanks to Tom for working on the resource JEI info boxes!"));
+<ore:ingotIridium>.addTooltip(format.red("Thanks to Tom4455 for working on the resource JEI info boxes!"));
 
 <ore:ingotTitanium>.addTooltip(format.red("Thanks to Bluecat for compiling all ores Y levels!"));
 
@@ -2388,8 +2387,8 @@ import crafttweaker.item.IItemCondition;
 
 <aether_legacy:invisibility_cape>.addTooltip(format.red("LordRaine thinks it's too powerful, I agree!"));
 
-<appliedenergistics2:energy_acceptor>.addTooltip(format.red("Thank you Tom for adding the JEI info boxes for AE2"));
-<appliedenergistics2:controller>.addTooltip(format.red("Thank you Tom for adding the JEI info boxes for AE2"));
+<appliedenergistics2:energy_acceptor>.addTooltip(format.red("Thank you Tom4455 for adding the JEI info boxes for AE2"));
+<appliedenergistics2:controller>.addTooltip(format.red("Thank you Tom4455 for adding the JEI info boxes for AE2"));
 
 <contenttweaker:right_sacred_sapling>.addTooltip(format.red("Make the sacred acorn!"));
 <contenttweaker:left_sacred_sapling>.addTooltip(format.red("Make the sacred acorn!"));
@@ -3130,7 +3129,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:magic_mushroom_dark>.addTooltip(format.red("Thanks to Xenosplitter and Ikea Bear for compiling the research steps!"));
 
-<contenttweaker:omothol_warp_cleanser>.addTooltip(format.red("Thanks to Tom for compiling the research steps!"));
+<contenttweaker:omothol_warp_cleanser>.addTooltip(format.red("Thanks to Tom4455 for compiling the research steps!"));
 
 <thaumcraft:nugget:9>.addTooltip(format.red("Drop in a crucible to transform excess essentia into crystals"));
 

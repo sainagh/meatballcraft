@@ -564,3 +564,87 @@ dragoncruc47.setChance(0.0);
 dragoncruc47.addItemInput(<avaritiaitem:self_actualizing_stone>*64);
 dragoncruc47.addItemOutput(<extendedcrafting:singularity_ultimate>*1);
 dragoncruc47.build();
+
+
+
+
+val dragoncruc48 = RecipeBuilder.newBuilder("dragoncruc48","dragonfire_crucible",40);
+dragoncruc48.addFluidInput(<fluid:eternal_dragon_fire>*5000);
+dragoncruc48.addItemInput(<aoa3:shyregem>*4);
+dragoncruc48.addItemInput(<contenttweaker:pearlescent_artifact>*4);
+dragoncruc48.addItemInput(<contenttweaker:stormlight_infused_crystal>*4);
+dragoncruc48.addItemInput(<contenttweaker:bloodstone_of_the_great_snake>*4);
+dragoncruc48.addItemOutput(<contenttweaker:eternal_dragonfire_gem>*4);
+dragoncruc48.build();
+
+mods.nuclearcraft.infuser.addRecipe([<aoa3:bloodstone_block>, <fluid:blood_great_snake>*25, <contenttweaker:bloodstone_of_the_great_snake>]);
+
+
+val dragoncruc49 = RecipeBuilder.newBuilder("dragoncruc49","dragonfire_crucible",40);
+dragoncruc49.addFluidInput(<fluid:eleint_dragonfire>*100);
+dragoncruc49.addItemInput(<aoa3:shyregem>*16);
+dragoncruc49.addItemInput(<contenttweaker:pearlescent_artifact>*16);
+dragoncruc49.addItemInput(<contenttweaker:stormlight_infused_crystal>*16);
+dragoncruc49.addItemInput(<contenttweaker:bloodstone_of_the_great_snake>*16);
+dragoncruc49.addItemOutput(<contenttweaker:eternal_dragonfire_gem>*16);
+dragoncruc49.build();
+
+val dragoncruc50 = RecipeBuilder.newBuilder("dragoncruc50","dragonfire_crucible",40);
+dragoncruc50.addFluidInput(<fluid:eleint_dragonfire>*500);
+dragoncruc50.addItemInput(<contenttweaker:heart_of_the_cursed_wyvern>*16);
+dragoncruc50.addItemInput(<contenttweaker:wyvernium_ingot>*16);
+dragoncruc50.addItemInput(<contenttweaker:eternal_dragonfire_gem>*16);
+dragoncruc50.addItemOutput(<contenttweaker:heart_of_the_cursed_wyvern>*32);
+dragoncruc50.build();
+
+
+val dragoncruc51 = RecipeBuilder.newBuilder("dragoncruc51","dragonfire_crucible",40);
+dragoncruc51.addFluidInput(<fluid:eleint_dragonfire>*50);
+dragoncruc51.addItemInput(<contenttweaker:phasing_alloy_ingot>*80);
+dragoncruc51.addItemInput(<contenttweaker:hopebringer_crystal>*10);
+dragoncruc51.addItemInput(<contenttweaker:ascended_draconic_alloy>*10);
+dragoncruc51.addItemOutput(<contenttweaker:scattering_alloy_ingot>*10);
+dragoncruc51.build();
+
+val dragoncruc52 = RecipeBuilder.newBuilder("dragoncruc52","dragonfire_crucible",40);
+dragoncruc52.addFluidInput(<fluid:eleint_dragonfire>*5);
+dragoncruc52.addItemInput(<contenttweaker:flame_of_actualization>);
+dragoncruc52.setChance(0.0);
+dragoncruc52.addItemInput(<contenttweaker:freedomsteel_ingot>*4);
+dragoncruc52.addItemInput(<contenttweaker:stormlight_stone>*128);
+dragoncruc52.addItemOutput(<contenttweaker:stone_of_shadesmar>*128);
+dragoncruc52.build();
+
+val dragoncruc53 = RecipeBuilder.newBuilder("dragoncruc53","dragonfire_crucible",40);
+dragoncruc53.addFluidInput(<fluid:eleint_dragonfire>*100);
+dragoncruc53.addItemInput(<contenttweaker:flame_of_actualization>);
+dragoncruc53.setChance(0.0);
+dragoncruc53.addItemInput(<contenttweaker:runes_of_the_true_tongue>*32);
+dragoncruc53.addItemOutput(<contenttweaker:words_of_actualization>*32);
+dragoncruc53.build();
+
+val dragoncruc54 = RecipeBuilder.newBuilder("dragoncruc54","dragonfire_crucible",40);
+dragoncruc54.addFluidInput(<fluid:eleint_dragonfire>*100);
+dragoncruc54.addItemInput(<contenttweaker:flame_of_actualization>);
+dragoncruc54.setChance(0.0);
+dragoncruc54.addItemInput(<contenttweaker:draconian_metal_ingot>*4);
+dragoncruc54.addItemInput(<extendedcrafting:singularity_custom:2060>);
+dragoncruc54.addItemInput(<extendedcrafting:singularity_custom:2061>);
+dragoncruc54.addItemInput(<contenttweaker:stone_of_boundless_curiosity>);
+dragoncruc54.addItemOutput(<contenttweaker:fiery_eleint_ingot>);
+dragoncruc54.build();
+
+val dragoncruc55 = RecipeBuilder.newBuilder("dragoncruc55","dragonfire_crucible",40);
+dragoncruc55.addFluidInput(<fluid:eleint_dragonfire>*100);
+dragoncruc55.addItemInput(<contenttweaker:flame_of_actualization>);
+dragoncruc55.setChance(0.0);
+dragoncruc55.addItemInput(<contenttweaker:freedomsteel_ingot>*4);
+dragoncruc55.addItemInput(<contenttweaker:fulfilled_shard_of_shadesmar>);
+dragoncruc55.addItemInput(<contenttweaker:actualizing_hyperuranion_ingot>);
+dragoncruc55.addItemInput(<contenttweaker:threefold_stellar_ingot>);
+dragoncruc55.addItemInput(<contenttweaker:words_of_actualization>);
+dragoncruc55.addItemOutput(<contenttweaker:ingot_of_shadesmar>);
+dragoncruc55.build();
+
+
+

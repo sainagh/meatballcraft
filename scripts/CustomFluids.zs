@@ -1318,7 +1318,42 @@ breathofactualization.register();
 var distillateoflevity = VanillaFactory.createFluid("distillate_of_levity", Color.fromHex("82a88c"));
 distillateoflevity.register();
 
+var flameofthetwilightforest = VanillaFactory.createFluid("flame_of_the_twilight_forest", Color.fromHex("82a88c"));
+flameofthetwilightforest.register();
 
+var harmonicfluidlattice = VanillaFactory.createFluid("harmonic_fluid_lattice", Color.fromHex("95e884"));
+harmonicfluidlattice.register();
+
+
+var essenceoftemporalsynthesis = VanillaFactory.createFluid("essence_of_temporal_synthesis", Color.fromHex("c27146"));
+essenceoftemporalsynthesis.register();
+
+var explosiveactualization = VanillaFactory.createFluid("explosive_actualization", Color.fromHex("393ba8"));
+explosiveactualization.register();
+
+var catalyzedactualization = VanillaFactory.createFluid("catalyzed_actualization", Color.fromHex("696ab8"));
+catalyzedactualization.register();
+
+var stationaryactualization = VanillaFactory.createFluid("stationary_actualization", Color.fromHex("acade3"));
+stationaryactualization.register();
+
+var excitedactualization = VanillaFactory.createFluid("excited_actualization", Color.fromHex("96d2d4"));
+excitedactualization.register();
+
+var exuberantactualization = VanillaFactory.createFluid("exuberant_actualization", Color.fromHex("1dcbd1"));
+exuberantactualization.register();
+
+var restingactualization = VanillaFactory.createFluid("resting_actualization", Color.fromHex("1f4b4d"));
+restingactualization.register();
+
+var hyperactiveactualization = VanillaFactory.createFluid("hyperactive_actualization", Color.fromHex("5cad86"));
+hyperactiveactualization.register();
+
+var actingactualization = VanillaFactory.createFluid("acting_actualization", Color.fromHex("1b6e46"));
+actingactualization.register();
+
+var taleofactualization = VanillaFactory.createFluid("tale_of_actualization", Color.fromHex("77d4b3"));
+taleofactualization.register();
 
 
 

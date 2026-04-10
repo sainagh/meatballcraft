@@ -4,10 +4,10 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o#sorrykeletu\n\nThis dimension is a relic of the past, but it may come back...",
+      "desc:8": "§7§o#sorrykeletu\n\nLeft click bedrock in the Overworld at the bottom of the world using an Awakened Kamium Pickaxe",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "contenttweaker:kami_essence_block"
+        "id:8": "thaumictinkerer:ichor_block"
       },
       "name:8": "Bedrock Dimension"
     }
@@ -24,7 +24,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "contenttweaker:kami_essence_block"
+          "id:8": "thaumictinkerer:ichor_block"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

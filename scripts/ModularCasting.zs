@@ -93,6 +93,24 @@ castcons15.build();
 
 
 
+val castcons16 = RecipeBuilder.newBuilder("castcons16","seared_caster",20);
+castcons16.addFluidInput(<fluid:yttrium_ruthenium>*200);
+castcons16.addItemInput(<ore:paneGlass>*1);
+castcons16.addItemOutput(<contenttweaker:yttrium_ruthenium_cluster>*1);
+castcons16.build();
+
+val castcons17 = RecipeBuilder.newBuilder("castcons17","seared_caster",20);
+castcons17.addFluidInput(<fluid:berserker_steel>*1296);
+castcons17.addItemInput(<contenttweaker:fractallite_radiation_shielding>*1);
+castcons17.addItemOutput(<contenttweaker:radiation_absorbing_plate_stamp>*1);
+castcons17.build();
+
+val castcons18 = RecipeBuilder.newBuilder("castcons18","seared_caster",20);
+castcons18.addFluidInput(<fluid:berserker_steel>*50000);
+castcons18.addItemInput(<contenttweaker:ascended_sky_stone>*1);
+castcons18.addItemOutput(<contenttweaker:pure_fluix_geode>*1);
+castcons18.build();
+
 
 
 
@@ -480,7 +498,89 @@ castcouch54.setChance(0.0);
 castcouch54.addItemOutput(<tconstruct:tough_tool_rod>.withTag({Material: "vibranium_alloy"}));
 castcouch54.build();
 
+val castcouch55 = RecipeBuilder.newBuilder("castcouch55","seared_caster",20);
+castcouch55.addFluidInput(<fluid:caesium>*288);
+castcouch55.addItemInput(<contenttweaker:shard_of_restored_faith>);
+castcouch55.setChance(0.0);
+castcouch55.addItemOutput(<contenttweaker:shard_of_restored_faith>);
+castcouch55.build();
 
+val castcouch56 = RecipeBuilder.newBuilder("castcouch56","seared_caster",20);
+castcouch56.addFluidInput(<fluid:rubidium>*288);
+castcouch56.addItemInput(<contenttweaker:shard_of_forgotten_fear_of_death>);
+castcouch56.setChance(0.0);
+castcouch56.addItemOutput(<contenttweaker:shard_of_forgotten_fear_of_death>);
+castcouch56.build();
+
+val castcouch57 = RecipeBuilder.newBuilder("castcouch57","seared_caster",20);
+castcouch57.addFluidInput(<fluid:polonium>*288);
+castcouch57.addItemInput(<contenttweaker:shard_of_forgiven_lost_time>);
+castcouch57.setChance(0.0);
+castcouch57.addItemOutput(<contenttweaker:shard_of_forgiven_lost_time>);
+castcouch57.build();
+
+val castcouch58 = RecipeBuilder.newBuilder("castcouch58","seared_caster",20);
+castcouch58.addFluidInput(<fluid:strontium>*288);
+castcouch58.addItemInput(<contenttweaker:shard_of_rekindled_heritage>);
+castcouch58.setChance(0.0);
+castcouch58.addItemOutput(<contenttweaker:shard_of_rekindled_heritage>);
+castcouch58.build();
+
+val castcouch59 = RecipeBuilder.newBuilder("castcouch59","seared_caster",20);
+castcouch59.addFluidInput(<fluid:crystalline_ichorium>*72);
+castcouch59.addItemInput(<contenttweaker:shard_of_no_hidden_intentions>);
+castcouch59.setChance(0.0);
+castcouch59.addItemOutput(<contenttweaker:shard_of_no_hidden_intentions>);
+castcouch59.build();
+
+val castcouch60 = RecipeBuilder.newBuilder("castcouch60","seared_caster",20);
+castcouch60.addFluidInput(<fluid:hihi_irokane>*72);
+castcouch60.addItemInput(<contenttweaker:shard_of_physical_healing>);
+castcouch60.setChance(0.0);
+castcouch60.addItemOutput(<contenttweaker:shard_of_physical_healing>);
+castcouch60.build();
+
+val castcouch61 = RecipeBuilder.newBuilder("castcouch61","seared_caster",20);
+castcouch61.addFluidInput(<fluid:parafrosynium>*72);
+castcouch61.addItemInput(<contenttweaker:shard_of_realized_worth>);
+castcouch61.setChance(0.0);
+castcouch61.addItemOutput(<contenttweaker:shard_of_realized_worth>);
+castcouch61.build();
+
+val castcouch62 = RecipeBuilder.newBuilder("castcouch62","seared_caster",20);
+castcouch62.addFluidInput(<fluid:orichalcum>*72);
+castcouch62.addItemInput(<contenttweaker:shard_of_restored_relationship>);
+castcouch62.setChance(0.0);
+castcouch62.addItemOutput(<contenttweaker:shard_of_restored_relationship>);
+castcouch62.build();
+
+val castcouch63 = RecipeBuilder.newBuilder("castcouch63","seared_caster",20);
+castcouch63.addFluidInput(<fluid:hassium>*288);
+castcouch63.addItemInput(<contenttweaker:shard_of_surrender>);
+castcouch63.setChance(0.0);
+castcouch63.addItemOutput(<contenttweaker:shard_of_surrender>);
+castcouch63.build();
+
+val castcouch64 = RecipeBuilder.newBuilder("castcouch64","seared_caster",20);
+castcouch64.addFluidInput(<fluid:shyrestone>*288);
+castcouch64.addItemInput(<contenttweaker:shard_of_individual_freedom>);
+castcouch64.setChance(0.0);
+castcouch64.addItemOutput(<contenttweaker:shard_of_individual_freedom>);
+castcouch64.build();
+
+val castcouch65 = RecipeBuilder.newBuilder("castcouch65","seared_caster",20);
+castcouch65.addFluidInput(<fluid:meatballium>*288);
+castcouch65.addItemInput(<contenttweaker:shard_of_controlled_gluttony>);
+castcouch65.setChance(0.0);
+castcouch65.addItemOutput(<contenttweaker:shard_of_controlled_gluttony>);
+castcouch65.build();
+
+val castcouch66 = RecipeBuilder.newBuilder("castcouch66","seared_caster",20);
+castcouch66.addFluidInput(<fluid:arbiterium>*288);
+castcouch66.addItemInput(<contenttweaker:shard_of_humble_education>);
+castcouch66.setChance(0.0);
+castcouch66.addItemOutput(<contenttweaker:shard_of_humble_education>);
+castcouch66.build();
 
 
 

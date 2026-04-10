@@ -283,4 +283,99 @@ mythindblast42.addItemInput(<ore:dustYellorium>*8192);
 mythindblast42.addItemOutput(<bigreactors:ingotyellorium>*8192);
 mythindblast42.build();
 
+val mythindblast43 = RecipeBuilder.newBuilder("mythindblast43","mythic_processor_blaster",2);
+mythindblast43.addEnergyPerTickInput(100000);
+mythindblast43.addFluidInput(<fluid:harmonic_fluid_lattice>*10);
+mythindblast43.addItemInput(<contenttweaker:fire_dragonsteel_ore>*512);
+mythindblast43.addItemInput(<contenttweaker:gilded_matter>*1);
+mythindblast43.addItemOutput(<iceandfire:dragonsteel_fire_ingot>*8192);
+mythindblast43.build();
+
+val mythindblast44 = RecipeBuilder.newBuilder("mythindblast44","mythic_processor_blaster",2);
+mythindblast44.addEnergyPerTickInput(100000);
+mythindblast44.addFluidInput(<fluid:harmonic_fluid_lattice>*10);
+mythindblast44.addItemInput(<contenttweaker:ice_dragonsteel_ore>*512);
+mythindblast44.addItemInput(<contenttweaker:gilded_matter>*1);
+mythindblast44.addItemOutput(<iceandfire:dragonsteel_ice_ingot>*8192);
+mythindblast44.build();
+
+val mythindblast45 = RecipeBuilder.newBuilder("mythindblast45","mythic_processor_blaster",2);
+mythindblast45.addEnergyPerTickInput(100000);
+mythindblast45.addFluidInput(<fluid:harmonic_fluid_lattice>*10);
+mythindblast45.addItemInput(<contenttweaker:lightning_dragonsteel_ore>*512);
+mythindblast45.addItemInput(<contenttweaker:gilded_matter>*1);
+mythindblast45.addItemOutput(<iceandfire:dragonsteel_lightning_ingot>*8192);
+mythindblast45.build();
+
+val mythindblast46 = RecipeBuilder.newBuilder("mythindblast46","mythic_processor_blaster",2);
+mythindblast46.addEnergyPerTickInput(100000);
+mythindblast46.addFluidInput(<fluid:dense_plasma>*10000);
+mythindblast46.addItemInput(<contenttweaker:stargate_brick_base>*16);
+mythindblast46.addItemOutput(<immersiveengineering:stone_decoration:0>*64);
+mythindblast46.build();
+
+val mythindblast47 = RecipeBuilder.newBuilder("mythindblast47","mythic_processor_blaster",2);
+mythindblast47.addEnergyPerTickInput(100000);
+mythindblast47.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindblast47.addItemInput(<ore:oreIridium>*8192);
+mythindblast47.addItemInput(<contenttweaker:gilded_matter>*1);
+mythindblast47.addItemOutput(<thermalfoundation:material:135>*524288);
+mythindblast47.build();
+
+val mythindblast48 = RecipeBuilder.newBuilder("mythindblast48","mythic_processor_blaster",2);
+mythindblast48.addEnergyPerTickInput(100000);
+mythindblast48.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindblast48.addItemInput(<ore:oreTitanium>*8192);
+mythindblast48.addItemInput(<contenttweaker:gilded_matter>*1);
+mythindblast48.addItemOutput(<techreborn:ingot:14>*524288);
+mythindblast48.build();
+
+val mythindblast49 = RecipeBuilder.newBuilder("mythindblast49","mythic_processor_blaster",2);
+mythindblast49.addEnergyPerTickInput(100000);
+mythindblast49.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindblast49.addItemInput(<ore:oreSheldonite>*8192);
+mythindblast49.addItemInput(<contenttweaker:gilded_matter>*1);
+mythindblast49.addItemOutput(<thermalfoundation:material:134>*524288);
+mythindblast49.build();
+
+val mythindblast50 = RecipeBuilder.newBuilder("mythindblast50","mythic_processor_blaster",2);
+mythindblast50.addEnergyPerTickInput(100000);
+mythindblast50.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindblast50.addItemInput(<ore:orePlatinum>*8192);
+mythindblast50.addItemInput(<contenttweaker:gilded_matter>*1);
+mythindblast50.addItemOutput(<thermalfoundation:material:134>*524288);
+mythindblast50.build();
+
+val mythindblast51 = RecipeBuilder.newBuilder("mythindblast51","mythic_processor_blaster",2);
+mythindblast51.addEnergyPerTickInput(100000);
+mythindblast51.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindblast51.addItemInput(<ore:oreTungsten>*8192);
+mythindblast51.addItemInput(<contenttweaker:gilded_matter>*1);
+mythindblast51.addItemOutput(<techreborn:ingot:15>*524288);
+mythindblast51.build();
+
+val mythindblast52 = RecipeBuilder.newBuilder("mythindblast52","mythic_processor_blaster",2);
+mythindblast52.addEnergyPerTickInput(100000);
+mythindblast52.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindblast52.addItemInput(<ore:oreUranium>*8192);
+mythindblast52.addItemInput(<contenttweaker:gilded_matter>*1);
+mythindblast52.addItemOutput(<immersiveengineering:metal:5>*524288);
+mythindblast52.build();
+
+val mythindblast53 = RecipeBuilder.newBuilder("mythindblast53","mythic_processor_blaster",2);
+mythindblast53.addEnergyPerTickInput(100000);
+mythindblast53.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindblast53.addItemInput(<ore:oreThorium>*8192);
+mythindblast53.addItemInput(<contenttweaker:gilded_matter>*1);
+mythindblast53.addItemOutput(<nuclearcraft:ingot:3>*524288);
+mythindblast53.build();
+
+val mythindblast54 = RecipeBuilder.newBuilder("mythindblast54","mythic_processor_blaster",2);
+mythindblast54.addEnergyPerTickInput(100000);
+mythindblast54.addFluidInput(<fluid:recursive_computing_matter>*10);
+mythindblast54.addItemInput(<ore:oreYellorium>*8192);
+mythindblast54.addItemInput(<contenttweaker:gilded_matter>*1);
+mythindblast54.addItemOutput(<bigreactors:ingotyellorium>*524288);
+mythindblast54.build();
+
 

@@ -89,7 +89,7 @@ bonecreatureroll.addItemEntry(<thaumcraft:loot_bag:2>, 5);
 val witherwizard = LootTweaker.getTable("aoa3:entities/mobs/nether/wither_wizard");
 val witherwizardmoretokes = witherwizard.addPool("witherwizardmoretokes", 1, 1, 0, 0);
 witherwizardmoretokes.addItemEntry(<aoa3:nether_tokens>, 5);
-witherwizardmoretokes.addItemEntry(<contenttweaker:nether_terran_cluster>, 5);
+witherwizardmoretokes.addItemEntry(<thaumictinkerer:kamiresource:1>, 5);
 
 val chimera = LootTweaker.getTable("aoa3:entities/mobs/overworld/chimera");
 val chimeraroll = chimera.addPool("chimeraroll", 1, 1, 0, 0);
@@ -678,7 +678,7 @@ pinkslimeextraroll.addItemEntry(<industrialforegoing:pink_slime>, 3);
 
 val endertriplet = LootTweaker.getTable("divinerpg:entities/end/ender_triplets");
 val endertripletshard = endertriplet.addPool("endertripletshard", 1, 1, 0, 0);
-endertripletshard.addItemEntry(<contenttweaker:ender_terran_cluster>, 5);
+endertripletshard.addItemEntry(<thaumictinkerer:kamiresource:0>, 5);
 
 val lostcitiesloot = LootTweaker.getTable("lostcities:chests/lostcitychest");
 val lostcitieslootmeatball = lostcitiesloot.addPool("lostcitieslootmeatball", 2, 3, 0, 0);

@@ -433,3 +433,12 @@ superbee_doctoral.addItemOutput(<magicbees:beecomb:9>*64);
 superbee_doctoral.build();
 
 
+val superbee_oily = RecipeBuilder.newBuilder("superbee_oily","sacred_cinders_apiary",10);	
+superbee_oily.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "extrabees.species.oil", UID0: "extrabees.species.oil"}]}}));	
+superbee_oily.setChance(0.0);	
+superbee_oily.addFluidInput(<fluid:liquid_sunshine>*25);	
+superbee_oily.addItemOutput(<extrabees:honey_comb:3>*64);
+superbee_oily.addItemOutput(<extrabees:honey_comb:23>*64);	
+superbee_oily.build();
+
+

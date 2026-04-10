@@ -441,9 +441,9 @@ reci41.addItemInput(makeVisCrystal(<aspect:humanus> * 1)*125);
 reci41.addItemInput(<minecraft:nether_star>);
 reci41.addItemInput(<minecraft:diamond>);
 reci41.addItemInput(<minecraft:ender_eye>);
-reci41.addItemInput(<contenttweaker:ender_terran_cluster>);
-reci41.addItemInput(<contenttweaker:nether_terran_cluster>);
-reci41.addItemOutput(<contenttweaker:kami_essence_block>);
+reci41.addItemInput(<thaumictinkerer:kamiresource:0>);
+reci41.addItemInput(<thaumictinkerer:kamiresource:1>);
+reci41.addItemOutput(<thaumictinkerer:ichor_block>);
 reci41.build();
 
 val reci42 = RecipeBuilder.newBuilder("inf42","arcane_autoinfuser",120);
@@ -503,7 +503,7 @@ reci47.build();
 val reci48 = RecipeBuilder.newBuilder("inf48","arcane_autoinfuser",120);
 reci48.addEnergyPerTickInput(100);
 reci48.addItemInput(<contenttweaker:aversio_vis_condensate>);
-reci48.addItemInput(<contenttweaker:kamium_ingot>);
+reci48.addItemInput(<thaumictinkerer:kamiresource:3>);
 reci48.addItemInput(<contenttweaker:master_spell_focus>);
 reci48.addItemInput(<thaumadditions:mithminite_fabric>);
 reci48.addItemOutput(<contenttweaker:master_spell_aversio>);
@@ -746,13 +746,13 @@ inf69.addItemOutput(<contenttweaker:master_spell_vinculum>);
 inf69.build();
 
 
-val inf70 = RecipeBuilder.newBuilder("inf70","arcane_autoinfuser",120);
-inf70.addEnergyPerTickInput(100);
-inf70.addItemInput(makeVisCrystal(<aspect:ignis> * 1)*32);
-inf70.addItemInput(makeVisCrystal(<aspect:metallum> * 1)*30);
-inf70.addItemInput(makeVisCrystal(<aspect:sensus> * 1)*30);
-inf70.addItemInput(<thaumcraft:thaumium_pick>);
-inf70.addItemInput(<thaumcraft:nugget:10>);
-inf70.addItemInput(<thaumcraft:plank_greatwood>);
-inf70.addItemOutput(<thaumcraft:elemental_pick>);
-inf70.build();
+
+
+val inf71 = RecipeBuilder.newBuilder("inf71","arcane_autoinfuser",120);
+inf71.addEnergyPerTickInput(100);
+inf71.addItemInput(<contenttweaker:exanimis_vis_condensate>);
+inf71.addItemInput(<twilightforest:naga_scale>);
+inf71.addItemInput(<contenttweaker:master_spell_focus>);
+inf71.addItemInput(<thaumadditions:mithminite_fabric>);
+inf71.addItemOutput(<contenttweaker:master_spell_exanimis>);
+inf71.build();

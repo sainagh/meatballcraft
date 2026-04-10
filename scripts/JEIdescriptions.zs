@@ -4963,4 +4963,31 @@ mods.jei.JEI.addDescription([
 
 
 
+mods.jei.JEI.addDescription([
+    <gadothaumy:infusion_claw>],
+[
+    "The infusion claw is a block that, when placed above a Runic Matrix, enables the automation of thaumcraft infusion recipes.",
+    "",
+    "If the right essentia and item ingredients are present, a redstone signal sent to the claw will start the infusion as if the Matrix had been clicked by a Gauntlet.",
+    "",
+    "Note that the infusion will still follow instability rules, as well as failure if the right essentia is not present."
+]);
 
+
+
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:spam_free_americium_241>],
+[
+    "This describes a couple very fast ways to produce Americium-241. These will not be the most compact setups, but they will save you on machine spam for the endgame ;)",
+    "",
+    "First Chain, more steps, minimal spam:",
+    "1. TBU",
+    "2. LEU-233",
+    "3. LEN-236",
+    "4. HEP-239",
+    "",
+    "Second Chain, less steps, more isotope separators:",
+    "1. MOX-239",
+    "2. HEP-239"
+]);

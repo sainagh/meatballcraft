@@ -747,6 +747,18 @@ packsupportercauldron2.addItemInput(<contenttweaker:chaos_wood>);
 packsupportercauldron2.addItemOutput(<contenttweaker:monumentally_sentient_meatball>);
 packsupportercauldron2.build();
 
+val packsupportercauldron3 = RecipeBuilder.newBuilder("packsupportercauldron3","terrestrial_cauldron",4);
+packsupportercauldron3.addFluidInput(<fluid:essence_of_ilarity>*10);
+packsupportercauldron3.addFluidInput(<fluid:matter_of_restraining>*10);
+packsupportercauldron3.addItemInput(<contenttweaker:monumentally_sentient_meatball>);
+packsupportercauldron3.addItemInput(<gendustry:honey_drop:13337>*32);
+packsupportercauldron3.addItemInput(<contenttweaker:sentient_meatball_flesh>*32);
+packsupportercauldron3.addItemInput(<contenttweaker:pure_twilight_matter>*8);
+packsupportercauldron3.addItemInput(<contenttweaker:chaos_wood>*2);
+packsupportercauldron3.addItemInput(<minecraft:prismarine:0>*64);
+packsupportercauldron3.addItemOutput(<contenttweaker:monumentally_sentient_meatball>*2);
+packsupportercauldron3.build();
+
 
 recipes.addShaped(<contenttweaker:bewitched_cord>,
 [[<bewitchment:spirit_string>, <dimdoors:world_thread>, <bewitchment:pure_filament>],
@@ -1037,6 +1049,22 @@ recursiumfragupgrade5.addItemInput(<aoa3:shyrestone_block>);
 recursiumfragupgrade5.addItemInput(<contenttweaker:fractallite_focus_lens>);
 recursiumfragupgrade5.addItemOutput(<contenttweaker:recursium_ingot>*16);
 recursiumfragupgrade5.build();
+
+
+val creataltbetterrecfragterra = RecipeBuilder.newBuilder("creataltbetterrecfragterra","creation_altar",20);
+creataltbetterrecfragterra.addEnergyPerTickInput(400000000);
+creataltbetterrecfragterra.addFluidInput(<fluid:twilight_fire>*30000);
+creataltbetterrecfragterra.addFluidInput(<fluid:sacred_spring_fire>*30000);
+creataltbetterrecfragterra.addFluidInput(<fluid:fierymetal>*1000000);
+creataltbetterrecfragterra.addFluidInput(<fluid:knightmetal>*1000000);
+creataltbetterrecfragterra.addFluidInput(<fluid:ghostly_matter>*100000);
+creataltbetterrecfragterra.addFluidInput(<fluid:liquid_life>*100000);
+creataltbetterrecfragterra.addItemInput(<contenttweaker:scattering_alloy_ingot>*4);
+creataltbetterrecfragterra.addItemInput(<contenttweaker:crimson_warren_remains>*4);
+creataltbetterrecfragterra.addFluidOutput(<fluid:flame_of_the_twilight_forest>*60000);
+creataltbetterrecfragterra.build();
+
+
 
 
 

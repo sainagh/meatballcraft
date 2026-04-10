@@ -826,21 +826,21 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_stem>,
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_branch>, 
 [[<contenttweaker:discontinuous_void_module>, <contenttweaker:catalyst_of_universal_balance>, <contenttweaker:roaring_warren_alloy>, <contenttweaker:protodermis_casing>, <contenttweaker:roaring_warren_alloy>, <contenttweaker:catalyst_of_universal_balance>, <contenttweaker:discontinuous_void_module>],
-[<contenttweaker:catalyst_of_universal_balance>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:catalyst_of_universal_balance>], 
-[<contenttweaker:roaring_warren_alloy>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:herba_vis_condensate>, <contenttweaker:tardis_casing>, <contenttweaker:herba_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:roaring_warren_alloy>], 
+[<contenttweaker:catalyst_of_universal_balance>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:construct_of_creative_freedom>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:construct_of_creative_freedom>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:catalyst_of_universal_balance>], 
+[<contenttweaker:roaring_warren_alloy>, <contenttweaker:construct_of_creative_freedom>, <contenttweaker:herba_vis_condensate>, <contenttweaker:tardis_casing>, <contenttweaker:herba_vis_condensate>, <contenttweaker:construct_of_creative_freedom>, <contenttweaker:roaring_warren_alloy>], 
 [<contenttweaker:protodermis_casing>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:tardis_casing>, <contenttweaker:tardis_stem>, <contenttweaker:tardis_casing>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:protodermis_casing>], 
-[<contenttweaker:roaring_warren_alloy>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:herba_vis_condensate>, <contenttweaker:tardis_casing>, <contenttweaker:herba_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:roaring_warren_alloy>], 
-[<contenttweaker:catalyst_of_universal_balance>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:catalyst_of_universal_balance>],
+[<contenttweaker:roaring_warren_alloy>, <contenttweaker:construct_of_creative_freedom>, <contenttweaker:herba_vis_condensate>, <contenttweaker:tardis_casing>, <contenttweaker:herba_vis_condensate>, <contenttweaker:construct_of_creative_freedom>, <contenttweaker:roaring_warren_alloy>], 
+[<contenttweaker:catalyst_of_universal_balance>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:construct_of_creative_freedom>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:construct_of_creative_freedom>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:catalyst_of_universal_balance>],
 [<contenttweaker:discontinuous_void_module>, <contenttweaker:catalyst_of_universal_balance>, <contenttweaker:roaring_warren_alloy>, <contenttweaker:protodermis_casing>, <contenttweaker:roaring_warren_alloy>, <contenttweaker:catalyst_of_universal_balance>, <contenttweaker:discontinuous_void_module>]]);  
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:tardis_polyp>, 
 [[<contenttweaker:cosmic_string_module>, <contenttweaker:singular_fractal>, <contenttweaker:eye_of_gallifrey>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:eye_of_gallifrey>, <contenttweaker:singular_fractal>, <contenttweaker:cosmic_string_module>], 
-[<contenttweaker:singular_fractal>, <contenttweaker:eleint_neutronium_casing>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:eleint_neutronium_casing>, <contenttweaker:singular_fractal>], 
-[<contenttweaker:eye_of_gallifrey>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:tardis_branch>, <contenttweaker:balanced_machine_casing>, <contenttweaker:tardis_branch>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:eye_of_gallifrey>], 
+[<contenttweaker:singular_fractal>, <contenttweaker:eleint_neutronium_casing>, <contenttweaker:construct_of_the_time_lords>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:construct_of_the_time_lords>, <contenttweaker:eleint_neutronium_casing>, <contenttweaker:singular_fractal>], 
+[<contenttweaker:eye_of_gallifrey>, <contenttweaker:construct_of_the_time_lords>, <contenttweaker:tardis_branch>, <contenttweaker:balanced_machine_casing>, <contenttweaker:tardis_branch>, <contenttweaker:construct_of_the_time_lords>, <contenttweaker:eye_of_gallifrey>], 
 [<contenttweaker:black_hole_alloy_ingot>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:balanced_machine_casing>, <contenttweaker:tardis_branch>, <contenttweaker:balanced_machine_casing>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:black_hole_alloy_ingot>], 
-[<contenttweaker:eye_of_gallifrey>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:tardis_branch>, <contenttweaker:balanced_machine_casing>, <contenttweaker:tardis_branch>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:eye_of_gallifrey>], 
-[<contenttweaker:singular_fractal>, <contenttweaker:eleint_neutronium_casing>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:eleint_neutronium_casing>, <contenttweaker:singular_fractal>], 
+[<contenttweaker:eye_of_gallifrey>, <contenttweaker:construct_of_the_time_lords>, <contenttweaker:tardis_branch>, <contenttweaker:balanced_machine_casing>, <contenttweaker:tardis_branch>, <contenttweaker:construct_of_the_time_lords>, <contenttweaker:eye_of_gallifrey>], 
+[<contenttweaker:singular_fractal>, <contenttweaker:eleint_neutronium_casing>, <contenttweaker:construct_of_the_time_lords>, <contenttweaker:aqua_vis_condensate>, <contenttweaker:construct_of_the_time_lords>, <contenttweaker:eleint_neutronium_casing>, <contenttweaker:singular_fractal>], 
 [<contenttweaker:cosmic_string_module>, <contenttweaker:singular_fractal>, <contenttweaker:eye_of_gallifrey>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:eye_of_gallifrey>, <contenttweaker:singular_fractal>, <contenttweaker:cosmic_string_module>]]);  
 
 
@@ -1223,3 +1223,111 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:protodermis_casing
 [<contenttweaker:infinite_resonator>, <contenttweaker:mythic_coil_t4>, <contenttweaker:defined_disk>, <contenttweaker:mythic_coil_t4>, <contenttweaker:infinite_resonator>], 
 [<contenttweaker:gravitational_time_crystal>, <contenttweaker:infinite_resonator>, <contenttweaker:kanohi_mask>, <contenttweaker:infinite_resonator>, <contenttweaker:gravitational_time_crystal>]]);  
 
+var maptimelordrelic as IData = {
+		display: {Lore:["§d§oTime Lord Relic§r"]}
+	};
+
+
+scripts.PuzzleUtil.addPuzzleShaped("arbiterrelic1",<astralsorcery:blockmarble:4>.withTag(maptimelordrelic)*8,
+[[<astralsorcery:blockmarble:4>, <astralsorcery:blockmarble:4>, <astralsorcery:blockmarble:4>],
+[<astralsorcery:blockmarble:4>, <contenttweaker:white_bangs>, <astralsorcery:blockmarble:4>],
+[<astralsorcery:blockmarble:4>, <astralsorcery:blockmarble:4>, <astralsorcery:blockmarble:4>]]);
+
+scripts.PuzzleUtil.addPuzzleShaped("arbiterrelic2",<bloodmagic:decorative_brick:0>.withTag(maptimelordrelic)*8,
+[[<bloodmagic:decorative_brick:0>, <bloodmagic:decorative_brick:0>, <bloodmagic:decorative_brick:0>],
+[<bloodmagic:decorative_brick:0>, <contenttweaker:kitty_paw>, <bloodmagic:decorative_brick:0>],
+[<bloodmagic:decorative_brick:0>, <bloodmagic:decorative_brick:0>, <bloodmagic:decorative_brick:0>]]);
+
+scripts.PuzzleUtil.addPuzzleShaped("arbiterrelic3",<aoa3:coral_bricks>.withTag(maptimelordrelic)*8,
+[[<aoa3:coral_bricks>, <aoa3:coral_bricks>, <aoa3:coral_bricks>],
+[<aoa3:coral_bricks>, <contenttweaker:green_eyebrows>, <aoa3:coral_bricks>],
+[<aoa3:coral_bricks>, <aoa3:coral_bricks>, <aoa3:coral_bricks>]]);
+
+scripts.PuzzleUtil.addPuzzleShaped("arbiterrelic4",<libvulpes:coil0:10>.withTag(maptimelordrelic)*8,
+[[<libvulpes:coil0:10>, <libvulpes:coil0:10>, <libvulpes:coil0:10>],
+[<libvulpes:coil0:10>, <contenttweaker:grayscale>, <libvulpes:coil0:10>],
+[<libvulpes:coil0:10>, <libvulpes:coil0:10>, <libvulpes:coil0:10>]]);
+
+scripts.PuzzleUtil.addPuzzleShaped("arbiterrelic5",<tconstruct:metal:2>.withTag(maptimelordrelic)*8,
+[[<tconstruct:metal:2>, <tconstruct:metal:2>, <tconstruct:metal:2>],
+[<tconstruct:metal:2>, <contenttweaker:voxel_camel>, <tconstruct:metal:2>],
+[<tconstruct:metal:2>, <tconstruct:metal:2>, <tconstruct:metal:2>]]);
+
+scripts.PuzzleUtil.addPuzzleShaped("arbiterrelic6",<enderio:block_alloy:8>.withTag(maptimelordrelic)*8,
+[[<enderio:block_alloy:8>, <enderio:block_alloy:8>, <enderio:block_alloy:8>],
+[<enderio:block_alloy:8>, <contenttweaker:cute_rabbit_ears>, <enderio:block_alloy:8>],
+[<enderio:block_alloy:8>, <enderio:block_alloy:8>, <enderio:block_alloy:8>]]);
+
+scripts.PuzzleUtil.addPuzzleShaped("arbiterrelic7",<thaumicaugmentation:starfield_glass:2>.withTag(maptimelordrelic)*8,
+[[<thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>],
+[<thaumicaugmentation:starfield_glass:2>, <contenttweaker:blue_planet>, <thaumicaugmentation:starfield_glass:2>],
+[<thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>, <thaumicaugmentation:starfield_glass:2>]]);
+
+val relicofthetimelords = RecipeBuilder.newBuilder("relicofthetimelords","fractallite_furnace",2);
+relicofthetimelords.addFluidInput(<fluid:aeternalis_fuel>*1000);
+relicofthetimelords.addItemInput(<tardis:dalek_hull>);
+relicofthetimelords.addItemInput(<tardis:toyota_hexagon_4>);
+relicofthetimelords.addItemInput(<enderio:block_alloy:8>.withTag(maptimelordrelic));
+relicofthetimelords.addItemInput(<tconstruct:metal:2>.withTag(maptimelordrelic));
+relicofthetimelords.addItemInput(<libvulpes:coil0:10>.withTag(maptimelordrelic));
+relicofthetimelords.addItemInput(<aoa3:coral_bricks>.withTag(maptimelordrelic));
+relicofthetimelords.addItemInput(<bloodmagic:decorative_brick:0>.withTag(maptimelordrelic));
+relicofthetimelords.addItemInput(<astralsorcery:blockmarble:4>.withTag(maptimelordrelic));
+relicofthetimelords.addItemInput(<thaumicaugmentation:starfield_glass:2>.withTag(maptimelordrelic));
+relicofthetimelords.addItemOutput(<contenttweaker:time_lord_relic>*1);
+relicofthetimelords.build();
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:gallifreyan_shielding>*32, 
+[[<tardis:dalek_hull>, <tardis:dalek_hull>, <tardis:dalek_hull>, <tardis:dalek_hull>, <tardis:dalek_hull>], 
+[<tardis:dalek_hull>, <contenttweaker:space_time_beam>, <contenttweaker:time_lord_relic>, <contenttweaker:space_time_beam>, <tardis:dalek_hull>], 
+[<tardis:dalek_hull>, <contenttweaker:time_lord_relic>, <contenttweaker:tardis_casing>, <contenttweaker:time_lord_relic>, <tardis:dalek_hull>], 
+[<tardis:dalek_hull>, <contenttweaker:space_time_beam>, <contenttweaker:time_lord_relic>, <contenttweaker:space_time_beam>, <tardis:dalek_hull>], 
+[<tardis:dalek_hull>, <tardis:dalek_hull>, <tardis:dalek_hull>, <tardis:dalek_hull>, <tardis:dalek_hull>]]);  
+
+val gallifreyanglass = RecipeBuilder.newBuilder("gallifreyanglass","fractallite_furnace",2);
+gallifreyanglass.addFluidInput(<fluid:aeternalis_fuel>*10000000);
+gallifreyanglass.addItemInput(<contenttweaker:gallifreyan_shielding>);
+gallifreyanglass.addItemInput(<thaumicaugmentation:starfield_glass>*64);
+gallifreyanglass.addItemOutput(<glassential:glass_clear>*32);
+gallifreyanglass.build();
+
+furnace.remove(<glassential:glass_clear>);
+
+
+
+
+mods.chisel.Carving.addGroup("toyotablocks");
+
+mods.chisel.Carving.addVariation("toyotablocks", <tardis:toyota_hexagon_1>);
+mods.chisel.Carving.addVariation("toyotablocks", <tardis:toyota_hexagon_2>);
+mods.chisel.Carving.addVariation("toyotablocks", <tardis:toyota_hexagon_3>);
+mods.chisel.Carving.addVariation("toyotablocks", <tardis:toyota_hexagon_4>);
+
+recipes.addShapeless(<contenttweaker:temporal_mechanism>*4,
+[<contenttweaker:bionic_construct>.reuse(),
+<contenttweaker:temporal_linkage>,
+<ore:rodMyrmitite>,
+<thaumcraft:metal_alchemical_advanced>,
+<contenttweaker:complex_gearbox>,
+<contenttweaker:cuendillar_plate>,
+<contenttweaker:cuendillar_plate>,
+<contenttweaker:cuendillar_plate>,
+<contenttweaker:cuendillar_plate>]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:construct_of_creative_freedom>, 
+[[<contenttweaker:cuendillar_plate>, <contenttweaker:fiery_eleint_ingot>, <contenttweaker:temporal_mechanism>, <contenttweaker:fiery_eleint_ingot>, <contenttweaker:cuendillar_plate>], 
+[<contenttweaker:ingot_of_shadesmar>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:ingot_of_shadesmar>], 
+[<contenttweaker:temporal_mechanism>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:black_hole_alloy_ingot>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:temporal_mechanism>], 
+[<contenttweaker:ingot_of_shadesmar>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:adamantium_reinforced_petrified_wood>, <contenttweaker:ingot_of_shadesmar>], 
+[<contenttweaker:cuendillar_plate>, <contenttweaker:fiery_eleint_ingot>, <contenttweaker:temporal_mechanism>, <contenttweaker:fiery_eleint_ingot>, <contenttweaker:cuendillar_plate>]]);  
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:construct_of_the_time_lords>, 
+[[<contenttweaker:temporal_mechanism>, <contenttweaker:scattering_alloy_ingot>, <contenttweaker:construct_of_creative_freedom>, <contenttweaker:scattering_alloy_ingot>, <contenttweaker:temporal_mechanism>], 
+[<contenttweaker:black_hole_alloy_ingot>, <contenttweaker:time_beacon>, <contenttweaker:hopebringer_fabrial>, <contenttweaker:time_beacon>, <contenttweaker:black_hole_alloy_ingot>], 
+[<contenttweaker:construct_of_creative_freedom>, <contenttweaker:hopebringer_fabrial>, <contenttweaker:temporal_linkage>, <contenttweaker:hopebringer_fabrial>, <contenttweaker:construct_of_creative_freedom>], 
+[<contenttweaker:black_hole_alloy_ingot>, <contenttweaker:time_beacon>, <contenttweaker:hopebringer_fabrial>, <contenttweaker:time_beacon>, <contenttweaker:black_hole_alloy_ingot>], 
+[<contenttweaker:temporal_mechanism>, <contenttweaker:scattering_alloy_ingot>, <contenttweaker:construct_of_creative_freedom>, <contenttweaker:scattering_alloy_ingot>, <contenttweaker:temporal_mechanism>]]);  

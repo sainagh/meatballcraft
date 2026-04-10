@@ -2695,7 +2695,7 @@
 
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("NOTE: to automate this, follow the tips in the JEI info box"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("Use these Super-Enchants as starters:"));
-<contenttweaker:cuendillar_plate>.addTooltip(format.red("Zenith"));
+<contenttweaker:cuendillar_plate>.addTooltip(format.red("Rosidian Sword"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("Explochron Sword"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("Brightsteel Armor"));
 

@@ -28,6 +28,19 @@
                 "operation": 1,
                 "multiplier": 0.05
             }
+        },
+        {
+            "elements": "contenttweaker:void_ichorium_rift_cap@0",
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "description": "60X Speed",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.01666666666
+            }
         }
     ],
     "parts": [

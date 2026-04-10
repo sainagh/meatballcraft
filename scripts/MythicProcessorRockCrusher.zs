@@ -202,4 +202,10 @@ mythrockcrush26.addItemInput(<contenttweaker:warren_livingwood>);
 mythrockcrush26.addItemOutput(<botania:livingwood:0>*512);
 mythrockcrush26.build();
 
-
+val mythrockcrush27 = RecipeBuilder.newBuilder("mythrockcrush27","mythic_processor_rock_crusher",2);
+mythrockcrush27.addEnergyPerTickInput(80000);
+mythrockcrush27.addItemInput(<contenttweaker:ichorium_void_stone>);
+mythrockcrush27.addItemOutput(<enderio:item_material:20>*64);
+mythrockcrush27.addItemOutput(<enderio:item_material:20>*64);
+mythrockcrush27.addItemOutput(<enderio:item_material:20>*64);
+mythrockcrush27.build();

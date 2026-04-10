@@ -19,7 +19,7 @@ val ezpzbloodmorenet = RecipeBuilder.newBuilder("ezpzbloodmorenet","blood_god_al
 ezpzbloodmorenet.addFluidInput(<fluid:water>*1000);
 ezpzbloodmorenet.addItemInput(<contenttweaker:droplet_of_the_great_snake>);
 ezpzbloodmorenet.setChance(0.0);
-ezpzbloodmorenet.addLifeEssenceOutput(100000, false);
+ezpzbloodmorenet.addLifeEssenceOutput(100000, true);
 ezpzbloodmorenet.build();
 
 val ezpzbloodmed = RecipeBuilder.newBuilder("ezpzbloodmed","blood_god_altar",10);
@@ -34,28 +34,28 @@ ezpzbloodnet.addFluidInput(<fluid:water>*1000);
 ezpzbloodnet.addItemInput(<contenttweaker:eldrich_blood_slime>);
 ezpzbloodnet.setChance(0.0);
 // ezpzbloodnet.addFluidOutput(<fluid:lifeessence>*1000);
-ezpzbloodnet.addLifeEssenceOutput(1000, false);
+ezpzbloodnet.addLifeEssenceOutput(1000, true);
 ezpzbloodnet.build();
 
 val rheniumbloodnet = RecipeBuilder.newBuilder("rheniumbloodnet","blood_god_altar_network",50);
 rheniumbloodnet.addFluidInput(<fluid:rhenium>*144);
 rheniumbloodnet.addItemInput(<contenttweaker:eldrich_blood_slime>);
 rheniumbloodnet.setChance(0.0);
-rheniumbloodnet.addLifeEssenceOutput(6000, false);
+rheniumbloodnet.addLifeEssenceOutput(6000, true);
 rheniumbloodnet.build();
 
 val ezpzbloodnetflask = RecipeBuilder.newBuilder("ezpzbloodnetflask","blood_god_altar_network",50);
 ezpzbloodnetflask.addFluidInput(<fluid:water>*1000);
 ezpzbloodnetflask.addItemInput(<contenttweaker:everbloody_flask>);
 ezpzbloodnetflask.setChance(0.0);
-ezpzbloodnetflask.addLifeEssenceOutput(10000, false);
+ezpzbloodnetflask.addLifeEssenceOutput(10000, true);
 ezpzbloodnetflask.build();
 
 val ezpzbloodnetsnek = RecipeBuilder.newBuilder("ezpzbloodnetsnek","blood_god_altar_network",5);
 ezpzbloodnetsnek.addFluidInput(<fluid:rhenium>*144);
 ezpzbloodnetsnek.addItemInput(<contenttweaker:everbloody_flask>);
 ezpzbloodnetsnek.setChance(0.0);
-ezpzbloodnetsnek.addLifeEssenceOutput(100000, false);
+ezpzbloodnetsnek.addLifeEssenceOutput(100000, true);
 ezpzbloodnetsnek.build();
 
 

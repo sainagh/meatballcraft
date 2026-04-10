@@ -155,3 +155,32 @@ mythroll20.addItemInput(<contenttweaker:matter_agglomeration>*4);
 mythroll20.addItemInput(<ore:blockShyrestone>*4);
 mythroll20.addItemOutput(<contenttweaker:matter_inflorescence>);
 mythroll20.build();
+
+val mythroll21 = RecipeBuilder.newBuilder("mythroll21","mythic_processor_rolling_machine",2);
+mythroll21.addEnergyPerTickInput(60000);
+mythroll21.addItemInput(<divinerpg:bluefire_stone>*2);
+mythroll21.addItemInput(<techreborn:plates:2>*4);
+mythroll21.addItemInput(<techreborn:plates:36>*2);
+mythroll21.addItemInput(<contenttweaker:lyonite_plate>);
+mythroll21.addItemOutput(<contenttweaker:lyonite_framing>);
+mythroll21.build();
+
+val mythroll22 = RecipeBuilder.newBuilder("mythroll22","mythic_processor_rolling_machine",2);
+mythroll22.addEnergyPerTickInput(60000);
+mythroll22.addItemInput(<ore:ingotSednanite>*1);
+mythroll22.addItemInput(<ore:ingotPlutonium>*1);
+mythroll22.addItemInput(<techreborn:plates:16>*2);
+mythroll22.addItemInput(<techreborn:plates:20>*2);
+mythroll22.addItemInput(<techreborn:plates:15>*2);
+mythroll22.addItemInput(<contenttweaker:brightseel_alloy_plate>);
+mythroll22.addItemOutput(<contenttweaker:brightsteel_alloy_framing>);
+mythroll22.build();
+
+
+val mythroll23 = RecipeBuilder.newBuilder("mythroll23","mythic_processor_rolling_machine",2);
+mythroll23.addEnergyPerTickInput(60000);
+mythroll23.addItemInput(<techreborn:part:0>*12);
+mythroll23.addItemInput(<contenttweaker:pulsating_fluix_powder>*32);
+mythroll23.addItemOutput(<contenttweaker:fluix_flow_circuit>);
+mythroll23.build();
+

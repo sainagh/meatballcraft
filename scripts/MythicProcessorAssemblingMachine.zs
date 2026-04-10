@@ -474,31 +474,31 @@ mythassmac61.build();
 
 val mythassmac62 = RecipeBuilder.newBuilder("mythassmac62","mythic_processor_assembling_machine",2);
 mythassmac62.addEnergyPerTickInput(40000);
-mythassmac62.addItemInput(<ore:ingotTin>*6);
-mythassmac62.addItemInput(<ore:ingotCopper>*1);
-mythassmac62.addItemInput(<techreborn:part:8>*2);
-mythassmac62.addItemOutput(<techreborn:part:9>*1);
+mythassmac62.addItemInput(<ore:ingotTin>*24);
+mythassmac62.addItemInput(<ore:ingotCopper>*4);
+mythassmac62.addItemInput(<techreborn:part:8>*8);
+mythassmac62.addItemOutput(<techreborn:part:9>*4);
 mythassmac62.build();
 
 val mythassmac63 = RecipeBuilder.newBuilder("mythassmac63","mythic_processor_assembling_machine",2);
 mythassmac63.addEnergyPerTickInput(40000);
-mythassmac63.addItemInput(<ore:ingotTin>*6);
-mythassmac63.addItemInput(<techreborn:part:7>*3);
-mythassmac63.addItemOutput(<techreborn:part:8>*1);
+mythassmac63.addItemInput(<ore:ingotTin>*24);
+mythassmac63.addItemInput(<techreborn:part:7>*12);
+mythassmac63.addItemOutput(<techreborn:part:8>*4);
 mythassmac63.build();
 
 val mythassmac64 = RecipeBuilder.newBuilder("mythassmac64","mythic_processor_assembling_machine",2);
 mythassmac64.addEnergyPerTickInput(40000);
-mythassmac64.addItemInput(<ore:ingotTin>*4);
-mythassmac64.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "helium", Amount: 1000}}));
-mythassmac64.addItemOutput(<techreborn:part:7>*1);
+mythassmac64.addItemInput(<ore:ingotTin>*16);
+mythassmac64.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "helium", Amount: 1000}})*4);
+mythassmac64.addItemOutput(<techreborn:part:7>*4);
 mythassmac64.build();
 
 val mythassmac65 = RecipeBuilder.newBuilder("mythassmac65","mythic_processor_assembling_machine",2);
 mythassmac65.addEnergyPerTickInput(40000);
-mythassmac65.addItemInput(<ore:ingotTin>*4);
-mythassmac65.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidhelium", Amount: 1000}}));
-mythassmac65.addItemOutput(<techreborn:part:7>*1);
+mythassmac65.addItemInput(<ore:ingotTin>*16);
+mythassmac65.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidhelium", Amount: 1000}})*4);
+mythassmac65.addItemOutput(<techreborn:part:7>*4);
 mythassmac65.build();
 
 val mythassmac66 = RecipeBuilder.newBuilder("mythassmac66","mythic_processor_assembling_machine",2);
@@ -581,7 +581,67 @@ mythassmac76.addItemInput(<ore:ingotIridium>);
 mythassmac76.addItemOutput(<techreborn:iridiumneutronreflector>*1);
 mythassmac76.build();
 
+val mythassmac77 = RecipeBuilder.newBuilder("mythassmac77","mythic_processor_assembling_machine",2);
+mythassmac77.addEnergyPerTickInput(40000);
+mythassmac77.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "water", Amount: 1000}})*4);
+mythassmac77.addItemInput(<ore:ingotTin>*16);
+mythassmac77.addItemOutput(<techreborn:part:36>*8);
+mythassmac77.build();
 
+val mythassmac78 = RecipeBuilder.newBuilder("mythassmac78","mythic_processor_assembling_machine",2);
+mythassmac78.addEnergyPerTickInput(40000);
+mythassmac78.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidpotassiun", Amount: 1000}})*8);
+mythassmac78.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsodium", Amount: 1000}})*8);
+mythassmac78.addItemInput(<ore:ingotTin>*16);
+mythassmac78.addItemInput(<techreborn:part:36>*4);
+mythassmac78.addItemOutput(<techreborn:part:10>*4);
+mythassmac78.build();
+
+val mythassmac79 = RecipeBuilder.newBuilder("mythassmac79","mythic_processor_assembling_machine",2);
+mythassmac79.addEnergyPerTickInput(40000);
+mythassmac79.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "potassium", Amount: 1000}})*8);
+mythassmac79.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "sodium", Amount: 1000}})*8);
+mythassmac79.addItemInput(<ore:ingotTin>*16);
+mythassmac79.addItemInput(<techreborn:part:36>*4);
+mythassmac79.addItemOutput(<techreborn:part:10>*4);
+mythassmac79.build();
+
+val mythassmac80 = RecipeBuilder.newBuilder("mythassmac80","mythic_processor_assembling_machine",2);
+mythassmac80.addEnergyPerTickInput(40000);
+mythassmac80.addItemInput(<ore:ingotTin>*24);
+mythassmac80.addItemInput(<techreborn:part:10>*12);
+mythassmac80.addItemOutput(<techreborn:part:11>*4);
+mythassmac80.build();
+
+val mythassmac81 = RecipeBuilder.newBuilder("mythassmac81","mythic_processor_assembling_machine",2);
+mythassmac81.addEnergyPerTickInput(40000);
+mythassmac81.addItemInput(<ore:ingotTin>*24);
+mythassmac81.addItemInput(<techreborn:part:11>*8);
+mythassmac81.addItemInput(<ore:ingotCopper>*4);
+mythassmac81.addItemOutput(<techreborn:part:12>*4);
+mythassmac81.build();
+
+val mythassmac82 = RecipeBuilder.newBuilder("mythassmac82","mythic_processor_assembling_machine",2);
+mythassmac82.addEnergyPerTickInput(40000);
+mythassmac82.addItemInput(<immersiveengineering:wirecoil:0>*64);
+mythassmac82.addItemInput(<minecraft:iron_ingot>*8);
+mythassmac82.addItemOutput(<immersiveengineering:metal_decoration0:0>*8);
+mythassmac82.build();
+
+val mythassmac83 = RecipeBuilder.newBuilder("mythassmac83","mythic_processor_assembling_machine",2);
+mythassmac83.addEnergyPerTickInput(40000);
+mythassmac83.addItemInput(<immersiveengineering:material:20>*64);
+mythassmac83.addItemInput(<ore:stickWood>*16);
+mythassmac83.addItemOutput(<immersiveengineering:wirecoil:0>*64);
+mythassmac83.build();
+
+val mythassmac84 = RecipeBuilder.newBuilder("mythassmac84","mythic_processor_assembling_machine",2);
+mythassmac84.addEnergyPerTickInput(40000);
+mythassmac84.addItemInput(<techreborn:part:14>*24);
+mythassmac84.addItemInput(<techreborn:part:17>*8);
+mythassmac84.addItemInput(<contenttweaker:superconducting_fluix_blend>*1);
+mythassmac84.addItemOutput(<contenttweaker:superconducting_heater>*1);
+mythassmac84.build();
 
 
 

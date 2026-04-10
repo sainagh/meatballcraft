@@ -862,6 +862,9 @@ recipes.addShapeless(<contenttweaker:ineffable_light>,
 recipes.addShapeless(<contenttweaker:stone_of_constraint>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
 
+recipes.addShapeless(<contenttweaker:twilit_venom>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
 recipes.addShapeless(<contenttweaker:dark_capacitor_shard>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
 
@@ -1933,6 +1936,35 @@ recipes.addShapeless(<contenttweaker:sacred_cinders_honey>,
 recipes.addShapeless(<twilightforest:cinder_log>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:sacred_callstone>]);
 
+
+recipes.addShapeless(<tardis:temporal_grace_circuits>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:time_lords_callstone>]);
+
+recipes.addShapeless(<tardis:sonic_second>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:time_lords_callstone>]);
+
+
+
+
+
+
+
+
+
+recipes.addShapeless(<contenttweaker:tribody_fabrial>,
+[<contenttweaker:utopic_spires_special_drop>, <contenttweaker:miniature_black_hole>, <techreborn:machine_frame:0>]);
+recipes.addShapeless(<contenttweaker:bluefire_divine_ore>,
+[<contenttweaker:utopic_spires_special_drop>, <contenttweaker:miniature_black_hole>, <minecraft:stone>]);
+recipes.addShapeless(<contenttweaker:unleashed_divine_ore>,
+[<contenttweaker:utopic_spires_special_drop>, <contenttweaker:miniature_black_hole>, <minecraft:stone>]);
+recipes.addShapeless(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "harmonic_fluid_lattice", Amount: 1000}}),
+[<contenttweaker:utopic_spires_special_drop>, <contenttweaker:miniature_star>]);
+recipes.addShapeless(<contenttweaker:temporal_linkage>,
+[<contenttweaker:utopic_spires_special_drop>, <contenttweaker:miniature_pulsar>]);
+recipes.addShapeless(<contenttweaker:self_confined_neutrino_plasma>,
+[<contenttweaker:utopic_spires_special_drop>, <contenttweaker:miniature_pulsar>]);
+recipes.addShapeless(<contenttweaker:covetous_incubator>,
+[<contenttweaker:utopic_spires_special_drop>, <contenttweaker:miniature_white_hole>]);
 
 
 

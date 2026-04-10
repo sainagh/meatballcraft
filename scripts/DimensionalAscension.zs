@@ -151,7 +151,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("contenttweaker:kami_essence_block", playerPos, [4,0,20], world) == 0) {
+    if (getBlockMatchAtPosition("thaumictinkerer:ichor_block", playerPos, [4,0,20], world) == 0) {
         player.sendChat("Place a block of Kami Essence Block south relative to the Tainted Void Stone Soil, one block away [4,0,20]");
         return "FAIL";
     }
