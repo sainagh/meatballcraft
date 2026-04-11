@@ -77,7 +77,7 @@
 		{"key": "mod_lavacow:lifesteal.desc", "value": "Get healed (5%% * level * damage) when dealing damage."},
 		{"key": "mod_lavacow:poisonous.desc", "value": "Inflicts mobs with Poison for 8 seconds. Poison level scales with enchantment level."},
 		{"key": "openblocks:flim_flam.desc", "value": "Does nothing."},
-		{"key": "openblocks:last_stand.desc", "value": "Prevents death at the cost of XP. (XP cost is 50 / level.)"},
+		{"key": "openblocks:last_stand.desc", "value": "Prevents death at the cost of XP. (XP cost is 400 / level.)"},
 		{"key": "openblocks:explosive.desc", "value": "When on boots, prevents fall damage and triggers an explosion by consuming gunpowder."},
 		{"key": "projectred-expansion:electric_efficiency.desc", "value": "Lowers power usage of ProjectRed Jetpacks? (16x less power max.)"},
 		{"key": "railcraft:destruction.desc", "value": "Makes Crowbars work like hammers."},
