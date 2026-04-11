@@ -1,1 +1,2 @@
 tile.concrete.name=Space-Grade Concrete
+error.rocket.notSameSystem=Interstellar travel requires a Starship! (Are you trying to launch from The Void?)

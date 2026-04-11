@@ -1547,8 +1547,8 @@
     "deepLearnerDisplay": {
       "hearts": 100,
       "mobTrivia": [
-        "他骑着石头。",
-        "没错，他就骑着石头。"
+        "名叫坎德。",
+        "棉花糖坎德。"
       ],
       "entity": "aoa3:cotton_candor",
       "entityScale": 48,

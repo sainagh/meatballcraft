@@ -8,12 +8,25 @@
             "x": 0,
             "y": 0,
             "z": 4,
-            "description": "替换中间方块以将机器速度提高80%",
+            "description": "速度x5",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.2
+            }
+        },
+        {
+            "elements": "contenttweaker:void_ichorium_rift_cap",
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "description": "速度x20",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.05
             }
         }
     ],
