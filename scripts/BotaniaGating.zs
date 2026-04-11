@@ -819,5 +819,26 @@ recipes.addShaped(<contenttweaker:superconductor_artifact>*2,
 mods.botania.RuneAltar.addRecipe(<extrabotany:material:1>*4, 
 [<botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>, <contenttweaker:corrupted_aragonite>, <extrabotany:material:3>], 50);
 
+
+mods.botania.RuneAltar.removeRecipe(<extrabotany:firstfractal>);
 mods.botania.RuneAltar.addRecipe(<extrabotany:firstfractal>, 
-[<extrabotany:excaliber>, <extrabotany:gildedmashedpotato>, <botania:manasteelsword>, <botania:thundersword>, <botania:elementiumsword>, <botania:starsword>, <botania:terrasword>, <minecraft:wooden_sword>, <extrabotany:shadowkatana>, <contenttweaker:first_order_mythic_fractal>], 50);
+[<extrabotany:excaliber>, <extrabotany:gildedmashedpotato>, <botania:manasteelsword>, <botania:thundersword>, <botania:elementiumsword>, <botania:starsword>, <botania:terrasword>, <minecraft:wooden_sword>, <extrabotany:shadowkatana>, <contenttweaker:mark_of_worthiness>], 50);
+
+
+recipes.addShaped(<contenttweaker:mark_of_worthiness>,
+[[<contenttweaker:monumentally_sentient_meatball>, null, <contenttweaker:monumentally_sentient_meatball>],
+[<contenttweaker:shield_of_the_arbiter>, <contenttweaker:essence_of_worthiness>, <contenttweaker:shield_of_the_arbiter>],
+[<contenttweaker:time_lord_relic>, null, <contenttweaker:time_lord_relic>]]);
+
+
+
+
+
+
+
+
+
+
+
+
+

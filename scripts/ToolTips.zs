@@ -2183,7 +2183,7 @@
 <contenttweaker:freed_sky_stone>.addTooltip(format.red("推荐用使用者  :)"));
 
 
-<bewitchment:bottled_hellfire>.addTooltip(format.red("警告：若蒸馏塔只有一个可用输出栏位，合成该物品会导致崩溃"));
+//<bewitchment:bottled_hellfire>.addTooltip(format.red("警告：若蒸馏塔只有一个可用输出栏位，合成该物品会导致崩溃"));
 
 <contenttweaker:sword_shield>.addTooltip(format.red("使用循环装配台实现复制配方的自动化"));
 
@@ -2695,7 +2695,7 @@
 
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("注意：要自动化该物品，遵循JEI信息框中的提示"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("初始需要以下超限附魔："));
-<contenttweaker:cuendillar_plate>.addTooltip(format.red("天顶剑"));
+<contenttweaker:cuendillar_plate>.addTooltip(format.red("伊恩剑"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("爆破剑"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("星钢盔甲"));
 
@@ -3000,7 +3000,6 @@
 <draconicevolution:crafting_injector:*>.addTooltip(format.red("要加快充能速度，可使用与多个通量接出点相连的凛冰固化能量管道为注入合成装置供能"));
 
 <aoa3:flaming_fury>.addTooltip(format.red("KurryCat不会被奇怪的数字格式搞晕"));
-
 
 
 

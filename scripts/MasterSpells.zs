@@ -542,3 +542,15 @@ masterspellvinculum.itemRightClick = function(stack, world, player, hand) {
 masterspellvinculum.register();
 
 
+
+var masterspellexanimis = VanillaFactory.createItem("master_spell_exanimis");
+masterspellexanimis.maxStackSize = 1;
+masterspellexanimis.glowing = true;
+masterspellexanimis.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	Commands.call("summon bewitchment:snake ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:twilit_venom\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"费图奇尼，危险面条\",Attributes:[{Name:generic.maxHealth, Base:3000.0},{Name:generic.attackDamage, Base:50.0}],Health:3000f}", player, world, false, true);
+	return "Pass";
+};
+masterspellexanimis.register();

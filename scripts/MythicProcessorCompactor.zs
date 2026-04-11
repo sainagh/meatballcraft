@@ -740,8 +740,50 @@ mythcomp94.addItemInput(<contenttweaker:gold_leaf>*2);
 mythcomp94.addItemOutput(<extrabotany:material:2>);
 mythcomp94.build();
 
+val mythcomp95 = RecipeBuilder.newBuilder("mythcomp95","mythic_processor_compactor",2);
+mythcomp95.addEnergyPerTickInput(60000);
+mythcomp95.addItemInput(<contenttweaker:radiation_absorbing_plate_stamp>);
+mythcomp95.setChance(0.0);
+mythcomp95.addItemInput(<ore:ingotLead>*16);
+mythcomp95.addItemInput(<ore:dustGraphite>*16);
+mythcomp95.addItemInput(<divinerpg:eden_soul>*16);
+mythcomp95.addItemOutput(<nuclearcraft:part:0>*32);
+mythcomp95.build();
 
+val mythcomp96 = RecipeBuilder.newBuilder("mythcomp96","mythic_processor_compactor",2);
+mythcomp96.addEnergyPerTickInput(60000);
+mythcomp96.addItemInput(<contenttweaker:radiation_absorbing_plate_stamp>);
+mythcomp96.setChance(0.0);
+mythcomp96.addItemInput(<nuclearcraft:part:0>*16);
+mythcomp96.addItemInput(<ore:ingotFluctuatite>*32);
+mythcomp96.addItemInput(<ore:ingotTough>*64);
+mythcomp96.addItemInput(<aoa3:runium_chunk>*32);
+mythcomp96.addItemOutput(<nuclearcraft:part:1>*16);
+mythcomp96.build();
 
+val mythcomp97 = RecipeBuilder.newBuilder("mythcomp97","mythic_processor_compactor",2);
+mythcomp97.addEnergyPerTickInput(60000);
+mythcomp97.addItemInput(<contenttweaker:radiation_absorbing_plate_stamp>);
+mythcomp97.setChance(0.0);
+mythcomp97.addItemInput(<nuclearcraft:part:1>*16);
+mythcomp97.addItemInput(<ore:ingotEmberstone>*32);
+mythcomp97.addItemInput(<ore:dustSulfur>*32);
+mythcomp97.addItemInput(<aoa3:bloodstone>*32);
+mythcomp97.addItemInput(<nuclearcraft:uranium:4>*32);
+mythcomp97.addItemOutput(<nuclearcraft:part:2>*16);
+mythcomp97.build();
+
+val mythcomp98 = RecipeBuilder.newBuilder("mythcomp98","mythic_processor_compactor",2);
+mythcomp98.addEnergyPerTickInput(60000);
+mythcomp98.addItemInput(<contenttweaker:radiation_absorbing_plate_stamp>);
+mythcomp98.setChance(0.0);
+mythcomp98.addItemInput(<nuclearcraft:part:2>*16);
+mythcomp98.addItemInput(<ore:ingotSkeletal>*32);
+mythcomp98.addItemInput(<extendedcrafting:storage:7>*16);
+mythcomp98.addItemInput(<extendedcrafting:material:12>*16);
+mythcomp98.addItemInput(<redstonearsenal:material:128>*64);
+mythcomp98.addItemOutput(<nuclearcraft:part:3>*16);
+mythcomp98.build();
 
 
 

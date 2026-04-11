@@ -24,5 +24,5 @@ mods.jei.JEI.hideCategory("threng.purify");
 mods.jei.JEI.hideCategory("melter");
 
 
-
+mods.jei.JEI.hideCategory("zmaster587.AR.platePresser");
 

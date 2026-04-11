@@ -80,9 +80,9 @@ recipes.addShapeless(<aoa3:penguin_slab>.withTag({display: {Name: "ᚤᛟᛟᛠ�
 [<contenttweaker:eldunari>.reuse(),
 <aoa3:penguin_slab>]);
 
-recipes.addShapeless(<contenttweaker:kami_cloth>.withTag({display: {Name: "ᚵᛊᛠᛔᛟᚤᛕᛊᚧ",Lore:["§d§o真名§r"]}}),
+recipes.addShapeless(<thaumictinkerer:kamiresource:4>.withTag({display: {Name: "ᚵᛊᛠᛔᛟᚤᛕᛊᚧ",Lore:["§d§o真名§r"]}}),
 [<contenttweaker:eldunari>.reuse(),
-<contenttweaker:kami_cloth>]);
+<thaumictinkerer:kamiresource:4>]);
 
 recipes.addShapeless(<minecraft:end_crystal>.withTag({display: {Name: "ᚵᛟᚣᚵᚣᚤᛊ",Lore:["§d§o真名§r"]}}),
 [<contenttweaker:eldunari>.reuse(),
@@ -91,6 +91,5 @@ recipes.addShapeless(<minecraft:end_crystal>.withTag({display: {Name: "ᚵᛟᚣ
 recipes.addShapeless(<tconstruct:ingots:4>.withTag({display: {Name: "ᛟᛁᚤᛕ",Lore:["§d§o真名§r"]}}),
 [<contenttweaker:eldunari>.reuse(),
 <tconstruct:ingots:4>]);
-
 
 

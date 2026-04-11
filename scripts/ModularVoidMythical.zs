@@ -1362,18 +1362,18 @@ mith16.addItemOutput(<aoa3:white_crystal_block>*20);
 mith16.setChance(0.3);
 mith16.addItemOutput(<aoa3:red_crystal_block>*20);
 mith16.setChance(0.3);
-mith16.addItemOutput(<aoa3:blue_crystal>*50);
-mith16.setChance(0.5);
-mith16.addItemOutput(<aoa3:green_crystal>*50);
-mith16.setChance(0.5);
-mith16.addItemOutput(<aoa3:purple_crystal>*50);
-mith16.setChance(0.5);
-mith16.addItemOutput(<aoa3:yellow_crystal>*50);
-mith16.setChance(0.5);
-mith16.addItemOutput(<aoa3:white_crystal>*50);
-mith16.setChance(0.5);
-mith16.addItemOutput(<aoa3:red_crystal>*50);
-mith16.setChance(0.5);
+mith16.addItemOutput(<aoa3:blue_crystal>*60);
+mith16.setChance(0.9);
+mith16.addItemOutput(<aoa3:green_crystal>*60);
+mith16.setChance(0.9);
+mith16.addItemOutput(<aoa3:purple_crystal>*60);
+mith16.setChance(0.9);
+mith16.addItemOutput(<aoa3:yellow_crystal>*60);
+mith16.setChance(0.9);
+mith16.addItemOutput(<aoa3:white_crystal>*60);
+mith16.setChance(0.9);
+mith16.addItemOutput(<aoa3:red_crystal>*60);
+mith16.setChance(0.9);
 mith16.addItemOutput(<aoa3:gold_coin>*10);
 mith16.setChance(0.3);
 mith16.addItemOutput(<aoa3:medium_skill_crystal>*3);
@@ -3289,6 +3289,14 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:arbiterite_c
 [<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>,
 <contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>]);
 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:arbiterite_crystal>*24, 
+1000000, 
+<contenttweaker:gilded_matter>, 
+[<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>,
+<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>,
+<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>,
+<contenttweaker:hassium_alloy_ingot>, <contenttweaker:hassium_alloy_ingot>]);
+
 
 // mods.techreborn.implosionCompressor.addRecipe(<contenttweaker:defined_plate>, <minecraft:stone:0>, <contenttweaker:defined_ingot>, <contenttweaker:bloodmaster_block>*4, 60, 512);
 
@@ -3515,5 +3523,4 @@ mythassalltokens.addItemOutput(<aoa3:runandor_tokens>*64);
 mythassalltokens.addItemOutput(<aoa3:shyrelands_tokens>*64);
 mythassalltokens.addItemOutput(<aoa3:vox_ponds_tokens>*64);
 mythassalltokens.build();
-
 

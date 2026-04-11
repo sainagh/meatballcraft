@@ -145,7 +145,8 @@ var seedsToAnalyze as IItemStack[] = [
     <actuallyadditions:item_flax_seed>,
     <actuallyadditions:item_rice_seed>,
     <immersiveengineering:seed:0>,
-    <actuallyadditions:item_canola_seed>
+    <actuallyadditions:item_canola_seed>,
+    <aoa3:holly_top_seeds>
 ];
 
 // Add analysis recipes for all defined seeds

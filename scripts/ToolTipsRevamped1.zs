@@ -499,6 +499,15 @@
 <avaritia:block_resource:0>.addTooltip(format.aqua("  神话开掘反应堆"));
 <avaritia:block_resource:0>.addTooltip(format.white("     机器速度x5"));
 
+<deepmoblearningbm:block_blood_infused_glitch_ingot>.addTooltip(format.gold("多方块升级："));
+<deepmoblearningbm:block_blood_infused_glitch_ingot>.addTooltip(format.aqua("  神话开掘反应堆"));
+<deepmoblearningbm:block_blood_infused_glitch_ingot>.addTooltip(format.white("     机器速度x100"));
+
+<contenttweaker:screaming_blood_infused_glitch_block>.addTooltip(format.gold("多方块升级："));
+<contenttweaker:screaming_blood_infused_glitch_block>.addTooltip(format.aqua("  神话开掘反应堆"));
+<contenttweaker:screaming_blood_infused_glitch_block>.addTooltip(format.white("     机器速度x100"));
+<contenttweaker:screaming_blood_infused_glitch_block>.addTooltip(format.white("     x6并行"));
+
 <avaritia:block_resource:1>.addTooltip(format.gold("多方块升级："));
 <avaritia:block_resource:1>.addTooltip(format.aqua("  热钢混合器"));
 <avaritia:block_resource:1>.addTooltip(format.white("     x10并行"));
@@ -1079,7 +1088,11 @@
 <aoa3:holy_sword>.addTooltip(format.aqua("  在同一天将所有神明的祝福升到最大值"));
 
 
-
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.gold("多方块升级："));
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.aqua("  自动奥术工作台"));
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.white("     机器速度x60"));
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.aqua("  自动奥术注魔器"));
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.white("     机器速度x20"));
 
 
 

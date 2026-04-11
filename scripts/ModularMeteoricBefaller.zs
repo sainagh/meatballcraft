@@ -292,6 +292,22 @@ recipes.addShaped(<bloodmagic:cutting_fluid:0>,
 [[<aoa3:magic_repair_dust>, <bloodmagic:cutting_fluid>.withTag({used: 15}), <aoa3:magic_repair_dust>]]);
 
 
+val befaller11 = RecipeBuilder.newBuilder("befaller11","meteoric_befaller",100);
+befaller11.addBiomeInput("aoa3:lunalus");
+befaller11.addFluidInput(<fluid:meteoric_draconic_matter>*1000);
+befaller11.addItemInput(<contenttweaker:vibranium_alloy_cluster>);
+befaller11.addItemOutput(<techreborn:ore:0>*32);
+befaller11.addItemOutput(<techreborn:ore:4>*32);
+befaller11.addItemOutput(<techreborn:ore:5>*32);
+befaller11.addItemOutput(<techreborn:ore:6>*32);
+befaller11.addItemOutput(<techreborn:ore:7>*32);
+befaller11.addItemOutput(<techreborn:ore:11>*32);
+befaller11.build();
 
-
+val befaller12 = RecipeBuilder.newBuilder("befaller12","meteoric_befaller",100);
+befaller12.addBiomeInput("tardis:mountains");
+befaller12.addFluidInput(<fluid:meteoric_draconic_matter>*1000);
+befaller12.addItemInput(<contenttweaker:tribody_fabrial>);
+befaller12.addItemOutput(<contenttweaker:threefold_stellar_oscillator>*64);
+befaller12.build();
 

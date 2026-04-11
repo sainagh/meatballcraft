@@ -368,3 +368,8 @@ thaumrepl18me.addFluidOutput(<fluid:whisper_of_right_and_just_creation>*100);
 thaumrepl18me.build();
 
 
+val thaumrepl19 = RecipeBuilder.newBuilder("thaumrepl19","thaumic_replicator",800);
+thaumrepl19.addAspectInput("aqua",1);
+thaumrepl19.addItemInput(<chickens:liquid_egg:0>);
+thaumrepl19.addFluidOutput(<fluid:water>*20000);
+thaumrepl19.build();

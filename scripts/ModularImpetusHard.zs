@@ -8,7 +8,7 @@ mods.thaumcraft.Infusion.registerRecipe("infcatalyzerimp", "",
 <thaumicwonders:coalescence_matrix_precursor>, 
 [<contenttweaker:phasing_gem>, <thaumicaugmentation:impetus_generator>, 
  <contenttweaker:phasing_gem>, <abyssalcraft:tieredenergycontainer:3>, 
- <contenttweaker:phasing_gem>, <contenttweaker:kami_cloth>, 
+ <contenttweaker:phasing_gem>, <thaumictinkerer:kamiresource:4>, 
  <contenttweaker:phasing_gem>, <ebwizardry:scroll:105>]);
 
 
