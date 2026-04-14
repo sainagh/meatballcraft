@@ -47,7 +47,7 @@
 
 
 <contenttweaker:whisper_of_freedom_troll>.addTooltip(format.darkAqua("谜题："));
-<contenttweaker:whisper_of_freedom_troll>.addTooltip(format.aqua("  有巨大黑曜石的地方，……脸"));
+<contenttweaker:whisper_of_freedom_troll>.addTooltip(format.aqua("  有巨大黑曜石的地方，……巨魔"));
 
 <contenttweaker:whisper_of_freedom_giant>.addTooltip(format.darkAqua("谜题："));
 <contenttweaker:whisper_of_freedom_giant>.addTooltip(format.aqua("  九霄之上"));
