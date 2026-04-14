@@ -40,7 +40,7 @@
 <tardis:key>.addTooltip(format.darkAqua("获取："));
 <tardis:key>.addTooltip(format.aqua("  通过完全生长的塔迪斯珊瑚获得"));
 <tardis:key>.addTooltip(format.white("------------------"));
-<tardis:key>.addTooltip(format.green("致那些意志足够坚定——或者说疯得足够彻底——到达此处的人们：恭喜，你们做到了！这一刻属于你们。不过话说回来，再见，谢谢所有的……平衡外壳？"));
+<tardis:key>.addTooltip(format.green("致那些意志足够坚定——或者说疯得足够彻底——到达此处的人们：恭喜，你们做到了！这一刻属于你们。不过话说回来，再会，谢谢所有的……平衡外壳？"));
 <tardis:key>.addTooltip(format.green(" - < ᛊᚢᛉᛗᛞ >"));
 
 
