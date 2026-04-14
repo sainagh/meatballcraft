@@ -28,6 +28,24 @@
 <contenttweaker:tabula_rasa>.addTooltip(format.green("致谢和梗"));
 
 
+<tardis:tardis_coral>.addTooltip(format.gold("使用："));
+<tardis:tardis_coral>.addTooltip(format.yellow("  放置在草方块上，等待一些MC日以让其生长（可用时间之瓶加速）"));
+<tardis:tardis_coral>.addTooltip(format.darkRed("警告："));
+<tardis:tardis_coral>.addTooltip(format.red("  放置该物品将导致掉帧，离基地远点"));
+<tardis:tardis_coral>.addTooltip(format.white("------------------"));
+<tardis:tardis_coral>.addTooltip(format.green("达成永恒荣耀的玩家："));
+<tardis:tardis_coral>.addTooltip(format.green("< ᛊᚢᛉᛗᛞ > (单人)"));
+
+
+<tardis:key>.addTooltip(format.darkAqua("获取："));
+<tardis:key>.addTooltip(format.aqua("  通过完全生长的塔迪斯珊瑚获得"));
+<tardis:key>.addTooltip(format.white("------------------"));
+<tardis:key>.addTooltip(format.green("致那些意志足够坚定——或者说疯得足够彻底——到达此处的人们：恭喜，你们做到了！这一刻属于你们。不过话说回来，再见，谢谢所有的……平衡外壳？"));
+<tardis:key>.addTooltip(format.green(" - < ᛊᚢᛉᛗᛞ >"));
+
+
+
+
 <contenttweaker:whisper_of_freedom_troll>.addTooltip(format.darkAqua("谜题："));
 <contenttweaker:whisper_of_freedom_troll>.addTooltip(format.aqua("  有巨大黑曜石的地方，……脸"));
 

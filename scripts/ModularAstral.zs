@@ -497,4 +497,25 @@ ast33.addItemOutput(<contenttweaker:dynatos_crystal>*5);
 ast33.build();
 
 
+val ast34 = RecipeBuilder.newBuilder("ast34","auto_astral_altar",1200);
+ast34.addEnergyPerTickInput(1000);
+ast34.addItemInput(<contenttweaker:stormlight_infused_crystal>*1);
+ast34.addItemInput(<contenttweaker:supertranslucent_catalyzer>*64);
+ast34.addItemOutput(<contenttweaker:supertranslucent_catalyst>*16);
+ast34.build();
+
+val ast35 = RecipeBuilder.newBuilder("ast35","auto_astral_altar",1200);
+ast35.addEnergyPerTickInput(1000);
+ast35.addItemInput(<contenttweaker:darkstar_infused_crystal>*1);
+ast35.addItemInput(<contenttweaker:supertranslucent_catalyzer>*64);
+ast35.addItemOutput(<contenttweaker:supertranslucent_catalyst>*32);
+ast35.build();
+
+val ast36 = RecipeBuilder.newBuilder("ast36","auto_astral_altar",1200);
+ast36.addEnergyPerTickInput(1000);
+ast36.addItemInput(<contenttweaker:cyclical_starlight_crystal>*1);
+ast36.addItemInput(<contenttweaker:supertranslucent_catalyzer>*64);
+ast36.addItemOutput(<contenttweaker:supertranslucent_catalyst>*64);
+ast36.build();
+
 

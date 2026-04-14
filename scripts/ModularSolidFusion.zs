@@ -287,6 +287,14 @@ bettersolidfusion11.addItemOutput(<materialpart:promethium:ingot>*6);
 bettersolidfusion11.build();
 
 
+val bettersolidfusion12 = RecipeBuilder.newBuilder("bettersolidfusion12","inertial_confinement_reactor",10);
+bettersolidfusion12.addEnergyPerTickInput(1000000);
+bettersolidfusion12.addItemInput(<aoa3:mystite_block>*4);
+bettersolidfusion12.addItemInput(<aoa3:crystallite_block>*4);
+bettersolidfusion12.addItemOutput(<contenttweaker:supertranslucent_catalyzer>*4);
+bettersolidfusion12.build();
+
+
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hohlraum>, 

@@ -2478,7 +2478,6 @@
 <contenttweaker:quasar_core>.addTooltip(format.red("站在一个塞德娜金属稳定器上"));
 
 
-<tardis:key>.addTooltip(format.red("通过完全生长的塔迪斯珊瑚获得"));
 
 <contenttweaker:nineteen_blocks>.addTooltip(format.red("预览中只显示了4个方块，但实际上有19个"));
 

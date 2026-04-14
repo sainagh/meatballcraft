@@ -201,3 +201,11 @@ infinityfurnacedemantoid3.addItemInput(<contenttweaker:strange_stone_essence>);
 infinityfurnacedemantoid3.addItemOutput(<contenttweaker:fractallite_demantoid>*4);
 infinityfurnacedemantoid3.build();
 
+
+val infinityfurnacecursedslate2 = RecipeBuilder.newBuilder("infinityfurnacecursedslate2","infinity_furnace",10);
+infinityfurnacecursedslate2.addFluidInput(<fluid:harmonic_fluid_lattice>*1);
+infinityfurnacecursedslate2.addItemInput(<magicbees:resource:5>*128);
+infinityfurnacecursedslate2.addItemInput(<bloodmagic:slate:4>*64);
+infinityfurnacecursedslate2.addItemInput(<contenttweaker:xxeus_heart>*16);
+infinityfurnacecursedslate2.addItemOutput(<contenttweaker:draconic_catalyst>*4);
+infinityfurnacecursedslate2.build();

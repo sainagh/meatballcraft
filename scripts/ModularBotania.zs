@@ -493,7 +493,6 @@ val bot48 = RecipeBuilder.newBuilder("bot48","gaia_altar",60);
 bot48.addEnergyPerTickInput(40000);
 bot48.addItemInput(<extrabotany:cocoondesire>*32);
 bot48.addItemInput(<contenttweaker:covetous_nest>*1);
-bot48.addItemInput(<contenttweaker:covetous_nest>*1);
 bot48.addItemInput(<contenttweaker:one_power_aspected_emerald>*16);
 bot48.addItemOutput(<contenttweaker:covetous_cocoon>*32);
 bot48.build();

@@ -353,3 +353,27 @@ mytharken33.addItemInput(<contenttweaker:terran_divine_ore>*64);
 mytharken33.addItemOutput(<divinerpg:terran_stone>*4096);
 mytharken33.build();
 
+
+
+val mytharken34 = RecipeBuilder.newBuilder("mytharken34","mythic_processor_arkencrusher",2);
+mytharken34.addEnergyPerTickInput(1000000);
+mytharken34.addFluidInput(<fluid:sacred_spring_fire>*50);
+mytharken34.addItemInput(<contenttweaker:pearlescent_cluster>);
+mytharken34.addItemOutput(<divinerpg:dirty_pearls>*16);
+mytharken34.addItemOutput(<divinerpg:clean_pearls>*16);
+mytharken34.addItemOutput(<divinerpg:polished_pearls>*16);
+mytharken34.addItemOutput(<divinerpg:shiny_pearls>*16);
+mytharken34.addFluidOutput(<fluid:marginal_pearlized_essence>*50);
+mytharken34.build();
+
+
+val mytharken35 = RecipeBuilder.newBuilder("mytharken35","mythic_processor_arkencrusher",2);
+mytharken35.addEnergyPerTickInput(1000000);
+mytharken35.addFluidInput(<fluid:flame_of_the_twilight_forest>*10);
+mytharken35.addItemInput(<contenttweaker:pearlescent_cluster>);
+mytharken35.addItemOutput(<divinerpg:dirty_pearls>*32);
+mytharken35.addItemOutput(<divinerpg:clean_pearls>*32);
+mytharken35.addItemOutput(<divinerpg:polished_pearls>*32);
+mytharken35.addItemOutput(<divinerpg:shiny_pearls>*32);
+mytharken35.addFluidOutput(<fluid:marginal_pearlized_essence>*100);
+mytharken35.build();

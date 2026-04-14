@@ -308,6 +308,6 @@ val befaller12 = RecipeBuilder.newBuilder("befaller12","meteoric_befaller",100);
 befaller12.addBiomeInput("tardis:mountains");
 befaller12.addFluidInput(<fluid:meteoric_draconic_matter>*1000);
 befaller12.addItemInput(<contenttweaker:tribody_fabrial>);
-befaller12.addItemOutput(<contenttweaker:threefold_stellar_oscillator>*64);
+befaller12.addItemOutput(<contenttweaker:threefold_stellar_oscillator>*320);
 befaller12.build();
 

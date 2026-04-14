@@ -816,7 +816,7 @@ inffurnaceshardofshadesmar3.build();
 val inffurnacefulfillshadesmar = RecipeBuilder.newBuilder("inffurnacefulfillshadesmar","infinity_furnace",40);
 inffurnacefulfillshadesmar.addFluidInput(<fluid:breath_of_actualization>*100);
 inffurnacefulfillshadesmar.addItemInput(<contenttweaker:living_shard_of_shadesmar>*32);
-inffurnacefulfillshadesmar.addItemInput(<contenttweaker:recursion_of_history>);
+inffurnacefulfillshadesmar.addItemInput(<contenttweaker:gilded_matter>);
 inffurnacefulfillshadesmar.addItemInput(<aoa3:blue_crystal>*8);
 inffurnacefulfillshadesmar.addItemInput(<aoa3:green_crystal>*8);
 inffurnacefulfillshadesmar.addItemInput(<aoa3:purple_crystal>*8);

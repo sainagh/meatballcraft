@@ -1582,3 +1582,54 @@ moltenchaosentropic1.addItemInput(<contenttweaker:fractallite_quantum>);
 moltenchaosentropic1.addFluidInput(<fluid:actualizing_fluid>*2000);
 moltenchaosentropic1.addFluidOutput(<fluid:explosive_actualization>*250);
 moltenchaosentropic1.build();
+
+
+
+
+
+val crystcryst1 = RecipeBuilder.newBuilder("crystcryst1","essentia_crystallizer",2);
+crystcryst1.addItemInput(<contenttweaker:crystevia_geode>);
+crystcryst1.addItemInput(<aoa3:blue_crystal_block>);
+crystcryst1.addItemOutput(<aoa3:blue_crystal>*9);
+crystcryst1.build();
+
+val crystcryst2 = RecipeBuilder.newBuilder("crystcryst2","essentia_crystallizer",2);
+crystcryst2.addItemInput(<contenttweaker:crystevia_geode>);
+crystcryst2.addItemInput(<aoa3:green_crystal_block>);
+crystcryst2.addItemOutput(<aoa3:green_crystal>*9);
+crystcryst2.build();
+
+val crystcryst3 = RecipeBuilder.newBuilder("crystcryst3","essentia_crystallizer",2);
+crystcryst3.addItemInput(<contenttweaker:crystevia_geode>);
+crystcryst3.addItemInput(<aoa3:purple_crystal_block>);
+crystcryst3.addItemOutput(<aoa3:purple_crystal>*9);
+crystcryst3.build();
+
+val crystcryst4 = RecipeBuilder.newBuilder("crystcryst4","essentia_crystallizer",2);
+crystcryst4.addItemInput(<contenttweaker:crystevia_geode>);
+crystcryst4.addItemInput(<aoa3:yellow_crystal_block>);
+crystcryst4.addItemOutput(<aoa3:yellow_crystal>*9);
+crystcryst4.build();
+
+val crystcryst5 = RecipeBuilder.newBuilder("crystcryst5","essentia_crystallizer",2);
+crystcryst5.addItemInput(<contenttweaker:crystevia_geode>);
+crystcryst5.addItemInput(<aoa3:white_crystal_block>);
+crystcryst5.addItemOutput(<aoa3:white_crystal>*9);
+crystcryst5.build();
+
+val crystcryst6 = RecipeBuilder.newBuilder("crystcryst6","essentia_crystallizer",2);
+crystcryst6.addItemInput(<contenttweaker:crystevia_geode>);
+crystcryst6.addItemInput(<aoa3:red_crystal_block>);
+crystcryst6.addItemOutput(<aoa3:red_crystal>*9);
+crystcryst6.build();
+
+
+
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:dream_projector_gem>*4, <fluid:marginal_pearlized_essence>*8000, <fluid:marginal_pearlized_catalyst>*8000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:cursed_dragon_egg>*4, <fluid:weak_pearlized_essence>*8000, <fluid:weak_pearlized_catalyst>*8000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:strange_stone_essence>*4, <fluid:moderate_pearlized_essence>*8000, <fluid:moderate_pearlized_catalyst>*8000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:infinity_fragment>*16, <fluid:strong_pearlized_essence>*8000, <fluid:strong_pearlized_catalyst>*8000]);

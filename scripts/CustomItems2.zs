@@ -4935,6 +4935,15 @@ purefluixgeode.maxStackSize = 64;
 purefluixgeode.beaconPayment = false;
 purefluixgeode.register();
 
+var supertranslucentcatalyzer = VanillaFactory.createItem("supertranslucent_catalyzer");
+supertranslucentcatalyzer.maxStackSize = 64;
+supertranslucentcatalyzer.beaconPayment = false;
+supertranslucentcatalyzer.register();
+
+var crysteviageode = VanillaFactory.createItem("crystevia_geode");
+crysteviageode.maxStackSize = 64;
+crysteviageode.beaconPayment = false;
+crysteviageode.register();
 
 
 

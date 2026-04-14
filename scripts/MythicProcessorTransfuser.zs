@@ -2107,7 +2107,7 @@ mythenrich22.build();
 
 val mythenrich23 = RecipeBuilder.newBuilder("mythenrich23","mythic_processor_infuser",2);
 mythenrich23.addEnergyPerTickInput(1000000);
-mythenrich23.addItemInput(<avaritia:resource:5>*1);
+mythenrich23.addItemInput(<contenttweaker:infinity_fragment>*4);
 mythenrich23.addFluidInput(<fluid:strong_pearlized_essence>*2000);
 mythenrich23.addFluidOutput(<fluid:strong_pearlized_catalyst>*2000);
 mythenrich23.build();
@@ -2214,3 +2214,9 @@ mythenrich59.addFluidOutput(<fluid:sodium_fluoride_solution>*10000);
 mythenrich59.build();
 
 
+val mythenrich60 = RecipeBuilder.newBuilder("mythenrich60","mythic_processor_infuser",2);
+mythenrich60.addEnergyPerTickInput(1000000);
+mythenrich60.addItemInput(<contenttweaker:fine_mineral_dust>);
+mythenrich60.addFluidInput(<fluid:ogerite>*144);
+mythenrich60.addFluidOutput(<fluid:primal_ogerite>*144);
+mythenrich60.build();

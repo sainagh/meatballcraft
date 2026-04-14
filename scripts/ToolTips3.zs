@@ -81,6 +81,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:black_hole_juice>.addTooltip(format.red("Morph & Shinko (团队)"));
 <contenttweaker:black_hole_juice>.addTooltip(format.red("Origami10004 & _TheOrangeJuice_ (团队)"));
 <contenttweaker:black_hole_juice>.addTooltip(format.red("alltheanova & Randomism (团队)"));
+<contenttweaker:black_hole_juice>.addTooltip(format.red("Ariel_Shigure (单人)"));
 
 
 <avaritia:infinity_sword>.addTooltip(format.red("达成永恒荣耀的玩家："));

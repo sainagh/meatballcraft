@@ -1975,10 +1975,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:fluix_etcher>.addTooltip(format.red("Paronity和Kherune非常喜欢自动合成"));
 
-<tardis:tardis_coral>.addTooltip(format.red("警告：放置该物品将导致卡顿，离基地远点"));
-<tardis:tardis_coral>.addTooltip(format.red("推荐在第一次进入塔迪斯之后，立即转用其他传送手段"));
-
-<tardis:tardis_coral>.addTooltip(format.red("放置在草方块上，等待一些MC日以让其生长"));
 
 <aoa3:bayonette_rifle>.addTooltip(format.red("可施加超限附魔"));
 
