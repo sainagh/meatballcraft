@@ -62,6 +62,16 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:draconic_machine_f
 [<minecraft:dragon_egg>, <draconicevolution:draconium_block:0>, <nuclearcraft:fuel_mixed_oxide:1>, <draconicevolution:draconium_block:0>, <minecraft:dragon_egg>], 
 [<contenttweaker:indium_dust>, <minecraft:dragon_egg>, <draconicevolution:dragon_heart>, <minecraft:dragon_egg>, <contenttweaker:indium_dust>]]);  
 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:draconic_machine_frame>*10, 
+[[null, <minecraft:dragon_egg>, null, <draconicevolution:draconic_block>, <nuclearcraft:fuel_mixed_oxide:1>, <draconicevolution:draconic_block>, null, <minecraft:dragon_egg>, null], 
+[<minecraft:dragon_egg>, <contenttweaker:heart_of_the_cursed_wyvern>, <minecraft:dragon_egg>, <nuclearcraft:fuel_mixed_oxide:0>, <techreborn:machine_frame:2>, <nuclearcraft:fuel_mixed_oxide:0>, <minecraft:dragon_egg>, <contenttweaker:heart_of_the_cursed_wyvern>, <minecraft:dragon_egg>], 
+[null, <minecraft:dragon_egg>, null, <draconicevolution:draconic_block>, <nuclearcraft:fuel_mixed_oxide:1>, <draconicevolution:draconic_block>, null, <minecraft:dragon_egg>, null], 
+[<contenttweaker:indium_dust>, null, <contenttweaker:indium_dust>, null, <contenttweaker:indium_dust>, null, <contenttweaker:indium_dust>, null, <contenttweaker:indium_dust>], 
+[null, <draconicevolution:dragon_heart>, <contenttweaker:draconian_metal_ingot>, <draconicevolution:dragon_heart>, <contenttweaker:words_of_actualization>, <draconicevolution:dragon_heart>, <contenttweaker:draconian_metal_ingot>, <draconicevolution:dragon_heart>, null], 
+[<contenttweaker:indium_dust>, null, <contenttweaker:indium_dust>, null, <contenttweaker:indium_dust>, null, <contenttweaker:indium_dust>, null, <contenttweaker:indium_dust>], 
+[null, <minecraft:dragon_egg>, null, <draconicevolution:draconic_block>, <nuclearcraft:fuel_mixed_oxide:1>, <draconicevolution:draconic_block>, null, <minecraft:dragon_egg>, null], 
+[<minecraft:dragon_egg>, <contenttweaker:heart_of_the_cursed_wyvern>, <minecraft:dragon_egg>, <nuclearcraft:fuel_mixed_oxide:0>, <techreborn:machine_frame:2>, <nuclearcraft:fuel_mixed_oxide:0>, <minecraft:dragon_egg>, <contenttweaker:heart_of_the_cursed_wyvern>, <minecraft:dragon_egg>], 
+[null, <minecraft:dragon_egg>, null, <draconicevolution:draconic_block>, <nuclearcraft:fuel_mixed_oxide:1>, <draconicevolution:draconic_block>, null, <minecraft:dragon_egg>, null]]);  
 
 
 recipes.addShapeless(<minecraft:dragon_egg>,
@@ -526,7 +536,6 @@ recipes.addShapeless(<draconicevolution:tool_upgrade:10>*2,
 
 recipes.addShapeless(<draconicevolution:tool_upgrade:11>*2,
 [<draconicevolution:tool_upgrade:11>, <contenttweaker:energetic_draconium_ingot>]);
-
 
 
 

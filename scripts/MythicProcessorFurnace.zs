@@ -16,7 +16,7 @@ mythfurn2.addItemInput(<materialpart:vibranium:ingot>);
 mythfurn2.addItemInput(<contenttweaker:arc_residue>*3);
 mythfurn2.addItemInput(<iceandfire:dragonsteel_ice_ingot>);
 mythfurn2.addItemInput(<iceandfire:dragonsteel_fire_ingot>);
-mythfurn2.addItemInput(<minecraft:iron_ingot>*6);
+mythfurn2.addItemInput(<ore:ingotAluminum>*6);
 mythfurn2.addItemOutput(<materialpart:hot_vibranium_alloy:ingot>*12);
 mythfurn2.build();
 
@@ -49,6 +49,5 @@ mythfurn7.addEnergyPerTickInput(60000);
 mythfurn7.addItemInput(<ore:logWood>);
 mythfurn7.addItemOutput(<minecraft:coal:1>);
 mythfurn7.build();
-
 
 

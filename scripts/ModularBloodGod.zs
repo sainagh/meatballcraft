@@ -117,7 +117,7 @@ elemaltar10.addItemOutput(<bloodmagic:component:29>);
 elemaltar10.build();
 
 val elemaltar11 = RecipeBuilder.newBuilder("elemaltar11","elemental_altar",10);
-elemaltar11.addLifeEssenceInput(1000, false);
+elemaltar11.addLifeEssenceInput(1000, true);
 elemaltar11.addItemInput(<bloodmagic:component:11>);
 elemaltar11.addItemInput(<bloodmagic:arcane_ashes>);
 elemaltar11.addItemInput(<abyssalcraft:odbcore>);
@@ -128,7 +128,7 @@ elemaltar11.addItemOutput(<contenttweaker:essence_fear>);
 elemaltar11.build();
 
 val elemaltar11a = RecipeBuilder.newBuilder("elemaltar11a","elemental_altar",10);
-elemaltar11a.addLifeEssenceInput(1000, false);
+elemaltar11a.addLifeEssenceInput(1000, true);
 elemaltar11a.addItemInput(<bloodmagic:component:11>);
 elemaltar11a.addItemInput(<contenttweaker:lanthanum_salt>);
 elemaltar11a.addItemInput(<abyssalcraft:odbcore>);
@@ -139,7 +139,7 @@ elemaltar11a.addItemOutput(<contenttweaker:essence_fear>);
 elemaltar11a.build();
 
 val elemaltar12 = RecipeBuilder.newBuilder("elemaltar12","elemental_altar",10);
-elemaltar12.addLifeEssenceInput(1000, false);
+elemaltar12.addLifeEssenceInput(1000, true);
 elemaltar12.addItemInput(<gendustry:gene_sample>.withTag({species: "rootTrees", chromosome: 0, allele: "forestry.treeOak"}));
 elemaltar12.addItemInput(<bloodarsenal:blood_infused_wooden_log>);
 elemaltar12.addItemInput(<abyssalcraft:crystal:14>);
@@ -149,7 +149,7 @@ elemaltar12.addItemOutput(<forestry:logs.5:2>);
 elemaltar12.build();
 
 val elemaltar13 = RecipeBuilder.newBuilder("elemaltar13","elemental_altar",10);
-elemaltar13.addLifeEssenceInput(1000, false);
+elemaltar13.addLifeEssenceInput(1000, true);
 elemaltar13.addItemInput(<bloodmagic:component:4>);
 elemaltar13.addItemInput(<bloodmagic:arcane_ashes>);
 elemaltar13.addItemInput(<abyssalcraft:odbcore>);
@@ -160,7 +160,7 @@ elemaltar13.addItemOutput(<contenttweaker:essence_solitude>);
 elemaltar13.build();
 
 val elemaltar13a = RecipeBuilder.newBuilder("elemaltar13a","elemental_altar",10);
-elemaltar13a.addLifeEssenceInput(1000, false);
+elemaltar13a.addLifeEssenceInput(1000, true);
 elemaltar13a.addItemInput(<bloodmagic:component:4>);
 elemaltar13a.addItemInput(<contenttweaker:lanthanum_salt>);
 elemaltar13a.addItemInput(<abyssalcraft:odbcore>);
@@ -171,7 +171,7 @@ elemaltar13a.addItemOutput(<contenttweaker:essence_solitude>);
 elemaltar13a.build();
 
 val elemaltar14 = RecipeBuilder.newBuilder("elemaltar14","elemental_altar",10);
-elemaltar14.addLifeEssenceInput(1000, false);
+elemaltar14.addLifeEssenceInput(1000, true);
 elemaltar14.addItemInput(<minecraft:gunpowder>);
 elemaltar14.addItemInput(<minecraft:nether_wart>);
 elemaltar14.addItemInput(<minecraft:dye:4>);
@@ -179,7 +179,7 @@ elemaltar14.addItemOutput(<bloodmagic:component:28>);
 elemaltar14.build();
 
 val elemaltar15 = RecipeBuilder.newBuilder("elemaltar15","elemental_altar",10);
-elemaltar15.addLifeEssenceInput(1000, false);
+elemaltar15.addLifeEssenceInput(1000, true);
 elemaltar15.addItemInput(<ore:dustCoal>);
 elemaltar15.addItemInput(<minecraft:gunpowder>);
 elemaltar15.addItemInput(<minecraft:redstone>);
@@ -190,14 +190,14 @@ elemaltar15.addItemOutput(<bloodmagic:cutting_fluid:0>);
 elemaltar15.build();
 
 val elemaltar16 = RecipeBuilder.newBuilder("elemaltar16","elemental_altar",10);
-elemaltar16.addLifeEssenceInput(100, false);
+elemaltar16.addLifeEssenceInput(100, true);
 elemaltar16.addItemInput(<materialpart:sednanite:ingot>);
 elemaltar16.addFluidOutput(<fluid:innerved_fissile_matter>*1000);
 elemaltar16.build();
 
 
 val elemaltar17 = RecipeBuilder.newBuilder("elemaltar17","elemental_altar",5);
-elemaltar17.addLifeEssenceInput(1000, false);
+elemaltar17.addLifeEssenceInput(1000, true);
 elemaltar17.addItemInput(<contenttweaker:deep_metamorphic_rock>*64);
 elemaltar17.addItemInput(<extendedcrafting:material:33>*64);
 elemaltar17.addItemInput(<ore:ingotBloodmasterMetal>*64);
@@ -208,7 +208,7 @@ elemaltar17.addItemOutput(<contenttweaker:deep_slate_catalyst>*64);
 elemaltar17.build();
 
 val elemaltar18 = RecipeBuilder.newBuilder("elemaltar18","elemental_altar",5);
-elemaltar18.addLifeEssenceInput(1000, false);
+elemaltar18.addLifeEssenceInput(1000, true);
 elemaltar18.addItemInput(<contenttweaker:screaming_blood_slime>*16);
 elemaltar18.addItemInput(<contenttweaker:pale_metal>*16);
 elemaltar18.addItemOutput(<contenttweaker:shrieking_metal>*32);
@@ -428,3 +428,9 @@ fluidelemaltar17.addItemInput(<divinerpg:molten_shards>*64);
 fluidelemaltar17.addItemOutput(<contenttweaker:deep_slate_catalyst>*64);
 fluidelemaltar17.build();
 
+val fluidelemaltar18 = RecipeBuilder.newBuilder("fluidelemaltar18","elemental_altar",5);
+fluidelemaltar18.addFluidInput(<fluid:lifeessence>*1000);
+fluidelemaltar18.addItemInput(<contenttweaker:screaming_blood_slime>*16);
+fluidelemaltar18.addItemInput(<contenttweaker:pale_metal>*16);
+fluidelemaltar18.addItemOutput(<contenttweaker:shrieking_metal>*32);
+fluidelemaltar18.build();

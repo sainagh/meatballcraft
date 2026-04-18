@@ -947,6 +947,25 @@
     },
     {
         "mode": "ADD",
+        "result": "contenttweaker:cuendillar_seal,4,0",
+        "catalyst": "aoa3:rune_shrine,1,0",
+        "energy": 800000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:one_power_unleashed_emerald",
+            "contenttweaker:one_power_unleashed_emerald",
+            "contenttweaker:cuendillar_plate",
+            "contenttweaker:cuendillar_plate",
+            "contenttweaker:cuendillar_plate",
+            "contenttweaker:cuendillar_plate",
+            "contenttweaker:cuendillar_plate",
+            "contenttweaker:cuendillar_plate",
+            "contenttweaker:cuendillar_plate",
+            "contenttweaker:cuendillar_plate"
+        ]
+    },
+    {
+        "mode": "ADD",
         "result": "contenttweaker:key_of_restored_balance",
         "catalyst": "contenttweaker:cuendillar_seal",
         "energy": 64000000000000,

@@ -54,3 +54,9 @@ mythreso9.addItemInput(<ebwizardry:magic_crystal:0>);
 mythreso9.addItemOutput(<ebwizardry:magic_crystal:3>);
 mythreso9.build();
 
+val mythreso10 = RecipeBuilder.newBuilder("mythreso10","mythic_processor_resonator",5);
+mythreso10.addEnergyPerTickInput(60000);
+mythreso10.addItemInput(<contenttweaker:matter_of_the_ages>);
+mythreso10.addItemInput(<minecraft:clay_ball>*400);
+mythreso10.addItemOutput(<tconstruct:materials:2>*400);
+mythreso10.build();

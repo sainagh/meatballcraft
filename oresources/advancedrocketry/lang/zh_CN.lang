@@ -1,1 +1,2 @@
 tile.concrete.name=航天级混凝土
+error.rocket.notSameSystem=星际航行需要星际飞船！（你是不是在虚空世界发射的？）

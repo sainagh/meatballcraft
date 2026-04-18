@@ -1410,3 +1410,28 @@ mythpulv224.addItemInput(<contenttweaker:hypercharged_wool>*16);
 mythpulv224.addItemInput(<minecraft:redstone>*4);
 mythpulv224.addItemOutput(<contenttweaker:hypercharged_redstone>*4);
 mythpulv224.build();
+
+val mythpulv225 = RecipeBuilder.newBuilder("mythpulv225","mythic_processor_pulverizer",2);
+mythpulv225.addEnergyPerTickInput(60000);
+mythpulv225.addItemInput(<ore:netherrack>*16);
+mythpulv225.addItemOutput(<techreborn:dust:33>*16);
+mythpulv225.build();
+
+val mythpulv226 = RecipeBuilder.newBuilder("mythpulv226","mythic_processor_pulverizer",2);
+mythpulv226.addEnergyPerTickInput(60000);
+mythpulv226.addItemInput(<ore:stoneMarble>*16);
+mythpulv226.addItemOutput(<techreborn:dust:32>*16);
+mythpulv226.build();
+
+val mythpulv227 = RecipeBuilder.newBuilder("mythpulv227","mythic_processor_pulverizer",2);
+mythpulv227.addEnergyPerTickInput(60000);
+mythpulv227.addItemInput(<nuclearcraft:gem_dust:8>*16);
+mythpulv227.addItemOutput(<nuclearcraft:compound:3>*16);
+mythpulv227.build();
+
+val mythpulv228 = RecipeBuilder.newBuilder("mythpulv228","mythic_processor_pulverizer",2);
+mythpulv228.addEnergyPerTickInput(60000);
+mythpulv228.addItemInput(<contenttweaker:superconducting_fluix>*1);
+mythpulv228.addItemInput(<redstonearsenal:material:0>*128);
+mythpulv228.addItemOutput(<contenttweaker:superconducting_fluix_blend>*128);
+mythpulv228.build();

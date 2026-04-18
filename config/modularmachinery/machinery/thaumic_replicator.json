@@ -89,7 +89,7 @@
                 "io": "input",
                 "target": "modularmachinery:duration",
                 "operation": 1,
-                "multiplier": 0.0625
+                "multiplier": 0.00625
             }]
         }
     ],

@@ -2529,29 +2529,37 @@ recipes.addShapeless(<divinerpg:halite_boots>,
 recipes.addShapeless(<divinerpg:halite_phaser>,
 [<contenttweaker:karot_farm>]);
 
+recipes.addShapeless(<nuclearcraft:americium:0>,
+[<contenttweaker:spam_free_americium_241>]);
+recipes.addShapeless(<nuclearcraft:americium:2>,
+[<contenttweaker:spam_free_americium_241>]);
+
 
 
 
 recipes.addShapeless(<thaumadditions:mithrillium_ingot>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+[<contenttweaker:infusion_pseudo_automation>, <gadothaumy:infusion_claw>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<contenttweaker:halite_bejewelled_ichorium_catalyst>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+[<contenttweaker:infusion_pseudo_automation>, <gadothaumy:infusion_claw>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<contenttweaker:catalyst_of_the_warrens>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+[<contenttweaker:infusion_pseudo_automation>, <gadothaumy:infusion_claw>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<contenttweaker:trinuum_catalyst>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+[<contenttweaker:infusion_pseudo_automation>, <gadothaumy:infusion_claw>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<contenttweaker:infinitely_wishful_catalyst>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+[<contenttweaker:infusion_pseudo_automation>, <gadothaumy:infusion_claw>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<contenttweaker:ascended_eleint_catalyst>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+[<contenttweaker:infusion_pseudo_automation>, <gadothaumy:infusion_claw>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<thaumcraft:elemental_pick>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+[<contenttweaker:infusion_pseudo_automation>, <gadothaumy:infusion_claw>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+
+recipes.addShapeless(<thaumicwonders:void_beacon>,
+[<contenttweaker:infusion_pseudo_automation>, <gadothaumy:infusion_claw>, <modularrouters:item_router>, <modularrouters:module:17>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 
 recipes.addShaped(<erebus:materials:66>*64,

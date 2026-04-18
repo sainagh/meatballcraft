@@ -379,3 +379,51 @@ recipes.addShaped(<divinerpg:mortum_heart>,
 [[<divinerpg:mortum_gem>, <divinerpg:mortum_gem>, <divinerpg:mortum_gem>],
 [<divinerpg:mortum_gem>, <contenttweaker:mortum_core>, <divinerpg:mortum_gem>],
 [<divinerpg:mortum_gem>, <divinerpg:mortum_gem>, <divinerpg:mortum_gem>]]);
+
+
+
+recipes.addShaped(<divinerpg:halite_bow>,
+[[<divinerpg:wildwood_bow>, <contenttweaker:one_power_aspected_emerald>, <divinerpg:apalachia_bow>],
+[<contenttweaker:one_power_aspected_emerald>, <divinerpg:mortum_bow>, <contenttweaker:one_power_aspected_emerald>],
+[<divinerpg:eden_bow>, <contenttweaker:one_power_aspected_emerald>, <divinerpg:skythern_bow>]]);
+
+recipes.addShaped(<divinerpg:halite_blitz>,
+[[<divinerpg:wildwood_blitz>, <contenttweaker:one_power_aspected_emerald>, <divinerpg:apalachia_blitz>],
+[<contenttweaker:one_power_aspected_emerald>, <divinerpg:mortum_blitz>, <contenttweaker:one_power_aspected_emerald>],
+[<divinerpg:eden_blitz>, <contenttweaker:one_power_aspected_emerald>, <divinerpg:skythern_blitz>]]);
+
+recipes.addShaped(<divinerpg:halite_slicer>*32,
+[[<divinerpg:wildwood_slicer>, <erebus:materials:66>, <divinerpg:apalachia_slicer>],
+[<contenttweaker:shard_of_nothingness>, <divinerpg:mortum_slicer>, <contenttweaker:shard_of_nothingness>],
+[<divinerpg:eden_slicer>, <erebus:materials:66>, <divinerpg:skythern_slicer>]]);
+
+recipes.addShaped(<divinerpg:halite_blade>,
+[[<divinerpg:wildwood_blade>, <contenttweaker:eleint_scale>, <divinerpg:apalachia_blade>],
+[<contenttweaker:universal_constellation>, <divinerpg:mortum_blade>, <contenttweaker:universal_constellation>],
+[<divinerpg:eden_blade>, <contenttweaker:eleint_scale>, <divinerpg:skythern_blade>]]);
+
+recipes.addShaped(<divinerpg:halite_shield>,
+[[<divinerpg:wildwood_shield>, <contenttweaker:hopebringer_crystal>, <divinerpg:apalachia_shield>],
+[<ore:ingotIronwood>, <divinerpg:mortum_shield>, <ore:ingotFiery>],
+[<divinerpg:eden_shield>, <ore:ingotKnightmetal>, <divinerpg:skythern_shield>]]);
+
+recipes.addShaped(<divinerpg:halite_chestplate>,
+[[<divinerpg:wildwood_chestplate>, <contenttweaker:one_power_aspected_emerald>, <divinerpg:apalachia_chestplate>],
+[<contenttweaker:bionic_divine_star>, <divinerpg:mortum_chestplate>, <contenttweaker:bionic_divine_star>],
+[<divinerpg:eden_chestplate>, <contenttweaker:one_power_aspected_emerald>, <divinerpg:skythern_chestplate>]]);
+
+
+recipes.addShaped(<divinerpg:halite_leggings>,
+[[<divinerpg:wildwood_leggings>, <contenttweaker:one_power_aspected_emerald>, <divinerpg:apalachia_leggings>],
+[<contenttweaker:bionic_divine_star>, <divinerpg:mortum_leggings>, <contenttweaker:bionic_divine_star>],
+[<divinerpg:eden_leggings>, <contenttweaker:one_power_aspected_emerald>, <divinerpg:skythern_leggings>]]);
+
+recipes.addShaped(<divinerpg:halite_helmet>,
+[[<divinerpg:wildwood_helmet>, <contenttweaker:one_power_aspected_emerald>, <divinerpg:apalachia_helmet>],
+[<contenttweaker:bionic_divine_star>, <divinerpg:mortum_helmet>, <contenttweaker:bionic_divine_star>],
+[<divinerpg:eden_helmet>, <contenttweaker:one_power_aspected_emerald>, <divinerpg:skythern_helmet>]]);
+
+recipes.addShaped(<divinerpg:halite_boots>,
+[[<divinerpg:wildwood_boots>, <contenttweaker:one_power_aspected_emerald>, <divinerpg:apalachia_boots>],
+[<contenttweaker:bionic_divine_star>, <divinerpg:mortum_boots>, <contenttweaker:bionic_divine_star>],
+[<divinerpg:eden_boots>, <contenttweaker:one_power_aspected_emerald>, <divinerpg:skythern_boots>]]);

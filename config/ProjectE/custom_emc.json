@@ -23299,6 +23299,154 @@
     {
       "item": "contenttweaker:strange_stone_essence|0",
       "emc": 0
+    },
+    {
+      "item": "tardis:gallifreyan_sand|0",
+      "emc": 1
+    },
+    {
+      "item": "extrautils2:biomemarker|0",
+      "emc": 0
+    },
+    {
+      "item": "glassential:glass_clear|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:seared|5",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:seared|6",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:seared|7",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:seared|8",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:seared|9",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:seared|10",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:seared|11",
+      "emc": 32
+    },
+    {
+      "item": "openblocks:elevator|2",
+      "emc": 1024
+    },
+    {
+      "item": "openblocks:elevator|1",
+      "emc": 1024
+    },
+    {
+      "item": "openblocks:elevator|3",
+      "emc": 1024
+    },
+    {
+      "item": "openblocks:elevator|4",
+      "emc": 1024
+    },
+    {
+      "item": "openblocks:elevator|5",
+      "emc": 1024
+    },
+    {
+      "item": "openblocks:elevator|6",
+      "emc": 1024
+    },
+    {
+      "item": "openblocks:elevator|7",
+      "emc": 1024
+    },
+    {
+      "item": "openblocks:elevator|14",
+      "emc": 1024
+    },
+    {
+      "item": "openblocks:elevator|15",
+      "emc": 1024
+    },
+    {
+      "item": "openblocks:elevator|13",
+      "emc": 1024
+    },
+    {
+      "item": "openblocks:elevator|12",
+      "emc": 1024
+    },
+    {
+      "item": "openblocks:elevator|11",
+      "emc": 1024
+    },
+    {
+      "item": "openblocks:elevator|10",
+      "emc": 1024
+    },
+    {
+      "item": "openblocks:elevator|9",
+      "emc": 1024
+    },
+    {
+      "item": "openblocks:elevator|8",
+      "emc": 1024
+    },
+    {
+      "item": "thebetweenlands:thatch|0",
+      "emc": 64
+    },
+    {
+      "item": "railcraft:infernal|0",
+      "emc": 50
+    },
+    {
+      "item": "railcraft:infernal|1",
+      "emc": 50
+    },
+    {
+      "item": "railcraft:infernal|4",
+      "emc": 50
+    },
+    {
+      "item": "railcraft:infernal|5",
+      "emc": 50
+    },
+    {
+      "item": "divinerpg:frozen_grass|0",
+      "emc": 1
+    },
+    {
+      "item": "nuclearcraft:flour|0",
+      "emc": 24
+    },
+    {
+      "item": "iceandfire:dread_stone_bricks|0",
+      "emc": 1
+    },
+    {
+      "item": "iceandfire:dread_stone|0",
+      "emc": 1
+    },
+    {
+      "item": "iceandfire:dread_stone_tile|0",
+      "emc": 1
+    },
+    {
+      "item": "iceandfire:dread_stone_face|0",
+      "emc": 1
+    },
+    {
+      "item": "iceandfire:dread_stone_bricks_mossy|0",
+      "emc": 9
     }
   ]
 }

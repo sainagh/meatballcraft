@@ -33,6 +33,18 @@ baphometaltar1.addItemInput(<extendedcrafting:material:33>*4);
 baphometaltar1.addItemOutput(<contenttweaker:advanced_mythic_electronic_circuit>);
 baphometaltar1.build();
 
+val baphometaltar2 = RecipeBuilder.newBuilder("baphometaltar2","baphomet_altar",30);
+baphometaltar2.addItemInput(<contenttweaker:mythic_electronic_circuit>*4);
+baphometaltar2.addItemInput(<extendedcrafting:material:32>*2);
+baphometaltar2.addItemOutput(<contenttweaker:advanced_mythic_electronic_circuit>*4);
+baphometaltar2.build();
+
+val baphometaltar3 = RecipeBuilder.newBuilder("baphometaltar3","baphomet_altar",30);
+baphometaltar3.addItemInput(<contenttweaker:mythic_electronic_circuit>*16);
+baphometaltar3.addItemInput(<extendedcrafting:storage:4>*2);
+baphometaltar3.addItemOutput(<contenttweaker:advanced_mythic_electronic_circuit>*16);
+baphometaltar3.build();
+
 recipes.addShaped(<contenttweaker:mythic_electronic_circuit>,
 [[<aoa3:vox_ponds_tokens>, <aoa3:mysterium_tokens>, <aoa3:iromine_tokens>],
 [<aoa3:crystevia_tokens>, <techreborn:part:30>, <aoa3:haven_tokens>],

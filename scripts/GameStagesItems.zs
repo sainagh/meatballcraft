@@ -30,3 +30,10 @@ mods.ItemStages.addItemStage("astralmastery", <extrabotany:buddhistrelics>.withT
 mods.ItemStages.addItemStage("astralmastery", <extrabotany:buddhistrelics>.withTag({mode:8}));
 mods.ItemStages.addItemStage("astralmastery", <extrabotany:buddhistrelics>.withTag({mode:9}));
 mods.ItemStages.addItemStage("astralmastery", <extrabotany:buddhistrelics>.withTag({mode:10}));
+
+
+
+mods.ItemStages.addItemStage("dynatos", <extrabotany:firstfractal>);
+
+
+

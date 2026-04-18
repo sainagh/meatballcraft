@@ -613,3 +613,64 @@ philounit55.addItemInput(<ore:gemMalachite>);
 philounit55.addItemInput(<contenttweaker:tuned_botanic_alchemic_catalyst>.withTag({display: {Lore: ["乳白"]}}));
 philounit55.addItemOutput(<contenttweaker:terrestrial_catalyst>*36);
 philounit55.build();
+
+
+val philounit56 = RecipeBuilder.newBuilder("philounit56","philosophers_unifier",2);
+philounit56.addEnergyPerTickInput(100);
+philounit56.addItemInput(<aoa3:sapphire>*3);
+philounit56.addItemInput(<aoa3:jade>*3);
+philounit56.addItemInput(<aoa3:amethyst>*3);
+philounit56.addItemOutput(<contenttweaker:alchemical_crystal>*1);
+philounit56.build();
+
+val philounit57 = RecipeBuilder.newBuilder("philounit57","philosophers_unifier",2);
+philounit57.addEnergyPerTickInput(100);
+philounit57.addItemInput(<aoa3:sapphire>*2);
+philounit57.addItemInput(<aoa3:jade>*2);
+philounit57.addItemInput(<aoa3:amethyst>*2);
+philounit57.addItemInput(<divinerpg:eden_fragments>*3);
+philounit57.addItemOutput(<contenttweaker:alchemical_crystal>*4);
+philounit57.build();
+
+val philounit58 = RecipeBuilder.newBuilder("philounit58","philosophers_unifier",2);
+philounit58.addEnergyPerTickInput(100);
+philounit58.addItemInput(<aoa3:sapphire>*2);
+philounit58.addItemInput(<aoa3:jade>*2);
+philounit58.addItemInput(<aoa3:amethyst>*2);
+philounit58.addItemInput(<divinerpg:wildwood_fragments>*3);
+philounit58.addItemOutput(<contenttweaker:alchemical_crystal>*8);
+philounit58.build();
+
+val philounit59 = RecipeBuilder.newBuilder("philounit59","philosophers_unifier",2);
+philounit59.addEnergyPerTickInput(100);
+philounit59.addItemInput(<aoa3:sapphire>*2);
+philounit59.addItemInput(<aoa3:jade>*2);
+philounit59.addItemInput(<aoa3:amethyst>*2);
+philounit59.addItemInput(<divinerpg:apalachia_fragments>*3);
+philounit59.addItemOutput(<contenttweaker:alchemical_crystal>*16);
+philounit59.build();
+
+val philounit60 = RecipeBuilder.newBuilder("philounit60","philosophers_unifier",2);
+philounit60.addEnergyPerTickInput(100);
+philounit60.addItemInput(<aoa3:sapphire>*2);
+philounit60.addItemInput(<aoa3:jade>*2);
+philounit60.addItemInput(<aoa3:amethyst>*2);
+philounit60.addItemInput(<divinerpg:skythern_fragments>*3);
+philounit60.addItemOutput(<contenttweaker:alchemical_crystal>*32);
+philounit60.build();
+
+val philounit61 = RecipeBuilder.newBuilder("philounit61","philosophers_unifier",2);
+philounit61.addEnergyPerTickInput(100);
+philounit61.addItemInput(<aoa3:sapphire>*2);
+philounit61.addItemInput(<aoa3:jade>*2);
+philounit61.addItemInput(<aoa3:amethyst>*2);
+philounit61.addItemInput(<divinerpg:mortum_fragments>*3);
+philounit61.addItemOutput(<contenttweaker:alchemical_crystal>*64);
+philounit61.build();
+
+val philounit62 = RecipeBuilder.newBuilder("philounit62","philosophers_unifier",2);
+philounit62.addEnergyPerTickInput(100);
+philounit62.addItemInput(<contenttweaker:opalescent_matter>*128);
+philounit62.addItemInput(<contenttweaker:recursion_of_history>*1);
+philounit62.addItemOutput(<contenttweaker:gilded_matter>*128);
+philounit62.build();

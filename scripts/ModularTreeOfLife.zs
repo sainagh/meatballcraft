@@ -433,8 +433,8 @@ treeoflifefragnatlaw.build();
 val treeoflifepapahimar = RecipeBuilder.newBuilder("treeoflifepapahimar","tree_of_life",2);
 treeoflifepapahimar.addEnergyPerTickInput(100000);
 treeoflifepapahimar.addItemInput(<extratrees:food:40>);
-treeoflifepapahimar.addItemInput(<forestry:fruits:6>*512);
-treeoflifepapahimar.addItemInput(<contenttweaker:sacred_cinders_fruit>*512);
-treeoflifepapahimar.addItemOutput(<extratrees:food:40>*2048);
+treeoflifepapahimar.addItemInput(<forestry:fruits:6>*2048);
+treeoflifepapahimar.addItemInput(<contenttweaker:sacred_cinders_fruit>*2048);
+treeoflifepapahimar.addItemOutput(<extratrees:food:40>*8192);
 treeoflifepapahimar.build();
 

@@ -494,10 +494,11 @@ addController(<modularmachinery:warren_extractor_raremetals_controller>, "modula
 
 addController(<modularmachinery:mythic_processor_centrifuge_controller>, "modularmachinery:mythic_processor_centrifuge");
 
+addController(<modularmachinery:utopic_spires_controller>, "modularmachinery:utopic_spires");
+
 
 // Leave this at the bottom of the file, as it depends on the oredict being filled
 furnace.addRecipe(<modularmachinery:blockcontroller>, anyBlockControllerDict);
-
 
 
 

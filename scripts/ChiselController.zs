@@ -185,6 +185,7 @@ mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:black
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:ligature_of_the_three_oaths_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:vengeance_tesseract_controller>);
 mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:presbytery_of_the_threefold_love_controller>);
+mods.chisel.Carving.addVariation("dysonstuffcontroller", <modularmachinery:utopic_spires_controller>);
 
 
 

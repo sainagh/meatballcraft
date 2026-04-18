@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    946808945
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:recursion_of_history"
+      },
+      "name:8": "乌托邦"
+    }
+  },
+  "questID:3": 436605848,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:recursion_of_history"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

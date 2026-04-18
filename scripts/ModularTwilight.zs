@@ -153,3 +153,9 @@ reci15.addItemOutput(<contenttweaker:hopebringer_crystal>*12);
 reci15.build();
 
 
+val reci16 = RecipeBuilder.newBuilder("twiweap16","carminite_empowerer",20);
+reci16.addEnergyPerTickInput(5000);
+reci16.addAspectInput("motus",20);
+reci16.addItemInput(<contenttweaker:twilit_venom>*4);
+reci16.addItemOutput(<bewitchment:snake_venom>*64);
+reci16.build();
