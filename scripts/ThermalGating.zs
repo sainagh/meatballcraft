@@ -149,10 +149,6 @@ recipes.addShaped(<extrautils2:machine:0>*4,
 [<minecraft:redstone>, <aoa3:holly_top_petals>, <minecraft:redstone>],
 [<ore:ingotDreadium>, <minecraft:redstone>, <ore:ingotDreadium>]]);
 
-recipes.addShaped(<techreborn:machine_frame:0>*2,
-[[<contenttweaker:nethersky_steel_ingot>, <ore:wireCopper>, <contenttweaker:nethersky_steel_ingot>],
-[<ore:wireCopper>, null, <ore:wireCopper>],
-[<contenttweaker:nethersky_steel_ingot>, <ore:wireCopper>, <contenttweaker:nethersky_steel_ingot>]]);
 
 recipes.addShaped(<nuclearcraft:part:10>*4,
 [[<ore:gaiaIngot>, <ore:plateCarbon>, <ore:gaiaIngot>],

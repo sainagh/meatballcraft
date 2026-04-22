@@ -232,7 +232,8 @@
                     "menu:back40.png",
                     "menu:back41.png",
                     "menu:back42.png",
-                    "menu:back43.png"],
+                    "menu:back43.png",
+                    "menu:back44.png"],
                 "displayDuration" : 100,
                 "shuffle": true,
                 "fadeDuration" : 40

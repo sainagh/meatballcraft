@@ -855,7 +855,7 @@ import crafttweaker.item.IItemCondition;
 
 <tconstruct:materials:50>.addTooltip(format.red("匠魂强化：增加一个额外强化槽"));
 
-<bloodarsenal:glass_shards>.addTooltip(format.red("匠魂强化：流血"));
+<bloodarsenal:base_item:0>.addTooltip(format.red("匠魂强化：流血"));
 
 <iceandfire:ice_dragon_blood>.addTooltip(format.red("匠魂强化：冻结目标并造成龙霜伤害"));
 
@@ -1918,8 +1918,8 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:tainted_callstone>.addTooltip(format.red("会召唤一个非常牛逼的Boss - 一定要小心！"));
 
-<contenttweaker:enchdesc_sharpness>.addTooltip(format.red("非常感谢Tom和Quantum Chromodynamic Charge添加的描述"));
-<contenttweaker:enchdesc_protection>.addTooltip(format.red("非常感谢Tom和Quantum Chromodynamic Charge添加的描述"));
+<contenttweaker:enchdesc_sharpness>.addTooltip(format.red("非常感谢Tom4455和Quantum Chromodynamic Charge添加的描述"));
+<contenttweaker:enchdesc_protection>.addTooltip(format.red("非常感谢Tom4455和Quantum Chromodynamic Charge添加的描述"));
 <contenttweaker:enchdesc_smite>.addTooltip(format.red("叫我派大星教授加博士！"));
 <contenttweaker:enchdesc_withering>.addTooltip(format.red("使用电动刷怪箱"));
 
@@ -1970,16 +1970,11 @@ import crafttweaker.item.IItemCondition;
 
 <thermalexpansion:satchel:0>.addTooltip(format.red("基础等级的不怎么好用，但配合升级和扩容魔咒就很好用了！"));
 
-<enderio:item_alloy_endergy_ingot:0>.addTooltip(format.red("核电工艺提供的配方更好"));
 
 <techreborn:chemical_reactor>.addTooltip(format.red("该机器已禁用"));
 
 <contenttweaker:fluix_etcher>.addTooltip(format.red("Paronity和Kherune非常喜欢自动合成"));
 
-<tardis:tardis_coral>.addTooltip(format.red("警告：放置该物品将导致卡顿，离基地远点"));
-<tardis:tardis_coral>.addTooltip(format.red("推荐在第一次进入塔迪斯之后，立即转用其他传送手段"));
-
-<tardis:tardis_coral>.addTooltip(format.red("放置在草方块上，等待一些MC日以让其生长"));
 
 <aoa3:bayonette_rifle>.addTooltip(format.red("可施加超限附魔"));
 
@@ -2145,7 +2140,7 @@ import crafttweaker.item.IItemCondition;
 
 <gendustry:honey_comb:13341>.addTooltip(format.red("通过福鲁伊克斯召唤石获得"));
 
-<ore:ingotIridium>.addTooltip(format.red("感谢Tom为JEI信息框所做的工作！"));
+<ore:ingotIridium>.addTooltip(format.red("感谢Tom4455为JEI信息框所做的工作！"));
 
 <ore:ingotTitanium>.addTooltip(format.red("感谢Bluecat整理了所有矿物的生成高度！"));
 
@@ -2388,8 +2383,8 @@ import crafttweaker.item.IItemCondition;
 
 <aether_legacy:invisibility_cape>.addTooltip(format.red("LordRaine觉得这太强了，我同意！"));
 
-<appliedenergistics2:energy_acceptor>.addTooltip(format.red("感谢Tom为AE2添加的JEI信息框"));
-<appliedenergistics2:controller>.addTooltip(format.red("感谢Tom为AE2添加的JEI信息框"));
+<appliedenergistics2:energy_acceptor>.addTooltip(format.red("感谢Tom4455为AE2添加的JEI信息框"));
+<appliedenergistics2:controller>.addTooltip(format.red("感谢Tom4455为AE2添加的JEI信息框"));
 
 <contenttweaker:right_sacred_sapling>.addTooltip(format.red("用神圣橡果！"));
 <contenttweaker:left_sacred_sapling>.addTooltip(format.red("用神圣橡果！"));
@@ -3130,7 +3125,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:magic_mushroom_dark>.addTooltip(format.red("感谢Xenosplitter和Ikea Bear编辑的研究步骤！"));
 
-<contenttweaker:omothol_warp_cleanser>.addTooltip(format.red("感谢Tom编辑的研究步骤！"));
+<contenttweaker:omothol_warp_cleanser>.addTooltip(format.red("感谢Tom4455编辑的研究步骤！"));
 
 <thaumcraft:nugget:9>.addTooltip(format.red("丢进坩埚来将多余的源质转化为水晶碎片"));
 

@@ -27,6 +27,11 @@ neutroniumcannon.addItemInput(<avaritia:resource:2>);
 neutroniumcannon.addFluidOutput(<fluid:netrino_plasma>*100);
 neutroniumcannon.build();
 
+val neutroniumcannonboom = RecipeBuilder.newBuilder("neutroniumcannonboom","neutronium_cannon",100);
+neutroniumcannonboom.addItemInput(<contenttweaker:self_confined_neutrino_plasma>);
+neutroniumcannonboom.addFluidOutput(<fluid:netrino_plasma>*10000);
+neutroniumcannonboom.build();
+
 val neutroniumbomb = RecipeBuilder.newBuilder("neutroniumbomb","neutronium_bombarder",100);
 neutroniumbomb.addItemInput(<nuclearcraft:lithium:0>);
 neutroniumbomb.addItemInput(<nuclearcraft:lithium:2>);

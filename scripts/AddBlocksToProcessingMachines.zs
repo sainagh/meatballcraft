@@ -1,5 +1,5 @@
 
-mods.nuclearcraft.melter.addRecipe([<ore:blockFiery>, <fluid:fierymetal>*1296]);
+mods.nuclearcraft.melter.addRecipe([<twilightforest:block_storage:1>, <fluid:fierymetal>*1296]);
 mods.nuclearcraft.melter.addRecipe([<divinerpg:netherite_block>, <fluid:molten_netherite>*1296]);
 
 

@@ -4,9 +4,9 @@ import mods.thaumcraft.Infusion;
 
 
 recipes.addShaped(<contenttweaker:cuendillar_primer>,
-[[<contenttweaker:kamium_ingot>, <extrabotany:material:8>, <contenttweaker:kamium_ingot>],
+[[<thaumictinkerer:kamiresource:3>, <extrabotany:material:8>, <thaumictinkerer:kamiresource:3>],
 [<extrabotany:material:5>, <thaumadditions:mithminite_ingot>, <extrabotany:material:5>],
-[<contenttweaker:kamium_ingot>, <extrabotany:material:8>, <contenttweaker:kamium_ingot>]]);
+[<thaumictinkerer:kamiresource:3>, <extrabotany:material:8>, <thaumictinkerer:kamiresource:3>]]);
 
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:infinite_plate_stamp>, <tconstruct:large_plate>.withTag({Material: "infinity_avaritia_plustic"}), <fluid:orichalcum>, 720, true, 10);
 
@@ -532,5 +532,15 @@ creataltarbrightpl.addItemInput(<contenttweaker:cleansed_brightsteel_alloy_plate
 creataltarbrightpl.addItemOutput(<contenttweaker:brightsteel_alloy_plate_of_the_one_power>);
 creataltarbrightpl.build();
 
-
-
+val creataltararbiteremerald = RecipeBuilder.newBuilder("creataltararbiteremerald","creation_altar",10);
+creataltararbiteremerald.addEnergyPerTickInput(500000000);
+creataltararbiteremerald.addFluidInput(<fluid:tangible_aer>*10);
+creataltararbiteremerald.addFluidInput(<fluid:tangible_ignis>*10);
+creataltararbiteremerald.addFluidInput(<fluid:tangible_aqua>*10);
+creataltararbiteremerald.addFluidInput(<fluid:tangible_terra>*10);
+creataltararbiteremerald.addItemInput(<contenttweaker:standard_of_the_dragon_reborn>);
+creataltararbiteremerald.setChance(0.0);
+creataltararbiteremerald.addItemInput(<contenttweaker:ascended_fluix_crystal>*4);
+creataltararbiteremerald.addItemInput(<minecraft:emerald>*256);
+creataltararbiteremerald.addItemOutput(<contenttweaker:one_power_aspected_emerald>*256);
+creataltararbiteremerald.build();

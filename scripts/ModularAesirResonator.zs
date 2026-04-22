@@ -117,6 +117,27 @@ recipes.addShaped(<contenttweaker:speech_of_natural_law>*4,
 [<botania:storage:1>, <contenttweaker:greater_gaia_spirit>, <botania:storage:1>]]);
 
 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:history_of_natural_law>*16, 
+100, 
+<contenttweaker:one_power_unleashed_emerald>, 
+[<contenttweaker:speech_of_natural_law>, <contenttweaker:gilded_matter>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:pure_fluix_geode>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:gilded_matter>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:arbiterite_crystal>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:gilded_matter>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:pure_fluix_geode>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:gilded_matter>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:arbiterite_crystal>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:gilded_matter>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:pure_fluix_geode>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:gilded_matter>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:arbiterite_crystal>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:gilded_matter>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:pure_fluix_geode>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:gilded_matter>,
+<contenttweaker:speech_of_natural_law>, <contenttweaker:arbiterite_crystal>]);
+
+
 val aesirresonator7 = RecipeBuilder.newBuilder("aesirresonator7","aesir_resonator",2);
 aesirresonator7.addEssentiaInput("mortuus",100);
 aesirresonator7.addEssentiaInput("stellae",100);
@@ -197,3 +218,13 @@ aesirresonator15.addItemOutput(<contenttweaker:metagabbro>*64);
 aesirresonator15.build();
 
 
+val aesirresonator16 = RecipeBuilder.newBuilder("aesirresonator16","aesir_resonator",2);
+aesirresonator16.addEssentiaInput("mortuus",150);
+aesirresonator16.addEssentiaInput("stellae",150);
+aesirresonator16.addEssentiaInput("vacuos",150);
+aesirresonator16.addEssentiaInput("permutatio",150);
+aesirresonator16.addItemInput(<contenttweaker:history_of_natural_law>);
+aesirresonator16.addItemInput(<contenttweaker:fractal_fragment_natural_law>);
+aesirresonator16.addItemOutput(<contenttweaker:fractal_fragment_natural_law>*12);
+aesirresonator16.addItemOutput(<biomesoplenty:terrestrial_artifact>*1);
+aesirresonator16.build();

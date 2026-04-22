@@ -282,7 +282,28 @@ hungeringsoulmeatball3.addItemInput(<contenttweaker:world_corrupting_sentient_me
 hungeringsoulmeatball3.addItemOutput(<contenttweaker:hungering_world_soul>*30);
 hungeringsoulmeatball3.build();
 
+recipes.addShaped(<contenttweaker:covetous_nest>*4,
+[[<contenttweaker:everburning_recursion_fragment>, <iceandfire:nest>, <contenttweaker:everburning_recursion_fragment>],
+[<iceandfire:nest>, <contenttweaker:covetous_incubator>, <iceandfire:nest>],
+[<contenttweaker:everburning_recursion_fragment>, <iceandfire:nest>, <contenttweaker:everburning_recursion_fragment>]]);
 
+
+val hungeringsoulmeatball4 = RecipeBuilder.newBuilder("hungeringsoulmeatball4","shrine_of_the_sentient_meatballs",80);
+hungeringsoulmeatball4.addEnergyPerTickInput(2000000000);
+hungeringsoulmeatball4.addWillInput("DEFAULT", 95,0,1000000);
+hungeringsoulmeatball4.addWillInput("CORROSIVE", 95,0,1000000);
+hungeringsoulmeatball4.addWillInput("DESTRUCTIVE", 95,0,1000000);
+hungeringsoulmeatball4.addWillInput("VENGEFUL", 95,0,1000000);
+hungeringsoulmeatball4.addWillInput("STEADFAST", 95,0,1000000);
+hungeringsoulmeatball4.addFluidInput(<fluid:flesh_world_ichor>*150000);
+hungeringsoulmeatball4.addFluidInput(<fluid:imperial_abyssite>*4000);
+hungeringsoulmeatball4.addItemInput(<contenttweaker:jewel_of_pure_void>*20);
+hungeringsoulmeatball4.addItemInput(<contenttweaker:shrieking_soul>*8);
+hungeringsoulmeatball4.addItemInput(<contenttweaker:covetous_cocoon>*30);
+hungeringsoulmeatball4.addItemInput(<contenttweaker:abyssal_flesh>*120);
+hungeringsoulmeatball4.addItemInput(<contenttweaker:world_corrupting_sentient_meatball>*40);
+hungeringsoulmeatball4.addItemOutput(<contenttweaker:hungering_world_soul>*90);
+hungeringsoulmeatball4.build();
 
 mods.nuclearcraft.infuser.addRecipe([<avaritia:resource:5>, <fluid:fractallite_halite>*12, <avaritiaitem:fractallite_halite_catalyst>]);
 
@@ -357,6 +378,13 @@ recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "gluttonous_lymph", A
 [[<draconicevolution:chaos_shard:3>, <contenttweaker:radiant_fissile_dust>, <draconicevolution:chaos_shard:3>],
 [<contenttweaker:meatballium_ingot>, <contenttweaker:staff_of_the_lord_of_gluttony>.reuse(), <contenttweaker:meatballium_ingot>],
 [<draconicevolution:chaos_shard:3>, <forge:bucketfilled>.withTag({FluidName: "vital_lymph", Amount: 1000}), <draconicevolution:chaos_shard:3>]]);
+
+
+recipes.addShaped(<contenttweaker:meatballium_ingot>*8,
+[[<contenttweaker:meatballium_323>, <contenttweaker:meatballium_323>, <contenttweaker:meatballium_328>],
+[<contenttweaker:meatballium_323>, <contenttweaker:staff_of_the_lord_of_gluttony>.reuse(), <contenttweaker:meatballium_328>],
+[<contenttweaker:meatballium_323>, <contenttweaker:meatballium_328>, <contenttweaker:meatballium_328>]]);
+
 
 mods.abyssalcraft.InfusionRitual.addRitual("KashanWarperInf", 
 4, 0, 

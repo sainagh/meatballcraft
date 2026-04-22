@@ -1192,6 +1192,13 @@ fortree146.addItemOutput(<divinerpg:divine_log>*64);
 fortree146.addItemOutput(<contenttweaker:divine_wisp>*4);
 fortree146.build();
 
+val fortree147 = RecipeBuilder.newBuilder("fortree147","enchanted_greenhouse",1000);
+fortree147.addItemInput(<bewitchment:dragons_blood_sapling>);
+fortree147.setChance(0.0);
+fortree147.addItemInput(<forestry:peat>);
+fortree147.addItemOutput(<bewitchment:dragons_blood_wood>*64);
+fortree147.addItemOutput(<bewitchment:dragons_blood_resin>*64);
+fortree147.build();
 
 
 

@@ -149,6 +149,20 @@ mods.extendedcrafting.TableCrafting.addShaped(<techreborn:fusion_coil>*4,
 [<techreborn:part:0>, <draconicevolution:draconic_ingot>, null, <techreborn:part:17>, null, <draconicevolution:draconic_ingot>, <techreborn:part:0>], 
 [<techreborn:part:0>, <techreborn:part:0>, <forestry:peat>, <techreborn:plates:16>, <forestry:peat>, <techreborn:part:0>, <techreborn:part:0>]]);  
 
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<techreborn:fusion_coil>*18, 
+[[<techreborn:iridiumneutronreflector>, <techreborn:iridiumneutronreflector>, <forestry:peat>, <techreborn:plates:16>, <forestry:peat>, <techreborn:iridiumneutronreflector>, <techreborn:iridiumneutronreflector>], 
+[<techreborn:iridiumneutronreflector>, <techreborn:iridiumneutronreflector>, <draconicevolution:draconic_block>, <techreborn:plates:16>, <draconicevolution:draconic_block>, <techreborn:iridiumneutronreflector>, <techreborn:iridiumneutronreflector>], 
+[<forestry:peat>, <techreborn:plates:15>, <contenttweaker:fluix_flow_circuit>, <contenttweaker:superconducting_heater>, <contenttweaker:fluix_flow_circuit>, <techreborn:plates:15>, <forestry:peat>], 
+[<contenttweaker:crystalline_lens>, <contenttweaker:cursed_slime>, <contenttweaker:superconducting_heater>, <techreborn:lightning_rod>, <contenttweaker:superconducting_heater>, <contenttweaker:cursed_slime>, <contenttweaker:crystalline_lens>], 
+[<forestry:peat>, <techreborn:plates:15>, <contenttweaker:fluix_flow_circuit>, <contenttweaker:superconducting_heater>, <contenttweaker:fluix_flow_circuit>, <techreborn:plates:15>, <forestry:peat>], 
+[<techreborn:iridiumneutronreflector>, <techreborn:iridiumneutronreflector>, <draconicevolution:draconic_block>, <techreborn:plates:16>, <draconicevolution:draconic_block>, <techreborn:iridiumneutronreflector>, <techreborn:iridiumneutronreflector>], 
+[<techreborn:iridiumneutronreflector>, <techreborn:iridiumneutronreflector>, <forestry:peat>, <techreborn:plates:16>, <forestry:peat>, <techreborn:iridiumneutronreflector>, <techreborn:iridiumneutronreflector>]]);  
+
+
+
 recipes.addShaped(<contenttweaker:crystalline_lens>,
 [[<ore:paneGlass>, <botania:manaresource:0>, <ore:paneGlass>],
 [<botania:manaresource:0>, <bewitchment:crystal_ball>.reuse(), <botania:manaresource:0>],
@@ -342,3 +356,26 @@ recipes.addShaped(<contenttweaker:better_lapotronic_orb>*2,
 [[<contenttweaker:better_lapotron_crystal>,<contenttweaker:better_lapotron_crystal>,<contenttweaker:better_lapotron_crystal>],
 [<contenttweaker:better_lapotron_crystal>,<contenttweaker:unidentified_plate>,<contenttweaker:better_lapotron_crystal>],
 [<contenttweaker:better_lapotron_crystal>,<contenttweaker:better_lapotron_crystal>,<contenttweaker:better_lapotron_crystal>]]);
+
+
+
+recipes.addShaped(<techreborn:machine_frame:0>*2,
+[[<contenttweaker:nethersky_steel_ingot>, <ore:wireCopper>, <contenttweaker:nethersky_steel_ingot>],
+[<ore:wireCopper>, null, <ore:wireCopper>],
+[<contenttweaker:nethersky_steel_ingot>, <ore:wireCopper>, <contenttweaker:nethersky_steel_ingot>]]);
+
+recipes.addShaped(<techreborn:machine_frame:0>*20,
+[[<contenttweaker:wrought_iron_plate>, <immersiveengineering:wirecoil:0>, <contenttweaker:wrought_iron_plate>],
+[<immersiveengineering:wirecoil:0>, <contenttweaker:rainbow_gemstones>, <immersiveengineering:wirecoil:0>],
+[<contenttweaker:wrought_iron_plate>, <immersiveengineering:wirecoil:0>, <contenttweaker:wrought_iron_plate>]]);
+
+
+recipes.addShaped(<techreborn:machine_frame:1>*3,
+[[<techreborn:plates:2>, <contenttweaker:lyonite_framing>, <techreborn:plates:2>],
+[<techreborn:machine_frame:0>, <contenttweaker:fluix_microcontroller>, <techreborn:machine_frame:0>],
+[<techreborn:plates:2>, <contenttweaker:lyonite_framing>, <techreborn:plates:2>]]);
+
+recipes.addShaped(<techreborn:machine_frame:2>*5,
+[[<contenttweaker:brightsteel_alloy_framing>, <techreborn:machine_frame:1>, <contenttweaker:brightsteel_alloy_framing>],
+[<techreborn:machine_frame:1>, <contenttweaker:infinity_fragment>, <techreborn:machine_frame:1>],
+[<contenttweaker:brightsteel_alloy_framing>, <techreborn:machine_frame:1>, <contenttweaker:brightsteel_alloy_framing>]]);

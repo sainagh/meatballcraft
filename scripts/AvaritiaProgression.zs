@@ -257,13 +257,19 @@ mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:muon_extractor>,
 [<contenttweaker:muon_crystal>, <techreborn:extractor>, <contenttweaker:muon_crystal>], 
 [<mysticalagradditions:neutronium_essence>, <contenttweaker:empowerment_core>, <mysticalagradditions:neutronium_essence>]], 20); 
 
-val muonextraction = RecipeBuilder.newBuilder("gateval1","mythic_processor_muon_extractor",2);
+val muonextraction = RecipeBuilder.newBuilder("muonextraction","mythic_processor_muon_extractor",2);
 muonextraction.addEnergyPerTickInput(2000000);
 muonextraction.addItemInput(<mysticalagradditions:neutronium_essence>*2);
 muonextraction.addItemOutput(<avaritia:resource:4>);
 muonextraction.build();
 
-val uumatterexttract = RecipeBuilder.newBuilder("gateval2","mythic_processor_muon_extractor",2);
+val muonextraction2 = RecipeBuilder.newBuilder("muonextraction2","mythic_processor_muon_extractor",2);
+muonextraction2.addEnergyPerTickInput(2000000);
+muonextraction2.addItemInput(<contenttweaker:dense_neutronium_essence>*8);
+muonextraction2.addItemOutput(<avaritia:block_resource:0>*4);
+muonextraction2.build();
+
+val uumatterexttract = RecipeBuilder.newBuilder("guumatterexttractateval3","mythic_processor_muon_extractor",2);
 uumatterexttract.addEnergyPerTickInput(2000000);
 uumatterexttract.addItemInput(<enderio:block_infinity_fog:0>);
 uumatterexttract.addItemOutput(<techreborn:uumatter>*5);
@@ -801,7 +807,6 @@ recipes.addShaped(<avaritia:skullfire_sword>,
 [[<minecraft:blaze_powder>, <ore:ingotTitanium>, <minecraft:blaze_powder>],
 [<erebus:materials:66>, <ore:ingotTitanium>, <erebus:materials:66>],
 [<minecraft:blaze_powder>, <ore:obsidianRod>, <minecraft:blaze_powder>]]);
-
 
 
 

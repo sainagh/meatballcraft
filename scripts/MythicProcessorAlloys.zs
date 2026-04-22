@@ -1075,3 +1075,54 @@ mythallo146.addItemInput(<contenttweaker:diametric_catalyst>*24);
 mythallo146.addItemInput(<contenttweaker:magnetic_monopole>*1);
 mythallo146.addItemOutput(<contenttweaker:monopolar_catalyst>*24);
 mythallo146.build();
+
+val mythallo147 = RecipeBuilder.newBuilder("mythallo147","mythic_processor_alloy_furnace",2);
+mythallo147.addEnergyPerTickInput(80000);
+mythallo147.addItemInput(<tardis:dalek_hull>*1);
+mythallo147.addItemInput(<ore:ingotVibraniumAlloy>*16);
+mythallo147.addItemOutput(<tardis:dalek_hull>*2);
+mythallo147.build();
+
+val mythallo148 = RecipeBuilder.newBuilder("mythallo148","mythic_processor_alloy_furnace",2);
+mythallo148.addEnergyPerTickInput(80000);
+mythallo148.addItemInput(<tardis:toyota_hexagon_4>*1);
+mythallo148.addItemInput(<ore:ingotVibranium>*16);
+mythallo148.addItemOutput(<tardis:toyota_hexagon_4>*2);
+mythallo148.build();
+
+val mythallo149 = RecipeBuilder.newBuilder("mythallo149","mythic_processor_alloy_furnace",2);
+mythallo149.addEnergyPerTickInput(80000);
+mythallo149.addItemInput(<tardis:megalos>*1);
+mythallo149.addItemInput(<ore:ingotVibranium>*4);
+mythallo149.addItemOutput(<tardis:megalos>*2);
+mythallo149.build();
+
+val mythallo150 = RecipeBuilder.newBuilder("mythallo150","mythic_processor_alloy_furnace",2);
+mythallo150.addEnergyPerTickInput(80000);
+mythallo150.addItemInput(<ore:crystalFluix>*32);
+mythallo150.addItemInput(<ore:dustFluix>*32);
+mythallo150.addItemInput(<minecraft:ender_pearl>*8);
+mythallo150.addItemOutput(<appliedenergistics2:material:9>*8);
+mythallo150.build();
+
+val mythallo151 = RecipeBuilder.newBuilder("mythallo151","mythic_processor_alloy_furnace",2);
+mythallo151.addEnergyPerTickInput(80000);
+mythallo151.addItemInput(<ore:crystalPureFluix>*32);
+mythallo151.addItemInput(<ore:dustFluix>*32);
+mythallo151.addItemInput(<minecraft:ender_pearl>*8);
+mythallo151.addItemOutput(<appliedenergistics2:material:9>*8);
+mythallo151.build();
+
+val mythallo152 = RecipeBuilder.newBuilder("mythallo152","mythic_processor_alloy_furnace",2);
+mythallo152.addEnergyPerTickInput(80000);
+mythallo152.addItemInput(<enderio:block_alloy_endergy:3>*12);
+mythallo152.addItemInput(<contenttweaker:threefold_stellar_oscillator>*1);
+mythallo152.addItemOutput(<contenttweaker:threefold_stellar_ingot>*1);
+mythallo152.build();
+
+val mythallo153 = RecipeBuilder.newBuilder("mythallo153","mythic_processor_alloy_furnace",2);
+mythallo153.addEnergyPerTickInput(80000);
+mythallo153.addItemInput(<ore:blockGlass>*4);
+mythallo153.addItemInput(<ore:dustCertusQuartz>*5);
+mythallo153.addItemOutput(<appliedenergistics2:quartz_glass>*4);
+mythallo153.build();

@@ -1,0 +1,72 @@
+{
+  "path": "mod_aoa3/hollytop_plant.json",
+  "enabled": true,
+  "id": "actuallyadditions:hollytop_plant",
+  "plant_name": "Holly Top",
+  "seed_name": "Holly Top Seeds",
+  "seed_items": [
+    {
+      "item": "aoa3:holly_top_seeds",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ],
+  "description": {
+    "translations": {},
+    "default": "The toppest of hollies"
+  },
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "bonemeal": true,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 0.9,
+        "required": true,
+        "item": "aoa3:holly_top_petals",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "farmland_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "cross",
+    "seed_texture": "actuallyadditions:items/item_canola_seed",
+    "plant_textures": [
+      "actuallyadditions:blocks/functional/crops/holly_tops_crop_0",
+      "actuallyadditions:blocks/functional/crops/holly_tops_crop_1",
+      "actuallyadditions:blocks/functional/crops/holly_tops_crop_0",
+      "actuallyadditions:blocks/functional/crops/holly_tops_crop_3",
+      "actuallyadditions:blocks/functional/crops/holly_tops_crop_4",
+      "actuallyadditions:blocks/functional/crops/holly_tops_crop_5",
+      "actuallyadditions:blocks/functional/crops/holly_tops_crop_6",
+      "actuallyadditions:blocks/functional/crops/holly_tops_crop_7"
+    ]
+  }
+}

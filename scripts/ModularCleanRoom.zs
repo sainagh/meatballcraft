@@ -29,6 +29,40 @@ recipes.addShaped(<contenttweaker:cyclical_fluix_etcher>,
 [<contenttweaker:solid_high_grade_space_time_fuel>, <contenttweaker:universal_fluix_etcher>, <contenttweaker:solid_high_grade_space_time_fuel>],
 [<contenttweaker:hyperuranion_conduit>, <contenttweaker:fractallite_quantum>, <contenttweaker:hyperuranion_conduit>]]);
 
+recipes.addShaped(<contenttweaker:fluix_logic_chipset>*1,
+[[<avaritia:resource:4>, <appliedenergistics2:material:45>, <avaritia:resource:4>],
+[<appliedenergistics2:material:43>, <threng:material:4>, <appliedenergistics2:material:44>],
+[<avaritia:resource:4>, <appliedenergistics2:material:12>, <avaritia:resource:4>]]);
+
+recipes.addShaped(<contenttweaker:fluix_logic_chipset>*2,
+[[<avaritia:resource:4>, <appliedenergistics2:material:45>, <avaritia:resource:4>],
+[<appliedenergistics2:material:43>, <threng:material:4>, <appliedenergistics2:material:44>],
+[<avaritia:resource:4>, <contenttweaker:rarified_fluix_crystal>, <avaritia:resource:4>]]);
+
+recipes.addShaped(<contenttweaker:fluix_logic_chipset>*4,
+[[<avaritia:resource:4>, <appliedenergistics2:material:45>, <avaritia:resource:4>],
+[<appliedenergistics2:material:43>, <threng:material:4>, <appliedenergistics2:material:44>],
+[<avaritia:resource:4>, <contenttweaker:minted_fluix_crystal>, <avaritia:resource:4>]]);
+
+recipes.addShaped(<contenttweaker:fluix_logic_chipset>*8,
+[[<avaritia:resource:4>, <appliedenergistics2:material:45>, <avaritia:resource:4>],
+[<appliedenergistics2:material:43>, <threng:material:4>, <appliedenergistics2:material:44>],
+[<avaritia:resource:4>, <contenttweaker:perfected_fluix_crystal>, <avaritia:resource:4>]]);
+
+recipes.addShaped(<contenttweaker:fluix_logic_chipset>*16,
+[[<avaritia:resource:4>, <appliedenergistics2:material:45>, <avaritia:resource:4>],
+[<appliedenergistics2:material:43>, <threng:material:4>, <appliedenergistics2:material:44>],
+[<avaritia:resource:4>, <contenttweaker:flawless_fluix_crystal>, <avaritia:resource:4>]]);
+
+recipes.addShaped(<contenttweaker:fluix_logic_chipset>*32,
+[[<avaritia:resource:4>, <appliedenergistics2:material:45>, <avaritia:resource:4>],
+[<appliedenergistics2:material:43>, <threng:material:4>, <appliedenergistics2:material:44>],
+[<avaritia:resource:4>, <contenttweaker:ascended_fluix_crystal>, <avaritia:resource:4>]]);
+
+recipes.addShaped(<contenttweaker:fluix_logic_processor>*2,
+[[<contenttweaker:spatial_processing_unit>, <contenttweaker:fluix_logic_chipset>, <contenttweaker:spatial_processing_unit>],
+[<contenttweaker:one_power_aspected_emerald>, <contenttweaker:ascended_sky_stone>, <contenttweaker:one_power_aspected_emerald>],
+[<contenttweaker:spatial_processing_unit>, <contenttweaker:fluix_logic_chipset>, <contenttweaker:spatial_processing_unit>]]);
 
 
 val cleanroom1 = RecipeBuilder.newBuilder("cleanroom1","processor_clean_room",40);
@@ -762,3 +796,150 @@ cleanroom86.addItemInput(<cells:compressed_silicon_print:2>*400);
 cleanroom86.addItemInput(<contenttweaker:dense_redstone>*5);
 cleanroom86.addItemOutput(<cells:compressed_silicon_print:3>*50);
 cleanroom86.build();
+
+
+val cleanroom87 = RecipeBuilder.newBuilder("cleanroom87","processor_clean_room",10);
+cleanroom87.addEnergyPerTickInput(40000);
+cleanroom87.addItemInput(<threng:material:1>*64);
+cleanroom87.addItemInput(<minecraft:iron_ingot>*64);
+cleanroom87.addItemInput(<appliedenergistics2:material:45>*64);
+cleanroom87.addItemOutput(<threng:material:2>*64);
+cleanroom87.build();
+
+val cleanroom88 = RecipeBuilder.newBuilder("cleanroom88","processor_clean_room",10);
+cleanroom88.addEnergyPerTickInput(40000);
+cleanroom88.addItemInput(<ore:itemSilicon>*64);
+cleanroom88.addItemInput(<ore:dustCoal>*128);
+cleanroom88.addItemInput(<appliedenergistics2:material:8>*128);
+cleanroom88.addItemOutput(<threng:material:1>*64);
+cleanroom88.build();
+
+
+val cleanroom89 = RecipeBuilder.newBuilder("cleanroom89","processor_clean_room",10);
+cleanroom89.addEnergyPerTickInput(40000);
+cleanroom89.addItemInput(<contenttweaker:fluix_logic_chipset>*1);
+cleanroom89.addItemInput(<appliedenergistics2:material:45>*64);
+cleanroom89.addItemInput(<appliedenergistics2:material:6>*64);
+cleanroom89.addItemInput(<threng:material:1>*64);
+cleanroom89.addItemOutput(<threng:material:7>*64);
+cleanroom89.build();
+
+val cleanroom90 = RecipeBuilder.newBuilder("cleanroom90","processor_clean_room",10);
+cleanroom90.addEnergyPerTickInput(40000);
+cleanroom90.addItemInput(<contenttweaker:fluix_logic_processor>*1);
+cleanroom90.addItemInput(<appliedenergistics2:material:45>*512);
+cleanroom90.addItemInput(<appliedenergistics2:material:6>*512);
+cleanroom90.addItemInput(<threng:material:1>*512);
+cleanroom90.addItemOutput(<threng:material:7>*512);
+cleanroom90.build();
+
+val cleanroom91 = RecipeBuilder.newBuilder("cleanroom91","processor_clean_room",10);
+cleanroom91.addEnergyPerTickInput(40000);
+cleanroom91.addItemInput(<threng:material:7>*128);
+cleanroom91.addItemInput(<minecraft:redstone>*64);
+cleanroom91.addItemOutput(<threng:material:8>*64);
+cleanroom91.build();
+
+val cleanroom92 = RecipeBuilder.newBuilder("cleanroom92","processor_clean_room",10);
+cleanroom92.addEnergyPerTickInput(40000);
+cleanroom92.addItemInput(<threng:material:8>*128);
+cleanroom92.addItemInput(<ore:itemSilicon>*64);
+cleanroom92.addItemOutput(<threng:material:9>*64);
+cleanroom92.build();
+
+val cleanroom93 = RecipeBuilder.newBuilder("cleanroom93","processor_clean_room",10);
+cleanroom93.addEnergyPerTickInput(40000);
+cleanroom93.addItemInput(<threng:material:9>*128);
+cleanroom93.addItemInput(<appliedenergistics2:material:22>*64);
+cleanroom93.addItemOutput(<threng:material:10>*64);
+cleanroom93.build();
+
+val cleanroom94 = RecipeBuilder.newBuilder("cleanroom94","processor_clean_room",10);
+cleanroom94.addEnergyPerTickInput(40000);
+cleanroom94.addItemInput(<threng:material:10>*128);
+cleanroom94.addItemInput(<appliedenergistics2:material:23>*64);
+cleanroom94.addItemOutput(<threng:material:11>*64);
+cleanroom94.build();
+
+val cleanroom95 = RecipeBuilder.newBuilder("cleanroom95","processor_clean_room",10);
+cleanroom95.addEnergyPerTickInput(40000);
+cleanroom95.addItemInput(<threng:material:11>*128);
+cleanroom95.addItemInput(<appliedenergistics2:material:24>*64);
+cleanroom95.addItemOutput(<threng:material:12>*64);
+cleanroom95.build();
+
+val cleanroom96 = RecipeBuilder.newBuilder("cleanroom96","processor_clean_room",10);
+cleanroom96.addEnergyPerTickInput(40000);
+cleanroom96.addItemInput(<threng:material:12>*128);
+cleanroom96.addItemInput(<threng:material:6>*64);
+cleanroom96.addItemOutput(<threng:material:13>*64);
+cleanroom96.build();
+
+val cleanroom97 = RecipeBuilder.newBuilder("cleanroom97","processor_clean_room",10);
+cleanroom97.addEnergyPerTickInput(40000);
+cleanroom97.addItemInput(<contenttweaker:ascended_sky_stone>*1);
+cleanroom97.addItemInput(<minecraft:diamond>*64);
+cleanroom97.addItemInput(<ore:dustEnder>*64);
+cleanroom97.addItemOutput(<threng:material:5>*64);
+cleanroom97.build();
+
+val cleanroom98 = RecipeBuilder.newBuilder("cleanroom98","processor_clean_room",10);
+cleanroom98.addEnergyPerTickInput(40000);
+cleanroom98.addItemInput(<contenttweaker:one_power_aspected_emerald>*64);
+cleanroom98.addItemInput(<threng:material:5>*64);
+cleanroom98.addItemInput(<ore:itemSilicon>*64);
+cleanroom98.addItemOutput(<threng:material:6>*64);
+cleanroom98.build();
+
+val cleanroom99 = RecipeBuilder.newBuilder("cleanroom99","processor_clean_room",10);
+cleanroom99.addEnergyPerTickInput(40000);
+cleanroom99.addItemInput(<contenttweaker:one_power_aspected_emerald>*64);
+cleanroom99.addItemInput(<threng:material:13>*64);
+cleanroom99.addItemInput(<ore:itemSilicon>*64);
+cleanroom99.addItemOutput(<threng:material:14>*64);
+cleanroom99.build();
+
+val cleanroom100 = RecipeBuilder.newBuilder("cleanroom100","processor_clean_room",40);
+cleanroom100.addEnergyPerTickInput(40000);
+cleanroom100.addItemInput(<contenttweaker:pulsating_fluix_powder>);
+cleanroom100.addItemInput(<minecraft:glowstone_dust>*128);
+cleanroom100.addItemInput(<appliedenergistics2:material:9>*128);
+cleanroom100.addItemInput(<appliedenergistics2:material:24>*32);
+cleanroom100.addItemOutput(<appliedenergistics2:material:32>*32);
+cleanroom100.build();
+
+val cleanroom101 = RecipeBuilder.newBuilder("cleanroom101","processor_clean_room",40);
+cleanroom101.addEnergyPerTickInput(40000);
+cleanroom101.addItemInput(<contenttweaker:pulsating_fluix_powder>);
+cleanroom101.addItemInput(<minecraft:glowstone_dust>*128);
+cleanroom101.addItemInput(<appliedenergistics2:material:32>*128);
+cleanroom101.addItemInput(<appliedenergistics2:material:24>*32);
+cleanroom101.addItemOutput(<appliedenergistics2:material:33>*32);
+cleanroom101.build();
+
+val cleanroom102 = RecipeBuilder.newBuilder("cleanroom102","processor_clean_room",40);
+cleanroom102.addEnergyPerTickInput(40000);
+cleanroom102.addItemInput(<contenttweaker:pulsating_fluix_powder>);
+cleanroom102.addItemInput(<minecraft:glowstone_dust>*128);
+cleanroom102.addItemInput(<appliedenergistics2:material:33>*128);
+cleanroom102.addItemInput(<appliedenergistics2:material:24>*32);
+cleanroom102.addItemOutput(<appliedenergistics2:material:34>*32);
+cleanroom102.build();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

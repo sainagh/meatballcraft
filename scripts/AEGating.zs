@@ -1028,9 +1028,35 @@ recipes.addShapeless(<ae2stuff:wireless_hub:0>,
 
 
 
+recipes.removeShaped(<cells:export_essentia_interface>);
+mods.extendedcrafting.TableCrafting.addShaped(<cells:export_essentia_interface>, 
+[[<extendedcrafting:material:16>, null, <thaumcraft:jar_normal>, null, <extendedcrafting:material:16>], 
+[null, null, <extendedcrafting:material:8>, null, null], 
+[<thaumcraft:jar_normal>, <appliedenergistics2:material:43>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>, <thaumcraft:jar_normal>], 
+[null, null, <thaumicenergistics:essentia_export>, null, null], 
+[<extendedcrafting:material:16>, null, <thaumcraft:jar_normal>, null, <extendedcrafting:material:16>]]); 
 
 
+recipes.removeShaped(<cells:import_essentia_interface>);
+mods.extendedcrafting.TableCrafting.addShaped(<cells:export_essentia_interface>, 
+[[<extendedcrafting:material:16>, null, <thaumcraft:jar_normal>, null, <extendedcrafting:material:16>], 
+[null, null, <extendedcrafting:material:8>, null, null], 
+[<thaumcraft:jar_normal>, <appliedenergistics2:material:44>, <appliedenergistics2:material:12>, <appliedenergistics2:material:44>, <thaumcraft:jar_normal>], 
+[null, null, <thaumicenergistics:essentia_import>, null, null], 
+[<extendedcrafting:material:16>, null, <thaumcraft:jar_normal>, null, <extendedcrafting:material:16>]]); 
 
+
+recipes.remove(<cells:pull_card>);
+recipes.addShaped(<cells:pull_card>,
+[[<minecraft:sticky_piston>, <appliedenergistics2:material:28>, <minecraft:sticky_piston>],
+[<minecraft:sticky_piston>, <tesslocator:basic_item_tesslocator>, <minecraft:sticky_piston>],
+[<minecraft:sticky_piston>, <modularrouters:blank_module>, <minecraft:sticky_piston>]]);
+
+recipes.remove(<cells:push_card>);
+recipes.addShaped(<cells:push_card>,
+[[<minecraft:piston>, <appliedenergistics2:material:28>, <minecraft:piston>],
+[<minecraft:piston>, <tesslocator:basic_item_tesslocator>, <minecraft:piston>],
+[<minecraft:piston>, <modularrouters:blank_module>, <minecraft:piston>]]);
 
 
 

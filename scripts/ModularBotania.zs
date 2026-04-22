@@ -336,6 +336,8 @@ bot34.build();
 
 
 
+
+
 val gaiaaltarentropynium = RecipeBuilder.newBuilder("gaiaaltarentropynium","gaia_altar",30);
 gaiaaltarentropynium.addEnergyPerTickInput(40000);
 gaiaaltarentropynium.addItemInput(<contenttweaker:entropic_seedling>);
@@ -477,4 +479,31 @@ bot46.addItemInput(<extrabotany:material:3>*4);
 bot46.addItemOutput(<extrabotany:cocoondesire>*4);
 bot46.build();
 
+val bot47 = RecipeBuilder.newBuilder("bot47","gaia_altar",60);
+bot47.addEnergyPerTickInput(40000);
+bot47.addItemInput(<tconstruct:hammer>.withTag({TinkerData: {Materials: ["hopebringer_metal", "hopebringer_metal", "hopebringer_metal", "hopebringer_metal"]}, Traits: ["twilit"]}));
+bot47.setChance(0.0);
+bot47.addItemInput(<botania:storage:1>*16);
+bot47.addItemInput(<extrabotany:material:2>*128);
+bot47.addItemInput(<extrabotany:material:3>*32);
+bot47.addItemOutput(<extrabotany:cocoondesire>*32);
+bot47.build();
 
+val bot48 = RecipeBuilder.newBuilder("bot48","gaia_altar",60);
+bot48.addEnergyPerTickInput(40000);
+bot48.addItemInput(<extrabotany:cocoondesire>*32);
+bot48.addItemInput(<contenttweaker:covetous_nest>*1);
+bot48.addItemInput(<contenttweaker:one_power_aspected_emerald>*16);
+bot48.addItemOutput(<contenttweaker:covetous_cocoon>*32);
+bot48.build();
+
+
+val bot49 = RecipeBuilder.newBuilder("bot49","gaia_altar",60);
+bot49.addEnergyPerTickInput(40000);
+bot49.addItemInput(<contenttweaker:twilight_horde_historical_chunk>*80);
+bot49.addItemOutput(<divinerpg:eden_chunk>*256);
+bot49.addItemOutput(<divinerpg:wildwood_chunk>*256);
+bot49.addItemOutput(<divinerpg:apalachia_chunk>*256);
+bot49.addItemOutput(<divinerpg:skythern_chunk>*256);
+bot49.addItemOutput(<divinerpg:mortum_chunk>*256);
+bot49.build();

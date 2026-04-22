@@ -80,6 +80,8 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:black_hole_juice>.addTooltip(format.red("达成永恒荣耀的玩家："));
 <contenttweaker:black_hole_juice>.addTooltip(format.red("Morph & Shinko (团队)"));
 <contenttweaker:black_hole_juice>.addTooltip(format.red("Origami10004 & _TheOrangeJuice_ (团队)"));
+<contenttweaker:black_hole_juice>.addTooltip(format.red("alltheanova & Randomism (团队)"));
+<contenttweaker:black_hole_juice>.addTooltip(format.red("Ariel_Shigure (单人)"));
 
 
 <avaritia:infinity_sword>.addTooltip(format.red("达成永恒荣耀的玩家："));
@@ -267,9 +269,9 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:infinite_loving_plate>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:ingot_of_omnibelevolence>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:summons_of_ragnarok>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
-<contenttweaker:kamium_ingot>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
-<contenttweaker:kami_cloth>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
-<contenttweaker:kamium_essence>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<thaumictinkerer:kamiresource:3>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<thaumictinkerer:kamiresource:4>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<thaumictinkerer:kamiresource:2>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 
 <contenttweaker:stone_of_the_divine_love>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
 <contenttweaker:stone_of_natural_might>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
@@ -278,8 +280,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:stone_of_boundless_curiosity>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
 
 <contenttweaker:flood_stone>.addTooltip(format.red("你去过强能界吗？"));
-
-<extrabotany:firstfractal>.addTooltip(format.red("我们喜欢困难模式，也喜欢犬牙钓竿"));
 
 <contenttweaker:astral_mastery_tome>.addTooltip(format.red("达成永恒荣耀的玩家："));
 <contenttweaker:astral_mastery_tome>.addTooltip(format.red("legoman187 (单人)"));
@@ -311,8 +311,42 @@ import crafttweaker.item.IItemCondition;
 <bewitchment:stone_ichor>.addTooltip(format.red("注意：以该物品作为输入的多方块结构配方可能无法正常工作，你可以改用其瓶装版本"));
 
 
+<contenttweaker:kitty_paw>.addTooltip(format.red("时间领主遗物"));
+<contenttweaker:white_bangs>.addTooltip(format.red("时间领主遗物"));
+<contenttweaker:green_eyebrows>.addTooltip(format.red("时间领主遗物"));
+<contenttweaker:grayscale>.addTooltip(format.red("时间领主遗物"));
+<contenttweaker:voxel_camel>.addTooltip(format.red("时间领主遗物"));
+<contenttweaker:cute_rabbit_ears>.addTooltip(format.red("时间领主遗物"));
 
+<ore:itemSonicScrewdriver>.addTooltip(format.green("可重复使用"));
 
+<tardis:gallifreyan_stone>.addTooltip(format.red("法咒主宰或许知道如何提前获取此物"));
+
+<contenttweaker:infinite_plate_stamp>.addTooltip(format.green("可重复使用"));
+
+<contenttweaker:radiation_absorbing_plate_stamp>.addTooltip(format.green("可重复使用"));
+
+<ore:itemSonicScrewdriver>.addTooltip(format.red("通过时间领主召唤师获得"));
+<tardis:temporal_grace_circuits>.addTooltip(format.red("通过时间领主召唤师获得"));
+
+<contenttweaker:utopic_spires_special_drop>.addTooltip(format.red("根据乌托邦尖塔中心球体结构内的不同微型天体，产出特殊的掉落物"));
+
+<contenttweaker:spam_free_americium_241>.addTooltip(format.red("感谢Soren整理的合成链"));
+
+<contenttweaker:one_power_aspected_emerald>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
+<contenttweaker:bloodstone_of_the_great_snake>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
+
+<contenttweaker:scattering_alloy_ingot>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:threefold_stellar_ingot>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:fiery_eleint_ingot>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:ingot_of_shadesmar>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:voxel_camel>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:kitty_paw>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:green_eyebrows>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:cute_rabbit_ears>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:grayscale>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:white_bangs>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:blue_planet>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 
 
 

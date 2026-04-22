@@ -72,6 +72,31 @@ combinethepuzzles4.addItemInput(<contenttweaker:fractallite_focus_lens>);
 combinethepuzzles4.addItemOutput(<contenttweaker:recursion_fragment_terra>*12);
 combinethepuzzles4.build();
 
+val combinethepuzzles5 = RecipeBuilder.newBuilder("combinethepuzzles5","me_entropic_sythesizer",50);
+combinethepuzzles5.addEnergyPerTickInput(2000000);
+combinethepuzzles5.addFluidInput(<fluid:flame_of_the_twilight_forest>*2000);
+combinethepuzzles5.addFluidInput(<fluid:nightmarish_matter>*3200);
+combinethepuzzles5.addFluidInput(<fluid:chaotic_matter>*3200);
+combinethepuzzles5.addFluidInput(<fluid:galactic_matter>*3200);
+combinethepuzzles5.addFluidInput(<fluid:cosmic_matter>*3200);
+combinethepuzzles5.addFluidInput(<fluid:spatial_matter>*3200);
+combinethepuzzles5.addItemInput(<contenttweaker:fractallite_focus_lens>);
+combinethepuzzles5.addItemOutput(<contenttweaker:recursion_fragment_terra>*18);
+combinethepuzzles5.build();
+
+val combinethepuzzles6 = RecipeBuilder.newBuilder("combinethepuzzles6","me_entropic_sythesizer",50);
+combinethepuzzles6.addEnergyPerTickInput(2000000);
+combinethepuzzles6.addFluidInput(<fluid:flame_of_the_twilight_forest>*3000);
+combinethepuzzles6.addFluidInput(<fluid:essence_of_temporal_synthesis>*3000);
+combinethepuzzles6.addFluidInput(<fluid:molten_arlemite>*3000);
+combinethepuzzles6.addFluidInput(<fluid:molten_rupee>*3000);
+combinethepuzzles6.addFluidInput(<fluid:molten_realmite>*3000);
+combinethepuzzles6.addFluidInput(<fluid:molten_netherite>*3000);
+combinethepuzzles6.addItemInput(<contenttweaker:fractallite_focus_lens>);
+combinethepuzzles6.addItemOutput(<contenttweaker:recursion_fragment_terra>*27);
+combinethepuzzles6.build();
+
+
 scripts.PuzzleUtil.addPuzzleShapeless("vetheapuzzle",<contenttweaker:dream_projector_gem>,
 [<contenttweaker:projector_gem>,
 <tconstruct:tough_tool_rod>.withTag({Material: "jade"}),
@@ -318,7 +343,6 @@ mythassevenmoreofthem.addItemOutput(<contenttweaker:dustopia_garnet>*256);
 mythassevenmoreofthem.addItemOutput(<contenttweaker:vethea_garnet>*256);
 mythassevenmoreofthem.addItemOutput(<contenttweaker:shyrelands_garnet>*256);
 mythassevenmoreofthem.build();
-
 
 
 

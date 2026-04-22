@@ -151,7 +151,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("contenttweaker:kami_essence_block", playerPos, [4,0,20], world) == 0) {
+    if (getBlockMatchAtPosition("thaumictinkerer:ichor_block", playerPos, [4,0,20], world) == 0) {
         player.sendChat("在腐化虚空石壤的南侧，间隔一格放置一个神灵精华块 [4,0,20]");
         return "FAIL";
     }

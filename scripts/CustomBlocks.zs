@@ -3308,15 +3308,60 @@ protodermiscasing.setToolClass("pickaxe");
 protodermiscasing.setToolLevel(3);
 protodermiscasing.register();
 
-var kamiessenceblock = VanillaFactory.createBlock("kami_essence_block", <blockmaterial:iron>);
-kamiessenceblock.setBlockHardness(1.0);
-kamiessenceblock.setBlockResistance(2.5);
-kamiessenceblock.setToolClass("pickaxe");
-kamiessenceblock.setToolLevel(3);
-kamiessenceblock.register();
+//var kamiessenceblock = VanillaFactory.createBlock("kami_essence_block", <blockmaterial:iron>);
+//kamiessenceblock.setBlockHardness(1.0);
+//kamiessenceblock.setBlockResistance(2.5);
+//kamiessenceblock.setToolClass("pickaxe");
+//kamiessenceblock.setToolLevel(3);
+//kamiessenceblock.register();
+
+var screamingbloodinfusedglitchblock = VanillaFactory.createBlock("screaming_blood_infused_glitch_block", <blockmaterial:iron>);
+screamingbloodinfusedglitchblock.setBlockHardness(1.0);
+screamingbloodinfusedglitchblock.setBlockResistance(2.5);
+screamingbloodinfusedglitchblock.setToolClass("pickaxe");
+screamingbloodinfusedglitchblock.setToolLevel(3);
+screamingbloodinfusedglitchblock.register();
+
+var gallifreyanshielding = VanillaFactory.createBlock("gallifreyan_shielding", <blockmaterial:iron>);
+gallifreyanshielding.setBlockHardness(1.0);
+gallifreyanshielding.setBlockResistance(2.5);
+gallifreyanshielding.setToolClass("pickaxe");
+gallifreyanshielding.setToolLevel(3);
+gallifreyanshielding.register();
+
+var tribodyfabrial = VanillaFactory.createBlock("tribody_fabrial", <blockmaterial:iron>);
+tribodyfabrial.setBlockHardness(1.0);
+tribodyfabrial.setBlockResistance(2.5);
+tribodyfabrial.setToolClass("pickaxe");
+tribodyfabrial.setToolLevel(3);
+tribodyfabrial.register();
+
+var bluefiredivineore = VanillaFactory.createBlock("bluefire_divine_ore", <blockmaterial:iron>);
+bluefiredivineore.setBlockHardness(1.0);
+bluefiredivineore.setBlockResistance(2.5);
+bluefiredivineore.setToolClass("pickaxe");
+bluefiredivineore.setToolLevel(3);
+bluefiredivineore.register();
+
+var basicmachineframeghost = VanillaFactory.createBlock("basic_machine_frame_ghost", <blockmaterial:iron>);
+basicmachineframeghost.setBlockHardness(1.0);
+basicmachineframeghost.setBlockResistance(2.5);
+basicmachineframeghost.setToolClass("pickaxe");
+basicmachineframeghost.setToolLevel(3);
+basicmachineframeghost.register();
+
+var strangestoneghost = VanillaFactory.createBlock("strange_stone_ghost", <blockmaterial:iron>);
+strangestoneghost.setBlockHardness(1.0);
+strangestoneghost.setBlockResistance(2.5);
+strangestoneghost.setToolClass("pickaxe");
+strangestoneghost.setToolLevel(3);
+strangestoneghost.register();
 
 
-
-
-
+var unleasheddivineore = VanillaFactory.createBlock("unleashed_divine_ore", <blockmaterial:iron>);
+unleasheddivineore.setBlockHardness(1.0);
+unleasheddivineore.setBlockResistance(2.5);
+unleasheddivineore.setToolClass("pickaxe");
+unleasheddivineore.setToolLevel(3);
+unleasheddivineore.register();
 

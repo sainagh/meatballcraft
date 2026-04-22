@@ -118,6 +118,20 @@ mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:part:4>,
 [<nuclearcraft:part:0>, <techreborn:ingot:19>, null, <techreborn:ingot:19>, <immersiveengineering:material:3>], 
 [<thermalfoundation:material:128>, <immersiveengineering:material:3>, <techreborn:ingot:19>, <nuclearcraft:part:0>, <thermalfoundation:material:128>]]); 
 
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:part:4>*4, 
+[[<ore:blockCopper>, <nuclearcraft:part:0>, <techreborn:storage2:10>, <immersiveengineering:material:3>, <ore:blockCopper>], 
+[<immersiveengineering:material:3>, <techreborn:storage2:10>, <nuclearcraft:part:0>, <techreborn:storage2:10>, <nuclearcraft:part:0>], 
+[<techreborn:storage2:10>, <nuclearcraft:part:0>, <ore:ingotVityte>, <nuclearcraft:part:0>, <techreborn:storage2:10>], 
+[<nuclearcraft:part:0>, <techreborn:storage2:10>, <nuclearcraft:part:0>, <techreborn:storage2:10>, <immersiveengineering:material:3>], 
+[<ore:blockCopper>, <immersiveengineering:material:3>, <techreborn:storage2:10>, <nuclearcraft:part:0>, <ore:blockCopper>]]); 
+
+mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:part:4>*16, 
+[[<extendedcrafting:singularity:17>, <nuclearcraft:part:1>, <immersiveengineering:metal_ladder:0>, <nuclearcraft:part:1>, <extendedcrafting:singularity:17>], 
+[<nuclearcraft:part:1>, <techreborn:storage2:10>, <ore:ingotVityte>, <techreborn:storage2:10>, <nuclearcraft:part:1>], 
+[<immersiveengineering:metal_ladder:0>, <nuclearcraft:part:0>, <aoa3:shyregem>, <nuclearcraft:part:0>, <immersiveengineering:metal_ladder:0>], 
+[<nuclearcraft:part:1>, <techreborn:storage2:10>, <ore:ingotVityte>, <techreborn:storage2:10>, <nuclearcraft:part:1>], 
+[<extendedcrafting:singularity:17>, <nuclearcraft:part:1>, <immersiveengineering:metal_ladder:0>, <nuclearcraft:part:1>, <extendedcrafting:singularity:17>]]); 
+
 recipes.removeShaped(<nuclearcraft:part:12>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<nuclearcraft:part:12>, 
