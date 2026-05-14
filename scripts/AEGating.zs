@@ -1038,7 +1038,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<cells:export_essentia_interface>,
 
 
 recipes.removeShaped(<cells:import_essentia_interface>);
-mods.extendedcrafting.TableCrafting.addShaped(<cells:export_essentia_interface>, 
+mods.extendedcrafting.TableCrafting.addShaped(<cells:import_essentia_interface>, 
 [[<extendedcrafting:material:16>, null, <thaumcraft:jar_normal>, null, <extendedcrafting:material:16>], 
 [null, null, <extendedcrafting:material:8>, null, null], 
 [<thaumcraft:jar_normal>, <appliedenergistics2:material:44>, <appliedenergistics2:material:12>, <appliedenergistics2:material:44>, <thaumcraft:jar_normal>], 
