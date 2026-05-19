@@ -5,7 +5,7 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.ResourceLocation;
 
 
-var instanceTEX = mods.contenttweaker.ResourceLocation.create("contenttweaker:textures/items/enchdesc_allofthem.png");
+var instanceTEX = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/enchdesc_allofthem");
 
 
 
