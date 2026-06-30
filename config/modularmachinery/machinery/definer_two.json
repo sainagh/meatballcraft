@@ -67,6 +67,19 @@
                 "operation": 1,
                 "multiplier": 256.0
             }
+        },
+        {
+            "elements": "contenttweaker:time_lords_core_of_definition",
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "description": "Replace unidentified body for 512x output",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 512.0
+            }
         }
     ],
     "parts": [

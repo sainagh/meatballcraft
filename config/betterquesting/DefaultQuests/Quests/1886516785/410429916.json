@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1661567937
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:pale_sky_stone_pebble"
+      },
+      "name:8": "Creation: Pale Sky Stone Pebble"
+    }
+  },
+  "questID:3": 410429916,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:pale_sky_stone_pebble"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -661,12 +661,12 @@ cra67.build();
 
 val cra68 = RecipeBuilder.newBuilder("cra68","sterilized_altar",120);
 cra68.addEnergyPerTickInput(1200);
-cra68.addFluidInput(<fluid:liquid_pe>*5000);
-cra68.addFluidInput(<fluid:liquid_lp>*1000);
-cra68.addItemInput(<abyssalcraft:oblivionshard>*64);
-cra68.addItemInput(<minecraft:redstone>*256);
+cra68.addFluidInput(<fluid:liquid_pe>*6000);
+cra68.addFluidInput(<fluid:liquid_lp>*2000);
+cra68.addItemInput(<abyssalcraft:oblivionshard>*128);
+cra68.addItemInput(<minecraft:redstone>*512);
 cra68.addItemInput(<magicbees:resource:11>);
-cra68.addItemOutput(<abyssalcraft:oc>*64);
+cra68.addItemOutput(<abyssalcraft:oc>*128);
 cra68.build();
 
 
@@ -797,3 +797,12 @@ cra81.setChance(0.0);
 cra81.addItemInput(<aoa3:void_scales>*16);
 cra81.addItemOutput(<iceandfire:dragonscales_black>*48);
 cra81.build();
+
+
+val cra82 = RecipeBuilder.newBuilder("cra82","sterilized_altar",30);
+cra82.addEnergyPerTickInput(1200);
+cra82.addFluidInput(<fluid:liquid_pe>*12);
+cra82.addFluidInput(<fluid:nethengeic_flame>*144);
+cra82.addItemInput(<divinerpg:bloodgem>*12);
+cra82.addItemOutput(<contenttweaker:nethengeic_gem>*12);
+cra82.build();

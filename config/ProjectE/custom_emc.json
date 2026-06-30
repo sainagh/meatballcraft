@@ -23447,6 +23447,62 @@
     {
       "item": "iceandfire:dread_stone_bricks_mossy|0",
       "emc": 9
+    },
+    {
+      "item": "contenttweaker:jei_info_box|0",
+      "emc": 2048
+    },
+    {
+      "item": "contenttweaker:tool_tip|0",
+      "emc": 2048
+    },
+    {
+      "item": "contenttweaker:tracker_binoculars|0",
+      "emc": 2048
+    },
+    {
+      "item": "contenttweaker:notes_of_a_mines_yearner|0",
+      "emc": 2048
+    },
+    {
+      "item": "contenttweaker:a_smithys_tablet|0",
+      "emc": 2048
+    },
+    {
+      "item": "contenttweaker:toy_sword|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:stone_twist_thin|0",
+      "emc": 4096
+    },
+    {
+      "item": "twilightforest:stone_twist|0",
+      "emc": 4096
+    },
+    {
+      "item": "aoa3:runic_bush|0",
+      "emc": 256
+    },
+    {
+      "item": "aoa3:magias|0",
+      "emc": 256
+    },
+    {
+      "item": "aoa3:rune_bulbs|0",
+      "emc": 256
+    },
+    {
+      "item": "contenttweaker:cleanroom_certificate|0",
+      "emc": 1024
+    },
+    {
+      "item": "contenttweaker:server_rack|0",
+      "emc": 1024
+    },
+    {
+      "item": "contenttweaker:chunky_sand_pile|0",
+      "emc": 1024
     }
   ]
 }

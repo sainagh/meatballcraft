@@ -227,6 +227,13 @@ divinestar4.addItemInput(<minecraft:nether_star>*8);
 divinestar4.addItemOutput(<contenttweaker:divine_star>*8);
 divinestar4.build();
 
+val divinestar5 = RecipeBuilder.newBuilder("divinestar5","stellar_diviner",5);
+divinestar5.addFluidInput(<fluid:divination_catalyst>*10);
+divinestar5.addItemInput(<contenttweaker:ichorium_void_stone>*6);
+divinestar5.addItemInput(<minecraft:nether_star>*16);
+divinestar5.addItemOutput(<contenttweaker:divine_star>*16);
+divinestar5.build();
+
 
 val edenstar1 = RecipeBuilder.newBuilder("edenstar1","stellar_diviner",5);
 edenstar1.addFluidInput(<fluid:divination_catalyst>*10);

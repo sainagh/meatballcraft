@@ -233,7 +233,9 @@ recipes.addShaped(<techreborn:part:30>*4,
 
 recipes.removeShaped(<techreborn:industrial_centrifuge>);
 
-mods.thermalexpansion.Transposer.addFillRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidhelium", Amount: 1000}}), <techreborn:dynamiccell>, <fluid:helium>*1000, 2200);
+mods.thermalexpansion.Transposer.addFillRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidhelium", Amount: 1000}}), <techreborn:dynamiccell>, <fluid:fluidhelium>*1000, 2200);
+
+mods.thermalexpansion.Transposer.addFillRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "helium", Amount: 1000}}), <techreborn:dynamiccell>, <fluid:helium>*1000, 2200);
 
 
 recipes.removeShaped(<techreborn:distillation_tower>);

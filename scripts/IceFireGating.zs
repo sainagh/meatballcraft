@@ -12,16 +12,6 @@ recipes.addShapeless(<iceandfire:dragonforge_ice_core>,[<iceandfire:dragonforge_
 recipes.addShapeless(<iceandfire:dragonforge_lightning_core_disabled>,[<iceandfire:dragonforge_lightning_core>]);
 recipes.addShapeless(<iceandfire:dragonforge_lightning_core>,[<iceandfire:dragonforge_lightning_core_disabled>]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "iceandfire:if_hydra"}}), 
-[[<bewitchment:snake_venom>, null, <bewitchment:snake_venom>], 
-[null, <extendedcrafting:singularity:7>, null], 
-[<bewitchment:snake_venom>, null, <bewitchment:snake_venom>]]); 
-
-mods.extendedcrafting.TableCrafting.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "iceandfire:stymphalianbird"}}), 
-[[<ore:dragonScaleItem>, null, <ore:dragonScaleItem>], 
-[null, <minecraft:elytra>, null], 
-[<ore:dragonScaleItem>, null, <ore:dragonScaleItem>]]); 
-
 
 recipes.remove(<iceandfire:armor_silver_metal_helmet>);
 recipes.remove(<iceandfire:armor_silver_metal_chestplate>);

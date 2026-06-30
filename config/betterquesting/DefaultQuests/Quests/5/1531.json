@@ -14,10 +14,22 @@
           }
         }
       },
-      "name:8": "Emberstone"
+      "name:8": "Emberstone Chicken"
     }
   },
   "questID:3": 1531,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:emberstone_egg"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

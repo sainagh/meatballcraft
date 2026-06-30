@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oThe roost is a midgame alternative to the Nesting Pen that becomes available in chapter 4.\n\nThe Catcher is use to collect chickens as in-world entities, and it turn them into items that are used in the Roost.\n\nChickens in this form have stats: Gain, Strength, Growth that determine how fast they lay eggs. These stas can be increased using the Breeder, or with the Lovely Chicken.\n\nIt is not as scalable and as a Mechanized Coop for the endgame and postgame, but it is a single block so it may be more versatile in many cases, especially with all the chichens you will be farming through the mythic shells.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "roost:roost"
@@ -14,6 +14,18 @@
     }
   },
   "questID:3": 20427,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "roost:roost"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
@@ -25,6 +37,10 @@
         "1:10": {
           "Count:3": 1,
           "id:8": "roost:catcher"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "roost:breeder"
         }
       },
       "taskID:8": "bq_standard:retrieval"

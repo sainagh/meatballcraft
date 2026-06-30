@@ -57,16 +57,16 @@
   },
   "texture": {
     "render_type": "cross",
-    "seed_texture": "actuallyadditions:items/item_canola_seed",
+    "seed_texture": "aoa3:items/misc/seeds/holly_top_seeds",
     "plant_textures": [
-      "actuallyadditions:blocks/functional/crops/holly_tops_crop_0",
-      "actuallyadditions:blocks/functional/crops/holly_tops_crop_1",
-      "actuallyadditions:blocks/functional/crops/holly_tops_crop_0",
-      "actuallyadditions:blocks/functional/crops/holly_tops_crop_3",
-      "actuallyadditions:blocks/functional/crops/holly_tops_crop_4",
-      "actuallyadditions:blocks/functional/crops/holly_tops_crop_5",
-      "actuallyadditions:blocks/functional/crops/holly_tops_crop_6",
-      "actuallyadditions:blocks/functional/crops/holly_tops_crop_7"
+      "aoa3:blocks/functional/crops/holly_tops_crop_0",
+      "aoa3:blocks/functional/crops/holly_tops_crop_1",
+      "aoa3:blocks/functional/crops/holly_tops_crop_0",
+      "aoa3:blocks/functional/crops/holly_tops_crop_3",
+      "aoa3:blocks/functional/crops/holly_tops_crop_4",
+      "aoa3:blocks/functional/crops/holly_tops_crop_5",
+      "aoa3:blocks/functional/crops/holly_tops_crop_6",
+      "aoa3:blocks/functional/crops/holly_tops_crop_7"
     ]
   }
 }

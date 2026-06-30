@@ -57,7 +57,7 @@
           "id:8": "crimsonwarfare:boss_activator"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

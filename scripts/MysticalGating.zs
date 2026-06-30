@@ -74,27 +74,133 @@ mods.extendedcrafting.TableCrafting.addShaped(<matc:supremiumcrystal>,
 
 
 recipes.removeShaped(<mysticalagriculture:sheep_seeds>);
+recipes.addShaped(<mysticalagriculture:sheep_seeds>,
+[[<minecraft:mutton>, <mysticalagradditions:insanium:0>, <minecraft:mutton>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<minecraft:mutton>, <mysticalagradditions:insanium:0>, <minecraft:mutton>]]);
+
 recipes.removeShaped(<mysticalagriculture:cow_seeds>);
+recipes.addShaped(<mysticalagriculture:cow_seeds>,
+[[<minecraft:beef>, <mysticalagradditions:insanium:0>, <minecraft:beef>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<minecraft:beef>, <mysticalagradditions:insanium:0>, <minecraft:beef>]]);
+
 recipes.removeShaped(<mysticalagriculture:chicken_seeds>);
+recipes.addShaped(<mysticalagriculture:chicken_seeds>,
+[[<minecraft:chicken>, <mysticalagradditions:insanium:0>, <minecraft:chicken>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<minecraft:chicken>, <mysticalagradditions:insanium:0>, <minecraft:chicken>]]);
+
 recipes.removeShaped(<mysticalagriculture:pig_seeds>);
+recipes.addShaped(<mysticalagriculture:pig_seeds>,
+[[<minecraft:porkchop>, <mysticalagradditions:insanium:0>, <minecraft:porkchop>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<minecraft:porkchop>, <mysticalagradditions:insanium:0>, <minecraft:porkchop>]]);
+
 recipes.removeShaped(<mysticalagriculture:experience_seeds>);
+recipes.addShaped(<mysticalagriculture:experience_seeds>,
+[[<actuallyadditions:item_solidified_experience>, <mysticalagradditions:insanium:0>, <actuallyadditions:item_solidified_experience>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<actuallyadditions:item_solidified_experience>, <mysticalagradditions:insanium:0>, <actuallyadditions:item_solidified_experience>]]);
+
 recipes.removeShaped(<mysticalagriculture:zombie_seeds>);
+recipes.addShaped(<mysticalagriculture:zombie_seeds>,
+[[<minecraft:rotten_flesh>, <mysticalagradditions:insanium:0>, <minecraft:rotten_flesh>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<minecraft:rotten_flesh>, <mysticalagradditions:insanium:0>, <minecraft:rotten_flesh>]]);
+
 recipes.removeShaped(<mysticalagriculture:skeleton_seeds>);
+recipes.addShaped(<mysticalagriculture:skeleton_seeds>,
+[[<minecraft:bone>, <mysticalagradditions:insanium:0>, <minecraft:bone>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<minecraft:bone>, <mysticalagradditions:insanium:0>, <minecraft:bone>]]);
+
 recipes.removeShaped(<mysticalagriculture:creeper_seeds>);
+recipes.addShaped(<mysticalagriculture:creeper_seeds>,
+[[<minecraft:gunpowder>, <mysticalagradditions:insanium:0>, <minecraft:gunpowder>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<minecraft:gunpowder>, <mysticalagradditions:insanium:0>, <minecraft:gunpowder>]]);
+
 recipes.removeShaped(<mysticalagriculture:spider_seeds>);
+recipes.addShaped(<mysticalagriculture:creeper_seeds>,
+[[<minecraft:string>, <mysticalagradditions:insanium:0>, <minecraft:string>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<minecraft:string>, <mysticalagradditions:insanium:0>, <minecraft:string>]]);
+
 recipes.removeShaped(<mysticalagriculture:rabbit_seeds>);
+recipes.addShaped(<mysticalagriculture:rabbit_seeds>,
+[[<minecraft:rabbit>, <mysticalagradditions:insanium:0>, <minecraft:rabbit>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<minecraft:rabbit>, <mysticalagradditions:insanium:0>, <minecraft:rabbit>]]);
+
 recipes.removeShaped(<mysticalagriculture:guardian_seeds>);
+recipes.addShaped(<mysticalagriculture:guardian_seeds>,
+[[<minecraft:prismarine_shard>, <mysticalagradditions:insanium:0>, <minecraft:prismarine_shard>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<minecraft:prismarine_shard>, <mysticalagradditions:insanium:0>, <minecraft:prismarine_shard>]]);
+
 recipes.removeShaped(<mysticalagriculture:ghast_seeds>);
+recipes.addShaped(<mysticalagriculture:ghast_seeds>,
+[[<minecraft:ghast_tear>, <mysticalagradditions:insanium:0>, <minecraft:ghast_tear>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<minecraft:ghast_tear>, <mysticalagradditions:insanium:0>, <minecraft:ghast_tear>]]);
+
 recipes.removeShaped(<mysticalagriculture:blaze_seeds>);
+recipes.addShaped(<mysticalagriculture:blaze_seeds>,
+[[<minecraft:blaze_rod>, <mysticalagradditions:insanium:0>, <minecraft:blaze_rod>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<minecraft:blaze_rod>, <mysticalagradditions:insanium:0>, <minecraft:blaze_rod>]]);
+
 recipes.removeShaped(<mysticalagriculture:enderman_seeds>);
+recipes.addShaped(<mysticalagriculture:enderman_seeds>,
+[[<minecraft:ender_pearl>, <mysticalagradditions:insanium:0>, <minecraft:ender_pearl>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<minecraft:ender_pearl>, <mysticalagradditions:insanium:0>, <minecraft:ender_pearl>]]);
+
 recipes.removeShaped(<mysticalagriculture:wither_skeleton_seeds>);
+recipes.addShaped(<mysticalagriculture:wither_skeleton_seeds>,
+[[<minecraft:skull:1>, <mysticalagradditions:insanium:0>, <minecraft:skull:1>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<minecraft:skull:1>, <mysticalagradditions:insanium:0>, <minecraft:skull:1>]]);
+
 recipes.removeShaped(<mysticalagriculture:blizz_seeds>);
+recipes.addShaped(<mysticalagriculture:blizz_seeds>,
+[[<thermalfoundation:material:2048>, <mysticalagradditions:insanium:0>, <thermalfoundation:material:2048>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<thermalfoundation:material:2048>, <mysticalagradditions:insanium:0>, <thermalfoundation:material:2048>]]);
+
 recipes.removeShaped(<mysticalagriculture:blitz_seeds>);
+recipes.addShaped(<mysticalagriculture:blitz_seeds>,
+[[<thermalfoundation:material:2050>, <mysticalagradditions:insanium:0>, <thermalfoundation:material:2050>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<thermalfoundation:material:2050>, <mysticalagradditions:insanium:0>, <thermalfoundation:material:2050>]]);
+
 recipes.removeShaped(<mysticalagriculture:basalz_seeds>);
+recipes.addShaped(<mysticalagriculture:basalz_seeds>,
+[[<thermalfoundation:material:2052>, <mysticalagradditions:insanium:0>, <thermalfoundation:material:2052>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<thermalfoundation:material:2052>, <mysticalagradditions:insanium:0>, <thermalfoundation:material:2052>]]);
+
 recipes.removeShaped(<mysticalagriculture:rubber_seeds>);
+recipes.addShaped(<mysticalagriculture:rubber_seeds>,
+[[<ore:itemRubber>, <mysticalagradditions:insanium:0>, <ore:itemRubber>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<ore:itemRubber>, <mysticalagradditions:insanium:0>, <ore:itemRubber>]]);
+
 recipes.removeShaped(<mysticalagriculture:elementium_seeds>);
 recipes.removeShaped(<mysticalagriculture:terrasteel_seeds>);
+
+
+
 recipes.removeShaped(<mysticalagriculture:manasteel_seeds>);
+recipes.addShaped(<mysticalagriculture:manasteel_seeds>,
+[[<contenttweaker:terrasteel_crystal>, <mysticalagradditions:insanium:0>, <contenttweaker:terrasteel_crystal>],
+[<mysticalagradditions:insanium:0>, <contenttweaker:kobblin_seedling>, <mysticalagradditions:insanium:0>],
+[<contenttweaker:terrasteel_crystal>, <mysticalagradditions:insanium:0>, <contenttweaker:terrasteel_crystal>]]);
+
+
+
+
 
 
 recipes.addShaped(<mysticalagriculture:fertilized_essence>,
@@ -234,3 +340,27 @@ recipes.addShaped(<mysticalagriculture:inferium_furnace>,
 [[null, <contenttweaker:whitefire_ember>, null],
 [<mysticalagriculture:storage:0>, <minecraft:furnace>, <mysticalagriculture:storage:0>],
 [null, <mysticalagriculture:storage:0>, null]]);
+
+
+
+
+recipes.removeShaped(<botania:manaresource:0>*5,
+[[<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>],
+[<mysticalagriculture:manasteel_essence>, null, <mysticalagriculture:manasteel_essence>],
+[<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>]]);
+
+
+recipes.addShaped(<botania:manaresource:0>*8,
+[[<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>],
+[<mysticalagriculture:manasteel_essence>, <ore:ingotIron>, <mysticalagriculture:manasteel_essence>],
+[<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>]]);
+
+recipes.addShaped(<botania:manaresource:2>*8,
+[[<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>],
+[<mysticalagriculture:manasteel_essence>, <ore:gemDiamond>, <mysticalagriculture:manasteel_essence>],
+[<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>]]);
+
+recipes.addShaped(<botania:manaresource:23>*8,
+[[<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>],
+[<mysticalagriculture:manasteel_essence>, <ore:dustRedstone>, <mysticalagriculture:manasteel_essence>],
+[<mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>, <mysticalagriculture:manasteel_essence>]]);

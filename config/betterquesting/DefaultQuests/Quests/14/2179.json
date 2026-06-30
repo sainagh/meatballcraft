@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oThe ender pickaxe is not necessarily the most convenient tool by default, but it has a nice upgrade that prevents instamining and caps the speed for breaking blocks at the speed blocks are broken in creative mode.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "enderio:item_end_steel_pickaxe"
@@ -13,6 +13,19 @@
     }
   },
   "questID:3": 2179,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "draconicevolution:draconium_ore"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

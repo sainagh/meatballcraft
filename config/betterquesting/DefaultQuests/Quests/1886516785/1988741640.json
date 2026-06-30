@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1382348754
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:subterranean_greatblade"
+      },
+      "name:8": "Hunting: Subterranian"
+    }
+  },
+  "questID:3": 1988741640,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:subterranean_greatblade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

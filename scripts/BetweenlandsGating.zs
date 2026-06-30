@@ -136,3 +136,8 @@ recipes.addShaped(<thebetweenlands:valonite_sword>,
 
 
 
+recipes.removeShaped(<thebetweenlands:valonite_axe>);
+recipes.addShaped(<thebetweenlands:valonite_axe>,
+[[null, <ore:blockValonite>, <ore:blockValonite>],
+[<contenttweaker:menacing_sludge>, <thebetweenlands:items_misc:20>, <ore:blockValonite>],
+[null, <thebetweenlands:items_misc:20>, null]]);

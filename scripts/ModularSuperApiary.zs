@@ -4,6 +4,20 @@ import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
 
 
 
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_lumber_apiary>*2, 
+[[<careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}}), null, <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), null, <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}})], 
+[null, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, null], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <twilightforest:cinder_log>, <contenttweaker:sacred_cinders_apiary>, <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})], 
+[null, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, null], 
+[<careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}}), null, <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), null, <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}})]]);  
+
+
+
+
+
+
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_log>, 
 [[<extratrees:misc:3>, <extratrees:misc:3>, null, <extratrees:misc:3>, <extratrees:misc:3>], 
 [<extratrees:misc:3>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <extratrees:misc:3>], 
@@ -17,6 +31,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_log
 [null, <contenttweaker:chaos_wood>, <contenttweaker:energy_egg>, <contenttweaker:order_wood>, null], 
 [<extratrees:misc:3>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <extratrees:misc:3>], 
 [<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <extratrees:misc:3>, null, <extratrees:misc:3>, <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})]]);  
+
 
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_log>*4, 
@@ -440,5 +455,13 @@ superbee_oily.addFluidInput(<fluid:liquid_sunshine>*25);
 superbee_oily.addItemOutput(<extrabees:honey_comb:3>*64);
 superbee_oily.addItemOutput(<extrabees:honey_comb:23>*64);	
 superbee_oily.build();
+
+val superbee_paradoxical = RecipeBuilder.newBuilder("superbee_paradoxical","sacred_cinders_apiary",10);	
+superbee_paradoxical.addItemInput(<forestry:bee_queen_ge>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Paradoxical", UID0: "gendustry.bee.Paradoxical"}]}}));	
+superbee_paradoxical.setChance(0.0);	
+superbee_paradoxical.addFluidInput(<fluid:liquid_sunshine>*25);	
+superbee_paradoxical.addItemOutput(<contenttweaker:paradoxical_honey>*64);
+superbee_paradoxical.addItemOutput(<contenttweaker:paradoxical_honey>*64);	
+superbee_paradoxical.build();
 
 

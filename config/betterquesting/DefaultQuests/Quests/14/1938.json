@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oA configurable building wand that pulls items from your EMC network.\n\nIn this pack, the Building Gadget can do it too, but the Mercurial Eye can place down a larger number of blocks.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -22,6 +22,19 @@
     }
   },
   "questID:3": 1938,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "projecte:item.pe_matter"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "ignoreNBT:1": 1,

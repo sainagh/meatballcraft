@@ -57,10 +57,19 @@ recipes.addShaped(<contenttweaker:unidentifying_fluix_fossil>*4,
 [<contenttweaker:unidentifying_egg>, <contenttweaker:fluix_fossilization_fabrial>.reuse(), <contenttweaker:unidentifying_egg>],
 [<contenttweaker:condensed_petrified_fluix>, <contenttweaker:unidentifying_egg>, <contenttweaker:condensed_petrified_fluix>]]);
 
+
+
+
+
 recipes.addShaped(<contenttweaker:paradoxical_fluix_fossil>*4,
 [[<contenttweaker:condensed_petrified_fluix>, <contenttweaker:paradoxical_egg>, <contenttweaker:condensed_petrified_fluix>],
 [<contenttweaker:paradoxical_egg>, <contenttweaker:fluix_fossilization_fabrial>.reuse(), <contenttweaker:paradoxical_egg>],
 [<contenttweaker:condensed_petrified_fluix>, <contenttweaker:paradoxical_egg>, <contenttweaker:condensed_petrified_fluix>]]);
+
+recipes.addShaped(<contenttweaker:paradoxical_fluix_fossil>*4,
+[[<contenttweaker:condensed_petrified_fluix>, <contenttweaker:paradoxical_stone>, <contenttweaker:condensed_petrified_fluix>],
+[<contenttweaker:paradoxical_stone>, <contenttweaker:fluix_fossilization_fabrial>.reuse(), <contenttweaker:paradoxical_stone>],
+[<contenttweaker:condensed_petrified_fluix>, <contenttweaker:paradoxical_stone>, <contenttweaker:condensed_petrified_fluix>]]);
 
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:master_wizardry_catalyst>, 

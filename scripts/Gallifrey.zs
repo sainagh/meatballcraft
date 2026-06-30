@@ -359,6 +359,21 @@ fracfurndynatosstar2.addItemOutput(<contenttweaker:dynatos_star>*512);
 fracfurndynatosstar2.build();
 
 
+val fracfurnbetterrunandium1 = RecipeBuilder.newBuilder("fracfurnbetterrunandium1","fractallite_furnace",10);
+fracfurnbetterrunandium1.addFluidInput(<fluid:aeternalis_fuel>*100);
+fracfurnbetterrunandium1.addItemInput(<contenttweaker:catalyzed_runic_ore>*1);
+fracfurnbetterrunandium1.addItemInput(<aoa3:elecanium_block>*4);
+fracfurnbetterrunandium1.addItemInput(<contenttweaker:hypercharged_runium_chunk>*32);
+fracfurnbetterrunandium1.addItemOutput(<contenttweaker:runandium_ingot>*32);
+fracfurnbetterrunandium1.build();
+
+val fracfurnbetterrunandium2 = RecipeBuilder.newBuilder("fracfurnbetterrunandium2","fractallite_furnace",10);
+fracfurnbetterrunandium2.addFluidInput(<fluid:infinity>*100);
+fracfurnbetterrunandium2.addItemInput(<contenttweaker:catalyzed_runic_ore>*1);
+fracfurnbetterrunandium2.addItemInput(<aoa3:elecanium_block>*8);
+fracfurnbetterrunandium2.addItemInput(<contenttweaker:hypercharged_runium_chunk>*64);
+fracfurnbetterrunandium2.addItemOutput(<contenttweaker:runandium_ingot>*64);
+fracfurnbetterrunandium2.build();
 
 
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:ascended_gallifreyan_alloy>.withTag(unfulfilleddata), <fluid:vityte>*288, <contenttweaker:ascended_gallifreyan_alloy>.withTag(livelydata)]);

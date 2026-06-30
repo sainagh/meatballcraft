@@ -72,7 +72,7 @@
           "id:8": "abyssalcraft:stone"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Using a tome of arcana, emerald can be converted into experience bottles, this is awesome!",
+      "desc:8": "§7§oUsing a tome of arcana, emerald can be converted into experience bottles!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:experience_bottle"

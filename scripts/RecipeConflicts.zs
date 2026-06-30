@@ -2573,6 +2573,16 @@ recipes.addShaped(<techreborn:part:7>,
 [<ore:ingotTin>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "helium", Amount: 1000}}), <ore:ingotTin>],
 [null, <ore:ingotTin>, null]]);
 
+recipes.addShaped(<techreborn:part:7>,
+[[null, <ore:ingotTin>, null],
+[<ore:ingotTin>, <forge:bucketfilled>.withTag({Fluid: {FluidName: "helium", Amount: 1000}}), <ore:ingotTin>],
+[null, <ore:ingotTin>, null]]);
+
+recipes.addShaped(<techreborn:part:7>,
+[[null, <ore:ingotTin>, null],
+[<ore:ingotTin>, <forge:bucketfilled>.withTag({Fluid: {FluidName: "fluidhelium", Amount: 1000}}), <ore:ingotTin>],
+[null, <ore:ingotTin>, null]]);
+
 recipes.addShapeless(<extendedcrafting:material:36>*9,
 [<extendedcrafting:storage:5>]);
 
@@ -2644,6 +2654,9 @@ recipes.addShaped(<divinerpg:divine_shards>,
 
 recipes.addShapeless(<careerbees:ingredients:1>,
 [<contenttweaker:lumber_bee_setup>]);
+
+recipes.addShapeless(<careerbees:ingredients:1>,
+[<contenttweaker:sacred_cinders_lumber>, <contenttweaker:sacred_cinders_lumber_apiary>]);
 
 recipes.addShaped(<mowziesmobs:naga_fang>*4,
 [[<draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>, <draconicevolution:chaos_shard:3>],
@@ -2736,3 +2749,51 @@ recipes.addShaped(<chisel:paper:0>*16,
 [[<ore:paper>, <ore:paper>, <ore:paper>],
 [<ore:paper>, <ore:stickWood>, <ore:paper>],
 [<ore:paper>, <ore:paper>, <ore:paper>]]);
+
+
+
+recipes.addShapeless(<minecraft:iron_ingot>*4,
+[<contenttweaker:tracker_binoculars>]);
+
+recipes.addShapeless(<minecraft:iron_ingot>*4,
+[<contenttweaker:notes_of_a_mines_yearner>]);
+
+recipes.addShapeless(<actuallyadditions:item_misc:10>*4,
+[<contenttweaker:nuclear_engineers_goggles>]);
+
+recipes.addShapeless(<minecraft:iron_ingot>*4,
+[<contenttweaker:a_smithys_tablet>]);
+
+recipes.addShapeless(<actuallyadditions:item_misc:10>*4,
+[<contenttweaker:running_bandana>]);
+
+recipes.addShapeless(<minecraft:iron_ingot>*4,
+[<contenttweaker:diary_of_a_realmshifter>]);
+
+recipes.addShapeless(<minecraft:iron_ingot>*4,
+[<contenttweaker:toy_sword>]);
+
+recipes.addShapeless(<minecraft:iron_ingot>*4,
+[<contenttweaker:helpful_tippy_hat>]);
+
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:diametric_catalyst>*24, <contenttweaker:magnetic_monopole>*1, <contenttweaker:monopolar_catalyst>*24]);
+
+mods.nuclearcraft.alloy_furnace.addRecipe([<contenttweaker:polar_catalyst>*8, <contenttweaker:neodymium_magnetic_alloy>*2, <contenttweaker:diametric_catalyst>*8]);
+
+
+
+
+//recipes.addShaped(<xreliquary:fertile_lilypad>,
+//[[<aoa3:fragmented_anima_stone>, <aoa3:fragmented_anima_stone>],
+//[<aoa3:fragmented_anima_stone>, <minecraft:waterlily>]]);
+
+
+recipes.addShapeless(<minecraft:golden_carrot>,
+[<contenttweaker:server_rack>]);
+
+recipes.addShapeless(<minecraft:golden_carrot>,
+[<contenttweaker:cleanroom_certificate>]);
+
+recipes.addShapeless(<minecraft:iron_ingot>,
+[<contenttweaker:chunky_sand_pile>]);

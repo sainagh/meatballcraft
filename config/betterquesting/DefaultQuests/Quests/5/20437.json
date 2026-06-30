@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDropped by most mobs, this is a stackable item form of XP.",
+      "desc:8": "§7§oDropped by most mobs, this is a stackable item form of XP.\n\nAny mob farm (starting with a Cursed Earth farm) will be a good source of Solidified Experience for the early game.\n\nFor chapter 2 and 3, Data Models are a good way to farm lots of XP.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:item_solidified_experience"

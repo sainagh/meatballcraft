@@ -12,6 +12,32 @@
     }
   },
   "questID:3": 585706829,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 255,
+            "TrophyColorGreen:3": 255,
+            "TrophyColorRed:3": 255,
+            "TrophyEarnedAt:4": 1778970184,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:staff_of_the_lord_of_gluttony"
+            },
+            "TrophyName:8": "Welcome to Chapter 10",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "gold"
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

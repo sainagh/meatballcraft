@@ -4,10 +4,10 @@
 	"color": "d5d8de",
     "modifiers": [
         {
-            "elements": "contenttweaker:energy_hive@0",
+            "elements": "contenttweaker:sednanite_sheetmetal@0",
             "x": 0,
-            "y": 2,
-            "z": 0,
+            "y": 0,
+            "z": 1,
             "description": "Multiplies amounts processed by 16",
             "modifiers": [{
                 "io": "output",

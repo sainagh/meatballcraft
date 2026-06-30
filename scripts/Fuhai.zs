@@ -162,7 +162,7 @@ forgewyvascendedfluix4.build();
 
 val infinitewishesrecipe = RecipeBuilder.newBuilder("infinitewishesrecipe","orb_of_infinite_wishes",40);
 infinitewishesrecipe.addEnergyPerTickInput(2000000000);
-infinitewishesrecipe.addLifeEssenceInput(1000000, true);
+infinitewishesrecipe.addLifeEssenceInput(1000000, false);
 infinitewishesrecipe.addWillInput("DEFAULT", 30,1,2000000);
 infinitewishesrecipe.addWillInput("CORROSIVE", 30,1,2000000);
 infinitewishesrecipe.addWillInput("DESTRUCTIVE", 30,1,2000000);

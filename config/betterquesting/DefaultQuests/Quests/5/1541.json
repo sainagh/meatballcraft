@@ -14,10 +14,34 @@
           }
         }
       },
-      "name:8": "Precasia"
+      "name:8": "Precasia Chicken"
     }
   },
   "questID:3": 1541,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:chestbone_fragment_egg"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:legbone_fragment_egg"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:footbone_fragment_egg"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:skullbone_fragment_egg"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

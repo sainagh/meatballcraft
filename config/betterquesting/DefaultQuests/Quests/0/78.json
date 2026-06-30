@@ -72,7 +72,7 @@
           "id:8": "advancedrocketry:oxygencharger"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

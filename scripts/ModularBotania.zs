@@ -493,7 +493,6 @@ val bot48 = RecipeBuilder.newBuilder("bot48","gaia_altar",60);
 bot48.addEnergyPerTickInput(40000);
 bot48.addItemInput(<extrabotany:cocoondesire>*32);
 bot48.addItemInput(<contenttweaker:covetous_nest>*1);
-bot48.addItemInput(<contenttweaker:covetous_nest>*1);
 bot48.addItemInput(<contenttweaker:one_power_aspected_emerald>*16);
 bot48.addItemOutput(<contenttweaker:covetous_cocoon>*32);
 bot48.build();
@@ -508,3 +507,54 @@ bot49.addItemOutput(<divinerpg:apalachia_chunk>*256);
 bot49.addItemOutput(<divinerpg:skythern_chunk>*256);
 bot49.addItemOutput(<divinerpg:mortum_chunk>*256);
 bot49.build();
+
+
+
+recipes.addShaped(<contenttweaker:rod_of_valhalla>,
+[[null, <contenttweaker:bifrost_dust>, <contenttweaker:bifrost_dust>],
+[null, <botania:rainbowrod>, <contenttweaker:bifrost_dust>],
+[<tconstruct:tool_rod>.withTag({Material: "worthy"}), null, null]]);
+
+
+val bot50 = RecipeBuilder.newBuilder("bot50","gaia_altar",60);
+bot50.addEnergyPerTickInput(40000);
+bot50.addItemInput(<contenttweaker:rod_of_valhalla>);
+bot50.setChance(0.0);
+bot50.addItemInput(<botania:elfglass>*1024);
+bot50.addItemOutput(<botania:bifrostperm>*1024);
+bot50.build();
+
+val bot51 = RecipeBuilder.newBuilder("bot51","gaia_altar",60);
+bot51.addEnergyPerTickInput(40000);
+bot51.addItemInput(<contenttweaker:rod_of_valhalla>);
+bot51.setChance(0.0);
+bot51.addItemInput(<botania:bifrostperm>*1024);
+bot51.addItemInput(<botania:dreamwood:1>*1024);
+bot51.addItemOutput(<botania:shimmerwoodplanks>*1024);
+bot51.build();
+
+val bot52 = RecipeBuilder.newBuilder("bot52","gaia_altar",60);
+bot52.addEnergyPerTickInput(40000);
+bot52.addItemInput(<contenttweaker:rod_of_valhalla>);
+bot52.setChance(0.0);
+bot52.addItemInput(<botania:bifrostperm>*1024);
+bot52.addItemInput(<botania:livingrock:0>*1024);
+bot52.addItemOutput(<botania:shimmerrock>*1024);
+bot52.build();
+
+
+val bot53 = RecipeBuilder.newBuilder("bot53","gaia_altar",60);
+bot53.addEnergyPerTickInput(40000);
+bot53.addItemInput(<botania:rainbowrod>);
+bot53.setChance(0.0);
+bot53.addItemInput(<botania:shimmerrock>*320);
+bot53.addItemOutput(<botania:pool:3>*64);
+bot53.build();
+
+val bot54 = RecipeBuilder.newBuilder("bot54","gaia_altar",60);
+bot54.addEnergyPerTickInput(40000);
+bot54.addItemInput(<contenttweaker:rod_of_valhalla>);
+bot54.setChance(0.0);
+bot54.addItemInput(<botania:shimmerrock>*3200);
+bot54.addItemOutput(<botania:pool:3>*640);
+bot54.build();

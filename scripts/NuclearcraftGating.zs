@@ -904,3 +904,10 @@ recipes.addShaped(<nuclearcraft:part:12>*2,
 [[<ore:ingotLunastone>, <contenttweaker:hyperchitinous_plate>, <ore:ingotLunastone>],
 [<redstonearsenal:material:128>, <nuclearcraft:part:10>, <redstonearsenal:material:128>],
 [<ore:ingotLunastone>, <contenttweaker:hyperchitinous_plate>, <ore:ingotLunastone>]]);
+
+
+
+mods.nuclearcraft.melter.addRecipe([<nuclearcraft:compound:3>, <fluid:molten_sodium_fluoride>*1000]);
+
+mods.nuclearcraft.chemical_reactor.addRecipe([<fluid:molten_sodium_fluoride>*1000, <fluid:water>*1000, <fluid:sodium_fluoride_solution>*1000, null]);
+

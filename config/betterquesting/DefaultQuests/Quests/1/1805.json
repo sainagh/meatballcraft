@@ -13,6 +13,26 @@
     }
   },
   "questID:3": 1805,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:fire_dragon_flesh"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:ice_dragon_flesh"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:lightning_dragon_flesh"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

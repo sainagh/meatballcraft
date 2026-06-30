@@ -60,7 +60,7 @@
           "id:8": "dimdoors:rift_remover"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

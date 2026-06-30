@@ -77,7 +77,7 @@
           "id:8": "contenttweaker:constructor_summoner"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

@@ -692,7 +692,7 @@ mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<contenttweaker:strange_phasing_d
 
 
 val divinecombinerfinemineraldust = RecipeBuilder.newBuilder("divinecombinerfinemineraldust","divine_combiner",2);
-divinecombinerfinemineraldust.addFluidInput(<fluid:infinity>*288);
+divinecombinerfinemineraldust.addFluidInput(<fluid:infinity>*72);
 divinecombinerfinemineraldust.addItemInput(<contenttweaker:pale_metal_dust>);
 divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:41>*48);
 divinecombinerfinemineraldust.addItemInput(<techreborn:smalldust:1>*64);
@@ -751,7 +751,7 @@ recipes.addShapeless(<contenttweaker:delicate_pollen>*8,
 
 
 val divinecombinerfinemineraldust2 = RecipeBuilder.newBuilder("divinecombinerfinemineraldust2","divine_combiner",2);
-divinecombinerfinemineraldust2.addFluidInput(<fluid:infinity>*288);
+divinecombinerfinemineraldust2.addFluidInput(<fluid:infinity>*72);
 divinecombinerfinemineraldust2.addItemInput(<contenttweaker:delicate_pollen>);
 divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:41>*192);
 divinecombinerfinemineraldust2.addItemInput(<techreborn:smalldust:1>*256);
@@ -1568,7 +1568,7 @@ mods.nuclearcraft.salt_fission.addRecipe([<fluid:explosive_actualization>*100, <
 
 mods.nuclearcraft.heat_exchanger.addRecipe([<fluid:stationary_actualization>*1000, <fluid:excited_actualization>*1000, 80000.0, 300, 700]);
 
-mods.nuclearcraft.turbine.addRecipe([<fluid:exuberant_actualization>*50, <fluid:resting_actualization>*50, 30000.0, 200.0]);
+mods.nuclearcraft.turbine.addRecipe([<fluid:exuberant_actualization>*50, <fluid:resting_actualization>*5, 30000.0, 200.0]);
 
 mods.nuclearcraft.condenser.addRecipe([<fluid:hyperactive_actualization>*50, <fluid:acting_actualization>*50, 50.0, 500]);
 
@@ -1583,3 +1583,100 @@ moltenchaosentropic1.addFluidInput(<fluid:actualizing_fluid>*2000);
 moltenchaosentropic1.addFluidOutput(<fluid:explosive_actualization>*250);
 moltenchaosentropic1.build();
 
+
+
+
+
+val crystcryst1 = RecipeBuilder.newBuilder("crystcryst1","essentia_crystallizer",2);
+crystcryst1.addItemInput(<contenttweaker:crystevia_geode>);
+crystcryst1.addItemInput(<aoa3:blue_crystal_block>);
+crystcryst1.addItemOutput(<aoa3:blue_crystal>*9);
+crystcryst1.build();
+
+val crystcryst2 = RecipeBuilder.newBuilder("crystcryst2","essentia_crystallizer",2);
+crystcryst2.addItemInput(<contenttweaker:crystevia_geode>);
+crystcryst2.addItemInput(<aoa3:green_crystal_block>);
+crystcryst2.addItemOutput(<aoa3:green_crystal>*9);
+crystcryst2.build();
+
+val crystcryst3 = RecipeBuilder.newBuilder("crystcryst3","essentia_crystallizer",2);
+crystcryst3.addItemInput(<contenttweaker:crystevia_geode>);
+crystcryst3.addItemInput(<aoa3:purple_crystal_block>);
+crystcryst3.addItemOutput(<aoa3:purple_crystal>*9);
+crystcryst3.build();
+
+val crystcryst4 = RecipeBuilder.newBuilder("crystcryst4","essentia_crystallizer",2);
+crystcryst4.addItemInput(<contenttweaker:crystevia_geode>);
+crystcryst4.addItemInput(<aoa3:yellow_crystal_block>);
+crystcryst4.addItemOutput(<aoa3:yellow_crystal>*9);
+crystcryst4.build();
+
+val crystcryst5 = RecipeBuilder.newBuilder("crystcryst5","essentia_crystallizer",2);
+crystcryst5.addItemInput(<contenttweaker:crystevia_geode>);
+crystcryst5.addItemInput(<aoa3:white_crystal_block>);
+crystcryst5.addItemOutput(<aoa3:white_crystal>*9);
+crystcryst5.build();
+
+val crystcryst6 = RecipeBuilder.newBuilder("crystcryst6","essentia_crystallizer",2);
+crystcryst6.addItemInput(<contenttweaker:crystevia_geode>);
+crystcryst6.addItemInput(<aoa3:red_crystal_block>);
+crystcryst6.addItemOutput(<aoa3:red_crystal>*9);
+crystcryst6.build();
+
+
+
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:dream_projector_gem>*4, <fluid:marginal_pearlized_essence>*8000, <fluid:marginal_pearlized_catalyst>*8000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:cursed_dragon_egg>*4, <fluid:weak_pearlized_essence>*8000, <fluid:weak_pearlized_catalyst>*8000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:strange_stone_essence>*4, <fluid:moderate_pearlized_essence>*8000, <fluid:moderate_pearlized_catalyst>*8000]);
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:infinity_fragment>*16, <fluid:strong_pearlized_essence>*8000, <fluid:strong_pearlized_catalyst>*8000]);
+
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:fine_mineral_dust>*4, <fluid:fine_mineral_mix>*1000]);
+
+mods.nuclearcraft.salt_mixer.addRecipe([<fluid:fine_mineral_mix>*1000, <fluid:ogerite>*576, <fluid:primal_ogerite>*576]);
+
+
+
+
+mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:defined_gear>, 
+[[<contenttweaker:shyre_crystal>, <contenttweaker:defined_plate>, <contenttweaker:shyre_crystal>], 
+[<contenttweaker:defined_plate>, <materialpart:chalcedony:ingot>, <contenttweaker:defined_plate>], 
+[<contenttweaker:shyre_crystal>, <contenttweaker:defined_plate>, <contenttweaker:shyre_crystal>]], 1);
+
+
+mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:defined_gear>*16, 
+[[<contenttweaker:shyre_crystal>, <contenttweaker:balanced_plating>, <contenttweaker:shyre_crystal>], 
+[<contenttweaker:balanced_plating>, <contenttweaker:recursium_ingot>, <contenttweaker:balanced_plating>], 
+[<contenttweaker:shyre_crystal>, <contenttweaker:balanced_plating>, <contenttweaker:shyre_crystal>]], 1);
+
+
+recipes.addShaped(<contenttweaker:balanced_plating>*1,
+[[<contenttweaker:defined_plate>, <materialpart:hassium:ingot>, <contenttweaker:defined_plate>],
+[<contenttweaker:stone_of_universal_balance>, <materialpart:chalcedony:ingot>, <contenttweaker:stone_of_universal_balance>],
+[<contenttweaker:defined_plate>, <materialpart:hassium:ingot>, <contenttweaker:defined_plate>]]);
+
+
+
+
+
+val bloodcrucnethenge = RecipeBuilder.newBuilder("bloodcrucnethenge","bloodmaster_crucible",2);
+bloodcrucnethenge.addFluidInput(<fluid:twilight_fire>*5);
+bloodcrucnethenge.addItemInput(<aoa3:flammable_dust>*4);
+bloodcrucnethenge.addItemInput(<extrautils2:ingredients:11>*4);
+bloodcrucnethenge.addItemInput(<divinerpg:netherite_ingot>*4);
+bloodcrucnethenge.addItemInput(<contenttweaker:nethengeic_mark>*1);
+bloodcrucnethenge.addFluidOutput(<fluid:nethengeic_flame>*1152);
+bloodcrucnethenge.build();
+
+
+recipes.addShapeless(<contenttweaker:defined_plate>,
+[<extrabotany:ultimatehammer>.withTag({damage: 3000, repair: 17000}).reuse(),
+<contenttweaker:bloodmaster_block>,
+<contenttweaker:bloodmaster_block>,
+<contenttweaker:bloodmaster_block>,
+<contenttweaker:bloodmaster_block>,
+<contenttweaker:defined_ingot>]);

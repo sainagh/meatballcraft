@@ -16,6 +16,20 @@
                 "operation": 1,
                 "multiplier": 5
             }]
+        },
+        {
+            "elements": "contenttweaker:sacred_cinders_lumber_apiary",
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "description": "Lumber Bee Powers",
+            "modifiers": [
+                {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 1
+            }]
         }
     ],
     "parts": [

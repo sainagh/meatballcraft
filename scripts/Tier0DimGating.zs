@@ -42,3 +42,10 @@ recipes.addShaped(<divinerpg:arcana_portal_frame>*12,
 [[null, <divinerpg:bluefire_stone>, null],
 [<botania:storage:0>, <botania:storage:0>, <botania:storage:0>],
 [null, <divinerpg:bluefire_stone>, null]]);
+
+
+recipes.addShaped(<contenttweaker:fluix_lens>,
+[[<divinerpg:crab_claw>, <thaumictinkerer:kamiresource:3>, <divinerpg:crab_claw>],
+[<aoa3:mystite_ingot>, <appliedenergistics2:material:12>, <aoa3:mystite_ingot>],
+[<divinerpg:crab_claw>, <thaumictinkerer:kamiresource:3>, <divinerpg:crab_claw>]]);
+

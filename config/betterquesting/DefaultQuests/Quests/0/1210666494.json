@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe mob cannot be damaged through normal ranged and melee weapons (things like Zenith and Kikoku can do damage but will not produce drops). Magic damage, Electroblob spells, the railgun, and other magic weapons will work!",
+      "desc:8": "§7§oThe mob cannot be damaged through normal ranged and melee weapons (things like Zenith and Kikoku can do damage but will not produce drops). Magic damage, Electroblob spells, the railgun, and other magic weapons will work!\n\n§fAll throughout my journey, I have been alone.\nI accepted it, partly because I expected some reward to come at the end. To give me companionship, to give meaning to my loneliness.\nBut the reward, it was something else. Another fate was awaiting me.\nMy people are gone. \nTheir souls have been taken under someone\u0027s wing, but that does not take away the fact that I am probably the last human, and that is something I will have to live with, no matter where my fate will lead me.\nI am alone now, but it is because I decided to be.\nDespite my self-centeredness, I had companions, allies, throughout this journey.\nAnd it is up to me to look at them, to accept their personhood, and to welcome their companionship.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:shard_of_restored_relationship"

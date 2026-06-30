@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oGenerates XP orbs after mining blocks.\n\nIf used on a tool with the mending moss, it can be upgraded to make it unbreakable.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:bloodhunter_modifier"
@@ -13,6 +13,18 @@
     }
   },
   "questID:3": 9822172,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "minecraft:experience_bottle"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

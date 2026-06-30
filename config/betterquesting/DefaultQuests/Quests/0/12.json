@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oIf you are unsure how to obtain or automate a given item, make sure to read the red text!",
+      "desc:8": "§7§oIf you are unsure how to obtain or automate a given item, make sure to read its tooltip!\n\nThe format for tooltips is actively being revamped, but it will take some time to port them all. The old ones are exclusively red, while the new ones use color-coding :)",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:draconic_key"
@@ -20,7 +20,11 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "contenttweaker:abyssal_wasteland_warp_cleanser"
+          "id:8": "contenttweaker:helpful_tippy_hat"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:jei_info_box"
         }
       }
     }

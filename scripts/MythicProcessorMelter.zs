@@ -1287,6 +1287,35 @@ mythmelt749.addItemInput(<aoa3:shyrestone_block>);
 mythmelt749.addFluidOutput(<fluid:shyrestone> * 1296);
 mythmelt749.build();
 
+val mythmelt750 = RecipeBuilder.newBuilder("mythmelt750","mythic_processor_melter",2);
+mythmelt750.addEnergyPerTickInput(60000);
+mythmelt750.addItemInput(<nuclearcraft:compound:3>);
+mythmelt750.addFluidOutput(<fluid:molten_sodium_fluoride> * 1000);
+mythmelt750.build();
+
+val mythmelt751 = RecipeBuilder.newBuilder("mythmelt751","mythic_processor_melter",2);
+mythmelt751.addEnergyPerTickInput(60000);
+mythmelt751.addItemInput(<extendedcrafting:singularity:7>);
+mythmelt751.addFluidOutput(<fluid:emerald> * 3367296);
+mythmelt751.build();
+
+val mythmelt752 = RecipeBuilder.newBuilder("mythmelt752","mythic_processor_melter",2);
+mythmelt752.addEnergyPerTickInput(60000);
+mythmelt752.addItemInput(<contenttweaker:fine_mineral_dust>*4);
+mythmelt752.addFluidOutput(<fluid:fine_mineral_mix> * 1000);
+mythmelt752.build();
+
+val mythmelt753 = RecipeBuilder.newBuilder("mythmelt753","mythic_processor_melter",2);
+mythmelt753.addEnergyPerTickInput(60000);
+mythmelt753.addItemInput(<genetics:misc:4>*32);
+mythmelt753.addFluidOutput(<fluid:binnie.growth.medium> * 800);
+mythmelt753.build();
+
+val mythmelt754 = RecipeBuilder.newBuilder("mythmelt754","mythic_processor_melter",2);
+mythmelt754.addEnergyPerTickInput(60000);
+mythmelt754.addItemInput(<contenttweaker:plasmatic_neutronium_ingot>*1);
+mythmelt754.addFluidOutput(<fluid:neutron> * 1000);
+mythmelt754.build();
 
 
 

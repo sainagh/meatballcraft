@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oAfter you die, the weapon will remain with you",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:nether_star"
@@ -13,6 +13,18 @@
     }
   },
   "questID:3": 1105,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

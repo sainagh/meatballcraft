@@ -739,7 +739,32 @@ multihellfire62.addItemInput(<contenttweaker:cosmic_fracture>*1);
 multihellfire62.addItemOutput(<contenttweaker:tartarite_ore>*24);
 multihellfire62.build();
 
+val multihellfire63 = RecipeBuilder.newBuilder("multihellfire63","berserker_forge",2);
+multihellfire63.addWillInput("DEFAULT", 25,1,2000000);
+multihellfire63.addItemInput(<contenttweaker:ender_dolomite>*2);
+multihellfire63.addItemInput(<ore:blockTungstensteel>*2);
+multihellfire63.addItemInput(<ore:ballMelodicAlloy>*2);
+multihellfire63.addItemInput(<contenttweaker:warren_chunk>*2);
+multihellfire63.addItemOutput(<contenttweaker:crystallized_tungstensteel>*2);
+multihellfire63.build();
 
+val multihellfire64 = RecipeBuilder.newBuilder("multihellfire64","berserker_forge",2);
+multihellfire64.addWillInput("DEFAULT", 25,1,2000000);
+multihellfire64.addItemInput(<contenttweaker:ender_dolomite>*4);
+multihellfire64.addItemInput(<ore:blockTungstensteel>*4);
+multihellfire64.addItemInput(<ore:ballMelodicAlloy>*4);
+multihellfire64.addItemInput(<contenttweaker:actualized_chunk>*4);
+multihellfire64.addItemOutput(<contenttweaker:crystallized_tungstensteel>*4);
+multihellfire64.build();
+
+val multihellfire65 = RecipeBuilder.newBuilder("multihellfire65","berserker_forge",2);
+multihellfire65.addWillInput("DEFAULT", 25,1,2000000);
+multihellfire65.addItemInput(<contenttweaker:ender_dolomite>*16);
+multihellfire65.addItemInput(<ore:blockTungstensteel>*16);
+multihellfire65.addItemInput(<ore:ballMelodicAlloy>*16);
+multihellfire65.addItemInput(<contenttweaker:twilight_horde_historical_chunk>*16);
+multihellfire65.addItemOutput(<contenttweaker:crystallized_tungstensteel>*16);
+multihellfire65.build();
 
 
 

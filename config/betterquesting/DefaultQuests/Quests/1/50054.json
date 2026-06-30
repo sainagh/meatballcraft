@@ -21,10 +21,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "Parent:9": {}
-          },
-          "id:8": "botania:baublebox"
+          "id:8": "danknull:dank_null_panel_3"
         }
       }
     }

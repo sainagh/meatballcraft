@@ -832,8 +832,9 @@ recipes.addShaped(<contenttweaker:mark_of_worthiness>,
 
 
 
+recipes.remove(<botania:baublebox>);
 
-
+mods.botania.RuneAltar.removeRecipe(<extrabotany:allforone>);
 
 
 

@@ -322,10 +322,7 @@ essenceifier64.addItemInput(<mysticalagriculture:vibrant_alloy_essence>*64);
 essenceifier64.addItemOutput(<enderio:item_alloy_ingot:2>*24);
 essenceifier64.build();
 
-val essenceifier65 = RecipeBuilder.newBuilder("essenceifier65","innerved_essenceifier",2);
-essenceifier65.addItemInput(<mysticalagriculture:manasteel_essence>*64);
-essenceifier65.addItemOutput(<botania:manaresource:0>*40);
-essenceifier65.build();
+
 
 val essenceifier66 = RecipeBuilder.newBuilder("essenceifier66","innerved_essenceifier",2);
 essenceifier66.addItemInput(<mysticalagriculture:end_steel_essence>*64);
@@ -534,3 +531,31 @@ essenceifier105.addItemInput(<magicbees:resource:5>*8);
 essenceifier105.addItemInput(<contenttweaker:awakened_infusion_stone>*4);
 essenceifier105.addItemOutput(<draconicevolution:draconic_ingot>*48);
 essenceifier105.build();
+
+val essenceifier106 = RecipeBuilder.newBuilder("essenceifier106","innerved_essenceifier",2);
+essenceifier106.addItemInput(<contenttweaker:unidentifying_egg>*32);
+essenceifier106.addItemInput(<contenttweaker:recursion_of_clarity>*32);
+essenceifier106.addItemOutput(<contenttweaker:paradoxical_egg>*32);
+essenceifier106.build();
+
+
+
+val essenceifier107 = RecipeBuilder.newBuilder("essenceifier107","innerved_essenceifier",2);
+essenceifier107.addItemInput(<ore:dustRedstone>*8);
+essenceifier107.addItemInput(<mysticalagriculture:manasteel_essence>*64);
+essenceifier107.addItemOutput(<botania:manaresource:23>*64);
+essenceifier107.build();
+
+val essenceifier108 = RecipeBuilder.newBuilder("essenceifier108","innerved_essenceifier",2);
+essenceifier108.addItemInput(<ore:gemDiamond>*8);
+essenceifier108.addItemInput(<mysticalagriculture:manasteel_essence>*64);
+essenceifier108.addItemOutput(<botania:manaresource:2>*64);
+essenceifier108.build();
+
+val essenceifier109 = RecipeBuilder.newBuilder("essenceifier109","innerved_essenceifier",2);
+essenceifier109.addItemInput(<ore:ingotIron>*8);
+essenceifier109.addItemInput(<mysticalagriculture:manasteel_essence>*64);
+essenceifier109.addItemOutput(<botania:manaresource:0>*64);
+essenceifier109.build();
+
+

@@ -3365,4 +3365,105 @@ unleasheddivineore.setToolClass("pickaxe");
 unleasheddivineore.setToolLevel(3);
 unleasheddivineore.register();
 
+var oreprojectedconstellation = VanillaFactory.createBlock("ore_of_the_projected_constellation", <blockmaterial:iron>);
+oreprojectedconstellation.setBlockHardness(1.0);
+oreprojectedconstellation.setBlockResistance(2.5);
+oreprojectedconstellation.setToolClass("pickaxe");
+oreprojectedconstellation.setToolLevel(3);
+oreprojectedconstellation.register();
+
+
+
+var timelordcoreofdefinition = VanillaFactory.createBlock("time_lords_core_of_definition", <blockmaterial:iron>);
+timelordcoreofdefinition.setBlockHardness(1.0);
+timelordcoreofdefinition.setBlockResistance(2.5);
+timelordcoreofdefinition.setToolClass("pickaxe");
+timelordcoreofdefinition.setToolLevel(3);
+timelordcoreofdefinition.register();
+
+var sacredcinderslumberapiary = VanillaFactory.createBlock("sacred_cinders_lumber_apiary", <blockmaterial:iron>);
+sacredcinderslumberapiary.setBlockHardness(1.0);
+sacredcinderslumberapiary.setBlockResistance(2.5);
+sacredcinderslumberapiary.setToolClass("pickaxe");
+sacredcinderslumberapiary.setToolLevel(3);
+sacredcinderslumberapiary.register();
+
+var litheriteore = VanillaFactory.createBlock("litherite_ore", <blockmaterial:iron>);
+litheriteore.setBlockHardness(1.0);
+litheriteore.setBlockResistance(2.5);
+litheriteore.setToolClass("pickaxe");
+litheriteore.setToolLevel(3);
+litheriteore.register();
+
+var erodiumore = VanillaFactory.createBlock("erodium_ore", <blockmaterial:iron>);
+erodiumore.setBlockHardness(1.0);
+erodiumore.setBlockResistance(2.5);
+erodiumore.setToolClass("pickaxe");
+erodiumore.setToolLevel(3);
+erodiumore.register();
+
+var kyroniteore = VanillaFactory.createBlock("kyronite_ore", <blockmaterial:iron>);
+kyroniteore.setBlockHardness(1.0);
+kyroniteore.setBlockResistance(2.5);
+kyroniteore.setToolClass("pickaxe");
+kyroniteore.setToolLevel(3);
+kyroniteore.register();
+
+var pladiumore = VanillaFactory.createBlock("pladium_ore", <blockmaterial:iron>);
+pladiumore.setBlockHardness(1.0);
+pladiumore.setBlockResistance(2.5);
+pladiumore.setToolClass("pickaxe");
+pladiumore.setToolLevel(3);
+pladiumore.register();
+
+var ioniteore = VanillaFactory.createBlock("ionite_ore", <blockmaterial:iron>);
+ioniteore.setBlockHardness(1.0);
+ioniteore.setBlockResistance(2.5);
+ioniteore.setToolClass("pickaxe");
+ioniteore.setToolLevel(3);
+ioniteore.register();
+
+var aethiumore = VanillaFactory.createBlock("aethium_ore", <blockmaterial:iron>);
+aethiumore.setBlockHardness(1.0);
+aethiumore.setBlockResistance(2.5);
+aethiumore.setToolClass("pickaxe");
+aethiumore.setToolLevel(3);
+aethiumore.register();
+
+var lonsdaleiteore = VanillaFactory.createBlock("lonsdaleite_ore", <blockmaterial:iron>);
+lonsdaleiteore.setBlockHardness(1.0);
+lonsdaleiteore.setBlockResistance(2.5);
+lonsdaleiteore.setToolClass("pickaxe");
+lonsdaleiteore.setToolLevel(3);
+lonsdaleiteore.register();
+
+var sednanitesheetmetal = VanillaFactory.createBlock("sednanite_sheetmetal", <blockmaterial:iron>);
+sednanitesheetmetal.setBlockHardness(1.0);
+sednanitesheetmetal.setBlockResistance(2.5);
+sednanitesheetmetal.setToolClass("pickaxe");
+sednanitesheetmetal.setToolLevel(3);
+sednanitesheetmetal.register();
+
+var perfectedimbuementessence = VanillaFactory.createBlock("perfected_imbuement_essence", <blockmaterial:iron>);
+perfectedimbuementessence.setBlockHardness(1.0);
+perfectedimbuementessence.setBlockResistance(2.5);
+perfectedimbuementessence.setToolClass("pickaxe");
+perfectedimbuementessence.setToolLevel(3);
+perfectedimbuementessence.register();
+
+var paleoreore = VanillaFactory.createBlock("pale_ore", <blockmaterial:iron>);
+paleoreore.setBlockHardness(1.0);
+paleoreore.setBlockResistance(2.5);
+paleoreore.setToolClass("pickaxe");
+paleoreore.setToolLevel(3);
+paleoreore.register();
+
+var totallyrealtardis = VanillaFactory.createBlock("totally_real_tardis", <blockmaterial:iron>);
+totallyrealtardis.setBlockHardness(1.0);
+totallyrealtardis.setBlockResistance(2.5);
+totallyrealtardis.setToolClass("pickaxe");
+totallyrealtardis.setToolLevel(3);
+totallyrealtardis.register();
+
+
 

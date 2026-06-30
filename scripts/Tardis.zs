@@ -1331,3 +1331,58 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:construct_of_the_t
 [<contenttweaker:construct_of_creative_freedom>, <contenttweaker:hopebringer_fabrial>, <contenttweaker:temporal_linkage>, <contenttweaker:hopebringer_fabrial>, <contenttweaker:construct_of_creative_freedom>], 
 [<contenttweaker:black_hole_alloy_ingot>, <contenttweaker:time_beacon>, <contenttweaker:hopebringer_fabrial>, <contenttweaker:time_beacon>, <contenttweaker:black_hole_alloy_ingot>], 
 [<contenttweaker:temporal_mechanism>, <contenttweaker:scattering_alloy_ingot>, <contenttweaker:construct_of_creative_freedom>, <contenttweaker:scattering_alloy_ingot>, <contenttweaker:temporal_mechanism>]]);  
+
+
+
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:screaming_slate>, <contenttweaker:screaming_blood_infused_glitch_block>, 5, 100000000, 100000, 200000);
+
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:screaming_slate>, <contenttweaker:screaming_bloodstone>, 5, 20000, 10000, 20000);
+
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:scale_of_rahk>, <fluid:recursive_computing_matter>*10000, <fluid:matter_of_creative_inquiry>*10000]);
+
+
+
+recipes.addShaped(<contenttweaker:fabrial_of_reclaimed_time>,
+[[<contenttweaker:stormlight_infused_crystal>, <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:haunted_log", Count: 1 as byte, Damage: 0 as short}}), <contenttweaker:stormlight_infused_crystal>],
+[<contenttweaker:temporal_recursion>, <contenttweaker:shard_of_forgiven_lost_time>, <contenttweaker:temporal_recursion>],
+[<contenttweaker:stormlight_infused_crystal>, <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:haunted_log", Count: 1 as byte, Damage: 0 as short}}), <contenttweaker:stormlight_infused_crystal>]]);
+
+
+
+
+mods.thaumcraft.Infusion.registerRecipe("infharmonictimelattice", "", 
+<openblocks:tank>.withTag({tank: {FluidName: "harmonic_temporal_lattice", Amount: 16000}}), 1,
+[<aspect:terra>*10000, <aspect:herba>*10000], 
+<openblocks:tank>.withTag({tank: {FluidName: "harmonic_fluid_lattice", Amount: 16000}}), 
+[<contenttweaker:fabrial_of_reclaimed_time>, <contenttweaker:strange_stone_essence>, <thaumadditions:mithminite_block>,
+<contenttweaker:fabrial_of_reclaimed_time>, <contenttweaker:strange_stone_essence>, <thaumadditions:mithminite_block>]);
+
+
+
+val draconiclattice = RecipeBuilder.newBuilder("draconiclattice","abyssal_entropic_catalyzer",2);
+draconiclattice.addItemInput(<ore:dragonScaleItem>);
+draconiclattice.addItemInput(<draconicevolution:chaos_shard:2>);
+draconiclattice.addItemInput(<deepmoblearning:pristine_matter_dragon>);
+draconiclattice.addItemInput(<contenttweaker:one_power_aspected_emerald>);
+draconiclattice.addFluidInput(<fluid:harmonic_temporal_lattice>*1000);
+draconiclattice.addFluidOutput(<fluid:harmonic_draconian_lattice>*1000);
+draconiclattice.build();
+
+
+
+val creationdivinelattice = RecipeBuilder.newBuilder("creationdivinelattice","creation_altar",10);
+creationdivinelattice.addEnergyPerTickInput(400000);
+creationdivinelattice.addFluidInput(<fluid:harmonic_draconian_lattice>*5000);
+creationdivinelattice.addFluidInput(<fluid:infinite_divine_wish>*5000);
+creationdivinelattice.addItemInput(<contenttweaker:divine_stellar_fabrial>);
+creationdivinelattice.addItemInput(<contenttweaker:divine_flake>);
+creationdivinelattice.addItemInput(<contenttweaker:divine_ironwood_ingot>);
+creationdivinelattice.addFluidOutput(<fluid:harmonic_divine_lattice>*5000);
+creationdivinelattice.build();
+
+
+recipes.addShaped(<contenttweaker:totally_real_tardis>,
+[[<avaritia:block_resource:1>, <contenttweaker:hypercubic_energy_orb>, <avaritia:block_resource:1>], 
+[<contenttweaker:hypercubic_energy_orb>, <ore:ingotFractalliteHalite>, <contenttweaker:hypercubic_energy_orb>], 
+[<avaritia:block_resource:1>, <contenttweaker:hypercubic_energy_orb>, <avaritia:block_resource:1>]]);

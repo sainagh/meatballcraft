@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oLets you copy and paste structures.\n\nYou can also load structures from the internet using the template manager and templates.",
+      "desc:8": "§7§oLets you copy and paste structures.\n\nPress V to change between \u0027Copy\u0027 and \u0027Paste\u0027 mode.\n\nWhile in \u0027Copy\u0027 mode, Right Click to select the START block to copy and Shift + Right click to select the END block to copy. Shift + Right Click the air to reset or modify a template.\n\nWhile in \u0027Paste\u0027 mode, Right Click to paste a structure. Shift + Right Click the Air to change the relative positioning of the pasted structure. Press V to rotate or anchor the pasted structure.\n\nYou can also load structures from the internet using the template manager and templates.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "buildinggadgets:copypastetool",
@@ -17,6 +17,18 @@
     }
   },
   "questID:3": 1937,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:emerald_ore"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "ignoreNBT:1": 1,

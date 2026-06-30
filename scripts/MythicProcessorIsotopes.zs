@@ -650,3 +650,31 @@ mythisotop77.addEnergyPerTickInput(80000);
 mythisotop77.addItemInput(<contenttweaker:depleted_herrr_fuel> * 1);
 mythisotop77.addItemOutput(<contenttweaker:lawrencium_262>*4);
 mythisotop77.build();
+
+val mythisotop78 = RecipeBuilder.newBuilder("mythisotop78","mythic_processor_isotope_separator",2);
+mythisotop78.addEnergyPerTickInput(80000);
+mythisotop78.addItemInput(<ore:blockThorium> * 1);
+mythisotop78.addItemOutput(<nuclearcraft:thorium:4>*9);
+mythisotop78.addItemOutput(<nuclearcraft:thorium:2>*9);
+mythisotop78.build();
+
+val mythisotop79 = RecipeBuilder.newBuilder("mythisotop79","mythic_processor_isotope_separator",2);
+mythisotop79.addEnergyPerTickInput(80000);
+mythisotop79.addItemInput(<ore:blockUranium> * 1);
+mythisotop79.addItemOutput(<nuclearcraft:uranium:8>*9);
+mythisotop79.addItemOutput(<nuclearcraft:uranium:6>*9);
+mythisotop79.build();
+
+val mythisotop80 = RecipeBuilder.newBuilder("mythisotop80","mythic_processor_isotope_separator",2);
+mythisotop80.addEnergyPerTickInput(80000);
+mythisotop80.addItemInput(<contenttweaker:infused_thorium> * 1);
+mythisotop80.addItemOutput(<nuclearcraft:thorium:4>*24);
+mythisotop80.addItemOutput(<nuclearcraft:thorium:2>*24);
+mythisotop80.build();
+
+val mythisotop81 = RecipeBuilder.newBuilder("mythisotop81","mythic_processor_isotope_separator",2);
+mythisotop81.addEnergyPerTickInput(80000);
+mythisotop81.addItemInput(<contenttweaker:infused_uranium> * 1);
+mythisotop81.addItemOutput(<nuclearcraft:uranium:8>*24);
+mythisotop81.addItemOutput(<nuclearcraft:uranium:6>*24);
+mythisotop81.build();

@@ -27,7 +27,7 @@ megeliumboomdraconium.addBiomeInput("minecraft:sky")
       megeliumDetonatorRecipeStart(event.controller, "aoa3:ancient_rock", "bnkrblks:megelium_stone");
     }
   )
-  .addRecipeTooltip(["Ancient Rock blocks placed around the Reactor Core will be converted to megelium through an reactor explosion","The explosion will be toggled if the correct block is placed on top of the core"])
+  .addRecipeTooltip([" "," "," ","Ancient Rock blocks placed around the Reactor Core ","will be converted to megelium through a reactor explosion ","The explosion will be toggled if the correct block","is placed on top of the core"])
   .build();
 
 

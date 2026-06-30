@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFor the Import Interface, deletes items that are pushed into it after their slot has been filled.\n\nQuite useful for Mythical Miners.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cells:overflow_card"
+      },
+      "name:8": "Void Overflow Card"
+    }
+  },
+  "questID:3": 1286490028,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "cells:overflow_card"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cells:overflow_card"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

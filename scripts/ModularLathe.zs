@@ -1,5 +1,15 @@
 import mods.modularmachinery.RecipeBuilder;
 
+
+
+recipes.addShaped(<contenttweaker:sednanite_sheetmetal>,
+[[<ore:rodSednanite>, <immersiveengineering:sheetmetal:6>, <ore:rodSednanite>],
+[<immersiveengineering:sheetmetal:6>, null, <immersiveengineering:sheetmetal:6>],
+[<ore:rodSednanite>, <immersiveengineering:sheetmetal:6>, <ore:rodSednanite>]]);
+
+
+
+
 val lathe1 = RecipeBuilder.newBuilder("lathe1","aluminum_lathe",20);
 lathe1.addEnergyPerTickInput(2000);
 lathe1.addItemInput(<ore:ingotIron>);

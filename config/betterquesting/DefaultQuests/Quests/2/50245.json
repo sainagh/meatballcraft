@@ -40,7 +40,7 @@
           "id:8": "modularmachinery:active_cooled_hecf249_controller"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

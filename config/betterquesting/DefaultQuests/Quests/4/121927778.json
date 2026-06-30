@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oFor Import and Export Interfaces, adding ability to auto push and pull items and fluids to touching inventories.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cells:pull_card"
+      },
+      "name:8": "Pull and Push Cards"
+    }
+  },
+  "questID:3": 121927778,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cells:pull_card"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "cells:push_card"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1175,10 +1175,6 @@
   ],
   "180": [
     {
-      "item": "rftools:storage_scanner",
-      "damage": "*"
-    },
-    {
       "item": "rftoolsdim:dimension_builder",
       "damage": "*"
     },
@@ -1193,10 +1189,6 @@
   ],
   "181": [
     {
-      "item": "rftools:storage_scanner",
-      "damage": "*"
-    },
-    {
       "item": "rftoolsdim:dimension_builder",
       "damage": "*"
     },
@@ -1210,10 +1202,6 @@
     }
   ],
   "182": [
-    {
-      "item": "rftools:storage_scanner",
-      "damage": "*"
-    },
     {
       "item": "rftoolsdim:dimension_builder",
       "damage": "*"

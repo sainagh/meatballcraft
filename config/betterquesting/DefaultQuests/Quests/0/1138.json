@@ -47,7 +47,7 @@
           "id:8": "contenttweaker:early_game_energy"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

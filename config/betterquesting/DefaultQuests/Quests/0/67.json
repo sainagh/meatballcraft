@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe §cMagical Mastery §7§otab has info on how to use projectE!\n\n§fMana appears to have a \u0027memory\u0027 for alchemical power, meaning that I can use it to create all remembered items at will.",
+      "desc:8": "§7§oCongratulations, you unlocked EMC! The §cMagical Mastery §7§otab has info on how to use projectE if you need some help figuring out the mod :)\n\n§7§oIn case you have not gotten one, there are quite a few useful backpacks, listed in §cpersonal augmentation§7§o. The Handy Bag is a good one, it extends your inventory! \n\n§fMana appears to have a \u0027memory\u0027 for alchemical power, meaning that I can use it to create all remembered items at will.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectex:stone_table"
@@ -43,6 +43,28 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "enderutilities:handybag",
+          "tag:10": {
+            "UUID:10": {
+              "UUIDL:4": -4776776283553672310,
+              "UUIDM:4": 1209111965385507596
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 54,
+          "id:8": "enderutilities:enderpart"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

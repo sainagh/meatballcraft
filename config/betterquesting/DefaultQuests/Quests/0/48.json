@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oYou gotta explore to unlock this! Multiple structures use blast bricks and coal coke!\n\nThe shickaxe is a versatile, unbreakable all-in-one tool, it should be very helpful!\n\n§rAfter spending some time here, I have really learned a lot, I think I can use this knowledge to improve my manufacturing capabilities.",
+      "desc:8": "§7§oHere is your first gamestage item, right click it to unlock new recipes, and to possibly make the world a little harder...\n\n§7§oThe shickaxe is a versatile, unbreakable all-in-one tool, it should be very helpful!\n\n§rAfter spending some time here, I have really learned a lot, I think I can use this knowledge to improve my manufacturing capabilities.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:alien_material_manual"
@@ -58,7 +58,7 @@
           "id:8": "divinerpg:rupee_shickaxe"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

@@ -5,15 +5,32 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThese are your all-in-one tool!\n\nYou will use one of these for a very long time, for general purpose breaking.",
+      "desc:8": "§7§oThese are your all-in-one tool!\n\nTogether with the Vajra, these tools can be used for general purpose breaking and you everyday tool.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:divine_shickaxe"
       },
-      "name:8": "Shickaxe Power"
+      "name:8": "Shickaxe Power",
+      "tasklogic:8": "OR"
     }
   },
   "questID:3": 1887,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "divinerpg:rupee_ore"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "divinerpg:arlemite_ore"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

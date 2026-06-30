@@ -59,7 +59,7 @@
           "id:8": "contenttweaker:gaia_3_tips"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

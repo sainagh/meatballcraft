@@ -22,7 +22,7 @@
           "id:8": "divinerpg:teaker_lump"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "index:3": 1,

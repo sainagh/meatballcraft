@@ -95,6 +95,12 @@ recipes.addShaped(<contenttweaker:empowered_apothecary_stone>,
 [<aoa3:glaring_power_stone>, <contenttweaker:apothecary_stone>, <aoa3:glaring_power_stone>],
 [<aoa3:blooming_power_stone>, <aoa3:glaring_power_stone>, <aoa3:blooming_power_stone>]]);
 
+recipes.addShaped(<contenttweaker:apothecary_stone>*2,
+[[<aoa3:gleaming_infusion_stone>, <aoa3:glistening_infusion_stone>, <aoa3:gleaming_infusion_stone>],
+[<aoa3:glistening_infusion_stone>, <contenttweaker:apothecary_stone>, <aoa3:glistening_infusion_stone>],
+[<aoa3:gleaming_infusion_stone>, <aoa3:glistening_infusion_stone>, <aoa3:gleaming_infusion_stone>]]);
+
+
 scripts.PuzzleUtil.addPuzzleShapeless("makeapothecarykey",<contenttweaker:apothecary_prison_key>,
 [<contenttweaker:empowered_apothecary_stone>,
 <botania:dye:0>,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§8§7§oThis quest tab lists all of the armor sets available in each chapter.\n\nThe enchantments on your armor are more important than the armor you wear, and it is possible to make good builds with pretty much any set!\n\nBonus points if you collect them all!",
+      "desc:8": "§8§7§oThis quest tab lists all of the armor sets available in each chapter.\n\nIt is built as a tier list, with \u0027Great\u0027, \u0027Good\u0027, \u0027OK\u0027 categories. Within each category, there is no specific order.\n\nAs a side note the enchantments on your armor, in many cases, are more important than the armor you wear, and it is possible to make good builds with pretty much any set!\n\nAnd above all, durability eventually becomes an important resource! There are many unbreakable armor sets!\n\nThere is no reason to complete all quests in this section, they are just here to help you keep track of things :)",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:bedrock_chestplate"
@@ -13,6 +13,26 @@
     }
   },
   "questID:3": 1586,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:cobblestone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_ore"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond_ore"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

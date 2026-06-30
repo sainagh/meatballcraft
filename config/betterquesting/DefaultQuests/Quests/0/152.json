@@ -42,6 +42,10 @@
             "TrophyShowsTooltip:1": 1,
             "TrophyVariant:8": "classic"
           }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "holoassemblerar:holo_assembler"
         }
       }
     }
@@ -93,7 +97,7 @@
           "id:8": "contenttweaker:rocket"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

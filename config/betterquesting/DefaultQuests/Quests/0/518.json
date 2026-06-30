@@ -50,7 +50,7 @@
           "id:8": "contenttweaker:puzzle_solution_first_shell"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

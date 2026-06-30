@@ -1350,6 +1350,469 @@ zenClass MixinWeaponRegister {
   }
 
 
+  #mixin Definition
+  #{
+  #  id: "Bloodlurker", type: "net/tslat/aoa3/item/weapon/greatblade/Bloodlurker"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new Bloodlurker(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_Bloodlurker(original as double) as double {
+    return CFG.dmg_Bloodlurker;
+  }
+
+
+  #mixin Definition
+  #{
+  #  id: "TidalGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/TidalGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new TidalGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_TidalGreatblade(original as double) as double {
+    return CFG.dmg_TidalGreatblade;
+  }
+
+
+  #mixin Definition
+  #{
+  #  id: "BaronGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/BaronGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new BaronGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_BaronGreatblade(original as double) as double {
+    return CFG.dmg_BaronGreatblade;
+  }
+
+  #mixin Definition
+  #{
+  #  id: "CreepoidGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/CreepoidGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new CreepoidGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_CreepoidGreatblade(original as double) as double {
+    return CFG.dmg_CreepoidGreatblade;
+  }
+
+
+  #mixin Definition
+  #{
+  #  id: "LelyetianGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/LelyetianGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new LelyetianGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_LelyetianGreatblade(original as double) as double {
+    return CFG.dmg_LelyetianGreatblade;
+  }
+
+
+  #mixin Definition
+  #{
+  #  id: "RoyalGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/RoyalGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new RoyalGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_RoyalGreatblade(original as double) as double {
+    return CFG.dmg_RoyalGreatblade;
+  }
+
+
+  #mixin Definition
+  #{
+  #  id: "SubterraneanGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/SubterraneanGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new SubterraneanGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_SubterraneanGreatblade(original as double) as double {
+    return CFG.dmg_SubterraneanGreatblade;
+  }
+
+
+  #mixin Definition
+  #{
+  #  id: "ShyreSword", type: "net/tslat/aoa3/item/weapon/greatblade/ShyreSword"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new ShyreSword(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_ShyreSword(original as double) as double {
+    return CFG.dmg_ShyreSword;
+  }
+
+
+  #mixin Definition
+  #{
+  #  id: "GodsGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/GodsGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new GodsGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_GodsGreatblade(original as double) as double {
+    return CFG.dmg_GodsGreatblade;
+  }
+
+  #mixin Definition
+  #{
+  #  id: "CrystalGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/CrystalGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new CrystalGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_CrystalGreatblade(original as double) as double {
+    return CFG.dmg_CrystalGreatblade;
+  }
+
+
+  #mixin Definition
+  #{
+  #  id: "GoofyGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/GoofyGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new GoofyGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_GoofyGreatblade(original as double) as double {
+    return CFG.dmg_GoofyGreatblade;
+  }
+
+  #mixin Definition
+  #{
+  #  id: "LyonicGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/LyonicGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new LyonicGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_LyonicGreatblade(original as double) as double {
+    return CFG.dmg_LyonicGreatblade;
+  }
+
+  #mixin Definition
+  #{
+  #  id: "NoxiousGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/NoxiousGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new NoxiousGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_NoxiousGreatblade(original as double) as double {
+    return CFG.dmg_NoxiousGreatblade;
+  }
+
+  #mixin Definition
+  #{
+  #  id: "RosidianGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/RosidianGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new RosidianGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_RosidianGreatblade(original as double) as double {
+    return CFG.dmg_RosidianGreatblade;
+  }
+
+  #mixin Definition
+  #{
+  #  id: "ShroomicGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/ShroomicGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new ShroomicGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_ShroomicGreatblade(original as double) as double {
+    return CFG.dmg_ShroomicGreatblade;
+  }
+
+  #mixin Definition
+  #{
+  #  id: "UnderworldGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/UnderworldGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new UnderworldGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_UnderworldGreatblade(original as double) as double {
+    return CFG.dmg_UnderworldGreatblade;
+  }
+
+  #mixin Definition
+  #{
+  #  id: "RunicGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/RunicGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new RunicGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_RunicGreatblade(original as double) as double {
+    return CFG.dmg_RunicGreatblade;
+  }
+
+  #mixin Definition
+  #{
+  #  id: "CoralGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/CoralGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new CoralGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_CoralGreatblade(original as double) as double {
+    return CFG.dmg_CoralGreatblade;
+  }
+
+  #mixin Definition
+  #{
+  #  id: "PrimordialGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/PrimordialGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new PrimordialGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_PrimordialGreatblade(original as double) as double {
+    return CFG.dmg_PrimordialGreatblade;
+  }
+
+
+  #mixin Definition
+  #{
+  #  id: "HauntedGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/HauntedGreatblade"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new HauntedGreatblade(@(?), ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_HauntedGreatblade(original as double) as double {
+    return CFG.dmg_HauntedGreatblade;
+  }
+
+
+  #mixin Definition
+  #{
+  #  id: "VulcammerMaul", type: "net/tslat/aoa3/item/weapon/maul/VulcammerMaul"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new VulcammerMaul(@(?), ?, ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_VulcammerMaul(original as float) as float {
+    return CFG.dmg_VulcammerMaul;
+  }
+
+  #mixin Definition
+  #{
+  #  id: "CoralstoneMaul", type: "net/tslat/aoa3/item/weapon/maul/CoralstoneMaul"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new CoralstoneMaul(@(?), ?, ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_CoralstoneMaul(original as float) as float {
+    return CFG.dmg_CoralstoneMaul;
+  }
+
+  #mixin Definition
+  #{
+  #  id: "CrystalMaul", type: "net/tslat/aoa3/item/weapon/maul/CrystalMaul"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new CrystalMaul(@(?), ?, ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_CrystalMaul(original as float) as float {
+    return CFG.dmg_CrystalMaul;
+  }
+
+
+  #mixin Definition
+  #{
+  #  id: "ElectronMaul", type: "net/tslat/aoa3/item/weapon/maul/ElectronMaul"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new ElectronMaul(@(?), ?, ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_ElectronMaul(original as float) as float {
+    return CFG.dmg_ElectronMaul;
+  }
+
+
+  #mixin Definition
+  #{
+  #  id: "HorizonMaul", type: "net/tslat/aoa3/item/weapon/maul/HorizonMaul"
+  #}
+  #mixin Expression
+  #{
+  #  value: "new HorizonMaul(@(?), ?, ?, ?)"
+  #}
+  #mixin Static
+  #mixin ModifyExpressionValue
+  #{
+  #  method: "registerWeapon",
+  #  at: {value: "MIXINEXTRAS:EXPRESSION"}
+  #}
+  function mbc_modify_dmg_HorizonMaul(original as float) as float {
+    return CFG.dmg_HorizonMaul;
+  }
+
+
 
 
 

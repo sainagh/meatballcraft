@@ -242,6 +242,14 @@ mythproccentsep129.build();
 
 
 
+val mythproccentsep130 = RecipeBuilder.newBuilder("mythproccentsep130","mythic_processor_centrifuge",2);	
+mythproccentsep130.addEnergyPerTickInput(70000);	
+mythproccentsep130.addItemInput(<magicbees:beecomb:10>);	
+mythproccentsep130.addItemOutput(<magicbees:wax:2>);	
+mythproccentsep130.addItemOutput(<forestry:honey_drop:0>);	
+mythproccentsep130.addItemOutput(<forestry:propolis:2>);	
+mythproccentsep130.build();
+
 
 
 

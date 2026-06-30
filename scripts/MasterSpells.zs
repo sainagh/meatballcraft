@@ -388,6 +388,7 @@ masterspellhumanus.itemRightClick = function(stack, world, player, hand) {
 };
 masterspellhumanus.register();
 
+
 var masterspellsensus = VanillaFactory.createItem("master_spell_sensus");
 masterspellsensus.maxStackSize = 1;
 masterspellsensus.glowing = true;
@@ -554,3 +555,72 @@ masterspellexanimis.itemRightClick = function(stack, world, player, hand) {
 	return "Pass";
 };
 masterspellexanimis.register();
+
+
+var masterspellherba = VanillaFactory.createItem("master_spell_herba");
+masterspellherba.maxStackSize = 1;
+masterspellherba.glowing = true;
+masterspellherba.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	Commands.call("summon divinerpg:kobblin ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:kobblin_earth\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Bakaai, Animal Soil\",Attributes:[{Name:generic.maxHealth, Base:5000.0},{Name:generic.attackDamage, Base:50.0}],Health:5000f}", player, world, false, true);
+	return "Pass";
+};
+masterspellherba.register();
+
+
+var masterspellalkimia = VanillaFactory.createItem("master_spell_alkimia");
+masterspellalkimia.maxStackSize = 1;
+masterspellalkimia.glowing = true;
+masterspellalkimia.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	Commands.call("summon Item ~ ~10 ~ {Item:{id:\"ebwizardry:large_mana_flask\",Count:1b}}", player, world, false, true);
+	return "Pass";
+};
+masterspellalkimia.register();
+
+
+var masterspellvolatus = VanillaFactory.createItem("master_spell_volatus");
+masterspellvolatus.maxStackSize = 1;
+masterspellvolatus.glowing = true;
+masterspellvolatus.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	Commands.call("fill ~-2 ~-1 ~-2 ~2 ~1 ~2 contenttweaker:perfected_imbuement_essence 0 replace air", player, world, false, true);
+	return "Pass";
+};
+masterspellvolatus.register();
+
+
+
+var masterspellvacuos = VanillaFactory.createItem("master_spell_vacuos");
+masterspellvacuos.maxStackSize = 1;
+masterspellvacuos.glowing = true;
+masterspellvacuos.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	Commands.call("summon mod_lavacow:enigmoth ~ ~3 ~ {HandItems:[{Count:1,id:\"contenttweaker:pale_ore\"},{}],HandDropChances:[1.0f,0.0f],CustomName:\"Radiant Moth\",Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:50.0}],Health:100000f}", player, world, false, true);
+	Commands.call("effect @p thaumcraft:sunscorned 9999 1", player, world, false, true);
+	return "Pass";
+};
+masterspellvacuos.register();
+
+
+var masterspellspiritus = VanillaFactory.createItem("master_spell_spiritus");
+masterspellspiritus.maxStackSize = 1;
+masterspellspiritus.glowing = true;
+masterspellspiritus.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+	Commands.call("summon ebwizardry:wizard ~ ~3 ~ {CustomName:\"Spirit of Husbandry\",trades:{Recipes:[{buy:{id:\"minecraft:rabbit_foot\",Count:1},buyB:{id:\"minecraft:nether_star\",Count:1},sell:{id:\"contenttweaker:chu_ci_foot\",Count:1},rewardExp:0b,maxUses:9999999},{buy:{id:\"minecraft:rabbit_foot\",Count:1},buyB:{id:\"contenttweaker:eden_star\",Count:1},sell:{id:\"contenttweaker:nanabozho_foot\",Count:1},rewardExp:0b,maxUses:9999999},{buy:{id:\"minecraft:rabbit_foot\",Count:1},buyB:{id:\"contenttweaker:apalachia_star\",Count:1},sell:{id:\"contenttweaker:wenet_foot\",Count:1},rewardExp:0b,maxUses:9999999},{buy:{id:\"minecraft:rabbit_foot\",Count:1},buyB:{id:\"contenttweaker:mortum_star\",Count:1},sell:{id:\"contenttweaker:puca_foot\",Count:1},rewardExp:0b,maxUses:9999999},{buy:{id:\"contenttweaker:spirit_of_worthiness\",Count:1},buyB:{id:\"gendustry:honey_comb\",Damage:14022s,Count:1},sell:{id:\"contenttweaker:gear_of_worthiness\",Count:1},rewardExp:0b,maxUses:9999999}]},ActiveEffects:[{Id:14,Amplifier:0,Duration:999999},{Id:24,Amplifier:0,Duration:999999}]}", player, world, false, true);
+	return "Pass";
+};
+masterspellspiritus.register();
+
+

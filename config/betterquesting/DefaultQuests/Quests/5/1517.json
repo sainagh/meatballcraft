@@ -14,10 +14,22 @@
           }
         }
       },
-      "name:8": "String"
+      "name:8": "String Chicken"
     }
   },
   "questID:3": 1517,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:string"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

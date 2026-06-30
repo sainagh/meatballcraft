@@ -6,7 +6,6 @@ recipes.addShaped(<contenttweaker:scorched_bone_dust>,
 [<contenttweaker:skelebone_fragment>, <contenttweaker:recursive_meatball>.reuse(), <contenttweaker:skelebone_fragment>],
 [<divinerpg:purple_blaze>, <divinerpg:purple_blaze>, <divinerpg:purple_blaze>]]);
 
-// Add recipe for Portable Seed Analyzer
 recipes.addShaped(<contenttweaker:hollow_stag_callstone>,
 [[<contenttweaker:geo_fragment>, <contenttweaker:scorched_bone_dust>, <contenttweaker:geo_fragment>],
 [<contenttweaker:sentient_meatball>, <ore:ingotSacrificeMetal>, <contenttweaker:sentient_meatball>],
@@ -217,7 +216,20 @@ var armorToUnbreakify as IItemStack[] = [
     <careerbees:bee.armor.feet>,
     <careerbees:bee.armor.legs>,
     <careerbees:bee.armor.chest>,
-    <careerbees:bee.armor.head>
+    <careerbees:bee.armor.head>,
+    <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.lucerna"}}),
+    <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.vicio"}}),
+    <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.armara"}}),
+    <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.pelotrio"}}),
+    <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.discidia"}}),
+    <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.horologium"}}),
+    <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.octans"}}),
+    <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.aevitas"}}),
+    <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.evorsio"}}),
+    <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.mineralis"}}),
+    <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.bootes"}}),
+    <astralsorcery:itemcape>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.fornax"}}),
+    <astralsorcery:itemcape>.withTag({astralsorcery: {}})
 ];
 
 // Add analysis recipes for all defined seeds

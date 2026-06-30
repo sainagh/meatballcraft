@@ -57,7 +57,7 @@
           "id:8": "contenttweaker:tarantula_callstone"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

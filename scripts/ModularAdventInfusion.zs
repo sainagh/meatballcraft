@@ -62,7 +62,7 @@ bloominginf.addItemInput(<abyssalcraft:dreadplate>*1);
 bloominginf.addItemOutput(<aoa3:blooming_infusion_stone>*18);
 bloominginf.build();
 
-val alltheinfinf = RecipeBuilder.newBuilder("alltheinfinf","infusinator",80);
+val alltheinfinf = RecipeBuilder.newBuilder("alltheinfinf","infusinator",50);
 alltheinfinf.addEnergyPerTickInput(5000);
 alltheinfinf.addItemInput(<contenttweaker:mother_pixon_soul>);
 alltheinfinf.addItemInput(<thaumcraft:seal:1>*1);

@@ -628,8 +628,8 @@ dragoncruc54.addFluidInput(<fluid:eleint_dragonfire>*100);
 dragoncruc54.addItemInput(<contenttweaker:flame_of_actualization>);
 dragoncruc54.setChance(0.0);
 dragoncruc54.addItemInput(<contenttweaker:draconian_metal_ingot>*4);
-dragoncruc54.addItemInput(<extendedcrafting:singularity_custom:2060>);
-dragoncruc54.addItemInput(<extendedcrafting:singularity_custom:2061>);
+dragoncruc54.addItemInput(<extendedcrafting:singularity_custom:651>);
+dragoncruc54.addItemInput(<extendedcrafting:singularity_custom:991>);
 dragoncruc54.addItemInput(<contenttweaker:stone_of_boundless_curiosity>);
 dragoncruc54.addItemOutput(<contenttweaker:fiery_eleint_ingot>);
 dragoncruc54.build();
@@ -645,6 +645,14 @@ dragoncruc55.addItemInput(<contenttweaker:threefold_stellar_ingot>);
 dragoncruc55.addItemInput(<contenttweaker:words_of_actualization>);
 dragoncruc55.addItemOutput(<contenttweaker:ingot_of_shadesmar>);
 dragoncruc55.build();
+
+val dragoncruc56 = RecipeBuilder.newBuilder("dragoncruc56","dragonfire_crucible",40);
+dragoncruc56.addFluidInput(<fluid:eternal_dragon_fire>*100);
+dragoncruc56.addItemInput(<contenttweaker:screaming_slate>);
+dragoncruc56.addItemInput(<contenttweaker:bloodstone_of_the_great_snake>);
+dragoncruc56.addItemInput(<botania:manaresource:2>*32);
+dragoncruc56.addItemOutput(<contenttweaker:screaming_bloodstone>*32);
+dragoncruc56.build();
 
 
 

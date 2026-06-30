@@ -680,6 +680,11 @@ recipes.addShapeless(<contenttweaker:eleint_scale>,
 [<aoa3:shadow_sword>.withTag({display: {Lore:["§d§oSuper-Duper-Enchanted§r"]}}).reuse(),
 <ore:dragonScaleItem>]);
 
+recipes.addShapeless(<aoa3:shadow_sword>.withTag({display: {Lore:["§d§oSuper-Duper-Enchanted§r"]}}),
+[<aoa3:shadow_sword>.withTag({display: {Lore:["§d§oSuper-Duper-Enchanted§r"]}}).reuse(),
+<aoa3:shadow_sword>,
+<contenttweaker:astral_insight_100>]);
+
 
 recipes.addShapeless(
     "multiplydustinfinitewishesbett",dustinfinitewishes,

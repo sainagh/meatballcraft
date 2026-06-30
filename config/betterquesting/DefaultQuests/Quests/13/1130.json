@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oIncreases chance of getting Blood Droplets to level up Butchery",
       "icon:10": {
         "Count:3": 1,
         "id:8": "aoa3:bloodstone"
@@ -13,6 +13,18 @@
     }
   },
   "questID:3": 1130,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:bloodstone"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

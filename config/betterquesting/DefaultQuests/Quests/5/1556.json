@@ -14,10 +14,22 @@
           }
         }
       },
-      "name:8": "Palladium"
+      "name:8": "Celeve Chicken"
     }
   },
   "questID:3": 1556,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:palladium_egg"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

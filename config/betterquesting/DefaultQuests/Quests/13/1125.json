@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oDecreases the chance of durability being consumed on use. At level 5, the tool is made fully unbreakable.",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 14,

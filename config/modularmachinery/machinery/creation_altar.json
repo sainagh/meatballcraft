@@ -408,7 +408,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "generalized_input_item"
+                "mythic_processor_item_input"
             ]
         },
         {
@@ -472,7 +472,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "both_item_fluid_output"
+                "creation_altar_output"
             ]
         },
         {
@@ -512,7 +512,7 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "generalized_input_item"
+                "mythic_processor_item_input"
             ]
         },
         {

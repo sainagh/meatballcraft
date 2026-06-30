@@ -22,6 +22,24 @@
         "0:10": {
           "Count:3": 4,
           "id:8": "contenttweaker:skythern_star"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 150,
+            "TrophyEarnedAt:4": 1778970336,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "divinerpg:nightmare_bed"
+            },
+            "TrophyName:8": "God\u0027s Nappiest warrior",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
         }
       }
     }

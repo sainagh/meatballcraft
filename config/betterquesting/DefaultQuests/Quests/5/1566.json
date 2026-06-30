@@ -14,10 +14,26 @@
           }
         }
       },
-      "name:8": "Greckon"
+      "name:8": "Greckon Chicken"
     }
   },
   "questID:3": 1566,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:ghoulish_egg"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:ghastly_egg"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

@@ -15,6 +15,22 @@
     }
   },
   "questID:3": 50128,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "biomesoplenty:filled_honeycomb"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "biomesoplenty:shroompowder"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "ignoreNBT:1": 1,

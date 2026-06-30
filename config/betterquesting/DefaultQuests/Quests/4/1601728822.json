@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe Import Interface allows for item and fluid transfer methods to import items and fluids directly into your ME network.\n\nThe Import Interface only accepts items and fluids that are filtered. \n\nCards can be used to add the ability to void unfiltered items, or to void overflow.",
+      "desc:8": "§7§oThe Import Interface allows for item and fluid transfer methods to import items and fluids directly into your ME network.\n\nThe Import Interface only accepts items and fluids that are filtered. \n\nCards can be used to add the ability to void unfiltered items, or to void overflow, and to auto pull.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "cells:import_interface"
@@ -25,6 +25,14 @@
         "1:10": {
           "Count:3": 4,
           "id:8": "cells:import_fluid_interface"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "cells:import_essentia_interface"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "id:8": "cells:import_combined_interface"
         }
       }
     }
@@ -40,6 +48,14 @@
         "1:10": {
           "Count:3": 1,
           "id:8": "cells:import_interface"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "cells:import_essentia_interface"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "cells:import_combined_interface"
         }
       },
       "taskID:8": "bq_standard:retrieval"

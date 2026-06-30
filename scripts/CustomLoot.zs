@@ -225,6 +225,8 @@ banerares.removeEntry("aoa3:haunter_rifle");
 val baroness = LootTweaker.getTable("aoa3:entities/bosses/baroness");
 val baronessbrain = baroness.addPool("baronessbrain", 1, 1, 0, 0);
 baronessbrain.addItemEntry(<contenttweaker:baroness_brain>, 5);
+val baronessrares = baroness.getPool("rares");
+baronessrares.removeEntry("aoa3:baron_greatblade");
 
 val kaiyu = LootTweaker.getTable("aoa3:entities/mobs/precasia/kaiyu");
 val kaiyuemc = kaiyu.addPool("kaiyuemc", 1, 1, 0, 0);
@@ -257,6 +259,13 @@ cottoncandorfrosting.addItemEntry(<contenttweaker:cotton_candor_frosting>, 5);
 val craexxeus = LootTweaker.getTable("aoa3:entities/bosses/craexxeus");
 val xxeusheart = craexxeus.addPool("xxeusheart", 1, 1, 0, 0);
 xxeusheart.addItemEntry(<contenttweaker:xxeus_heart>, 5);
+
+
+val xxeus = LootTweaker.getTable("aoa3:entities/bosses/xxeus");
+val xxeusrares = xxeus.getPool("rares");
+xxeusrares.removeEntry("aoa3:gods_greatblade");
+
+
 
 val creep = LootTweaker.getTable("aoa3:entities/bosses/creep");
 val creepheart = creep.addPool("creepheart", 1, 1, 0, 0);
@@ -362,11 +371,14 @@ val krorsediment = kror.addPool("krorsediment", 1, 1, 0, 0);
 krorsediment.addItemEntry(<contenttweaker:kror_sediment>, 5);
 val krorrares = kror.getPool("rares");
 krorrares.removeEntry("aoa3:boulder_bomber");
+krorrares.removeEntry("aoa3:subterranean_greatblade");
 krorrares.addItemEntry(<appliedenergistics2:material:12>, 5);
 
 val mechbot = LootTweaker.getTable("aoa3:entities/bosses/mechbot");
 val mechbotcpu = mechbot.addPool("mechbotcpu", 1, 1, 0, 0);
 mechbotcpu.addItemEntry(<contenttweaker:mechbot_cpu>, 5);
+val mechbotrares = mechbot.getPool("rares");
+mechbotrares.removeEntry("aoa3:electron_maul");
 
 val mirage = LootTweaker.getTable("aoa3:entities/bosses/mirage");
 val miragefemur = mirage.addPool("miragefemur", 1, 1, 0, 0);
@@ -379,6 +391,8 @@ miskelrib.addItemEntry(<contenttweaker:miskel_rib>, 5);
 val okazor = LootTweaker.getTable("aoa3:entities/bosses/okazor");
 val okazorrib = okazor.addPool("okazorrib", 1, 1, 0, 0);
 okazorrib.addItemEntry(<contenttweaker:okazor_rib>, 5);
+val okazorrares = okazor.getPool("rares");
+okazorrares.removeEntry("aoa3:primordial_greatblade");
 
 val penumbra = LootTweaker.getTable("aoa3:entities/bosses/penumbra");
 val penumbraspike = penumbra.addPool("penumbraspike", 1, 1, 0, 0);
@@ -406,6 +420,8 @@ shadowlordeye.addItemEntry(<contenttweaker:shadowlord_eye>, 5);
 val silverfoot = LootTweaker.getTable("aoa3:entities/bosses/silverfoot");
 val silverfootfoot = silverfoot.addPool("silverfootfoot", 1, 1, 0, 0);
 silverfootfoot.addItemEntry(<contenttweaker:silver_foot>, 5);
+val silverfootrares = silverfoot.getPool("rares");
+silverfootrares.removeEntry("aoa3:lyonic_greatblade");
 
 val skeletron = LootTweaker.getTable("aoa3:entities/bosses/skeletron");
 val skeletronskull = skeletron.addPool("skeletronskull", 1, 1, 0, 0);
@@ -430,6 +446,8 @@ visualentfang.addItemEntry(<contenttweaker:visualent_fang>, 5);
 val voxxulon = LootTweaker.getTable("aoa3:entities/bosses/voxxulon");
 val voxxulonslime = voxxulon.addPool("voxxulonslime", 1, 1, 0, 0);
 voxxulonslime.addItemEntry(<contenttweaker:voxxulon_slime>, 5);
+val voxxulonrares = voxxulon.getPool("rares");
+voxxulonrares.removeEntry("aoa3:noxious_greatblade");
 
 val augmentrare = LootTweaker.getTable("thaumicaugmentation:block/loot_rare");
 val augmentraresingularity = augmentrare.addPool("augmentraresingularity", 1, 1, 0, 0);
@@ -853,6 +871,44 @@ ieepicshaderpool2.removeEntry("immersiveengineering:shader_bag");
 val ieepicshader3 = LootTweaker.getTable("immersiveengineering:advancements/shader_rare");
 val ieepicshaderpool3 = ieepicshader3.getPool("immersiveengineering:shaders");
 ieepicshaderpool3.removeEntry("immersiveengineering:shader_bag");
+
+
+val lottototem = LootTweaker.getTable("aoa3:misc/lotto_totem");
+val lottototemtreasures = lottototem.getPool("treasures");
+lottototemtreasures.addItemEntry(<aoa3:copper_coin>*3, 70);
+lottototemtreasures.addItemEntry(<aoa3:silver_coin>*3, 50);
+lottototemtreasures.addItemEntry(<aoa3:gold_coin>*3, 20);
+lottototemtreasures.addItemEntry(<biomesoplenty:gem:0>*1, 70);
+lottototemtreasures.addItemEntry(<biomesoplenty:gem:1>*1, 70);
+lottototemtreasures.addItemEntry(<biomesoplenty:gem:2>*1, 70);
+lottototemtreasures.addItemEntry(<biomesoplenty:gem:3>*1, 70);
+lottototemtreasures.addItemEntry(<biomesoplenty:gem:4>*1, 70);
+lottototemtreasures.addItemEntry(<biomesoplenty:gem:5>*1, 70);
+lottototemtreasures.addItemEntry(<biomesoplenty:gem:6>*1, 70);
+lottototemtreasures.addItemEntry(<biomesoplenty:gem:7>*1, 70);
+
+
+
+val crusilisk = LootTweaker.getTable("aoa3:entities/mobs/dustopia/crusilisk");
+val crusiliskeye = crusilisk.addPool("crusiliskeye", 2, 2, 0, 0);
+crusiliskeye.addItemEntry(<contenttweaker:eye_of_dustopia>*1, 5);
+
+val woodgiant = LootTweaker.getTable("aoa3:entities/mobs/overworld/wood_giant");
+val woodgiantleaf = woodgiant.addPool("woodgiantleaf", 1, 1, 0, 0);
+woodgiantleaf.addItemEntry(<contenttweaker:giant_leaf>*1, 5);
+
+val spinoledon = LootTweaker.getTable("aoa3:entities/mobs/precasia/spinoledon");
+val spinoledoncrest = spinoledon.addPool("spinoledoncrest", 1, 1, 0, 0);
+spinoledoncrest.addItemEntry(<contenttweaker:spinoledon_crest>*1, 5);
+
+val nightmarespider = LootTweaker.getTable("aoa3:entities/mobs/mysterium/nightmare_spider");
+val nightmarespidercap = nightmarespider.addPool("nightmarespidercap", 1, 1, 0, 0);
+nightmarespidercap.addItemEntry(<contenttweaker:webby_cap>*1, 5);
+
+
+val runicguardian = LootTweaker.getTable("aoa3:entities/mobs/runandor/runic_guardian");
+val runicguardianshield = runicguardian.addPool("runicguardianshield", 1, 1, 0, 0);
+runicguardianshield.addItemEntry(<contenttweaker:runic_shield>*1, 5);
 
 
 

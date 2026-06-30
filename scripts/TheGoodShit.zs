@@ -613,3 +613,35 @@ recipes.addShaped(<contenttweaker:twilit_venom>*64,
 [<twilightforest:naga_scale>, <enderio:item_soul_vial:1>.withTag({entityId: "bewitchment:snake"}), <twilightforest:naga_scale>]]);
 
 
+
+// village finder
+
+recipes.addShaped(<contenttweaker:emerald_compass>,
+[[<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>],
+[<minecraft:wheat>, <minecraft:compass>, <minecraft:wheat>],
+[<minecraft:wheat>, <minecraft:emerald>, <minecraft:wheat>]]);
+
+
+
+// pale ore
+
+mods.abyssalcraft.InfusionRitual.addRitual("paleOreMetal", 
+4, 53, 10000, false, 
+<contenttweaker:pale_metal>, 
+<contenttweaker:pale_ore>, 
+[<extrabotany:material:3>, <bewitchment:sigil_shrieking>, 
+<extrabotany:material:3>, <bewitchment:sigil_shrieking>, 
+<extrabotany:material:3>, <bewitchment:sigil_shrieking>, 
+<extrabotany:material:3>, <bewitchment:sigil_shrieking>], 
+false, ["ench"]); 
+game.setLocalization("ac.ritual.paleOreMetal", "The ore is Pale"); 
+game.setLocalization("ac.ritual.paleOreMetal.desc", "A Pale Ore");
+
+
+
+// fenrir
+
+recipes.addShaped(<contenttweaker:investiture_of_fenrir>,
+[[<contenttweaker:sympan_spirit>, <contenttweaker:dynatos_star>, <contenttweaker:sympan_spirit>],
+[<contenttweaker:dynatos_star>, <contenttweaker:investiture_of_the_direwolf>, <contenttweaker:dynatos_star>],
+[<contenttweaker:sympan_spirit>, <contenttweaker:dynatos_star>, <contenttweaker:sympan_spirit>]]);

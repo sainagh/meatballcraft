@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oBuilding made easy!\n\nPress V to select building mode! \n\nIf you place the wrong blocks, press U to undo!",
+      "desc:8": "§7§oBuilding made easy!\n\nShift + Right CLick on a block to select a block to build with.\n\nPress V to select building mode! \n\nIf you place the wrong blocks, press U to undo!\n\nIt will pull blocks automatically from your EMC network, and from some backpacks.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "buildinggadgets:buildingtool",
@@ -19,6 +19,18 @@
     }
   },
   "questID:3": 1934,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond_ore"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "ignoreNBT:1": 1,

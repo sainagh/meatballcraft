@@ -15,6 +15,39 @@
     }
   },
   "questID:3": 50060,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 34,
+          "id:8": "tconstruct:edible"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 30,
+          "id:8": "tconstruct:edible"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 31,
+          "id:8": "tconstruct:edible"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 32,
+          "id:8": "tconstruct:edible"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 33,
+          "id:8": "tconstruct:edible"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

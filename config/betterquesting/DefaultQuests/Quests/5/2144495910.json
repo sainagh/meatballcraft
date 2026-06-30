@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20489
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oYou may not need this, but if you are a Master of Spellcraft, you might as well go for it!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:perfected_imbuement_fabrial"
+      },
+      "name:8": "Simplified Species Harvesting"
+    }
+  },
+  "questID:3": 2144495910,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:perfected_imbuement_fabrial"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

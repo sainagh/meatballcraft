@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oNesting pens can be used to automate chickens in a straightforward matter! And there is a chance for a few special drops!\n\nThe net can be used to put chickens in the nesting pens.\n\n§fA nesting pen can increase the eggification of chickens. Not the best, but it\u0027ll do for a bit.",
+      "desc:8": "§7§oNesting pens can be used to automate chickens in a straightforward matter! And there is a chance for a few special drops!\n\nThe net can be used to put chickens in the nesting pens.\n\n§7§oTo breed chickens into new species, place two nesting pens facing each other!\n\nIn theory, just putting pens next to each other is enough, but come on, facing each other is so much cuter!\n\n§fA nesting pen can increase the eggification of chickens. Not the best, but it\u0027ll do for a bit.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "hatchery:pen"
@@ -13,6 +13,18 @@
     }
   },
   "questID:3": 20425,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hatchery:pen"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

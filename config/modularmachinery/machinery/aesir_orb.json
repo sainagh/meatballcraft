@@ -448,7 +448,7 @@
             "y": -1,
             "z": -2,
             "elements": [
-                "modularmachinery:blockoutputbus@2"
+                "modularmachineryaddons:blocksingularityitemoutputbus@0"
             ]
         },
         {
@@ -552,7 +552,7 @@
             "y": -1,
             "z": -2,
             "elements": [
-                "modularmachinery:blockoutputbus@2"
+                "modularmachineryaddons:blocksingularityitemoutputbus@0"
             ]
         },
         {
@@ -736,7 +736,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "modularmachineryaddons:blocksingularityiteminputbus@0"
             ]
         },
         {
@@ -1120,7 +1120,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "modularmachineryaddons:blocksingularityiteminputbus@0"
             ]
         },
         {

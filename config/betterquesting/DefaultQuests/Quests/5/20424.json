@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following quests show how to deal with and farm chickens!\n\n§fGenetically modified chickens, because why the f..k not...",
+      "desc:8": "§7§oThe following quests show how to deal with and farm chickens!\n\n§fGenetically modified chickens, because why the cluck not...",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
@@ -14,6 +14,22 @@
     }
   },
   "questID:3": 20424,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:egg"
+        },
+        "1:10": {
+          "Count:3": 6,
+          "id:8": "minecraft:hay_block"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

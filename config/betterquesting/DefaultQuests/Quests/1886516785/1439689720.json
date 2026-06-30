@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    572887915
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oYes, it works as shears too...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:rosidian_greatblade"
+      },
+      "name:8": "Levelling Upgrade: Rosidian Greatblade"
+    }
+  },
+  "questID:3": 1439689720,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:rosidian_greatblade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

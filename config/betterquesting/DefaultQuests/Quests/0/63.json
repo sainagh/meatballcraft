@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oDon\u0027t know how a machine or a recipe works? Info will be found in the manufacturing and fabrication tab!\n\nThe crescent hammer is the preferred wrench in this pack! It can rotate blocks, break pipes and cables, and it should work with all other tech mods!\n\n§fYES! I can now build a better workbench, which should allow me to put together some machines to make my life easier!",
+      "desc:8": "§7§oDon\u0027t know how a machine or a recipe works? Tooltips and JEI Info Boxes can help out! make sure you read them ;)\n\nThe crescent hammer is the preferred wrench in this pack! It can rotate blocks, break pipes and cables, and it should work with all other tech mods!\n\n§fYES! I can now build a better workbench, which should allow me to put together some machines to make my life easier!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "extendedcrafting:table_basic"
@@ -31,6 +31,10 @@
           "Count:3": 1,
           "id:8": "omniwand:wand",
           "tag:10": {}
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:chunky_sand_pile"
         }
       }
     }

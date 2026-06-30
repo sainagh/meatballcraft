@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis pack contains some special recipes! \n\nThese allow you to obtain high level enchantments that you cannot obtain otherwise.\n\nThis quest tab lists all of the super-enchanted recipes available in each chapter, and it highlights the best ones at each tier.\n\nJEI can also be used to find these recipe, just type \u0027super-enchanted\u0027!\n\nAll high level enchants can be stripped off and they can be applied to other pieces of gear (with some limitations). This can be done using the enchantment applicator and extractor from industrial foregoing, or using the enchanter from botania.\n\n§fIt seems objects can be recursive too! But with some key differences. These recursive objects need to be imprinted on another object that is similar-ish to it. This is typically done using a method that is a bit like enchanting but with much more physical matter. (There are exceptions to this.)\n\nOnce the base object is imprinted, it takes on the exact properties and appearance of the object the moment it became recursive.\n\nA strange thing I\u0027ve noticed is that when I first pick up the recursive item, I receive a... memory? vision? echo? of the item\u0027s creation and use throughout history. The more times an object is imprinted, the fuzzier this echo becomes. There is not much practical use for this, but it sure is neat!",
+      "desc:8": "§7§oThis pack contains some special recipes! \n\nThese allow you to obtain high level enchantments that you cannot obtain otherwise.\n\nThis quest tab lists all of the super-enchanted recipes available in each chapter, and it highlights the best ones at each tier.\n\nThe quests are structured as a tier list, where the tier, \u0027great\u0027, \u0027good\u0027, \u0027ok\u0027 depends on the level of the enchantment, not the base damage of the weapon.\n\nJEI can also be used to find these recipe, just type \u0027super-enchanted\u0027!\n\nAll high level enchants can be stripped off and they can be applied to other pieces of gear (with some limitations). This can be done using the enchantment applicator and extractor from industrial foregoing, or using the enchanter from botania.\n\n§fIt seems objects can be recursive too! But with some key differences. These recursive objects need to be imprinted on another object that is similar-ish to it. This is typically done using a method that is a bit like enchanting but with much more physical matter. (There are exceptions to this.)\n\nOnce the base object is imprinted, it takes on the exact properties and appearance of the object the moment it became recursive.\n\nA strange thing I\u0027ve noticed is that when I first pick up the recursive item, I receive a... memory? vision? echo? of the item\u0027s creation and use throughout history. The more times an object is imprinted, the fuzzier this echo becomes. There is not much practical use for this, but it sure is neat!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumadditions:mithminite_hood",
@@ -26,6 +26,26 @@
     }
   },
   "questID:3": 999,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond_ore"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_ore"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:cobblestone"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

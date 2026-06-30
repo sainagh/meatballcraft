@@ -188,5 +188,44 @@ fallentowerjei19.addOutput(<ore:oreUltimate>);
 fallentowerjei19.addOutput(<ore:oreMatrix>);
 fallentowerjei19.build();
 
+val fallentowerjei20 = JEI.createJeiRecipe("fallen_tower_ritual");
+fallentowerjei20.addInput(<fluid:lifeessence>*5000000);
+fallentowerjei20.addInput(<contenttweaker:demonic_ember>);
+fallentowerjei20.addOutput(<ore:oreFirestone>);
+fallentowerjei20.addOutput(<ore:oreArdite>);
+fallentowerjei20.addOutput(<ore:oreCobalt>);
+fallentowerjei20.build();
+
+val fallentowerjei21 = JEI.createJeiRecipe("fallen_tower_ritual");
+fallentowerjei21.addInput(<fluid:lifeessence>*5000000);
+fallentowerjei21.addInput(<contenttweaker:vibranium_alloy_cluster>);
+fallentowerjei21.addOutput(<ore:oreGalena>);
+fallentowerjei21.addOutput(<ore:oreBauxite>);
+fallentowerjei21.addOutput(<ore:orePyrite>);
+fallentowerjei21.addOutput(<ore:oreCinnabar>);
+fallentowerjei21.addOutput(<ore:oreSphalerite>);
+fallentowerjei21.addOutput(<ore:oreSodalite>);
+fallentowerjei21.build();
+
+val fallentowerjei22 = JEI.createJeiRecipe("fallen_tower_ritual");
+fallentowerjei22.addInput(<fluid:lifeessence>*5000000);
+fallentowerjei22.addInput(<contenttweaker:lunar_binding_fabrial>);
+fallentowerjei22.addOutput(<ore:oreBoundLunarStone>);
+fallentowerjei22.addOutput(<ore:oreRunium>);
+fallentowerjei22.build();
+
+val fallentowerjei23 = JEI.createJeiRecipe("fallen_tower_ritual");
+fallentowerjei23.addInput(<fluid:lifeessence>*5000000);
+fallentowerjei23.addInput(<contenttweaker:void_calling_fabrial>);
+fallentowerjei23.addOutput(<ore:oreLitherite>);
+fallentowerjei23.addOutput(<ore:oreMica>);
+fallentowerjei23.addOutput(<ore:oreErodium>);
+fallentowerjei23.addOutput(<ore:oreKyronite>);
+fallentowerjei23.addOutput(<ore:orePladium>);
+fallentowerjei23.addOutput(<ore:oreIonite>);
+fallentowerjei23.addOutput(<ore:oreIonite>);
+fallentowerjei23.addOutput(<ore:oreLonsdaleite>);
+fallentowerjei23.build();
+
 
 

@@ -81,7 +81,7 @@
           "id:8": "aoa3:lunar_staff"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

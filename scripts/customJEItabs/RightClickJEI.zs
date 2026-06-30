@@ -329,6 +329,16 @@ rclickdimlet38.addInput(<contenttweaker:spark_of_unhallowing>);
 rclickdimlet38.setOutputs([<contenttweaker:recursion_of_growth>]);
 rclickdimlet38.build();
 
+val rclickdimlet39 = JEI.createJeiRecipe("right_click_meatball");
+rclickdimlet39.addInput(<contenttweaker:kobblin_earth>);
+rclickdimlet39.setOutputs([<contenttweaker:kobblin_seedling>]);
+rclickdimlet39.build();
+
+val rclickdimlet40 = JEI.createJeiRecipe("right_click_meatball");
+rclickdimlet40.addInput(<aoa3:flammable_dust>);
+rclickdimlet40.setOutputs([<aoa3:nethengeic_callstone>]);
+rclickdimlet40.build();
+
 
 
 

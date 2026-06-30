@@ -358,3 +358,17 @@ enchdesc_curse_bones.register();
 var enchdesc_flaming_touch = VanillaFactory.createItem("enchdesc_flaming_touch");    
 enchdesc_flaming_touch.textureLocation = instanceTEX;
 enchdesc_flaming_touch.register();   
+
+
+
+var enchdesc_vampirism = VanillaFactory.createItem("enchdesc_vampirism");    
+enchdesc_vampirism.textureLocation = instanceTEX;
+enchdesc_vampirism.register();   
+
+var enchdesc_critical_boost = VanillaFactory.createItem("enchdesc_critical_boost");    
+enchdesc_critical_boost.textureLocation = instanceTEX;
+enchdesc_critical_boost.register();   
+
+var enchdesc_focusedstrike = VanillaFactory.createItem("enchdesc_focused_strike");    
+enchdesc_focusedstrike.textureLocation = instanceTEX;
+enchdesc_focusedstrike.register();   

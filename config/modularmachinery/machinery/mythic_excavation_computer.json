@@ -95,7 +95,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "generalized_input_item"
+                "excavation_reactor_input"
             ]
         },
         {
@@ -159,7 +159,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "both_item_fluid_output"
+                "generalized_output_item"
             ]
         },
         {

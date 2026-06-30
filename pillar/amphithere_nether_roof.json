@@ -24,6 +24,8 @@
 	"filling": "minecraft:red_nether_brick",
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
+
+	"minDistanceToSameTypeStructures": 200,
 	
 	"rarity": 400
 }

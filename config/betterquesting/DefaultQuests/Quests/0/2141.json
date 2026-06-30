@@ -65,7 +65,7 @@
           "id:8": "contenttweaker:ancient_wyvern_trinket"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

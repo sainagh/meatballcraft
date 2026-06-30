@@ -14,10 +14,22 @@
           }
         }
       },
-      "name:8": "Prismarine Crystal"
+      "name:8": "Prismarine Crystal Chicken"
     }
   },
   "questID:3": 1521,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:prismarine_crystals"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

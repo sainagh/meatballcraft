@@ -36,6 +36,7 @@
             <orbitalDistance>800</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>10</orbitalPhi>
+            <generateGeodes>false</generateGeodes>
             <rotationalPeriod>30000</rotationalPeriod>
             <biomeIds>minecraft:mushroom_island</biomeIds>
         </planet>
@@ -47,6 +48,7 @@
             <orbitalDistance>900</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>5</orbitalPhi>
+            <generateGeodes>false</generateGeodes>
             <rotationalPeriod>60000</rotationalPeriod>
 			<fillerBlock>minecraft:stone</fillerBlock>
             <biomeIds>advancedrocketry:crystalchasms</biomeIds>
@@ -152,6 +154,8 @@
             <orbitalDistance>700</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>30</orbitalPhi>
+            <generateVolcanos>true</generateVolcanos>
+            <volcanoFrequencyMultiplier>0.2</volcanoFrequencyMultiplier>
             <rotationalPeriod>10000</rotationalPeriod>
             <biomeIds>advancedrocketry:volcanicbarren</biomeIds>
 			<planet name="Orcus" DIMID="161" customIcon="moon">

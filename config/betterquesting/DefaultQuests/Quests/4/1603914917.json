@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1232
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oUsed to copy ME interfaces recipes without making multiple patterns!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "nae2:part"
+      },
+      "name:8": "Interface p2p"
+    }
+  },
+  "questID:3": 1603914917,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "nae2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

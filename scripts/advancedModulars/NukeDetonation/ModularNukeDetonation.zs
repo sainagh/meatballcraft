@@ -25,7 +25,7 @@ nukeenvironmentboom.addStartHandler(function(event as RecipeStartEvent) {
       NukeEnvironmentRecipeStart(event.controller, "techreborn:nuke");
     }
   )
-  .addRecipeTooltip(["All fluids inside the volume of the multiblock that have a valid recipe will be converted after a nuke is placed below the controller"])
+  .addRecipeTooltip([" "," "," ","All fluids inside the volume of the multiblock","that have a valid recipe will be converted ","after a nuke is placed below the controller"])
   .build();
 
 

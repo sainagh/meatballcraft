@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis section of the questbook lists all available weapon options at each chapter in the pack.\n\n§cThis quest chapter is still a work-in-progress, and not all available options are listed yet!",
+      "desc:8": "§7§oThis section of the questbook lists all available weapon options at each chapter in the pack.\n\nIt is built as a tier list, with \u0027Great\u0027, \u0027Good\u0027, \u0027OK\u0027 categories. Within each category, there is no specific order.\n\nThere is no reason to complete all quests in this section, they are just here to help you keep track of things :)\n\n§cThis quest chapter is still a work-in-progress, and not all available options are listed yet!",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:sword_of_truth"
@@ -13,6 +13,26 @@
     }
   },
   "questID:3": 2046820099,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond_ore"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_ore"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:cobblestone"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

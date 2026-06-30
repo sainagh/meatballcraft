@@ -819,4 +819,18 @@ mithchemreac109.addFluidOutput(<fluid:lymph_of_pixonia>*80000);
 mithchemreac109.addFluidOutput(<fluid:explosive_actualization>*1500);
 mithchemreac109.build();
 
+val mithchemreac110 = RecipeBuilder.newBuilder("mithchemreac110","mythic_processor_chemical_reactor",2);
+mithchemreac110.addEnergyPerTickInput(200000);
+mithchemreac110.addFluidInput(<fluid:molten_sodium_fluoride>*1000);
+mithchemreac110.addFluidInput(<fluid:water>*100);
+mithchemreac110.addFluidOutput(<fluid:sodium_fluoride_solution>*1000);
+mithchemreac110.build();
+
+val mithchemreac111 = RecipeBuilder.newBuilder("mithchemreac111","mythic_processor_chemical_reactor",2);
+mithchemreac111.addEnergyPerTickInput(200000);
+mithchemreac111.addFluidInput(<fluid:fine_mineral_mix>*1000);
+mithchemreac111.addFluidInput(<fluid:ogerite>*576);
+mithchemreac111.addFluidOutput(<fluid:primal_ogerite>*576);
+mithchemreac111.build();
+
 

@@ -27,7 +27,7 @@
           "id:8": "thaumictinkerer:ichor_block"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

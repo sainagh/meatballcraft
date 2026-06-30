@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe plant sower is used to plant up to 9 different types of plants.\nThe gatherer can automatically harvest plants, producing sludge as a byproduct.",
+      "desc:8": "§7§oThe gatherer can automatically harvest plants, producing sludge as a byproduct.\n\n§7§oThe plant gatherer normally breaks plants, but it has been modified here to work with crop sticks. This is the preferred way of gathering resources from crop sticks!\n\n§7§oFor cases where you do not want to use crop sticks, the plant sower is used to plant up to 9 different types of plants.\n\nTo account for the high speed of all plant accelerators in the pack, the best way to farm crops is 3x3 lots with 8 crops each. You should use one gatherer for each lot.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:crop_sower"
@@ -13,17 +13,37 @@
     }
   },
   "questID:3": 20514,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:range_addon"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:range_addon"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "industrialforegoing:crop_sower"
+          "id:8": "industrialforegoing:crop_recolector"
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "industrialforegoing:crop_recolector"
+          "id:8": "industrialforegoing:crop_sower"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "agricraft:crop_sticks"
         }
       },
       "taskID:8": "bq_standard:retrieval"

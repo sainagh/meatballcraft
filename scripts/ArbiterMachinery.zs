@@ -816,7 +816,7 @@ inffurnaceshardofshadesmar3.build();
 val inffurnacefulfillshadesmar = RecipeBuilder.newBuilder("inffurnacefulfillshadesmar","infinity_furnace",40);
 inffurnacefulfillshadesmar.addFluidInput(<fluid:breath_of_actualization>*100);
 inffurnacefulfillshadesmar.addItemInput(<contenttweaker:living_shard_of_shadesmar>*32);
-inffurnacefulfillshadesmar.addItemInput(<contenttweaker:recursion_of_history>);
+inffurnacefulfillshadesmar.addItemInput(<contenttweaker:gilded_matter>);
 inffurnacefulfillshadesmar.addItemInput(<aoa3:blue_crystal>*8);
 inffurnacefulfillshadesmar.addItemInput(<aoa3:green_crystal>*8);
 inffurnacefulfillshadesmar.addItemInput(<aoa3:purple_crystal>*8);
@@ -1186,7 +1186,7 @@ spatialcruc7_better1.addItemInput(<contenttweaker:universal_realgar>);
 spatialcruc7_better1.addFluidOutput(<fluid:universal_matter>*600000);
 spatialcruc7_better1.build();
 
-recipes.addShaped(<contenttweaker:blade_of_the_samurai_queen>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 100},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]}),
+recipes.addShaped(<contenttweaker:blade_of_the_samurai_queen>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 77},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]}),
 [[null, <contenttweaker:sword_shield>, null],
 [<contenttweaker:projector_gem>, <contenttweaker:sword_shield>, <contenttweaker:projector_gem>],
 [null, <immersiveengineering:material:0>, null]]);

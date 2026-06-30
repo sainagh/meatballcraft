@@ -52,7 +52,7 @@
           "id:8": "appliedenergistics2:quartz_growth_accelerator"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

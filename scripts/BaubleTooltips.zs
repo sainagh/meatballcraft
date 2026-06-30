@@ -1,8 +1,3 @@
-<ae2fc:wireless_fluid_pattern_terminal>.addTooltip(format.red("Remote fluid pattern terminal access"));
-<appliedenergistics2:wireless_terminal>.addTooltip(format.red("Remote AE terminal access"));
-<appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("Remote crafting terminal access"));
-<appliedenergistics2:wireless_pattern_terminal>.addTooltip(format.red("Remote pattern terminal access"));
-<appliedenergistics2:wireless_fluid_terminal>.addTooltip(format.red("Remote fluid terminal access"));
 <actuallyadditions:potion_ring_advanced_bauble:0>.addTooltip(format.red("Applies speed potion to user"));
 <actuallyadditions:potion_ring_advanced_bauble:1>.addTooltip(format.red("Applies haste potion to user"));
 <actuallyadditions:potion_ring_advanced_bauble:2>.addTooltip(format.red("Applies strength potion to user"));
@@ -20,7 +15,6 @@
 <actuallyadditions:battery_quintuple_bauble>.addTooltip(format.red("Charges items in user inventory"));
 <astralsorcery:itemenchantmentamulet>.addTooltip(format.red("The level of enchantments on the player's gear will be increased depending on the configuration of the prism"));
 <baubles:ring>.addTooltip(format.red("Applies Haste 1"));
-<bhc:heart_amulet>.addTooltip(format.red("Increases health depending on the amount of heart canisters "));
 <bewitchment:girdle_of_the_dryads>.addTooltip(format.red("Grows a set of extra armor while standing on grass that absorbs hits"));
 <bewitchment:hellish_bauble>.addTooltip(format.red("Gives Fire Resistannce and reduces damage from explosions, as well as reduces the cost of trades from Demons"));
 <bewitchment:horseshoe>.addTooltip(format.red("Lowers the amount of damage taken from Bewitchment spirits, and applies the Luck effect"));
@@ -36,10 +30,6 @@
 <bloodarsenal:vampire_ring>.addTooltip(format.red("Grants Life Steal effect, healing you for dealing damage. Effect applies to any damage dealt to anything nearby"));
 <bloodarsenal:soul_pendant>.addTooltip(format.red("Stores will from slain enemies"));
 <botania:tinyplanet>.addTooltip(format.red("Pulls mana bursts towards wearer"));
-<botania:manaring>.addTooltip(format.red("Stores Botania Mana"));
-<botania:auraring>.addTooltip(format.red("Creates Mana and stores it within mana holding items"));
-<botania:manaringgreater>.addTooltip(format.red("Stores 4x as much mana as a base Band of Mana"));
-<botania:auraringgreater>.addTooltip(format.red("Creates much more mana than a base band of aura"));
 <botania:travelbelt>.addTooltip(format.red("Provides a hiddden speed 1 effect and allows for auto stepping 1 blocks"));
 <botania:knockbackbelt>.addTooltip(format.red("Stops Knockback effects from damage"));
 <botania:icependant>.addTooltip(format.red("Acts as Frost Walker enchant, freezing ice at foot level"));
@@ -63,7 +53,6 @@
 <botania:swapring>.addTooltip(format.red("Will automatically switch tools to the appropriate one to break a block the user is looking at. Only applies to tools that work with Mana"));
 <botania:thorring>.addTooltip(format.red("Activated TerraShatterers will have an increased range"));
 <botania:odinring>.addTooltip(format.red("Gain an additional 20 health points and become immune to suffocation, drowning, fire, lava, starvation and fall damage."));
-<botania:lokiring>.addTooltip(format.red("Allows user to place blocks in many places at once, following a pattern set by shift right clicking with an empty hand"));
 <botania:magnetringgreater>.addTooltip(format.red("Attracts items from a greater range"));
 <botania:speedupbelt>.addTooltip(format.red("Provides an escalating speed boost the longer a user walks without stopping"));
 <botania:baublebox>.addTooltip(format.red("Can store baubles"));
@@ -176,11 +165,9 @@
 <enderio:item_magnet>.addTooltip(format.red("Magnet"));
 <extrautils2:chickenring:1>.addTooltip(format.red("Flight for a short amount of time"));
 <extrautils2:chickenring:0>.addTooltip(format.red("Applies slow fall when falling more than 2 blocks"));
-<extrautils2:angelring>.addTooltip(format.red("Allows creative flight"));
 <extrabotany:froststar>.addTooltip(format.red("Freezes large areas of water and lava near user, also applies Slowness II to any mob looked at"));
 <extrabotany:deathring>.addTooltip(format.red("Applies wither and Unlock at mobs looked at"));
 <extrabotany:natureorb>.addTooltip(format.red("Stores effects in it that apply to the user over time. Blessing of Mana will refill mana using items, Blessing of Regeneration will cause Regen effects to happen twice as fast, Blessing of Senro will cancel negative debuffs"));
-<extrabotany:mastermanaring>.addTooltip(format.red("Stores MAX INT mana"));
 <extrabotany:puredaisypendant>.addTooltip(format.red("Instantly causes a pure daisy effect when holding item, after 64 items goes on 2.5 minute cooldown"));
 <extrabotany:supercrown>.addTooltip(format.red("When wearing Starry Idol or Pleiades Combat Maid Armor, reduces damage taken by 1 heart"));
 <extrabotany:redscarf>.addTooltip(format.red("Decorative"));
@@ -256,11 +243,6 @@
 <thaumicwonders:night_vision_goggles>.addTooltip(format.red("Gives night vision on top of all effects from Goggles of revealing"));
 <thaumicwonders:cleansing_charm>.addTooltip(format.red("Converts warp into flux, consuming Vis"));
 <theoneprobe:probe_goggles>.addTooltip(format.red("Enable One Probe depending on configuration"));
-<twilightforest:charm_of_life_1>.addTooltip(format.red("Prevents death, healing the user to 4 hearts and giving Regen 1 for 5 seconds"));
-<twilightforest:charm_of_life_2>.addTooltip(format.red("Prevents death, healing the user to 10 hearts, and giving Regen IV, Resistance, and Fire Resistance for 30 seconds"));
-<twilightforest:charm_of_keeping_1>.addTooltip(format.red("Prevents armor and items held from being lost"));
-<twilightforest:charm_of_keeping_2>.addTooltip(format.red("Prevents armor and items from being held and items in the hotbar from being lost"));
-<twilightforest:charm_of_keeping_3>.addTooltip(format.red("Prevents any items in inventory from being lost"));
 <thermalexpansion:capacitor:0>.addTooltip(format.red("Battery"));
 <thermalexpansion:capacitor:1>.addTooltip(format.red("Battery"));
 <thermalexpansion:capacitor:2>.addTooltip(format.red("Battery"));

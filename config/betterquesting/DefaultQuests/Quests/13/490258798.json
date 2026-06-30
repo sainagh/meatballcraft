@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe following section categorizes all possible Tinker\u0027s materials available at each point in progression, categorized as great, good, and OK.\n\nThe ratings for each material may change as players provide feedback and new builds are discovered, so things here may get reshuffled.",
+      "desc:8": "§7§oThe following section categorizes all possible Tinker\u0027s materials available at each point in progression, categorized in a tier-list style view as \u0027great\u0027, \u0027good\u0027, and \u0027OK\u0027.\n\nThere is no reason to complete all quests in this section, they are just here to help you keep track of things :)",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:toolforge",
@@ -20,6 +20,30 @@
     }
   },
   "questID:3": 490258798,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond_ore"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_ore"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:cobblestone"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:planks"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

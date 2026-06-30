@@ -1,11 +1,15 @@
 {
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
   "preRequisites:11": [
     1569647533,
     81569973
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oWizardry spells are very powerful, especially at Advanced and Master tier.\n\nWands are upgraded using Tomes of Arcana, after having being used a certain number of times. \n\nTrading with Wizards can be a good way to \u0027skip\u0027 some levelling...",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ebwizardry:magic_wand"
@@ -14,6 +18,18 @@
     }
   },
   "questID:3": 620064319,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:gold_coin"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

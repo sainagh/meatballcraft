@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThis quest can be completed using any hammer.\n\nHammers will let you break stone and ores in a 3x3 area, making it quite convenient for early game mining sessions.\n\nYou should switch to the destruction catalyst and the catalytic lens later on.",
+      "desc:8": "§7§oThis quest can be completed using any hammer.\n\nHammers will let you break stone and ores in a 3x3 area, making it quite convenient for early game mining sessions.\n\nYou may want to switch to the destruction catalyst and the catalytic lens later on.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -81,6 +81,18 @@
     }
   },
   "questID:3": 1885,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "contenttweaker:bloodhunter_modifier"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "ignoreNBT:1": 1,
