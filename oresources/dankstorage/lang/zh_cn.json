@@ -1,0 +1,38 @@
+{
+  "block.dankstorage.dank_1": "Dank 1",
+  "block.dankstorage.dank_2": "Dank 2",
+  "block.dankstorage.dank_3": "Dank 3",
+  "block.dankstorage.dank_4": "Dank 4",
+  "block.dankstorage.dank_5": "Dank 5",
+  "block.dankstorage.dank_6": "Dank 6",
+  "block.dankstorage.dank_7": "Dank 7",
+
+  "container.dankstorage.dank_1": "Dank 1",
+  "container.dankstorage.dank_2": "Dank 2",
+  "container.dankstorage.dank_3": "Dank 3",
+  "container.dankstorage.dank_4": "Dank 4",
+  "container.dankstorage.dank_5": "Dank 5",
+  "container.dankstorage.dank_6": "Dank 6",
+  "container.dankstorage.dank_7": "Dank 7",
+
+  "dankstorage.mode.normal": "正常",
+  "dankstorage.mode.pickup_all": "全部拾取",
+  "dankstorage.mode.filtered_pickup": "过滤拾取",
+  "dankstorage.mode.void_pickup": "销毁拾取",
+
+  "key.dankstorage.pickup": "切换模式",
+  "key.dankstorage.construction": "建筑模式",
+
+  "key.categories.dankstorage": "Dank存储按键绑定",
+
+  "text.dankstorage.shift": "按%s查看信息",
+  "text.dankstorage.empty": "空",
+
+  "text.dankstorage.changemode": "按%s切换模式",
+  "text.dankstorage.currentmode": "当前模式：%s",
+
+  "dankstorage.construction.enabled": "建筑模式已启用",
+  "dankstorage.construction.disabled": "建筑模式已禁用",
+
+  "text.dankstorage.formatcontaineditems" : "%s %s"
+}

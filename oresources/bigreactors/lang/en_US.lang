@@ -1,0 +1,62 @@
+item.bigreactors:reactorcasingcores.name=Yellorium Reactor Casing Core
+item.bigreactors:reactorcasingcores.basic.name=Yellorium Reactor Casing Core
+item.bigreactors:turbinehousingcores.name=Extreme Turbine Housing Core 
+item.bigreactors:turbinehousingcores.basic.name=Extreme Turbine Housing Core 
+
+
+# Blocks - reactor parts 
+tile.bigreactors:reactorglass.name=Yellorium Reactor Glass 
+tile.bigreactors:reactorcasing.name=Yellorium Reactor Casing 
+tile.bigreactors:reactorcontroller.name=Yellorium Reactor Controller 
+tile.bigreactors:reactorpowertaprf.name=Yellorium Reactor Redstone Flux Power Tap 
+tile.bigreactors:reactorpowertaptesla.name=Yellorium Reactor Tesla Power Tap 
+tile.bigreactors:reactoraccessport.name=Yellorium Reactor Access Port 
+tile.bigreactors:reactorcoolantport.name=Yellorium Reactor Coolant Port 
+tile.bigreactors:reactorcontrolrod.name=Yellorium Reactor Control Rod 
+tile.bigreactors:reactorcomputerport.name=Yellorium Reactor Computer Port 
+tile.bigreactors:reactorredstoneport.name=Yellorium Reactor Redstone Port 
+tile.bigreactors:reactorfuelrod.name=Yellorium Reactor Fuel Rod 
+tile.bigreactors:reactorrednetport.name=Yellorium Reactor RedNet Port 
+tile.bigreactors:reactorcreativecoolantport.name=Yellorium Reactor Creative Coolant Port 
+
+# Blocks - reactor parts 
+tile.bigreactors:reactorglass.basic.name=Yellorium Reactor Glass 
+tile.bigreactors:reactorcasing.basic.name=Yellorium Reactor Casing 
+tile.bigreactors:reactorcontroller.basic.name=Yellorium Reactor Controller 
+tile.bigreactors:reactorpowertaprf.basic.name=Yellorium Reactor Redstone Flux Power Tap 
+tile.bigreactors:reactorpowertaptesla.basic.name=Yellorium Reactor Tesla Power Tap 
+tile.bigreactors:reactoraccessport.basic.name=Yellorium Reactor Access Port 
+tile.bigreactors:reactorcoolantport.basic.name=Yellorium Reactor Coolant Port 
+tile.bigreactors:reactorcontrolrod.basic.name=Yellorium Reactor Control Rod 
+tile.bigreactors:reactorcomputerport.basic.name=Yellorium Reactor Computer Port 
+tile.bigreactors:reactorredstoneport.basic.name=Yellorium Reactor Redstone Port 
+tile.bigreactors:reactorfuelrod.basic.name=Yellorium Reactor Fuel Rod 
+tile.bigreactors:reactorrednetport.basic.name=Yellorium Reactor RedNet Port 
+tile.bigreactors:reactorcreativecoolantport.basic.name=Yellorium Reactor Creative Coolant Port 
+
+# Blocks - turbine parts 
+tile.bigreactors:turbineglass.name=Extreme Turbine Glass 
+tile.bigreactors:turbinehousing.name=Extreme Turbine Housing 
+tile.bigreactors:turbinecontroller.name=Extreme Turbine Controller 
+tile.bigreactors:turbinepowertaprf.name=Extreme Turbine Redstone Flux Power Tap 
+tile.bigreactors:turbinepowertaptesla.name=Extreme Turbine Tesla Power Tap 
+tile.bigreactors:turbinecomputerport.name=Extreme Turbine Computer Port 
+tile.bigreactors:turbinefluidport.name=Extreme Turbine Fluid Port 
+tile.bigreactors:turbinebearing.name=Extreme Turbine Rotor Bearing 
+tile.bigreactors:turbinecreativesteamgenerator.name=Extreme Turbine Creative Steam Generator 
+tile.bigreactors:turbinerotorshaft.name=Extreme Turbine Rotor Shaft 
+tile.bigreactors:turbinerotorblade.name=Extreme Turbine Rotor Blade 
+
+# Blocks - turbine parts 
+tile.bigreactors:turbineglass.basic.name=Extreme Turbine Glass 
+tile.bigreactors:turbinehousing.basic.name=Extreme Turbine Housing 
+tile.bigreactors:turbinecontroller.basic.name=Extreme Turbine Controller 
+tile.bigreactors:turbinepowertaprf.basic.name=Extreme Turbine Redstone Flux Power Tap 
+tile.bigreactors:turbinepowertaptesla.basic.name=Extreme Turbine Tesla Power Tap 
+tile.bigreactors:turbinecomputerport.basic.name=Extreme Turbine Computer Port 
+tile.bigreactors:turbinefluidport.basic.name=Extreme Turbine Fluid Port 
+tile.bigreactors:turbinebearing.basic.name=Extreme Turbine Rotor Bearing 
+tile.bigreactors:turbinecreativesteamgenerator.basic.name=Extreme Turbine Creative Steam Generator 
+tile.bigreactors:turbinerotorshaft.basic.name=Extreme Turbine Rotor Shaft 
+tile.bigreactors:turbinerotorblade.basic.name=Extreme Turbine Rotor Blade 
+

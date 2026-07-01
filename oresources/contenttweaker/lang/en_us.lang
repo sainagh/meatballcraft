@@ -922,8 +922,8 @@ fluid.potassium_41=Potassium 41
 tile.contenttweaker.valtellina_ore.name=Cosmic Gem Ore
 tile.contenttweaker.eternal_tulite.name=Eternal Tulite
 item.contenttweaker.horrific_callstone.name=Horrific Callstone
-item.contenttweaker.anadrominomicom.name=Anadrominomicom
-item.contenttweaker.skotaninomicom.name=Skotaninomicom
+item.contenttweaker.anadrominomicom.name=Anadrominomicon
+item.contenttweaker.skotaninomicom.name=Skotaninomicon
 item.contenttweaker.terran_summoning.name=Terran Summoning
 item.contenttweaker.immortallis_callstone.name=Immortallis Callstone
 item.contenttweaker.charger_ring.name=Charger Ring
@@ -4184,7 +4184,7 @@ fluid.harmonic_fluid_lattice=Harmonic Fluid Lattice
 fluid.flame_of_the_twilight_forest=Crepuscular Fire
 
 
-item.contenttweaker.master_spell_exanimis.name=EMaster Spell: Exanimis
+item.contenttweaker.master_spell_exanimis.name=Master Spell: Exanimis
 item.contenttweaker.spam_free_americium_241.name=Americium-241 Tips & Tricks
 item.contenttweaker.stargate_brick_base.name=Stargate Brick Base
 item.contenttweaker.mark_of_worthiness.name=Mark of Worthiness
@@ -4244,3 +4244,4 @@ tile.contenttweaker.unleashed_divine_ore.name=Unleashed Divine Ore
 
 item.contenttweaker.one_power_unleashed_emerald.name=One Power Unleashed Emerald
 item.contenttweaker.pure_fluix_geode.name=Pure Fluix Geode
+item.contenttweaker.supertranslucent_catalyzer.name=Supertranslucent Catalyzer

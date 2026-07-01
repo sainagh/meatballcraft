@@ -1,0 +1,16 @@
+tile.dankstorage:dank_1.name=Dank Chest 1
+tile.dankstorage:dank_2.name=Dank Chest 2
+tile.dankstorage:dank_3.name=Dank Chest 3
+tile.dankstorage:dank_4.name=Dank Chest 4
+tile.dankstorage:dank_5.name=Dank Chest 5
+tile.dankstorage:dank_6.name=Dank Chest 6
+tile.dankstorage:dank_7.name=Dank Chest 7
+
+container.dankstorage:dank_1=Dank Chest 1
+container.dankstorage:dank_2=Dank Chest 2
+container.dankstorage:dank_3=Dank Chest 3
+container.dankstorage:dank_4=Dank Chest 4
+container.dankstorage:dank_5=Dank Chest 5
+container.dankstorage:dank_6=Dank Chest 6
+container.dankstorage:dank_7=Dank Chest 7
+
