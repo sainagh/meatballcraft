@@ -1,7 +1,8 @@
+
 {
 	"generatorType": "ANYWHERE",
-	"minY": 10,
-	"maxY": 100,
+	"minY": 129,
+	"maxY": 140,
 	"offsetX": 0,
 	"offsetY": 0,
 	"offsetZ": 0,
@@ -21,9 +22,11 @@
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "",
+	"filling": "minecraft:netherrack",
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
-	
-	"rarity": 800
+
+	"minDistanceToSameTypeStructures": 200,
+
+	"rarity": 600
 }

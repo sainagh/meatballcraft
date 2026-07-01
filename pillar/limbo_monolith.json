@@ -25,6 +25,8 @@
 	"filling": "bloodmagic:demon_extras",
 	"fillingMetadata": 10,
 	"fillingType": "AIR",
+
+	"minDistanceToSameTypeStructures": 200,
 	
 	"rarity": 400
 }

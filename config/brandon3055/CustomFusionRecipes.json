@@ -1501,6 +1501,23 @@
             "draconicevolution:draconic_block",
             "ore:ingotBloodInfusedIron"
         ]
+    },
+    {
+        "mode": "ADD",
+        "result": "contenttweaker:time_lords_core_of_definition",
+        "catalyst": "contenttweaker:catalyst_of_universal_balance",
+        "energy": 1000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:quasar_charged_core_of_definition",
+            "contenttweaker:quasar_charged_core_of_definition",
+            "contenttweaker:threefold_stellar_ingot",
+            "contenttweaker:threefold_stellar_ingot",
+            "contenttweaker:self_confined_neutrino_plasma",
+            "contenttweaker:self_confined_neutrino_plasma",
+            "glassential:self_confined_neutrino_plasma",
+            "glassential:self_confined_neutrino_plasma"
+        ]
     }
 
 ]

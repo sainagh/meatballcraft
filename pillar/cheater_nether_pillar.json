@@ -24,6 +24,8 @@
 	"filling": "minecraft:netherrack",
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
+
+	"minDistanceToSameTypeStructures": 200,
 	
 	"rarity": 200
 }

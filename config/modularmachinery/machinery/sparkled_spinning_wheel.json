@@ -336,7 +336,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {
@@ -368,7 +368,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {
@@ -512,7 +512,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {
@@ -528,7 +528,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {

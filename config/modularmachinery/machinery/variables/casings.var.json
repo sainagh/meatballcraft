@@ -29,6 +29,10 @@
         "modularmachinery:blockaspectproviderinput",
         "modularmachineryaddons:blockmeessentiainputbus"
     ],
+    "single_item_input": [
+        "modularmachinery:blockinputbus@0",
+        "modularmachineryaddons:blocksingularityiteminputbus@0"
+    ],
     "any_dragonforge_brick": [
         "iceandfire:dragonforge_lightning_brick",
         "iceandfire:dragonforge_fire_brick",
@@ -47,7 +51,11 @@
         "twilightforest:molten_knightmetal",
         "tconstruct:molten_manyullyn",
         "tconstruct:molten_cobalt",
-        "tconstruct:molten_ardite"
+        "tconstruct:molten_ardite",
+        "contenttweaker:eternal_dragon_fire",
+        "contenttweaker:twilight_fire",
+        "contenttweaker:eleint_dragonfire",
+        "contenttweaker:nidhogg_dragonfire"
     ],
     "casings_energy": [
         "modularmachinery:blockenergyinputhatch",
@@ -61,7 +69,12 @@
         "modularmachinery:blockoutputbus",
         "modularmachinery:blockinputbus",
         "modularmachinery:blockmeitemoutputbus",
-        "modularmachinery:blockmeiteminputbus"
+        "modularmachinery:blockmeiteminputbus",
+        "modularmachineryaddons:blocksingularityitemoutputbus@0",
+        "modularmachineryaddons:blocksingularityitemoutputbus@1",
+        "modularmachineryaddons:blocksingularityiteminputbus@0",
+        "modularmachineryaddons:blocksingularityiteminputbus@1",
+        "modularmachineryaddons:blocksingularityiteminputbus@2"
     ],
     "generalized_input_item": [
         "modularmachinery:blockinputbus",
@@ -73,7 +86,9 @@
     ],
     "generalized_output_item": [
         "modularmachinery:blockoutputbus",
-        "modularmachinery:blockmeitemoutputbus"
+        "modularmachinery:blockmeitemoutputbus",
+        "modularmachineryaddons:blocksingularityitemoutputbus@0",
+        "modularmachineryaddons:blocksingularityitemoutputbus@1"
     ],
     "generalized_output_fluid": [
         "modularmachinery:blockfluidoutputhatch",
@@ -89,7 +104,11 @@
         "modularmachinery:blockoutputbus",
         "modularmachinery:blockmeitemoutputbus",
         "modularmachinery:blockinputbus",
-        "modularmachinery:blockmeiteminputbus"
+        "modularmachinery:blockmeiteminputbus",
+        "modularmachinery:blockmepatternprovider",
+        "modularmachinery:blockmepatternmirrorimage",
+        "modularmachineryaddons:blocksingularityitemoutputbus@0",
+        "modularmachineryaddons:blocksingularityiteminputbus@0"
     ],
     "infinity_furnace_hatches": [
         "modularmachinery:blockfluidinputhatch",
@@ -98,7 +117,12 @@
         "modularmachinery:blockmeitemoutputbus",
         "modularmachinery:blockinputbus",
         "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockcasing"
+        "modularmachinery:blockcasing",
+        "modularmachinery:blockmepatternprovider",
+        "modularmachinery:blockmepatternmirrorimage",
+        "modularmachineryaddons:blocksingularityitemoutputbus@0",
+        "modularmachineryaddons:blocksingularityitemoutputbus@1",
+        "modularmachineryaddons:blocksingularityiteminputbus"
     ],
     "generalized_rainbow_leaves": [
         "twilightforest:twilight_leaves@7",
@@ -106,8 +130,9 @@
         "twilightforest:twilight_leaves@9"
     ],
     "berserker_forge_input": [
-        "modularmachinery:blockfluidinputhatch@2",
-        "modularmachinery:blockinputbus@0"
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockinputbus@0",
+        "modularmachineryaddons:blocksingularityiteminputbus@0"
     ],
     "divine_combiner_io": [
         "aoa3:dark_bricks",
@@ -116,7 +141,19 @@
         "modularmachinery:blockmeitemoutputbus",
         "modularmachinery:blockinputbus",
         "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockoutputbus"
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockmepatternprovider",
+        "modularmachinery:blockmepatternmirrorimage",
+        "modularmachineryaddons:blocksingularityitemoutputbus@0",
+        "modularmachineryaddons:blocksingularityitemoutputbus@1",
+        "modularmachineryaddons:blocksingularityiteminputbus"
+    ],
+    "excavation_reactor_input": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockmeiteminputbus",
+        "modularmachinery:blockmepatternprovider",
+        "modularmachinery:blockmepatternmirrorimage",
+        "modularmachineryaddons:blocksingularityiteminputbus@0"
     ],
     "plasmatic_condenser_io": [
         "modularmachinery:blockoutputbus",
@@ -132,13 +169,21 @@
         "modularmachinery:blockfluidinputhatch",
         "modularmachinery:blockinputbus",
         "modularmachinery:blockmefluidinputbus",
-        "modularmachinery:blockmeiteminputbus"
+        "modularmachinery:blockmeiteminputbus",
+        "modularmachineryaddons:blocksingularityiteminputbus@0"
     ],
     "both_item_fluid_output": [
         "modularmachinery:blockfluidoutputhatch",
         "modularmachinery:blockoutputbus",
         "modularmachinery:blockmefluidoutputbus",
         "modularmachinery:blockmeitemoutputbus"
+    ],
+    "creation_altar_output": [
+        "modularmachinery:blockfluidoutputhatch",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockmefluidoutputbus",
+        "modularmachinery:blockmeitemoutputbus",
+        "modularmachinery:blocksingularityiteminputbus"
     ],
     "token_totem_output": [
         "modularmachinery:blockfluidoutputhatch",
@@ -154,6 +199,13 @@
         "modularmachinery:blockmefluidinputbus",
         "modularmachinery:blockaspectproviderinput",
         "modularmachineryaddons:blockmeessentiainputbus"
+    ],
+    "mythic_processor_item_input": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockmeiteminputbus",
+        "modularmachineryaddons:blocksingularityiteminputbus@0",
+        "modularmachineryaddons:blocksingularityiteminputbus@1",
+        "modularmachineryaddons:blocksingularityiteminputbus@2"
     ],
     "apiary_decoration_soil": [
         "minecraft:grass",

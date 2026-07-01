@@ -12,7 +12,7 @@
         {
             "type": "modularmachinery:item",
             "io-type": "input",
-            "item": "minecraft:pearlescent_fabrial",
+            "item": "contenttweaker:pearlescent_fabrial",
             "amount": 1
         },
         {
@@ -24,7 +24,7 @@
         {
             "type": "modularmachineryaddons:meteor",
             "io-type": "output",
-            "item": "minecraft:pearlescent_fabrial"
+            "item": "contenttweaker:pearlescent_fabrial"
         }
 
     ]
