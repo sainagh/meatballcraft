@@ -1,6 +1,13 @@
 import mods.modularmachinery.RecipeBuilder;
 
 
+recipes.addShaped(<contenttweaker:void_calling_fabrial>,
+[[<contenttweaker:ascended_draconic_alloy>, <contenttweaker:elleipsinyum>, <contenttweaker:ascended_draconic_alloy>],
+[<tconstruct:large_plate>.withTag({Material: "elecanium"}), <contenttweaker:lunar_star>, <tconstruct:large_plate>.withTag({Material: "elecanium"})],
+[<contenttweaker:ascended_draconic_alloy>, <contenttweaker:elleipsinyum>, <contenttweaker:ascended_draconic_alloy>]]);
+
+
+
 recipes.addShaped(<modularmachinery:blockmanaproviderinput>,
 [[<botania:manaresource:8>, <modularmachinery:blockcasing:1>, <botania:manaresource:8>],
 [<modularmachinery:blockcasing:1>, <botania:pool:3>, <modularmachinery:blockcasing:1>],
@@ -310,4 +317,38 @@ befaller12.addFluidInput(<fluid:meteoric_draconic_matter>*1000);
 befaller12.addItemInput(<contenttweaker:tribody_fabrial>);
 befaller12.addItemOutput(<contenttweaker:threefold_stellar_oscillator>*320);
 befaller12.build();
+
+val befaller13 = RecipeBuilder.newBuilder("befaller13","meteoric_befaller",100);
+befaller13.addBiomeInput("aoa3:deeplands");
+befaller13.addFluidInput(<fluid:meteoric_draconic_matter>*1000);
+befaller13.addItemInput(<extrabees:honey_comb:46>);
+befaller13.addItemOutput(<minecraft:lapis_ore>*1024);
+befaller13.build();
+
+val befaller14 = RecipeBuilder.newBuilder("befaller14","meteoric_befaller",100);
+befaller14.addBiomeInput("aoa3:deeplands");
+befaller14.addFluidInput(<fluid:meteoric_draconic_matter>*1000);
+befaller14.addItemInput(<contenttweaker:demonic_ember>);
+befaller14.addItemOutput(<railcraft:ore_magic:0>*32);
+befaller14.addItemOutput(<tconstruct:ore:0>*32);
+befaller14.addItemOutput(<tconstruct:ore:1>*32);
+befaller14.build();
+
+val befaller15 = RecipeBuilder.newBuilder("befaller15","meteoric_befaller",100);
+befaller15.addBiomeInput("aoa3:deeplands");
+befaller15.addFluidInput(<fluid:meteoric_draconic_matter>*1000);
+befaller15.addItemInput(<contenttweaker:void_calling_fabrial>);
+befaller15.addItemOutput(<environmentaltech:mica>*64);
+befaller15.addItemOutput(<contenttweaker:litherite_ore>*100);
+befaller15.addItemOutput(<contenttweaker:erodium_ore>*70);
+befaller15.addItemOutput(<contenttweaker:kyronite_ore>*60);
+befaller15.addItemOutput(<contenttweaker:pladium_ore>*50);
+befaller15.addItemOutput(<contenttweaker:ionite_ore>*40);
+befaller15.addItemOutput(<contenttweaker:aethium_ore>*30);
+befaller15.addItemOutput(<contenttweaker:lonsdaleite_ore>*30);
+befaller15.build();
+
+
+
+
 

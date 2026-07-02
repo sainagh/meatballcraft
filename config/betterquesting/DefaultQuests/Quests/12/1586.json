@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§8§7§o该任务标签页中列出了每章节中可用的所有盔甲。\n\n魔咒比盔甲本身更重要，实际上用任何套装都能搭配出强力构筑！\n\n若能全部收集，还能获得额外奖励！",
+      "desc:8": "§8§7§o该任务标签页中列出了每章节中可用的所有盔甲。\n\n它是按层级构建的，分为“优异”、“良好”、“一般”。每个类别内无特定顺序。\n\n作为附注，魔咒比盔甲本身更重要，实际上用任何套装都能搭配出强力构筑！\n\n最重要的是，耐久度最终会成为一种重要资源！有许多不可破坏的盔甲套装！\n\n不必完成本节中的所有任务，它们只是为了方便追踪进度  :)",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:bedrock_chestplate"
@@ -13,6 +13,26 @@
     }
   },
   "questID:3": 1586,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:cobblestone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_ore"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond_ore"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

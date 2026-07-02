@@ -38,7 +38,7 @@
           "id:8": "ae2powertools:crafter_speed_upgrade"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

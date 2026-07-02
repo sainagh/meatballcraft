@@ -27,7 +27,7 @@
           "id:8": "contenttweaker:gathering_forsaken_souls"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

@@ -38,7 +38,7 @@
           "id:8": "contenttweaker:ritual_mass_enchanting"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

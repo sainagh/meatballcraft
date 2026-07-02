@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o你需要进行探索才能解锁该物品！高炉砖和焦煤在多种建筑中都有存在！\n\n锹镐斧是不仅是多功能工具，而且还有无限耐久，会很有用的！\n\n§r在这里度过了些时日之后，我着实学到了不少，我可以用这些知识来提高我的制作能力。",
+      "desc:8": "§7§o这是你获得的第一个游戏阶段物品，右击使用来解锁新的配方，也有可能会让世界难度变得更高一点……\n\n§7§o锹镐斧是不仅是多功能工具，而且还有无限耐久，会很有用的！\n\n§r在这里度过了些时日之后，我着实学到了不少，我可以用这些知识来提高我的制作能力。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:alien_material_manual"
@@ -58,7 +58,7 @@
           "id:8": "divinerpg:rupee_shickaxe"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

@@ -1,10 +1,10 @@
 {
   "preRequisites:11": [
-    1512
+    20424
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o如之前所列，以下任务中列出的刷怪蛋都是可合成的。\n\n在某些情况下，繁殖鸡可能更方便；查看“组合鸡舍”任务以获取更多信息。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,
@@ -14,13 +14,25 @@
     }
   },
   "questID:3": 1534,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:egg"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "chickens:colored_egg"
+          "id:8": "minecraft:egg"
         }
       },
       "taskID:8": "bq_standard:retrieval"

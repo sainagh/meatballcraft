@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o前期用以抵御辐射的绝佳食物，附带的增益状态也很不错",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:golden_apple"
@@ -14,6 +14,18 @@
     }
   },
   "questID:3": 2341,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:golden_apple"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

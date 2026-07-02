@@ -686,3 +686,123 @@ mythindgrind90.addFluidInput(<fluid:harmonic_fluid_lattice>*1);
 mythindgrind90.addItemInput(<contenttweaker:unleashed_divine_ore>*1);
 mythindgrind90.addItemOutput(<divinerpg:divine_stone>*4096);
 mythindgrind90.build();
+
+val mythindgrind91 = RecipeBuilder.newBuilder("mythindgrind91","mythic_processor_grinder",2);
+mythindgrind91.addEnergyPerTickInput(2000000);
+mythindgrind91.addFluidInput(<fluid:recursive_computing_matter>*40);
+mythindgrind91.addItemInput(<contenttweaker:ore_of_the_projected_constellation>*512);
+mythindgrind91.addItemOutput(<contenttweaker:projector_gem>*65536);
+mythindgrind91.build();
+
+val mythindgrind92 = RecipeBuilder.newBuilder("mythindgrind92","mythic_processor_grinder",2);
+mythindgrind92.addEnergyPerTickInput(2000000);
+mythindgrind92.addFluidInput(<fluid:matter_of_creative_inquiry>*10);
+mythindgrind92.addItemInput(<contenttweaker:ore_of_the_projected_constellation>*512);
+mythindgrind92.addItemOutput(<contenttweaker:projector_gem>*262144);
+mythindgrind92.build();
+
+
+
+val mythindgrind93 = RecipeBuilder.newBuilder("mythindgrind93","mythic_processor_grinder",2);
+mythindgrind93.addEnergyPerTickInput(200000);
+mythindgrind93.addFluidInput(<fluid:supercritical_steam>*5);
+mythindgrind93.addItemInput(<contenttweaker:crystallized_tungstensteel>*4);
+mythindgrind93.addItemOutput(<techreborn:dust:55>*8);
+mythindgrind93.addItemOutput(<contenttweaker:tungsten_molybdenum_dust>*8);
+mythindgrind93.addItemOutput(<thermalfoundation:material:96>*8);
+mythindgrind93.build();
+
+
+val mythindgrind94 = RecipeBuilder.newBuilder("mythindgrind94","mythic_processor_grinder",2);
+mythindgrind94.addEnergyPerTickInput(200000);
+mythindgrind94.addFluidInput(<fluid:neutron>*5);
+mythindgrind94.addItemInput(<contenttweaker:litherite_ore>*8);
+mythindgrind94.addItemOutput(<environmentaltech:litherite_crystal>*16);
+mythindgrind94.build();
+
+val mythindgrind95 = RecipeBuilder.newBuilder("mythindgrind95","mythic_processor_grinder",2);
+mythindgrind95.addEnergyPerTickInput(200000);
+mythindgrind95.addFluidInput(<fluid:neutron>*5);
+mythindgrind95.addItemInput(<contenttweaker:erodium_ore>*8);
+mythindgrind95.addItemOutput(<environmentaltech:erodium_crystal>*16);
+mythindgrind95.build();
+
+val mythindgrind96 = RecipeBuilder.newBuilder("mythindgrind96","mythic_processor_grinder",2);
+mythindgrind96.addEnergyPerTickInput(200000);
+mythindgrind96.addFluidInput(<fluid:neutron>*5);
+mythindgrind96.addItemInput(<contenttweaker:kyronite_ore>*8);
+mythindgrind96.addItemOutput(<environmentaltech:kyronite_crystal>*16);
+mythindgrind96.build();
+
+val mythindgrind97 = RecipeBuilder.newBuilder("mythindgrind97","mythic_processor_grinder",2);
+mythindgrind97.addEnergyPerTickInput(200000);
+mythindgrind97.addFluidInput(<fluid:neutron>*5);
+mythindgrind97.addItemInput(<contenttweaker:pladium_ore>*8);
+mythindgrind97.addItemOutput(<environmentaltech:pladium_crystal>*16);
+mythindgrind97.build();
+
+val mythindgrind98 = RecipeBuilder.newBuilder("mythindgrind98","mythic_processor_grinder",2);
+mythindgrind98.addEnergyPerTickInput(200000);
+mythindgrind98.addFluidInput(<fluid:neutron>*5);
+mythindgrind98.addItemInput(<contenttweaker:ionite_ore>*8);
+mythindgrind98.addItemOutput(<environmentaltech:ionite_crystal>*16);
+mythindgrind98.build();
+
+val mythindgrind99 = RecipeBuilder.newBuilder("mythindgrind99","mythic_processor_grinder",2);
+mythindgrind99.addEnergyPerTickInput(200000);
+mythindgrind99.addFluidInput(<fluid:neutron>*5);
+mythindgrind99.addItemInput(<contenttweaker:aethium_ore>*8);
+mythindgrind99.addItemOutput(<environmentaltech:aethium_crystal>*16);
+mythindgrind99.build();
+
+val mythindgrind100 = RecipeBuilder.newBuilder("mythindgrind100","mythic_processor_grinder",2);
+mythindgrind100.addEnergyPerTickInput(200000);
+mythindgrind100.addFluidInput(<fluid:neutron>*5);
+mythindgrind100.addItemInput(<contenttweaker:lonsdaleite_ore>*8);
+mythindgrind100.addItemOutput(<environmentaltech:lonsdaleite_crystal>*16);
+mythindgrind100.build();
+
+
+val mythindgrind101 = RecipeBuilder.newBuilder("mythindgrind101","mythic_processor_grinder",2);
+mythindgrind101.addEnergyPerTickInput(2000000);
+mythindgrind101.addFluidInput(<fluid:harmonic_temporal_lattice>*1);
+mythindgrind101.addItemInput(<contenttweaker:unleashed_divine_ore>*1);
+mythindgrind101.addItemOutput(<divinerpg:divine_stone>*8192);
+mythindgrind101.build();
+
+val mythindgrind102 = RecipeBuilder.newBuilder("mythindgrind102","mythic_processor_grinder",2);
+mythindgrind102.addEnergyPerTickInput(2000000);
+mythindgrind102.addFluidInput(<fluid:harmonic_temporal_lattice>*1);
+mythindgrind102.addItemInput(<contenttweaker:bluefire_divine_ore>*1);
+mythindgrind102.addItemOutput(<divinerpg:bluefire_stone>*8192);
+mythindgrind102.build();
+
+val mythindgrind103 = RecipeBuilder.newBuilder("mythindgrind103","mythic_processor_grinder",2);
+mythindgrind103.addEnergyPerTickInput(2000000);
+mythindgrind103.addFluidInput(<fluid:harmonic_draconian_lattice>*1);
+mythindgrind103.addItemInput(<contenttweaker:unleashed_divine_ore>*1);
+mythindgrind103.addItemOutput(<divinerpg:divine_stone>*16384);
+mythindgrind103.build();
+
+val mythindgrind104 = RecipeBuilder.newBuilder("mythindgrind104","mythic_processor_grinder",2);
+mythindgrind104.addEnergyPerTickInput(2000000);
+mythindgrind104.addFluidInput(<fluid:harmonic_draconian_lattice>*1);
+mythindgrind104.addItemInput(<contenttweaker:bluefire_divine_ore>*1);
+mythindgrind104.addItemOutput(<divinerpg:bluefire_stone>*16384);
+mythindgrind104.build();
+
+val mythindgrind105 = RecipeBuilder.newBuilder("mythindgrind105","mythic_processor_grinder",2);
+mythindgrind105.addEnergyPerTickInput(2000000);
+mythindgrind105.addFluidInput(<fluid:harmonic_divine_lattice>*1);
+mythindgrind105.addItemInput(<contenttweaker:unleashed_divine_ore>*1);
+mythindgrind105.addItemOutput(<divinerpg:divine_stone>*32768);
+mythindgrind105.build();
+
+val mythindgrind106 = RecipeBuilder.newBuilder("mythindgrind106","mythic_processor_grinder",2);
+mythindgrind106.addEnergyPerTickInput(2000000);
+mythindgrind106.addFluidInput(<fluid:harmonic_divine_lattice>*1);
+mythindgrind106.addItemInput(<contenttweaker:bluefire_divine_ore>*1);
+mythindgrind106.addItemOutput(<divinerpg:bluefire_stone>*32768);
+mythindgrind106.build();
+
+

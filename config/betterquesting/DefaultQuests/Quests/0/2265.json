@@ -58,7 +58,7 @@
           "id:8": "contenttweaker:full_essentia_automation"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

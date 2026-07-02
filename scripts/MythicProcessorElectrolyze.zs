@@ -308,3 +308,28 @@ mythelectro37.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName:
 mythelectro37.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*6);
 mythelectro37.build();
 
+val mythelectro38 = RecipeBuilder.newBuilder("mythelectro38","mythic_processor_electrolyzer",2);
+mythelectro38.addEnergyPerTickInput(40000);
+mythelectro38.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "rutherfordium_chloride", Amount: 1000}})*5);
+mythelectro38.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "chlorine", Amount: 1000}})*1);
+mythelectro38.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "rutherfordium", Amount: 1000}})*4);
+mythelectro38.build();
+
+val mythelectro39 = RecipeBuilder.newBuilder("mythelectro39","mythic_processor_electrolyzer",2);
+mythelectro39.addEnergyPerTickInput(40000);
+mythelectro39.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "depleted_fuel_leu_235", Amount: 1000}})*9);
+mythelectro39.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "molten_scandium", Amount: 1000}})*3);
+mythelectro39.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "uranium_235", Amount: 1000}})*2);
+mythelectro39.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "uranium_238", Amount: 1000}})*4);
+mythelectro39.build();
+
+val mythelectro40 = RecipeBuilder.newBuilder("mythelectro40","mythic_processor_electrolyzer",2);
+mythelectro40.addEnergyPerTickInput(40000);
+mythelectro40.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "radioactive_ethereal_goo", Amount: 1000}})*1);
+mythelectro40.addItemInput(<techreborn:dynamiccell>*21);
+mythelectro40.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "neptunium_237", Amount: 1000}})*7);
+mythelectro40.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "neptunium_236", Amount: 1000}})*7);
+mythelectro40.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "thorium", Amount: 1000}})*4);
+mythelectro40.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "astatine", Amount: 1000}})*4);
+mythelectro40.build();
+

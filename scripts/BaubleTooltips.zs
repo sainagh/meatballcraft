@@ -1,8 +1,3 @@
-<ae2fc:wireless_fluid_pattern_terminal>.addTooltip(format.red("远程访问流体样板终端"));
-<appliedenergistics2:wireless_terminal>.addTooltip(format.red("远程访问AE终端"));
-<appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("远程访问合成终端"));
-<appliedenergistics2:wireless_pattern_terminal>.addTooltip(format.red("远程访问样板终端"));
-<appliedenergistics2:wireless_fluid_terminal>.addTooltip(format.red("远程访问流体终端"));
 <actuallyadditions:potion_ring_advanced_bauble:0>.addTooltip(format.red("给予使用者速度药水效果"));
 <actuallyadditions:potion_ring_advanced_bauble:1>.addTooltip(format.red("给予使用者急迫药水效果"));
 <actuallyadditions:potion_ring_advanced_bauble:2>.addTooltip(format.red("给予使用者力量药水效果"));
@@ -20,7 +15,6 @@
 <actuallyadditions:battery_quintuple_bauble>.addTooltip(format.red("为物品栏中的物品充电"));
 <astralsorcery:itemenchantmentamulet>.addTooltip(format.red("根据棱镜配置，为玩家的装备提供魔咒等级加成"));
 <baubles:ring>.addTooltip(format.red("给予急迫 I效果"));
-<bhc:heart_amulet>.addTooltip(format.red("根据心之容器数量增加生命上限"));
 <bewitchment:girdle_of_the_dryads>.addTooltip(format.red("站在草方块上时减少受到的伤害"));
 <bewitchment:hellish_bauble>.addTooltip(format.red("减少火焰伤害和爆炸伤害，减少与恶魔交易的消耗"));
 <bewitchment:fortunes_favor>.addTooltip(format.red("给予急迫 I效果以及额外一级的时运效果"));
@@ -36,10 +30,6 @@
 <bloodarsenal:vampire_ring>.addTooltip(format.red("获得生命吸取效果，造成伤害治疗自己。附近任何生物遭受任何伤害时均可生效"));
 <bloodarsenal:soul_pendant>.addTooltip(format.red("击杀敌人时存储恶魔意志"));
 <botania:tinyplanet>.addTooltip(format.red("使魔力脉冲在穿戴者身边环绕"));
-<botania:manaring>.addTooltip(format.red("存储植物魔法的魔力"));
-<botania:auraring>.addTooltip(format.red("制造魔力并存入身上可携带魔力的物品里"));
-<botania:manaringgreater>.addTooltip(format.red("魔力存储量是魔力之戒的4倍"));
-<botania:auraringgreater>.addTooltip(format.red("产魔速度比光环之戒更快"));
 <botania:travelbelt>.addTooltip(format.red("给予隐藏的速度 I效果，可以自动上坡一格高的方块"));
 <botania:knockbackbelt>.addTooltip(format.red("免疫击退"));
 <botania:icependant>.addTooltip(format.red("与冰霜行者魔咒类似，将脚下的水变成霜冰"));
@@ -63,7 +53,6 @@
 <botania:swapring>.addTooltip(format.red("挖掘方块时自动切换合适的工具。仅适用于能够使用魔力的工具"));
 <botania:thorring>.addTooltip(format.red("增幅激活时泰拉粉碎者的开采范围"));
 <botania:odinring>.addTooltip(format.red("获得额外20点生命值，免疫窒息、溺水、火焰、熔岩、饥饿和摔落伤害"));
-<botania:lokiring>.addTooltip(format.red("使玩家可在多个位置同时放置方块，可以空手Shift右击切换形状"));
 <botania:magnetringgreater>.addTooltip(format.red("范围更大的磁吸效果"));
 <botania:speedupbelt>.addTooltip(format.red("玩家不停移动得越多，增加的速度越高"));
 <botania:baublebox>.addTooltip(format.red("可存储饰品"));
@@ -176,11 +165,9 @@
 <enderio:item_magnet>.addTooltip(format.red("磁铁"));
 <extrautils2:chickenring:1>.addTooltip(format.red("可短暂飞行"));
 <extrautils2:chickenring:0>.addTooltip(format.red("从大于2格高处掉落时获得缓慢降落效果"));
-<extrautils2:angelring>.addTooltip(format.red("允许创造飞行"));
 <extrabotany:froststar>.addTooltip(format.red("冻结脚下大范围的水和熔岩，对所视生物造成缓慢 II效果"));
 <extrabotany:deathring>.addTooltip(format.red("所视的生物获得凋零和不幸效果"));
 <extrabotany:natureorb>.addTooltip(format.red("存储自然之息，用以提供正面效果，魔力的加护可为魔力物品充能，生命的加护提供两倍速度的生命再生效果，森罗的加护免疫负面效果"));
-<extrabotany:mastermanaring>.addTooltip(format.red("可存储整型上限数量的魔力"));
 <extrabotany:puredaisypendant>.addTooltip(format.red("手持物品右击立刻造成一次白雏菊效果，每使用64次需冷却2.5分钟"));
 <extrabotany:supercrown>.addTooltip(format.red("穿戴昴星团战斗女仆和星空歌姬套装时，受到的伤害减少2点"));
 <extrabotany:redscarf>.addTooltip(format.red("装饰性饰品"));
@@ -256,11 +243,6 @@
 <thaumicwonders:night_vision_goggles>.addTooltip(format.red("拥有揭示之护目镜的所有效果，并且有夜视效果"));
 <thaumicwonders:cleansing_charm>.addTooltip(format.red("将扭曲转变为咒波，消耗魔力"));
 <theoneprobe:probe_goggles>.addTooltip(format.red("根据配置启用检测器"));
-<twilightforest:charm_of_life_1>.addTooltip(format.red("阻止死亡，恢复4颗心，获得5秒的生命恢复 I效果"));
-<twilightforest:charm_of_life_2>.addTooltip(format.red("阻止死亡，恢复10颗心，获得30秒的抗性提升、生命恢复 IV和防火效果"));
-<twilightforest:charm_of_keeping_1>.addTooltip(format.red("死亡时保留身上的盔甲和手持物品"));
-<twilightforest:charm_of_keeping_2>.addTooltip(format.red("死亡时保留身上的盔甲和快捷栏物品"));
-<twilightforest:charm_of_keeping_3>.addTooltip(format.red("死亡时保留所有物品"));
 <thermalexpansion:capacitor:0>.addTooltip(format.red("电池"));
 <thermalexpansion:capacitor:1>.addTooltip(format.red("电池"));
 <thermalexpansion:capacitor:2>.addTooltip(format.red("电池"));

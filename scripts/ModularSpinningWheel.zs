@@ -199,7 +199,7 @@ spinnyboi15.addItemOutput(<bewitchment:sanguine_cloth>*64);
 spinnyboi15.addItemOutput(<bewitchment:sanguine_cloth>*64);
 spinnyboi15.build();
 
-val spinnyboi16 = RecipeBuilder.newBuilder("spinnyboi16","sparkled_spinning_wheel",100);
+val spinnyboi16 = RecipeBuilder.newBuilder("spinnyboi16","sparkled_spinning_wheel",60);
 spinnyboi16.addFluidInput(<fluid:mana>*1000);
 spinnyboi16.addFluidInput(<fluid:dragons_blood_plastic>*100);
 spinnyboi16.addItemInput(<contenttweaker:fearmongerer_fabric>*64);
@@ -215,3 +215,89 @@ spinnyboi16.addItemOutput(<bewitchment:sanguine_cloth>*64);
 spinnyboi16.addItemOutput(<bewitchment:sanguine_cloth>*64);
 spinnyboi16.addItemOutput(<bewitchment:sanguine_cloth>*64);
 spinnyboi16.build();
+
+val spinnyboi17 = RecipeBuilder.newBuilder("spinnyboi17","sparkled_spinning_wheel",30);
+spinnyboi17.addFluidInput(<fluid:mana>*1000);
+spinnyboi17.addFluidInput(<fluid:dragons_blood_plastic>*100);
+spinnyboi17.addItemInput(<contenttweaker:screaming_fabric>*64);
+spinnyboi17.addItemInput(<contenttweaker:screaming_fabric>*64);
+spinnyboi17.addItemInput(<bewitchment:bottle_of_blood>*64);
+spinnyboi17.addItemInput(<bewitchment:diabolical_vein>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.addItemOutput(<bewitchment:sanguine_cloth>*64);
+spinnyboi17.build();
+
+
+val spinnyboi18 = RecipeBuilder.newBuilder("spinnyboi18","sparkled_spinning_wheel",30);
+spinnyboi18.addFluidInput(<fluid:mana>*1000);
+spinnyboi18.addFluidInput(<fluid:dragons_blood_plastic>*100);
+spinnyboi18.addItemInput(<minecraft:wool>*64);
+spinnyboi18.addItemInput(<contenttweaker:elder_spooder_string>*1);
+spinnyboi18.addItemInput(<contenttweaker:liquid_witchcraft_bottle>*64);
+spinnyboi18.addItemInput(<contenttweaker:liquid_witchcraft_bottle>*64);
+spinnyboi18.addItemOutput(<bewitchment:witches_stitching>*64);
+spinnyboi18.addItemOutput(<bewitchment:witches_stitching>*64);
+spinnyboi18.build();
+
+
+val spinnyboi19 = RecipeBuilder.newBuilder("spinnyboi19","sparkled_spinning_wheel",30);
+spinnyboi19.addFluidInput(<fluid:mana>*1000);
+spinnyboi19.addFluidInput(<fluid:dragons_blood_plastic>*100);
+spinnyboi19.addItemInput(<contenttweaker:holy_shimmer>*1);
+spinnyboi19.addItemInput(<minecraft:hay_block>*64);
+spinnyboi19.addItemInput(<minecraft:hay_block>*64);
+spinnyboi19.addItemInput(<contenttweaker:liquid_witchcraft_bottle>*64);
+spinnyboi19.addItemOutput(<bewitchment:golden_thread>*64);
+spinnyboi19.addItemOutput(<bewitchment:golden_thread>*64);
+spinnyboi19.build();
+
+val spinnyboi20 = RecipeBuilder.newBuilder("spinnyboi20","sparkled_spinning_wheel",30);
+spinnyboi20.addFluidInput(<fluid:mana>*1000);
+spinnyboi20.addFluidInput(<fluid:dragons_blood_plastic>*100);
+spinnyboi20.addItemInput(<tconstruct:ingots:4>.withTag({display: {Name: "ᛟᛁᚤᛕ",Lore:["§d§oTrue Name§r"]}}));
+spinnyboi20.addItemInput(<contenttweaker:fiery_unguent_bottle>*64);
+spinnyboi20.addItemInput(<bewitchment:witches_stitching>*64);
+spinnyboi20.addItemInput(<bewitchment:golden_thread>*64);
+spinnyboi20.addItemOutput(<bewitchment:diabolical_vein>*64);
+spinnyboi20.addItemOutput(<bewitchment:diabolical_vein>*64);
+spinnyboi20.build();
+
+
+
+val spinnyboi21 = RecipeBuilder.newBuilder("spinnyboi21","sparkled_spinning_wheel",30);
+spinnyboi21.addFluidInput(<fluid:mana>*1000);
+spinnyboi21.addFluidInput(<fluid:dragons_blood_plastic>*100);
+spinnyboi21.addItemInput(<bewitchment:witches_stitching>*64);
+spinnyboi21.addItemInput(<bewitchment:golden_thread>*64);
+spinnyboi21.addItemInput(<bewitchment:ectoplasm>*64);
+spinnyboi21.addItemInput(<contenttweaker:sacred_cinders_moss>*64);
+spinnyboi21.addItemOutput(<bewitchment:spirit_string>*64);
+spinnyboi21.addItemOutput(<bewitchment:spirit_string>*64);
+spinnyboi21.build();
+
+
+
+val spinnyboi22 = RecipeBuilder.newBuilder("spinnyboi22","sparkled_spinning_wheel",30);
+spinnyboi22.addFluidInput(<fluid:mana>*1000);
+spinnyboi22.addFluidInput(<fluid:dragons_blood_plastic>*100);
+spinnyboi22.addItemInput(<contenttweaker:pure_incense>*2);
+spinnyboi22.addItemInput(<contenttweaker:acacia_resin_bottle>*64);
+spinnyboi22.addItemInput(<bewitchment:witches_stitching>*64);
+spinnyboi22.addItemInput(<bewitchment:golden_thread>*64);
+spinnyboi22.addItemOutput(<bewitchment:pure_filament>*64);
+spinnyboi22.addItemOutput(<bewitchment:pure_filament>*64);
+spinnyboi22.build();

@@ -371,7 +371,11 @@ mods.nuclearcraft.extractor.addRecipe([<contenttweaker:droplet_of_wisdom_bottle>
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:essence_of_vitality_bottle>, <minecraft:glass_bottle>, <fluid:essence_of_vitality>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:oak_spirit_bottle>, <minecraft:glass_bottle>, <fluid:oak_spirit>*1000]);
 mods.nuclearcraft.extractor.addRecipe([<contenttweaker:oil_of_vitriol_bottle>, <minecraft:glass_bottle>, <fluid:oil_of_vitriol>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:spruce_heart_bottle>, <minecraft:glass_bottle>, <fluid:spruce_heart>*1000]);
+mods.nuclearcraft.extractor.addRecipe([<contenttweaker:birch_soul_bottle>, <minecraft:glass_bottle>, <fluid:birch_soul>*1000]);
 
+mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:spruce_heart>*1000, <contenttweaker:spruce_heart_bottle>, 100, <minecraft:glass_bottle>);
+mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:birch_soul>*1000, <contenttweaker:birch_soul_bottle>, 100, <minecraft:glass_bottle>);
 
 
 
@@ -647,6 +651,7 @@ pulsestillimmersive.addFluidOutput(<fluid:gasoline>*3900);
 pulsestillimmersive.addFluidOutput(<fluid:diesel>*2700);
 pulsestillimmersive.addFluidOutput(<fluid:lubricant>*3000);
 pulsestillimmersive.build();
+
 
 
 

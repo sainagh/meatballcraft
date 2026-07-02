@@ -1126,3 +1126,20 @@ mythallo153.addItemInput(<ore:blockGlass>*4);
 mythallo153.addItemInput(<ore:dustCertusQuartz>*5);
 mythallo153.addItemOutput(<appliedenergistics2:quartz_glass>*4);
 mythallo153.build();
+
+val mythallo154 = RecipeBuilder.newBuilder("mythallo154","mythic_processor_alloy_furnace",2);
+mythallo154.addEnergyPerTickInput(80000);
+mythallo154.addItemInput(<ore:dustLapis>*4);
+mythallo154.addItemInput(<minecraft:wool>*4);
+mythallo154.addItemInput(<ore:dustTin>*4);
+mythallo154.addItemOutput(<enderio:block_industrial_insulation>*4);
+mythallo154.build();
+
+val mythallo155 = RecipeBuilder.newBuilder("mythallo155","mythic_processor_alloy_furnace",2);
+mythallo155.addEnergyPerTickInput(80000);
+mythallo155.addItemInput(<thaumcraft:ingot:1>*16);
+mythallo155.addItemInput(<contenttweaker:crimson_ichor>);
+mythallo155.addItemOutput(<contenttweaker:crimson_metal_ingot>*16);
+mythallo155.build();
+
+

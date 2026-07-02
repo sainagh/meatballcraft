@@ -4273,6 +4273,9 @@ recursivepaperillager.itemRightClick = function(stack, world, player, hand) {
 recursivepaperillager.register();
 
 
+
+
+
 var recursivepaperdunerider= VanillaFactory.createItem("recursive_paper_dunerider");
 recursivepaperdunerider.maxStackSize = 16;
 recursivepaperdunerider.itemRightClick = function(stack, world, player, hand) {
@@ -4416,6 +4419,12 @@ recursivepaperflyer.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon aoa3:rammerhead ~ ~3 ~", player, world, false, true);
     Commands.call("summon aoa3:rammerhead ~ ~3 ~", player, world, false, true);
     Commands.call("summon aoa3:rammerhead ~ ~3 ~", player, world, false, true);
+    Commands.call("summon iceandfire:stymphalianbird ~ ~3 ~", player, world, false, true);
+    Commands.call("summon iceandfire:stymphalianbird ~ ~3 ~", player, world, false, true);
+    Commands.call("summon iceandfire:stymphalianbird ~ ~3 ~", player, world, false, true);
+    Commands.call("summon iceandfire:stymphalianbird ~ ~3 ~", player, world, false, true);
+    Commands.call("summon iceandfire:stymphalianbird ~ ~3 ~", player, world, false, true);
+    Commands.call("summon iceandfire:stymphalianbird ~ ~3 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -5512,6 +5521,20 @@ beekeperarchive.itemRightClick = function(stack, world, player, hand) {
 };
 beekeperarchive.register();
 
+var cleanroomcertificate = VanillaFactory.createItem("cleanroom_certificate");
+cleanroomcertificate.maxStackSize = 1;
+cleanroomcertificate.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("/tellraw @a {\"text\":\"点击此处查看整合包优化Wiki\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/sainagh/meatballcraft/wiki/%5B0.18.4%5D-Improving-Performance\"}}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+cleanroomcertificate.register();
+
 
 
 var summonsofthecursedwyvern = VanillaFactory.createItem("summons_of_the_cursed_wyvern");
@@ -6034,3 +6057,20 @@ silencingnothingness.itemRightClick = function(stack, world, player, hand) {
 
 };
 silencingnothingness.register();
+
+
+
+
+var emeraldcompass = VanillaFactory.createItem("emerald_compass");
+emeraldcompass.maxStackSize = 1;
+emeraldcompass.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("/locate Village", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+emeraldcompass.register();

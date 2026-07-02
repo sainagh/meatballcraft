@@ -395,3 +395,4 @@ plasmaabomination.addItemInput(<contenttweaker:imperfect_gem_of_the_cosmos>*4);
 plasmaabomination.addItemInput(<contenttweaker:eternal_tulite>*16);
 plasmaabomination.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:fesh_abomination_chicken"}}));
 plasmaabomination.build();
+

@@ -986,3 +986,4 @@ recipes.addShaped(<tconstruct:ingots:6>*4,
 [<mysticalagriculture:alumite_essence>, <mysticalagriculture:alumite_essence>, <mysticalagriculture:alumite_essence>]]);
 
 
+

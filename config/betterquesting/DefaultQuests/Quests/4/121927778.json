@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o用于输入和输出接口，为其添加自动向相邻容器推送/拉取物品和流体的功能。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cells:pull_card"
+      },
+      "name:8": "拉取&推送卡"
+    }
+  },
+  "questID:3": 121927778,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cells:pull_card"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "cells:push_card"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

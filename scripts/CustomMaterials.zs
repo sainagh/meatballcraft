@@ -5,7 +5,8 @@ import mods.contenttweaker.MaterialSystem;
 
 var color1 = Color.fromHex("5bb9d9") as Color;
 var demonSteel1 = MaterialSystem.getMaterialBuilder().setName("Demonic Steel").setColor(color1).build();
-demonSteel1.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var demonsteel1colorizer = demonSteel1.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+demonsteel1colorizer[1].setColorized(false);
 var molten1 = demonSteel1.registerPart("molten").getData();
 molten1.addDataValue("temperature", "400");
 molten1.addDataValue("luminosity", "10");
@@ -16,7 +17,8 @@ block1.addDataValue("harvestTool", "pickaxe");
 
 var color2 = Color.fromHex("43ba63") as Color;
 var demonSteel2 = MaterialSystem.getMaterialBuilder().setName("Corrosive Steel").setColor(color2).build();
-demonSteel2.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var demonsteel2colorizer = demonSteel2.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+demonsteel2colorizer[1].setColorized(false);
 var molten2 = demonSteel2.registerPart("molten").getData();
 molten2.addDataValue("temperature", "400");
 molten2.addDataValue("luminosity", "10");
@@ -27,7 +29,8 @@ block2.addDataValue("harvestTool", "pickaxe");
 
 var color3 = Color.fromHex("debf59") as Color;
 var demonSteel3 = MaterialSystem.getMaterialBuilder().setName("Destructive Steel").setColor(color3).build();
-demonSteel3.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var demonsteel3colorizer = demonSteel3.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+demonsteel3colorizer[1].setColorized(false);
 var molten3 = demonSteel3.registerPart("molten").getData();
 molten3.addDataValue("temperature", "400");
 molten3.addDataValue("luminosity", "10");
@@ -38,7 +41,8 @@ block3.addDataValue("harvestTool", "pickaxe");
 
 var color4 = Color.fromHex("e05c53") as Color;
 var demonSteel4 = MaterialSystem.getMaterialBuilder().setName("Vengeful Steel").setColor(color4).build();
-demonSteel4.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var demonsteel4colorizer = demonSteel4.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+demonsteel4colorizer[1].setColorized(false);
 var molten4 = demonSteel4.registerPart("molten").getData();
 molten4.addDataValue("temperature", "400");
 molten4.addDataValue("luminosity", "10");
@@ -49,7 +53,8 @@ block4.addDataValue("harvestTool", "pickaxe");
 
 var color5 = Color.fromHex("9364a3") as Color;
 var demonSteel5 = MaterialSystem.getMaterialBuilder().setName("Steadfast Steel").setColor(color5).build();
-demonSteel5.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var demonsteel5colorizer = demonSteel5.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+demonsteel5colorizer[1].setColorized(false);
 var molten5 = demonSteel5.registerPart("molten").getData();
 molten5.addDataValue("temperature", "400");
 molten5.addDataValue("luminosity", "10");
@@ -60,7 +65,8 @@ block5.addDataValue("harvestTool", "pickaxe");
 
 var colorbloodf = Color.fromHex("330909") as Color;
 var mastersteel = MaterialSystem.getMaterialBuilder().setName("Bloodmaster Metal").setColor(colorbloodf).build();
-mastersteel.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var mastersteelcolorizer = mastersteel.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+mastersteelcolorizer[1].setColorized(false);
 var moltenmast = mastersteel.registerPart("molten").getData();
 moltenmast.addDataValue("temperature", "400");
 moltenmast.addDataValue("luminosity", "10");
@@ -76,7 +82,9 @@ armormast.addDataValue("toughness", "6");
 
 var colordread = Color.fromHex("25004a") as Color;
 var dreadite = MaterialSystem.getMaterialBuilder().setName("Dreadite").setColor(colordread).build();
-dreadite.registerParts(["gear", "plate", "nugget", "ingot", "dust", "rod"] as string[]);
+var dreaditecolorizer = dreadite.registerParts(["gear", "plate", "nugget", "ingot", "dust", "rod"] as string[]);
+dreaditecolorizer[1].setColorized(false);
+dreaditecolorizer[3].setColorized(false);
 var moltendread = dreadite.registerPart("molten").getData();
 moltendread.addDataValue("temperature", "400");
 moltendread.addDataValue("luminosity", "10");
@@ -87,7 +95,9 @@ blockdread.addDataValue("harvestTool", "pickaxe");
 
 var colordreadal = Color.fromHex("cf80cb") as Color;
 var dreaditeall = MaterialSystem.getMaterialBuilder().setName("Dreaded Steel").setColor(colordreadal).build();
-dreaditeall.registerParts(["gear", "plate", "nugget", "ingot", "rod", "dust"] as string[]);
+var dreaditeallcolorizer = dreaditeall.registerParts(["gear", "plate", "nugget", "ingot", "rod", "dust"] as string[]);
+dreaditeallcolorizer[1].setColorized(false);
+dreaditeallcolorizer[3].setColorized(false);
 var moltendreadal = dreaditeall.registerPart("molten").getData();
 moltendreadal.addDataValue("temperature", "400");
 moltendreadal.addDataValue("luminosity", "10");
@@ -121,7 +131,8 @@ oretartarite.addDataValue("harvestTool", "pickaxe");
 
 var colorfluctuatite = Color.fromHex("ffb300") as Color;
 var fluctuatite = MaterialSystem.getMaterialBuilder().setName("Fluctuatite").setColor(colorfluctuatite).build();
-fluctuatite.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var fluctuatitecolorizer = fluctuatite.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+fluctuatitecolorizer[1].setColorized(false);
 var moltenfluctuatite = fluctuatite.registerPart("molten").getData();
 moltenfluctuatite.addDataValue("temperature", "800");
 moltenfluctuatite.addDataValue("luminosity", "12");
@@ -134,7 +145,8 @@ orefluctuatite.addDataValue("harvestTool", "pickaxe");
 
 var colorvibranium = Color.fromHex("3e436b") as Color;
 var vibranium = MaterialSystem.getMaterialBuilder().setName("Vibranium").setColor(colorvibranium).build();
-vibranium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var vibraniumcolorizer = vibranium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+vibraniumcolorizer[1].setColorized(false);
 var moltenvibranium = vibranium.registerPart("molten").getData();
 moltenvibranium.addDataValue("temperature", "400");
 moltenvibranium.addDataValue("luminosity", "10");
@@ -150,7 +162,8 @@ armorvibranium.addDataValue("toughness", "5");
 
 var colorrhenium = Color.fromHex("302f2f") as Color;
 var rhenium = MaterialSystem.getMaterialBuilder().setName("Rhenium").setColor(colorrhenium).build();
-rhenium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var rheniumcolorizer = rhenium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+rheniumcolorizer[1].setColorized(false);
 var moltenrhenium = rhenium.registerPart("molten").getData();
 moltenrhenium.addDataValue("temperature", "800");
 moltenrhenium.addDataValue("luminosity", "12");
@@ -163,7 +176,8 @@ orerhenium.addDataValue("harvestTool", "pickaxe");
 
 var colormyrmitite = Color.fromHex("735c3b") as Color;
 var myrmitite = MaterialSystem.getMaterialBuilder().setName("Myrmitite").setColor(colormyrmitite).build();
-myrmitite.registerParts(["nugget", "ingot", "dust", "plate", "rod"] as string[]);
+var myrmititecolorizer = myrmitite.registerParts(["nugget", "ingot", "dust", "plate", "rod"] as string[]);
+myrmititecolorizer[1].setColorized(false);
 var moltenmyrmitite = myrmitite.registerPart("molten").getData();
 moltenmyrmitite.addDataValue("temperature", "800");
 moltenmyrmitite.addDataValue("luminosity", "12");
@@ -180,7 +194,8 @@ blockmyrmitite.addDataValue("harvestTool", "pickaxe");
 
 var colorcandyte = Color.fromHex("c769a9") as Color;
 var candyte = MaterialSystem.getMaterialBuilder().setName("Candyte").setColor(colorcandyte).build();
-candyte.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var candytecolorizer = candyte.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+candytecolorizer[1].setColorized(false);
 var moltencandyte = candyte.registerPart("molten").getData();
 moltencandyte.addDataValue("temperature", "800");
 moltencandyte.addDataValue("luminosity", "12");
@@ -197,7 +212,8 @@ blockcandyte.addDataValue("harvestTool", "pickaxe");
 
 var colorpalladium = Color.fromHex("917a8a") as Color;
 var palladium = MaterialSystem.getMaterialBuilder().setName("Palladium").setColor(colorpalladium).build();
-palladium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var palladiumcolorizer = palladium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+palladiumcolorizer[1].setColorized(false);
 var moltenpalladium = palladium.registerPart("molten").getData();
 moltenpalladium.addDataValue("temperature", "800");
 moltenpalladium.addDataValue("luminosity", "12");
@@ -214,7 +230,8 @@ blockpalladium.addDataValue("harvestTool", "pickaxe");
 
 var colorvityte = Color.fromHex("0e8f42") as Color;
 var vityte = MaterialSystem.getMaterialBuilder().setName("Vityte").setColor(colorvityte).build();
-vityte.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var vitytecolorizer = vityte.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+vitytecolorizer[1].setColorized(false);
 var moltenvityte = vityte.registerPart("molten").getData();
 moltenvityte.addDataValue("temperature", "800");
 moltenvityte.addDataValue("luminosity", "12");
@@ -231,7 +248,8 @@ blockvityte.addDataValue("harvestTool", "pickaxe");
 
 var colorpolonium = Color.fromHex("486e96") as Color;
 var polonium = MaterialSystem.getMaterialBuilder().setName("Polonium").setColor(colorpolonium).build();
-polonium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var poloniumcolorizer = polonium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+poloniumcolorizer[1].setColorized(false);
 var moltenpolonium = polonium.registerPart("molten").getData();
 moltenpolonium.addDataValue("temperature", "800");
 moltenpolonium.addDataValue("luminosity", "12");
@@ -248,7 +266,8 @@ blockpolonium.addDataValue("harvestTool", "pickaxe");
 
 var colorogerite = Color.fromHex("086600") as Color;
 var ogerite = MaterialSystem.getMaterialBuilder().setName("Ogerite").setColor(colorogerite).build();
-ogerite.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var ogeritecolorizer = ogerite.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+ogeritecolorizer[1].setColorized(false);
 var moltenogerite = ogerite.registerPart("molten").getData();
 moltenogerite.addDataValue("temperature", "800");
 moltenogerite.addDataValue("luminosity", "12");
@@ -265,22 +284,27 @@ blockogerite.addDataValue("harvestTool", "pickaxe");
 
 var colorprimalogerite = Color.fromHex("14ad07") as Color;
 var primalogerite = MaterialSystem.getMaterialBuilder().setName("Primal Ogerite").setColor(colorprimalogerite).build();
-primalogerite.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var primalogeritecolorizer = primalogerite.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+primalogeritecolorizer[1].setColorized(false);
 var moltenprimalogerite = primalogerite.registerPart("molten").getData();
 moltenprimalogerite.addDataValue("temperature", "800");
 moltenprimalogerite.addDataValue("luminosity", "12");
 
 var colorhotvibraniumalloy = Color.fromHex("00ddff") as Color;
 var hotvibraniumalloy = MaterialSystem.getMaterialBuilder().setName("Hot Vibranium Alloy").setColor(colorhotvibraniumalloy).build();
-hotvibraniumalloy.registerParts(["ingot", "rod"] as string[]);
+var hotvibraniumalloycolorizer = hotvibraniumalloy.registerParts(["ingot", "rod"] as string[]);
+hotvibraniumalloycolorizer[0].setColorized(false);
+
 
 var colorvibraniumalloy = Color.fromHex("1e2742") as Color;
 var vibraniumalloy = MaterialSystem.getMaterialBuilder().setName("Vibranium Alloy").setColor(colorvibraniumalloy).build();
-vibraniumalloy.registerParts(["nugget", "ingot", "plate", "gear", "rod"] as string[]);
+var vibraniumalloycolorizer = vibraniumalloy.registerParts(["nugget", "ingot", "plate", "gear", "rod"] as string[]);
+vibraniumalloycolorizer[1].setColorized(false);
 
 var colorlunastone = Color.fromHex("945dcf") as Color;
 var lunastone = MaterialSystem.getMaterialBuilder().setName("Lunastone").setColor(colorlunastone).build();
-lunastone.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var lunastonecolorizer = lunastone.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+lunastonecolorizer[1].setColorized(false);
 var moltenlunastone = lunastone.registerPart("molten").getData();
 moltenlunastone.addDataValue("temperature", "800");
 moltenlunastone.addDataValue("luminosity", "12");
@@ -297,7 +321,8 @@ blocklunastone.addDataValue("harvestTool", "pickaxe");
 
 var colorchalcedony = Color.fromHex("5dc4cf") as Color;
 var chalcedony = MaterialSystem.getMaterialBuilder().setName("Chalcedony").setColor(colorchalcedony).build();
-chalcedony.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var chalcedonycolorizer = chalcedony.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+chalcedonycolorizer[1].setColorized(false);
 var moltenchalcedony = chalcedony.registerPart("molten").getData();
 moltenchalcedony.addDataValue("temperature", "800");
 moltenchalcedony.addDataValue("luminosity", "12");
@@ -314,7 +339,8 @@ blockchalcedony.addDataValue("harvestTool", "pickaxe");
 
 var colorbrightsteel = Color.fromHex("ffffff") as Color;
 var brightsteel = MaterialSystem.getMaterialBuilder().setName("Brightsteel").setColor(colorbrightsteel).build();
-brightsteel.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var brightsteelcolorizer = brightsteel.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+brightsteelcolorizer[1].setColorized(false);
 var moltenbrightsteel = brightsteel.registerPart("molten").getData();
 moltenbrightsteel.addDataValue("temperature", "800");
 moltenbrightsteel.addDataValue("luminosity", "12");
@@ -336,39 +362,45 @@ armorbrightsteel.addDataValue("toughness", "15");
 
 var colorcaesium = Color.fromHex("426334") as Color;
 var caesium = MaterialSystem.getMaterialBuilder().setName("Caesium").setColor(colorcaesium).build();
-caesium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var caesiumcolorizer = caesium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+caesiumcolorizer[1].setColorized(false);
 var moltencaesium = caesium.registerPart("molten").getData();
 moltencaesium.addDataValue("temperature", "800");
 moltencaesium.addDataValue("luminosity", "12");
 
 var colorstrontium = Color.fromHex("76677a") as Color;
 var strontium = MaterialSystem.getMaterialBuilder().setName("Strontium").setColor(colorstrontium).build();
-strontium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var strontiumcolorizer = strontium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+strontiumcolorizer[1].setColorized(false);
 var moltenstrontium = strontium.registerPart("molten").getData();
 moltenstrontium.addDataValue("temperature", "800");
 moltenstrontium.addDataValue("luminosity", "12");
 
 var colorrubidium = Color.fromHex("827f68") as Color;
 var rubidium = MaterialSystem.getMaterialBuilder().setName("Rubidium").setColor(colorrubidium).build();
-rubidium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var rubidiumcolorizer = rubidium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+rubidiumcolorizer[1].setColorized(false);
 var moltenrubidium = rubidium.registerPart("molten").getData();
 moltenrubidium.addDataValue("temperature", "800");
 moltenrubidium.addDataValue("luminosity", "12");
 
 var colorchaos = Color.fromHex("080221") as Color;
 var chaos = MaterialSystem.getMaterialBuilder().setName("Chaos").setColor(colorchaos).build();
-chaos.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var chaoscolorizer = chaos.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+chaoscolorizer[1].setColorized(false);
 var moltenchaos = chaos.registerPart("molten").getData();
 moltenchaos.addDataValue("temperature", "800");
 moltenchaos.addDataValue("luminosity", "12");
 
 var colorhassium = Color.fromHex("555559") as Color;
 var hassium = MaterialSystem.getMaterialBuilder().setName("Hassium").setColor(colorhassium).build();
-hassium.registerParts(["nugget", "ingot", "plate", "gear", "rod"] as string[]);
+var hassiumcolorizer = hassium.registerParts(["nugget", "ingot", "plate", "gear", "rod"] as string[]);
+hassiumcolorizer[1].setColorized(false);
 
 var colorhalite = Color.fromHex("17c414") as Color;
 var halite = MaterialSystem.getMaterialBuilder().setName("Fractallite Halite").setColor(colorhalite).build();
-halite.registerParts(["ingot", "rod"] as string[]);
+var halitecolorizer = halite.registerParts(["ingot", "rod"] as string[]);
+halitecolorizer[0].setColorized(false);
 var armorhalite = halite.registerPart("armor").getData();
 armorhalite.addDataValue("durability", "9500000");
 armorhalite.addDataValue("enchantability", "100");
@@ -377,14 +409,16 @@ armorhalite.addDataValue("toughness", "200");
 
 var colorabyssite = Color.fromHex("1beb00") as Color;
 var abyssite = MaterialSystem.getMaterialBuilder().setName("Abyssite").setColor(colorabyssite).build();
-abyssite.registerParts(["ingot", "rod"] as string[]);
+var abyssitecolorizer = abyssite.registerParts(["ingot", "rod"] as string[]);
+abyssitecolorizer[0].setColorized(false);
 var moltenabyssite = abyssite.registerPart("molten").getData();
 moltenabyssite.addDataValue("temperature", "800");
 moltenabyssite.addDataValue("luminosity", "12");
 
 var colorsacrificemetal = Color.fromHex("210042") as Color;
 var sacrificemetal = MaterialSystem.getMaterialBuilder().setName("Sacrifice Metal").setColor(colorsacrificemetal).build();
-sacrificemetal.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var sacrificemetalcolorizer = sacrificemetal.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+sacrificemetalcolorizer[1].setColorized(false);
 var moltensacrificemetal = sacrificemetal.registerPart("molten").getData();
 moltensacrificemetal.addDataValue("temperature", "800");
 moltensacrificemetal.addDataValue("luminosity", "12");
@@ -416,7 +450,8 @@ armorblackmetal.addDataValue("toughness", "3");
 
 var colorpromethium = Color.fromHex("7df59d") as Color;
 var promethium = MaterialSystem.getMaterialBuilder().setName("Promethium").setColor(colorpromethium).build();
-promethium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+var promethiumcolorizer = promethium.registerParts(["nugget", "ingot", "dust", "rod"] as string[]);
+promethiumcolorizer[1].setColorized(false);
 var moltenpromethium = promethium.registerPart("molten").getData();
 moltenpromethium.addDataValue("temperature", "800");
 moltenpromethium.addDataValue("luminosity", "12");
@@ -795,7 +830,8 @@ armorgravedust.addDataValue("toughness", "1");
 
 var colorichorium = Color.fromHex("a85a00") as Color;
 var ichorium = MaterialSystem.getMaterialBuilder().setName("Ichorium").setColor(colorichorium).build();
-ichorium.registerParts(["nugget", "ingot", "dust", "rod","plate"] as string[]);
+var ichoriumcolorizer = ichorium.registerParts(["nugget", "ingot", "dust", "rod","plate"] as string[]);
+ichoriumcolorizer[1].setColorized(false);
 var moltenichorium = ichorium.registerPart("molten").getData();
 moltenichorium.addDataValue("temperature", "400");
 moltenichorium.addDataValue("luminosity", "10");

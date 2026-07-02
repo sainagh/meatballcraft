@@ -12,30 +12,24 @@
       "desc:8": "",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "aoa3:runic_sword",
-        "tag:10": {
-          "display:10": {
-            "Lore:9": {
-              "0:8": "§d§o超限附魔§r"
-            },
-            "Name:8": "§6§o安督利尔§r"
-          },
-          "ench:9": {
-            "0:10": {
-              "id:3": 115,
-              "lvl:3": 30
-            },
-            "1:10": {
-              "id:3": 17,
-              "lvl:3": 100
-            }
-          }
-        }
+        "id:8": "aoa3:runic_sword"
       },
       "name:8": "安督利尔"
     }
   },
   "questID:3": 1294633522,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:silver_coin"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

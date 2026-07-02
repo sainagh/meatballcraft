@@ -43,7 +43,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 		[[<tombstone:impregnated_diamond>, null, null, null, null, null, <tombstone:impregnated_diamond>], 
 		[null, <ore:ingotStellarAlloy>, <divinerpg:aquatic_ingot>, <divinerpg:aquatic_ingot>, <divinerpg:aquatic_ingot>, <ore:ingotStellarAlloy>, null], 
 		[null, <divinerpg:aquatic_ingot>, <contenttweaker:corallus_polyp>, <aoa3:runium_chunk>, <contenttweaker:corallus_polyp>, <divinerpg:aquatic_ingot>, null], 
-		[null, <divinerpg:aquatic_ingot>, <aoa3:runium_chunk>, <aoa3:void_sword>, <aoa3:runium_chunk>, <divinerpg:aquatic_ingot>, null], 
+		[null, <divinerpg:aquatic_ingot>, <aoa3:runium_chunk>, <aoa3:tidal_greatblade>, <aoa3:runium_chunk>, <divinerpg:aquatic_ingot>, null], 
 		[null, <divinerpg:aquatic_ingot>, <contenttweaker:corallus_polyp>, <aoa3:runium_chunk>, <contenttweaker:corallus_polyp>, <divinerpg:aquatic_ingot>, null], 
 		[null, <ore:ingotStellarAlloy>, <divinerpg:aquatic_ingot>, <divinerpg:aquatic_ingot>, <divinerpg:aquatic_ingot>, <ore:ingotStellarAlloy>, null], 
 		[<tombstone:impregnated_diamond>, null, null, null, null, null, <tombstone:impregnated_diamond>]]);  
@@ -74,7 +74,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 		[[<contenttweaker:king_bambambam_pelvis>, null, null, null, null, null, <contenttweaker:king_bambambam_pelvis>], 
 		[null, <divinerpg:molten_stone>, <divinerpg:molten_stone>, <divinerpg:molten_stone>, <divinerpg:molten_stone>, <divinerpg:molten_stone>, null], 
 		[null, <divinerpg:molten_stone>, <aoa3:runium_chunk>, <aoa3:runium_chunk>, <aoa3:runium_chunk>, <divinerpg:molten_stone>, null], 
-		[null, <divinerpg:molten_stone>, <aoa3:runium_chunk>, <thermalfoundation:tool.hammer_platinum>, <aoa3:runium_chunk>, <divinerpg:molten_stone>, null], 
+		[null, <divinerpg:molten_stone>, <aoa3:runium_chunk>, <aoa3:vulcammer_maul>, <aoa3:runium_chunk>, <divinerpg:molten_stone>, null], 
 		[null, <divinerpg:molten_stone>, <aoa3:runium_chunk>, <aoa3:runium_chunk>, <aoa3:runium_chunk>, <divinerpg:molten_stone>, null], 
 		[null, <divinerpg:molten_stone>, <divinerpg:molten_stone>, <divinerpg:molten_stone>, <divinerpg:molten_stone>, <divinerpg:molten_stone>, null], 
 		[<contenttweaker:king_bambambam_pelvis>, null, null, null, null, null, <contenttweaker:king_bambambam_pelvis>]]);  
@@ -2084,3 +2084,95 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 		[null, <contenttweaker:demon_stone>, null, <contenttweaker:innerved_sky_stone>, null, <contenttweaker:demon_stone>, null], 
 		[<contenttweaker:spinel_ring>, null, <contenttweaker:spinel_ring>, null, <contenttweaker:spinel_ring>, null, <contenttweaker:spinel_ring>]]);
 }
+
+
+
+
+
+//	suit of the fallen legion
+{
+
+	val enchlistFallenLegion as EnchantMap = EnchantMap()
+	.add("minecraft:protection",10)
+	.add("openblocks:last_stand",5);
+	
+	//	Recipe
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:hazmat_boots>.withTag({Unbreakable: 1 as byte, ncRadiationResistance: 10.0, display: {Name:"§6§o堕落军团靴子§r",Lore:["§d§o超限附魔§r"]}}), enchlistFallenLegion).getItem(), 
+		[[<thebetweenlands:items_misc:25>, null, <bewitchment:belladonna>, null, <thebetweenlands:items_misc:25>], 
+		[null, <extrabees:honey_comb:21>, <aoa3:padded_cloth>, <extrabees:honey_comb:21>, null], 
+		[<bewitchment:belladonna>, <aoa3:padded_cloth>, <aoa3:hazmat_boots>, <aoa3:padded_cloth>, <bewitchment:belladonna>], 
+		[null, <extrabees:honey_comb:21>, <aoa3:padded_cloth>, <extrabees:honey_comb:21>, null], 
+		[<thebetweenlands:items_misc:25>, null, <bewitchment:belladonna>, null, <thebetweenlands:items_misc:25>]]);
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:hazmat_legs>.withTag({Unbreakable: 1 as byte, ncRadiationResistance: 10.0, display: {Name:"§6§o堕落军团护腿§r",Lore:["§d§o超限附魔§r"]}}), enchlistFallenLegion).getItem(), 
+		[[<thebetweenlands:items_misc:25>, null, <bewitchment:belladonna>, null, <thebetweenlands:items_misc:25>], 
+		[null, <extrabees:honey_comb:21>, <aoa3:padded_cloth>, <extrabees:honey_comb:21>, null], 
+		[<bewitchment:belladonna>, <aoa3:padded_cloth>, <aoa3:hazmat_legs>, <aoa3:padded_cloth>, <bewitchment:belladonna>], 
+		[null, <extrabees:honey_comb:21>, <aoa3:padded_cloth>, <extrabees:honey_comb:21>, null], 
+		[<thebetweenlands:items_misc:25>, null, <bewitchment:belladonna>, null, <thebetweenlands:items_misc:25>]]);
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:hazmat_chestplate>.withTag({Unbreakable: 1 as byte, ncRadiationResistance: 10.0, display: {Name:"§6§o堕落军团胸甲§r",Lore:["§d§o超限附魔§r"]}}), enchlistFallenLegion).getItem(), 
+		[[<thebetweenlands:items_misc:25>, null, <bewitchment:belladonna>, null, <thebetweenlands:items_misc:25>], 
+		[null, <extrabees:honey_comb:21>, <aoa3:padded_cloth>, <extrabees:honey_comb:21>, null], 
+		[<bewitchment:belladonna>, <aoa3:padded_cloth>, <aoa3:hazmat_chestplate>, <aoa3:padded_cloth>, <bewitchment:belladonna>], 
+		[null, <extrabees:honey_comb:21>, <aoa3:padded_cloth>, <extrabees:honey_comb:21>, null], 
+		[<thebetweenlands:items_misc:25>, null, <bewitchment:belladonna>, null, <thebetweenlands:items_misc:25>]]);
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:hazmat_helmet>.withTag({Unbreakable: 1 as byte, ncRadiationResistance: 10.0, display: {Name:"§6§o堕落军团头盔§r",Lore:["§d§o超限附魔§r"]}}), enchlistFallenLegion).getItem(), 
+		[[<thebetweenlands:items_misc:25>, null, <bewitchment:belladonna>, null, <thebetweenlands:items_misc:25>], 
+		[null, <extrabees:honey_comb:21>, <aoa3:padded_cloth>, <extrabees:honey_comb:21>, null], 
+		[<bewitchment:belladonna>, <aoa3:padded_cloth>, <aoa3:hazmat_helmet>, <aoa3:padded_cloth>, <bewitchment:belladonna>], 
+		[null, <extrabees:honey_comb:21>, <aoa3:padded_cloth>, <extrabees:honey_comb:21>, null], 
+		[<thebetweenlands:items_misc:25>, null, <bewitchment:belladonna>, null, <thebetweenlands:items_misc:25>]]);
+}
+
+
+//	Gungnir
+{
+
+	val enchlistGungnir as EnchantMap = EnchantMap()
+	.add("aoa3:sever",16);
+	
+	//	Recipe
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:lelyetian_greatblade>.withTag({display: {Name:"§6§o冈格尼尔§r",Lore:["§d§o超限附魔§r"]}}), enchlistGungnir).getItem(), 
+		[[<contenttweaker:skeletal_kaiyu_bone>, null, <contenttweaker:fluctuating_alloy>, null, <contenttweaker:skeletal_kaiyu_bone>], 
+		[null, <aether_legacy:enchanted_gravitite>, <thaumcraft:phial:1>.withTag({Aspects: [{key: "fluctus", amount: 10}]}), <aether_legacy:enchanted_gravitite>, null], 
+		[<contenttweaker:fluctuating_alloy>, <thaumcraft:phial:1>.withTag({Aspects: [{key: "fluctus", amount: 10}]}), <aoa3:lelyetian_greatblade>, <thaumcraft:phial:1>.withTag({Aspects: [{key: "fluctus", amount: 10}]}), <contenttweaker:fluctuating_alloy>], 
+		[null, <aether_legacy:enchanted_gravitite>, <thaumcraft:phial:1>.withTag({Aspects: [{key: "fluctus", amount: 10}]}), <aether_legacy:enchanted_gravitite>, null], 
+		[<contenttweaker:skeletal_kaiyu_bone>, null, <contenttweaker:fluctuating_alloy>, null, <contenttweaker:skeletal_kaiyu_bone>]]);
+}
+
+
+//	Niernen
+{
+
+	val enchlistNiernen as EnchantMap = EnchantMap()
+	.add("aoa3:sever",18);
+	
+	//	Recipe
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:noxious_greatblade>.withTag({display: {Name:"§6§o尼厄尼恩§r",Lore:["§d§o超限附魔§r"]}}), enchlistNiernen).getItem(), 
+		[[<contenttweaker:first_order_mythic_fractal>, null, null, null, <contenttweaker:first_order_mythic_fractal>], 
+		[null, <contenttweaker:berserker_steel_ingot>, <ore:dragonScaleBlock>, <contenttweaker:berserker_steel_ingot>, null], 
+		[null, <ore:dragonScaleBlock>, <aoa3:noxious_greatblade>, <ore:dragonScaleBlock>, null], 
+		[null, <contenttweaker:berserker_steel_ingot>, <ore:dragonScaleBlock>, <contenttweaker:berserker_steel_ingot>, null], 
+		[<contenttweaker:first_order_mythic_fractal>, null, null, null, <contenttweaker:first_order_mythic_fractal>]]);
+}
+
+
+//	Millennium Blade
+{
+
+	val enchlistMillenium as EnchantMap = EnchantMap()
+	.add("aoa3:sever",20);
+	
+	//	Recipe
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:millennium_greatblade>.withTag({display: {Name:"§6§o千年锡杖§r",Lore:["§d§o超限附魔§r"]}}), enchlistMillenium).getItem(), 
+		[[<contenttweaker:second_order_mythic_fractal>, null, <erebus:rein_exo>, null, <contenttweaker:second_order_mythic_fractal>], 
+		[null, <contenttweaker:runandium_ingot>, <contenttweaker:stargate_hieroglyphs>, <contenttweaker:runandium_ingot>, null], 
+		[<erebus:rein_exo>, <contenttweaker:stargate_hieroglyphs>, <aoa3:millennium_greatblade>, <contenttweaker:stargate_hieroglyphs>, <erebus:rein_exo>], 
+		[null, <contenttweaker:runandium_ingot>, <contenttweaker:stargate_hieroglyphs>, <contenttweaker:runandium_ingot>, null], 
+		[<contenttweaker:second_order_mythic_fractal>, null, <erebus:rein_exo>, null, <contenttweaker:second_order_mythic_fractal>]]);
+}
+
+
+
+
+
+

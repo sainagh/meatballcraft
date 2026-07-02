@@ -61,7 +61,7 @@
           "id:8": "spellarchives:spell_archive"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

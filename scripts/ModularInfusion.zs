@@ -756,3 +756,51 @@ inf71.addItemInput(<contenttweaker:master_spell_focus>);
 inf71.addItemInput(<thaumadditions:mithminite_fabric>);
 inf71.addItemOutput(<contenttweaker:master_spell_exanimis>);
 inf71.build();
+
+val inf72 = RecipeBuilder.newBuilder("inf72","arcane_autoinfuser",120);
+inf72.addEnergyPerTickInput(100);
+inf72.addItemInput(<contenttweaker:herba_vis_condensate>);
+inf72.addItemInput(<divinerpg:terran_stone>);
+inf72.addItemInput(<contenttweaker:master_spell_focus>);
+inf72.addItemInput(<thaumadditions:mithminite_fabric>);
+inf72.addItemOutput(<contenttweaker:master_spell_herba>);
+inf72.build();
+
+val inf73 = RecipeBuilder.newBuilder("inf73","arcane_autoinfuser",120);
+inf73.addEnergyPerTickInput(100);
+inf73.addItemInput(<contenttweaker:alkimia_vis_condensate>);
+inf73.addItemInput(<ebwizardry:grand_crystal>);
+inf73.addItemInput(<contenttweaker:master_spell_focus>);
+inf73.addItemInput(<thaumadditions:mithminite_fabric>);
+inf73.addItemOutput(<contenttweaker:master_spell_alkimia>);
+inf73.build();
+
+val inf74 = RecipeBuilder.newBuilder("inf74","arcane_autoinfuser",120);
+inf74.addEnergyPerTickInput(100);
+inf74.addItemInput(<contenttweaker:volatus_vis_condensate>);
+inf74.addItemInput(<contenttweaker:parasecta_wing>);
+inf74.addItemInput(<contenttweaker:master_spell_focus>);
+inf74.addItemInput(<thaumadditions:mithminite_fabric>);
+inf74.addItemOutput(<contenttweaker:master_spell_volatus>);
+inf74.build();
+
+
+val inf75 = RecipeBuilder.newBuilder("inf75","arcane_autoinfuser",120);
+inf75.addEnergyPerTickInput(100);
+inf75.addItemInput(<contenttweaker:vacuos_vis_condensate>);
+inf75.addItemInput(<erebus:whetstone:5>);
+inf75.addItemInput(<contenttweaker:master_spell_focus>);
+inf75.addItemInput(<thaumadditions:mithminite_fabric>);
+inf75.addItemOutput(<contenttweaker:master_spell_vacuos>);
+inf75.build();
+
+val inf76 = RecipeBuilder.newBuilder("inf76","arcane_autoinfuser",120);
+inf76.addEnergyPerTickInput(100);
+inf76.addItemInput(<contenttweaker:spiritus_vis_condensate>);
+inf76.addItemInput(<twilightforest:minotaur_axe>);
+inf76.addItemInput(<contenttweaker:master_spell_focus>);
+inf76.addItemInput(<thaumadditions:mithminite_fabric>);
+inf76.addItemOutput(<contenttweaker:master_spell_spiritus>);
+inf76.build();
+
+

@@ -27,7 +27,7 @@ megeliumboomdraconium.addBiomeInput("minecraft:sky")
       megeliumDetonatorRecipeStart(event.controller, "aoa3:ancient_rock", "bnkrblks:megelium_stone");
     }
   )
-  .addRecipeTooltip(["反应堆爆炸后，放置在反应堆核心周围的远古岩石将会被转化为高防护材料块","可在核心上方放置正确的方块来启用该爆炸转化"])
+  .addRecipeTooltip([" "," "," ","放置在反应堆核心周围的远古岩石","会在反应堆爆炸后转化为高防护材料块","可在核心上方放置正确的方块","来启用该爆炸转化"])
   .build();
 
 

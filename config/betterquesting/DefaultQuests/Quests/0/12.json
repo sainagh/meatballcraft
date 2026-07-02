@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o如果不确定如何获得或自动化某种物品，记得阅读红色的提示文本！",
+      "desc:8": "§7§o如果不确定如何获得或自动化某种物品，记得看它的提示文本！\n\n提示文本的格式正在重制中，但全部迁移还需要一些时间。旧版工具提示全部为红色，而新版则使用了颜色分类标记  :)",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:draconic_key"
@@ -20,7 +20,11 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "contenttweaker:abyssal_wasteland_warp_cleanser"
+          "id:8": "contenttweaker:helpful_tippy_hat"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:jei_info_box"
         }
       }
     }

@@ -14,6 +14,32 @@
     }
   },
   "questID:3": 1384,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 150,
+            "TrophyColorRed:3": 240,
+            "TrophyEarnedAt:4": 1779130347,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 309,
+              "id:8": "contenttweaker:material_part"
+            },
+            "TrophyName:8": "血腥教团屠戮者",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

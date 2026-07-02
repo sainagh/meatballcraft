@@ -9,73 +9,22 @@ import crafttweaker.item.IItemCondition;
 
 <aoa3:bejewelled_lotto_banner>.addTooltip(format.green("可重复使用"));
 
-<contenttweaker:ayeraco_heart>.addTooltip(format.red("发现于末地的潜影贝祭坛"));
-
-<minecraft:totem_of_undying>.addTooltip(format.red("递归之卷会很有用"));
-
-<thaumcraft:curio:6>.addTooltip(format.red("血腥传送门可发现于主世界"));
 
 
-<contenttweaker:pixonia_infusion_key>.addTooltip(format.red("发现于光精界的沼泽高塔"));
-
-<contenttweaker:pixonia_infusion_key>.addTooltip(format.green("可重复使用"));
-
-<aoa3:lunar_greatblade>.addTooltip(format.red("发现于[虚无]月球维度"));
-
-<contenttweaker:fluix_lens>.addTooltip(format.red("丢入水中来打开通往暮色森林的传送门"));
-
-<aether_legacy:skyroot_bucket:0>.addTooltip(format.red("装上水，接着用它打开通往天境的传送门"));
-
-<aether_legacy:skyroot_bucket:0>.addTooltip(format.red("天根木板存在配方"));
-
-<draconicevolution:chaos_shard:2>.addTooltip(format.red("可使用Woot实现自动化"));
-
-<divinerpg:teaker_lump>.addTooltip(format.red("与梦魇世界的神秘人互动获得"));
-
-<contenttweaker:magic_mushroom_dark>.addTooltip(format.red("知识必须被掌握…… - 付出巨大代价解锁所有神秘时代探究知识"));
-
-<contenttweaker:abyssal_wasteland_warp_cleanser>.addTooltip(format.red("移除20临时和20粘性扭曲"));
-<contenttweaker:abyssal_wasteland_warp_cleanser>.addTooltip(format.red("可发现于深渊荒原"));
-
-<contenttweaker:dreading_warp_cleanser>.addTooltip(format.red("移除20永久扭曲"));
-<contenttweaker:dreading_warp_cleanser>.addTooltip(format.red("可发现于恐惧之地"));
-
-<contenttweaker:omothol_warp_cleanser>.addTooltip(format.red("无限使用次数 - 移除所有扭曲"));
-
-<abyssalcraft:coraliumore>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染（Coralium Infested）群系和海洋发现"));
-
-<abyssalcraft:coralium>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染（Coralium Infested）群系和海洋发现"));
-
-<abyssalcraft:ccluster2>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染（Coralium Infested）群系和海洋发现"));
-
-<abyssalcraft:ccluster3>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染（Coralium Infested）群系和海洋发现"));
-
-<abyssalcraft:ccluster4>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染（Coralium Infested）群系和海洋发现"));
-
-<abyssalcraft:ccluster5>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染（Coralium Infested）群系和海洋发现"));
-
-<abyssalcraft:ccluster6>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染（Coralium Infested）群系和海洋发现"));
-
-<abyssalcraft:ccluster7>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染（Coralium Infested）群系和海洋发现"));
-
-<abyssalcraft:ccluster8>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染（Coralium Infested）群系和海洋发现"));
-
-<abyssalcraft:ccluster9>.addTooltip(format.red("珊瑚矿石可以合成，但也可在珊瑚侵染（Coralium Infested）群系和海洋发现"));
-
-<abyssalcraft:coraliumstone>.addTooltip(format.red("蕴含珊瑚的石头存在配方"));
-
-<abyssalcraft:shadowfragment>.addTooltip(format.red("若运气实在太差，阴影活物刷怪蛋存在配方"));
-<abyssalcraft:shadowshard>.addTooltip(format.red("若运气实在太差，阴影活物刷怪蛋存在配方"));
-<abyssalcraft:shadowgem>.addTooltip(format.red("若运气实在太差，阴影活物刷怪蛋存在配方"));
 
 
-<abyssalcraft:shadowfragment>.addTooltip(format.red("可使用生物复制机和生物粉碎机获得"));
-<abyssalcraft:shadowshard>.addTooltip(format.red("可使用生物复制机和生物粉碎机获得"));
-<abyssalcraft:shadowgem>.addTooltip(format.red("可使用生物复制机和生物粉碎机获得"));
 
-<abyssalcraft:shoggothflesh:0>.addTooltip(format.red("修格斯掉落，位于主世界的修格斯巢穴"));
 
-<contenttweaker:conductive_powder>.addTooltip(format.red("污泥由工业先锋模组的植物收割机产出"));
+
+
+
+
+
+
+
+
+
+
 
 <extratrees:food:7>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？） - 在JEI中查看跃迁器"));
 
@@ -87,23 +36,11 @@ import crafttweaker.item.IItemCondition;
 
 <magicbees:beecomb:2>.addTooltip(format.red("发现于某个跃迁器位面（哪个呢？？） - 在JEI中查看跃迁器"));
 
-<bloodmagic:blood_shard:0>.addTooltip(format.red("通过使用束缚之剑获得"));
-<bloodmagic:blood_shard:0>.addTooltip(format.red("束缚之剑需要消耗网络中的LP"));
 
-<bhc:red_heart>.addTooltip(format.red("敌对生物掉落"));
 
-<bhc:yellow_heart>.addTooltip(format.red("Boss掉落"));
 
-<bhc:green_heart>.addTooltip(format.red("末影龙掉落"));
 
-<bhc:blue_heart>.addTooltip(format.red("唤魔者掉落"));
 
-<bhc:heart_amulet>.addTooltip(format.red("Shift右击来放入心之容器"));
-
-<bhc:red_heart_canister>.addTooltip(format.red("放入生命护符"));
-<bhc:yellow_heart_canister>.addTooltip(format.red("放入生命护符"));
-<bhc:green_heart_canister>.addTooltip(format.red("放入生命护符"));
-<bhc:blue_heart_canister>.addTooltip(format.red("放入生命护符"));
 
 <botania:flugeleye>.addTooltip(format.red("使用命运骰子获得"));
 
@@ -145,9 +82,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:wildwood_core>.addTooltip(format.red("使用特殊的伯莱恩新月小刀进行沧海桑田仪式来生成风暴之地（Stormland）群系"));
 
-<draconicevolution:chaos_shard:0>.addTooltip(format.red("第一份混沌碎片可在末地中坐标为10000整数倍数的混沌之岛获得"));
-<draconicevolution:chaos_shard:0>.addTooltip(format.red("击败混沌守卫后方可收获"));
-<draconicevolution:chaos_shard:0>.addTooltip(format.red("有许多方法可获得该物品 - 查看JEI"));
 
 <contenttweaker:steamed_slime>.addTooltip(format.red("使用铁路模组的多方块锅炉产出蒸汽"));
 
@@ -465,7 +399,6 @@ import crafttweaker.item.IItemCondition;
 <techreborn:industrial_blast_furnace>.addTooltip(format.red("- 用4个镍铬合金加热线圈右击"));
 
 
-<tce:tce_torch_lvl1>.addTooltip(format.red("只能使用通过辉光附魔器或缠魂福鲁伊克斯制作的时钟座共鸣水晶石制作——“这不是bug是特性！”"));
 
 <matc:inferiumcrystal>.addTooltip(format.red("0耐久度时无法升级"));
 
@@ -504,7 +437,6 @@ import crafttweaker.item.IItemCondition;
 
 <aoa3:sapphire_ore>.addTooltip(format.red("不是所有的模组熔炉都能处理，但是有更好的处理方式……"));
 
-<contenttweaker:digital_organic_currency>.addTooltip(format.red("谁收这个？唔，在主世界找找压缩圆石……"));
 
 <contenttweaker:jewel_of_the_twilight_forest>.addTooltip(format.red("右击暮色宝石"));
 
@@ -512,11 +444,6 @@ import crafttweaker.item.IItemCondition;
 
 <thaumicaugmentation:fracture_locator>.addTooltip(format.red("裂缝看起来和咒波裂隙类似 - 定位器颜色会随玩家与裂缝的距离改变"));
 
-<bigreactors:reactorcasing>.addTooltip(format.red("放置为中空立方体以组成黄铀反应堆"));
-
-<bigreactors:reactorfuelrod>.addTooltip(format.red("按柱状放置在黄铀反应堆内部，顶部放置反应堆控制杆，周围放置冷却剂"));
-
-<bigreactors:reactorcontrolrod>.addTooltip(format.red("放置在反应堆燃料棒柱顶部"));
 
 <ore:ingotTerrasteel>.addTooltip(format.red("使用泰拉凝聚板制作"));
  
@@ -613,7 +540,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:eden_refined_gem>.addTooltip(format.red("发现于伊甸某处"));
 
-<ae2stuff:inscriber>.addTooltip(format.red("最好使用石英纤维而不是ME线缆进行供能，不然机器可能会消失"));
 
 <contenttweaker:furatto_warper>.addTooltip(format.red("会将你传送到跃迁器位面的同一坐标，根据装备，你可能会想用这个……"));
 
@@ -631,8 +557,6 @@ import crafttweaker.item.IItemCondition;
 <erebus:materials:38>.addTooltip(format.red("使用绿宝石、钻石以及黑曜石右击奉献祭坛"));
 
 <minecraft:chest>.addTooltip(format.red("感谢Sandman366在修复JEI搜索木板导致崩溃的问题方面的帮助 ;)"));
-
-<ore:dustBedrock>.addTooltip(format.red("用打火石点燃基岩，或者在基岩上倒一桶烈焰之炽焱，也可使用SAG磨粉机的循环配方"));
 
 <extendedcrafting:singularity_custom:991>.addTooltip(format.red("我们喜欢Woot！"));
 
@@ -680,11 +604,7 @@ import crafttweaker.item.IItemCondition;
 
 <extrautils2:bagofholding>.addTooltip(format.red("在配方中使用时需先清空物品！！"));
 
-<projectex:personal_link>.addTooltip(format.red("Dallagen让它们没那么卡了！"));
 
-<projectex:refined_link>.addTooltip(format.red("Dallagen让它们没那么卡了！"));
-
-<projectex:compressed_refined_link>.addTooltip(format.red("Dallagen让它们没那么卡了！"));
 
 <aether_legacy:zanite_gemstone>.addTooltip(format.red("现在更快了，感谢Supernodap的牺牲！"));
 
@@ -713,9 +633,6 @@ import crafttweaker.item.IItemCondition;
 
 <tconstruct:pattern>.addTooltip(format.red("模具加工台已禁用，各种模具有自己的配方"));
 
-<extrabees:honey_comb:85>.addTooltip(format.red("效果没有想象中的那么好，但是也还行"));
-
-<extrabees:honey_comb:84>.addTooltip(format.red("效果没有想象中的那么好，但是也还行"));
 
 <botania:manaresource:5>.addTooltip(format.red("盖亚守护者 I掉落"));
 
@@ -755,7 +672,6 @@ import crafttweaker.item.IItemCondition;
 
 <appliedenergistics2:material:12>.addTooltip(format.red("将对应的种子泡入水中，用晶体催生器环绕（慢），或者使用晶体催生仓（快）"));
 
-<contenttweaker:shadow_steel>.addTooltip(format.red("高炉砖和焦煤可发现于主世界"));
 
 <astralsorcery:blockchalice>.addTooltip(format.red("需与星能注入器在同一直线且其间无遮挡，距离需在2格以内"));
 
@@ -779,7 +695,6 @@ import crafttweaker.item.IItemCondition;
 
 <dimdoors:ancient_fabric>.addTooltip(format.red("我爱精准采集"));
 
-<aoa3:nethengeic_callstone>.addTooltip(format.red("使用易燃尘右击纳德吉克兽"));
 
 <contenttweaker:skotaninomicom>.addTooltip(format.red("对，必须是满充能的"));
 
@@ -923,8 +838,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:muon_crystal>.addTooltip(format.red("可以下单合成从而省下一个加速器"));
 <contenttweaker:muon_crystal>.addTooltip(format.red("也可以被动合成，挂的数量更多"));
 
-<contenttweaker:strings_crystal>.addTooltip(format.red("可以下单合成从而省下一个加速器"));
-<contenttweaker:strings_crystal>.addTooltip(format.red("也可以被动合成，挂的数量更多"));
 
 <contenttweaker:serpentine>.addTooltip(format.red("发现于索尔星系内行星（或者卫星） - 使用炎岩匠魂工具进行挖掘 - 发现于铁块附近"));
 
@@ -968,7 +881,6 @@ import crafttweaker.item.IItemCondition;
 
 <aoa3:extraction_device>.addTooltip(format.red("上方放置熔岩，下方为空，使用石碗或钻石碗右击"));
 
-<aoa3:creation_forge>.addTooltip(format.red("使用召唤板右击来升级和召唤宠物"));
 
 <modularmachinery:itemblueprint>.addTooltip(format.red("使用钻石凿子来切换蓝图"));
 
@@ -1101,9 +1013,7 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:bedrock_leggings>.addTooltip(format.red("可施加超限附魔"));
 
-<aoa3:tidal_greatblade>.addTooltip(format.red("可施加超限附魔"));
 
-<aoa3:vulcammer_maul>.addTooltip(format.red("可施加超限附魔"));
 
 <divinerpg:crabclaw_maul>.addTooltip(format.red("可施加超限附魔"));
 
@@ -1115,30 +1025,9 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:black_ender_sword>.addTooltip(format.red("可施加超限附魔"));
 
-<arcane_essentials:master_lightning_sword>.addTooltip(format.red("可施加超限附魔"));
-<arcane_essentials:master_lightning_sword>.addTooltip(format.red("需要使用崭新升级的大师法杖制作该物品"));
-
-<arcane_essentials:master_sorcery_sword>.addTooltip(format.red("可施加超限附魔"));
-<arcane_essentials:master_sorcery_sword>.addTooltip(format.red("需要使用崭新升级的大师法杖制作该物品"));
-
-<arcane_essentials:master_nature_sword>.addTooltip(format.red("可施加超限附魔"));
-<arcane_essentials:master_nature_sword>.addTooltip(format.red("需要使用崭新升级的大师法杖制作该物品"));
-
-<arcane_essentials:master_fire_sword>.addTooltip(format.red("可施加超限附魔"));
-<arcane_essentials:master_fire_sword>.addTooltip(format.red("需要使用崭新升级的大师法杖制作该物品"));
-
-<arcane_essentials:master_ice_sword>.addTooltip(format.red("可施加超限附魔"));
-<arcane_essentials:master_ice_sword>.addTooltip(format.red("需要使用崭新升级的大师法杖制作该物品"));
-
-<arcane_essentials:master_healing_sword>.addTooltip(format.red("可施加超限附魔"));
-<arcane_essentials:master_healing_sword>.addTooltip(format.red("需要使用崭新升级的大师法杖制作该物品"));
-
-<arcane_essentials:master_necromancy_sword>.addTooltip(format.red("可施加超限附魔"));
-<arcane_essentials:master_necromancy_sword>.addTooltip(format.red("需要使用崭新升级的大师法杖制作该物品"));
 
 <abyssalcraft:soulreaper>.addTooltip(format.red("可施加超限附魔"));
 
-<thebetweenlands:shockwave_sword>.addTooltip(format.red("可施加超限附魔"));
 
 <thebetweenlands:ancient_helmet>.addTooltip(format.red("可施加超限附魔"));
 
@@ -1265,7 +1154,6 @@ import crafttweaker.item.IItemCondition;
 
 <soulshardsrespawn:vile_sword>.addTooltip(format.red("感谢ChaosStrikez修好了脚本！"));
 
-<aoa3:rosidian_greatblade>.addTooltip(format.red("可施加超限附魔"));
 
 <tconstruct:clear_glass:0>.addTooltip(format.red("在冶炼炉中自动化该物品"));
 
@@ -1319,9 +1207,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:everlasting_fusor>.addTooltip(format.green("在工作台配方中可重复使用"));
 
-<simplevoidworld:portal>.addTooltip(format.red("非常感谢Popi、ChaosStrikez以及Fios在天空盒方面的帮助！"));
-
-<simplevoidworld:portal>.addTooltip(format.red("生物自然生成已禁用"));
 
 <contenttweaker:nightmare_incense>.addTooltip(format.red("右击获得献祭契约"));
 
@@ -1355,11 +1240,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:pure_egg>.addTooltip(format.red("发现于谐律界"));
 
-<contenttweaker:star_core>.addTooltip(format.red("站在塞德娜金属稳定器上"));
 
-<contenttweaker:pulsar_core>.addTooltip(format.red("站在塞德娜金属稳定器上"));
-
-<contenttweaker:black_hole_core>.addTooltip(format.red("站在塞德娜金属稳定器上"));
 
 <contenttweaker:miniature_black_hole>.addTooltip(format.red("使用黑洞核心"));
 
@@ -1513,7 +1394,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:polonium_beryllium_alloy_ingot>.addTooltip(format.aqua("基础能量：1800 RF/t"));
 <contenttweaker:polonium_beryllium_alloy_ingot>.addTooltip(format.aqua("基础产热：1200 H/t"));
 
-<simplevoidworld:portal>.addTooltip(format.red("感谢ACGaming制作了Meatball Sauce模组"));
 
 <bloodmagic:inversion_pillar:4>.addTooltip(format.red("TKuja1最爱的方块"));
 
@@ -1674,9 +1554,6 @@ import crafttweaker.item.IItemCondition;
 <ore:ingotOgerite>.addTooltip(format.red("你做工件了吗？？"));
 
 
-<thaumicaugmentation:gauntlet:0>.addTooltip(format.red("不要放在收藏馆（Bibliocraft）模组的展示方块中"));
-
-<thaumicaugmentation:gauntlet:1>.addTooltip(format.red("不要放在收藏馆（Bibliocraft）模组的展示方块中"));
 
 <projectred-exploration:backpack>.addTooltip(format.red("背包"));
 
@@ -1702,19 +1579,14 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:demon_stone>.addTooltip(format.red("通过特殊的坠星标位祭品（貘之心）获得"));
 
-<appliedenergistics2:wireless_terminal>.addTooltip(format.red("将量子链接卡放入量子链接仓以获得无限访问范围"));
 
-<appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("将量子链接卡放入量子链接仓以获得无限访问范围"));
 
-<appliedenergistics2:wireless_pattern_terminal>.addTooltip(format.red("将量子链接卡放入量子链接仓以获得无限访问范围"));
 
-<appliedenergistics2:wireless_fluid_terminal>.addTooltip(format.red("将量子链接卡放入量子链接仓以获得无限访问范围"));
 
 <contenttweaker:medal_of_freedom>.addTooltip(format.red("使用亡灵召唤石"));
 
 <thebetweenlands:chiromaw_barb>.addTooltip(format.red("翼手女王掉落"));
 
-<thebetweenlands:mummy_bait>.addTooltip(format.red("在污泥平原（Sludge Plain）或湿地（Marsh）丢出 - 可通过交错次元召唤石获得生物群落修改器"));
 
 <contenttweaker:betweenlands_callstone_0>.addTooltip(format.red("这是个召唤石"));
 
@@ -1759,7 +1631,6 @@ import crafttweaker.item.IItemCondition;
 <thaumcraft:research_table>.addTooltip(format.red("使用笔与墨右击木桌"));
 <thaumcraft:research_table>.addTooltip(format.red("可以在JEI中搜索'研究辅助'"));
 
-<immersiveengineering:stone_decoration:1>.addTooltip(format.red("可在主世界的许多结构中发现"));
 
 <iceandfire:dread_queen_sword>.addTooltip(format.red("困难模式掉落：僵尸"));
 
@@ -1775,9 +1646,8 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:abyssal_wasteland_warp_cleanser>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
 
-<contenttweaker:dreading_warp_cleanser>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
+<contenttweaker:dreading_warp_cleanser>.addTooltip(format.red("感谢GalacticSilver绘制的纹理"));
 
-<contenttweaker:omothol_warp_cleanser>.addTooltip(format.red("感谢GalacticSilver绘制的纹理！"));
 
 <thermalexpansion:machine:13>.addTooltip(format.red("在其上放置热力的便携储罐并调至输出模式（橙色）来自动输入经验"));
 
@@ -1786,7 +1656,6 @@ import crafttweaker.item.IItemCondition;
 <industrialforegoing:mob_duplicator>.addTooltip(format.red("生物粉碎机配合诅咒之土刷怪场是获得精华液的最佳手段"));
 <industrialforegoing:mob_duplicator>.addTooltip(format.red("在暗室中使用邪恶点滴右击泥土来生成诅咒之土"));
 
-<cyclicmagic:beacon_potion>.addTooltip(format.red("通过星炬召唤石获得"));
 
 <contenttweaker:pharos_callstone>.addTooltip(format.red("将正确的药水（5个）相结合，普塔将指引你"));
 
@@ -1862,9 +1731,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:black_hole_honey>.addTooltip(format.red("允许在所有维度使用创造飞行"));
 
-<immersiveengineering:stone_decoration:0>.addTooltip(format.red("在基础工作台之前不需要合成，焦煤块可以在主世界找到"));
 
-<railcraft:coke_oven:0>.addTooltip(format.red("在基础工作台之前不需要合成，焦煤块可以在主世界找到"));
 
 <railcraft:blast_furnace:0>.addTooltip(format.red("不需要制作，高炉砖可以在主世界找到"));
 
@@ -1882,11 +1749,8 @@ import crafttweaker.item.IItemCondition;
 
 <gendustry:industrial_apiary>.addTooltip(format.red("时间之瓶会很有用！"));
 
-<buildinggadgets:buildingtool>.addTooltip(format.red("按V键切换模式，按U键撤销"));
 
-<buildinggadgets:exchangertool>.addTooltip(format.red("按V键切换模式"));
 
-<buildinggadgets:copypastetool>.addTooltip(format.red("按V键切换模式"));
 
 <projecte:item.pe_philosophers_stone>.addTooltip(format.red("按V键扩大范围，Shift+V缩小范围，C键打开合成方格"));
 <projecte:item.pe_philosophers_stone>.addTooltip(format.red("使用R键发射可转化生物的弹射物"));
@@ -2129,14 +1993,8 @@ import crafttweaker.item.IItemCondition;
 
 <projectex:energy_link>.addTooltip(format.red("从收集器中获取EMC，将其输入玩家网络！"));
 
-<projectex:personal_link>.addTooltip(format.red("从玩家网络中抽取EMC，无限制造单个物品！"));
-<projectex:refined_link>.addTooltip(format.red("从玩家网络中抽取EMC，无限制造最多9种物品！"));
-<projectex:compressed_refined_link>.addTooltip(format.red("从玩家网络中抽取EMC，无限制造最多54种物品！"));
-<projectex:personal_link>.addTooltip(format.red("可直接与存储总线连接！"));
-<projectex:refined_link>.addTooltip(format.red("可直接与存储总线连接！"));
-<projectex:compressed_refined_link>.addTooltip(format.red("可直接与存储总线连接！"));
 
-<thaumadditions:vis_seeds>.withTag({Aspect: "mythus"}).addTooltip(format.red("仅适用与有机灌注器！"));
+<thaumadditions:vis_seeds>.withTag({Aspect: "mythus"}).addTooltip(format.red("仅适用于有机灌注器！"));
 
 <gendustry:honey_comb:13341>.addTooltip(format.red("通过福鲁伊克斯召唤石获得"));
 
@@ -2472,29 +2330,6 @@ import crafttweaker.item.IItemCondition;
 <thermalexpansion:reservoir:3>.addTooltip(format.red("警告：不要放置在副手，可能会清空内容物"));
 <thermalexpansion:reservoir:4>.addTooltip(format.red("警告：不要放置在副手，可能会清空内容物"));
 
-<actuallyadditions:block_phantomface>.addTooltip(format.red("使用幻灵连接器来绑定机器"));
-<actuallyadditions:block_phantomface>.addTooltip(format.red("用于连接附近机器的物品传输"));
-<actuallyadditions:block_phantomface>.addTooltip(format.red("在其上放置幻灵增幅器以增加范围"));
-
-<actuallyadditions:block_phantom_placer>.addTooltip(format.red("使用幻灵连接器来绑定方块"));
-<actuallyadditions:block_phantom_placer>.addTooltip(format.red("用于远距离放置方块"));
-<actuallyadditions:block_phantom_placer>.addTooltip(format.red("在其上放置幻灵增幅器以增加范围"));
-
-<actuallyadditions:block_phantom_liquiface>.addTooltip(format.red("使用幻灵连接器来绑定机器"));
-<actuallyadditions:block_phantom_liquiface>.addTooltip(format.red("用于连接附近机器的流体传输"));
-<actuallyadditions:block_phantom_liquiface>.addTooltip(format.red("在其上放置幻灵增幅器以增加范围"));
-
-<actuallyadditions:block_phantom_energyface>.addTooltip(format.red("使用幻灵连接器来绑定机器"));
-<actuallyadditions:block_phantom_energyface>.addTooltip(format.red("用于连接附近机器的能量传输"));
-<actuallyadditions:block_phantom_energyface>.addTooltip(format.red("在其上放置幻灵增幅器以增加范围"));
-
-<actuallyadditions:block_phantom_redstoneface>.addTooltip(format.red("使用幻灵连接器来绑定方块"));
-<actuallyadditions:block_phantom_redstoneface>.addTooltip(format.red("用于从附近的红石元件接收红石信号"));
-<actuallyadditions:block_phantom_redstoneface>.addTooltip(format.red("在其上放置幻灵增幅器以增加范围"));
-
-<actuallyadditions:block_phantom_breaker>.addTooltip(format.red("使用幻灵连接器来绑定方块"));
-<actuallyadditions:block_phantom_breaker>.addTooltip(format.red("用于远距离破坏方块"));
-<actuallyadditions:block_phantom_breaker>.addTooltip(format.red("在其上放置幻灵增幅器以增加范围"));
 
 <xreliquary:magicbane>.addTooltip(format.red("感谢Baguette测试了相关构筑！"));
 <xreliquary:magicbane>.addTooltip(format.red("gotammo第一个发现它的强力之处！"));
@@ -2689,7 +2524,6 @@ import crafttweaker.item.IItemCondition;
 <tinker_io:upg:5>.addTooltip(format.red("智能输出端：红石控制"));
 <tinker_io:upg:7>.addTooltip(format.red("智能输出端：像铸造盆一样铸造物品"));
 
-<extrabotany:ultimatehammer>.addTooltip(format.green("在工作台配方中可重复使用"));
 
 <tconstruct:pattern>.withTag({PartType: "tconstruct:hammer_head"}).addTooltip(format.green("在锤子配方中可重复使用"));
 
@@ -2950,25 +2784,10 @@ import crafttweaker.item.IItemCondition;
 
 <environmentaltech:modifier_piezo>.addTooltip(format.red("用于太阳能阵列，免疫下雨"));
 
-<contenttweaker:borean_wormhole>.addTooltip(format.red("通过暴风召唤石获得"));
-<contenttweaker:candyland_wormhole>.addTooltip(format.red("通过合成获得"));
-<contenttweaker:ancient_cavern_wormhole>.addTooltip(format.red("通过大地之召获得"));
-<contenttweaker:lunalus_wormhole>.addTooltip(format.red("通过月球召唤石获得"));
-<contenttweaker:gardencia_wormhole>.addTooltip(format.red("发现于花园维度"));
-<contenttweaker:crystevia_wormhole>.addTooltip(format.red("通过晶体召唤石获得"));
-<contenttweaker:greckon_wormhole>.addTooltip(format.red("发现于格瑞克维度（基岩之内）"));
-<contenttweaker:vox_wormhole>.addTooltip(format.red("发现于未知维度"));
-<contenttweaker:dustopia_wormhole>.addTooltip(format.red("发现于异位维度"));
-<contenttweaker:iromine_wormhole>.addTooltip(format.red("通过黄金召唤石获得"));
-<contenttweaker:celeve_wormhole>.addTooltip(format.red("通过合成获得"));
-<contenttweaker:immortallis_wormhole>.addTooltip(format.red("通过不朽之地召唤石获得"));
-<contenttweaker:haven_wormhole>.addTooltip(format.red("发现于天堂维度"));
 
-<botania:lokiring>.addTooltip(format.red("警告：可能会把右击搞得一塌糊涂"));
 
 <twilightforest:seeker_bow>.addTooltip(format.red("暮色森林的冰雪女王掉落"));
 
-<ore:bed>.addTooltip(format.red("警告：不要在虚空维度中使用"));
 
 
 <contenttweaker:furnace_heart>.addTooltip(format.red("发现于熔炉维度"));
@@ -2983,7 +2802,6 @@ import crafttweaker.item.IItemCondition;
 
 <bewitchment:snake_venom>.addTooltip(format.red("巫师之路模组动物的刷怪蛋可以在下界找到"));
 
-<thaumcraft:caster_basic>.addTooltip(format.red("按H键装备和更改施术核心"));
 
 
 <contenttweaker:shungite>.addTooltip(format.red("发现于孤寂界"));
@@ -2992,7 +2810,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:asgard_furnace_brick>.addTooltip(format.red("通过阿萨神族裂隙获得"));
 
-<tce:tce_compressed_torch_lvl1>.addTooltip(format.red("发现于共鸣界"));
 
 <ore:ingotMithrillium>.addTooltip(format.red("解锁该研究有些困难，最好是使用惊怖纤毛菇"));
 
@@ -3026,11 +2843,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:yellorite_reactor>.addTooltip(format.red("有多个多方块预览来显示如何搭建黄铀反应堆，可以是任意尺寸的立方体"));
 <contenttweaker:yellorite_reactor>.addTooltip(format.red("查看JEI信息框以获得更多信息"));
 
-<contenttweaker:astral_animator>.addTooltip(format.red("发现于地方界"));
 
-<contenttweaker:astral_animator>.addTooltip(format.red("与正确的灵魂瓶（4个）结合，地平界将指引你！"));
-
-<contenttweaker:mark_of_the_arbiter>.addTooltip(format.red("将星辉活化器与正确的灵魂瓶（4个）结合，地平界将指引你！"));
 
 <packagedauto:packager>.addTooltip(format.red("要设置自动合成，使用以下流程：ME线缆 > 封包机 > 解包机 > 封包合成器或其他机器，消耗2个频道"));
 <packagedauto:unpackager>.addTooltip(format.red("要设置自动合成，使用以下流程：ME线缆 > 封包机 > 解包机 > 封包合成器或其他机器，消耗2个频道"));
@@ -3121,11 +2934,8 @@ import crafttweaker.item.IItemCondition;
 
 <thaumcraft:everfull_urn>.addTooltip(format.red("自动向周围的坩埚加水"));
 
-<thaumcraft:crucible>.addTooltip(format.red("使用世界盐右击坩埚"));
 
-<contenttweaker:magic_mushroom_dark>.addTooltip(format.red("感谢Xenosplitter和Ikea Bear编辑的研究步骤！"));
 
-<contenttweaker:omothol_warp_cleanser>.addTooltip(format.red("感谢Tom4455编辑的研究步骤！"));
 
 <thaumcraft:nugget:9>.addTooltip(format.red("丢进坩埚来将多余的源质转化为水晶碎片"));
 
@@ -3161,7 +2971,6 @@ import crafttweaker.item.IItemCondition;
 
 <thaumicaugmentation:arcane_terraformer>.addTooltip(format.red("与生物群系检查器搭配使用"));
 
-<woot:anvil>.addTooltip(format.red("放置在岩浆块上"));
 
 <railcraft:rock_crusher>.addTooltip(format.red("该机器已禁用"));
 
@@ -3169,7 +2978,6 @@ import crafttweaker.item.IItemCondition;
 
 <mowziesmobs:ice_crystal>.addTooltip(format.red("冰晶雪原的冰霜巨口掉落"));
 
-<contenttweaker:psichic_stone>.addTooltip(format.red("在欧罗巴维度，使用斗轮式挖掘机开采psivein矿床"));
 
 <contenttweaker:better_red_coal>.addTooltip(format.red("可以让配方设置更简单，推荐被动生产时使用 :)"));
 
@@ -3218,10 +3026,6 @@ import crafttweaker.item.IItemCondition;
 
 <thermalfoundation:storage_alloy:3>.addTooltip(format.red("Priscilla排查了错误的金属块配方"));
 
-<appliedenergistics2:wireless_crafting_terminal>.addTooltip(format.red("装备在饰品栏中时，按下CTRL+E以打开"));
-<appliedenergistics2:wireless_fluid_terminal>.addTooltip(format.red("装备在饰品栏中时，按下CTRL+F以打开"));
-<appliedenergistics2:wireless_pattern_terminal>.addTooltip(format.red("装备在饰品栏中时，按下CTRL+R以打开"));
-<appliedenergistics2:wireless_terminal>.addTooltip(format.red("装备在饰品栏中时，按下CTRL+T以打开"));
 
 <tombstone:crafting_ingredient:4>.addTooltip(format.red("通过钓鱼或钓鱼机获得"));
 
@@ -3240,7 +3044,6 @@ import crafttweaker.item.IItemCondition;
 
 <extrabotany:silenteternity>.addTooltip(format.red("站定不动时以极快速度恢复生命值"));
 
-<extrabotany:excaliber>.addTooltip(format.red("对空气左击发射造成混沌伤害的光束"));
 
 <extrabotany:firstfractal>.addTooltip(format.red("击中敌人后召唤剑影追击"));
 
@@ -3313,92 +3116,29 @@ import crafttweaker.item.IItemCondition;
 <environmentaltech:void_botanic_miner_cont_5>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
 <environmentaltech:void_botanic_miner_cont_6>.addTooltip(format.red("注意：若无法破坏该方块，使用搬箱袋收纳并重新放置即可"));
 
-<contenttweaker:wrought_iron_shard>.addTooltip(format.red("发现于深层维度，记得带上镐子，机灵点！"));
 
-<contenttweaker:deep_metamorphic_rock>.addTooltip(format.red("将正确的石头（9个）以正确的顺序组合，深层维度将指引你"));
+
+
+
+
+
+
+
+
+
+
+
+
 
 <projecte:item.pe_rm_hammer>.addTooltip(format.green("在锻铁板配方中可重复使用"));
 
-<aoa3:weapon_parts>.addTooltip(format.red("发现于赫尔维蒂维度"));
-
-<contenttweaker:baron_gem>.addTooltip(format.red("爵士维度将告诉你如何制作该物品"));
-<contenttweaker:baron_gem>.addTooltip(format.red("名称压印模板可帮助实现该自动化 ;)"));
-
-<bloodmagic:component:22>.addTooltip(format.red("可以通过压印器和名称压印模板重命名物品，从而实现自动化"));
-
-<aoa3:alchemy_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:anima_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:augury_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:butchery_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:creation_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:engineering_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:expedition_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:extraction_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:foraging_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:hauling_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:hunter_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:infusion_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:innervation_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:logging_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:runation_boots>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-
-<aoa3:alchemy_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:anima_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:augury_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:butchery_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:creation_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:engineering_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:expedition_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:extraction_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:foraging_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:hauling_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:hunter_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:infusion_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:innervation_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:logging_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:runation_chestplate>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-
-<aoa3:alchemy_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:anima_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:augury_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:butchery_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:creation_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:engineering_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:expedition_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:extraction_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:foraging_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:hauling_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:hunter_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:infusion_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:innervation_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:logging_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:runation_legs>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-
-<aoa3:alchemy_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:anima_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:augury_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:butchery_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:creation_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:engineering_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:expedition_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:extraction_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:foraging_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:hauling_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:hunter_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:infusion_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:innervation_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:logging_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-<aoa3:runation_helmet>.addTooltip(format.red("发现于第4、5、6、7章的所有维度中的塞尔瑞结构"));
-
-<aoa3:hydrangic_boots>.addTooltip(format.red("发现于花园维度"));
-<aoa3:hydrangic_legs>.addTooltip(format.red("发现于花园维度"));
-<aoa3:hydrangic_chestplate>.addTooltip(format.red("发现于花园维度"));
-<aoa3:hydrangic_helmet>.addTooltip(format.red("发现于花园维度"));
 
 
 
 
-<astralsorcery:blockaltar:3>.addTooltip(format.red("对应的模块化机械多方块拥有更多配方"));
+
+
+
 
 
 <contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("使用配方中的模块化控制器来自动搭建不同燃料反应堆的内部构造！"));

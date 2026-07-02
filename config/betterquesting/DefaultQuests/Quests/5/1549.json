@@ -14,10 +14,42 @@
           }
         }
       },
-      "name:8": "晶体"
+      "name:8": "晶体维度鸡"
     }
   },
   "questID:3": 1549,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:blue_gemstone_egg"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:green_gemstone_egg"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:red_gemstone_egg"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:purple_gemstone_egg"
+        },
+        "4:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:white_gemstone_egg"
+        },
+        "5:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:yellow_gemstone_egg"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

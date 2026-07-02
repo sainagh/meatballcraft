@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "注意：部分强化部件当前无法合成，但后续流程中可以获得",
+      "desc:8": "",
       "icon:10": {
         "Count:3": 1,
         "id:8": "environmentaltech:modifier_luck"
@@ -13,6 +13,18 @@
     }
   },
   "questID:3": 1360,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "environmentaltech:modifier_resistance"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

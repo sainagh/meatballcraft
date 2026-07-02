@@ -139,6 +139,8 @@ recipes.addShapeless(<contenttweaker:dna_primer>*1,
 mods.thermalexpansion.Imbuer.addRecipe(<fluid:binnie.dna.raw>*100, <contenttweaker:dna_primer>*10, <fluid:bio.ethanol>*100, 50);
 
 
+mods.thermalexpansion.Transposer.addFillRecipe(<forestry:peat>*12, <forestry:bee_combs:15>, <fluid:fiery_peat>*100, 100);
+mods.nuclearcraft.infuser.addRecipe([<forestry:bee_combs:15>, <fluid:fiery_peat>*100, <forestry:peat>*12]);
 
 
 

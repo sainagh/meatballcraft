@@ -417,8 +417,106 @@ forgewyvtrinity.addItemInput(<contenttweaker:trinity_ingot>*1);
 forgewyvtrinity.addFluidOutput(<fluid:trinity_ingot>*144);
 forgewyvtrinity.build();
 
+val forgewyvtrinity2 = RecipeBuilder.newBuilder("forgewyvtrinity2","forge_of_the_wyvern",2);
+forgewyvtrinity2.addItemInput(<contenttweaker:chaotic_fulcrum>);
+forgewyvtrinity2.setChance(0.0);
+forgewyvtrinity2.addItemInput(<contenttweaker:trinity_ingot>*10);
+forgewyvtrinity2.addFluidOutput(<fluid:trinity_ingot>*1440);
+forgewyvtrinity2.build();
 
 
+val forgewyvpyrotheum1 = RecipeBuilder.newBuilder("forgewyvpyrotheum1","forge_of_the_wyvern",2);
+forgewyvpyrotheum1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvpyrotheum1.setChance(0.0);
+forgewyvpyrotheum1.addItemInput(<thermalfoundation:material:1024>*5);
+forgewyvpyrotheum1.addFluidOutput(<fluid:pyrotheum>*1250);
+forgewyvpyrotheum1.build();
+
+val forgewyvpyrotheum2 = RecipeBuilder.newBuilder("forgewyvpyrotheum2","forge_of_the_wyvern",2);
+forgewyvpyrotheum2.addItemInput(<contenttweaker:chaotic_fulcrum>);
+forgewyvpyrotheum2.setChance(0.0);
+forgewyvpyrotheum2.addItemInput(<thermalfoundation:material:1024>*50);
+forgewyvpyrotheum2.addFluidOutput(<fluid:pyrotheum>*12500);
+forgewyvpyrotheum2.build();
+
+val forgewyvpyrotheum3 = RecipeBuilder.newBuilder("forgewyvpyrotheum3","forge_of_the_wyvern",2);
+forgewyvpyrotheum3.addItemInput(<contenttweaker:chaotic_nexus>);
+forgewyvpyrotheum3.setChance(0.0);
+forgewyvpyrotheum3.addItemInput(<thermalfoundation:material:1024>*500);
+forgewyvpyrotheum3.addFluidOutput(<fluid:pyrotheum>*125000);
+forgewyvpyrotheum3.build();
+
+
+
+
+val forgewyvpetrotheum1 = RecipeBuilder.newBuilder("forgewyvpetrotheum1","forge_of_the_wyvern",2);
+forgewyvpetrotheum1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvpetrotheum1.setChance(0.0);
+forgewyvpetrotheum1.addItemInput(<thermalfoundation:material:1027>*5);
+forgewyvpetrotheum1.addFluidOutput(<fluid:petrotheum>*1250);
+forgewyvpetrotheum1.build();
+
+val forgewyvpetrotheum2 = RecipeBuilder.newBuilder("forgewyvpetrotheum2","forge_of_the_wyvern",2);
+forgewyvpetrotheum2.addItemInput(<contenttweaker:chaotic_fulcrum>);
+forgewyvpetrotheum2.setChance(0.0);
+forgewyvpetrotheum2.addItemInput(<thermalfoundation:material:1027>*50);
+forgewyvpetrotheum2.addFluidOutput(<fluid:petrotheum>*12500);
+forgewyvpetrotheum2.build();
+
+val forgewyvpetrotheum3 = RecipeBuilder.newBuilder("forgewyvpetrotheum3","forge_of_the_wyvern",2);
+forgewyvpetrotheum3.addItemInput(<contenttweaker:chaotic_nexus>);
+forgewyvpetrotheum3.setChance(0.0);
+forgewyvpetrotheum3.addItemInput(<thermalfoundation:material:1027>*500);
+forgewyvpetrotheum3.addFluidOutput(<fluid:petrotheum>*125000);
+forgewyvpetrotheum3.build();
+
+
+
+
+val forgewyvcryotheum1 = RecipeBuilder.newBuilder("forgewyvcryotheum1","forge_of_the_wyvern",2);
+forgewyvcryotheum1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvcryotheum1.setChance(0.0);
+forgewyvcryotheum1.addItemInput(<thermalfoundation:material:1025>*5);
+forgewyvcryotheum1.addFluidOutput(<fluid:cryotheum>*1250);
+forgewyvcryotheum1.build();
+
+val forgewyvcryotheum2 = RecipeBuilder.newBuilder("forgewyvcryotheum2","forge_of_the_wyvern",2);
+forgewyvcryotheum2.addItemInput(<contenttweaker:chaotic_fulcrum>);
+forgewyvcryotheum2.setChance(0.0);
+forgewyvcryotheum2.addItemInput(<thermalfoundation:material:1025>*50);
+forgewyvcryotheum2.addFluidOutput(<fluid:cryotheum>*12500);
+forgewyvcryotheum2.build();
+
+val forgewyvcryotheum3 = RecipeBuilder.newBuilder("forgewyvcryotheum3","forge_of_the_wyvern",2);
+forgewyvcryotheum3.addItemInput(<contenttweaker:chaotic_nexus>);
+forgewyvcryotheum3.setChance(0.0);
+forgewyvcryotheum3.addItemInput(<thermalfoundation:material:1025>*500);
+forgewyvcryotheum3.addFluidOutput(<fluid:cryotheum>*125000);
+forgewyvcryotheum3.build();
+
+
+
+
+val forgewyvaerotheum1 = RecipeBuilder.newBuilder("forgewyvaerotheum1","forge_of_the_wyvern",2);
+forgewyvaerotheum1.addItemInput(<draconicevolution:chaos_shard:0>);
+forgewyvaerotheum1.setChance(0.0);
+forgewyvaerotheum1.addItemInput(<thermalfoundation:material:1026>*5);
+forgewyvaerotheum1.addFluidOutput(<fluid:aerotheum>*1250);
+forgewyvaerotheum1.build();
+
+val forgewyvaerotheum2 = RecipeBuilder.newBuilder("forgewyvaerotheum2","forge_of_the_wyvern",2);
+forgewyvaerotheum2.addItemInput(<contenttweaker:chaotic_fulcrum>);
+forgewyvaerotheum2.setChance(0.0);
+forgewyvaerotheum2.addItemInput(<thermalfoundation:material:1026>*50);
+forgewyvaerotheum2.addFluidOutput(<fluid:aerotheum>*12500);
+forgewyvaerotheum2.build();
+
+val forgewyvaerotheum3 = RecipeBuilder.newBuilder("forgewyvaerotheum3","forge_of_the_wyvern",2);
+forgewyvaerotheum3.addItemInput(<contenttweaker:chaotic_nexus>);
+forgewyvaerotheum3.setChance(0.0);
+forgewyvaerotheum3.addItemInput(<thermalfoundation:material:1026>*500);
+forgewyvaerotheum3.addFluidOutput(<fluid:aerotheum>*125000);
+forgewyvaerotheum3.build();
 
 
 

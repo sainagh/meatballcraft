@@ -34,7 +34,7 @@
           "id:8": "modularmachinery:safe_fission_leu235_controller"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

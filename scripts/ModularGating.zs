@@ -537,3 +537,132 @@ recipes.addShaped(<modularmachineryaddons:blockwillmultichunkprovideroutput>,
 [[<modularmachinery:itemmodularium>, <bloodmagic:item_demon_crystal:0>, <modularmachinery:itemmodularium>],
 [<bloodmagic:item_demon_crystal:0>, <modularmachinery:blockwillprovideroutput>, <bloodmagic:item_demon_crystal:0>],
 [<modularmachinery:itemmodularium>, <bloodmagic:item_demon_crystal:0>, <modularmachinery:itemmodularium>]]);
+
+
+recipes.addShaped(<modularmachinery:blockmepatternprovider>,
+[[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>],
+[<modularmachinery:blockmeiteminputbus>, <modularmachinery:blockcasing>, <modularmachinery:blockmefluidinputbus>],
+[<modularmachinery:itemmodularium>, <appliedenergistics2:material:47>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachinery:blockmepatternmirrorimage>,
+[[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>],
+[<modularmachinery:blockmeiteminputbus>, <modularmachinery:blockcasing>, <modularmachinery:blockmefluidinputbus>],
+[<modularmachinery:itemmodularium>, <appliedenergistics2:controller>, <modularmachinery:itemmodularium>]]);
+
+
+
+
+recipes.addShaped(<modularmachineryaddons:blocksingularityiteminputbus:0>,
+[[<modularmachinery:itemmodularium>, <cells:singularity_processor:1>, <modularmachinery:itemmodularium>],
+[<cells:compressed_silicon_print:3>, <modularmachinery:blockinputbus:0>, <cells:compressed_silicon_print:3>],
+[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachineryaddons:blocksingularityiteminputbus:1>,
+[[<modularmachinery:itemmodularium>, <cells:singularity_processor:1>, <modularmachinery:itemmodularium>],
+[<cells:compressed_silicon_print:3>, <modularmachineryaddons:blocksingularityiteminputbus:0>, <cells:compressed_silicon_print:3>],
+[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachineryaddons:blocksingularityiteminputbus:2>,
+[[<modularmachinery:itemmodularium>, <cells:singularity_processor:1>, <modularmachinery:itemmodularium>],
+[<cells:compressed_silicon_print:3>, <modularmachineryaddons:blocksingularityiteminputbus:1>, <cells:compressed_silicon_print:3>],
+[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachineryaddons:blocksingularityiteminputbus:3>,
+[[<modularmachinery:itemmodularium>, <cells:singularity_processor:1>, <modularmachinery:itemmodularium>],
+[<cells:compressed_silicon_print:3>, <modularmachineryaddons:blocksingularityiteminputbus:2>, <cells:compressed_silicon_print:3>],
+[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachineryaddons:blocksingularityiteminputbus:4>,
+[[<modularmachinery:itemmodularium>, <cells:singularity_processor:1>, <modularmachinery:itemmodularium>],
+[<cells:compressed_silicon_print:3>, <modularmachineryaddons:blocksingularityiteminputbus:3>, <cells:compressed_silicon_print:3>],
+[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachineryaddons:blocksingularityiteminputbus:5>,
+[[<modularmachinery:itemmodularium>, <cells:singularity_processor:1>, <modularmachinery:itemmodularium>],
+[<cells:compressed_silicon_print:3>, <modularmachineryaddons:blocksingularityiteminputbus:4>, <cells:compressed_silicon_print:3>],
+[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachineryaddons:blocksingularityiteminputbus:6>,
+[[<modularmachinery:itemmodularium>, <cells:singularity_processor:1>, <modularmachinery:itemmodularium>],
+[<cells:compressed_silicon_print:3>, <modularmachineryaddons:blocksingularityiteminputbus:5>, <cells:compressed_silicon_print:3>],
+[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>]]);
+
+
+
+
+
+recipes.addShaped(<modularmachineryaddons:blocksingularityitemoutputbus:0>,
+[[<modularmachinery:itemmodularium>, <cells:singularity_processor:1>, <modularmachinery:itemmodularium>],
+[<cells:compressed_silicon_print:3>, <modularmachinery:blockinputbus:0>, <cells:compressed_silicon_print:3>],
+[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachineryaddons:blocksingularityitemoutputbus:1>,
+[[<modularmachinery:itemmodularium>, <cells:singularity_processor:1>, <modularmachinery:itemmodularium>],
+[<cells:compressed_silicon_print:3>, <modularmachineryaddons:blocksingularityitemoutputbus:0>, <cells:compressed_silicon_print:3>],
+[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachineryaddons:blocksingularityitemoutputbus:2>,
+[[<modularmachinery:itemmodularium>, <cells:singularity_processor:1>, <modularmachinery:itemmodularium>],
+[<cells:compressed_silicon_print:3>, <modularmachineryaddons:blocksingularityitemoutputbus:1>, <cells:compressed_silicon_print:3>],
+[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachineryaddons:blocksingularityitemoutputbus:3>,
+[[<modularmachinery:itemmodularium>, <cells:singularity_processor:1>, <modularmachinery:itemmodularium>],
+[<cells:compressed_silicon_print:3>, <modularmachineryaddons:blocksingularityitemoutputbus:2>, <cells:compressed_silicon_print:3>],
+[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachineryaddons:blocksingularityitemoutputbus:4>,
+[[<modularmachinery:itemmodularium>, <cells:singularity_processor:1>, <modularmachinery:itemmodularium>],
+[<cells:compressed_silicon_print:3>, <modularmachineryaddons:blocksingularityitemoutputbus:3>, <cells:compressed_silicon_print:3>],
+[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachineryaddons:blocksingularityitemoutputbus:5>,
+[[<modularmachinery:itemmodularium>, <cells:singularity_processor:1>, <modularmachinery:itemmodularium>],
+[<cells:compressed_silicon_print:3>, <modularmachineryaddons:blocksingularityitemoutputbus:4>, <cells:compressed_silicon_print:3>],
+[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>]]);
+
+recipes.addShaped(<modularmachineryaddons:blocksingularityitemoutputbus:6>,
+[[<modularmachinery:itemmodularium>, <cells:singularity_processor:1>, <modularmachinery:itemmodularium>],
+[<cells:compressed_silicon_print:3>, <modularmachineryaddons:blocksingularityitemoutputbus:5>, <cells:compressed_silicon_print:3>],
+[<modularmachinery:itemmodularium>, <threng:material:0>, <modularmachinery:itemmodularium>]]);
+
+
+
+recipes.addShapeless(<modularmachineryaddons:blocksingularityiteminputbus:0>,
+[<modularmachineryaddons:blocksingularityitemoutputbus:0>]);
+recipes.addShapeless(<modularmachineryaddons:blocksingularityitemoutputbus:0>,
+[<modularmachineryaddons:blocksingularityiteminputbus:0>]);
+
+
+recipes.addShapeless(<modularmachineryaddons:blocksingularityiteminputbus:1>,
+[<modularmachineryaddons:blocksingularityitemoutputbus:1>]);
+recipes.addShapeless(<modularmachineryaddons:blocksingularityitemoutputbus:1>,
+[<modularmachineryaddons:blocksingularityiteminputbus:1>]);
+
+
+recipes.addShapeless(<modularmachineryaddons:blocksingularityiteminputbus:2>,
+[<modularmachineryaddons:blocksingularityitemoutputbus:2>]);
+recipes.addShapeless(<modularmachineryaddons:blocksingularityitemoutputbus:2>,
+[<modularmachineryaddons:blocksingularityiteminputbus:2>]);
+
+recipes.addShapeless(<modularmachineryaddons:blocksingularityiteminputbus:3>,
+[<modularmachineryaddons:blocksingularityitemoutputbus:3>]);
+recipes.addShapeless(<modularmachineryaddons:blocksingularityitemoutputbus:3>,
+[<modularmachineryaddons:blocksingularityiteminputbus:3>]);
+
+recipes.addShapeless(<modularmachineryaddons:blocksingularityiteminputbus:4>,
+[<modularmachineryaddons:blocksingularityitemoutputbus:4>]);
+recipes.addShapeless(<modularmachineryaddons:blocksingularityitemoutputbus:4>,
+[<modularmachineryaddons:blocksingularityiteminputbus:4>]);
+
+recipes.addShapeless(<modularmachineryaddons:blocksingularityiteminputbus:5>,
+[<modularmachineryaddons:blocksingularityitemoutputbus:5>]);
+recipes.addShapeless(<modularmachineryaddons:blocksingularityitemoutputbus:5>,
+[<modularmachineryaddons:blocksingularityiteminputbus:5>]);
+
+recipes.addShapeless(<modularmachineryaddons:blocksingularityiteminputbus:6>,
+[<modularmachineryaddons:blocksingularityitemoutputbus:6>]);
+recipes.addShapeless(<modularmachineryaddons:blocksingularityitemoutputbus:6>,
+[<modularmachineryaddons:blocksingularityiteminputbus:6>]);
+
+

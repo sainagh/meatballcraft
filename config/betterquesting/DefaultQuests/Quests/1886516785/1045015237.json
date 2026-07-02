@@ -45,7 +45,7 @@
           "id:8": "contenttweaker:foraging_loot_table"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

@@ -757,7 +757,7 @@ recipes.removeShaped(<cells:import_interface>);
 mods.extendedcrafting.TableCrafting.addShaped(<cells:import_interface>, 
 [[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>], 
 [null, null, <extendedcrafting:material:8>, null, null], 
-[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:44>, <appliedenergistics2:material:12>, <appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>], 
+[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:44>, <cells:singularity_processor:2>, <appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>], 
 [null, null, <appliedenergistics2:part:240>, null, null], 
 [<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
 
@@ -765,7 +765,7 @@ recipes.removeShaped(<cells:import_fluid_interface>);
 mods.extendedcrafting.TableCrafting.addShaped(<cells:import_fluid_interface>, 
 [[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>], 
 [null, null, <extendedcrafting:material:8>, null, null], 
-[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:44>, <appliedenergistics2:material:12>, <appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>], 
+[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:44>, <cells:singularity_processor:2>, <appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>], 
 [null, null, <appliedenergistics2:part:241>, null, null], 
 [<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
 
@@ -773,7 +773,7 @@ recipes.removeShaped(<cells:export_interface>);
 mods.extendedcrafting.TableCrafting.addShaped(<cells:export_interface>, 
 [[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>], 
 [null, null, <extendedcrafting:material:8>, null, null], 
-[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>, <appliedenergistics2:quartz_glass>], 
+[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>, <cells:singularity_processor:2>, <appliedenergistics2:material:43>, <appliedenergistics2:quartz_glass>], 
 [null, null, <appliedenergistics2:part:260>, null, null], 
 [<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
 
@@ -781,7 +781,7 @@ recipes.removeShaped(<cells:export_fluid_interface>);
 mods.extendedcrafting.TableCrafting.addShaped(<cells:export_fluid_interface>, 
 [[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>], 
 [null, null, <extendedcrafting:material:8>, null, null], 
-[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>, <appliedenergistics2:quartz_glass>], 
+[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>, <cells:singularity_processor:2>, <appliedenergistics2:material:43>, <appliedenergistics2:quartz_glass>], 
 [null, null, <appliedenergistics2:part:261>, null, null], 
 [<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
 
@@ -1032,7 +1032,7 @@ recipes.removeShaped(<cells:export_essentia_interface>);
 mods.extendedcrafting.TableCrafting.addShaped(<cells:export_essentia_interface>, 
 [[<extendedcrafting:material:16>, null, <thaumcraft:jar_normal>, null, <extendedcrafting:material:16>], 
 [null, null, <extendedcrafting:material:8>, null, null], 
-[<thaumcraft:jar_normal>, <appliedenergistics2:material:43>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>, <thaumcraft:jar_normal>], 
+[<thaumcraft:jar_normal>, <appliedenergistics2:material:43>, <cells:singularity_processor:2>, <appliedenergistics2:material:43>, <thaumcraft:jar_normal>], 
 [null, null, <thaumicenergistics:essentia_export>, null, null], 
 [<extendedcrafting:material:16>, null, <thaumcraft:jar_normal>, null, <extendedcrafting:material:16>]]); 
 
@@ -1041,7 +1041,7 @@ recipes.removeShaped(<cells:import_essentia_interface>);
 mods.extendedcrafting.TableCrafting.addShaped(<cells:import_essentia_interface>, 
 [[<extendedcrafting:material:16>, null, <thaumcraft:jar_normal>, null, <extendedcrafting:material:16>], 
 [null, null, <extendedcrafting:material:8>, null, null], 
-[<thaumcraft:jar_normal>, <appliedenergistics2:material:44>, <appliedenergistics2:material:12>, <appliedenergistics2:material:44>, <thaumcraft:jar_normal>], 
+[<thaumcraft:jar_normal>, <appliedenergistics2:material:44>, <cells:singularity_processor:2>, <appliedenergistics2:material:44>, <thaumcraft:jar_normal>], 
 [null, null, <thaumicenergistics:essentia_import>, null, null], 
 [<extendedcrafting:material:16>, null, <thaumcraft:jar_normal>, null, <extendedcrafting:material:16>]]); 
 
@@ -1059,5 +1059,10 @@ recipes.addShaped(<cells:push_card>,
 [<minecraft:piston>, <modularrouters:blank_module>, <minecraft:piston>]]);
 
 
+
+recipes.addShaped(<nae2:part:1>,
+[[<appliedenergistics2:material:52>, <appliedenergistics2:interface>, <appliedenergistics2:material:52>],
+[<appliedenergistics2:material:52>, <appliedenergistics2:part:460>, <appliedenergistics2:material:52>],
+[<appliedenergistics2:material:52>, <cells:compressed_silicon_print>, <appliedenergistics2:material:52>]]);
 
 

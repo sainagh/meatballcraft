@@ -40,7 +40,7 @@
           "id:8": "contenttweaker:high_capacity_heat_exchanger"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

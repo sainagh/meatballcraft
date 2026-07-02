@@ -14,10 +14,22 @@
           }
         }
       },
-      "name:8": "纯净"
+      "name:8": "纯净鸡"
     }
   },
   "questID:3": 1548,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:pure_egg"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

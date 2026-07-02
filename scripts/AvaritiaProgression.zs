@@ -680,6 +680,11 @@ recipes.addShapeless(<contenttweaker:eleint_scale>,
 [<aoa3:shadow_sword>.withTag({display: {Lore:["§d§o极・超限附魔§r"]}}).reuse(),
 <ore:dragonScaleItem>]);
 
+recipes.addShapeless(<aoa3:shadow_sword>.withTag({display: {Lore:["§d§o极・超限附魔§r"]}}),
+[<aoa3:shadow_sword>.withTag({display: {Lore:["§d§o极・超限附魔§r"]}}).reuse(),
+<aoa3:shadow_sword>,
+<contenttweaker:astral_insight_100>]);
+
 
 recipes.addShapeless(
     "multiplydustinfinitewishesbett",dustinfinitewishes,
@@ -807,6 +812,7 @@ recipes.addShaped(<avaritia:skullfire_sword>,
 [[<minecraft:blaze_powder>, <ore:ingotTitanium>, <minecraft:blaze_powder>],
 [<erebus:materials:66>, <ore:ingotTitanium>, <erebus:materials:66>],
 [<minecraft:blaze_powder>, <ore:obsidianRod>, <minecraft:blaze_powder>]]);
+
 
 
 

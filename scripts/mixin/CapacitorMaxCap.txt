@@ -1,0 +1,21 @@
+#modloaded astralsorcery
+#loader mixin
+
+
+/*
+See StatsConfig.zs in this folder for values.
+*/
+
+#mixin {value: "crazypants.enderio.base.capacitor.CapacitorHelper"}
+zenClass MixinCapacitorHelper {
+    #mixin Static
+    #mixin ModifyConstant
+    #{
+    #    method: "getNBTCapacitorDataFromItemStack",
+    #    constant: {intValue: 10}
+    #}
+    function change_capacitor_cap(original as int) as int {
+        return 45;
+    }
+    
+}

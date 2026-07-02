@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o欢迎来到第2章！\n\n§7§o魔法精通标签页中提供了每种魔法模组的流程信息！\n\n§f果然！魔力确实是提升力量的关键！现在我能制作更强力的机器了！",
+      "desc:8": "§7§o欢迎来到第2章！\n\n§7§o如果你是1.12魔法模组的老手，直接去做上面的任务就行，剩下的自己搞定！\n\n如果你更想要引导，§c魔法精通§7§o标签页中提供了每种魔法模组的流程信息！\n\n§f果然！魔力确实是提升力量的关键！现在我能制作更强力的机器了！",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
@@ -60,7 +60,7 @@
           "id:8": "contenttweaker:how_to_finish_meatballcraft"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

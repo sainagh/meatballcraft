@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "提供干草块时，鸡舍能收集一定范围内的鸡的产物。",
+      "desc:8": "§7§o提供干草块时，鸡舍能收集一定范围内的鸡的产物。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "chickens:henhouse"
@@ -13,6 +13,18 @@
     }
   },
   "questID:3": 20426,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:egg"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o输入接口可通过物品与流体传输方式，将物品和流体直接导入你的ME网络。\n\n输入接口仅接收已设置过滤的物品与流体。\n\n可使用升级卡，以销毁未设置过滤的物品，或销毁溢出物品。",
+      "desc:8": "§7§o输入接口可通过物品与流体传输方式，将物品和流体直接导入你的ME网络。\n\n输入接口仅接收已设置过滤的物品与流体。\n\n可使用升级卡，以销毁未设置过滤的物品，或溢出销毁、自动推送。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "cells:import_interface"
@@ -25,6 +25,14 @@
         "1:10": {
           "Count:3": 4,
           "id:8": "cells:import_fluid_interface"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "cells:import_essentia_interface"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "id:8": "cells:import_combined_interface"
         }
       }
     }
@@ -40,6 +48,14 @@
         "1:10": {
           "Count:3": 1,
           "id:8": "cells:import_interface"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "cells:import_essentia_interface"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "cells:import_combined_interface"
         }
       },
       "taskID:8": "bq_standard:retrieval"

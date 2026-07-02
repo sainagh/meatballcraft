@@ -25,7 +25,7 @@ castcons4.addItemOutput(<contenttweaker:adamantium_ingot>);
 castcons4.build();
 
 val castcons5 = RecipeBuilder.newBuilder("castcons5","seared_caster",20);
-castcons5.addFluidInput(<fluid:whisper_of_right_and_just_creation>*10);
+castcons5.addFluidInput(<fluid:whisper_of_right_and_just_creation>*600);
 castcons5.addItemInput(<contenttweaker:trinity_ingot>);
 castcons5.addItemOutput(<contenttweaker:trinity_bar>*2);
 castcons5.build();
@@ -110,6 +110,8 @@ castcons18.addFluidInput(<fluid:pure_fluix_matter>*50000);
 castcons18.addItemInput(<contenttweaker:ascended_sky_stone>*1);
 castcons18.addItemOutput(<contenttweaker:pure_fluix_geode>*1);
 castcons18.build();
+
+
 
 
 
@@ -582,6 +584,26 @@ castcouch66.setChance(0.0);
 castcouch66.addItemOutput(<contenttweaker:shard_of_humble_education>);
 castcouch66.build();
 
+val castcouch67 = RecipeBuilder.newBuilder("castcouch67","seared_caster",20);
+castcouch67.addFluidInput(<fluid:rarified_fluix_matter>*100000);
+castcouch67.addItemInput(<tconstruct:cast:0>);
+castcouch67.setChance(0.0);
+castcouch67.addItemOutput(<appliedenergistics2:material:12>*400);
+castcouch67.build();
+
+val castcouch68 = RecipeBuilder.newBuilder("castcouch68","seared_caster",20);
+castcouch68.addFluidInput(<fluid:minted_fluix_matter>*200000);
+castcouch68.addItemInput(<tconstruct:cast:0>);
+castcouch68.setChance(0.0);
+castcouch68.addItemOutput(<appliedenergistics2:material:12>*1600);
+castcouch68.build();
+
+val castcouch69 = RecipeBuilder.newBuilder("castcouch69","seared_caster",20);
+castcouch69.addFluidInput(<fluid:bas>*666);
+castcouch69.addItemInput(<tconstruct:cast_custom:2>);
+castcouch69.setChance(0.0);
+castcouch69.addItemOutput(<nuclearcraft:gem:5>*1);
+castcouch69.build();
 
 
 

@@ -554,4 +554,175 @@ zenClass MixinRegistryPerks {
     }
 
 
+
+    #mixin Static
+    #mixin ModifyConstant
+    #{
+    #    method: "initializeOuterEvorsioPerks",
+    #    constant: {floatValue: 1.02F},
+    #    slice: {
+    #        from: {value: "CONSTANT", args: "stringValue=ev_gem_path"},
+    #        to:   {value: "CONSTANT", args: "stringValue=ev_gem_path_1"}
+    #    }
+    #}
+    function mbc_modify_perkEff_EvorsioOuter0(original as float) as float {
+        return CFG.perkEff_EvorsioOuter0;
+    }
+
+    #mixin Static
+    #mixin ModifyConstant
+    #{
+    #    method: "initializeOuterEvorsioPerks",
+    #    constant: {floatValue: 1.02F},
+    #    slice: {
+    #        from: {value: "CONSTANT", args: "stringValue=ev_gem_path_1"},
+    #        to:   {value: "CONSTANT", args: "stringValue=ev_gem_slot"}
+    #    }
+    #}
+    function mbc_modify_perkEff_EvorsioOuter1(original as float) as float {
+        return CFG.perkEff_EvorsioOuter1;
+    }
+
+    #mixin Static
+    #mixin ModifyConstant
+    #{
+    #    method: "initializeOuterAevitasPerks",
+    #    constant: {floatValue: 1.02F},
+    #    slice: {
+    #        from: {value: "CONSTANT", args: "stringValue=life_gem_path"},
+    #        to:   {value: "CONSTANT", args: "stringValue=life_gem_path_1"}
+    #    }
+    #}
+    function mbc_modify_perkEff_AevitasOuter0(original as float) as float {
+        return CFG.perkEff_AevitasOuter0;
+    }
+
+    #mixin Static
+    #mixin ModifyConstant
+    #{
+    #    method: "initializeOuterAevitasPerks",
+    #    constant: {floatValue: 1.02F},
+    #    slice: {
+    #        from: {value: "CONSTANT", args: "stringValue=life_gem_path_1"},
+    #        to:   {value: "CONSTANT", args: "stringValue=life_gem_slot"}
+    #    }
+    #}
+    function mbc_modify_perkEff_AevitasOuter1(original as float) as float {
+        return CFG.perkEff_AevitasOuter1;
+    }
+
+    #mixin Static
+    #mixin ModifyConstant
+    #{
+    #    method: "initializeVicioKeyPerks",
+    #    constant: {floatValue: 0.05F},
+    #    slice: {
+    #        from: {value: "CONSTANT", args: "stringValue=major_ats_inc_ats"},
+    #        to:   {value: "CONSTANT", args: "stringValue=major_ats_inc_ats_1"}
+    #    }
+    #}
+    function mbc_modify_atkSpeed_VicioKey0(original as float) as float {
+        return CFG.atkSpeed_VicioKey0;
+    }
+
+    #mixin Static
+    #mixin ModifyConstant
+    #{
+    #    method: "initializeVicioKeyPerks",
+    #    constant: {floatValue: 0.05F},
+    #    slice: {
+    #        from: {value: "CONSTANT", args: "stringValue=major_ats_inc_ats_1"},
+    #        to:   {value: "CONSTANT", args: "stringValue=major_increased_ats_zeal"}
+    #    }
+    #}
+    function mbc_modify_atkSpeed_VicioKey1(original as float) as float {
+        return CFG.atkSpeed_VicioKey1;
+    }
+
+
+    #mixin Static
+    #mixin ModifyConstant
+    #{
+    #    method: "initializeVicioKeyPerks",
+    #    constant: {floatValue: 0.15F},
+    #    slice: {
+    #        from: {value: "CONSTANT", args: "stringValue=major_increased_ats_zeal"},
+    #        to:   {value: "CONSTANT", args: "stringValue=base_inc_perkeffect_t3_7"}
+    #    }
+    #}
+    function mbc_modify_atkSpeed_VicioKey2(original as float) as float {
+        return CFG.atkSpeed_VicioKey2;
+    }
+
+    #mixin Static
+    #mixin ModifyConstant
+    #{
+    #    method: "initializeEvorsioBranch",
+    #    constant: {floatValue: 1.1F},
+    #    slice: {
+    #        from: {value: "CONSTANT", args: "stringValue=not_evo_hrv_ats"},
+    #        to:   {value: "CONSTANT", args: "stringValue=med_inc_hrv_speed_2"}
+    #    }
+    #}
+    function mbc_modify_atkSpeed_EvorsioBranch0(original as float) as float {
+        return CFG.atkSpeed_EvorsioBranch0;
+    }
+
+    #mixin Static
+    #mixin ModifyConstant
+    #{
+    #    method: "initializeDiscidiaBranch",
+    #    constant: {floatValue: 0.1F},
+    #    slice: {
+    #        from: {value: "CONSTANT", args: "stringValue=med_inc_proj_damage"},
+    #        to:   {value: "CONSTANT", args: "stringValue=med_inc_proj_damage_1"}
+    #    }
+    #}
+    function mbc_modify_damage_DiscidiaBranch0(original as float) as float {
+        return CFG.damage_DiscidiaBranch0;
+    }
+
+    #mixin Static
+    #mixin ModifyConstant
+    #{
+    #    method: "initializeDiscidiaBranch",
+    #    constant: {floatValue: 0.1F},
+    #    slice: {
+    #        from: {value: "CONSTANT", args: "stringValue=med_inc_proj_damage_1"},
+    #        to:   {value: "CONSTANT", args: "stringValue=not_dsc_proj_crit"}
+    #    }
+    #}
+    function mbc_modify_damage_DiscidiaBranch1(original as float) as float {
+        return CFG.damage_DiscidiaBranch1;
+    }
+
+    #mixin Static
+    #mixin ModifyConstant
+    #{
+    #    method: "initializeDiscidiaBranch",
+    #    constant: {floatValue: 1.05F},
+    #    slice: {
+    #        from: {value: "CONSTANT", args: "stringValue=not_dsc_proj_crit"},
+    #        to:   {value: "CONSTANT", args: "stringValue=med_inc_melee_damage"}
+    #    }
+    #}
+    function mbc_modify_damage_Sniper(original as float) as float {
+        return CFG.damage_Sniper;
+    }
+
+
+    #mixin Static
+    #mixin ModifyConstant
+    #{
+    #    method: "initializeDiscidiaRoot",
+    #    constant: {floatValue: 1.05F},
+    #    slice: {
+    #        from: {value: "CONSTANT", args: "stringValue=major_inc_damage"}
+    #    }
+    #}
+    function mbc_modify_damage_precision(original as float) as float {
+        return CFG.damage_Precision;
+    }
+
+
 }
