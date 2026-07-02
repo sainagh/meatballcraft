@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o以下板块按进度阶段对所有可用的匠魂材料进行了分类，分为优异、良好和一般三个等级。\n\n材料的评级可能会随着玩家反馈和新构筑的发现而调整，因此这里的分类可能会重新排列。",
+      "desc:8": "§7§o以下板块按进度阶段对所有可用的匠魂材料进行了分类，分为“优异”、“良好”和“一般”三个等级。\n\n不必完成本节中的所有任务，它们只是为了方便追踪进度  :)",
       "icon:10": {
         "Count:3": 1,
         "id:8": "tconstruct:toolforge",
@@ -20,6 +20,30 @@
     }
   },
   "questID:3": 490258798,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond_ore"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_ore"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:cobblestone"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:planks"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

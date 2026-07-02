@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o想要更高效地破坏方块？\n\n那你来对地方了，看看下面这些建议吧！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:iron_pickaxe"
@@ -13,6 +13,18 @@
     }
   },
   "questID:3": 1883,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:anvil"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

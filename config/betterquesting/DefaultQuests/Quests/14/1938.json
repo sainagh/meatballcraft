@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o可配置的建筑手杖，能从EMC网络中抽取物品。\n\n在本包中，建筑小帮手也有这个功能，但是墨丘利之眼能够放置巨量的方块。",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -22,6 +22,19 @@
     }
   },
   "questID:3": 1938,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "projecte:item.pe_matter"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "ignoreNBT:1": 1,

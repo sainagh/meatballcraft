@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o能复制、粘贴建筑。\n\n也可使用模板和模板管理器加载网上其他人分享的建筑。",
+      "desc:8": "§7§o能复制、粘贴建筑。\n\n按V键在“复制”和“粘贴”模式之间切换。\n\n在“复制”模式下，右击选择要复制的起始方块，Shift+右击选择要复制的终点方块。Shift+右击空气可重置或修改模板。\n\n在“粘贴”模式下，右击粘贴结构。Shift+右击空气可更改粘贴结构的相对位置。按V键可旋转或固定粘贴的结构。\n\n你也可以通过模板管理器和模板，加载从网上找到的结构。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "buildinggadgets:copypastetool",
@@ -17,6 +17,18 @@
     }
   },
   "questID:3": 1937,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:emerald_ore"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "ignoreNBT:1": 1,

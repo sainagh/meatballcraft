@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o可使用任意材料制作均可完成本任务。\n\n匠魂锤能以3x3的范围破坏石头和矿物，在前期非常方便。\n\n随后可以转用毁灭燧石和催化水晶。",
+      "desc:8": "§7§o可使用任意材料制作均可完成本任务。\n\n匠魂锤能以3x3的范围破坏石头和矿物，在前期非常方便。\n\n随后你可能想转用毁灭燧石和催化水晶。",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -81,6 +81,18 @@
     }
   },
   "questID:3": 1885,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "contenttweaker:bloodhunter_modifier"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "ignoreNBT:1": 1,

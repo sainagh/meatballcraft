@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o在#无EMC挑战中非常有用。\n\n概率掉落深渊国度维度的物质，兼容使用者",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:dreadful_harvester"
@@ -13,6 +13,26 @@
     }
   },
   "questID:3": 2017794284,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:abyssal_wasteland_matter"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:dreadlands_matter"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:omothol_matter"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

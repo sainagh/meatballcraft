@@ -5,15 +5,32 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o这是你的万能工具！\n\n你将长期使用其中一件工具来进行常规的破坏工作。",
+      "desc:8": "§7§o这是你的万能工具！\n\n配上金刚杵，既能用来挖各种东西，也能作为日常工具使用。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "divinerpg:divine_shickaxe"
       },
-      "name:8": "锹镐斧之力"
+      "name:8": "锹镐斧之力",
+      "tasklogic:8": "OR"
     }
   },
   "questID:3": 1887,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "divinerpg:rupee_ore"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "divinerpg:arlemite_ore"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
