@@ -1,30 +1,25 @@
 {
-  "preRequisiteTypes:7": [
-    1,
-    1
-  ],
   "preRequisites:11": [
-    471525021,
-    1809800621
+    572887915
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o对，这玩意也能当剪刀用……",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "divinerpg:storm_sword"
+        "id:8": "aoa3:rosidian_greatblade"
       },
-      "name:8": "风暴之剑"
+      "name:8": "升级加成：伊恩巨剑"
     }
   },
-  "questID:3": 8988015,
+  "questID:3": 1439689720,
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "divinerpg:storm_sword"
+          "id:8": "aoa3:rosidian_greatblade"
         }
       },
       "taskID:8": "bq_standard:retrieval"
