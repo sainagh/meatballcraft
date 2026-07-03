@@ -1,0 +1,147 @@
+{
+  "preRequisites:11": [
+    1569647533
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o可使用任意附魔书完成该任务。\n\n可选检索任务中列出了无需解锁的良好级剑类魔咒。\n\n对于每种魔咒，JEI会显示在原版铁砧上应用的限制。\n\n有一些方法可以绕过这个限制；你可以查阅§c创造之书§7§o以了解各种可用工具的说明。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:enchanted_book",
+        "tag:10": {
+          "StoredEnchantments:9": {
+            "0:10": {
+              "id:3": 16,
+              "lvl:2": 5
+            }
+          }
+        }
+      },
+      "name:8": "[值得注意]剑类魔咒"
+    }
+  },
+  "questID:3": 679934973,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:enchanted_book",
+          "tag:10": {
+            "StoredEnchantments:9": {
+              "0:10": {
+                "id:3": 16,
+                "lvl:2": 5
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_sharpness"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_knockback"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_fire_aspect"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_looting"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_sweeping_edge"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_unbreaking"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_mending"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_reaper"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_experience_boost"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_xp_boost"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_plague_bringer"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_decay"
+        },
+        "12:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_poisonous"
+        },
+        "13:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_venom"
+        },
+        "14:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_lifesteal"
+        },
+        "15:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_soul_stealer"
+        },
+        "16:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_leech"
+        },
+        "17:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_lifeleech"
+        },
+        "18:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_insight"
+        },
+        "19:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_critical_boost"
+        },
+        "20:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_focused_strike"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

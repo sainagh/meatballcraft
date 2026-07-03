@@ -1,0 +1,33 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    2025561076,
+    1809800621
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:shaddy_slab"
+      },
+      "name:8": "黑精灵"
+    }
+  },
+  "questID:3": 275452699,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:shaddy_slab"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

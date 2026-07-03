@@ -1,4 +1,8 @@
 {
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
   "preRequisites:11": [
     1479261109,
     81569973
@@ -37,6 +41,18 @@
     }
   },
   "questID:3": 391464995,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:gold_coin"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
@@ -47,7 +63,7 @@
           "tag:10": {
             "AttributeModifiers:9": {
               "0:10": {
-                "Amount:3": 400,
+                "Amount:3": 80,
                 "AttributeName:8": "generic.attackDamage",
                 "Name:8": "generic.attackDamage",
                 "Operation:3": 0,

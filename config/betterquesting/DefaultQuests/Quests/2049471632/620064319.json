@@ -1,11 +1,15 @@
 {
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
   "preRequisites:11": [
     1569647533,
     81569973
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o巫术学的法术十分强力，尤其是进阶和大师级的。\n\n法杖在使用一定次数后，可以使用奥法宝典进行升级。\n\n与巫师交易可以算是一种“跳过”部分升级的好办法……",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ebwizardry:magic_wand"
@@ -14,6 +18,18 @@
     }
   },
   "questID:3": 620064319,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:gold_coin"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
