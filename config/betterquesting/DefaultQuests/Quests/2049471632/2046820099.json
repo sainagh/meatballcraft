@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o本章节的任务书列出了整合包每个阶段所有可用的武器选项。\n\n§c该任务章节仍在完善中，尚未列出所有可用选项！",
+      "desc:8": "§7§o本章节的任务书列出了整合包每个阶段所有可用的武器选项。\n\n它是按层级构建的，分为“优异”、“良好”、“一般”。每个类别内无特定顺序。\n\n不必完成本节中的所有任务，它们只是为了方便追踪进度  :)\n\n§c该任务章节仍在完善中，尚未列出所有可用选项！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:sword_of_truth"
@@ -13,6 +13,26 @@
     }
   },
   "questID:3": 2046820099,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond_ore"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_ore"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:cobblestone"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
