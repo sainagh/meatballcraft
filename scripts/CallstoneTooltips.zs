@@ -117,6 +117,7 @@
 <contenttweaker:key_of_actualization>.addTooltip(format.red("Use in this dimension:  Kashan"));
 <contenttweaker:magicbane_callstone>.addTooltip(format.red("Use in this dimension:  Creeponia"));
 <contenttweaker:time_lords_callstone>.addTooltip(format.red("Use in this dimension:  Gallifrey"));
+<contenttweaker:call_of_the_berserker>.addTooltip(format.red("Use in this dimension:  Barathos"));
 
 
 

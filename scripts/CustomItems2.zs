@@ -5130,6 +5130,11 @@ fabrialofreclaimedtime.maxStackSize = 64;
 fabrialofreclaimedtime.beaconPayment = false;
 fabrialofreclaimedtime.register();
 
+var tinybrickwall = VanillaFactory.createItem("tiny_brick_wall");
+tinybrickwall.maxStackSize = 64;
+tinybrickwall.beaconPayment = false;
+tinybrickwall.register();
+
 
 
 

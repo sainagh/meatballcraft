@@ -22,6 +22,23 @@
           "Count:3": 6,
           "Damage:2": 4,
           "id:8": "nuclearcraft:fuel_uranium"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 10,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 60,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:bloodmaster_tome"
+            },
+            "TrophyName:8": "Bloodmastering",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
         }
       }
     }

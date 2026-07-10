@@ -23503,6 +23503,10 @@
     {
       "item": "contenttweaker:chunky_sand_pile|0",
       "emc": 1024
+    },
+    {
+      "item": "contenttweaker:tiny_brick_wall|0",
+      "emc": 1024
     }
   ]
 }

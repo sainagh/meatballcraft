@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    1236
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oA cell version of the Personal EMC link. It infinitely stocks a single item from your EMC network.\n\nThe Refined and Compressed Cards upgrade it to stock 9 and 54 items.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cells:emc_cell",
+        "tag:10": {
+          "EmcOwnerLeast:4": -5903828338681376133,
+          "EmcOwnerMost:4": -8342885232664559613,
+          "EmcOwnerName:8": "meatballcraft"
+        }
+      },
+      "name:8": "EMC Storage Cell"
+    }
+  },
+  "questID:3": 1734508669,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cells:emc_cell",
+          "tag:10": {
+            "EmcOwnerLeast:4": -5903828338681376133,
+            "EmcOwnerMost:4": -8342885232664559613,
+            "EmcOwnerName:8": "meatballcraft"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "cells:emc_capacity_card"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "cells:emc_capacity_card"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

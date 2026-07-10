@@ -2319,6 +2319,10 @@ witcherysummons.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon bewitchment:snake ~ ~ ~", player, world, false, true);
     Commands.call("summon bewitchment:snake ~ ~ ~", player, world, false, true);
 
+    Commands.call("summon bewitchment:black_dog ~ ~ ~", player, world, false, true);
+    Commands.call("summon bewitchment:black_dog ~ ~ ~", player, world, false, true);
+    Commands.call("summon bewitchment:black_dog ~ ~ ~", player, world, false, true);
+
     Commands.call("summon bewitchment:ghost ~ ~ ~", player, world, false, true);
     Commands.call("summon bewitchment:ghost ~ ~ ~", player, world, false, true);
     Commands.call("summon bewitchment:ghost ~ ~ ~", player, world, false, true);
@@ -5528,7 +5532,7 @@ cleanroomcertificate.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("/tellraw @a {\"text\":\"Click here to access the Pack Optimization Wiki\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/sainagh/meatballcraft/wiki/%5B0.18.4%5D-Improving-Performance\"}}", player, world, false, true);
+    Commands.call("/tellraw @a {\"text\":\"Click here to access the Pack Optimization Wiki\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/sainagh/meatballcraft/wiki/%5B0.18.6%5D-Improving-Performance\"}}", player, world, false, true);
     stack.shrink(1);
     return "PASS";
 
@@ -6074,3 +6078,8 @@ emeraldcompass.itemRightClick = function(stack, world, player, hand) {
 
 };
 emeraldcompass.register();
+
+
+
+
+

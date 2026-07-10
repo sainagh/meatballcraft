@@ -270,6 +270,15 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:grayscale>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:white_bangs>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:blue_planet>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:crystevia_geode>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:crimson_metal_ingot>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+
+<contenttweaker:trinity_ingot>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:trinity_ingot>.addTooltip(format.red("Thanks to cry for molten fluid textures!"));
+
+
+<contenttweaker:totally_real_tardis>.addTooltip(format.red("Mizzy did not achieve eternal glory"));
 
 
 
@@ -286,62 +295,6 @@ import crafttweaker.item.IItemCondition;
 
 
 
-
-<contenttweaker:recurrent_complex_overeorldcondition>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:controllermanual_bloodmastertome_trophy>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:villagestarrain>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:shaderbagloot>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:electroblobtimestopamulet>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:thaumcraftcloudspells>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:neromaticprimeveins>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn"));
-
-<contenttweaker:itemblacklists>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:soulvaillostcities>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:laststandformula>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:blueprints>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:apothecarybeemorestuffs>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:aoadimensionsrandomloot>.addTooltip(format.red("Hammer Materials: Chaotic Tool Rod, Infinity Hammer, Vibranium Alloy left Plate, Ascended Draconic right Plate"));
-
-<contenttweaker:getaoaxplevelsfromusingspecifictools>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:neuralconnector>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:dragonslayer3x3modes>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:creditsforendings>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:add_dog_to_witchery_recursivepaper>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:master_spell_spawndragons>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:monousepress_upgrade>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:jeiloot_treasurebox_runebox>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:wireless_energy_hatches>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:advanced_me_hatches>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:luna_dimension_drops>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:make_luna_bees_real>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:subnet_proxies>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:arbiter_fragment_dupe>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:myrmex_anthill_callstone_exploit>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
 
 
 

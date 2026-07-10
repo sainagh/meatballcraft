@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oThe level emitter can be configured to output a signal whenever the quantity of a given item is above or below a threshold. \nCrafting cards can be added to make the level emitter produce a redstone signal whenever an item is being crafted.",
+      "desc:8": "§7§oThe level emitter can be configured to output a signal whenever the quantity of a given item is above or below a threshold. \nCrafting cards can be added to make the level emitter produce a redstone signal whenever an item is being crafted.\n\nThe storage version can be configured to include multiple items, and some level of logic.",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 280,
@@ -40,6 +40,14 @@
           "Count:3": 1,
           "Damage:2": 281,
           "id:8": "appliedenergistics2:part"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "ae2powertools:storage_level_emitter"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "ae2powertools:storage_level_emitter_part"
         }
       },
       "taskID:8": "bq_standard:retrieval"

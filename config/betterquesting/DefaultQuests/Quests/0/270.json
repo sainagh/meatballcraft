@@ -21,6 +21,23 @@
         "0:10": {
           "Count:3": 8,
           "id:8": "draconicevolution:dragon_heart"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 140,
+            "TrophyColorGreen:3": 100,
+            "TrophyColorRed:3": 250,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:draconic_key"
+            },
+            "TrophyName:8": "The Key is Draconic",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
         }
       }
     }

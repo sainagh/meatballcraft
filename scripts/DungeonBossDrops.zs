@@ -242,7 +242,10 @@ recipes.addShapeless(<aoa3:creep_statue>,
 [<contenttweaker:boss_drop>, <aoa3:explosive_gems>, <aoa3:creep_altar>]);
 
 recipes.addShapeless(<aoa3:kror_statue>, 
-[<contenttweaker:boss_drop>, <aoa3:boulder_dash>, <aoa3:kror_altar>]);
+[<contenttweaker:boss_drop>, <aoa3:boulder_dash>, <aoa3:kror_altar>, <aoa3:charging_table>]);
+
+recipes.addShapeless(<contenttweaker:kror_sediment>, 
+[<contenttweaker:boss_drop>, <aoa3:boulder_dash>, <aoa3:kror_altar>, <aoa3:charging_table>]);
 
 recipes.addShapeless(<aoa3:voxxulon_statue>, 
 [<contenttweaker:boss_drop>, <aoa3:vile_stone>, <aoa3:voxxulon_altar>]);
@@ -362,7 +365,7 @@ recipes.addShapeless(<divinerpg:skythern_heart>,
 [<contenttweaker:boss_drop>, <divinerpg:apalachia_block>]);
 
 recipes.addShapeless(<contenttweaker:sigil_flame>, 
-[<contenttweaker:trader_drop>, <extrautils2:teleporter:1>]);
+[<contenttweaker:trader_drop>, <extrautils2:teleporter:1>, <contenttweaker:unfathomable_breaker>]);
 
 
 recipes.addShapeless(<contenttweaker:gem_of_the_sleeping_city>, 
@@ -857,6 +860,9 @@ recipes.addShapeless(<contenttweaker:energy_hive>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:orbital_callstone>]);
 
 recipes.addShapeless(<contenttweaker:ineffable_light>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
+recipes.addShapeless(<contenttweaker:perfected_imbuement_essence>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
 
 recipes.addShapeless(<contenttweaker:kobblin_earth>, 
@@ -2085,6 +2091,8 @@ recipes.addShapeless(<aoa3:vulcane_augment_wither>,
 recipes.addShapeless(<aoa3:coralstorm_sword>, 
 [<contenttweaker:trader_drop>, <minecraft:sand>]);
 
+recipes.addShapeless(<contenttweaker:elusive_horn>,
+[<contenttweaker:boss_drop>, <aoa3:illusion_altar>, <aoa3:staring_eye>]);
 
 
 

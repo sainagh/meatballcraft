@@ -206,11 +206,11 @@
 <nuclearcraft:salt_fission_heater>.addTooltip(format.gold("Use:"));
 <nuclearcraft:salt_fission_heater>.addTooltip(format.yellow("  Works like a fluid pipe inside a salt reactor, to process NaK Coolants"));
 <nuclearcraft:salt_fission_heater>.addTooltip(format.yellow("  Click on each face to configure it"));
-<nuclearcraft:salt_fission_heater>.addTooltip(format.yellow("  Shift + click on a configured Vessel to place another Vessel with the same configuration"));
+<nuclearcraft:salt_fission_heater>.addTooltip(format.yellow("  Shift + click on a configured Coolant Heater to place another Coolant Heater with the same configuration"));
 <nuclearcraft:salt_fission_heater>.addTooltip(format.gold("Settings for each face:"));
 <nuclearcraft:salt_fission_heater>.addTooltip(format.yellow("  - DEFAULT: input fluids"));
 <nuclearcraft:salt_fission_heater>.addTooltip(format.yellow("  - COOLANT SPREAD: moves input fluid to other heaters, used to connect multiple adjacent heaters into a chain"));
-<nuclearcraft:salt_fission_heater>.addTooltip(format.yellow("  - HOT COOLANT OUT: moves output fluid to out of a Vessel chain, used as the output of the final heater in a chain"));
+<nuclearcraft:salt_fission_heater>.addTooltip(format.yellow("  - HOT COOLANT OUT: moves output fluid to out of a Coolant Heater chain, used as the output of the final heater in a chain"));
 <nuclearcraft:salt_fission_heater>.addTooltip(format.yellow("  - DISABLED: fluid is not transfered, used for faces touching the walls of a reactor, or touching Fuel Vessels"));
 <nuclearcraft:salt_fission_heater>.addTooltip(format.gold("Tips:"));
 <nuclearcraft:salt_fission_heater>.addTooltip(format.yellow("  JEI shows multiblock previews for safe Salt Reactor designs for each fuel"));
@@ -293,7 +293,7 @@
 
 
 <actuallyadditions:block_phantom_energyface>.addTooltip(format.gold("Use:"));
-<actuallyadditions:block_phantom_energyface>.addTooltip(format.yellow("  Allows fluid transfer at a distance"));
+<actuallyadditions:block_phantom_energyface>.addTooltip(format.yellow("  Allows energy transfer at a distance"));
 <actuallyadditions:block_phantom_energyface>.addTooltip(format.yellow("  Use the phantom connector to bind to a machine within 16 blocks"));
 <actuallyadditions:block_phantom_energyface>.addTooltip(format.yellow("  Place a phantom booster on top to increase range (one for 32 blocks, two for 64, three for 128)"));
 
@@ -482,6 +482,8 @@
 <contenttweaker:cleanroom_certificate>.addTooltip(format.gold("Tips:"));
 <contenttweaker:cleanroom_certificate>.addTooltip(format.yellow("  Meatballcraft's performance can be improved using Java 25!"));
 <contenttweaker:cleanroom_certificate>.addTooltip(format.yellow("  Right click this item for a tutorial!"));
+<contenttweaker:cleanroom_certificate>.addTooltip(format.white("------------------"));
+<contenttweaker:cleanroom_certificate>.addTooltip(format.green("Thanks to NerdySPider for the texture!"));
 
 
 
@@ -513,7 +515,7 @@
 
 
 <contenttweaker:sashimi_of_the_gate_of_darkness>.addTooltip(format.green("They who achieved eternal glory:"));
-<contenttweaker:sashimi_of_the_gate_of_darkness>.addTooltip(format.green("Soren(he/any) & Arch (team) (first before Cosmic Balance)"));
+<contenttweaker:sashimi_of_the_gate_of_darkness>.addTooltip(format.green("Soren(he/any) & Arch (team) (first pre-balance dragnipur)"));
 
 
 
@@ -950,7 +952,7 @@
 
 <aoa3:mecha_skellox_slab>.addTooltip(format.gold("Use:"));
 <aoa3:mecha_skellox_slab>.addTooltip(format.yellow("  Right click on a block to summon a pet, it will help you in combat"));
-<aoa3:mecha_skellox_slab>.addTooltip(format.yellow("      Corby: 1'000'000 HP, 50'000 Damage"));
+<aoa3:mecha_skellox_slab>.addTooltip(format.yellow("      Mecha Skellox: 1'000'000 HP, 50'000 Damage"));
 <aoa3:mecha_skellox_slab>.addTooltip(format.yellow("  Right click on the Creation Forge to gain 8000 Creation XP"));
 <aoa3:mecha_skellox_slab>.addTooltip(format.darkRed("NOTES:"));
 <aoa3:mecha_skellox_slab>.addTooltip(format.red("  The cap for the number of pets summoned by Slabs is 10, but it can bug out sometimes"));
@@ -973,11 +975,11 @@
 
 
 <buildinggadgets:exchangertool>.addTooltip(format.gold("Use:"));
-<buildinggadgets:exchangertool>.addTooltip(format.yellow("  Lets you copy and paste structures."));
-<buildinggadgets:exchangertool>.addTooltip(format.yellow("  Press V to change between 'Copy' and 'Paste' mode."));
-<buildinggadgets:exchangertool>.addTooltip(format.yellow("  While in 'Copy' mode, Right Click to select the START block to copy and Shift + Right click to select the END block to copy. Shift + Right Click the air to reset or modify a template."));
-<buildinggadgets:exchangertool>.addTooltip(format.yellow("  While in 'Paste' mode, Right Click to paste a structure. Shift + Right Click the Air to change the relative positioning of the pasted structure. Press V to rotate or anchor the pasted structure."));
-<buildinggadgets:exchangertool>.addTooltip(format.yellow("  You can also load structures from the internet using the template manager and templates."));
+<buildinggadgets:exchangertool>.addTooltip(format.yellow("  Lets you replace blocks without having to break and replace them."));
+<buildinggadgets:exchangertool>.addTooltip(format.yellow("  Shift + Right Click to selct the target block type."));
+<buildinggadgets:exchangertool>.addTooltip(format.yellow("  Right click a block to replace an area with given shape and size with the target block"));
+<buildinggadgets:exchangertool>.addTooltip(format.yellow("  Press V to change the shape and size of the affected area."));
+<buildinggadgets:exchangertool>.addTooltip(format.yellow("  'Fuzzy' ON replaces all blocks in the area, 'Fuzzy' OFF only replaces one block type"));
 
 
 
@@ -1679,7 +1681,7 @@
 <contenttweaker:nuclear_engineers_goggles>.addTooltip(format.gold("Tips:"));
 <contenttweaker:nuclear_engineers_goggles>.addTooltip(format.yellow("  Nuclear wastelands are radioactive!"));
 <contenttweaker:nuclear_engineers_goggles>.addTooltip(format.yellow("  For now, stay away from them!"));
-<contenttweaker:nuclear_engineers_goggles>.addTooltip(format.yellow("  Later on, youl'll be able to craft higher and higher tiers of Radiation Shielding"));
+<contenttweaker:nuclear_engineers_goggles>.addTooltip(format.yellow("  Later on, you'll be able to craft higher and higher tiers of Radiation Shielding"));
 <contenttweaker:nuclear_engineers_goggles>.addTooltip(format.white("------------------"));
 <contenttweaker:nuclear_engineers_goggles>.addTooltip(format.green("Thanks to NerdySpider for the texture!"));
 
@@ -1892,7 +1894,7 @@
 <contenttweaker:abyssal_wasteland_warp_cleanser>.addTooltip(format.yellow("  Removes 20 temporary and 20 normal warp"));
 
 <contenttweaker:dreading_warp_cleanser>.addTooltip(format.darkAqua("Obtained:"));
-<contenttweaker:dreading_warp_cleanser>.addTooltip(format.aqua("  can be found in the Dreadlands dimension"));
+<contenttweaker:dreading_warp_cleanser>.addTooltip(format.aqua("  Can be found in the Dreadlands dimension"));
 <contenttweaker:dreading_warp_cleanser>.addTooltip(format.gold("Use:"));
 <contenttweaker:dreading_warp_cleanser>.addTooltip(format.yellow("  Removes 20 permanent warp"));
 
@@ -2172,13 +2174,10 @@
 
 
 
-<contenttweaker:druden_horn>.addTooltip(format.red("Obtained from the Rite of Spiritual Shift in forest biomes"));
-<contenttweaker:druden_horn>.addTooltip(format.red("Works if a biome contains the words 'forest', 'dense', 'coniferous', 'magical', 'spooky'"));
-<contenttweaker:druden_horn>.addTooltip(format.red("Check uses for spectral dust to see a preview of the ritual"));
 
 
 <contenttweaker:druden_horn>.addTooltip(format.darkAqua("Obtained:"));
-<contenttweaker:druden_horn>.addTooltip(format.aqua("  Dropped by drudens, an extre rare mob in the Overworld"));
+<contenttweaker:druden_horn>.addTooltip(format.aqua("  Dropped by drudens, a rare mob in the Overworld"));
 <contenttweaker:druden_horn>.addTooltip(format.aqua("  It can be summoned using the Rite of Spiritual Shift in biomes with the following keywords:"));
 <contenttweaker:druden_horn>.addTooltip(format.aqua("      'forest', 'dense', 'coniferous', 'magical', 'spooky'"));
 <contenttweaker:druden_horn>.addTooltip(format.aqua("  Check uses for spectral dust to see a preview of the ritual"));
@@ -2465,8 +2464,14 @@
 
 
 <appliedenergistics2:interface>.addTooltip(format.gold("Use:"));
-<appliedenergistics2:interface>.addTooltip(format.yellow("  Takes processing patterns for autocrafting using generic machines, and can be set to stock its inventory from items in the ME System."));
+<appliedenergistics2:interface>.addTooltip(format.yellow("  Autocrafting:"));
+<appliedenergistics2:interface>.addTooltip(format.yellow("  - Place next to a molecular assembler or any processing machine"));
+<appliedenergistics2:interface>.addTooltip(format.yellow("  - Place a pattern into its pattern slot with the desired encoded recipe"));
+<appliedenergistics2:interface>.addTooltip(format.yellow("  Sending and receiving items:"));
+<appliedenergistics2:interface>.addTooltip(format.yellow("  - The top slots can be used to stock specific items, that are accessible to item transfer"));
 <appliedenergistics2:interface>.addTooltip(format.yellow("  Also sends any items it receives back into the ME system."));
+<appliedenergistics2:interface>.addTooltip(format.gold("Tips:"));
+<appliedenergistics2:interface>.addTooltip(format.yellow("  Multiple interfaces with the same recipes can be used for faster autocrafting, but the Interface p2p lets you copy an interface without having to encode the same patterns"));
 <appliedenergistics2:interface>.addTooltip(format.darkRed("NOTES:"));
 <appliedenergistics2:interface>.addTooltip(format.red("  For sending and receiving items to/from automations, the Import and Export Interfaces are recommended"));
 
@@ -2476,9 +2481,15 @@
 <appliedenergistics2:fluid_interface>.addTooltip(format.red("  For sending and receiving fluids to/from automations, the Import and Export Interfaces are recommended"));
 
 <ae2fc:dual_interface>.addTooltip(format.gold("Use:"));
-<ae2fc:dual_interface>.addTooltip(format.yellow("  A Interface and Fluid Interface in one block."));
-<ae2fc:dual_interface>.addTooltip(format.yellow("  It can use patterns that contain both items and fluids (in Droplet form from the Fluid Discretizer)."));
-<ae2fc:dual_interface>.addTooltip(format.yellow("  If you use recipes of this type, place the interface next to a Buffer from AE2 Fluid Crafting to separate fluids and items"));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  Autocrafting:"));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  - Place next to a molecular assembler or any processing machine"));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  - Place a pattern into its pattern slot with the desired encoded recipe, it can include both items and fluids"));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  - If you use recipes with both, place the interface next to a Buffer from AE2 Fluid Crafting to separate fluids and items"));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  Sending and receiving items:"));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  - The top slots can be used to stock specific items, that are accessible to item transfer"));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  Also sends any items it receives back into the ME system."));
+<ae2fc:dual_interface>.addTooltip(format.gold("Tips:"));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  Multiple interfaces with the same recipes can be used for faster autocrafting, but the Interface p2p lets you copy an interface without having to encode the same patterns"));
 <ae2fc:dual_interface>.addTooltip(format.darkRed("NOTES:"));
 <ae2fc:dual_interface>.addTooltip(format.red("  For sending and receiving fluids to/from automations, the Import and Export Interfaces are recommended"));
 

@@ -414,7 +414,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:dense_gravitite_ore>.addTooltip(format.red("Found with Advanced Rocketry Asteroid Mining Missions"));
 
-<aoa3:amphibiyte_lung>.addTooltip(format.red("Found on the Amphibiyte Coves in beach biomes in the overworld"));
 
 <techreborn:fusion_control_computer>.addTooltip(format.red("You can right click the coils on the controller to place them automatically"));
 
@@ -2845,10 +2844,8 @@ import crafttweaker.item.IItemCondition;
 
 
 
-<packagedauto:packager>.addTooltip(format.red("To set up autocrafting, use the following order: ME cable > packager > unpackager > package crafter or other machine, this consumes two channels"));
 <packagedauto:unpackager>.addTooltip(format.red("To set up autocrafting, use the following order: ME cable > packager > unpackager > package crafter or other machine, this consumes two channels"));
 
-<packagedauto:packager>.addTooltip(format.red("Each packager-unpackager pair can encode up to 20 different recipes"));
 <packagedauto:unpackager>.addTooltip(format.red("Each packager-unpackager pair can encode up to 20 different recipes"));
 
 <bloodmagic:blood_orb>.addTooltip(format.red("Right click to bind to your player"));

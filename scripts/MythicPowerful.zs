@@ -2103,19 +2103,19 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 		[<bewitchment:belladonna>, <aoa3:padded_cloth>, <aoa3:hazmat_boots>, <aoa3:padded_cloth>, <bewitchment:belladonna>], 
 		[null, <extrabees:honey_comb:21>, <aoa3:padded_cloth>, <extrabees:honey_comb:21>, null], 
 		[<thebetweenlands:items_misc:25>, null, <bewitchment:belladonna>, null, <thebetweenlands:items_misc:25>]]);
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:hazmat_legs>.withTag({Unbreakable: 1 as byte, ncRadiationResistance: 10.0, display: {Name:"§6§oBoots of the Fallen Legion§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistFallenLegion).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:hazmat_legs>.withTag({Unbreakable: 1 as byte, ncRadiationResistance: 10.0, display: {Name:"§6§oLeggings of the Fallen Legion§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistFallenLegion).getItem(), 
 		[[<thebetweenlands:items_misc:25>, null, <bewitchment:belladonna>, null, <thebetweenlands:items_misc:25>], 
 		[null, <extrabees:honey_comb:21>, <aoa3:padded_cloth>, <extrabees:honey_comb:21>, null], 
 		[<bewitchment:belladonna>, <aoa3:padded_cloth>, <aoa3:hazmat_legs>, <aoa3:padded_cloth>, <bewitchment:belladonna>], 
 		[null, <extrabees:honey_comb:21>, <aoa3:padded_cloth>, <extrabees:honey_comb:21>, null], 
 		[<thebetweenlands:items_misc:25>, null, <bewitchment:belladonna>, null, <thebetweenlands:items_misc:25>]]);
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:hazmat_chestplate>.withTag({Unbreakable: 1 as byte, ncRadiationResistance: 10.0, display: {Name:"§6§oBoots of the Fallen Legion§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistFallenLegion).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:hazmat_chestplate>.withTag({Unbreakable: 1 as byte, ncRadiationResistance: 10.0, display: {Name:"§6§oChestplate of the Fallen Legion§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistFallenLegion).getItem(), 
 		[[<thebetweenlands:items_misc:25>, null, <bewitchment:belladonna>, null, <thebetweenlands:items_misc:25>], 
 		[null, <extrabees:honey_comb:21>, <aoa3:padded_cloth>, <extrabees:honey_comb:21>, null], 
 		[<bewitchment:belladonna>, <aoa3:padded_cloth>, <aoa3:hazmat_chestplate>, <aoa3:padded_cloth>, <bewitchment:belladonna>], 
 		[null, <extrabees:honey_comb:21>, <aoa3:padded_cloth>, <extrabees:honey_comb:21>, null], 
 		[<thebetweenlands:items_misc:25>, null, <bewitchment:belladonna>, null, <thebetweenlands:items_misc:25>]]);
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:hazmat_helmet>.withTag({Unbreakable: 1 as byte, ncRadiationResistance: 10.0, display: {Name:"§6§oBoots of the Fallen Legion§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistFallenLegion).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:hazmat_helmet>.withTag({Unbreakable: 1 as byte, ncRadiationResistance: 10.0, display: {Name:"§6§oHelmet of the Fallen Legion§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistFallenLegion).getItem(), 
 		[[<thebetweenlands:items_misc:25>, null, <bewitchment:belladonna>, null, <thebetweenlands:items_misc:25>], 
 		[null, <extrabees:honey_comb:21>, <aoa3:padded_cloth>, <extrabees:honey_comb:21>, null], 
 		[<bewitchment:belladonna>, <aoa3:padded_cloth>, <aoa3:hazmat_helmet>, <aoa3:padded_cloth>, <bewitchment:belladonna>], 

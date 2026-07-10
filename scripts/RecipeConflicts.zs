@@ -2797,3 +2797,8 @@ recipes.addShapeless(<minecraft:golden_carrot>,
 
 recipes.addShapeless(<minecraft:iron_ingot>,
 [<contenttweaker:chunky_sand_pile>]);
+
+recipes.addShapeless(<minecraft:golden_carrot>,
+[<contenttweaker:tiny_brick_wall>]);
+
+recipes.remove(<thermalexpansion:morb:*>);

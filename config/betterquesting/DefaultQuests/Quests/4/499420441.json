@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    1227
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oA combination of the Export and Import interfaces in the same block.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cells:io_item_interface"
+      },
+      "name:8": "I/O Interface"
+    }
+  },
+  "questID:3": 499420441,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "cells:io_essentia_interface"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "cells:io_item_interface"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "cells:io_fluid_interface"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cells:io_item_interface"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "cells:io_fluid_interface"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "cells:io_essentia_interface"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

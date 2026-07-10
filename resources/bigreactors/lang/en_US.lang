@@ -48,8 +48,8 @@ tile.bigreactors:turbinerotorshaft.name=Extreme Turbine Rotor Shaft
 tile.bigreactors:turbinerotorblade.name=Extreme Turbine Rotor Blade 
 
 # Blocks - turbine parts 
-tile.bigreactors:turbineglass.basic.name=Extreme Extreme Turbine Glass 
-tile.bigreactors:turbinehousing.basic.name=Turbine Housing 
+tile.bigreactors:turbineglass.basic.name=Extreme Turbine Glass 
+tile.bigreactors:turbinehousing.basic.name=Extreme Turbine Housing 
 tile.bigreactors:turbinecontroller.basic.name=Extreme Turbine Controller 
 tile.bigreactors:turbinepowertaprf.basic.name=Extreme Turbine Redstone Flux Power Tap 
 tile.bigreactors:turbinepowertaptesla.basic.name=Extreme Turbine Tesla Power Tap 

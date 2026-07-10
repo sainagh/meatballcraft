@@ -28,6 +28,128 @@
 <contenttweaker:tabula_rasa>.addTooltip(format.green("Thanks and meme tooltips go here"));
 
 
+<appliedenergistics2:material:52>.addTooltip(format.gold("Use:"));
+<appliedenergistics2:material:52>.addTooltip(format.yellow("  Used to encode crafting and processing recipes for autocrafting"));
+<appliedenergistics2:material:52>.addTooltip(format.yellow("  Use the Pattern terminal to encode the desired recipe"));
+<appliedenergistics2:material:52>.addTooltip(format.yellow("  When placed in an Interface, it will allow to autocraft from any terminal"));
+
+
+
+
+
+<ae2fc:fluid_discretizer>.addTooltip(format.gold("Use:"));
+<ae2fc:fluid_discretizer>.addTooltip(format.yellow("  Place one Fluid Discretizer in your AE2 network to be able to use fluids in your autocrafting recipes"));
+<ae2fc:fluid_discretizer>.addTooltip(format.yellow("  This will introduce 'Fluid Droplet' items that correspond to 1 mB for the corresponding fluid"));
+<ae2fc:fluid_discretizer>.addTooltip(format.darkRed("NOTES:"));
+<ae2fc:fluid_discretizer>.addTooltip(format.red("  If you encode a recipe using both fluids and items using a Dual Interface, you will need a Buffer between the interface and machine to separate fluids and items"));
+
+
+
+
+
+<packagingprovider:packaging_provider>.addTooltip(format.gold("Use:"));
+<packagingprovider:packaging_provider>.addTooltip(format.yellow("  A combined version of the Packager and Unpackager in a single block"));
+<packagingprovider:packaging_provider>.addTooltip(format.yellow("  Highly recommended for endgame and postgame passive setups"));
+
+
+
+<packagedauto:encoder>.addTooltip(format.gold("Use:"));
+<packagedauto:encoder>.addTooltip(format.yellow("  PackagedAuto allows the autocrafting of recipes that use more than 9 different inputs, and Extended Crafting specifically"));
+<packagedauto:encoder>.addTooltip(format.yellow("  To encode Package recipes:"));
+<packagedauto:encoder>.addTooltip(format.yellow("  - Place two Package Recipe Holders in the Package Recipe Encoder"));
+<packagedauto:encoder>.addTooltip(format.yellow("  - Encode the recipes you want (up to 20 for each Holder pair) and 'Save'"));
+<packagedauto:encoder>.addTooltip(format.yellow("  To set up autocrafting:"));
+<packagedauto:encoder>.addTooltip(format.yellow("  - Place this configuration: [Packager] > [Unpackager] > [Package Crafter or other machine]"));
+<packagedauto:encoder>.addTooltip(format.yellow("  - Insert the two Holders into the Packager and Unpackager"));
+<packagedauto:encoder>.addTooltip(format.yellow("  - For extra speed, multiple Package Crafters can be placed on all sides of the Unpackager, and Proxies can be placed around the Packager."));
+<packagedauto:encoder>.addTooltip(format.yellow("      Check the multiblock preview for Package Crafters for suggestions on placement"));
+<packagedauto:encoder>.addTooltip(format.darkRed("WARNINGS:"));
+<packagedauto:encoder>.addTooltip(format.red("  Do not put inside bags, it can cause corruptions"));
+
+
+
+
+<packagedauto:recipe_holder>.addTooltip(format.gold("Use:"));
+<packagedauto:recipe_holder>.addTooltip(format.yellow("  PackagedAuto allows the autocrafting of recipes that use more than 9 different inputs, and Extended Crafting specifically"));
+<packagedauto:recipe_holder>.addTooltip(format.yellow("  To encode Package recipes:"));
+<packagedauto:recipe_holder>.addTooltip(format.yellow("  - Place two Package Recipe Holders in the Package Recipe Encoder"));
+<packagedauto:recipe_holder>.addTooltip(format.yellow("  - Encode the recipes you want (up to 20 for each Holder pair) and 'Save'"));
+<packagedauto:recipe_holder>.addTooltip(format.yellow("  To set up autocrafting:"));
+<packagedauto:recipe_holder>.addTooltip(format.yellow("  - Place this configuration: [Packager] > [Unpackager] > [Package Crafter or other machine]"));
+<packagedauto:recipe_holder>.addTooltip(format.yellow("  - Insert the two Holders into the Packager and Unpackager"));
+<packagedauto:recipe_holder>.addTooltip(format.yellow("  - For extra speed, multiple Package Crafters can be placed on all sides of the Unpackager, and Proxies can be placed around the Packager."));
+<packagedauto:recipe_holder>.addTooltip(format.yellow("      Check the multiblock preview for Package Crafters for suggestions on placement"));
+<packagedauto:recipe_holder>.addTooltip(format.darkRed("WARNINGS:"));
+<packagedauto:recipe_holder>.addTooltip(format.red("  Do not put inside bags, it can cause corruptions"));
+
+
+
+<packagedauto:packager>.addTooltip(format.gold("Use:"));
+<packagedauto:packager>.addTooltip(format.yellow("  PackagedAuto allows the autocrafting of recipes that use more than 9 different inputs, and Extended Crafting specifically"));
+<packagedauto:packager>.addTooltip(format.yellow("  To encode Package recipes:"));
+<packagedauto:packager>.addTooltip(format.yellow("  - Place two Package Recipe Holders in the Package Recipe Encoder"));
+<packagedauto:packager>.addTooltip(format.yellow("  - Encode the recipes you want (up to 20 for each Holder pair) and 'Save'"));
+<packagedauto:packager>.addTooltip(format.yellow("  To set up autocrafting:"));
+<packagedauto:packager>.addTooltip(format.yellow("  - Place this configuration: [Packager] > [Unpackager] > [Package Crafter or other machine]"));
+<packagedauto:packager>.addTooltip(format.yellow("  - Insert the two Holders into the Packager and Unpackager"));
+<packagedauto:packager>.addTooltip(format.yellow("  - For extra speed, multiple Package Crafters can be placed on all sides of the Unpackager, and Proxies can be placed around the Packager."));
+<packagedauto:packager>.addTooltip(format.yellow("      Check the multiblock preview for Package Crafters for suggestions on placement"));
+<packagedauto:packager>.addTooltip(format.gold("Tips:"));
+<packagedauto:packager>.addTooltip(format.yellow("  This setup can also be used for passive automation:"));
+<packagedauto:packager>.addTooltip(format.yellow("  - You can use any item transfer to push and pull items and packages into and out of the Packager, Unpackager, and Crafter. Check the 'Passive PackagedAuto' JEI info box for more info"));
+<packagedauto:packager>.addTooltip(format.yellow("  - You can set up a subnet with the Better Level Maintainer. Check the 'Passive Crafting Subnets' JEI info box for more info"));
+
+
+
+<packagedauto:unpackager>.addTooltip(format.gold("Use:"));
+<packagedauto:unpackager>.addTooltip(format.yellow("  PackagedAuto allows the autocrafting of recipes that use more than 9 different inputs, and Extended Crafting specifically"));
+<packagedauto:unpackager>.addTooltip(format.yellow("  To encode Package recipes:"));
+<packagedauto:unpackager>.addTooltip(format.yellow("  - Place two Package Recipe Holders in the Package Recipe Encoder"));
+<packagedauto:unpackager>.addTooltip(format.yellow("  - Encode the recipes you want (up to 20 for each Holder pair) and 'Save'"));
+<packagedauto:unpackager>.addTooltip(format.yellow("  To set up autocrafting:"));
+<packagedauto:unpackager>.addTooltip(format.yellow("  - Place this configuration: [Packager] > [Unpackager] > [Package Crafter or other machine]"));
+<packagedauto:unpackager>.addTooltip(format.yellow("  - Insert the two Holders into the Packager and Unpackager"));
+<packagedauto:unpackager>.addTooltip(format.yellow("  - For extra speed, multiple Package Crafters can be placed on all sides of the Unpackager, and Proxies can be placed around the Packager."));
+<packagedauto:unpackager>.addTooltip(format.yellow("      Check the multiblock preview for Package Crafters for suggestions on placement"));
+<packagedauto:unpackager>.addTooltip(format.gold("Tips:"));
+<packagedauto:unpackager>.addTooltip(format.yellow("  This setup can also be used for passive automation:"));
+<packagedauto:unpackager>.addTooltip(format.yellow("  - You can use any item transfer to push and pull items and packages into and out of the Packager, Unpackager, and Crafter. Check the 'Passive PackagedAuto' JEI info box for more info"));
+<packagedauto:unpackager>.addTooltip(format.yellow("  - You can set up a subnet with the Better Level Maintainer. Check the 'Passive Crafting Subnets' JEI info box for more info"));
+
+
+
+
+
+
+
+
+
+
+<contenttweaker:tiny_brick_wall>.addTooltip(format.gold("Tips:"));
+<contenttweaker:tiny_brick_wall>.addTooltip(format.yellow("  Meatballcraft progression will occasionally have 'wall recipes'"));
+<contenttweaker:tiny_brick_wall>.addTooltip(format.yellow("  These recipes will 'force' you to complete a certain amount of content that comes from 'side quests'"));
+<contenttweaker:tiny_brick_wall>.addTooltip(format.yellow("  Eventually, all quests in 'Dimensional Ascension' will need completing"));
+<contenttweaker:tiny_brick_wall>.addTooltip(format.yellow("  It is up to you to complete them as you play, or to wait until they become absolutely necessary"));
+
+
+
+
+<aoa3:amphibiyte_lung>.addTooltip(format.darkAqua("Obtained:"));
+<aoa3:amphibiyte_lung>.addTooltip(format.aqua("  Found on the Amphibiyte Coves in beach biomes in the overworld"));
+<aoa3:amphibiyte_lung>.addTooltip(format.gold("Use:"));
+<aoa3:amphibiyte_lung>.addTooltip(format.yellow("  Drop in the Ocean to summon Corallus"));
+
+
+
+<contenttweaker:corallus_polyp>.addTooltip(format.darkAqua("Obtained:"));
+<contenttweaker:corallus_polyp>.addTooltip(format.aqua("  Drop an Ampibiyte Lung in the Ocean"));
+
+<contenttweaker:kror_sediment>.addTooltip(format.darkAqua("Obtained:"));
+<contenttweaker:kror_sediment>.addTooltip(format.aqua("  Place a Charging Table on top of the Kror Altar, and click with a Boulder Dash"));
+
+<contenttweaker:elusive_horn>.addTooltip(format.darkAqua("Obtained:"));
+<contenttweaker:elusive_horn>.addTooltip(format.aqua("  Click a Staring Eye on an Illusion Altar"));
+
 
 
 
@@ -127,7 +249,7 @@
 
 
 <contenttweaker:tardis_polyp>.addTooltip(format.white("------------------"));
-<contenttweaker:tardis_polyp>.addTooltip(format.green("Hello from your future self! What you're doing right now matters. Every sidestep you take is as important as the last. Savor every weird mechanic and enjoy every second."));
+<contenttweaker:tardis_polyp>.addTooltip(format.green("Hello from your future self! What you're doing right now matters. Every sidestep you take is as important as the last. Soak in the lore, savor weird mechanics, and play for play's sake. This pack is full of joy at every stage—including yours."));
 <contenttweaker:tardis_polyp>.addTooltip(format.green("- Soren & Arch"));
 
 

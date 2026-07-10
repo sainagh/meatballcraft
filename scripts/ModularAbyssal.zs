@@ -126,13 +126,13 @@ cra11.addItemInput(<minecraft:ender_eye>);
 cra11.addItemOutput(<abyssalcraft:oc>);
 cra11.build();
 
-val cra12 = RecipeBuilder.newBuilder("cra12","sterilized_altar",400);
-cra12.addEnergyPerTickInput(1200);
-cra12.addFluidInput(<fluid:liquid_pe>*1000);
-cra12.addItemInput(<abyssalcraft:oblivionshard>);
-cra12.addItemInput(<minecraft:iron_bars>*8);
-cra12.addItemOutput(<abyssalcraft:interdimensionalcage>);
-cra12.build();
+//val cra12 = RecipeBuilder.newBuilder("cra12","sterilized_altar",400);
+//cra12.addEnergyPerTickInput(1200);
+//cra12.addFluidInput(<fluid:liquid_pe>*1000);
+//cra12.addItemInput(<abyssalcraft:oblivionshard>);
+//cra12.addItemInput(<minecraft:iron_bars>*8);
+//cra12.addItemOutput(<abyssalcraft:interdimensionalcage>);
+//cra12.build();
 
 val cra13 = RecipeBuilder.newBuilder("cra13","sterilized_altar",400);
 cra13.addEnergyPerTickInput(1200);

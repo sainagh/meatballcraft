@@ -77,3 +77,11 @@ recipes.addShaped(<abyssalcraft:carboncluster>*64,
 [[<extrabees:misc:18>, <abyssalcraft:crystal:3>, <extrabees:misc:18>],
 [<abyssalcraft:crystal:3>, <extrabees:misc:1>, <abyssalcraft:crystal:3>],
 [<extrabees:misc:18>, <abyssalcraft:crystal:3>, <extrabees:misc:18>]]);
+
+
+
+
+
+mods.abyssalcraft.CreationRitual.removeRitual(<abyssalcraft:interdimensionalcage>);
+
+mods.abyssalcraft.CreationRitual.removeRitual(<abyssalcraft:interdimensionalcage>.withTag({PotEnergy: 0.0 as float}));

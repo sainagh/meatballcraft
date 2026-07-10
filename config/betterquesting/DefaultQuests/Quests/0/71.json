@@ -22,6 +22,23 @@
           "Count:3": 1,
           "Damage:2": 31,
           "id:8": "contenttweaker:material_part"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 100,
+            "TrophyColorRed:3": 250,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:controller_manual"
+            },
+            "TrophyName:8": "Control Freak",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
         }
       }
     }

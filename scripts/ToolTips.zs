@@ -1847,7 +1847,6 @@
 
 <contenttweaker:withering_fabrial>.addTooltip(format.red("Use Wither boss Mob Souls"));
 
-<ae2fc:dual_interface>.addTooltip(format.red("Use Ingredient Buffers to handle both items and fluids in autocrafts"));
 
 <ae2fc:ingredient_buffer>.addTooltip(format.red("Can be placed in between a Dual Interface and the machine you want to autocraft to handle both items and fluids"));
 <ae2fc:large_ingredient_buffer>.addTooltip(format.red("Can be placed in between a Dual Interface and the machine you want to autocraft to handle both items and fluids"));
@@ -2004,12 +2003,7 @@
 
 <contenttweaker:ritual_of_the_sleeper>.addTooltip(format.red("Ignore the structure voids, they are there to show empty spots in the JEI recipe"));
 
-<packagedauto:recipe_holder>.addTooltip(format.red("WARNING: do not put inside bags, it can cause corruptions"));
 
-<ae2exttable:basic_crafting_terminal>.addTooltip(format.red("Thanks to 0xC4DE for making these!"));
-<ae2exttable:advanced_crafting_terminal>.addTooltip(format.red("Thanks to 0xC4DE for making these!"));
-<ae2exttable:elite_crafting_terminal>.addTooltip(format.red("Thanks to 0xC4DE for making these!"));
-<ae2exttable:ultimate_crafting_terminal>.addTooltip(format.red("Thanks to 0xC4DE for making these!"));
 
 <contenttweaker:ritual_culling>.addTooltip(format.red("Does not work with:"));
 <contenttweaker:ritual_culling>.addTooltip(format.red("Hunter Mobs"));

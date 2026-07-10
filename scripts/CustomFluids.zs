@@ -795,6 +795,9 @@ fluixplasma.flowingLocation = "contenttweaker:fluids/fluix_plasma_flow";
 fluixplasma.register();
 
 var slumberingabyssite = VanillaFactory.createFluid("slumbering_abyssite", Color.fromHex("6ddb65"));
+slumberingabyssite.colorize = false;
+slumberingabyssite.stillLocation = "contenttweaker:fluids/slumbering_abyssite";
+slumberingabyssite.flowingLocation = "contenttweaker:fluids/slumbering_abyssite_flow";
 slumberingabyssite.register();
 
 var blazingrefinedfuel = VanillaFactory.createFluid("blazing_refined_fuel", Color.fromHex("ad3a17"));
@@ -1042,6 +1045,9 @@ aeternalisfuel.flowingLocation = "contenttweaker:fluids/aeternalis_fuel_flow";
 aeternalisfuel.register();
 
 var imperialabyssite = VanillaFactory.createFluid("imperial_abyssite", Color.fromHex("048f88"));
+imperialabyssite.colorize = false;
+imperialabyssite.stillLocation = "contenttweaker:fluids/imperial_abyssite";
+imperialabyssite.flowingLocation = "contenttweaker:fluids/imperial_abyssite_flow";
 imperialabyssite.register();
 
 var liquidhungeringflesh = VanillaFactory.createFluid("liquid_hungering_flesh", Color.fromHex("bd538f"));
@@ -1066,6 +1072,9 @@ infinitelyunholyradiactivemix.flowingLocation = "contenttweaker:fluids/infinitel
 infinitelyunholyradiactivemix.register();
 
 var fleshworldichor = VanillaFactory.createFluid("flesh_world_ichor", Color.fromHex("9bbabf"));
+fleshworldichor.colorize = false;
+fleshworldichor.stillLocation = "contenttweaker:fluids/flesh_world_ichor";
+fleshworldichor.flowingLocation = "contenttweaker:fluids/flesh_world_ichor_flow";
 fleshworldichor.register();
 
 var fractallitehalite = VanillaFactory.createFluid("fractallite_halite", Color.fromHex("17c414"));
@@ -1222,6 +1231,9 @@ var whisperofstarvalddemelain = VanillaFactory.createFluid("whisper_of_starvald_
 whisperofstarvalddemelain.register();
 
 var gluttonousabyssite = VanillaFactory.createFluid("gluttonous_abyssite", Color.fromHex("7aad5a"));
+gluttonousabyssite.colorize = false;
+gluttonousabyssite.stillLocation = "contenttweaker:fluids/gluttonous_abyssite";
+gluttonousabyssite.flowingLocation = "contenttweaker:fluids/gluttonous_abyssite_flow";
 gluttonousabyssite.register();
 
 var arcanefissilematter = VanillaFactory.createFluid("arcane_fissile_matter", Color.fromHex("8d5ab8"));
@@ -1367,7 +1379,11 @@ strngwarrenessence.flowingLocation = "contenttweaker:fluids/high_grade_space_tim
 strngwarrenessence.register();
 
 var trinityingot = VanillaFactory.createFluid("trinity_ingot", Color.fromHex("a8ffe6"));
+trinityingot.colorize = false;
+trinityingot.stillLocation = "contenttweaker:fluids/trinity_ingot";
+trinityingot.flowingLocation = "contenttweaker:fluids/trinity_ingot_flow";
 trinityingot.register();
+
 
 var galacticplasma = VanillaFactory.createFluid("galactic_plasma", Color.fromHex("a8e6da"));
 galacticplasma.colorize = false;
@@ -1389,6 +1405,9 @@ bewitchedessencebaths.register();
 
 
 var inquiringabyssite = VanillaFactory.createFluid("inquiring_abyssite", Color.fromHex("497343"));
+inquiringabyssite.colorize = false;
+inquiringabyssite.stillLocation = "contenttweaker:fluids/inquiring_abyssite";
+inquiringabyssite.flowingLocation = "contenttweaker:fluids/inquiring_abyssite_flow";
 inquiringabyssite.register();
 
 
@@ -1610,6 +1629,9 @@ demonicremains.register();
 
 
 var everlovingabyssite = VanillaFactory.createFluid("everloving_abyssite", Color.fromHex("8aa18e"));
+everlovingabyssite.colorize = false;
+everlovingabyssite.stillLocation = "contenttweaker:fluids/everloving_abyssite";
+everlovingabyssite.flowingLocation = "contenttweaker:fluids/everloving_abyssite_flow";
 everlovingabyssite.register();
 
 var cauchyrecursiveessence = VanillaFactory.createFluid("cauchy_recursive_essence", Color.fromHex("ffdc7a"));
