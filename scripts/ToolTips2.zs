@@ -2844,9 +2844,7 @@ import crafttweaker.item.IItemCondition;
 
 
 
-<packagedauto:unpackager>.addTooltip(format.red("To set up autocrafting, use the following order: ME cable > packager > unpackager > package crafter or other machine, this consumes two channels"));
 
-<packagedauto:unpackager>.addTooltip(format.red("Each packager-unpackager pair can encode up to 20 different recipes"));
 
 <bloodmagic:blood_orb>.addTooltip(format.red("Right click to bind to your player"));
 <bloodmagic:blood_orb>.addTooltip(format.red("Place in a blood altar of the corresponding tier to charge your blood network"));
