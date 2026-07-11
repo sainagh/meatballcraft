@@ -359,7 +359,7 @@ thaumrepl18.build();
 
 
 val thaumrepl18me = RecipeBuilder.newBuilder("thaumrepl18me","thaumic_replicator",800);
-thaumrepl18me.addAspectInput("caeles",20);
+thaumrepl18me.addEssentiaInput("caeles",20);
 thaumrepl18me.addFluidInput(<fluid:pre_baryonic_plasma>*100);
 thaumrepl18me.addFluidInput(<fluid:divine_resonance>*100);
 thaumrepl18me.addItemInput(<contenttweaker:freedomsteel_ingot>*4);

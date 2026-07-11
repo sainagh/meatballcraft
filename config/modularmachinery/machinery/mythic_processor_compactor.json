@@ -22,7 +22,7 @@
                 "multiplier": 4
             },
             {
-                "io": "input",
+                "io": "output",
                 "target": "modularmachinery:fluid",
                 "operation": 1,
                 "multiplier": 4
