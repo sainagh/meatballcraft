@@ -756,5 +756,5 @@ enderium.addMaterialTrait("global");
 enderium.addMaterialTrait("enderference");
 enderium.addMaterialTrait("endspeed");
 enderium.itemLocalizer = function(thisMaterial, itemName){return "Enderium " + itemName;};
-enderium.localizedName = "Nothing";
+enderium.localizedName = "Enderium";
 enderium.register();
