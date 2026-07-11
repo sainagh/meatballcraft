@@ -11,7 +11,7 @@ recipes.addShapeless(<tconstruct:shard>.withTag({Material: "hard_bone"}),
 recipes.addShapeless(<tconstruct:shard>.withTag({Material: "terrasteel"}),
 [<contenttweaker:good_shuriken_materials>, <contenttweaker:chapter_2>]);
 
-recipes.addShapeless(<tconstruct:shard>.withTag({Material: "enderium_plustic"}),
+recipes.addShapeless(<tconstruct:shard>.withTag({Material: "enderium"}),
 [<contenttweaker:good_shuriken_materials>, <contenttweaker:chapter_1>]);
 
 recipes.addShapeless(<tconstruct:shard>.withTag({Material: "electrumflux"}),

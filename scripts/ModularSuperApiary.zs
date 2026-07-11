@@ -5,7 +5,7 @@ import scripts.enchantwrapper.EnchantWrapper.SuperEnchantedItem;
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_lumber_apiary>*2, 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:sacred_cinders_lumber_apiary>, 
 [[<careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}}), null, <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), null, <careerbees:ingredients:1>.withTag({bark: {id: "aoa3:shyre_log", Count: 1, Damage: 0 as short}})], 
 [null, <twilightforest:cinder_log>, <twilightforest:cinder_log>, <twilightforest:cinder_log>, null], 
 [<careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}}), <twilightforest:cinder_log>, <contenttweaker:sacred_cinders_apiary>, <twilightforest:cinder_log>, <careerbees:ingredients:1>.withTag({bark: {id: "twilightforest:magic_log", Count: 1, Damage: 2 as short}})], 

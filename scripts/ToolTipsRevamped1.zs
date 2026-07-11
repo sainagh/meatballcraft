@@ -482,6 +482,8 @@
 <contenttweaker:cleanroom_certificate>.addTooltip(format.gold("提示："));
 <contenttweaker:cleanroom_certificate>.addTooltip(format.yellow("  可使用Java 25来改进肉丸工艺的性能！"));
 <contenttweaker:cleanroom_certificate>.addTooltip(format.yellow("  使用该物品右击来查看教程！"));
+<contenttweaker:cleanroom_certificate>.addTooltip(format.white("------------------"));
+<contenttweaker:cleanroom_certificate>.addTooltip(format.green("感谢NerdySpider绘制的纹理！"));
 
 
 
@@ -513,7 +515,7 @@
 
 
 <contenttweaker:sashimi_of_the_gate_of_darkness>.addTooltip(format.green("达成永恒荣耀的玩家："));
-<contenttweaker:sashimi_of_the_gate_of_darkness>.addTooltip(format.green("Soren(he/any) & Arch (团队) (首个在寰宇平衡前达成)"));
+<contenttweaker:sashimi_of_the_gate_of_darkness>.addTooltip(format.green("Soren(he/any) & Arch (团队) (首个在寰宇平衡前获得噬灵者)"));
 
 
 
@@ -972,12 +974,12 @@
 
 
 
-<buildinggadgets:exchangertool>.addTooltip(format.gold("Use:"));
-<buildinggadgets:exchangertool>.addTooltip(format.yellow("  Lets you copy and paste structures."));
-<buildinggadgets:exchangertool>.addTooltip(format.yellow("  Press V to change between 'Copy' and 'Paste' mode."));
-<buildinggadgets:exchangertool>.addTooltip(format.yellow("  While in 'Copy' mode, Right Click to select the START block to copy and Shift + Right click to select the END block to copy. Shift + Right Click the air to reset or modify a template."));
-<buildinggadgets:exchangertool>.addTooltip(format.yellow("  While in 'Paste' mode, Right Click to paste a structure. Shift + Right Click the Air to change the relative positioning of the pasted structure. Press V to rotate or anchor the pasted structure."));
-<buildinggadgets:exchangertool>.addTooltip(format.yellow("  You can also load structures from the internet using the template manager and templates."));
+<buildinggadgets:exchangertool>.addTooltip(format.gold("用法："));
+<buildinggadgets:exchangertool>.addTooltip(format.yellow("  能够替换方块，而无需先破坏再放置。"));
+<buildinggadgets:exchangertool>.addTooltip(format.yellow("  Shift+右击来选择目标方块类型。"));
+<buildinggadgets:exchangertool>.addTooltip(format.yellow("  右击一个方块，用目标方块替换指定形状和大小区域内的方块。"));
+<buildinggadgets:exchangertool>.addTooltip(format.yellow("  按V键更改作用区域的形状和大小。"));
+<buildinggadgets:exchangertool>.addTooltip(format.yellow("  “模糊”模式开启时，替换区域内所有方块；“模糊”模式关闭时，仅替换一种方块类型。"));
 
 
 
@@ -1008,26 +1010,26 @@
 <modularmachinery:blockmeitemoutputbus>.addTooltip(format.gold("用法："));
 <modularmachinery:blockmeitemoutputbus>.addTooltip(format.yellow("  自动将多方块结构的产物传入所连接的AE2网络"));
 <modularmachinery:blockmeitemoutputbus>.addTooltip(format.darkRed("注意："));
-<modularmachinery:blockmeitemoutputbus>.addTooltip(format.red("  最好在子网中使用，即便如此也有一点卡顿"));
+<modularmachinery:blockmeitemoutputbus>.addTooltip(format.red("  最好在子网络中使用，即便如此也有一点卡顿"));
 <modularmachinery:blockmeitemoutputbus>.addTooltip(format.red("  大多数情况下，使用足够大的输出总线和低轮询率的输入接口性能更佳"));
 
 
 <modularmachinery:blockmefluidoutputbus>.addTooltip(format.gold("用法："));
 <modularmachinery:blockmefluidoutputbus>.addTooltip(format.yellow("  自动将多方块结构的产物传入所连接的AE2网络"));
 <modularmachinery:blockmefluidoutputbus>.addTooltip(format.darkRed("注意："));
-<modularmachinery:blockmefluidoutputbus>.addTooltip(format.red("  最好在子网中使用，即便如此也有一点卡顿"));
+<modularmachinery:blockmefluidoutputbus>.addTooltip(format.red("  最好在子网络中使用，即便如此也有一点卡顿"));
 <modularmachinery:blockmefluidoutputbus>.addTooltip(format.red("  大多数情况下，使用足够大的输出总线和低轮询率的输入接口性能更佳"));
 
 <modularmachinery:blockmeiteminputbus>.addTooltip(format.gold("用法："));
 <modularmachinery:blockmeiteminputbus>.addTooltip(format.yellow("  自动从所连接的AE2网络中抽取多方块结构的输入原料"));
 <modularmachinery:blockmeiteminputbus>.addTooltip(format.darkRed("注意："));
-<modularmachinery:blockmeiteminputbus>.addTooltip(format.red("  最好在子网中使用，即便如此也有一点卡顿"));
+<modularmachinery:blockmeiteminputbus>.addTooltip(format.red("  最好在子网络中使用，即便如此也有一点卡顿"));
 <modularmachinery:blockmeiteminputbus>.addTooltip(format.red("  大多数情况下，使用足够大的输入总线和低轮询率的输出接口性能更佳"));
 
 <modularmachinery:blockmefluidinputbus>.addTooltip(format.gold("用法："));
 <modularmachinery:blockmefluidinputbus>.addTooltip(format.yellow("  自动从所连接的AE2网络中抽取多方块结构的输入原料"));
 <modularmachinery:blockmefluidinputbus>.addTooltip(format.darkRed("注意："));
-<modularmachinery:blockmefluidinputbus>.addTooltip(format.red("  最好在子网中使用，即便如此也有一点卡顿"));
+<modularmachinery:blockmefluidinputbus>.addTooltip(format.red("  最好在子网络中使用，即便如此也有一点卡顿"));
 <modularmachinery:blockmefluidinputbus>.addTooltip(format.red("  大多数情况下，使用足够大的输入总线和低轮询率的输出接口性能更佳"));
 
 
@@ -2172,13 +2174,10 @@
 
 
 
-<contenttweaker:druden_horn>.addTooltip(format.red("在森林生物群系中进行灵魂缝隙仪式获得"));
-<contenttweaker:druden_horn>.addTooltip(format.red("需要生物群系包含'forest'、'dense'、'coniferous'、'magical'或'spooky'词条"));
-<contenttweaker:druden_horn>.addTooltip(format.red("查看幽灵尘埃的用途以查看仪式配方"));
 
 
 <contenttweaker:druden_horn>.addTooltip(format.darkAqua("获取："));
-<contenttweaker:druden_horn>.addTooltip(format.aqua("  杜尔登掉落，一种在主世界极其稀有的生物"));
+<contenttweaker:druden_horn>.addTooltip(format.aqua("  杜尔登掉落，一种主世界的稀有生物"));
 <contenttweaker:druden_horn>.addTooltip(format.aqua("  可在具有以下关键词的生物群系中，使用灵魂缝隙仪式召唤："));
 <contenttweaker:druden_horn>.addTooltip(format.aqua("      'forest', 'dense', 'coniferous', 'magical', 'spooky'"));
 <contenttweaker:druden_horn>.addTooltip(format.aqua("  查看幽灵尘埃的用途以查看仪式配方"));
@@ -2465,8 +2464,14 @@
 
 
 <appliedenergistics2:interface>.addTooltip(format.gold("用法："));
-<appliedenergistics2:interface>.addTooltip(format.yellow("  接受使用通用机器进行自动合成的处理样板，并可设置为从ME系统中抽取物品来填充其物品栏。"));
+<appliedenergistics2:interface>.addTooltip(format.yellow("  自动合成："));
+<appliedenergistics2:interface>.addTooltip(format.yellow("  - 与分子装配室或任意处理机器相邻放置"));
+<appliedenergistics2:interface>.addTooltip(format.yellow("  - 将带有所需编码配方的样板放入其模板槽位中"));
+<appliedenergistics2:interface>.addTooltip(format.yellow("  发送和接收物品："));
+<appliedenergistics2:interface>.addTooltip(format.yellow("  - 顶部槽位可用于存放指定物品，用于外部物品传输"));
 <appliedenergistics2:interface>.addTooltip(format.yellow("  同时也会将接收的任何物品送回ME系统。"));
+<appliedenergistics2:interface>.addTooltip(format.gold("提示："));
+<appliedenergistics2:interface>.addTooltip(format.yellow("  多个具有相同样板的接口，可用于加快自动合成速度，但接口P2P能够复制接口，而无需编码相同的样板"));
 <appliedenergistics2:interface>.addTooltip(format.darkRed("注意："));
 <appliedenergistics2:interface>.addTooltip(format.red("  对于向自动化装置发送/接收物品，建议使用输入和输出接口"));
 
@@ -2476,9 +2481,15 @@
 <appliedenergistics2:fluid_interface>.addTooltip(format.red("  对于向自动化装置发送/接收流体，建议使用输入和输出接口"));
 
 <ae2fc:dual_interface>.addTooltip(format.gold("用法："));
-<ae2fc:dual_interface>.addTooltip(format.yellow("  物品与流体二合一的接口。"));
-<ae2fc:dual_interface>.addTooltip(format.yellow("  可处理同时包含物品和流体（来自流体离散器的液滴形式）的样板。"));
-<ae2fc:dual_interface>.addTooltip(format.yellow("  如果使用此类型样板，请将该接口与AE2流体合成套件的缓存仓相邻放置，以分离流体和物品"));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  自动合成："));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  - 与分子装配室或任意处理机器相邻放置"));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  - 将带有所需编码配方的样板放入其模板槽位中，样板可包含物品和流体"));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  - 如果使用同时包含物品和流体的样板，请将该接口与AE2流体合成套件的缓存仓相邻放置，以分离流体和物品"));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  Sending and receiving items:"));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  - 顶部槽位可用于存放指定物品，用于外部物品传输"));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  同时也会将接收的任何物品送回ME系统。"));
+<ae2fc:dual_interface>.addTooltip(format.gold("提示："));
+<ae2fc:dual_interface>.addTooltip(format.yellow("  多个具有相同样板的接口，可用于加快自动合成速度，但接口P2P能够复制接口，而无需编码相同的样板"));
 <ae2fc:dual_interface>.addTooltip(format.darkRed("注意："));
 <ae2fc:dual_interface>.addTooltip(format.red("  对于向自动化装置发送/接收流体，建议使用输入和输出接口"));
 

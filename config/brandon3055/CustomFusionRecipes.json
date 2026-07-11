@@ -1515,8 +1515,8 @@
             "contenttweaker:threefold_stellar_ingot",
             "contenttweaker:self_confined_neutrino_plasma",
             "contenttweaker:self_confined_neutrino_plasma",
-            "glassential:self_confined_neutrino_plasma",
-            "glassential:self_confined_neutrino_plasma"
+            "contenttweaker:self_confined_neutrino_plasma",
+            "contenttweaker:self_confined_neutrino_plasma"
         ]
     }
 

@@ -414,7 +414,6 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:dense_gravitite_ore>.addTooltip(format.red("可通过高级火箭模组的小行星采矿发现"));
 
-<aoa3:amphibiyte_lung>.addTooltip(format.red("发现于主世界沙滩（Beach）群系的安佛比亚洞穴"));
 
 <techreborn:fusion_control_computer>.addTooltip(format.red("可使用线圈右击控制器进行自动放置"));
 
@@ -2845,10 +2844,8 @@ import crafttweaker.item.IItemCondition;
 
 
 
-<packagedauto:packager>.addTooltip(format.red("要设置自动合成，使用以下流程：ME线缆 > 封包机 > 解包机 > 封包合成器或其他机器，消耗2个频道"));
 <packagedauto:unpackager>.addTooltip(format.red("要设置自动合成，使用以下流程：ME线缆 > 封包机 > 解包机 > 封包合成器或其他机器，消耗2个频道"));
 
-<packagedauto:packager>.addTooltip(format.red("每对封包机-解包机最多可编码20种不同配方"));
 <packagedauto:unpackager>.addTooltip(format.red("每对封包机-解包机最多可编码20种不同配方"));
 
 <bloodmagic:blood_orb>.addTooltip(format.red("右击与玩家绑定"));

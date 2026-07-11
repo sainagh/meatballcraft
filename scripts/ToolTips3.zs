@@ -270,6 +270,15 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:grayscale>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:white_bangs>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:blue_planet>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:crystevia_geode>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:crimson_metal_ingot>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+
+
+<contenttweaker:trinity_ingot>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:trinity_ingot>.addTooltip(format.red("感谢cry绘制的熔融流体纹理！"));
+
+
+<contenttweaker:totally_real_tardis>.addTooltip(format.red("Mizzy没有达成永恒荣耀"));
 
 
 
@@ -285,63 +294,6 @@ import crafttweaker.item.IItemCondition;
 
 
 
-
-
-<contenttweaker:recurrent_complex_overeorldcondition>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:controllermanual_bloodmastertome_trophy>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:villagestarrain>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:shaderbagloot>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:electroblobtimestopamulet>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:thaumcraftcloudspells>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:neromaticprimeveins>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn"));
-
-<contenttweaker:itemblacklists>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:soulvaillostcities>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:laststandformula>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:blueprints>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:apothecarybeemorestuffs>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:aoadimensionsrandomloot>.addTooltip(format.red("匠魂锤材料：混沌核心坚韧手柄、无尽锤头、振金合金左大板、飞升神龙合金右大板"));
-
-<contenttweaker:getaoaxplevelsfromusingspecifictools>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:neuralconnector>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:dragonslayer3x3modes>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:creditsforendings>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:add_dog_to_witchery_recursivepaper>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:master_spell_spawndragons>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:monousepress_upgrade>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:jeiloot_treasurebox_runebox>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:wireless_energy_hatches>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:advanced_me_hatches>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:luna_dimension_drops>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:make_luna_bees_real>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:subnet_proxies>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:arbiter_fragment_dupe>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
-
-<contenttweaker:myrmex_anthill_callstone_exploit>.addTooltip(format.red("sabre potato, theLmiffy1111, dallagen, DipNChips, Magebzz, Capn, AT-L4S, mei"));
 
 
 

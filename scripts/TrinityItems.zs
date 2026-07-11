@@ -913,7 +913,7 @@ calloftheberserker.itemRightClick = function(stack, world, player, hand) {
 
 
 
-    Commands.call("/summon twilightforest:minoshroom ~ ~4 ~ {HandItems:[{Count:1,id:\"aoa3:rockbasher_sword\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:1000.0},{Name:generic.attackDamage, Base:10000.0}],Health:10000f,CustomName:\"真菌使徒\"}", player, world, false, true);
+    Commands.call("/summon twilightforest:minoshroom ~ ~4 ~ {HandItems:[{Count:1,id:\"aoa3:rockbasher_sword\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:10000.0}],Health:100000f,CustomName:\"真菌使徒\"}", player, world, false, true);
 
 
 
@@ -1870,7 +1870,7 @@ riteofbloodshed.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    Commands.call("summon bewitchment:demon ~ ~3 ~ {CustomName:\"阿拉佐尼亚，血戮噩兆\",recipeList:{Recipes:[{buy:{id:\"contenttweaker:marrow_of_alazoneia\",Count:1},sell:{id:\"contenttweaker:everbloody_flask\",Count:1},rewardExp:0b,maxUses:9999999}]},HandItems:[{Count:1,id:\"contenttweaker:marrow_of_alazoneia\"},{}],HandDropChances:[1.0f,0.0f],ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:30,permshields:30}},Attributes:[{Name:generic.maxHealth, Base:50000.0},{Name:generic.attackDamage, Base:300.0}],Health:50000f}", player, world, true, true);
+    Commands.call("summon bewitchment:demon ~ ~3 ~ {CustomName:\"阿拉佐尼亚，血戮噩兆\",recipeList:{Recipes:[{buy:{id:\"contenttweaker:marrow_of_alazoneia\",Count:1},sell:{id:\"contenttweaker:everbloody_flask\",Count:1},rewardExp:0b,maxUses:9999999}]},HandItems:[{Count:1,id:\"contenttweaker:marrow_of_alazoneia\"},{}],HandDropChances:[1.0f,0.0f],ForgeCaps:{\"twilightforest:cap_shield\":{tempshields:30,permshields:30}},Attributes:[{Name:generic.maxHealth, Base:90000.0},{Name:generic.attackDamage, Base:300.0}],Health:90000f}", player, world, true, true);
     stack.shrink(1);
     return "PASS";
 

@@ -1134,7 +1134,7 @@
 <thaumicenergistics:essentia_import>.addTooltip(format.red("Vamael掌握着禁忌的知识"));
 
 <thaumicenergistics:infusion_provider>.addTooltip(format.red("对于注魔矩阵和神秘炼金塔，可替代一墙的源质罐子"));
-<thaumicenergistics:infusion_provider>.addTooltip(format.red("可以像ME接口一样与源质存储总线连接，形成子网，但存在bug，因此不建议如此使用"));
+<thaumicenergistics:infusion_provider>.addTooltip(format.red("可以像ME接口一样与源质存储总线连接，形成子网络，但存在bug，因此不建议如此使用"));
 
 <ore:woolMagenta>.addTooltip(format.red("Sainagh和Angrivator失败了，ChaosStrikez成功了"));
 
@@ -1847,7 +1847,6 @@
 
 <contenttweaker:withering_fabrial>.addTooltip(format.red("使用凋灵Boss生物灵魂"));
 
-<ae2fc:dual_interface>.addTooltip(format.red("使用原材料缓存仓以在自动合成中同时物品与流体"));
 
 <ae2fc:ingredient_buffer>.addTooltip(format.red("可放置在想自动处理的机器与二合一接口之间，以同时处理物品与流体"));
 <ae2fc:large_ingredient_buffer>.addTooltip(format.red("可放置在想自动处理的机器与二合一接口之间，以同时处理物品与流体"));
@@ -2004,12 +2003,7 @@
 
 <contenttweaker:ritual_of_the_sleeper>.addTooltip(format.red("这些结构空位仅用于展示JEI配方中的空位，请忽略"));
 
-<packagedauto:recipe_holder>.addTooltip(format.red("警告：不要放入背包，可能导致数据损坏"));
 
-<ae2exttable:basic_crafting_terminal>.addTooltip(format.red("Thanks to 0xC4DE for making these!"));
-<ae2exttable:advanced_crafting_terminal>.addTooltip(format.red("Thanks to 0xC4DE for making these!"));
-<ae2exttable:elite_crafting_terminal>.addTooltip(format.red("Thanks to 0xC4DE for making these!"));
-<ae2exttable:ultimate_crafting_terminal>.addTooltip(format.red("Thanks to 0xC4DE for making these!"));
 
 <contenttweaker:ritual_culling>.addTooltip(format.red("对以下生物无效："));
 <contenttweaker:ritual_culling>.addTooltip(format.red("需要狩猎等级的生物"));
