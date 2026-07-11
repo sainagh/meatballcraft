@@ -61,7 +61,7 @@
 <packagedauto:encoder>.addTooltip(format.yellow("  To set up autocrafting:"));
 <packagedauto:encoder>.addTooltip(format.yellow("  - Place this configuration: [Packager] > [Unpackager] > [Package Crafter or other machine]"));
 <packagedauto:encoder>.addTooltip(format.yellow("  - Insert the two Holders into the Packager and Unpackager"));
-<packagedauto:encoder>.addTooltip(format.yellow("  - For extra speed, multiple Package Crafters can be placed on all sides of the Unpackager, and Proxies can be placed around the Packager."));
+<packagedauto:encoder>.addTooltip(format.yellow("  - For extra speed, multiple Package Crafters can be placed on all sides of the Unpackager, and Extensions can be placed around the Packager."));
 <packagedauto:encoder>.addTooltip(format.yellow("      Check the multiblock preview for Package Crafters for suggestions on placement"));
 <packagedauto:encoder>.addTooltip(format.darkRed("WARNINGS:"));
 <packagedauto:encoder>.addTooltip(format.red("  Do not put inside bags, it can cause corruptions"));
@@ -77,7 +77,7 @@
 <packagedauto:recipe_holder>.addTooltip(format.yellow("  To set up autocrafting:"));
 <packagedauto:recipe_holder>.addTooltip(format.yellow("  - Place this configuration: [Packager] > [Unpackager] > [Package Crafter or other machine]"));
 <packagedauto:recipe_holder>.addTooltip(format.yellow("  - Insert the two Holders into the Packager and Unpackager"));
-<packagedauto:recipe_holder>.addTooltip(format.yellow("  - For extra speed, multiple Package Crafters can be placed on all sides of the Unpackager, and Proxies can be placed around the Packager."));
+<packagedauto:recipe_holder>.addTooltip(format.yellow("  - For extra speed, multiple Package Crafters can be placed on all sides of the Unpackager, and Extensions can be placed around the Packager."));
 <packagedauto:recipe_holder>.addTooltip(format.yellow("      Check the multiblock preview for Package Crafters for suggestions on placement"));
 <packagedauto:recipe_holder>.addTooltip(format.darkRed("WARNINGS:"));
 <packagedauto:recipe_holder>.addTooltip(format.red("  Do not put inside bags, it can cause corruptions"));
@@ -92,7 +92,7 @@
 <packagedauto:packager>.addTooltip(format.yellow("  To set up autocrafting:"));
 <packagedauto:packager>.addTooltip(format.yellow("  - Place this configuration: [Packager] > [Unpackager] > [Package Crafter or other machine]"));
 <packagedauto:packager>.addTooltip(format.yellow("  - Insert the two Holders into the Packager and Unpackager"));
-<packagedauto:packager>.addTooltip(format.yellow("  - For extra speed, multiple Package Crafters can be placed on all sides of the Unpackager, and Proxies can be placed around the Packager."));
+<packagedauto:packager>.addTooltip(format.yellow("  - For extra speed, multiple Package Crafters can be placed on all sides of the Unpackager, and Extensions can be placed around the Packager."));
 <packagedauto:packager>.addTooltip(format.yellow("      Check the multiblock preview for Package Crafters for suggestions on placement"));
 <packagedauto:packager>.addTooltip(format.gold("Tips:"));
 <packagedauto:packager>.addTooltip(format.yellow("  This setup can also be used for passive automation:"));
@@ -109,7 +109,7 @@
 <packagedauto:unpackager>.addTooltip(format.yellow("  To set up autocrafting:"));
 <packagedauto:unpackager>.addTooltip(format.yellow("  - Place this configuration: [Packager] > [Unpackager] > [Package Crafter or other machine]"));
 <packagedauto:unpackager>.addTooltip(format.yellow("  - Insert the two Holders into the Packager and Unpackager"));
-<packagedauto:unpackager>.addTooltip(format.yellow("  - For extra speed, multiple Package Crafters can be placed on all sides of the Unpackager, and Proxies can be placed around the Packager."));
+<packagedauto:unpackager>.addTooltip(format.yellow("  - For extra speed, multiple Package Crafters can be placed on all sides of the Unpackager, and Extensions can be placed around the Packager."));
 <packagedauto:unpackager>.addTooltip(format.yellow("      Check the multiblock preview for Package Crafters for suggestions on placement"));
 <packagedauto:unpackager>.addTooltip(format.gold("Tips:"));
 <packagedauto:unpackager>.addTooltip(format.yellow("  This setup can also be used for passive automation:"));
