@@ -14,7 +14,7 @@
         "Count:3": 1,
         "id:8": "tconstruct:shard",
         "tag:10": {
-          "Material:8": "enderium_plustic"
+          "Material:8": "enderium"
         }
       },
       "name:8": "末影"
@@ -41,7 +41,7 @@
           "Count:3": 1,
           "id:8": "tconstruct:shard",
           "tag:10": {
-            "Material:8": "enderium_plustic"
+            "Material:8": "enderium"
           }
         }
       },

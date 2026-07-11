@@ -21,6 +21,23 @@
         "0:10": {
           "Count:3": 2,
           "id:8": "divinerpg:fire_crystal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 70,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 10,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "contenttweaker:minor_vethea_binding"
+            },
+            "TrophyName:8": "溜了溜了",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
         }
       }
     }

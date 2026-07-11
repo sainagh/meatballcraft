@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    1236
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o元件版本的个人EMC接口。它会从你的EMC网络中无限量地缓存单种物品。\n\n精致和压缩升级卡可以将其升级为分别缓存9种和54种物品。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cells:emc_cell",
+        "tag:10": {
+          "EmcOwnerLeast:4": -5903828338681376133,
+          "EmcOwnerMost:4": -8342885232664559613,
+          "EmcOwnerName:8": "meatballcraft"
+        }
+      },
+      "name:8": "EMC存储元件"
+    }
+  },
+  "questID:3": 1734508669,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cells:emc_cell",
+          "tag:10": {
+            "EmcOwnerLeast:4": -5903828338681376133,
+            "EmcOwnerMost:4": -8342885232664559613,
+            "EmcOwnerName:8": "meatballcraft"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "cells:emc_capacity_card"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "cells:emc_capacity_card"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

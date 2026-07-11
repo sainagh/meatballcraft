@@ -25,6 +25,22 @@
             "block:8": "aoa3:kror_altar",
             "meta:3": 0
           }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:charging_table",
+            "meta:3": 0
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "scannable:module_block",
+          "tag:10": {
+            "block:8": "aoa3:deep_case",
+            "meta:3": 0
+          }
         }
       }
     }

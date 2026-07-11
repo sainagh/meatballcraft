@@ -2981,7 +2981,7 @@
 
 
 <contenttweaker:hyperuranion_conduit>.addTooltip(format.gold("提示："));
-<contenttweaker:hyperuranion_conduit>.addTooltip(format.yellow("  涉及递归推演物质的自动化，对物品和流体都有非常高的传输速度要求"));
+<contenttweaker:hyperuranion_conduit>.addTooltip(format.yellow("  涉及递归探究物质的自动化，对物品和流体都有非常高的传输速度要求"));
 <contenttweaker:hyperuranion_conduit>.addTooltip(format.yellow("  推荐以下物流方案："));
 <contenttweaker:hyperuranion_conduit>.addTooltip(format.yellow("  - 超级工厂管理器（不用于合成，仅传输）"));
 <contenttweaker:hyperuranion_conduit>.addTooltip(format.yellow("  - 使用ME机械总线和分区过的元件的AE2子网络"));
@@ -2989,7 +2989,7 @@
 
 
 <contenttweaker:recursive_brain>.addTooltip(format.gold("提示："));
-<contenttweaker:recursive_brain>.addTooltip(format.yellow("  涉及递归推演物质的自动化，对物品和流体都有非常高的传输速度要求"));
+<contenttweaker:recursive_brain>.addTooltip(format.yellow("  涉及递归探究物质的自动化，对物品和流体都有非常高的传输速度要求"));
 <contenttweaker:recursive_brain>.addTooltip(format.yellow("  推荐以下物流方案："));
 <contenttweaker:recursive_brain>.addTooltip(format.yellow("  - 超级工厂管理器（不用于合成，仅传输）"));
 <contenttweaker:recursive_brain>.addTooltip(format.yellow("  - 使用ME机械总线和分区过的元件的AE2子网络"));
@@ -2997,14 +2997,14 @@
 
 
 <contenttweaker:hyperuranion_casing>.addTooltip(format.gold("提示："));
-<contenttweaker:hyperuranion_casing>.addTooltip(format.yellow("  涉及递归推演物质的自动化，对物品和流体都有非常高的传输速度要求"));
+<contenttweaker:hyperuranion_casing>.addTooltip(format.yellow("  涉及递归探究物质的自动化，对物品和流体都有非常高的传输速度要求"));
 <contenttweaker:hyperuranion_casing>.addTooltip(format.yellow("  推荐以下物流方案："));
 <contenttweaker:hyperuranion_casing>.addTooltip(format.yellow("  - 超级工厂管理器（不用于合成，仅传输）"));
 <contenttweaker:hyperuranion_casing>.addTooltip(format.yellow("  - 使用ME机械总线和分区过的元件的AE2子网络"));
 <contenttweaker:hyperuranion_casing>.addTooltip(format.yellow("  - 流体激光"));
 
 <contenttweaker:recursive_brain_plug>.addTooltip(format.gold("提示："));
-<contenttweaker:recursive_brain_plug>.addTooltip(format.yellow("  涉及递归推演物质的自动化，对物品和流体都有非常高的传输速度要求"));
+<contenttweaker:recursive_brain_plug>.addTooltip(format.yellow("  涉及递归探究物质的自动化，对物品和流体都有非常高的传输速度要求"));
 <contenttweaker:recursive_brain_plug>.addTooltip(format.yellow("  推荐以下物流方案："));
 <contenttweaker:recursive_brain_plug>.addTooltip(format.yellow("  - 超级工厂管理器（不用于合成，仅传输）"));
 <contenttweaker:recursive_brain_plug>.addTooltip(format.yellow("  - 使用ME机械总线和分区过的元件的AE2子网络"));

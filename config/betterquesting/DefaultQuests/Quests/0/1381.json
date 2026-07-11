@@ -13,6 +13,31 @@
     }
   },
   "questID:3": 1381,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:hihi_irokane"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:parafrosynium"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 309,
+          "id:8": "contenttweaker:material_part"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "id:8": "contenttweaker:orichalcum"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
