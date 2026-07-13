@@ -1,0 +1,23 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "contenttweaker",
+      "path": "lunar_binding_fabrial"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 200,
+      "oreName": "oreBoundLunarStone"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreRunium"
+    }],
+  "explosionStrength": 10.0,
+  "radius": 6,
+  "maxWeight": 1000,
+  "version": 4,
+  "cost": 5000000
+}

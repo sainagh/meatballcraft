@@ -4,26 +4,46 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o植物播种机可种植至多9种不同种类的植物。\n植物收割机可自动收获植物，并产出副产物污泥。",
+      "desc:8": "§7§o植物收割机可以自动收割植物，并产出污泥作为副产物。\n\n§7§o植物收割机通常会破坏植物，但在本整合包中已被修改为可与作物架配合使用。这是从作物架上获取资源的首选方式！\n\n§7§o如果你不想使用作物架，可以使用植物播种机来种植至多9种不同的植物。\n\n为了匹配整合包中各种植物催熟设备的高速，种植作物的最佳方式是3x3的地块，每块种植9个作物。每个地块应使用一个收割机。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "industrialforegoing:crop_sower"
       },
-      "name:8": "工业种植"
+      "name:8": "工业化种植"
     }
   },
   "questID:3": 20514,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:range_addon"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "industrialforegoing:range_addon"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "industrialforegoing:crop_sower"
+          "id:8": "industrialforegoing:crop_recolector"
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "industrialforegoing:crop_recolector"
+          "id:8": "industrialforegoing:crop_sower"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "agricraft:crop_sticks"
         }
       },
       "taskID:8": "bq_standard:retrieval"

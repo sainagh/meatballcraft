@@ -1,6 +1,6 @@
 {
   "preRequisites:11": [
-    48
+    28
   ],
   "properties:10": {
     "betterquesting:10": {
@@ -14,6 +14,18 @@
     }
   },
   "questID:3": 20415,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond_ore"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

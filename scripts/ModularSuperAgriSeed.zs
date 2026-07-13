@@ -783,6 +783,13 @@ hypergrowth106.setChance(0.0);
 hypergrowth106.addItemOutput(<thaumcraft:void_seed>*64);
 hypergrowth106.build();
 
+val hypergrowth107 = RecipeBuilder.newBuilder("hypergrowth107","hypergrowth_insolator",10);
+hypergrowth107.addFluidInput(<fluid:hot_spring_water>*100);
+hypergrowth107.addItemInput(<mysticalagriculture:manasteel_seeds>);
+hypergrowth107.setChance(0.0);
+hypergrowth107.addItemOutput(<mysticalagriculture:manasteel_essence>*64);
+hypergrowth107.build();
+
 
 
 

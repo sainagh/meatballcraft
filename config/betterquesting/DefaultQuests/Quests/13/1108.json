@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o被击中的生物会受到快速的火焰伤害",
       "icon:10": {
         "Count:3": 1,
         "id:8": "iceandfire:fire_dragon_blood"
@@ -13,6 +13,18 @@
     }
   },
   "questID:3": 1108,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:fire_dragon_blood"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

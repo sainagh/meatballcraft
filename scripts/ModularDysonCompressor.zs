@@ -209,6 +209,11 @@ recipes.addShapeless(<avaritiaitem:cosmic_fractal_catalyzer>*4,
 // mapCallandor += enchlistCallandor[0].makeEnchantment(20000).makeTag();
 // mapCallandor += enchlistCallandor[1].makeEnchantment(20000).makeTag();
 
+recipes.addShapeless(<twilightforest:glass_sword>.withTag({display: {Lore:["§d§o极・超限附魔§r"]}}),
+[<twilightforest:glass_sword>.withTag({display: {Lore:["§d§o极・超限附魔§r"]}}).reuse(),
+<twilightforest:glass_sword>,
+<contenttweaker:astral_insight_100>]);
+
 
 recipes.addShapeless(<avaritiaitem:cosmic_fractal_catalyzer>*12,
 [<twilightforest:glass_sword>.withTag({display: {Lore:["§d§o极・超限附魔§r"]}}).reuse(),

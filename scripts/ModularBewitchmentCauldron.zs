@@ -7,7 +7,12 @@ mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:vial_of_ilarity>, <fluid:
 
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:stone_of_constraint>, <fluid:essence_of_ilarity>*10, <fluid:matter_of_restraining>*1000]);
 
-
+val cauldronspec1 = RecipeBuilder.newBuilder("cauldronspec1","terrestrial_cauldron",2);
+cauldronspec1.addFluidInput(<fluid:light_of_the_one_power>*250);
+cauldronspec1.addFluidInput(<fluid:astralsorcery.liquidstarlight>*250);
+cauldronspec1.addItemInput(<contenttweaker:holy_shimmer>*1);
+cauldronspec1.addItemOutput(<contenttweaker:light_of_the_one_power>*1);
+cauldronspec1.build();
 
 
 
@@ -298,4 +303,15 @@ autocauldronup20.addItemInput(<contenttweaker:harbinger_hungering_flesh>);
 autocauldronup20.addItemInput(<minecraft:glass_bottle>*64);
 autocauldronup20.addItemOutput(<bewitchment:bottle_of_blood>*64);
 autocauldronup20.build();
+
+val autocauldronup21 = RecipeBuilder.newBuilder("autocauldronup21","terrestrial_cauldron",4);
+autocauldronup21.addFluidInput(<fluid:essence_of_ilarity>*10);
+autocauldronup21.addFluidInput(<fluid:matter_of_restraining>*10);
+autocauldronup21.addItemInput(<contenttweaker:fearmongerer_fabric>*64);
+autocauldronup21.addItemInput(<contenttweaker:fearmongerer_fabric>*64);
+autocauldronup21.addItemInput(<contenttweaker:screaming_bloodstone>*1);
+autocauldronup21.addItemOutput(<contenttweaker:screaming_fabric>*64);
+autocauldronup21.addItemOutput(<contenttweaker:screaming_fabric>*64);
+autocauldronup21.build();
+
 

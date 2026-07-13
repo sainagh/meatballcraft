@@ -1,0 +1,121 @@
+{
+    "name": "compactmachines3:nuclearcraft_lymphofpixonia",
+    "target-item": "contenttweaker:safe_lymph_of_pixonia",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+
+
+
+  "input-types": {
+    "a": {
+      "id": "nuclearcraft:salt_fission_heater",
+      "meta": 0,
+	  "item": {
+        "id": "nuclearcraft:salt_fission_heater",
+        "count": 33
+      }
+    },
+    "b": {
+      "id": "nuclearcraft:salt_fission_vessel",
+      "meta": 0,
+	  "item": {
+        "id": "nuclearcraft:salt_fission_vessel",
+        "count": 6
+      }
+    }
+  },
+  "input-nbt": {
+    "a:A": {
+      "nbt": "{tank0:{fluidAmount:0,fluidName:\"nullFluid\"},heaterSettings:{setting1:1,setting0:1,setting5:1,setting4:1,setting3:0,setting2:3},redstoneControl:0b,baseProcessCooling:0.0d,isProcessing:0b,canProcessInputs:0b,isInValidPosition:0b,reactorCoolingRate:0.0d,tank1:{fluidAmount:0,fluidName:\"nullFluid\"},ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},isReactorOn:0b,id:\"nuclearcraft:salt_fission_heater\",time:0.0d,alternateComparator:0b,radiationLevel:0.0d,isRedstonePowered:0b}"
+    },
+    "b:A": {
+      "nbt": "{baseVesselEfficiency:0,isProcessing:0b,tank2:{fluidAmount:0,fluidName:\"nullFluid\"},moderatorExtraEfficiency:0.0d,moderatorMaxExtraEfficiency:0.0d,ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},vesselSettings:{setting1:1,setting0:1,setting5:1,setting4:1,setting3:2,setting2:0},moderatorHeatFactor:0.0d,baseProcessTime:1.0d,moderatorMaxHeatFactor:0.0d,tank0:{fluidAmount:0,fluidName:\"nullFluid\"},baseProcessHeat:0.0d,redstoneControl:0b,canProcessInputs:0b,id:\"nuclearcraft:salt_fission_vessel\",isReactorOn:0b,hasConsumed:0b,tank1:{fluidAmount:0,fluidName:\"nullFluid\"},time:0.0d,alternateComparator:0b,baseVesselMaxEfficiency:0,radiationLevel:0.0d,isRedstonePowered:0b}"
+    },
+    "b:B": {
+      "nbt": "{baseVesselEfficiency:0,isProcessing:0b,tank2:{fluidAmount:0,fluidName:\"nullFluid\"},moderatorExtraEfficiency:0.0d,moderatorMaxExtraEfficiency:0.0d,ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},vesselSettings:{setting1:1,setting0:1,setting5:1,setting4:1,setting3:3,setting2:0},moderatorHeatFactor:0.0d,baseProcessTime:1.0d,moderatorMaxHeatFactor:0.0d,tank0:{fluidAmount:0,fluidName:\"nullFluid\"},baseProcessHeat:0.0d,redstoneControl:0b,canProcessInputs:0b,id:\"nuclearcraft:salt_fission_vessel\",isReactorOn:0b,hasConsumed:0b,tank1:{fluidAmount:0,fluidName:\"nullFluid\"},time:0.0d,alternateComparator:0b,baseVesselMaxEfficiency:0,radiationLevel:0.0d,isRedstonePowered:0b}"
+    },
+    "a:B": {
+      "nbt": "{tank0:{fluidAmount:0,fluidName:\"nullFluid\"},heaterSettings:{setting1:1,setting0:1,setting5:1,setting4:1,setting3:0,setting2:2},redstoneControl:0b,baseProcessCooling:0.0d,isProcessing:0b,canProcessInputs:0b,isInValidPosition:0b,reactorCoolingRate:0.0d,tank1:{fluidAmount:0,fluidName:\"nullFluid\"},ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},isReactorOn:0b,id:\"nuclearcraft:salt_fission_heater\",time:0.0d,alternateComparator:0b,radiationLevel:0.0d,isRedstonePowered:0b}"
+    },
+    "a:C": {
+      "nbt": "{heaterSettings:{setting1:1,setting0:1,setting5:1,setting4:1,setting3:0,setting2:2},tank0:{fluidAmount:0,fluidName:\"nullFluid\"},redstoneControl:0b,baseProcessCooling:0.0d,isProcessing:0b,canProcessInputs:0b,isInValidPosition:0b,reactorCoolingRate:0.0d,tank1:{fluidAmount:0,fluidName:\"nullFluid\"},ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},isReactorOn:0b,id:\"nuclearcraft:salt_fission_heater\",time:0.0d,alternateComparator:0b,multiblockData:{efficiency:0.0d,heatMult:0.0d,Capacity:25000L,isReactorOn:0b,Heat:0L,computerActivated:0b,comparatorSignal:0,maxHeatMult:0.0d,maxEfficiency:0.0d,heating:0.0d,coolingRate:0.0d,cooling:0.0d},radiationLevel:0.0d,isRedstonePowered:0b}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "a:B",
+        "a:B",
+        "_",
+        "a:B",
+        "a:B"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "_",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "_",
+        "a:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:B",
+        "b:B",
+        "a:B",
+        "b:B",
+        "a:B"
+      ],
+      [
+        "a:A",
+        "b:B",
+        "a:A",
+        "b:B",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "a:A",
+        "b:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "a:C",
+        "a:B",
+        "_",
+        "a:B",
+        "a:B"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "_",
+        "a:A",
+        "a:A"
+      ],
+      [
+        "a:A",
+        "a:A",
+        "_",
+        "a:A",
+        "a:A"
+      ]
+    ]
+  ]
+       
+}

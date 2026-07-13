@@ -236,3 +236,93 @@ oredreadfulharvester.add(<contenttweaker:dreadful_harvester>);
 
 val oreomotholharvester = <ore:itemOmotholHarvester>;
 oreomotholharvester.add(<contenttweaker:omothol_harvester>);
+
+
+
+
+
+val oreboundlunar = <ore:oreBoundLunarStone>;
+oreboundlunar.add(<contenttweaker:bound_lunar_stone>);
+
+
+val orelitherite = <ore:oreLitherite>;
+orelitherite.add(<contenttweaker:litherite_ore>);
+
+val oreerodium = <ore:oreErodium>;
+oreerodium.add(<contenttweaker:erodium_ore>);
+
+val orekyronite = <ore:oreKyronite>;
+orekyronite.add(<contenttweaker:kyronite_ore>);
+
+val orepladium = <ore:orePladium>;
+orepladium.add(<contenttweaker:pladium_ore>);
+
+val oreionite = <ore:oreIonite>;
+oreionite.add(<contenttweaker:ionite_ore>);
+
+val oreaethium = <ore:oreAethium>;
+oreaethium.add(<contenttweaker:aethium_ore>);
+
+val orelonsdaleite = <ore:oreLonsdaleite>;
+orelonsdaleite.add(<contenttweaker:lonsdaleite_ore>);
+
+val oremica = <ore:oreMica>;
+oremica.add(<environmentaltech:mica>);
+
+
+
+
+
+
+
+val oreebwand = <ore:electroblobbyMagicWand>;
+oreebwand.add(<ebwizardry:magic_wand>);
+oreebwand.add(<ebwizardry:apprentice_wand>);
+oreebwand.add(<ebwizardry:advanced_wand>);
+oreebwand.add(<ebwizardry:master_wand>);
+
+oreebwand.add(<ebwizardry:novice_fire_wand>);
+oreebwand.add(<ebwizardry:apprentice_fire_wand>);
+oreebwand.add(<ebwizardry:advanced_fire_wand>);
+oreebwand.add(<ebwizardry:master_fire_wand>);
+
+oreebwand.add(<ebwizardry:novice_ice_wand>);
+oreebwand.add(<ebwizardry:apprentice_ice_wand>);
+oreebwand.add(<ebwizardry:advanced_ice_wand>);
+oreebwand.add(<ebwizardry:master_ice_wand>);
+
+oreebwand.add(<ebwizardry:novice_lightning_wand>);
+oreebwand.add(<ebwizardry:apprentice_lightning_wand>);
+oreebwand.add(<ebwizardry:advanced_lightning_wand>);
+oreebwand.add(<ebwizardry:master_lightning_wand>);
+
+oreebwand.add(<ebwizardry:novice_necromancy_wand>);
+oreebwand.add(<ebwizardry:apprentice_necromancy_wand>);
+oreebwand.add(<ebwizardry:advanced_necromancy_wand>);
+oreebwand.add(<ebwizardry:master_necromancy_wand>);
+
+oreebwand.add(<ebwizardry:novice_earth_wand>);
+oreebwand.add(<ebwizardry:apprentice_earth_wand>);
+oreebwand.add(<ebwizardry:advanced_earth_wand>);
+oreebwand.add(<ebwizardry:master_earth_wand>);
+
+oreebwand.add(<ebwizardry:novice_sorcery_wand>);
+oreebwand.add(<ebwizardry:apprentice_sorcery_wand>);
+oreebwand.add(<ebwizardry:advanced_sorcery_wand>);
+oreebwand.add(<ebwizardry:master_sorcery_wand>);
+
+oreebwand.add(<ebwizardry:novice_healing_wand>);
+oreebwand.add(<ebwizardry:apprentice_healing_wand>);
+oreebwand.add(<ebwizardry:advanced_healing_wand>);
+oreebwand.add(<ebwizardry:master_healing_wand>);
+
+oreebwand.add(<arcane_essentials:master_healing_sword>);
+oreebwand.add(<arcane_essentials:master_lightning_sword>);
+oreebwand.add(<arcane_essentials:master_sorcery_sword>);
+oreebwand.add(<arcane_essentials:master_nature_sword>);
+oreebwand.add(<arcane_essentials:master_fire_sword>);
+oreebwand.add(<arcane_essentials:master_ice_sword>);
+oreebwand.add(<arcane_essentials:master_necromancy_sword>);
+
+
+

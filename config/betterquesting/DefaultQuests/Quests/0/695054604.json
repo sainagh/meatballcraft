@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o大坑预警！接下来的任务并非通关必做，但完成它们或许会有意外收获哦  ;)",
+      "desc:8": "§7§o大坑预警！接下来的任务并非通关必做，但完成它们或许会有意外收获哦  ;)\n\n§f巨龙之力，已悄然觉醒。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forge:bucketfilled",
@@ -55,7 +55,7 @@
           }
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

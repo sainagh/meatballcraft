@@ -1,0 +1,157 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    941,
+    995
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:hazmat_chestplate",
+        "tag:10": {
+          "Unbreakable:1": 1,
+          "display:10": {
+            "Lore:9": {
+              "0:8": "§d§o超限附魔§r"
+            },
+            "Name:8": "§6§o堕落军团胸甲§r"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:3": 0,
+              "lvl:3": 10
+            },
+            "1:10": {
+              "id:3": 30,
+              "lvl:3": 5
+            }
+          },
+          "ncRadiationResistance:6": 10.0
+        }
+      },
+      "name:8": "堕落军团套装"
+    }
+  },
+  "questID:3": 19812324,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:gold_coin"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:hazmat_helmet",
+          "tag:10": {
+            "Unbreakable:1": 1,
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§o超限附魔§r"
+              },
+              "Name:8": "§6§o堕落军团头盔§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 0,
+                "lvl:3": 10
+              },
+              "1:10": {
+                "id:3": 30,
+                "lvl:3": 5
+              }
+            },
+            "ncRadiationResistance:6": 10.0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:hazmat_chestplate",
+          "tag:10": {
+            "Unbreakable:1": 1,
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§o超限附魔§r"
+              },
+              "Name:8": "§6§o堕落军团胸甲§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 0,
+                "lvl:3": 10
+              },
+              "1:10": {
+                "id:3": 30,
+                "lvl:3": 5
+              }
+            },
+            "ncRadiationResistance:6": 10.0
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:hazmat_legs",
+          "tag:10": {
+            "Unbreakable:1": 1,
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§o超限附魔§r"
+              },
+              "Name:8": "§6§o堕落军团护腿§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 0,
+                "lvl:3": 10
+              },
+              "1:10": {
+                "id:3": 30,
+                "lvl:3": 5
+              }
+            },
+            "ncRadiationResistance:6": 10.0
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:hazmat_boots",
+          "tag:10": {
+            "Unbreakable:1": 1,
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§o超限附魔§r"
+              },
+              "Name:8": "§6§o堕落军团靴子§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 0,
+                "lvl:3": 10
+              },
+              "1:10": {
+                "id:3": 30,
+                "lvl:3": 5
+              }
+            },
+            "ncRadiationResistance:6": 10.0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

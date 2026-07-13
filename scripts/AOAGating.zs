@@ -28,7 +28,7 @@ recipes.addShaped(<contenttweaker:holy_sludge_callstone>,
 [<aether_legacy:holystone>, <contenttweaker:recursive_meatball>, <aether_legacy:holystone>]]);
 
 
-val holyshimmersword = <contenttweaker:holyshimmer_sword>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 400},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]});
+val holyshimmersword = <contenttweaker:holyshimmer_sword>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 80},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]});
 
 
 recipes.addShaped(holyshimmersword,
@@ -244,3 +244,252 @@ recipes.addShaped(<aoa3:divine_station>,
 [[<aoa3:fragmented_anima_stone>, <divinerpg:divine_shards>, <aoa3:fragmented_anima_stone>],
 [<divinerpg:divine_shards>, <contenttweaker:alchemical_mushroom>, <divinerpg:divine_shards>],
 [<aoa3:fragmented_anima_stone>, <divinerpg:divine_shards>, <aoa3:fragmented_anima_stone>]]);
+
+
+
+
+
+
+recipes.removeShaped(<aoa3:bloodlurker>);
+recipes.addShaped(<aoa3:bloodlurker>,
+[[<contenttweaker:bloodhunter_droplet>, <divinerpg:bloodgem_block>, <contenttweaker:bloodhunter_droplet>],
+[<dimdoors:world_thread>, <divinerpg:bloodgem_block>, <dimdoors:world_thread>],
+[<contenttweaker:forgotten_slime>, <aoa3:limonite_rod>, <contenttweaker:forgotten_slime>]]);
+
+
+recipes.addShaped(<aoa3:tidal_greatblade>,
+[[<divinerpg:aquatic_ingot>, <divinerpg:aquatic_ingot>, <divinerpg:aquatic_ingot>],
+[<divinerpg:aquatic_ingot>, <divinerpg:aquatic_ingot>, <divinerpg:aquatic_ingot>],
+[<ore:seaSerpentScales>, <aoa3:limonite_rod>, <ore:seaSerpentScales>]]);
+
+
+recipes.addShaped(<aoa3:baron_greatblade>,
+[[null, <contenttweaker:barathosynium_ingot>, null],
+[null, <contenttweaker:barathosynium_ingot>, null],
+[<contenttweaker:abyssal_flesh>, <aoa3:limonite_rod>, <contenttweaker:abyssal_flesh>]]);
+
+
+recipes.removeShaped(<aoa3:lelyetian_greatblade>);
+recipes.addShaped(<aoa3:lelyetian_greatblade>,
+[[<mysticalagradditions:awakened_draconium_essence>, <contenttweaker:fluctuating_alloy>, <mysticalagradditions:awakened_draconium_essence>],
+[<mysticalagradditions:awakened_draconium_essence>, <contenttweaker:fluctuating_alloy>, <mysticalagradditions:awakened_draconium_essence>],
+[<contenttweaker:recursion_fragment_lelyetia>, <aoa3:limonite_rod>, <contenttweaker:recursion_fragment_lelyetia>]]);
+
+
+recipes.addShaped(<aoa3:subterranean_greatblade>,
+[[null, <contenttweaker:wrought_iron_plate>, null],
+[null, <contenttweaker:wrought_iron_plate>, null],
+[<contenttweaker:kror_sediment>, <aoa3:limonite_rod>, <contenttweaker:kror_sediment>]]);
+
+
+recipes.removeShaped(<aoa3:shyre_sword>);
+recipes.addShaped(<aoa3:shyre_sword>,
+[[null, <aoa3:shyregem_block>, null],
+[<contenttweaker:xxeus_heart>, <minecraft:glowstone>, <contenttweaker:xxeus_heart>],
+[<aoa3:shyrestone_block>, <aoa3:limonite_rod>, <aoa3:shyrestone_block>]]);
+
+
+
+
+recipes.addShaped(<aoa3:gods_greatblade>,
+[[null, <contenttweaker:recursium_ingot>, null],
+[<contenttweaker:stone_of_the_shyre_warden>, <contenttweaker:recursium_ingot>, <contenttweaker:stone_of_the_shyre_warden>],
+[<contenttweaker:imperial_diamond_powder>, <aoa3:limonite_rod>, <contenttweaker:imperial_diamond_powder>]]);
+
+
+
+
+recipes.removeShaped(<aoa3:goofy_greatblade>);
+recipes.addShaped(<aoa3:goofy_greatblade>,
+[[<contenttweaker:gambling_sentient_meatball>, <contenttweaker:gyro_red_nose>, <contenttweaker:gambling_sentient_meatball>],
+[<aoa3:hardened_confetti_ball>, <contenttweaker:eldritch_flower>, <aoa3:hardened_confetti_ball>],
+[<openblocks:tank>.withTag({tank: {FluidName: "essence_of_ilarity", Amount: 16000}}), <aoa3:limonite_rod>, <openblocks:tank>.withTag({tank: {FluidName: "essence_of_ilarity", Amount: 16000}})]]);
+
+
+recipes.addShaped(<aoa3:lyonic_greatblade>,
+[[null, <contenttweaker:lyonite_plate>, null],
+[<contenttweaker:apothecary_stone>, <contenttweaker:lyonite_plate>, <contenttweaker:apothecary_stone>],
+[<contenttweaker:silver_foot>, <aoa3:limonite_rod>, <contenttweaker:silver_foot>]]);
+
+
+recipes.addShaped(<aoa3:noxious_greatblade>,
+[[null, <contenttweaker:depleted_polonium>, null],
+[<aoa3:vile_stone>, <contenttweaker:depleted_polonium>, <aoa3:vile_stone>],
+[<contenttweaker:voxxulon_slime>, <aoa3:limonite_rod>, <contenttweaker:voxxulon_slime>]]);
+
+recipes.addShaped(<aoa3:rosidian_greatblade>,
+[[null, <ore:ingotVityte>, null],
+[<contenttweaker:rosidian_blend>, <ore:ingotVityte>, <contenttweaker:rosidian_blend>],
+[<contenttweaker:vinocorne_petal>, <aoa3:limonite_rod>, <contenttweaker:vinocorne_petal>]]);
+
+
+recipes.removeShaped(<aoa3:runic_greatblade>);
+recipes.addShaped(<aoa3:runic_greatblade>,
+[[<aoa3:runic_energy>, <contenttweaker:runandium_ingot>, <aoa3:runic_energy>],
+[<aoa3:runic_energy>, <contenttweaker:runandium_ingot>, <aoa3:runic_energy>],
+[<aoa3:elecanium_block>, <contenttweaker:strange_opalescent_stick>, <aoa3:elecanium_block>]]);
+
+
+recipes.addShaped(<aoa3:primordial_greatblade>,
+[[null, <aoa3:radiant_power_stone>, null],
+[<contenttweaker:pure_shadow_bar>, <aoa3:radiant_power_stone>, <contenttweaker:pure_shadow_bar>],
+[<aoa3:primordial_skull>, <aoa3:limonite_rod>, <aoa3:primordial_skull>]]);
+
+
+recipes.addShaped(<aoa3:haunted_greatblade>,
+[[null, <aoa3:ghoulish_block>, null],
+[<aoa3:ghoulasm>, <aoa3:ghoulish_block>, <aoa3:ghoulasm>],
+[<contenttweaker:bane_tusk>, <aoa3:limonite_rod>, <contenttweaker:bane_tusk>]]);
+
+
+recipes.addShaped(<aoa3:vulcammer_maul>,
+[[<aoa3:emberstone_block>, <contenttweaker:scorcher_eternal_flame>, <aoa3:emberstone_block>],
+[null, <aoa3:limonite_rod>, null],
+[null, <aoa3:limonite_rod>, null]]);
+
+
+recipes.removeShaped(<aoa3:coralstone_maul>);
+recipes.addShaped(<aoa3:coralstone_maul>,
+[[<aoa3:coral_stone>, <contenttweaker:gem_of_the_sleeping_city>, <aoa3:coral_stone>],
+[<contenttweaker:oblivion_catalyzer>, <aoa3:limonite_rod>, <aoa3:runic_energy>],
+[null, <aoa3:limonite_rod>, null]]);
+
+
+recipes.addShaped(<aoa3:electron_maul>,
+[[<aoa3:lyon_block>, <aoa3:vulcane_augment_power>, <aoa3:lyon_block>],
+[null, <aoa3:limonite_rod>, null],
+[null, <aoa3:limonite_rod>, null]]);
+
+
+mods.aoa3.InfusionTable.removeInfusionRecipe(<aoa3:mecha_skellox_slab>);
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_mecha_skellox",
+<aoa3:mecha_skellox_slab>,
+<aoa3:blank_slab>,
+[<contenttweaker:iro_component>,
+<avaritia:resource:6>,
+<contenttweaker:skelebone_fragment>],
+100);
+
+
+
+mods.aoa3.InfusionTable.removeInfusionRecipe(<aoa3:compeer_slab>*2);
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_compeer",
+<aoa3:compeer_slab>,
+<aoa3:blank_slab>,
+[<mod_lavacow:pigboarhide>,
+<mod_lavacow:hatred_shard>],
+2);
+
+mods.aoa3.InfusionTable.removeInfusionRecipe(<aoa3:spikeback_slab>);
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_spikeback",
+<aoa3:spikeback_slab>,
+<aoa3:blank_slab>,
+[<contenttweaker:barathosynium_ingot>,
+<contenttweaker:hive_king_tendril>],
+2);
+
+mods.aoa3.InfusionTable.removeInfusionRecipe(<aoa3:rammerhorn_slab>*2);
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_rammerhorn",
+<aoa3:rammerhorn_slab>,
+<aoa3:blank_slab>,
+[<contenttweaker:demon_stone>,
+<minecraft:porkchop>,
+<minecraft:porkchop>],
+2);
+
+mods.aoa3.InfusionTable.removeInfusionRecipe(<aoa3:spraggy_slab>);
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_spraggy",
+<aoa3:spraggy_slab>,
+<aoa3:blank_slab>,
+[<aoa3:waggy_slab>,
+<contenttweaker:voxxulon_slime>],
+1);
+
+mods.aoa3.InfusionTable.removeInfusionRecipe(<aoa3:craggy_slab>);
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_craggy",
+<aoa3:craggy_slab>,
+<aoa3:blank_slab>,
+[<aoa3:spraggy_slab>,
+<contenttweaker:lunar_star>],
+1);
+
+mods.aoa3.InfusionTable.removeInfusionRecipe(<aoa3:shaddy_slab>);
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_shaddy",
+<aoa3:shaddy_slab>,
+<aoa3:blank_slab>,
+[<aoa3:craggy_slab>,
+<contenttweaker:eye_of_dustopia>],
+25);
+
+mods.aoa3.InfusionTable.removeInfusionRecipe(<aoa3:waggy_slab>);
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_waggy",
+<aoa3:waggy_slab>,
+<aoa3:blank_slab>,
+[<aoa3:draggy_slab>,
+<appliedenergistics2:material:12>],
+1);
+
+
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_corby",
+<aoa3:corby_slab>,
+<aoa3:blank_slab>,
+[<aoa3:white_coral>,
+<contenttweaker:dracyon_tooth>],
+10);
+
+
+
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_voicesleeping",
+<contenttweaker:voice_of_the_sunken_city>,
+<aoa3:glowing_infusion_stone>,
+[<extendedcrafting:singularity_custom:994>,
+<contenttweaker:gem_of_the_sleeping_city>],
+50);
+
+
+
+
+mods.aoa3.InfusionTable.removeInfusionRecipe(<aoa3:horntail_slab>);
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_horntail",
+<aoa3:horntail_slab>,
+<aoa3:blank_slab>,
+[<contenttweaker:abyssal_flesh>,
+<contenttweaker:elusive_horn>],
+20);
+
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_abyssal_bone",
+<contenttweaker:abyssal_bone>,
+<iceandfire:dragonbone>,
+[<contenttweaker:abyssal_flesh>,
+<thebetweenlands:wight_heart>],
+20);
+
+
+
+mods.aoa3.InfusionTable.removeInfusionRecipe(<aoa3:gnawer_slab>);
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_gnawer",
+<aoa3:gnawer_slab>,
+<aoa3:blank_slab>,
+[<mod_lavacow:piranha>,
+<aoa3:sharp_claw>,
+<nuclearcraft:uranium:5>],
+20);
+
+mods.aoa3.InfusionTable.removeInfusionRecipe(<aoa3:blissard_slab>);
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_blissard",
+<aoa3:blissard_slab>*4,
+<aoa3:blank_slab>,
+[<contenttweaker:skythern_star>,
+<contenttweaker:skeletal_kaiyu_bone>],
+10);
+
+
+mods.aoa3.InfusionTable.removeInfusionRecipe(<aoa3:alluricorn_slab>);
+mods.aoa3.InfusionTable.addInfusionRecipe("mbc_alluricorn",
+<aoa3:alluricorn_slab>*4,
+<aoa3:blank_slab>,
+[<aoa3:kinetic_rune>,
+<aoa3:ivory>,
+<aoa3:crystallite>,
+<aoa3:shyregem>],
+25);

@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1382348754
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "iceandfire:dragonsteel_fire_axe"
+      },
+      "name:8": "狩猎：龙钢"
+    }
+  },
+  "questID:3": 2142679280,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:dragonsteel_lightning_axe"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:dragonsteel_fire_axe"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "iceandfire:dragonsteel_ice_axe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

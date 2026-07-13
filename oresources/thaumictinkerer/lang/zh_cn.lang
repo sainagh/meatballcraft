@@ -60,3 +60,5 @@ thaumictinkerer.research.ichorarmor.complete.text=事实证明，过程确实不
 
 material.ichorium.name=神灵素
 fluid.molten_ichorium=熔融神灵素
+
+enchantment.thaumictinkerer.focusedstrikes.desc=对同一生物首次攻击造成的伤害减半，但提升后续攻击伤害，提升量为 100% + 25% × (等级 - 1)。

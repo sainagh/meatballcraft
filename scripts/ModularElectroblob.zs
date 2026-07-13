@@ -430,3 +430,10 @@ reci41.addItemInput(<ebwizardry:magic_crystal:0>*4);
 reci41.addItemInput(<minecraft:emerald>*64);
 reci41.addItemOutput(<actuallyadditions:item_jam:0>*32);
 reci41.build();
+
+val reci42 = RecipeBuilder.newBuilder("electroblob42","wizardry_combiner",40);
+reci42.addEnergyPerTickInput(15000);
+reci42.addItemInput(<contenttweaker:sacred_cinders_honey>*16);
+reci42.addItemInput(<bewitchment:spanish_moss>*64);
+reci42.addItemOutput(<contenttweaker:sacred_cinders_moss>*16);
+reci42.build();

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o增加武器或弹射物的伤害",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:quartz"
@@ -13,6 +13,18 @@
     }
   },
   "questID:3": 1114,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:quartz"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

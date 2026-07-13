@@ -14,10 +14,23 @@
           }
         }
       },
-      "name:8": "史莱姆"
+      "name:8": "史莱姆鸡"
     }
   },
   "questID:3": 1520,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 4,
+          "id:8": "xreliquary:mob_ingredient"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

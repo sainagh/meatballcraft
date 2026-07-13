@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    572887915
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thebetweenlands:syrmorite_shears"
+      },
+      "name:8": "升级加成：赛摩剪刀"
+    }
+  },
+  "questID:3": 2060963376,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thebetweenlands:syrmorite_shears"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

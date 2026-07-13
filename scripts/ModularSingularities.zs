@@ -687,9 +687,5 @@ quantumcondcyanite.addItemOutput(<extendedcrafting:singularity_custom:2059>);
 quantumcondcyanite.build();
 
 
-val quantumconddivinerpgd = RecipeBuilder.newBuilder("quantumconddivinerpgd","quantum_condenser",4);
-quantumconddivinerpgd.addEnergyPerTickInput(500000);
-quantumconddivinerpgd.addItemInput(<divinerpg:divine_stone>*5056);
-quantumconddivinerpgd.addItemOutput(<extendedcrafting:singularity_custom:2060>);
-quantumconddivinerpgd.build();
+
 

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1382348754
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:coralstorm_sword"
+      },
+      "name:8": "狩猎：珊瑚"
+    }
+  },
+  "questID:3": 524357553,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:coralstorm_sword"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

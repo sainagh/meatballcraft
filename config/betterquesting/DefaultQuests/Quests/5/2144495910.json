@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20489
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o你可能用不上这个，但要是你是法咒主宰，那不妨一试！",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "contenttweaker:perfected_imbuement_fabrial"
+      },
+      "name:8": "简化品种获取"
+    }
+  },
+  "questID:3": 2144495910,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:perfected_imbuement_fabrial"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

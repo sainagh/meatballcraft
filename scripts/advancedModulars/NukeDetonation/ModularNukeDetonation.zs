@@ -25,7 +25,7 @@ nukeenvironmentboom.addStartHandler(function(event as RecipeStartEvent) {
       NukeEnvironmentRecipeStart(event.controller, "techreborn:nuke");
     }
   )
-  .addRecipeTooltip(["在控制器下方放置核弹后，多方块内部所有具备有效配方的流体都将被转换"])
+  .addRecipeTooltip([" "," "," ","在控制器下方放置核弹后","多方块内部所有具备有效配方的流体","都将被转换"])
   .build();
 
 

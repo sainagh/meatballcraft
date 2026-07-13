@@ -123,3 +123,9 @@ import crafttweaker.text.ITextComponent;
 <contenttweaker:enchdesc_curse_bones>.addTooltip(format.red(ITextComponent.fromTranslation("tombstone:curse_of_bones.desc").unformattedText));
 
 <contenttweaker:enchdesc_flaming_touch>.addTooltip(format.red(ITextComponent.fromTranslation("cyclicmagic:flaming_touch.desc").unformattedText));
+
+<contenttweaker:enchdesc_vampirism>.addTooltip(format.red(ITextComponent.fromTranslation("thaumictinkerer:vamprisim.desc").unformattedText));
+
+<contenttweaker:enchdesc_critical_boost>.addTooltip(format.red(ITextComponent.fromTranslation("mod_lavacow:critical_boost.desc").unformattedText));
+
+<contenttweaker:enchdesc_focused_strike>.addTooltip(format.red(ITextComponent.fromTranslation("thaumictinkerer:focusedstrikes.desc").unformattedText));

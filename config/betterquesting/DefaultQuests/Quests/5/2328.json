@@ -37,7 +37,7 @@
           "id:8": "botania:enchanter"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

@@ -14,10 +14,22 @@
           }
         }
       },
-      "name:8": "绿宝石"
+      "name:8": "绿宝石鸡"
     }
   },
   "questID:3": 1516,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:emerald"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

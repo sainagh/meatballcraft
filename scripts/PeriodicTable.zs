@@ -719,3 +719,4 @@ mods.nuclearcraft.melter.addRecipe([<ore:ingotHassium>, <fluid:hassium> * 144,0.
 
 
 // making californium
+

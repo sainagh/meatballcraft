@@ -1,7 +1,7 @@
 {
 	"generatorType": "ANYWHERE",
-	"minY": 10,
-	"maxY": 100,
+	"minY": 33,
+	"maxY": 45,
 	"offsetX": 0,
 	"offsetY": 0,
 	"offsetZ": 0,
@@ -21,7 +21,7 @@
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "",
+	"filling": "unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_11",
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	

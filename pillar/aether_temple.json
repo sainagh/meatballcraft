@@ -1,7 +1,7 @@
 {
-	"generatorType": "SURFACE",
-	"minY": -1,
-	"maxY": -1,
+	"generatorType": "ANYWHERE",
+	"minY": 100,
+	"maxY": 180,
 	"offsetX": 0,
 	"offsetY": 0,
 	"offsetZ": 0,
@@ -11,7 +11,7 @@
 	"ignoreEntities": false,
 
 	"dimensionSpawns": [0],
-	"biomeNameSpawns": ["Ocean","FrozenOcean","Deep Ocean","Coral Reef"],
+	"biomeNameSpawns": [],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": true,
@@ -21,9 +21,11 @@
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "minecraft:dirt",
+	"filling": "",
 	"fillingMetadata": 0,
-	"fillingType": "AIR_WATER",
+	"fillingType": "AIR",
+
+	"minDistanceToSameTypeStructures": 200,
 	
-	"rarity": 2200
+	"rarity": 1000
 }

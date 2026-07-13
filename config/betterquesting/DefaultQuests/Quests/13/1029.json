@@ -19,6 +19,18 @@
     }
   },
   "questID:3": 1029,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 12,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

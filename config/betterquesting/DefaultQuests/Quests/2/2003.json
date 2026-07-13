@@ -40,7 +40,7 @@
           "id:8": "contenttweaker:triple_nak_heat_exchanger"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

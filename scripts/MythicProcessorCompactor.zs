@@ -172,9 +172,44 @@ mythsqueez28.addItemInput(<extrabees:propolis:1>*10);
 mythsqueez28.addFluidOutput(<fluid:oil>*5000);
 mythsqueez28.build();
 
+val mythsqueez29 = RecipeBuilder.newBuilder("mythsqueez29","mythic_processor_compactor",2);
+mythsqueez29.addEnergyPerTickInput(60000);
+mythsqueez29.addItemInput(<minecraft:experience_bottle>*10);
+mythsqueez29.addFluidOutput(<fluid:xpjuice>*600);
+mythsqueez29.build();
+
+val mythsqueez30 = RecipeBuilder.newBuilder("mythsqueez30","mythic_processor_compactor",2);
+mythsqueez30.addEnergyPerTickInput(60000);
+mythsqueez30.addItemInput(<actuallyadditions:item_solidified_experience>*10);
+mythsqueez30.addFluidOutput(<fluid:xpjuice>*1600);
+mythsqueez30.build();
 
 
 
+val mythsqueez31 = RecipeBuilder.newBuilder("mythsqueez31","mythic_processor_compactor",2);
+mythsqueez31.addEnergyPerTickInput(60000);
+mythsqueez31.addItemInput(<deepmoblearning:living_matter_hellish>*10);
+mythsqueez31.addFluidOutput(<fluid:xpjuice>*2800);
+mythsqueez31.build();
+
+val mythsqueez32 = RecipeBuilder.newBuilder("mythsqueez32","mythic_processor_compactor",2);
+mythsqueez32.addEnergyPerTickInput(60000);
+mythsqueez32.addItemInput(<deepmoblearning:living_matter_extraterrestrial>*10);
+mythsqueez32.addFluidOutput(<fluid:xpjuice>*4000);
+mythsqueez32.build();
+
+val mythsqueez33 = RecipeBuilder.newBuilder("mythsqueez33","mythic_processor_compactor",2);
+mythsqueez33.addEnergyPerTickInput(60000);
+mythsqueez33.addItemInput(<deepmoblearning:living_matter_twilight>*10);
+mythsqueez33.addFluidOutput(<fluid:xpjuice>*6000);
+mythsqueez33.build();
+
+
+val mythsqueez34 = RecipeBuilder.newBuilder("mythsqueez34","mythic_processor_compactor",2);
+mythsqueez34.addEnergyPerTickInput(60000);
+mythsqueez34.addItemInput(<deepmoblearning:living_matter_overworldian>*10);
+mythsqueez34.addFluidOutput(<fluid:xpjuice>*2000);
+mythsqueez34.build();
 
 
 
@@ -784,6 +819,7 @@ mythcomp98.addItemInput(<extendedcrafting:material:12>*16);
 mythcomp98.addItemInput(<redstonearsenal:material:128>*64);
 mythcomp98.addItemOutput(<nuclearcraft:part:3>*16);
 mythcomp98.build();
+
 
 
 

@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "light_of_the_one_power"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}

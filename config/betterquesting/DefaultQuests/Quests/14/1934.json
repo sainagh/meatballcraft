@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o让建造变得简单！\n\n按住V键选择建造模式！\n\n不小心放错方块时，可按U撤销！",
+      "desc:8": "§7§o让建造变得简单！\n\n对方块Shift+右击来选择要使用的建造方块。\n\n按住V键选择建造模式！\n\n不小心放错方块时，可按U撤销！\n\n会自动从EMC网络中抽取物品，对部分背包也生效。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "buildinggadgets:buildingtool",
@@ -19,6 +19,18 @@
     }
   },
   "questID:3": 1934,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond_ore"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "ignoreNBT:1": 1,

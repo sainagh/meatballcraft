@@ -47,7 +47,7 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
     if (target.health <= DAMAGE) {
       target.onDeath(IDamageSource.createPlayerDamage(event.player));
       // give custom drop
-      Commands.call("summon aoa3:night_reaper ~ ~2 ~ {HandItems:[{Count:1,id:\"contenttweaker:sundered_crimson_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:400000.0}],Health:200000f,CustomName:\"血腥教团的裂解意志\"}", event.player, event.world, false, true);
+      Commands.call("summon aoa3:night_reaper ~ ~2 ~ {HandItems:[{Count:1,id:\"contenttweaker:sundered_crimson_heart\"},{}],HandDropChances:[1.0f,0.0f],Attributes:[{Name:generic.maxHealth, Base:200000.0},{Name:generic.attackDamage, Base:400000.0}],Health:200000f,CustomName:\"血腥教团的碎裂意志\"}", event.player, event.world, false, true);
       // Allows for proper death
       target.health = 0;
       

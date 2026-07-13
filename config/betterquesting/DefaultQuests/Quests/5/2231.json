@@ -46,7 +46,7 @@
           "id:8": "immersivepetroleum:metal_multiblock"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

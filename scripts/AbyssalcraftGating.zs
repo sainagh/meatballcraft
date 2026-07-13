@@ -37,10 +37,6 @@ recipes.addShaped(<abyssalcraft:coraliumore>,
 [<abyssalcraft:shoggothflesh:0>, <minecraft:emerald_ore>, <abyssalcraft:shoggothflesh:0>],
 [<xreliquary:witch_hat>, makeVisCrystal(<aspect:vitium> * 1), <xreliquary:witch_hat>]]);
 
-recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "abyssalcraft:shadowcreature"}}),
-[[<aoa3:void_scales>, <thaumcraft:crystal_essence>, <aoa3:void_scales>],
-[<abyssalcraft:shoggothflesh:0>, <contenttweaker:alchemical_crystal>, <abyssalcraft:shoggothflesh:0>],
-[<aoa3:void_scales>, <thaumcraft:crystal_essence>, <aoa3:void_scales>]]);
 
 mods.nuclearcraft.melter.addRecipe([<abyssalcraft:dreadiumingot>, <fluid:moltendreadium>*144]);
 mods.nuclearcraft.melter.addRecipe([<abyssalcraft:abyingot>, <fluid:moltenabyssalnite>*144]);
@@ -81,3 +77,11 @@ recipes.addShaped(<abyssalcraft:carboncluster>*64,
 [[<extrabees:misc:18>, <abyssalcraft:crystal:3>, <extrabees:misc:18>],
 [<abyssalcraft:crystal:3>, <extrabees:misc:1>, <abyssalcraft:crystal:3>],
 [<extrabees:misc:18>, <abyssalcraft:crystal:3>, <extrabees:misc:18>]]);
+
+
+
+
+
+mods.abyssalcraft.CreationRitual.removeRitual(<abyssalcraft:interdimensionalcage>);
+
+mods.abyssalcraft.CreationRitual.removeRitual(<abyssalcraft:interdimensionalcage>.withTag({PotEnergy: 0.0 as float}));

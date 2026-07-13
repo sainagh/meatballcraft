@@ -5,3 +5,7 @@ recipes.addShaped(<chisel:futura:0>*8,
 [<ore:stoneAndesite>, <minecraft:redstone>, <ore:stoneAndesite>],
 [<ore:stoneAndesite>, <ore:stoneAndesite>, <ore:stoneAndesite>]]);
 
+
+
+
+

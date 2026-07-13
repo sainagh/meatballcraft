@@ -44,7 +44,7 @@
           "id:8": "contenttweaker:recursive_recipes"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

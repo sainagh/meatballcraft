@@ -14,10 +14,22 @@
           }
         }
       },
-      "name:8": "海晶碎片"
+      "name:8": "海晶碎片鸡"
     }
   },
   "questID:3": 1518,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:prismarine_shard"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

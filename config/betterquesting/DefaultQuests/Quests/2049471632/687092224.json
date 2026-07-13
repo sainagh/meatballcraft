@@ -1,0 +1,68 @@
+{
+  "preRequisites:11": [
+    1439034117
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o可使用任意附魔书完成该任务。\n\n可选检索任务中列出了使用血主秘典后解锁的弓类魔咒。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:enchanted_book",
+        "tag:10": {
+          "StoredEnchantments:9": {
+            "0:10": {
+              "id:3": 16,
+              "lvl:2": 5
+            }
+          }
+        }
+      },
+      "name:8": "[血主]弓类魔咒",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 687092224,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:enchanted_book",
+          "tag:10": {
+            "StoredEnchantments:9": {
+              "0:10": {
+                "id:3": 16,
+                "lvl:2": 5
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:enchdesc_multishot"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

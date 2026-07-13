@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oRoost模组的鸡舍是组合鸡舍的中期替代品，在第4章中可用。\n\n鸡捕手用于收集世界中的实体鸡，并将它们转化为鸡舍中使用的物品形态。\n\n这种形态下的鸡拥有属性：增益、适应能力、成长进度，决定了它们下蛋的速度。这些属性可以通过鸡繁殖箱或可爱鸡来提升。\n\n它不像机械鸡舍那样适合终局和后期，但它是单方块，因此在许多情况下可能更加灵活，尤其是当你在神话叠壳阶段养殖大量鸡时。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "roost:roost"
@@ -14,6 +14,18 @@
     }
   },
   "questID:3": 20427,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "roost:roost"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
@@ -25,6 +37,10 @@
         "1:10": {
           "Count:3": 1,
           "id:8": "roost:catcher"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "roost:breeder"
         }
       },
       "taskID:8": "bq_standard:retrieval"

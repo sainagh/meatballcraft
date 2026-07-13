@@ -268,3 +268,5 @@ recipes.addShaped(<environmentaltech:modifier_absorption>,
 [[<contenttweaker:shield_of_terra>, <contenttweaker:spinel_ring>, <contenttweaker:shield_of_terra>],
 [<contenttweaker:spinel_ring>, <environmentaltech:modifier_null>, <contenttweaker:spinel_ring>],
 [<contenttweaker:shield_of_terra>, <contenttweaker:spinel_ring>, <contenttweaker:shield_of_terra>]]);
+
+

@@ -2576,6 +2576,8 @@ mith24.addItemOutput(<aoa3:raw_charger_shank>*64);
 mith24.setChance(0.99);
 mith24.addItemOutput(<aoa3:raw_ursa_meat>*64);
 mith24.setChance(0.99);
+mith24.addItemOutput(<contenttweaker:calcite_gem>*64);
+mith24.setChance(0.95);
 mith24.addItemOutput(<contenttweaker:tier24_token>);
 mith24.build();
 
@@ -2604,6 +2606,8 @@ mith25.setChance(0.35);
 mith25.addItemOutput(<contenttweaker:immortallis_garnet>);
 mith25.setChance(0.25);
 mith25.addItemOutput(<aoa3:fragmented_anima_stone>*64);
+mith25.setChance(0.9);
+mith25.addItemOutput(<contenttweaker:calcite_gem>*64);
 mith25.setChance(0.9);
 mith25.addItemOutput(<aoa3:dungeon_tokens>*64);
 mith25.setChance(0.99);
@@ -2820,7 +2824,9 @@ mith28.setChance(0.9);
 mith28.addItemOutput(<divinerpg:honeysuckle>*64);
 mith28.setChance(0.9);
 mith28.addItemOutput(<contenttweaker:dream_brick>*64);
-mith28.setChance(0.9);
+mith28.setChance(0.99);
+mith28.addItemOutput(<contenttweaker:dream_brick>*64);
+mith28.setChance(0.99);
 mith28.addItemOutput(<divinerpg:acid>*64);
 mith28.setChance(0.9);
 mith28.addItemOutput(<divinerpg:clean_pearls>*64);
@@ -3228,8 +3234,10 @@ mith29.addItemOutput(<aoa3:fragmented_anima_stone>*64);
 mith29.setChance(0.7);
 mith29.addItemOutput(<aoa3:fragmented_anima_stone>*64);
 mith29.setChance(0.7);
-mith29.addItemOutput(<contenttweaker:mother_pixon_soul>*10);
-mith29.setChance(0.3);
+mith29.addItemOutput(<contenttweaker:calcite_gem>*64);
+mith29.setChance(0.95);
+mith29.addItemOutput(<contenttweaker:mother_pixon_soul>*50);
+mith29.setChance(0.8);
 mith29.addItemOutput(<divinerpg:bluefire_stone>*40);
 mith29.setChance(0.8);
 mith29.addItemOutput(<divinerpg:divine_stone>*40);
@@ -3273,7 +3281,7 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/alta
 	<extendedcrafting:material:32>, <extendedcrafting:material:32>, <extendedcrafting:material:32>, <extendedcrafting:material:32>,<extendedcrafting:material:32>, 
 	<extendedcrafting:material:32>,<divinerpg:divine_shards>, <divinerpg:divine_shards>,<divinerpg:divine_shards>, <divinerpg:divine_shards>,
 	//Outer Items, indices 25+
-	<ore:HighTierSingularity>, <ore:HighTierSingularity>, <ore:HighTierSingularity>, <ore:HighTierSingularity>
+	<ore:HighTierSingularity>, <extendedcrafting:singularity_custom:999>, <ore:HighTierSingularity>, <extendedcrafting:singularity_custom:999>, <ore:HighTierSingularity>, <extendedcrafting:singularity_custom:999>, <ore:HighTierSingularity>, <extendedcrafting:singularity_custom:999>
 ],
 "astralsorcery.constellation.armara");
 
@@ -3302,10 +3310,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:arbiterite_c
 
 // mods.techreborn.implosionCompressor.addRecipe(<contenttweaker:defined_plate>, <minecraft:stone:0>, <contenttweaker:defined_ingot>, <contenttweaker:bloodmaster_block>*4, 60, 512);
 
-mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:defined_gear>, 
-[[<contenttweaker:shyre_crystal>, <contenttweaker:defined_plate>, <contenttweaker:shyre_crystal>], 
-[<contenttweaker:defined_plate>, <materialpart:chalcedony:ingot>, <contenttweaker:defined_plate>], 
-[<contenttweaker:shyre_crystal>, <contenttweaker:defined_plate>, <contenttweaker:shyre_crystal>]], 3);
 
 recipes.addShaped(<contenttweaker:definer_core>,
 [[<avaritia:resource:5>, <contenttweaker:defined_gear>, <avaritia:resource:5>],
@@ -3525,4 +3529,5 @@ mythassalltokens.addItemOutput(<aoa3:runandor_tokens>*64);
 mythassalltokens.addItemOutput(<aoa3:shyrelands_tokens>*64);
 mythassalltokens.addItemOutput(<aoa3:vox_ponds_tokens>*64);
 mythassalltokens.build();
+
 

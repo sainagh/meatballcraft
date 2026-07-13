@@ -1186,7 +1186,7 @@ spatialcruc7_better1.addItemInput(<contenttweaker:universal_realgar>);
 spatialcruc7_better1.addFluidOutput(<fluid:universal_matter>*600000);
 spatialcruc7_better1.build();
 
-recipes.addShaped(<contenttweaker:blade_of_the_samurai_queen>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 100},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]}),
+recipes.addShaped(<contenttweaker:blade_of_the_samurai_queen>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 77},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]}),
 [[null, <contenttweaker:sword_shield>, null],
 [<contenttweaker:projector_gem>, <contenttweaker:sword_shield>, <contenttweaker:projector_gem>],
 [null, <immersiveengineering:material:0>, null]]);
@@ -2525,6 +2525,7 @@ recipes.addShaped(<contenttweaker:one_power_unleashed_emerald>,
 [[null, <contenttweaker:stone_of_universal_balance>, null],
 [<contenttweaker:stone_of_universal_balance>, <contenttweaker:one_power_aspected_emerald>, <contenttweaker:stone_of_universal_balance>],
 [null, <contenttweaker:stone_of_universal_balance>, null]]);
+
 
 
 

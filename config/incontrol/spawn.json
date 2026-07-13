@@ -1236,13 +1236,15 @@
         "thebetweenlands:wight",
         "thebetweenlands:lurker",
         "thebetweenlands:peat_mummy",
+        "thebetweenlands:dreadful_mummy",
         "aoa3:king_bambambam",
         "aoa3:nethengeic_wither",
         "thebetweenlands:chiromaw",
+        "thebetweenlands:chiromaw_matriarch",
         "thebetweenlands:large_sludge_worm"],
     "onjoin": true,
     "result": "allow",
-    "healthmultiply": 2.0,
+    "healthmultiply": 5.0,
     "damagemultiply": 3.0,
     "speedmultiply": 1.0
   },
@@ -1252,7 +1254,6 @@
   {
     "mob": ["twilightforest:naga",
       "twilightforest:lich",
-      "twilightforest:ur_ghast",
       "aoa3:corallus",
       "twilightforest:minoshroom",
       "aether_legacy:valkyrie",
@@ -1271,7 +1272,7 @@
       "bewitchment:imp"],
       "onjoin": true,
       "result": "allow",
-      "healthmultiply": 3.0,
+      "healthmultiply": 5.0,
       "damagemultiply": 3.0,
       "speedmultiply": 1.0,
       "potion": ["minecraft:fire_resistance,999999,1",
@@ -1283,17 +1284,14 @@
   {
     "mob": ["aoa3:bane",
       "aoa3:baroness",
-      "aoa3:coniferon",
       "aoa3:creep",
-      "aoa3:crystocore",
       "aoa3:tyrosaur",
+      "aoa3:elusive",
       "abyssalcraft:shadowboss",
-      "aoa3:goldorth",
       "aoa3:yellow_guardian",
       "aoa3:blue_guardian",
       "aoa3:green_guardian",
       "aoa3:red_guardian",
-      "aoa3:hydrolisk",
       "aoa3:king_shroomus",
       "aoa3:kror",
       "aoa3:okazor",
@@ -1303,7 +1301,7 @@
       "aoa3:voxxulon"],
       "onjoin": true,
       "result": "allow",
-      "healthmultiply": 6.0,
+      "healthmultiply": 20.0,
       "damagemultiply": 4.0,
       "speedmultiply": 1.0,
       "potion": ["minecraft:fire_resistance,999999,1",
@@ -1315,12 +1313,15 @@
   {
     "mob": [
       "aoa3:klobber",
+      "aoa3:goldorth",
+      "aoa3:crystocore",
       "aoa3:flash",
       "aoa3:proshield",
+      "aoa3:coniferon",
       "aoa3:mirage"],
       "onjoin": true,
       "result": "allow",
-      "healthmultiply": 15.0,
+      "healthmultiply": 50.0,
       "damagemultiply": 20.0,
       "speedmultiply": 1.0,
       "potion": ["minecraft:fire_resistance,999999,1",
@@ -1348,7 +1349,7 @@
       "aoa3:miskel"],
       "onjoin": true,
       "result": "allow",
-      "healthmultiply": 7.0,
+      "healthmultiply": 60.0,
       "damagemultiply": 20.0,
       "speedmultiply": 1.0,
       "potion": ["minecraft:fire_resistance,999999,1",
@@ -1361,11 +1362,50 @@
     "mob": ["aoa3:xxeus"],
     "onjoin": true,
     "result": "allow",
-    "healthmultiply": 20.0,
+    "healthmultiply": 80.0,
     "damagemultiply": 180.0,
     "speedmultiply": 1.0,
     "potion": ["minecraft:fire_resistance,999999,1",
       "bewitchment:magic_resistance,999999,1"]
+  },
+
+
+
+  {
+    "mob": ["aoa3:hydrolisk"],
+    "onjoin": true,
+    "result": "allow",
+    "healthmultiply": 4.0,
+    "damagemultiply": 10.0,
+    "speedmultiply": 1.0,
+    "potion": ["minecraft:fire_resistance,999999,1",
+      "bewitchment:magic_resistance,999999,1"]
+  },
+
+
+
+  {
+    "mob": ["aoa3:smash"],
+    "onjoin": true,
+    "result": "allow",
+    "healthmultiply": 4.0,
+    "damagemultiply": 2.0,
+    "speedmultiply": 2.0,
+    "potion": ["minecraft:fire_resistance,999999,1",
+      "bewitchment:magic_resistance,999999,1"]
+  },
+
+
+
+  {
+    "mob": ["twilightforest:ur_ghast"],
+    "onjoin": true,
+    "result": "allow",
+    "healthmultiply": 7.0,
+    "damagemultiply": 3.0,
+    "speedmultiply": 1.0,
+    "potion": ["minecraft:fire_resistance,999999,1",
+      "bewitchment:magic_resistance,999999,2"]
   },
 
 

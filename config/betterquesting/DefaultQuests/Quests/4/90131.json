@@ -21,6 +21,11 @@
         "0:10": {
           "Count:3": 1,
           "id:8": "appliedenergistics2:controller"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 12,
+          "id:8": "appliedenergistics2:material"
         }
       }
     }

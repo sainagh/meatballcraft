@@ -28,8 +28,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("感谢ChaosStrikez帮忙实现！"));
 
 
-<contenttweaker:toy_sword>.addTooltip(format.red("生活品质类改进总是好的！"));
-<contenttweaker:toy_sword>.addTooltip(format.red("检查个人强化和工具攀升章节中的任务，里面有很多实用工具！"));
 
 
 <contenttweaker:sideral_living_gemstone>.addTooltip(format.red("超级工厂管理器能帮得上忙"));
@@ -38,7 +36,6 @@ import crafttweaker.item.IItemCondition;
 <spellarchives:spell_archive>.addTooltip(format.red("Aedial是个天才！"));
 
 
-<ebwizardry:spell_book:*>.addTooltip(format.red("可方便地储存在施法者档案馆中"));
 
 <libvulpes:productgem:0>.addTooltip(format.red("感谢Capn修了一大堆高级火箭模组的bug！"));
 
@@ -58,24 +55,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:will_ensnaring_fabrial>.addTooltip(format.red("抗性提升：地狱疣、末影珍珠、黑曜石、荧石粉"));
 
 
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("达成永恒荣耀的玩家："));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("TheWizardHaxer (单人)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("adrin58 (单人)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("< ᛊᚢᛉᛗᛞ > (单人) (首个被动达成)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("ElaDiDu (单人)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("Mine_Antoine (自动化大师) (单人)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("Paronity & Kherune (下单合成挑战) (团队)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("Chaika_In_Paanic, rfhb21, Nezer_Stra (团队)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("迪奥-布兰多 & 0160 (团队)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("zalee (单人)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("Sømêøne (基本无EMC) (单人)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("KawaiiPotatoKing & RandTheGrayMan (团队)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("HadlC & Laino21 (团队)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("talentgoesby (单人)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("ラルセイ, FireDreadlord, JrffK (团队)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("whox1, wydao, ChineseboyXLB (团队)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("Kevin Incorporated & Bemvaras (团队)"));
 
 <contenttweaker:black_hole_juice>.addTooltip(format.red("达成永恒荣耀的玩家："));
 <contenttweaker:black_hole_juice>.addTooltip(format.red("Morph & Shinko (团队)"));
@@ -100,7 +79,7 @@ import crafttweaker.item.IItemCondition;
 
 <bloodmagic:lava_crystal>.addTooltip(format.red("警告：不要使用流体装配室进行合成，会删除气血宝珠"));
 
-<contenttweaker:crimson_warren_remains>.addTooltip(format.red("在暮色森林的血腥教团结构附近，右击暮色诅咒的裂解"));
+<contenttweaker:crimson_warren_remains>.addTooltip(format.red("在暮色森林的血腥教团结构附近，右击暮色诅咒的碎裂"));
 
 <contenttweaker:sundering_of_the_twilit_curse>.addTooltip(format.red("在暮色森林的血腥教团结构附近右击"));
 
@@ -119,6 +98,7 @@ import crafttweaker.item.IItemCondition;
 <superfactorymanager:manager>.addTooltip(format.red("mewmaister真的很想要这个！"));
 <superfactorymanager:manager>.addTooltip(format.red("NerdySpider撰写了说明文档，感谢！"));
 <superfactorymanager:manager>.addTooltip(format.red("感谢Mei移植了SFM4的特性！"));
+<superfactorymanager:manager>.addTooltip(format.red("Soren和Arch也太爱用这个了"));
 
 <cells:import_interface>.addTooltip(format.red("感谢Aedial为我们带来了更多的AE2好物！"));
 <ae2powertools:better_level_maintainer>.addTooltip(format.red("感谢Aedial为我们带来了更多的AE2好物！"));
@@ -144,10 +124,6 @@ import crafttweaker.item.IItemCondition;
 
 <botania:rainbowrod>.addTooltip(format.green("可重复使用"));
 
-<contenttweaker:tracker_binoculars>.addTooltip(format.red("找不到某个特定生物？"));
-<contenttweaker:tracker_binoculars>.addTooltip(format.red("点击物品栏中的“超级生物追踪器”按钮，然后搜索你想要寻找的生物"));
-<contenttweaker:tracker_binoculars>.addTooltip(format.red("双击目标生物的名字，如果周围100格范围内存在匹配实体，这些实体便会高亮显示"));
-<contenttweaker:tracker_binoculars>.addTooltip(format.red("再次双击来停止追踪"));
 
 <contenttweaker:twilit_freedom_fabrial>.addTooltip(format.red("将黄昏召唤石结构顶部中心的传送门方块替换为暮色自由法器"));
 <contenttweaker:twilit_freedom_fabrial>.addTooltip(format.red("站在其上方，使用暮色英雄召唤物"));
@@ -180,59 +156,9 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:void_shriek>.addTooltip(format.red("在混沌之地中右击虚空步行者，看看会发生什么"));
 
-<divinerpg:corrupted_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得20点采掘经验"));
-<divinerpg:corrupted_pickaxe:*>.addTooltip(format.red("Soren想到个好玩的点子！"));
-
-<abyssalcraft:ethaxiumpickaxe:*>.addTooltip(format.red("每破坏一个方块，获得40点采掘经验"));
-
-<astralsorcery:itemcrystalpickaxe:*>.addTooltip(format.red("每破坏一个方块，获得40点采掘经验"));
-
-<bloodmagic:bound_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得40点采掘经验"));
-
-<thaumcraft:elemental_pick:*>.addTooltip(format.red("每破坏一个方块，获得40点采掘经验"));
-
-<divinerpg:bedrock_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得10点采掘经验"));
-
-// <thaumictinkerer:ichorium_pick:*>.addTooltip(format.red("每破坏一个方块，获得100点采掘经验"));
-
-// <thaumictinkerer:ichorium_pick_adv:*>.addTooltip(format.red("每破坏一个方块，获得200点采掘经验"));
-
-<aoa3:rock_pick_sword:*>.addTooltip(format.red("每破坏一个方块，获得150点采掘经验"));
-
-<aoa3:skeletal_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得150点采掘经验"));
-
-<divinerpg:eden_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得100点采掘经验"));
-
-<divinerpg:wildwood_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得200点采掘经验"));
-
-<divinerpg:apalachia_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得300点采掘经验"));
-
-<divinerpg:skythern_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得400点采掘经验"));
-
-<divinerpg:mortum_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得500点采掘经验"));
-
-<divinerpg:dream_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得500点采掘经验"));
-
-<aoa3:ornamyte_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得100点采掘经验"));
-
-<aoa3:goofy_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得400点采掘经验"));
-
-<aoa3:pickmax:*>.addTooltip(format.red("每破坏一个方块，获得6000点采掘经验"));
-
-<aoa3:soulstone_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得3000点采掘经验"));
-
-<aoa3:energistic_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得8000点采掘经验"));
-
-<aoa3:occult_pickaxe:*>.addTooltip(format.red("每破坏一个方块，获得30000点采掘经验"));
 
 
 
-
-<contenttweaker:running_bandana>.addTooltip(format.red("远征技能会给予你随机速度增益，在很多情况下真的很烦人……"));
-<contenttweaker:running_bandana>.addTooltip(format.red("要禁用该功能，你可以按[DELETE]键打开AoA的技能菜单，然后点击远征图标！"));
-
-<contenttweaker:nuclear_engineers_goggles>.addTooltip(format.red("核泄漏之地（Nuclear Wastelands）有辐射！"));
-<contenttweaker:nuclear_engineers_goggles>.addTooltip(format.red("目前还是离远点为好！"));
 
 <contenttweaker:hyperuranion_ingot>.addTooltip(format.red("感谢GalcticSilver绘制的纹理！"));
 <contenttweaker:actualizing_hyperuranion_ingot>.addTooltip(format.red("感谢GalcticSilver绘制的纹理！"));
@@ -256,14 +182,11 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:roaring_warren_alloy>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:self_actualizing_metal>.addTooltip(format.red("感谢NerdySpider绘制的锭纹理！"));
 <contenttweaker:crying_obsidian_powder>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
-<contenttweaker:nuclear_engineers_goggles>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
-<contenttweaker:running_bandana>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:hollow_soul>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:hopebringer_fabrial>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:mask_of_definition>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:defined_disk>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:impetus_gemstone>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
-<contenttweaker:tracker_binoculars>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:sundered_crimson_heart>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:galactic_dust>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:infinite_loving_plate>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
@@ -347,6 +270,32 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:grayscale>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:white_bangs>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
 <contenttweaker:blue_planet>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:crystevia_geode>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:crimson_metal_ingot>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+
+
+<contenttweaker:trinity_ingot>.addTooltip(format.red("感谢NerdySpider绘制的纹理！"));
+<contenttweaker:trinity_ingot>.addTooltip(format.red("感谢cry绘制的熔融流体纹理！"));
+
+
+<contenttweaker:totally_real_tardis>.addTooltip(format.red("Mizzy没有达成永恒荣耀"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

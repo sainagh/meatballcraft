@@ -378,3 +378,31 @@ mythindblast54.addItemInput(<contenttweaker:gilded_matter>*1);
 mythindblast54.addItemOutput(<bigreactors:ingotyellorium>*524288);
 mythindblast54.build();
 
+
+
+
+val mythindblast55 = RecipeBuilder.newBuilder("mythindblast55","mythic_processor_blaster",2);
+mythindblast55.addEnergyPerTickInput(100000);
+mythindblast55.addFluidInput(<fluid:matter_of_creative_inquiry>*5);
+mythindblast55.addItemInput(<contenttweaker:matrix_ore>*4096);
+mythindblast55.addItemInput(<aoa3:shyrelands_tokens>*120);
+mythindblast55.addItemOutput(<avaritia:resource:1>*524288);
+mythindblast55.build();
+
+val mythindblast56 = RecipeBuilder.newBuilder("mythindblast56","mythic_processor_blaster",2);
+mythindblast56.addEnergyPerTickInput(100000);
+mythindblast56.addFluidInput(<fluid:matter_of_creative_inquiry>*5);
+mythindblast56.addItemInput(<contenttweaker:ultimate_ore>*4096);
+mythindblast56.addItemInput(<divinerpg:mortum_chunk>*10);
+mythindblast56.addItemOutput(<extendedcrafting:material:32>*524288);
+mythindblast56.build();
+
+val mythindblast57 = RecipeBuilder.newBuilder("mythindblast57","mythic_processor_blaster",2);
+mythindblast57.addEnergyPerTickInput(100000);
+mythindblast57.addFluidInput(<fluid:recursive_computing_matter>*20);
+mythindblast57.addItemInput(<contenttweaker:holographic_ore>*512);
+mythindblast57.addItemInput(<contenttweaker:universal_constellation>*1);
+mythindblast57.addItemOutput(<contenttweaker:ore_of_the_projected_constellation>*512);
+mythindblast57.build();
+
+

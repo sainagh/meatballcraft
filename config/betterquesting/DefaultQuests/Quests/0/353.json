@@ -25,6 +25,27 @@
             "block:8": "divinerpg:wreck_altar",
             "meta:3": 0
           }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 100,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 200,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "divinerpg:heliosis_lump"
+            },
+            "TrophyName:8": "极其结块",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "divinerpg:heliosis_lump"
         }
       }
     }

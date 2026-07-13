@@ -57,7 +57,7 @@
           "id:8": "contenttweaker:betweenlands_callstone_7"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

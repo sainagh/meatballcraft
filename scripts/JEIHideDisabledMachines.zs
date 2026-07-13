@@ -26,3 +26,6 @@ mods.jei.JEI.hideCategory("melter");
 
 mods.jei.JEI.hideCategory("zmaster587.AR.platePresser");
 
+mods.jei.JEI.hideCategory("thermalexpansion.centrifuge_mobs");
+
+

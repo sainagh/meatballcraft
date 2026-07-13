@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o通过配置，标准发信器可在给定物品数量高于/低于阈值时发出红石信号。\n加装合成卡时，发信器可在物品合成被调用时发出红石信号。",
+      "desc:8": "§7§o通过配置，标准发信器可在给定物品数量高于/低于阈值时发出红石信号。\n加装合成卡时，发信器可在物品合成被调用时发出红石信号。\n\n存储发信器则可配置为监控多种物品，并支持一定的逻辑组合。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 280,
@@ -40,6 +40,14 @@
           "Count:3": 1,
           "Damage:2": 281,
           "id:8": "appliedenergistics2:part"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "ae2powertools:storage_level_emitter"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "ae2powertools:storage_level_emitter_part"
         }
       },
       "taskID:8": "bq_standard:retrieval"

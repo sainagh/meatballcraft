@@ -117,6 +117,7 @@
 <contenttweaker:key_of_actualization>.addTooltip(format.red("需在指定维度使用：卡尚"));
 <contenttweaker:magicbane_callstone>.addTooltip(format.red("需在指定维度使用：蠕变维度"));
 <contenttweaker:time_lords_callstone>.addTooltip(format.red("需在指定维度使用：伽里弗雷"));
+<contenttweaker:call_of_the_berserker>.addTooltip(format.red("需在指定维度使用：爵士维度"));
 
 
 

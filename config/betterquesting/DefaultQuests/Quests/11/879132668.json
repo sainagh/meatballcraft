@@ -1,0 +1,73 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    943,
+    995
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aoa3:lelyetian_greatblade",
+        "tag:10": {
+          "display:10": {
+            "Lore:9": {
+              "0:8": "§d§o超限附魔§r"
+            },
+            "Name:8": "§6§o冈格尼尔§r"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:3": 59,
+              "lvl:3": 16
+            }
+          }
+        }
+      },
+      "name:8": "冈格尼尔"
+    }
+  },
+  "questID:3": 879132668,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:gold_coin"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:lelyetian_greatblade",
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "§d§o超限附魔§r"
+              },
+              "Name:8": "§6§o冈格尼尔§r"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:3": 59,
+                "lvl:3": 16
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

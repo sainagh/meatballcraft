@@ -1,0 +1,27 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "contenttweaker",
+      "path": "demonic_ember"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 50,
+      "oreName": "oreFirestone"
+    },
+    {
+      "weight": 20,
+      "oreName": "oreArdite"
+    },
+    {
+      "weight": 20,
+      "oreName": "oreCobalt"
+    }],
+  "explosionStrength": 10.0,
+  "radius": 6,
+  "maxWeight": 300,
+  "version": 4,
+  "cost": 5000000
+}

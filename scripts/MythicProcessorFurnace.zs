@@ -51,3 +51,4 @@ mythfurn7.addItemOutput(<minecraft:coal:1>);
 mythfurn7.build();
 
 
+

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o对于弓、十字弓、手里剑，弹射物在水中不会减速\n\n绝大部分情形下，折跃特性的表现更好  ;)",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:fish"
@@ -13,6 +13,18 @@
     }
   },
   "questID:3": 1116,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "minecraft:fish"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

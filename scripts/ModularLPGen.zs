@@ -105,10 +105,51 @@ lp20.build();
 
 val lp21 = RecipeBuilder.newBuilder("lp21","lp_harvester",10);
 lp21.addItemInput(<divinerpg:honeychunk>);
-lp21.addFluidOutput(<fluid:liquid_lp>*70);
+lp21.addFluidOutput(<fluid:liquid_lp>*200);
 lp21.build();
 
 val lp22 = RecipeBuilder.newBuilder("lp22","lp_harvester",10);
 lp22.addItemInput(<divinerpg:honeysuckle>);
-lp22.addFluidOutput(<fluid:liquid_lp>*70);
+lp22.addFluidOutput(<fluid:liquid_lp>*200);
 lp22.build();
+
+val lp23 = RecipeBuilder.newBuilder("lp23","lp_harvester",10);
+lp23.addItemInput(<divinerpg:eden_soul>);
+lp23.addFluidOutput(<fluid:liquid_lp>*10);
+lp23.build();
+
+val lp24 = RecipeBuilder.newBuilder("lp24","lp_harvester",10);
+lp24.addItemInput(<divinerpg:wildwood_soul>);
+lp24.addFluidOutput(<fluid:liquid_lp>*20);
+lp24.build();
+
+val lp25 = RecipeBuilder.newBuilder("lp25","lp_harvester",10);
+lp25.addItemInput(<divinerpg:apalachia_soul>);
+lp25.addFluidOutput(<fluid:liquid_lp>*30);
+lp25.build();
+
+val lp26 = RecipeBuilder.newBuilder("lp26","lp_harvester",10);
+lp26.addItemInput(<divinerpg:skythern_soul>);
+lp26.addFluidOutput(<fluid:liquid_lp>*40);
+lp26.build();
+
+val lp27 = RecipeBuilder.newBuilder("lp27","lp_harvester",10);
+lp27.addItemInput(<divinerpg:mortum_soul>);
+lp27.addFluidOutput(<fluid:liquid_lp>*50);
+lp27.build();
+
+val lp28 = RecipeBuilder.newBuilder("lp28","lp_harvester",10);
+lp28.addItemInput(<contenttweaker:harbinger_gluttnonous_flesh>);
+lp28.addFluidOutput(<fluid:liquid_lp>*100);
+lp28.build();
+
+val lp29 = RecipeBuilder.newBuilder("lp29","lp_harvester",10);
+lp29.addItemInput(<contenttweaker:harbinger_flesh>);
+lp29.addFluidOutput(<fluid:liquid_lp>*150);
+lp29.build();
+
+
+val lp30 = RecipeBuilder.newBuilder("lp30","lp_harvester",10);
+lp30.addItemInput(<contenttweaker:harbinger_hungering_flesh>);
+lp30.addFluidOutput(<fluid:liquid_lp>*200);
+lp30.build();

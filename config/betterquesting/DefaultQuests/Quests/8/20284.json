@@ -31,7 +31,7 @@
           "id:8": "tconstruct:slime_congealed"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

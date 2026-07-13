@@ -25,8 +25,8 @@ portal.addItems([
   <contenttweaker:gallifrey_portal_block>
 ]);
 var tooltip = [
-  "This recipe spawns a portal while active.",
-  "To teleport, stand inside the portal."
+  "该配方在激活时会生成一个传送门。",
+  "站在传送门中以进行传送。"
 ] as string[];
 
 var wormholetaerrapiatta = RecipeBuilder.newBuilder("wormholetaerrapiatta","wormhole_field_generator",100);

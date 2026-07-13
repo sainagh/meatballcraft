@@ -242,7 +242,10 @@ recipes.addShapeless(<aoa3:creep_statue>,
 [<contenttweaker:boss_drop>, <aoa3:explosive_gems>, <aoa3:creep_altar>]);
 
 recipes.addShapeless(<aoa3:kror_statue>, 
-[<contenttweaker:boss_drop>, <aoa3:boulder_dash>, <aoa3:kror_altar>]);
+[<contenttweaker:boss_drop>, <aoa3:boulder_dash>, <aoa3:kror_altar>, <aoa3:charging_table>]);
+
+recipes.addShapeless(<contenttweaker:kror_sediment>, 
+[<contenttweaker:boss_drop>, <aoa3:boulder_dash>, <aoa3:kror_altar>, <aoa3:charging_table>]);
 
 recipes.addShapeless(<aoa3:voxxulon_statue>, 
 [<contenttweaker:boss_drop>, <aoa3:vile_stone>, <aoa3:voxxulon_altar>]);
@@ -362,7 +365,7 @@ recipes.addShapeless(<divinerpg:skythern_heart>,
 [<contenttweaker:boss_drop>, <divinerpg:apalachia_block>]);
 
 recipes.addShapeless(<contenttweaker:sigil_flame>, 
-[<contenttweaker:trader_drop>, <extrautils2:teleporter:1>]);
+[<contenttweaker:trader_drop>, <extrautils2:teleporter:1>, <contenttweaker:unfathomable_breaker>]);
 
 
 recipes.addShapeless(<contenttweaker:gem_of_the_sleeping_city>, 
@@ -859,6 +862,15 @@ recipes.addShapeless(<contenttweaker:energy_hive>,
 recipes.addShapeless(<contenttweaker:ineffable_light>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
 
+recipes.addShapeless(<contenttweaker:perfected_imbuement_essence>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
+recipes.addShapeless(<contenttweaker:kobblin_earth>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
+recipes.addShapeless(<contenttweaker:pale_ore>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
 recipes.addShapeless(<contenttweaker:stone_of_constraint>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
 
@@ -894,6 +906,25 @@ recipes.addShapeless(<contenttweaker:investiture_of_the_direwolf>,
 
 recipes.addShapeless(<contenttweaker:crying_obsidian_powder>, 
 [<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
+recipes.addShapeless(<contenttweaker:gear_of_worthiness>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
+recipes.addShapeless(<contenttweaker:puca_foot>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
+recipes.addShapeless(<contenttweaker:chu_ci_foot>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
+recipes.addShapeless(<contenttweaker:nanabozho_foot>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
+recipes.addShapeless(<contenttweaker:wenet_foot>, 
+[<contenttweaker:master_of_spellcraft>, <aoa3:gold_coin>, <thaumicaugmentation:gauntlet:1>, <projectex:matter:0>, <twilightforest:magic_beans>]);
+
+
+
+
 
 recipes.addShapeless(<avaritia:resource:0>, 
 [<contenttweaker:gamestage_recipe>, <contenttweaker:ancient_elven_knowledge>]);
@@ -1058,6 +1089,9 @@ recipes.addShapeless(<thebetweenlands:swamp_talisman:2>,
 recipes.addShapeless(<thebetweenlands:swamp_talisman:3>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
 recipes.addShapeless(<thebetweenlands:swamp_talisman:4>,
+[<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
+
+recipes.addShapeless(<iceandfire:stymphalian_bird_feather>,
 [<contenttweaker:dungeon_drop>, <contenttweaker:battle_tower>]);
 
 recipes.addShapeless(<integrateddynamics:menril_sapling>,
@@ -1967,10 +2001,98 @@ recipes.addShapeless(<contenttweaker:covetous_incubator>,
 [<contenttweaker:utopic_spires_special_drop>, <contenttweaker:miniature_white_hole>]);
 
 
+recipes.addShapeless(<aoa3:crystal_greatblade>, 
+[<contenttweaker:trader_drop>, <aoa3:crystevia_realmstone>]);
 
 
+recipes.addShapeless(<aoa3:lotto_totem>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<abyssalcraft:cthulhucoin>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<abyssalcraft:eldercoin>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<abyssalcraft:shubniggurathcoin>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<abyssalcraft:jzaharcoin>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<abyssalcraft:yogsothothcoin>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<abyssalcraft:hasturcoin>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<abyssalcraft:nyarlathotepcoin>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<abyssalcraft:azathothcoin>, 
+[<contenttweaker:found_in_villages>]);
+
+recipes.addShapeless(<gendustry:honey_drop:10>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:11>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:12>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:13>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:14>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:15>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:16>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:17>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:18>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:19>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:20>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:21>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:22>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:23>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:24>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<gendustry:honey_drop:25>, 
+[<contenttweaker:found_in_villages>]);
+
+recipes.addShapeless(<aoa3:holly_top_seeds>, 
+[<contenttweaker:found_in_villages>]);
+recipes.addShapeless(<aoa3:holly_top_petals>, 
+[<contenttweaker:found_in_villages>]);
+
+recipes.addShapeless(<minecraft:dye:0>, 
+[<contenttweaker:found_in_villages>]);
+
+recipes.addShapeless(<contenttweaker:foraging_loot_table>, 
+[<contenttweaker:foraging_loot_table>]);
 
 
+recipes.addShapeless(<aoa3:crystal_maul>, 
+[<contenttweaker:trader_drop>, <aoa3:crystevia_realmstone>]);
+
+
+recipes.addShapeless(<aoa3:vulcane_augment_power>, 
+[<contenttweaker:trader_drop>, <aoa3:immortallis_realmstone>]);
+recipes.addShapeless(<aoa3:vulcane_augment_battle>, 
+[<contenttweaker:trader_drop>, <aoa3:immortallis_realmstone>]);
+recipes.addShapeless(<aoa3:vulcane_augment_equality>, 
+[<contenttweaker:trader_drop>, <aoa3:immortallis_realmstone>]);
+recipes.addShapeless(<aoa3:vulcane_augment_fire>, 
+[<contenttweaker:trader_drop>, <aoa3:immortallis_realmstone>]);
+recipes.addShapeless(<aoa3:vulcane_augment_impairment>, 
+[<contenttweaker:trader_drop>, <aoa3:immortallis_realmstone>]);
+recipes.addShapeless(<aoa3:vulcane_augment_poison>, 
+[<contenttweaker:trader_drop>, <aoa3:immortallis_realmstone>]);
+recipes.addShapeless(<aoa3:vulcane_augment_wither>, 
+[<contenttweaker:trader_drop>, <aoa3:immortallis_realmstone>]);
+
+recipes.addShapeless(<aoa3:coralstorm_sword>, 
+[<contenttweaker:trader_drop>, <minecraft:sand>]);
+
+recipes.addShapeless(<contenttweaker:elusive_horn>,
+[<contenttweaker:boss_drop>, <aoa3:illusion_altar>, <aoa3:staring_eye>]);
 
 
 

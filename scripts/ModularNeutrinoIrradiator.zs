@@ -29,7 +29,7 @@ neutroniumcannon.build();
 
 val neutroniumcannonboom = RecipeBuilder.newBuilder("neutroniumcannonboom","neutronium_cannon",100);
 neutroniumcannonboom.addItemInput(<contenttweaker:self_confined_neutrino_plasma>);
-neutroniumcannonboom.addFluidOutput(<fluid:netrino_plasma>*10000);
+neutroniumcannonboom.addFluidOutput(<fluid:netrino_plasma>*200000);
 neutroniumcannonboom.build();
 
 val neutroniumbomb = RecipeBuilder.newBuilder("neutroniumbomb","neutronium_bombarder",100);

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o§c魔法精通§7§o标签页中有如何使用等价交换模组的相关信息！\n\n§f魔力似乎对炼金能量存在某种“记忆”，这意味着我能够随心所欲地复现所有已记录的物品。",
+      "desc:8": "§7§o恭喜，你解锁了EMC！如果你在了解这个模组方面需要帮助， §c魔法精通§7§o标签页中有如何使用等价交换的相关信息！\n\n§7§o如果你还没有背包的话，§c个人强化§7§o中列出了不少有用的背包。手提包就很不错，能够扩展你的物品栏！\n\n§f魔力似乎对炼金能量存在某种“记忆”，这意味着我能够随心所欲地复现所有已记录的物品。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "projectex:stone_table"
@@ -43,6 +43,28 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "enderutilities:handybag",
+          "tag:10": {
+            "UUID:10": {
+              "UUIDL:4": -4776776283553672310,
+              "UUIDM:4": 1209111965385507596
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 54,
+          "id:8": "enderutilities:enderpart"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

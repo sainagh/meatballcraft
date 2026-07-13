@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "使用奥法宝典可将绿宝石转化为附魔之瓶，太棒了！",
+      "desc:8": "§7§o使用奥法宝典可将绿宝石转化为附魔之瓶，太棒了！",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:experience_bottle"

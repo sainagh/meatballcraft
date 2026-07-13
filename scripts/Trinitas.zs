@@ -170,7 +170,7 @@ inffurncuendillar1.addItemOutput(<contenttweaker:cuendillar_catalyst_1>*8);
 inffurncuendillar1.build();
 
 val inffurncuendillar1a = RecipeBuilder.newBuilder("inffurncuendillar1a","infinity_furnace",20);
-inffurncuendillar1a.addFluidInput(<fluid:whisper_of_right_and_just_creation>*50);
+inffurncuendillar1a.addFluidInput(<fluid:whisper_of_right_and_just_creation>*2500);
 inffurncuendillar1a.addItemInput(<contenttweaker:cuendillar_catalyst_1>);
 inffurncuendillar1a.addItemInput(<contenttweaker:ascended_fluix_crystal>);
 inffurncuendillar1a.addItemInput(<contenttweaker:hungering_flesh_ingot>);
@@ -188,7 +188,7 @@ inffurncuendillar2.addItemOutput(<contenttweaker:cuendillar_catalyst_2>*8);
 inffurncuendillar2.build();
 
 val inffurncuendillar2a = RecipeBuilder.newBuilder("inffurncuendillar2a","infinity_furnace",20);
-inffurncuendillar2a.addFluidInput(<fluid:whisper_of_right_and_just_creation>*50);
+inffurncuendillar2a.addFluidInput(<fluid:whisper_of_right_and_just_creation>*2500);
 inffurncuendillar2a.addItemInput(<contenttweaker:cuendillar_catalyst_2>);
 inffurncuendillar2a.addItemInput(<contenttweaker:ascended_fluix_crystal>);
 inffurncuendillar2a.addItemInput(<contenttweaker:hungering_flesh_ingot>);
@@ -206,7 +206,7 @@ inffurncuendillar3.addItemOutput(<contenttweaker:cuendillar_catalyst_3>*8);
 inffurncuendillar3.build();
 
 val inffurncuendillar3a = RecipeBuilder.newBuilder("inffurncuendillar3a","infinity_furnace",20);
-inffurncuendillar3a.addFluidInput(<fluid:whisper_of_right_and_just_creation>*50);
+inffurncuendillar3a.addFluidInput(<fluid:whisper_of_right_and_just_creation>*2500);
 inffurncuendillar3a.addItemInput(<contenttweaker:cuendillar_catalyst_3>);
 inffurncuendillar3a.addItemInput(<contenttweaker:ascended_fluix_crystal>);
 inffurncuendillar3a.addItemInput(<contenttweaker:hungering_flesh_ingot>);

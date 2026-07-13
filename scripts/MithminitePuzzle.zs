@@ -59,3 +59,4 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thaumadditions:mithminite_i
 <contenttweaker:enhanced_chaos_shard>,
 <contenttweaker:enhanced_chaos_shard>]);
 
+

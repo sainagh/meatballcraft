@@ -986,3 +986,22 @@ recipes.addShaped(<tconstruct:ingots:6>*4,
 [<mysticalagriculture:alumite_essence>, <mysticalagriculture:alumite_essence>, <mysticalagriculture:alumite_essence>]]);
 
 
+
+//==================================================================
+// coke
+
+val oreblockcoke = <ore:blockCoalCoke>;
+oreblockcoke.add(<thermalfoundation:storage_resource:1>);
+oreblockcoke.add(<immersiveengineering:stone_decoration:3>);
+oreblockcoke.add(<railcraft:coke_block>);
+
+
+recipes.remove(<immersiveengineering:material:6>);
+
+
+
+
+
+
+
+

@@ -13,6 +13,39 @@
     }
   },
   "questID:3": 50132,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "natura:soups"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "natura:soups"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "natura:soups"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "natura:soups"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "natura:soups"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

@@ -60,3 +60,4 @@ mythreso10.addItemInput(<contenttweaker:matter_of_the_ages>);
 mythreso10.addItemInput(<minecraft:clay_ball>*400);
 mythreso10.addItemOutput(<tconstruct:materials:2>*400);
 mythreso10.build();
+

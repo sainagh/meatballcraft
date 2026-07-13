@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o若你执意要进行此事，我强烈建议你立即着手提升推演物质产量，并升级所有可优化的多方块结构与配方。",
+      "desc:8": "§7§o若你执意要进行此事，我强烈建议你立即着手提升探究物质产量，并升级所有可优化的多方块结构与配方。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "contenttweaker:echo_warren_stone"

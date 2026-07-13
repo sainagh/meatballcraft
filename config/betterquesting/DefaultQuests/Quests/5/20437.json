@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§o大部分生物均会掉落，就是可堆叠的物品形式的经验。",
+      "desc:8": "§7§o大部分生物均会掉落，就是可堆叠的物品形式的经验。\n\n任何刷怪场（从诅咒之土刷怪场开始）都会是游戏早期固化经验的良好来源。\n\n在第2章和第3章中，数据模型是获得大量经验的好方法。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "actuallyadditions:item_solidified_experience"

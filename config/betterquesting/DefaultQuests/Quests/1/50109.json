@@ -15,6 +15,38 @@
     }
   },
   "questID:3": 50109,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_aer"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_ignis"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_aqua"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_terra"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_ordo"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_perditio"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

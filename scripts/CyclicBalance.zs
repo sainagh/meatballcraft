@@ -93,3 +93,17 @@ recipes.addShaped(<contenttweaker:chorus_sprout>,
 [<contenttweaker:chorus_seedling>, <contenttweaker:chorus_seedling>, <contenttweaker:chorus_seedling>]]);
 
 
+
+
+recipes.remove(<cyclicmagic:shears_obsidian>);
+recipes.addShaped(<cyclicmagic:shears_obsidian>,
+[[<contenttweaker:crying_obsidian_powder>, <contenttweaker:crying_obsidian_powder>, <contenttweaker:crying_obsidian_powder>],
+[<contenttweaker:crying_obsidian_powder>, <minecraft:shears>, <contenttweaker:crying_obsidian_powder>],
+[<contenttweaker:crying_obsidian_powder>, <contenttweaker:crying_obsidian_powder>, <contenttweaker:crying_obsidian_powder>]]);
+
+
+recipes.remove(<cyclicmagic:ender_wool>);
+recipes.addShaped(<cyclicmagic:ender_wool>,
+[[<contenttweaker:rosidian_blend>, <thaumcraft:lamp_growth>, <contenttweaker:rosidian_blend>],
+[<mysticalagradditions:stuff:69>, <minecraft:shears>, <mysticalagradditions:stuff:69>],
+[<contenttweaker:rosidian_blend>, <projecte:item.pe_harvest_god>.reuse(), <contenttweaker:rosidian_blend>]]);

@@ -61,3 +61,4 @@ thaumictinkerer.research.ichorarmor.complete.text=It is indeed not a difficult p
 material.ichorium.name=Kamium
 fluid.molten_ichorium=Molten Kamium
 
+enchantment.thaumictinkerer.focusedstrikes.desc=Halfs the damage of your first hit on a mob, but buffs every hit on the same mob after that by 100% + (25% * (level-1)).

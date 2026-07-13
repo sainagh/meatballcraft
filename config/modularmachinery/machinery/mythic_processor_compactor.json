@@ -22,7 +22,7 @@
                 "multiplier": 4
             },
             {
-                "io": "input",
+                "io": "output",
                 "target": "modularmachinery:fluid",
                 "operation": 1,
                 "multiplier": 4
@@ -47,7 +47,7 @@
                 "multiplier": 16
             },
             {
-                "io": "input",
+                "io": "output",
                 "target": "modularmachinery:fluid",
                 "operation": 1,
                 "multiplier": 16
@@ -124,7 +124,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "generalized_input_item"
+                "mythic_processor_item_input"
             ]
         },
         {

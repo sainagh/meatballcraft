@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§o有EMC的辐射防护手段！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
@@ -15,6 +15,19 @@
     }
   },
   "questID:3": 2344,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 1,
+          "id:8": "minecraft:golden_apple"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

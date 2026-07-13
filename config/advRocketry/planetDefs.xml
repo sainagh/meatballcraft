@@ -36,6 +36,7 @@
             <orbitalDistance>800</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>10</orbitalPhi>
+            <generateGeodes>false</generateGeodes>
             <rotationalPeriod>30000</rotationalPeriod>
             <biomeIds>minecraft:mushroom_island</biomeIds>
         </planet>
@@ -47,6 +48,7 @@
             <orbitalDistance>900</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>5</orbitalPhi>
+            <generateGeodes>false</generateGeodes>
             <rotationalPeriod>60000</rotationalPeriod>
 			<fillerBlock>minecraft:stone</fillerBlock>
             <biomeIds>advancedrocketry:crystalchasms</biomeIds>
@@ -152,6 +154,8 @@
             <orbitalDistance>700</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>30</orbitalPhi>
+            <generateVolcanos>true</generateVolcanos>
+            <volcanoFrequencyMultiplier>0.2</volcanoFrequencyMultiplier>
             <rotationalPeriod>10000</rotationalPeriod>
             <biomeIds>advancedrocketry:volcanicbarren</biomeIds>
 			<planet name="奥迦斯" DIMID="161" customIcon="moon">
@@ -301,7 +305,7 @@
 			<artifact>contenttweaker:alkemia_artifact</artifact>
 		</planet>
     </star>
-    <star name="索莱" temp="105" x="20" y="-20" size="1.0" numPlanets="0" numGasGiants="0" blackHole="false">
+    <star name="独一" temp="105" x="20" y="-20" size="1.0" numPlanets="0" numGasGiants="0" blackHole="false">
 		<planet name="地平界" DIMID="180" customIcon="WaterWorld">
             <atmosphereDensity>100</atmosphereDensity>
             <fogColor>0.4,0.0,0.4</fogColor>

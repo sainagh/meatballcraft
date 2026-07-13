@@ -1,0 +1,356 @@
+{
+    "name": "compactmachines3:sacredcinders_lumber",
+    "target-item": "contenttweaker:sacred_cinders_lumber",
+    "target-meta": 1,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+  "input-types": {
+    "a": {
+      "id": "divinerpg:mortum_slab",
+      "meta": 1
+    },
+    "b": {
+      "id": "twilightforest:cinder_log",
+      "meta": 0
+    },
+    "c": {
+      "id": "contenttweaker:innerved_sky_stone",
+      "meta": 0
+    },
+    "d": {
+      "id": "modularmachinery:blockinputbus",
+      "meta": 0
+    },
+    "e": {
+      "id": "modularmachinery:sacred_cinders_apiary_controller",
+      "meta": 2
+    },
+    "f": {
+      "id": "divinerpg:mortum_slab",
+      "meta": 0
+    },
+    "g": {
+      "id": "divinerpg:mortum_planks",
+      "meta": 0
+    },
+    "h": {
+      "id": "aoa3:creep_grass",
+      "meta": 0
+    },
+    "i": {
+      "id": "aoa3:creeponia_grass",
+      "meta": 0
+    },
+    "j": {
+      "id": "aoa3:shyre_log",
+      "meta": 0
+    },
+    "k": {
+      "id": "botania:miniisland",
+      "meta": 0
+    },
+    "l": {
+      "id": "contenttweaker:sacred_cinders_lumber_apiary",
+      "meta": 0
+    },
+    "m": {
+      "id": "minecraft:dirt",
+      "meta": 0
+    },
+    "n": {
+      "id": "modularmachinery:blockoutputbus",
+      "meta": 0
+    },
+    "o": {
+      "id": "modularmachinery:blockfluidinputhatch",
+      "meta": 0
+    }
+  },
+  "input-nbt": {
+    "d:A": {
+      "nbt": "{inventory:{inSlots:[I;0],outSlots:[I;],miscSlots:[I;],inventoryArray:[{holderId:0,holderEmpty:1b}],sides:[I;0,1,2,3,4,5]},ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},casingColor:2305083,groupId:0,id:\"minecraft:tileiteminputbus\",isGroupInput:0b,busSize:0}"
+    },
+    "e:A": {
+      "nbt": "{rotation:2b,owner:\"8c381e15-592d-4003-ae11-6367e203127b\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},casingColor:2305083,id:\"minecraft:tilemachinecontroller\",items:{inSlots:[I;],outSlots:[I;],miscSlots:[I;0],inventoryArray:[{holderId:0,holderEmpty:1b}],sides:[I;0,1,2,3,4,5]},parentMachine:\"modularmachinery:sacred_cinders_apiary\",statusTag:{type:2b,message:\"craftcheck.failure.item.input\"},machine:\"modularmachinery:sacred_cinders_apiary\"}"
+    },
+    "k:A": {
+      "nbt": "{islandType:\"GRASS\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"botania:miniisland\"}"
+    },
+    "n:A": {
+      "nbt": "{inventory:{inSlots:[I;],outSlots:[I;0],miscSlots:[I;],inventoryArray:[{holderId:0,holderEmpty:1b}],sides:[I;0,1,2,3,4,5]},ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},casingColor:2305083,id:\"minecraft:tileitemoutputbus\",busSize:0}"
+    },
+    "o:A": {
+      "nbt": "{input:1b,ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},casingColor:2305083,groupId:0,id:\"minecraft:tilefluidinputhatch\",isGroupInput:0b,tank:{Empty:\"\"},size:0}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "j",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "c",
+        "d:A",
+        "c",
+        "b"
+      ],
+      [
+        "c",
+        "g",
+        "g",
+        "g",
+        "c"
+      ],
+      [
+        "c",
+        "g",
+        "g",
+        "g",
+        "c"
+      ],
+      [
+        "c",
+        "g",
+        "g",
+        "g",
+        "c"
+      ],
+      [
+        "b",
+        "c",
+        "c",
+        "c",
+        "b"
+      ]
+    ],
+    [
+      [
+        "b",
+        "c",
+        "_",
+        "c",
+        "b"
+      ],
+      [
+        "c",
+        "_",
+        "_",
+        "_",
+        "c"
+      ],
+      [
+        "_",
+        "_",
+        "k:A",
+        "_",
+        "_"
+      ],
+      [
+        "c",
+        "_",
+        "_",
+        "_",
+        "c"
+      ],
+      [
+        "b",
+        "c",
+        "_",
+        "c",
+        "b"
+      ]
+    ],
+    [
+      [
+        "b",
+        "_",
+        "_",
+        "_",
+        "b"
+      ],
+      [
+        "_",
+        "h",
+        "h",
+        "h",
+        "_"
+      ],
+      [
+        "_",
+        "h",
+        "l",
+        "h",
+        "_"
+      ],
+      [
+        "_",
+        "h",
+        "h",
+        "h",
+        "_"
+      ],
+      [
+        "b",
+        "_",
+        "_",
+        "_",
+        "b"
+      ]
+    ],
+    [
+      [
+        "b",
+        "c",
+        "_",
+        "c",
+        "b"
+      ],
+      [
+        "c",
+        "i",
+        "i",
+        "i",
+        "c"
+      ],
+      [
+        "_",
+        "i",
+        "m",
+        "i",
+        "_"
+      ],
+      [
+        "c",
+        "i",
+        "i",
+        "i",
+        "c"
+      ],
+      [
+        "b",
+        "c",
+        "_",
+        "c",
+        "b"
+      ]
+    ],
+    [
+      [
+        "b",
+        "c",
+        "e:A",
+        "c",
+        "b"
+      ],
+      [
+        "c",
+        "g",
+        "g",
+        "g",
+        "c"
+      ],
+      [
+        "c",
+        "g",
+        "g",
+        "g",
+        "c"
+      ],
+      [
+        "c",
+        "g",
+        "g",
+        "g",
+        "c"
+      ],
+      [
+        "b",
+        "o:A",
+        "c",
+        "n:A",
+        "b"
+      ]
+    ],
+    [
+      [
+        "f",
+        "_",
+        "_",
+        "_",
+        "f"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "f",
+        "_",
+        "_",
+        "_",
+        "f"
+      ]
+    ]
+  ]
+
+
+      
+}

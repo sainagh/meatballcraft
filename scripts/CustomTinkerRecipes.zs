@@ -37,6 +37,9 @@ mods.tconstruct.Casting.addTableRecipe(<materialpart:vibranium:ingot>, <tconstru
 
 mods.tconstruct.Casting.addTableRecipe(<materialpart:vibranium_alloy:ingot>, <tconstruct:cast_custom:0>, <fluid:molten_vibranium_alloy>, 144, false, 100);
 
+
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:spirit_of_worthiness>, <divinerpg:mortum_soul>, <fluid:whisper_of_worthiness>, 50, true, 100);
+
 recipes.addShapeless(<contenttweaker:vibranium_chunk>, 
 [<materialpart:vibranium:ingot>, <ore:dustPetrotheum>]);
 

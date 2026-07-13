@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    90131
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§o以下任务列出了能让线缆不那么乱成一团的工具。\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:network_tool"
+      },
+      "name:8": "网络管理"
+    }
+  },
+  "questID:3": 643950611,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -183,3 +183,4 @@ mythroll23.addItemInput(<techreborn:part:0>*12);
 mythroll23.addItemInput(<contenttweaker:pulsating_fluix_powder>*32);
 mythroll23.addItemOutput(<contenttweaker:fluix_flow_circuit>);
 mythroll23.build();
+

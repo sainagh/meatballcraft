@@ -167,3 +167,4 @@ recipes.addShaped(<deepmoblearning:data_model_beastsofmortum>.withTag({tier: 4, 
 [<gendustry:honey_comb:14018>, <deepmoblearning:data_model_beastsofmortum>, <gendustry:honey_comb:14018>],
 [<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
 
+

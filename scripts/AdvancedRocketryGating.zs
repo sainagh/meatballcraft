@@ -30,10 +30,11 @@ recipes.removeShaped(<advancedrocketry:structuretower>);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<advancedrocketry:structuretower>, 
 120000,
 <techreborn:plates:36>, 
-[<libvulpes:productrod:6>, <libvulpes:productrod:6>, <libvulpes:productrod:6>,
-<libvulpes:productrod:6>, <libvulpes:productrod:6>, <libvulpes:productrod:6>,
-<libvulpes:productrod:6>, <libvulpes:productrod:6>, <libvulpes:productrod:6>,
-<libvulpes:productrod:6>, <libvulpes:productrod:6>, <libvulpes:productrod:6>]);
+[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>,
+<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>,
+<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>,
+<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]);
+
 
 recipes.removeShapeless(<advancedrocketry:blastbrick>);
 

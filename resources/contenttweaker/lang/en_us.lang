@@ -922,8 +922,8 @@ fluid.potassium_41=Potassium 41
 tile.contenttweaker.valtellina_ore.name=Cosmic Gem Ore
 tile.contenttweaker.eternal_tulite.name=Eternal Tulite
 item.contenttweaker.horrific_callstone.name=Horrific Callstone
-item.contenttweaker.anadrominomicom.name=Anadrominomicom
-item.contenttweaker.skotaninomicom.name=Skotaninomicom
+item.contenttweaker.anadrominomicom.name=Anadrominomicon
+item.contenttweaker.skotaninomicom.name=Skotaninomicon
 item.contenttweaker.terran_summoning.name=Terran Summoning
 item.contenttweaker.immortallis_callstone.name=Immortallis Callstone
 item.contenttweaker.charger_ring.name=Charger Ring
@@ -1479,6 +1479,13 @@ item.contenttweaker.upper_fragment_cosmos.name=Upper Fragment of the Cosmos
 item.contenttweaker.constructor_summoner.name=Dungeon Constructor Summoner
 tile.contenttweaker.energy_hive.name=Energy Hive
 tile.contenttweaker.demon_stone.name=Demon Stone
+
+
+
+item.contenttweaker.enchdesc_vampirism.name=Enchantment Description: Vampirism
+item.contenttweaker.enchdesc_critical_boost.name=Enchantment Description: Critical Boost
+item.contenttweaker.enchdesc_focused_strike.name=Enchantment Description: Focused Strike
+
 item.contenttweaker.enchdesc_insight.name=Enchantment Description: Insight
 item.contenttweaker.enchdesc_punch.name=Enchantment Description: Punch
 item.contenttweaker.enchdesc_venom.name=Enchantment Description: Venom
@@ -4184,7 +4191,7 @@ fluid.harmonic_fluid_lattice=Harmonic Fluid Lattice
 fluid.flame_of_the_twilight_forest=Crepuscular Fire
 
 
-item.contenttweaker.master_spell_exanimis.name=EMaster Spell: Exanimis
+item.contenttweaker.master_spell_exanimis.name=Master Spell: Exanimis
 item.contenttweaker.spam_free_americium_241.name=Americium-241 Tips & Tricks
 item.contenttweaker.stargate_brick_base.name=Stargate Brick Base
 item.contenttweaker.mark_of_worthiness.name=Mark of Worthiness
@@ -4244,3 +4251,88 @@ tile.contenttweaker.unleashed_divine_ore.name=Unleashed Divine Ore
 
 item.contenttweaker.one_power_unleashed_emerald.name=One Power Unleashed Emerald
 item.contenttweaker.pure_fluix_geode.name=Pure Fluix Geode
+item.contenttweaker.supertranslucent_catalyzer.name=Supertranslucent Catalyzer
+
+
+
+fluid.molten_sodium_fluoride=Molten Sodium Fluoride
+fluid.distillate_of_terran_values=Distillate of Terran Values
+fluid.voice_of_the_testificates=Voice of the Testificates
+fluid.rarified_fluix_matter=Rarified Fluix Matter
+fluid.minted_fluix_matter=Minted Fluix Matter
+fluid.light_of_the_one_power=Light of the One Power
+fluid.fine_mineral_mix=Fine Mineral Mix
+fluid.matter_of_creative_inquiry=Matter of Creative Inquiry
+fluid.nethengeic_flame=Nethengeic Flame
+fluid.harmonic_temporal_lattice=Harmonic Temporal Lattice
+fluid.harmonic_draconian_lattice=Harmonic Draconian Lattice
+fluid.harmonic_divine_lattice=Harmonic Divine Lattice
+
+
+tile.contenttweaker.ore_of_the_projected_constellation.name=Ore of the Projected Constellation
+tile.contenttweaker.time_lords_core_of_definition.name=Time Lords Core of Definition
+tile.contenttweaker.sacred_cinders_lumber_apiary.name=Sacred Cinders Lumber Apiary
+tile.contenttweaker.litherite_ore.name=Litherite Ore
+tile.contenttweaker.erodium_ore.name=Erodium Ore
+tile.contenttweaker.kyronite_ore.name=Kyronite Ore
+tile.contenttweaker.pladium_ore.name=Pladium Ore
+tile.contenttweaker.ionite_ore.name=Ionite Ore
+tile.contenttweaker.aethium_ore.name=Aethium Ore
+tile.contenttweaker.lonsdaleite_ore.name=Lonsdaleite Ore
+tile.contenttweaker.sednanite_sheetmetal.name=Sednanite Sheetmetal
+tile.contenttweaker.perfected_imbuement_essence.name=Perfected Imbuement Essence
+tile.contenttweaker.pale_ore.name=Pale Ore
+tile.contenttweaker.totally_real_tardis.name=Totally Real TARDIS
+
+
+
+item.contenttweaker.crystevia_geode.name=Crystevia Geode
+item.contenttweaker.paradoxical_honey.name=Paradoxical Honey
+item.contenttweaker.paradoxical_stone.name=Paradoxical Stone
+item.contenttweaker.light_of_the_one_power.name=Light of the One Power
+item.contenttweaker.threefold_oath.name=Threefold Oath
+item.contenttweaker.screaming_slate.name=Screaming Slate
+item.contenttweaker.screaming_bloodstone.name=Screaming Bloodstone
+item.contenttweaker.screaming_fabric.name=Screaming Fabric
+item.contenttweaker.sacred_cinders_moss.name=Sacred Cinders Moss
+item.contenttweaker.pure_incense.name=Pure Incense
+item.contenttweaker.rod_of_valhalla.name=Rod of Valhalla
+item.contenttweaker.found_in_villages.name=Found in Villages
+item.contenttweaker.jei_info_box.name=JEI Info Box
+item.contenttweaker.kobblin_earth.name=Kobblin Earth
+item.contenttweaker.kobblin_seedling.name=Kobblin Seedling
+item.contenttweaker.balanced_plating.name=Balanced Plating
+item.contenttweaker.void_calling_fabrial.name=Void Calling Fabrial
+item.contenttweaker.sacred_cinders_lumber.name=Sacred Cinders Lumber Automation
+item.contenttweaker.perfected_imbuement_fabrial.name=Perfected Imbuement Fabrial
+item.contenttweaker.eye_of_dustopia.name=Eye of Dustopia
+item.contenttweaker.chu_ci_foot.name=Chu-Ci Foot
+item.contenttweaker.nanabozho_foot.name=Nanabozho Foot
+item.contenttweaker.wenet_foot.name=Wenet Foot
+item.contenttweaker.puca_foot.name=Puca Foot
+item.contenttweaker.gear_of_worthiness.name=Gear of Worthiness
+item.contenttweaker.spirit_of_worthiness.name=Spirit of Worthiness
+item.contenttweaker.voice_of_the_sunken_city.name=Voice of the Sunken City
+item.contenttweaker.spinoledon_crest.name=Spinoledon Crest
+item.contenttweaker.giant_leaf.name=Giant Leaf
+item.contenttweaker.webby_cap.name=Webby Cap
+item.contenttweaker.runic_shield.name=Runic Shield
+item.contenttweaker.abyssal_bone.name=Abyssal Bone
+item.contenttweaker.server_rack.name=Server Rack
+item.contenttweaker.chunky_sand_pile.name=Chunky Sand Pile
+item.contenttweaker.investiture_of_fenrir.name=Investiture of Fenrir
+item.contenttweaker.crimson_metal_ingot.name=Crimson Metal Ingot
+item.contenttweaker.fabrial_of_reclaimed_time.name=Fabrial of Reclaimed Time
+item.contenttweaker.tiny_brick_wall.name=Tiny Brick Wall
+item.contenttweaker.master_spell_herba.name=Master Spell: Herba
+item.contenttweaker.master_spell_alkimia.name=Master Spell: Alkimia
+item.contenttweaker.master_spell_volatus.name=Master Spell: Volatus
+item.contenttweaker.master_spell_vacuos.name=Master Spell: Vacuos
+item.contenttweaker.master_spell_spiritus.name=Master Spell: Spiritus
+
+item.contenttweaker.cleanroom_certificate.name=Cleanroom Certificate
+item.contenttweaker.emerald_compass.name=Emerald Compass
+
+
+
+

@@ -13,6 +13,22 @@
     }
   },
   "questID:3": 1371,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:chaos_wood"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:order_wood"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
@@ -36,7 +52,7 @@
           "id:8": "contenttweaker:puzzle_solution_recursion_dungeon"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

@@ -14,13 +14,25 @@
         "Count:3": 1,
         "id:8": "tconstruct:shard",
         "tag:10": {
-          "Material:8": "enderium_plustic"
+          "Material:8": "enderium"
         }
       },
       "name:8": "末影"
     }
   },
   "questID:3": 201165,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:gold_coin"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
@@ -29,7 +41,7 @@
           "Count:3": 1,
           "id:8": "tconstruct:shard",
           "tag:10": {
-            "Material:8": "enderium_plustic"
+            "Material:8": "enderium"
           }
         }
       },
