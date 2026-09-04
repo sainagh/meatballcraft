@@ -483,7 +483,7 @@
 <contenttweaker:cleanroom_certificate>.addTooltip(format.yellow("  Meatballcraft's performance can be improved using Java 25!"));
 <contenttweaker:cleanroom_certificate>.addTooltip(format.yellow("  Right click this item for a tutorial!"));
 <contenttweaker:cleanroom_certificate>.addTooltip(format.white("------------------"));
-<contenttweaker:cleanroom_certificate>.addTooltip(format.green("Thanks to NerdySPider for the texture!"));
+<contenttweaker:cleanroom_certificate>.addTooltip(format.green("Thanks to NerdySpider for the texture!"));
 
 
 
