@@ -96,7 +96,7 @@
             <skyColor>0.9,0.7,0.5</skyColor>
             <orbitalDistance>250</orbitalDistance>
 			<gas>hydrogen</gas>
-			<gas>fluid_methanol</gas>
+			<gas>methanol</gas>
 			<planet name="Europa" DIMID="151" customIcon="moon">
                 <isKnown>true</isKnown>
                 <fogColor>0.0,0.0,1.0</fogColor>
