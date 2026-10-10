@@ -184,7 +184,7 @@
 			<orbitalPhi>10</orbitalPhi>
             <rotationalPeriod>72000</rotationalPeriod>
 			<biomeIds>advancedrocketry:stormland</biomeIds>
-			<artifact>contenttweaker:tartarus_artifact</artifact>
+			<artifact>contenttweaker:unreachable</artifact>
 		</planet>
 		<planet name="Rhenia" DIMID="163" customIcon="MarsLike">
             <fogColor>0.1,0.0,0.0</fogColor>
